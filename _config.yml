@@ -14,16 +14,16 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Meow Studio # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Go Go Go # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://spacemanmeow.github.io/"
 
 github:
   username: github_username # change to your GitHub username
@@ -225,3 +225,17 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# ************************ 多语言配置 ************************
+# 支持的语言（按需添加，比如中/英/日/法）
+languages:
+  - en          # 英语
+  - zh-CN       # 简体中文
+  # - ja          # 日语
+  # - fr        # 法语（需要可取消注释）
+default_lang: zh-CN                  # 默认显示中文
+lang_names:
+  en: English
+  zh-CN: 简体中文
+  # ja: 日本語
+  # fr: Français
