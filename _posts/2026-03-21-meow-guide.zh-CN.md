@@ -5,6 +5,7 @@ date: 2026-03-21 10:00:00 +0800
 categories: [教程]
 tags: [记账，喵窝记账，记账应用，预算管理，财务管理，收入，支出，可爱记账APP，指纹锁记账]    
 lang: zh-CN
+author: <author_meow> 
 ---
 
 # 5 步轻松上手喵窝记账（Meow Money Manager）
@@ -35,6 +36,6 @@ lang: zh-CN
 ###步骤5：查看统计并保护隐私
 通过“统计”页面，你可以以饼图、柱状图或日历视图查看财务数据——可按日、按月、按年或自定义时间范围筛选。为保护数据安全，可在应用设置中开启指纹或密码锁。你还可以将数据备份到iCloud或WebDav，并以CSV文件格式导出报告。
 
-![image](/assets/meow/page_stats_1.jpg){: width="180" .normal } ![image](/assets/meow/page_stats_2.jpg){: width="180" .normal } ![image](/assets/meow/page_stats_3.jpg){: width="180" .normal } ![image](/assets/meow/page_password_setting.jpg){: width="180" .normal } ![image](/assets/meow/page_password_enter.jpg){: width="180" .normal }  
+![image](/assets/meow/page_stats_1.jpg){: width="180" .normal } ![image](/assets/meow/page_stats_3.jpg){: width="180" .normal } ![image](/assets/meow/page_password_setting.jpg){: width="180" .normal } ![image](/assets/meow/page_password_enter.jpg){: width="180" .normal }  
 
 就是这么简单！通过这5个步骤，你就能轻松跟踪财务状况，得益于喵窝记账的可爱设计和实用功能，记账过程也会变得充满乐趣。喵窝记账支持免费下载使用，若想解锁所有高级功能，可通过应用内会员订阅实现。今天就下载它，和混乱的记账说再见吧！
