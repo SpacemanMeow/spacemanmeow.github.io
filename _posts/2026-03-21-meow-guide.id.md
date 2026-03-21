@@ -8,7 +8,6 @@ lang: id
 author: author_meow_id
 ---
 
-# 5 Langkah Mudah Menggunakan Meow Money Manager
 Mengelola keuangan pribadi jadi menyenangkan dengan Meow Money Manager. Tampilan tema kucing yang lucu dan fitur lengkap membuat pencatatan keuangan mudah dan praktis. Ikuti 5 langkah ini.
 
 ![image](/assets/meow/page_home.jpg){: width="180" .normal } ![image](/assets/meow/page_dark_home.jpg){: width="180" .normal } ![image](/assets/meow/page_add_record.jpg){: width="180" .normal } ![image](/assets/meow/page_ledger_manage.jpg){: width="180" .normal }

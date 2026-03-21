@@ -8,7 +8,6 @@ lang: fr
 author: author_meow_id
 ---
 
-# 5 étapes faciles pour débuter avec Meow Money Manager
 Gérez vos finances simplement et agréablement. Meow Money Manager propose une interface chat mignonne et des outils performants. Suivez ces 5 étapes.
 
 ![image](/assets/meow/page_home.jpg){: width="180" .normal } ![image](/assets/meow/page_dark_home.jpg){: width="180" .normal } ![image](/assets/meow/page_add_record.jpg){: width="180" .normal } ![image](/assets/meow/page_ledger_manage.jpg){: width="180" .normal }

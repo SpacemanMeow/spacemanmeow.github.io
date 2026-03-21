@@ -8,7 +8,6 @@ lang: th
 author: author_meow_id
 ---
 
-# 5 ขั้นตอนง่าย เริ่มใช้ Meow Money Manager
 จัดการการเงินไม่น่าเบื่ออีกต่อไป Meow Money Manager มีธีมแมวน่ารักและฟังก์ชันครบ ทำให้บันทึกการเงินง่ายและสนุก เพียง 5 ขั้นตอนก็ใช้งานได้เลย
 
 ![image](/assets/meow/page_home.jpg){: width="180" .normal } ![image](/assets/meow/page_dark_home.jpg){: width="180" .normal } ![image](/assets/meow/page_add_record.jpg){: width="180" .normal } ![image](/assets/meow/page_ledger_manage.jpg){: width="180" .normal }

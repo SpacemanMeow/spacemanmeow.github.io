@@ -8,7 +8,6 @@ lang: pt
 author: author_meow_id
 ---
 
-# 5 Passos Simples para Começar a Usar o Meow Money Manager
 Gerir finanças pessoais pode ser divertido. O Meow Money Manager tem tema de gatos e funções poderosas. Siga estes 5 passos para controlar seu dinheiro.
 
 ![image](/assets/meow/page_home.jpg){: width="180" .normal } ![image](/assets/meow/page_dark_home.jpg){: width="180" .normal } ![image](/assets/meow/page_add_record.jpg){: width="180" .normal } ![image](/assets/meow/page_ledger_manage.jpg){: width="180" .normal }

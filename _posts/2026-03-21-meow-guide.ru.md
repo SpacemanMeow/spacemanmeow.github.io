@@ -8,7 +8,6 @@ lang: ru
 author: author_meow_id
 ---
 
-# 5 простых шагов для начала работы с Meow Money Manager
 Управление личными финансами не должно быть скучным. Meow Money Manager с милым кошачьим дизайном и мощными функциями делает учёт простым и увлекательным. Независимо от опыта, следуйте 5 шагам, чтобы контролировать свои финансы.
 
 ![image](/assets/meow/page_home.jpg){: width="180" .normal } ![image](/assets/meow/page_dark_home.jpg){: width="180" .normal } ![image](/assets/meow/page_add_record.jpg){: width="180" .normal } ![image](/assets/meow/page_ledger_manage.jpg){: width="180" .normal }

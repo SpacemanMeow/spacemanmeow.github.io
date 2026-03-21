@@ -8,7 +8,6 @@ lang: ja
 author: author_meow_id
 ---
 
-# 5ステップで簡単始める｜Meow Money Manager
 お金の管理を楽しく。猫テーマの可愛い画面と高機能で、誰でも簡単に家計簿をつけられます。5つの手順ですぐ使えます。
 
 ![image](/assets/meow/page_home.jpg){: width="180" .normal } ![image](/assets/meow/page_dark_home.jpg){: width="180" .normal } ![image](/assets/meow/page_add_record.jpg){: width="180" .normal } ![image](/assets/meow/page_ledger_manage.jpg){: width="180" .normal }

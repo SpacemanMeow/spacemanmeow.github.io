@@ -8,7 +8,6 @@ lang: ms
 author: author_meow_id
 ---
 
-# 5 Langkah Mudah Mulakan Meow Money Manager
 Urus kewangan peribadi dengan menyeronokkan. Meow Money Manager mempunyai antara muka tema kucing yang comel dan fungsi hebat. Ikuti 5 langkah mudah untuk menguasai aplikasi ini.
 
 ![image](/assets/meow/page_home.jpg){: width="180" .normal } ![image](/assets/meow/page_dark_home.jpg){: width="180" .normal } ![image](/assets/meow/page_add_record.jpg){: width="180" .normal } ![image](/assets/meow/page_ledger_manage.jpg){: width="180" .normal }

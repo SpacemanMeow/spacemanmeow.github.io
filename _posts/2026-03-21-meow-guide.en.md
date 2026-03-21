@@ -8,7 +8,6 @@ lang: en
 author: author_meow_id
 ---
 
-# 5 Easy Steps to Get Started with Meow Money Manager
 Managing personal finances doesn't have to be boring. With its cute cat-themed interface and powerful features, Meow Money Manager makes bookkeeping fun and simple. Whether you are new to budgeting or looking for an easier tool, follow these 5 simple steps to master Meow Money Manager and take control of your finances.
 
 ![image](/assets/meow/page_home.jpg){: width="180" .normal } ![image](/assets/meow/page_dark_home.jpg){: width="180" .normal } ![image](/assets/meow/page_add_record.jpg){: width="180" .normal } ![image](/assets/meow/page_ledger_manage.jpg){: width="180" .normal }
