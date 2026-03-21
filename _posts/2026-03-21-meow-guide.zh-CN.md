@@ -10,14 +10,7 @@ lang: zh-CN
 # 5 步轻松上手喵窝记账（Meow Money Manager）
 管理个人财务不必枯燥——喵窝记账（Meow Money Manager）凭借可爱的猫咪主题界面和强大的功能，让记账变成一件有趣又简单的事。无论你是记账新手，还是想寻找一款更易用的工具，只需遵循以下5个简单步骤，就能轻松掌握喵窝记账，掌控自己的财务状况。
 
-<!-- 核心写法：一行多图 + 靠左 + 自动换行 + 间距 -->
-<p style="text-align: left; margin: 0; padding: 0;">
-  <img src="../assets/meow/page_home.jpg" width="180" style="margin: 0 8px 8px 0; border: none; box-shadow: none;">
-  <img src="../assets/meow/page_dark_home.jpg" width="180" style="margin: 0 8px 8px 0; border: none; box-shadow: none;">
-  <img src="../assets/meow/page_add_record.jpg" width="180" style="margin: 0 8px 8px 0; border: none; box-shadow: none;">
-</p>
-
-<!-- <img src="../assets/meow/page_home.jpg" alt="" width="180" align="left"> <img src="../assets/meow/page_dark_home.jpg" alt="" width="180" align="left"> <img src="../assets/meow/page_add_record.jpg" alt="" width="180" align="left"> <img src="../assets/meow/page_ledger_manage.jpg" alt="" width="180" align="left"> <img src="../assets/meow/page_stats_1.jpg" alt="" width="180" align="left"> -->
+<img src="../assets/meow/page_home.jpg" alt="" width="180" align="left"> <img src="../assets/meow/page_dark_home.jpg" alt="" width="180" align="left"> <img src="../assets/meow/page_add_record.jpg" alt="" width="180" align="left"> <img src="../assets/meow/page_ledger_manage.jpg" alt="" width="180" align="left"> <img src="../assets/meow/page_stats_1.jpg" alt="" width="180" align="left">
 
 ### 步骤1：下载并安装喵窝记账
 首先，从[Google Play 下载应用](https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow)或者从[App Store 下载应用](https://apps.apple.com/us/app/meow-money-manager/id1528852284)下载应用。它同时支持安卓和iOS系统，你可以在任意设备上使用。
