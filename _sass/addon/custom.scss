@@ -1,0 +1,15 @@
+// 覆盖 Chirpy 主题默认的图片居中样式
+.post-content .img-caption img {
+  float: left !important;
+  margin-right: 1rem !important;
+  margin-bottom: 0.5rem !important;
+  display: inline-block !important;
+  text-align: left !important;
+}
+
+// 多张图片横向排列时清除浮动
+.img-left-group::after {
+  content: "";
+  display: block;
+  clear: both;
+}
