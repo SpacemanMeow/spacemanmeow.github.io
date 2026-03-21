@@ -5,7 +5,7 @@ date: 2026-03-21 10:00:00 +0800
 categories: [Tutorial]
 tags: [contabilidad, Meow Money Manager, app financiera, gestión de presupuesto, finanzas personales, ingresos, gastos, app linda, bloqueo por huella dactilar]
 lang: es
-author: <author_meow> 
+author: author_meow_id
 ---
 
 # 5 Pasos Fáciles para Empezar con Meow Money Manager

@@ -5,7 +5,7 @@ date: 2026-03-21 10:00:00 +0800
 categories: [教程]
 tags: [记账，喵窝记账，记账应用，预算管理，财务管理，收入，支出，可爱记账APP，指纹锁记账]    
 lang: zh-CN
-author: <author_meow> 
+author: author_meow_id
 ---
 
 # 5 步轻松上手喵窝记账（Meow Money Manager）

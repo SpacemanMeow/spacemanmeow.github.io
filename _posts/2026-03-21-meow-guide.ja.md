@@ -5,7 +5,7 @@ date: 2026-03-21 10:00:00 +0800
 categories: [使い方]
 tags: [家計簿, Meow Money Manager, 家計簿アプリ, 予算管理, 資産管理, 収入, 支出, かわいい家計簿, 指紋ロック]
 lang: ja
-author: <author_meow> 
+author: author_meow_id
 ---
 
 # 5ステップで簡単始める｜Meow Money Manager

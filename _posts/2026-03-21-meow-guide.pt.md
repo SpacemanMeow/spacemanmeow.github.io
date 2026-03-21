@@ -5,7 +5,7 @@ date: 2026-03-21 10:00:00 +0800
 categories: [Tutorial]
 tags: [contabilidade, Meow Money Manager, app financeiro, gestão de orçamento, finanças pessoais, receitas, despesas, app fofo, bloqueio por impressão digital]
 lang: pt
-author: <author_meow> 
+author: author_meow_id
 ---
 
 # 5 Passos Simples para Começar a Usar o Meow Money Manager

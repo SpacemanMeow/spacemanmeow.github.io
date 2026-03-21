@@ -5,7 +5,7 @@ date: 2026-03-21 10:00:00 +0800
 categories: [บทช่วยสอน]
 tags: [บันทึกรายรับรายจ่าย, Meow Money Manager, แอปจัดการเงิน, จัดการงบประมาณ, การเงินส่วนตัว, รายได้, รายจ่าย, แอพน่ารัก, ล็อคลายนิ้วมือ]
 lang: th
-author: <author_meow> 
+author: author_meow_id
 ---
 
 # 5 ขั้นตอนง่าย เริ่มใช้ Meow Money Manager

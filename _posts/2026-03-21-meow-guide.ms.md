@@ -5,7 +5,7 @@ date: 2026-03-21 10:00:00 +0800
 categories: [Tutorial]
 tags: [perakaunan, Meow Money Manager, aplikasi kewangan, pengurusan belanjawan, pengurusan kewangan, pendapatan, perbelanjaan, aplikasi comel, kunci cap jari]
 lang: ms
-author: <author_meow> 
+author: author_meow_id
 ---
 
 # 5 Langkah Mudah Mulakan Meow Money Manager

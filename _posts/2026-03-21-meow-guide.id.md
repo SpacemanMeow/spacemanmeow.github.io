@@ -5,7 +5,7 @@ date: 2026-03-21 10:00:00 +0800
 categories: [Tutorial]
 tags: [pembukuan, Meow Money Manager, aplikasi keuangan, manajemen anggaran, manajemen keuangan, pendapatan, pengeluaran, aplikasi lucu, kunci sidik jari]
 lang: id
-author: <author_meow> 
+author: author_meow_id
 ---
 
 # 5 Langkah Mudah Menggunakan Meow Money Manager

@@ -5,7 +5,7 @@ date: 2026-03-21 10:00:00 +0800
 categories: [Tutorial]
 tags: [Bookkeeping, Meow Money Manager, Budget App, Budget Management, Financial Management, Income, Expense, Cute Finance App, Fingerprint Lock Bookkeeping]
 lang: en
-author: <author_meow>   
+author: author_meow_id
 ---
 
 # 5 Easy Steps to Get Started with Meow Money Manager

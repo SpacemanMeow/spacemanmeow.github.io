@@ -5,7 +5,7 @@ date: 2026-03-21 10:00:00 +0800
 categories: [Tutoriel]
 tags: [comptabilité, Meow Money Manager, appli financière, gestion budgétaire, finances personnelles, revenus, dépenses, appli mignonne, verrouillage empreinte digitale]
 lang: fr
-author: <author_meow> 
+author: author_meow_id
 ---
 
 # 5 étapes faciles pour débuter avec Meow Money Manager
