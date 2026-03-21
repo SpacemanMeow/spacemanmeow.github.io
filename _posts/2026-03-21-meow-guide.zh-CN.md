@@ -2,13 +2,12 @@
 layout: post
 title: "5 步轻松上手喵窝记账（Meow Money Manager）"
 date: 2026-03-21 10:00:00 +0800
-categories: [应用推荐]
+categories: [教程]
 tags: [记账，喵窝记账，记账应用，预算管理，财务管理，收入，支出，可爱记账APP，指纹锁记账]    
 lang: zh-CN
 author: author_meow_id
 ---
 
-# 5 步轻松上手喵窝记账（Meow Money Manager）
 管理个人财务不必枯燥——喵窝记账（Meow Money Manager）凭借可爱的猫咪主题界面和强大的功能，让记账变成一件有趣又简单的事。无论你是记账新手，还是想寻找一款更易用的工具，只需遵循以下5个简单步骤，就能轻松掌握喵窝记账，掌控自己的财务状况。
 
 ![image](/assets/meow/page_home.jpg){: width="180" .normal } ![image](/assets/meow/page_dark_home.jpg){: width="180" .normal } ![image](/assets/meow/page_add_record.jpg){: width="180" .normal } ![image](/assets/meow/page_ledger_manage.jpg){: width="180" .normal }  
