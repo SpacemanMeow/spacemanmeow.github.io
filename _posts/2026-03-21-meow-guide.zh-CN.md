@@ -12,9 +12,9 @@ lang: zh-CN
 
 <!-- 核心写法：一行多图 + 靠左 + 自动换行 + 间距 -->
 <p style="text-align: left; margin: 0; padding: 0;">
-  <img src="/assets/meow/page_home.jpg" width="180" style="margin: 0 8px 8px 0; border: none; box-shadow: none;">
-  <img src="/assets/meow/page_dark_home.jpg" width="180" style="margin: 0 8px 8px 0; border: none; box-shadow: none;">
-  <img src="/assets/meow/page_add_record.jpg" width="180" style="margin: 0 8px 8px 0; border: none; box-shadow: none;">
+  <img src="../assets/meow/page_home.jpg" width="180" style="margin: 0 8px 8px 0; border: none; box-shadow: none;">
+  <img src="../assets/meow/page_dark_home.jpg" width="180" style="margin: 0 8px 8px 0; border: none; box-shadow: none;">
+  <img src="../assets/meow/page_add_record.jpg" width="180" style="margin: 0 8px 8px 0; border: none; box-shadow: none;">
 </p>
 
 <!-- <img src="../assets/meow/page_home.jpg" alt="" width="180" align="left"> <img src="../assets/meow/page_dark_home.jpg" alt="" width="180" align="left"> <img src="../assets/meow/page_add_record.jpg" alt="" width="180" align="left"> <img src="../assets/meow/page_ledger_manage.jpg" alt="" width="180" align="left"> <img src="../assets/meow/page_stats_1.jpg" alt="" width="180" align="left"> -->
