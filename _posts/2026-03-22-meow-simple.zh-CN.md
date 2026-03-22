@@ -3,7 +3,7 @@ layout: post
 title: "喵窝记账——可爱与实用并存的全能记账工具"
 date: 2026-03-22 10:00:00 +0800
 categories: [应用推荐]
-tags: [喵窝记账，可爱记账APP，全能记账工具，预算管理，隐私保护，多账本，数据备份]    
+tags: [喵窝记账, 可爱记账APP, 全能算管理, 隐私保护, 多账本, 数据备份]
 lang: zh-CN
 author: author_meow_id
 ---

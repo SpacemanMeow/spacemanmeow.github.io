@@ -38,23 +38,23 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: SpacemanMeow
+  email: spaceman.app.studio@gmail.com  # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://twitter.com/SpacemanMeow # change to your Twitter homepage
+    - https://github.com/SpacemanMeow # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
-  bing: # fill in your Bing verification code
+  google: MvOa_RCgbYDbkyWz1nce7QzlFS30B4RYjBNLI43eHjU
+  bing: 3696BDF54B98CDFFA525A706AC915374
   alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
+  yandex: 7b7f2662239dd86d
   baidu: # fill in your Baidu verification code
   facebook: # fill in your Facebook verification code
 
