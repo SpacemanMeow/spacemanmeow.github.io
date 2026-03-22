@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Perbandingan Aplikasi Pelacakan Anggaran Terbaik 2026 - Mengapa Meow Money Manager Menonjol?"
-date: 2026-03-21 10:00:00 +0800
+date: 2026-03-22 10:00:00 +0800
 categories: [Rekomendasi Aplikasi]
 tags: [Meow Money Manager, Aplikasi Pelacakan Anggaran Terbaik 2026, Perbandingan Aplikasi Pembukuan, Pelacakan Pengeluaran Teratas, Aplikasi Anggaran Lucu, Kunci Sidik Jari, Beberapa Buku Besar, Cadangan Data]
 lang: id

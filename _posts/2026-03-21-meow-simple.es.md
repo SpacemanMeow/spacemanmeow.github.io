@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meow Money Manager - Herramienta de Contabilidad Todo en Uno que es Linda y Práctica"
-date: 2026-03-21 10:00:00 +0800
+date: 2026-03-22 10:00:00 +0800
 categories: [Recomendación de Aplicación]
 tags: [Meow Money Manager, Aplicación de Contabilidad Linda, Herramienta de Contabilidad Todo en Uno, Gestión de Presupuesto, Protección de Privacidad, Varios Libros Mayores, Respaldo de Datos]
 lang: es

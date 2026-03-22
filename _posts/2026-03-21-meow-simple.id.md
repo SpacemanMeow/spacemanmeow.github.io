@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meow Money Manager - Alat Pembukuan Serba Ada yang Lucu dan Praktis"
-date: 2026-03-21 10:00:00 +0800
+date: 2026-03-22 10:00:00 +0800
 categories: [Rekomendasi Aplikasi]
 tags: [Meow Money Manager, Aplikasi Pembukuan Lucu, Alat Pembukuan Serba Ada, Manajemen Anggaran, Perlindungan Privasi, Beberapa Buku Besar, Cadangan Data]
 lang: id

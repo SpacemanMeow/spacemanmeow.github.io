@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meow Money Manager - Cute and Practical All-in-One Bookkeeping Tool"
-date: 2026-03-21 10:00:00 +0800
+date: 2026-03-22 10:00:00 +0800
 categories: [App Recommendation]
 tags: [Meow Money Manager, Cute Bookkeeping APP, All-in-One Bookkeeping Tool, Budget Management, Privacy Protection, Multiple Ledgers, Data Backup]
 lang: en
