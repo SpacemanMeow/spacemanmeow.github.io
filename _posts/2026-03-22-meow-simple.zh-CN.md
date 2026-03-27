@@ -10,7 +10,7 @@ author: author_meow_id
 
 不想花时间研究复杂的记账流程？想要一款既可爱又实用的记账APP？喵窝记账（Meow Money Manager）来了——以猫咪主题为亮点，集所有核心记账功能于一体，新手也能快速上手，让财务管理变得轻松又治愈。
 
-![image](/assets/meow/page_home.jpg){: width="180" .normal } ![image](/assets/meow/page_dark_home.jpg){: width="180" .normal } ![image](/assets/meow/page_add_record.jpg){: width="180" .normal } ![image](/assets/meow/page_ledger_manage.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_home.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_dark_home.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_add_record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_ledger_manage.jpg){: width="180" .normal }
 
 ✨ 核心亮点，一眼心动：
 
@@ -21,6 +21,6 @@ author: author_meow_id
 - 数据清晰，便捷管理：饼图、柱状图可视化收支，支持CSV导出、自动备份，长期财务规划更省心。
 - 免费下载，会员解锁增值服务：支持免费下载使用，应用内有广告；开通会员订阅可移除广告、解锁所有高级功能，按需选择更灵活。
 
-![image](/assets/meow/page_assets_1.jpg){: width="180" .normal } ![image](/assets/meow/page_budget.jpg){: width="180" .normal } ![image](/assets/meow/page_password_setting.jpg){: width="180" .normal } ![image](/assets/meow/page_stats_1.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_assets_1.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_budget.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_password_setting.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_stats_1.jpg){: width="180" .normal }
 
 不用再在**可爱**和**实用**之间做选择，喵窝记账兼顾两者，让你既能享受治愈的记账过程，又能轻松掌控财务状况。无论是学生党、上班族，还是家庭用户，都能找到适合自己的记账方式。立即下载喵窝记账，开启轻松记账之旅[Google Play 下载](https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow)或者[App Store 下载](https://apps.apple.com/us/app/meow-money-manager/id1528852284)均可获取！

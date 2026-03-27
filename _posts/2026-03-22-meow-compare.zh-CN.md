@@ -14,9 +14,9 @@ author: author_meow_id
 2. Money Manager: Expense Tracker：操作简单易上手，适合记账新手，支持收支分类、预算提醒和数据备份功能，界面简洁直观，但应用内有广告，不支持深色模式和指纹锁，隐私保护功能较弱，高级功能需付费开启，无多账本管理。
 3. Money manager & expenses：侧重基础财务管理，支持收支记录、资产跟踪和简单统计，占用内存小、运行流畅，适合低配置设备使用，但分类图标单调、设计感不足，不支持CSV导出和云端备份，长期管理数据不便，无多语言支持，仅适配单一语言用户。
 4. Money Lover - Money Manager：功能全面，支持收支跟踪、预算管理、资产统计、多账本和多语言，图表统计功能丰富，可满足进阶记账需求，但操作相对繁琐，对普通新手不够友好，部分核心功能（如多账本高级设置）需付费解锁，应用内有少量广告。
-5. QianJi（记账）：适配中文用户使用习惯，界面简洁、操作流畅，支持收支记录、预算管理、数据备份和CSV导出，隐私保护功能完善，核心功能免费，无广告干扰，但设计风格单调、缺乏个性化，不支持多语言，自定义选项较少，难以满足国际用户和追求颜值的用户需求。
+5. QianJi：适配中文用户使用习惯，界面简洁、操作流畅，支持收支记录、预算管理、数据备份和CSV导出，隐私保护功能完善，核心功能免费，无广告干扰，但设计风格单调、缺乏个性化，不支持多语言，自定义选项较少，难以满足国际用户和追求颜值的用户需求。
 
-![image](/assets/meow/page_app_money_budget.jpg){: width="160" .normal } ![image](/assets/meow/page_app_money_lover.jpg){: width="160" .normal } ![image](/assets/meow/page_app_money_manager_1.jpg){: width="160" .normal } ![image](/assets/meow/page_app_qianji.jpg){: width="160" .normal } ![image](/assets/meow/page_app_money_manager_2.jpg){: width="160" .normal }   
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_app_money_budget.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_app_money_lover.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_app_money_manager_1.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_app_qianji.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_app_money_manager_2.jpg){: width="160" .normal }   
 
 除了以上5款APP，喵窝记账（Meow Money Manager）也是当下热门的选择，我们结合其功能特点，客观分析它的优势与不足，供你综合考量：
 
@@ -26,7 +26,7 @@ author: author_meow_id
 
 - 适配人群：适合喜欢可爱设计、追求记账趣味性，同时需要基础到中级记账功能的用户，无论是学生党、上班族，还是有多语言使用需求的用户，都能较好适配；不适合追求完全无广告、无需订阅的用户。
 
-![image](/assets/meow/page_home.jpg){: width="160" .normal } ![image](/assets/meow/page_dark_home.jpg){: width="160" .normal } ![image](/assets/meow/page_add_record.jpg){: width="160" .normal } ![image](/assets/meow/page_ledger_manage.jpg){: width="160" .normal } ![image](/assets/meow/page_record_type_manage.jpg){: width="160" .normal }  
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_home.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_dark_home.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_add_record.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_ledger_manage.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_record_type_manage.jpg){: width="160" .normal }  
 
 说到底，没有绝对“最好”的预算跟踪APP，只有最适合自己的那一款。每款APP都有其优势与不足：追求简洁基础、无广告，可优先考虑QianJi；需要全面进阶功能，可选择Money Lover；喜欢可爱设计、兼顾实用性，且能接受应用内广告或会员订阅，喵窝记账会是不错的选择。
 

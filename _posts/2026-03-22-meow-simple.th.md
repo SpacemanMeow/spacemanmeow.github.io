@@ -10,7 +10,7 @@ author: author_meow_id
 
 ไม่อยากเสียเวลาเรียนรู้กระบวนการบันทึกรายรับรายจ่ายที่ซับซ้อน? ต้องการแอปบันทึกรายรับรายจ่ายที่ทั้งน่ารักและใช้งานได้จริง? Meow Money Manager มาแล้ว - ด้วยธีมแมว รวมฟีเจอร์หลักทั้งหมดของการบันทึกรายรับรายจ่ายไว้ในที่เดียว ผู้เริ่มต้นสามารถเริ่มต้นได้อย่างรวดเร็ว ทำให้การจัดการการเงินง่ายและสนุกสนาน
 
-![image](/assets/meow/page_home.jpg){: width="180" .normal } ![image](/assets/meow/page_dark_home.jpg){: width="180" .normal } ![image](/assets/meow/page_add_record.jpg){: width="180" .normal } ![image](/assets/meow/page_ledger_manage.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_home.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_dark_home.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_add_record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_ledger_manage.jpg){: width="180" .normal }
 
 ✨ จุดเด่นหลัก รักตั้งแต่แรกเห็น:
 
@@ -21,6 +21,6 @@ author: author_meow_id
 - ข้อมูลชัดเจน การจัดการสะดวก: แผนภูมิวงกลม แผนภูมิแท่งสำหรับแสดงภาพรายรับ/รายจ่าย รองรับการส่งออก CSV สำรองข้อมูลอัตโนมัติ การวางแผนการเงินระยะยาวไร้กังวล
 - ดาวน์โหลดฟรี สมัครสมาชิกปลดล็อคบริการเสริม: รองรับการดาวน์โหลดและใช้งานฟรี มีโฆษณาในแอป สมัครสมาชิกเพื่อลบโฆษณา ปลดล็อคฟีเจอร์ขั้นสูงทั้งหมด ตัวเลือกที่ยืดหยุ่นตามความต้องการ
 
-![image](/assets/meow/page_assets_1.jpg){: width="180" .normal } ![image](/assets/meow/page_budget.jpg){: width="180" .normal } ![image](/assets/meow/page_password_setting.jpg){: width="180" .normal } ![image](/assets/meow/page_stats_1.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_assets_1.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_budget.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_password_setting.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_stats_1.jpg){: width="180" .normal }
 
 ไม่ต้องเลือกระหว่าง **น่ารัก** และ **ใช้งานได้จริง** อีกต่อไป Meow Money Manager มีทั้งสองอย่าง ให้คุณเพลิดเพลินกับกระบวนการบันทึกรายรับรายจ่ายที่สนุกสนาน ควบคู่ไปกับการควบคุมสถานการณ์ทางการเงินได้อย่างง่ายดาย ไม่ว่าจะเป็นนักเรียน พนักงานออฟฟิศ หรือผู้ใช้ครอบครัว ทุกคนสามารถหาวิธีบันทึกรายรับรายจ่ายที่เหมาะกับตนเองได้ ดาวน์โหลด Meow Money Manager ตอนนี้และเริ่มต้นการเดินทางบันทึกรายรับรายจ่ายที่ง่ายดายของคุณ มีให้ดาวน์โหลดบน [Google Play](https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow) หรือ [App Store](https://apps.apple.com/us/app/meow-money-manager/id1528852284)!
