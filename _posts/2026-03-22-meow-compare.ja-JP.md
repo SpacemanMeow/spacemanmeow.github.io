@@ -20,7 +20,7 @@ author: author_meow_id
 
 5. QianJi（家計簿）：中国のユーザーの習慣に対応、清潔なインターフェース、スムーズな操作。収入/支出の記録、予算管理、データバックアップ、CSVエクスポートをサポート。プライバシー保護機能は完全です。コア機能は無料、広告の干渉はありません。ただし、デザインスタイルは単調で個性が欠けています。多言語をサポートしていません。カスタマイズオプションが少なく、国際ユーザーと美しさを追求するユーザーのニーズを満たすのが難しいです。
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_app_money_budget.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_app_money_lover.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_app_money_manager_1.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_app_qianji.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_app_money_manager_2.jpg){: width="160" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/other_app_money_budget.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/other_app_money_lover.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/other_app_money_manager_1.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/other_app_qianji.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/other_app_money_manager_2.jpg){: width="160" .normal }
 
 上記の5つのアプリに加えて、Meow Money Managerも人気のある選択肢です。私たちはその機能に基づいて客観的に長所と短所を分析し、包括的な検討のために提供しました：
 
@@ -30,7 +30,7 @@ author: author_meow_id
 
 - 適合：可愛いデザインが好き、家計簿の楽しさを追求し、基本的から中級の家計簿機能が必要なユーザーに適しています。学生、オフィスワーカー、多言語ニーズのあるユーザーなど、うまく適応できます。完全に広告なし、サブスクリプションなしを追求するユーザーには適していません。
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_home.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_dark_home.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_add_record.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_ledger_manage.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/page_record_type_manage.jpg){: width="160" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/dark_record.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_manage.jpg){: width="160" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/category_manager.jpg){: width="160" .normal }
 
 結局のところ、絶対に「最高」の予算追跡アプリはなく、自分に最も合ったものだけがあります。各アプリには長所と短所があります：シンプルさ、基本機能、広告なしを追求する場合、QianJiを優先できます。包括的な高度な機能が必要な場合、Money Loverを選択できます。可愛いデザインが好き、実用性をバランスし、アプリ内広告またはメンバーシップサブスクリプションを受け入れられる場合、Meow Money Managerは良い選択になります。
 
