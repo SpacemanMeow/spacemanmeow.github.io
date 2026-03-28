@@ -76,12 +76,36 @@ def compress_image_sips(image_path, quality=85):
         original_size = get_file_size(image_path)
         img_path_str = str(image_path)
         
-        # Skip PNG files - they don't benefit from JPEG compression
+        # Convert PNG to JPEG, then compress
         if image_path.suffix.lower() == '.png':
-            # Just update cache for PNG files
-            return original_size, original_size, True
+            # Create output path with .jpg extension
+            jpg_path = str(image_path.with_suffix('.jpg'))
+            
+            # Step 1: Convert PNG to JPEG using sips
+            convert_cmd = [
+                'sips',
+                '-s', 'format', 'jpeg',
+                '-s', 'formatOptions', str(quality),
+                img_path_str,
+                '--out', jpg_path
+            ]
+            
+            result = subprocess.run(convert_cmd, capture_output=True, text=True)
+            
+            if result.returncode != 0:
+                print(f"  Error converting PNG to JPEG: {result.stderr}")
+                return original_size, original_size, False
+            
+            # Step 2: Remove original PNG file
+            os.remove(img_path_str)
+            
+            # Step 3: Get compressed JPEG size
+            compressed_size = get_file_size(jpg_path)
+            
+            print(f"  Converted PNG → JPEG")
+            return original_size, compressed_size, True
         
-        # Use sips to compress JPEG
+        # Compress existing JPEG
         cmd = [
             'sips',
             '-s', 'formatOptions', str(quality),
@@ -113,7 +137,11 @@ def find_all_images(assets_dir):
         image_files.extend(assets_path.rglob(f'*{ext}'))
         image_files.extend(assets_path.rglob(f'*{ext.upper()}'))
     
-    return sorted(image_files)
+    # Filter out .jpg files that have corresponding .png (will be converted)
+    png_files = {img.with_suffix('.jpg') for img in image_files if img.suffix.lower() == '.png'}
+    filtered_images = [img for img in image_files if img not in png_files or img.suffix.lower() != '.jpg']
+    
+    return sorted(filtered_images)
 
 def main():
     """Main function to compress all images in assets directory"""
@@ -173,8 +201,13 @@ def main():
             total_original += original_size
             total_compressed += compressed_size
             
-            # Update cache with current modification time
-            cache[str(img_path)] = get_file_mtime(img_path)
+            # Update cache - use JPG path for converted files
+            cache_key = str(img_path)
+            if img_path.suffix.lower() == '.png':
+                # PNG was converted to JPG, cache the JPG path
+                cache_key = str(img_path.with_suffix('.jpg'))
+            
+            cache[cache_key] = get_file_mtime(Path(cache_key))
             
             reduction = ((original_size - compressed_size) / original_size * 100) if original_size > 0 else 0
             
