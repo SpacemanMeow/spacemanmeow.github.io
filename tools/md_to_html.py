@@ -333,7 +333,7 @@ def markdown_to_html(body, metadata):
     # Convert ordered lists
     html = re.sub(r'^\d+\. (.+)$', r'<li>\1</li>', html, flags=re.MULTILINE)
     
-    # Wrap lists
+    # Wrap lists - improved logic to handle gaps between list items
     lines = html.split('\n')
     result = []
     in_ul = False
@@ -366,6 +366,21 @@ def markdown_to_html(body, metadata):
                 in_ul = True
             result.append(line)
         else:
+            # Check if this is an empty line or just whitespace between list items
+            is_empty_or_whitespace = line.strip() == '' or re.match(r'^<p></p>$', line)
+            
+            # Don't close list tags if this is just whitespace between list items
+            if is_empty_or_whitespace:
+                # Look ahead to see if next line is a list item
+                next_li_index = i + 1
+                while next_li_index < len(lines) and lines[next_li_index].strip() == '':
+                    next_li_index += 1
+                
+                if next_li_index < len(lines) and lines[next_li_index].startswith('<li>'):
+                    # This is just a gap between list items, keep the list open
+                    result.append(line)
+                    continue
+            
             if in_ul:
                 result.append('</ul>')
                 in_ul = False
