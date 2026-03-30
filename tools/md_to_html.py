@@ -102,13 +102,16 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
         }}
         .image-gallery {{
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             gap: 12px;
             margin: 24px 0;
             justify-content: center;
+            align-items: stretch;
         }}
         .gallery-img {{
-            width: 160px;
+            flex: 1 1 0;
+            min-width: 0;
+            width: auto;
             height: auto;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
