@@ -309,9 +309,15 @@ def markdown_to_html(body, metadata):
     original_lines = body.split('\n')
     
     # Convert headers (h3, h2, h1 order matters)
-    html = re.sub(r'^### (.+)$', r'<h3>\1</h3>', html, flags=re.MULTILINE)
-    html = re.sub(r'^## (.+)$', r'<h2>\1</h2>', html, flags=re.MULTILINE)
-    html = re.sub(r'^# (.+)$', r'<h1>\1</h1>', html, flags=re.MULTILINE)
+    def add_header_id(match, level):
+        text = match.group(1)
+        # Generate ID from text: lowercase, replace spaces with hyphens, remove special chars except hyphens
+        header_id = re.sub(r'[^a-zA-Z0-9\s-]', '', text).lower().replace(' ', '-')
+        return f'<h{level} id="{header_id}">{text}</h{level}>'
+    
+    html = re.sub(r'^### (.+)$', lambda m: add_header_id(m, 3), html, flags=re.MULTILINE)
+    html = re.sub(r'^## (.+)$', lambda m: add_header_id(m, 2), html, flags=re.MULTILINE)
+    html = re.sub(r'^# (.+)$', lambda m: add_header_id(m, 1), html, flags=re.MULTILINE)
     
     # Convert images - handle Jekyll image syntax
     def replace_image(match):
