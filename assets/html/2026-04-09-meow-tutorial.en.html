@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow Money Manager Official Detailed User Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fafafa;
+        }
+        article {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+            line-height: 1.4;
+        }
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin: 32px 0 16px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #eee;
+        }
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #34495e;
+            margin: 24px 0 12px 0;
+        }
+        p {
+            margin-bottom: 16px;
+            text-align: justify;
+        }
+        ol {
+            margin: 20px 0;
+            padding-left: 24px;
+        }
+        ol li {
+            margin-bottom: 16px;
+            padding-left: 8px;
+        }
+        ol li strong {
+            color: #2c3e50;
+        }
+        ul {
+            margin: 16px 0;
+            padding-left: 24px;
+        }
+        ul li {
+            margin-bottom: 12px;
+            padding-left: 8px;
+        }
+        ul li strong {
+            color: #e74c3c;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 12px;
+            margin: 24px 0;
+            justify-content: center;
+            align-items: stretch;
+        }
+        .gallery-img {
+            flex: 1 1 0;
+            min-width: 0;
+            width: auto;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .gallery-img:hover {
+            transform: scale(1.05);
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 24px;
+            border-radius: 12px;
+            margin: 24px 0;
+        }
+        .highlight-box a {
+            color: #ffd700;
+            font-weight: 600;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #f0f0f0;
+            color: #666;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 12px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        .tags-container {
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Meow Money Manager Official Detailed User Guide</h1>
+
+        <div class="tags-container">
+            <span class="tag">Bookkeeping</span><span class="tag">Money Manager</span><span class="tag">Budget Management</span><span class="tag">Financial Management</span><span class="tag">Fingerprint Lock</span><span class="tag">Cute Bookkeeping App</span>
+        </div>
+
+        <h2>Table of Contents</h2>
+
+<ul>
+<li><a href="#app-introduction" target="_blank">App Introduction</a></li>
+<li><a href="#first-time-use" target="_blank">First-time Use</a></li>
+<li><a href="#bookkeeping-features" target="_blank">Bookkeeping Features</a></li>
+<li><a href="#budget-management" target="_blank">Budget Management</a></li>
+<li><a href="#statistics-and-analysis" target="_blank">Statistics and Analysis</a></li>
+<li><a href="#asset-management" target="_blank">Asset Management</a></li>
+<li><a href="#ledger-management" target="_blank">Ledger Management</a></li>
+<li><a href="#recurring-transactions" target="_blank">Recurring Transactions</a></li>
+<li><a href="#expense-reimbursement" target="_blank">Expense Reimbursement</a></li>
+<li><a href="#settings" target="_blank">Settings</a></li>
+<li><a href="#faq" target="_blank">FAQ</a></li>
+</ul>
+
+<h2>App Introduction</h2>
+
+<p>Meow Money Manager is a cute cartoon-style bookkeeping app designed for personal financial management. With a cat-themed interface, it combines cute design with powerful features to help you easily manage your personal finances. Available on both Android <a href="https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow&hl=en" target="_blank">Google Play Download</a> and iOS <a href="https://apps.apple.com/us/app/meow-money-manager/id1528852284" target="_blank">App Store Download</a>.</p>
+
+<strong>🐱 Adorable Interface Design</strong>
+<ul>
+<li>Cat-themed cute cartoon interface that makes bookkeeping fun</li>
+<li>500+ carefully designed cartoon icons, each one cute and interesting</li>
+<li>Supports dark mode, light mode, and system theme following, meeting different usage scenarios</li>
+</ul>
+
+<strong>💰 Comprehensive Bookkeeping Features</strong>
+<ul>
+<li>Supports three transaction types: expenses, income, and transfers</li>
+<li>Rich category icons covering dining, shopping, transportation, entertainment, medical care, and other life scenarios</li>
+<li>Supports adding notes to record consumption details</li>
+<li>Quick bookkeeping, completed with one click</li>
+</ul>
+
+<strong>📊 Smart Budget Management</strong>
+<ul>
+<li>Supports tracking multiple budgets simultaneously</li>
+<li>Flexible budget cycle settings: daily, weekly, monthly, yearly, or custom cycles</li>
+<li>Category budget feature, setting independent budgets for different consumption categories</li>
+<li>Real-time display of budget usage, remaining amount, and daily average budget</li>
+</ul>
+
+<strong>📈 Powerful Statistics and Analysis</strong>
+<ul>
+<li>Pie chart display: intuitively shows the proportion of income and expenses by category</li>
+<li>Bar chart display: shows income and expenditure trends by day or month</li>
+<li>Calendar view: quickly identify daily income and expenditure through color depth</li>
+<li>Supports statistics by day, week, month, year, and custom time ranges</li>
+</ul>
+
+<strong>📒 Multi-Ledger Management</strong>
+<ul>
+<li>Supports creating multiple ledgers to categorize different types of income and expenses</li>
+<li>Each ledger has independent statistics, clear and organized</li>
+<li>Quick ledger switching, convenient for recording finances in different scenarios</li>
+</ul>
+
+<strong>🔄 Recurring Automatic Bookkeeping</strong>
+<ul>
+<li>Automatically records regular income and expenses, such as salary, rent, utilities, etc.</li>
+<li>Supports multiple cycle periods: daily, weekly, monthly, yearly</li>
+<li>Supports selecting multiple dates simultaneously, flexibly setting bookkeeping time</li>
+</ul>
+
+<strong>💵 Multi-Currency Support</strong>
+<ul>
+<li>Supports 50+ currency symbols, including RMB, USD, EUR, GBP, etc.</li>
+<li>Meets the needs of users in different countries and regions</li>
+</ul>
+
+<strong>🔒 Privacy Protection</strong>
+<ul>
+<li>Supports fingerprint app lock to protect your financial privacy</li>
+<li>No account registration required, data is completely stored locally</li>
+<li>Does not collect any user personal information</li>
+</ul>
+
+<strong>☁️ Data Backup and Recovery</strong>
+<ul>
+<li>Supports Google Drive backup, iCloud backup (iOS version), and WebDAV cloud backup</li>
+<li>Automatic backup function to prevent data loss</li>
+<li>Supports manual backup and recovery</li>
+<li>Data export to CSV format, convenient for viewing and editing in Excel</li>
+</ul>
+
+<strong>💳 Asset Management</strong>
+<ul>
+<li>Supports managing multiple asset types: cash, bank cards, credit cards, stocks, funds, etc.</li>
+<li>Asset trend statistics, tracking asset changes</li>
+<li>Asset transfer function, convenient for fund allocation</li>
+</ul>
+
+<strong>🧾 Expense Reimbursement</strong>
+<ul>
+<li>Specifically designed for managing expenses that require reimbursement</li>
+<li>Tracks reimbursement status, distinguishing between reimbursed and unreimbursed</li>
+<li>Supports partial reimbursement and full reimbursement</li>
+</ul>
+
+<h2>First-time Use</h2>
+
+<p>The main interface includes the following main parts:
+<ul>
+<li>Bookkeeping button: located at the bottom right, used to quickly add bookkeeping records</li>
+<li>Bottom navigation bar: includes four options: bookkeeping, statistics, assets, and settings</li>
+<li>Top banner: displays current ledger and asset overview</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Bookkeeping Features</h2>
+
+<p>Meow Money Manager's bookkeeping features are very intuitive, supporting three types of records: expenses, income, and transfers.</p>
+
+<h3>Add | Expense | Income | Record</h3>
+
+<ol>
+<li>Click the bookkeeping button at the bottom of the home page</li>
+<li>In the pop-up bookkeeping interface, switch to the | Expense | Income | tab</li>
+<li>Select an appropriate category icon (such as dining, shopping, transportation, etc.)</li>
+<li>Enter the amount</li>
+<li>Select payment method (asset)</li>
+<li>Select the ledger</li>
+<li>Add notes (optional)</li>
+<li>Click confirm to complete bookkeeping</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_assets.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_remark.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Transfer Function</h3>
+
+<ol>
+<li>Click the bookkeeping button at the bottom of the home page</li>
+<li>In the pop-up bookkeeping interface, switch to the transfer tab</li>
+<li>Select the source asset and target asset</li>
+<li>Enter the transfer amount</li>
+<li>Enter handling fee (optional)</li>
+<li>Select the ledger</li>
+<li>Add notes (optional)</li>
+<li>Click confirm to complete the transfer</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_transfer.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_charge.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Budget Management</h2>
+
+<p>Meow Money Manager supports multiple types of budget management, including daily, weekly, monthly, yearly, and custom cycle budgets.</p>
+
+<h3>Add Budget</h3>
+
+<ol>
+<li>On the main interface, click the budget banner or enter budget management from settings</li>
+<li>Click the "Add Budget" button</li>
+<li>Select budget type (daily, weekly, monthly, yearly, or custom)</li>
+<li>Click "Add Category Budget" and select the categories for which you want to set budgets</li>
+<li>Enter the total budget amount or enter the budget amount for each category</li>
+<li>Enter budget name</li>
+<li>Click confirm to complete budget creation</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_manage.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_period.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_category.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_amount.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Budget Tracking</h3>
+
+<p>On the budget details page, you can view:
+<ul>
+<li>Total budget and used amount</li>
+<li>Remaining budget and remaining days</li>
+<li>Daily average budget</li>
+<li>Budget usage for each category</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_detail.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Statistics and Analysis</h2>
+
+<p>Meow Money Manager provides multiple statistical analysis functions to help you understand your financial situation.</p>
+
+<h3>Statistics Types</h3>
+
+<ol>
+<li>On the main interface, click the bottom statistics navigation bar to enter the statistics page</li>
+<li>Select the statistical time range: day, week, month, year, or custom</li>
+<li>View different types of statistical charts</li>
+
+</ol>
+<ul>
+<li><strong>Pie chart statistics</strong>: Pie chart shows the proportion of expenses and income in different categories, helping you understand where your money is spent.</li>
+<li><strong>Bar chart statistics</strong>: Bar chart shows daily or monthly income and expenditure, helping you understand income and expenditure trends.</li>
+<li><strong>Calendar view</strong>: Calendar view shows daily income and expenditure, with color depth indicating amount size.</li>
+</ul>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_date.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_chart.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_pie.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_hist.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_calendar.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Asset Management</h2>
+
+<p>Meow Money Manager supports managing multiple types of assets, such as cash, bank cards, credit cards, etc.</p>
+
+<h3>Add Asset</h3>
+
+<ol>
+<li>On the main interface, click the bottom asset navigation bar to enter the asset page</li>
+<li>Click the "Add Asset" button</li>
+<li>Select asset type</li>
+<li>Enter asset name</li>
+<li>Enter initial amount</li>
+<li>Select asset icon</li>
+<li>Click confirm to complete asset addition</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_add.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Asset Details</h3>
+
+<p>Click on an asset to enter the details page, where you can view:
+<ul>
+<li>Asset balance</li>
+<li>Asset income and expenditure records</li>
+<li>Asset trend charts</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail_transfer.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve_tip.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Ledger Management</h2>
+
+<p>Meow Money Manager supports creating multiple ledgers for managing different types of income and expenses.</p>
+
+<h3>Add Ledger</h3>
+
+<ol>
+<li>On the main interface, click the ledger banner or enter ledger management from settings</li>
+<li>Click the "Add Ledger" button</li>
+<li>Enter ledger name</li>
+<li>Select ledger icon</li>
+<li>Click confirm to complete ledger creation</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_filter.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_manage.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_add.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Switch Ledger</h3>
+
+<ol>
+<li>When bookkeeping, click the ledger selector</li>
+<li>Select the ledger to use from the pop-up ledger list</li>
+<li>After completing the selection, the bookkeeping records for that ledger will be displayed</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Ledger Statistics</h3>
+
+<p>Click on a ledger to enter the details page, where you can view for that ledger:
+<ul>
+<li>Income and expenditure statistics</li>
+<li>Budget usage</li>
+<li>Detailed bookkeeping records</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_record.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_stats.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_date.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Recurring Transactions</h2>
+
+<p>The recurring transaction feature can help you automatically record regular income and expenses, such as salary, rent, utilities, etc.</p>
+
+<h3>Add Recurring Transaction</h3>
+
+<ol>
+<li>Enter recurring transaction management from settings</li>
+<li>Click the "Add Recurring Transaction" button</li>
+<li>Select transaction type (expense or income)</li>
+<li>Select category</li>
+<li>Enter amount</li>
+<li>Select asset</li>
+<li>Select ledger</li>
+<li>Set cycle period (daily, weekly, monthly, yearly)</li>
+<li>Set start date and end date</li>
+<li>Click confirm to complete recurring transaction setup</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_type.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_select.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_assets.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_ledger.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_cycle.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Recurring Transaction Management</h3>
+
+<p>In the recurring transaction list, you can:
+<ul>
+<li>View all recurring transaction tasks</li>
+<li>Edit or delete recurring transaction tasks</li>
+<li>Manually trigger recurring transactions</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_manage.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_edit.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Expense Reimbursement</h2>
+
+<p>The expense reimbursement feature can help you track expenses that need to be reimbursed.</p>
+
+<h3>Add Reimbursement Record</h3>
+
+<ol>
+<li>When adding an expense record, check the "Reimburse" option</li>
+<li>Complete other bookkeeping information</li>
+<li>Click confirm to complete reimbursement record addition</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_reimburse.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Reimbursement Management</h3>
+
+<ol>
+<li>Enter reimbursement management from settings</li>
+<li>View all pending and reimbursed records</li>
+<li>Click on a reimbursement record and mark it as reimbursed</li>
+<li>Enter reimbursement amount and reimbursement date</li>
+<li>Select reimbursement method (asset)</li>
+<li>Click confirm to complete reimbursement</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_manage.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_refund.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_edit.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_reimburse.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_done.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Settings</h2>
+
+<p>Meow Money Manager provides multiple setting options to help you customize app functions.</p>
+
+<h3>Basic Settings</h3>
+
+<ol>
+<li>Enter the settings page from the bottom navigation bar</li>
+<li>Adjust the following settings:</li>
+</ol>
+   - Theme settings (light, dark, or follow system)
+   - Language settings
+   - Currency symbol settings
+   - Week start day settings
+   - Month start day settings
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_dark.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_language.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_currency_symbol.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_week_begin.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_month_begin.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Privacy Settings</h3>
+
+<ol>
+<li>On the settings page, click "Privacy Settings"</li>
+<li>Enable or disable fingerprint app lock</li>
+<li>Set app password (if needed)</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock_password.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Backup and Restore</h3>
+
+<ol>
+<li>On the settings page, click "Backup and Restore"</li>
+<li>Select backup method:</li>
+</ol>
+   - Google Drive
+   - iCloud backup (iOS only)
+   - WebDAV backup
+<ol>
+<li>Click "Backup Now" for manual backup</li>
+<li>Click "Restore" to restore data from backup files</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_backup.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore_done.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Export Data</h3>
+
+<ol>
+<li>On the settings page, click "Export Data"</li>
+<li>Select export time range</li>
+<li>Select export format (CSV)</li>
+<li>Click "Export" to export data to a file</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_confirm.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_waiting.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_done.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>FAQ</h2>
+
+<h3>How to modify an added bookkeeping record?</h3>
+
+<ol>
+<li>In the bookkeeping record list, find the record you want to modify</li>
+<li>Click on the record and select "Edit" in the pop-up page</li>
+<li>Modify relevant information</li>
+<li>Click confirm to complete the modification</li>
+</ol>
+
+<h3>How to delete a bookkeeping record?</h3>
+
+<ol>
+<li>In the bookkeeping record list, find the record you want to delete</li>
+<li>Long press on the record and select "Delete"</li>
+<li>Confirm the deletion operation</li>
+</ol>
+
+<h3>How to switch currency symbols?</h3>
+
+<ol>
+<li>Enter the settings page</li>
+<li>Click "Currency Symbol Settings"</li>
+<li>Select the currency symbol you need</li>
+<li>Click confirm to complete the setting</li>
+</ol>
+
+<h3>How to set up app lock?</h3>
+
+<ol>
+<li>Enter the settings page</li>
+<li>Click "Privacy Settings"</li>
+<li>Enable "Fingerprint Lock" or "Password Lock"</li>
+<li>Follow the prompts to complete the setup</li>
+</ol>
+
+<h3>How to back up data?</h3>
+
+<ol>
+<li>Enter the settings page</li>
+<li>Click "Backup and Restore"</li>
+<li>Select backup method</li>
+<li>Click "Backup Now" for manual backup</li>
+</ol>
+
+<h2>Summary</h2>
+
+<p>Meow Money Manager is a powerful and cute personal financial management app. Through this tutorial, you should have mastered its main features and usage methods. We hope it can help you better manage your personal finances and make bookkeeping more easy and enjoyable!</p>
+
+<p>If you encounter any problems during use, please feel free to contact me at: glgjingmarvel@gmail.com</p>
+    </article>
+</body>
+</html>

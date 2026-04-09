@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คู่มือการใช้งานละเอียดของ Meow Money Manager</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fafafa;
+        }
+        article {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+            line-height: 1.4;
+        }
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin: 32px 0 16px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #eee;
+        }
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #34495e;
+            margin: 24px 0 12px 0;
+        }
+        p {
+            margin-bottom: 16px;
+            text-align: justify;
+        }
+        ol {
+            margin: 20px 0;
+            padding-left: 24px;
+        }
+        ol li {
+            margin-bottom: 16px;
+            padding-left: 8px;
+        }
+        ol li strong {
+            color: #2c3e50;
+        }
+        ul {
+            margin: 16px 0;
+            padding-left: 24px;
+        }
+        ul li {
+            margin-bottom: 12px;
+            padding-left: 8px;
+        }
+        ul li strong {
+            color: #e74c3c;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 12px;
+            margin: 24px 0;
+            justify-content: center;
+            align-items: stretch;
+        }
+        .gallery-img {
+            flex: 1 1 0;
+            min-width: 0;
+            width: auto;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .gallery-img:hover {
+            transform: scale(1.05);
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 24px;
+            border-radius: 12px;
+            margin: 24px 0;
+        }
+        .highlight-box a {
+            color: #ffd700;
+            font-weight: 600;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #f0f0f0;
+            color: #666;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 12px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        .tags-container {
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>คู่มือการใช้งานละเอียดของ Meow Money Manager</h1>
+
+        <div class="tags-container">
+            <span class="tag">การบัญชี</span><span class="tag">ผู้จัดการเงิน</span><span class="tag">การจัดการงบประมาณ</span><span class="tag">การจัดการทางการเงิน</span><span class="tag">ล็อกลายนิ้วมือ</span><span class="tag">แอปพลิเคชันการบัญชีที่น่ารัก</span>
+        </div>
+
+        <h2>สารบัญ</h2>
+
+<ul>
+<li><a href="#การแนะนำแอปพลิเคชัน" target="_blank">การแนะนำแอปพลิเคชัน</a></li>
+<li><a href="#การใช้งานครั้งแรก" target="_blank">การใช้งานครั้งแรก</a></li>
+<li><a href="#คุณสมบัติการบัญชี" target="_blank">คุณสมบัติการบัญชี</a></li>
+<li><a href="#การจัดการงบประมาณ" target="_blank">การจัดการงบประมาณ</a></li>
+<li><a href="#สถิติและการวิเคราะห์" target="_blank">สถิติและการวิเคราะห์</a></li>
+<li><a href="#การจัดการทรัพย์สิน" target="_blank">การจัดการทรัพย์สิน</a></li>
+<li><a href="#การจัดการสมุดรายการ" target="_blank">การจัดการสมุดรายการ</a></li>
+<li><a href="#ธุรกรรมที่เกิดซ้ำ" target="_blank">ธุรกรรมที่เกิดซ้ำ</a></li>
+<li><a href="#การคืนเงินค่าใช้จ่าย" target="_blank">การคืนเงินค่าใช้จ่าย</a></li>
+<li><a href="#การตั้งค่า" target="_blank">การตั้งค่า</a></li>
+<li><a href="#คำถามที่พบบ่อย" target="_blank">คำถามที่พบบ่อย</a></li>
+</ul>
+
+<h2>การแนะนำแอปพลิเคชัน</h2>
+
+<p>Meow Money Manager เป็นแอปพลิเคชันการบัญชีในรูปแบบการ์ตูนที่น่ารักที่ออกแบบมาเพื่อการจัดการทางการเงินส่วนบุคคล ด้วยอินเทอร์เฟซที่มีธีมแมว มันผสานการออกแบบที่น่ารักกับคุณสมบัติที่ทรงพลังเพื่อช่วยคุณจัดการการเงินส่วนบุคคลได้อย่างง่ายดาย พร้อมใช้งานบน Android <a href="https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow&hl=th" target="_blank">ดาวน์โหลดจาก Google Play</a> และ iOS <a href="https://apps.apple.com/us/app/meow-money-manager/id1528852284" target="_blank">ดาวน์โหลดจาก App Store</a></p>
+
+<strong>🐱 การออกแบบอินเทอร์เฟซที่น่ารัก</strong>
+<ul>
+<li>อินเทอร์เฟซการ์ตูนที่น่ารักที่มีธีมแมวที่ทำให้การบัญชีสนุก</li>
+<li>ไอคอนการ์ตูนมากกว่า 500 รูปที่ออกแบบอย่างรอบคอบ แต่ละรูปน่ารักและน่าสนใจ</li>
+<li>รองรับโหมดมืด โหมดสว่าง และการทำตามธีมระบบ ทำให้เหมาะกับสถานการณ์การใช้งานที่แตกต่างกันด้วยกัน</li>
+</ul>
+
+<strong>💰 คุณสมบัติการบัญชีที่ครอบคลุม</strong>
+<ul>
+<li>รองรับสามประเภทธุรกรรม: การใช้จ่าย รายได้ และการโอน</li>
+<li>ไอคอนหมวดหมู่ที่หลากหลาย รวมถึงอาหาร การช้อปปิ้ง การขนส่ง การ развлечение การดูแลสุขภาพ และสถานการณ์ชีวิตอื่นๆ</li>
+<li>รองรับการเพิ่มโน๊ตเพื่อบันทึกรายละเอียดการใช้จ่าย</li>
+<li>การบัญชีที่รวดเร็ว เสร็จสิ้นด้วยการคลิกเพียงครั้งเดียว</li>
+</ul>
+
+<strong>📊 การจัดการงบประมาณที่ฉลาด</strong>
+<ul>
+<li>รองรับการติดตามหลายงบประมาณพร้อมกัน</li>
+<li>การตั้งค่วงเวลงบประมาณที่ยืดหยุ่น: วันรายวัน สัปดาห์รายสัปดาห์ เดือนรายเดือน ปีรายปี หรือช่วงเวลาที่กำหนดเอง</li>
+<li>คุณสมบัติงบประมาณตามหมวดหมู่ กำหนดงบประมาณที่อิสระสำหรับหมวดหมู่การใช้จ่ายที่แตกต่างกัน</li>
+<li>แสดงการใช้งานงบประมาณ ยอดคงเหลือ และงบประมาณเฉลี่ยรายวันในเวลาจริง</li>
+</ul>
+
+<strong>📈 สถิติและการวิเคราะห์ที่ทรงพลัง</strong>
+<ul>
+<li>แสดงแผนภูมิวงกลม: แสดงสัดส่วนของรายได้และการใช้จ่ายตามหมวดหมู่อย่างชัดเจน</li>
+<li>แสดงแผนภูมิแท่ง: แสดงแนวโน้มของรายได้และการใช้จ่ายรายวันหรือรายเดือน</li>
+<li>แสดงปฏิทิน: ระบุรายได้และการใช้จ่ายรายวันได้รวดเร็วผ่านความลึกของสี</li>
+<li>รองรับสถิติตามวัน สัปดาห์ เดือน ปี และช่วงเวลาที่กำหนดเอง</li>
+</ul>
+
+<strong>📒 การจัดการสมุดรายการหลายเล่ม</strong>
+<ul>
+<li>รองรับการสร้างสมุดรายการหลายเล่มเพื่อจัดหมวดหมู่ประเภทรายได้และการใช้จ่ายที่แตกต่างกัน</li>
+<li>แต่ละสมุดรายการมีสถิติที่เป็นอิสระ ชัดเจนและมีการจัดระเบียบ</li>
+<li>สลับสมุดรายการได้รวดเร็ว ที่สะดวกสำหรับการบันทึกการเงินในสถานการณ์ที่แตกต่างกัน</li>
+</ul>
+
+<strong>🔄 การบัญชีอัตโนมัติที่เกิดซ้ำ</strong>
+<ul>
+<li>บันทึกรายได้และการใช้จ่ายที่เป็นประจำโดยอัตโนมัติ เช่น เงินเดือน ค่าเช่า ค่าน้ำไฟ ฯลฯ</li>
+<li>รองรับหลายช่วงเวลา: วันรายวัน สัปดาห์รายสัปดาห์ เดือนรายเดือน ปีรายปี</li>
+<li>รองรับการเลือกวันที่หลายวันพร้อมกัน ตั้งเวลาการบัญชีได้อย่างยืดหยุ่น</li>
+</ul>
+
+<strong>💵 รองรับหลายสกุลเงิน</strong>
+<ul>
+<li>รองรับเครื่องหมายสกุลเงินมากกว่า 50 รูปแบบ รวมถึง RMB USD EUR GBP ฯลฯ</li>
+<li>ตอบสนองความต้องการของผู้ใช้ในประเทศและภูมิภาคที่แตกต่างกัน</li>
+</ul>
+
+<strong>🔒 ความปลอดภัยของข้อมูลส่วนบุคคล</strong>
+<ul>
+<li>รองรับล็อกแอปพลิเคชันด้วยลายนิ้วมือเพื่อปกป้องความเป็นส่วนตัวทางการเงินของคุณ</li>
+<li>ไม่จำเป็นต้องลงทะเบียนบัญชี ข้อมูลจัดเก็บทั้งหมดในเครื่อง</li>
+<li>ไม่รวบรวมข้อมูลส่วนบุคคลของผู้ใช้ใดๆ</li>
+</ul>
+
+<strong>☁️ การสำรองและกู้คืนข้อมูล</strong>
+<ul>
+<li>รองรับการสำรองข้อมูลบน Google Drive การสำรองข้อมูลบน iCloud (เวอร์ชัน iOS) และการสำรองข้อมูลบนคลาวด์ WebDAV</li>
+<li>คุณสมบัติการสำรองข้อมูลอัตโนมัติเพื่อป้องกันการสูญเสียข้อมูล</li>
+<li>รองรับการสำรองและกู้คืนข้อมูลด้วยตนเอง</li>
+<li>ส่งออกข้อมูลไปในรูปแบบ CSV ที่สะดวกในการดูและแก้ไขใน Excel</li>
+</ul>
+
+<strong>💳 การจัดการทรัพย์สิน</strong>
+<ul>
+<li>รองรับการจัดการทรัพย์สินหลายประเภท: เงินสด บัตรธนาคาร บัตรเครดิต หุ้น กองทุน ฯลฯ</li>
+<li>สถิติการเปลี่ยนแปลงของทรัพย์สินเพื่อติดตามการเปลี่ยนแปลงของทรัพย์สิน</li>
+<li>คุณสมบัติการโอนทรัพย์สิน ที่สะดวกสำหรับการจัดสรรเงิน</li>
+</ul>
+
+<strong>🧾 การคืนเงินค่าใช้จ่าย</strong>
+<ul>
+<li>ออกแบบมาโดยเฉพาะเพื่อจัดการค่าใช้จ่ายที่ต้องคืน</li>
+<li>ติดตามสถานะการคืนเงิน แยกความแตกต่างระหว่างที่คืนแล้วและที่ยังไม่คืน</li>
+<li>รองรับการคืนเงินบางส่วนและการคืนเงินเต็มจำนวน</li>
+</ul>
+
+<h2>การใช้งานครั้งแรก</h2>
+
+<p>อินเทอร์เฟซหลักประกอบด้วยส่วนหลักต่อไปนี้:
+<ul>
+<li>ปุ่มการบัญชี: ตั้งอยู่ในมุมขวาล่าง ใช้สำหรับเพิ่มบันทึกการบัญชีอย่างรวดเร็ว</li>
+<li>แถบนำทางด้านล่าง: ประกอบด้วยตัวเลือกสี่รายการ: การบัญชี สถิติ ทรัพย์สิน และการตั้งค่า</li>
+<li>แบนเนอร์ด้านบน: แสดงสมุดรายการปัจจุบันและสรุปทรัพย์สิน</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>คุณสมบัติการบัญชี</h2>
+
+<p>คุณสมบัติการบัญชีของ Meow Money Manager มีความสับสนเพียงเล็กน้อย รองรับสามประเภทของบันทึก: การใช้จ่าย รายได้ และการโอน</p>
+
+<h3>เพิ่ม | การใช้จ่าย | รายได้ | บันทึก</h3>
+
+<ol>
+<li>คลิกปุ่มการบัญชีในด้านล่างของหน้าแรก</li>
+<li>ในอินเทอร์เฟซการบัญชีแบบป๊อปอัป สลับไปที่แท็บ | การใช้จ่าย | รายได้ |</li>
+<li>เลือกไอคอนหมวดหมู่ที่เหมาะสม (เช่น อาหาร การช้อปปิ้ง การขนส่ง ฯลฯ)</li>
+<li>ป้อนจำนวนเงิน</li>
+<li>เลือกวิธีการชำระเงิน (ทรัพย์สิน)</li>
+<li>เลือกสมุดรายการ</li>
+<li>เพิ่มโน๊ต (ตัวเลือก)</li>
+<li>คลิกยืนยันเพื่อเสร็จสิ้นการบัญชี</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_assets.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_remark.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>คุณสมบัติการโอน</h3>
+
+<ol>
+<li>คลิกปุ่มการบัญชีในด้านล่างของหน้าแรก</li>
+<li>ในอินเทอร์เฟซการบัญชีแบบป๊อปอัป สลับไปที่แท็บการโอน</li>
+<li>เลือกทรัพย์สินที่ออกและทรัพย์สินที่เข้า</li>
+<li>ป้อนจำนวนเงินที่จะโอน</li>
+<li>ป้อนค่าธรรมเนียมการประมวลผล (ตัวเลือก)</li>
+<li>เลือกสมุดรายการ</li>
+<li>เพิ่มโน๊ต (ตัวเลือก)</li>
+<li>คลิกยืนยันเพื่อเสร็จสิ้นการโอน</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_transfer.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_charge.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>การจัดการงบประมาณ</h2>
+
+<p>Meow Money Manager รองรับการจัดการงบประมาณหลายประเภท รวมถึงงบประมาณรายวัน รายสัปดาห์ รายเดือน รายปี และช่วงเวลาที่กำหนดเอง</p>
+
+<h3>เพิ่มงบประมาณ</h3>
+
+<ol>
+<li>ในอินเทอร์เฟซหลัก คลิกแบนเนอร์งบประมาณหรือเข้าสู่การจัดการงบประมาณจากการตั้งค่า</li>
+<li>คลิกปุ่ม "เพิ่มงบประมาณ"</li>
+<li>เลือกประเภทงบประมาณ (รายวัน รายสัปดาห์ รายเดือน รายปี หรือที่กำหนดเอง)</li>
+<li>คลิก "เพิ่มงบประมาณตามหมวดหมู่" และเลือกหมวดหมู่ที่คุณต้องการตั้งงบประมาณ</li>
+<li>ป้อนจำนวนเงินทั้งหมดของงบประมาณหรือป้อนจำนวนเงินของงบประมาณสำหรับแต่ละหมวดหมู่</li>
+<li>ป้อนชื่องบประมาณ</li>
+<li>คลิกยืนยันเพื่อเสร็จสิ้นการสร้างงบประมาณ</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_manage.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_period.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_category.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_amount.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>ติดตามงบประมาณ</h3>
+
+<p>ในหน้ารายละเอียดงบประมาณ คุณสามารถดู:
+<ul>
+<li>งบประมาณทั้งหมดและจำนวนเงินที่ใช้ไป</li>
+<li>ยอดคงเหลือของงบประมาณและจำนวนวันที่เหลือ</li>
+<li>งบประมาณเฉลี่ยรายวัน</li>
+<li>การใช้งานงบประมาณตามหมวดหมู่</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_detail.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>สถิติและการวิเคราะห์</h2>
+
+<p>Meow Money Manager มีฟังก์ชันการวิเคราะห์สถิติหลายแบบเพื่อช่วยคุณเข้าใจสถานการณ์ทางการเงินของคุณ</p>
+
+<h3>ประเภทของสถิติ</h3>
+
+<ol>
+<li>ในอินเทอร์เฟซหลัก คลิกแถบนำทางสถิติที่ด้านล่างเพื่อเข้าสู่หน้าสถิติ</li>
+<li>เลือกช่วงเวลาสถิติ: วัน สัปดาห์ เดือน ปี หรือที่กำหนดเอง</li>
+<li>ดูหลายประเภทของแผนภูมิสถิติ</li>
+
+</ol>
+<ul>
+<li><strong>สถิติแผนภูมิวงกลม</strong> : แผนภูมิวงกลมแสดงสัดส่วนของการใช้จ่ายและรายได้ในหมวดหมู่ต่างๆ ช่วยให้คุณเข้าใจว่าคุณใช้เงินไปที่ไหน</li>
+<li><strong>สถิติแผนภูมิแท่ง</strong> : แผนภูมิแท่งแสดงรายได้และการใช้จ่ายรายวันหรือรายเดือน ช่วยให้คุณเข้าใจแนวโน้มของรายได้และการใช้จ่าย</li>
+<li><strong>การแสดงปฏิทิน</strong> : การแสดงปฏิทินแสดงรายได้และการใช้จ่ายรายวัน ด้วยความลึกของสีที่แสดงขนาดของจำนวนเงิน</li>
+</ul>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_date.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_chart.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_pie.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_hist.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_calendar.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>การจัดการทรัพย์สิน</h2>
+
+<p>Meow Money Manager รองรับการจัดการทรัพย์สินหลายประเภท เช่น เงินสด บัตรธนาคาร บัตรเครดิต ฯลฯ</p>
+
+<h3>เพิ่มทรัพย์สิน</h3>
+
+<ol>
+<li>ในอินเทอร์เฟซหลัก คลิกแถบนำทางทรัพย์สินที่ด้านล่างเพื่อเข้าสู่หน้าทรัพย์สิน</li>
+<li>คลิกปุ่ม "เพิ่มทรัพย์สิน"</li>
+<li>เลือกประเภททรัพย์สิน</li>
+<li>ป้อนชื่อทรัพย์สิน</li>
+<li>ป้อนจำนวนเงินเริ่มต้น</li>
+<li>เลือกไอคอนทรัพย์สิน</li>
+<li>คลิกยืนยันเพื่อเสร็จสิ้นการเพิ่มทรัพย์สิน</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_add.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>รายละเอียดทรัพย์สิน</h3>
+
+<p>คลิกที่ทรัพย์สินเพื่อเข้าสู่หน้ารายละเอียด ซึ่งคุณสามารถดู:
+<ul>
+<li>ยอดคงเหลือของทรัพย์สิน</li>
+<li>บันทึกรายได้และการใช้จ่ายของทรัพย์สิน</li>
+<li>แผนภูมิแนวโน้มของทรัพย์สิน</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail_transfer.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve_tip.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>การจัดการสมุดรายการ</h2>
+
+<p>Meow Money Manager รองรับการสร้างสมุดรายการหลายเล่มเพื่อจัดการประเภทรายได้และการใช้จ่ายที่แตกต่างกัน</p>
+
+<h3>เพิ่มสมุดรายการ</h3>
+
+<ol>
+<li>ในอินเทอร์เฟซหลัก คลิกแบนเนอร์สมุดรายการหรือเข้าสู่การจัดการสมุดรายการจากการตั้งค่า</li>
+<li>คลิกปุ่ม "เพิ่มสมุดรายการ"</li>
+<li>ป้อนชื่อสมุดรายการ</li>
+<li>เลือกไอคอนสมุดรายการ</li>
+<li>คลิกยืนยันเพื่อเสร็จสิ้นการสร้างสมุดรายการ</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_filter.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_manage.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_add.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>สลับสมุดรายการ</h3>
+
+<ol>
+<li>ในขณะทำการบัญชี คลิกตัวเลือกสมุดรายการ</li>
+<li>เลือกสมุดรายการที่คุณต้องการใช้จากรายการสมุดรายการแบบป๊อปอัป</li>
+<li>หลังจากเลือกเสร็จ บันทึกการบัญชีสำหรับสมุดรายการนั้นจะแสดง</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>สถิติของสมุดรายการ</h3>
+
+<p>คลิกที่สมุดรายการเพื่อเข้าสู่หน้ารายละเอียด ซึ่งคุณสามารถดูสำหรับสมุดรายการนั้น:
+<ul>
+<li>สถิติของรายได้และการใช้จ่าย</li>
+<li>การใช้งานงบประมาณ</li>
+<li>บันทึกการบัญชีรายละเอียด</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_record.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_stats.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_date.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>ธุรกรรมที่เกิดซ้ำ</h2>
+
+<p>คุณสมบัติธุรกรรมที่เกิดซ้ำสามารถช่วยคุณบันทึกรายได้และการใช้จ่ายที่เป็นประจำโดยอัตโนมัติ เช่น เงินเดือน ค่าเช่า ค่าน้ำไฟ ฯลฯ</p>
+
+<h3>เพิ่มธุรกรรมที่เกิดซ้ำ</h3>
+
+<ol>
+<li>เข้าสู่การจัดการธุรกรรมที่เกิดซ้ำจากการตั้งค่า</li>
+<li>คลิกปุ่ม "เพิ่มธุรกรรมที่เกิดซ้ำ"</li>
+<li>เลือกประเภทธุรกรรม (การใช้จ่ายหรือรายได้)</li>
+<li>เลือกหมวดหมู่</li>
+<li>ป้อนจำนวนเงิน</li>
+<li>เลือกทรัพย์สิน</li>
+<li>เลือกสมุดรายการ</li>
+<li>ตั้งค่าช่วงเวลา (รายวัน รายสัปดาห์ รายเดือน รายปี)</li>
+<li>ตั้งค่าวันเริ่มต้นและวันสิ้นสุด</li>
+<li>คลิกยืนยันเพื่อเสร็จสิ้นตั้งค่าธุรกรรมที่เกิดซ้ำ</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_type.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_select.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_assets.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_ledger.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_cycle.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>การจัดการธุรกรรมที่เกิดซ้ำ</h3>
+
+<p>ในรายการธุรกรรมที่เกิดซ้ำ คุณสามารถ:
+<ul>
+<li>ดูทุกงานของธุรกรรมที่เกิดซ้ำ</li>
+<li>แก้ไขหรือลบงานของธุรกรรมที่เกิดซ้ำ</li>
+<li>เรียกใช้ธุรกรรมที่เกิดซ้ำด้วยตนเอง</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_manage.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_edit.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>การคืนเงินค่าใช้จ่าย</h2>
+
+<p>คุณสมบัติการคืนเงินค่าใช้จ่ายสามารถช่วยคุณติดตามค่าใช้จ่ายที่ต้องคืน</p>
+
+<h3>เพิ่มบันทึกการคืนเงิน</h3>
+
+<ol>
+<li>ในขณะเพิ่มบันทึกการใช้จ่าย จดเครื่องหมายในตัวเลือก "คืนเงิน"</li>
+<li>เติมข้อมูลการบัญชีอื่นๆ</li>
+<li>คลิกยืนยันเพื่อเสร็จสิ้นการเพิ่มบันทึกการคืนเงิน</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_reimburse.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>การจัดการการคืนเงิน</h3>
+
+<ol>
+<li>เข้าสู่การจัดการการคืนเงินจากการตั้งค่า</li>
+<li>ดูทุกบันทึกที่รอดำเนินการและที่คืนแล้ว</li>
+<li>คลิกบันทึกการคืนเงินและทำเครื่องหมายว่าคืนแล้ว</li>
+<li>ป้อนจำนวนเงินที่คืนและวันที่คืน</li>
+<li>เลือกวิธีการคืน (ทรัพย์สิน)</li>
+<li>คลิกยืนยันเพื่อเสร็จสิ้นการคืนเงิน</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_manage.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_refund.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_edit.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_reimburse.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_done.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>การตั้งค่า</h2>
+
+<p>Meow Money Manager มีตัวเลือกการตั้งค่าหลายแบบเพื่อช่วยคุณปรับแต่งฟังก์ชันของแอปพลิเคชัน</p>
+
+<h3>การตั้งค่าพื้นฐาน</h3>
+
+<ol>
+<li>เข้าสู่หน้าการตั้งค่าจากแถบนำทางด้านล่าง</li>
+<li>ปรับแต่งการตั้งค่าต่อไปนี้:</li>
+</ol>
+   - การตั้งค่าโทปัส (สว่าง มืด หรือทำตามระบบ)
+   - การตั้งค่าภาษา
+   - การตั้งค่าสัญลักษณ์สกุลเงิน
+   - การตั้งค่าวันแรกของสัปดาห์
+   - การตั้งค่าวันแรกของเดือน
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_dark.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_language.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_currency_symbol.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_week_begin.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_month_begin.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>การตั้งค่าความเป็นส่วนตัว</h3>
+
+<ol>
+<li>ในหน้าการตั้งค่า คลิก "การตั้งค่าความเป็นส่วนตัว"</li>
+<li>เปิดหรือปิดล็อกแอปพลิเคันด้วยลายนิ้วมือ</li>
+<li>ตั้งรหัสผ่านของแอปพลิเคชัน (ถ้าเป็นไปได้)</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock_password.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>การสำรองและกู้คืน</h3>
+
+<ol>
+<li>ในหน้าการตั้งค่า คลิก "การสำรองและกู้คืน"</li>
+<li>เลือกวิธีการสำรอง:</li>
+</ol>
+   - Google Drive
+   - การสำรอง iCloud (เฉพาะ iOS)
+   - การสำรอง WebDAV
+<ol>
+<li>คลิก "สำรองข้อมูลตอนนี้" เพื่อทำการสำรองด้วยตนเอง</li>
+<li>คลิก "กู้คืน" เพื่อกู้คืนข้อมูลจากไฟล์สำรอง</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_backup.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore_done.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>ส่งออกข้อมูล</h3>
+
+<ol>
+<li>ในหน้าการตั้งค่า คลิก "ส่งออกข้อมูล"</li>
+<li>เลือกช่วงเวลาส่งออก</li>
+<li>เลือกรูปแบบส่งออก (CSV)</li>
+<li>คลิก "ส่งออก" เพื่อส่งออกข้อมูลไปยังไฟล์</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_confirm.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_waiting.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_done.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>คำถามที่พบบ่อย</h2>
+
+<h3>จะเปลี่ยนบันทึกการบัญชีที่เพิ่มแล้วได้อย่างไร?</h3>
+
+<ol>
+<li>ในรายการบันทึกการบัญชี ค้นหาบันทึกที่คุณต้องการเปลี่ยน</li>
+<li>คลิกบันทึกและเลือก "แก้ไข" ในหน้าแบบป๊อปอัป</li>
+<li>เปลี่ยนข้อมูลที่เกี่ยวข้อง</li>
+<li>คลิกยืนยันเพื่อเสร็จสิ้นการเปลี่ยนแปลง</li>
+</ol>
+
+<h3>จะลบบันทึกการบัญชีได้อย่างไร?</h3>
+
+<ol>
+<li>ในรายการบันทึกการบัญชี ค้นหาบันทึกที่คุณต้องการลบ</li>
+<li>ค้างค์บันทึกและเลือก "ลบ"</li>
+<li>ยืนยันการดำเนินการลบ</li>
+</ol>
+
+<h3>จะเปลี่ยนสัญลักษณ์สกุลเงินได้อย่างไร?</h3>
+
+<ol>
+<li>เข้าสู่หน้าการตั้งค่า</li>
+<li>คลิก "การตั้งค่าสัญลักษณ์สกุลเงิน"</li>
+<li>เลือกสัญลักษณ์สกุลเงินที่คุณต้องการ</li>
+<li>คลิกยืนยันเพื่อเสร็จสิ้นการตั้งค่า</li>
+</ol>
+
+<h3>จะตั้งล็อกแอปพลิเคชันได้อย่างไร?</h3>
+
+<ol>
+<li>เข้าสู่หน้าการตั้งค่า</li>
+<li>คลิก "การตั้งค่าความเป็นส่วนตัว"</li>
+<li>เปิด "ล็อกลายนิ้วมือ" หรือ "ล็อกรหัสผ่าน"</li>
+<li>ปฏิบัติตามคำแนะนำเพื่อเสร็จสิ้นการตั้งค่า</li>
+</ol>
+
+<h3>จะทำการสำรองข้อมูลได้อย่างไร?</h3>
+
+<ol>
+<li>เข้าสู่หน้าการตั้งค่า</li>
+<li>คลิก "การสำรองและกู้คืน"</li>
+<li>เลือกวิธีการสำรอง</li>
+<li>คลิก "สำรองข้อมูลตอนนี้" เพื่อทำการสำรองด้วยตนเอง</li>
+</ol>
+
+<h2>สรุป</h2>
+
+<p>Meow Money Manager เป็นแอปพลิเคชันการจัดการทางการเงินส่วนบุคคลที่ทรงพลังและน่ารัก ผ่านบทช่วยสอนนี้ คุณควรจะเชี่ยวชาญคุณสมบัติหลักและวิธีการใช้งานของมัน เราหวังว่านี่จะช่วยคุณจัดการการเงินส่วนบุคคลได้ดีขึ้นและทำให้การบัญชีง่ายและสนุกขึ้น!</p>
+
+<p>ถ้าคุณพบปัญหาใด ๆ ในระหว่างการใช้งาน ไม่ต้องรังเกียจที่จะติดต่อฉันได้ที่: glgjingmarvel@gmail.com</p>
+    </article>
+</body>
+</html>

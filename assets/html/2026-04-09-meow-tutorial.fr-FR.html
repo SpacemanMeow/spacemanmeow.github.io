@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide d'Utilisation Détaillé Officiel de Meow Money Manager</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fafafa;
+        }
+        article {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+            line-height: 1.4;
+        }
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin: 32px 0 16px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #eee;
+        }
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #34495e;
+            margin: 24px 0 12px 0;
+        }
+        p {
+            margin-bottom: 16px;
+            text-align: justify;
+        }
+        ol {
+            margin: 20px 0;
+            padding-left: 24px;
+        }
+        ol li {
+            margin-bottom: 16px;
+            padding-left: 8px;
+        }
+        ol li strong {
+            color: #2c3e50;
+        }
+        ul {
+            margin: 16px 0;
+            padding-left: 24px;
+        }
+        ul li {
+            margin-bottom: 12px;
+            padding-left: 8px;
+        }
+        ul li strong {
+            color: #e74c3c;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 12px;
+            margin: 24px 0;
+            justify-content: center;
+            align-items: stretch;
+        }
+        .gallery-img {
+            flex: 1 1 0;
+            min-width: 0;
+            width: auto;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .gallery-img:hover {
+            transform: scale(1.05);
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 24px;
+            border-radius: 12px;
+            margin: 24px 0;
+        }
+        .highlight-box a {
+            color: #ffd700;
+            font-weight: 600;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #f0f0f0;
+            color: #666;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 12px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        .tags-container {
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Guide d'Utilisation Détaillé Officiel de Meow Money Manager</h1>
+
+        <div class="tags-container">
+            <span class="tag">Comptabilité</span><span class="tag">Gestionnaire d'Argent</span><span class="tag">Gestion Budgétaire</span><span class="tag">Gestion Financière</span><span class="tag">Verrouillage par Empreinte</span><span class="tag">Application de Comptabilité Mignonne</span>
+        </div>
+
+        <h2>Table des Matières</h2>
+
+<ul>
+<li><a href="#introduction-de-lapplication" target="_blank">Introduction de l'Application</a></li>
+<li><a href="#première-utilisation" target="_blank">Première Utilisation</a></li>
+<li><a href="#fonctionnalités-de-comptabilité" target="_blank">Fonctionnalités de Comptabilité</a></li>
+<li><a href="#gestion-de-budget" target="_blank">Gestion de Budget</a></li>
+<li><a href="#statistiques-et-analyse" target="_blank">Statistiques et Analyse</a></li>
+<li><a href="#gestion-dactifs" target="_blank">Gestion d'Actifs</a></li>
+<li><a href="#gestion-de-carnets-de-comptes" target="_blank">Gestion de Carnets de Comptes</a></li>
+<li><a href="#transactions-récurrentes" target="_blank">Transactions Récurrentes</a></li>
+<li><a href="#remboursement-de-dépenses" target="_blank">Remboursement de Dépenses</a></li>
+<li><a href="#paramètres" target="_blank">Paramètres</a></li>
+<li><a href="#faq" target="_blank">FAQ</a></li>
+</ul>
+
+<h2>Introduction de l'Application</h2>
+
+<p>Meow Money Manager est une application de comptabilité de style cartoon mignonne conçue pour la gestion financière personnelle. Avec une interface thématique de chat, elle combine un design mignon avec des fonctionnalités puissantes pour vous aider à gérer facilement vos finances personnelles. Disponible sur Android <a href="https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow&hl=fr" target="_blank">Télécharger sur Google Play</a> et iOS <a href="https://apps.apple.com/us/app/meow-money-manager/id1528852284" target="_blank">Télécharger sur l'App Store</a>.</p>
+
+<strong>🐱 Design d'Interface Mignon</strong>
+<ul>
+<li>Interface cartoon mignonne avec thème de chat qui rend la comptabilité amusante</li>
+<li>500+ icônes cartoon soigneusement conçues, chacune mignonne et intéressante</li>
+<li>Prend en charge le mode sombre, le mode clair et le suivi du thème du système, satisfaisant différents scénarios d'utilisation</li>
+</ul>
+
+<strong>💰 Fonctionnalités Complètes de Comptabilité</strong>
+<ul>
+<li>Prend en charge trois types de transactions : dépenses, revenus et transferts</li>
+<li>Riches icônes de catégorie couvrant la restauration, les achats, les transports, les divertissements, les soins médicaux et d'autres scénarios de vie</li>
+<li>Prend en charge l'ajout de notes pour enregistrer les détails de consommation</li>
+<li>Comptabilité rapide, terminée en un clic</li>
+</ul>
+
+<strong>📊 Gestion Intelligente de Budget</strong>
+<ul>
+<li>Prend en charge le suivi de plusieurs budgets simultanément</li>
+<li>Paramètres flexibles de cycle de budget : quotidien, hebdomadaire, mensuel, annuel ou cycles personnalisés</li>
+<li>Fonction de budget par catégorie, établissant des budgets indépendants pour différentes catégories de consommation</li>
+<li>Affichage en temps réel de l'utilisation du budget, du montant restant et du budget quotidien moyen</li>
+</ul>
+
+<strong>📈 Statistiques et Analyse Puissantes</strong>
+<ul>
+<li>Affichage de diagramme circulaire : montre直观ement la proportion des revenus et dépenses par catégorie</li>
+<li>Affichage de diagramme à barres : montre les tendances des revenus et dépenses par jour ou par mois</li>
+<li>Vue calendrier : identifie rapidement les revenus et dépenses quotidiens par la profondeur de la couleur</li>
+<li>Prend en charge les statistiques par jour, semaine, mois, année et plages de temps personnalisées</li>
+</ul>
+
+<strong>📒 Gestion de Multiples Carnets de Comptes</strong>
+<ul>
+<li>Prend en charge la création de plusieurs carnets de comptes pour catégoriser différents types de revenus et dépenses</li>
+<li>Chaque carnet de comptes a des statistiques indépendantes, claires et organisées</li>
+<li>Changement rapide de carnet de comptes, pratique pour enregistrer les finances dans différents scénarios</li>
+</ul>
+
+<strong>🔄 Comptabilité Automatique Récurrente</strong>
+<ul>
+<li>Enregistre automatiquement les revenus et dépenses réguliers, comme le salaire, le loyer, les services publics, etc.</li>
+<li>Prend en charge plusieurs périodes de cycle : quotidien, hebdomadaire, mensuel, annuel</li>
+<li>Prend en charge la sélection de plusieurs dates simultanément, définissant flexiblement le temps de comptabilité</li>
+</ul>
+
+<strong>💵 Prise en Charge Multidevise</strong>
+<ul>
+<li>Prend en charge plus de 50 symboles monétaires, y compris le RMB, le USD, l'EUR, la GBP, etc.</li>
+<li>Répond aux besoins des utilisateurs dans différents pays et régions</li>
+</ul>
+
+<strong>🔒 Protection de la Vie Privée</strong>
+<ul>
+<li>Prend en charge le verrouillage d'application par empreinte digitale pour protéger votre vie privée financière</li>
+<li>Aucune inscription de compte requise, les données sont stockées complètement localement</li>
+<li>Ne collecte aucune information personnelle des utilisateurs</li>
+</ul>
+
+<strong>☁️ Sauvegarde et Récupération de Données</strong>
+<ul>
+<li>Prend en charge la sauvegarde Google Drive, la sauvegarde iCloud (version iOS) et la sauvegarde cloud WebDAV</li>
+<li>Fonction de sauvegarde automatique pour prévenir la perte de données</li>
+<li>Prend en charge la sauvegarde et la récupération manuelles</li>
+<li>Exportation de données au format CSV, pratique pour consulter et modifier dans Excel</li>
+</ul>
+
+<strong>💳 Gestion d'Actifs</strong>
+<ul>
+<li>Prend en charge la gestion de plusieurs types d'actifs : espèces, cartes bancaires, cartes de crédit, actions, fonds, etc.</li>
+<li>Statistiques de tendances des actifs,掌握 changements d'actifs</li>
+<li>Fonction de transfert d'actifs, pratique pour l'allocation de fonds</li>
+</ul>
+
+<strong>🧾 Remboursement de Dépenses</strong>
+<ul>
+<li>Conçu spécifiquement pour gérer les dépenses nécessitant un remboursement</li>
+<li>Suivi de l'état de remboursement, distinguant entre remboursés et non remboursés</li>
+<li>Prend en charge le remboursement partiel et le remboursement total</li>
+</ul>
+
+<h2>Première Utilisation</h2>
+
+<p>L'interface principale comprend les parties principales suivantes :
+<ul>
+<li>Bouton de comptabilité : situé en bas à droite, utilisé pour ajouter rapidement des enregistrements de comptabilité</li>
+<li>Barre de navigation inférieure : comprend quatre options : comptabilité, statistiques, actifs et paramètres</li>
+<li>Bannière supérieure : affiche le carnet de comptes actuel et l'aperçu des actifs</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Fonctionnalités de Comptabilité</h2>
+
+<p>Les fonctionnalités de comptabilité de Meow Money Manager sont très intuitives, prenant en charge trois types d'enregistrements : dépenses, revenus et transferts.</p>
+
+<h3>Ajouter | Dépense | Revenu | Enregistrement</h3>
+
+<ol>
+<li>Cliquez sur le bouton de comptabilité en bas de la page d'accueil</li>
+<li>Dans l'interface de comptabilité pop-up, basculez vers l'onglet | Dépense | Revenu |</li>
+<li>Sélectionnez une icône de catégorie appropriée (comme restauration, achats, transports, etc.)</li>
+<li>Entrez le montant</li>
+<li>Sélectionnez la méthode de paiement (actif)</li>
+<li>Sélectionnez le carnet de comptes</li>
+<li>Ajoutez des notes (optionnel)</li>
+<li>Cliquez sur confirmer pour terminer la comptabilité</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_assets.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_remark.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Fonction de Transfert</h3>
+
+<ol>
+<li>Cliquez sur le bouton de comptabilité en bas de la page d'accueil</li>
+<li>Dans l'interface de comptabilité pop-up, basculez vers l'onglet de transfert</li>
+<li>Sélectionnez l'actif de sortie et l'actif d'entrée</li>
+<li>Entrez le montant de transfert</li>
+<li>Entrez les frais de gestion (optionnel)</li>
+<li>Sélectionnez le carnet de comptes</li>
+<li>Ajoutez des notes (optionnel)</li>
+<li>Cliquez sur confirmer pour terminer le transfert</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_transfer.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_charge.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Gestion de Budget</h2>
+
+<p>Meow Money Manager prend en charge plusieurs types de gestion de budget, y compris les budgets quotidiens, hebdomadaires, mensuels, annuels et de cycle personnalisé.</p>
+
+<h3>Ajouter un Budget</h3>
+
+<ol>
+<li>Dans l'interface principale, cliquez sur la bannière du budget ou accédez à la gestion de budget depuis les paramètres</li>
+<li>Cliquez sur le bouton "Ajouter un Budget"</li>
+<li>Sélectionnez le type de budget (quotidien, hebdomadaire, mensuel, annuel ou personnalisé)</li>
+<li>Cliquez sur "Ajouter un Budget par Catégorie" et sélectionnez les catégories pour lesquelles vous souhaitez définir des budgets</li>
+<li>Entrez le montant total du budget ou entrez le montant du budget pour chaque catégorie</li>
+<li>Entrez le nom du budget</li>
+<li>Cliquez sur confirmer pour terminer la création du budget</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_manage.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_period.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_category.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_amount.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Suivi de Budget</h3>
+
+<p>Sur la page de détails du budget, vous pouvez voir :
+<ul>
+<li>Budget total et montant utilisé</li>
+<li>Budget restant et jours restants</li>
+<li>Budget quotidien moyen</li>
+<li>Utilisation du budget par chaque catégorie</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_detail.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Statistiques et Analyse</h2>
+
+<p>Meow Money Manager fournit plusieurs fonctions d'analyse statistique pour vous aider à comprendre votre situation financière.</p>
+
+<h3>Types de Statistiques</h3>
+
+<ol>
+<li>Dans l'interface principale, cliquez sur la barre de navigation des statistiques inférieure pour accéder à la page des statistiques</li>
+<li>Sélectionnez la plage de temps statistique : jour, semaine, mois, année ou personnalisée</li>
+<li>Visualisez différents types de graphiques statistiques</li>
+
+</ol>
+<ul>
+<li><strong>Statistiques de diagramme circulaire</strong> : Le diagramme circulaire montre la proportion des dépenses et revenus dans différentes catégories, vous aidant à comprendre où votre argent est dépensé.</li>
+<li><strong>Statistiques de diagramme à barres</strong> : Le diagramme à barres montre les revenus et dépenses quotidiens ou mensuels, vous aidant à comprendre les tendances des revenus et dépenses.</li>
+<li><strong>Vue calendrier</strong> : La vue calendrier montre les revenus et dépenses quotidiens, avec la profondeur de la couleur indiquant la taille du montant.</li>
+</ul>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_date.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_chart.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_pie.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_hist.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_calendar.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Gestion d'Actifs</h2>
+
+<p>Meow Money Manager prend en charge la gestion de plusieurs types d'actifs, tels que l'espèce, les cartes bancaires, les cartes de crédit, etc.</p>
+
+<h3>Ajouter un Actif</h3>
+
+<ol>
+<li>Dans l'interface principale, cliquez sur la barre de navigation des actifs inférieure pour accéder à la page des actifs</li>
+<li>Cliquez sur le bouton "Ajouter un Actif"</li>
+<li>Sélectionnez le type d'actif</li>
+<li>Entrez le nom de l'actif</li>
+<li>Entrez le montant initial</li>
+<li>Sélectionnez l'icône de l'actif</li>
+<li>Cliquez sur confirmer pour terminer l'ajout de l'actif</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_add.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Détails de l'Actif</h3>
+
+<p>Cliquez sur un actif pour accéder à la page de détails, où vous pouvez voir :
+<ul>
+<li>Solde de l'actif</li>
+<li>Enregistrements de revenus et dépenses de l'actif</li>
+<li>Graphiques de tendances de l'actif</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail_transfer.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve_tip.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Gestion de Carnets de Comptes</h2>
+
+<p>Meow Money Manager prend en charge la création de plusieurs carnets de comptes pour gérer différents types de revenus et dépenses.</p>
+
+<h3>Ajouter un Carnet de Comptes</h3>
+
+<ol>
+<li>Dans l'interface principale, cliquez sur la bannière du carnet de comptes ou accédez à la gestion des carnets de comptes depuis les paramètres</li>
+<li>Cliquez sur le bouton "Ajouter un Carnet de Comptes"</li>
+<li>Entrez le nom du carnet de comptes</li>
+<li>Sélectionnez l'icône du carnet de comptes</li>
+<li>Cliquez sur confirmer pour terminer la création du carnet de comptes</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_filter.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_manage.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_add.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Changer de Carnet de Comptes</h3>
+
+<ol>
+<li>Lors de la comptabilité, cliquez sur le sélecteur de carnet de comptes</li>
+<li>Sélectionnez le carnet de comptes que vous souhaitez utiliser dans la liste pop-up des carnets de comptes</li>
+<li>Après avoir terminé la sélection, les enregistrements de comptabilité de ce carnet de comptes seront affichés</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Statistiques du Carnet de Comptes</h3>
+
+<p>Cliquez sur un carnet de comptes pour accéder à la page de détails, où vous pouvez voir pour ce carnet de comptes :
+<ul>
+<li>Statistiques de revenus et dépenses</li>
+<li>Utilisation du budget</li>
+<li>Enregistrements détaillés de comptabilité</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_record.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_stats.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_date.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Transactions Récurrentes</h2>
+
+<p>La fonction de transactions récurrentes peut vous aider à enregistrer automatiquement les revenus et dépenses réguliers, comme le salaire, le loyer, les services publics, etc.</p>
+
+<h3>Ajouter une Transaction Récurrente</h3>
+
+<ol>
+<li>Accédez à la gestion des transactions récurrentes depuis les paramètres</li>
+<li>Cliquez sur le bouton "Ajouter une Transaction Récurrente"</li>
+<li>Sélectionnez le type de transaction (dépense ou revenu)</li>
+<li>Sélectionnez la catégorie</li>
+<li>Entrez le montant</li>
+<li>Sélectionnez l'actif</li>
+<li>Sélectionnez le carnet de comptes</li>
+<li>Définissez la période de cycle (quotidien, hebdomadaire, mensuel, annuel)</li>
+<li>Définissez la date de début et de fin</li>
+<li>Cliquez sur confirmer pour terminer la configuration de la transaction récurrente</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_type.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_select.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_assets.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_ledger.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_cycle.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Gestion des Transactions Récurrentes</h3>
+
+<p>Dans la liste des transactions récurrentes, vous pouvez :
+<ul>
+<li>Voir toutes les tâches de transactions récurrentes</li>
+<li>Éditer ou supprimer des tâches de transactions récurrentes</li>
+<li>Déclencher manuellement des transactions récurrentes</li>
+</ul></p>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_manage.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_edit.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Remboursement de Dépenses</h2>
+
+<p>La fonction de remboursement de dépenses peut vous aider à suivre les dépenses qui nécessitent un remboursement.</p>
+
+<h3>Ajouter un Enregistrement de Remboursement</h3>
+
+<ol>
+<li>Lors de l'ajout d'un enregistrement de dépense, cochez l'option "Remboursement"</li>
+<li>Complétez les autres informations de comptabilité</li>
+<li>Cliquez sur confirmer pour terminer l'ajout de l'enregistrement de remboursement</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_reimburse.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Gestion des Remboursements</h3>
+
+<ol>
+<li>Accédez à la gestion des remboursements depuis les paramètres</li>
+<li>Voir tous les enregistrements en attente et remboursés</li>
+<li>Cliquez sur un enregistrement de remboursement et marquez-le comme remboursé</li>
+<li>Entrez le montant du remboursement et la date du remboursement</li>
+<li>Sélectionnez la méthode de remboursement (actif)</li>
+<li>Cliquez sur confirmer pour terminer le remboursement</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_manage.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_refund.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_edit.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_reimburse.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_done.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>Paramètres</h2>
+
+<p>Meow Money Manager fournit plusieurs options de paramétrage pour vous aider à personnaliser les fonctionnalités de l'application.</p>
+
+<h3>Paramètres de Base</h3>
+
+<ol>
+<li>Accédez à la page des paramètres depuis la barre de navigation inférieure</li>
+<li>Ajustez les paramètres suivants :</li>
+</ol>
+   - Paramètres de thème (clair, sombre ou suivre le système)
+   - Paramètres de langue
+   - Paramètres de symbole monétaire
+   - Paramètres de jour de début de semaine
+   - Paramètres de jour de début de mois
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_dark.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_language.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_currency_symbol.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_week_begin.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_month_begin.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Paramètres de Confidentialité</h3>
+
+<ol>
+<li>Sur la page des paramètres, cliquez sur "Paramètres de Confidentialité"</li>
+<li>Activez ou désactivez le verrouillage d'application par empreinte digitale</li>
+<li>Définissez un mot de passe d'application (si nécessaire)</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock_password.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Sauvegarde et Récupération</h3>
+
+<ol>
+<li>Sur la page des paramètres, cliquez sur "Sauvegarde et Récupération"</li>
+<li>Sélectionnez la méthode de sauvegarde :</li>
+</ol>
+   - Google Drive
+   - Sauvegarde iCloud (iOS uniquement)
+   - Sauvegarde WebDAV
+<ol>
+<li>Cliquez sur "Sauvegarder Maintenant" pour effectuer une sauvegarde manuelle</li>
+<li>Cliquez sur "Récupérer" pour récupérer des données à partir de fichiers de sauvegarde</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_backup.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore_done.jpg" alt="image" class="gallery-img">
+</div>
+
+<h3>Exporter des Données</h3>
+
+<ol>
+<li>Sur la page des paramètres, cliquez sur "Exporter des Données"</li>
+<li>Sélectionnez la plage de temps d'exportation</li>
+<li>Sélectionnez le format d'exportation (CSV)</li>
+<li>Cliquez sur "Exporter" pour exporter des données vers un fichier</li>
+</ol>
+
+<div class="image-gallery">
+<img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_confirm.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_waiting.jpg" alt="image" class="gallery-img"> <img src="https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_done.jpg" alt="image" class="gallery-img">
+</div>
+
+<h2>FAQ</h2>
+
+<h3>Comment modifier un enregistrement de comptabilité ajouté ?</h3>
+
+<ol>
+<li>Dans la liste des enregistrements de comptabilité, trouvez l'enregistrement que vous souhaitez modifier</li>
+<li>Cliquez sur l'enregistrement et sélectionnez "Modifier" dans la page pop-up</li>
+<li>Modifiez les informations pertinentes</li>
+<li>Cliquez sur confirmer pour terminer la modification</li>
+</ol>
+
+<h3>Comment supprimer un enregistrement de comptabilité ?</h3>
+
+<ol>
+<li>Dans la liste des enregistrements de comptabilité, trouvez l'enregistrement que vous souhaitez supprimer</li>
+<li>Appuyez longuement sur l'enregistrement et sélectionnez "Supprimer"</li>
+<li>Confirmez l'opération de suppression</li>
+</ol>
+
+<h3>Comment changer les symboles monétaires ?</h3>
+
+<ol>
+<li>Accédez à la page des paramètres</li>
+<li>Cliquez sur "Paramètres de Symbole Monétaire"</li>
+<li>Sélectionnez le symbole monétaire dont vous avez besoin</li>
+<li>Cliquez sur confirmer pour terminer la configuration</li>
+</ol>
+
+<h3>Comment configurer le verrouillage de l'application ?</h3>
+
+<ol>
+<li>Accédez à la page des paramètres</li>
+<li>Cliquez sur "Paramètres de Confidentialité"</li>
+<li>Activez "Verrouillage par Empreinte" ou "Verrouillage par Mot de Passe"</li>
+<li>Suivez les instructions pour terminer la configuration</li>
+</ol>
+
+<h3>Comment sauvegarder des données ?</h3>
+
+<ol>
+<li>Accédez à la page des paramètres</li>
+<li>Cliquez sur "Sauvegarde et Récupération"</li>
+<li>Sélectionnez la méthode de sauvegarde</li>
+<li>Cliquez sur "Sauvegarder Maintenant" pour effectuer une sauvegarde manuelle</li>
+</ol>
+
+<h2>Résumé</h2>
+
+<p>Meow Money Manager est une application de gestion financière personnelle puissante et mignonne. Grâce à ce tutoriel, vous devriez avoir maîtrisé ses fonctionnalités principales et ses méthodes d'utilisation. Nous espérons qu'elle vous aidera à mieux gérer vos finances personnelles et rendra la comptabilité plus facile et agréable !</p>
+
+<p>Si vous rencontrez任何 problème pendant l'utilisation, n'hésitez pas à me contacter à : glgjingmarvel@gmail.com</p>
+    </article>
+</body>
+</html>
