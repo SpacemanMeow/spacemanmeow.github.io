@@ -97,10 +97,10 @@ Antara muka utama merangkumi beberapa bahagian utama berikut:
 
 Ciri-ciri perakaunan Meow Money Manager sangat intuitif, menerima sokongan tiga jenis rekod: perbelanjaan, pendapatan, dan pemindahan.
 
-### Tambah | Perbelanjaan | Pendapatan | Rekod
+### Tambah Perbelanjaan atau Pendapatan Rekod
 
 1. Klik butang perakaunan di bahagian bawah laman utama
-2. Di antara muka perakaunan pop-up, tukar ke tab | Perbelanjaan | Pendapatan |
+2. Di antara muka perakaunan pop-up, tukar ke tab Perbelanjaan atau Pendapatan
 3. Pilih ikon kategori yang sesuai (seperti makan, membeli-belah, pengangkutan, dsb.)
 4. Masukkan jumlah
 5. Pilih kaedah pembayaran (aset)

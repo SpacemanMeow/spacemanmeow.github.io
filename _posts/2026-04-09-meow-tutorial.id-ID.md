@@ -97,10 +97,10 @@ Antarmuka utama mencakup beberapa bagian utama berikut:
 
 Fitur pembukuan Meow Money Manager sangat intuitif, mendukung tiga jenis catatan: pengeluaran, pendapatan, dan transfer.
 
-### Tambahkan | Pengeluaran | Pendapatan | Catatan
+### Tambahkan Pengeluaran atau Pendapatan Catatan
 
 1. Klik tombol pembukuan di bagian bawah halaman beranda
-2. Di antarmuka pembukuan pop-up, beralih ke tab | Pengeluaran | Pendapatan |
+2. Di antarmuka pembukuan pop-up, beralih ke tab "Pengeluaran" atau "Pendapatan"
 3. Pilih ikon kategori yang sesuai (seperti makan, belanja, transportasi, dll.)
 4. Masukkan jumlah
 5. Pilih metode pembayaran (aset)

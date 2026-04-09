@@ -97,10 +97,10 @@ The main interface includes the following main parts:
 
 Meow Money Manager's bookkeeping features are very intuitive, supporting three types of records: expenses, income, and transfers.
 
-### Add | Expense | Income | Record
+### Add Expense or Income Record
 
 1. Click the bookkeeping button at the bottom of the home page
-2. In the pop-up bookkeeping interface, switch to the | Expense | Income | tab
+2. In the pop-up bookkeeping interface, switch to the "Expense or Income" tab
 3. Select an appropriate category icon (such as dining, shopping, transportation, etc.)
 4. Enter the amount
 5. Select payment method (asset)

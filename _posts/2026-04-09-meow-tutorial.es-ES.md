@@ -97,10 +97,10 @@ La interfaz principal incluye las siguientes partes principales:
 
 Las características de contabilidad de Meow Money Manager son muy intuitivas, soportando tres tipos de registros: gastos, ingresos y transferencias.
 
-### Agregar | Gasto | Ingreso | Registro
+### Agregar Gasto o Ingreso Registro
 
 1. Haz clic en el botón de contabilidad en la parte inferior de la página de inicio
-2. En la interfaz de contabilidad emergente, cambia a la pestaña | Gasto | Ingreso |
+2. En la interfaz de contabilidad emergente, cambia a la pestaña de registro
 3. Selecciona un icono de categoría apropiado (como comidas, compras, transporte, etc.)
 4. Ingresa la cantidad
 5. Selecciona el método de pago (activo)

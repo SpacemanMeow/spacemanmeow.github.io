@@ -97,10 +97,10 @@ L'interface principale comprend les parties principales suivantes :
 
 Les fonctionnalités de comptabilité de Meow Money Manager sont très intuitives, prenant en charge trois types d'enregistrements : dépenses, revenus et transferts.
 
-### Ajouter | Dépense | Revenu | Enregistrement
+### Ajouter Dépense ou Revenu Enregistrement
 
 1. Cliquez sur le bouton de comptabilité en bas de la page d'accueil
-2. Dans l'interface de comptabilité pop-up, basculez vers l'onglet | Dépense | Revenu |
+2. Dans l'interface de comptabilité pop-up, basculez vers l'onglet de registro
 3. Sélectionnez une icône de catégorie appropriée (comme restauration, achats, transports, etc.)
 4. Entrez le montant
 5. Sélectionnez la méthode de paiement (actif)
