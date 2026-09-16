@@ -1,0 +1,18 @@
+# 顶部导航栏。修改这里即可调整导航项与顺序。
+# nav 字段用于高亮当前页面，取值：home / meow / blog / about
+
+- title: Home
+  url: /
+  nav: home
+
+- title: Meow
+  url: /meow/
+  nav: meow
+
+- title: Blog
+  url: /blog/
+  nav: blog
+
+- title: About
+  url: /about/
+  nav: about

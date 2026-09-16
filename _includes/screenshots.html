@@ -1,0 +1,31 @@
+{%- comment -%}
+  应用截图横向滚动条
+  用法：include screenshots.html 并传入 items=应用front matter里的screenshots数组
+  数据格式（应用 front matter）：
+    screenshots:
+      - image: /assets/meow/record.jpg
+        title: Beautiful Design      # 可选，图片自带标题时可省略
+        subtitle: Make recording enjoyable
+{%- endcomment -%}
+{%- assign items = include.items -%}
+{%- if items and items.size > 0 -%}
+<div class="shots{% if include.size == 'lg' %} shots--lg{% endif %}" data-shots>
+  <button class="shots__nav shots__nav--prev" type="button" aria-label="Previous">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <div class="shots__track">
+    {%- for shot in items %}
+    <figure class="shot">
+      <div class="shot__frame">
+        <img class="shot__img" src="{{ shot.image | relative_url }}" alt="{{ shot.alt | default: 'App screenshot' | escape }}" loading="lazy" />
+      </div>
+    </figure>
+    {%- endfor %}
+  </div>
+
+  <button class="shots__nav shots__nav--next" type="button" aria-label="Next">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+</div>
+{%- endif -%}

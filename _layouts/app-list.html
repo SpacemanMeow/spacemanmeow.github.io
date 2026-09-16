@@ -1,0 +1,26 @@
+---
+layout: default
+---
+{%- comment -%}
+  应用列表页（Home / Meow 共用）
+  在页面 front matter 中设置 series: Meow 只显示该系列应用；不设置则显示全部。
+{%- endcomment -%}
+{%- assign apps = site.apps | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}
+{%- if page.series -%}
+  {%- assign apps = apps | where: 'series', page.series -%}
+{%- endif -%}
+
+<div class="page-head">
+  <div class="container">
+    <h1 class="page-head__title">{{ page.title }}</h1>
+    {%- if page.subtitle %}<p class="page-head__subtitle">{{ page.subtitle }}</p>{% endif %}
+  </div>
+</div>
+
+<div class="app-list">
+  {%- for app in apps %}
+    {% include app-card.html app=app %}
+  {%- else %}
+    <div class="container"><p class="empty-tip">No apps yet. Add markdown files under <code>_apps/</code>.</p></div>
+  {%- endfor %}
+</div>

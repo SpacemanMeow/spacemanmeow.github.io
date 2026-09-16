@@ -1,0 +1,35 @@
+{%- assign active = page.nav -%}
+{%- unless active -%}
+  {%- assign u = page.url -%}
+  {%- if u == '/' -%}
+    {%- assign active = 'home' -%}
+  {%- elsif u contains '/meow' -%}
+    {%- assign active = 'meow' -%}
+  {%- elsif u contains '/blog' or u contains '/posts' or u contains '/page' -%}
+    {%- assign active = 'blog' -%}
+  {%- elsif u contains '/about' -%}
+    {%- assign active = 'about' -%}
+  {%- endif -%}
+{%- endunless -%}
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img class="brand__logo" src="{{ site.avatar | relative_url }}" alt="" />
+      <span class="brand__text">
+        <strong>{{ site.title }}</strong>
+        {%- if site.tagline %}<small>{{ site.tagline }}</small>{% endif -%}
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation" data-nav-toggle>
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" data-nav>
+      {%- for item in site.data.nav %}
+      <a class="site-nav__link{% if item.nav == active %} is-active{% endif %}"
+         href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {%- endfor %}
+    </nav>
+  </div>
+</header>

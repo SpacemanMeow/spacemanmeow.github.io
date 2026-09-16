@@ -1,0 +1,28 @@
+{%- comment -%}
+  应用列表行（Home / Meow 页面使用）
+  用法：include app-card.html 并传入 app=某条应用文档对象
+  布局：左侧 图标 + 名称 + 一句话简介 + 商店按钮；右侧 9:16 截图画廊
+{%- endcomment -%}
+{%- assign app = include.app -%}
+<article class="app-row">
+  <div class="container app-row__inner">
+    <div class="app-row__info">
+      <a class="app-row__icon-link" href="{{ app.url | relative_url }}">
+        <img class="app-row__icon" src="{{ app.icon | relative_url }}" alt="{{ app.title | escape }}" loading="lazy" />
+      </a>
+      <div class="app-row__text">
+        <h2 class="app-row__name">
+          <a href="{{ app.url | relative_url }}">{{ app.title }}</a>
+        </h2>
+        {%- if app.tagline %}<p class="app-row__tagline">{{ app.tagline }}</p>{% endif %}
+        <div class="app-row__actions">
+          {% include store-buttons.html play=app.google_play appstore=app.app_store %}
+        </div>
+      </div>
+    </div>
+
+    <div class="app-row__shots">
+      {% include screenshots.html items=app.screenshots %}
+    </div>
+  </div>
+</article>

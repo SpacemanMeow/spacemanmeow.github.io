@@ -1,0 +1,27 @@
+{%- comment -%}
+  应用商店按钮
+  用法：include store-buttons.html 并传入 play / appstore / size 参数
+    play     = Google Play 链接（留空则不显示该按钮）
+    appstore = App Store 链接（留空则不显示该按钮）
+    size     = "lg" 时放大，用于应用详情页与页脚
+{%- endcomment -%}
+{%- assign play = include.play -%}
+{%- assign appstore = include.appstore -%}
+{%- assign has_play = false -%}
+{%- if play and play != '' -%}{%- assign has_play = true -%}{%- endif -%}
+{%- assign has_appstore = false -%}
+{%- if appstore and appstore != '' -%}{%- assign has_appstore = true -%}{%- endif -%}
+{%- if has_play or has_appstore -%}
+<div class="store-buttons{% if include.size == 'lg' %} store-buttons--lg{% endif %}">
+  {%- if has_play %}
+  <a class="store-badge" href="{{ play }}" target="_blank" rel="noopener" aria-label="Get it on Google Play">
+    <img class="store-badge__img" src="{{ '/assets/images/store/google-play.png' | relative_url }}" alt="Get it on Google Play" loading="lazy" />
+  </a>
+  {%- endif %}
+  {%- if has_appstore %}
+  <a class="store-badge" href="{{ appstore }}" target="_blank" rel="noopener" aria-label="Download on the App Store">
+    <img class="store-badge__img" src="{{ '/assets/images/store/app-store.png' | relative_url }}" alt="Download on the App Store" loading="lazy" />
+  </a>
+  {%- endif %}
+</div>
+{%- endif -%}

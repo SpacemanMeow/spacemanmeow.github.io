@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% seo %}
+    {% feed_meta %}
+    <link rel="icon" href="{{ site.favicon | relative_url }}" />
+    <link rel="apple-touch-icon" href="{{ site.apple_touch_icon | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    {% if site.webmaster_verifications %}{% include webmaster-verifications.html %}{% endif %}
+  </head>
+  <body>
+    {% include nav.html %}
+    <main id="main">{{ content }}</main>
+    {% include footer.html %}
+    <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{%- comment -%}
+  应用详情页模板。
+  数据来自 _apps/*.md 的 front matter（title / tagline / icon / google_play / app_store / screenshots），
+  正文（markdown）即详情页的介绍内容。
+{%- endcomment -%}
+
+<div class="app-hero">
+  <div class="container app-hero__inner">
+    <img class="app-hero__icon" src="{{ page.icon | relative_url }}" alt="{{ page.title | escape }}" />
+    <div class="app-hero__body">
+      <h1 class="app-hero__title">{{ page.title }}</h1>
+      {%- if page.tagline %}<p class="app-hero__tagline">{{ page.tagline }}</p>{% endif %}
+      {% include store-buttons.html play=page.google_play appstore=page.app_store size="lg" %}
+    </div>
+  </div>
+</div>
+
+{%- if page.screenshots and page.screenshots.size > 0 %}
+<div class="app-shots">
+  <div class="container">
+    {% include screenshots.html items=page.screenshots size="lg" %}
+  </div>
+</div>
+{%- endif %}
+
+<div class="app-body">
+  <div class="container">
+    <div class="app-content">
+      {{ content }}
+    </div>
+  </div>
+</div>
