@@ -207,20 +207,23 @@ main { display: block; padding-bottom: 72px; }
 /* ------------------------------------------------------------------
    4. 商店按钮（使用官方 Google Play / App Store 徽章图片）
    ------------------------------------------------------------------ */
-.store-buttons { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.store-buttons { display: flex; flex-wrap: nowrap; gap: var(--space-3); }
 
 .store-badge {
   display: inline-flex;
   align-items: center;
   line-height: 0;
+  flex: 0 1 auto;
+  min-width: 0;
   transition: opacity .16s ease;
 }
 
 .store-badge:hover { opacity: .82; }
 
-.store-badge__img { display: block; height: 38px; width: auto; }
+/* 用宽度而非高度定尺寸：窄屏下可等比缩小，保证两个徽章始终同一行且不变形 */
+.store-badge__img { display: block; width: 132px; height: auto; max-width: 100%; }
 
-.store-buttons--lg .store-badge__img { height: 48px; }
+.store-buttons--lg .store-badge__img { width: 166px; }
 
 /* ------------------------------------------------------------------
    5. 应用截图画廊（纯 9:16 截图，扁平无阴影无标题）
