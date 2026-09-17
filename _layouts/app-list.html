@@ -7,7 +7,7 @@ layout: default
 {%- endcomment -%}
 {%- assign apps = site.apps | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}
 {%- if page.series -%}
-  {%- assign apps = apps | where: 'series', page.series -%}
+  {%- assign apps = apps | where_exp: 'a', 'a.series == page.series' -%}
 {%- endif -%}
 
 <div class="page-head">

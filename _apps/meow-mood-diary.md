@@ -1,53 +1,68 @@
 ---
-title: Meow Mood Diary
-tagline: Meow Mood Diary - A safe place for your feelings
-summary: >- # TODO 可选：列表页补充说明，不需要可删除
-  A private diary for your moods — write, track and look back on how you felt.
-icon: /assets/images/apps/meow-mood-diary/icon.png # TODO 替换成真实图标
-series: Meow
-order: 4
-google_play: # TODO 填入 Google Play 链接
-app_store: # TODO 填入 App Store 链接
+# ===================================================================
+#  应用详情页数据 —— 照着这个模板复制一份改一改，就是一个新应用
+#  修改 front matter 里的字段即可，正文用 markdown 写应用介绍
+# ===================================================================
+title: Meow Mood Diary # 应用名称（列表页 & 详情页标题）
+tagline: Meow Mood Diary - A safe place for your feelings # 一句话简介
+icon: /assets/images/apps/meow-mood-diary/icon.png # 应用图标（建议 512x512 png）
+series: Meow # 应用系列：Meow 系列的会出现在 Meow 页面
+order: 4 # 列表页排序，数字越小越靠前
+google_play: https://play.google.com/store/apps/details?id=com.glgjing.meow.mood.diary # 留空则不显示 Google Play 按钮
+app_store: https://apps.apple.com/app/id6767560237 # 留空则不显示 App Store 按钮
 
-# TODO 替换成这个应用自己的截图（建议 1080x2400 竖屏手机截图）
+# 详情页顶部横向滚动的截图
 screenshots:
-  - image: /assets/meow/record.jpg
-    title: Mood Diary
-    subtitle: A safe place for your feelings
-  - image: /assets/meow/stats_chart.jpg
-    title: Tracking & Statistics
-    subtitle: See how your mood changes
-  - image: /assets/meow/stats_calendar.jpg
-    title: Calendar View
-    subtitle: Look back on any day
-  - image: /assets/meow/dark_record.jpg
-    title: Dark Mode
-    subtitle: Write comfortably at night
+  - image: /assets/images/apps/meow-mood-diary/1.png
+  - image: /assets/images/apps/meow-mood-diary/2.png
+  - image: /assets/images/apps/meow-mood-diary/3.png
+  - image: /assets/images/apps/meow-mood-diary/4.png
+  - image: /assets/images/apps/meow-mood-diary/5.png
+  - image: /assets/images/apps/meow-mood-diary/6.png
+  - image: /assets/images/apps/meow-mood-diary/widget.png
 ---
 
-<!-- TODO 用你自己的应用描述替换下面这段正文 -->
+<!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
+Looking for a gentle way to track your daily mood and emotions? Meow Mood Diary offers a safe, cozy space for your emotional journey with adorable cat-themed designs and simple, intuitive operations.
 
-Meow Mood Diary is a safe place for your feelings. Write a short entry each day, tag it with a
-mood, and let the app help you notice patterns in how you feel over time.
+Whether you want to record a happy moment, process a difficult day, or simply understand your emotional patterns better, this mood diary turns daily tracking into a delightful experience. No complicated setups, no confusing menus—just one tap to log how you feel, anytime, anywhere.
 
-**Features of Meow Mood Diary - complete guide:**
+### Why choose Meow Mood Diary?
 
-### Daily entries
+**Adorable Interface**
 
-A calm writing space with mood tags, photos and notes.
+Immerse yourself in a warm, healing visual experience with cute cartoon cat designs. Every interaction feels like a gentle conversation with a comforting friend, making mood tracking something you'll look forward to each day.
 
-### Tracking & statistics
+**Diverse Mood Icons & Custom Themes**
 
-Charts show how your mood changes over weeks and months.
+Express yourself accurately with a wide range of carefully designed mood icons covering all emotional states. Choose from multiple beautiful color themes to personalize your diary and match your unique style.
 
-### Calendar view
+**Complete Privacy Protection**
 
-Look back on any day and revisit what you wrote.
+Your emotional records are yours and yours alone. We never upload any of your personal data or diary content to our servers. All backups are stored exclusively in your own cloud drive (Google Drive), giving you full control over your information.
 
-### Privacy first
+**One-Tap Quick Mood Logging**
 
-Your diary stays on your device. Lock it with a password or biometrics.
+Capture your mood in an instant with our streamlined interface. No need to write long paragraphs unless you want to—just select your current emotion and you're done. Perfect for busy days when you only have a moment to spare.
 
-## Learn more
+**Comprehensive Mood History & Statistics**
 
-<!-- TODO 补充相关教程/文章链接 -->
+View your entire emotional journey at a glance with intuitive calendar views and visual charts. Track your mood trends over time, see which emotions you experience most often, and gain valuable insights into your emotional well-being.
+
+**Detailed Diary Entries**
+
+Add text notes to your mood records to document what happened, how you felt, and what helped. Reviewing these entries can help you identify emotional triggers and develop better coping strategies over time.
+
+**Fingerprint & Passcode Lock**
+
+Add an extra layer of security to protect your private thoughts. Enable fingerprint or passcode unlock to ensure only you can access your mood diary.
+
+**Fully Offline Functionality**
+
+Use all features without an internet connection. Log moods, view history, and edit entries whether you're at home, at work, or traveling—no Wi-Fi required.
+
+**Customizable Reminders**
+
+Set gentle daily reminders to help you build a consistent mood tracking habit. Never miss an opportunity to check in with yourself and reflect on your day.
+
+Meow Mood Diary is designed to be your trusted companion on the path to better emotional awareness. By making mood tracking simple, enjoyable, and completely private, we hope to help you develop a deeper understanding of yourself and live a more balanced, mindful life.

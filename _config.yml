@@ -82,7 +82,6 @@ defaults:
       type: apps
     values:
       layout: app
-      series: Meow
       nav: home
 
 # 博客分页
