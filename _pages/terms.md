@@ -1,56 +1,40 @@
 ---
 layout: page
 title: Terms of Use
-subtitle: The terms that govern your use of our apps and website.
+subtitle: Welcome to Meow Family! These Terms of Service ("Terms") govern your use of the Meow Family series of applications and related services (collectively, the "Service"). By downloading, installing, or using the Service, you agree to be bound by these Terms. If you do not agree, please do not use the Service.
 permalink: /terms/
 ---
 
 _Last updated: September 16, 2026_
 
-These Terms of Use ("Terms") govern your use of the mobile applications and website provided by
-Meow Apps Studio ("we", "us"). By downloading or using our apps, you agree to these Terms.
+## 1. Description of Service
+Meow Family provides users with tools to manage cat-related profiles, data tracking, and application settings. To help you protect your data, the Service includes a cloud backup and restore feature integrated with Google Drive API.
+## 2. Google Drive Backup Feature & User Responsibility
 
-## License
+* Account Ownership: The backup feature requires you to log in with your own Google Account. The backup data is stored directly within your personal Google Drive storage space under the drive.file scope.
+* Storage & Costs: You are solely responsible for ensuring that your Google Drive has sufficient storage space. Any storage costs or quotas associated with your Google Account are your sole responsibility.
+* Data Management: You retain full control over your backup files. We are not responsible for any data loss resulting from your manual deletion of backup files within Google Drive or the revocation of application permissions.
 
-We grant you a personal, non-exclusive, non-transferable, revocable license to use our apps for your
-own non-commercial purposes, subject to the app store terms of Apple and Google.
+## 3. Acceptable Use
+You agree not to use the Service to:
 
-## Acceptable use
+* Violate any applicable local, national, or international laws or regulations.
+* Attempt to reverse engineer, decompile, or disrupt the integrity or performance of the Service.
+* Upload any malicious code, viruses, or harmful data through the backup feature.
 
-You agree not to:
+## 4. Intellectual Property
+All intellectual property rights in the Service, including but not limited to design, graphics, text, software, and trademarks under the Meow Family brand, are owned by or licensed to us. Your use of the Service does not grant you any ownership rights.
+## 5. Disclaimer of Warranties
+THE SERVICE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT GUARANTEE THAT THE SERVICE WILL BE UNINTERRUPTED, SECURE, OR ERROR-FREE.
+## 6. Limitation of Liability
+IN NO EVENT SHALL WE BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, OR USE, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE SERVICE, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+## 7. Changes to These Terms
+We reserve the right to modify these Terms at any time. We will notify you of any changes by updating the "Last Updated" date at the top of these Terms or via in-app announcements. Your continued use of the Service after changes are posted constitutes your acceptance of the new Terms.
+## 8. Governing Law
+These Terms shall be governed by and construed in accordance with the local laws of your jurisdiction, without regard to its conflict of law principles.
+## 9. Contact Us
+If you have any questions or feedback regarding these Terms, please contact us at:
 
-- Copy, modify, distribute, sell or lease any part of our apps.
-- Reverse engineer or attempt to extract the source code, except where permitted by law.
-- Use our apps in any way that violates applicable laws or the rights of others.
-
-## Purchases and subscriptions
-
-Paid features and subscriptions are billed through the Apple App Store or Google Play. Prices,
-billing cycles and refunds are handled by those platforms under their own terms. Subscriptions renew
-automatically unless cancelled at least 24 hours before the end of the current period.
-
-## Your content
-
-Content you create in our apps belongs to you. It is stored on your device; you are responsible for
-keeping your own backups. We are not able to recover content that is lost as a result of device
-failure, app removal or operating system changes.
-
-## Disclaimer
-
-Our apps are provided "as is" and "as available", without warranties of any kind, express or implied.
-We do not warrant that the apps will be uninterrupted, error-free or fit for a particular purpose.
-
-## Limitation of liability
-
-To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, special
-or consequential damages arising from your use of, or inability to use, our apps.
-
-## Changes to these terms
-
-We may revise these Terms from time to time. Continued use of our apps after changes take effect
-constitutes acceptance of the revised Terms.
-
-## Contact
-
-Questions about these Terms? Email us at
-[spaceman.app.studio@gmail.com](mailto:spaceman.app.studio@gmail.com).
+* Developer/Team Name: Meow Apps Studio
+* Official Website: https://spacemanmeow.com/
+* Contact Email: meow@spacemanmeow.com
