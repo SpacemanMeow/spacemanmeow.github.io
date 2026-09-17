@@ -8,7 +8,7 @@
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </h2>
   <p class="post-card__excerpt">
-    {{- post.content | markdownify | strip_html | normalize_whitespace | truncate: 180 -}}
+    {{- post.content | markdownify | strip_html | normalize_whitespace | truncate: 400 -}}
   </p>
   <div class="post-card__meta">
     <span class="meta-item">

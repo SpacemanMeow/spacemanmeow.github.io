@@ -8,13 +8,22 @@ layout: default
   </div>
 </div>
 
+<div class="blog-list">
+  {%- for post in paginator.posts %}
+    <div class="blog-row">
+      <div class="container">
+        {% include post-card.html post=post %}
+      </div>
+    </div>
+  {%- else %}
+    <div class="blog-row">
+      <div class="container">
+        <p class="empty-tip">No posts yet.</p>
+      </div>
+    </div>
+  {%- endfor %}
+</div>
+
 <div class="container">
-  <div class="blog-list">
-    {%- for post in paginator.posts %}
-      {% include post-card.html post=post %}
-    {%- else %}
-      <p class="empty-tip">No posts yet.</p>
-    {%- endfor %}
-  </div>
   {% include pagination.html %}
 </div>

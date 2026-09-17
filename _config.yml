@@ -63,6 +63,9 @@ developer:
 # 内容集合
 # -------------------------------------------------------------------
 collections:
+  pages:
+    output: true
+    permalink: /:name/
   apps:
     output: true
     permalink: /apps/:name/
