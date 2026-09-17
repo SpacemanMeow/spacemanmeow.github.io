@@ -91,7 +91,7 @@ A interface principal inclui as seguintes partes principais:
 - Barra de navegação inferior: inclui quatro opções: contabilidade, estatísticas, ativos e configurações
 - Banner superior: exibe o livro atual e o resumo dos ativos
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting.jpg){: width="180" .normal }
 
 ## Funcionalidades de Contabilidade
 
@@ -108,7 +108,7 @@ As funcionalidades de contabilidade do Meow Money Manager são muito intuitivas,
 7. Adicione uma nota (opcional)
 8. Clique em confirmar para concluir a contabilidade
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_remark.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_remark.jpg){: width="180" .normal }
 
 ### Funcionalidade de Transferência
 
@@ -121,7 +121,7 @@ As funcionalidades de contabilidade do Meow Money Manager são muito intuitivas,
 7. Adicione uma nota (opcional)
 8. Clique em confirmar para concluir a transferência
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_charge.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_charge.jpg){: width="180" .normal }
 
 ## Gerenciamento de Orçamento
 
@@ -137,7 +137,7 @@ O Meow Money Manager suporta vários tipos de gerenciamento de orçamento, inclu
 6. Insira o nome do orçamento
 7. Clique em confirmar para concluir a criação do orçamento
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_period.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_category.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_amount.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_period.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_category.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_amount.jpg){: width="180" .normal }
 
 ### Rastreamento de Orçamento
 
@@ -147,7 +147,7 @@ Na página de detalhes do orçamento, você pode ver:
 - Orçamento diário médio
 - Uso do orçamento por categoria
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_detail.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_detail.jpg){: width="180" .normal }
 
 ## Estatísticas e Análise
 
@@ -163,7 +163,7 @@ O Meow Money Manager oferece várias funções de análise estatística para aju
 - **Estatísticas de gráfico de barras** : O gráfico de barras mostra receitas e gastos diários ou mensais, ajudando você a entender tendências de receitas e gastos.
 - **Exibição de calendário** : A exibição de calendário mostra receitas e gastos diários, com a profundidade da cor indicando o tamanho do valor.
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_date.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_chart.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_pie.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_hist.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_calendar.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_date.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_chart.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_pie.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_hist.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_calendar.jpg){: width="180" .normal }
 
 ## Gerenciamento de Ativos
 
@@ -179,7 +179,7 @@ O Meow Money Manager suporta o gerenciamento de vários tipos de ativos, como di
 6. Selecione o ícone do ativo
 7. Clique em confirmar para concluir a adição do ativo
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_add.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_add.jpg){: width="180" .normal }
 
 ### Detalhes do Ativo
 
@@ -188,7 +188,7 @@ Clique no ativo para acessar a página de detalhes, onde você pode ver:
 - Registros de receitas e gastos do ativo
 - Gráfico de tendências do ativo
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve_tip.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_detail.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_detail_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_curve.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_curve_tip.jpg){: width="180" .normal }
 
 ## Gerenciamento de Livros
 
@@ -202,7 +202,7 @@ O Meow Money Manager suporta a criação de vários livros para gerenciar difere
 4. Selecione o ícone do livro
 5. Clique em confirmar para concluir a criação do livro
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_filter.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_add.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_filter.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_add.jpg){: width="180" .normal }
 
 ### Trocar Livro
 
@@ -210,7 +210,7 @@ O Meow Money Manager suporta a criação de vários livros para gerenciar difere
 2. Selecione o livro que deseja usar da lista de livros pop-up
 3. Após concluir a seleção, os registros de contabilidade para esse livro serão exibidos
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_ledger.jpg){: width="180" .normal }
 
 ### Estatísticas do Livro
 
@@ -219,7 +219,7 @@ Clique no livro para acessar a página de detalhes, onde você pode ver para ess
 - Uso do orçamento
 - Registros detalhados de contabilidade
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_date.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_detail_record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_detail_stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_detail_date.jpg){: width="180" .normal }
 
 ## Transações Recorrentes
 
@@ -238,7 +238,7 @@ A funcionalidade de transações recorrentes pode ajudá-lo a registrar automati
 9. Defina a data de início e término
 10. Clique em confirmar para concluir a configuração da transação recorrente
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_type.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_select.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_cycle.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_category_type.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_category_select.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_cycle.jpg){: width="180" .normal }
 
 ### Gerenciamento de Transações Recorrentes
 
@@ -247,7 +247,7 @@ Na lista de transações recorrentes, você pode:
 - Editar ou excluir tarefas de transação recorrente
 - Acionar transações recorrentes manualmente
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_edit.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_edit.jpg){: width="180" .normal }
 
 ## Reembolso de Despesas
 
@@ -259,7 +259,7 @@ A funcionalidade de reembolso de despesas pode ajudá-lo a rastrear despesas que
 2. Preencha as outras informações de contabilidade
 3. Clique em confirmar para concluir a adição do registro de reembolso
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_reimburse.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_reimburse.jpg){: width="180" .normal }
 
 ### Gerenciamento de Reembolso
 
@@ -270,7 +270,7 @@ A funcionalidade de reembolso de despesas pode ajudá-lo a rastrear despesas que
 5. Selecione o método de reembolso (ativo)
 6. Clique em confirmar para concluir o reembolso
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_refund.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_edit.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_reimburse.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_done.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_refund.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_edit.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_reimburse.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_done.jpg){: width="180" .normal }
 
 ## Configurações
 
@@ -286,7 +286,7 @@ O Meow Money Manager oferece várias opções de configuração para ajudá-lo a
    - Configuração do primeiro dia da semana
    - Configuração do primeiro dia do mês
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_dark.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_language.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_currency_symbol.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_week_begin.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_month_begin.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_dark.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_language.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_currency_symbol.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_week_begin.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_month_begin.jpg){: width="180" .normal }
 
 ### Configurações de Privacidade
 
@@ -294,7 +294,7 @@ O Meow Money Manager oferece várias opções de configuração para ajudá-lo a
 2. Ative ou desative o bloqueio de aplicativo por impressão digital
 3. Defina a senha do aplicativo (se necessário)
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock_password.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_lock.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_lock_password.jpg){: width="180" .normal }
 
 ### Backup e Restauração
 
@@ -306,7 +306,7 @@ O Meow Money Manager oferece várias opções de configuração para ajudá-lo a
 3. Clique em "Fazer Backup Agora" para executar um backup manual
 4. Clique em "Restaurar" para restaurar dados de um arquivo de backup
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore_done.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup_restore.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup_restore_done.jpg){: width="180" .normal }
 
 ### Exportação de Dados
 
@@ -315,7 +315,7 @@ O Meow Money Manager oferece várias opções de configuração para ajudá-lo a
 3. Selecione o formato de exportação (CSV)
 4. Clique em "Exportar" para exportar dados para um arquivo
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_confirm.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_waiting.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_done.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export_confirm.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export_waiting.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export_done.jpg){: width="180" .normal }
 
 ## Perguntas Frequentes
 

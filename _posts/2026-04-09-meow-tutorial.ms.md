@@ -91,7 +91,7 @@ Antara muka utama merangkumi beberapa bahagian utama berikut:
 - Bar navigasi bawah: merangkumi empat pilihan: perakaunan, statistik, aset, dan tetapan
 - Banner atas: memaparkan buku kira semasa dan ringkasan aset
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting.jpg){: width="180" .normal }
 
 ## Ciri-ciri Perakaunan
 
@@ -108,7 +108,7 @@ Ciri-ciri perakaunan Meow Money Manager sangat intuitif, menerima sokongan tiga 
 7. Tambah nota (pilihan)
 8. Klik sahkan untuk melengkapkan perakaunan
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_remark.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_remark.jpg){: width="180" .normal }
 
 ### Ciri Pemindahan
 
@@ -121,7 +121,7 @@ Ciri-ciri perakaunan Meow Money Manager sangat intuitif, menerima sokongan tiga 
 7. Tambah nota (pilihan)
 8. Klik sahkan untuk melengkapkan pemindahan
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_charge.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_charge.jpg){: width="180" .normal }
 
 ## Pengurusan Belanjawan
 
@@ -137,7 +137,7 @@ Meow Money Manager menerima sokongan pelbagai jenis pengurusan belanjawan, terma
 6. Masukkan nama belanjawan
 7. Klik sahkan untuk melengkapkan penciptaan belanjawan
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_period.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_category.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_amount.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_period.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_category.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_amount.jpg){: width="180" .normal }
 
 ### Penjejakan Belanjawan
 
@@ -147,7 +147,7 @@ Di laman butiran belanjawan, anda boleh melihat:
 - Purata belanjawan harian
 - Penggunaan belanjawan untuk setiap kategori
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_detail.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_detail.jpg){: width="180" .normal }
 
 ## Statistik dan Analisis
 
@@ -163,7 +163,7 @@ Meow Money Manager menyediakan pelbagai fungsi analisis statistik untuk membantu
 - **Statistik carta bar** : Carta bar menunjukkan pendapatan dan perbelanjaan harian atau bulanan, membantu anda memahami trend pendapatan dan perbelanjaan.
 - **Paparan kalendar** : Paparan kalendar menunjukkan pendapatan dan perbelanjaan harian, dengan kedalaman warna menunjukkan saiz jumlah.
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_date.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_chart.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_pie.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_hist.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_calendar.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_date.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_chart.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_pie.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_hist.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_calendar.jpg){: width="180" .normal }
 
 ## Pengurusan Aset
 
@@ -179,7 +179,7 @@ Meow Money Manager menerima sokongan pengurusan pelbagai jenis aset, seperti tun
 6. Pilih ikon aset
 7. Klik sahkan untuk melengkapkan penambahan aset
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_add.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_add.jpg){: width="180" .normal }
 
 ### Butiran Aset
 
@@ -188,7 +188,7 @@ Klik pada aset untuk masuk ke laman butiran, di mana anda boleh melihat:
 - Rekod pendapatan dan perbelanjaan aset
 - Carta trend aset
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve_tip.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_detail.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_detail_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_curve.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_curve_tip.jpg){: width="180" .normal }
 
 ## Pengurusan Buku Kira
 
@@ -202,7 +202,7 @@ Meow Money Manager menerima sokongan penciptaan beberapa buku kira untuk menguru
 4. Pilih ikon buku kira
 5. Klik sahkan untuk melengkapkan penciptaan buku kira
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_filter.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_add.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_filter.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_add.jpg){: width="180" .normal }
 
 ### Tukar Buku Kira
 
@@ -210,7 +210,7 @@ Meow Money Manager menerima sokongan penciptaan beberapa buku kira untuk menguru
 2. Pilih buku kira yang anda mahu gunakan dari senarai buku kira pop-up
 3. Selepas melengkapkan pilihan, rekod perakaunan untuk buku kira itu akan dipaparkan
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_ledger.jpg){: width="180" .normal }
 
 ### Statistik Buku Kira
 
@@ -219,7 +219,7 @@ Klik pada buku kira untuk masuk ke laman butiran, di mana anda boleh melihat unt
 - Penggunaan belanjawan
 - Rekod perakaunan terperinci
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_date.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_detail_record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_detail_stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_detail_date.jpg){: width="180" .normal }
 
 ## Transaksi Berkala
 
@@ -238,7 +238,7 @@ Ciri transaksi berkala boleh membantu anda secara automatik merekod pendapatan d
 9. Tetapkan tarikh mula dan tamat
 10. Klik sahkan untuk melengkapkan tetapan transaksi berkala
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_type.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_select.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_cycle.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_category_type.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_category_select.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_cycle.jpg){: width="180" .normal }
 
 ### Pengurusan Transaksi Berkala
 
@@ -247,7 +247,7 @@ Dalam senarai transaksi berkala, anda boleh:
 - Edit atau padam tugas transaksi berkala
 - Cetus transaksi berkala secara manual
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_edit.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_edit.jpg){: width="180" .normal }
 
 ## Bayaran Balik Perbelanjaan
 
@@ -259,7 +259,7 @@ Ciri bayaran balik perbelanjaan boleh membantu anda menjejaki perbelanjaan yang 
 2. Lengkapkan maklumat perakaunan lain
 3. Klik sahkan untuk melengkapkan penambahan rekod bayaran balik
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_reimburse.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_reimburse.jpg){: width="180" .normal }
 
 ### Pengurusan Bayaran Balik
 
@@ -270,7 +270,7 @@ Ciri bayaran balik perbelanjaan boleh membantu anda menjejaki perbelanjaan yang 
 5. Pilih kaedah bayaran balik (aset)
 6. Klik sahkan untuk melengkapkan bayaran balik
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_refund.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_edit.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_reimburse.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_done.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_refund.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_edit.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_reimburse.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_done.jpg){: width="180" .normal }
 
 ## Tetapan
 
@@ -286,7 +286,7 @@ Meow Money Manager menyediakan pelbagai pilihan tetapan untuk membantu anda meny
    - Tetapan hari permulaan minggu
    - Tetapan hari permulaan bulan
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_dark.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_language.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_currency_symbol.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_week_begin.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_month_begin.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_dark.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_language.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_currency_symbol.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_week_begin.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_month_begin.jpg){: width="180" .normal }
 
 ### Tetapan Privasi
 
@@ -294,7 +294,7 @@ Meow Money Manager menyediakan pelbagai pilihan tetapan untuk membantu anda meny
 2. Aktifkan atau nyahaktifkan kunci aplikasi cap jari
 3. Tetapkan kata laluan aplikasi (jika diperlukan)
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock_password.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_lock.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_lock_password.jpg){: width="180" .normal }
 
 ### Sandaran dan Pemulihan
 
@@ -306,7 +306,7 @@ Meow Money Manager menyediakan pelbagai pilihan tetapan untuk membantu anda meny
 3. Klik "Sandar Sekarang" untuk melakukan sandaran manual
 4. Klik "Pulihkan" untuk memulihkan data dari fail sandaran
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore_done.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup_restore.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup_restore_done.jpg){: width="180" .normal }
 
 ### Eksport Data
 
@@ -315,7 +315,7 @@ Meow Money Manager menyediakan pelbagai pilihan tetapan untuk membantu anda meny
 3. Pilih format eksport (CSV)
 4. Klik "Eksport" untuk mengeksport data ke fail
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_confirm.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_waiting.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_done.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export_confirm.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export_waiting.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export_done.jpg){: width="180" .normal }
 
 ## Soalan Lazim
 

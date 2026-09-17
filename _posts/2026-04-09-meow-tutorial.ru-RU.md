@@ -91,7 +91,7 @@ Meow Money Manager — это милое бухгалтерское прилож
 - Нижняя панель навигации: включает четыре опции: бухгалтерия, статистика, активы и настройки
 - Верхний баннер: отображает текущую книгу и сводку активов
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting.jpg){: width="180" .normal }
 
 ## Функции бухгалтерии
 
@@ -108,7 +108,7 @@ Meow Money Manager — это милое бухгалтерское прилож
 7. Добавьте заметку (необязательно)
 8. Нажмите подтвердить, чтобы завершить бухгалтерию
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_remark.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_remark.jpg){: width="180" .normal }
 
 ### Функция перевода
 
@@ -121,7 +121,7 @@ Meow Money Manager — это милое бухгалтерское прилож
 7. Добавьте заметку (необязательно)
 8. Нажмите подтвердить, чтобы завершить перевод
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_charge.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_charge.jpg){: width="180" .normal }
 
 ## Управление бюджетом
 
@@ -137,7 +137,7 @@ Meow Money Manager поддерживает различные типы упра
 6. Введите название бюджета
 7. Нажмите подтвердить, чтобы завершить создание бюджета
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_period.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_category.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_amount.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_period.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_category.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_amount.jpg){: width="180" .normal }
 
 ### Отслеживание бюджета
 
@@ -147,7 +147,7 @@ Meow Money Manager поддерживает различные типы упра
 - Средний дневной бюджет
 - Использование бюджета по категориям
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_detail.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_detail.jpg){: width="180" .normal }
 
 ## Статистика и анализ
 
@@ -163,7 +163,7 @@ Meow Money Manager предоставляет различные функции 
 - **Статистика столбчатой диаграммы** : Столбчатая диаграмма показывает дневные или месячные доходы и расходы, помогая вам понять тенденции доходов и расходов.
 - **Календарный просмотр** : Календарный просмотр показывает дневные доходы и расходы, с глубиной цвета, указывающей размер суммы.
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_date.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_chart.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_pie.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_hist.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_calendar.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_date.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_chart.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_pie.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_hist.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_calendar.jpg){: width="180" .normal }
 
 ## Управление активами
 
@@ -179,7 +179,7 @@ Meow Money Manager поддерживает управление различн�
 6. Выберите иконку актива
 7. Нажмите подтвердить, чтобы завершить добавление актива
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_add.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_add.jpg){: width="180" .normal }
 
 ### Детали актива
 
@@ -188,7 +188,7 @@ Meow Money Manager поддерживает управление различн�
 - Записи доходов и расходов актива
 - Диаграмма тенденций актива
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve_tip.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_detail.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_detail_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_curve.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_curve_tip.jpg){: width="180" .normal }
 
 ## Управление книгами
 
@@ -202,7 +202,7 @@ Meow Money Manager поддерживает создание нескольки�
 4. Выберите иконку книги
 5. Нажмите подтвердить, чтобы завершить создание книги
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_filter.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_add.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_filter.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_add.jpg){: width="180" .normal }
 
 ### Сменить книгу
 
@@ -210,7 +210,7 @@ Meow Money Manager поддерживает создание нескольки�
 2. Выберите книгу, которую вы хотите использовать, из всплывающего списка книг
 3. После завершения выбора будут отображаться записи бухгалтерии для этой книги
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_ledger.jpg){: width="180" .normal }
 
 ### Статистика книги
 
@@ -219,7 +219,7 @@ Meow Money Manager поддерживает создание нескольки�
 - Использование бюджета
 - Подробные записи бухгалтерии
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_date.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_detail_record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_detail_stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_detail_date.jpg){: width="180" .normal }
 
 ## Повторяющиеся транзакции
 
@@ -238,7 +238,7 @@ Meow Money Manager поддерживает создание нескольки�
 9. Установите даты начала и окончания
 10. Нажмите подтвердить, чтобы завершить настройку повторяющейся транзакции
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_type.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_select.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_cycle.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_category_type.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_category_select.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_cycle.jpg){: width="180" .normal }
 
 ### Управление повторяющимися транзакциями
 
@@ -247,7 +247,7 @@ Meow Money Manager поддерживает создание нескольки�
 - Редактировать или удалить задачи повторяющихся транзакций
 - Вручную запустить повторяющиеся транзакции
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_edit.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_edit.jpg){: width="180" .normal }
 
 ## Возмещение расходов
 
@@ -259,7 +259,7 @@ Meow Money Manager поддерживает создание нескольки�
 2. Заполните другую информацию о бухгалтерии
 3. Нажмите подтвердить, чтобы завершить добавление записи о возмещении
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_reimburse.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_reimburse.jpg){: width="180" .normal }
 
 ### Управление возмещением
 
@@ -270,7 +270,7 @@ Meow Money Manager поддерживает создание нескольки�
 5. Выберите метод возмещения (актив)
 6. Нажмите подтвердить, чтобы завершить возмещение
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_refund.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_edit.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_reimburse.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_done.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_refund.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_edit.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_reimburse.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_done.jpg){: width="180" .normal }
 
 ## Настройки
 
@@ -286,7 +286,7 @@ Meow Money Manager предоставляет различные парамет�
    - Настройка первого дня недели
    - Настройка первого дня месяца
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_dark.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_language.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_currency_symbol.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_week_begin.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_month_begin.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_dark.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_language.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_currency_symbol.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_week_begin.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_month_begin.jpg){: width="180" .normal }
 
 ### Настройки конфиденциальности
 
@@ -294,7 +294,7 @@ Meow Money Manager предоставляет различные парамет�
 2. Включите или отключите блокировку приложения отпечатком пальца
 3. Установите пароль приложения (если необходимо)
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock_password.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_lock.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_lock_password.jpg){: width="180" .normal }
 
 ### Резервное копирование и восстановление
 
@@ -306,7 +306,7 @@ Meow Money Manager предоставляет различные парамет�
 3. Нажмите "Сделать резервную копию сейчас" для выполнения ручного резервного копирования
 4. Нажмите "Восстановить" для восстановления данных из файла резервной копии
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore_done.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup_restore.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup_restore_done.jpg){: width="180" .normal }
 
 ### Экспорт данных
 
@@ -315,7 +315,7 @@ Meow Money Manager предоставляет различные парамет�
 3. Выберите формат экспорта (CSV)
 4. Нажмите "Экспортировать" для экспорта данных в файл
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_confirm.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_waiting.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_done.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export_confirm.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export_waiting.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export_done.jpg){: width="180" .normal }
 
 ## Часто задаваемые вопросы
 

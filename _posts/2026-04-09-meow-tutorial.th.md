@@ -91,7 +91,7 @@ Meow Money Manager เป็นแอปพลิเคชันการบั�
 - แถบนำทางด้านล่าง: ประกอบด้วยตัวเลือกสี่รายการ: การบัญชี สถิติ ทรัพย์สิน และการตั้งค่า
 - แบนเนอร์ด้านบน: แสดงสมุดรายการปัจจุบันและสรุปทรัพย์สิน
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting.jpg){: width="180" .normal }
 
 ## คุณสมบัติการบัญชี
 
@@ -108,7 +108,7 @@ Meow Money Manager เป็นแอปพลิเคชันการบั�
 7. เพิ่มโน๊ต (ตัวเลือก)
 8. คลิกยืนยันเพื่อเสร็จสิ้นการบัญชี
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_remark.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_remark.jpg){: width="180" .normal }
 
 ### คุณสมบัติการโอน
 
@@ -121,7 +121,7 @@ Meow Money Manager เป็นแอปพลิเคชันการบั�
 7. เพิ่มโน๊ต (ตัวเลือก)
 8. คลิกยืนยันเพื่อเสร็จสิ้นการโอน
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_charge.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_charge.jpg){: width="180" .normal }
 
 ## การจัดการงบประมาณ
 
@@ -137,7 +137,7 @@ Meow Money Manager รองรับการจัดการงบประ�
 6. ป้อนชื่องบประมาณ
 7. คลิกยืนยันเพื่อเสร็จสิ้นการสร้างงบประมาณ
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_period.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_category.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_amount.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_period.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_category.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_amount.jpg){: width="180" .normal }
 
 ### ติดตามงบประมาณ
 
@@ -147,7 +147,7 @@ Meow Money Manager รองรับการจัดการงบประ�
 - งบประมาณเฉลี่ยรายวัน
 - การใช้งานงบประมาณตามหมวดหมู่
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/budget_add_detail.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/budget_add_detail.jpg){: width="180" .normal }
 
 ## สถิติและการวิเคราะห์
 
@@ -163,7 +163,7 @@ Meow Money Manager มีฟังก์ชันการวิเคราะ�
 - **สถิติแผนภูมิแท่ง** : แผนภูมิแท่งแสดงรายได้และการใช้จ่ายรายวันหรือรายเดือน ช่วยให้คุณเข้าใจแนวโน้มของรายได้และการใช้จ่าย
 - **การแสดงปฏิทิน** : การแสดงปฏิทินแสดงรายได้และการใช้จ่ายรายวัน ด้วยความลึกของสีที่แสดงขนาดของจำนวนเงิน
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_date.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_chart.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_pie.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_hist.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/stats_calendar.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_date.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_chart.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_pie.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_hist.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/stats_calendar.jpg){: width="180" .normal }
 
 ## การจัดการทรัพย์สิน
 
@@ -179,7 +179,7 @@ Meow Money Manager รองรับการจัดการทรัพย�
 6. เลือกไอคอนทรัพย์สิน
 7. คลิกยืนยันเพื่อเสร็จสิ้นการเพิ่มทรัพย์สิน
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_add.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_add.jpg){: width="180" .normal }
 
 ### รายละเอียดทรัพย์สิน
 
@@ -188,7 +188,7 @@ Meow Money Manager รองรับการจัดการทรัพย�
 - บันทึกรายได้และการใช้จ่ายของทรัพย์สิน
 - แผนภูมิแนวโน้มของทรัพย์สิน
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_detail_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/assets_curve_tip.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_detail.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_detail_transfer.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_curve.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/assets_curve_tip.jpg){: width="180" .normal }
 
 ## การจัดการสมุดรายการ
 
@@ -202,7 +202,7 @@ Meow Money Manager รองรับการสร้างสมุดรา�
 4. เลือกไอคอนสมุดรายการ
 5. คลิกยืนยันเพื่อเสร็จสิ้นการสร้างสมุดรายการ
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_filter.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_add.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_filter.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_add.jpg){: width="180" .normal }
 
 ### สลับสมุดรายการ
 
@@ -210,7 +210,7 @@ Meow Money Manager รองรับการสร้างสมุดรา�
 2. เลือกสมุดรายการที่คุณต้องการใช้จากรายการสมุดรายการแบบป๊อปอัป
 3. หลังจากเลือกเสร็จ บันทึกการบัญชีสำหรับสมุดรายการนั้นจะแสดง
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_ledger.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_ledger.jpg){: width="180" .normal }
 
 ### สถิติของสมุดรายการ
 
@@ -219,7 +219,7 @@ Meow Money Manager รองรับการสร้างสมุดรา�
 - การใช้งานงบประมาณ
 - บันทึกการบัญชีรายละเอียด
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/ledger_detail_date.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_detail_record.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_detail_stats.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/ledger_detail_date.jpg){: width="180" .normal }
 
 ## ธุรกรรมที่เกิดซ้ำ
 
@@ -238,7 +238,7 @@ Meow Money Manager รองรับการสร้างสมุดรา�
 9. ตั้งค่าวันเริ่มต้นและวันสิ้นสุด
 10. คลิกยืนยันเพื่อเสร็จสิ้นตั้งค่าธุรกรรมที่เกิดซ้ำ
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_type.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_category_select.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_add_cycle.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_category_type.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_category_select.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_assets.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_ledger.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_add_cycle.jpg){: width="180" .normal }
 
 ### การจัดการธุรกรรมที่เกิดซ้ำ
 
@@ -247,7 +247,7 @@ Meow Money Manager รองรับการสร้างสมุดรา�
 - แก้ไขหรือลบงานของธุรกรรมที่เกิดซ้ำ
 - เรียกใช้ธุรกรรมที่เกิดซ้ำด้วยตนเอง
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/recurring_edit.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/recurring_edit.jpg){: width="180" .normal }
 
 ## การคืนเงินค่าใช้จ่าย
 
@@ -259,7 +259,7 @@ Meow Money Manager รองรับการสร้างสมุดรา�
 2. เติมข้อมูลการบัญชีอื่นๆ
 3. คลิกยืนยันเพื่อเสร็จสิ้นการเพิ่มบันทึกการคืนเงิน
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/record_add_reimburse.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/record_add_reimburse.jpg){: width="180" .normal }
 
 ### การจัดการการคืนเงิน
 
@@ -270,7 +270,7 @@ Meow Money Manager รองรับการสร้างสมุดรา�
 5. เลือกวิธีการคืน (ทรัพย์สิน)
 6. คลิกยืนยันเพื่อเสร็จสิ้นการคืนเงิน
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_refund.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_edit.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_reimburse.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/reimburse_done.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_manage.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_refund.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_edit.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_reimburse.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/reimburse_done.jpg){: width="180" .normal }
 
 ## การตั้งค่า
 
@@ -286,7 +286,7 @@ Meow Money Manager มีตัวเลือกการตั้งค่า�
    - การตั้งค่าวันแรกของสัปดาห์
    - การตั้งค่าวันแรกของเดือน
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_dark.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_language.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_currency_symbol.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_week_begin.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_month_begin.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_dark.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_language.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_currency_symbol.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_week_begin.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_month_begin.jpg){: width="180" .normal }
 
 ### การตั้งค่าความเป็นส่วนตัว
 
@@ -294,7 +294,7 @@ Meow Money Manager มีตัวเลือกการตั้งค่า�
 2. เปิดหรือปิดล็อกแอปพลิเคันด้วยลายนิ้วมือ
 3. ตั้งรหัสผ่านของแอปพลิเคชัน (ถ้าเป็นไปได้)
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_lock_password.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_lock.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_lock_password.jpg){: width="180" .normal }
 
 ### การสำรองและกู้คืน
 
@@ -306,7 +306,7 @@ Meow Money Manager มีตัวเลือกการตั้งค่า�
 3. คลิก "สำรองข้อมูลตอนนี้" เพื่อทำการสำรองด้วยตนเอง
 4. คลิก "กู้คืน" เพื่อกู้คืนข้อมูลจากไฟล์สำรอง
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_backup_restore_done.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup_backup.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup_restore.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_backup_restore_done.jpg){: width="180" .normal }
 
 ### ส่งออกข้อมูล
 
@@ -315,7 +315,7 @@ Meow Money Manager มีตัวเลือกการตั้งค่า�
 3. เลือกรูปแบบส่งออก (CSV)
 4. คลิก "ส่งออก" เพื่อส่งออกข้อมูลไปยังไฟล์
 
-![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_confirm.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_waiting.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/meow/setting_export_done.jpg){: width="180" .normal }
+![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export_confirm.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export_waiting.jpg){: width="180" .normal } ![image](https://cdn.jsdelivr.net/gh/spacemanmeow/spacemanmeow.github.io@main/assets/images/blog/setting_export_done.jpg){: width="180" .normal }
 
 ## คำถามที่พบบ่อย
 

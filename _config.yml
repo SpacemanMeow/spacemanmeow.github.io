@@ -22,21 +22,21 @@ url: "https://spacemanmeow.github.io"
 baseurl: ""
 
 # 头像 / 站点图标
-avatar: /assets/images/avatar.png
-favicon: /assets/img/favicons/favicon-96x96.jpg
-apple_touch_icon: /assets/img/favicons/apple-touch-icon.jpg
+avatar: /assets/images/favicons/avatar.png
+favicon: /assets/images/favicons/favicon-96x96.jpg
+apple_touch_icon: /assets/images/favicons/apple-touch-icon.jpg
 
 # SEO / 社交信息（footer 底部显示的链接）
 social:
   name: SpacemanMeow
-  email: spaceman.app.studio@gmail.com
+  email: meow@spacemanmeow.com
   links:
     - name: Privacy Policy
       url: /privacy/
     - name: Terms of Use
       url: /terms/
     - name: Email
-      url: mailto:spaceman.app.studio@gmail.com
+      url: mailto:meow@spacemanmeow.com
 
 # 站点验证（可选）
 webmaster_verifications:
@@ -49,15 +49,15 @@ webmaster_verifications:
 # -------------------------------------------------------------------
 developer:
   title: Developer Page
-  logo: /assets/images/avatar.png
+  logo: /assets/images/favicons/avatar.png
   description: >-
     We are committed to creating aesthetically pleasing and powerful mobile applications
     for both iOS and Android platforms. We have already launched a number of outstanding
     applications, and we truly appreciate your attention. Your support is our greatest
     motivation to keep moving forward.
   # 开发者主页（点击页脚按钮跳转）。留空则不显示对应按钮。
-  google_play: https://play.google.com/store/apps/developer?id=Meow+Apps+Studio
-  app_store: https://apps.apple.com/us/developer/spacemanmeow/id1528852284
+  google_play: https://play.google.com/store/apps/dev?id=9089535463678444622
+  app_store: https://apps.apple.com/us/developer/%E5%A2%83-%E9%AB%98/id1528847758
 
 # -------------------------------------------------------------------
 # 内容集合
