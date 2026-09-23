@@ -5,7 +5,7 @@
 # ===================================================================
 title: Meow Todo List & Task # 应用名称（列表页 & 详情页标题）
 tagline: Meow Todo schedule planner & to-do list task manager # 一句话简介
-icon: /assets/images/apps/meow-todo-list/icon.png # 应用图标（建议 512x512 png）
+icon: /assets/images/apps/meow-todo-list/icon.webp # 应用图标（建议 512x512 png）
 series: Meow # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 2 # 列表页排序，数字越小越靠前
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.money.task.todo.list.meow # 留空则不显示 Google Play 按钮
@@ -13,15 +13,15 @@ app_store: https://apps.apple.com/app/id6742345495 # 留空则不显示 App Stor
 
 # 详情页顶部横向滚动的截图
 screenshots:
-  - image: /assets/images/apps/meow-todo-list/1.png
-  - image: /assets/images/apps/meow-todo-list/widget.png
-  - image: /assets/images/apps/meow-todo-list/2.png
-  - image: /assets/images/apps/meow-todo-list/3.png
-  - image: /assets/images/apps/meow-todo-list/4.png
-  - image: /assets/images/apps/meow-todo-list/5.png
-  - image: /assets/images/apps/meow-todo-list/6.png
-  - image: /assets/images/apps/meow-todo-list/7.png
-  - image: /assets/images/apps/meow-todo-list/8.png
+  - image: /assets/images/apps/meow-todo-list/1.webp
+  - image: /assets/images/apps/meow-todo-list/widget.webp
+  - image: /assets/images/apps/meow-todo-list/2.webp
+  - image: /assets/images/apps/meow-todo-list/3.webp
+  - image: /assets/images/apps/meow-todo-list/4.webp
+  - image: /assets/images/apps/meow-todo-list/5.webp
+  - image: /assets/images/apps/meow-todo-list/6.webp
+  - image: /assets/images/apps/meow-todo-list/7.webp
+  - image: /assets/images/apps/meow-todo-list/8.webp
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->

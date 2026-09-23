@@ -5,7 +5,7 @@
 # ===================================================================
 title: Meow FM - White Noise # 应用名称（列表页 & 详情页标题）
 tagline: White noise for sleep, relax & concentrate at work or study. # 一句话简介
-icon: /assets/images/apps/meow-fm/icon.png # 应用图标（建议 512x512 png）
+icon: /assets/images/apps/meow-fm/icon.webp # 应用图标（建议 512x512 png）
 series: Meow # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 5 # 列表页排序，数字越小越靠前
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.whitenoise.relax.night.sleep.meow # 留空则不显示 Google Play 按钮
@@ -13,15 +13,15 @@ app_store: https://apps.apple.com/app/id1606715188 # 留空则不显示 App Stor
 
 # 详情页顶部横向滚动的截图
 screenshots:
-  - image: /assets/images/apps/meow-fm/widget.png
-  - image: /assets/images/apps/meow-fm/1.png
-  - image: /assets/images/apps/meow-fm/2.png
-  - image: /assets/images/apps/meow-fm/3.png
-  - image: /assets/images/apps/meow-fm/4.png
-  - image: /assets/images/apps/meow-fm/5.png
-  - image: /assets/images/apps/meow-fm/6.png
-  - image: /assets/images/apps/meow-fm/7.png
-  - image: /assets/images/apps/meow-fm/8.png
+  - image: /assets/images/apps/meow-fm/widget.webp
+  - image: /assets/images/apps/meow-fm/1.webp
+  - image: /assets/images/apps/meow-fm/2.webp
+  - image: /assets/images/apps/meow-fm/3.webp
+  - image: /assets/images/apps/meow-fm/4.webp
+  - image: /assets/images/apps/meow-fm/5.webp
+  - image: /assets/images/apps/meow-fm/6.webp
+  - image: /assets/images/apps/meow-fm/7.webp
+  - image: /assets/images/apps/meow-fm/8.webp
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->

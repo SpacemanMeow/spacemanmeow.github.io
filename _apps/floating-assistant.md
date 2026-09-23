@@ -5,7 +5,7 @@
 # ===================================================================
 title: Floating Assistant # 应用名称（列表页 & 详情页标题）
 tagline: Including assistive touch, floating clock and floating monitor # 一句话简介
-icon: /assets/images/apps/floating-assistant/icon.png # 应用图标（建议 512x512 png）
+icon: /assets/images/apps/floating-assistant/icon.webp # 应用图标（建议 512x512 png）
 series: # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 10 # 列表页排序，数字越小越靠前
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.floating.apps.assistive.touch.pro # 留空则不显示 Google Play 按钮
@@ -13,13 +13,13 @@ app_store: # 留空则不显示 App Store 按钮
 
 # 详情页顶部横向滚动的截图
 screenshots:
-  - image: /assets/images/apps/floating-assistant/1.png
-  - image: /assets/images/apps/floating-assistant/2.png
-  - image: /assets/images/apps/floating-assistant/3.png
-  - image: /assets/images/apps/floating-assistant/4.png
-  - image: /assets/images/apps/floating-assistant/5.png
-  - image: /assets/images/apps/floating-assistant/6.png
-  - image: /assets/images/apps/floating-assistant/7.png
+  - image: /assets/images/apps/floating-assistant/1.webp
+  - image: /assets/images/apps/floating-assistant/2.webp
+  - image: /assets/images/apps/floating-assistant/3.webp
+  - image: /assets/images/apps/floating-assistant/4.webp
+  - image: /assets/images/apps/floating-assistant/5.webp
+  - image: /assets/images/apps/floating-assistant/6.webp
+  - image: /assets/images/apps/floating-assistant/7.webp
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
