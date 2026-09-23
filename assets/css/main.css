@@ -288,6 +288,115 @@ main { display: block; padding-bottom: 72px; }
 /* 详情页更大尺寸 */
 .shots--lg .shot { flex: 0 0 240px; }
 
+/* 截图可点击预览 */
+.shot__zoom {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: var(--card);
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  cursor: zoom-in;
+  border-radius: 9px;
+  overflow: hidden;
+  transition: transform .16s ease;
+}
+.shot__zoom:hover { transform: scale(1.03); }
+
+/* ---------- 截图点击预览 Lightbox ---------- */
+body.no-scroll { overflow: hidden; }
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  background: rgba(15, 18, 24, .85);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .22s ease, visibility .22s ease;
+}
+.lightbox.is-open { opacity: 1; visibility: visible; }
+
+.lightbox__stage {
+  margin: 0;
+  max-width: min(92vw, 1100px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  transform: scale(.96);
+  transition: transform .22s ease;
+}
+.lightbox.is-open .lightbox__stage { transform: scale(1); }
+
+.lightbox__img {
+  max-width: 100%;
+  max-height: 78vh;
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, .45);
+}
+
+.lightbox__caption {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  opacity: .85;
+}
+.lightbox__caption[hidden] { display: none; }
+
+.lightbox__close,
+.lightbox__nav {
+  position: absolute;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .14);
+  color: #fff;
+  cursor: pointer;
+  transition: background .16s ease, transform .16s ease;
+}
+.lightbox__close:hover,
+.lightbox__nav:hover { background: rgba(255, 255, 255, .28); }
+
+.lightbox__close {
+  top: 18px;
+  right: 18px;
+  width: 44px;
+  height: 44px;
+  font-size: 26px;
+  line-height: 1;
+}
+.lightbox__close:hover { transform: scale(1.06); }
+
+.lightbox__nav {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  font-size: 30px;
+}
+.lightbox__nav:hover { transform: translateY(-50%) scale(1.06); }
+.lightbox__nav--prev { left: 18px; }
+.lightbox__nav--next { right: 18px; }
+.lightbox__nav[hidden] { display: none; }
+
+@media (max-width: 600px) {
+  .lightbox { padding: 12px; }
+  .lightbox__nav { width: 40px; height: 40px; font-size: 24px; }
+  .lightbox__close { top: 12px; right: 12px; }
+}
+
 /* ------------------------------------------------------------------
    6. 应用列表行（Home / Meow）：白 / 暗 交替，扁平无卡片阴影
    ------------------------------------------------------------------ */

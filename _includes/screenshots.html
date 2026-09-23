@@ -16,10 +16,11 @@
 
   <div class="shots__track">
     {%- for shot in items %}
+    {%- capture _shot_caption %}{%- if shot.title -%}{{ shot.title }}{%- if shot.subtitle %} — {{ shot.subtitle }}{%- endif -%}{%- elsif shot.subtitle -%}{{ shot.subtitle }}{%- endif -%}{%- endcapture -%}
     <figure class="shot">
-      <div class="shot__frame">
+      <button type="button" class="shot__frame shot__zoom" data-shots-item data-index="{{ forloop.index0 }}" data-full="{{ shot.image | relative_url }}" data-caption="{{ _shot_caption | strip | escape }}" aria-label="Preview screenshot">
         <img class="shot__img" src="{{ shot.image | relative_url }}" alt="{{ shot.alt | default: 'App screenshot' | escape }}" loading="lazy" />
-      </div>
+      </button>
     </figure>
     {%- endfor %}
   </div>
