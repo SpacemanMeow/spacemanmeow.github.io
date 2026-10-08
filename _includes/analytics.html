@@ -1,0 +1,9 @@
+{%- comment -%}
+  数据统计脚本（GoatCounter，匿名统计，不使用 Cookie）
+  开关与代码在 _config.yml 的 goatcounter_code，留空则不加载
+{%- endcomment -%}
+{%- assign _gc = site.goatcounter_code | default: "" | strip -%}
+{%- if _gc and _gc.size > 0 -%}
+<script data-goatcounter="https://{{ site.goatcounter_code }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+{%- endif -%}
