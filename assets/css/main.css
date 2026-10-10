@@ -502,11 +502,12 @@ body.no-scroll { overflow: hidden; }
 }
 
 /* FAQ 区块（详情页底部，与 FAQPage 结构化数据对应） */
-.app-faq { max-width: 820px; margin: var(--space-9) auto 0; padding-top: var(--space-9); border-top: 1px solid #e6e6e6; }
-.app-faq__title { font-size: var(--fs-xl); color: var(--text-head); margin: 0 0 var(--space-7); }
+/* 字体/字号/字重与 .app-content 正文保持一致，标题配色对齐正文 h3（品牌橙） */
+.app-faq { font-family: var(--font); max-width: 820px; margin: var(--space-9) auto 0; padding-top: var(--space-9); border-top: 1px solid #e6e6e6; }
+.app-faq__title { font-family: var(--font); font-size: var(--fs-xl); color: var(--text-head); font-weight: var(--fw-head); margin: 0 0 var(--space-7); }
 .app-faq__list { display: grid; gap: var(--space-8); }
-.app-faq__q { font-size: var(--fs-md); line-height: 1.4; color: var(--text-head); margin: 0 0 var(--space-3); }
-.app-faq__a { color: var(--text-body); font-size: var(--fs-md); line-height: 1.7; margin: 0; }
+.app-faq__q { font-family: var(--font); font-size: var(--fs-md); line-height: 1.4; color: var(--accent-strong); font-weight: var(--fw-head); margin: 0 0 var(--space-3); }
+.app-faq__a { font-family: var(--font); color: var(--text-body); font-size: var(--fs-md); line-height: 1.75; font-weight: var(--fw-body); margin: 0; }
 .app-content blockquote {
   margin: var(--space-6) 0;
   padding: var(--space-4) var(--space-6);
