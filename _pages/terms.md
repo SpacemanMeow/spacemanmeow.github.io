@@ -3,6 +3,8 @@ layout: page
 title: Terms of Use
 subtitle: Welcome to Meow Family! These Terms of Service ("Terms") govern your use of the Meow Family series of applications and related services (collectively, the "Service"). By downloading, installing, or using the Service, you agree to be bound by these Terms. If you do not agree, please do not use the Service.
 permalink: /terms/
+seo:
+  type: WebPage
 ---
 
 _Last updated: September 16, 2026_

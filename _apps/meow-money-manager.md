@@ -5,8 +5,9 @@
 # ===================================================================
 title: Meow Money Manager # 应用名称（列表页 & 详情页标题）
 tagline: Cat-Themed Expense Tracking & Budget Management App # 一句话简介
-description: "Meow Money Manager is a cute cat-themed expense tracker & budget app for Android and iOS. Track income, expenses, ledgers and budgets with fingerprint lock and multi-currency support."
+description: "Meow Money Manager is a cute cat-themed expense tracker and budget app for Android and iOS. Track income, expenses, ledgers and budgets with fingerprint lock and multi-currency support."
 icon: /assets/images/apps/meow-money-manager/icon.webp # 应用图标（建议 512x512 png）
+image: /assets/images/apps/meow-money-manager/icon.webp
 series: Meow # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 1 # 列表页排序，数字越小越靠前
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow # 留空则不显示 Google Play 按钮

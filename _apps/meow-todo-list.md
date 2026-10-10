@@ -3,10 +3,11 @@
 #  应用详情页数据 —— 照着这个模板复制一份改一改，就是一个新应用
 #  修改 front matter 里的字段即可，正文用 markdown 写应用介绍
 # ===================================================================
-title: Meow Todo List & Task # 应用名称（列表页 & 详情页标题）
+title: Meow Todo List and Task # 应用名称（列表页 & 详情页标题）
 tagline: Meow Todo schedule planner & to-do list task manager # 一句话简介
-description: "Meow Todo List is a simple schedule planner & to-do list task manager for Android and iOS. Organize tasks, reminders and daily plans with a clean, cute interface."
+description: "Meow Todo List is a simple schedule planner and to-do list task manager for Android and iOS. Organize tasks, reminders and daily plans with a clean, cute interface."
 icon: /assets/images/apps/meow-todo-list/icon.webp # 应用图标（建议 512x512 png）
+image: /assets/images/apps/meow-todo-list/icon.webp
 series: Meow # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 2 # 列表页排序，数字越小越靠前
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.money.task.todo.list.meow # 留空则不显示 Google Play 按钮

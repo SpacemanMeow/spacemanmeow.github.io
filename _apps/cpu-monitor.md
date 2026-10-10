@@ -5,8 +5,9 @@
 # ===================================================================
 title: CPU Monitor - temperature # 应用名称（列表页 & 详情页标题）
 tagline: Monitor the CPU temperature and frequency real time # 一句话简介
-description: "CPU Monitor shows real-time CPU temperature & frequency, RAM, battery and multicore usage on Android, with floating window, widgets, one-tap boost and overheat alarm."
+description: "CPU Monitor shows real-time CPU temperature and frequency, RAM, battery and multicore usage on Android, with floating window, widgets, one-tap boost and overheat alarm."
 icon: /assets/images/apps/cpu-monitor/icon.webp # 应用图标（建议 512x512 png）
+image: /assets/images/apps/cpu-monitor/icon.webp
 series: # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 11 # 列表页排序，数字越小越靠前
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.stark # 留空则不显示 Google Play 按钮

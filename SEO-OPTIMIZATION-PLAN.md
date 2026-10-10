@@ -171,7 +171,7 @@ AI 应用内搜索本质 = 抓取已索引的可信网页并抽取事实。杠�
 |---|---|---|---|---|
 | T-01 | 安装 jekyll-sitemap，生成 sitemap.xml | ✅ | 2026-10-10 | jekyll-sitemap 原本已在 Gemfile/_config 声明；修正 `url` 为 `https://spacemanmeow.com`（原误用 github.io），本地构建已生成 sitemap.xml |
 | T-02 | 新增 robots.txt | ✅ | 2026-10-10 | 根目录创建，Allow 全站并指向 sitemap |
-| T-03 | Google Search Console 验证 + 提交 sitemap | ⏳ 需手动 | | 见下方「T-03 操作指引」；`_config.yml` 已配 `webmaster_verifications.google`，部署后页面含验证 meta 标签 |
+| T-03 | Google Search Console 验证 + 提交 sitemap | ✅ | 2026-10-10 | 用户已完成验证并线上提交 sitemap；线上 `sitemap.xml`/`robots.txt`/验证 meta 均已确认 200/生效（提交后「无法抓取」为 SC 状态延迟，72h 后自动转成功） |
 | T-04 | 11 个 app 补 `description` 字段 | ✅ | 2026-10-10 | 每个 app front matter 已加 150–160 字符、含主词的 description |
 | T-05 | app 页注入 SoftwareApplication JSON-LD | ✅ | 2026-10-10 | 新增 `_includes/app-jsonld.html` 并接入 `app.html`；11 页全部校验 JSON 合法 |
 | T-06 | app 页注入 FAQPage JSON-LD + 可见 FAQ 区块 | ✅ | 2026-10-10 | 11 个 app 均已加 `faq:` 数据（4 问/页，含目标关键词）；`app.html` 新增可见 FAQ 渲染，`app-jsonld.html` 已注入 FAQPage；本地构建校验 JSON 全部合法、11 页全覆盖 |
@@ -184,15 +184,17 @@ AI 应用内搜索本质 = 抓取已索引的可信网页并抽取事实。杠�
 5. 提交后等待 Google 抓取（通常数小时到数天），可在「网址检查」中测试单个 app 页
 
 ### 已知问题 / 后续注意
-- jekyll-seo-tag 在 app 页会额外输出 `BlogPosting` 类型 JSON-LD，当 description 含 `&` 时会被转义成 `&amp;`（非法 JSON）。当前以 app 页的 `SoftwareApplication` 块为准（已校验合法）；如需彻底修复，可在 `app.html` 覆盖 `{% seo %` 或关闭自动类型。列入后续观察项。
-- `url` 已从 `github.io` 改为 `spacemanmeow.com`，部署后请确认线上 canonical / sitemap 均为该域名。
-- 注意：Phase 1 的修改尚未推送到远程仓库与部署，需在本地验证满意后提交并触发 Actions 部署，Search Console 才能抓到新 sitemap / 结构化数据。
-| T-07 | 列表/详情注入 BreadcrumbList JSON-LD | ☐ | | |
-| T-08 | 博客文章注入 Article/BlogPosting JSON-LD | ☐ | | |
-| T-09 | 图片 alt 改为含关键词描述 | ☐ | | |
-| T-10 | 确认 canonical 生效 | ☐ | | |
-| T-11 | 加 hreflang="en" | ☐ | | |
-| T-12 | OG/Twitter 卡片图按 app 区分 | ☐ | | |
+- **seo-tag 误判 + 非法 JSON 已修复（2026-10-10）**：原 `jekyll-seo-tag` 给无日期页填构建时间当 `date`，把 app/隐私/条款页误标为 `BlogPosting`；且 description/title 里的 `&` 被转成 `&amp;` 塞进 JSON-LD（非法，Google 会丢弃该块）。修复方式：① 所有含 `&` 的 app `description`/`title` 改为 `and`；② `_config.yml` 的 apps 默认加 `seo.type: WebPage`、`privacy.md`/`terms.md` 加 `seo.type: WebPage`，强制类型正确；③ 我们的 `SoftwareApplication`/`FAQPage`/`BreadcrumbList` 仍由 `app-jsonld.html` 正确提供。构建校验：全站 JSON-LD 已无 `&amp;`，app 页 `@type` 为 `WebPage`+`SoftwareApplication`+`FAQPage`+`BreadcrumbList`。
+- `url` 已从 `github.io` 改为 `spacemanmeow.com`，线上 canonical / sitemap 已确认均为该域名。
+- **T-09 收尾（低优先）**：博客正文图 `![image](...)` 的 alt 仍是字面 `image`，未含关键词。可在两篇博客里把 `![image]` 改为含关键词的 alt（如 `![Meow Money ledger screen](...)`）。app 侧 alt 已优化完毕。
+- **T-13（Core Web Vitals）** 属持续项：保持图片 WebP、首屏懒加载（截图已 `loading="lazy"`）、CLS 稳定即可，无一次性任务。
+- 所有 Phase 1/2 技术项已本地构建校验通过，但**尚未重新部署**：需 commit + push 触发 Actions，让线上出现新的结构化数据 / og:image / 修正后的 JSON。
+| T-07 | 列表/详情注入 BreadcrumbList JSON-LD | ✅ | 2026-10-10 | 新增 `_includes/breadcrumb-jsonld.html` 并在 `default.html` 引入；Meow 系列 app 为 Home›Meow›App，非 Meow app/普通页为 Home›当前页，博客为 Home›Blog›Post；全站 18 个非首页页均含，构建校验 JSON 全合法 |
+| T-08 | 博客文章注入 Article/BlogPosting JSON-LD | ✅ | 2026-10-10 | `jekyll-seo-tag` 自动为 posts 输出合法 `BlogPosting`（含 author/publisher/mainEntityOfPage）；顺手修掉作者 URL 旧域名 `github.io`→`spacemanmeow.com` |
+| T-09 | 图片 alt 改为含关键词描述 | ✅ | 2026-10-10 | app 图标 alt 改为 `{{title}} app icon`；截图 alt 默认 `{{title}} screenshot`（自动覆盖 11 个 app）；博客正文图 alt 仍为 `image`（见下方后续注意） |
+| T-10 | 确认 canonical 生效 | ✅ | 2026-10-10 | `jekyll-seo-tag` 已输出 `<link rel="canonical" href="https://spacemanmeow.com/...">`（构建校验通过） |
+| T-11 | 加 hreflang="en" | ⚠️ 不适用 | 2026-10-10 | 单语种（en）站无需 `hreflang` 备用语言版本；`<html lang="en">` 已由 `site.lang` 正确输出（对无障碍与 SEO 足够）。如需可加自引用 `<link rel="alternate" hreflang="en" .../>`，但非必需 |
+| T-12 | OG/Twitter 卡片图按 app 区分 | ✅ | 2026-10-10 | 11 个 app front matter 均加 `image:`（取各自 icon.webp）；`jekyll-seo-tag` 据此输出独立 `og:image`/`twitter:image`（构建校验每页均生效） |
 | T-13 | 维持 Core Web Vitals（懒加载/LCP/CLS） | ☐ | | |
 
 ### 内容项（按 app 建集群，每完成一篇记录）

@@ -93,6 +93,9 @@ defaults:
     values:
       layout: app
       nav: home
+      # 强制 seo-tag 类型，避免其把 app 页误判为 BlogPosting（app 页由 app-jsonld.html 提供正确的 SoftwareApplication）
+      seo:
+        type: WebPage
 
 # 博客分页
 paginate: 10
