@@ -5,7 +5,7 @@
 # ===================================================================
 title: System Monitor # 应用名称（列表页 & 详情页标题）
 tagline: Cpu monitor, storage cleaner, memory booster, battery doctor all in one. # 一句话简介
-description: "System Monitor is an all-in-one Android tool: CPU monitor, storage cleaner, RAM booster and battery doctor, keeping your phone fast, cool and optimized in one app."
+description: "System Monitor is an all-in-one Android tool: CPU monitor, storage cleaner, RAM booster and battery doctor, keeping your phone fast, cool and optimized."
 icon: /assets/images/apps/system-monitor/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/system-monitor/icon.webp
 series: # 应用系列：Meow 系列的会出现在 Meow 页面

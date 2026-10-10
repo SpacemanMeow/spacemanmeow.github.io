@@ -3,6 +3,8 @@ layout: page
 title: Privacy Policy
 subtitle: Meow Family (referred to as “we,” “us,” or “our”) highly values and respects your privacy. This Privacy Policy explains how we collect, use, store, and protect your personal information, specifically regarding how our applications handle your data when you use the Google Drive Backup and Restore features. By using our application, you agree to the terms described in this Privacy Policy.
 permalink: /privacy/
+description: "Meow Apps Studio Privacy Policy — how our apps collect, use, store and protect your personal data, including Google Drive backup and restore."
+image: /assets/images/favicons/avatar.png
 seo:
   type: WebPage
 ---

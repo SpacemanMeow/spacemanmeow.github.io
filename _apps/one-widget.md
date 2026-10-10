@@ -5,7 +5,7 @@
 # ===================================================================
 title: One Widget # 应用名称（列表页 & 详情页标题）
 tagline: 500+ One UI, Nothing, Glass, Material You Style Widgets all in one. # 一句话简介
-description: "One Widget packs 500+ customizable Android home screen widgets in Glass iOS, Material You, Galaxy One UI and Nothing styles, with app shortcuts, clocks and quick toggles."
+description: "One Widget packs 500+ customizable Android home screen widgets in Glass iOS, Material You, Galaxy One UI and Nothing styles, with app shortcuts and clocks."
 icon: /assets/images/apps/one-widget/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/one-widget/icon.webp
 series: # 应用系列：Meow 系列的会出现在 Meow 页面

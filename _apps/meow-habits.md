@@ -5,7 +5,7 @@
 # ===================================================================
 title: Meow Habits # 应用名称（列表页 & 详情页标题）
 tagline: A breath of fresh air for habit building, Say goodbye to short-lived enthusiasm # 一句话简介
-description: "Meow Habits is a habit tracker and routine builder that helps you build consistent habits and streaks, track daily routines and stay motivated with a friendly design."
+description: "Meow Habits is a habit tracker and routine builder to build consistent habits and streaks, track daily routines and stay motivated with a friendly design."
 icon: /assets/images/apps/meow-habits/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/meow-habits/icon.webp
 series: Meow # 应用系列：Meow 系列的会出现在 Meow 页面

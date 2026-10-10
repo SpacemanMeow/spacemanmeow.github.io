@@ -6,6 +6,8 @@ categories: [Tutorial]
 tags: [Bookkeeping, Meow Money Manager, Budget App, Budget Management, Financial Management, Income, Expense, Cute Finance App, Fingerprint Lock Bookkeeping]
 lang: en
 author: author_meow_id
+description: "Learn how to get started with Meow Money Manager in 5 easy steps — download, create ledgers, set budgets, track expenses and export reports."
+image: /assets/images/apps/meow-money-manager/icon.webp
 ---
 
 Managing personal finances doesn't have to be boring. With its cute cat-themed interface and powerful features, Meow Money Manager makes bookkeeping fun and simple. Whether you are new to budgeting or looking for an easier tool, follow these 5 simple steps to master Meow Money Manager and take control of your finances.

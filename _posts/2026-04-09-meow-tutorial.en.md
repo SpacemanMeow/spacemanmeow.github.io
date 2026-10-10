@@ -6,6 +6,8 @@ categories: [Tutorial]
 tags: [Bookkeeping, Money Manager, Budget Management, Financial Management, Fingerprint Lock, Cute Bookkeeping App]
 lang: en
 author: author_meow_id
+description: "A complete Meow Money Manager user guide — master bookkeeping, budgets, multi-currency ledgers and CSV export with this cat-themed expense tracker."
+image: /assets/images/apps/meow-money-manager/icon.webp
 ---
 
 ## Table of Contents
