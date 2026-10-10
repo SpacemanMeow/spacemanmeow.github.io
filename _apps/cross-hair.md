@@ -5,6 +5,7 @@
 # ===================================================================
 title: Crosshair Aim for FPS Games # 应用名称（列表页 & 详情页标题）
 tagline: Helps you to change crosshair in shooting FPS games # 一句话简介
+description: "Crosshair Aim Pro adds a custom crosshair overlay to FPS shooter games on Android. Improve your aim with 15+ crosshair styles for any shooting game."
 icon: /assets/images/apps/cross-hair/icon.webp # 应用图标（建议 512x512 png）
 series: # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 9 # 列表页排序，数字越小越靠前

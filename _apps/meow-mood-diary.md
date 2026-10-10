@@ -5,6 +5,7 @@
 # ===================================================================
 title: Meow Mood Diary # 应用名称（列表页 & 详情页标题）
 tagline: Meow Mood Diary - A safe place for your feelings # 一句话简介
+description: "Meow Mood Diary is a safe, private mood diary & journaling app to record your feelings, track your mood and practice gratitude with a calming cat-themed interface."
 icon: /assets/images/apps/meow-mood-diary/icon.webp # 应用图标（建议 512x512 png）
 series: Meow # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 4 # 列表页排序，数字越小越靠前

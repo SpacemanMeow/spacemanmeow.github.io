@@ -5,6 +5,7 @@
 # ===================================================================
 title: Only Clock # 应用名称（列表页 & 详情页标题）
 tagline: An exquisite full-screen Clock with flip animation to show time # 一句话简介
+description: "Only Clock is an exquisite full-screen flip clock for Android, a beautiful flip-animation desk & nightstand clock with a focus timer for study and work."
 icon: /assets/images/apps/only-clock/icon.webp # 应用图标（建议 512x512 png）
 series: # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 8 # 列表页排序，数字越小越靠前

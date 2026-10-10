@@ -5,6 +5,7 @@
 # ===================================================================
 title: Floating Assistant # 应用名称（列表页 & 详情页标题）
 tagline: Including assistive touch, floating clock and floating monitor # 一句话简介
+description: "Floating Assistant brings assistive touch, a floating clock and a floating system monitor to your Android screen, letting you control your phone from a handy overlay."
 icon: /assets/images/apps/floating-assistant/icon.webp # 应用图标（建议 512x512 png）
 series: # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 10 # 列表页排序，数字越小越靠前

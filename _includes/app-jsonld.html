@@ -1,0 +1,40 @@
+{% if page.google_play or page.app_store %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | default: page.tagline | strip_html | normalize_whitespace | truncate: 300 | jsonify }},
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": [{% if page.google_play %}"Android"{% endif %}{% if page.app_store %}{% if page.google_play %}, {% endif %}"iOS"{% endif %}],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }}
+  }{% if page.screenshots and page.screenshots.size > 0 %},
+  "screenshot": [{% for shot in page.screenshots %}{{ shot.image | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}]{% endif %}
+}
+</script>
+{% endif %}
+{% if page.faq and page.faq.size > 0 %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in page.faq %}{
+      "@type": "Question",
+      "name": {{ item.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.answer | strip_html | normalize_whitespace | jsonify }}
+      }
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+  ]
+}
+</script>
+{% endif %}

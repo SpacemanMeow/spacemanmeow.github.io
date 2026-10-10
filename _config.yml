@@ -18,7 +18,8 @@ description: >-
   motivation to keep moving forward.
 
 # 站点地址（末尾不要加 /）
-url: "https://spacemanmeow.github.io"
+# SEO 注意：url 必须是生产环境规范域名，sitemap.xml / canonical / OG 都依赖它
+url: "https://spacemanmeow.com"
 baseurl: ""
 
 # 头像 / 站点图标
@@ -131,6 +132,7 @@ exclude:
   - docs
   - tools
   - README.md
+  - SEO-OPTIMIZATION-PLAN.md
   - LICENSE
   - purgecss.js
   - "*.config.js"

@@ -7,6 +7,8 @@ layout: default
   正文（markdown）即详情页的介绍内容。
 {%- endcomment -%}
 
+{% include app-jsonld.html %}
+
 <div class="app-hero">
   <div class="container app-hero__inner">
     <img class="app-hero__icon" src="{{ page.icon | relative_url }}" alt="{{ page.title | escape }}" />
