@@ -22,6 +22,20 @@ screenshots:
   - image: /assets/images/apps/system-monitor/6.webp
   - image: /assets/images/apps/system-monitor/7.webp
   - image: /assets/images/apps/system-monitor/8.webp
+
+faq:
+  - question: What is System Monitor?
+    answer: >-
+      System Monitor is an all-in-one Android tool: CPU monitor, storage cleaner, RAM booster and battery doctor to keep your phone fast, cool and optimized.
+  - question: Can System Monitor clean junk and boost RAM?
+    answer: >-
+      System Monitor cannot clean junk or cache files. It focuses on monitoring and performance: real-time CPU and battery temperature, RAM analysis with one-tap boost, battery health tracking, and overheating protection.
+  - question: Does it monitor battery health?
+    answer: >-
+      Yes. Monitor battery temperature, health, voltage and level with curves, plus battery saver modes to extend life.
+  - question: Is there an overheating alarm?
+    answer: >-
+      Yes. System Monitor alerts you when CPU or battery overheats and offers overheating protection.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->

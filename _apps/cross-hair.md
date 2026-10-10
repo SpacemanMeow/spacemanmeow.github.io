@@ -18,6 +18,20 @@ screenshots:
   - image: /assets/images/apps/cross-hair/2.webp
   - image: /assets/images/apps/cross-hair/3.webp
   - image: /assets/images/apps/cross-hair/4.webp
+
+faq:
+  - question: What is Crosshair Aim?
+    answer: >-
+      Crosshair Aim Pro adds a custom crosshair overlay to FPS shooter games on Android, with 15+ crosshair styles to improve your aim in any shooting game.
+  - question: Can I customize the crosshair?
+    answer: >-
+      Yes. Adjust crosshair size, color and position to fit your weapon controls, and pick from a wide collection of crosshair designs.
+  - question: Does it work on all shooting games?
+    answer: >-
+      Yes. Crosshair Aim supports almost all popular FPS and action shooting games, and can generate a crosshair even for weapons that do not have one.
+  - question: Is Crosshair Aim free?
+    answer: >-
+      Crosshair Aim is free to use with a set of basic crosshair styles included. Advanced and premium styles require purchasing the pro version.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->

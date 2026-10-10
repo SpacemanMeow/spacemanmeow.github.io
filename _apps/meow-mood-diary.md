@@ -21,6 +21,20 @@ screenshots:
   - image: /assets/images/apps/meow-mood-diary/5.webp
   - image: /assets/images/apps/meow-mood-diary/6.webp
   - image: /assets/images/apps/meow-mood-diary/widget.webp
+
+faq:
+  - question: Is Meow Mood Diary a private journaling app?
+    answer: >-
+      Yes. Meow Mood Diary is a safe, private mood diary and journaling app. Your entries are never uploaded to our servers and can be backed up to your own Google Drive.
+  - question: Can I track my mood without writing long entries?
+    answer: >-
+      Yes. One-tap quick mood logging lets you record how you feel by selecting an emotion icon, with no long writing required.
+  - question: Does Meow Mood Diary work offline?
+    answer: >-
+      Yes. The mood tracker works fully offline, so you can log moods, view history and edit entries without Wi-Fi.
+  - question: Can I set daily mood reminders?
+    answer: >-
+      Yes. Set gentle customizable reminders to build a consistent mood tracking habit.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->

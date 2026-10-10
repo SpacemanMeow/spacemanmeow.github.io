@@ -22,6 +22,20 @@ screenshots:
   - image: /assets/images/apps/cpu-monitor/6.webp
   - image: /assets/images/apps/cpu-monitor/7.webp
   - image: /assets/images/apps/cpu-monitor/8.webp
+
+faq:
+  - question: What does CPU Monitor show?
+    answer: >-
+      CPU Monitor shows real-time CPU temperature and frequency, RAM, battery and multicore usage on Android, with history analysis and overheat alarm.
+  - question: Does CPU Monitor have a floating window and widgets?
+    answer: >-
+      Yes. CPU Monitor offers a status bar and desktop floating window plus RAM, CPU and battery widgets for live monitoring.
+  - question: Can CPU Monitor help prevent my phone from overheating?
+    answer: >-
+      Yes. CPU Monitor shows real-time CPU and battery temperature and triggers an overheat alarm when they get too hot, so you can close heavy apps and cool your phone down.
+  - question: Does CPU Monitor support multicore CPU monitoring?
+    answer: >-
+      Yes. CPU Monitor monitors multicore CPU usage and frequency in real time, and lets you analyze temperature and frequency history to spot performance issues.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->

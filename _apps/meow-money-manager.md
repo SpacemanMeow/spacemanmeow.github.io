@@ -23,6 +23,21 @@ screenshots:
   - image: /assets/images/apps/meow-money-manager/6.webp
   - image: /assets/images/apps/meow-money-manager/7.webp
   - image: /assets/images/apps/meow-money-manager/8.webp
+
+# 详情页底部 FAQ（会自动生成 FAQPage 结构化数据，并渲染可见 FAQ 区块）
+faq:
+  - question: Is Meow Money Manager a free expense tracker app?
+    answer: >-
+      Meow Money Manager is free to download, with core expense tracking and budgeting available at no cost. Some advanced features, such as multiple ledgers and CSV export, require a purchase to unlock.
+  - question: Does Meow Money need an account to track expenses?
+    answer: >-
+      No. You can use it as a private expense tracker with no account required. Your data stays on your device, protected by fingerprint lock, and can be backed up to iCloud or WebDav.
+  - question: Can Meow Money handle multiple currencies and budgets?
+    answer: >-
+      Yes. The budget app supports 50+ currency symbols and multiple ledgers. You can set daily, monthly or yearly category budgets and track spending with charts and recurring records.
+  - question: How do I export my expense report to CSV?
+    answer: >-
+      Open the app, choose export, and save your records as a CSV file for a selected date range, then view or edit it in Excel.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->

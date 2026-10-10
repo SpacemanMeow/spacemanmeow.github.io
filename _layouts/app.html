@@ -33,5 +33,18 @@ layout: default
     <div class="app-content">
       {{ content }}
     </div>
+    {% if page.faq and page.faq.size > 0 %}
+    <section class="app-faq" aria-label="Frequently asked questions">
+      <h2 class="app-faq__title">Frequently Asked Questions</h2>
+      <div class="app-faq__list">
+        {% for item in page.faq %}
+        <div class="app-faq__item">
+          <h3 class="app-faq__q">{{ item.question | escape }}</h3>
+          <p class="app-faq__a">{{ item.answer | strip_html | normalize_whitespace | escape }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
   </div>
 </div>

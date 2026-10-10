@@ -23,6 +23,20 @@ screenshots:
   - image: /assets/images/apps/meow-todo-list/6.webp
   - image: /assets/images/apps/meow-todo-list/7.webp
   - image: /assets/images/apps/meow-todo-list/8.webp
+
+faq:
+  - question: Is Meow Todo List a good task manager for Android and iOS?
+    answer: >-
+      Yes. Meow Todo List is a simple to-do list and task manager with calendar view, subtasks, reminders, cloud sync via Google Drive or WebDav, and CSV export.
+  - question: Can I sync my to-do lists across devices?
+    answer: >-
+      Yes. Back up and sync your todo lists and schedule planners to the cloud with Google Drive or WebDav, so your tasks are never lost when you switch devices.
+  - question: Does Meow Todo List support subtasks and reminders?
+    answer: >-
+      Yes. Break tasks into subtasks, add details, set reminders, and view your daily, weekly and monthly plans in a calendar layout.
+  - question: Is there a fingerprint lock for my tasks?
+    answer: >-
+      Yes. Enable fingerprint app lock to keep your to-do lists and tasks private.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->

@@ -21,6 +21,20 @@ screenshots:
   - image: /assets/images/apps/floating-assistant/5.webp
   - image: /assets/images/apps/floating-assistant/6.webp
   - image: /assets/images/apps/floating-assistant/7.webp
+
+faq:
+  - question: What is Floating Assistant?
+    answer: >-
+      Floating Assistant brings assistive touch, a floating clock and a floating system monitor to your Android screen, so you can control your phone from a handy overlay.
+  - question: What can the assistive touch do?
+    answer: >-
+      Assistive Touch adds a floating ball with virtual home, back, recent and volume buttons, one-tap boost, screen lock, screenshot, flashlight and quick app access, protecting physical buttons.
+  - question: Does the floating monitor show CPU and RAM?
+    answer: >-
+      Yes. The floating monitor shows real-time CPU temperature, usage, RAM usage and battery, with one-tap boost, ideal while gaming.
+  - question: Is Floating Assistant safe for my data?
+    answer: >-
+      Yes. It uses Accessibility services only for the listed controls and does not collect personal or sensitive data.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->

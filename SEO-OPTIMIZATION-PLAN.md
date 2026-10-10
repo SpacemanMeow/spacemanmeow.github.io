@@ -174,7 +174,7 @@ AI 应用内搜索本质 = 抓取已索引的可信网页并抽取事实。杠�
 | T-03 | Google Search Console 验证 + 提交 sitemap | ⏳ 需手动 | | 见下方「T-03 操作指引」；`_config.yml` 已配 `webmaster_verifications.google`，部署后页面含验证 meta 标签 |
 | T-04 | 11 个 app 补 `description` 字段 | ✅ | 2026-10-10 | 每个 app front matter 已加 150–160 字符、含主词的 description |
 | T-05 | app 页注入 SoftwareApplication JSON-LD | ✅ | 2026-10-10 | 新增 `_includes/app-jsonld.html` 并接入 `app.html`；11 页全部校验 JSON 合法 |
-| T-06 | app 页注入 FAQPage JSON-LD | 🟡 基础设施就绪 | | 已支持：在 app front matter 加 `faq:` 数组即可自动生成 FAQPage；待 Phase 3 内容阶段补 FAQ 文案 |
+| T-06 | app 页注入 FAQPage JSON-LD + 可见 FAQ 区块 | ✅ | 2026-10-10 | 11 个 app 均已加 `faq:` 数据（4 问/页，含目标关键词）；`app.html` 新增可见 FAQ 渲染，`app-jsonld.html` 已注入 FAQPage；本地构建校验 JSON 全部合法、11 页全覆盖 |
 
 ### T-03 操作指引（需手动）
 1. 打开 https://search.google.com/search-console/ ，用站点邮箱 `meow@spacemanmeow.com` 登录

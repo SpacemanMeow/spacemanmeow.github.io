@@ -23,6 +23,20 @@ screenshots:
   - image: /assets/images/apps/meow-habits/6.webp
   - image: /assets/images/apps/meow-habits/7.webp
   - image: /assets/images/apps/meow-habits/8.webp
+
+faq:
+  - question: Is Meow Habits a free habit tracker app?
+    answer: >-
+      Meow Habits is a habit tracker and routine builder that helps you build streaks and track daily routines with 500+ cute icons, charts and calendar views.
+  - question: Can I track multiple habits at once?
+    answer: >-
+      Yes. Create multiple habits with daily, weekly, monthly or custom cycles, and monitor streaks, completion rates and long-term trends with visual charts.
+  - question: Does Meow Habits work offline and protect my data?
+    answer: >-
+      Yes. Track habits offline anytime, lock the app with fingerprint, and back up your data to Google Drive or WebDav.
+  - question: Can I export my habit progress?
+    answer: >-
+      Yes. Export CSV reports to analyze your habit trends and optimize your routine.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->

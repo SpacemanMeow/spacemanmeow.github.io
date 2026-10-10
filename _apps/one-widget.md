@@ -22,6 +22,20 @@ screenshots:
   - image: /assets/images/apps/one-widget/3.webp
   - image: /assets/images/apps/one-widget/8.webp
   - image: /assets/images/apps/one-widget/4.webp
+
+faq:
+  - question: What widget styles does One Widget offer?
+    answer: >-
+      One Widget packs 500+ Android home screen widgets in Glass iOS, Material You, Galaxy One UI and Nothing minimalist styles, with app shortcuts, clocks, calendars, battery and RAM widgets.
+  - question: Is One Widget free and customizable?
+    answer: >-
+      One Widget is a paid app. The free version includes One UI themed widgets that you can customize in size from 1x1 to 2x6, icon background color and corner radius. Other styles such as Glass, Material You and Nothing require a purchase to unlock.
+  - question: Which devices support One Widget?
+    answer: >-
+      One Widget works on all Android devices, including Samsung Galaxy, Google Pixel and Nothing phones.
+  - question: Can I add quick toggles and app shortcuts?
+    answer: >-
+      Yes. Add system quick toggles such as Wi-Fi, Bluetooth and torch, app shortcuts, contacts and AI tool launchers as home screen widgets.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->

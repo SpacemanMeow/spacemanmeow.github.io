@@ -22,6 +22,20 @@ screenshots:
   - image: /assets/images/apps/only-clock/4.webp
   - image: /assets/images/apps/only-clock/7.webp
   - image: /assets/images/apps/only-clock/8.webp
+
+faq:
+  - question: What is Only Clock?
+    answer: >-
+      Only Clock is a full-screen flip clock for Android with a beautiful flip animation, perfect as a desk clock, nightstand clock or focus timer for study and work.
+  - question: Does Only Clock have a clock widget?
+    answer: >-
+      Yes. Only Clock includes many beautiful clock widgets, plus white noise to help you focus, and supports 12 or 24 hour and date display.
+  - question: Can I use Only Clock as a focus timer?
+    answer: >-
+      Yes. Use the full-screen flip clock with white noise to aid study, focus on work or plan your time.
+  - question: Which devices does Only Clock support?
+    answer: >-
+      Only Clock runs on Android and iOS. You can also use a spare phone or iPad as a clock display.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->

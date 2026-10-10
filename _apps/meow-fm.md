@@ -23,6 +23,20 @@ screenshots:
   - image: /assets/images/apps/meow-fm/6.webp
   - image: /assets/images/apps/meow-fm/7.webp
   - image: /assets/images/apps/meow-fm/8.webp
+
+faq:
+  - question: What is Meow FM?
+    answer: >-
+      Meow FM is a white noise app for sleep, relax and focus, with ambient sounds like rain, thunderstorm, forest, seaside and fireplace to help you fall asleep or concentrate.
+  - question: Can I set a sleep timer?
+    answer: >-
+      Yes. Set a play duration and auto turn-off timer so the white noise stops after you fall asleep.
+  - question: Does Meow FM help with focus at work or study?
+    answer: >-
+      Yes. Ambient white noise masks surrounding noise so you can concentrate better at work or study, and a desktop clock keeps you efficient.
+  - question: Is Meow FM free?
+    answer: >-
+      Meow FM includes a selection of free white noise sounds for sleep, relax and focus. Some premium sounds require a purchase to unlock.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
