@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | strip_html | normalize_whitespace | jsonify }},
+  "author": { "@type": "Organization", "name": {{ site.title | jsonify }} },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "logo": { "@type": "ImageObject", "url": "{{ site.url }}{{ site.avatar | relative_url }}" }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ site.url }}{{ page.url }}" }
+}
+</script>

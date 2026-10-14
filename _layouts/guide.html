@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{% include guide-jsonld.html %}
+
+<article class="post">
+  <div class="post__head">
+    <div class="container">
+      <header class="post__header">
+        <h1 class="post__title">{{ page.title }}</h1>
+        {%- if page.description %}<p class="guide__lead">{{ page.description }}</p>{% endif -%}
+      </header>
+    </div>
+  </div>
+
+  <div class="page-body">
+    <div class="container">
+      <div class="post__inner">
+        <div class="post__content">
+          {{ content }}
+        </div>
+
+        <footer class="post__footer">
+          <a class="back-link" href="{{ '/blog/' | relative_url }}">&lsaquo; Back to Blog</a>
+        </footer>
+      </div>
+    </div>
+  </div>
+</article>
