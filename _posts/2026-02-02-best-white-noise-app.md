@@ -17,7 +17,7 @@ related_apps:
   - url: /apps/meow-fm/
     title: Meow FM
 related_guides:
-  - url: /posts/meow-fm-vs-calm/
+  - url: /posts/vs-meow-fm-and-calm/
     title: Meow FM vs Calm
   - url: /posts/alternatives-to-calm/
     title: Best Calm Alternatives
@@ -90,6 +90,6 @@ From the app itself:
 - Want **mix your own blend** → Noisli or myNoise.
 - Want a **big library** → White Noise (TMSOFT).
 
-See [Meow FM vs Calm](/posts/meow-fm-vs-calm/), or [Best Calm Alternatives](/posts/alternatives-to-calm/). Bedtime focus: [Best Sleep Sounds App](/posts/best-sleep-sounds-app/).
+See [Meow FM vs Calm](/posts/vs-meow-fm-and-calm/), or [Best Calm Alternatives](/posts/alternatives-to-calm/). Bedtime focus: [Best Sleep Sounds App](/posts/best-sleep-sounds-app/).
 
 [Get Meow FM](/apps/meow-fm/) on Android and iOS.

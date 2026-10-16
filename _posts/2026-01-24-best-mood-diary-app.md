@@ -17,7 +17,7 @@ related_apps:
   - url: /apps/meow-mood-diary/
     title: Meow Mood Diary
 related_guides:
-  - url: /posts/meow-mood-vs-day-one/
+  - url: /posts/vs-meow-mood-and-day-one/
     title: Meow Mood vs Day One
   - url: /posts/alternatives-to-day-one/
     title: Best Day One Alternatives
@@ -92,6 +92,6 @@ From the app itself:
 - Want **cross-platform prose journaling** → Journey.
 - Want **two-tap speed** → Daylio.
 
-See [Meow Mood vs Day One](/posts/meow-mood-vs-day-one/), or [Best Day One Alternatives](/posts/alternatives-to-day-one/). Privacy-first? [Best Private Diary App](/posts/best-private-diary-app/).
+See [Meow Mood vs Day One](/posts/vs-meow-mood-and-day-one/), or [Best Day One Alternatives](/posts/alternatives-to-day-one/). Privacy-first? [Best Private Diary App](/posts/best-private-diary-app/).
 
 [Get Meow Mood Diary](/apps/meow-mood-diary/) on Android and iOS.

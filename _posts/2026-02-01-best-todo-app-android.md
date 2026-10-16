@@ -17,7 +17,7 @@ related_apps:
   - url: /apps/meow-todo-list/
     title: Meow Todo List
 related_guides:
-  - url: /posts/meow-todo-vs-todoist/
+  - url: /posts/vs-meow-todo-and-todoist/
     title: Meow Todo vs Todoist
   - url: /posts/alternatives-to-todoist/
     title: Best Todoist Alternatives
@@ -95,6 +95,6 @@ Meow Todo is a **cute task manager** for Android and iOS that keeps planning sim
 - Already on **Microsoft 365** → Microsoft To Do.
 - Live in **Gmail** → Google Tasks.
 
-See [Meow Todo vs Todoist](/posts/meow-todo-vs-todoist/) for a feature breakdown, or [Best Todoist Alternatives](/posts/alternatives-to-todoist/). Students: [Best Task Manager for Students](/posts/best-task-manager-for-students/).
+See [Meow Todo vs Todoist](/posts/vs-meow-todo-and-todoist/) for a feature breakdown, or [Best Todoist Alternatives](/posts/alternatives-to-todoist/). Students: [Best Task Manager for Students](/posts/best-task-manager-for-students/).
 
 [Get Meow Todo List](/apps/meow-todo-list/) on Android and iOS.

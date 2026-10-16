@@ -17,7 +17,7 @@ related_apps:
   - url: /apps/one-widget/
     title: One Widget
 related_guides:
-  - url: /posts/one-widget-vs-kwgt/
+  - url: /posts/vs-one-widget-and-kwgt/
     title: One Widget vs KWGT
   - url: /posts/alternatives-to-widgetsmith/
     title: Best WidgetSmith Alternatives
@@ -86,6 +86,6 @@ From the app itself:
 - Want **total custom design** → KWGT.
 - Want **quick themed templates** → Color Widgets.
 
-See [One Widget vs KWGT](/posts/one-widget-vs-kwgt/), or [Best WidgetSmith Alternatives](/posts/alternatives-to-widgetsmith/). Style focus: [Best Material You Widgets](/posts/best-material-you-widgets/).
+See [One Widget vs KWGT](/posts/vs-one-widget-and-kwgt/), or [Best WidgetSmith Alternatives](/posts/alternatives-to-widgetsmith/). Style focus: [Best Material You Widgets](/posts/best-material-you-widgets/).
 
 [Get One Widget](/apps/one-widget/) on Android.

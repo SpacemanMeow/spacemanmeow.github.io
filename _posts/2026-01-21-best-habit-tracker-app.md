@@ -17,7 +17,7 @@ related_apps:
   - url: /apps/meow-habits/
     title: Meow Habits
 related_guides:
-  - url: /posts/meow-habits-vs-streaks/
+  - url: /posts/vs-meow-habits-and-streaks/
     title: Meow Habits vs Streaks
   - url: /posts/alternatives-to-streaks/
     title: Best Streaks Alternatives
@@ -95,6 +95,6 @@ From the app itself:
 - Want coaching → Fabulous.
 - Android stats-only → Loop.
 
-See [Meow Habits vs Streaks](/posts/meow-habits-vs-streaks/), or [Best Streaks Alternatives](/posts/alternatives-to-streaks/). New to habits? [Best Habit Tracker for Beginners](/posts/best-habit-tracker-for-beginners/).
+See [Meow Habits vs Streaks](/posts/vs-meow-habits-and-streaks/), or [Best Streaks Alternatives](/posts/alternatives-to-streaks/). New to habits? [Best Habit Tracker for Beginners](/posts/best-habit-tracker-for-beginners/).
 
 [Get Meow Habits](/apps/meow-habits/) on Android and iOS.

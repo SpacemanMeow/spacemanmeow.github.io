@@ -23,7 +23,7 @@ screenshots:
 faq:
   - question: What is Crosshair Aim?
     answer: >-
-      Crosshair Aim Pro adds a custom crosshair overlay to FPS shooter games on Android, with 15+ crosshair styles to improve your aim in any shooting game.
+      Crosshair Aim Pro adds a custom crosshair overlay to FPS shooter games on Android, with 80+ crosshair styles to improve your aim in any shooting game.
   - question: Can I customize the crosshair?
     answer: >-
       Yes. Adjust crosshair size, color and position to fit your weapon controls, and pick from a wide collection of crosshair designs.
@@ -38,7 +38,7 @@ faq:
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
 Crosshair Aim Pro (Aim for FPS Games) helps you to change crosshair in shooting FPS games. Create a custom crosshair overlay in any shooting game to accurately aim and shoot your targets. Change crosshair and become a professional sniper shooter with the best Crosshair Aim Pro.
 
-Crosshair Aim Pro (Aim for FPS Games) adds a customizable virtual overlay pointer on your weapon controls to seamlessly aim and shoot in top FPS shooting games with accuracy. With over 15 available crosshair style, change crosshair on your favorite shooting games to boost your aiming skills! Use this simple crosshair tool while playing FPS games to improve your sight in any FPS game and shoot with custom aim.
+Crosshair Aim Pro (Aim for FPS Games) adds a customizable virtual overlay pointer on your weapon controls to seamlessly aim and shoot in top FPS shooting games with accuracy. With over 80 available crosshair styles, change crosshair on your favorite shooting games to boost your aiming skills! Use this simple crosshair tool while playing FPS games to improve your sight in any FPS game and shoot with custom aim.
 
 ### Features of Crosshair Aim Pro - Crosshair for FPS Games
 

@@ -17,7 +17,7 @@ related_apps:
   - url: /apps/system-monitor/
     title: System Monitor
 related_guides:
-  - url: /posts/system-monitor-vs-ccleaner/
+  - url: /posts/vs-system-monitor-and-ccleaner/
     title: System Monitor vs CCleaner
   - url: /posts/alternatives-to-ccleaner/
     title: Best CCleaner Alternatives
@@ -91,6 +91,6 @@ From the app itself:
 - Want a **sensor dashboard** → DevCheck.
 - Want a **big toolkit** → 3C Toolbox.
 
-See [System Monitor vs CCleaner](/posts/system-monitor-vs-ccleaner/), or [Best RAM Booster App](/posts/best-ram-booster-app/).
+See [System Monitor vs CCleaner](/posts/vs-system-monitor-and-ccleaner/), or [Best RAM Booster App](/posts/best-ram-booster-app/).
 
 [Get System Monitor](/apps/system-monitor/) on Android.

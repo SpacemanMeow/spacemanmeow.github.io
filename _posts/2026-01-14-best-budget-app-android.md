@@ -17,7 +17,7 @@ related_apps:
   - url: /apps/meow-money-manager/
     title: Meow Money Manager
 related_guides:
-  - url: /posts/meow-money-vs-ynab/
+  - url: /posts/vs-meow-money-and-ynab/
     title: Meow Money Manager vs YNAB
   - url: /posts/alternatives-to-mint/
     title: Best Mint Alternatives in 2026
@@ -97,6 +97,6 @@ Meow Money Manager is a **cat-themed bookkeeping app** for Android and iOS that 
 - Want the **closest Mint clone** → Monarch Money.
 - Want **dead-simple safe-to-spend** → PocketGuard.
 
-See our [Meow Money Manager vs YNAB](/posts/meow-money-vs-ynab/) breakdown, or [Best Mint Alternatives in 2026](/posts/alternatives-to-mint/). Students: [Best Budget App for Students](/posts/best-budget-app-for-students/).
+See our [Meow Money Manager vs YNAB](/posts/vs-meow-money-and-ynab/) breakdown, or [Best Mint Alternatives in 2026](/posts/alternatives-to-mint/). Students: [Best Budget App for Students](/posts/best-budget-app-for-students/).
 
 [Get Meow Money Manager](/apps/meow-money-manager/) — available on Android and iOS.

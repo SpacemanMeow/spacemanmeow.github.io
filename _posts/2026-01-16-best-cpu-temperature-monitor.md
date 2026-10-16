@@ -17,7 +17,7 @@ related_apps:
   - url: /apps/cpu-monitor/
     title: CPU Monitor
 related_guides:
-  - url: /posts/cpu-monitor-vs-cpu-z/
+  - url: /posts/vs-cpu-monitor-and-cpu-z/
     title: CPU Monitor vs CPU-Z
   - url: /posts/alternatives-to-cpu-z/
     title: Best CPU-Z Alternatives
@@ -89,6 +89,6 @@ From the app itself:
 - Want a **sensor dashboard** → DevCheck.
 - Want **battery focus** → AccuBattery.
 
-See [CPU Monitor vs CPU-Z](/posts/cpu-monitor-vs-cpu-z/), or [Best Phone Temperature App](/posts/best-phone-temperature-app/).
+See [CPU Monitor vs CPU-Z](/posts/vs-cpu-monitor-and-cpu-z/), or [Best Phone Temperature App](/posts/best-phone-temperature-app/).
 
 [Get CPU Monitor](/apps/cpu-monitor/) on Android.

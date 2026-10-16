@@ -17,7 +17,7 @@ related_apps:
   - url: /apps/floating-assistant/
     title: Floating Assistant
 related_guides:
-  - url: /posts/floating-assistant-vs-assistive-touch/
+  - url: /posts/vs-floating-assistant-and-assistive-touch/
     title: Floating Assistant vs Assistive Touch
   - url: /posts/alternatives-to-assistive-touch/
     title: Best Assistive Touch Alternatives
@@ -83,6 +83,6 @@ From the app itself:
 - Want **just navigation buttons** → Assistive Touch (Easy Touch).
 - Want **mini floating apps** → Floating Apps.
 
-See [Floating Assistant vs Assistive Touch](/posts/floating-assistant-vs-assistive-touch/), or [Best Assistive Touch Alternatives](/posts/alternatives-to-assistive-touch/). Overlay focus: [Best Overlay Widget App](/posts/best-overlay-widget-app/).
+See [Floating Assistant vs Assistive Touch](/posts/vs-floating-assistant-and-assistive-touch/), or [Best Assistive Touch Alternatives](/posts/alternatives-to-assistive-touch/). Overlay focus: [Best Overlay Widget App](/posts/best-overlay-widget-app/).
 
 [Get Floating Assistant](/apps/floating-assistant/) on Android.

@@ -17,7 +17,7 @@ related_apps:
   - url: /apps/cross-hair/
     title: Crosshair Aim for FPS Games
 related_guides:
-  - url: /posts/crosshair-vs-crosshair-master/
+  - url: /posts/vs-crosshair-and-crosshair-master/
     title: Crosshair vs Crosshair Master
   - url: /posts/alternatives-to-crosshair-master/
     title: Best Crosshair Master Alternatives
@@ -86,6 +86,6 @@ From the app itself:
 - Want **quick presets** → Crosshair Master.
 - Want **tiered design sets** → CROSSARA.
 
-See [Crosshair vs Crosshair Master](/posts/crosshair-vs-crosshair-master/), or [Best Crosshair Master Alternatives](/posts/alternatives-to-crosshair-master/). Customization: [Best Custom Crosshair Overlay](/posts/best-custom-crosshair-overlay/).
+See [Crosshair vs Crosshair Master](/posts/vs-crosshair-and-crosshair-master/), or [Best Crosshair Master Alternatives](/posts/alternatives-to-crosshair-master/). Customization: [Best Custom Crosshair Overlay](/posts/best-custom-crosshair-overlay/).
 
 [Get Crosshair Aim](/apps/cross-hair/) on Android.

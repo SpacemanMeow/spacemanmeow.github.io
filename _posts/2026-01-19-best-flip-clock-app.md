@@ -17,7 +17,7 @@ related_apps:
   - url: /apps/only-clock/
     title: Only Clock
 related_guides:
-  - url: /posts/only-clock-vs-retroflip/
+  - url: /posts/vs-only-clock-and-retroflip/
     title: Only Clock vs Retroflip
   - url: /posts/alternatives-to-retroflip/
     title: Best Retroflip Alternatives
@@ -86,6 +86,6 @@ From the app itself:
 - Want a **pure retro look, free** → Retroflip.
 - Want **timers + screensaver** → Flip Clock Screen Saver.
 
-See [Only Clock vs Retroflip](/posts/only-clock-vs-retroflip/), or [Best Retroflip Alternatives](/posts/alternatives-to-retroflip/). Bedside: [Best Nightstand Clock App](/posts/best-nightstand-clock-app/).
+See [Only Clock vs Retroflip](/posts/vs-only-clock-and-retroflip/), or [Best Retroflip Alternatives](/posts/alternatives-to-retroflip/). Bedside: [Best Nightstand Clock App](/posts/best-nightstand-clock-app/).
 
 [Get Only Clock](/apps/only-clock/) on Android and iOS.
