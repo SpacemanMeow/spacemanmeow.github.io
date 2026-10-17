@@ -32,6 +32,12 @@ On Android a floating overlay works above any app with no root, so large-screen 
 
 ## Floating Assistant, in depth
 
+![Floating Assistant screenshot 1](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![Floating Assistant screenshot 2](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
+![Floating Assistant screenshot 3](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
+![Floating Assistant screenshot 4](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
+![Floating Assistant screenshot 5](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
+
 Floating Assistant adds a customizable floating ball to Android for quick app launches, system toggles and one-handed control.
 
 - **Floating ball** — a persistent overlay above any app, movable anywhere.

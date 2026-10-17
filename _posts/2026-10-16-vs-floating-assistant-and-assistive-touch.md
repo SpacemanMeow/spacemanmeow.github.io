@@ -28,6 +28,12 @@ Both put controls on top of your screen, but they solve different problems. **Fl
 
 ## Floating Assistant, in detail
 
+![Floating Assistant screenshot 1](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![Floating Assistant screenshot 2](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
+![Floating Assistant screenshot 3](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
+![Floating Assistant screenshot 4](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
+![Floating Assistant screenshot 5](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
+
 Floating Assistant bundles three tools into one overlay: an assistive-touch ball for navigation, a floating clock you can keep above other apps, and a floating system monitor showing CPU temperature, usage, RAM and battery with a one-tap boost.
 
 ### Strengths
@@ -54,6 +60,12 @@ Power users and gamers who want buttons *and* a clock *and* live system stats fr
 ---
 
 ## Assistive Touch (Easy Touch), in detail
+
+![Assistive Touch screenshot 1](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
+![Assistive Touch screenshot 2](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
+![Assistive Touch screenshot 3](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
+![Assistive Touch screenshot 4](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
+![Assistive Touch screenshot 5](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
 
 Assistive Touch is the familiar iOS-style floating ball for Android: virtual home, back, recent and volume buttons, plus lock, screenshot, flashlight and customizable gestures — the simplest way to replace worn hardware keys.
 
@@ -99,3 +111,6 @@ Floating Assistant positions itself as not collecting personal data, with an ad-
 - **Choose Floating Assistant** if you want one overlay that handles navigation, a floating clock, and live system monitoring (great for gaming and older phones).
 - **Choose Assistive Touch (Easy Touch)** if you just need a simple, free floating navigation ball to replace hardware keys.
 - **For an all-in-one daily driver**, Floating Assistant covers more ground without forcing you into multiple apps.
+
+<!--
+-->

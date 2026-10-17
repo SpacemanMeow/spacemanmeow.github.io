@@ -32,6 +32,12 @@ On Android, a status-bar and desktop floating window plus home-screen widgets sh
 
 ## CPU Monitor, in depth
 
+![CPU Monitor screenshot 1](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
+![CPU Monitor screenshot 5](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
+![CPU Monitor screenshot 3](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
+![CPU Monitor screenshot 4](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![CPU Monitor screenshot 2](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
+
 CPU Monitor shows real-time CPU temperature and frequency, RAM, battery and multicore usage on Android, with a floating window, widgets and an overheat alarm.
 
 - **Real-time CPU temp & frequency** — plus multicore monitoring so you catch throttling early.

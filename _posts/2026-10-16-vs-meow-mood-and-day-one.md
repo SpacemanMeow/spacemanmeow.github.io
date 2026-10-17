@@ -27,6 +27,12 @@ Both are journals, but they serve different needs. **Meow Mood** is a private, e
 
 ## Meow Mood, in detail
 
+![Meow Mood screenshot 1](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
+![Meow Mood screenshot 2](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
+![Meow Mood screenshot 3](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
+![Meow Mood screenshot 4](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![Meow Mood screenshot 5](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
+
 Meow Mood is a **safe, private mood diary** with a calming cat-themed interface. Its standout trait is the **design**: adorable cartoon-cat visuals and a wide set of mood icons make daily check-ins feel light rather than clinical. Beyond looks, it never uploads entries to a server and backs up only to your own Google Drive.
 
 ### Strengths
@@ -56,6 +62,12 @@ People who want a private, friendly mood diary that looks comforting and works f
 
 ## Day One, in detail
 
+![Day One screenshot 1](/assets/images/blog/day_one_1.webp){: width="180" .normal }
+![Day One screenshot 2](/assets/images/blog/day_one_2.webp){: width="180" .normal }
+![Day One screenshot 3](/assets/images/blog/day_one_3.webp){: width="180" .normal }
+![Day One screenshot 4](/assets/images/blog/day_one_4.webp){: width="180" .normal }
+![Day One screenshot 5](/assets/images/blog/day_one_5.webp){: width="180" .normal }
+
 Day One is the best-known digital journal: a clean writing space with photos, audio, video, and end-to-end-encrypted cloud sync across phone, tablet, Mac and web. It's built for capturing life, not just moods.
 
 ### Strengths
@@ -77,7 +89,7 @@ Day One is the best-known digital journal: a clean writing space with photos, au
 Users who want a beautiful, multimedia life journal that syncs everywhere and keeps a written record with photos.
 
 **Download Day One**
-- [Google Play](https://play.google.com/store/apps/details?id=com.bloombuilt.dayone)
+- [Google Play](https://play.google.com/store/apps/details?id=com.dayoneapp.dayone)
 - [App Store](https://apps.apple.com/us/app/day-one-journal/id1044867788)
 
 ---
@@ -104,3 +116,6 @@ Meow Mood is free at the core; Day One is a ~$35/year subscription. For pure moo
 - **Choose Meow Mood** if your goal is tracking emotions privately and seeing patterns, you prefer offline-first privacy, and want a cute, quick daily check-in.
 - **Choose Day One** if you want a full multimedia journal that syncs everywhere and keeps a written, photo-rich life record.
 - **They're complementary**: many users keep Meow Mood for daily mood check-ins and Day One for longer journaling — but if you only want one, let the mood-vs-memory question decide.
+
+<!--
+-->

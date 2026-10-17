@@ -26,6 +26,12 @@ When your phone feels slow, you want to know **why** — which core is pinned, h
 
 ## System Monitor, in depth
 
+![System Monitor screenshot 1](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
+![System Monitor screenshot 5](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
+![System Monitor screenshot 3](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
+![System Monitor screenshot 4](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
+![System Monitor screenshot 2](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
+
 System Monitor is a **paid Android device-info tool**. For a one-time download price it reports detailed hardware and live stats: CPU model and per-core frequency, memory usage, storage breakdown, and battery health/temperature — read-only detection, not optimization.
 
 **Strengths for monitoring**
@@ -45,8 +51,13 @@ System Monitor is a **paid Android device-info tool**. For a one-time download p
 
 - [Google Play — System Monitor](https://play.google.com/store/apps/details?id=com.glgjing.marvel)
 
-
 ## CCleaner, in depth
+
+![Ccleaner screenshot 1](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
+![Ccleaner screenshot 2](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
+![Ccleaner screenshot 3](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
+![Ccleaner screenshot 4](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
+![Ccleaner screenshot 5](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
 
 CCleaner (package `com.piriform.ccleaner`, by Gen Digital) is best known for PC cleanup and carries that brand to Android with junk cleaning and performance tools.
 

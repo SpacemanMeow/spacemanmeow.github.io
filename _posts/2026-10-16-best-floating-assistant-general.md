@@ -26,6 +26,12 @@ A **floating assistant** puts a small button on the screen edge that triggers th
 
 ## Floating Assistant, in depth
 
+![Floating Assistant screenshot 1](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![Floating Assistant screenshot 2](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
+![Floating Assistant screenshot 3](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
+![Floating Assistant screenshot 4](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
+![Floating Assistant screenshot 5](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
+
 Floating Assistant is an **edge floating-ball app** for Android with a rich action set and customization.
 
 **Strengths for everyday use**
@@ -43,8 +49,13 @@ Floating Assistant is an **edge floating-ball app** for Android with a rich acti
 
 - [Google Play — Floating Assistant](https://play.google.com/store/apps/details?id=com.glgjing.floating.apps.assistive.touch.pro)
 
-
 ## Assistive Touch, in depth
+
+![Assistive Touch screenshot 1](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
+![Assistive Touch screenshot 2](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
+![Assistive Touch screenshot 3](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
+![Assistive Touch screenshot 4](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
+![Assistive Touch screenshot 5](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
 
 Assistive Touch (package `mtr.assistivetouch.easytools`) is a popular floating-button app offering virtual keys and shortcuts.
 

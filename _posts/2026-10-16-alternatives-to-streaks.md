@@ -20,6 +20,12 @@ Below we compare six strong **alternatives to Streaks** — from a cute, privacy
 
 ## The best Streaks alternatives at a glance
 
+![Streaks screenshot 1](/assets/images/blog/streaks_1.webp){: width="180" .normal }
+![Streaks screenshot 2](/assets/images/blog/streaks_2.webp){: width="180" .normal }
+![Streaks screenshot 3](/assets/images/blog/streaks_3.webp){: width="180" .normal }
+![Streaks screenshot 4](/assets/images/blog/streaks_4.webp){: width="180" .normal }
+![Streaks screenshot 5](/assets/images/blog/streaks_5.webp){: width="180" .normal }
+
 | App | Price (2026) | Platforms | Build + Break | Best for |
 |---|---|---|---|---|
 | **Meow Habits** | Free core + VIP (~$9.99/yr) | Android, iOS | **Yes** | Cute UI, 500+ icons, private, no account |
@@ -32,6 +38,12 @@ Below we compare six strong **alternatives to Streaks** — from a cute, privacy
 ---
 
 ### 1. Meow Habits — best for a cute, private, no-account tracker
+
+![Meow Habits screenshot 1](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
+![Meow Habits screenshot 2](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
+![Meow Habits screenshot 3](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
+![Meow Habits screenshot 4](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
+![Meow Habits screenshot 5](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
 
 Meow Habits is a cat-themed **habit tracker** for Android and iOS. Its standout trait is the **interface**: a cute, cartoon-style design with **500+ rich category icons** that make daily check-ins feel light rather than like a productivity chore. Beyond looks, it covers the practical habit basics — and it does so without forcing you into a cloud account.
 
@@ -210,3 +222,6 @@ Habitify is a **cross-platform habit tracker** (iOS, Android, web, Wear OS) that
 3. **Recreate habits** — choose build or break mode where supported, and copy each task's frequency.
 4. **Set reminders** for the same times you used in Streaks so the new chain survives the switch.
 5. **Enable backup** (Meow Habits: Google Drive / WebDav; Habitica / Habitify / Fabulous: account sync) so you're never locked in.
+
+<!--
+-->

@@ -28,6 +28,12 @@ Choosing between **Meow Money Manager** and **YNAB** (You Need A Budget) comes d
 
 ## Meow Money Manager, in detail
 
+![Meow Money Manager screenshot 1](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
+![Meow Money Manager screenshot 2](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
+![Meow Money Manager screenshot 3](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
+![Meow Money Manager screenshot 4](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
+![Meow Money Manager screenshot 5](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
+
 Meow Money Manager is a **cat-themed expense tracker and budget app** focused on privacy and simplicity. You log expenses manually (or recurring), set category budgets, and watch charts — with no account required and your data on your device.
 
 ### Strengths
@@ -56,6 +62,12 @@ Privacy-minded users, travelers, freelancers and couples dealing with multiple c
 ---
 
 ## YNAB, in detail
+
+![Ynab screenshot 1](/assets/images/blog/ynab_1.webp){: width="180" .normal }
+![Ynab screenshot 2](/assets/images/blog/ynab_2.webp){: width="180" .normal }
+![Ynab screenshot 3](/assets/images/blog/ynab_3.webp){: width="180" .normal }
+![Ynab screenshot 4](/assets/images/blog/ynab_4.webp){: width="180" .normal }
+![Ynab screenshot 5](/assets/images/blog/ynab_5.webp){: width="180" .normal }
 
 YNAB is the leading **zero-based budgeting** app: every dollar gets a job, and you plan ahead rather than just record the past. It's a methodology as much as a tool, with automatic bank imports keeping balances live.
 
@@ -106,3 +118,6 @@ Meow Money is free at the core with a one-time VIP; YNAB is a recurring subscrip
 - **Choose Meow Money Manager** if you want a private, no-account expense tracker with multi-currency ledgers, reimbursement tracking and CSV export — especially for travel or cross-border life.
 - **Choose YNAB** if you want proactive, zero-based budgeting with automatic bank sync and are willing to pay a subscription and learn the method.
 - **Pragmatic split**: use Meow Money for day-to-day private tracking and multi-currency, and adopt YNAB only if you specifically want behavior-changing planning with auto-sync.
+
+<!--
+-->

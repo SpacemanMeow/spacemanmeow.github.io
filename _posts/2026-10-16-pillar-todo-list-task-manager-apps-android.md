@@ -32,6 +32,12 @@ On Android, a clean home-screen widget plus offline access and a fingerprint loc
 
 ## Meow Todo List, in depth
 
+![Meow Todo screenshot 1](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
+![Meow Todo screenshot 2](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
+![Meow Todo screenshot 3](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
+![Meow Todo screenshot 4](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
+![Meow Todo screenshot 5](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
+
 Meow Todo List is a simple schedule planner and to-do list task manager for Android and iOS, with calendar view, subtasks, reminders and cloud sync.
 
 - **Calendar perspective** — daily, weekly and monthly planners at a glance, so recurring work is visible.

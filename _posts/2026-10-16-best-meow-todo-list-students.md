@@ -28,6 +28,12 @@ Between lectures, assignments, and part-time shifts, students need a **task mana
 
 ## Meow Todo, in depth
 
+![Meow Todo screenshot 1](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
+![Meow Todo screenshot 2](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
+![Meow Todo screenshot 3](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
+![Meow Todo screenshot 4](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
+![Meow Todo screenshot 5](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
+
 Meow Todo is a **cat-themed to-do list** for Android and iOS. The core — lists, tasks, reminders, and calendar view — is free; VIP unlocks unlimited lists, tags, subtasks, CSV export, and app lock.
 
 **Strengths for students**
@@ -47,8 +53,13 @@ Meow Todo is a **cat-themed to-do list** for Android and iOS. The core — lists
 - [Google Play — Meow Todo List](https://play.google.com/store/apps/details?id=com.glgjing.money.task.todo.list.meow)
 - [App Store — Meow Todo List](https://apps.apple.com/app/id6742345495)
 
-
 ## Todoist, in depth
+
+![Todoist screenshot 1](/assets/images/blog/todoist_1.webp){: width="180" .normal }
+![Todoist screenshot 2](/assets/images/blog/todoist_2.webp){: width="180" .normal }
+![Todoist screenshot 3](/assets/images/blog/todoist_3.webp){: width="180" .normal }
+![Todoist screenshot 4](/assets/images/blog/todoist_4.webp){: width="180" .normal }
+![Todoist screenshot 5](/assets/images/blog/todoist_5.webp){: width="180" .normal }
 
 Todoist is the most-installed task manager around, trusted by 30 million users, with natural-language input ("submit essay tomorrow 5pm") and strong collaboration.
 

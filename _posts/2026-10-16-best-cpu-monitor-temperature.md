@@ -27,6 +27,12 @@ When a phone gets hot it slows down — thermal throttling kicks in and frames d
 
 ## CPU Monitor, in depth
 
+![CPU Monitor screenshot 1](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
+![CPU Monitor screenshot 5](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
+![CPU Monitor screenshot 3](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
+![CPU Monitor screenshot 4](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![CPU Monitor screenshot 2](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
+
 CPU Monitor is a **CPU temperature and load monitor** for Android. The core — live temperature, per-core frequency, and load — is free; VIP adds deeper history and options.
 
 **Strengths for heat watching**
@@ -44,8 +50,13 @@ CPU Monitor is a **CPU temperature and load monitor** for Android. The core — 
 
 - [Google Play — CPU Monitor](https://play.google.com/store/apps/details?id=com.glgjing.stark)
 
-
 ## CPU-Z, in depth
+
+![Cpu Z screenshot 1](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
+![Cpu Z screenshot 2](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
+![Cpu Z screenshot 3](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
+![Cpu Z screenshot 4](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
+![Cpu Z screenshot 5](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
 
 CPU-Z (package `com.cpuid.cpu_z`) is the Android port of the well-known CPUID tool, focused on reporting hardware details.
 

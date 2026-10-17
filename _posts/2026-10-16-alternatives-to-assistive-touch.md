@@ -20,6 +20,12 @@ Below we compare six Android tools across price, capabilities and the things tha
 
 ## The best Assistive Touch alternatives at a glance
 
+![Assistive Touch screenshot 1](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
+![Assistive Touch screenshot 2](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
+![Assistive Touch screenshot 3](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
+![Assistive Touch screenshot 4](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
+![Assistive Touch screenshot 5](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
+
 | App | Price (2026) | Core | Extras |
 |---|---|---|---|
 | **Floating Assistant** | Free core + unlock | Assistive touch | Floating clock + live monitor |
@@ -32,6 +38,12 @@ Below we compare six Android tools across price, capabilities and the things tha
 ---
 
 ### 1. Floating Assistant — best all-in-one
+
+![Floating Assistant screenshot 1](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![Floating Assistant screenshot 2](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
+![Floating Assistant screenshot 3](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
+![Floating Assistant screenshot 4](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
+![Floating Assistant screenshot 5](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
 
 Floating Assistant brings **assistive touch, a floating clock and a floating system monitor** to your Android screen, letting you control your phone from one handy overlay.
 
@@ -120,7 +132,7 @@ Button Mapper **remaps your physical buttons** (volume, Bixby, and more) to cust
 **Best for:** users who'd rather repurpose real buttons than use a floating icon.
 
 **Download Button Mapper**
-- [Google Play](https://play.google.com/store/apps/details?id=flar2.buttonmapper)
+- [Google Play](https://play.google.com/store/apps/details?id=flar2.homebutton)
 
 ---
 
@@ -143,7 +155,7 @@ All in One Gestures lets you **hide the soft keys and control your device with g
 **Best for:** users who prefer gestures over a floating ball.
 
 **Download All in One Gestures**
-- [Google Play](https://play.google.com/store/apps/details?id=com.phoenixstudios.aiogestures)
+- [Google Play](https://play.google.com/store/apps/details?id=com.conena.navigation.gesture.control)
 
 ---
 
@@ -166,7 +178,7 @@ Assistive Touch (smarttool) is a **straightforward floating-touch app** with vir
 **Best for:** users who want the classic floating-touch behavior, nothing more.
 
 **Download Assistive Touch**
-- [Google Play](https://play.google.com/store/apps/details?id=com.smarttool.assistivetouch)
+- [Google Play](https://play.google.com/store/apps/details?id=com.wanata.assistive.touch)
 
 ---
 
@@ -206,3 +218,6 @@ Assistive Touch (smarttool) is a **straightforward floating-touch app** with vir
 3. **Customize the ball or gestures** — add your most-used apps, toggles and screenshot.
 4. **Enable extras you'll use** — Floating Assistant's clock/monitor, or Button Mapper's volume-key shortcuts.
 5. **Review privacy**: prefer apps that don't collect data (Floating Assistant, Button Mapper, All in One Gestures) over ad-heavy clones.
+
+<!--
+-->

@@ -33,6 +33,12 @@ WidgetSmith is the best-known **iOS widget app**, but it is iPhone-only, and eve
 
 ## 1. One Widget — best for ready, multi-style Android widgets
 
+![One Widget screenshot 1](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
+![One Widget screenshot 2](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
+![One Widget screenshot 3](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
+![One Widget screenshot 4](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
+![One Widget screenshot 5](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
+
 One Widget is an Android widget pack built around **four complete design languages** — **Galaxy One UI, Material You, iOS Glass, and Nothing UI** — so one app can make a Samsung, Pixel, iPhone-style or Nothing phone look cohesive. It ships **500+ ready widgets** (clock, date, battery, RAM, storage, app shortcuts, toggles like Wi‑Fi/Bluetooth/flashlight, calendar, step counter, music and weather) and the developer is **actively adding new components**, which keeps the library fresh.
 
 **Strengths**
@@ -56,6 +62,12 @@ One Widget is an Android widget pack built around **four complete design languag
 ---
 
 ## 2. KWGT Kustom Widget Maker — best for building widgets from scratch
+
+![Kwgt Widget screenshot 1](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
+![Kwgt Widget screenshot 2](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
+![Kwgt Widget screenshot 3](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
+![Kwgt Widget screenshot 4](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
+![Kwgt Widget screenshot 5](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
 
 KWGT (by Kustom) is the **most powerful widget editor on Android**. Instead of picking a preset, you compose widgets from text, shapes, images, progress bars and a formula language that can pull in battery, network, weather, calendar and even **Health Connect** data (steps, sleep, calories). A large community shares presets and theme packs, so you can start from someone else's design and tweak it.
 
@@ -200,3 +212,5 @@ The table below shows, as objectively as possible, which capabilities each app s
 - Want **social/pet widgets with friends or a partner** → **Widgetable**.
 - Want **cute, theme-driven widgets across iOS and Android** → **WidgetClub**.
 
+<!--
+-->

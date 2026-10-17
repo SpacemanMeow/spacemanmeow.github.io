@@ -22,6 +22,12 @@ The trade-off was that Mint monetized through referrals and eventually steered u
 
 ## YNAB (You Need A Budget) — the methodology leader
 
+![Ynab screenshot 1](/assets/images/blog/ynab_1.webp){: width="180" .normal }
+![Ynab screenshot 2](/assets/images/blog/ynab_2.webp){: width="180" .normal }
+![Ynab screenshot 3](/assets/images/blog/ynab_3.webp){: width="180" .normal }
+![Ynab screenshot 4](/assets/images/blog/ynab_4.webp){: width="180" .normal }
+![Ynab screenshot 5](/assets/images/blog/ynab_5.webp){: width="180" .normal }
+
 YNAB is the best-known **zero-based budgeting** app: every dollar is "given a job" before you spend it, built on four simple rules. It has the largest dedicated budgeting community and the most education (workshops, guides, forums).
 
 **Strengths**
@@ -45,6 +51,12 @@ YNAB is the best-known **zero-based budgeting** app: every dollar is "given a jo
 ---
 
 ## Meow Money Manager — cat-themed tracker with a delightful interface
+
+![Meow Money Manager screenshot 1](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
+![Meow Money Manager screenshot 2](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
+![Meow Money Manager screenshot 3](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
+![Meow Money Manager screenshot 4](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
+![Meow Money Manager screenshot 5](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
 
 Meow Money Manager is a cat-themed expense tracker and budget app for **Android and iOS**. Its most distinctive trait is the **interface**: a cute, cartoon-style design with **400+ rich category icons** that make daily logging feel light rather than like office work. Beyond looks, it covers the practical bookkeeping basics.
 
@@ -164,7 +176,7 @@ PocketGuard keeps things simple: it shows **"In My Pocket"** — how much you ca
 **Best for:** people who want a quick "can I afford this?" answer without managing a full budget.
 
 **Download PocketGuard**
-- [Google Play](https://play.google.com/store/apps/details?id=com.pocketguard)
+- [Google Play](https://play.google.com/store/apps/details?id=com.pocketguard.android.app)
 - [App Store](https://apps.apple.com/us/app/pocketguard-budget-app/id949414211)
 
 ---
@@ -228,3 +240,6 @@ The table below shows, as objectively as possible, which capabilities each app s
 3. **Recreate your categories** — most apps let you rename defaults to match Mint's.
 4. **Set budgets and recurring items** (rent, salary, subscriptions) so tracking is smooth going forward.
 5. **Link the bank or stay manual** — if privacy matters, a manual app keeps your data on your device.
+
+<!--
+-->

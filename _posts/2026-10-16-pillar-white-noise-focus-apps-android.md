@@ -32,6 +32,12 @@ On Android, background playback is the make-or-break feature: the sound has to k
 
 ## Meow FM, in depth
 
+![Meow FM screenshot 1](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
+![Meow FM screenshot 2](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
+![Meow FM screenshot 3](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
+![Meow FM screenshot 4](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
+![Meow FM screenshot 5](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
+
 Meow FM is a cat-themed white noise app for sleep, relax and focus, with ambient sounds like rain, thunderstorm, forest and fireplace, plus a desktop clock for work sessions.
 
 - **15+ ambient sounds** — rain, thunderstorm, wind, forest, seaside, fireplace, summer night — built for both sleep and focus.

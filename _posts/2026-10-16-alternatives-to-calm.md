@@ -20,6 +20,11 @@ Below we compare six **alternatives to Calm** — from a cute, simple white-nois
 
 ## The best Calm alternatives at a glance
 
+![Calm screenshot 1](/assets/images/blog/calm_1.webp){: width="180" .normal }
+![Calm screenshot 2](/assets/images/blog/calm_2.webp){: width="180" .normal }
+![Calm screenshot 3](/assets/images/blog/calm_3.webp){: width="180" .normal }
+![Calm screenshot 4](/assets/images/blog/calm_4.webp){: width="180" .normal }
+
 | App | Price (2026) | Platforms | Best for |
 |---|---|---|---|
 | **Meow FM** | Free core + unlock | Android, iOS | Simple, cute white noise for sleep/focus |
@@ -32,6 +37,12 @@ Below we compare six **alternatives to Calm** — from a cute, simple white-nois
 ---
 
 ### 1. Meow FM — best simple white noise
+
+![Meow FM screenshot 1](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
+![Meow FM screenshot 2](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
+![Meow FM screenshot 3](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
+![Meow FM screenshot 4](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
+![Meow FM screenshot 5](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
 
 Meow FM is a **white noise app for sleep, relax and focus**, with ambient sounds like rain, thunderstorm, forest, seaside and fireplace, plus a sleep timer and a desktop clock to keep you efficient.
 
@@ -75,7 +86,7 @@ Headspace pairs **guided meditation** with sleepcasts, focus music and breathing
 **Best for:** users who want guided structure, not just background noise.
 
 **Download Headspace**
-- [Google Play](https://play.google.com/store/apps/details?id=com.headspace.android)
+- [Google Play](https://play.google.com/store/apps/details?id=com.getsomeheadspace.android)
 - [App Store](https://apps.apple.com/us/app/headspace-sleep-meditation/id493145008)
 
 ---
@@ -99,7 +110,7 @@ Insight Timer offers a **massive free meditation library** (tens of thousands of
 **Best for:** meditators who want the largest free library and a timer.
 
 **Download Insight Timer**
-- [Google Play](https://play.google.com/store/apps/details?id=com.spotlightsix.zentimerlite)
+- [Google Play](https://play.google.com/store/apps/details?id=com.spotlightsix.zentimerlite2)
 - [App Store](https://apps.apple.com/us/app/insight-timer-meditate-sleep/id337472899)
 
 ---
@@ -147,7 +158,7 @@ White Noise by TMSOFT is a **huge library of ambient sounds** (loops and mixes) 
 **Best for:** sound purists who want a big library without a subscription.
 
 **Download White Noise (TMSOFT)**
-- [Google Play](https://play.google.com/store/apps/details?id=com.tmsoft.whitenoise)
+- [Google Play](https://play.google.com/store/apps/details?id=com.tmsoft.whitenoise.full)
 - [App Store](https://apps.apple.com/us/app/white-noise/id289894882)
 
 ---
@@ -171,7 +182,7 @@ Noisli is a **focus and relaxation sound mixer** for work, study and sleep, with
 **Best for:** remote workers and students who mix sound for focus.
 
 **Download Noisli**
-- [Google Play](https://play.google.com/store/apps/details?id=com.noisli.android)
+- [Google Play](https://play.google.com/store/apps/details?id=dev.crscaballero.noisli)
 - [App Store](https://apps.apple.com/us/app/noisli/id862773459)
 
 ---
@@ -211,3 +222,6 @@ Noisli is a **focus and relaxation sound mixer** for work, study and sleep, with
 3. **Build a bedtime playlist** and set a sleep timer so sound stops automatically.
 4. **Try the free tiers first** — Insight Timer and Meow FM give a lot without paying.
 5. **Cancel Calm only after** you've confirmed the new app covers your nightly routine.
+
+<!--
+-->

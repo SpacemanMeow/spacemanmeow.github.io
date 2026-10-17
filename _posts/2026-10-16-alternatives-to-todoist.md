@@ -8,7 +8,6 @@ image: /assets/images/apps/meow-todo-list/icon.webp
 
 If you are shopping for **alternatives to Todoist**, you probably want lower cost, more privacy, or a simpler interface. Here are the **best to-do list app** alternatives worth a look in 2026 — seven apps picked either for high market share or for a distinct strength — with detailed pros and cons, a core-capability comparison, and direct download links.
 
-
 ## Why people look beyond Todoist
 
 - The free **Beginner** tier caps you at ~5 active projects with limited reminders.
@@ -16,6 +15,12 @@ If you are shopping for **alternatives to Todoist**, you probably want lower cos
 - Some users simply prefer a calmer, less "gamified" interface, or want their data off a vendor cloud.
 
 ## The best Todoist alternatives at a glance
+
+![Todoist screenshot 1](/assets/images/blog/todoist_1.webp){: width="180" .normal }
+![Todoist screenshot 2](/assets/images/blog/todoist_2.webp){: width="180" .normal }
+![Todoist screenshot 3](/assets/images/blog/todoist_3.webp){: width="180" .normal }
+![Todoist screenshot 4](/assets/images/blog/todoist_4.webp){: width="180" .normal }
+![Todoist screenshot 5](/assets/images/blog/todoist_5.webp){: width="180" .normal }
 
 | App | Price | Free tier | Best for |
 |---|---|---|---|
@@ -49,6 +54,12 @@ Microsoft To Do (built by the former Wunderlist team Microsoft acquired in 2015)
 - [App Store](https://apps.apple.com/app/microsoft-to-do/id1212616790)
 
 ### 2. Meow Todo — best for privacy, a delightful interface, and a free core
+
+![Meow Todo screenshot 1](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
+![Meow Todo screenshot 2](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
+![Meow Todo screenshot 3](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
+![Meow Todo screenshot 4](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
+![Meow Todo screenshot 5](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
 
 Meow Todo List is a cat-themed **task manager** for Android and iOS. Its standout trait is the **interface**: a cute, cartoon-style design with **400+ rich category icons** that make daily planning feel light rather than like office work. Beyond looks, it covers the practical to-do basics.
 
@@ -148,7 +159,7 @@ Notion is a notes/docs/database workspace that can also run your tasks via datab
 **Best for:** users who already live in Notion (or want docs + tasks + project management in one place) and can tolerate a heavier tool.
 
 **Download Notion**
-- [Google Play](https://play.google.com/store/apps/details?id=com.notion.id)
+- [Google Play](https://play.google.com/store/apps/details?id=notion.id)
 - [App Store](https://apps.apple.com/app/notion-notes-tasks-ai/id1232780281)
 
 ### 7. Any.do — best combined calendar and tasks
@@ -207,3 +218,6 @@ The table below shows, as objectively as possible, which capabilities each app s
 3. **Recreate your structure** — lists (To Do, Meow) or projects (Todoist) map cleanly to each other; in Notion, build a task database.
 4. **Re-add recurring tasks** and due dates; set daily reminders and, where supported, location or voice reminders.
 5. **Keep a CSV backup** (Meow Todo and most apps export one) so you're never locked in again.
+
+<!--
+-->

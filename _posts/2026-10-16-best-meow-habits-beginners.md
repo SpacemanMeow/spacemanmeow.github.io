@@ -28,6 +28,12 @@ Most habit resolutions fail because the system is too complex. The **habit track
 
 ## Meow Habits, in depth
 
+![Meow Habits screenshot 1](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
+![Meow Habits screenshot 2](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
+![Meow Habits screenshot 3](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
+![Meow Habits screenshot 4](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
+![Meow Habits screenshot 5](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
+
 Meow Habits is a **cat-themed habit tracker** for Android and iOS with a free core and one-tap templates.
 
 **Strengths for beginners**
@@ -46,8 +52,13 @@ Meow Habits is a **cat-themed habit tracker** for Android and iOS with a free co
 - [Google Play — Meow Habits](https://play.google.com/store/apps/details?id=com.glgjing.meow.habit.goal)
 - [App Store — Meow Habits](https://apps.apple.com/app/id6758230559)
 
-
 ## Streaks, in depth
+
+![Streaks screenshot 1](/assets/images/blog/streaks_1.webp){: width="180" .normal }
+![Streaks screenshot 2](/assets/images/blog/streaks_2.webp){: width="180" .normal }
+![Streaks screenshot 3](/assets/images/blog/streaks_3.webp){: width="180" .normal }
+![Streaks screenshot 4](/assets/images/blog/streaks_4.webp){: width="180" .normal }
+![Streaks screenshot 5](/assets/images/blog/streaks_5.webp){: width="180" .normal }
 
 Streaks (Crunchy Bagel) is the most polished iOS habit to-do, with Apple Health auto-tracking.
 

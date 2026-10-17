@@ -32,6 +32,12 @@ On Android you can repurpose a spare phone or tablet as an always-on clock displ
 
 ## Only Clock, in depth
 
+![Only Clock screenshot 5](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
+![Only Clock screenshot 6](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
+![Only Clock screenshot 1](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
+![Only Clock screenshot 3](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
+![Only Clock screenshot 2](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
+
 Only Clock is an exquisite full-screen flip clock for Android and iOS with a beautiful flip animation, clock widgets, white noise and a focus timer.
 
 - **Full-screen flip animation** — a minimalist, eye-catching page-flip that feels like a real flip clock.

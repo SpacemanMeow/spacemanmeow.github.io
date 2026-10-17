@@ -26,6 +26,11 @@ Beyond shooters, a **custom crosshair overlay** is handy for aim trainers, emula
 
 ## Crosshair Aim, in depth
 
+![Crosshair Aim screenshot 1](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
+![Crosshair Aim screenshot 2](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
+![Crosshair Aim screenshot 3](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
+![Crosshair Aim screenshot 4](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
+
 Crosshair Aim is a **custom crosshair overlay** for Android with a large style set and a live floating adjuster.
 
 **Strengths as an overlay**
@@ -43,8 +48,9 @@ Crosshair Aim is a **custom crosshair overlay** for Android with a large style s
 
 - [Google Play — Crosshair Aim](https://play.google.com/store/apps/details?id=com.glgjing.crosshair.aim.fps.game)
 
-
 ## Crosshair Hero, in depth
+
+![Crosshair Hero screenshot 1](/assets/images/blog/crosshair_hero_1.webp){: width="720" .normal }
 
 Crosshair Hero (package `me.okitastudio.crosshairherofps`) offers preset styles plus custom PNG, with color/size/position tweaks.
 

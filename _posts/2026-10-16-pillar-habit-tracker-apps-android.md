@@ -32,6 +32,12 @@ Android's strength is the home-screen widget and one-tap logging — you can che
 
 ## Meow Habits, in depth
 
+![Meow Habits screenshot 1](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
+![Meow Habits screenshot 2](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
+![Meow Habits screenshot 3](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
+![Meow Habits screenshot 4](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
+![Meow Habits screenshot 5](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
+
 Meow Habits is a habit tracker and routine builder with 500+ cute icons, streaks, charts and calendar views to keep you consistent.
 
 - **500+ cute cartoon icons** — fit any habit from 'drink water' to 'read 20 pages' without hunting for clip-art.
@@ -70,4 +76,5 @@ For most Android users who want a cute, private, offline habit tracker, Meow Hab
 
 - [Google Play — Meow Habits](https://play.google.com/store/apps/details?id=com.glgjing.meow.habit.goal)
 - [App Store — Meow Habits](https://apps.apple.com/app/id6758230559)
+
 Or read the [Best habit tracker app](/posts/best-meow-habits-general/) for the full breakdown.

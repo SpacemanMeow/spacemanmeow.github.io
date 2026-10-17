@@ -38,6 +38,12 @@ The features that matter most when you live inside the Google ecosystem:
 
 ## Meow Money Manager, in depth
 
+![Meow Money Manager screenshot 1](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
+![Meow Money Manager screenshot 2](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
+![Meow Money Manager screenshot 3](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
+![Meow Money Manager screenshot 4](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
+![Meow Money Manager screenshot 5](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
+
 Meow Money Manager is a **cat-themed expense tracker and budget app** for Android and iOS that stores everything **on your device** behind a fingerprint lock — no sign-up, no bank login, no data leaving your phone unless you back up to iCloud or WebDav.
 
 - **No account required** — open the app and start logging; nothing is uploaded to a server.

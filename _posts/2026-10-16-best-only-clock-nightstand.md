@@ -26,6 +26,12 @@ A spare phone or tablet makes a perfect **nightstand clock**. The **best nightst
 
 ## Only Clock, in depth
 
+![Only Clock screenshot 5](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
+![Only Clock screenshot 6](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
+![Only Clock screenshot 1](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
+![Only Clock screenshot 3](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
+![Only Clock screenshot 2](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
+
 Only Clock is a **fullscreen flip-clock** for Android and iOS with dark themes, white noise, and anti-burn-in options.
 
 **Strengths for the bedside**
@@ -44,8 +50,13 @@ Only Clock is a **fullscreen flip-clock** for Android and iOS with dark themes, 
 - [Google Play — Only Clock](https://play.google.com/store/apps/details?id=com.glgjing.only.flip.clock)
 - [App Store — Only Clock](https://apps.apple.com/app/id1566706513)
 
-
 ## Flip Clock, in depth
+
+![Flip Clock screenshot 1](/assets/images/blog/flip_clock_1.webp){: width="180" .normal }
+![Flip Clock screenshot 2](/assets/images/blog/flip_clock_2.webp){: width="180" .normal }
+![Flip Clock screenshot 3](/assets/images/blog/flip_clock_3.webp){: width="180" .normal }
+![Flip Clock screenshot 4](/assets/images/blog/flip_clock_4.webp){: width="180" .normal }
+![Flip Clock screenshot 5](/assets/images/blog/flip_clock_5.webp){: width="180" .normal }
 
 Flip Clock (package `com.wssc.simpleclock`) is a free, ad-free **flip-clock app** with brightness and always-on controls.
 

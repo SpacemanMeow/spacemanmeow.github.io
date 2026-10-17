@@ -29,6 +29,12 @@ A **mood diary** helps you notice patterns in how you feel — not by writing es
 
 ## Meow Mood, in depth
 
+![Meow Mood screenshot 1](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
+![Meow Mood screenshot 2](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
+![Meow Mood screenshot 3](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
+![Meow Mood screenshot 4](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![Meow Mood screenshot 5](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
+
 Meow Mood is a **cat-themed mood and diary app** for Android and iOS. Logging is one tap: choose an emotion, add optional tags or a short note, done.
 
 **Strengths for mood tracking**
@@ -49,8 +55,13 @@ Meow Mood is a **cat-themed mood and diary app** for Android and iOS. Logging is
 - [Google Play — Meow Mood Diary](https://play.google.com/store/apps/details?id=com.glgjing.meow.mood.diary)
 - [App Store — Meow Mood Diary](https://apps.apple.com/app/id6767560237)
 
-
 ## Day One, in depth
+
+![Day One screenshot 1](/assets/images/blog/day_one_1.webp){: width="180" .normal }
+![Day One screenshot 2](/assets/images/blog/day_one_2.webp){: width="180" .normal }
+![Day One screenshot 3](/assets/images/blog/day_one_3.webp){: width="180" .normal }
+![Day One screenshot 4](/assets/images/blog/day_one_4.webp){: width="180" .normal }
+![Day One screenshot 5](/assets/images/blog/day_one_5.webp){: width="180" .normal }
 
 Day One is the original, most-awarded digital journal — praised by *The New York Times* and *Wired* as a "completely private digital space." It syncs across Android, iOS, Mac, and web.
 

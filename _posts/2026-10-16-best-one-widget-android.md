@@ -27,6 +27,12 @@ A good **Android widget** puts the info you check most — time, weather, batter
 
 ## One Widget, in depth
 
+![One Widget screenshot 1](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
+![One Widget screenshot 2](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
+![One Widget screenshot 3](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
+![One Widget screenshot 4](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
+![One Widget screenshot 5](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
+
 One Widget is a **cat-themed widget pack** for Android. It ships widgets for clock, weather, calendar, battery, steps, and countdown, ready to drop on the home screen.
 
 **Strengths for Android users**
@@ -44,8 +50,13 @@ One Widget is a **cat-themed widget pack** for Android. It ships widgets for clo
 
 - [Google Play — One Widget](https://play.google.com/store/apps/details?id=com.glgjing.galaxy.nothing.glass.material.widget)
 
-
 ## KWGT, in depth
+
+![Kwgt Widget screenshot 1](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
+![Kwgt Widget screenshot 2](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
+![Kwgt Widget screenshot 3](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
+![Kwgt Widget screenshot 4](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
+![Kwgt Widget screenshot 5](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
 
 KWGT (Kustom Widget Maker, package `org.kustom.widget`) is the most powerful widget creator on Android — you design every pixel with its editor and a formula language ("Kode").
 

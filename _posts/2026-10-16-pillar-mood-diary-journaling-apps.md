@@ -32,6 +32,12 @@ On Android, local-first storage plus a fingerprint lock means your private thoug
 
 ## Meow Mood Diary, in depth
 
+![Meow Mood screenshot 1](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
+![Meow Mood screenshot 2](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
+![Meow Mood screenshot 3](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
+![Meow Mood screenshot 4](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![Meow Mood screenshot 5](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
+
 Meow Mood Diary is a safe, private mood diary and journaling app with a calming cat-themed interface for recording feelings and tracking mood.
 
 - **Complete privacy** — entries are never uploaded to our servers; you back up only to your own Google Drive.

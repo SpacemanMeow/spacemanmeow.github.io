@@ -26,6 +26,12 @@ When a game stutters or an app reloads, the usual suspect is **RAM** — but "lo
 
 ## System Monitor, in depth
 
+![System Monitor screenshot 1](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
+![System Monitor screenshot 5](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
+![System Monitor screenshot 3](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
+![System Monitor screenshot 4](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
+![System Monitor screenshot 2](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
+
 System Monitor is a **paid Android device-info tool**. For a one-time download price it detects detailed hardware, including memory: total/used/free RAM and per-app memory use, with live updates as you switch tasks. It reports — it does not free or boost memory.
 
 **Strengths for RAM understanding**
@@ -44,8 +50,13 @@ System Monitor is a **paid Android device-info tool**. For a one-time download p
 
 - [Google Play — System Monitor](https://play.google.com/store/apps/details?id=com.glgjing.marvel)
 
-
 ## CCleaner, in depth
+
+![Ccleaner screenshot 1](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
+![Ccleaner screenshot 2](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
+![Ccleaner screenshot 3](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
+![Ccleaner screenshot 4](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
+![Ccleaner screenshot 5](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
 
 CCleaner (package `com.piriform.ccleaner`, by Gen Digital) focuses on cleaning — cache, temp files, and duplicates.
 

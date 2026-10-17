@@ -28,6 +28,12 @@ Both are habit trackers, but they target different users. **Meow Habits** is a f
 
 ## Meow Habits, in detail
 
+![Meow Habits screenshot 1](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
+![Meow Habits screenshot 2](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
+![Meow Habits screenshot 3](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
+![Meow Habits screenshot 4](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
+![Meow Habits screenshot 5](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
+
 Meow Habits is a **habit tracker** built around a friendly, cat-themed interface and a huge set of cartoon icons. Its standout trait is the **design**: adorable visuals and 500+ rich cartoon icons make daily check-ins feel light rather than like a chore. It also supports both building good habits and breaking bad ones.
 
 ### Strengths
@@ -56,6 +62,12 @@ People who want a cute, cross-platform tracker that handles *both* building and 
 ---
 
 ## Streaks, in detail
+
+![Streaks screenshot 1](/assets/images/blog/streaks_1.webp){: width="180" .normal }
+![Streaks screenshot 2](/assets/images/blog/streaks_2.webp){: width="180" .normal }
+![Streaks screenshot 3](/assets/images/blog/streaks_3.webp){: width="180" .normal }
+![Streaks screenshot 4](/assets/images/blog/streaks_4.webp){: width="180" .normal }
+![Streaks screenshot 5](/assets/images/blog/streaks_5.webp){: width="180" .normal }
 
 Streaks is the minimalist iOS habit app that helped define the category. You pick up to 12 tasks, mark them done each day, and watch your chain grow. It's all about focus and Apple-ecosystem polish.
 
@@ -105,3 +117,6 @@ Meow Habits is free at the core; Streaks is a ~$4.99 one-time buy. Neither is su
 - **Choose Meow Habits** if you use Android or both platforms, want to track breaking habits, love cute icons, or prefer offline/private tracking with CSV export.
 - **Choose Streaks** if you're iPhone-only, want the most polished minimal tracker, and live inside Apple's ecosystem (HealthKit, Watch, Shortcuts).
 - **For most cross-platform or privacy-minded users, Meow Habits covers more cases**; for a pure-iOS simplicity fan, Streaks remains the cleaner pick.
+
+<!--
+-->

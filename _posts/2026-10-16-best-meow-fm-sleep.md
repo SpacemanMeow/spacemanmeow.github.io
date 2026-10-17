@@ -35,6 +35,12 @@ A **sleep sounds app** earns its place on your phone by doing one job quietly: h
 
 ## Meow FM, in depth
 
+![Meow FM screenshot 1](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
+![Meow FM screenshot 2](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
+![Meow FM screenshot 3](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
+![Meow FM screenshot 4](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
+![Meow FM screenshot 5](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
+
 Meow FM is a **cat-themed white noise and sleep sounds app** for Android and iOS. The core is free: natural loops like rain, sea, and fireplace, plus a sleep timer that switches playback off so it isn't running all night.
 
 **Strengths for sleep**
@@ -54,8 +60,12 @@ Meow FM is a **cat-themed white noise and sleep sounds app** for Android and iOS
 - [Google Play — Meow FM](https://play.google.com/store/apps/details?id=com.glgjing.whitenoise.relax.night.sleep.meow)
 - [App Store — Meow FM](https://apps.apple.com/app/id1606715188)
 
-
 ## Calm, in depth
+
+![Calm screenshot 1](/assets/images/blog/calm_1.webp){: width="180" .normal }
+![Calm screenshot 2](/assets/images/blog/calm_2.webp){: width="180" .normal }
+![Calm screenshot 3](/assets/images/blog/calm_3.webp){: width="180" .normal }
+![Calm screenshot 4](/assets/images/blog/calm_4.webp){: width="180" .normal }
 
 Calm is the best-known **meditation and sleep app** on Google Play (50M+ downloads, 4.3 stars), built around guided meditations, **Sleep Stories** (narrated bedtime tales), breathing exercises, and a daily 10-minute session.
 

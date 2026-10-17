@@ -20,6 +20,12 @@ Below we compare six **alternatives to Day One** — from a cute, private mood d
 
 ## The best Day One alternatives at a glance
 
+![Day One screenshot 1](/assets/images/blog/day_one_1.webp){: width="180" .normal }
+![Day One screenshot 2](/assets/images/blog/day_one_2.webp){: width="180" .normal }
+![Day One screenshot 3](/assets/images/blog/day_one_3.webp){: width="180" .normal }
+![Day One screenshot 4](/assets/images/blog/day_one_4.webp){: width="180" .normal }
+![Day One screenshot 5](/assets/images/blog/day_one_5.webp){: width="180" .normal }
+
 | App | Price (2026) | Platforms | Best for |
 |---|---|---|---|
 | **Meow Mood Diary** | Free core + VIP | Android, iOS | Private, cute mood diary |
@@ -32,6 +38,12 @@ Below we compare six **alternatives to Day One** — from a cute, private mood d
 ---
 
 ### 1. Meow Mood Diary — best for a private, cute mood diary
+
+![Meow Mood screenshot 1](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
+![Meow Mood screenshot 2](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
+![Meow Mood screenshot 3](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
+![Meow Mood screenshot 4](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![Meow Mood screenshot 5](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
 
 Meow Mood Diary is a **safe, private mood diary** with a calming cat-themed interface. Its standout trait is the **design**: adorable cartoon cat visuals and a wide set of mood icons make daily check-ins feel light rather than like a chore. Beyond looks, it never uploads your entries to a server and backs up only to your own Google Drive.
 
@@ -75,7 +87,7 @@ Journey is a **cross-platform journal** for Android, iOS, web, Windows and Mac, 
 **Best for:** writers who journal across phone, web and desktop and want reliable sync.
 
 **Download Journey**
-- [Google Play](https://play.google.com/store/apps/details?id=com.journey.apps)
+- [Google Play](https://play.google.com/store/apps/details?id=com.journey.app)
 - [App Store](https://apps.apple.com/us/app/journey-diary-journal/id1300202543)
 
 ---
@@ -99,7 +111,7 @@ Diaro is a **text-first diary** with folders, tags, search, and a clean dashboar
 **Best for:** organized writers who want folders, tags and search across devices.
 
 **Download Diaro**
-- [Google Play](https://play.google.com/store/apps/details?id=com.pixelglow.diaro)
+- [Google Play](https://play.google.com/store/apps/details?id=com.pixelcrater.Diaro)
 - [App Store](https://apps.apple.com/us/app/diary-journal-notes-diaro/id882519460)
 
 ---
@@ -147,7 +159,7 @@ Grid Diary uses a **question-prompt grid** to structure entries, helping you ref
 **Best for:** people who write better when prompted and want structure.
 
 **Download Grid Diary**
-- [Google Play](https://play.google.com/store/apps/details?id=com.goodmood.diary)
+- [Google Play](https://play.google.com/store/apps/details?id=io.sumi.griddiary2)
 - [App Store](https://apps.apple.com/us/app/grid-diary-journal-planner/id1392523148)
 
 ---
@@ -210,3 +222,6 @@ Momento is an **iOS journal** that builds a private timeline from your entries a
 3. **Import or re-create entries** — Journey/Diaro/Grid Diary accept imports; for Meow Mood, start fresh with one-tap mood logs and add notes.
 4. **Set a daily reminder** in the new app so the habit survives the switch.
 5. **Enable backup** (Meow Mood: your own Google Drive; Journey/Diaro: account sync) so you're never locked in.
+
+<!--
+-->

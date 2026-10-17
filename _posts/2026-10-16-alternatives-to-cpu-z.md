@@ -20,6 +20,12 @@ Below we compare six **alternatives to CPU-Z** — from a live temperature monit
 
 ## The best CPU-Z alternatives at a glance
 
+![Cpu Z screenshot 1](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
+![Cpu Z screenshot 2](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
+![Cpu Z screenshot 3](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
+![Cpu Z screenshot 4](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
+![Cpu Z screenshot 5](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
+
 | App | Price (2026) | Platforms | Best for |
 |---|---|---|---|
 | **CPU Monitor** | Free core + unlock | Android | Live temp, frequency, floating window |
@@ -32,6 +38,12 @@ Below we compare six **alternatives to CPU-Z** — from a live temperature monit
 ---
 
 ### 1. CPU Monitor — best for live temperature
+
+![CPU Monitor screenshot 1](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
+![CPU Monitor screenshot 2](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
+![CPU Monitor screenshot 3](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
+![CPU Monitor screenshot 4](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![CPU Monitor screenshot 5](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
 
 CPU Monitor shows **real-time CPU temperature and frequency**, RAM, battery and multicore usage, with a floating window, widgets, one-tap boost and an overheat alarm.
 
@@ -145,7 +157,7 @@ Droid Hardware Info is a **lightweight spec viewer** that shows system, CPU, GPU
 **Best for:** anyone who just wants a quick, clean device spec readout.
 
 **Download Droid Hardware Info**
-- [Google Play](https://play.google.com/store/apps/details?id=in.app.droidinfo)
+- [Google Play](https://play.google.com/store/apps/details?id=com.inkwired.droidinfo)
 
 ---
 
@@ -207,3 +219,6 @@ System Monitor is an **all-in-one Android tool**: CPU monitor, storage cleaner, 
 3. **Add a widget** to your home screen for at-a-glance CPU/RAM/battery.
 4. **Turn on the overheat alarm** if you game or charge heavily, so you get warned before throttling.
 5. **Use one-tap boost or cleaner** (CPU Monitor boost, System Monitor cleaner) to free memory when the phone feels slow.
+
+<!--
+-->

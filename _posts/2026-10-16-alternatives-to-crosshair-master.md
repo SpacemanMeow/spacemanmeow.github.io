@@ -20,6 +20,8 @@ Below we compare six **alternatives to Crosshair Master** — all safe, no-root 
 
 ## The best Crosshair Master alternatives at a glance
 
+![Crosshair Hero screenshot 1](/assets/images/blog/crosshair_hero_1.webp){: width="180" .normal }
+
 | App | Price (2026) | Styles | Customization | In-game adjuster |
 |---|---|---|---|---|
 | **Crosshair Aim** | Free + unlock | 15+ | Size/color/scale/position | Yes |
@@ -33,10 +35,15 @@ Below we compare six **alternatives to Crosshair Master** — all safe, no-root 
 
 ### 1. Crosshair Aim — best customizable overlay
 
-Crosshair Aim is a **crosshair app for FPS games** with 15+ styles, full size/color/scale/position control, a transparent overlay (85% default), and an in-game floating adjuster.
+![Crosshair Aim screenshot 1](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
+![Crosshair Aim screenshot 2](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
+![Crosshair Aim screenshot 3](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
+![Crosshair Aim screenshot 4](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
+
+Crosshair Aim is a **crosshair app for FPS games** with 80+ styles, full size/color/scale/position control, a transparent overlay (85% default), and an in-game floating adjuster.
 
 **Strengths**
-- **15+ crosshair styles** covering dots, crosses, circles and more.
+- **80+ crosshair styles** covering dots, crosses, circles and more.
 - **Full customization** — size, color, scale and on-screen position.
 - **In-game floating adjuster** so you can tune the reticle without leaving the match.
 - **Transparent, no-root overlay** that works over almost any shooting game.
@@ -56,6 +63,12 @@ Crosshair Aim is a **crosshair app for FPS games** with 15+ styles, full size/co
 ---
 
 ### 2. Custom Crosshair — best animated styles
+
+![Custom Crosshair screenshot 1](/assets/images/blog/custom_crosshair_1.webp){: width="180" .normal }
+![Custom Crosshair screenshot 2](/assets/images/blog/custom_crosshair_2.webp){: width="180" .normal }
+![Custom Crosshair screenshot 3](/assets/images/blog/custom_crosshair_3.webp){: width="180" .normal }
+![Custom Crosshair screenshot 4](/assets/images/blog/custom_crosshair_4.webp){: width="180" .normal }
+![Custom Crosshair screenshot 5](/assets/images/blog/custom_crosshair_5.webp){: width="180" .normal }
 
 Custom Crosshair (Impact Crosshair) is a popular **overlay tool** with 500,000+ installs, a crosshair builder, real-time overlay, and animated reticles for FPS and TPS games.
 
@@ -103,6 +116,11 @@ Custom Aim (Crosshair Generator Pro) lets you **create a custom crosshair overla
 
 ### 4. Crosshair Pro — best real-time positioning
 
+![Crosshair Pro screenshot 1](/assets/images/blog/crosshair_pro_1.webp){: width="180" .normal }
+![Crosshair Pro screenshot 2](/assets/images/blog/crosshair_pro_2.webp){: width="180" .normal }
+![Crosshair Pro screenshot 3](/assets/images/blog/crosshair_pro_3.webp){: width="180" .normal }
+![Crosshair Pro screenshot 4](/assets/images/blog/crosshair_pro_4.webp){: width="180" .normal }
+
 Crosshair Pro: Custom Scope is a mobile utility that puts a **precise scope overlay** anywhere on screen, adjustable in real time during gameplay, with broad FPS compatibility.
 
 **Strengths**
@@ -148,6 +166,11 @@ CrossAim: Custom Crosshair offers **24 styles** with colors and sizes, a clean o
 ---
 
 ### 6. Crosshair PRO — best pro overlay sets
+
+![Crosshair Custom Scope screenshot 1](/assets/images/blog/crosshair_custom_scope_1.webp){: width="180" .normal }
+![Crosshair Custom Scope screenshot 2](/assets/images/blog/crosshair_custom_scope_2.webp){: width="180" .normal }
+![Crosshair Custom Scope screenshot 3](/assets/images/blog/crosshair_custom_scope_3.webp){: width="180" .normal }
+![Crosshair Custom Scope screenshot 4](/assets/images/blog/crosshair_custom_scope_4.webp){: width="180" .normal }
 
 Crosshair PRO (Custom Scope) is a professional **overlay tool for FPS and TPS enthusiasts**, with customizable scopes and a lightweight footprint.
 
@@ -205,3 +228,6 @@ Crosshair PRO (Custom Scope) is a professional **overlay tool for FPS and TPS en
 3. **Grant display-over-other-apps permission** so the overlay can draw above the game.
 4. **Recreate your reticle** — set style, color, size and position to match what you had.
 5. **Test in a match** and use the in-game adjuster to fine-tune placement before competitive play.
+
+<!--
+-->

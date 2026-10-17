@@ -22,6 +22,12 @@ Below we compare six apps across price, platforms and the capabilities that actu
 
 ## The best CCleaner alternatives at a glance
 
+![Ccleaner screenshot 1](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
+![Ccleaner screenshot 2](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
+![Ccleaner screenshot 3](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
+![Ccleaner screenshot 4](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
+![Ccleaner screenshot 5](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
+
 | App | Price (2026) | Platforms | Best for |
 |---|---|---|---|
 | **System Monitor** | Free core + unlock | Android | Monitor + boost + light cleaner |
@@ -34,6 +40,12 @@ Below we compare six apps across price, platforms and the capabilities that actu
 ---
 
 ### 1. System Monitor — best for monitoring plus cleanup
+
+![System Monitor screenshot 1](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
+![System Monitor screenshot 2](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
+![System Monitor screenshot 3](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
+![System Monitor screenshot 4](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
+![System Monitor screenshot 5](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
 
 System Monitor is an **all-in-one Android tool** with CPU monitor, storage cleaner, RAM booster and battery doctor — so you get insight *and* cleanup in one place.
 
@@ -205,3 +217,6 @@ Norton Clean is a **straightforward junk and cache cleaner** that removes tempor
 3. **Add a monitor** (System Monitor) to find what's actually draining CPU/battery instead of "boosting" blindly.
 4. **Uninstall CCleaner** once the new tool covers your needs — modern Android needs less constant cleaning.
 5. **Keep it simple**: delete big media and old apps regularly; let the OS handle the rest.
+
+<!--
+-->

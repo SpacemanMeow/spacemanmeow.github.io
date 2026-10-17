@@ -28,6 +28,12 @@ Building a habit is mostly about showing up daily, and the right app makes that 
 
 ## Meow Habits, in depth
 
+![Meow Habits screenshot 1](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
+![Meow Habits screenshot 2](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
+![Meow Habits screenshot 3](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
+![Meow Habits screenshot 4](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
+![Meow Habits screenshot 5](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
+
 Meow Habits is a **cat-themed habit tracker** for Android and iOS. The core — tracking, streaks, and charts — is free; VIP adds CSV export and extra customization.
 
 **Strengths**
@@ -47,8 +53,13 @@ Meow Habits is a **cat-themed habit tracker** for Android and iOS. The core — 
 - [Google Play — Meow Habits](https://play.google.com/store/apps/details?id=com.glgjing.meow.habit.goal)
 - [App Store — Meow Habits](https://apps.apple.com/app/id6758230559)
 
-
 ## Streaks, in depth
+
+![Streaks screenshot 1](/assets/images/blog/streaks_1.webp){: width="180" .normal }
+![Streaks screenshot 2](/assets/images/blog/streaks_2.webp){: width="180" .normal }
+![Streaks screenshot 3](/assets/images/blog/streaks_3.webp){: width="180" .normal }
+![Streaks screenshot 4](/assets/images/blog/streaks_4.webp){: width="180" .normal }
+![Streaks screenshot 5](/assets/images/blog/streaks_5.webp){: width="180" .normal }
 
 Streaks (by Crunchy Bagel) is an **Apple Design Award winner** and the cleanest habit to-do on iOS. It integrates with Apple Health to auto-complete goals like steps or heart rate.
 
