@@ -23,7 +23,7 @@
 
 ### 内容现状
 - 11 个 app 详情页（英文，单页内容偏薄）
-- 仅 2 篇博客（均为 Meow Money 的教程），内容面极窄
+- 仅 1 篇博客（Meow Money 的教程），内容面极窄
 - 关键词目前散落在 title / tagline / 正文，**缺乏成体系的关键词映射与内容集群**
 
 ---
@@ -186,9 +186,9 @@ AI 应用内搜索本质 = 抓取已索引的可信网页并抽取事实。杠�
 ### 已知问题 / 后续注意
 - **seo-tag 误判 + 非法 JSON 已修复（2026-10-10）**：原 `jekyll-seo-tag` 给无日期页填构建时间当 `date`，把 app/隐私/条款页误标为 `BlogPosting`；且 description/title 里的 `&` 被转成 `&amp;` 塞进 JSON-LD（非法，Google 会丢弃该块）。修复方式：① 所有含 `&` 的 app `description`/`title` 改为 `and`；② `_config.yml` 的 apps 默认加 `seo.type: WebPage`、`privacy.md`/`terms.md` 加 `seo.type: WebPage`，强制类型正确；③ 我们的 `SoftwareApplication`/`FAQPage`/`BreadcrumbList` 仍由 `app-jsonld.html` 正确提供。构建校验：全站 JSON-LD 已无 `&amp;`，app 页 `@type` 为 `WebPage`+`SoftwareApplication`+`FAQPage`+`BreadcrumbList`。
 - `url` 已从 `github.io` 改为 `spacemanmeow.com`，线上 canonical / sitemap 已确认均为该域名。
-- **T-09 收尾（低优先）**：博客正文图 `![image](...)` 的 alt 仍是字面 `image`，未含关键词。可在两篇博客里把 `![image]` 改为含关键词的 alt（如 `![Meow Money ledger screen](...)`）。app 侧 alt 已优化完毕。
+- **T-09（按用户决定推迟）**：图片 alt 关键词化与 best 文章正文截图，统一待用户**上传全部图片后**再补充（含 2 篇旧 how-to 的 `![image]` alt、22 篇 best 的截图 alt）。app 侧图标 alt 已优化完毕。
 - **T-13（Core Web Vitals）** 属持续项：保持图片 WebP、首屏懒加载（截图已 `loading="lazy"`）、CLS 稳定即可，无一次性任务。
-- 所有 Phase 1/2 技术项已本地构建校验通过，但**尚未重新部署**：需 commit + push 触发 Actions，让线上出现新的结构化数据 / og:image / 修正后的 JSON。
+- 所有 Phase 1/2 技术项已于 **2026-10-16 部署上线**，线上已出现 sitemap.xml / 结构化数据 / og:image / 修正后的 JSON。可在 Search Console「网址检查」中对 22 个新 best URL 请求编入索引以加速收录。
 | T-07 | 列表/详情注入 BreadcrumbList JSON-LD | ✅ | 2026-10-10 | 新增 `_includes/breadcrumb-jsonld.html` 并在 `default.html` 引入；Meow 系列 app 为 Home›Meow›App，非 Meow app/普通页为 Home›当前页，博客为 Home›Blog›Post；全站 18 个非首页页均含，构建校验 JSON 全合法 |
 | T-08 | 博客文章注入 Article/BlogPosting JSON-LD | ✅ | 2026-10-10 | `jekyll-seo-tag` 自动为 posts 输出合法 `BlogPosting`（含 author/publisher/mainEntityOfPage）；顺手修掉作者 URL 旧域名 `github.io`→`spacemanmeow.com` |
 | T-09 | 图片 alt 改为含关键词描述 | ✅ | 2026-10-10 | app 图标 alt 改为 `{{title}} app icon`；截图 alt 默认 `{{title}} screenshot`（自动覆盖 11 个 app）；博客正文图 alt 仍为 `image`（见下方后续注意） |
@@ -198,19 +198,22 @@ AI 应用内搜索本质 = 抓取已索引的可信网页并抽取事实。杠�
 | T-13 | 维持 Core Web Vitals（懒加载/LCP/CLS） | ☐ | | |
 
 ### 内容项（按 app 建集群，每完成一篇记录）
-| app | 品类落地页 | 对比页 | Best-X-for-Y | How-to | FAQ | Alternatives |
+> **进度更新 2026-10-16**：本轮已批量产出 **22 篇 Best-X-for-Y** + **11 篇 vs 对比页** + **11 篇 Alternatives 页**（每 app 各 1 篇 vs / 1 篇 alternatives / 2 篇 best），故「对比页 / Best-X-for-Y / Alternatives」三类已**全覆盖 11 个 app**。剩余：**品类落地页(Pillar)：11 个 app 已全部完成（2026-10-16）**；**10 个 app 缺 How-to**（仅 Meow Money 有 1 篇教程）。
+> 注：FAQ 列指 app 详情页 FAQ（T-06 已完成，11 页全覆盖），非独立 FAQ 内容页。
+
+| app | 品类落地页 (Pillar) | 对比页 (vs) | Best-X-for-Y | How-to | FAQ (app 页) | Alternatives |
 |---|---|---|---|---|---|---|
-| Meow Money | ☐ | ☐ | ☐ | ✅✅(已有2) | ☐ | ☐ |
-| Meow Todo | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| Meow Mood Diary | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| Meow Habits | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| One Widget | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| Only Clock | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| CPU Monitor | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| System Monitor | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| Floating Assistant | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| Meow FM | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
-| Crosshair Aim | ☐ | ☐ | ☐ | ☐ | ☐ | ☐ |
+| Meow Money | ✅ pillar-budget-expense-tracker-apps-android | ✅ vs-meow-money-and-ynab | ✅✅ android/students | ✅ 1 教程 | ✅ | ✅ alternatives-to-mint |
+| Meow Todo | ✅ pillar-todo-list-task-manager-apps-android | ✅ vs-meow-todo-and-todoist | ✅✅ students/android | ☐ | ✅ | ✅ alternatives-to-todoist |
+| Meow Mood Diary | ✅ pillar-mood-diary-journaling-apps | ✅ vs-meow-mood-and-day-one | ✅✅ diary/private | ☐ | ✅ | ✅ alternatives-to-day-one |
+| Meow Habits | ✅ pillar-habit-tracker-apps-android | ✅ vs-meow-habits-and-streaks | ✅✅ general/beginners | ☐ | ✅ | ✅ alternatives-to-streaks |
+| One Widget | ✅ pillar-android-home-screen-widget-apps | ✅ vs-one-widget-and-kwgt | ✅✅ android/material-you | ☐ | ✅ | ✅ alternatives-to-widgetsmith |
+| Only Clock | ✅ pillar-flip-clock-apps-android | ✅ vs-only-clock-and-retroflip | ✅✅ flip/nightstand | ☐ | ✅ | ✅ alternatives-to-retroflip |
+| CPU Monitor | ✅ pillar-cpu-temperature-monitor-apps-android | ✅ vs-cpu-monitor-and-cpu-z | ✅✅ temperature/phone-temp | ☐ | ✅ | ✅ alternatives-to-cpu-z |
+| System Monitor | ✅ pillar-system-monitor-apps-android | ✅ vs-system-monitor-and-ccleaner | ✅✅ monitor/ram | ☐ | ✅ | ✅ alternatives-to-ccleaner |
+| Floating Assistant | ✅ pillar-floating-assistant-apps-android | ✅ vs-floating-assistant-and-assistive-touch | ✅✅ general/accessibility | ☐ | ✅ | ✅ alternatives-to-assistive-touch |
+| Meow FM | ✅ pillar-white-noise-focus-apps-android | ✅ vs-meow-fm-and-calm | ✅✅ sleep/focus | ☐ | ✅ | ✅ alternatives-to-calm |
+| Crosshair Aim | ✅ pillar-crosshair-apps-fps-android | ✅ vs-crosshair-and-crosshair-master | ✅✅ fps/overlay | ☐ | ✅ | ✅ alternatives-to-crosshair-master |
 
 ### 度量记录（每月填写）
 | 月份 | 收录页数 | 自然流量 | 主要排名词 | 备注 |
@@ -224,7 +227,7 @@ AI 应用内搜索本质 = 抓取已索引的可信网页并抽取事实。杠�
 **Phase 1（技术地基）已于 2026-10-10 完成**，包含：sitemap + robots + `url` 修正 + 11 个 app 的 `description` + `SoftwareApplication` JSON-LD（全部校验合法）。
 
 **接下来建议按顺序推进：**
-1. **提交并部署**：将本次改动 commit 并触发 GitHub Actions，使线上出现 sitemap.xml / robots.txt / 结构化数据；随后完成 **T-03** Search Console 验证与提交。
+1. **✅ 提交并部署（2026-10-16 已完成）**：线上已出现 sitemap.xml / robots.txt / 结构化数据；T-03 Search Console 验证与提交请确认线上已生效。
 2. **Phase 2（页面级，P2）**：T-09 图片 `alt` 关键词化、T-10 确认 canonical、T-11 `hreflang="en"`、T-12 各 app OG 卡片图、T-07/T-08 BreadcrumbList 与博客 Article JSON-LD。
 3. **Phase 3（内容引擎）**：按 §3 模板为每个 app 建「品类落地页 + 对比页 + Best-X-for-Y + FAQ」，并在 app front matter 加 `faq:` 自动产出 FAQPage 结构化数据（T-06 收尾）。
 4. **Phase 4（权威/AI）**：外链 / roundup 投稿 + 竞品 alternatives 页 + 更新日志。

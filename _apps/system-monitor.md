@@ -4,8 +4,8 @@
 #  修改 front matter 里的字段即可，正文用 markdown 写应用介绍
 # ===================================================================
 title: System Monitor # 应用名称（列表页 & 详情页标题）
-tagline: Cpu monitor, storage cleaner, memory booster, battery doctor all in one. # 一句话简介
-description: "System Monitor is an all-in-one Android tool: CPU monitor, storage cleaner, RAM booster and battery doctor, keeping your phone fast, cool and optimized."
+tagline: Real-time CPU, storage, memory and battery info detection for Android. # 一句话简介
+description: "System Monitor is a paid Android tool for hardware info detection: real-time CPU temperature and frequency, storage and memory usage, and battery health monitoring."
 icon: /assets/images/apps/system-monitor/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/system-monitor/icon.webp
 series: # 应用系列：Meow 系列的会出现在 Meow 页面
@@ -27,10 +27,10 @@ screenshots:
 faq:
   - question: What is System Monitor?
     answer: >-
-      System Monitor is an all-in-one Android tool: CPU monitor, storage cleaner, RAM booster and battery doctor to keep your phone fast, cool and optimized.
+      System Monitor is a paid Android tool for hardware info detection: real-time CPU temperature and frequency, storage and memory usage, and battery health monitoring.
   - question: Can System Monitor clean junk and boost RAM?
     answer: >-
-      System Monitor cannot clean junk or cache files. It focuses on monitoring and performance: real-time CPU and battery temperature, RAM analysis with one-tap boost, battery health tracking, and overheating protection.
+      No. System Monitor is a read-only monitoring tool — it shows CPU, storage, memory and battery facts but does not clean junk or free/boost RAM.
   - question: Does it monitor battery health?
     answer: >-
       Yes. Monitor battery temperature, health, voltage and level with curves, plus battery saver modes to extend life.
@@ -40,24 +40,23 @@ faq:
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
-The powerful system monitor for cpu ram and battery. You can monitor cpu temperature, cpu frequency, storage usage, memory usage, battery temperature, battery health at the same time.
-System Monitor provides many kinds of powerful tools, including: ram booster and cleaner, overheating alarm, overheating protection, one tap boost, garbage collection, ram widget, cpu widget, battery widget, floating window.
-So download System Monitor now, speed up your phone and cool your phone !
+The powerful system monitor for CPU, RAM and battery. You can monitor CPU temperature, CPU frequency, storage usage, memory usage, battery temperature and battery health at the same time — all read-only, with no cleaning or boosting.
+
+System Monitor provides many kinds of powerful tools, including: overheating alarm, overheating protection, RAM widget, CPU widget, battery widget and floating window. So download System Monitor now to see exactly what is happening inside your phone!
 
 ### Features of System Monitor - complete guide
 
-**Cpu monitor**
+**CPU monitor**
 
-Monitor the cpu temperature cpu frequency cpu activity cpu usage real time and show with curve table, analyze the cpu temperature and frequency history information and temperature ranking list, support the multicore cpu monitoring. Help you reduce cpu usage as phone cooler.
+Monitor the CPU temperature and CPU frequency in real time and show them with curve tables. Analyze the CPU temperature and frequency history information, and support multicore CPU monitoring. Help you understand CPU usage and spot performance issues as a phone cooler would report them.
 
-**Storage cleaner**
+**Storage info**
 
-Clean the junk and save your storage, including:
-useless apk files, useless system garbage, junk of apps, residual files, system cache, apps cache, AD cache.
+View your storage usage — used space, free space and what is taking it up. This is read-only information; System Monitor does not delete files or clear caches.
 
-**Ram analyzer and booster**
+**Memory info**
 
-Analyze memory usage, clean the ram and speed up your phone, and you can set the ignore list based on your own personal needs.
+View memory (RAM) usage and per-app memory at a glance. This is read-only information; System Monitor does not free or boost RAM.
 
 **Battery monitor**
 
@@ -65,27 +64,22 @@ Show the curve table of battery usage and temperature. Monitor the battery statu
 
 **Battery saver and doctor**
 
-Extends battery life and optimizing device settings to keep battery health. You can choose "LONG LIFE MODE" or "CUSTOM SAVE MODE".
-
-**One tap boost**
-
-You can create the『One Tap Boost』shortcut, boost your phone very convenient.
+Extends battery life by optimizing device settings. You can choose "LONG LIFE MODE" or "CUSTOM SAVE MODE".
 
 **Temperature overheating alarm and overheating protection**
 
-System Monitor will trigger an alarm when cpu's or battery's temperature is overheating, you can choose open or close the overheating alarm as your like.
+System Monitor will trigger an alarm when the CPU's or battery's temperature is overheating. You can choose to open or close the overheating alarm as you like.
 
 **Floating window**
 
-Floating window show the CPU temperature, battery temperature, ram usage real time, including: status bar floating window and desktop floating window.
+Floating window shows the CPU temperature, battery temperature and RAM usage in real time, including: status bar floating window and desktop floating window.
 
 **Widget**
 
-Support ram widget, cpu widget and battery widget.
+Support RAM widget, CPU widget and battery widget.
 
 **Multi-Theme**
 
-Powerful System Monitor is very beautiful and support multi-theme switching, you can choose the theme you like.
+Powerful System Monitor is very beautiful and supports multi-theme switching. You can choose the theme you like.
 
-If you buy Powerful System Monitor, you will have ⭐cpu monitor ⭐storage cleaner ⭐memory booster ⭐battery doctor ⭐battery saver at the same time! Monitor cpu temperature, cpu frequency, storage usage, memory usage, battery temperature, battery health at the same time.
-So what are you waiting for ? Download System Monitor now, speed up your phone and cool your phone !
+If you buy System Monitor, you will have CPU monitor, storage info, memory info, battery monitor and battery saver at the same time — a one-time paid download, with no subscription and no RAM-boost gimmicks. Monitor CPU temperature, CPU frequency, storage usage, memory usage, battery temperature and battery health at the same time. So what are you waiting for? Download System Monitor now to see exactly what is happening inside your phone!
