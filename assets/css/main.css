@@ -17,19 +17,20 @@
    1. 变量与基础
    ------------------------------------------------------------------ */
 :root {
-  --bg: #f9f9f9;
-  --card: #ffffff;
-  --text-head: #232323;
-  --text-body: #2f2f2f;
-  --line: #e9ebef;
-  --accent-strong: #bd505a;
-  --accent-alpha: #bd505a26;
+  color-scheme: light;
+  --bg: #f9f9f9;               /* 页面/全局背景：body、表格表头底色等 */
+  --card: #ffffff;             /* 卡片背景：导航栏、应用卡片、文章块；并复用为激活导航文字色 */
+  --text-head: #232323;        /* 主文字/标题：body 文字、导航文字、加粗、截图切换按钮 */
+  --text-body: #2f2f2f;        /* 正文段落文字 */
+  --line: #e9ebef;             /* 分割线/边框：图标/截图描边、导航 hover 背景、行内代码底色 */
+  --accent-strong: #bd505a;    /* 品牌强调色：链接、激活导航底色、三级标题 */
+  --accent-alpha: #bd505a26;   /* 强调色低透明度：标签/芯片底色 */
   --radius-xl: 18px;
   --radius-lg: 14px;
   --radius: 10px;
   --radius-sm: 8px;
-  --shadow-card: 0 1px 2px rgba(16, 24, 40, .04), 0 8px 24px rgba(16, 24, 40, .06);
-  --shadow-soft: 0 4px 14px rgba(16, 24, 40, .08);
+  --shadow-card: 0 1px 2px rgba(16, 24, 40, .04), 0 8px 24px rgba(16, 24, 40, .06); /* 卡片/导航栏投影 */
+  --shadow-soft: 0 4px 14px rgba(16, 24, 40, .08); /* 轻投影：截图切换按钮等 */
   --container: 1040px;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
     "Microsoft YaHei", Roboto, Helvetica, Arial, sans-serif;
@@ -53,6 +54,24 @@
   --space-7: 20px;
   --space-8: 24px;
   --space-9: 32px;
+}
+
+/* ------------------------------------------------------------------
+   1.1 深色模式（跟随浏览器 prefers-color-scheme 自动切换）
+   ------------------------------------------------------------------ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #1A1A1A;             /* 深色页面背景 */
+    --card: #212121;           /* 深色卡片背景 */
+    --text-head: #E9E9E9;      /* 深色主文字 */
+    --text-body: #CDCDCD;      /* 深色正文 */
+    --line: #0F0F0F;           /* 深色分割线 / 描边：比背景更深一档，清晰勾勒图标、截图边缘 */
+    --accent-strong: #bf525e;  /* 提亮品牌色：暗底需更高对比 */
+    --accent-alpha: #bf525e2e; /* 深色下强调透明色 */
+    --shadow-card: 0 1px 2px rgba(0, 0, 0, .08), 0 8px 24px rgba(0, 0, 0, .09);  /* 深色卡片投影 */
+    --shadow-soft: 0 4px 14px rgba(0, 0, 0, .1);                                 /* 深色轻投影 */
+  }
 }
 
 *,
@@ -104,9 +123,9 @@ main { display: block; padding-bottom: 72px; }
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, .92);
+  background: var(--card);
   backdrop-filter: saturate(180%) blur(12px);
-  box-shadow: 0 1px 2px rgba(16, 24, 40, .04), 0 4px 16px rgba(16, 24, 40, .08);
+  box-shadow: var(--shadow-card);
 }
 
 .site-header__inner {
@@ -129,7 +148,7 @@ main { display: block; padding-bottom: 72px; }
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
-  outline: 4px solid rgba(0, 0, 0, .05);
+  outline: 4px solid var(--line);
   outline-offset: 0;
 }
 
@@ -159,9 +178,9 @@ main { display: block; padding-bottom: 72px; }
   transition: background-color .16s ease, color .16s ease;
 }
 
-.site-nav__link:hover { background: #f1f2f5; color: var(--text-head); }
+.site-nav__link:hover { background: var(--line); color: var(--text-head); }
 
-.site-nav__link.is-active { background: var(--accent-strong); color: #ffffff; }
+.site-nav__link.is-active { background: var(--accent-strong); color: var(--card); }
 
 .nav-toggle {
   display: none;
@@ -273,13 +292,13 @@ main { display: block; padding-bottom: 72px; }
   border: 0;
   border-radius: 50%;
   background: var(--card);
-  color: #33383f;
-  box-shadow: 0 2px 8px rgba(16, 24, 40, .18);
+  color: var(--text-head);
+  box-shadow: var(--shadow-soft);
   cursor: pointer;
   transition: transform .16s ease, box-shadow .16s ease;
 }
 
-.shots__nav:hover { transform: scale(1.06); box-shadow: 0 6px 18px rgba(16, 24, 40, .26); }
+.shots__nav:hover { transform: scale(1.06); box-shadow: var(--shadow-soft); }
 .shots__nav[hidden] { display: none; }
 .shots__nav svg { width: 22px; height: 22px; }
 .shots__nav--prev { left: -14px; }
@@ -426,7 +445,7 @@ body.no-scroll { overflow: hidden; }
   height: 150px;
   border-radius: 33.33%; /* 随尺寸等比缩放，与宽屏 150px/50px 比例一致 */
   object-fit: cover;
-  outline: 6px solid rgba(0, 0, 0, .05);
+  outline: 6px solid var(--line);
   outline-offset: 0;
 }
 
@@ -461,7 +480,7 @@ body.no-scroll { overflow: hidden; }
   height: 150px;
   border-radius: 33.33%; /* 随尺寸等比缩放，与宽屏 150px/50px 比例一致 */
   object-fit: cover;
-  outline: 6px solid rgba(0, 0, 0, .05);
+  outline: 6px solid var(--line);
   outline-offset: 0;
 }
 
@@ -488,7 +507,7 @@ body.no-scroll { overflow: hidden; }
 .app-content h2 { font-size: var(--fs-2xl); color: var(--text-head); margin-top: 40px; }
 .app-content h3 { font-size: var(--fs-md); color: var(--accent-strong); margin-top: var(--space-8); }
 .app-content h4 { font-size: var(--fs-md); color: var(--text-head); margin-top: var(--space-7); }
-.app-content strong { color: #171b21; }
+.app-content strong { color: var(--text-head); }
 .app-content a { color: var(--accent-strong); font-weight: 600; }
 .app-content a:hover { text-decoration: underline; }
 .app-content ul, .app-content ol { margin: var(--space-5) 0 0; padding-left: var(--space-7); }
@@ -632,7 +651,7 @@ body.no-scroll { overflow: hidden; }
 .post__content code {
   padding: var(--space-1) var(--space-2);
   border-radius: 5px;
-  background: #f1f2f5;
+  background: var(--line);
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: .9em;
 }
@@ -651,7 +670,7 @@ body.no-scroll { overflow: hidden; }
 
 .post__content table { width: 100%; border-collapse: collapse; font-size: var(--fs-base); }
 .post__content th, .post__content td { padding: var(--space-3) var(--space-5); border: 1px solid var(--line); text-align: left; }
-.post__content th { background: #f7f8fa; }
+.post__content th { background: var(--bg); }
 
 .post__footer {
   display: flex;
@@ -717,7 +736,7 @@ body.no-scroll { overflow: hidden; }
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  outline: 8px solid rgba(0, 0, 0, .05);
+  outline: 8px solid var(--line);
   outline-offset: 0;
 }
 
