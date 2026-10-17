@@ -109,7 +109,7 @@
 1. **品类落地页**（每个 app 一个）：如 "Best Budget App for Android (2026)"，覆盖 head/middle 词，内链到对应 app
 2. **对比页 / "X vs Y"**：`Meow Money vs YNAB`、`Best Flip Clock Apps 2026`（抢竞品品牌词 + 列表词）
 3. **"Best X for Y" 清单文**：`budget app for students` / `habit tracker for couples` / `mood tracker free no account`
-4. **How-to 教程**（已有 2 篇，复制模板）：`How to track expenses with a cat-themed app`
+4. **How-to 教程**（已有 1 篇教程 `tutorial-meow-money`，可复制为其他 app 模板）：`How to track expenses with a cat-themed app`
 5. **FAQ 页 / 段**（同时出 FAQ 结构化数据）
 6. **"Alternatives to <竞品>" 页**：抓竞品品牌搜索流量（高价值蓝海）
 7. **更新日志 / 版本博客**：保持内容新鲜度（Google 偏好活跃站）
@@ -198,22 +198,22 @@ AI 应用内搜索本质 = 抓取已索引的可信网页并抽取事实。杠�
 | T-13 | 维持 Core Web Vitals（懒加载/LCP/CLS） | ☐ | | |
 
 ### 内容项（按 app 建集群，每完成一篇记录）
-> **进度更新 2026-10-16**：本轮已批量产出 **22 篇 Best-X-for-Y** + **11 篇 vs 对比页** + **11 篇 Alternatives 页**（每 app 各 1 篇 vs / 1 篇 alternatives / 2 篇 best），故「对比页 / Best-X-for-Y / Alternatives」三类已**全覆盖 11 个 app**。剩余：**品类落地页(Pillar)：11 个 app 已全部完成（2026-10-16）**；**10 个 app 缺 How-to**（仅 Meow Money 有 1 篇教程）。
+> **进度更新 2026-10-16**：本轮已批量产出 **22 篇 Best-X-for-Y** + **11 篇 vs 对比页** + **11 篇 Alternatives 页**（每 app 各 1 篇 vs / 1 篇 alternatives / 2 篇 best），故「对比页 / Best-X-for-Y / Alternatives」三类已**全覆盖 11 个 app**。剩余：**品类落地页(Pillar)：11 个 app 已全部完成（2026-10-16）**；**11 个 app 现已各具备 1 篇 How-to 教程（含 Meow Money）**。
 > 注：FAQ 列指 app 详情页 FAQ（T-06 已完成，11 页全覆盖），非独立 FAQ 内容页。
 
 | app | 品类落地页 (Pillar) | 对比页 (vs) | Best-X-for-Y | How-to | FAQ (app 页) | Alternatives |
 |---|---|---|---|---|---|---|
 | Meow Money | ✅ pillar-budget-expense-tracker-apps-android | ✅ vs-meow-money-and-ynab | ✅✅ android/students | ✅ 1 教程 | ✅ | ✅ alternatives-to-mint |
-| Meow Todo | ✅ pillar-todo-list-task-manager-apps-android | ✅ vs-meow-todo-and-todoist | ✅✅ students/android | ☐ | ✅ | ✅ alternatives-to-todoist |
-| Meow Mood Diary | ✅ pillar-mood-diary-journaling-apps | ✅ vs-meow-mood-and-day-one | ✅✅ diary/private | ☐ | ✅ | ✅ alternatives-to-day-one |
-| Meow Habits | ✅ pillar-habit-tracker-apps-android | ✅ vs-meow-habits-and-streaks | ✅✅ general/beginners | ☐ | ✅ | ✅ alternatives-to-streaks |
-| One Widget | ✅ pillar-android-home-screen-widget-apps | ✅ vs-one-widget-and-kwgt | ✅✅ android/material-you | ☐ | ✅ | ✅ alternatives-to-widgetsmith |
-| Only Clock | ✅ pillar-flip-clock-apps-android | ✅ vs-only-clock-and-retroflip | ✅✅ flip/nightstand | ☐ | ✅ | ✅ alternatives-to-retroflip |
-| CPU Monitor | ✅ pillar-cpu-temperature-monitor-apps-android | ✅ vs-cpu-monitor-and-cpu-z | ✅✅ temperature/phone-temp | ☐ | ✅ | ✅ alternatives-to-cpu-z |
-| System Monitor | ✅ pillar-system-monitor-apps-android | ✅ vs-system-monitor-and-ccleaner | ✅✅ monitor/ram | ☐ | ✅ | ✅ alternatives-to-ccleaner |
-| Floating Assistant | ✅ pillar-floating-assistant-apps-android | ✅ vs-floating-assistant-and-assistive-touch | ✅✅ general/accessibility | ☐ | ✅ | ✅ alternatives-to-assistive-touch |
-| Meow FM | ✅ pillar-white-noise-focus-apps-android | ✅ vs-meow-fm-and-calm | ✅✅ sleep/focus | ☐ | ✅ | ✅ alternatives-to-calm |
-| Crosshair Aim | ✅ pillar-crosshair-apps-fps-android | ✅ vs-crosshair-and-crosshair-master | ✅✅ fps/overlay | ☐ | ✅ | ✅ alternatives-to-crosshair-master |
+| Meow Todo | ✅ pillar-todo-list-task-manager-apps-android | ✅ vs-meow-todo-and-todoist | ✅✅ students/android | ✅ 1 教程 | ✅ | ✅ alternatives-to-todoist |
+| Meow Mood Diary | ✅ pillar-mood-diary-journaling-apps | ✅ vs-meow-mood-and-day-one | ✅✅ diary/private | ✅ 1 教程 | ✅ | ✅ alternatives-to-day-one |
+| Meow Habits | ✅ pillar-habit-tracker-apps-android | ✅ vs-meow-habits-and-streaks | ✅✅ general/beginners | ✅ 1 教程 | ✅ | ✅ alternatives-to-streaks |
+| One Widget | ✅ pillar-android-home-screen-widget-apps | ✅ vs-one-widget-and-kwgt | ✅✅ android/material-you | ✅ 1 教程 | ✅ | ✅ alternatives-to-widgetsmith |
+| Only Clock | ✅ pillar-flip-clock-apps-android | ✅ vs-only-clock-and-retroflip | ✅✅ flip/nightstand | ✅ 1 教程 | ✅ | ✅ alternatives-to-retroflip |
+| CPU Monitor | ✅ pillar-cpu-temperature-monitor-apps-android | ✅ vs-cpu-monitor-and-cpu-z | ✅✅ temperature/phone-temp | ✅ 1 教程 | ✅ | ✅ alternatives-to-cpu-z |
+| System Monitor | ✅ pillar-system-monitor-apps-android | ✅ vs-system-monitor-and-ccleaner | ✅✅ monitor/ram | ✅ 1 教程 | ✅ | ✅ alternatives-to-ccleaner |
+| Floating Assistant | ✅ pillar-floating-assistant-apps-android | ✅ vs-floating-assistant-and-assistive-touch | ✅✅ general/accessibility | ✅ 1 教程 | ✅ | ✅ alternatives-to-assistive-touch |
+| Meow FM | ✅ pillar-white-noise-focus-apps-android | ✅ vs-meow-fm-and-calm | ✅✅ sleep/focus | ✅ 1 教程 | ✅ | ✅ alternatives-to-calm |
+| Crosshair Aim | ✅ pillar-crosshair-apps-fps-android | ✅ vs-crosshair-and-crosshair-master | ✅✅ fps/overlay | ✅ 1 教程 | ✅ | ✅ alternatives-to-crosshair-master |
 
 ### 度量记录（每月填写）
 | 月份 | 收录页数 | 自然流量 | 主要排名词 | 备注 |

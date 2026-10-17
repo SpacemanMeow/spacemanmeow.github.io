@@ -47,6 +47,7 @@ Go deeper:
 - [Best to-do list for students](/posts/best-meow-todo-list-students/)
 - [Best task manager for Android](/posts/best-meow-todo-list-android/)
 - [Meow Todo List app page](/apps/meow-todo-list/)
+- [Meow Todo List Official User Guide](/posts/tutorial-meow-todo-list/)
 
 ## How Meow Todo List compares to the competition
 

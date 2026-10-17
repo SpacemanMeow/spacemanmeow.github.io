@@ -49,6 +49,7 @@ Go deeper:
 - [Best system monitor app](/posts/best-system-monitor-monitor/)
 - [See exactly what your RAM is doing](/posts/best-system-monitor-ram/)
 - [System Monitor app page](/apps/system-monitor/)
+- [System Monitor Official User Guide](/posts/tutorial-system-monitor/)
 
 ## How System Monitor compares to the competition
 

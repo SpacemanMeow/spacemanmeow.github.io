@@ -47,6 +47,7 @@ Go deeper:
 - [Best mood diary app](/posts/best-meow-mood-diary-diary/)
 - [Private diary app with no account](/posts/best-meow-mood-diary-private/)
 - [Meow Mood Diary app page](/apps/meow-mood-diary/)
+- [Meow Mood Diary Official User Guide](/posts/tutorial-meow-mood-diary/)
 
 ## How Meow Mood Diary compares to the competition
 

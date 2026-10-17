@@ -47,6 +47,7 @@ Go deeper:
 - [Best habit tracker app](/posts/best-meow-habits-general/)
 - [Habit tracker for beginners](/posts/best-meow-habits-beginners/)
 - [Meow Habits app page](/apps/meow-habits/)
+- [Meow Habits Official User Guide](/posts/tutorial-meow-habits/)
 
 ## How Meow Habits compares to the competition
 

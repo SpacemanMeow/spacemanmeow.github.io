@@ -47,6 +47,7 @@ Go deeper:
 - [Best white noise app for sleep](/posts/best-meow-fm-sleep/)
 - [Best focus app for study](/posts/best-meow-fm-focus/)
 - [Meow FM app page](/apps/meow-fm/)
+- [Meow FM Official User Guide](/posts/tutorial-meow-fm/)
 
 ## How Meow FM compares to the competition
 

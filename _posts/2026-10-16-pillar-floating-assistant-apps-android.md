@@ -47,6 +47,7 @@ Go deeper:
 - [Best floating assistant app](/posts/best-floating-assistant-general/)
 - [Best assistive touch for one-hand use](/posts/best-floating-assistant-accessibility/)
 - [Floating Assistant app page](/apps/floating-assistant/)
+- [Floating Assistant Official User Guide](/posts/tutorial-floating-assistant/)
 
 ## How Floating Assistant compares to the competition
 

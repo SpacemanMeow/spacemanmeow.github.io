@@ -47,6 +47,7 @@ Go deeper:
 - [Best CPU temperature monitor](/posts/best-cpu-monitor-temperature/)
 - [Best phone temperature app](/posts/best-cpu-monitor-phone-temp/)
 - [CPU Monitor app page](/apps/cpu-monitor/)
+- [CPU Monitor Official User Guide](/posts/tutorial-cpu-monitor/)
 
 ## How CPU Monitor compares to the competition
 

@@ -47,6 +47,7 @@ Go deeper:
 - [Best flip clock app](/posts/best-only-clock-flip/)
 - [Best nightstand clock app](/posts/best-only-clock-nightstand/)
 - [Only Clock app page](/apps/only-clock/)
+- [Only Clock Official User Guide](/posts/tutorial-only-clock/)
 
 ## How Only Clock compares to the competition
 

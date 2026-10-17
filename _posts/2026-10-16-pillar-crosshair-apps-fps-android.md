@@ -47,6 +47,7 @@ Go deeper:
 - [Best crosshair for FPS games](/posts/best-cross-hair-fps/)
 - [Best crosshair overlay app](/posts/best-cross-hair-overlay/)
 - [Crosshair Aim app page](/apps/cross-hair/)
+- [Crosshair Aim Official User Guide](/posts/tutorial-cross-hair/)
 
 ## How Crosshair Aim compares to the competition
 

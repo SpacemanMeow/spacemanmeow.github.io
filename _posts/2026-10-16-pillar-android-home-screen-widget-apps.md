@@ -47,6 +47,7 @@ Go deeper:
 - [Best Android widgets app](/posts/best-one-widget-android/)
 - [Best Material You widgets](/posts/best-one-widget-material-you/)
 - [One Widget app page](/apps/one-widget/)
+- [One Widget Official User Guide](/posts/tutorial-one-widget/)
 
 ## How One Widget compares to the competition
 
