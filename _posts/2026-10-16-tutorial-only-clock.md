@@ -49,15 +49,15 @@ Open the app to the **full-screen flip clock**.
 - The toolbar (top) gives quick access to settings, theme, sound and size
 - The screen stays awake while the clock is showing
 
-![Full-screen flip clock (one theme, 24h)](/assets/images/blog/tutorial_clock_home.webp){: width="180" .normal }
+![Only Clock home screenshot: First: time Use — Only Clock Official User Guide](/assets/images/blog/tutorial_clock_home.webp){: width="180" .normal }
 
 ## Flip Clock Display
 
 The clock shows a flip-style time. Tap the toolbar to change the **theme** (Clock Theme), **font** (Clock Font) and **size** (Clock Size).
 
-![Settings: clock theme](/assets/images/blog/tutorial_clock_theme.webp){: width="180" .normal }
-![Settings: clock theme](/assets/images/blog/tutorial_clock_font.webp){: width="180" .normal }
-![Settings: clock theme](/assets/images/blog/tutorial_clock_size.webp){: width="180" .normal }
+![Only Clock theme screenshot: Flip Clock Display — Only Clock Official User Guide](/assets/images/blog/tutorial_clock_theme.webp){: width="180" .normal }
+![Only Clock font screenshot: Flip Clock Display — Only Clock Official User Guide](/assets/images/blog/tutorial_clock_font.webp){: width="180" .normal }
+![Only Clock size screenshot: Flip Clock Display — Only Clock Official User Guide](/assets/images/blog/tutorial_clock_size.webp){: width="180" .normal }
 
 ## 12/24-hour, Seconds, Date
 
@@ -69,7 +69,7 @@ The clock shows a flip-style time. Tap the toolbar to change the **theme** (Cloc
    - **Date** (default off)
    - **Flip background** mask (default on)
 
-![Settings: 24h / seconds / week / date / mask toggles](/assets/images/blog/tutorial_clock_settings.webp){: width="180" .normal }
+![Only Clock settings screenshot: 12/24: hour, Seconds, Date — Only Clock Official User Guide](/assets/images/blog/tutorial_clock_settings.webp){: width="180" .normal }
 
 ## Clock Widgets
 
@@ -79,7 +79,7 @@ The clock shows a flip-style time. Tap the toolbar to change the **theme** (Cloc
 4. Long-press your home/lock screen → Widgets → pick Only Clock → place it
 5. The 4x2 flip widget has its own config (seconds / mask / week / date)
 
-![Widget gallery + add guide + 4x2 flip config](/assets/images/blog/tutorial_clock_widget.webp){: width="180" .normal }
+![Only Clock widget screenshot: Clock Widgets — Only Clock Official User Guide](/assets/images/blog/tutorial_clock_widget.webp){: width="180" .normal }
 
 ## White Noise
 
@@ -89,7 +89,7 @@ The clock shows a flip-style time. Tap the toolbar to change the **theme** (Cloc
 
 The clock shares the same sound engine as the standalone white-noise app.
 
-![Settings: clock theme](/assets/images/blog/tutorial_clock_noise.webp){: width="180" .normal }
+![Only Clock noise screenshot: White Noise — Only Clock Official User Guide](/assets/images/blog/tutorial_clock_noise.webp){: width="180" .normal }
 
 ## Floating Clock
 
@@ -97,7 +97,7 @@ The clock shares the same sound engine as the standalone white-noise app.
 2. Grant the overlay permission if asked
 3. A clock overlay shows above other apps
 
-![Settings: clock theme](/assets/images/blog/tutorial_clock_floating.webp){: width="180" .normal }
+![Only Clock floating screenshot: Floating Clock — Only Clock Official User Guide](/assets/images/blog/tutorial_clock_floating.webp){: width="180" .normal }
 
 ## Spare Phone as a Clock
 

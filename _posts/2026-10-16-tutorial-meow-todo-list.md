@@ -31,10 +31,10 @@ Meow Todo List is a cute cartoon-style task manager and to-do list for Android a
 
 **📝 Quick Capture**
 
-![Tasks home](/assets/images/blog/tutorial_todo_page_1.webp){: width="180" .normal }
-![Tasks calendar](/assets/images/blog/tutorial_todo_page_2.webp){: width="180" .normal }
-![Tasks stats](/assets/images/blog/tutorial_todo_page_3.webp){: width="180" .normal }
-![Tasks setting](/assets/images/blog/tutorial_todo_page_4.webp){: width="180" .normal }
+![Meow Todo page screenshot screenshot 1: App Introduction — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_page_1.webp){: width="180" .normal }
+![Meow Todo page screenshot screenshot 2: App Introduction — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_page_2.webp){: width="180" .normal }
+![Meow Todo page screenshot screenshot 3: App Introduction — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_page_3.webp){: width="180" .normal }
+![Meow Todo page screenshot screenshot 4: App Introduction — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_page_4.webp){: width="180" .normal }
 
 - Four bottom tabs: **Tasks**, **Calendar**, **Statistics**, **Settings**
 - A floating **+** button adds a task from anywhere
@@ -61,7 +61,7 @@ When you first open Meow Todo List you land on the **Tasks** tab.
 - The left **drawer** switches between Today / Tomorrow / 7 days / Completed and your custom Books & Tags
 - The bottom bar moves between Tasks / Calendar / Statistics / Settings
 
-![Tasks home with drawer filters and + button](/assets/images/blog/tutorial_todo_tasks.webp){: width="180" .normal }
+![Meow Todo tasks screenshot: First: time Use — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_tasks.webp){: width="180" .normal }
 
 ## Add a Task
 
@@ -73,11 +73,11 @@ When you first open Meow Todo List you land on the **Tasks** tab.
 6. Set a **priority** if you like
 7. Tap **Confirm** to save
 
-![Add-task screen: title](/assets/images/blog/tutorial_todo_add.webp){: width="180" .normal }
-![Add-task screen: book](/assets/images/blog/tutorial_todo_add_book.webp){: width="180" .normal }
-![Add-task screen: tag](/assets/images/blog/tutorial_todo_add_tag.webp){: width="180" .normal }
-![Add-task screen: date](/assets/images/blog/tutorial_todo_add_date.webp){: width="180" .normal }
-![Add-task screen: repeat](/assets/images/blog/tutorial_todo_add_repeat.webp){: width="180" .normal }
+![Meow Todo add screenshot: Add a Task — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_add.webp){: width="180" .normal }
+![Meow Todo add book screenshot: Add a Task — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_add_book.webp){: width="180" .normal }
+![Meow Todo add tag screenshot: Add a Task — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_add_tag.webp){: width="180" .normal }
+![Meow Todo add date screenshot: Add a Task — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_add_date.webp){: width="180" .normal }
+![Meow Todo add repeat screenshot: Add a Task — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_add_repeat.webp){: width="180" .normal }
 
 ## Subtasks
 
@@ -87,8 +87,8 @@ Open a task, then use the **Add subtask** field at the bottom of the detail page
 - Free accounts can add up to **15 subtasks** per task; VIP removes the cap
 - Check items off as you complete them
 
-![Task detail with subtask list and add field](/assets/images/blog/tutorial_todo_subtask.webp){: width="180" .normal }
-![Task detail sub task input](/assets/images/blog/tutorial_todo_subtask_input.webp){: width="180" .normal }
+![Meow Todo subtask screenshot: Subtasks — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_subtask.webp){: width="180" .normal }
+![Meow Todo subtask input screenshot: Subtasks — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_subtask_input.webp){: width="180" .normal }
 
 ## Reminders
 
@@ -98,9 +98,9 @@ Reminders are scheduled with **WorkManager**, so they fire even if you do not op
 2. Make sure notifications are allowed for the app
 3. The app reschedules the reminder automatically when you edit the task
 
-![Task reminder](/assets/images/blog/tutorial_todo_notification_1.webp){: width="180" .normal }
-![Task reminder daily](/assets/images/blog/tutorial_todo_notification_2.webp){: width="180" .normal }
-![Task reminder guide](/assets/images/blog/tutorial_todo_notification_3.webp){: width="180" .normal }
+![Meow Todo notification screenshot screenshot 1: Reminders — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_notification_1.webp){: width="180" .normal }
+![Meow Todo notification screenshot screenshot 2: Reminders — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_notification_2.webp){: width="180" .normal }
+![Meow Todo notification screenshot screenshot 3: Reminders — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_notification_3.webp){: width="180" .normal }
 
 If you do not see a reminder, open the task and confirm it has a future date/time, then allow notifications in system settings.
 
@@ -111,10 +111,10 @@ If you do not see a reminder, open the task and confirm it has a future date/tim
 3. Days that have tasks show a small dot
 4. Tap a day to see that day's tasks
 
-![Calendar tab](/assets/images/blog/tutorial_todo_page_2.webp){: width="180" .normal }
-![Calendar tab](/assets/images/blog/tutorial_todo_calendar_select.webp){: width="180" .normal }
-![Calendar tab](/assets/images/blog/tutorial_todo_calendar_week.webp){: width="180" .normal }
-![Calendar tab](/assets/images/blog/tutorial_todo_calendar_month.webp){: width="180" .normal }
+![Meow Todo page screenshot screenshot 1: Calendar View — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_page_2.webp){: width="180" .normal }
+![Meow Todo calendar select screenshot: Calendar View — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_calendar_select.webp){: width="180" .normal }
+![Meow Todo calendar week screenshot: Calendar View — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_calendar_week.webp){: width="180" .normal }
+![Meow Todo calendar month screenshot: Calendar View — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_calendar_month.webp){: width="180" .normal }
 
 ## Statistics
 
@@ -122,8 +122,8 @@ If you do not see a reminder, open the task and confirm it has a future date/tim
 2. View the contribution heatmap and pie charts
 3. Switch the range (week / month / year) to see trends by Book and Tag
 
-![Statistics tab: heatmap + pie charts by list/tag](/assets/images/blog/tutorial_todo_stats.webp){: width="180" .normal }
-![Statistics select](/assets/images/blog/tutorial_todo_stats_date.webp){: width="180" .normal }
+![Meow Todo stats screenshot: Statistics — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_stats.webp){: width="180" .normal }
+![Meow Todo stats date screenshot: Statistics — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_stats_date.webp){: width="180" .normal }
 
 ## Lists and Tags
 
@@ -131,7 +131,7 @@ If you do not see a reminder, open the task and confirm it has a future date/tim
 - **Tags** let you filter across lists — free accounts can create up to **10 Tags**
 - Create them from the drawer or the Settings → Management screen
 
-![New Book/Tag dialog with icon grid and color](/assets/images/blog/tutorial_todo_book.webp){: width="180" .normal }
+![Meow Todo book screenshot: Lists and Tags — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_book.webp){: width="180" .normal }
 
 ## Backup and Sync
 
@@ -140,7 +140,7 @@ If you do not see a reminder, open the task and confirm it has a future date/tim
 3. Tap **Backup** to upload, **Restore** to download
 4. Turn on **Auto backup** to back up periodically
 
-![Google Drive / WebDAV backup and restore dialogs](/assets/images/blog/tutorial_todo_backup.webp){: width="180" .normal }
+![Meow Todo backup screenshot: Backup and Sync — Meow Todo List Official User Guide](/assets/images/blog/tutorial_todo_backup.webp){: width="180" .normal }
 
 ## CSV Export (VIP)
 

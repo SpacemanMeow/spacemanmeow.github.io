@@ -21,6 +21,14 @@ layout: default
         </div>
 
         <footer class="post__footer">
+          {%- if page.tags and page.tags.size > 0 %}
+          <div class="post__tags">
+            {%- for tag in page.tags %}
+            {%- assign tag_slug = tag | slugify %}
+            <a class="tag" href="{{ '/tags/#' | append: tag_slug | relative_url }}">{{ tag }}</a>
+            {%- endfor %}
+          </div>
+          {%- endif %}
           <a class="back-link" href="{{ '/blog/' | relative_url }}">&lsaquo; Back to Blog</a>
         </footer>
       </div>

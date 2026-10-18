@@ -3,6 +3,7 @@ date: 2026-10-16 09:00:00 +0800
 title: "Floating Assistant vs Assistive Touch: Which Overlay Tool?"
 description: "Floating Assistant vs Assistive Touch compared in depth for 2026: a 3-in-1 overlay with clock and monitor versus a classic free floating-ball button app. Features, price and a verdict per need."
 layout: guide
+tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Comparison]
 image: /assets/images/apps/floating-assistant/icon.webp
 ---
 
@@ -28,11 +29,11 @@ Both put controls on top of your screen, but they solve different problems. **Fl
 
 ## Floating Assistant, in detail
 
-![Floating Assistant screenshot 1](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
-![Floating Assistant screenshot 2](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
-![Floating Assistant screenshot 3](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
-![Floating Assistant screenshot 4](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
-![Floating Assistant screenshot 5](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
+![Floating Assistant screenshot: Floating Assistant, in detail — Floating Assistant vs Assistive Touch: Which Overlay Tool?](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![Floating Assistant screenshot 2: Floating Assistant, in detail — Floating Assistant vs Assistive Touch: Which Overlay Tool?](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
+![Floating Assistant screenshot 3: Floating Assistant, in detail — Floating Assistant vs Assistive Touch: Which Overlay Tool?](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
+![Floating Assistant screenshot 4: Floating Assistant, in detail — Floating Assistant vs Assistive Touch: Which Overlay Tool?](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
+![Floating Assistant screenshot 5: Floating Assistant, in detail — Floating Assistant vs Assistive Touch: Which Overlay Tool?](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
 
 Floating Assistant bundles three tools into one overlay: an assistive-touch ball for navigation, a floating clock you can keep above other apps, and a floating system monitor showing CPU temperature, usage, RAM and battery with a one-tap boost.
 
@@ -61,11 +62,11 @@ Power users and gamers who want buttons *and* a clock *and* live system stats fr
 
 ## Assistive Touch (Easy Touch), in detail
 
-![Assistive Touch screenshot 1](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
-![Assistive Touch screenshot 2](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
-![Assistive Touch screenshot 3](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
-![Assistive Touch screenshot 4](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
-![Assistive Touch screenshot 5](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
+![Assistive Touch screenshot: Assistive Touch (Easy Touch), in detail — Floating Assistant vs Assistive Touch: Which Overlay Tool?](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
+![Assistive Touch screenshot 2: Assistive Touch (Easy Touch), in detail — Floating Assistant vs Assistive Touch: Which Overlay Tool?](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
+![Assistive Touch screenshot 3: Assistive Touch (Easy Touch), in detail — Floating Assistant vs Assistive Touch: Which Overlay Tool?](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
+![Assistive Touch screenshot 4: Assistive Touch (Easy Touch), in detail — Floating Assistant vs Assistive Touch: Which Overlay Tool?](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
+![Assistive Touch screenshot 5: Assistive Touch (Easy Touch), in detail — Floating Assistant vs Assistive Touch: Which Overlay Tool?](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
 
 Assistive Touch is the familiar iOS-style floating ball for Android: virtual home, back, recent and volume buttons, plus lock, screenshot, flashlight and customizable gestures — the simplest way to replace worn hardware keys.
 

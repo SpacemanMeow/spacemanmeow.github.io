@@ -50,10 +50,10 @@ The home screen has four tabs: **Hardware**, **App**, **Floating**, **Sensor**.
 - **Floating** configures the overlay
 - **Sensor** lists device sensors
 
-![Home tabs: Hardware](/assets/images/blog/tutorial_system_monitor_home.webp){: width="180" .normal }
-![Home tabs: App](/assets/images/blog/tutorial_system_monitor_app.webp){: width="180" .normal }
-![Home tabs: Floating](/assets/images/blog/tutorial_system_monitor_floating.webp){: width="180" .normal }
-![Home tabs: Sensor](/assets/images/blog/tutorial_system_monitor_sensor.webp){: width="180" .normal }
+![System Monitor home screenshot: First: time Use — System Monitor Official User Guide](/assets/images/blog/tutorial_system_monitor_home.webp){: width="180" .normal }
+![System Monitor app screenshot: First: time Use — System Monitor Official User Guide](/assets/images/blog/tutorial_system_monitor_app.webp){: width="180" .normal }
+![System Monitor floating screenshot: First: time Use — System Monitor Official User Guide](/assets/images/blog/tutorial_system_monitor_floating.webp){: width="180" .normal }
+![System Monitor sensor screenshot: First: time Use — System Monitor Official User Guide](/assets/images/blog/tutorial_system_monitor_sensor.webp){: width="180" .normal }
 
 ## View Hardware Info
 
@@ -65,16 +65,16 @@ The home screen has four tabs: **Hardware**, **App**, **Floating**, **Sensor**.
    - **BAT**: battery temperature, health, voltage, level
    - **SYSTEM**: storage and device info
 
-![Home tabs: cpu](/assets/images/blog/tutorial_system_monitor_cpu.webp){: width="180" .normal }
-![Home tabs: ram](/assets/images/blog/tutorial_system_monitor_memory.webp){: width="180" .normal }
-![Home tabs: bat](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
-![Home tabs: system](/assets/images/blog/tutorial_system_monitor_system.webp){: width="180" .normal }
+![System Monitor cpu screenshot: View Hardware Info — System Monitor Official User Guide](/assets/images/blog/tutorial_system_monitor_cpu.webp){: width="180" .normal }
+![System Monitor memory screenshot: View Hardware Info — System Monitor Official User Guide](/assets/images/blog/tutorial_system_monitor_memory.webp){: width="180" .normal }
+![System Monitor battery screenshot: View Hardware Info — System Monitor Official User Guide](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
+![System Monitor system screenshot: View Hardware Info — System Monitor Official User Guide](/assets/images/blog/tutorial_system_monitor_system.webp){: width="180" .normal }
 
 ## Battery Health
 
 On the **BAT** sub-tab you can see battery **temperature, health status, voltage and level** with curves — useful to watch wear over time.
 
-![Home tabs: bat](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
+![System Monitor battery screenshot: Battery Health — System Monitor Official User Guide](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
 
 ## Overheat Alarm
 
@@ -90,7 +90,7 @@ On the **BAT** sub-tab you can see battery **temperature, health status, voltage
 3. Grant the **"Draw over other apps"** permission when prompted
 4. The floating stats appear above any app
 
-![Home tabs: floating](/assets/images/blog/tutorial_system_monitor_floating.webp){: width="180" .normal }
+![System Monitor floating screenshot: Floating Window — System Monitor Official User Guide](/assets/images/blog/tutorial_system_monitor_floating.webp){: width="180" .normal }
 
 ## Home-screen Widgets
 
@@ -98,7 +98,7 @@ On the **BAT** sub-tab you can see battery **temperature, health status, voltage
 2. Choose a widget: CPU / Battery / RAM / ROM / Combine
 3. Place it from the widget picker
 
-![Home tabs: widget](/assets/images/blog/tutorial_system_monitor_widget.webp){: width="180" .normal }
+![System Monitor widget screenshot: Home: screen Widgets — System Monitor Official User Guide](/assets/images/blog/tutorial_system_monitor_widget.webp){: width="180" .normal }
 
 ## Settings
 

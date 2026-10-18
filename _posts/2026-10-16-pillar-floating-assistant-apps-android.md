@@ -4,7 +4,7 @@ title: "Best Floating Assistant & Assistive Touch Apps for Android (2026)"
 description: "The best floating assistant and assistive touch apps for Android in 2026: what to look for (floating ball, shortcuts, one-hand use) and how Floating Assistant compares to Assistive Touch."
 layout: guide
 image: /assets/images/apps/floating-assistant/icon.webp
-tags: [floating assistant, assistive touch, one-hand, android, floating assistant]
+tags: [Floating Assistant, Assistive Touch, One-Hand, Android, App Roundup]
 ---
 
 A floating ball puts your most-used actions one tap away and makes big phones usable one-handed. This 2026 guide covers what to look for in an assistive-touch app and how Floating Assistant compares to the alternatives.
@@ -32,11 +32,11 @@ On Android a floating overlay works above any app with no root, so large-screen 
 
 ## Floating Assistant, in depth
 
-![Floating Assistant screenshot 1](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
-![Floating Assistant screenshot 2](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
-![Floating Assistant screenshot 3](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
-![Floating Assistant screenshot 4](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
-![Floating Assistant screenshot 5](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
+![Floating Assistant screenshot: Floating Assistant, in depth — Best Floating Assistant & Assistive Touch Apps for Android (2026)](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![Floating Assistant screenshot 2: Floating Assistant, in depth — Best Floating Assistant & Assistive Touch Apps for Android (2026)](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
+![Floating Assistant screenshot 3: Floating Assistant, in depth — Best Floating Assistant & Assistive Touch Apps for Android (2026)](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
+![Floating Assistant screenshot 4: Floating Assistant, in depth — Best Floating Assistant & Assistive Touch Apps for Android (2026)](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
+![Floating Assistant screenshot 5: Floating Assistant, in depth — Best Floating Assistant & Assistive Touch Apps for Android (2026)](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
 
 Floating Assistant adds a customizable floating ball to Android for quick app launches, system toggles and one-handed control.
 

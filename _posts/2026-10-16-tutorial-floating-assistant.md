@@ -3,7 +3,7 @@ layout: post
 title: "Floating Assistant Official User Guide"
 date: 2026-10-16 10:19:00 +0800
 categories: [Tutorial]
-tags: [Floating Assistant, Assistive Touch, One-Hand, Android, Floating Assistant]
+tags: [Floating Assistant, Assistive Touch, One-Hand, Android]
 lang: en
 author: author_meow_id
 description: "A complete Floating Assistant user guide — a floating ball for app launches, system toggles and one-handed control, no root."
@@ -51,7 +51,7 @@ Open the app to the home screen with a top upgrade promo and a **"Home entry"** 
 - Turn on **Home entry** to show the ball
 - The settings gear opens language, rate, share and upgrade
 
-![Home with Home-entry switch and upgrade promo](/assets/images/blog/tutorial_float_home.webp){: width="180" .normal }
+![Floating Assistant home screenshot: First: time Use — Floating Assistant Official User Guide](/assets/images/blog/tutorial_float_home.webp){: width="180" .normal }
 
 ## Grant Overlay & Accessibility
 
@@ -68,7 +68,7 @@ The overlay permission lets the ball draw above apps; Accessibility lets it perf
 2. The ball appears; **drag** it to reposition — it auto-snaps to the left/right edge
 3. Its position is saved as a screen percentage
 
-![Floating ball collapsed and expanded with 8 action slots](/assets/images/blog/tutorial_float_ball.webp){: width="180" .normal }
+![Floating Assistant ball screenshot: Enable and Move the Ball — Floating Assistant Official User Guide](/assets/images/blog/tutorial_float_ball.webp){: width="180" .normal }
 
 ## Ball Actions
 
@@ -93,7 +93,7 @@ Defaults: 1=power menu, 2=lock, 3=screenshot, 4=flashlight, 6=phone, 7=back, 8=h
    - **Rotate** writes the auto-rotate setting
 3. Use the **Combine** widget to group several toggles
 
-![Toggle widget list (11 types) and Combine bar](/assets/images/blog/tutorial_float_toggle.webp){: width="180" .normal }
+![Floating Assistant toggle screenshot: System Toggle Widgets — Floating Assistant Official User Guide](/assets/images/blog/tutorial_float_toggle.webp){: width="180" .normal }
 
 ## Resize, Color, Dock
 

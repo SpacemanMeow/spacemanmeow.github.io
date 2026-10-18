@@ -46,5 +46,20 @@ layout: default
       </div>
     </section>
     {% endif %}
+    {%- assign guides = site.posts | where_exp: "post", "post.image == page.icon" -%}
+    {% if guides.size > 0 %}
+    <section class="app-guides" aria-label="Guides and tutorials">
+      <h2 class="app-guides__title">Guides &amp; Tutorials</h2>
+      <p class="app-guides__intro">In-depth guides, comparisons and tutorials for {{ page.title }}:</p>
+      <ul class="app-guides__list">
+        {% for post in guides %}
+        <li class="app-guides__item">
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <span class="app-guides__meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
   </div>
 </div>

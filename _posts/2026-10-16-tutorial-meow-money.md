@@ -93,7 +93,7 @@ The main interface includes the following main parts:
 - Bottom navigation bar: includes four options: bookkeeping, statistics, assets, and settings
 - Top banner: displays current ledger and asset overview
 
-![image](/assets/images/blog/record.webp){: width="180" .normal } ![image](/assets/images/blog/assets.webp){: width="180" .normal } ![image](/assets/images/blog/stats.webp){: width="180" .normal } ![image](/assets/images/blog/setting.webp){: width="180" .normal }
+![Meow Money record screenshot: First: time Use — Meow Money Manager Official Detailed User Guide](/assets/images/blog/record.webp){: width="180" .normal } ![Meow Money assets screenshot: First: time Use — Meow Money Manager Official Detailed User Guide](/assets/images/blog/assets.webp){: width="180" .normal } ![Meow Money statistics screenshot: First: time Use — Meow Money Manager Official Detailed User Guide](/assets/images/blog/stats.webp){: width="180" .normal } ![Meow Money settings screenshot: First: time Use — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting.webp){: width="180" .normal }
 
 ## Bookkeeping Features
 
@@ -110,7 +110,7 @@ Meow Money Manager's bookkeeping features are very intuitive, supporting three t
 7. Add notes (optional)
 8. Click confirm to complete bookkeeping
 
-![image](/assets/images/blog/record_add.webp){: width="180" .normal } ![image](/assets/images/blog/record_add_ledger.webp){: width="180" .normal } ![image](/assets/images/blog/record_add_assets.webp){: width="180" .normal } ![image](/assets/images/blog/record_add_remark.webp){: width="180" .normal }
+![Meow Money add record screenshot: Add Expense or Income Record — Meow Money Manager Official Detailed User Guide](/assets/images/blog/record_add.webp){: width="180" .normal } ![Meow Money add record ledger screenshot: Add Expense or Income Record — Meow Money Manager Official Detailed User Guide](/assets/images/blog/record_add_ledger.webp){: width="180" .normal } ![Meow Money add record assets screenshot: Add Expense or Income Record — Meow Money Manager Official Detailed User Guide](/assets/images/blog/record_add_assets.webp){: width="180" .normal } ![Meow Money add record remark screenshot: Add Expense or Income Record — Meow Money Manager Official Detailed User Guide](/assets/images/blog/record_add_remark.webp){: width="180" .normal }
 
 ### Transfer Function
 
@@ -123,7 +123,7 @@ Meow Money Manager's bookkeeping features are very intuitive, supporting three t
 7. Add notes (optional)
 8. Click confirm to complete the transfer
 
-![image](/assets/images/blog/record_add_transfer.webp){: width="180" .normal } ![image](/assets/images/blog/record_add_charge.webp){: width="180" .normal }
+![Meow Money add record transfer screenshot: Transfer Function — Meow Money Manager Official Detailed User Guide](/assets/images/blog/record_add_transfer.webp){: width="180" .normal } ![Meow Money add record charge screenshot: Transfer Function — Meow Money Manager Official Detailed User Guide](/assets/images/blog/record_add_charge.webp){: width="180" .normal }
 
 ## Budget Management
 
@@ -139,7 +139,7 @@ Meow Money Manager supports multiple types of budget management, including daily
 6. Enter budget name
 7. Click confirm to complete budget creation
 
-![image](/assets/images/blog/budget_manage.webp){: width="180" .normal } ![image](/assets/images/blog/budget_add.webp){: width="180" .normal } ![image](/assets/images/blog/budget_add_period.webp){: width="180" .normal } ![image](/assets/images/blog/budget_add_category.webp){: width="180" .normal } ![image](/assets/images/blog/budget_add_amount.webp){: width="180" .normal }
+![Meow Money budget manage screenshot: Add Budget — Meow Money Manager Official Detailed User Guide](/assets/images/blog/budget_manage.webp){: width="180" .normal } ![Meow Money budget add screenshot: Add Budget — Meow Money Manager Official Detailed User Guide](/assets/images/blog/budget_add.webp){: width="180" .normal } ![Meow Money budget add period screenshot: Add Budget — Meow Money Manager Official Detailed User Guide](/assets/images/blog/budget_add_period.webp){: width="180" .normal } ![Meow Money budget add category screenshot: Add Budget — Meow Money Manager Official Detailed User Guide](/assets/images/blog/budget_add_category.webp){: width="180" .normal } ![Meow Money budget add amount screenshot: Add Budget — Meow Money Manager Official Detailed User Guide](/assets/images/blog/budget_add_amount.webp){: width="180" .normal }
 
 ### Budget Tracking
 
@@ -149,7 +149,7 @@ On the budget details page, you can view:
 - Daily average budget
 - Budget usage for each category
 
-![image](/assets/images/blog/budget_add_detail.webp){: width="180" .normal }
+![Meow Money budget add detail screenshot: Budget Tracking — Meow Money Manager Official Detailed User Guide](/assets/images/blog/budget_add_detail.webp){: width="180" .normal }
 
 ## Statistics and Analysis
 
@@ -165,7 +165,7 @@ Meow Money Manager provides multiple statistical analysis functions to help you 
 - **Bar chart statistics**: Bar chart shows daily or monthly income and expenditure, helping you understand income and expenditure trends.
 - **Calendar view**: Calendar view shows daily income and expenditure, with color depth indicating amount size.
 
-![image](/assets/images/blog/stats.webp){: width="180" .normal } ![image](/assets/images/blog/stats_date.webp){: width="180" .normal } ![image](/assets/images/blog/stats_chart.webp){: width="180" .normal } ![image](/assets/images/blog/stats_pie.webp){: width="180" .normal } ![image](/assets/images/blog/stats_hist.webp){: width="180" .normal }
+![Meow Money statistics screenshot: Statistics Types — Meow Money Manager Official Detailed User Guide](/assets/images/blog/stats.webp){: width="180" .normal } ![Meow Money statistics date screenshot: Statistics Types — Meow Money Manager Official Detailed User Guide](/assets/images/blog/stats_date.webp){: width="180" .normal } ![Meow Money statistics chart screenshot: Statistics Types — Meow Money Manager Official Detailed User Guide](/assets/images/blog/stats_chart.webp){: width="180" .normal } ![Meow Money statistics pie screenshot: Statistics Types — Meow Money Manager Official Detailed User Guide](/assets/images/blog/stats_pie.webp){: width="180" .normal } ![Meow Money statistics hist screenshot: Statistics Types — Meow Money Manager Official Detailed User Guide](/assets/images/blog/stats_hist.webp){: width="180" .normal }
 
 ## Asset Management
 
@@ -181,7 +181,7 @@ Meow Money Manager supports managing multiple types of assets, such as cash, ban
 6. Select asset icon
 7. Click confirm to complete asset addition
 
-![image](/assets/images/blog/assets.webp){: width="180" .normal } ![image](/assets/images/blog/assets_add.webp){: width="180" .normal }
+![Meow Money assets screenshot: Add Asset — Meow Money Manager Official Detailed User Guide](/assets/images/blog/assets.webp){: width="180" .normal } ![Meow Money assets add screenshot: Add Asset — Meow Money Manager Official Detailed User Guide](/assets/images/blog/assets_add.webp){: width="180" .normal }
 
 ### Asset Details
 
@@ -190,7 +190,7 @@ Click on an asset to enter the details page, where you can view:
 - Asset income and expenditure records
 - Asset trend charts
 
-![image](/assets/images/blog/assets_detail.webp){: width="180" .normal } ![image](/assets/images/blog/assets_detail_transfer.webp){: width="180" .normal } ![image](/assets/images/blog/assets_curve.webp){: width="180" .normal } ![image](/assets/images/blog/assets_curve_tip.webp){: width="180" .normal }
+![Meow Money asset detail screenshot: Asset Details — Meow Money Manager Official Detailed User Guide](/assets/images/blog/assets_detail.webp){: width="180" .normal } ![Meow Money asset detail transfer screenshot: Asset Details — Meow Money Manager Official Detailed User Guide](/assets/images/blog/assets_detail_transfer.webp){: width="180" .normal } ![Meow Money assets curve screenshot: Asset Details — Meow Money Manager Official Detailed User Guide](/assets/images/blog/assets_curve.webp){: width="180" .normal } ![Meow Money assets curve tip screenshot: Asset Details — Meow Money Manager Official Detailed User Guide](/assets/images/blog/assets_curve_tip.webp){: width="180" .normal }
 
 ## Ledger Management
 
@@ -204,7 +204,7 @@ Meow Money Manager supports creating multiple ledgers for managing different typ
 4. Select ledger icon
 5. Click confirm to complete ledger creation
 
-![image](/assets/images/blog/ledger_filter.webp){: width="180" .normal } ![image](/assets/images/blog/ledger_manage.webp){: width="180" .normal } ![image](/assets/images/blog/ledger_add.webp){: width="180" .normal }
+![Meow Money ledger filter screenshot: Add Ledger — Meow Money Manager Official Detailed User Guide](/assets/images/blog/ledger_filter.webp){: width="180" .normal } ![Meow Money ledger manage screenshot: Add Ledger — Meow Money Manager Official Detailed User Guide](/assets/images/blog/ledger_manage.webp){: width="180" .normal } ![Meow Money ledger add screenshot: Add Ledger — Meow Money Manager Official Detailed User Guide](/assets/images/blog/ledger_add.webp){: width="180" .normal }
 
 ### Switch Ledger
 
@@ -212,7 +212,7 @@ Meow Money Manager supports creating multiple ledgers for managing different typ
 2. Select the ledger to use from the pop-up ledger list
 3. After completing the selection, the bookkeeping records for that ledger will be displayed
 
-![image](/assets/images/blog/record_add_ledger.webp){: width="180" .normal }
+![Meow Money add record ledger screenshot: Switch Ledger — Meow Money Manager Official Detailed User Guide](/assets/images/blog/record_add_ledger.webp){: width="180" .normal }
 
 ### Ledger Statistics
 
@@ -221,7 +221,7 @@ Click on a ledger to enter the details page, where you can view for that ledger:
 - Budget usage
 - Detailed bookkeeping records
 
-![image](/assets/images/blog/ledger_detail_record.webp){: width="180" .normal } ![image](/assets/images/blog/ledger_detail_stats.webp){: width="180" .normal } ![image](/assets/images/blog/ledger_detail_date.webp){: width="180" .normal }
+![Meow Money ledger detail record screenshot: Ledger Statistics — Meow Money Manager Official Detailed User Guide](/assets/images/blog/ledger_detail_record.webp){: width="180" .normal } ![Meow Money ledger detail stats screenshot: Ledger Statistics — Meow Money Manager Official Detailed User Guide](/assets/images/blog/ledger_detail_stats.webp){: width="180" .normal } ![Meow Money ledger detail date screenshot: Ledger Statistics — Meow Money Manager Official Detailed User Guide](/assets/images/blog/ledger_detail_date.webp){: width="180" .normal }
 
 ## Recurring Transactions
 
@@ -240,7 +240,7 @@ The recurring transaction feature can help you automatically record regular inco
 9. Set start date and end date
 10. Click confirm to complete recurring transaction setup
 
-![image](/assets/images/blog/recurring_add_category_type.webp){: width="180" .normal } ![image](/assets/images/blog/recurring_add_category_select.webp){: width="180" .normal } ![image](/assets/images/blog/recurring_add_assets.webp){: width="180" .normal } ![image](/assets/images/blog/recurring_add_ledger.webp){: width="180" .normal } ![image](/assets/images/blog/recurring_add_cycle.webp){: width="180" .normal }
+![Meow Money recurring transaction add category type screenshot: Add Recurring Transaction — Meow Money Manager Official Detailed User Guide](/assets/images/blog/recurring_add_category_type.webp){: width="180" .normal } ![Meow Money recurring transaction add category select screenshot: Add Recurring Transaction — Meow Money Manager Official Detailed User Guide](/assets/images/blog/recurring_add_category_select.webp){: width="180" .normal } ![Meow Money recurring transaction add assets screenshot: Add Recurring Transaction — Meow Money Manager Official Detailed User Guide](/assets/images/blog/recurring_add_assets.webp){: width="180" .normal } ![Meow Money recurring transaction add ledger screenshot: Add Recurring Transaction — Meow Money Manager Official Detailed User Guide](/assets/images/blog/recurring_add_ledger.webp){: width="180" .normal } ![Meow Money recurring transaction add cycle screenshot: Add Recurring Transaction — Meow Money Manager Official Detailed User Guide](/assets/images/blog/recurring_add_cycle.webp){: width="180" .normal }
 
 ### Recurring Transaction Management
 
@@ -249,7 +249,7 @@ In the recurring transaction list, you can:
 - Edit or delete recurring transaction tasks
 - Manually trigger recurring transactions
 
-![image](/assets/images/blog/recurring_manage.webp){: width="180" .normal } ![image](/assets/images/blog/recurring_edit.webp){: width="180" .normal }
+![Meow Money recurring transaction manage screenshot: Recurring Transaction Management — Meow Money Manager Official Detailed User Guide](/assets/images/blog/recurring_manage.webp){: width="180" .normal } ![Meow Money recurring transaction edit screenshot: Recurring Transaction Management — Meow Money Manager Official Detailed User Guide](/assets/images/blog/recurring_edit.webp){: width="180" .normal }
 
 ## Expense Reimbursement
 
@@ -261,7 +261,7 @@ The expense reimbursement feature can help you track expenses that need to be re
 2. Complete other bookkeeping information
 3. Click confirm to complete reimbursement record addition
 
-![image](/assets/images/blog/record_add_reimburse.webp){: width="180" .normal }
+![Meow Money add record reimburse screenshot: Add Reimbursement Record — Meow Money Manager Official Detailed User Guide](/assets/images/blog/record_add_reimburse.webp){: width="180" .normal }
 
 ### Reimbursement Management
 
@@ -272,7 +272,7 @@ The expense reimbursement feature can help you track expenses that need to be re
 5. Select reimbursement method (asset)
 6. Click confirm to complete reimbursement
 
-![image](/assets/images/blog/reimburse_manage.webp){: width="180" .normal } ![image](/assets/images/blog/reimburse_refund.webp){: width="180" .normal } ![image](/assets/images/blog/reimburse_edit.webp){: width="180" .normal } ![image](/assets/images/blog/reimburse_reimburse.webp){: width="180" .normal } ![image](/assets/images/blog/reimburse_done.webp){: width="180" .normal }
+![Meow Money reimbursement manage screenshot: Reimbursement Management — Meow Money Manager Official Detailed User Guide](/assets/images/blog/reimburse_manage.webp){: width="180" .normal } ![Meow Money reimbursement refund screenshot: Reimbursement Management — Meow Money Manager Official Detailed User Guide](/assets/images/blog/reimburse_refund.webp){: width="180" .normal } ![Meow Money reimbursement edit screenshot: Reimbursement Management — Meow Money Manager Official Detailed User Guide](/assets/images/blog/reimburse_edit.webp){: width="180" .normal } ![Meow Money reimbursement reimburse screenshot: Reimbursement Management — Meow Money Manager Official Detailed User Guide](/assets/images/blog/reimburse_reimburse.webp){: width="180" .normal } ![Meow Money reimbursement done screenshot: Reimbursement Management — Meow Money Manager Official Detailed User Guide](/assets/images/blog/reimburse_done.webp){: width="180" .normal }
 
 ## Settings
 
@@ -288,7 +288,7 @@ Meow Money Manager provides multiple setting options to help you customize app f
    - Week start day settings
    - Month start day settings
 
-![image](/assets/images/blog/setting_dark.webp){: width="180" .normal } ![image](/assets/images/blog/setting_language.webp){: width="180" .normal } ![image](/assets/images/blog/setting_currency_symbol.webp){: width="180" .normal } ![image](/assets/images/blog/setting_week_begin.webp){: width="180" .normal } ![image](/assets/images/blog/setting_month_begin.webp){: width="180" .normal }
+![Meow Money settings dark screenshot: Basic Settings — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_dark.webp){: width="180" .normal } ![Meow Money settings language screenshot: Basic Settings — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_language.webp){: width="180" .normal } ![Meow Money settings currency symbol screenshot: Basic Settings — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_currency_symbol.webp){: width="180" .normal } ![Meow Money settings week begin screenshot: Basic Settings — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_week_begin.webp){: width="180" .normal } ![Meow Money settings month begin screenshot: Basic Settings — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_month_begin.webp){: width="180" .normal }
 
 ### Privacy Settings
 
@@ -296,7 +296,7 @@ Meow Money Manager provides multiple setting options to help you customize app f
 2. Enable or disable fingerprint app lock
 3. Set app password (if needed)
 
-![image](/assets/images/blog/setting_lock.webp){: width="180" .normal } ![image](/assets/images/blog/setting_lock_password.webp){: width="180" .normal }
+![Meow Money settings lock screenshot: Privacy Settings — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_lock.webp){: width="180" .normal } ![Meow Money settings lock password screenshot: Privacy Settings — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_lock_password.webp){: width="180" .normal }
 
 ### Backup and Restore
 
@@ -308,7 +308,7 @@ Meow Money Manager provides multiple setting options to help you customize app f
 3. Click "Backup Now" for manual backup
 4. Click "Restore" to restore data from backup files
 
-![image](/assets/images/blog/setting_backup.webp){: width="180" .normal } ![image](/assets/images/blog/setting_backup_backup.webp){: width="180" .normal } ![image](/assets/images/blog/setting_backup_restore.webp){: width="180" .normal } ![image](/assets/images/blog/setting_backup_restore_done.webp){: width="180" .normal }
+![Meow Money settings backup screenshot: Backup and Restore — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_backup.webp){: width="180" .normal } ![Meow Money settings backup backup screenshot: Backup and Restore — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_backup_backup.webp){: width="180" .normal } ![Meow Money settings backup restore screenshot: Backup and Restore — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_backup_restore.webp){: width="180" .normal } ![Meow Money settings backup restore done screenshot: Backup and Restore — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_backup_restore_done.webp){: width="180" .normal }
 
 ### Export Data
 
@@ -317,7 +317,7 @@ Meow Money Manager provides multiple setting options to help you customize app f
 3. Select export format (CSV)
 4. Click "Export" to export data to a file
 
-![image](/assets/images/blog/setting_export.webp){: width="180" .normal } ![image](/assets/images/blog/setting_export_confirm.webp){: width="180" .normal } ![image](/assets/images/blog/setting_export_waiting.webp){: width="180" .normal } ![image](/assets/images/blog/setting_export_done.webp){: width="180" .normal }
+![Meow Money settings export screenshot: Export Data — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_export.webp){: width="180" .normal } ![Meow Money settings export confirm screenshot: Export Data — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_export_confirm.webp){: width="180" .normal } ![Meow Money settings export waiting screenshot: Export Data — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_export_waiting.webp){: width="180" .normal } ![Meow Money settings export done screenshot: Export Data — Meow Money Manager Official Detailed User Guide](/assets/images/blog/setting_export_done.webp){: width="180" .normal }
 
 ## FAQ
 

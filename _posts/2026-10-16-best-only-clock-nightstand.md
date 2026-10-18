@@ -3,6 +3,7 @@ date: 2026-10-16 09:00:00 +0800
 title: "Only Clock for the Nightstand: A Spare Phone as a Bedside Clock"
 description: "A practical look at Only Clock versus Flip Clock as a nightstand clock in 2026 — dim themes, always-on, white noise, and OLED burn-in safety."
 layout: guide
+tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Best Apps]
 image: /assets/images/apps/only-clock/icon.webp
 ---
 
@@ -26,11 +27,11 @@ A spare phone or tablet makes a perfect **nightstand clock**. The **best nightst
 
 ## Only Clock, in depth
 
-![Only Clock screenshot 5](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
-![Only Clock screenshot 6](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
-![Only Clock screenshot 1](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
-![Only Clock screenshot 3](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
-![Only Clock screenshot 2](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
+![Only Clock screenshot: Only Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
+![Only Clock screenshot 2: Only Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
+![Only Clock screenshot 3: Only Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
+![Only Clock screenshot 4: Only Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
+![Only Clock screenshot 5: Only Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
 
 Only Clock is a **fullscreen flip-clock** for Android and iOS with dark themes, white noise, and anti-burn-in options.
 
@@ -52,11 +53,11 @@ Only Clock is a **fullscreen flip-clock** for Android and iOS with dark themes, 
 
 ## Flip Clock, in depth
 
-![Flip Clock screenshot 1](/assets/images/blog/flip_clock_1.webp){: width="180" .normal }
-![Flip Clock screenshot 2](/assets/images/blog/flip_clock_2.webp){: width="180" .normal }
-![Flip Clock screenshot 3](/assets/images/blog/flip_clock_3.webp){: width="180" .normal }
-![Flip Clock screenshot 4](/assets/images/blog/flip_clock_4.webp){: width="180" .normal }
-![Flip Clock screenshot 5](/assets/images/blog/flip_clock_5.webp){: width="180" .normal }
+![Flip Clock screenshot: Flip Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/blog/flip_clock_1.webp){: width="180" .normal }
+![Flip Clock screenshot 2: Flip Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/blog/flip_clock_2.webp){: width="180" .normal }
+![Flip Clock screenshot 3: Flip Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/blog/flip_clock_3.webp){: width="180" .normal }
+![Flip Clock screenshot 4: Flip Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/blog/flip_clock_4.webp){: width="180" .normal }
+![Flip Clock screenshot 5: Flip Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/blog/flip_clock_5.webp){: width="180" .normal }
 
 Flip Clock (package `com.wssc.simpleclock`) is a free, ad-free **flip-clock app** with brightness and always-on controls.
 

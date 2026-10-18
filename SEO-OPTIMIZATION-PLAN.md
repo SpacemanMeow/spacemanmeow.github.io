@@ -186,7 +186,9 @@ AI 应用内搜索本质 = 抓取已索引的可信网页并抽取事实。杠�
 ### 已知问题 / 后续注意
 - **seo-tag 误判 + 非法 JSON 已修复（2026-10-10）**：原 `jekyll-seo-tag` 给无日期页填构建时间当 `date`，把 app/隐私/条款页误标为 `BlogPosting`；且 description/title 里的 `&` 被转成 `&amp;` 塞进 JSON-LD（非法，Google 会丢弃该块）。修复方式：① 所有含 `&` 的 app `description`/`title` 改为 `and`；② `_config.yml` 的 apps 默认加 `seo.type: WebPage`、`privacy.md`/`terms.md` 加 `seo.type: WebPage`，强制类型正确；③ 我们的 `SoftwareApplication`/`FAQPage`/`BreadcrumbList` 仍由 `app-jsonld.html` 正确提供。构建校验：全站 JSON-LD 已无 `&amp;`，app 页 `@type` 为 `WebPage`+`SoftwareApplication`+`FAQPage`+`BreadcrumbList`。
 - `url` 已从 `github.io` 改为 `spacemanmeow.com`，线上 canonical / sitemap 已确认均为该域名。
-- **T-09（按用户决定推迟）**：图片 alt 关键词化与 best 文章正文截图，统一待用户**上传全部图片后**再补充（含 2 篇旧 how-to 的 `![image]` alt、22 篇 best 的截图 alt）。app 侧图标 alt 已优化完毕。
+- ~~**T-09（按用户决定推迟）**~~ **已于 2026-10-18 彻底完成**：全站 839 处正文图片 alt（569 处 blog 图 + 270 处 apps 图）统一规范化为「`{App/功能专有名} screenshot — {文章标题}`」格式（专名大小写修正：YNAB / CCleaner / TickTick / KWGT 等），155 处描述性 alt 保留并追加主题词；`![image]` 零残留。新增 png/jpg 已全部转 WebP（q82），未使用图片（67 个）已清理。
+- **T-14（2026-10-18 新增完成）**：app 详情页新增「Guides & Tutorials」回链区块（`app.html` + `main.css`），按 `post.image == app.icon` 自动列出该 app 的 6 篇相关文章——11 个 app 页全部生效，主题权威形成双向内链。
+- **T-15（2026-10-18 新增完成）**：新增 `/tags/` 聚合页（`_pages/tags.md`，Jekyll 原生 81 个 tag 分组索引）+ `post.html`/`guide.html` 文章底部 tag 可点击链接（锚点跳转）+ 44 篇 guide 文章补 tags（app/品类/类型/竞品四层标签，大小写统一 0 冲突）；博客列表页加 Tags 入口。死锚点 0，htmlproofer 全绿。
 - **T-13（Core Web Vitals）** 属持续项：保持图片 WebP、首屏懒加载（截图已 `loading="lazy"`）、CLS 稳定即可，无一次性任务。
 - 所有 Phase 1/2 技术项已于 **2026-10-16 部署上线**，线上已出现 sitemap.xml / 结构化数据 / og:image / 修正后的 JSON。可在 Search Console「网址检查」中对 22 个新 best URL 请求编入索引以加速收录。
 | T-07 | 列表/详情注入 BreadcrumbList JSON-LD | ✅ | 2026-10-10 | 新增 `_includes/breadcrumb-jsonld.html` 并在 `default.html` 引入；Meow 系列 app 为 Home›Meow›App，非 Meow app/普通页为 Home›当前页，博客为 Home›Blog›Post；全站 18 个非首页页均含，构建校验 JSON 全合法 |

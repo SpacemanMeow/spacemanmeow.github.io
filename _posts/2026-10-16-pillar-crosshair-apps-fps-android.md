@@ -4,7 +4,7 @@ title: "Best Crosshair Apps for FPS Games on Android (2026)"
 description: "The best crosshair overlay apps for FPS games on Android in 2026: what to look for (styles, customization, game support) and how Crosshair Aim compares to Crosshair Master."
 layout: guide
 image: /assets/images/apps/cross-hair/icon.webp
-tags: [crosshair, fps games, aim trainer, android, crosshair aim]
+tags: [Crosshair, FPS Games, Aim Trainer, Android, Crosshair Aim, App Roundup]
 ---
 
 Mobile FPS games don't always give you a crosshair you like — or any at all. A crosshair overlay fixes that, and this 2026 guide covers what to look for and how Crosshair Aim compares to the alternatives.
@@ -32,10 +32,10 @@ On Android an overlay sits above the game without root, so you get a precise aim
 
 ## Crosshair Aim, in depth
 
-![Crosshair Aim screenshot 1](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
-![Crosshair Aim screenshot 2](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
-![Crosshair Aim screenshot 3](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
-![Crosshair Aim screenshot 4](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
+![Crosshair Aim screenshot: Crosshair Aim, in depth — Best Crosshair Apps for FPS Games on Android (2026)](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
+![Crosshair Aim screenshot 2: Crosshair Aim, in depth — Best Crosshair Apps for FPS Games on Android (2026)](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
+![Crosshair Aim screenshot 3: Crosshair Aim, in depth — Best Crosshair Apps for FPS Games on Android (2026)](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
+![Crosshair Aim screenshot 4: Crosshair Aim, in depth — Best Crosshair Apps for FPS Games on Android (2026)](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
 
 Crosshair Aim Pro adds a custom crosshair overlay to FPS shooter games on Android, with 80+ styles to improve your aim in any shooting game.
 

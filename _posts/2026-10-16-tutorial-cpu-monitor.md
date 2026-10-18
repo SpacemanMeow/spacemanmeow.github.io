@@ -3,7 +3,7 @@ layout: post
 title: "CPU Monitor Official User Guide"
 date: 2026-10-16 10:16:00 +0800
 categories: [Tutorial]
-tags: [CPU Monitor, CPU Temperature, Overheat Alarm, Android, CPU Monitor]
+tags: [CPU Monitor, CPU Temperature, Overheat Alarm, Android]
 lang: en
 author: author_meow_id
 description: "A complete CPU Monitor user guide — real-time CPU temperature, floating window, overheat alarm, history curves and cache clean."
@@ -48,11 +48,11 @@ CPU Monitor shows **real-time CPU temperature and frequency, RAM, battery and st
 
 The home screen has tabs: **CPU / SYSTEM / FLOATING / SENSOR**, with an **Upgrade** button at the top.
 
-![Home tabs: CPU](/assets/images/blog/tutorial_cpu_home.webp){: width="180" .normal }
-![Home tabs: FLOATING](/assets/images/blog/tutorial_cpu_floating.webp){: width="180" .normal }
-![Home tabs: CLEAN](/assets/images/blog/tutorial_cpu_clean.webp){: width="180" .normal }
-![Home tabs: SENSOR](/assets/images/blog/tutorial_cpu_sensor.webp){: width="180" .normal }
-![Home tabs: SYSTEM](/assets/images/blog/tutorial_cpu_system.webp){: width="180" .normal }
+![CPU Monitor home screenshot: First: time Use — CPU Monitor Official User Guide](/assets/images/blog/tutorial_cpu_home.webp){: width="180" .normal }
+![CPU Monitor floating screenshot: First: time Use — CPU Monitor Official User Guide](/assets/images/blog/tutorial_cpu_floating.webp){: width="180" .normal }
+![CPU Monitor clean screenshot: First: time Use — CPU Monitor Official User Guide](/assets/images/blog/tutorial_cpu_clean.webp){: width="180" .normal }
+![CPU Monitor sensor screenshot: First: time Use — CPU Monitor Official User Guide](/assets/images/blog/tutorial_cpu_sensor.webp){: width="180" .normal }
+![CPU Monitor system screenshot: First: time Use — CPU Monitor Official User Guide](/assets/images/blog/tutorial_cpu_system.webp){: width="180" .normal }
 
 ## Real-time CPU
 

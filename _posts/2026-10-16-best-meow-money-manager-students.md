@@ -3,6 +3,7 @@ date: 2026-10-16 09:00:00 +0800
 title: "Meow Money Manager for Students: Track Spending Between Classes"
 description: "A student-friendly look at Meow Money Manager versus YNAB, Goodbudget and EveryDollar — free tracking, no account, multi-currency study-abroad, and price for a student budget in 2026."
 layout: guide
+tags: [Meow Money, Budget App, Expense Tracker, Money Manager, Android, Best Apps]
 image: /assets/images/apps/meow-money-manager/icon.webp
 ---
 
@@ -39,11 +40,11 @@ Below we compare the apps students actually install — **Meow Money Manager, YN
 
 ## Meow Money Manager, in depth
 
-![Meow Money Manager screenshot 1](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
-![Meow Money Manager screenshot 2](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
-![Meow Money Manager screenshot 3](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
-![Meow Money Manager screenshot 4](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
-![Meow Money Manager screenshot 5](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
+![Meow Money screenshot: Meow Money Manager, in depth — Meow Money Manager for Students: Track Spending Between Classes](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
+![Meow Money screenshot 2: Meow Money Manager, in depth — Meow Money Manager for Students: Track Spending Between Classes](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
+![Meow Money screenshot 3: Meow Money Manager, in depth — Meow Money Manager for Students: Track Spending Between Classes](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
+![Meow Money screenshot 4: Meow Money Manager, in depth — Meow Money Manager for Students: Track Spending Between Classes](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
+![Meow Money screenshot 5: Meow Money Manager, in depth — Meow Money Manager for Students: Track Spending Between Classes](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
 
 Meow Money Manager is a **cat-themed bookkeeping app** for Android and iOS that stores everything **on your device** behind a fingerprint lock — no sign-up, no bank login.
 
@@ -66,11 +67,11 @@ Meow Money Manager is a **cat-themed bookkeeping app** for Android and iOS that 
 
 ## YNAB, in depth
 
-![Ynab screenshot 1](/assets/images/blog/ynab_1.webp){: width="180" .normal }
-![Ynab screenshot 2](/assets/images/blog/ynab_2.webp){: width="180" .normal }
-![Ynab screenshot 3](/assets/images/blog/ynab_3.webp){: width="180" .normal }
-![Ynab screenshot 4](/assets/images/blog/ynab_4.webp){: width="180" .normal }
-![Ynab screenshot 5](/assets/images/blog/ynab_5.webp){: width="180" .normal }
+![YNAB screenshot: YNAB, in depth — Meow Money Manager for Students: Track Spending Between Classes](/assets/images/blog/ynab_1.webp){: width="180" .normal }
+![YNAB screenshot 2: YNAB, in depth — Meow Money Manager for Students: Track Spending Between Classes](/assets/images/blog/ynab_2.webp){: width="180" .normal }
+![YNAB screenshot 3: YNAB, in depth — Meow Money Manager for Students: Track Spending Between Classes](/assets/images/blog/ynab_3.webp){: width="180" .normal }
+![YNAB screenshot 4: YNAB, in depth — Meow Money Manager for Students: Track Spending Between Classes](/assets/images/blog/ynab_4.webp){: width="180" .normal }
+![YNAB screenshot 5: YNAB, in depth — Meow Money Manager for Students: Track Spending Between Classes](/assets/images/blog/ynab_5.webp){: width="180" .normal }
 
 YNAB (You Need A Budget) is the well-known **zero-based budgeting** app where every dollar gets a job, and bank transactions import through Plaid.
 

@@ -3,6 +3,7 @@ date: 2026-10-16 09:00:00 +0800
 title: "One Widget and Material You: Widgets That Match Your Wallpaper"
 description: "A practical look at One Widget versus KWGT for Material You styling in 2026 — dynamic color, theme matching, setup, and price on Android 12+."
 layout: guide
+tags: [One Widget, Home Screen Widgets, Widget Maker, Android Customization, Android, Best Apps]
 image: /assets/images/apps/one-widget/icon.webp
 ---
 
@@ -25,11 +26,11 @@ Since Android 12, **Material You** lets the system pull a color palette from you
 
 ## One Widget, in depth
 
-![One Widget screenshot 1](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
-![One Widget screenshot 2](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
-![One Widget screenshot 3](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
-![One Widget screenshot 4](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
-![One Widget screenshot 5](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
+![One Widget screenshot: One Widget, in depth — One Widget and Material You: Widgets That Match Your Wallpaper](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
+![One Widget screenshot 2: One Widget, in depth — One Widget and Material You: Widgets That Match Your Wallpaper](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
+![One Widget screenshot 3: One Widget, in depth — One Widget and Material You: Widgets That Match Your Wallpaper](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
+![One Widget screenshot 4: One Widget, in depth — One Widget and Material You: Widgets That Match Your Wallpaper](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
+![One Widget screenshot 5: One Widget, in depth — One Widget and Material You: Widgets That Match Your Wallpaper](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
 
 One Widget is a **cat-themed widget pack** for Android with styles that follow the system theme, including Material You color and corner shaping.
 
@@ -50,11 +51,11 @@ One Widget is a **cat-themed widget pack** for Android with styles that follow t
 
 ## KWGT, in depth
 
-![Kwgt Widget screenshot 1](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
-![Kwgt Widget screenshot 2](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
-![Kwgt Widget screenshot 3](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
-![Kwgt Widget screenshot 4](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
-![Kwgt Widget screenshot 5](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
+![KWGT screenshot: KWGT, in depth — One Widget and Material You: Widgets That Match Your Wallpaper](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
+![KWGT screenshot 2: KWGT, in depth — One Widget and Material You: Widgets That Match Your Wallpaper](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
+![KWGT screenshot 3: KWGT, in depth — One Widget and Material You: Widgets That Match Your Wallpaper](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
+![KWGT screenshot 4: KWGT, in depth — One Widget and Material You: Widgets That Match Your Wallpaper](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
+![KWGT screenshot 5: KWGT, in depth — One Widget and Material You: Widgets That Match Your Wallpaper](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
 
 KWGT (Kustom Widget Maker, package `org.kustom.widget`) can reproduce Material You exactly — if you write the Kode to read system colors and shape them.
 

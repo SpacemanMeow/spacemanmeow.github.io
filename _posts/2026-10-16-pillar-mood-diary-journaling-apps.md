@@ -4,7 +4,7 @@ title: "Best Mood Diary & Journaling Apps (2026)"
 description: "The best mood diary and journaling apps in 2026: what to look for (privacy, quick logging, offline) and how Meow Mood Diary compares to Day One and Journey."
 layout: guide
 image: /assets/images/apps/meow-mood-diary/icon.webp
-tags: [mood diary, journaling app, private diary, android, meow mood]
+tags: [Mood Diary, Journaling App, Private Diary, Android, Meow Mood, App Roundup]
 ---
 
 A mood diary turns scattered feelings into something you can actually see and learn from. This 2026 guide covers what matters in a journaling app and how Meow Mood Diary compares to the journaling heavyweights.
@@ -32,11 +32,11 @@ On Android, local-first storage plus a fingerprint lock means your private thoug
 
 ## Meow Mood Diary, in depth
 
-![Meow Mood screenshot 1](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
-![Meow Mood screenshot 2](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
-![Meow Mood screenshot 3](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
-![Meow Mood screenshot 4](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
-![Meow Mood screenshot 5](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
+![Meow Mood Diary screenshot: Meow Mood Diary, in depth — Best Mood Diary & Journaling Apps (2026)](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
+![Meow Mood Diary screenshot 2: Meow Mood Diary, in depth — Best Mood Diary & Journaling Apps (2026)](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
+![Meow Mood Diary screenshot 3: Meow Mood Diary, in depth — Best Mood Diary & Journaling Apps (2026)](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
+![Meow Mood Diary screenshot 4: Meow Mood Diary, in depth — Best Mood Diary & Journaling Apps (2026)](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![Meow Mood Diary screenshot 5: Meow Mood Diary, in depth — Best Mood Diary & Journaling Apps (2026)](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
 
 Meow Mood Diary is a safe, private mood diary and journaling app with a calming cat-themed interface for recording feelings and tracking mood.
 

@@ -54,10 +54,10 @@ Open One Widget to a 4-tab gallery: **One UI / Nothing / Glass / Material You**.
 - Each style page lists categories: Tools, Entry, Hardware, Clock, Launcher, Combo, Note, Contact
 - Tap a category to see the widget previews
 
-![Home: 4 style tabs one ui](/assets/images/blog/tutorial_widget_one_ui.webp){: width="180" .normal }
-![Home: 4 style tabs nothing](/assets/images/blog/tutorial_widget_nothing.webp){: width="180" .normal }
-![Home: 4 style tabs glass](/assets/images/blog/tutorial_widget_glass.webp){: width="180" .normal }
-![Home: 4 style tabs material](/assets/images/blog/tutorial_widget_material.webp){: width="180" .normal }
+![One Widget one ui screenshot: First: time Use — One Widget Official User Guide](/assets/images/blog/tutorial_widget_one_ui.webp){: width="180" .normal }
+![One Widget nothing screenshot: First: time Use — One Widget Official User Guide](/assets/images/blog/tutorial_widget_nothing.webp){: width="180" .normal }
+![One Widget glass screenshot: First: time Use — One Widget Official User Guide](/assets/images/blog/tutorial_widget_glass.webp){: width="180" .normal }
+![One Widget material screenshot: First: time Use — One Widget Official User Guide](/assets/images/blog/tutorial_widget_material.webp){: width="180" .normal }
 
 ## Browse the 4 Styles
 
@@ -70,7 +70,7 @@ Switch the top tabs to preview each style. **One UI** is the default and is avai
 3. The system opens the One Widget **configure** screen
 4. Set your options and tap **Confirm** to place it
 
-![Widget gallery + system 'long-press home to add' guide](/assets/images/blog/tutorial_widget_add.webp){: width="180" .normal }
+![One Widget add screenshot: Add a Widget — One Widget Official User Guide](/assets/images/blog/tutorial_widget_add.webp){: width="180" .normal }
 
 ## Configure a Widget
 
@@ -83,7 +83,7 @@ Most widgets share common options:
 
 Icon background color and corner radius are derived from the shape (circle = size/2, rounded = size/3).
 
-![Config screen: theme color, dark/light, shape, size](/assets/images/blog/tutorial_widget_config.webp){: width="180" .normal }
+![One Widget config screenshot: Configure a Widget — One Widget Official User Guide](/assets/images/blog/tutorial_widget_config.webp){: width="180" .normal }
 
 ## Quick Toggles
 

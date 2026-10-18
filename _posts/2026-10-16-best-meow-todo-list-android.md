@@ -3,6 +3,7 @@ date: 2026-10-16 09:00:00 +0800
 title: "Meow Todo for Android: A To-Do List That Stays on Your Phone"
 description: "A practical look at Meow Todo versus Todoist, Microsoft To Do and Google Tasks on Android in 2026 — local-first privacy, widgets, reminders, and price."
 layout: guide
+tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
 ---
 
@@ -28,11 +29,11 @@ On Android, a **to-do list app** is something you open dozens of times a day, so
 
 ## Meow Todo, in depth
 
-![Meow Todo screenshot 1](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
-![Meow Todo screenshot 2](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
-![Meow Todo screenshot 3](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
-![Meow Todo screenshot 4](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
-![Meow Todo screenshot 5](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
+![Meow Todo screenshot: Meow Todo, in depth — Meow Todo for Android: A To-Do List That Stays on Your Phone](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
+![Meow Todo screenshot 2: Meow Todo, in depth — Meow Todo for Android: A To-Do List That Stays on Your Phone](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
+![Meow Todo screenshot 3: Meow Todo, in depth — Meow Todo for Android: A To-Do List That Stays on Your Phone](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
+![Meow Todo screenshot 4: Meow Todo, in depth — Meow Todo for Android: A To-Do List That Stays on Your Phone](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
+![Meow Todo screenshot 5: Meow Todo, in depth — Meow Todo for Android: A To-Do List That Stays on Your Phone](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
 
 Meow Todo is a **cat-themed to-do list** for Android and iOS. The core — lists, tasks, reminders, and a calendar view — is free; VIP adds unlimited lists, tags, subtasks, CSV export, and app lock.
 
@@ -55,11 +56,11 @@ Meow Todo is a **cat-themed to-do list** for Android and iOS. The core — lists
 
 ## Todoist, in depth
 
-![Todoist screenshot 1](/assets/images/blog/todoist_1.webp){: width="180" .normal }
-![Todoist screenshot 2](/assets/images/blog/todoist_2.webp){: width="180" .normal }
-![Todoist screenshot 3](/assets/images/blog/todoist_3.webp){: width="180" .normal }
-![Todoist screenshot 4](/assets/images/blog/todoist_4.webp){: width="180" .normal }
-![Todoist screenshot 5](/assets/images/blog/todoist_5.webp){: width="180" .normal }
+![Todoist screenshot: Todoist, in depth — Meow Todo for Android: A To-Do List That Stays on Your Phone](/assets/images/blog/todoist_1.webp){: width="180" .normal }
+![Todoist screenshot 2: Todoist, in depth — Meow Todo for Android: A To-Do List That Stays on Your Phone](/assets/images/blog/todoist_2.webp){: width="180" .normal }
+![Todoist screenshot 3: Todoist, in depth — Meow Todo for Android: A To-Do List That Stays on Your Phone](/assets/images/blog/todoist_3.webp){: width="180" .normal }
+![Todoist screenshot 4: Todoist, in depth — Meow Todo for Android: A To-Do List That Stays on Your Phone](/assets/images/blog/todoist_4.webp){: width="180" .normal }
+![Todoist screenshot 5: Todoist, in depth — Meow Todo for Android: A To-Do List That Stays on Your Phone](/assets/images/blog/todoist_5.webp){: width="180" .normal }
 
 Todoist is the most-installed task manager, with natural-language input and deep cross-platform sync.
 
