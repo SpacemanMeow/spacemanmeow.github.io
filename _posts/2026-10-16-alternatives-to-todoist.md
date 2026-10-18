@@ -10,17 +10,17 @@ If you are shopping for **alternatives to Todoist**, you probably want lower cos
 
 ## Why people look beyond Todoist
 
-- The free **Beginner** tier caps you at ~5 active projects with limited reminders.
-- **Calendar integration** and many automations sit behind the **Pro** plan (~$60/year).
-- Some users simply prefer a calmer, less "gamified" interface, or want their data off a vendor cloud.
-
-## The best Todoist alternatives at a glance
-
 ![Todoist screenshot 1](/assets/images/blog/todoist_1.webp){: width="180" .normal }
 ![Todoist screenshot 2](/assets/images/blog/todoist_2.webp){: width="180" .normal }
 ![Todoist screenshot 3](/assets/images/blog/todoist_3.webp){: width="180" .normal }
 ![Todoist screenshot 4](/assets/images/blog/todoist_4.webp){: width="180" .normal }
 ![Todoist screenshot 5](/assets/images/blog/todoist_5.webp){: width="180" .normal }
+
+- The free **Beginner** tier caps you at ~5 active projects with limited reminders.
+- **Calendar integration** and many automations sit behind the **Pro** plan (~$60/year).
+- Some users simply prefer a calmer, less "gamified" interface, or want their data off a vendor cloud.
+
+## The best Todoist alternatives at a glance
 
 | App | Price | Free tier | Best for |
 |---|---|---|---|
@@ -33,6 +33,12 @@ If you are shopping for **alternatives to Todoist**, you probably want lower cos
 | **Any.do** | Free + Premium ~$36/yr | Limited | Combined calendar + tasks |
 
 ### 1. Microsoft To Do — best for the Microsoft ecosystem
+
+![Microsoft Todo screenshot 1](/assets/images/blog/microsoft_todo_1.webp){: width="180" .normal }
+![Microsoft Todo screenshot 2](/assets/images/blog/microsoft_todo_2.webp){: width="180" .normal }
+![Microsoft Todo screenshot 3](/assets/images/blog/microsoft_todo_3.webp){: width="180" .normal }
+![Microsoft Todo screenshot 4](/assets/images/blog/microsoft_todo_4.webp){: width="180" .normal }
+![Microsoft Todo screenshot 5](/assets/images/blog/microsoft_todo_5.webp){: width="180" .normal }
 
 Microsoft To Do (built by the former Wunderlist team Microsoft acquired in 2015) is **completely free** and deeply tied to Outlook and Windows. It shines for anyone already in Microsoft 365.
 
@@ -83,6 +89,12 @@ Meow Todo List is a cat-themed **task manager** for Android and iOS. Its standou
 
 ### 3. TickTick — best all-rounder
 
+![Ticktick Todo screenshot 1](/assets/images/blog/ticktick_todo_1.webp){: width="180" .normal }
+![Ticktick Todo screenshot 2](/assets/images/blog/ticktick_todo_2.webp){: width="180" .normal }
+![Ticktick Todo screenshot 3](/assets/images/blog/ticktick_todo_3.webp){: width="180" .normal }
+![Ticktick Todo screenshot 4](/assets/images/blog/ticktick_todo_4.webp){: width="180" .normal }
+![Ticktick Todo screenshot 5](/assets/images/blog/ticktick_todo_5.webp){: width="180" .normal }
+
 TickTick is a strong **task manager** with a built-in calendar, pomodoro timer, and habit tracker. It packs more features than most alternatives and undercuts Todoist Pro on price.
 
 **Strengths**
@@ -104,6 +116,12 @@ TickTick is a strong **task manager** with a built-in calendar, pomodoro timer, 
 
 ### 4. Google Tasks — best for Gmail and Calendar users
 
+![Google Task screenshot 1](/assets/images/blog/google_task_1.webp){: width="180" .normal }
+![Google Task screenshot 2](/assets/images/blog/google_task_2.webp){: width="180" .normal }
+![Google Task screenshot 3](/assets/images/blog/google_task_3.webp){: width="180" .normal }
+![Google Task screenshot 4](/assets/images/blog/google_task_4.webp){: width="180" .normal }
+![Google Task screenshot 5](/assets/images/blog/google_task_5.webp){: width="180" .normal }
+
 Google Tasks is the lightweight task tool baked into Gmail and Google Calendar. It's minimal by design and free with any Google account.
 
 **Strengths**
@@ -123,6 +141,12 @@ Google Tasks is the lightweight task tool baked into Gmail and Google Calendar. 
 - [App Store](https://apps.apple.com/app/google-tasks-get-things-done/id1353634006)
 
 ### 5. Things 3 — best-designed, Apple-only
+
+![Things Todo screenshot 1](/assets/images/blog/things_todo_1.webp){: width="180" .normal }
+![Things Todo screenshot 2](/assets/images/blog/things_todo_2.webp){: width="180" .normal }
+![Things Todo screenshot 3](/assets/images/blog/things_todo_3.webp){: width="180" .normal }
+![Things Todo screenshot 4](/assets/images/blog/things_todo_4.webp){: width="180" .normal }
+![Things Todo screenshot 5](/assets/images/blog/things_todo_5.webp){: width="180" .normal }
 
 Things 3 (by Cultured Code) is widely praised as the **best-looking to-do app**, with a GTD-friendly model (Inbox, Today, Upcoming, Anytime, Someday, Projects, Areas, tags). It runs only on Apple devices.
 
@@ -144,6 +168,12 @@ Things 3 (by Cultured Code) is widely praised as the **best-looking to-do app**,
 
 ### 6. Notion — best flexible all-in-one workspace
 
+![Notion screenshot 1](/assets/images/blog/notion_1.webp){: width="180" .normal }
+![Notion screenshot 2](/assets/images/blog/notion_2.webp){: width="180" .normal }
+![Notion screenshot 3](/assets/images/blog/notion_3.webp){: width="180" .normal }
+![Notion screenshot 4](/assets/images/blog/notion_4.webp){: width="180" .normal }
+![Notion screenshot 5](/assets/images/blog/notion_5.webp){: width="180" .normal }
+
 Notion is a notes/docs/database workspace that can also run your tasks via databases, board (Kanban) and calendar views, and reminders. It's the most flexible option here — and the heaviest.
 
 **Strengths**
@@ -163,6 +193,11 @@ Notion is a notes/docs/database workspace that can also run your tasks via datab
 - [App Store](https://apps.apple.com/app/notion-notes-tasks-ai/id1232780281)
 
 ### 7. Any.do — best combined calendar and tasks
+
+![Anydo screenshot 1](/assets/images/blog/anydo_1.webp){: width="180" .normal }
+![Anydo screenshot 2](/assets/images/blog/anydo_2.webp){: width="180" .normal }
+![Anydo screenshot 3](/assets/images/blog/anydo_3.webp){: width="180" .normal }
+![Anydo screenshot 4](/assets/images/blog/anydo_4.webp){: width="180" .normal }
 
 Any.do bundles a to-do list, calendar, and planner with reminders, used by tens of millions across mobile, desktop, and web.
 

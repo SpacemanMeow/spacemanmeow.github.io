@@ -88,6 +88,11 @@ Meow Money Manager is a cat-themed expense tracker and budget app for **Android 
 
 ## Monarch Money — the closest Mint successor
 
+![Monarch Money screenshot 1](/assets/images/blog/monarch_money_1.webp){: width="180" .normal }
+![Monarch Money screenshot 2](/assets/images/blog/monarch_money_2.webp){: width="180" .normal }
+![Monarch Money screenshot 3](/assets/images/blog/monarch_money_3.webp){: width="180" .normal }
+![Monarch Money screenshot 4](/assets/images/blog/monarch_money_4.webp){: width="180" .normal }
+
 Monarch is the app most often named the **direct Mint replacement**. It aggregates banks, cards, loans, investments, and even crypto and real estate into one dashboard, with collaborative sharing so a partner can edit the same budget.
 
 **Strengths**
@@ -111,6 +116,12 @@ Monarch is the app most often named the **direct Mint replacement**. It aggregat
 ---
 
 ## Rocket Money — best for taming subscriptions
+
+![Rocket Money screenshot 1](/assets/images/blog/rocket_money_1.webp){: width="180" .normal }
+![Rocket Money screenshot 2](/assets/images/blog/rocket_money_2.webp){: width="180" .normal }
+![Rocket Money screenshot 3](/assets/images/blog/rocket_money_3.webp){: width="180" .normal }
+![Rocket Money screenshot 4](/assets/images/blog/rocket_money_4.webp){: width="180" .normal }
+![Rocket Money screenshot 5](/assets/images/blog/rocket_money_5.webp){: width="180" .normal }
 
 Rocket Money (formerly Truebill) is built around **finding and canceling unwanted subscriptions**, lowering bills through negotiation, and giving a simple spending overview. It is the strongest pick if recurring charges are your main pain point.
 
@@ -136,6 +147,12 @@ Rocket Money (formerly Truebill) is built around **finding and canceling unwante
 
 ## Empower (formerly Personal Capital) — best free net-worth & investment view
 
+![Empower Money screenshot 1](/assets/images/blog/empower_money_1.webp){: width="180" .normal }
+![Empower Money screenshot 2](/assets/images/blog/empower_money_2.webp){: width="180" .normal }
+![Empower Money screenshot 3](/assets/images/blog/empower_money_3.webp){: width="180" .normal }
+![Empower Money screenshot 4](/assets/images/blog/empower_money_4.webp){: width="180" .normal }
+![Empower Money screenshot 5](/assets/images/blog/empower_money_5.webp){: width="180" .normal }
+
 Empower is **free** and focused on **net worth and investment tracking**. It aggregates bank, retirement, brokerage, crypto, and even mortgage/real-estate data to give a portfolio analysis, retirement planner, and fee analyzer.
 
 **Strengths**
@@ -160,6 +177,12 @@ Empower is **free** and focused on **net worth and investment tracking**. It agg
 
 ## PocketGuard — best for "safe to spend"
 
+![Pocketguard Money screenshot 1](/assets/images/blog/pocketguard_money_1.webp){: width="180" .normal }
+![Pocketguard Money screenshot 2](/assets/images/blog/pocketguard_money_2.webp){: width="180" .normal }
+![Pocketguard Money screenshot 3](/assets/images/blog/pocketguard_money_3.webp){: width="180" .normal }
+![Pocketguard Money screenshot 4](/assets/images/blog/pocketguard_money_4.webp){: width="180" .normal }
+![Pocketguard Money screenshot 5](/assets/images/blog/pocketguard_money_5.webp){: width="180" .normal }
+
 PocketGuard keeps things simple: it shows **"In My Pocket"** — how much you can safely spend after bills, savings, and goals are covered. It is the lightest way to avoid overspending without learning a method.
 
 **Strengths**
@@ -182,6 +205,12 @@ PocketGuard keeps things simple: it shows **"In My Pocket"** — how much you ca
 ---
 
 ## Goodbudget — best envelope budgeting without a subscription
+
+![Good Budget screenshot 1](/assets/images/blog/good_budget_1.webp){: width="180" .normal }
+![Good Budget screenshot 2](/assets/images/blog/good_budget_2.webp){: width="180" .normal }
+![Good Budget screenshot 3](/assets/images/blog/good_budget_3.webp){: width="180" .normal }
+![Good Budget screenshot 4](/assets/images/blog/good_budget_4.webp){: width="180" .normal }
+![Good Budget screenshot 5](/assets/images/blog/good_budget_5.webp){: width="180" .normal }
 
 Goodbudget digitizes the classic **envelope system**: you allocate money into virtual envelopes and spend from them. It is deliberately manual and shines for couples and families who share a budget.
 

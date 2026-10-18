@@ -20,8 +20,6 @@ Below we compare six **alternatives to Crosshair Master** — all safe, no-root 
 
 ## The best Crosshair Master alternatives at a glance
 
-![Crosshair Hero screenshot 1](/assets/images/blog/crosshair_hero_1.webp){: width="180" .normal }
-
 | App | Price (2026) | Styles | Customization | In-game adjuster |
 |---|---|---|---|---|
 | **Crosshair Aim** | Free + unlock | 15+ | Size/color/scale/position | Yes |
@@ -67,7 +65,6 @@ Crosshair Aim is a **crosshair app for FPS games** with 80+ styles, full size/co
 ![Custom Crosshair screenshot 1](/assets/images/blog/custom_crosshair_1.webp){: width="180" .normal }
 ![Custom Crosshair screenshot 2](/assets/images/blog/custom_crosshair_2.webp){: width="180" .normal }
 ![Custom Crosshair screenshot 3](/assets/images/blog/custom_crosshair_3.webp){: width="180" .normal }
-![Custom Crosshair screenshot 4](/assets/images/blog/custom_crosshair_4.webp){: width="180" .normal }
 ![Custom Crosshair screenshot 5](/assets/images/blog/custom_crosshair_5.webp){: width="180" .normal }
 
 Custom Crosshair (Impact Crosshair) is a popular **overlay tool** with 500,000+ installs, a crosshair builder, real-time overlay, and animated reticles for FPS and TPS games.
@@ -92,6 +89,11 @@ Custom Crosshair (Impact Crosshair) is a popular **overlay tool** with 500,000+ 
 ---
 
 ### 3. Custom Aim — best crosshair generator
+
+![Custom Aim screenshot 1](/assets/images/blog/custom_aim_1.webp){: width="180" .normal }
+![Custom Aim screenshot 2](/assets/images/blog/custom_aim_2.webp){: width="180" .normal }
+![Custom Aim screenshot 3](/assets/images/blog/custom_aim_3.webp){: width="180" .normal }
+![Custom Aim screenshot 4](/assets/images/blog/custom_aim_5.webp){: width="180" .normal }
 
 Custom Aim (Crosshair Generator Pro) lets you **create a custom crosshair overlay** in any shooting FPS game, with presets and deep shape/color/size control.
 
@@ -143,6 +145,12 @@ Crosshair Pro: Custom Scope is a mobile utility that puts a **precise scope over
 ---
 
 ### 5. CrossAim — best simple style pack
+
+![Cross Aim screenshot 1](/assets/images/blog/cross_aim_1.webp){: width="180" .normal }
+![Cross Aim screenshot 2](/assets/images/blog/cross_aim_2.webp){: width="180" .normal }
+![Cross Aim screenshot 3](/assets/images/blog/cross_aim_3.webp){: width="180" .normal }
+![Cross Aim screenshot 4](/assets/images/blog/cross_aim_4.webp){: width="180" .normal }
+![Cross Aim screenshot 5](/assets/images/blog/cross_aim_5.webp){: width="180" .normal }
 
 CrossAim: Custom Crosshair offers **24 styles** with colors and sizes, a clean overlay tool for quick reticle changes.
 

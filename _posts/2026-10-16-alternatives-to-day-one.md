@@ -12,6 +12,12 @@ Below we compare six **alternatives to Day One** — from a cute, private mood d
 
 ## Why look beyond Day One
 
+![Day One screenshot 1](/assets/images/blog/day_one_1.webp){: width="180" .normal }
+![Day One screenshot 2](/assets/images/blog/day_one_2.webp){: width="180" .normal }
+![Day One screenshot 3](/assets/images/blog/day_one_3.webp){: width="180" .normal }
+![Day One screenshot 4](/assets/images/blog/day_one_4.webp){: width="180" .normal }
+![Day One screenshot 5](/assets/images/blog/day_one_5.webp){: width="180" .normal }
+
 - **Paid annual subscription** (~$35/year in 2026) for the features most people use.
 - **Cloud sync by default** — some users want local-only storage they control.
 - **Prose-first** — less ideal if you just want a quick mood check.
@@ -19,12 +25,6 @@ Below we compare six **alternatives to Day One** — from a cute, private mood d
 - **Lock-in** — leaving means exporting, and the format isn't always portable.
 
 ## The best Day One alternatives at a glance
-
-![Day One screenshot 1](/assets/images/blog/day_one_1.webp){: width="180" .normal }
-![Day One screenshot 2](/assets/images/blog/day_one_2.webp){: width="180" .normal }
-![Day One screenshot 3](/assets/images/blog/day_one_3.webp){: width="180" .normal }
-![Day One screenshot 4](/assets/images/blog/day_one_4.webp){: width="180" .normal }
-![Day One screenshot 5](/assets/images/blog/day_one_5.webp){: width="180" .normal }
 
 | App | Price (2026) | Platforms | Best for |
 |---|---|---|---|
@@ -70,6 +70,12 @@ Meow Mood Diary is a **safe, private mood diary** with a calming cat-themed inte
 
 ### 2. Journey — best cross-platform journal
 
+![Journey screenshot 1](/assets/images/blog/journey_1.webp){: width="180" .normal }
+![Journey screenshot 2](/assets/images/blog/journey_2.webp){: width="180" .normal }
+![Journey screenshot 3](/assets/images/blog/journey_3.webp){: width="180" .normal }
+![Journey screenshot 4](/assets/images/blog/journey_4.webp){: width="180" .normal }
+![Journey screenshot 5](/assets/images/blog/journey_5.webp){: width="180" .normal }
+
 Journey is a **cross-platform journal** for Android, iOS, web, Windows and Mac, with photo entries, mood tracking, and Google Drive sync. It's the closest direct competitor to Day One for people who write on many devices.
 
 **Strengths**
@@ -93,6 +99,12 @@ Journey is a **cross-platform journal** for Android, iOS, web, Windows and Mac, 
 ---
 
 ### 3. Diaro — best organized text journal
+
+![Diaro screenshot 1](/assets/images/blog/diaro_1.webp){: width="180" .normal }
+![Diaro screenshot 2](/assets/images/blog/diaro_2.webp){: width="180" .normal }
+![Diaro screenshot 3](/assets/images/blog/diaro_3.webp){: width="180" .normal }
+![Diaro screenshot 4](/assets/images/blog/diaro_4.webp){: width="180" .normal }
+![Diaro screenshot 5](/assets/images/blog/diaro_5.webp){: width="180" .normal }
 
 Diaro is a **text-first diary** with folders, tags, search, and a clean dashboard, available on Android, iOS, Windows and Mac with cloud backup.
 
@@ -118,6 +130,12 @@ Diaro is a **text-first diary** with folders, tags, search, and a clean dashboar
 
 ### 4. Daylio — best micro mood logs
 
+![Daylio screenshot 1](/assets/images/blog/daylio_1.webp){: width="180" .normal }
+![Daylio screenshot 2](/assets/images/blog/daylio_2.webp){: width="180" .normal }
+![Daylio screenshot 3](/assets/images/blog/daylio_3.webp){: width="180" .normal }
+![Daylio screenshot 4](/assets/images/blog/daylio_4.webp){: width="180" .normal }
+![Daylio screenshot 5](/assets/images/blog/daylio_5.webp){: width="180" .normal }
+
 Daylio is a **micro mood tracker** where you tap how you feel and add a few activities — no writing required. It builds colorful calendar and stats views of your emotional patterns.
 
 **Strengths**
@@ -142,6 +160,12 @@ Daylio is a **micro mood tracker** where you tap how you feel and add a few acti
 
 ### 5. Grid Diary — best prompt-based journaling
 
+![Grid Diary screenshot 1](/assets/images/blog/grid_diary_1.webp){: width="180" .normal }
+![Grid Diary screenshot 2](/assets/images/blog/grid_diary_2.webp){: width="180" .normal }
+![Grid Diary screenshot 3](/assets/images/blog/grid_diary_3.webp){: width="180" .normal }
+![Grid Diary screenshot 4](/assets/images/blog/grid_diary_4.webp){: width="180" .normal }
+![Grid Diary screenshot 5](/assets/images/blog/grid_diary_5.webp){: width="180" .normal }
+
 Grid Diary uses a **question-prompt grid** to structure entries, helping you reflect with reusable templates. It's popular for gratitude, daily questions, and habit-style journaling.
 
 **Strengths**
@@ -165,6 +189,12 @@ Grid Diary uses a **question-prompt grid** to structure entries, helping you ref
 ---
 
 ### 6. Momento — best private timeline journal
+
+![Momento screenshot 1](/assets/images/blog/momento_1.webp){: width="180" .normal }
+![Momento screenshot 2](/assets/images/blog/momento_2.webp){: width="180" .normal }
+![Momento screenshot 3](/assets/images/blog/momento_3.webp){: width="180" .normal }
+![Momento screenshot 4](/assets/images/blog/momento_4.webp){: width="180" .normal }
+![Momento screenshot 5](/assets/images/blog/momento_5.webp){: width="180" .normal }
 
 Momento is an **iOS journal** that builds a private timeline from your entries and connected services, focusing on a calm, personal space for reflection.
 

@@ -92,6 +92,11 @@ Easy Touch is a popular **iOS-style assistive ball** for Android, with virtual n
 
 ### 3. Assistive Touch, Easy Tools — best quick toggles
 
+![Anyscanner Touch screenshot 1](/assets/images/blog/anyscanner_touch_1.webp){: width="180" .normal }
+![Anyscanner Touch screenshot 2](/assets/images/blog/anyscanner_touch_2.webp){: width="180" .normal }
+![Anyscanner Touch screenshot 3](/assets/images/blog/anyscanner_touch_3.webp){: width="180" .normal }
+![Anyscanner Touch screenshot 4](/assets/images/blog/anyscanner_touch_4.webp){: width="180" .normal }
+
 Assistive Touch, Easy Tools adds a **navigation bar overlay** with recent/home/back plus a broad set of quick toggles, screenshot and screen recording.
 
 **Strengths**
@@ -114,6 +119,12 @@ Assistive Touch, Easy Tools adds a **navigation bar overlay** with recent/home/b
 ---
 
 ### 4. Button Mapper — best hardware-button remapping
+
+![Button Mapper screenshot 1](/assets/images/blog/button_mapper_1.webp){: width="180" .normal }
+![Button Mapper screenshot 2](/assets/images/blog/button_mapper_2.webp){: width="180" .normal }
+![Button Mapper screenshot 3](/assets/images/blog/button_mapper_3.webp){: width="180" .normal }
+![Button Mapper screenshot 4](/assets/images/blog/button_mapper_4.webp){: width="180" .normal }
+![Button Mapper screenshot 5](/assets/images/blog/button_mapper_5.webp){: width="180" .normal }
 
 Button Mapper **remaps your physical buttons** (volume, Bixby, and more) to custom actions — a different approach to "assistive control" that doesn't need a floating ball at all.
 
@@ -138,6 +149,12 @@ Button Mapper **remaps your physical buttons** (volume, Bixby, and more) to cust
 
 ### 5. All in One Gestures — best gesture control
 
+![Conena Touch screenshot 1](/assets/images/blog/conena_touch_1.webp){: width="180" .normal }
+![Conena Touch screenshot 2](/assets/images/blog/conena_touch_2.webp){: width="180" .normal }
+![Conena Touch screenshot 3](/assets/images/blog/conena_touch_3.webp){: width="180" .normal }
+![Conena Touch screenshot 4](/assets/images/blog/conena_touch_4.webp){: width="180" .normal }
+![Conena Touch screenshot 5](/assets/images/blog/conena_touch_5.webp){: width="180" .normal }
+
 All in One Gestures lets you **hide the soft keys and control your device with gestures** — swipes, pinch and more — for a clean, button-free experience.
 
 **Strengths**
@@ -160,6 +177,10 @@ All in One Gestures lets you **hide the soft keys and control your device with g
 ---
 
 ### 6. Assistive Touch — best simple floating touch
+
+![Wanata Touch screenshot 2](/assets/images/blog/wanata_touch_2.webp){: width="180" .normal }
+![Wanata Touch screenshot 3](/assets/images/blog/wanata_touch_3.webp){: width="180" .normal }
+![Wanata Touch screenshot 4](/assets/images/blog/wanata_touch_4.webp){: width="180" .normal }
 
 Assistive Touch (smarttool) is a **straightforward floating-touch app** with virtual buttons and quick settings, close to the classic AssistiveTouch experience.
 
