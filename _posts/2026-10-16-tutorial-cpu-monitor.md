@@ -15,7 +15,6 @@ image: /assets/images/apps/cpu-monitor/icon.webp
 - [App Introduction](#app-introduction)
 - [First-time Use](#first-time-use)
 - [Real-time CPU](#real-time-cpu)
-- [Clean (Cache)](#clean-cache)
 - [Floating Window](#floating-window)
 - [Home-screen Widgets](#home-screen-widgets)
 - [Overheat Alarm](#overheat-alarm)
