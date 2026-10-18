@@ -50,10 +50,10 @@ Meow Mood Diary is a safe, private mood diary and journaling app with a calming 
 
 The home screen shows five mood capsules, a month calendar, and today's mood list.
 
-- Tap **menu_stats** (top) for statistics
-- Tap **menu_setting** (top) for settings
+- Tap **menu stats** (top) for statistics
+- Tap **menu setting** (top) for settings
 
-<!-- SCREENSHOT: Home: 5 mood capsules + month calendar + today's list → /assets/images/blog/tutorial_mood_home.webp -->
+![Home: 5 mood capsules + month calendar + today's list](/assets/images/blog/tutorial_mood_home.webp){: width="180" .normal }
 
 ## Log a Mood (One-tap)
 
@@ -72,7 +72,7 @@ A one-tap log saves the mood level with no note or tags.
 6. Write an optional **note**
 7. Tap **Save**
 
-<!-- SCREENSHOT: Add Mood: level, emotion multi-select, context multi-select, note → /assets/images/blog/tutorial_mood_add.webp -->
+![Add Mood: level, emotion multi-select, context multi-select, note](/assets/images/blog/tutorial_mood_add.webp){: width="180" .normal }
 
 ## History Calendar
 
@@ -80,7 +80,7 @@ A one-tap log saves the mood level with no note or tags.
 - Each day is a colored arc whose color reflects the **average mood level** for that day (future days appear greyed)
 - Tap a day to see that day's entries
 
-<!-- SCREENSHOT: Calendar with colored mood arcs (busy month vs sparse month) → /assets/images/blog/tutorial_mood_calendar.webp -->
+![Calendar with colored mood arcs (busy month vs sparse month)](/assets/images/blog/tutorial_mood_calendar.webp){: width="180" .normal }
 
 ## Statistics & Trends
 
@@ -91,7 +91,7 @@ A one-tap log saves the mood level with no note or tags.
    - **Monthly histogram**
    - **Emotion frequency** and **context frequency**
 
-<!-- SCREENSHOT: Stats: pie + histogram + emotion/context frequency → /assets/images/blog/tutorial_mood_stats.webp -->
+![Stats: pie + histogram + emotion/context frequency](/assets/images/blog/tutorial_mood_stats.webp){: width="180" .normal }
 
 ## Daily Reminder
 

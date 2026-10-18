@@ -165,7 +165,7 @@ Meow Money Manager provides multiple statistical analysis functions to help you 
 - **Bar chart statistics**: Bar chart shows daily or monthly income and expenditure, helping you understand income and expenditure trends.
 - **Calendar view**: Calendar view shows daily income and expenditure, with color depth indicating amount size.
 
-![image](/assets/images/blog/stats.webp){: width="180" .normal } ![image](/assets/images/blog/stats_date.webp){: width="180" .normal } ![image](/assets/images/blog/stats_chart.webp){: width="180" .normal } ![image](/assets/images/blog/stats_pie.webp){: width="180" .normal } ![image](/assets/images/blog/stats_hist.webp){: width="180" .normal } ![image](/assets/images/blog/stats_calendar.webp){: width="180" .normal }
+![image](/assets/images/blog/stats.webp){: width="180" .normal } ![image](/assets/images/blog/stats_date.webp){: width="180" .normal } ![image](/assets/images/blog/stats_chart.webp){: width="180" .normal } ![image](/assets/images/blog/stats_pie.webp){: width="180" .normal } ![image](/assets/images/blog/stats_hist.webp){: width="180" .normal }
 
 ## Asset Management
 

@@ -47,23 +47,19 @@ CPU Monitor shows **real-time CPU temperature and frequency, RAM, battery and st
 
 ## First-time Use
 
-The home screen has tabs: **CPU / CLEAN / SYSTEM / FLOATING / SENSOR**, with an **Upgrade** button at the top.
+The home screen has tabs: **CPU / SYSTEM / FLOATING / SENSOR**, with an **Upgrade** button at the top.
 
-<!-- SCREENSHOT: Home tabs: CPU / CLEAN / SYSTEM / FLOATING / SENSOR + Upgrade → /assets/images/blog/tutorial_cpu_home.webp -->
+![Home tabs: CPU](/assets/images/blog/tutorial_cpu_home.jpg){: width="180" .normal }
+![Home tabs: FLOATING](/assets/images/blog/tutorial_cpu_floating.jpg){: width="180" .normal }
+![Home tabs: CLEAN](/assets/images/blog/tutorial_cpu_clean.jpg){: width="180" .normal }
+![Home tabs: SENSOR](/assets/images/blog/tutorial_cpu_sensor.jpg){: width="180" .normal }
+![Home tabs: SYSTEM](/assets/images/blog/tutorial_cpu_system.jpg){: width="180" .normal }
 
 ## Real-time CPU
 
 1. Open the **CPU** tab
 2. Read live CPU temperature, frequency and per-core load
 3. The free version shows a banner ad here
-
-## Clean (Cache)
-
-1. Open the **CLEAN** tab
-2. Review the garbage/cache list
-3. Use **Select all** or pick items, then tap **Clean** to free cache space
-
-<!-- SCREENSHOT: CLEAN screen: garbage list + select-all + Clean button → /assets/images/blog/tutorial_cpu_clean.webp -->
 
 ## Floating Window
 

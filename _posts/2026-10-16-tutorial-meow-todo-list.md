@@ -30,6 +30,12 @@ image: /assets/images/apps/meow-todo-list/icon.webp
 Meow Todo List is a cute cartoon-style task manager and to-do list for Android and iOS. It helps you capture tasks quickly and review them by day, week, month, or list.
 
 **📝 Quick Capture**
+
+![Tasks home](/assets/images/blog/tutorial_todo_page_1.png){: width="180" .normal }
+![Tasks calendar](/assets/images/blog/tutorial_todo_page_2.png){: width="180" .normal }
+![Tasks stats](/assets/images/blog/tutorial_todo_page_3.png){: width="180" .normal }
+![Tasks setting](/assets/images/blog/tutorial_todo_page_4.png){: width="180" .normal }
+
 - Four bottom tabs: **Tasks**, **Calendar**, **Statistics**, **Settings**
 - A floating **+** button adds a task from anywhere
 - Side drawer filters: All / Today / Tomorrow / 7 days / Completed, plus your Books (lists) and Tags
@@ -55,7 +61,7 @@ When you first open Meow Todo List you land on the **Tasks** tab.
 - The left **drawer** switches between Today / Tomorrow / 7 days / Completed and your custom Books & Tags
 - The bottom bar moves between Tasks / Calendar / Statistics / Settings
 
-<!-- SCREENSHOT: Tasks home with drawer filters and + button → /assets/images/blog/tutorial_todo_tasks.webp -->
+![Tasks home with drawer filters and + button](/assets/images/blog/tutorial_todo_tasks.webp){: width="180" .normal }
 
 ## Add a Task
 
@@ -67,7 +73,11 @@ When you first open Meow Todo List you land on the **Tasks** tab.
 6. Set a **priority** if you like
 7. Tap **Confirm** to save
 
-<!-- SCREENSHOT: Add-task screen: title, date/time, book, tag, priority rows → /assets/images/blog/tutorial_todo_add.webp -->
+![Add-task screen: title](/assets/images/blog/tutorial_todo_add.png){: width="180" .normal }
+![Add-task screen: book](/assets/images/blog/tutorial_todo_add_book.png){: width="180" .normal }
+![Add-task screen: tag](/assets/images/blog/tutorial_todo_add_tag.png){: width="180" .normal }
+![Add-task screen: date](/assets/images/blog/tutorial_todo_add_date.png){: width="180" .normal }
+![Add-task screen: repeat](/assets/images/blog/tutorial_todo_add_repeat.png){: width="180" .normal }
 
 ## Subtasks
 
@@ -77,7 +87,8 @@ Open a task, then use the **Add subtask** field at the bottom of the detail page
 - Free accounts can add up to **15 subtasks** per task; VIP removes the cap
 - Check items off as you complete them
 
-<!-- SCREENSHOT: Task detail with subtask list and add field → /assets/images/blog/tutorial_todo_subtask.webp -->
+![Task detail with subtask list and add field](/assets/images/blog/tutorial_todo_subtask.webp){: width="180" .normal }
+![Task detail sub task input](/assets/images/blog/tutorial_todo_subtask_input.png){: width="180" .normal }
 
 ## Reminders
 
@@ -86,6 +97,10 @@ Reminders are scheduled with **WorkManager**, so they fire even if you do not op
 1. While editing a task, set a date/time (the reminder uses that time)
 2. Make sure notifications are allowed for the app
 3. The app reschedules the reminder automatically when you edit the task
+
+![Task reminder](/assets/images/blog/tutorial_todo_notification_1.png){: width="180" .normal }
+![Task reminder daily](/assets/images/blog/tutorial_todo_notification_2.png){: width="180" .normal }
+![Task reminder guide](/assets/images/blog/tutorial_todo_notification_3.png){: width="180" .normal }
 
 If you do not see a reminder, open the task and confirm it has a future date/time, then allow notifications in system settings.
 
@@ -96,7 +111,10 @@ If you do not see a reminder, open the task and confirm it has a future date/tim
 3. Days that have tasks show a small dot
 4. Tap a day to see that day's tasks
 
-<!-- SCREENSHOT: Calendar tab in Month view with task dots and Day/Week/Month switch → /assets/images/blog/tutorial_todo_calendar.webp -->
+![Calendar tab](/assets/images/blog/tutorial_todo_page_2.png){: width="180" .normal }
+![Calendar tab](/assets/images/blog/tutorial_todo_calendar_select.png){: width="180" .normal }
+![Calendar tab](/assets/images/blog/tutorial_todo_calendar_week.png){: width="180" .normal }
+![Calendar tab](/assets/images/blog/tutorial_todo_calendar_month.png){: width="180" .normal }
 
 ## Statistics
 
@@ -104,7 +122,8 @@ If you do not see a reminder, open the task and confirm it has a future date/tim
 2. View the contribution heatmap and pie charts
 3. Switch the range (week / month / year) to see trends by Book and Tag
 
-<!-- SCREENSHOT: Statistics tab: heatmap + pie charts by list/tag → /assets/images/blog/tutorial_todo_stats.webp -->
+![Statistics tab: heatmap + pie charts by list/tag](/assets/images/blog/tutorial_todo_stats.webp){: width="180" .normal }
+![Statistics select](/assets/images/blog/tutorial_todo_stats_date.png){: width="180" .normal }
 
 ## Lists and Tags
 
@@ -112,7 +131,7 @@ If you do not see a reminder, open the task and confirm it has a future date/tim
 - **Tags** let you filter across lists — free accounts can create up to **10 Tags**
 - Create them from the drawer or the Settings → Management screen
 
-<!-- SCREENSHOT: New Book/Tag dialog with icon grid and color → /assets/images/blog/tutorial_todo_book.webp -->
+![New Book/Tag dialog with icon grid and color](/assets/images/blog/tutorial_todo_book.webp){: width="180" .normal }
 
 ## Backup and Sync
 
@@ -121,7 +140,7 @@ If you do not see a reminder, open the task and confirm it has a future date/tim
 3. Tap **Backup** to upload, **Restore** to download
 4. Turn on **Auto backup** to back up periodically
 
-<!-- SCREENSHOT: Google Drive / WebDAV backup and restore dialogs → /assets/images/blog/tutorial_todo_backup.webp -->
+![Google Drive / WebDAV backup and restore dialogs](/assets/images/blog/tutorial_todo_backup.webp){: width="180" .normal }
 
 ## CSV Export (VIP)
 

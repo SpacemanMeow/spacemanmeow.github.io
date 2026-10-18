@@ -50,7 +50,7 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 - Bottom tabs: **Home**, **Habit**, **Trend**, **Setting**
 - Tap **+** to add your first habit (the free tier allows up to **5 habits**; VIP unlocks unlimited)
 
-<!-- SCREENSHOT: Home tab with today's habits and month calendar → /assets/images/blog/tutorial_habit_home.webp -->
+![Home tab with today's habits and month calendar](/assets/images/blog/tutorial_habit_home.webp){: width="180" .normal }
 
 ## Add a Habit
 
@@ -64,7 +64,7 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 8. Set a **start date**
 9. Tap **Confirm**
 
-<!-- SCREENSHOT: Habit Add screen: name, icon picker, list, goal, cycle → /assets/images/blog/tutorial_habit_add.webp -->
+![Habit Add screen: name, icon picker, list, goal, cycle](/assets/images/blog/tutorial_habit_add.webp){: width="180" .normal }
 
 ## Daily Check-in
 
@@ -73,7 +73,7 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 3. Use **+ / −** to adjust count, **Input** to type a value, **Skip** to skip, or **Complete** to finish
 4. The 3-dot menu gives Trend / Notification / Note / Edit / Archive / Delete
 
-<!-- SCREENSHOT: Check-in screen with progress ring and +/−/complete buttons → /assets/images/blog/tutorial_habit_checkin.webp -->
+![Check-in screen with progress ring and +/−/complete buttons](/assets/images/blog/tutorial_habit_checkin.webp){: width="180" .normal }
 
 ## Reminders
 
@@ -82,14 +82,14 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 3. Pick one of the **3 time chips** and choose which weekdays (Sun–Sat) apply
 4. The app notifies you to check in
 
-<!-- SCREENSHOT: Reminder sheet: switch, time chips, weekday toggles → /assets/images/blog/tutorial_habit_reminder.webp -->
+![Reminder sheet: switch, time chips, weekday toggles](/assets/images/blog/tutorial_habit_reminder.webp){: width="180" .normal }
 
 ## Streaks and Trends
 
 1. Open a habit → **Detail** to see streak numbers, history bars and a calendar heatmap
 2. Switch to the **Trend** tab for charts and achievements
 
-<!-- SCREENSHOT: Detail screen: streak, history bars, calendar heatmap → /assets/images/blog/tutorial_habit_trend.webp -->
+![Detail screen: streak, history bars, calendar heatmap](/assets/images/blog/tutorial_habit_trend.webp){: width="180" .normal }
 
 ## Edit, Archive or Delete
 
@@ -99,10 +99,6 @@ From the check-in 3-dot menu you can **Edit**, **Archive** (keep history but hid
 
 - **Settings → Google Drive / WebDav** to back up and restore
 - **Settings → Export** lets you pick habits, choose a date range, and share a **CSV**
-
-CSV export is a **VIP** feature.
-
-<!-- SCREENSHOT: Export screen: habit multi-select, date range, share CSV → /assets/images/blog/tutorial_habit_export.webp -->
 
 ## Settings
 

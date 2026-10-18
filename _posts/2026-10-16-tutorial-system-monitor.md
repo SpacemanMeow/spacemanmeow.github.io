@@ -50,7 +50,10 @@ The home screen has four tabs: **Hardware**, **App**, **Floating**, **Sensor**.
 - **Floating** configures the overlay
 - **Sensor** lists device sensors
 
-<!-- SCREENSHOT: Home tabs: Hardware / App / Floating / Sensor → /assets/images/blog/tutorial_sysmon_home.webp -->
+![Home tabs: Hardware](/assets/images/blog/tutorial_system_monitor_home.jpg){: width="180" .normal }
+![Home tabs: App](/assets/images/blog/tutorial_system_monitor_app.jpg){: width="180" .normal }
+![Home tabs: Floating](/assets/images/blog/tutorial_system_monitor_floating.jpg){: width="180" .normal }
+![Home tabs: Sensor](/assets/images/blog/tutorial_system_monitor_sensor.jpg){: width="180" .normal }
 
 ## View Hardware Info
 
@@ -62,11 +65,16 @@ The home screen has four tabs: **Hardware**, **App**, **Floating**, **Sensor**.
    - **BAT**: battery temperature, health, voltage, level
    - **SYSTEM**: storage and device info
 
-<!-- SCREENSHOT: Hardware dashboard with CPU/RAM/BAT/SYSTEM sub-tabs → /assets/images/blog/tutorial_sysmon_hardware.webp -->
+![Home tabs: cpu](/assets/images/blog/tutorial_system_monitor_cpu.jpg){: width="180" .normal }
+![Home tabs: ram](/assets/images/blog/tutorial_system_monitor_memory.jpg){: width="180" .normal }
+![Home tabs: bat](/assets/images/blog/tutorial_system_monitor_battery.jpg){: width="180" .normal }
+![Home tabs: system](/assets/images/blog/tutorial_system_monitor_system.jpg){: width="180" .normal }
 
 ## Battery Health
 
 On the **BAT** sub-tab you can see battery **temperature, health status, voltage and level** with curves — useful to watch wear over time.
+
+![Home tabs: bat](/assets/images/blog/tutorial_system_monitor_battery.jpg){: width="180" .normal }
 
 ## Overheat Alarm
 
@@ -75,8 +83,6 @@ On the **BAT** sub-tab you can see battery **temperature, health status, voltage
 3. Set a **threshold** temperature
 4. The app warns you when the value is exceeded so you can cool the phone down
 
-<!-- SCREENSHOT: Temperature Alert screen: CPU/Battery switches + threshold → /assets/images/blog/tutorial_sysmon_alarm.webp -->
-
 ## Floating Window
 
 1. Open the **Floating** tab
@@ -84,7 +90,7 @@ On the **BAT** sub-tab you can see battery **temperature, health status, voltage
 3. Grant the **"Draw over other apps"** permission when prompted
 4. The floating stats appear above any app
 
-<!-- SCREENSHOT: Floating tab + overlay permission prompt + live overlay → /assets/images/blog/tutorial_sysmon_float.webp -->
+![Home tabs: floating](/assets/images/blog/tutorial_system_monitor_floating.jpg){: width="180" .normal }
 
 ## Home-screen Widgets
 
@@ -92,7 +98,7 @@ On the **BAT** sub-tab you can see battery **temperature, health status, voltage
 2. Choose a widget: CPU / Battery / RAM / ROM / Combine
 3. Place it from the widget picker
 
-<!-- SCREENSHOT: Widget gallery and a placed CPU/battery widget → /assets/images/blog/tutorial_sysmon_widget.webp -->
+![Home tabs: widget](/assets/images/blog/tutorial_system_monitor_widget.jpg){: width="180" .normal }
 
 ## Settings
 

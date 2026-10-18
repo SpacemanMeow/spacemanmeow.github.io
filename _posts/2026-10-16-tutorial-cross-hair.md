@@ -49,7 +49,7 @@ Open the app to the main console.
 - Tap the **style** area to pick a design, **color** for color, and use the **scale/alpha** sliders
 - The settings gear opens language, rate, share and upgrade
 
-<!-- SCREENSHOT: Main console: start/stop, style preview, scale/alpha sliders → /assets/images/blog/tutorial_cross_home.webp -->
+![Main console: start/stop, style preview, scale/alpha sliders](/assets/images/blog/tutorial_cross_home.webp){: width="180" .normal }
 
 ## Grant Overlay Permission
 
@@ -67,7 +67,8 @@ This permission (not Accessibility, not root) is what lets the crosshair sit abo
 3. Tap a thumbnail to apply it
 4. Locked Pro styles prompt a reward ad or upgrade
 
-<!-- SCREENSHOT: Style screen: Basic grid (84) and Advanced grid (63) → /assets/images/blog/tutorial_cross_style.webp -->
+![Style screen: Basic grid (84) and Advanced grid (63)](/assets/images/blog/tutorial_cross_style.webp){: width="180" .normal }
+![Style screen: Advance grid (84) and Advanced grid (63)](/assets/images/blog/tutorial_cross_style_advance.png){: width="180" .normal }
 
 ## Customize Size, Color, Position
 
@@ -78,7 +79,7 @@ This permission (not Accessibility, not root) is what lets the crosshair sit abo
 
 There is **no independent thickness slider** — each pre-rendered style already has its own thickness.
 
-<!-- SCREENSHOT: Color screen: 60 swatches + picker → /assets/images/blog/tutorial_cross_color.webp -->
+![Color screen: 60 swatches + picker](/assets/images/blog/tutorial_cross_color.webp){: width="180" .normal }
 
 ## Use It in a Game
 
@@ -87,7 +88,7 @@ There is **no independent thickness slider** — each pre-rendered style already
 3. The crosshair floats above the game and does **not** intercept touches (so your taps still hit the game)
 4. Tap the crosshair to open the floating control panel: size +/−, alpha +/−, arrows, reset, close
 
-<!-- SCREENSHOT: In-game overlay with floating control panel → /assets/images/blog/tutorial_cross_game.webp -->
+![In-game overlay with floating control panel](/assets/images/blog/tutorial_cross_game.webp){: width="180" .normal }
 
 ## Unlock More Styles
 

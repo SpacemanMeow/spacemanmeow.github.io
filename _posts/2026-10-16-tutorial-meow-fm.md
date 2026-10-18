@@ -51,7 +51,7 @@ The home screen is a single page: a selected-sound chip plus a scrollable list o
 - Tap again to stop
 - Use the timer slider to schedule auto-stop
 
-<!-- SCREENSHOT: Home: selected-sound chip + horizontal sound list → /assets/images/blog/tutorial_fm_home.webp -->
+![Home: selected-sound chip + horizontal sound list](/assets/images/blog/tutorial_fm_home.webp){: width="180" .normal }
 
 ## Play an Ambient Sound
 
@@ -68,7 +68,7 @@ Playback continues while you use other apps or lock the screen.
 2. Playback automatically stops when the timer reaches zero
 3. Set it before you doze off so the sound does not run all night
 
-<!-- SCREENSHOT: Sleep timer slider 0–60 min → /assets/images/blog/tutorial_fm_timer.webp -->
+![Sleep timer slider 0–60 min](/assets/images/blog/tutorial_fm_timer.webp){: width="180" .normal }
 
 ## Background & Off-screen Playback
 
@@ -88,7 +88,7 @@ Meow FM provides three widget types you can place on your home screen:
 
 Add them from the widget picker, then configure the sound(s) in the widget config.
 
-<!-- SCREENSHOT: Widget config: single / list / player → /assets/images/blog/tutorial_fm_widget.webp -->
+![Widget config: single / list / player](/assets/images/blog/tutorial_fm_widget.webp){: width="180" .normal }
 
 ## Free vs Premium Sounds
 

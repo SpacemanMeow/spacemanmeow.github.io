@@ -49,11 +49,15 @@ Open the app to the **full-screen flip clock**.
 - The toolbar (top) gives quick access to settings, theme, sound and size
 - The screen stays awake while the clock is showing
 
-<!-- SCREENSHOT: Full-screen flip clock (one theme, 24h) → /assets/images/blog/tutorial_clock_home.webp -->
+![Full-screen flip clock (one theme, 24h)](/assets/images/blog/tutorial_clock_home.webp){: width="180" .normal }
 
 ## Flip Clock Display
 
-The clock shows a flip-style time. Tap the toolbar to change the **theme** (Clock Theme) and **font** (Clock Font).
+The clock shows a flip-style time. Tap the toolbar to change the **theme** (Clock Theme), **font** (Clock Font) and **size** (Clock Size).
+
+![Settings: clock theme](/assets/images/blog/tutorial_clock_theme.jpg){: width="180" .normal }
+![Settings: clock theme](/assets/images/blog/tutorial_clock_font.jpg){: width="180" .normal }
+![Settings: clock theme](/assets/images/blog/tutorial_clock_size.jpg){: width="180" .normal }
 
 ## 12/24-hour, Seconds, Date
 
@@ -65,7 +69,7 @@ The clock shows a flip-style time. Tap the toolbar to change the **theme** (Cloc
    - **Date** (default off)
    - **Flip background** mask (default on)
 
-<!-- SCREENSHOT: Settings: 24h / seconds / week / date / mask toggles → /assets/images/blog/tutorial_clock_settings.webp -->
+![Settings: 24h / seconds / week / date / mask toggles](/assets/images/blog/tutorial_clock_settings.webp){: width="180" .normal }
 
 ## Clock Widgets
 
@@ -75,7 +79,7 @@ The clock shows a flip-style time. Tap the toolbar to change the **theme** (Cloc
 4. Long-press your home/lock screen → Widgets → pick Only Clock → place it
 5. The 4x2 flip widget has its own config (seconds / mask / week / date)
 
-<!-- SCREENSHOT: Widget gallery + add guide + 4x2 flip config → /assets/images/blog/tutorial_clock_widget.webp -->
+![Widget gallery + add guide + 4x2 flip config](/assets/images/blog/tutorial_clock_widget.webp){: width="180" .normal }
 
 ## White Noise
 
@@ -85,11 +89,15 @@ The clock shows a flip-style time. Tap the toolbar to change the **theme** (Cloc
 
 The clock shares the same sound engine as the standalone white-noise app.
 
+![Settings: clock theme](/assets/images/blog/tutorial_clock_noise.jpg){: width="180" .normal }
+
 ## Floating Clock
 
 1. Enable the floating-clock switch in the home toolbar
 2. Grant the overlay permission if asked
 3. A clock overlay shows above other apps
+
+![Settings: clock theme](/assets/images/blog/tutorial_clock_floating.jpg){: width="180" .normal }
 
 ## Spare Phone as a Clock
 
