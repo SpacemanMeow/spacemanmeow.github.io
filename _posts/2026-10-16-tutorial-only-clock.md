@@ -55,9 +55,9 @@ Open the app to the **full-screen flip clock**.
 
 The clock shows a flip-style time. Tap the toolbar to change the **theme** (Clock Theme), **font** (Clock Font) and **size** (Clock Size).
 
-![Settings: clock theme](/assets/images/blog/tutorial_clock_theme.jpg){: width="180" .normal }
-![Settings: clock theme](/assets/images/blog/tutorial_clock_font.jpg){: width="180" .normal }
-![Settings: clock theme](/assets/images/blog/tutorial_clock_size.jpg){: width="180" .normal }
+![Settings: clock theme](/assets/images/blog/tutorial_clock_theme.webp){: width="180" .normal }
+![Settings: clock theme](/assets/images/blog/tutorial_clock_font.webp){: width="180" .normal }
+![Settings: clock theme](/assets/images/blog/tutorial_clock_size.webp){: width="180" .normal }
 
 ## 12/24-hour, Seconds, Date
 
@@ -89,7 +89,7 @@ The clock shows a flip-style time. Tap the toolbar to change the **theme** (Cloc
 
 The clock shares the same sound engine as the standalone white-noise app.
 
-![Settings: clock theme](/assets/images/blog/tutorial_clock_noise.jpg){: width="180" .normal }
+![Settings: clock theme](/assets/images/blog/tutorial_clock_noise.webp){: width="180" .normal }
 
 ## Floating Clock
 
@@ -97,7 +97,7 @@ The clock shares the same sound engine as the standalone white-noise app.
 2. Grant the overlay permission if asked
 3. A clock overlay shows above other apps
 
-![Settings: clock theme](/assets/images/blog/tutorial_clock_floating.jpg){: width="180" .normal }
+![Settings: clock theme](/assets/images/blog/tutorial_clock_floating.webp){: width="180" .normal }
 
 ## Spare Phone as a Clock
 

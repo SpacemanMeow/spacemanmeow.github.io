@@ -68,7 +68,7 @@ This permission (not Accessibility, not root) is what lets the crosshair sit abo
 4. Locked Pro styles prompt a reward ad or upgrade
 
 ![Style screen: Basic grid (84) and Advanced grid (63)](/assets/images/blog/tutorial_cross_style.webp){: width="180" .normal }
-![Style screen: Advance grid (84) and Advanced grid (63)](/assets/images/blog/tutorial_cross_style_advance.png){: width="180" .normal }
+![Style screen: Advance grid (84) and Advanced grid (63)](/assets/images/blog/tutorial_cross_style_advance.webp){: width="180" .normal }
 
 ## Customize Size, Color, Position
 

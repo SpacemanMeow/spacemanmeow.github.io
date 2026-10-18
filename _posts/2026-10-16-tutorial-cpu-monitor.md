@@ -49,11 +49,11 @@ CPU Monitor shows **real-time CPU temperature and frequency, RAM, battery and st
 
 The home screen has tabs: **CPU / SYSTEM / FLOATING / SENSOR**, with an **Upgrade** button at the top.
 
-![Home tabs: CPU](/assets/images/blog/tutorial_cpu_home.jpg){: width="180" .normal }
-![Home tabs: FLOATING](/assets/images/blog/tutorial_cpu_floating.jpg){: width="180" .normal }
-![Home tabs: CLEAN](/assets/images/blog/tutorial_cpu_clean.jpg){: width="180" .normal }
-![Home tabs: SENSOR](/assets/images/blog/tutorial_cpu_sensor.jpg){: width="180" .normal }
-![Home tabs: SYSTEM](/assets/images/blog/tutorial_cpu_system.jpg){: width="180" .normal }
+![Home tabs: CPU](/assets/images/blog/tutorial_cpu_home.webp){: width="180" .normal }
+![Home tabs: FLOATING](/assets/images/blog/tutorial_cpu_floating.webp){: width="180" .normal }
+![Home tabs: CLEAN](/assets/images/blog/tutorial_cpu_clean.webp){: width="180" .normal }
+![Home tabs: SENSOR](/assets/images/blog/tutorial_cpu_sensor.webp){: width="180" .normal }
+![Home tabs: SYSTEM](/assets/images/blog/tutorial_cpu_system.webp){: width="180" .normal }
 
 ## Real-time CPU
 

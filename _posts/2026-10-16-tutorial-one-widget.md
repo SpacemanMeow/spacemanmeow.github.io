@@ -54,10 +54,10 @@ Open One Widget to a 4-tab gallery: **One UI / Nothing / Glass / Material You**.
 - Each style page lists categories: Tools, Entry, Hardware, Clock, Launcher, Combo, Note, Contact
 - Tap a category to see the widget previews
 
-![Home: 4 style tabs one ui](/assets/images/blog/tutorial_widget_one_ui.jpg){: width="180" .normal }
-![Home: 4 style tabs nothing](/assets/images/blog/tutorial_widget_nothing.jpg){: width="180" .normal }
-![Home: 4 style tabs glass](/assets/images/blog/tutorial_widget_glass.jpg){: width="180" .normal }
-![Home: 4 style tabs material](/assets/images/blog/tutorial_widget_material.jpg){: width="180" .normal }
+![Home: 4 style tabs one ui](/assets/images/blog/tutorial_widget_one_ui.webp){: width="180" .normal }
+![Home: 4 style tabs nothing](/assets/images/blog/tutorial_widget_nothing.webp){: width="180" .normal }
+![Home: 4 style tabs glass](/assets/images/blog/tutorial_widget_glass.webp){: width="180" .normal }
+![Home: 4 style tabs material](/assets/images/blog/tutorial_widget_material.webp){: width="180" .normal }
 
 ## Browse the 4 Styles
 
@@ -70,7 +70,7 @@ Switch the top tabs to preview each style. **One UI** is the default and is avai
 3. The system opens the One Widget **configure** screen
 4. Set your options and tap **Confirm** to place it
 
-![Widget gallery + system 'long-press home to add' guide](/assets/images/blog/tutorial_widget_add.jpg){: width="180" .normal }
+![Widget gallery + system 'long-press home to add' guide](/assets/images/blog/tutorial_widget_add.webp){: width="180" .normal }
 
 ## Configure a Widget
 
