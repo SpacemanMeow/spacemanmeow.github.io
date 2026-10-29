@@ -1,7 +1,7 @@
 # SpacemanMeow 网站 SEO 长期优化方案
 
-> 最后更新：2026-10-10
-> **当前状态：Phase 1（技术地基）已完成，详见 §7 执行跟踪表。** 下一步进入 Phase 2（页面级优化）与 Phase 3（内容引擎）。
+> 最后更新：2026-10-18
+> **当前状态：Phase 1（技术地基）+ Phase 2（页面级）+ Phase 3（内容集群 66 篇）均已完成，详见 §7。** 近期完成 alt 全站差异化（0 重复）、app 页 Guides 回链、/tags/ 聚合页、全站样式对齐（tags/app 页缩进修复、app 页宽度与 blog 对齐）。下一步进入 **Phase 4（权威/AI 与外链）** 与 **持续内容新鲜度**（Glossary / 更新日志 / 相关文章内链）。
 > 适用范围：spacemanmeow.com（英文站，`lang: en`）
 > 目标：提升在 Google 搜索与 AI 应用内搜索（ChatGPT / Perplexity / Claude / Gemini）的排名
 > 覆盖关键词方向：expense tracker / budget app / to-do list / mood diary / habit tracker / home screen widgets / flip clock / cpu monitor / floating assistant 等
@@ -10,21 +10,25 @@
 
 ## 0. 现状审计（基于当前仓库）
 
-### 技术现状
-- ✅ 已装 `jekyll-seo-tag`（`{% seo %}` 位于 `_layouts/default.html`），基础 title / Open Graph / Twitter 卡片已具备
-- ✅ 已配 Google Analytics（`_config.yml` 的 `google:` ID）
-- ✅ 全站响应式、图片已转 WebP、部署走 GitHub Actions
-- ❌ **无 `sitemap.xml`**（未安装 `jekyll-sitemap`）
-- ❌ **无 `robots.txt`**
-- ❌ **无结构化数据（JSON-LD）**，Google 无法识别"这是一个 App"
-- ❌ 每个 app 的 front matter 只有 `title` / `tagline`，**缺少 `description` 字段** → seo-tag 只能取正文前段作 description，质量差
-- ❌ 图片 `alt="{{ page.title }}"`（仅英文标题），缺少关键词
-- ❌ 无 canonical、无 `hreflang`、无面包屑
+### 技术现状（2026-10-18 复核）
+- ✅ 已装 `jekyll-seo-tag`，基础 title / Open Graph / Twitter 卡片已具备
+- ✅ 已配 Google Analytics
+- ✅ 全站响应式、图片已转 WebP（q82）、首屏懒加载、部署走 GitHub Actions
+- ✅ **`sitemap.xml`** + **`robots.txt`** 已上线并指向（T-01/T-02）
+- ✅ **结构化数据**：11 app 页 `SoftwareApplication` + `FAQPage` + `BreadcrumbList`，博客 `BlogPosting`（T-05/06/07/08）
+- ✅ 11 app 的 `description:` 字段已补全（T-04）
+- ✅ 全站 839 处图片 `alt` 关键词化且**差异化 0 重复**（T-09 彻底完成）
+- ✅ `canonical` 生效；`<html lang="en">` 已输出（T-10/T-11）
+- ✅ 各 app `og:image` 独立（T-12）
+- ✅ 66/66 文章均含 `description:` 字段（seo-tag 输出高质量 meta description）
+- ⚠️ **`sitemap.xml` 未包含 `feed.xml`**（RSS 未被提交给 GSC，T-16 待办）
+- ⚠️ **无 404 页 / 站内搜索 / 相关文章区块**（T-17/T-20 待办）
 
-### 内容现状
-- 11 个 app 详情页（英文，单页内容偏薄）
-- 仅 1 篇博客（Meow Money 的教程），内容面极窄
-- 关键词目前散落在 title / tagline / 正文，**缺乏成体系的关键词映射与内容集群**
+### 内容现状（2026-10-18 复核）
+- 11 个 app 详情页 + 可见 FAQ（T-06）+ Guides 回链（T-14）
+- **66 篇博客**（每 app 6 篇：Pillar + vs + Alternatives + Best×2 + How-to），11 个品类全覆盖（2026-10-16）
+- `/tags/` 聚合页（81 个 tag 分组，T-15）
+- 关键词已通过集群方式成体系覆盖；缺 **Glossary / 更新日志 / 相关文章** 三类增量（见 §7 待办 T-17/18/19）
 
 ---
 
@@ -134,12 +138,35 @@
 
 ## 4. AI 搜索专项（ChatGPT / Perplexity / Claude / Gemini）
 
-AI 应用内搜索本质 = 抓取已索引的可信网页并抽取事实。杠杆最高的是：
-- **结构化数据**（§2 P1）：让 AI 明确"这是安卓记账 App、免费、支持多币种"
-- **清晰的事实性描述**：每个 app 用 2–3 句说清"它是什么、为谁、独特点"
-- **FAQ 段落**：AI Overview / 精选摘要最爱抓 FAQ
-- **被行业 roundup 引用**：到 少数派 / Product Hunt / alternative.to 发稿带反链（AI 也常从这些源取样）
-- 内容保持**常更新**（博客时间戳新鲜度有帮助）
+### 4.1 工作原理
+AI 联网搜索**不是按 PageRank 排位**，而是：① 从已索引网页**检索相关片段** → ② **抽取事实**拼成答案 → ③ 是否「引用你」取决于：内容是否被检索到 + 是否清晰可信 + 是否权威。
+公式 = **被索引 × 被读懂 × 被信 × 被引用**。
+
+### 4.2 七大核心策略（结合本站立项）
+| # | 策略 | 本站状态 | 对应任务 |
+|---|---|---|---|
+| 1 | 被索引（Google + **Bing/IndexNow**） | Google 已收录；Bing/IndexNow 未做 | T-01/02/03；新增 Bing 提交 |
+| 2 | 结构化数据（JSON-LD） | ✅ 已完成（SoftwareApplication/FAQPage/BreadcrumbList/Article） | T-05~08 |
+| 3 | 清晰、可直引的内容（短句/列表/定义式） | app description 已做；缺定义页 | T-18 Glossary |
+| 4 | FAQ 段落（AI Overview 最爱） | ✅ 每 app 4 问 + FAQPage | T-06；增问 T-22 |
+| 5 | 主题集群权威（Topic clusters） | ✅ 66 篇集群；内链待密 | T-17 相关文章 |
+| 6 | 被权威源引用（最强外部杠杆） | 未做 | T-21 roundup 投稿 |
+| 7 | 内容新鲜度 | 缺更新机制 | T-19 更新日志 |
+
+> 避坑：纯图片无 alt（AI 读不到）、模糊营销话术（"最好的 app" AI 不采信，要具体事实）、内容单薄重复——均已通过 alt 差异化 + 集群规避。
+
+### 4.3 执行清单（可勾选）
+- [x] 结构化数据全覆盖（T-05~08）
+- [x] 每 app 事实性 `description` + 4 问 FAQ（T-04/T-06）
+- [ ] **新增 Bing Webmaster + IndexNow 提交**（Copilot / 部分 AI 走 Bing 索引）
+- [ ] T-18 Glossary 定义页（首批 10 条，命中 AI「what is X」查询）
+- [ ] T-17 相关文章区块（加密集群内链，增强主题权威）
+- [ ] T-22 FAQ 增至 4–6 问 + BlogPosting 补 `dateModified`
+- [ ] T-19 更新日志 / 版本博客（新鲜度信号）
+- [ ] T-21 外链投稿（Product Hunt / alternative.to / 少数派）
+
+### 4.4 与月度运营的关系
+七项策略已拆解进 §9 月度清单：Glossary（§9.2 B）、相关文章（§9.2 B）、更新日志（§9.2 B）、外链（§9.3 Q2）、JSON-LD 增强（§9.3 Q3）。**优先级最高两步：Glossary（站内可做，T-18）+ 外链投稿（手动，T-21）**——前者直接命中 AI 定义类查询，后者提供「被引用」的权威信号。
 
 ---
 
@@ -193,11 +220,18 @@ AI 应用内搜索本质 = 抓取已索引的可信网页并抽取事实。杠�
 - 所有 Phase 1/2 技术项已于 **2026-10-16 部署上线**，线上已出现 sitemap.xml / 结构化数据 / og:image / 修正后的 JSON。可在 Search Console「网址检查」中对 22 个新 best URL 请求编入索引以加速收录。
 | T-07 | 列表/详情注入 BreadcrumbList JSON-LD | ✅ | 2026-10-10 | 新增 `_includes/breadcrumb-jsonld.html` 并在 `default.html` 引入；Meow 系列 app 为 Home›Meow›App，非 Meow app/普通页为 Home›当前页，博客为 Home›Blog›Post；全站 18 个非首页页均含，构建校验 JSON 全合法 |
 | T-08 | 博客文章注入 Article/BlogPosting JSON-LD | ✅ | 2026-10-10 | `jekyll-seo-tag` 自动为 posts 输出合法 `BlogPosting`（含 author/publisher/mainEntityOfPage）；顺手修掉作者 URL 旧域名 `github.io`→`spacemanmeow.com` |
-| T-09 | 图片 alt 改为含关键词描述 | ✅ | 2026-10-10 | app 图标 alt 改为 `{{title}} app icon`；截图 alt 默认 `{{title}} screenshot`（自动覆盖 11 个 app）；博客正文图 alt 仍为 `image`（见下方后续注意） |
+| T-09 | 图片 alt 改为含关键词描述（差异化为 0 重复） | ✅ | 2026-10-18 | 全站 839 处正文图 alt 规范化为「`{App/功能专有名} {文件名修饰} screenshot: {就近小标题} — {文章标题}`」（专名大小写修正 YNAB/CCleaner/TickTick/KWGT 等），**同文件重复 0 个**；app 图标 alt 为 `{{title}} app icon`；791 张图均带 `width` 尺寸防 CLS；`![image]` 零残留 |
 | T-10 | 确认 canonical 生效 | ✅ | 2026-10-10 | `jekyll-seo-tag` 已输出 `<link rel="canonical" href="https://spacemanmeow.com/...">`（构建校验通过） |
 | T-11 | 加 hreflang="en" | ⚠️ 不适用 | 2026-10-10 | 单语种（en）站无需 `hreflang` 备用语言版本；`<html lang="en">` 已由 `site.lang` 正确输出（对无障碍与 SEO 足够）。如需可加自引用 `<link rel="alternate" hreflang="en" .../>`，但非必需 |
 | T-12 | OG/Twitter 卡片图按 app 区分 | ✅ | 2026-10-10 | 11 个 app front matter 均加 `image:`（取各自 icon.webp）；`jekyll-seo-tag` 据此输出独立 `og:image`/`twitter:image`（构建校验每页均生效） |
-| T-13 | 维持 Core Web Vitals（懒加载/LCP/CLS） | ☐ | | |
+| T-13 | 维持 Core Web Vitals（懒加载/LCP/CLS） | ☐ | | 建议跑一次 Lighthouse / PageSpeed Insights 实测 |
+| T-16 | 提交 RSS `feed.xml` 到 GSC（sitemap 增 feed 或单独提交） | ☐ | | sitemap 当前不含 feed.xml，错失 RSS 收录信号 |
+| T-17 | 文章底部「相关文章」区块（同 app / 同 tag 内链） | ☐ | | 增强 PageRank 流动；目前仅有 app 页⇒文章单向回链 |
+| T-18 | 新增 Glossary 词汇页（what is a habit streak / flip clock / expense tracker 等） | ☐ | | AI 搜索最爱抓定义类内容（§3.2 #8），易排名 |
+| T-19 | 新增 更新日志 / 版本博客（changelog） | ☐ | | 保持内容新鲜度（§3.2 #7） |
+| T-20 | 404 页 + 站内搜索 | ☐ | | 基础体验/SEO |
+| T-21 | 外链 / roundup 投稿（Product Hunt / alternative.to / 少数派） | ☐ | | Phase 4 权威，需手动排期 |
+| T-22 | JSON-LD 增强：BlogPosting `dateModified`、author 细化、FAQ 增至 4–6 问 | ☐ | | 富媒体/AI 引用质量 |
 
 ### 内容项（按 app 建集群，每完成一篇记录）
 > **进度更新 2026-10-16**：本轮已批量产出 **22 篇 Best-X-for-Y** + **11 篇 vs 对比页** + **11 篇 Alternatives 页**（每 app 各 1 篇 vs / 1 篇 alternatives / 2 篇 best），故「对比页 / Best-X-for-Y / Alternatives」三类已**全覆盖 11 个 app**。剩余：**品类落地页(Pillar)：11 个 app 已全部完成（2026-10-16）**；**11 个 app 现已各具备 1 篇 How-to 教程（含 Meow Money）**。
@@ -224,14 +258,95 @@ AI 应用内搜索本质 = 抓取已索引的可信网页并抽取事实。杠�
 
 ---
 
-## 8. 下一步建议
+## 8. 下一步建议（2026-10-18）
 
-**Phase 1（技术地基）已于 2026-10-10 完成**，包含：sitemap + robots + `url` 修正 + 11 个 app 的 `description` + `SoftwareApplication` JSON-LD（全部校验合法）。
+**当前已完成**：Phase 1 技术地基（T-01~T-08）、Phase 2 页面级（T-09~T-12 含 alt 差异化、canonical、OG、JSON-LD）、Phase 3 内容集群（66 篇全 app 覆盖）、近期样式与体验（app 页 Guides 回链 T-14、/tags/ 聚合页 T-15、缩进修复、宽度对齐）。
 
-**接下来建议按顺序推进：**
-1. **✅ 提交并部署（2026-10-16 已完成）**：线上已出现 sitemap.xml / robots.txt / 结构化数据；T-03 Search Console 验证与提交请确认线上已生效。
-2. **Phase 2（页面级，P2）**：T-09 图片 `alt` 关键词化、T-10 确认 canonical、T-11 `hreflang="en"`、T-12 各 app OG 卡片图、T-07/T-08 BreadcrumbList 与博客 Article JSON-LD。
-3. **Phase 3（内容引擎）**：按 §3 模板为每个 app 建「品类落地页 + 对比页 + Best-X-for-Y + FAQ」，并在 app front matter 加 `faq:` 自动产出 FAQPage 结构化数据（T-06 收尾）。
-4. **Phase 4（权威/AI）**：外链 / roundup 投稿 + 竞品 alternatives 页 + 更新日志。
+**接下来按 ROI 排序的可优化项**：
+1. **T-17 相关文章区块（高 ROI，可自动化）**：在 blog 文章底部加「Related posts」（同 app 或同 tag），把当前单向「app 页→文章」补成文章间网状内链，提升全站 PageRank 流通与停留时长。
+2. **T-18 Glossary 词汇页（高 ROI，针对 AI 搜索）**：产出 10–20 个「what is a XXX」定义页（habit streak / flip clock / expense tracker / mood diary 等）；AI Overviews 与 Perplexity 极爱抓取此类事实定义，且易排名。
+3. **T-19 更新日志 / 版本博客（中 ROI，新鲜度）**：每个 app 建 changelog 页或统一版本博客，满足 Google 对活跃站的偏好（§3.2 #7）。
+4. **T-16 提交 RSS（低成本低 ROI）**：把 `feed.xml` 加入 sitemap 或单独提交 GSC，补 RSS 收录信号（当前 sitemap 未含 feed.xml）。
+5. **T-20 404 页 + 站内搜索（体验/SEO 基础）**：当前无自定义 404，建议补；搜索可选。
+6. **T-21 外链 / roundup 投稿（Phase 4 权威，需手动）**：Product Hunt、alternative.to、少数派等发稿带反链，AI 也常从这些源取样。
+7. **T-22 JSON-LD 增强（持续）**：BlogPosting 补 `dateModified`、细化 `author`、app FAQ 增至 4–6 问，提升富媒体与 AI 引用质量。
+8. **T-13 Core Web Vitals（持续）**：建议跑一次 Lighthouse / PageSpeed Insights 实测并据此优化字体与关键渲染路径。
 
-完成后，配合 §3 模板持续产内容，排名会稳步提升。
+> 优先级建议：**先做 T-17 + T-18（站内可自动化/高 ROI），再 T-19/T-16（新鲜度与 RSS），外链 T-21 需手动排期。**
+
+---
+
+## 9. 月度长期运营规划（Monthly SEO Operations）
+
+> 本规划用于 **2026-11 起**的持续运营。技术地基（Phase 1/2）与内容集群（Phase 3，66 篇）已完成，下一阶段主线转向 **内容新鲜度 + 内链密度 + 外部权威 + 数据驱动迭代**。每月按 §9.2 清单执行，季度按 §9.3 专项推进，执行结果填入 §9.7 台账。
+
+### 9.1 运营核心原则
+- 技术已就位，**内容新鲜度与外链权威是下一阶段主线**
+- 每篇新内容必须接入「app 详情页 ⇄ 文章」双向内链（已通过 `post.image == app.icon` 自动实现）
+- 所有改动 **URL 保持不变**（禁止随意改文件名 / 加 front-matter `permalink`；若必须改，先配 301，本项目暂无重定向机制，优先避免）
+- 数据闭环：每月复盘 → 指导下月选题与优化
+
+### 9.2 每月固定清单（Monthly Checklist）
+**A. 技术巡检（每月第 1 周，约 1h）**
+- [ ] `bundle exec jekyll build` 并跑 htmlproofer，确保死链 / 锚点 / 图片全绿
+- [ ] 确认 `sitemap.xml` 已更新且 GSC 无抓取错误
+- [ ] Rich Results Test 抽验 1–2 个 app 页，确认 JSON-LD 仍合法
+- [ ] Core Web Vitals：PageSpeed Insights 抽 2 个核心页，LCP / CLS 无回退
+
+**B. 内容产出（全月配额，可累积）**
+- [ ] **Glossary 词条 ≥ 2 条**（T-18）：what is a habit streak / flip clock / expense tracker 等，AI 搜索最爱抓的事实定义
+- [ ] **相关文章区块**：为当月新文 + 至少 3 篇旧文补「Related posts」（同 app / 同 tag）（T-17）
+- [ ] **更新日志 / 版本博客 ≥ 1 篇**（T-19）：保持内容新鲜度
+- [ ] **新长尾内容 ≥ 2 篇**：Best-X-for-Y / vs / Alternatives 补齐排名薄弱的品类
+
+**C. 内链与权威**
+- [ ] 新文章确认纳入 app 页回链（检查 `image:` 字段 == 对应 app `icon`）
+- [ ] 外链铺垫（季度集中执行，月度可物色 1–2 个投稿目标）
+
+**D. 数据复盘（月末，约 1h）**
+- [ ] 填写 §7「度量记录」表（收录页数 / 自然流量 / 主要排名词）
+- [ ] GSC 对当月新页面与重大改版页「请求编入索引」
+- [ ] 复盘 CTR 偏低页面 → 优化 `<title>` 与 meta `description`
+
+### 9.3 季度专项（Quarterly Sprints）
+| 季度 | 专项 | 对应任务 | 目标 |
+|---|---|---|---|
+| Q4 2026 | 建库 + 内链 | T-17 相关文章全站铺开、T-18 Glossary 首批 10 条 | 文章间网状内链、AI 可抓定义 |
+| Q1 2027 | 新鲜度 + RSS | T-19 更新日志常态化、T-16 提交 feed.xml | 活跃度信号、RSS 收录 |
+| Q2 2027 | 权威 / 外链 | T-21 roundup 投稿（Product Hunt / alternative.to / 少数派）、T-20 404 + 搜索 | 外部反链、体验补完 |
+| Q3 2027 | 结构化增强 + 年审 | T-22 JSON-LD 增强、全站内容审计（重复 meta / cannibalization） | 富媒体质量、清理冗余 |
+
+### 9.4 首年度 12 个月滚动示例
+| 月份 | 内容重点 | 技术 / 数据动作 |
+|---|---|---|
+| 2026-11 | Glossary ×4 + 相关文章铺开 | 首次全站巡检 + 度量基线 |
+| 2026-12 | 更新日志 ×2 + 薄弱品类补 Best | GSC 索引请求 + CTR 优化 |
+| 2027-01 | Glossary ×4 + 新长尾 ×2 | RSS 提交（T-16） |
+| 2027-02 | 相关文章补全旧文 | Core Web Vitals 实测 |
+| 2027-03 | 第一轮 roundup 投稿 | 外链监测 |
+| 2027-04 | 更新日志常态化 | 季度内容审计 |
+| 2027-05 ~ 2027-10 | 持续滚动（每月 ≥2 Glossary + ≥2 长尾 + ≥1 更新日志） | 每季度一轮 §9.3 专项 |
+
+> 实际执行以 §9.2 清单为最小单位，上表仅作节奏示范；后续可据 Search Console 数据动态调整选题。
+
+### 9.5 关键度量指标（KPIs）
+- **收录**：被 Google 收录的页面数（目标：随内容稳步上升）
+- **自然流量**：GA4 中 organic search 会话数（月度环比）
+- **可见度**：GSC 总 Impressions / 平均排名 / Top 关键词数
+- **转化**：Play 商店点击（GA4 事件）/ 文章 → app 页跳转
+- **健康度**：htmlproofer 错误数（目标恒为 0）、Core Web Vitals 达标率
+
+### 9.6 运营纪律（红线）
+- 已发布页 **URL 不变**（改文件名 / 加 `permalink` 前必须配 301）
+- 每篇新内容 **必须有差异化 title + meta description + 关键词化 alt**
+- 每月至少一次数据复盘，避免「发了不管」
+
+### 9.7 月度执行台账（每次执行后填写）
+| 月份 | 完成内容（Glossary/相关文章/更新日志/长尾） | 技术巡检 | 数据复盘摘要 | 备注 |
+|---|---|---|---|---|
+| 2026-11 | | | | |
+| 2026-12 | | | | |
+| 2027-01 | | | | |
+| 2027-02 | | | | |
+| 2027-03 | | | | |
+| 2027-04 | | | | |
