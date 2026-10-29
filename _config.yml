@@ -130,6 +130,14 @@ sass:
   style: compressed
 
 exclude:
+  - _posts/zh
+  - _posts/zh/**
+  - _pages/zh
+  - _pages/zh/**
+  - _apps_zh
+  - _apps_zh/**
+  - zh/
+  - zh/**
   - "*.gem"
   - "*.gemspec"
   - docs

@@ -22,7 +22,7 @@ description: "Browse all Meow Apps Studio articles by topic: budget apps, expens
       {% for post in tag_posts %}
       <li class="tag-index__item">
         <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        <span class="tag-index__meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="tag-index__meta">{% if site.lang == 'zh' %}{{ post.date | date: '%Y年%-m月%-d日' }}{% else %}{{ post.date | date: '%b %-d, %Y' }}{% endif %}</span>
       </li>
       {% endfor %}
     </ul>

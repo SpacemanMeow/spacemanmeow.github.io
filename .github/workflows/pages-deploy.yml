@@ -45,10 +45,11 @@ jobs:
           ruby-version: 3.4
           bundler-cache: true
 
-      - name: Build site
-        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+      - name: Build multilingual site (EN at root + /zh/)
+        run: bash scripts/build.sh
         env:
           JEKYLL_ENV: "production"
+          SITE_URL: "https://spacemanmeow.com"
 
       - name: Test site
         run: |

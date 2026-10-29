@@ -59,8 +59,23 @@
 /* ------------------------------------------------------------------
    1.1 深色模式（跟随浏览器 prefers-color-scheme 自动切换）
    ------------------------------------------------------------------ */
+/* 手动强制深色（由主题切换按钮设置 data-theme="dark"） */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #1A1A1A;             /* 深色页面背景 */
+  --card: #212121;           /* 深色卡片背景 */
+  --text-head: #E9E9E9;      /* 深色主文字 */
+  --text-body: #CDCDCD;      /* 深色正文 */
+  --line: #0F0F0F;           /* 深色分割线 / 描边：比背景更深一档，清晰勾勒图标、截图边缘 */
+  --accent-strong: #bf525e;  /* 提亮品牌色：暗底需更高对比 */
+  --accent-alpha: #bf525e2e; /* 深色下强调透明色 */
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, .08), 0 8px 24px rgba(0, 0, 0, .09);  /* 深色卡片投影 */
+  --shadow-soft: 0 4px 14px rgba(0, 0, 0, .1);                                 /* 深色轻投影 */
+}
+
+/* 未手动选择时跟随系统（排除已强制浅色的情况） */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     color-scheme: dark;
     --bg: #1A1A1A;             /* 深色页面背景 */
     --card: #212121;           /* 深色卡片背景 */
@@ -181,6 +196,120 @@ main { display: block; padding-bottom: 72px; }
 .site-nav__link:hover { background: var(--line); color: var(--text-head); }
 
 .site-nav__link.is-active { background: var(--accent-strong); color: var(--card); }
+
+/* 语言菜单 + 主题按钮的工具组：作为整体位于导航栏中部，组内间距 10px */
+.header-tools {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4); /* 10px */
+}
+
+/* 语言切换：位于导航栏中部，圆角矩形浅底样式 */
+.lang-switch {
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: var(--text-body); /* 箭头通过 currentColor 跟随此色 */
+}
+
+.lang-switch__btn {
+  height: 32px; /* 导航按钮高度的一半 */
+  padding: 0 22px 0 var(--space-5); /* 右 22px = 箭头边距 10px + 箭头 8px + 文字间隔 4px */
+  border: 0;
+  border-radius: 16px;
+  background: var(--bg);
+  font-family: var(--font);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--text-body);
+  cursor: pointer;
+  transition: background-color .16s ease, color .16s ease;
+}
+
+.lang-switch__btn:hover { background-color: var(--line); color: var(--text-head); }
+
+/* 下拉菜单：固定显示在按钮正下方（原生 select 的弹出位置无法用 CSS 控制） */
+.lang-switch__menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 100%;
+  margin: 0;
+  padding: 5px;
+  list-style: none;
+  background: var(--bg);
+  border-radius: 10px;
+  box-shadow: var(--shadow-card);
+  display: none;
+  z-index: 60;
+}
+
+.lang-switch.is-open .lang-switch__menu { display: block; }
+
+.lang-switch__menu li {
+  padding: 8px 12px;
+  border-radius: 7px;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--text-body);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.lang-switch__menu li:hover { background: var(--line); color: var(--text-head); }
+
+.lang-switch__menu li[aria-selected="true"] { color: var(--accent-strong); }
+
+/* 下拉箭头：用 mask 绘制，currentColor 使其与文字同色，深浅模式自动跟随 */
+.lang-switch::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 8px;
+  height: 5px;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5' viewBox='0 0 8 5'%3E%3Cpath d='M1 1l3 3 3-3' fill='none' stroke='%23000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5' viewBox='0 0 8 5'%3E%3Cpath d='M1 1l3 3 3-3' fill='none' stroke='%23000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.lang-switch:hover { color: var(--text-head); }
+
+/* 打开时箭头翻转 */
+.lang-switch.is-open::after { transform: translateY(-50%) rotate(180deg); }
+
+/* 深浅模式切换按钮：圆形，背景与语言选择一致 */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--bg);
+  color: var(--text-body);
+  cursor: pointer;
+  transition: background-color .16s ease, color .16s ease;
+}
+
+.theme-toggle:hover { background: var(--line); color: var(--text-head); }
+
+.theme-toggle svg { width: 18px; height: 18px; }
+
+/* 图标：浅色显示太阳，深色显示月亮 */
+.theme-toggle .icon-moon { display: none; }
+
+:root[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .icon-sun { display: none; }
+  :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: block; }
+}
 
 .nav-toggle {
   display: none;
@@ -819,6 +948,10 @@ a.tag:hover { text-decoration: underline; }
   .brand__text small { display: none; }
 
   .nav-toggle { display: flex; }
+
+  /* 移动端：工具组（语言切换 + 主题按钮）居中偏右，汉堡按钮保持在最右 */
+  .site-header__inner .header-tools { order: 2; margin-left: auto; margin-right: var(--space-2); }
+  .site-header__inner .nav-toggle { order: 3; }
 
   .site-nav {
     position: absolute;

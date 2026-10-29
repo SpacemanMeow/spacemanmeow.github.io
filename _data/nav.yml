@@ -1,18 +1,34 @@
 # 顶部导航栏。修改这里即可调整导航项与顺序。
 # nav 字段用于高亮当前页面，取值：home / meow / blog / about
-
-- title: Home
-  url: /
+# title 与 url 均按语言提供，新增语言时在两种语言下补充对应文案与路径即可。
+- title:
+    en: Home
+    zh: 首页
+  url:
+    en: /
+    zh: /zh/
   nav: home
 
-- title: Meow
-  url: /meow/
+- title:
+    en: Meow
+    zh: 喵窝
+  url:
+    en: /meow/
+    zh: /zh/meow/
   nav: meow
 
-- title: Blog
-  url: /blog/
+- title:
+    en: Blog
+    zh: 博客
+  url:
+    en: /blog/
+    zh: /zh/blog/
   nav: blog
 
-- title: About
-  url: /about/
+- title:
+    en: About
+    zh: 关于
+  url:
+    en: /about/
+    zh: /zh/about/
   nav: about

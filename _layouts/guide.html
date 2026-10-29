@@ -9,6 +9,21 @@ layout: default
       <header class="post__header">
         <h1 class="post__title">{{ page.title }}</h1>
         {%- if page.description %}<p class="guide__lead">{{ page.description }}</p>{% endif -%}
+        <div class="post__meta">
+          <span class="meta-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 10h18M8 3v4M16 3v4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            <time datetime="{{ page.date | date_to_xmlschema }}">{% if site.lang == 'zh' %}{{ page.date | date: '%Y年%-m月%-d日' }}{% else %}{{ page.date | date: '%b %-d, %Y' }}{% endif %}</time>
+          </span>
+          {%- assign lm = page.last_modified_at | default: page.date -%}
+          {%- assign lm_day = lm | date: '%Y-%m-%d' -%}
+          {%- assign pub_day = page.date | date: '%Y-%m-%d' -%}
+          {%- if lm_day != pub_day %}
+          <span class="meta-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M21 4v4h-4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <time datetime="{{ lm | date_to_xmlschema }}">{% if site.lang == 'zh' %}最后更新：{{ lm | date: '%Y年%-m月%-d日' }}{% else %}Last updated: {{ lm | date: '%b %-d, %Y' }}{% endif %}</time>
+          </span>
+          {%- endif %}
+        </div>
       </header>
     </div>
   </div>
@@ -29,7 +44,7 @@ layout: default
             {%- endfor %}
           </div>
           {%- endif %}
-          <a class="back-link" href="{{ '/blog/' | relative_url }}">&lsaquo; Back to Blog</a>
+          <a class="back-link" href="{% if site.lang == 'zh' %}/zh/blog/{% else %}/blog/{% endif %}">{{ site.data.ui[site.lang].back_to_blog }}</a>
         </footer>
       </div>
     </div>

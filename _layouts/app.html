@@ -35,7 +35,7 @@ layout: default
     </div>
     {% if page.faq and page.faq.size > 0 %}
     <section class="app-faq" aria-label="Frequently asked questions">
-      <h2 class="app-faq__title">Frequently Asked Questions</h2>
+      <h2 class="app-faq__title">{{ site.data.ui[site.lang].faq_title }}</h2>
       <div class="app-faq__list">
         {% for item in page.faq %}
         <div class="app-faq__item">
@@ -49,13 +49,13 @@ layout: default
     {%- assign guides = site.posts | where_exp: "post", "post.image == page.icon" -%}
     {% if guides.size > 0 %}
     <section class="app-guides" aria-label="Guides and tutorials">
-      <h2 class="app-guides__title">Guides &amp; Tutorials</h2>
-      <p class="app-guides__intro">In-depth guides, comparisons and tutorials for {{ page.title }}:</p>
+      <h2 class="app-guides__title">{{ site.data.ui[site.lang].guides_title }}</h2>
+      <p class="app-guides__intro">{{ site.data.ui[site.lang].guides_intro }} {{ page.title }}:</p>
       <ul class="app-guides__list">
         {% for post in guides %}
         <li class="app-guides__item">
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          <span class="app-guides__meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <span class="app-guides__meta">{% if site.lang == 'zh' %}{{ post.date | date: '%Y年%-m月%-d日' }}{% else %}{{ post.date | date: '%b %-d, %Y' }}{% endif %}</span>
         </li>
         {% endfor %}
       </ul>

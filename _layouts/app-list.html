@@ -5,7 +5,12 @@ layout: default
   应用列表页（Home / Meow 共用）
   在页面 front matter 中设置 series: Meow 只显示该系列应用；不设置则显示全部。
 {%- endcomment -%}
-{%- assign apps = site.apps | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}
+{%- comment -%} 中文站应用使用独立的 apps_zh 集合（源目录 _apps_zh），与英文 apps 集合分离 {%- endcomment -%}
+{%- if site.lang == 'zh' -%}
+  {%- assign apps = site.apps_zh | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}
+{%- else -%}
+  {%- assign apps = site.apps | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}
+{%- endif -%}
 {%- if page.series -%}
   {%- assign apps = apps | where_exp: 'a', 'a.series == page.series' -%}
 {%- endif -%}
@@ -21,6 +26,6 @@ layout: default
   {%- for app in apps %}
     {% include app-card.html app=app %}
   {%- else %}
-    <div class="container"><p class="empty-tip">No apps yet. Add markdown files under <code>_apps/</code>.</p></div>
+    <div class="container"><p class="empty-tip">{{ site.data.ui[site.lang].no_apps }}</p></div>
   {%- endfor %}
 </div>

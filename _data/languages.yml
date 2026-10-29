@@ -1,0 +1,13 @@
+# 支持的语言列表。
+# 新增语言时只需在此添加一项，并创建对应目录与配置：
+#   _config_<code>.yml、_posts/<code>/、_pages/<code>/、_apps_<code>/
+#   （注意是 _apps_<code> 集合目录，不是 _apps/<code> 子目录），
+#   以及根级 <code>/blog/index.html 博客分页模板（jekyll-paginate 要求）。
+# code 必须与子路径一致（如 zh -> /zh/）。
+# 注：i18n.js 已改为语言无关，加语言只改本文件即可（JS 读取 window.SITE_LANGS）。
+- code: en
+  label: English
+  short: EN
+- code: zh
+  label: 中文
+  short: 中文

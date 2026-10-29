@@ -1,7 +1,7 @@
 {%- assign active = page.nav -%}
 {%- unless active -%}
   {%- assign u = page.url -%}
-  {%- if u == '/' -%}
+  {%- if u == '/' or u == '/zh/' -%}
     {%- assign active = 'home' -%}
   {%- elsif u contains '/meow' -%}
     {%- assign active = 'meow' -%}
@@ -13,7 +13,7 @@
 {%- endunless -%}
 <header class="site-header">
   <div class="container site-header__inner">
-    <a class="brand" href="{{ '/' | relative_url }}">
+    <a class="brand" href="{% if site.lang == 'zh' %}/zh/{% else %}/{% endif %}">
       <img class="brand__logo" src="{{ site.avatar | relative_url }}" alt="" />
       <span class="brand__text">
         <strong>{{ site.title }}</strong>
@@ -25,11 +25,46 @@
       <span></span><span></span><span></span>
     </button>
 
+    <div class="header-tools">
+      <div class="lang-switch" data-lang-switch>
+        {%- assign cur_lang = page.lang | default: site.lang -%}
+        <button class="lang-switch__btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Language">
+          {%- for lang in site.data.languages -%}
+          {%- if lang.code == cur_lang -%}{{ lang.label }}{%- endif -%}
+          {%- endfor -%}
+        </button>
+        <ul class="lang-switch__menu" role="listbox">
+          {%- for lang in site.data.languages -%}
+          <li role="option" data-lang="{{ lang.code }}"{% if lang.code == cur_lang %} aria-selected="true"{% endif %}>{{ lang.label }}</li>
+          {%- endfor -%}
+        </ul>
+      </div>
+
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="切换深浅模式">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="4" />
+        <line x1="12" y1="2" x2="12" y2="5" />
+        <line x1="12" y1="19" x2="12" y2="22" />
+        <line x1="2" y1="12" x2="5" y2="12" />
+        <line x1="19" y1="12" x2="22" y2="12" />
+        <line x1="4.5" y1="4.5" x2="6.5" y2="6.5" />
+        <line x1="17.5" y1="17.5" x2="19.5" y2="19.5" />
+        <line x1="4.5" y1="19.5" x2="6.5" y2="17.5" />
+        <line x1="17.5" y1="6.5" x2="19.5" y2="4.5" />
+      </svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
+      </svg>
+      </button>
+    </div>
+
     <nav class="site-nav" data-nav>
       {%- for item in site.data.nav %}
       <a class="site-nav__link{% if item.nav == active %} is-active{% endif %}"
-         href="{{ item.url | relative_url }}">{{ item.title }}</a>
+         href="{{ item.url[site.lang] | relative_url }}">{{ item.title[site.lang] }}</a>
       {%- endfor %}
     </nav>
+
+    <script>window.SITE_LANGS = {{ site.data.languages | map: "code" | jsonify }};</script>
   </div>
 </header>

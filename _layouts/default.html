@@ -10,6 +10,17 @@
     <link rel="icon" href="{{ site.favicon | relative_url }}" />
     <link rel="apple-touch-icon" href="{{ site.apple_touch_icon | relative_url }}" />
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    <script>
+      /* 在首屏绘制前应用主题偏好，避免深浅模式闪烁 */
+      (function () {
+        try {
+          var v = localStorage.getItem("theme-pref");
+          var dark = v ? v === "dark"
+            : window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+          document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+        } catch (e) {}
+      })();
+    </script>
     <link rel="preconnect" href="https://cdn.jsdelivr.net" />
     {% if site.webmaster_verifications %}{% include webmaster-verifications.html %}{% endif %}
   </head>
@@ -23,6 +34,8 @@
     <main id="main">{{ _c }}</main>
     {% include footer.html %}
     <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/i18n.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
     {% include analytics.html %}
   </body>
 </html>

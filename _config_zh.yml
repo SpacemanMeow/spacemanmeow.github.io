@@ -1,0 +1,157 @@
+# ===================================================================
+#  Meow Apps Studio - 中文站配置
+#  独立配置（不再依赖 _config.yml 合并），与英文站并列构建：
+#    bundle exec jekyll build --config _config_zh.yml   -> 输出到 _site/zh/
+#  中文源文件：_posts/zh/、_pages/zh/、_apps/zh/
+#  英文站：bundle exec jekyll build --config _config.yml -> 输出到 _site/
+#  合并构建：scripts/build.sh（先 EN 后各语言，再注入 hreflang + 合并 sitemap）
+# ===================================================================
+
+lang: zh
+timezone: Asia/Shanghai
+
+title: Meow Apps Studio
+tagline: 专注打造美观、优雅且实用的移动应用。
+description: >-
+  我们致力于为 iOS 与 Android 平台打造兼具美感与实力的移动应用，已推出多款深受用户喜爱的高品质应用，
+  感谢你的关注，你的支持是我们持续前进的最大动力。
+
+url: "https://spacemanmeow.com"
+baseurl: ""
+
+avatar: /assets/images/favicons/avatar.png
+favicon: /assets/images/favicons/favicon-96x96.jpg
+apple_touch_icon: /assets/images/favicons/apple-touch-icon.jpg
+
+social:
+  name: SpacemanMeow
+  email: meow@spacemanmeow.com
+  links:
+    - name: 隐私政策
+      url: /zh/privacy/
+    - name: 使用条款
+      url: /zh/terms/
+    - name: 邮箱
+      url: mailto:meow@spacemanmeow.com
+
+webmaster_verifications:
+  google: MvOa_RCgbYDbkyWz1nce7QzlFS30B4RYjBNLI43eHjU
+  bing: 3696BDF54B98CDFFA525A706AC915374
+  yandex: 7b7f2662239dd86d
+
+goatcounter_code: "spacemanmeow"
+
+developer:
+  title: 开发者页面
+  logo: /assets/images/favicons/avatar.png
+  description: >-
+    我们致力于为 iOS 与 Android 平台打造兼具美感与实力的移动应用，已推出多款深受用户喜爱的高品质应用，
+    感谢你的关注，你的支持是我们持续前进的最大动力。
+  google_play: https://play.google.com/store/apps/dev?id=9089535463678444622
+  app_store: https://apps.apple.com/us/developer/%E5%A2%83-%E9%AB%98/id1528847758
+
+collections:
+  pages:
+    output: true
+    path: _pages/zh
+    permalink: /zh/:name/
+  # 中文应用放在独立集合 apps_zh（源目录 _apps_zh），与英文 apps 集合（源目录 _apps）完全分离。
+  # 原因：Jekyll 的集合始终从 _#{label} 目录递归读取，且 collections.*.path 对读取目录无效；
+  # 若复用 apps 集合，英文 _apps/*.md 也会被 ZH 构建读到并映射到 /zh/apps/ 下与中文档冲突。
+  # 因此中文应用使用 apps_zh 集合（目录 _apps_zh），英文 _apps/ 在 ZH 构建中不再定义 apps 集合。
+  apps_zh:
+    output: true
+    path: _apps_zh
+    permalink: /zh/apps/:name/
+  posts:
+    output: true
+    path: _posts/zh
+    permalink: /zh/posts/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /zh/posts/:title/
+      nav: blog
+  - scope:
+      path: ""
+      type: apps_zh
+    values:
+      layout: app
+      nav: home
+      seo:
+        type: WebPage
+
+paginate: 10
+paginate_path: /zh/blog/page:num
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: feed.xml
+
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+sass:
+  style: compressed
+
+# 输出到主站 _site/zh/ 子目录，与英文根目录合并部署
+destination: _site/zh
+
+# 排除英文根级源文件与静态文件，避免重复生成到 /zh/ 下。
+# Jekyll 的集合始终从 _#{label} 目录递归读取（与 collections.*.path 无关），
+# 因此 EN 源目录 _apps/_pages/_posts 与中文源 _pages/zh、_posts/zh 会在各自构建中被一同读到。
+# 处理策略：
+#   - apps：中文应用已独立为 apps_zh 集合（源 _apps_zh），英文 _apps 在 ZH 构建不再定义 apps 集合，
+#           这里显式排除 _apps/（注意带尾斜杠，避免误伤同前缀的 _apps_zh 中文源目录）以防万一被误读。
+#   - posts：英文文章为日期文件（_posts/YYYY-MM-DD-*.md），均为 _posts 的直接子项；
+#            用 "_posts/2*" / "_posts/1*" 通配可精确排除英文根级文章，而不会误伤 _posts/zh/ 下的中文文章
+#            （_posts/zh/... 在 _posts/ 之后是 "zh/..."，不匹配数字前缀）。新增英文文章会自动生效。
+#   - pages：英文 _pages/*.md 均带显式 permalink（/about/ 等），在 ZH 构建中映射到根目录而非 /zh/，
+#            不会与中文页冲突，也未被 rsync 进 _site/zh，故无需排除。
+# 注意：字符串通配符 * 在 Jekyll 的 fnmatch 中不带 FNM_PATHNAME，会跨 / 匹配，
+#       因此无法用 "_posts/*" 区分直接子项与 _posts/zh/ 子项，须用上述前缀/目录排除法。
+exclude:
+  - _apps/
+  - _posts/2*
+  - _posts/1*
+  - index.html
+  - blog/
+  - meow/
+  - robots.txt
+  - CNAME
+  - app-ads.txt
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - SEO-OPTIMIZATION-PLAN.md
+  - LICENSE
+  - purgecss.js
+  - "*.config.js"
+  - "package*.json"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
+  - .devcontainer
+  - .idea
+  - .vscode
+  - .qoder

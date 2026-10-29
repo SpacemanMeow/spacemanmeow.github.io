@@ -5,7 +5,7 @@ layout: default
   <div class="container">
     <h1 class="page-head__title">{{ page.title }}</h1>
     {%- if page.subtitle %}<p class="page-head__subtitle">{{ page.subtitle }}</p>{% endif %}
-    <p class="page-head__tags-link">Browse all articles by topic: <a href="{{ '/tags/' | relative_url }}">Tags index &rarr;</a></p>
+    <p class="page-head__tags-link">{% if site.lang == 'zh' %}按主题浏览全部文章：<a href="{{ '/zh/tags/' | relative_url }}">标签索引 &rarr;</a>{% else %}Browse all articles by topic: <a href="{{ '/tags/' | relative_url }}">Tags index &rarr;</a>{% endif %}</p>
   </div>
 </div>
 
@@ -19,7 +19,7 @@ layout: default
   {%- else %}
     <div class="blog-row">
       <div class="container">
-        <p class="empty-tip">No posts yet.</p>
+        <p class="empty-tip">{{ site.data.ui[site.lang].no_posts }}</p>
       </div>
     </div>
   {%- endfor %}
