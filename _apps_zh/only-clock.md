@@ -4,6 +4,7 @@ tagline: 精致全屏翻页动画时钟，展示时间
 description: "Only Clock 是 Android 上精致的全面屏翻页时钟，带有优美的翻页动画，可作为桌面钟、床头钟或学习工作的专注计时器。"
 icon: /assets/images/apps/only-clock/icon.webp
 image: /assets/images/apps/only-clock/icon.webp
+lang: zh
 series:
 order: 8
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.only.flip.clock
@@ -46,3 +47,7 @@ faq:
 6. 时钟主题自由切换
 
 还在等什么？下载这款翻页时钟与时钟小组件，辅助学习或专注工作吧。
+
+## 相关术语
+
+- [什么是翻页时钟（Flip Clock）？](/zh/glossary/what-is-a-flip-clock/)

@@ -5,6 +5,7 @@ description: "Looking for alternatives to Todoist in 2026? We compare seven top 
 layout: guide
 tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Alternatives, Todoist]
 image: /assets/images/apps/meow-todo-list/icon.webp
+lang: en
 ---
 
 If you are shopping for **alternatives to Todoist**, you probably want lower cost, more privacy, or a simpler interface. Here are the **best to-do list app** alternatives worth a look in 2026 — seven apps picked either for high market share or for a distinct strength — with detailed pros and cons, a core-capability comparison, and direct download links.

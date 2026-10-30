@@ -5,6 +5,7 @@ description: "A practical look at CPU Monitor versus CPU-Z in 2026 — real-time
 layout: guide
 tags: [CPU Monitor, Phone Temperature, System Utility, Android, Best Apps]
 image: /assets/images/apps/cpu-monitor/icon.webp
+lang: en
 ---
 
 When a phone gets hot it slows down — thermal throttling kicks in and frames drop. A **CPU temperature monitor** lets you see the heat before it costs performance. **CPU Monitor** is a **CPU temp app for Android** with real-time temperature, per-core load, and overheat alerts. Below we compare it with **CPU-Z**, the classic hardware-info tool, for spotting heat early.

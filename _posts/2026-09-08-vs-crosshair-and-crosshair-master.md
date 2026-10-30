@@ -5,6 +5,7 @@ description: "Crosshair Aim vs Crosshair Hero compared in depth for 2026: a cust
 layout: guide
 tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Comparison, Crosshair Hero]
 image: /assets/images/apps/cross-hair/icon.webp
+lang: en
 ---
 
 Both draw a reticle over your game, but they suit different players. **Crosshair Aim** is a customizable FPS overlay with an in-game floating adjuster; **Crosshair Hero** is the popular preset-style crosshair overlay you tap and go. This **Crosshair Aim vs Crosshair Hero** comparison helps you pick a **custom crosshair overlay** in 2026.

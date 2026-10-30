@@ -5,6 +5,7 @@ description: "A beginner-friendly look at Meow Habits versus Loop, Streaks and H
 layout: guide
 tags: [Meow Habits, Habit Tracker, Routine Builder, Streaks, Android, Best Apps]
 image: /assets/images/apps/meow-habits/icon.webp
+lang: en
 ---
 
 Most habit resolutions fail because the system is too complex. The **habit tracker for beginners** should let you start in seconds and celebrate small wins. **Meow Habits** does exactly that with templates, streaks, and a calm cat-themed design. Here's how it compares with other beginner-friendly options.

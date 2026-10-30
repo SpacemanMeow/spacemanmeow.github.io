@@ -5,6 +5,8 @@ description: "2026 年最佳安卓系统监控与设备信息应用：该看什�
 layout: guide
 image: /assets/images/apps/system-monitor/icon.webp
 tags: [System Monitor, Device Info, CPU Temperature, Battery Health, Android, App Roundup]
+last_modified_at: 2026-10-30
+lang: zh
 ---
 
 一些安卓工具想"清理"和"加速"；另一些只把手机内部正在发生的事展示给你。如果你想要诚实、只读的设备信息，这份 2026 指南正合适——它讲清 System Monitor 如何与清理类对比。

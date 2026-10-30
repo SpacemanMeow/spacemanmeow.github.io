@@ -5,6 +5,8 @@ description: "2026 年最佳安卓翻页钟应用：该看什么（翻页动画�
 layout: guide
 image: /assets/images/apps/only-clock/icon.webp
 tags: [Flip Clock, Desk Clock, Nightstand Clock, Android, Only Clock, App Roundup]
+last_modified_at: 2026-10-30
+lang: zh
 ---
 
 一块全屏翻页钟能把任何手机变成桌面或床头钟——也变成学习的专注计时器。这份 2026 指南讲清挑选翻页钟应用要看什么，以及 Only Clock 如何与 Retroflip 及翻页钟一众对比。

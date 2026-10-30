@@ -128,7 +128,3 @@ Meow Mood Diary 是一款安全、私密的心情日记与记录应用，带平�
 
 Meow Mood Diary 让每日心情追踪轻松又私密，用清晰的日历与趋势图表帮你看清随着时间推移的情绪。
 
-## 相关文章
-
-- [最佳心情日记与记录应用（2026）](/zh/posts/pillar-mood-diary-journaling-apps/)
-- [Meow 应用页](/zh/apps/meow-mood-diary/)

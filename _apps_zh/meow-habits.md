@@ -4,6 +4,7 @@ tagline: 让习惯养成如沐春风，告别三分钟热度
 description: "Meow Habits 是一款习惯追踪与作息规划应用，通过可爱的设计与科学的追踪帮你建立连续习惯、记录每日作息。"
 icon: /assets/images/apps/meow-habits/icon.webp
 image: /assets/images/apps/meow-habits/icon.webp
+lang: zh
 series: Meow
 order: 3
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.meow.habit.goal
@@ -33,6 +34,12 @@ faq:
   - question: 可以导出习惯进度吗？
     answer: >-
       可以。导出 CSV 报表，分析你的习惯趋势并优化作息。
+  - question: Meow Habits 能帮我养成连续打卡吗？
+    answer: >-
+      可以。Meow Habits 记录每日打卡并显示连续天数（streak），让你直观看到习惯坚持情况。
+  - question: Meow Habits 会发送提醒吗？
+    answer: >-
+      会。你可以为每个习惯设置每日提醒，避免错过打卡。
 ---
 
 告别三分钟热度！Meow Habits 让习惯养成如沐春风，用治愈的猫咪视觉与科学的习惯追踪，解锁坚持的秘诀。专为渴望自律与高效的人群打造，它将直观操作与可爱卡通设计融为一体，让枯燥的习惯追踪变成每日愉悦的仪式。无论你在培养健身、学习等好习惯，还是决心告别拖延与熬夜，我们数据驱动的追踪与个性化工具都能助你保持节奏、精简流程、提升每日效率——让习惯养成每一步都充满成就感！
@@ -64,3 +71,7 @@ faq:
 自由切换两款精心调校的主题，都柔和不刺眼、治愈舒适。完美适配白天工作与夜间记录，让习惯追踪更舒适、执行效率更高。
 
 厌倦了难以坚持习惯、屡屡受挫？现在就下载 Meow Habits！这款改变游戏规则的习惯追踪器融合科学的习惯养成体系、可爱的卡通视觉与流畅的工作流，开启你的自律之旅——不再有繁琐记录，只有轻松的坚持。让每一份小努力都变成可追踪的进度，优化每日效率，养成受益终生的好习惯。别错过最令人愉悦的习惯养成方式，让好习惯成为你的本能！
+
+## 相关术语
+
+- [什么是习惯打卡连续天数（Habit Streak）？](/zh/glossary/what-is-a-habit-streak/)

@@ -8,6 +8,7 @@ tagline: An exquisite full-screen Clock with flip animation to show time # 一�
 description: "Only Clock is an exquisite full-screen flip clock for Android, a beautiful flip-animation desk and nightstand clock with a focus timer for study and work."
 icon: /assets/images/apps/only-clock/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/only-clock/icon.webp
+lang: en
 series: # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 8 # 列表页排序，数字越小越靠前
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.only.flip.clock # 留空则不显示 Google Play 按钮
@@ -52,3 +53,7 @@ Desktop Clock is an exquisite full-screen Clock with flip animation to show time
 6. Clock theme can switch freely
 
 So what are waiting for? Download the Flip clock & clock widget, to aid study or focus on work.
+
+## Related terms
+
+- [What Is a Flip Clock?](/glossary/what-is-a-flip-clock/)

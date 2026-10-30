@@ -5,6 +5,8 @@ description: "2026 年最佳安卓待办清单与任务管理应用：该看什�
 layout: guide
 image: /assets/images/apps/meow-todo-list/icon.webp
 tags: [To-Do List, Task Manager, Schedule Planner, Android, Meow Todo, App Roundup]
+last_modified_at: 2026-10-30
+lang: zh
 ---
 
 待办清单只在你真正打开它时才有用，而合适的任务管理器让它发生，而非变成又一个被你忽略的标签页。这份 2026 指南看一款好安卓任务管理器由什么构成，以及 Meow Todo List 如何与品类领头羊对比。

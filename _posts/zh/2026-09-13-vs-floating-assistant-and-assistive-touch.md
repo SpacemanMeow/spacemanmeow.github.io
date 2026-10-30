@@ -5,6 +5,7 @@ description: "2026 年 Floating Assistant 与 Assistive Touch 深度对比：带
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Comparison]
 image: /assets/images/apps/floating-assistant/icon.webp
+lang: zh
 ---
 
 两者都把控件放到你的屏幕之上，但解决的是不同问题。**Floating Assistant** 是一个 3 合 1 叠层——辅助触控、浮动时钟与实时系统监控。**Assistive Touch**（Easy Touch）是经典的浮动导航球。这份 **Floating Assistant vs Assistive Touch** 对比帮你在 2026 年挑选一款 **叠层小组件** 应用。

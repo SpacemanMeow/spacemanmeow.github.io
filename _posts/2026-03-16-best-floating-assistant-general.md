@@ -5,6 +5,7 @@ description: "A practical look at Floating Assistant versus Assistive Touch in 2
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Best Apps]
 image: /assets/images/apps/floating-assistant/icon.webp
+lang: en
 ---
 
 A **floating assistant** puts a small button on the screen edge that triggers the actions you reach for constantly — back, home, recent, lock, screenshot — without hunting for a physical key. **Floating Assistant** is an **edge floating-ball app for Android** with deep customization. Below we compare it with **Assistive Touch**, the popular floating-button class, for everyday multitasking.

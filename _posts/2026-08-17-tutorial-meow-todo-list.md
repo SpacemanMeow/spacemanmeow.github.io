@@ -175,7 +175,3 @@ Total tasks have no hard cap, but Books are limited to 10, Tags to 10, and subta
 
 Meow Todo List is a friendly, cute task manager that covers quick capture, repeating tasks, a calendar view, and statistics — with Drive/WebDav backup to keep your lists safe.
 
-## Related Articles
-
-- [Best To-Do List & Task Manager Apps for Android (2026)](/posts/pillar-todo-list-task-manager-apps-android/)
-- [Meow app page](/apps/meow-todo-list/)

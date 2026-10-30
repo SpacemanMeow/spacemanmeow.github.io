@@ -6,4 +6,5 @@ nav: home
 description: "Meow Apps Studio designs beautiful, elegant Android and iOS apps — a cute expense tracker, mood diary, habit tracker, CPU monitor and home screen widgets."
 image: /assets/images/favicons/avatar.png
 permalink: /
+lang: en
 ---

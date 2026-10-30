@@ -5,6 +5,8 @@ description: "The best flip clock apps for Android in 2026: what to look for (fl
 layout: guide
 image: /assets/images/apps/only-clock/icon.webp
 tags: [Flip Clock, Desk Clock, Nightstand Clock, Android, Only Clock, App Roundup]
+last_modified_at: 2026-10-30
+lang: en
 ---
 
 A full-screen flip clock turns any phone into a desk or nightstand clock — and a focus timer for study. This 2026 guide covers what to look for in a flip clock app and how Only Clock compares to Retroflip and the flip-clock crowd.

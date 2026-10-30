@@ -5,6 +5,7 @@ description: "2026 年 Meow Mood 与 Day One 深度对比：一款私密、以�
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Journal, Mental Health, Android, Comparison, Day One]
 image: /assets/images/apps/meow-mood-diary/icon.webp
+lang: zh
 ---
 
 两者都是日记，但满足的需求不同。**Meow Mood** 是一款私密、以情绪为核心的打卡日记，配宁静的猫咪主题界面。**Day One** 则是一款富功能生活日记，带照片、音频与云端同步。这份 **Meow Mood vs Day One** 对比，结合真实定价与隐私差异，帮你在 2026 年挑对 **日记应用**。

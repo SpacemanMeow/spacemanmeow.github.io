@@ -5,6 +5,7 @@ description: "2026 年 Meow Mood 与 Day One、Daylio、Apple Journal、Penzu �
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Journal, Mental Health, Android, Best Apps]
 image: /assets/images/apps/meow-mood-diary/icon.webp
+lang: zh
 ---
 
 如果隐私比云功能更重要，你需要一款 **私密日记应用**，永不把你的想法发往服务器。**Meow Mood** 正是一款以此承诺为核心的 **离线心情日记**：条目留在你设备，唯一的备份是你自选的 Google Drive。下面它与其它注重隐私的选项对比，以及承诺之前该检查什么。

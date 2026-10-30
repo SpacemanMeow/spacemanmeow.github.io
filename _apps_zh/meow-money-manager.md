@@ -4,6 +4,7 @@ tagline: 猫主题的开支追踪与预算管理应用
 description: "Meow Money Manager 是一款猫主题的开支追踪与预算应用，支持指纹锁、多币种账本与 CSV 导出，适用于 Android 与 iOS。"
 icon: /assets/images/apps/meow-money-manager/icon.webp
 image: /assets/images/apps/meow-money-manager/icon.webp
+lang: zh
 series: Meow
 order: 1
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow
@@ -33,6 +34,12 @@ faq:
   - question: 如何把开支报表导出为 CSV？
     answer: >-
       打开应用，选择导出，将所选日期范围内的记录保存为 CSV 文件，即可在 Excel 中查看或编辑。
+  - question: Meow Money 免费吗？
+    answer: >-
+      Meow Money 可免费下载并记账；多币种账本、CSV 导出等进阶功能可通过一次性或订阅解锁。
+  - question: 使用 Meow Money 需要账号吗？
+    answer: >-
+      不需要。Meow Money 可不使用账号直接使用，数据保存在本机，适合私密记账。
 ---
 
 Meow Money Manager 记账本是一款个人财务管理应用，助你掌控预算、资金与财务状况。开支与收入追踪让钱包与每张信用卡都清晰明了。你无需翻找钱包或查询银行账户就能掌握财务情况。用这款预算开支收入追踪财务应用，轻松管理你的资金。
@@ -86,3 +93,7 @@ Meow Manager 可将记录报表导出为 CSV 文件，可一次性导出全部�
 **备份与恢复**
 
 Meow Money Manager 支持 iCloud 与 WebDav 备份，添加记录时自动保存备份文件以防数据丢失，也支持手动备份。
+
+## 相关术语
+
+- [什么是记账应用（Expense Tracker）？](/zh/glossary/what-is-an-expense-tracker/)

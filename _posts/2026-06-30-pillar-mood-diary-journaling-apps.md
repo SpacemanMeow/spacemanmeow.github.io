@@ -5,6 +5,8 @@ description: "The best mood diary and journaling apps in 2026: what to look for 
 layout: guide
 image: /assets/images/apps/meow-mood-diary/icon.webp
 tags: [Mood Diary, Journaling App, Private Diary, Android, Meow Mood, App Roundup]
+last_modified_at: 2026-10-30
+lang: en
 ---
 
 A mood diary turns scattered feelings into something you can actually see and learn from. This 2026 guide covers what matters in a journaling app and how Meow Mood Diary compares to the journaling heavyweights.

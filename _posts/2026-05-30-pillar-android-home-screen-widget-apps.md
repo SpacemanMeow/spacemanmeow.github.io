@@ -5,6 +5,8 @@ description: "The best Android home screen widget apps in 2026: what to look for
 layout: guide
 image: /assets/images/apps/one-widget/icon.webp
 tags: [Android Widgets, Home Screen, Material You, KWGT, One Widget, App Roundup]
+last_modified_at: 2026-10-30
+lang: en
 ---
 
 Android's home screen is its superpower, and widgets are how you make it yours. This 2026 guide covers what to look for in a widget app and how One Widget compares to KWGT and WidgetSmith.

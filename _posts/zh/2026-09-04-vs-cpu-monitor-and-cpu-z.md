@@ -5,6 +5,7 @@ description: "2026 年 CPU Monitor 与 CPU-Z 深度对比：实时温度、带�
 layout: guide
 tags: [CPU Monitor, Phone Temperature, System Utility, Android, Comparison, CPU-Z]
 image: /assets/images/apps/cpu-monitor/icon.webp
+lang: zh
 ---
 
 两者都读取手机内部，但回答的问题不同。**CPU Monitor** 是为了 *实时盯* 你的设备——游戏或充电时的温度、频率、RAM 与电池。**CPU-Z** 是为了 *一次性识别* 你的设备——一份干净的 SoC、GPU、内存与传感器规格表。这份 **CPU Monitor vs CPU-Z** 对比帮你在 2026 年挑对 **安卓硬件应用**。

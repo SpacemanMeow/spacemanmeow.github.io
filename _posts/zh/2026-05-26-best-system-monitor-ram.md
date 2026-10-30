@@ -5,6 +5,7 @@ description: "2026 年 System Monitor 与 CCleaner 的务实对比，聚焦内�
 layout: guide
 tags: [System Monitor, RAM Booster, Storage Cleaner, Battery, Android, Best Apps]
 image: /assets/images/apps/system-monitor/icon.webp
+lang: zh
 ---
 
 当游戏掉帧或应用重载，头号嫌疑通常是 **RAM**——但在你看得见之前，「内存不足」很模糊。一款 **内存信息工具** 精确显示什么在占用内存、还剩多少空闲，于是你理解问题，而非盲目去点「加速」按钮。**System Monitor** 是一款 **付费的安卓设备信息应用**，可检测详细的内存、CPU、存储与电池数据。下面我们把它与确实会清缓存的 **CCleaner** 对比，帮你读懂手机的内存。

@@ -862,6 +862,14 @@ a.tag:hover { text-decoration: underline; }
 .back-link { color: var(--text-body); font-size: var(--fs-base); font-weight: 600; }
 .back-link:hover { color: var(--accent-strong); }
 
+/* 自动相关文章区块（T-17） */
+.related-posts { margin-top: var(--space-9); padding-top: var(--space-7); border-top: 1px solid var(--line); }
+.related-posts__title { font-size: var(--fs-lg); color: var(--text-head); margin: 0 0 var(--space-5); }
+.related-posts__list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-4); }
+.related-posts__list a { color: var(--accent-strong); font-weight: 600; font-size: var(--fs-md); text-decoration: none; }
+.related-posts__list a:hover { text-decoration: underline; }
+.related-posts__app { padding-top: var(--space-4); border-top: 1px dashed var(--line); margin-top: var(--space-2); }
+
 /* ------------------------------------------------------------------
    9. 通用内容页（About）
    ------------------------------------------------------------------ */

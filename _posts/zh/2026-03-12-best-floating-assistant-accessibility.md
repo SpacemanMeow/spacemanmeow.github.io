@@ -5,6 +5,7 @@ description: "2026 年 Floating Assistant 与 Assistive Touch 在无障碍场景
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Best Apps]
 image: /assets/images/apps/floating-assistant/icon.webp
+lang: zh
 ---
 
 大屏手机单手很难操作，有些用户更是根本够不到可靠的物理按键。一个 **无障碍浮动按钮** 能把手边需要的控制放到拇指可及之处。**Floating Assistant** 正是一款为此而生的安卓 **边缘浮动球应用**。下面我们把它与 **Assistive Touch** 对比，看二者如何实现易用的单手操控。

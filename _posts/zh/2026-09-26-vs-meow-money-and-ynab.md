@@ -5,6 +5,7 @@ description: "2026 年 Meow Money Manager 与 YNAB 深度对比：隐私优先�
 layout: guide
 tags: [Meow Money, Budget App, Expense Tracker, Money Manager, Android, Comparison]
 image: /assets/images/apps/meow-money-manager/icon.webp
+lang: zh
 ---
 
 在 **Meow Money Manager** 与 **YNAB**（You Need A Budget）之间做选择，归根结底是一个问题：你想要一个 *私密、轻量的记账工具*，还是一个 *主动式的信封预算系统*？两者都是出色的 **记账应用**，但服务的习惯不同。这份对比从价格、隐私、币种和工作流逐层拆解，帮你放心决定。

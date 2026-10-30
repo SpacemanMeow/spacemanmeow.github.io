@@ -5,6 +5,8 @@ description: "2026 年最佳安卓记账与开销追踪应用：该看什么（�
 layout: guide
 image: /assets/images/apps/meow-money-manager/icon.webp
 tags: [Budget App, Expense Tracker, Android, Money Manager, Meow Money, App Roundup]
+last_modified_at: 2026-10-30
+lang: zh
 ---
 
 如果你在安卓上想理清开销，2026 年的选择比以往更多——噪音也更多。本指南拨开迷雾：在安卓上一款好记账或开销追踪应用真正做什么、哪些功能重要，以及安装量最高的选项如何对比。我们深入讲 **Meow Money Manager**（我们的应用），展示它与 **YNAB**、**PocketGuard** 等的高低，再指向更聚焦的对比与教程。

@@ -5,6 +5,7 @@ description: "2026 年想找 Calm 的替代品？我们对比了六款睡眠与�
 layout: guide
 tags: [Meow FM, White Noise, Sleep, Focus, Relax, Android, Alternatives, Calm]
 image: /assets/images/apps/meow-fm/icon.webp
+lang: zh
 ---
 
 Calm 很受欢迎，但它 **约 69.99 美元/年的订阅** 并非人人都能接受。如果你主要想要 **用于睡眠与专注的环境音**，其实有更简单、更便宜、而且通常无需注册账号的替代选择。

@@ -125,7 +125,3 @@ No. They use standard system APIs and settings; torch uses the camera flashlight
 
 One Widget is the fastest way to give your Android home screen a stylish, all-in-one widget toolkit — hundreds of widgets across four looks, with quick toggles and app shortcuts.
 
-## Related Articles
-
-- [Best Android Home Screen Widget Apps (2026)](/posts/pillar-android-home-screen-widget-apps/)
-- [Meow app page](/apps/one-widget/)

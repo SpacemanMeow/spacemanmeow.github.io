@@ -4,6 +4,7 @@ tagline: 包含辅助触控、悬浮时钟与悬浮监控
 description: "Floating Assistant 为你的 Android 屏幕带来辅助触控、悬浮时钟与悬浮系统监控，让你更便捷地操控手机。"
 icon: /assets/images/apps/floating-assistant/icon.webp
 image: /assets/images/apps/floating-assistant/icon.webp
+lang: zh
 series:
 order: 10
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.floating.apps.assistive.touch.pro
@@ -31,6 +32,12 @@ faq:
   - question: Floating Assistant 对我的数据安全吗？
     answer: >-
       安全。它仅将无障碍服务用于上述控制功能，不会收集任何个人或敏感数据。
+  - question: Floating Assistant 里的辅助触控是什么？
+    answer: >-
+      辅助触控提供悬浮球，含虚拟主页、返回、多任务与音量按键，以及一键加速、截图、快捷启动应用，保护实体按键。
+  - question: Floating Assistant 会显示悬浮时钟吗？
+    answer: >-
+      会。Floating Assistant 可在悬浮窗中显示时间与倒计时，方便你在使用其它应用时查看。
 ---
 
 Floating Assistant 包含：辅助触控、悬浮时钟与悬浮监控。辅助触控让你更快捷地访问常用应用、设置并快速切换，也更适合用于替代主页与音量按键，保护实体按键。悬浮时钟在悬浮窗中显示时间与倒计时，方便你在使用其他应用时查看时间。悬浮监控显示 CPU 温度与使用率、内存使用率，并可一键清理内存。
@@ -90,3 +97,7 @@ Floating Assistant 包含：辅助触控、悬浮时钟与悬浮监控。辅助�
 - 调用相机开启手电筒（不拍照）
 
 我们不收集任何数据，也不执行用户未进行的操作。我们绝不会公开披露任何与财务、支付、政府证件、照片、通讯录等相关的个人或敏感用户数据。
+
+## 相关术语
+
+- [什么是悬浮窗（Floating Window）？](/zh/glossary/what-is-a-floating-window/)

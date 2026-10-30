@@ -5,6 +5,7 @@ description: "Looking for alternatives to CPU-Z in 2026? We compare six hardware
 layout: guide
 tags: [CPU Monitor, Phone Temperature, System Utility, Android, Alternatives, CPU-Z]
 image: /assets/images/apps/cpu-monitor/icon.webp
+lang: en
 ---
 
 CPU-Z is great for a quick spec sheet, but on Android it **doesn't show live temperature, lacks a floating window, and offers no widgets or overheat alarms**. If you want real-time monitoring, the field has mature options.

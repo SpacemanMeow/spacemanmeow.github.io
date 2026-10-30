@@ -5,6 +5,8 @@ description: "The best white noise and focus apps for Android in 2026: what to l
 layout: guide
 image: /assets/images/apps/meow-fm/icon.webp
 tags: [White Noise App, Focus App, Sleep Sounds, Android, Meow FM, App Roundup]
+last_modified_at: 2026-10-30
+lang: en
 ---
 
 If sleep won't come, focus keeps slipping, or the dorm next door won't quiet down, a white noise app is the cheapest sleep and focus tool on Android. This 2026 guide breaks down what actually matters in a sound app and how Meow FM stacks up against the biggest names like Calm.

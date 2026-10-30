@@ -102,7 +102,3 @@ The free version is ad-supported. Upgrade to Pro to remove them.
 
 CPU Monitor is a practical live-monitoring toolkit — real-time temps, an overheat alarm, floating stats, widgets and history curves — with a cache cleaner thrown in.
 
-## Related Articles
-
-- [Best CPU Temperature Monitor Apps for Android (2026)](/posts/pillar-cpu-temperature-monitor-apps-android/)
-- [Meow app page](/apps/cpu-monitor/)

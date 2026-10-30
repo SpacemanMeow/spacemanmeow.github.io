@@ -5,6 +5,7 @@ description: "正在寻找 2026 年 Todoist 的替代应用？我们从价格、
 layout: guide
 tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Alternatives, Todoist]
 image: /assets/images/apps/meow-todo-list/icon.webp
+lang: zh
 ---
 
 如果你在挑选 **Todoist 的替代应用**，多半是想要更低的价格、更强的隐私，或更简洁的界面。以下是 2026 年值得一看的 **最佳待办列表应用** 替代品——我们选了七款，或因市场份额高，或因某一项突出优势——并给出详细的优缺点、核心能力对比和直接下载链接。

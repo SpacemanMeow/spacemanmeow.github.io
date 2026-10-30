@@ -5,6 +5,7 @@ description: "2026 年安卓端 Meow Todo 与 Todoist、Microsoft To Do、Google
 layout: guide
 tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
+lang: zh
 ---
 
 在安卓上，一款 **待办清单应用** 是你一天打开几十次的东西，所以任务存在哪很重要。有人想要跨设备云同步；有人宁可把任务锁在指纹之后、留在手机里，而不是再建一个账号。**Meow Todo** 是一款安卓与 iOS 的 **免费待办清单**，把任务本地存储并加锁。下面我们从隐私、小组件、同步与价格，对比安卓用户实际会装的应用——**Meow Todo、Todoist、Microsoft To Do、Google Tasks**。

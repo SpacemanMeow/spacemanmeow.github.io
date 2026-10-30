@@ -5,6 +5,7 @@ description: "面向学生的 Meow Todo 与 Todoist、Microsoft To Do、TickTick
 layout: guide
 tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
+lang: zh
 ---
 
 在听课、作业与兼职之间，学生需要一款又快又免费的 **任务管理器**。教学大纲的截止日散落在一打课程里，小组项目横跨数周，忘了一次阅读就能拉低成绩。**Meow Todo** 是一款面向学生的 **免费待办清单应用**，带子任务、日历视图与能撑过忙碌学期的提醒。下面是它与其他学生友好选项的对比。

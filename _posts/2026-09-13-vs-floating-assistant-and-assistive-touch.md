@@ -5,6 +5,7 @@ description: "Floating Assistant vs Assistive Touch compared in depth for 2026: 
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Comparison]
 image: /assets/images/apps/floating-assistant/icon.webp
+lang: en
 ---
 
 Both put controls on top of your screen, but they solve different problems. **Floating Assistant** is a 3-in-1 overlay — assistive touch, a floating clock, and a live system monitor. **Assistive Touch** (Easy Touch) is the classic floating navigation ball. This **Floating Assistant vs Assistive Touch** comparison helps you choose an **overlay widget** app in 2026.

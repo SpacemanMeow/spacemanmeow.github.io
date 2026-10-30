@@ -4,6 +4,7 @@ tagline: 助眠、放松与专注的白噪音
 description: "Meow FM 是一款用于睡眠、放松与专注的白噪音应用，环境音帮助你更快入睡、在工作或学习中保持专注。"
 icon: /assets/images/apps/meow-fm/icon.webp
 image: /assets/images/apps/meow-fm/icon.webp
+lang: zh
 series: Meow
 order: 5
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.whitenoise.relax.night.sleep.meow

@@ -126,7 +126,3 @@ The global button actions (home/back/recent/lock/screenshot) are performed throu
 
 Floating Assistant makes a big phone usable one-handed: a floating ball for launches and system actions, plus toggle widgets — free to start, with an ad-free Pro app.
 
-## Related Articles
-
-- [Best Floating Assistant & Assistive Touch Apps for Android (2026)](/posts/pillar-floating-assistant-apps-android/)
-- [Meow app page](/apps/floating-assistant/)

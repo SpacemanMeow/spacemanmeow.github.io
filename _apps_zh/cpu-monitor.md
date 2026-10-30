@@ -4,6 +4,7 @@ tagline: 实时监控 CPU 温度与频率
 description: "CPU Monitor 在 Android 上实时显示 CPU 温度与频率、内存、电池及多核使用情况，并支持悬浮窗、桌面小组件、一键加速与过热警报。"
 icon: /assets/images/apps/cpu-monitor/icon.webp
 image: /assets/images/apps/cpu-monitor/icon.webp
+lang: zh
 series:
 order: 11
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.stark

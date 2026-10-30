@@ -5,6 +5,8 @@ description: "2026 年最佳安卓主屏小组件应用：该看什么（风格�
 layout: guide
 image: /assets/images/apps/one-widget/icon.webp
 tags: [Android Widgets, Home Screen, Material You, KWGT, One Widget, App Roundup]
+last_modified_at: 2026-10-30
+lang: zh
 ---
 
 安卓的主屏是它的超能力，而小组件就是让你把它变成自己模样的方式。这份 2026 指南讲清了挑选小组件应用要看什么，以及 One Widget 如何与 KWGT、WidgetSmith 对比。

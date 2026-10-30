@@ -5,6 +5,7 @@ description: "正在寻找 2026 年 Streaks 的替代应用？我们从价格、
 layout: guide
 tags: [Meow Habits, Habit Tracker, Routine Builder, Streaks, Android, Alternatives]
 image: /assets/images/apps/meow-habits/icon.webp
+lang: zh
 ---
 
 Streaks 让习惯追踪成为数百万 iPhone 用户每天的仪式——它界面清爽，曾斩获 Apple 设计奖，不断提醒你维持习惯的连续不断。但它确实有明显的局限：**仅支持 iPhone 和 iPad，属于付费买断制、没有免费档，同步被 iCloud 锁定，自定义也只能在苹果生态内完成**。如果你需要安卓支持、跨平台同步、更丰富的统计、免费方案，或者更有趣的界面，那么如今市面上可选的优秀应用已经非常多。

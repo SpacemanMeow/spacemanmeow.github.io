@@ -5,6 +5,7 @@ description: "2026 年 One Widget 与 KWGT 在 Material You 风格上的实用�
 layout: guide
 tags: [One Widget, Home Screen Widgets, Widget Maker, Android Customization, Android, Best Apps]
 image: /assets/images/apps/one-widget/icon.webp
+lang: zh
 ---
 
 自 Android 12 起，**Material You** 让系统从壁纸提取调色板，并铺满整个 UI。一款 **Material You 小组件** 应当感觉原生——圆角、配色协调、感知主题。**One Widget** 内置可爱、贴合主题的小组件，跟随你的系统外观。下面我们把它们与 **KWGT** 放到 Material You 风格上对比。

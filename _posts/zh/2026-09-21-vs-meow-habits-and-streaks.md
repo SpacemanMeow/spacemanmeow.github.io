@@ -5,6 +5,7 @@ description: "2026 年 Meow Habits 与 Streaks 深度对比：一款免费核心
 layout: guide
 tags: [Meow Habits, Habit Tracker, Routine Builder, Streaks, Android, Comparison]
 image: /assets/images/apps/meow-habits/icon.webp
+lang: zh
 ---
 
 两者都是习惯追踪器，但面向不同用户。**Meow Habits** 是一款免费核心、跨平台、带 500+ 可爱卡通图标、且同时支持养成 *与* 戒除模式的追踪器。**Streaks** 是一款精致、iOS 专属、用于完成正向任务的极简应用。这份 **Meow Habits vs Streaks** 对比带 2026 价格与真实功能差异，帮你选择。

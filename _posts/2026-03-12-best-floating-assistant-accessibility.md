@@ -5,6 +5,7 @@ description: "A practical look at Floating Assistant versus Assistive Touch for 
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Best Apps]
 image: /assets/images/apps/floating-assistant/icon.webp
+lang: en
 ---
 
 Big phones are hard to use one-handed, and some users simply can't reach physical buttons reliably. An **accessibility floating button** puts the controls you need within a thumb's reach. **Floating Assistant** is an **edge floating-ball app for Android** built for exactly this. Below we compare it with **Assistive Touch** for accessible, one-handed control.

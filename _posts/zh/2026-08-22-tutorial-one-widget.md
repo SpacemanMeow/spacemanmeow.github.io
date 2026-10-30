@@ -125,7 +125,3 @@ One Widget 内置 **500+ 可自定义安卓主屏组件**，横跨四种流行�
 
 One Widget 是给你的安卓主屏最快拥有时尚、一体机式组件工具箱的方式——四种外观数百个组件，外加快捷开关与应用快捷方式。
 
-## 相关文章
-
-- [最佳安卓主屏小组件应用（2026）](/zh/posts/pillar-android-home-screen-widget-apps/)
-- [Meow 应用页](/zh/apps/one-widget/)

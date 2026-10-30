@@ -8,6 +8,7 @@ tagline: White noise for sleep, relax & concentrate at work or study. # 一句�
 description: "Meow FM is a white noise app for sleep, relax and focus. Ambient sounds help you fall asleep faster, concentrate at work or study, and unwind after a long day."
 icon: /assets/images/apps/meow-fm/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/meow-fm/icon.webp
+lang: en
 series: Meow # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 5 # 列表页排序，数字越小越靠前
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.whitenoise.relax.night.sleep.meow # 留空则不显示 Google Play 按钮

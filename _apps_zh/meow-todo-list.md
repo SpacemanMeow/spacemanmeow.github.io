@@ -4,6 +4,7 @@ tagline: Meow 待办日程规划与任务管理
 description: "Meow Todo List 是一款简洁的日程规划与待办任务管理应用，适用于 Android，以干净可爱的界面整理任务、提醒与每日计划。"
 icon: /assets/images/apps/meow-todo-list/icon.webp
 image: /assets/images/apps/meow-todo-list/icon.webp
+lang: zh
 series: Meow
 order: 2
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.money.task.todo.list.meow

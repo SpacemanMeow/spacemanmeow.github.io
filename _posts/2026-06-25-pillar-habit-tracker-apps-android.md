@@ -5,6 +5,8 @@ description: "The best habit tracker apps for Android in 2026: what to look for 
 layout: guide
 image: /assets/images/apps/meow-habits/icon.webp
 tags: [Habit Tracker, Routine Builder, Streaks, Android, Meow Habits, App Roundup]
+last_modified_at: 2026-10-30
+lang: en
 ---
 
 Building a habit is mostly about showing up daily, and the right tracker makes that satisfying instead of a chore. This 2026 guide breaks down what a good Android habit tracker does and how Meow Habits compares to the category leaders.

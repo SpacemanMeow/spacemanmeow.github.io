@@ -5,6 +5,7 @@ description: "2026 年 Meow Habits 与 Streaks、Habitica、Loop 在养成与戒
 layout: guide
 tags: [Meow Habits, Habit Tracker, Routine Builder, Streaks, Android, Best Apps]
 image: /assets/images/apps/meow-habits/icon.webp
+lang: zh
 ---
 
 养成习惯，核心大多是每天出现，而合适的应用能让这件事让人满足，而不是压力山大。**Meow Habits** 是一款安卓与 iOS 的 **可爱习惯追踪器**，把日常变成分数、图表与每日小胜利。下面我们把人们实际会装的应用——**Meow Habits、Streaks、Habitica、Loop**——放到养成/戒除模式、平台、隐私与价格上对比。

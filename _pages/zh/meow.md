@@ -7,4 +7,5 @@ nav: meow
 description: "Meow 系列——一组可爱猫主题的 Android 与 iOS 效率应用：记账工具、待办清单、心情日记与习惯养成。"
 image: /assets/images/favicons/avatar.png
 permalink: /zh/meow/
+lang: zh
 ---

@@ -128,7 +128,3 @@ Yes — PDF export is a VIP feature.
 
 Meow Mood Diary makes daily mood tracking effortless and private, with a clear calendar and trend charts to help you understand your emotions over time.
 
-## Related Articles
-
-- [Best Mood Diary & Journaling Apps (2026)](/posts/pillar-mood-diary-journaling-apps/)
-- [Meow app page](/apps/meow-mood-diary/)

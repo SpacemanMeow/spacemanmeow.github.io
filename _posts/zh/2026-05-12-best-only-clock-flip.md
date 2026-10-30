@@ -5,6 +5,7 @@ description: "2026 年 Only Clock 与 Flip Clock 的实用对比——翻页动�
 layout: guide
 tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Best Apps]
 image: /assets/images/apps/only-clock/icon.webp
+lang: zh
 ---
 
 一款 **翻页钟应用** 把任意手机或平板变成一块平静、复古的时计。**Only Clock** 是一款带流畅翻页动画、主题、浮窗模式、白噪音与专注计时器的 **全屏翻页钟**。下面我们把它与热门免费的 **Flip Clock** 对比，看各自真正擅长什么。

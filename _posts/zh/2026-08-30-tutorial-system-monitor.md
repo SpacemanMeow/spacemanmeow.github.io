@@ -119,7 +119,3 @@ System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **只�
 
 当你只想 *看* 手机内部——CPU 温度、电池健康与实时数据——而不想要清理器或加速器时，System Monitor 是诚实的选择。一次性付费下载。
 
-## 相关文章
-
-- [最佳安卓系统监控与设备信息应用（2026）](/zh/posts/pillar-system-monitor-apps-android/)
-- [Meow 应用页](/zh/apps/system-monitor/)

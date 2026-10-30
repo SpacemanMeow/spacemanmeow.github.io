@@ -5,6 +5,7 @@ description: "A practical look at Meow Habits versus Streaks, Habitica and Loop 
 layout: guide
 tags: [Meow Habits, Habit Tracker, Routine Builder, Streaks, Android, Best Apps]
 image: /assets/images/apps/meow-habits/icon.webp
+lang: en
 ---
 
 Building a habit is mostly about showing up daily, and the right app makes that satisfying instead of stressful. **Meow Habits** is a **cute habit tracker** for Android and iOS that turns routines into streaks, charts, and small daily wins. Below we compare the apps people actually install — **Meow Habits, Streaks, Habitica and Loop** — across build/break modes, platforms, privacy, and price.

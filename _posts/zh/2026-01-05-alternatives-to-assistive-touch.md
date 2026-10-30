@@ -5,6 +5,7 @@ description: "2026 年想找 Assistive Touch 的替代品？我们对比了六�
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Alternatives]
 image: /assets/images/apps/floating-assistant/icon.webp
+lang: zh
 ---
 
 如果你想在不依赖实体按键的情况下操作屏幕导航，这些 **Assistive Touch 的替代品** 从简单的悬浮球，到完整的悬浮层与手势控制，应有尽有。（iPhone 用户注意：**AssistiveTouch 已内置在 iOS 中**——路径为「设置 > 辅助功能 > 触控 > AssistiveTouch」——无需额外下载 App。）

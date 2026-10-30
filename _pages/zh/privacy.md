@@ -7,6 +7,7 @@ description: "Meow Apps Studio 隐私政策——我们的应用如何收集、�
 image: /assets/images/favicons/avatar.png
 seo:
   type: WebPage
+lang: zh
 ---
 
 _最后更新：2026 年 9 月 17 日_

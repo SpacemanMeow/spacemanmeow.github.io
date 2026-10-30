@@ -5,6 +5,8 @@ description: "2026 年最佳安卓 FPS 游戏准星叠层应用：该看什么�
 layout: guide
 image: /assets/images/apps/cross-hair/icon.webp
 tags: [Crosshair, FPS Games, Aim Trainer, Android, Crosshair Aim, App Roundup]
+last_modified_at: 2026-10-30
+lang: zh
 ---
 
 手机 FPS 游戏不总给你喜欢的准星——或者根本不给。准星叠层能解决这个问题，这份 2026 指南讲清该看什么，以及 Crosshair Aim 如何与替代应用对比。

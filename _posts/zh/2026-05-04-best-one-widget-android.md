@@ -5,6 +5,7 @@ description: "2026 年 One Widget 与 KWGT 的实用对比——现成猫主题�
 layout: guide
 tags: [One Widget, Home Screen Widgets, Widget Maker, Android Customization, Android, Best Apps]
 image: /assets/images/apps/one-widget/icon.webp
+lang: zh
 ---
 
 一款好的 **安卓小组件**，把你查得最勤的信息——时间、天气、电量、今日日历——放到主屏，而不必开应用。**One Widget** 是一款安卓的 **猫主题组件包**，内置即放即用的小组件，几秒就能摆好。下面我们从设置、风格与价格，把它与深度自定义工具箱 **KWGT** 对比。

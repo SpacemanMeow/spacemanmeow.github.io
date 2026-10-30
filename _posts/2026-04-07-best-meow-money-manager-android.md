@@ -5,6 +5,7 @@ description: "A practical look at Meow Money Manager on Android versus YNAB, Poc
 layout: guide
 tags: [Meow Money, Budget App, Expense Tracker, Money Manager, Android, Best Apps]
 image: /assets/images/apps/meow-money-manager/icon.webp
+lang: en
 ---
 
 On Android, picking a **budget app** is a slightly different decision than on iOS. You're handing an app a window into your financial life, and Android's open ecosystem makes the trade-offs around **privacy** and **local storage** feel more immediate. Some people want a coaching system that syncs their bank automatically; others just want to log spending in ten seconds without creating yet another cloud account tied to their Google ID.

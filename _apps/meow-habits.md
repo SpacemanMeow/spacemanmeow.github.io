@@ -8,6 +8,7 @@ tagline: A breath of fresh air for habit building, Say goodbye to short-lived en
 description: "Meow Habits is a habit tracker and routine builder to build consistent habits and streaks, track daily routines and stay motivated with a friendly design."
 icon: /assets/images/apps/meow-habits/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/meow-habits/icon.webp
+lang: en
 series: Meow # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 3 # 列表页排序，数字越小越靠前
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.meow.habit.goal # 留空则不显示 Google Play 按钮
@@ -38,6 +39,12 @@ faq:
   - question: Can I export my habit progress?
     answer: >-
       Yes. Export CSV reports to analyze your habit trends and optimize your routine.
+  - question: Can Meow Habits help me build a streak?
+    answer: >-
+      Yes. Meow Habits tracks daily check-ins and shows a streak counter so you can see how many days in a row you have kept a habit.
+  - question: Does Meow Habits send reminders?
+    answer: >-
+      Yes. You can set a daily reminder for each habit so you never miss a check-in.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
@@ -70,3 +77,7 @@ Compatible with Google Drive and WebDav, this habit tracker offers automated bac
 Freely switch between two carefully calibrated themes, both easy on the eyes with a healing, soft visual feel. Adapt perfectly to daytime work and nighttime recording, making habit tracking comfortable and keeping your execution efficiency high.
 
 Tired of struggling to stick to habits and feeling discouraged? Take the plunge and download Meow Habits now! This game-changing habit tracker blends a scientific habit-building system, adorable cartoon visuals, and seamless workflows to kickstart your self-discipline journey—no more tedious tracking, just effortless consistency. Turn every small effort into trackable progress, optimize your daily efficiency, and unlock lasting habits that stick. Don’t miss out on the most delightful way to master habit building and let good habits become your second nature!
+
+## Related terms
+
+- [What Is a Habit Streak?](/glossary/what-is-a-habit-streak/)

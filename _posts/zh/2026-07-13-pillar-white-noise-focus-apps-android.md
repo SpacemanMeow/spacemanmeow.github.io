@@ -5,6 +5,8 @@ description: "2026 年最佳安卓白噪音与专注应用：该看什么（睡�
 layout: guide
 image: /assets/images/apps/meow-fm/icon.webp
 tags: [White Noise App, Focus App, Sleep Sounds, Android, Meow FM, App Roundup]
+last_modified_at: 2026-10-30
+lang: zh
 ---
 
 如果睡不着、专注不断溜走，或隔壁宿舍安静不下来，白噪音应用是安卓上最便宜的睡眠与专注工具。这份 2026 指南拆开声音应用真正重要的东西，以及 Meow FM 如何与 Calm 等巨头比高低。

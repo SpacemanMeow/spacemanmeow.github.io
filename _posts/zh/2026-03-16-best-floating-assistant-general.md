@@ -5,6 +5,7 @@ description: "2026 年 Floating Assistant 与 Assistive Touch 的实用对比—
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Best Apps]
 image: /assets/images/apps/floating-assistant/icon.webp
+lang: zh
 ---
 
 一个 **浮动助手** 在屏幕边缘放一颗小按钮，触发你最常用的动作——返回、主页、多任务、锁屏、截图——不必到处找物理键。**Floating Assistant** 是一款自定义极强的安卓 **边缘浮动球应用**。下面我们把它与广受欢迎的浮动按钮代表 **Assistive Touch** 对比，看二者在日常多任务中的表现。

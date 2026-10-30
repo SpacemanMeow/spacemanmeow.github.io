@@ -5,6 +5,7 @@ description: "2026 年 Crosshair Aim 与 Crosshair Hero 在手机 FPS 上的实�
 layout: guide
 tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Best Apps]
 image: /assets/images/apps/cross-hair/icon.webp
+lang: zh
 ---
 
 PUBG Mobile、COD Mobile 这类手机 FPS 会自己画准星，但它不总在你想要的位置。一个 **准星叠层** 能在游戏之上叠一个你说了算的准星——无需 root，只要一个叠层权限。**Crosshair Aim** 是一款安卓 **自定义准星应用**，内置 80+ 样式与一个游戏内浮动调节器。下面我们把它与 **Crosshair Hero** 对比，看谁更适合射击游戏。

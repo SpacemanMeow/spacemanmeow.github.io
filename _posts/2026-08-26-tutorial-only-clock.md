@@ -120,7 +120,3 @@ Yes — the clock uses a keep-screen-on flag while displayed; for a nightstand u
 
 Only Clock turns any device into a gorgeous flip-clock display with widgets and soothing white noise — free to start, with a Pro upgrade to remove ads and unlock all themes.
 
-## Related Articles
-
-- [Best Flip Clock Apps for Android (2026)](/posts/pillar-flip-clock-apps-android/)
-- [Meow app page](/apps/only-clock/)

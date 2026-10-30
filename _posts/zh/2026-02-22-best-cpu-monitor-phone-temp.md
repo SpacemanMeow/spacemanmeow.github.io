@@ -5,6 +5,7 @@ description: "2026 年 CPU Monitor 与 CPU-Z 在整机温度管理上的实用�
 layout: guide
 tags: [CPU Monitor, Phone Temperature, System Utility, Android, Best Apps]
 image: /assets/images/apps/cpu-monitor/icon.webp
+lang: zh
 ---
 
 发热不只是 CPU 的事——电池、GPU 和环境传感器都会贡献热量，而电池一热，老化就更快。一款 **手机温度应用** 应当读取整机状态、及时提醒你，并给出解决办法。**CPU Monitor** 是一款带提醒与建议的安卓 **整机温度监控工具**。下面我们把它与 **CPU-Z** 对比，看二者如何管理设备的整体发热。

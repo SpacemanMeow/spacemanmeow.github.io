@@ -4,6 +4,7 @@ title: Tags
 subtitle: Browse every article by topic — from budget apps and to-do lists to flip clocks and CPU monitors.
 permalink: /tags/
 description: "Browse all Meow Apps Studio articles by topic: budget apps, expense trackers, to-do lists, habit trackers, mood diaries, home screen widgets, flip clocks, CPU monitors and more."
+lang: en
 ---
 
 {%- comment -%}

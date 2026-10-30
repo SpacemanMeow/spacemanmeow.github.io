@@ -5,6 +5,7 @@ description: "A practical look at Crosshair Aim versus Crosshair Hero as a custo
 layout: guide
 tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Best Apps]
 image: /assets/images/apps/cross-hair/icon.webp
+lang: en
 ---
 
 Beyond shooters, a **custom crosshair overlay** is handy for aim trainers, emulators, and any app where a fixed reference point helps. The **best crosshair overlay** lets you import your own image, set transparency, and remember positions per app. **Crosshair Aim** is a **custom crosshair app** for Android with PNG import and a floating adjuster. Below we compare it with **Crosshair Hero** for general overlay use.

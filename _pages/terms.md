@@ -7,6 +7,7 @@ description: "Meow Apps Studio Terms of Use — the terms governing your use of 
 image: /assets/images/favicons/avatar.png
 seo:
   type: WebPage
+lang: en
 ---
 
 _Last updated: September 16, 2026_

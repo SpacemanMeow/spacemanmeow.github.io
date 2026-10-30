@@ -5,6 +5,7 @@ description: "A practical look at Crosshair Aim versus Crosshair Hero for FPS mo
 layout: guide
 tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Best Apps]
 image: /assets/images/apps/cross-hair/icon.webp
+lang: en
 ---
 
 Mobile FPS games like PUBG Mobile and COD Mobile draw their own crosshair, and it isn't always where you want it. A **crosshair overlay** puts a reticle you control on top of the game — no root, just an overlay permission. **Crosshair Aim** is a **custom crosshair app** for Android with 80+ styles and an in-game floating adjuster. Below we compare it with **Crosshair Hero** for shooter use.

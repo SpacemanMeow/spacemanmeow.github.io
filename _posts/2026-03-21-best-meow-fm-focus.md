@@ -5,6 +5,7 @@ description: "A practical look at Meow FM versus Calm, Noisli and Brain.fm for f
 layout: guide
 tags: [Meow FM, White Noise, Sleep, Focus, Relax, Android, Best Apps]
 image: /assets/images/apps/meow-fm/icon.webp
+lang: en
 ---
 
 An open-plan office, a chatty coffee shop, a roommate on a call — the enemy of focus is usually **sudden human sound**, not overall noise. A steady **white noise app** smooths those spikes into a constant hush so your brain stops monitoring the room. **Meow FM** is a **free white noise player** for Android and iOS with soundscapes for both sleep and concentration. Here's how it compares for deep work, and what actually helps you stay on task.

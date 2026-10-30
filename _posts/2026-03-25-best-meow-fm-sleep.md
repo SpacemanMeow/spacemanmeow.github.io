@@ -5,6 +5,7 @@ description: "A practical look at Meow FM versus Calm, Rain Rain and White Noise
 layout: guide
 tags: [Meow FM, White Noise, Sleep, Focus, Relax, Android, Best Apps]
 image: /assets/images/apps/meow-fm/icon.webp
+lang: en
 ---
 
 A **sleep sounds app** earns its place on your phone by doing one job quietly: helping your brain stop noticing the world. Traffic outside, a partner's snore, a hotel room's hum — steady ambient sound masks those sudden spikes so you can drift off. **Meow FM** is a **free white noise app** for sleep with natural soundscapes and a timer that stops on its own. Here's how it compares with other bedtime options, and which sounds actually help.

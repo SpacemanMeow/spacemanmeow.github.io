@@ -5,6 +5,7 @@ description: "2026 年 Meow FM 与 Calm、Rain Rain、White Noise (TMSOFT) 在�
 layout: guide
 tags: [Meow FM, White Noise, Sleep, Focus, Relax, Android, Best Apps]
 image: /assets/images/apps/meow-fm/icon.webp
+lang: zh
 ---
 
 一款 **睡眠声音应用** 能在手机上占有一席之地，靠的是安静地做好一件事：帮你的大脑停止留意这个世界。窗外的车流、伴侣的鼾声、酒店房间的嗡鸣——稳定的环境音能盖住那些突兀的尖峰，让你慢慢漂走。**Meow FM** 是一款 **免费白噪音睡眠应用**，拥有自然声景和一个会自动停止的计时器。下面是它与其他睡前选项的对比，以及哪些声音真的有效。

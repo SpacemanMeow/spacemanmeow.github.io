@@ -5,6 +5,7 @@ description: "2026 年 CPU Monitor 与 CPU-Z 的实用对比——实时 CPU 温
 layout: guide
 tags: [CPU Monitor, Phone Temperature, System Utility, Android, Best Apps]
 image: /assets/images/apps/cpu-monitor/icon.webp
+lang: zh
 ---
 
 手机一热就会变慢——触发温控降频，帧率随之掉下来。一款 **CPU 温度监控** 能让你在发热拖累性能之前就看到温度。**CPU Monitor** 是一款安卓 **CPU 温度应用**，提供实时温度、每核负载与过热提醒。下面我们把它与经典硬件信息工具 **CPU-Z** 对比，看谁更善于及早发现发热。

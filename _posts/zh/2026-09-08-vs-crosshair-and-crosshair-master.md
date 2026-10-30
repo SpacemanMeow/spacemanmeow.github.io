@@ -5,6 +5,7 @@ description: "2026 年 Crosshair Aim 与 Crosshair Hero 深度对比：带游戏
 layout: guide
 tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Comparison, Crosshair Hero]
 image: /assets/images/apps/cross-hair/icon.webp
+lang: zh
 ---
 
 两者都在游戏上画准星，但适合不同的玩家。**Crosshair Aim** 是一款带游戏内浮动调节器的可自定义 FPS 叠层；**Crosshair Hero** 是点一下就能用的受欢迎预设式准星叠层。这份 **Crosshair Aim vs Crosshair Hero** 对比帮你在 2026 年挑选一款 **自定义准星叠层**。

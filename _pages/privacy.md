@@ -7,6 +7,7 @@ description: "Meow Apps Studio Privacy Policy — how our apps collect, use, sto
 image: /assets/images/favicons/avatar.png
 seo:
   type: WebPage
+lang: en
 ---
 
 _Last Updated: September 17, 2026_

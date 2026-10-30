@@ -110,7 +110,3 @@ Not separately. Thickness is part of each style's design.
 
 Crosshair is the lightest way to add a precise, customizable reticle to any Android shooter — no root, no Accessibility, with 80+ styles and a free tier to start.
 
-## Related Articles
-
-- [Best Crosshair Apps for FPS Games on Android (2026)](/posts/pillar-crosshair-apps-fps-android/)
-- [Meow app page](/apps/cross-hair/)

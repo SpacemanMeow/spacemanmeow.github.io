@@ -5,6 +5,7 @@ description: "Looking for alternatives to Assistive Touch in 2026? We compare si
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Alternatives]
 image: /assets/images/apps/floating-assistant/icon.webp
+lang: en
 ---
 
 If you want on-screen navigation without hardware keys, these **alternatives to Assistive Touch** go from simple floating balls to full overlays and gesture control. (iPhone users: **AssistiveTouch is built into iOS** — Settings > Accessibility > Touch > AssistiveTouch — so no app is needed.)

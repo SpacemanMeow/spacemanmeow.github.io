@@ -5,6 +5,8 @@ description: "The best floating assistant and assistive touch apps for Android i
 layout: guide
 image: /assets/images/apps/floating-assistant/icon.webp
 tags: [Floating Assistant, Assistive Touch, One-Hand, Android, App Roundup]
+last_modified_at: 2026-10-30
+lang: en
 ---
 
 A floating ball puts your most-used actions one tap away and makes big phones usable one-handed. This 2026 guide covers what to look for in an assistive-touch app and how Floating Assistant compares to the alternatives.

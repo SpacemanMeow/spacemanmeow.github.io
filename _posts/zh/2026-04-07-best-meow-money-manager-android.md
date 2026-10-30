@@ -5,6 +5,7 @@ description: "2026 年安卓端 Meow Money Manager 与 YNAB、PocketGuard、Ever
 layout: guide
 tags: [Meow Money, Budget App, Expense Tracker, Money Manager, Android, Best Apps]
 image: /assets/images/apps/meow-money-manager/icon.webp
+lang: zh
 ---
 
 在安卓上挑选一款 **记账应用**，和 iOS 上略有不同。你是在把一个能窥见你财务生活的窗口交给应用，而安卓开放的生态让围绕 **隐私** 与 **本地存储** 的取舍显得更直接。有人想要能自动同步银行的教练系统；有人只想十秒钟记下开销，而不必再建一个绑定 Google ID 的云账号。

@@ -8,6 +8,7 @@ tagline: Including assistive touch, floating clock and floating monitor # 一句
 description: "Floating Assistant brings assistive touch, a floating clock and floating system monitor to your Android screen, letting you control your phone."
 icon: /assets/images/apps/floating-assistant/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/floating-assistant/icon.webp
+lang: en
 series: # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 10 # 列表页排序，数字越小越靠前
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.floating.apps.assistive.touch.pro # 留空则不显示 Google Play 按钮
@@ -36,6 +37,12 @@ faq:
   - question: Is Floating Assistant safe for my data?
     answer: >-
       Yes. It uses Accessibility services only for the listed controls and does not collect personal or sensitive data.
+  - question: What is Assistive Touch in Floating Assistant?
+    answer: >-
+      Assistive Touch adds a floating ball with virtual home, back, recent and volume buttons, one-tap boost, screenshot and quick app access, protecting your physical buttons.
+  - question: Does Floating Assistant show a floating clock?
+    answer: >-
+      Yes. Floating Assistant can show a floating clock and countdown in an overlay window while you use other apps.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
@@ -94,3 +101,7 @@ Floating window show the cpu temperature, battery temperature, ram usage real ti
 - CAMERA to turn on Flashlight, not take a photo.
 
 We do not collect any data or take actions that users do not do. We never publicly disclose any personal or sensitive user data related to financial or payment activities or any government identification numbers, photos and contacts, etc.
+
+## Related terms
+
+- [What Is a Floating Window?](/glossary/what-is-a-floating-window/)

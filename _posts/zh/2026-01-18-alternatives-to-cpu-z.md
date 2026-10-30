@@ -5,6 +5,7 @@ description: "2026 年想找 CPU-Z 的替代品？我们对比了六款硬件与
 layout: guide
 tags: [CPU Monitor, Phone Temperature, System Utility, Android, Alternatives, CPU-Z]
 image: /assets/images/apps/cpu-monitor/icon.webp
+lang: zh
 ---
 
 CPU-Z 查个快速参数表很方便，但在安卓上它 **不显示实时温度、没有悬浮窗，也不提供小组件或过热警报**。如果你想要实时监控，市面上已有成熟选择。

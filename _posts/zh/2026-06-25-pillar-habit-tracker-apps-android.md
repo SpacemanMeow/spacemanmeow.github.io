@@ -5,6 +5,8 @@ description: "2026 年最佳安卓习惯追踪应用：该看什么（连续天�
 layout: guide
 image: /assets/images/apps/meow-habits/icon.webp
 tags: [Habit Tracker, Routine Builder, Streaks, Android, Meow Habits, App Roundup]
+last_modified_at: 2026-10-30
+lang: zh
 ---
 
 养成习惯，核心大多是每天出现，而合适的追踪器能让这件事令人满足，而不是压力山大。这份 2026 指南拆开一款好安卓习惯追踪器做什么，以及 Meow Habits 如何与品类领头羊对比。

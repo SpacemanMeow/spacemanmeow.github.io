@@ -126,7 +126,3 @@ Floating Assistant 为安卓添加一颗 **浮动球**，用于快速启动应�
 
 Floating Assistant 让大屏手机可以单手操作：一颗用于启动与应用动作的浮动球，外加开关小组件——免费起步，另有无广告的 Pro 应用。
 
-## 相关文章
-
-- [最佳安卓浮动助手与辅助触控应用（2026）](/zh/posts/pillar-floating-assistant-apps-android/)
-- [Meow 应用页](/zh/apps/floating-assistant/)

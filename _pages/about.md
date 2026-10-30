@@ -6,6 +6,7 @@ permalink: /about/
 nav: about
 description: "Meow Apps Studio is an independent mobile app studio crafting beautiful, elegant and useful Android and iOS apps loved by users worldwide."
 image: /assets/images/favicons/avatar.png
+lang: en
 ---
 
 ## Who we are

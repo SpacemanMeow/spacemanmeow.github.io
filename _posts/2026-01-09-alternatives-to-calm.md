@@ -5,6 +5,7 @@ description: "Looking for alternatives to Calm in 2026? We compare six sleep and
 layout: guide
 tags: [Meow FM, White Noise, Sleep, Focus, Relax, Android, Alternatives, Calm]
 image: /assets/images/apps/meow-fm/icon.webp
+lang: en
 ---
 
 Calm is popular, but its **~$69.99/year subscription** is not for everyone. If you mainly want **ambient sound for sleep and focus**, there are simpler, cheaper, and often no-account alternatives.

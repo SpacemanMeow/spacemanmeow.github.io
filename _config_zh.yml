@@ -63,6 +63,10 @@ collections:
     output: true
     path: _apps_zh
     permalink: /zh/apps/:name/
+  glossary_zh:
+    output: true
+    path: _glossary_zh
+    permalink: /zh/glossary/:name/
   posts:
     output: true
     path: _posts/zh
@@ -129,6 +133,8 @@ destination: _site/zh
 #       因此无法用 "_posts/*" 区分直接子项与 _posts/zh/ 子项，须用上述前缀/目录排除法。
 exclude:
   - _apps/
+  - _glossary/
+  - _glossary/**
   - _posts/2*
   - _posts/1*
   - index.html

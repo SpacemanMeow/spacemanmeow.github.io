@@ -5,6 +5,7 @@ description: "A practical look at One Widget versus KWGT in 2026 — ready-made 
 layout: guide
 tags: [One Widget, Home Screen Widgets, Widget Maker, Android Customization, Android, Best Apps]
 image: /assets/images/apps/one-widget/icon.webp
+lang: en
 ---
 
 A good **Android widget** puts the info you check most — time, weather, battery, today's calendar — on the home screen without opening an app. **One Widget** is a **cat-themed widget pack** for Android that ships ready-made widgets you place in seconds. Below we compare it with **KWGT**, the deep-customization toolkit, across setup, styling, and price.

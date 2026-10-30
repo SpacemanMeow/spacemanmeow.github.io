@@ -5,6 +5,7 @@ description: "Mint was shut down in March 2024. Here are the best Mint alternati
 layout: guide
 tags: [Meow Money, Budget App, Expense Tracker, Money Manager, Android, Alternatives, Mint]
 image: /assets/images/apps/meow-money-manager/icon.webp
+lang: en
 ---
 
 Intuit **shut down Mint in March 2024** and folded its features into Credit Karma. If you are looking for **alternatives to Mint**, you are not alone — millions of former users want a **budget app** that tracks spending clearly, without being pushed toward credit products or forced into a cloud account they don't trust.

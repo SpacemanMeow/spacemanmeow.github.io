@@ -5,6 +5,7 @@ description: "2026 年想找 Day One 的替代品？我们对比了六款日记�
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Journal, Mental Health, Android, Alternatives, Day One]
 image: /assets/images/apps/meow-mood-diary/icon.webp
+lang: zh
 ---
 
 Day One 是一款强大的日记应用，但它 **约 35 美元/年的订阅** 与「云优先」模式并不适合所有人。如果你想要更私密、更偏心情记录，或者单纯更便宜的方案，日记这个品类里有不少强项应用。

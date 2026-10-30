@@ -4,6 +4,7 @@ tagline: Meow 心情日记 - 安放你情绪的安全角落
 description: "Meow Mood Diary 是一款安全、私密的心情日记与记录应用，以治愈的猫主题界面记录情绪、追踪心情并练习感恩。"
 icon: /assets/images/apps/meow-mood-diary/icon.webp
 image: /assets/images/apps/meow-mood-diary/icon.webp
+lang: zh
 series: Meow
 order: 4
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.meow.mood.diary

@@ -5,6 +5,7 @@ description: "2026 年 Meow Mood 与 Day One、Journey、Daylio、Grid Diary 在
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Journal, Mental Health, Android, Best Apps]
 image: /assets/images/apps/meow-mood-diary/icon.webp
+lang: zh
 ---
 
 一款 **心情日记** 帮你察觉自己感受中的规律——不是靠写长文，而是十秒钟记下一个感觉，让趋势替你说话。**Meow Mood** 是一款安卓与 iOS 的 **私密心情追踪器**，让记录变得轻松：点一个情绪、加点背景，然后看图表。下面我们从心情追踪、隐私、价格与平台，对比人们实际会装的应用——**Meow Mood、Day One、Journey、Daylio、Grid Diary**。

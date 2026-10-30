@@ -5,6 +5,8 @@ description: "2026 年最佳安卓 CPU 温度与频率监控应用：该看什�
 layout: guide
 image: /assets/images/apps/cpu-monitor/icon.webp
 tags: [CPU Monitor, CPU Temperature, Overheat Alarm, Android, App Roundup]
+last_modified_at: 2026-10-30
+lang: zh
 ---
 
 当手机发热或变卡，你想知道为什么——而不只是含糊的"正在优化"。CPU 监控器把变慢背后的数字亮出来，这份 2026 指南讲清该看什么，以及 CPU Monitor 如何对比。

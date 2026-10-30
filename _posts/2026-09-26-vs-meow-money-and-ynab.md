@@ -5,6 +5,7 @@ description: "Meow Money Manager vs YNAB compared in depth: privacy-first local 
 layout: guide
 tags: [Meow Money, Budget App, Expense Tracker, Money Manager, Android, Comparison]
 image: /assets/images/apps/meow-money-manager/icon.webp
+lang: en
 ---
 
 Choosing between **Meow Money Manager** and **YNAB** (You Need A Budget) comes down to one question: do you want a *private, lightweight tracker* or a *proactive envelope-budgeting system*? Both are excellent **budget apps**, but they serve different habits. This comparison breaks down price, privacy, currencies and workflow so you can decide with confidence.

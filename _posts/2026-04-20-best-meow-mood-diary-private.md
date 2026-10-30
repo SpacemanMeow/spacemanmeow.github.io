@@ -5,6 +5,7 @@ description: "A privacy-focused look at Meow Mood versus Day One, Daylio, Apple 
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Journal, Mental Health, Android, Best Apps]
 image: /assets/images/apps/meow-mood-diary/icon.webp
+lang: en
 ---
 
 If privacy matters more than cloud features, you need a **private diary app** that never ships your thoughts to a server. **Meow Mood** is an **offline mood diary** built around that promise: entries stay on your device, and the only backup is the Google Drive you choose. Here's how it compares with other privacy-minded options, and what to check before you commit.

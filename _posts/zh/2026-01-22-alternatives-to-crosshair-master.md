@@ -5,6 +5,7 @@ description: "2026 年想找 Crosshair Master 的替代品？我们对比了六�
 layout: guide
 tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Alternatives, Crosshair Master]
 image: /assets/images/apps/cross-hair/icon.webp
+lang: zh
 ---
 
 Crosshair Master 能在射击游戏上叠加自定义准星，但它的 **样式范围、实时控制与免费限制** 让不少玩家想要更多。如果你想要更精细的控制、更多预设，或更轻量的叠加层，这个品类已有成熟选择。

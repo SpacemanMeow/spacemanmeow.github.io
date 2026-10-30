@@ -5,6 +5,7 @@ description: "2026 年 Meow FM 与 Calm 深度对比：一款简单可爱的白�
 layout: guide
 tags: [Meow FM, White Noise, Sleep, Focus, Relax, Android, Comparison, Calm]
 image: /assets/images/apps/meow-fm/icon.webp
+lang: zh
 ---
 
 两者都助你睡眠，但是不同的工具。**Meow FM** 是一款简单可爱的白噪音播放器——雨、海、壁炉等，带睡眠计时器。**Calm** 是一个完整的健康订阅服务，含引导冥想、睡眠故事与音乐。这份 **Meow FM vs Calm** 对比带真实价格，帮你在 2026 年挑对 **助眠声音应用**。

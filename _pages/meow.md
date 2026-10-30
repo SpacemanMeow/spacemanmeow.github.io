@@ -7,4 +7,5 @@ nav: meow
 description: "The Meow series — a family of cute, cat-themed productivity apps for Android and iOS: expense tracker, to-do list, mood diary and habit tracker."
 image: /assets/images/favicons/avatar.png
 permalink: /meow/
+lang: en
 ---

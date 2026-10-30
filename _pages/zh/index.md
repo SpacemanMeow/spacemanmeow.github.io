@@ -6,4 +6,5 @@ nav: home
 description: "Meow Apps Studio 设计美观优雅的 Android 与 iOS 应用——可爱的记账本、心情日记、习惯养成、CPU 监控以及桌面小组件。"
 image: /assets/images/favicons/avatar.png
 permalink: /zh/
+lang: zh
 ---

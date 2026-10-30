@@ -119,7 +119,3 @@ Meow Habits 是一款安卓与 iOS 的可爱习惯追踪与日常构建器。用
 
 Meow Habits 用可爱图标、连续天数与清晰趋势，把养成习惯变成平静的日常仪式——并且完全离线可用。
 
-## 相关文章
-
-- [最佳安卓习惯追踪应用（2026）](/zh/posts/pillar-habit-tracker-apps-android/)
-- [Meow 应用页](/zh/apps/meow-habits/)

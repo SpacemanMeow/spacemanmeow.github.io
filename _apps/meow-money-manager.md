@@ -8,6 +8,7 @@ tagline: Cat-Themed Expense Tracking & Budget Management App # 一句话简介
 description: "Meow Money Manager is a cat-themed expense tracker and budget app for Android and iOS, with fingerprint lock, multi-currency ledgers and CSV export."
 icon: /assets/images/apps/meow-money-manager/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/meow-money-manager/icon.webp
+lang: en
 series: Meow # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 1 # 列表页排序，数字越小越靠前
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow # 留空则不显示 Google Play 按钮
@@ -39,6 +40,12 @@ faq:
   - question: How do I export my expense report to CSV?
     answer: >-
       Open the app, choose export, and save your records as a CSV file for a selected date range, then view or edit it in Excel.
+  - question: Is Meow Money free to use?
+    answer: >-
+      Meow Money is free to download and track expenses; advanced features like multi-currency ledger and CSV export can be unlocked via one-time or subscription upgrades.
+  - question: Does Meow Money require an account?
+    answer: >-
+      No. Meow Money works without an account, and your data stays on your device — ideal for private expense tracking.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
@@ -93,3 +100,7 @@ Meow Manager can export the record report to file in the form of csv. You can ex
 **Backup & Restore**
 
 Meow Money manager support iCloud backup and WebDav backup, the backup files will be auto saved when you add the records to prevent data loss. You can also backup files manually.
+
+## Related terms
+
+- [What Is an Expense Tracker?](/glossary/what-is-an-expense-tracker/)

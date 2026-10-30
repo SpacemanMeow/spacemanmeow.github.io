@@ -5,6 +5,8 @@ description: "The best to-do list and task manager apps for Android in 2026: wha
 layout: guide
 image: /assets/images/apps/meow-todo-list/icon.webp
 tags: [To-Do List, Task Manager, Schedule Planner, Android, Meow Todo, App Roundup]
+last_modified_at: 2026-10-30
+lang: en
 ---
 
 A to-do list only works if you actually open it, and the right task manager makes that happen instead of becoming another tab you ignore. This 2026 guide looks at what makes a great Android task manager and how Meow Todo List compares to the category leaders.

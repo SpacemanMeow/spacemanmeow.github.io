@@ -7,6 +7,7 @@ description: "Meow Apps Studio 使用条款——约束你使用我们应用及 
 image: /assets/images/favicons/avatar.png
 seo:
   type: WebPage
+lang: zh
 ---
 
 _最后更新：2026 年 9 月 16 日_

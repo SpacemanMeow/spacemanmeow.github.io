@@ -4,6 +4,7 @@ tagline: 500+ 款 One UI、Nothing、Glass、Material You 风格小组件
 description: "One Widget 汇集 500+ 可自定义的 Android 桌面小组件，涵盖 Glass iOS、Material You、Galaxy One UI 与 Nothing 风格，并提供应用快捷方式与时钟。"
 icon: /assets/images/apps/one-widget/icon.webp
 image: /assets/images/apps/one-widget/icon.webp
+lang: zh
 series:
 order: 7
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.galaxy.nothing.glass.material.widget

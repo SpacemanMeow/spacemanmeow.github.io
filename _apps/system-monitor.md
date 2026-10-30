@@ -8,6 +8,7 @@ tagline: Real-time CPU, storage, memory and battery info detection for Android. 
 description: "System Monitor is a paid Android tool for hardware info detection: real-time CPU temperature and frequency, storage and memory usage, and battery health monitoring."
 icon: /assets/images/apps/system-monitor/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/system-monitor/icon.webp
+lang: en
 series: # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 6 # 列表页排序，数字越小越靠前
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.marvel # 留空则不显示 Google Play 按钮

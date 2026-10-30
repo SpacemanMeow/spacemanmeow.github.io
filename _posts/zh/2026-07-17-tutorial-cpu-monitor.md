@@ -102,7 +102,3 @@ CPU Monitor 在安卓上显示 **实时 CPU 温度与频率、RAM、电池与存
 
 CPU Monitor 是一套实用的实时监控工具箱——实时温度、过热报警、浮窗数据、小组件与历史曲线——还附带缓存清理。
 
-## 相关文章
-
-- [最佳安卓 CPU 温度监控应用（2026）](/zh/posts/pillar-cpu-temperature-monitor-apps-android/)
-- [Meow 应用页](/zh/apps/cpu-monitor/)

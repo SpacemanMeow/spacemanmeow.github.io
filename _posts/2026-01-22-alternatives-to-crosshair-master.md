@@ -5,6 +5,7 @@ description: "Looking for alternatives to Crosshair Master in 2026? We compare s
 layout: guide
 tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Alternatives, Crosshair Master]
 image: /assets/images/apps/cross-hair/icon.webp
+lang: en
 ---
 
 Crosshair Master adds a custom reticle over your shooter, but its **style range, real-time controls, and free limits** leave some players wanting more. If you want finer control, more presets, or a lighter overlay, the category has mature options.

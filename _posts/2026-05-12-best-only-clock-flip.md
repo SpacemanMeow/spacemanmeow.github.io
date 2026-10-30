@@ -5,6 +5,7 @@ description: "A practical look at Only Clock versus Flip Clock in 2026 — flip 
 layout: guide
 tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Best Apps]
 image: /assets/images/apps/only-clock/icon.webp
+lang: en
 ---
 
 A **flip clock app** turns any phone or tablet into a calming, retro timepiece. **Only Clock** is a **fullscreen flip clock** with smooth flip animation, themes, a floating mode, white noise, and a focus timer. Below we compare it with the popular free **Flip Clock** and what each is actually good at.

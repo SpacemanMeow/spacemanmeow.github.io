@@ -5,6 +5,7 @@ description: "A practical look at One Widget versus KWGT for Material You stylin
 layout: guide
 tags: [One Widget, Home Screen Widgets, Widget Maker, Android Customization, Android, Best Apps]
 image: /assets/images/apps/one-widget/icon.webp
+lang: en
 ---
 
 Since Android 12, **Material You** lets the system pull a color palette from your wallpaper and spread it across the UI. A **Material You widget** should feel native — rounded, color-matched, and theme-aware. **One Widget** ships cute, theme-friendly widgets that follow your system look. Below we compare it with **KWGT** for Material You styling.

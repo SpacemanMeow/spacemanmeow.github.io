@@ -5,6 +5,7 @@ description: "A practical look at Meow Todo versus Todoist, Microsoft To Do and 
 layout: guide
 tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
+lang: en
 ---
 
 On Android, a **to-do list app** is something you open dozens of times a day, so where your tasks live matters. Some people want cloud sync across every device; others would rather keep tasks on the phone behind a fingerprint than in yet another account. **Meow Todo** is a **free to-do list for Android and iOS** that stores tasks locally with a lock. Below we compare the apps Android users actually install — **Meow Todo, Todoist, Microsoft To Do, and Google Tasks** — across privacy, widgets, sync, and price.

@@ -5,6 +5,7 @@ description: "面向学生的 Meow Money Manager 与 YNAB、Goodbudget、EveryDo
 layout: guide
 tags: [Meow Money, Budget App, Expense Tracker, Money Manager, Android, Best Apps]
 image: /assets/images/apps/meow-money-manager/icon.webp
+lang: zh
 ---
 
 大学生活已经够贵了，不需要一款像作业一样的 **记账应用**。能奏效的 **学生记账应用**，通常是你真正会打开的那款——课间、公车上、去超市前。学生的现金流是脉冲式的：开学初一笔助学贷款或家里转账到账，到月中就被教材、房租、伙食掏空。你要的是免费、私密、快。

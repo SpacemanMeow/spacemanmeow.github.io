@@ -76,6 +76,9 @@ collections:
   apps:
     output: true
     permalink: /apps/:name/
+  glossary:
+    output: true
+    permalink: /glossary/:name/
 
 defaults:
   # 博客文章
@@ -136,6 +139,8 @@ exclude:
   - _pages/zh/**
   - _apps_zh
   - _apps_zh/**
+  - _glossary_zh
+  - _glossary_zh/**
   - zh/
   - zh/**
   - "*.gem"

@@ -5,6 +5,7 @@ description: "2026 年 System Monitor 与 CCleaner 深度对比：一款带加�
 layout: guide
 tags: [System Monitor, RAM Booster, Storage Cleaner, Battery, Android, Comparison, CCleaner]
 image: /assets/images/apps/system-monitor/icon.webp
+lang: zh
 ---
 
 一个清理，一个监控。**System Monitor** 是一款安卓一体化工具，展示实时的 CPU、RAM 与电池数据，配一键加速与电池医生。**CCleaner** 则是一款清理缓存与无用文件的人气垃圾清理应用。这份 **System Monitor vs CCleaner** 对比，帮你厘清 2026 年哪款 **安卓系统监控 / 清理器** 适合你。

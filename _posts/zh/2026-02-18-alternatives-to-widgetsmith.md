@@ -5,6 +5,7 @@ description: "正在寻找 2026 年 WidgetSmith 的替代应用？我们从现�
 layout: guide
 tags: [One Widget, Home Screen Widgets, Widget Maker, Android Customization, Android, Alternatives, Widgetsmith]
 image: /assets/images/apps/one-widget/icon.webp
+lang: zh
 ---
 
 WidgetSmith 是最知名的 **iOS 小组件应用**，但它仅限 iPhone，而且即使在 iOS 上，也有用户想要不一样的风格、实时设备数据（电量、内存），或者更大的现成组件库。本指南跨平台对比了 **六款** 主流 **小组件应用**，每一款或因某一项突出优势、或因市场覆盖广而被选中。下面每款应用都会给出真实优点、真实缺点，以及它在人们真正在意的主屏核心能力上的表现——现成预设、自定义编辑器、实时系统数据、天气、健康、照片、交互性与锁屏支持。下载链接在每节末尾。

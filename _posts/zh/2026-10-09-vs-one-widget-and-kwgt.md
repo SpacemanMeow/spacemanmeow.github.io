@@ -5,6 +5,7 @@ description: "2026 年 One Widget 与 KWGT 深度对比：500+ 现成的 One UI�
 layout: guide
 tags: [One Widget, Home Screen Widgets, Widget Maker, Android Customization, Android, Comparison, KWGT]
 image: /assets/images/apps/one-widget/icon.webp
+lang: zh
 ---
 
 两者都自定义你的主屏，但方式不同。**One Widget** 自带 500+ 成品、紧跟潮流的组件，你只需改尺寸、放上去即可。**KWGT**（Kustom Widget Maker）则是一个从零开始的编辑器，你能搭建任何想象得到的组件。这份 **One Widget vs KWGT** 对比，帮你在 2026 年挑对 **安卓组件应用**。

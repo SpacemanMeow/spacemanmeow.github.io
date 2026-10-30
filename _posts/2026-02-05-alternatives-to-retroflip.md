@@ -5,6 +5,7 @@ description: "Looking for alternatives to Retroflip in 2026? We compare six full
 layout: guide
 tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Alternatives, Retroflip]
 image: /assets/images/apps/only-clock/icon.webp
+lang: en
 ---
 
 Retroflip is a free, good-looking retro **flip clock** for Android — but it mostly stops at the clock face. There is **no white noise for focus or sleep, no floating clock overlay, no widgets, and no iPhone version**. If you want a flip clock that also plays ambient sound, sits on top of other apps, or runs on iOS, the category has matured fast.

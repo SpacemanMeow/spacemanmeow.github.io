@@ -5,6 +5,7 @@ description: "A student-friendly look at Meow Money Manager versus YNAB, Goodbud
 layout: guide
 tags: [Meow Money, Budget App, Expense Tracker, Money Manager, Android, Best Apps]
 image: /assets/images/apps/meow-money-manager/icon.webp
+lang: en
 ---
 
 College life is expensive enough without a **budget app** that feels like homework. The **budget app for students** that works is usually the one you actually open — between classes, on the bus, before a grocery run. Cash flow as a student is spiky: a loan disbursement or parental transfer lands at the start of term, then textbook, rent, and food costs drain it by mid-month. You want something free, private, and fast.

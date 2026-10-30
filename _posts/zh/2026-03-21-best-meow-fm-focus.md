@@ -5,6 +5,7 @@ description: "2026 年 Meow FM 与 Calm、Noisli、Brain.fm 在专注与深度�
 layout: guide
 tags: [Meow FM, White Noise, Sleep, Focus, Relax, Android, Best Apps]
 image: /assets/images/apps/meow-fm/icon.webp
+lang: zh
 ---
 
 开放式办公室、吵闹的咖啡馆、正在打电话的室友——专注的天敌通常是 **突然的人声**，而不是整体音量。一段稳定的 **白噪音应用** 能把那些突兀的声音抹平成一团持续的静谧，让大脑停止监视房间。**Meow FM** 是一款安卓与 iOS 的 **免费白噪音播放器**，拥有兼顾睡眠与专注的声景。下面是它在深度工作上的对比，以及什么真的能帮你保持状态。

@@ -5,6 +5,7 @@ description: "A student-friendly look at Meow Todo versus Todoist, Microsoft To 
 layout: guide
 tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
+lang: en
 ---
 
 Between lectures, assignments, and part-time shifts, students need a **task manager** that is fast and free. Syllabus deadlines hide across a dozen courses, group projects span weeks, and a forgotten reading can sink a grade. **Meow Todo** is a **free to-do list app for students** with subtasks, a calendar view, and reminders that survive a busy semester. Here's how it compares with other student-friendly options.

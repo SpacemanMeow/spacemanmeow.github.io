@@ -5,6 +5,7 @@ description: "A practical look at Meow Mood versus Day One, Journey, Daylio and 
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Journal, Mental Health, Android, Best Apps]
 image: /assets/images/apps/meow-mood-diary/icon.webp
+lang: en
 ---
 
 A **mood diary** helps you notice patterns in how you feel — not by writing essays, but by logging a feeling in ten seconds and letting the trends speak. **Meow Mood** is a **private mood tracker** for Android and iOS that makes logging gentle: tap an emotion, add context, and watch the charts. Below we compare the apps people actually install — **Meow Mood, Day One, Journey, Daylio, and Grid Diary** — across mood tracking, privacy, price, and platforms.

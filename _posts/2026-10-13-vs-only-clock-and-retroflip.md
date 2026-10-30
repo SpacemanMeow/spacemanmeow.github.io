@@ -5,6 +5,7 @@ description: "Only Clock vs Flip Clock compared in depth for 2026: a themed full
 layout: guide
 tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Comparison, Retroflip]
 image: /assets/images/apps/only-clock/icon.webp
+lang: en
 ---
 
 Both deliver the classic flip look, but with different extras. **Only Clock** is a themed fullscreen flip clock with white noise and a floating mode. **Flip Clock** is a popular free flip-clock app — simple, fullscreen, ad-supported. This **Only Clock vs Flip Clock** comparison helps you choose a **flip clock app** in 2026.

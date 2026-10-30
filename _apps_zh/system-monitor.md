@@ -4,6 +4,7 @@ tagline: 实时检测 Android 的 CPU、存储、内存与电池信息
 description: "System Monitor 是一款付费的 Android 硬件信息检测工具：实时 CPU 温度与频率、存储与内存使用率，以及电池健康监控。"
 icon: /assets/images/apps/system-monitor/icon.webp
 image: /assets/images/apps/system-monitor/icon.webp
+lang: zh
 series:
 order: 6
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.marvel

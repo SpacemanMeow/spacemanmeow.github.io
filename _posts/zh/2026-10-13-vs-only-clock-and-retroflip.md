@@ -5,6 +5,7 @@ description: "2026 年 Only Clock 与 Flip Clock 深度对比：一款带白噪�
 layout: guide
 tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Comparison, Retroflip]
 image: /assets/images/apps/only-clock/icon.webp
+lang: zh
 ---
 
 两者都呈现经典的翻页外观，但附赠的额外功能不同。**Only Clock** 是一款带白噪音与悬浮模式的主题化全屏翻页时钟。**Flip Clock** 则是一款人气免费的翻页时钟应用——简单、全屏、带广告。这份 **Only Clock vs Flip Clock** 对比，帮你在 2026 年挑一款 **翻页时钟应用**。

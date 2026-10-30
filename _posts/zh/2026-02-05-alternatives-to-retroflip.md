@@ -5,6 +5,7 @@ description: "2026 年想找 Retroflip 的替代品？我们对比了六款全�
 layout: guide
 tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Alternatives, Retroflip]
 image: /assets/images/apps/only-clock/icon.webp
+lang: zh
 ---
 
 Retroflip 是一款免费、好看的复古 **翻页时钟**，但基本只停留在钟面本身。它 **没有用于专注或睡眠的白噪音、没有悬浮时钟叠加层、没有小组件，也没有 iPhone 版**。如果你想要一款还能放环境音、能浮在其他应用之上、或能跑在 iOS 上的翻页时钟，这个品类已经迅速成熟。

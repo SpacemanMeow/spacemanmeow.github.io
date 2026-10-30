@@ -5,6 +5,7 @@ description: "A practical look at CPU Monitor versus CPU-Z for whole-device temp
 layout: guide
 tags: [CPU Monitor, Phone Temperature, System Utility, Android, Best Apps]
 image: /assets/images/apps/cpu-monitor/icon.webp
+lang: en
 ---
 
 Heat isn't only about the CPU — the battery, GPU, and ambient sensors all contribute, and a hot battery ages faster. A **phone temperature app** should read the whole device, warn you, and suggest a fix. **CPU Monitor** is a **device temperature monitor for Android** with alerts and advice. Below we compare it with **CPU-Z** for managing the device's overall heat.

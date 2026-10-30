@@ -5,6 +5,7 @@ description: "面向新手的 Meow Habits 与 Loop、Streaks、Habitica 对比�
 layout: guide
 tags: [Meow Habits, Habit Tracker, Routine Builder, Streaks, Android, Best Apps]
 image: /assets/images/apps/meow-habits/icon.webp
+lang: zh
 ---
 
 多数习惯计划都会失败，因为系统太复杂。一款 **新手习惯追踪器** 应当让你几秒就能开始，并为小胜利喝彩。**Meow Habits** 正是如此：模板、连续天数，加上平静的猫主题设计。下面是它与其他新手友好选项的对比。

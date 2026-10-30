@@ -5,6 +5,7 @@ description: "Mint 于 2024 年 3 月正式停运。以下是 2026 年最佳的 
 layout: guide
 tags: [Meow Money, Budget App, Expense Tracker, Money Manager, Android, Alternatives, Mint]
 image: /assets/images/apps/meow-money-manager/icon.webp
+lang: zh
 ---
 
 Intuit 已于 **2024 年 3 月关停 Mint**，把功能并入 Credit Karma。如果你在找 **Mint 的替代品**，你并不孤单——数百万老用户都想要一款能清楚追踪开销、不诱导办信用卡、也不强迫使用不信任的云账号的 **记账应用**。

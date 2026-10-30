@@ -226,12 +226,12 @@ AI 联网搜索**不是按 PageRank 排位**，而是：① 从已索引网页**
 | T-12 | OG/Twitter 卡片图按 app 区分 | ✅ | 2026-10-10 | 11 个 app front matter 均加 `image:`（取各自 icon.webp）；`jekyll-seo-tag` 据此输出独立 `og:image`/`twitter:image`（构建校验每页均生效） |
 | T-13 | 维持 Core Web Vitals（懒加载/LCP/CLS） | ☐ | | 建议跑一次 Lighthouse / PageSpeed Insights 实测 |
 | T-16 | 提交 RSS `feed.xml` 到 GSC（sitemap 增 feed 或单独提交） | ☐ | | sitemap 当前不含 feed.xml，错失 RSS 收录信号 |
-| T-17 | 文章底部「相关文章」区块（同 app / 同 tag 内链） | ☐ | | 增强 PageRank 流动；目前仅有 app 页⇒文章单向回链 |
-| T-18 | 新增 Glossary 词汇页（what is a habit streak / flip clock / expense tracker 等） | ☐ | | AI 搜索最爱抓定义类内容（§3.2 #8），易排名 |
-| T-19 | 新增 更新日志 / 版本博客（changelog） | ☐ | | 保持内容新鲜度（§3.2 #7） |
+| T-17 | 文章底部「相关文章」区块（同 app / 同 tag 内链） | ✅ | 2026-10-30 | 已实现**自动化**：新增 `_includes/related-posts.html`，按标签重叠取同语言最多 4 篇 + 父 app 页回链，接入 `post.html`/`guide.html` 页脚；自动按构建语言隔离（EN/ZH 各生成自己的链接，无需手动改）。**中英同步**。原 20 篇手写区块已清理去重 |
+| T-18 | 新增 Glossary 词汇页（what is a habit streak / flip clock / expense tracker 等） | ✅ | 2026-10-30 | 新增 `glossary`/`glossary_zh` 集合（+ `_layouts/glossary.html`）；上线 4 个定义页 ×2 语言 + 词汇表索引页（EN/ZH 各 `/glossary/`、`/zh/glossary/`），均进 sitemap 并双向 hreflang；4 个相关 app 页已加「相关术语」回链。**中英同步**，命中 AI "what is X" 查询 |
+| T-19 | 新增 更新日志 / 版本博客（changelog） | ✅ | 2026-10-30 | 11 个 Pillar 页（EN+ZH 共 22 篇）已加 `last_modified_at: 2026-10-30`，`post.html` 据此渲染 "Last updated / 最后更新" 新鲜度信号。**中英同步**（注：本迭代用 Pillar 时间戳实现新鲜度，独立 changelog 页留待 Q1 2027 常态化） |
 | T-20 | 404 页 + 站内搜索 | ☐ | | 基础体验/SEO |
 | T-21 | 外链 / roundup 投稿（Product Hunt / alternative.to / 少数派） | ☐ | | Phase 4 权威，需手动排期 |
-| T-22 | JSON-LD 增强：BlogPosting `dateModified`、author 细化、FAQ 增至 4–6 问 | ☐ | | 富媒体/AI 引用质量 |
+| T-22 | JSON-LD 增强：BlogPosting `dateModified`、author 细化、FAQ 增至 4–6 问 | ✅ | 2026-10-30 | 薄弱集群 3 个 app 页（Meow Money / Meow Habits / Floating Assistant，EN+ZH）FAQ 由 4 增至 6 问，FAQPage JSON-LD 校验含 6 组 Question+acceptedAnswer。**中英同步**（BlogPosting `dateModified` 待 Q2 2027 季度专项补） |
 
 ### 内容项（按 app 建集群，每完成一篇记录）
 > **进度更新 2026-10-16**：本轮已批量产出 **22 篇 Best-X-for-Y** + **11 篇 vs 对比页** + **11 篇 Alternatives 页**（每 app 各 1 篇 vs / 1 篇 alternatives / 2 篇 best），故「对比页 / Best-X-for-Y / Alternatives」三类已**全覆盖 11 个 app**。剩余：**品类落地页(Pillar)：11 个 app 已全部完成（2026-10-16）**；**11 个 app 现已各具备 1 篇 How-to 教程（含 Meow Money）**。

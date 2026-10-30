@@ -8,6 +8,7 @@ tagline: Meow Todo schedule planner & to-do list task manager # 一句话简介
 description: "Meow Todo List is a simple schedule planner and to-do list task manager for Android. Organize tasks, reminders and daily plans with a clean, cute interface."
 icon: /assets/images/apps/meow-todo-list/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/meow-todo-list/icon.webp
+lang: en
 series: Meow # 应用系列：Meow 系列的会出现在 Meow 页面
 order: 2 # 列表页排序，数字越小越靠前
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.money.task.todo.list.meow # 留空则不显示 Google Play 按钮

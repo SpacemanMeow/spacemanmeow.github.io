@@ -6,6 +6,7 @@ permalink: /zh/about/
 nav: about
 description: "Meow Apps Studio 是一家独立的移动应用工作室，为全世界的用户打造美观、优雅且实用的 Android 与 iOS 应用。"
 image: /assets/images/favicons/avatar.png
+lang: zh
 ---
 
 ## 我们是谁

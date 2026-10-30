@@ -5,6 +5,7 @@ description: "A practical look at Only Clock versus Flip Clock as a nightstand c
 layout: guide
 tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Best Apps]
 image: /assets/images/apps/only-clock/icon.webp
+lang: en
 ---
 
 A spare phone or tablet makes a perfect **nightstand clock**. The **best nightstand clock app** should be dim, readable, and calm — and ideally play sound that masks a partner's snore. **Only Clock** is a **fullscreen flip clock** that fits the bedside. Here's how it compares with the free **Flip Clock** for nightstand use, plus setup and burn-in tips.

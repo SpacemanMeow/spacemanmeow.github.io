@@ -5,6 +5,7 @@ description: "2026 年想找 CCleaner 的替代品？我们对比了六款清理
 layout: guide
 tags: [System Monitor, RAM Booster, Storage Cleaner, Battery, Android, Alternatives, CCleaner]
 image: /assets/images/apps/system-monitor/icon.webp
+lang: zh
 ---
 
 CCleaner 名气很大，但在现代安卓上它的作用有限，不少用户想要 **更轻量的清理或真正的监控**。这些 **CCleaner 的替代品** 两者兼顾——而且我们会如实说明清理工具能做什么、不能做什么。

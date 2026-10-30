@@ -35,6 +35,8 @@ layout: default
           {{ content }}
         </div>
 
+        {%- include related-posts.html -%}
+
         <footer class="post__footer">
           {%- if page.tags and page.tags.size > 0 %}
           <div class="post__tags">

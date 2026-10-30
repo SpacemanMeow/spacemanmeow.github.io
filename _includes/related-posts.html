@@ -1,0 +1,39 @@
+{%- comment -%}
+  自动相关文章区块（T-17）：同语言内按标签重叠取最多 4 篇相关文章，
+  并附父 app 详情页回链（转化点）。中英自动适配（构建时 site.posts 已按语言隔离）。
+{%- endcomment -%}
+{%- assign current = page -%}
+{%- assign rel = "" | split: "" -%}
+{%- assign rel_urls = "" | split: "" -%}
+{%- for tag in current.tags -%}
+  {%- assign tagged = site.posts | where: "tags", tag -%}
+  {%- for p in tagged -%}
+    {%- unless rel_urls contains p.url or p.url == current.url -%}
+      {%- assign rel = rel | push: p -%}
+      {%- assign rel_urls = rel_urls | push: p.url -%}
+    {%- endunless -%}
+    {%- if rel.size >= 4 %}{% break %}{% endif -%}
+  {%- endfor -%}
+  {%- if rel.size >= 4 %}{% break %}{% endif -%}
+{%- endfor -%}
+{%- comment -%} 反查父 app 页（post.image == app.icon）{%- endcomment -%}
+{%- assign parent_app = nil -%}
+{%- for app in site.apps -%}
+  {%- if app.icon == current.image -%}{%- assign parent_app = app -%}{%- endif -%}
+{%- endfor -%}
+{%- if rel.size > 0 or parent_app -%}
+  {%- assign heading = "Related posts" -%}
+  {%- assign app_label = "App page" -%}
+  {%- if current.lang == "zh" -%}{%- assign heading = "相关文章" -%}{%- assign app_label = "应用页面" -%}{%- endif -%}
+<section class="related-posts" aria-label="{{ heading }}">
+  <h2 class="related-posts__title">{{ heading }}</h2>
+  <ul class="related-posts__list">
+    {%- for p in rel -%}
+    <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+    {%- endfor -%}
+    {%- if parent_app -%}
+    <li class="related-posts__app"><a href="{{ parent_app.url }}">{{ parent_app.title }} — {{ app_label }} →</a></li>
+    {%- endif -%}
+  </ul>
+</section>
+{%- endif -%}

@@ -5,6 +5,7 @@ description: "Meow Mood vs Day One compared in depth for 2026: a private, emotio
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Journal, Mental Health, Android, Comparison, Day One]
 image: /assets/images/apps/meow-mood-diary/icon.webp
+lang: en
 ---
 
 Both are journals, but they serve different needs. **Meow Mood** is a private, emotion-focused mood tracker with a calming cat-themed interface. **Day One** is a feature-rich life journal with photos, audio and cloud sync. This **Meow Mood vs Day One** comparison helps you pick the right **journaling app** in 2026, with real pricing and privacy differences.

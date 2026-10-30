@@ -5,6 +5,7 @@ description: "2026 年 Crosshair Aim 与 Crosshair Hero 作为自定义准星叠
 layout: guide
 tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Best Apps]
 image: /assets/images/apps/cross-hair/icon.webp
+lang: zh
 ---
 
 除了射击游戏，一个 **自定义准星叠层** 在瞄准训练、模拟器，以及任何需要固定参考点的应用里都很好用。**最佳准星叠层** 应当能导入你自己的图片、设置透明度，并记住每个应用的位置。**Crosshair Aim** 是一款支持 PNG 导入与浮动调节器的安卓 **自定义准星应用**。下面我们把它与 **Crosshair Hero** 对比，看二者在通用叠层场景下的表现。

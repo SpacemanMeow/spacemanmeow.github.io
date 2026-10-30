@@ -5,6 +5,8 @@ description: "2026 年最佳心情日记与记录应用：该看什么（隐私�
 layout: guide
 image: /assets/images/apps/meow-mood-diary/icon.webp
 tags: [Mood Diary, Journaling App, Private Diary, Android, Meow Mood, App Roundup]
+last_modified_at: 2026-10-30
+lang: zh
 ---
 
 心情日记把零散的感受变成你能真正看见、并从中学习的东西。这份 2026 指南讲清记录应用里什么重要，以及 Meow Mood Diary 如何与记录类重量级对比。

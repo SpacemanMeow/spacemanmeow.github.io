@@ -5,6 +5,7 @@ description: "Looking for alternatives to Day One in 2026? We compare six journa
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Journal, Mental Health, Android, Alternatives, Day One]
 image: /assets/images/apps/meow-mood-diary/icon.webp
+lang: en
 ---
 
 Day One is a powerful journal, but its **~$35/year subscription** and cloud-first model are not for everyone. If you want something more private, more mood-focused, or simply cheaper, the journaling field has strong options.

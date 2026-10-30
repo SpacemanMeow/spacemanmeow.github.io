@@ -5,6 +5,7 @@ description: "Meow Todo vs Todoist compared in depth for 2026: a free-core, priv
 layout: guide
 tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Comparison, Todoist]
 image: /assets/images/apps/meow-todo-list/icon.webp
+lang: en
 ---
 
 Choosing a **task manager** often comes down to complexity vs simplicity. **Meow Todo** is a free-core, private, cute to-do app with subtasks, a calendar view and CSV export. **Todoist** is a popular powerhouse with natural-language input and collaboration. This **Meow Todo vs Todoist** comparison helps you pick the **to-do list app** that matches how you actually work, with 2026 pricing and real feature limits.

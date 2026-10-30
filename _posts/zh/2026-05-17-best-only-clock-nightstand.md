@@ -5,6 +5,7 @@ description: "2026 年 Only Clock 与 Flip Clock 作为床头钟的实用对比�
 layout: guide
 tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Best Apps]
 image: /assets/images/apps/only-clock/icon.webp
+lang: zh
 ---
 
 一部闲置手机或平板是完美的 **床头钟**。一款 **最佳床头钟应用** 应当暗、易读、平静——最好还能放点声音盖住伴侣的鼾声。**Only Clock** 是一款适合床头的 **全屏翻页钟**。下面我们把它与免费的 **Flip Clock** 对比床头用法，外加设置与烧屏建议。

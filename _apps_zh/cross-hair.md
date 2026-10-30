@@ -4,6 +4,7 @@ tagline: 帮你在射击类 FPS 游戏中更换准星
 description: "Crosshair Aim Pro 为 Android 上的 FPS 射击游戏叠加自定义准星，提供 15+ 种准星样式，提升你的射击准度。"
 icon: /assets/images/apps/cross-hair/icon.webp
 image: /assets/images/apps/cross-hair/icon.webp
+lang: zh
 series:
 order: 9
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.crosshair.aim.fps.game
