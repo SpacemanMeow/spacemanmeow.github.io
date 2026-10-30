@@ -62,3 +62,7 @@ faq:
 **精美封面**
 
 每款白噪音都配有精美封面，让你更沉浸。
+
+## 相关术语
+
+- [什么是白噪音（White Noise）？](/zh/glossary/what-is-white-noise/)

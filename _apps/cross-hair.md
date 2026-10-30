@@ -60,3 +60,7 @@ Crosshair Aim Pro makes custom crosshair for your guns & weapons that help you t
 Custom Aim - Crosshair Generator supports almost all popular shooting FPS games to change the default crosshair designs of your game. Crosshair Changer supports all major shooting games, Action games & FPS games. Use the Free crosshair changer app to enhance your shooting & aiming skills and let the Free Fire.
 
 Download Crosshair Aim Pro - Aim for FPS Games and take headshots like aimbot Pro!
+
+## Related terms
+
+- [What Is a Crosshair?](/glossary/what-is-a-crosshair/)

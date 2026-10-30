@@ -78,3 +78,9 @@ System Monitor 提供多种强大工具，包括：过热警报、过热保护�
 强大的 System Monitor 界面精美，支持多主题切换，你可选择喜欢的主题。
 
 购买 System Monitor，你将同时拥有 CPU 监控、存储信息、内存信息、电池监控与电池省电——一次性付费下载，无订阅、无内存加速噱头。同时监控 CPU 温度、CPU 频率、存储使用率、内存使用率、电池温度与电池健康。还等什么？现在就下载 System Monitor，看清手机内部的真实状况！
+
+## 相关术语
+
+- [什么是 CPU 温度监控？](/zh/glossary/what-is-a-cpu-temperature-monitor/)
+- [什么是系统监控（System Monitor）？](/zh/glossary/what-is-a-system-monitor/)
+- [什么是内存清理（RAM Booster）？](/zh/glossary/what-is-a-ram-booster/)

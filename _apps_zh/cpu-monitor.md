@@ -62,3 +62,9 @@ faq:
 CPU Monitor 界面精美并支持多主题切换，你可以选择喜欢的主题。
 
 如果你喜欢 CPU Monitor，可以升级到专业版「Powerful System Monitor」：CPU 监控、存储清理、内存加速、电池监控、电池省电，全部合二为一！
+
+## 相关术语
+
+- [什么是 CPU 温度监控？](/zh/glossary/what-is-a-cpu-temperature-monitor/)
+- [什么是系统监控（System Monitor）？](/zh/glossary/what-is-a-system-monitor/)
+- [什么是内存清理（RAM Booster）？](/zh/glossary/what-is-a-ram-booster/)

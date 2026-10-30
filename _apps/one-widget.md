@@ -61,3 +61,8 @@ No need to install multiple widget apps! We integrate the most mainstream popula
 **Core Advantages**
 
 One Widget integrates 500+ high-quality premium widgets. We keep updating and adding new widgets continuously to bring you more fresh desktop customization options, with multi-style adaptation and full free customization. It is a must-have personalization tool for Android users, suitable for Samsung Galaxy, Pixel, Nothing and all Android devices. Transform your ordinary home screen into a stylish, efficient and smart desktop with just one app!
+
+## Related terms
+
+- [What Is a Home Screen Widget?](/glossary/what-is-a-home-screen-widget/)
+- [What Is Material You?](/glossary/what-is-material-you/)

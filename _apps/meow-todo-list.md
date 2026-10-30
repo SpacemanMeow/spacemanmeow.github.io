@@ -81,3 +81,7 @@ You can setup fingerprint app lock to protect your privacy, it need to enter fin
 **Export tasks**
 
 Meow Todo List & Task can export the tasks report to file in the form of CSV. You can export all the tasks one time or export the tasks within the time range of your select, then you can check and edit the file with excel software.
+
+## Related terms
+
+- [What Is a To-Do List?](/glossary/what-is-a-to-do-list/)

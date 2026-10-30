@@ -68,3 +68,9 @@ Support ram widget, cpu widget and battery widget.
 Cpu monitor is very beautiful and support multi-theme switching, you can choose the theme you like.
 
 If you like cpu monitor, you can upgrade to pro version 『Powerful System Monitor』: CPU Monitor, Storage Cleaner, RAM Booster, Battery Monitor, Battery Saver all in one!
+
+## Related terms
+
+- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
+- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)
+- [What Is a RAM Booster?](/glossary/what-is-a-ram-booster/)

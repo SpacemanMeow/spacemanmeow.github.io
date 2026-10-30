@@ -55,3 +55,8 @@ One Widget 是你终极的一体化 Android 桌面自定义工具箱，内置 50
 **核心优势**
 
 One Widget 集成 500+ 款高品质高级小组件，持续更新添加新组件，为你带来更多新鲜桌面自定义选项，多风格适配、全面自由自定义。它是 Android 用户必备的个性化工具，适用于三星 Galaxy、Pixel、Nothing 及所有 Android 设备。只需一个应用，把平凡的主屏变成时尚、高效、智能的桌面！
+
+## 相关术语
+
+- [什么是主屏幕小组件（Home Screen Widget）？](/zh/glossary/what-is-a-home-screen-widget/)
+- [什么是 Material You？](/zh/glossary/what-is-material-you/)

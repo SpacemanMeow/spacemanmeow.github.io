@@ -75,3 +75,7 @@ Meow Todo List & Task 提供待办日历视图，让用户轻松总览每日、�
 **导出任务**
 
 Meow Todo List & Task 可将任务报表导出为 CSV 文件，可一次性导出全部任务，也可导出所选时间范围内的任务，再用 Excel 查看编辑。
+
+## 相关术语
+
+- [什么是待办清单（To-Do List）？](/zh/glossary/what-is-a-to-do-list/)

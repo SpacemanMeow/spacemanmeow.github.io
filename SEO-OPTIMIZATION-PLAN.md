@@ -266,7 +266,7 @@ AI 联网搜索**不是按 PageRank 排位**，而是：① 从已索引网页**
 ## 8. 下一步建议（2026-10-30 更新）
 
 ### 8.1 本迭代已完成（2026-10-30，中英双语同步）
-T-17 自动相关文章区块、T-18 Glossary 词汇页（4 定义×2 语言 + 索引 + 博客入口）、T-19 Pillar 新鲜度时间戳、T-22 薄弱集群 FAQ 4→6 问。**另含 3 处缺陷修复**（见下）。
+T-17 自动相关文章区块、T-18 Glossary 词汇页（4 定义×2 语言 + 索引 + 博客入口）、T-19 Pillar 新鲜度时间戳、T-22 薄弱集群 FAQ 4→6 问、T-23 Bing WMT 验证、T-24 IndexNow 自动提交。**另含 3 处缺陷修复**（见下）。**2026-10-30 末批内容扩充**：Glossary 由 4 条/语言**扩至 16 条/语言**（新增 mood tracker / habit tracker / cpu temperature monitor / system monitor / ram booster / assistive touch / crosshair / white noise / home screen widget / to-do list / nightstand clock / material you，中英各 12 新词），索引页与 10 个相关 app 页「Related terms」回链同步补齐。
 
 ### 8.2 2026-10-30 缺陷修复记录（重要，勿回退）
 - **`lang` 字段位置修复**：批量补 `lang:` 时误用「全文最后一个 `---`」定位，导致正文含 `---` 分隔线的文章（alternatives/vs 共 42×2 篇）`lang:` 被插进正文、渲染成游离文本。已重写为逐行 front matter 解析：清理游离行 + 重新插入 front matter 末尾，全站 0 残留（132 文章 + 22 app + 14 页面）。**教训：Jekyll front matter 插入必须用「首个闭合 `---`」定位，绝不能用 `rfind('---')`。**
@@ -278,7 +278,7 @@ T-17 自动相关文章区块、T-18 Glossary 词汇页（4 定义×2 语言 + �
 - ✅ **IndexNow 自动提交（T-24）**：deploy 工作流部署后自动 ping `api.indexnow.org`（全量 ~190 URL），Bing/ChatGPT 即时收录。
 
 ### 8.4 接下来待做（按 ROI 排序，站内可做优先）
-1. **Glossary 扩量至 10–20 条（高 ROI，站内可做）**：当前仅 4 条/语言。AI 最爱抓定义类内容，按 §1.2 竞品高频词批量补（widget / mood tracker / task manager / assistive touch / white noise / crosshair / RAM booster 等），可一次铺满。
+1. ~~Glossary 扩量至 10–20 条~~ **✅ 已完成（2026-10-30）**：由 4 条/语言扩至 **16 条/语言**（mood tracker / habit tracker / cpu temperature monitor / system monitor / ram booster / assistive touch / crosshair / white noise / home screen widget / to-do list / nightstand clock / material you），索引页与 10 个相关 app 页回链同步补齐。
 2. **T-13 Core Web Vitals 实测（高 ROI，73% 移动端用户）**：跑一次 PageSpeed Insights / Lighthouse，重点看 LCP/CLS；确认**首屏图未加 `loading="lazy"`**（懒加载只用于首屏外资源）。
 3. **T-16 提交 feed.xml 到 GSC（低成本）**：补 RSS 收录信号（当前 sitemap 未含）。
 4. **T-20 404 页 + 站内搜索（体验/SEO 基础）**：当前无自定义 404。
@@ -386,7 +386,7 @@ T-17 自动相关文章区块、T-18 Glossary 词汇页（4 定义×2 语言 + �
 
 | 编号 | 优化项 | 类型 | 谁来做 | ROI | 状态 / 备注 |
 |---|---|---|---|---|---|
-| T-25 | **Glossary 扩量至 10–20 条**（widget / mood tracker / task manager / assistive touch / white noise / crosshair / RAM booster 等） | 内容 | 站内（AI 批量+人工润色） | 高 | 待做；命中 AI「what is X」，建议一次铺满 |
+| T-25 | **Glossary 扩量至 10–20 条**（widget / mood tracker / task manager / assistive touch / white noise / crosshair / RAM booster 等） | 内容 | 站内（AI 批量+人工润色） | 高 | ✅ 已完成（2026-10-30）：每语言 16 条（原 4 + 新 12），索引页与 10 个相关 app 页「Related terms」回链同步补齐 |
 | T-13 | **Core Web Vitals 实测**（PageSpeed / Lighthouse，看 LCP/CLS） | 技术 | 站内+人工 | 高 | 待做；73% 移动端，确认首屏图非 lazy |
 | T-26 | **Glossary 定义页加 FAQPage JSON-LD** | 结构化 | 站内 | 高 | 待做；定义页最易被 AI Overview 引用 |
 | T-16 | **提交 feed.xml 到 GSC / Bing** | 技术 | 站内 | 低-中 | 待做；补 RSS 收录信号 |

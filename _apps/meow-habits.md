@@ -80,4 +80,5 @@ Tired of struggling to stick to habits and feeling discouraged? Take the plunge 
 
 ## Related terms
 
+- [What Is a Habit Tracker?](/glossary/what-is-a-habit-tracker/)
 - [What Is a Habit Streak?](/glossary/what-is-a-habit-streak/)

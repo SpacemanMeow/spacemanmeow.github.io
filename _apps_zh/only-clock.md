@@ -50,4 +50,5 @@ faq:
 
 ## 相关术语
 
+- [什么是床头钟（Nightstand Clock）？](/zh/glossary/what-is-a-nightstand-clock/)
 - [什么是翻页时钟（Flip Clock）？](/zh/glossary/what-is-a-flip-clock/)

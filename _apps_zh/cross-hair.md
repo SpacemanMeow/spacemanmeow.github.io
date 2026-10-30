@@ -54,3 +54,7 @@ Crosshair Aim Pro 为你的枪械与武器生成自定义准星，帮助你精�
 自定义准星生成器支持几乎所有热门的射击 FPS 游戏，更换游戏默认的准星设计。准星更换器支持所有主流射击游戏与动作游戏。使用免费的准星更换应用，提升你的射击与瞄准技巧，畅玩 Free Fire。
 
 下载 Crosshair Aim Pro - FPS 游戏准星，像开了瞄准挂一样轻松爆头！
+
+## 相关术语
+
+- [什么是准星（Crosshair）？](/zh/glossary/what-is-a-crosshair/)

@@ -83,3 +83,7 @@ Use all features without an internet connection. Log moods, view history, and ed
 Set gentle daily reminders to help you build a consistent mood tracking habit. Never miss an opportunity to check in with yourself and reflect on your day.
 
 Meow Mood Diary is designed to be your trusted companion on the path to better emotional awareness. By making mood tracking simple, enjoyable, and completely private, we hope to help you develop a deeper understanding of yourself and live a more balanced, mindful life.
+
+## Related terms
+
+- [What Is a Mood Tracker?](/glossary/what-is-a-mood-tracker/)

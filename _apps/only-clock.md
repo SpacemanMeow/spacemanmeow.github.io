@@ -56,4 +56,5 @@ So what are waiting for? Download the Flip clock & clock widget, to aid study or
 
 ## Related terms
 
+- [What Is a Nightstand Clock?](/glossary/what-is-a-nightstand-clock/)
 - [What Is a Flip Clock?](/glossary/what-is-a-flip-clock/)

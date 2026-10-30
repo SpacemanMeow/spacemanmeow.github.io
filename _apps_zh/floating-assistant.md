@@ -100,4 +100,5 @@ Floating Assistant 包含：辅助触控、悬浮时钟与悬浮监控。辅助�
 
 ## 相关术语
 
+- [什么是辅助触控（Assistive Touch）？](/zh/glossary/what-is-assistive-touch/)
 - [什么是悬浮窗（Floating Window）？](/zh/glossary/what-is-a-floating-window/)

@@ -84,3 +84,9 @@ Support RAM widget, CPU widget and battery widget.
 Powerful System Monitor is very beautiful and supports multi-theme switching. You can choose the theme you like.
 
 If you buy System Monitor, you will have CPU monitor, storage info, memory info, battery monitor and battery saver at the same time — a one-time paid download, with no subscription and no RAM-boost gimmicks. Monitor CPU temperature, CPU frequency, storage usage, memory usage, battery temperature and battery health at the same time. So what are you waiting for? Download System Monitor now to see exactly what is happening inside your phone!
+
+## Related terms
+
+- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
+- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)
+- [What Is a RAM Booster?](/glossary/what-is-a-ram-booster/)

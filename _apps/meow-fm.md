@@ -68,3 +68,7 @@ You can choose the dark theme or light theme as you like. Both modes are very be
 **Beautiful covers**
 
 Every white noise has a beautiful cover, makes you more immersive.
+
+## Related terms
+
+- [What Is White Noise?](/glossary/what-is-white-noise/)
