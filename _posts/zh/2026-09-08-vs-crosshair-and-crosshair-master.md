@@ -1,17 +1,17 @@
 ---
 date: 2026-09-08 09:00:00 +0800
-title: "Crosshair Aim vs Crosshair Master：哪款叠层准星？"
-description: "2026 年 Crosshair Aim 与 Crosshair Master 深度对比：带游戏内浮动调节器的可自定义 FPS 叠层，对阵受欢迎的预设式准星叠层应用。功能、价格与按需结论。"
+title: "Crosshair Aim vs Crosshair Hero：哪款叠层准星？"
+description: "2026 年 Crosshair Aim 与 Crosshair Hero 深度对比：带游戏内浮动调节器的可自定义 FPS 叠层，对阵受欢迎的预设式准星叠层应用。功能、价格与按需结论。"
 layout: guide
-tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Comparison, Crosshair Master]
+tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Comparison, Crosshair Hero]
 image: /assets/images/apps/cross-hair/icon.webp
 ---
 
-两者都在游戏上画准星，但适合不同的玩家。**Crosshair Aim** 是一款带游戏内浮动调节器的可自定义 FPS 叠层；**Crosshair Master** 是点一下就能用的受欢迎预设式准星叠层。这份 **Crosshair Aim vs Crosshair Master** 对比帮你在 2026 年挑选一款 **自定义准星叠层**。
+两者都在游戏上画准星，但适合不同的玩家。**Crosshair Aim** 是一款带游戏内浮动调节器的可自定义 FPS 叠层；**Crosshair Hero** 是点一下就能用的受欢迎预设式准星叠层。这份 **Crosshair Aim vs Crosshair Hero** 对比帮你在 2026 年挑选一款 **自定义准星叠层**。
 
 ## 一览
 
-| | Crosshair Aim | Crosshair Master |
+| | Crosshair Aim | Crosshair Hero |
 |---|---|---|
 | **核心** | 可自定义 FPS 叠层 + 游戏内调节器 | 预设式准星叠层 |
 | **平台** | Android | Android |
@@ -30,10 +30,10 @@ image: /assets/images/apps/cross-hair/icon.webp
 
 ## Crosshair Aim 详解
 
-![Crosshair Aim 截图：Crosshair Aim 详解 —— Crosshair Aim vs Crosshair Master：哪款叠层准星？](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
-![Crosshair Aim 截图 2：Crosshair Aim 详解 —— Crosshair Aim vs Crosshair Master：哪款叠层准星？](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
-![Crosshair Aim 截图 3：Crosshair Aim 详解 —— Crosshair Aim vs Crosshair Master：哪款叠层准星？](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
-![Crosshair Aim 截图 4：Crosshair Aim 详解 —— Crosshair Aim vs Crosshair Master：哪款叠层准星？](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
+![Crosshair Aim 截图：Crosshair Aim 详解 —— Crosshair Aim vs Crosshair Hero：哪款叠层准星？](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
+![Crosshair Aim 截图 2：Crosshair Aim 详解 —— Crosshair Aim vs Crosshair Hero：哪款叠层准星？](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
+![Crosshair Aim 截图 3：Crosshair Aim 详解 —— Crosshair Aim vs Crosshair Hero：哪款叠层准星？](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
+![Crosshair Aim 截图 4：Crosshair Aim 详解 —— Crosshair Aim vs Crosshair Hero：哪款叠层准星？](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
 
 Crosshair Aim 是一款以控制为核心的 **FPS 游戏准星应用**。它内置 80+ 样式，可微调大小、颜色、缩放、位置与透明度，还能在 *对局中* 用浮动按钮实时调整一切。
 
@@ -60,11 +60,11 @@ Crosshair Aim 是一款以控制为核心的 **FPS 游戏准星应用**。它内
 
 ---
 
-## Crosshair Master 详解
+## Crosshair Hero 详解
 
-![Crosshair Master 截图：Crosshair Master 详解 —— Crosshair Aim vs Crosshair Master：哪款叠层准星？](/assets/images/blog/crosshair_master_1.webp){: width="720" .normal }
+![Crosshair Hero 截图：Crosshair Hero 详解 —— Crosshair Aim vs Crosshair Hero：哪款叠层准星？](/assets/images/blog/crosshair_hero_1.webp){: width="720" .normal }
 
-Crosshair Master 是一款受欢迎的 **准星叠层应用**——点一个样式、选一种颜色，准星就出现在你的射击游戏上。它是休闲玩家的快速、熟悉之选。
+Crosshair Hero 是一款受欢迎的 **准星叠层应用**——点一个样式、选一种颜色，准星就出现在你的射击游戏上。它是休闲玩家的快速、熟悉之选。
 
 ### 优点
 - **许多现成预设**——通常点一下就能得到一个可用的准星。
@@ -83,15 +83,15 @@ Crosshair Master 是一款受欢迎的 **准星叠层应用**——点一个样�
 ### 最适合
 想要快速、认得出来的准星、且不愿学构建器的休闲玩家。
 
-**下载 Crosshair Master**
-- [Google Play — Crosshair Master](https://play.google.com/store/apps/details?id=com.techstune.crosshairmaster)
+**下载 Crosshair Hero**
+- [Google Play — Crosshair Hero](https://play.google.com/store/apps/details?id=me.okitastudio.crosshairherofps)
 
 ---
 
 ## 关键维度对比
 
 ### 自定义深度
-Crosshair Aim 给你旋钮：大小、颜色、缩放、位置、透明度，外加为无原生准星武器准备的生成器。Crosshair Master 给你精选预设加轻度调整。如果"差不多"不够，Aim 胜出。
+Crosshair Aim 给你旋钮：大小、颜色、缩放、位置、透明度，外加为无原生准星武器准备的生成器。Crosshair Hero 给你精选预设加轻度调整。如果"差不多"不够，Aim 胜出。
 
 ### 游戏中的控制
 浮动游戏内调节器是 Crosshair Aim 的亮点。你能对局中缩小、改色或移动准星。多数预设应用要你退出到设置。对狙击手与切枪玩家，这是真正的优势。
@@ -100,12 +100,12 @@ Crosshair Aim 给你旋钮：大小、颜色、缩放、位置、透明度，外
 两者都是只绘制准星的无 root 叠层——都不修改游戏文件或影响命中判定，故休闲使用均安全。
 
 ### 价格与打扰
-Crosshair Aim 免费核心无广告，额外项需解锁。Crosshair Master 常由广告支撑、样式包需内购，可能更 intrusive。
+Crosshair Aim 免费核心无广告，额外项需解锁。Crosshair Hero 常由广告支撑、样式包需内购，可能更 intrusive。
 
 ## 你该选哪个
 
 - **选 Crosshair Aim** 如果你想要深度、实时控制——自定义大小/颜色/位置、游戏内调节器，以及任意武器的准星。
-- **选 Crosshair Master** 如果你想要几秒就有一个认得出来的预设准星、且不需要精调。
+- **选 Crosshair Hero** 如果你想要几秒就有一个认得出来的预设准星、且不需要精调。
 - **竞技玩家** 而言，Crosshair Aim 的游戏内调节器与透明度控制让它成为更实用的日常工具。
 
 <!--
