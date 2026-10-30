@@ -72,3 +72,40 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Checkout (for IndexNow key file)
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Ping IndexNow (Bing / ChatGPT fast indexing)
+        continue-on-error: true
+        run: |
+          python3 - <<'PY'
+          import urllib.request, urllib.error, json
+          keyfile = "indexnow-key.txt"
+          key = open(keyfile).read().strip()
+          sm = urllib.request.urlopen("https://spacemanmeow.com/sitemap.xml", timeout=30).read().decode()
+          urls = []
+          for part in sm.split("<loc>")[1:]:
+              u = part.split("</loc>")[0].strip()
+              if u.startswith("http"):
+                  urls.append(u)
+          payload = {
+              "host": "spacemanmeow.com",
+              "key": key,
+              "keyLocation": "https://spacemanmeow.com/" + keyfile,
+              "urlList": urls,
+          }
+          req = urllib.request.Request(
+              "https://api.indexnow.org/indexnow",
+              data=json.dumps(payload).encode(),
+              headers={"Content-Type": "application/json"},
+              method="POST",
+          )
+          try:
+              resp = urllib.request.urlopen(req, timeout=30)
+              print("IndexNow OK: submitted %d URLs, HTTP %d" % (len(urls), resp.status))
+          except urllib.error.HTTPError as e:
+              print("IndexNow HTTPError %d: %s" % (e.code, e.read().decode()[:300]))
+          PY
