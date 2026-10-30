@@ -41,9 +41,13 @@
   --fs-xl: 20px;
   --fs-2xl: 24px;
   --fs-3xl: 30px;
-  /* 字重（主标题 / 副标题，统一在此调整） */
+  /* 字重（主标题 / 副标题，统一在此调整）
+     注意：只能用中文回退字体真实存在的标准字重档位。
+     550 这类非标准值只有 SF Pro/Roboto 等可变字体支持，
+     PingFang SC（仅 400/500/600）会被浏览器升到 600、雅黑（仅 400/700）
+     会直接 Bold，导致中英混排与强调文字粗细错乱（伪加粗发糊）。 */
   --fw-head: 700;
-  --fw-body: 550;
+  --fw-body: 500;
   /* 间距刻度（>32px 继续使用固定值） */
   --space-1: 4px;
   --space-2: 6px;
@@ -108,6 +112,10 @@ body {
 img { max-width: 100%; }
 
 a { color: inherit; text-decoration: none; }
+
+/* 强调文字固定 600：PingFang SC 有真实 Semibold 档可精确渲染；
+   若用默认 700，中文会匹配到 600 再被伪加粗，出现发糊/粗细不均 */
+strong, b { font-weight: 600; }
 
 h1, h2, h3, h4, h5 { margin: 0; line-height: 1.3; font-weight: var(--fw-head); }
 
