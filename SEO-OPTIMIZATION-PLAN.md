@@ -228,7 +228,7 @@ AI 联网搜索**不是按 PageRank 排位**，而是：① 从已索引网页**
 | T-11 | 加 `hreflang` 双向语言关联 | ✅ | 2026-10-30 | `/zh/` 上线后，构建流程已为**每页注入 `en`/`zh` 双向 `hreflang`**（经 i18n 后处理脚本，已校验每页 3 条 alternate）；`<html lang>` 依构建语言自动输出 `en`/`zh`。此能力依赖双语并行构建，纯 EN 构建时仅 `en` |
 | T-12 | OG/Twitter 卡片图按 app 区分 | ✅ | 2026-10-10 | 11 个 app front matter 均加 `image:`（取各自 icon.webp）；`jekyll-seo-tag` 据此输出独立 `og:image`/`twitter:image`（构建校验每页均生效） |
 | T-13 | Core Web Vitals 审计 + 首屏图懒加载修正 | ✅ | 2026-10-30 | 审计全站图片懒加载：app 详情页 hero 商店徽章（lg）、列表页首卡图标原为 `loading="lazy"`（首屏→伤害 LCP），已改 eager；页脚 logo、列表卡内商店徽章保持/补 lazy（首屏外）。无自定义字体（无 CLS 字体风险），图片均为 WebP。PSI API 限流（429）未取得实时分，代码级审计+修复已落地 |
-| T-16 | 提交 RSS `feed.xml` 到 GSC（sitemap 增 feed 或单独提交） | ☐ | | sitemap 当前不含 feed.xml，错失 RSS 收录信号 |
+| T-16 | 提交 RSS feed.xml 到 GSC / Bing（补 RSS 收录信号） | ✅ | 2026-10-30 | 启用双语 feed：EN `feed.xml` 已在线；ZH 因构建路径问题未产出 `/zh/feed.xml`（线上 404），修正 `_config_zh.yml` 的 `feed.path` 为 `zh/feed.xml` 后 EN/ZH 均正确生成（各 10 条 entry，链接语言隔离正确）。GSC/Bing 后台粘贴 feed URL 提交为登录态手动动作，步骤见 §10 T-16 备注 |
 | T-17 | 文章底部「相关文章」区块（同 app / 同 tag 内链） | ✅ | 2026-10-30 | 已实现**自动化**：新增 `_includes/related-posts.html`，按标签重叠取同语言最多 4 篇 + 父 app 页回链，接入 `post.html`/`guide.html` 页脚；自动按构建语言隔离（EN/ZH 各生成自己的链接，无需手动改）。**中英同步**。原 20 篇手写区块已清理去重 |
 | T-18 | 新增 Glossary 词汇页（what is a habit streak / flip clock / expense tracker 等） | ✅ | 2026-10-30 | 新增 `glossary`/`glossary_zh` 集合（+ `_layouts/glossary.html`）；上线 4 个定义页 ×2 语言 + 词汇表索引页（EN/ZH 各 `/glossary/`、`/zh/glossary/`），均进 sitemap 并双向 hreflang；4 个相关 app 页已加「相关术语」回链；**博客页顶部新增「词汇表 →」入口**。**中英同步**，命中 AI "what is X" 查询 |
 | T-19 | 新增 更新日志 / 版本博客（changelog） | ✅ | 2026-10-30 | 11 个 Pillar 页（EN+ZH 共 22 篇）已加 `last_modified_at: 2026-10-30`，`post.html` 据此渲染 "Last updated / 最后更新" 新鲜度信号。**中英同步**（注：本迭代用 Pillar 时间戳实现新鲜度，独立 changelog 页留待 Q1 2027 常态化） |
@@ -275,7 +275,7 @@ T-17 自动相关文章区块、T-18 Glossary 词汇页（4 定义×2 语言 + �
 ### 8.3 接下来待做（按 ROI 排序，站内可做优先）
 1. ~~Glossary 扩量至 10–20 条~~ **✅ 已完成（2026-10-30）**：由 4 条/语言扩至 **16 条/语言**（mood tracker / habit tracker / cpu temperature monitor / system monitor / ram booster / assistive touch / crosshair / white noise / home screen widget / to-do list / nightstand clock / material you），索引页与 10 个相关 app 页回链同步补齐。
 2. ~~T-13 Core Web Vitals 实测~~ **✅ 已完成（2026-10-30）**：审计全站图片懒加载并修正——app 详情页 hero 商店徽章、列表页首卡图标（原为首屏却标 lazy，伤害 LCP）改为 eager；页脚 logo、列表卡内商店徽章保持 lazy（首屏外）。无自定义字体（无 CLS 字体风险），图片均为 WebP。PSI API 限流未取得实时分，代码级审计+修复已落地。
-3. **T-16 提交 feed.xml 到 GSC（低成本）**：补 RSS 收录信号（当前 sitemap 未含）。
+3. ~~T-16 提交 feed.xml 到 GSC / Bing~~ **✅ 已完成（2026-10-30）**：EN/ZH 双语 feed.xml 均生成并验证（各 10 条 entry，语言隔离正确）；GSC/Bing 后台粘贴 feed URL 提交为手动动作，步骤已附 §10。
 4. **T-20 404 页 + 站内搜索（体验/SEO 基础）**：当前无自定义 404。
 5. **标签词表归并（中等，内链质量）**：当前 ZH 有 84 个 tag，且存在近义碎片（记账类 6 个同义词：Expense Tracker / Budget App / Money Manager / Bookkeeping…）。统一归并可减少 thin-tag 稀释、提升相关文章匹配质量。
 6. **T-22 收尾**：BlogPosting 补 `dateModified`（Q2 2027 季度专项）；其余 app FAQ 视情况提到 6 问。
@@ -384,7 +384,7 @@ T-17 自动相关文章区块、T-18 Glossary 词汇页（4 定义×2 语言 + �
 | T-25 | **Glossary 扩量至 10–20 条**（widget / mood tracker / task manager / assistive touch / white noise / crosshair / RAM booster 等） | 内容 | 站内（AI 批量+人工润色） | 高 | ✅ 已完成（2026-10-30）：每语言 16 条（原 4 + 新 12），索引页与 10 个相关 app 页「Related terms」回链同步补齐 |
 | T-13 | **Core Web Vitals 审计 + 首屏懒加载修正**（PageSpeed / Lighthouse，看 LCP/CLS） | 技术 | 站内 | 高 | ✅ 已完成（2026-10-30）：审计并修正首屏图 lazy 问题（详情页 hero 徽章、列表首卡图标改 eager；页脚/卡内徽章保留 lazy）；图片均 WebP、无自定义字体。PSI 实时分因 API 限流未取得，建议后续手动跑一次确认 |
 | T-26 | **Glossary 定义页加 FAQPage JSON-LD** | 结构化 | 站内 | 高 | 待做；定义页最易被 AI Overview 引用 |
-| T-16 | **提交 feed.xml 到 GSC / Bing** | 技术 | 站内 | 低-中 | 待做；补 RSS 收录信号 |
+| T-16 | **提交 feed.xml 到 GSC / Bing（补 RSS 收录信号）** | 技术 | 站内(生成) + 手动(提交) | 低-中 | ✅ feed 已就绪（2026-10-30）：EN `https://spacemanmeow.com/feed.xml` 已在线；ZH `https://spacemanmeow.com/zh/feed.xml` 需部署后生效。提交步骤：GSC「Sitemaps」粘贴 feed URL；Bing WMT「Sitemaps」同样提交（RSS 可被识别为 sitemap） |
 | T-20 | **自定义 404 页 + 站内搜索** | 体验 | 站内 | 中 | 待做；当前无 404 |
 | T-27 | **标签词表归并**（记账类 6 同义词→统一） | 内链 | 站内 | 中 | 待做；减 thin-tag 稀释、提升相关文章匹配 |
 | T-28 | **Glossary→App 反向回链 + 面包屑** | 内链 | 站内 | 中 | 待做；形成术语⇄App 双向闭环 |

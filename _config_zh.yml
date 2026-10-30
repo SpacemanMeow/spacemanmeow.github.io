@@ -99,7 +99,7 @@ plugins:
   - jekyll-feed
 
 feed:
-  path: feed.xml
+  path: zh/feed.xml
 
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
