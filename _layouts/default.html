@@ -31,7 +31,7 @@
     {% assign _c = _c | replace: 'href="http://play.google.com/store/apps/details', 'target="_blank" rel="noopener noreferrer" href="http://play.google.com/store/apps/details' %}
     {% assign _c = _c | replace: 'href="https://apps.apple.com/', 'target="_blank" rel="noopener noreferrer" href="https://apps.apple.com/' %}
     {% assign _c = _c | replace: 'href="http://apps.apple.com/', 'target="_blank" rel="noopener noreferrer" href="http://apps.apple.com/' %}
-    <main id="main">{{ _c }}</main>
+    <main id="main" data-pagefind-body>{{ _c }}</main>
     {% include footer.html %}
     <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
     <script src="{{ '/assets/js/i18n.js' | relative_url }}" defer></script>

@@ -37,4 +37,40 @@ rm -rf "$TMP_ZH"
 echo "==> Injecting hreflang + combined sitemap"
 python3 scripts/i18n_postprocess.py --url "$SITE_URL"
 
+echo "==> Building Pagefind search index"
+# 本地预览时可用 SKIP_PAGEFIND=1 跳过（下载 57MB 二进制 + 索引 216 页很慢，纯改 CSS/模板无需）
+if [ -n "${SKIP_PAGEFIND:-}" ]; then
+  echo "⏭️ SKIP_PAGEFIND=1，跳过搜索索引生成（本地预览加速）"
+elif command -v pagefind >/dev/null 2>&1; then
+  pagefind --site _site
+else
+  PF_VER="1.3.0"
+  PF_DIR=".pagefind-bin"
+  OS=$(uname -s)
+  ARCH=$(uname -m)
+  case "$OS" in
+    Linux)  TARGET="x86_64-unknown-linux-musl" ;;
+    Darwin) TARGET="x86_64-apple-darwin" ;;
+    *)      TARGET="" ;;
+  esac
+  if [ "$OS" = "Darwin" ] && [ "$ARCH" = "arm64" ]; then TARGET="aarch64-apple-darwin"; fi
+  if [ -n "$TARGET" ] && [ ! -x "$PF_DIR/pagefind" ]; then
+    URL="https://github.com/CloudCannon/pagefind/releases/download/v${PF_VER}/pagefind_extended-v${PF_VER}-${TARGET}.tar.gz"
+    if curl -fsSL "$URL" -o /tmp/pagefind.tar.gz; then
+      mkdir -p "$PF_DIR"
+      tar -xzf /tmp/pagefind.tar.gz -C "$PF_DIR"
+      # 扩展版二进制名为 pagefind_extended，统一重命名为 pagefind 以便后续调用
+      if [ -f "$PF_DIR/pagefind_extended" ]; then mv "$PF_DIR/pagefind_extended" "$PF_DIR/pagefind"; fi
+    else
+      echo "⚠️ 无法下载 Pagefind 二进制，跳过搜索索引生成（部署环境会生成）"
+    fi
+  fi
+  if [ -x "$PF_DIR/pagefind" ]; then
+    "$PF_DIR/pagefind" --site _site
+    # 保留缓存二进制（已在 .gitignore），下次构建复用，避免重复下载 57MB
+  else
+    echo "⚠️ Pagefind 不可用，跳过搜索索引（搜索功能在部署环境会生成）"
+  fi
+fi
+
 echo "==> Done. Combined site in _site/ (EN at root, ZH at /zh/)"

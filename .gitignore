@@ -31,3 +31,6 @@ assets/js/dist
 
 .DS_Store
 
+# Pagefind 构建临时目录
+.pagefind-bin/
+

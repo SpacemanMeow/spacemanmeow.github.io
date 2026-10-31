@@ -40,6 +40,13 @@
         </ul>
       </div>
 
+      <a class="header-search" href="{% if site.lang == 'zh' %}/zh/search/{% else %}/search/{% endif %}" aria-label="Search" title="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" />
+          <line x1="21" y1="21" x2="16.65" y2="16.65" />
+        </svg>
+      </a>
+
       <button class="theme-toggle" type="button" data-theme-toggle aria-label="切换深浅模式">
       <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <circle cx="12" cy="12" r="4" />

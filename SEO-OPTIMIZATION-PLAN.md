@@ -21,9 +21,9 @@
 - ✅ `canonical` 生效；`<html lang="en">` 已输出（T-10/T-11）
 - ✅ 各 app `og:image` 独立（T-12）
 - ✅ 66/66 文章均含 `description:` 字段（seo-tag 输出高质量 meta description）
-- ⚠️ **`sitemap.xml` 未包含 `feed.xml`**（RSS 未被提交给 GSC，T-16 待办）
+- ✅ **`feed.xml` 已提交 GSC / Bing WMT**（T-16）：RSS 作为独立发现源直接提交，无需塞进 sitemap.xml
 - ✅ **文章底部「相关文章」区块**已全站自动化上线（`_includes/related-posts.html`：同语言取标签重叠最多 4 篇 + 父 app 回链，T-17，中英双语）
-- ⚠️ **无 404 页 / 站内搜索**（T-20 待办）；RSS(`feed.xml`) 未提交 GSC（T-16 待办）
+- ✅ **自定义 404 页 + 站内搜索（T-20）**已上线：根 `404.html` 双语（按 `/zh/` 路径前缀切换语言）、Pagefind 全文搜索（EN/ZH 独立索引，扩展版带中文分词），导航栏已加搜索入口
 
 ### 内容现状（2026-10-18 复核）
 - 11 个 app 详情页 + 可见 FAQ（T-06）+ Guides 回链（T-14）
@@ -165,7 +165,7 @@ AI 联网搜索**不是按 PageRank 排位**，而是：① 从已索引网页**
 - [ ] **新增 Bing Webmaster + IndexNow 提交**（Copilot / 部分 AI 走 Bing 索引）— 高优先级，见 §8
 - [ ] T-22 收尾：BlogPosting 补 `dateModified`（Q2 2027 季度专项）
 - [ ] T-16 提交 RSS `feed.xml` 到 GSC
-- [ ] T-20 404 页 + 站内搜索
+- [x] T-20 404 页 + 站内搜索
 - [ ] T-21 外链投稿（Product Hunt / alternative.to / 少数派）
 
 ### 4.4 与月度运营的关系
@@ -232,7 +232,7 @@ AI 联网搜索**不是按 PageRank 排位**，而是：① 从已索引网页**
 | T-17 | 文章底部「相关文章」区块（同 app / 同 tag 内链） | ✅ | 2026-10-30 | 已实现**自动化**：新增 `_includes/related-posts.html`，按标签重叠取同语言最多 4 篇 + 父 app 页回链，接入 `post.html`/`guide.html` 页脚；自动按构建语言隔离（EN/ZH 各生成自己的链接，无需手动改）。**中英同步**。原 20 篇手写区块已清理去重 |
 | T-18 | 新增 Glossary 词汇页（what is a habit streak / flip clock / expense tracker 等） | ✅ | 2026-10-30 | 新增 `glossary`/`glossary_zh` 集合（+ `_layouts/glossary.html`）；上线 4 个定义页 ×2 语言 + 词汇表索引页（EN/ZH 各 `/glossary/`、`/zh/glossary/`），均进 sitemap 并双向 hreflang；4 个相关 app 页已加「相关术语」回链；**博客页顶部新增「词汇表 →」入口**。**中英同步**，命中 AI "what is X" 查询 |
 | T-19 | 新增 更新日志 / 版本博客（changelog） | ✅ | 2026-10-30 | 11 个 Pillar 页（EN+ZH 共 22 篇）已加 `last_modified_at: 2026-10-30`，`post.html` 据此渲染 "Last updated / 最后更新" 新鲜度信号。**中英同步**（注：本迭代用 Pillar 时间戳实现新鲜度，独立 changelog 页留待 Q1 2027 常态化） |
-| T-20 | 404 页 + 站内搜索 | ☐ | | 基础体验/SEO |
+| T-20 | 404 页 + 站内搜索（Pagefind 全文搜索 + 双语 404） | ✅ | 2026-10-30 | 根 `404.html` 双语（按 `/zh/` 路径切换语言）；Pagefind 扩展版建 EN/ZH 独立索引（含中文分词）；导航加搜索入口；`data-pagefind-body` 仅索正文；i18n 后处理跳过 404 不进 sitemap |
 | T-21 | 外链 / roundup 投稿（Product Hunt / alternative.to / 少数派） | ☐ | | Phase 4 权威，需手动排期 |
 | T-22 | JSON-LD 增强：BlogPosting `dateModified`、author 细化、FAQ 增至 4–6 问 | ✅ | 2026-10-30 | 薄弱集群 3 个 app 页（Meow Money / Meow Habits / Floating Assistant，EN+ZH）FAQ 由 4 增至 6 问，FAQPage JSON-LD 校验含 6 组 Question+acceptedAnswer。**中英同步**（BlogPosting `dateModified` 待 Q2 2027 季度专项补） |
 | T-23 | Bing Webmaster Tools：站点验证 + sitemap 提交 | ✅ | 2026-10-30 | 用户在 Bing WMT 添加 `spacemanmeow.com` 并导入 GSC 验证通过；提交 `https://spacemanmeow.com/sitemap.xml`（EN+ZH 全量 + glossary）。前置：`_config.yml` 已配 `webmaster_verifications.bing`，线上每页输出 `msvalidate.01` meta |
@@ -276,7 +276,7 @@ T-17 自动相关文章区块、T-18 Glossary 词汇页（4 定义×2 语言 + �
 1. ~~Glossary 扩量至 10–20 条~~ **✅ 已完成（2026-10-30）**：由 4 条/语言扩至 **16 条/语言**（mood tracker / habit tracker / cpu temperature monitor / system monitor / ram booster / assistive touch / crosshair / white noise / home screen widget / to-do list / nightstand clock / material you），索引页与 10 个相关 app 页回链同步补齐。
 2. ~~T-13 Core Web Vitals 实测~~ **✅ 已完成（2026-10-30）**：审计全站图片懒加载并修正——app 详情页 hero 商店徽章、列表页首卡图标（原为首屏却标 lazy，伤害 LCP）改为 eager；页脚 logo、列表卡内商店徽章保持 lazy（首屏外）。无自定义字体（无 CLS 字体风险），图片均为 WebP。PSI API 限流未取得实时分，代码级审计+修复已落地。
 3. ~~T-16 提交 feed.xml 到 GSC / Bing~~ **✅ 已完成（2026-10-30）**：EN/ZH 双语 feed.xml 均生成并验证（各 10 条 entry，语言隔离正确）；GSC/Bing 后台粘贴 feed URL 提交为手动动作，步骤已附 §10。
-4. **T-20 404 页 + 站内搜索（体验/SEO 基础）**：当前无自定义 404。
+4. ~~T-20 404 页 + 站内搜索~~ **✅ 已完成（2026-10-30）**：根 `404.html` 双语 + Pagefind 全文搜索（EN/ZH 独立索引，扩展版支持中文分词），导航加搜索入口。
 5. **标签词表归并（中等，内链质量）**：当前 ZH 有 84 个 tag，且存在近义碎片（记账类 6 个同义词：Expense Tracker / Budget App / Money Manager / Bookkeeping…）。统一归并可减少 thin-tag 稀释、提升相关文章匹配质量。
 6. **T-22 收尾**：BlogPosting 补 `dateModified`（Q2 2027 季度专项）；其余 app FAQ 视情况提到 6 问。
 
@@ -326,7 +326,7 @@ T-17 自动相关文章区块、T-18 Glossary 词汇页（4 定义×2 语言 + �
 |---|---|---|---|
 | Q4 2026 | 建库 + 内链（已完成） | T-17 相关文章全站铺开✅、T-18 Glossary 4 条/语言✅、T-19 时间戳✅、T-22 FAQ 增强✅ | 文章间网状内链、AI 可抓定义 | 下一步：Glossary 扩至 10–20 条、Bing/IndexNow |
 | Q1 2027 | 新鲜度 + RSS | T-19 更新日志常态化、T-16 提交 feed.xml | 活跃度信号、RSS 收录 |
-| Q2 2027 | 权威 / 外链 | T-21 roundup 投稿（Product Hunt / alternative.to / 少数派）、T-20 404 + 搜索 | 外部反链、体验补完 |
+| Q2 2027 | 权威 / 外链 | T-21 roundup 投稿（Product Hunt / alternative.to / 少数派） | 外部反链 |
 | Q3 2027 | 结构化增强 + 年审 | T-22 JSON-LD 增强、全站内容审计（重复 meta / cannibalization） | 富媒体质量、清理冗余 |
 
 ### 9.4 首年度 12 个月滚动示例
@@ -385,7 +385,7 @@ T-17 自动相关文章区块、T-18 Glossary 词汇页（4 定义×2 语言 + �
 | T-13 | **Core Web Vitals 审计 + 首屏懒加载修正**（PageSpeed / Lighthouse，看 LCP/CLS） | 技术 | 站内 | 高 | ✅ 已完成（2026-10-30）：审计并修正首屏图 lazy 问题（详情页 hero 徽章、列表首卡图标改 eager；页脚/卡内徽章保留 lazy）；图片均 WebP、无自定义字体。PSI 实时分因 API 限流未取得，建议后续手动跑一次确认 |
 | T-26 | **Glossary 定义页加 FAQPage JSON-LD** | 结构化 | 站内 | 高 | 待做；定义页最易被 AI Overview 引用 |
 | T-16 | **提交 feed.xml 到 GSC / Bing（补 RSS 收录信号）** | 技术 | 站内(生成) + 手动(提交) | 低-中 | ✅ feed 已就绪（2026-10-30）：EN `https://spacemanmeow.com/feed.xml` 已在线；ZH `https://spacemanmeow.com/zh/feed.xml` 需部署后生效。提交步骤：GSC「Sitemaps」粘贴 feed URL；Bing WMT「Sitemaps」同样提交（RSS 可被识别为 sitemap） |
-| T-20 | **自定义 404 页 + 站内搜索** | 体验 | 站内 | 中 | 待做；当前无 404 |
+| T-20 | **自定义 404 页 + 站内搜索**（Pagefind 全文搜索 + 双语 404） | 体验 | 站内 | 中 | ✅ 已完成（2026-10-30）：根 `404.html` 双语；Pagefind 扩展版 EN/ZH 独立索引（含中文分词）；导航加搜索入口 |
 | T-27 | **标签词表归并**（记账类 6 同义词→统一） | 内链 | 站内 | 中 | 待做；减 thin-tag 稀释、提升相关文章匹配 |
 | T-28 | **Glossary→App 反向回链 + 面包屑** | 内链 | 站内 | 中 | 待做；形成术语⇄App 双向闭环 |
 | T-22b | **BlogPosting `dateModified` / author 细化** | 结构化 | 站内 | 中 | 待做（Q2 2027 专项） |

@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /404.html
+title: Page not found
+sitemap: false
+---
+
+<div class="notfound" data-pagefind-ignore>
+  <div class="container">
+    <p class="nf__code" aria-hidden="true">404</p>
+    <h1 class="nf__title">Page not found</h1>
+    <h1 class="nf__title nf__title--zh">找不到该页面</h1>
+  </div>
+</div>
+
+<script>
+(function () {
+  var zh = location.pathname.indexOf("/zh/") === 0;
+  document.documentElement.setAttribute("data-nf", zh ? "zh" : "en");
+})();
+</script>

@@ -37,6 +37,9 @@ def main():
         for f in files:
             if not f.endswith(".html"):
                 continue
+            # 404.html 是错误页，不应进入 sitemap（否则 Google 会把它当正常页收录），也不注入 hreflang
+            if f == "404.html":
+                continue
             full = os.path.join(root, f)
             rel = os.path.relpath(full, SITE)
             parts = rel.split(os.sep)

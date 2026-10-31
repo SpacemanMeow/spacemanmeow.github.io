@@ -161,3 +161,4 @@ exclude:
   - .idea
   - .vscode
   - .qoder
+  - 404.html

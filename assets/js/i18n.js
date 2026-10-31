@@ -44,21 +44,6 @@
     return p;
   }
 
-  /* 本地双预览专用：EN 跑在 4001、其它语言跑在 4000，切换时需跨端口跳转；
-   * 生产环境（非 localhost）返回空串，走同源。注意：本地超过 2 门语言时，
-   * 需要为每种语言各起一个服务端口，此处仅覆盖两端口约定。 */
-  function devOrigin(lang) {
-    var host = location.hostname;
-    if (host !== "localhost" && host !== "127.0.0.1") return "";
-    if (lang === DEFAULT && location.port === "4000") {
-      return location.protocol + "//" + host + ":4001";
-    }
-    if (lang !== DEFAULT && location.port === "4001") {
-      return location.protocol + "//" + host + ":4000";
-    }
-    return "";
-  }
-
   function isLocal() {
     return location.hostname === "localhost" || location.hostname === "127.0.0.1";
   }
@@ -116,7 +101,6 @@
       var lang = item.getAttribute("data-lang");
       localStorage.setItem("lang-pref", lang);
       location.href =
-        devOrigin(lang) +
         swap(location.pathname, lang) +
         location.search +
         location.hash;
