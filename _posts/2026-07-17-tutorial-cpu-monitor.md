@@ -3,7 +3,7 @@ layout: post
 title: "CPU Monitor Official User Guide"
 date: 2026-07-17 09:00:00 +0800
 categories: [Tutorial]
-tags: [CPU Monitor, CPU Temperature, Overheat Alarm, Android]
+tags: [CPU Monitor, CPU Temperature, Android]
 lang: en
 author: author_meow_id
 description: "A complete CPU Monitor user guide — real-time CPU temperature, floating window, overheat alarm, history curves and cache clean."

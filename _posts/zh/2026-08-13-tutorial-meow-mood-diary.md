@@ -3,7 +3,7 @@ layout: post
 title: "Meow Mood Diary 官方使用指南"
 date: 2026-08-13 09:00:00 +0800
 categories: [Tutorial]
-tags: [Mood Diary, Journaling App, Private Diary, Android, Meow Mood]
+tags: [Mood Diary, Android, Meow Mood]
 lang: zh
 author: author_meow_id
 description: "一份完整的 Meow Mood Diary 使用指南——一键记录心情、查看日历与趋势统计，数据全部私密存储在设备端。"

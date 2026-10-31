@@ -3,7 +3,7 @@ layout: post
 title: "Meow Habits 官方使用指南"
 date: 2026-08-04 09:00:00 +0800
 categories: [Tutorial]
-tags: [Habit Tracker, Routine Builder, Streaks, Android, Meow Habits]
+tags: [Habit Tracker, Android, Meow Habits]
 lang: zh
 author: author_meow_id
 description: "一份完整的 Meow Habits 使用指南——在这款可爱的习惯追踪器里建立连续天数、记录每日打卡、设置提醒并查看趋势。"

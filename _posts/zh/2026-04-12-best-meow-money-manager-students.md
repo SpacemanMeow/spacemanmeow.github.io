@@ -3,7 +3,7 @@ date: 2026-04-12 09:00:00 +0800
 title: "Meow Money Manager 学生版：课间也能记账"
 description: "面向学生的 Meow Money Manager 与 YNAB、Goodbudget、EveryDollar 对比（2026）——免费追踪、无账号、留学多币种与价格。"
 layout: guide
-tags: [Meow Money, Budget App, Expense Tracker, Money Manager, Android, Best Apps]
+tags: [Meow Money, Expense Tracker, Android, Best Apps]
 image: /assets/images/apps/meow-money-manager/icon.webp
 lang: zh
 ---

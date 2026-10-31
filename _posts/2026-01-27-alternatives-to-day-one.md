@@ -3,7 +3,7 @@ date: 2026-01-27 09:00:00 +0800
 title: "Best Day One Alternatives in 2026"
 description: "Looking for alternatives to Day One in 2026? We compare six journals and mood diaries — Meow Mood, Journey, Diaro, Daylio, Grid Diary and Momento — across price, privacy, platforms, prompts and export, with a core-capability table and a migration checklist."
 layout: guide
-tags: [Meow Mood Diary, Mood Diary, Journal, Mental Health, Android, Alternatives, Day One]
+tags: [Meow Mood Diary, Mood Diary, Android, Alternatives, Day One]
 image: /assets/images/apps/meow-mood-diary/icon.webp
 lang: en
 ---

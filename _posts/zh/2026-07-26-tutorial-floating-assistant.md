@@ -3,7 +3,7 @@ layout: post
 title: "Floating Assistant 官方使用指南"
 date: 2026-07-26 09:00:00 +0800
 categories: [Tutorial]
-tags: [Floating Assistant, Assistive Touch, One-Hand, Android]
+tags: [Floating Assistant, Assistive Touch, Android]
 lang: zh
 author: author_meow_id
 description: "一份完整的 Floating Assistant 使用指南——一颗用于启动应用、系统开关与单手控制的浮动球，无需 root。"

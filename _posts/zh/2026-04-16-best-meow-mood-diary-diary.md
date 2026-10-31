@@ -3,7 +3,7 @@ date: 2026-04-16 09:00:00 +0800
 title: "Meow Mood：塞得进会议间隙的心情日记"
 description: "2026 年 Meow Mood 与 Day One、Journey、Daylio、Grid Diary 在心情追踪上的实用对比——一键记录、趋势、隐私与价格。"
 layout: guide
-tags: [Meow Mood Diary, Mood Diary, Journal, Mental Health, Android, Best Apps]
+tags: [Meow Mood Diary, Mood Diary, Android, Best Apps]
 image: /assets/images/apps/meow-mood-diary/icon.webp
 lang: zh
 ---

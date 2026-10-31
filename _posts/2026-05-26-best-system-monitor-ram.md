@@ -3,7 +3,7 @@ date: 2026-05-26 09:00:00 +0800
 title: "System Monitor for RAM: See Exactly What Your Memory Is Doing"
 description: "A practical look at System Monitor versus CCleaner for understanding RAM in 2026 — detailed memory info, process lists, and what actually helps on Android."
 layout: guide
-tags: [System Monitor, RAM Booster, Storage Cleaner, Battery, Android, Best Apps]
+tags: [System Monitor, RAM Booster, Android, Best Apps]
 image: /assets/images/apps/system-monitor/icon.webp
 lang: en
 ---

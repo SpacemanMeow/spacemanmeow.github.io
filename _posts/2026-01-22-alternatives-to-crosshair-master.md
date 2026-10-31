@@ -3,7 +3,7 @@ date: 2026-01-22 09:00:00 +0800
 title: "Best Crosshair Master Alternatives in 2026"
 description: "Looking for alternatives to Crosshair Master in 2026? We compare six no-root crosshair overlay apps for FPS and shooting games — Crosshair Aim, Custom Crosshair, Custom Aim, Crosshair Pro, CrossAim and Crosshair PRO — across styles, customization, in-game adjusters and price, with a core-capability table and a pick-by-need guide."
 layout: guide
-tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Alternatives, Crosshair Master]
+tags: [Crosshair Aim, Crosshair, Android, Alternatives, Crosshair Master]
 image: /assets/images/apps/cross-hair/icon.webp
 lang: en
 ---

@@ -4,7 +4,7 @@ title: "最佳安卓主屏小组件应用（2026）"
 description: "2026 年最佳安卓主屏小组件应用：该看什么（风格、自定义、快捷开关），以及 One Widget 与 KWGT、WidgetSmith 的对比。"
 layout: guide
 image: /assets/images/apps/one-widget/icon.webp
-tags: [Android Widgets, Home Screen, Material You, KWGT, One Widget, App Roundup]
+tags: [Home Screen Widgets, KWGT, One Widget, App Roundup]
 last_modified_at: 2026-10-30
 lang: zh
 ---

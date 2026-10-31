@@ -3,7 +3,7 @@ date: 2026-03-07 09:00:00 +0800
 title: "Crosshair Aim as a Custom Overlay: Your Own Reticle on Any Screen"
 description: "A practical look at Crosshair Aim versus Crosshair Hero as a custom crosshair overlay in 2026 — PNG import, transparency, per-app positioning, and price on Android."
 layout: guide
-tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Best Apps]
+tags: [Crosshair Aim, Crosshair, Android, Best Apps]
 image: /assets/images/apps/cross-hair/icon.webp
 lang: en
 ---

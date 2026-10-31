@@ -4,7 +4,7 @@ title: "最佳安卓习惯追踪应用（2026）"
 description: "2026 年最佳安卓习惯追踪应用：该看什么（连续天数、提醒、离线、导出），以及 Meow Habits 与 Streaks、Habitica 的对比。"
 layout: guide
 image: /assets/images/apps/meow-habits/icon.webp
-tags: [Habit Tracker, Routine Builder, Streaks, Android, Meow Habits, App Roundup]
+tags: [Habit Tracker, Android, Meow Habits, App Roundup]
 last_modified_at: 2026-10-30
 lang: zh
 ---

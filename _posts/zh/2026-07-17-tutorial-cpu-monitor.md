@@ -3,7 +3,7 @@ layout: post
 title: "CPU Monitor 官方使用指南"
 date: 2026-07-17 09:00:00 +0800
 categories: [Tutorial]
-tags: [CPU Monitor, CPU Temperature, Overheat Alarm, Android]
+tags: [CPU Monitor, CPU Temperature, Android]
 lang: zh
 author: author_meow_id
 description: "一份完整的 CPU Monitor 使用指南——实时 CPU 温度、浮窗、过热报警、历史曲线与缓存清理。"

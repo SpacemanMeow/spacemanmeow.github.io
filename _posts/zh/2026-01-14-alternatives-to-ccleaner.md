@@ -3,7 +3,7 @@ date: 2026-01-14 09:00:00 +0800
 title: "2026 年最佳 CCleaner 安卓替代应用"
 description: "2026 年想找 CCleaner 的替代品？我们对比了六款清理与监控应用——System Monitor、Files by Google、SD Maid、CCleaner、Avast Cleanup 和 Norton Clean——从垃圾清理、存储分析、内存加速到安全性，附核心能力对比表，并如实说明清理工具能做什么、不能做什么。"
 layout: guide
-tags: [System Monitor, RAM Booster, Storage Cleaner, Battery, Android, Alternatives, CCleaner]
+tags: [System Monitor, RAM Booster, Android, Alternatives, CCleaner]
 image: /assets/images/apps/system-monitor/icon.webp
 lang: zh
 ---

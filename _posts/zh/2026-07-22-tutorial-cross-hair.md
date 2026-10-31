@@ -3,7 +3,7 @@ layout: post
 title: "Crosshair 官方使用指南"
 date: 2026-07-22 09:00:00 +0800
 categories: [Tutorial]
-tags: [Crosshair, FPS Games, Aim Trainer, Android, Crosshair Aim]
+tags: [Crosshair, Android, Crosshair Aim]
 lang: zh
 author: author_meow_id
 description: "一份完整的 Crosshair 使用指南——为 FPS 游戏添加自定义准星叠层：80+ 样式、缩放/颜色/位置，无需 root。"

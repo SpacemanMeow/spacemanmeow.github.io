@@ -3,7 +3,7 @@ date: 2026-10-13 09:00:00 +0800
 title: "Only Clock vs Flip Clock: Which Flip Clock App?"
 description: "Only Clock vs Flip Clock compared in depth for 2026: a themed fullscreen flip clock with white noise and floating mode versus a popular free flip-clock app. Features, platforms and a verdict per use."
 layout: guide
-tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Comparison, Retroflip]
+tags: [Only Clock, Flip Clock, Android, Comparison, Retroflip]
 image: /assets/images/apps/only-clock/icon.webp
 lang: en
 ---

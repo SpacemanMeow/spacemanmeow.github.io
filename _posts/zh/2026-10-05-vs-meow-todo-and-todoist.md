@@ -3,7 +3,7 @@ date: 2026-10-05 09:00:00 +0800
 title: "Meow Todo vs Todoist：哪款任务管理应用该用？"
 description: "2026 年 Meow Todo 与 Todoist 深度对比：一款核心免费、私密、可爱的任务管理应用，带子任务、日历与 CSV 导出，对阵一款以自然语言输入与协作为特色的人气强者。价格、限制与按需结论。"
 layout: guide
-tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Comparison, Todoist]
+tags: [Meow Todo, To-Do List, Android, Comparison, Todoist]
 image: /assets/images/apps/meow-todo-list/icon.webp
 lang: zh
 ---

@@ -3,7 +3,7 @@ date: 2026-04-03 09:00:00 +0800
 title: "Meow Habits：把坚持变得可爱的习惯追踪器"
 description: "2026 年 Meow Habits 与 Streaks、Habitica、Loop 在养成与戒除习惯上的实用对比——跨平台支持、隐私、图表与价格。"
 layout: guide
-tags: [Meow Habits, Habit Tracker, Routine Builder, Streaks, Android, Best Apps]
+tags: [Meow Habits, Habit Tracker, Android, Best Apps]
 image: /assets/images/apps/meow-habits/icon.webp
 lang: zh
 ---

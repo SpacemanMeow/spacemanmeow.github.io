@@ -3,7 +3,7 @@ date: 2026-03-12 09:00:00 +0800
 title: "无障碍浮动助手：大屏手机上的单手操控"
 description: "2026 年 Floating Assistant 与 Assistive Touch 在无障碍场景下的实用对比——虚拟按键、边缘触及、手势，以及无需物理按键的安卓操控。"
 layout: guide
-tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Best Apps]
+tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
 image: /assets/images/apps/floating-assistant/icon.webp
 lang: zh
 ---

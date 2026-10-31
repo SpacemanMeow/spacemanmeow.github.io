@@ -3,7 +3,7 @@ date: 2026-02-05 09:00:00 +0800
 title: "2026 年最佳 Retroflip 替代应用"
 description: "2026 年想找 Retroflip 的替代品？我们对比了六款全屏与翻页时钟应用——Only Clock、FliTik、Flip Clock: World Clock、Fullscreen Clock、Flip Clock: Digital Desk Widget 和 Flip Clock — Digital Clock——从主题、白噪音、悬浮时钟、小组件到平台，附核心能力对比表与迁移清单。"
 layout: guide
-tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Alternatives, Retroflip]
+tags: [Only Clock, Flip Clock, Android, Alternatives, Retroflip]
 image: /assets/images/apps/only-clock/icon.webp
 lang: zh
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Only Clock 官方使用指南"
 date: 2026-08-26 09:00:00 +0800
 categories: [Tutorial]
-tags: [Flip Clock, Desk Clock, Nightstand Clock, Android, Only Clock]
+tags: [Flip Clock, Android, Only Clock]
 lang: zh
 author: author_meow_id
 description: "一份完整的 Only Clock 使用指南——一款漂亮的全屏翻页钟、时钟组件、白噪音与 12/24 小时显示。"

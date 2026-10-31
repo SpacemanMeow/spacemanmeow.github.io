@@ -3,7 +3,7 @@ date: 2026-02-13 09:00:00 +0800
 title: "Best Todoist Alternatives in 2026"
 description: "Looking for alternatives to Todoist in 2026? We compare seven top to-do apps — Microsoft To Do, Meow Todo, TickTick, Google Tasks, Things 3, Notion, and Any.do — on price, free-tier limits, core features, privacy and simplicity, with a core-capability table and a migration checklist."
 layout: guide
-tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Alternatives, Todoist]
+tags: [Meow Todo, To-Do List, Android, Alternatives, Todoist]
 image: /assets/images/apps/meow-todo-list/icon.webp
 lang: en
 ---

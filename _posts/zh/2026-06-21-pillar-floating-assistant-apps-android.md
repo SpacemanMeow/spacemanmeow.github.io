@@ -4,7 +4,7 @@ title: "最佳安卓浮动助手与辅助触控应用（2026）"
 description: "2026 年最佳安卓浮动助手与辅助触控应用：该看什么（浮动球、快捷方式、单手操作），以及 Floating Assistant 与 Assistive Touch 的对比。"
 layout: guide
 image: /assets/images/apps/floating-assistant/icon.webp
-tags: [Floating Assistant, Assistive Touch, One-Hand, Android, App Roundup]
+tags: [Floating Assistant, Assistive Touch, Android, App Roundup]
 last_modified_at: 2026-10-30
 lang: zh
 ---

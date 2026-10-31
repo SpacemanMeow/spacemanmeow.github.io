@@ -3,7 +3,7 @@ date: 2026-02-13 09:00:00 +0800
 title: "2026 年最佳 Todoist 替代应用"
 description: "正在寻找 2026 年 Todoist 的替代应用？我们从价格、免费档限制、核心功能、隐私与简洁度等维度，对比了七款主流待办应用——Microsoft To Do、Meow Todo、TickTick、Google Tasks、Things 3、Notion 与 Any.do，并附核心能力对比表与迁移清单。"
 layout: guide
-tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Alternatives, Todoist]
+tags: [Meow Todo, To-Do List, Android, Alternatives, Todoist]
 image: /assets/images/apps/meow-todo-list/icon.webp
 lang: zh
 ---

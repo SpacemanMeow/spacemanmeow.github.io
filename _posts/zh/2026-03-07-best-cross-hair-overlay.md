@@ -3,7 +3,7 @@ date: 2026-03-07 09:00:00 +0800
 title: "把 Crosshair Aim 当作自定义叠层：任意屏幕上的专属准星"
 description: "2026 年 Crosshair Aim 与 Crosshair Hero 作为自定义准星叠层的实用对比——PNG 导入、透明度、按应用记忆位置，以及安卓端价格。"
 layout: guide
-tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Best Apps]
+tags: [Crosshair Aim, Crosshair, Android, Best Apps]
 image: /assets/images/apps/cross-hair/icon.webp
 lang: zh
 ---

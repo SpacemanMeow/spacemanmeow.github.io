@@ -3,7 +3,7 @@ date: 2026-04-29 09:00:00 +0800
 title: "Meow Todo for Students: Never Miss a Syllabus Deadline"
 description: "A student-friendly look at Meow Todo versus Todoist, Microsoft To Do and TickTick in 2026 — free core, subtasks, reminders, calendar view, and no account required."
 layout: guide
-tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Best Apps]
+tags: [Meow Todo, To-Do List, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
 lang: en
 ---

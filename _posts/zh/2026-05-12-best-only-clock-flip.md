@@ -3,7 +3,7 @@ date: 2026-05-12 09:00:00 +0800
 title: "Only Clock：让任意屏幕安静下来的翻页钟"
 description: "2026 年 Only Clock 与 Flip Clock 的实用对比——翻页动画、主题、白噪音、小组件、浮窗模式与价格。"
 layout: guide
-tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Best Apps]
+tags: [Only Clock, Flip Clock, Android, Best Apps]
 image: /assets/images/apps/only-clock/icon.webp
 lang: zh
 ---

@@ -3,7 +3,7 @@ date: 2026-09-17 09:00:00 +0800
 title: "Meow FM vs Calm：该选哪款助眠声音应用？"
 description: "2026 年 Meow FM 与 Calm 深度对比：一款简单可爱的白噪音播放器，对阵完整的冥想与睡眠订阅服务。价格、声音与按需结论。"
 layout: guide
-tags: [Meow FM, White Noise, Sleep, Focus, Relax, Android, Comparison, Calm]
+tags: [Meow FM, White Noise, Android, Comparison, Calm]
 image: /assets/images/apps/meow-fm/icon.webp
 lang: zh
 ---

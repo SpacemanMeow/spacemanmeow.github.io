@@ -4,7 +4,7 @@ title: "最佳心情日记与记录应用（2026）"
 description: "2026 年最佳心情日记与记录应用：该看什么（隐私、快速记录、离线），以及 Meow Mood Diary 与 Day One、Journey 的对比。"
 layout: guide
 image: /assets/images/apps/meow-mood-diary/icon.webp
-tags: [Mood Diary, Journaling App, Private Diary, Android, Meow Mood, App Roundup]
+tags: [Mood Diary, Android, Meow Mood, App Roundup]
 last_modified_at: 2026-10-30
 lang: zh
 ---

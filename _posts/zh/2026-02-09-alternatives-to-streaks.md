@@ -3,7 +3,7 @@ date: 2026-02-09 09:00:00 +0800
 title: "2026 年最佳 Streaks 替代应用"
 description: "正在寻找 2026 年 Streaks 的替代应用？我们从价格、平台、养成/戒除模式、统计、隐私与同步等维度，对比了六款主流习惯追踪应用——Meow Habits、Habitica、Loop、Fabulous、Productive 与 Habitify，并附核心能力对比表与迁移清单。"
 layout: guide
-tags: [Meow Habits, Habit Tracker, Routine Builder, Streaks, Android, Alternatives]
+tags: [Meow Habits, Habit Tracker, Android, Alternatives]
 image: /assets/images/apps/meow-habits/icon.webp
 lang: zh
 ---

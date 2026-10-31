@@ -3,7 +3,7 @@ date: 2026-05-04 09:00:00 +0800
 title: "One Widget：安卓上可爱、即放即用的小组件"
 description: "2026 年 One Widget 与 KWGT 的实用对比——现成猫主题小组件、自定义、离线使用与安卓端价格。"
 layout: guide
-tags: [One Widget, Home Screen Widgets, Widget Maker, Android Customization, Android, Best Apps]
+tags: [One Widget, Home Screen Widgets, Android, Best Apps]
 image: /assets/images/apps/one-widget/icon.webp
 lang: zh
 ---

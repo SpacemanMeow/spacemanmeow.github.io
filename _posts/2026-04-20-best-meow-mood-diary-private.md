@@ -3,7 +3,7 @@ date: 2026-04-20 09:00:00 +0800
 title: "Meow Mood: A Private Diary That Stays on Your Device"
 description: "A privacy-focused look at Meow Mood versus Day One, Daylio, Apple Journal and Penzu in 2026 — no uploads by default, on-device locks, and clear export."
 layout: guide
-tags: [Meow Mood Diary, Mood Diary, Journal, Mental Health, Android, Best Apps]
+tags: [Meow Mood Diary, Mood Diary, Android, Best Apps]
 image: /assets/images/apps/meow-mood-diary/icon.webp
 lang: en
 ---

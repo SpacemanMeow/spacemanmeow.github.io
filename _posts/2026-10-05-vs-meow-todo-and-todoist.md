@@ -3,7 +3,7 @@ date: 2026-10-05 09:00:00 +0800
 title: "Meow Todo vs Todoist: Which Task Manager Should You Use?"
 description: "Meow Todo vs Todoist compared in depth for 2026: a free-core, private, cute task manager with subtasks, calendar, and CSV export versus a popular powerhouse with natural-language input and collaboration. Prices, limits, and a verdict per user type."
 layout: guide
-tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Comparison, Todoist]
+tags: [Meow Todo, To-Do List, Android, Comparison, Todoist]
 image: /assets/images/apps/meow-todo-list/icon.webp
 lang: en
 ---

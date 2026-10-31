@@ -3,7 +3,7 @@ layout: post
 title: "One Widget 官方使用指南"
 date: 2026-08-22 09:00:00 +0800
 categories: [Tutorial]
-tags: [Android Widgets, Home Screen, Material You, KWGT, One Widget]
+tags: [Home Screen Widgets, KWGT, One Widget]
 lang: zh
 author: author_meow_id
 description: "一份完整的 One Widget 使用指南——放入四种风格的 500+ 主屏组件，添加快捷开关与应用快捷方式。"

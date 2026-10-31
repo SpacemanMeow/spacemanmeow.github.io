@@ -3,7 +3,7 @@ layout: post
 title: "System Monitor Official User Guide"
 date: 2026-08-30 09:00:00 +0800
 categories: [Tutorial]
-tags: [System Monitor, Device Info, CPU Temperature, Battery Health, Android]
+tags: [System Monitor, RAM Booster, CPU Temperature, Android]
 lang: en
 author: author_meow_id
 description: "A complete System Monitor user guide — read-only hardware info detection: CPU temp, battery health, overheat alarm and live widgets."

@@ -4,7 +4,7 @@ title: "Best Floating Assistant & Assistive Touch Apps for Android (2026)"
 description: "The best floating assistant and assistive touch apps for Android in 2026: what to look for (floating ball, shortcuts, one-hand use) and how Floating Assistant compares to Assistive Touch."
 layout: guide
 image: /assets/images/apps/floating-assistant/icon.webp
-tags: [Floating Assistant, Assistive Touch, One-Hand, Android, App Roundup]
+tags: [Floating Assistant, Assistive Touch, Android, App Roundup]
 last_modified_at: 2026-10-30
 lang: en
 ---

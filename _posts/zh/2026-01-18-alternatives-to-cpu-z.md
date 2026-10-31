@@ -3,7 +3,7 @@ date: 2026-01-18 09:00:00 +0800
 title: "2026 年最佳 CPU-Z 安卓替代应用"
 description: "2026 年想找 CPU-Z 的替代品？我们对比了六款硬件与系统信息应用——CPU Monitor、DevCheck、AIDA64、Device Info HW、Droid Hardware Info 和 System Monitor——从实时温度、频率、内存、电池、悬浮窗到小组件，附核心能力对比表与按需选购指南。"
 layout: guide
-tags: [CPU Monitor, Phone Temperature, System Utility, Android, Alternatives, CPU-Z]
+tags: [CPU Monitor, CPU Temperature, Android, Alternatives, CPU-Z]
 image: /assets/images/apps/cpu-monitor/icon.webp
 lang: zh
 ---

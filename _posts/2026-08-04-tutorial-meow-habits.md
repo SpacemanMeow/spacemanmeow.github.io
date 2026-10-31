@@ -3,7 +3,7 @@ layout: post
 title: "Meow Habits Official User Guide"
 date: 2026-08-04 09:00:00 +0800
 categories: [Tutorial]
-tags: [Habit Tracker, Routine Builder, Streaks, Android, Meow Habits]
+tags: [Habit Tracker, Android, Meow Habits]
 lang: en
 author: author_meow_id
 description: "A complete Meow Habits user guide — build streaks, log daily check-ins, set reminders and review trends in this cute habit tracker."

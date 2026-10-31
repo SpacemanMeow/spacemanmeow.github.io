@@ -3,7 +3,7 @@ layout: post
 title: "One Widget Official User Guide"
 date: 2026-08-22 09:00:00 +0800
 categories: [Tutorial]
-tags: [Android Widgets, Home Screen, Material You, KWGT, One Widget]
+tags: [Home Screen Widgets, KWGT, One Widget]
 lang: en
 author: author_meow_id
 description: "A complete One Widget user guide — place 500+ home-screen widgets in four styles, add quick toggles and app shortcuts."

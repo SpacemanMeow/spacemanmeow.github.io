@@ -3,7 +3,7 @@ date: 2026-09-13 09:00:00 +0800
 title: "Floating Assistant vs Assistive Touch: Which Overlay Tool?"
 description: "Floating Assistant vs Assistive Touch compared in depth for 2026: a 3-in-1 overlay with clock and monitor versus a classic free floating-ball button app. Features, price and a verdict per need."
 layout: guide
-tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Comparison]
+tags: [Floating Assistant, Assistive Touch, Android, Comparison]
 image: /assets/images/apps/floating-assistant/icon.webp
 lang: en
 ---

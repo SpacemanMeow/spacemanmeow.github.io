@@ -3,7 +3,7 @@ date: 2026-05-21 09:00:00 +0800
 title: "System Monitor：无冗余的实时设备数据"
 description: "2026 年 System Monitor 与 CCleaner 的务实对比——实时 CPU、内存、存储与电池信息、进程列表，以及它在安卓上的价格。"
 layout: guide
-tags: [System Monitor, RAM Booster, Storage Cleaner, Battery, Android, Best Apps]
+tags: [System Monitor, RAM Booster, Android, Best Apps]
 image: /assets/images/apps/system-monitor/icon.webp
 lang: zh
 ---

@@ -3,7 +3,7 @@ date: 2026-04-20 09:00:00 +0800
 title: "Meow Mood：留在你设备上的私密日记"
 description: "2026 年 Meow Mood 与 Day One、Daylio、Apple Journal、Penzu 在隐私上的对比——默认不上传、本机锁与清晰导出。"
 layout: guide
-tags: [Meow Mood Diary, Mood Diary, Journal, Mental Health, Android, Best Apps]
+tags: [Meow Mood Diary, Mood Diary, Android, Best Apps]
 image: /assets/images/apps/meow-mood-diary/icon.webp
 lang: zh
 ---

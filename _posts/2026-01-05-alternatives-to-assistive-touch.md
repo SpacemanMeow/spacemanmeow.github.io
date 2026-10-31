@@ -3,7 +3,7 @@ date: 2026-01-05 09:00:00 +0800
 title: "Best Assistive Touch Alternatives for Android in 2026"
 description: "Looking for alternatives to Assistive Touch in 2026? We compare six floating-button and gesture tools — Floating Assistant, Easy Touch, Assistive Touch (Easy Tools), Button Mapper, All in One Gestures and Assistive Touch — across virtual buttons, floating clock/monitor, gestures and privacy, with a core-capability table and a pick-by-need guide. (iPhone users: AssistiveTouch is built into iOS.)"
 layout: guide
-tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Alternatives]
+tags: [Floating Assistant, Assistive Touch, Android, Alternatives]
 image: /assets/images/apps/floating-assistant/icon.webp
 lang: en
 ---

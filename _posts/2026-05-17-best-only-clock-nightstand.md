@@ -3,7 +3,7 @@ date: 2026-05-17 09:00:00 +0800
 title: "Only Clock for the Nightstand: A Spare Phone as a Bedside Clock"
 description: "A practical look at Only Clock versus Flip Clock as a nightstand clock in 2026 — dim themes, always-on, white noise, and OLED burn-in safety."
 layout: guide
-tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Best Apps]
+tags: [Only Clock, Flip Clock, Android, Best Apps]
 image: /assets/images/apps/only-clock/icon.webp
 lang: en
 ---

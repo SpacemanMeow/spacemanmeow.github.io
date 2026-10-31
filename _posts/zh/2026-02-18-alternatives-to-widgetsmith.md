@@ -3,7 +3,7 @@ date: 2026-02-18 09:00:00 +0800
 title: "最佳 WidgetSmith 替代应用（含安卓）"
 description: "正在寻找 2026 年 WidgetSmith 的替代应用？我们从现成预设、自定义编辑器、实时系统数据到核心主屏能力等维度，对比了六款主流小组件应用——One Widget、KWGT、Widgy、Color Widgets、Widgetable 与 WidgetClub，并附详细优缺点与下载链接。"
 layout: guide
-tags: [One Widget, Home Screen Widgets, Widget Maker, Android Customization, Android, Alternatives, Widgetsmith]
+tags: [One Widget, Home Screen Widgets, Android, Alternatives, Widgetsmith]
 image: /assets/images/apps/one-widget/icon.webp
 lang: zh
 ---

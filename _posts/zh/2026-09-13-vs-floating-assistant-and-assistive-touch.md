@@ -3,7 +3,7 @@ date: 2026-09-13 09:00:00 +0800
 title: "Floating Assistant vs Assistive Touch：哪款叠层工具？"
 description: "2026 年 Floating Assistant 与 Assistive Touch 深度对比：带时钟与监控的 3 合 1 叠层，对阵经典的免费浮动球按钮应用。功能、价格与按需结论。"
 layout: guide
-tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Comparison]
+tags: [Floating Assistant, Assistive Touch, Android, Comparison]
 image: /assets/images/apps/floating-assistant/icon.webp
 lang: zh
 ---

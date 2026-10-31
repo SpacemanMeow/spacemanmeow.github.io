@@ -4,7 +4,7 @@ title: "最佳安卓翻页钟应用（2026）"
 description: "2026 年最佳安卓翻页钟应用：该看什么（翻页动画、小组件、床头模式、专注计时器），以及 Only Clock 与 Retroflip、Flip Clock 的对比。"
 layout: guide
 image: /assets/images/apps/only-clock/icon.webp
-tags: [Flip Clock, Desk Clock, Nightstand Clock, Android, Only Clock, App Roundup]
+tags: [Flip Clock, Android, Only Clock, App Roundup]
 last_modified_at: 2026-10-30
 lang: zh
 ---

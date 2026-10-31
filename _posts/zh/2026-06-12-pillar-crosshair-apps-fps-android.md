@@ -4,7 +4,7 @@ title: "最佳安卓 FPS 游戏准星应用（2026）"
 description: "2026 年最佳安卓 FPS 游戏准星叠层应用：该看什么（样式、自定义、游戏支持），以及 Crosshair Aim 与 Crosshair Master 的对比。"
 layout: guide
 image: /assets/images/apps/cross-hair/icon.webp
-tags: [Crosshair, FPS Games, Aim Trainer, Android, Crosshair Aim, App Roundup]
+tags: [Crosshair, Android, Crosshair Aim, App Roundup]
 last_modified_at: 2026-10-30
 lang: zh
 ---

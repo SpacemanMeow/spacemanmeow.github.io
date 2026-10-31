@@ -3,7 +3,7 @@ layout: post
 title: "Meow Todo List Official User Guide"
 date: 2026-08-17 09:00:00 +0800
 categories: [Tutorial]
-tags: [To-Do List, Task Manager, Schedule Planner, Android, Meow Todo]
+tags: [To-Do List, Android, Meow Todo]
 lang: en
 author: author_meow_id
 description: "A complete Meow Todo List user guide — master tasks, subtasks, reminders, calendar view and CSV export in this cute task manager."

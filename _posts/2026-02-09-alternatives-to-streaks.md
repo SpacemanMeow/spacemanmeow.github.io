@@ -3,7 +3,7 @@ date: 2026-02-09 09:00:00 +0800
 title: "Best Streaks Alternatives in 2026"
 description: "Looking for alternatives to Streaks in 2026? We compare six top habit trackers — Meow Habits, Habitica, Loop, Fabulous, Productive and Habitify — on price, platforms, build/break modes, stats, privacy and sync, with a core-capability table and a migration checklist."
 layout: guide
-tags: [Meow Habits, Habit Tracker, Routine Builder, Streaks, Android, Alternatives]
+tags: [Meow Habits, Habit Tracker, Android, Alternatives]
 image: /assets/images/apps/meow-habits/icon.webp
 lang: en
 ---

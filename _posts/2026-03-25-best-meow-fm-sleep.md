@@ -3,7 +3,7 @@ date: 2026-03-25 09:00:00 +0800
 title: "Meow FM for Sleep: Soundscapes That Switch Themselves Off"
 description: "A practical look at Meow FM versus Calm, Rain Rain and White Noise (TMSOFT) for falling asleep in 2026 — free soundscapes, a self-stopping timer, offline playback and price."
 layout: guide
-tags: [Meow FM, White Noise, Sleep, Focus, Relax, Android, Best Apps]
+tags: [Meow FM, White Noise, Android, Best Apps]
 image: /assets/images/apps/meow-fm/icon.webp
 lang: en
 ---

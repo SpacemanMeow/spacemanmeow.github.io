@@ -3,7 +3,7 @@ layout: post
 title: "Meow Mood Diary Official User Guide"
 date: 2026-08-13 09:00:00 +0800
 categories: [Tutorial]
-tags: [Mood Diary, Journaling App, Private Diary, Android, Meow Mood]
+tags: [Mood Diary, Android, Meow Mood]
 lang: en
 author: author_meow_id
 description: "A complete Meow Mood Diary user guide — log moods in one tap, view the calendar and trend stats, all stored privately on device."

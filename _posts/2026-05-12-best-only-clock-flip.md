@@ -3,7 +3,7 @@ date: 2026-05-12 09:00:00 +0800
 title: "Only Clock: A Flip Clock That Makes Any Screen Calm"
 description: "A practical look at Only Clock versus Flip Clock in 2026 — flip animation, themes, white noise, widgets, floating mode, and price for a flip-clock app."
 layout: guide
-tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Best Apps]
+tags: [Only Clock, Flip Clock, Android, Best Apps]
 image: /assets/images/apps/only-clock/icon.webp
 lang: en
 ---

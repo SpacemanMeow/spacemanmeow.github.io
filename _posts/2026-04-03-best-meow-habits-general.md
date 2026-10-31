@@ -3,7 +3,7 @@ date: 2026-04-03 09:00:00 +0800
 title: "Meow Habits: A Habit Tracker That Makes Consistency Cute"
 description: "A practical look at Meow Habits versus Streaks, Habitica and Loop for building and breaking habits in 2026 — cross-platform support, privacy, charts, and price."
 layout: guide
-tags: [Meow Habits, Habit Tracker, Routine Builder, Streaks, Android, Best Apps]
+tags: [Meow Habits, Habit Tracker, Android, Best Apps]
 image: /assets/images/apps/meow-habits/icon.webp
 lang: en
 ---

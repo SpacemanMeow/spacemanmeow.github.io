@@ -3,7 +3,7 @@ date: 2026-04-16 09:00:00 +0800
 title: "Meow Mood: A Mood Diary That Fits Between Meetings"
 description: "A practical look at Meow Mood versus Day One, Journey, Daylio and Grid Diary for tracking mood in 2026 — one-tap logging, trends, privacy, and price."
 layout: guide
-tags: [Meow Mood Diary, Mood Diary, Journal, Mental Health, Android, Best Apps]
+tags: [Meow Mood Diary, Mood Diary, Android, Best Apps]
 image: /assets/images/apps/meow-mood-diary/icon.webp
 lang: en
 ---

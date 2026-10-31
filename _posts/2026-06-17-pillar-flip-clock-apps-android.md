@@ -4,7 +4,7 @@ title: "Best Flip Clock Apps for Android (2026)"
 description: "The best flip clock apps for Android in 2026: what to look for (flip animation, widgets, nightstand mode, focus timer) and how Only Clock compares to Retroflip and Flip Clock."
 layout: guide
 image: /assets/images/apps/only-clock/icon.webp
-tags: [Flip Clock, Desk Clock, Nightstand Clock, Android, Only Clock, App Roundup]
+tags: [Flip Clock, Android, Only Clock, App Roundup]
 last_modified_at: 2026-10-30
 lang: en
 ---

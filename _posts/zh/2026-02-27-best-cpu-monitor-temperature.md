@@ -3,7 +3,7 @@ date: 2026-02-27 09:00:00 +0800
 title: "CPU Monitor：在降频之前看清 CPU 温度"
 description: "2026 年 CPU Monitor 与 CPU-Z 的实用对比——实时 CPU 温度、每核负载、过热提醒，以及安卓端价格。"
 layout: guide
-tags: [CPU Monitor, Phone Temperature, System Utility, Android, Best Apps]
+tags: [CPU Monitor, CPU Temperature, Android, Best Apps]
 image: /assets/images/apps/cpu-monitor/icon.webp
 lang: zh
 ---

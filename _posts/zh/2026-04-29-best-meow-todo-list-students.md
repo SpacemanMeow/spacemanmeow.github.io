@@ -3,7 +3,7 @@ date: 2026-04-29 09:00:00 +0800
 title: "Meow Todo 学生版：别错过任何 syllabus 截止日"
 description: "面向学生的 Meow Todo 与 Todoist、Microsoft To Do、TickTick 对比（2026）——免费核心、子任务、提醒、日历视图与无需账号。"
 layout: guide
-tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Best Apps]
+tags: [Meow Todo, To-Do List, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
 lang: zh
 ---

@@ -3,7 +3,7 @@ date: 2026-03-21 09:00:00 +0800
 title: "Meow FM for Focus: White Noise That Blocks the Office"
 description: "A practical look at Meow FM versus Calm, Noisli and Brain.fm for focus and deep work in 2026 — free noise loops, timers, offline playback and price."
 layout: guide
-tags: [Meow FM, White Noise, Sleep, Focus, Relax, Android, Best Apps]
+tags: [Meow FM, White Noise, Android, Best Apps]
 image: /assets/images/apps/meow-fm/icon.webp
 lang: en
 ---

@@ -3,7 +3,7 @@ date: 2026-10-18 09:00:00 +0800
 title: "System Monitor vs CCleaner：监控，还是清理？"
 description: "2026 年 System Monitor 与 CCleaner 深度对比：一款带加速与电池医生的安卓一体化监控器，对阵一款人气垃圾清理应用。功能、价格与按需结论。"
 layout: guide
-tags: [System Monitor, RAM Booster, Storage Cleaner, Battery, Android, Comparison, CCleaner]
+tags: [System Monitor, RAM Booster, Android, Comparison, CCleaner]
 image: /assets/images/apps/system-monitor/icon.webp
 lang: zh
 ---

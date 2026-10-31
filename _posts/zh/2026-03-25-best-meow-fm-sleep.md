@@ -3,7 +3,7 @@ date: 2026-03-25 09:00:00 +0800
 title: "用 Meow FM 入睡：会自己关掉声景"
 description: "2026 年 Meow FM 与 Calm、Rain Rain、White Noise (TMSOFT) 在助眠上的实用对比——免费声景、自动停止计时器、离线播放与价格。"
 layout: guide
-tags: [Meow FM, White Noise, Sleep, Focus, Relax, Android, Best Apps]
+tags: [Meow FM, White Noise, Android, Best Apps]
 image: /assets/images/apps/meow-fm/icon.webp
 lang: zh
 ---

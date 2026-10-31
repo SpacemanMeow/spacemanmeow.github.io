@@ -3,7 +3,7 @@ date: 2026-02-05 09:00:00 +0800
 title: "Best Retroflip Alternatives in 2026"
 description: "Looking for alternatives to Retroflip in 2026? We compare six fullscreen and flip-clock apps — Only Clock, FliTik, Flip Clock: World Clock, Fullscreen Clock, Flip Clock: Digital Desk Widget and Flip Clock — Digital Clock — across themes, white noise, floating clocks, widgets and platforms, with a core-capability table and a migration checklist."
 layout: guide
-tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Alternatives, Retroflip]
+tags: [Only Clock, Flip Clock, Android, Alternatives, Retroflip]
 image: /assets/images/apps/only-clock/icon.webp
 lang: en
 ---

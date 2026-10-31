@@ -3,7 +3,7 @@ date: 2026-05-17 09:00:00 +0800
 title: "Only Clock 床头版：闲置手机变床头钟"
 description: "2026 年 Only Clock 与 Flip Clock 作为床头钟的实用对比——暗色主题、常亮、白噪音与 OLED 烧屏防护。"
 layout: guide
-tags: [Only Clock, Flip Clock, Fullscreen Clock, Desk Clock, Android, Best Apps]
+tags: [Only Clock, Flip Clock, Android, Best Apps]
 image: /assets/images/apps/only-clock/icon.webp
 lang: zh
 ---

@@ -3,7 +3,7 @@ date: 2026-03-16 09:00:00 +0800
 title: "Floating Assistant：一个替你干活的浮动按钮"
 description: "2026 年 Floating Assistant 与 Assistive Touch 的实用对比——边缘浮动球、快捷动作、自定义，以及安卓端单手多任务。"
 layout: guide
-tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Best Apps]
+tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
 image: /assets/images/apps/floating-assistant/icon.webp
 lang: zh
 ---

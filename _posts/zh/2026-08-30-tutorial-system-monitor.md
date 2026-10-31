@@ -3,7 +3,7 @@ layout: post
 title: "System Monitor 官方使用指南"
 date: 2026-08-30 09:00:00 +0800
 categories: [Tutorial]
-tags: [System Monitor, Device Info, CPU Temperature, Battery Health, Android]
+tags: [System Monitor, RAM Booster, CPU Temperature, Android]
 lang: zh
 author: author_meow_id
 description: "一份完整的 System Monitor 使用指南——只读硬件信息检测：CPU 温度、电池健康、过热报警与实时组件。"

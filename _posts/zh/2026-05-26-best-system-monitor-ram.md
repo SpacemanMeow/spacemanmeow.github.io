@@ -3,7 +3,7 @@ date: 2026-05-26 09:00:00 +0800
 title: "System Monitor 看内存：看清你的内存到底在做什么"
 description: "2026 年 System Monitor 与 CCleaner 的务实对比，聚焦内存——详细的内存信息、进程列表，以及安卓上真正有用的做法。"
 layout: guide
-tags: [System Monitor, RAM Booster, Storage Cleaner, Battery, Android, Best Apps]
+tags: [System Monitor, RAM Booster, Android, Best Apps]
 image: /assets/images/apps/system-monitor/icon.webp
 lang: zh
 ---

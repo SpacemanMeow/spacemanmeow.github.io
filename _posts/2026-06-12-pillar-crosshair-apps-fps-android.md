@@ -4,7 +4,7 @@ title: "Best Crosshair Apps for FPS Games on Android (2026)"
 description: "The best crosshair overlay apps for FPS games on Android in 2026: what to look for (styles, customization, game support) and how Crosshair Aim compares to Crosshair Master."
 layout: guide
 image: /assets/images/apps/cross-hair/icon.webp
-tags: [Crosshair, FPS Games, Aim Trainer, Android, Crosshair Aim, App Roundup]
+tags: [Crosshair, Android, Crosshair Aim, App Roundup]
 last_modified_at: 2026-10-30
 lang: en
 ---

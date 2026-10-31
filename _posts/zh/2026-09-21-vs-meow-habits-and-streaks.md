@@ -3,7 +3,7 @@ date: 2026-09-21 09:00:00 +0800
 title: "Meow Habits vs Streaks：哪款习惯追踪器胜出？"
 description: "2026 年 Meow Habits 与 Streaks 深度对比：一款免费核心、跨平台、带养成与戒除模式的习惯追踪器，对阵热门的 iOS 专属极简连胜应用。价格、平台与按需结论。"
 layout: guide
-tags: [Meow Habits, Habit Tracker, Routine Builder, Streaks, Android, Comparison]
+tags: [Meow Habits, Habit Tracker, Android, Comparison]
 image: /assets/images/apps/meow-habits/icon.webp
 lang: zh
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Crosshair Official User Guide"
 date: 2026-07-22 09:00:00 +0800
 categories: [Tutorial]
-tags: [Crosshair, FPS Games, Aim Trainer, Android, Crosshair Aim]
+tags: [Crosshair, Android, Crosshair Aim]
 lang: en
 author: author_meow_id
 description: "A complete Crosshair user guide — add a custom crosshair overlay to FPS games: 80+ styles, scale/color/position, no root."

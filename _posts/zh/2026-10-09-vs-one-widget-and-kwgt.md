@@ -3,7 +3,7 @@ date: 2026-10-09 09:00:00 +0800
 title: "One Widget vs KWGT：精选组件，还是完全掌控？"
 description: "2026 年 One Widget 与 KWGT 深度对比：500+ 现成的 One UI、Nothing、Glass 与 Material You 组件，对阵一个需学习曲线、可从零搭建的组件编辑器。价格与按需结论。"
 layout: guide
-tags: [One Widget, Home Screen Widgets, Widget Maker, Android Customization, Android, Comparison, KWGT]
+tags: [One Widget, Home Screen Widgets, Android, Comparison, KWGT]
 image: /assets/images/apps/one-widget/icon.webp
 lang: zh
 ---

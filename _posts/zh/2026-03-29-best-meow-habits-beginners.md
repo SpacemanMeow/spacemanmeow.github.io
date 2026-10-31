@@ -3,7 +3,7 @@ date: 2026-03-29 09:00:00 +0800
 title: "Meow Habits 新手入门：一键开始"
 description: "面向新手的 Meow Habits 与 Loop、Streaks、Habitica 对比（2026）——一键开始、模板、温和提醒与价格。"
 layout: guide
-tags: [Meow Habits, Habit Tracker, Routine Builder, Streaks, Android, Best Apps]
+tags: [Meow Habits, Habit Tracker, Android, Best Apps]
 image: /assets/images/apps/meow-habits/icon.webp
 lang: zh
 ---

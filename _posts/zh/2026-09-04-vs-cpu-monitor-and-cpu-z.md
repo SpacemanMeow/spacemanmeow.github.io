@@ -3,7 +3,7 @@ date: 2026-09-04 09:00:00 +0800
 title: "CPU Monitor vs CPU-Z：哪款安卓硬件应用？"
 description: "2026 年 CPU Monitor 与 CPU-Z 深度对比：实时温度、带组件的浮窗，对阵详细的设备信息读取器。功能、价格与按需结论。"
 layout: guide
-tags: [CPU Monitor, Phone Temperature, System Utility, Android, Comparison, CPU-Z]
+tags: [CPU Monitor, CPU Temperature, Android, Comparison, CPU-Z]
 image: /assets/images/apps/cpu-monitor/icon.webp
 lang: zh
 ---

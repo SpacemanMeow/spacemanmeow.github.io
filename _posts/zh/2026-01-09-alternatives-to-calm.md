@@ -3,7 +3,7 @@ date: 2026-01-09 09:00:00 +0800
 title: "2026 年最佳 Calm 替代应用"
 description: "2026 年想找 Calm 的替代品？我们对比了六款睡眠与白噪音应用——Meow FM、Headspace、Insight Timer、BetterSleep、White Noise（TMSOFT）和 Noisli——从声音库、混音、计时器、引导冥想与价格出发，附核心能力对比表与按需选购指南。"
 layout: guide
-tags: [Meow FM, White Noise, Sleep, Focus, Relax, Android, Alternatives, Calm]
+tags: [Meow FM, White Noise, Android, Alternatives, Calm]
 image: /assets/images/apps/meow-fm/icon.webp
 lang: zh
 ---

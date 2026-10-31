@@ -4,7 +4,7 @@ title: "Best Mood Diary & Journaling Apps (2026)"
 description: "The best mood diary and journaling apps in 2026: what to look for (privacy, quick logging, offline) and how Meow Mood Diary compares to Day One and Journey."
 layout: guide
 image: /assets/images/apps/meow-mood-diary/icon.webp
-tags: [Mood Diary, Journaling App, Private Diary, Android, Meow Mood, App Roundup]
+tags: [Mood Diary, Android, Meow Mood, App Roundup]
 last_modified_at: 2026-10-30
 lang: en
 ---

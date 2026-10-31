@@ -4,7 +4,7 @@ title: "Best To-Do List & Task Manager Apps for Android (2026)"
 description: "The best to-do list and task manager apps for Android in 2026: what to look for (calendar, subtasks, reminders, sync) and how Meow Todo List compares to Todoist and TickTick."
 layout: guide
 image: /assets/images/apps/meow-todo-list/icon.webp
-tags: [To-Do List, Task Manager, Schedule Planner, Android, Meow Todo, App Roundup]
+tags: [To-Do List, Android, Meow Todo, App Roundup]
 last_modified_at: 2026-10-30
 lang: en
 ---

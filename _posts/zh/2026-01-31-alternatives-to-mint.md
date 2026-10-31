@@ -3,7 +3,7 @@ date: 2026-01-31 09:00:00 +0800
 title: "2026 年最佳 Mint 替代应用（Mint 已停运）"
 description: "Mint 于 2024 年 3 月正式停运。以下是 2026 年最佳的 Mint 替代品——七款市场份额高或定位独特的记账应用，按相同维度对比，含详尽的优缺点、核心能力对比表与下载链接。"
 layout: guide
-tags: [Meow Money, Budget App, Expense Tracker, Money Manager, Android, Alternatives, Mint]
+tags: [Meow Money, Expense Tracker, Android, Alternatives, Mint]
 image: /assets/images/apps/meow-money-manager/icon.webp
 lang: zh
 ---

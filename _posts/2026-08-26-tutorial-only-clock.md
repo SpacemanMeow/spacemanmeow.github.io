@@ -3,7 +3,7 @@ layout: post
 title: "Only Clock Official User Guide"
 date: 2026-08-26 09:00:00 +0800
 categories: [Tutorial]
-tags: [Flip Clock, Desk Clock, Nightstand Clock, Android, Only Clock]
+tags: [Flip Clock, Android, Only Clock]
 lang: en
 author: author_meow_id
 description: "A complete Only Clock user guide — a beautiful full-screen flip clock, clock widgets, white noise and 12/24-hour display."

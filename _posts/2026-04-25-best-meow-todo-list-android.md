@@ -3,7 +3,7 @@ date: 2026-04-25 09:00:00 +0800
 title: "Meow Todo for Android: A To-Do List That Stays on Your Phone"
 description: "A practical look at Meow Todo versus Todoist, Microsoft To Do and Google Tasks on Android in 2026 — local-first privacy, widgets, reminders, and price."
 layout: guide
-tags: [Meow Todo, To-Do List, Task Manager, Productivity, Android, Best Apps]
+tags: [Meow Todo, To-Do List, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
 lang: en
 ---

@@ -3,7 +3,7 @@ date: 2026-05-08 09:00:00 +0800
 title: "One Widget 与 Material You：贴合你壁纸的小组件"
 description: "2026 年 One Widget 与 KWGT 在 Material You 风格上的实用对比——动态配色、主题匹配、设置与 Android 12+ 价格。"
 layout: guide
-tags: [One Widget, Home Screen Widgets, Widget Maker, Android Customization, Android, Best Apps]
+tags: [One Widget, Home Screen Widgets, Android, Best Apps]
 image: /assets/images/apps/one-widget/icon.webp
 lang: zh
 ---

@@ -3,7 +3,7 @@ date: 2026-03-16 09:00:00 +0800
 title: "Floating Assistant: A Floating Button That Does the Work"
 description: "A practical look at Floating Assistant versus Assistive Touch in 2026 — edge floating ball, quick actions, customization, and one-handed multitasking on Android."
 layout: guide
-tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Best Apps]
+tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
 image: /assets/images/apps/floating-assistant/icon.webp
 lang: en
 ---

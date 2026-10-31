@@ -3,7 +3,7 @@ date: 2026-03-12 09:00:00 +0800
 title: "Floating Assistant for Accessibility: One-Handed Control on a Big Phone"
 description: "A practical look at Floating Assistant versus Assistive Touch for accessibility in 2026 — virtual keys, edge reach, gestures, and control without physical buttons on Android."
 layout: guide
-tags: [Floating Assistant, Assistive Touch, Overlay, Accessibility, Android, Best Apps]
+tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
 image: /assets/images/apps/floating-assistant/icon.webp
 lang: en
 ---

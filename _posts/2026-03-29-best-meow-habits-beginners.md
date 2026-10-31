@@ -3,7 +3,7 @@ date: 2026-03-29 09:00:00 +0800
 title: "Meow Habits for Beginners: Start With One Tap"
 description: "A beginner-friendly look at Meow Habits versus Loop, Streaks and Habitica in 2026 — one-tap start, templates, gentle reminders, and price."
 layout: guide
-tags: [Meow Habits, Habit Tracker, Routine Builder, Streaks, Android, Best Apps]
+tags: [Meow Habits, Habit Tracker, Android, Best Apps]
 image: /assets/images/apps/meow-habits/icon.webp
 lang: en
 ---

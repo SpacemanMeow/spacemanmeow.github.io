@@ -4,7 +4,7 @@ title: "最佳安卓 CPU 温度监控应用（2026）"
 description: "2026 年最佳安卓 CPU 温度与频率监控应用：该看什么（实时温度、小组件、过热报警），以及 CPU Monitor 与 CPU-Z、DevCheck 的对比。"
 layout: guide
 image: /assets/images/apps/cpu-monitor/icon.webp
-tags: [CPU Monitor, CPU Temperature, Overheat Alarm, Android, App Roundup]
+tags: [CPU Monitor, CPU Temperature, Android, App Roundup]
 last_modified_at: 2026-10-30
 lang: zh
 ---

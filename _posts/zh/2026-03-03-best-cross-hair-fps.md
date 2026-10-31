@@ -3,7 +3,7 @@ date: 2026-03-03 09:00:00 +0800
 title: "FPS 游戏准星瞄准：一个稳稳钉在原地的准星叠层"
 description: "2026 年 Crosshair Aim 与 Crosshair Hero 在手机 FPS 上的实用对比——叠层准星、游戏内调节器、样式与安卓端价格。"
 layout: guide
-tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Best Apps]
+tags: [Crosshair Aim, Crosshair, Android, Best Apps]
 image: /assets/images/apps/cross-hair/icon.webp
 lang: zh
 ---

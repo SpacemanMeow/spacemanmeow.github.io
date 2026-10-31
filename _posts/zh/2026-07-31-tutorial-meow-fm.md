@@ -3,7 +3,7 @@ layout: post
 title: "Meow FM 官方使用指南"
 date: 2026-07-31 09:00:00 +0800
 categories: [Tutorial]
-tags: [White Noise App, Sleep Sounds, Focus App, Android, Meow FM]
+tags: [White Noise, Android, Meow FM]
 lang: zh
 author: author_meow_id
 description: "一份完整的 Meow FM 使用指南——播放平静的环境声、设定睡眠计时器，放松或专注，完全离线。"

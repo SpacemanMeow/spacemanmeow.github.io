@@ -3,7 +3,7 @@ date: 2026-03-03 09:00:00 +0800
 title: "Crosshair Aim for FPS Games: A Reticle Overlay That Stays Put"
 description: "A practical look at Crosshair Aim versus Crosshair Hero for FPS mobile games in 2026 — overlay reticles, in-game adjuster, styles, and price on Android."
 layout: guide
-tags: [Crosshair Aim, Crosshair, FPS Games, Aim Overlay, Android, Best Apps]
+tags: [Crosshair Aim, Crosshair, Android, Best Apps]
 image: /assets/images/apps/cross-hair/icon.webp
 lang: en
 ---

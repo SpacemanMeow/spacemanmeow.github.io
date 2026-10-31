@@ -3,7 +3,7 @@ layout: post
 title: "Floating Assistant Official User Guide"
 date: 2026-07-26 09:00:00 +0800
 categories: [Tutorial]
-tags: [Floating Assistant, Assistive Touch, One-Hand, Android]
+tags: [Floating Assistant, Assistive Touch, Android]
 lang: en
 author: author_meow_id
 description: "A complete Floating Assistant user guide — a floating ball for app launches, system toggles and one-handed control, no root."

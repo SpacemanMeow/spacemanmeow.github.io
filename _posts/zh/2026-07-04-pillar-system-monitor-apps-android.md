@@ -4,7 +4,7 @@ title: "最佳安卓系统监控与设备信息应用（2026）"
 description: "2026 年最佳安卓系统监控与设备信息应用：该看什么（只读硬件检测、温度、电池健康），以及 System Monitor 与 CCleaner、Device Info HW 的对比。"
 layout: guide
 image: /assets/images/apps/system-monitor/icon.webp
-tags: [System Monitor, Device Info, CPU Temperature, Battery Health, Android, App Roundup]
+tags: [System Monitor, RAM Booster, CPU Temperature, Android, App Roundup]
 last_modified_at: 2026-10-30
 lang: zh
 ---
