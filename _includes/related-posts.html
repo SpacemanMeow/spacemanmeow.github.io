@@ -16,24 +16,32 @@
   {%- endfor -%}
   {%- if rel.size >= 4 %}{% break %}{% endif -%}
 {%- endfor -%}
-{%- comment -%} 反查父 app 页（post.image == app.icon）{%- endcomment -%}
+{%- comment -%} 反查父 app 页（post.image == app.icon）；ZH 构建的应用集合是 apps_zh {%- endcomment -%}
+{%- assign app_collection = site.apps -%}
+{%- if current.lang == "zh" -%}{%- assign app_collection = site.apps_zh -%}{%- endif -%}
 {%- assign parent_app = nil -%}
-{%- for app in site.apps -%}
+{%- for app in app_collection -%}
   {%- if app.icon == current.image -%}{%- assign parent_app = app -%}{%- endif -%}
 {%- endfor -%}
-{%- if rel.size > 0 or parent_app -%}
+{%- if rel.size > 0 -%}
   {%- assign heading = "Related posts" -%}
-  {%- assign app_label = "App page" -%}
-  {%- if current.lang == "zh" -%}{%- assign heading = "相关文章" -%}{%- assign app_label = "应用页面" -%}{%- endif -%}
+  {%- if current.lang == "zh" -%}{%- assign heading = "相关文章" -%}{%- endif -%}
 <section class="related-posts" aria-label="{{ heading }}">
   <h2 class="related-posts__title">{{ heading }}</h2>
   <ul class="related-posts__list">
     {%- for p in rel -%}
     <li><a href="{{ p.url }}">{{ p.title }}</a></li>
     {%- endfor -%}
-    {%- if parent_app -%}
-    <li class="related-posts__app"><a href="{{ parent_app.url }}">{{ parent_app.title }} — {{ app_label }} →</a></li>
-    {%- endif -%}
+  </ul>
+</section>
+{%- endif -%}
+{%- if parent_app -%}
+  {%- assign app_heading = "Related App" -%}
+  {%- if current.lang == "zh" -%}{%- assign app_heading = "相关应用" -%}{%- endif -%}
+<section class="related-posts related-posts--app" aria-label="{{ app_heading }}">
+  <h2 class="related-posts__title">{{ app_heading }}</h2>
+  <ul class="related-posts__list">
+    <li><a href="{{ parent_app.url }}">{{ parent_app.title }}</a></li>
   </ul>
 </section>
 {%- endif -%}

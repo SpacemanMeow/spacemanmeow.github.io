@@ -850,8 +850,6 @@ a.tag:hover { text-decoration: underline; }
   justify-content: space-between;
   gap: var(--space-6);
   margin-top: var(--space-9);
-  padding-top: var(--space-7);
-  border-top: 1px solid var(--line);
 }
 
 .post__tags { display: flex; flex-wrap: wrap; gap: var(--space-3); }
@@ -874,7 +872,8 @@ a.tag:hover { text-decoration: underline; }
 .related-posts__list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-4); }
 .related-posts__list a { color: var(--accent-strong); font-weight: 600; font-size: var(--fs-md); text-decoration: none; }
 .related-posts__list a:hover { text-decoration: underline; }
-.related-posts__app { padding-top: var(--space-4); border-top: 1px dashed var(--line); margin-top: var(--space-2); }
+/* Related App 区块不画分割线（全站只保留 Related posts 上方一条） */
+.related-posts--app { margin-top: var(--space-6); padding-top: 0; border-top: 0; }
 
 /* ------------------------------------------------------------------
    9. 通用内容页（About）
