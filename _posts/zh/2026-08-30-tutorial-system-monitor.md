@@ -119,3 +119,8 @@ System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **只�
 
 当你只想 *看* 手机内部——CPU 温度、电池健康与实时数据——而不想要清理器或加速器时，System Monitor 是诚实的选择。一次性付费下载。
 
+## 相关术语
+
+- [什么是 CPU 温度监控？](/zh/glossary/what-is-a-cpu-temperature-monitor/)
+- [什么是系统监控（System Monitor）？](/zh/glossary/what-is-a-system-monitor/)
+- [什么是内存清理（RAM Booster）？](/zh/glossary/what-is-a-ram-booster/)

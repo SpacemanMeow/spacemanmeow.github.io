@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "What Is White Noise? Definition & Why People Use It"
+title: "What Is White Noise?"
 description: "White noise is a steady, even sound that masks background noise. Learn what white noise is, how it aids focus and sleep, and how apps deliver it."
 tags: [White Noise, Focus, Meow FM]
 lang: en
 ---
+
+## Definition & Why People Use It
+
 **White noise** is a steady sound containing many frequencies at equal intensity, perceived as a uniform "shhh." Variants include pink noise (softer) and brown noise (deeper).
 
 ## Why people use it

@@ -120,3 +120,7 @@ Yes — the clock uses a keep-screen-on flag while displayed; for a nightstand u
 
 Only Clock turns any device into a gorgeous flip-clock display with widgets and soothing white noise — free to start, with a Pro upgrade to remove ads and unlock all themes.
 
+## Related terms
+
+- [What Is a Flip Clock?](/glossary/what-is-a-flip-clock/)
+- [What Is a Nightstand Clock?](/glossary/what-is-a-nightstand-clock/)

@@ -77,3 +77,7 @@ Crosshair Hero (package `me.okitastudio.crosshairherofps`) is a popular **crossh
 - Want a **quick preset crosshair** → **Crosshair Hero**.
 
 [Get Crosshair Aim](/apps/cross-hair/) — available on Android.
+
+## Related terms
+
+- [What Is a Crosshair?](/glossary/what-is-a-crosshair/)

@@ -117,5 +117,6 @@ Both cover Android and iOS. Calm adds web; Meow FM stays on mobile. Neither's st
 - **Choose Calm** if you want guided meditations, sleep stories and a structured wellness program and will use a paid subscription.
 - **Best of both**: many people use Meow FM nightly for pure noise and keep Calm for the occasional meditation — but if budget matters, Meow FM covers the sleep-sound job on its own.
 
-<!--
--->
+## Related terms
+
+- [What Is White Noise?](/glossary/what-is-white-noise/)

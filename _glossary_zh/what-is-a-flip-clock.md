@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "什么是翻页时钟（Flip Clock）？定义与原理"
+title: "什么是翻页时钟（Flip Clock）？"
 description: "翻页时钟是用翻页卡片显示时间的时钟，数字翻动到下一个。了解翻页时钟是什么，以及为什么它常被用作全屏时钟。"
 tags: [Flip Clock, Only Clock, Fullscreen Clock]
 lang: zh
 ---
+
+## 定义与原理
+
 **翻页时钟（flip clock）** 是一种用翻页卡片显示时间的时钟——经典机械翻板在跳到下一个数字时会翻落下来，就像老式车站出发时刻表。
 
 ## 数字翻页时钟

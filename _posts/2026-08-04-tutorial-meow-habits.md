@@ -119,3 +119,6 @@ On your device by default. Use Google Drive or WebDav backup to move it between 
 
 Meow Habits turns habit-building into a calm daily ritual with cute icons, streaks, and clear trends — and it works fully offline.
 
+## Related terms
+
+- [What Is a Habit Tracker?](/glossary/what-is-a-habit-tracker/)

@@ -238,5 +238,10 @@ The table below shows, as objectively as possible, which capabilities each app s
 - Want **social/pet widgets with friends or a partner** → **Widgetable**.
 - Want **cute, theme-driven widgets across iOS and Android** → **WidgetClub**.
 
-<!--
--->
+## Related terms
+
+- [What Is a Home Screen Widget?](/glossary/what-is-a-home-screen-widget/)
+- [What Is Material You?](/glossary/what-is-material-you/)
+- [What Is Nothing UI?](/glossary/what-is-nothing-ui/)
+- [What Is Galaxy One UI?](/glossary/what-is-galaxy-one-ui/)
+- [What Is iOS Glass?](/glossary/what-is-ios-glass/)

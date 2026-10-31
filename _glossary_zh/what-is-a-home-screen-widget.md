@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "什么是主屏幕小组件（Home Screen Widget）？定义与示例"
+title: "什么是主屏幕小组件（Home Screen Widget）？"
 description: "主屏幕小组件是启动器上应用的一个实时迷你视图。了解 Android 小组件是什么、有哪些类型，以及如何使用。"
 tags: [主屏幕小组件, Android 小组件, One Widget]
 lang: zh
 ---
+
+## 定义与示例
+
 **主屏幕小组件（home screen widget）** 是应用的一个实时、可交互的迷你视图，直接放在 Android 启动器上——无需打开完整应用。示例：时钟、待办清单、天气块、音乐播放器。
 
 ## 小组件为何重要

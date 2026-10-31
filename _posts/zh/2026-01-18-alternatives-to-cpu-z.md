@@ -245,5 +245,7 @@ System Monitor 是一款 **安卓全能工具**：CPU 监控、存储清理、�
 4. 若你常玩游戏或长时间充电，**开启过热警报**，在降频前收到提醒。
 5. 手机变卡时，**用一键加速或清理**（CPU Monitor 加速、System Monitor 清理）释放内存。
 
-<!--
--->
+## 相关术语
+
+- [什么是 CPU 温度监控？](/zh/glossary/what-is-a-cpu-temperature-monitor/)
+- [什么是系统监控（System Monitor）？](/zh/glossary/what-is-a-system-monitor/)

@@ -109,5 +109,6 @@ Crosshair Aim 免费核心无广告，额外项需解锁。Crosshair Hero 常由
 - **选 Crosshair Hero** 如果你想要几秒就有一个认得出来的预设准星、且不需要精调。
 - **竞技玩家** 而言，Crosshair Aim 的游戏内调节器与透明度控制让它成为更实用的日常工具。
 
-<!--
--->
+## 相关术语
+
+- [什么是准星（Crosshair）？](/zh/glossary/what-is-a-crosshair/)

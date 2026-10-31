@@ -60,3 +60,6 @@ One Widget 集成 500+ 款高品质高级小组件，持续更新添加新组件
 
 - [什么是主屏幕小组件（Home Screen Widget）？](/zh/glossary/what-is-a-home-screen-widget/)
 - [什么是 Material You？](/zh/glossary/what-is-material-you/)
+- [什么是 Nothing UI？](/zh/glossary/what-is-nothing-ui/)
+- [什么是 Galaxy One UI？](/zh/glossary/what-is-galaxy-one-ui/)
+- [什么是 iOS Glass？](/zh/glossary/what-is-ios-glass/)

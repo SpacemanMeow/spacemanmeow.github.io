@@ -105,3 +105,9 @@ YNAB（You Need A Budget）是知名的 **零基预算** 应用：你给每元�
 - 预算紧、想要 **Ramsey 零基方案** → **EveryDollar**。
 
 [获取 Meow Money Manager](/zh/apps/meow-money-manager/)——安卓与 iOS 平台可用。
+
+## 相关术语
+
+- [什么是记账应用（Expense Tracker）？](/zh/glossary/what-is-an-expense-tracker/)
+- [什么是预算管理？](/zh/glossary/what-is-budget-management/)
+- [什么是报销管理？](/zh/glossary/what-is-reimbursement-management/)

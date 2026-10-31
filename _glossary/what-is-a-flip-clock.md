@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "What Is a Flip Clock? Definition & How It Works"
+title: "What Is a Flip Clock?"
 description: "A flip clock is a clock that shows time with split-flap cards that physically flip to the next number. Learn what flip clocks are and why they're popular as fullscreen clocks."
 tags: [Flip Clock, Only Clock, Fullscreen Clock]
 lang: en
 ---
+
+## Definition & How It Works
+
 A **flip clock** is a clock display that shows the time using split-flap cards -- the classic mechanical panels that flip down to reveal the next digit, like old train-station departure boards.
 
 ## Digital flip clocks

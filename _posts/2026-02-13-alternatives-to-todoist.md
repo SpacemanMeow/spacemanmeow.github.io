@@ -256,5 +256,7 @@ The table below shows, as objectively as possible, which capabilities each app s
 4. **Re-add recurring tasks** and due dates; set daily reminders and, where supported, location or voice reminders.
 5. **Keep a CSV backup** (Meow Todo and most apps export one) so you're never locked in again.
 
-<!--
--->
+## Related terms
+
+- [What Is a To-Do List?](/glossary/what-is-a-to-do-list/)
+- [What Is a Subtask?](/glossary/what-is-a-subtask/)

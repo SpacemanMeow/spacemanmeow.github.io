@@ -77,3 +77,7 @@ Crosshair Hero（包名 `me.okitastudio.crosshairherofps`）提供预设样式�
 - 想要 **预设 + 自定义 PNG，快速上手** → **Crosshair Hero**。
 
 [获取 Crosshair Aim](/zh/apps/cross-hair/)——安卓平台可用。
+
+## 相关术语
+
+- [什么是准星（Crosshair）？](/zh/glossary/what-is-a-crosshair/)

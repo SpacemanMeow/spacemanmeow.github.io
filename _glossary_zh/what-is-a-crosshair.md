@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "什么是准星（Crosshair）？定义与游戏用途"
+title: "什么是准星（Crosshair）？"
 description: "准星是屏幕中央的瞄准标记。了解准星叠加是什么、手机玩家为何使用它，以及它如何运作。"
 tags: [准星, FPS, CrossHair]
 lang: zh
 ---
+
+## 定义与游戏用途
+
 **准星（crosshair）** 是屏幕中央用于标记动作或射击落点的瞄准标记——通常是一个小十字、圆点或圆环。在电脑上它由游戏内置；在手机上往往没有。
 
 ## 手机玩家为何要加一个

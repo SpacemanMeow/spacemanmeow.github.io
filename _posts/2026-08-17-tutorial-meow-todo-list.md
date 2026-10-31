@@ -175,3 +175,7 @@ Total tasks have no hard cap, but Books are limited to 10, Tags to 10, and subta
 
 Meow Todo List is a friendly, cute task manager that covers quick capture, repeating tasks, a calendar view, and statistics — with Drive/WebDav backup to keep your lists safe.
 
+## Related terms
+
+- [What Is a To-Do List?](/glossary/what-is-a-to-do-list/)
+- [What Is a Subtask?](/glossary/what-is-a-subtask/)

@@ -78,3 +78,7 @@ For mobile FPS players who want a precise, customizable crosshair, Crosshair Aim
 - [Google Play — Crosshair Aim](https://play.google.com/store/apps/details?id=com.glgjing.crosshair.aim.fps.game)
 
 Or read the [Best crosshair for FPS games](/posts/best-cross-hair-fps/) for the full breakdown.
+
+## Related terms
+
+- [What Is a Crosshair?](/glossary/what-is-a-crosshair/)

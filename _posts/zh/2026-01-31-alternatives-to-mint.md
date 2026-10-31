@@ -272,5 +272,8 @@ Goodbudget 把经典的 **信封系统** 数字化：把钱分到虚拟信封里
 4. **设好预算与周期项**（房租、工资、订阅），让后续追踪顺畅。
 5. **关联银行或保持手动**——若隐私重要，手动应用能让你数据留在设备上。
 
-<!--
--->
+## 相关术语
+
+- [什么是记账应用（Expense Tracker）？](/zh/glossary/what-is-an-expense-tracker/)
+- [什么是预算管理？](/zh/glossary/what-is-budget-management/)
+- [什么是报销管理？](/zh/glossary/what-is-reimbursement-management/)

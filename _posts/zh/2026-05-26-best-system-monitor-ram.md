@@ -87,3 +87,9 @@ CCleaner（包名 `com.piriform.ccleaner`，Gen Digital 出品）聚焦清理—
 - 想要 **存储/缓存清理** → **CCleaner**。
 
 [获取 System Monitor](/zh/apps/system-monitor/) —— 安卓可用。
+
+## 相关术语
+
+- [什么是 CPU 温度监控？](/zh/glossary/what-is-a-cpu-temperature-monitor/)
+- [什么是系统监控（System Monitor）？](/zh/glossary/what-is-a-system-monitor/)
+- [什么是内存清理（RAM Booster）？](/zh/glossary/what-is-a-ram-booster/)

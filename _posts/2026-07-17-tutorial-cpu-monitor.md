@@ -102,3 +102,7 @@ The free version is ad-supported. Upgrade to Pro to remove them.
 
 CPU Monitor is a practical live-monitoring toolkit — real-time temps, an overheat alarm, floating stats, widgets and history curves — with a cache cleaner thrown in.
 
+## Related terms
+
+- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
+- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)

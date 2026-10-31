@@ -255,5 +255,6 @@ Momento is an **iOS journal** that builds a private timeline from your entries a
 4. **Set a daily reminder** in the new app so the habit survives the switch.
 5. **Enable backup** (Meow Mood: your own Google Drive; Journey/Diaro: account sync) so you're never locked in.
 
-<!--
--->
+## Related terms
+
+- [What Is a Mood Tracker?](/glossary/what-is-a-mood-tracker/)

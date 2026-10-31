@@ -125,3 +125,10 @@ One Widget 内置 **500+ 可自定义安卓主屏组件**，横跨四种流行�
 
 One Widget 是给你的安卓主屏最快拥有时尚、一体机式组件工具箱的方式——四种外观数百个组件，外加快捷开关与应用快捷方式。
 
+## 相关术语
+
+- [什么是主屏幕小组件（Home Screen Widget）？](/zh/glossary/what-is-a-home-screen-widget/)
+- [什么是 Material You？](/zh/glossary/what-is-material-you/)
+- [什么是 Nothing UI？](/zh/glossary/what-is-nothing-ui/)
+- [什么是 Galaxy One UI？](/zh/glossary/what-is-galaxy-one-ui/)
+- [什么是 iOS Glass？](/zh/glossary/what-is-ios-glass/)

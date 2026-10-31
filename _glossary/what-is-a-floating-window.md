@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "What Is a Floating Window? Definition & How It Works"
+title: "What Is a Floating Window?"
 description: "A floating window is an overlay UI that stays on top of other apps. Learn what floating windows are and how they're used on Android for monitors, clocks, and shortcuts."
 tags: [Floating Window, Floating Assistant, Assistive Touch]
 lang: en
 ---
+
+## Definition & How It Works
+
 A **floating window** (or overlay window) is a small UI layer that stays on top of whatever app you're currently using, without leaving it.
 
 ## Common uses on Android

@@ -90,3 +90,9 @@ For most Android users who value **privacy, no-account tracking, multi-currency 
 - [App Store — Meow Money Manager](https://apps.apple.com/app/id1528852284)
 
 Or read the [full Android review](/posts/best-meow-money-manager-android/) to see it next to YNAB and PocketGuard in detail.
+
+## Related terms
+
+- [What Is an Expense Tracker?](/glossary/what-is-an-expense-tracker/)
+- [What Is Budget Management?](/glossary/what-is-budget-management/)
+- [What Is Reimbursement Management?](/glossary/what-is-reimbursement-management/)

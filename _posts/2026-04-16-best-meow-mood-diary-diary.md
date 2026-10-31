@@ -97,3 +97,7 @@ Day One is the original, most-awarded digital journal — praised by *The New Yo
 - Want **prompted structure** → **Grid Diary**.
 
 [Get Meow Mood](/apps/meow-mood-diary/) — available on Android and iOS.
+
+## Related terms
+
+- [What Is a Mood Tracker?](/glossary/what-is-a-mood-tracker/)

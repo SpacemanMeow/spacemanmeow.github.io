@@ -94,3 +94,7 @@ Streaks（Crunchy Bagel 出品）是 **Apple 设计奖得主**，也是 iOS 上�
 - 想要 **极简开源安卓** → **Loop**。
 
 [获取 Meow Habits](/zh/apps/meow-habits/)——安卓与 iOS 平台可用。
+
+## 相关术语
+
+- [什么是习惯追踪应用（Habit Tracker）？](/zh/glossary/what-is-a-habit-tracker/)

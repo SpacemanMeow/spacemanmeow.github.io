@@ -90,3 +90,9 @@ Meow Money Manager 是一款安卓与 iOS 的 **猫主题开销追踪与记账�
 - [App Store — Meow Money Manager](https://apps.apple.com/app/id1528852284)
 
 或阅读 [完整安卓评测](/zh/posts/best-meow-money-manager-android/)，看它与 YNAB、PocketGuard 并排的细节。
+
+## 相关术语
+
+- [什么是记账应用（Expense Tracker）？](/zh/glossary/what-is-an-expense-tracker/)
+- [什么是预算管理？](/zh/glossary/what-is-budget-management/)
+- [什么是报销管理？](/zh/glossary/what-is-reimbursement-management/)

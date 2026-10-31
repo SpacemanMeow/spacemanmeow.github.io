@@ -255,5 +255,6 @@ Momento 是一款 **iOS 日记**，从你的记录与关联服务中构建私密
 4. 在新应用里 **设置每日提醒**，让习惯在切换后得以延续。
 5. **开启备份**（Meow Mood：你自己的 Google Drive；Journey/Diaro：账号同步），从此不再被锁定。
 
-<!--
--->
+## 相关术语
+
+- [什么是心情追踪（Mood Tracker）？](/zh/glossary/what-is-a-mood-tracker/)

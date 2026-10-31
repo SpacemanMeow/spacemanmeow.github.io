@@ -360,3 +360,7 @@ Meow Money Manager 提供多种设置选项，帮你自定义应用功能。
 Meow Money Manager 是一款强大又可爱的个人财务管理应用。通过本教程，你应该已掌握它的主要功能与使用方法。希望它能帮你更好地管理个人财务，让记账更轻松、更愉快！
 
 使用中遇到任何问题，欢迎随时联系我：glgjingmarvel@gmail.com
+
+## 相关术语
+
+- [什么是记账应用（Expense Tracker）？](/zh/glossary/what-is-an-expense-tracker/)

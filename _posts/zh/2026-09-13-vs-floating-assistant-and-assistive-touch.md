@@ -114,5 +114,7 @@ Floating Assistant 自我定位为不收集个人数据、核心无广告。Assi
 - **选 Assistive Touch (Easy Touch)** 如果你只想要一个简单的、免费的浮动导航球替换硬件键。
 - **作为全能日常工具**，Floating Assistant 覆盖更广，不必迫使你装多个应用。
 
-<!--
--->
+## 相关术语
+
+- [什么是辅助触控（Assistive Touch）？](/zh/glossary/what-is-assistive-touch/)
+- [什么是悬浮窗（Floating Window）？](/zh/glossary/what-is-a-floating-window/)

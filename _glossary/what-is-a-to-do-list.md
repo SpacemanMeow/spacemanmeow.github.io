@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "What Is a To-Do List? Definition & Task Management"
+title: "What Is a To-Do List?"
 description: "A to-do list is a written set of tasks to complete. Learn what task management is, why lists boost productivity, and how to-do apps help."
 tags: [To-Do List, Task Manager, Meow To-Do List]
 lang: en
 ---
+
+## Definition & Task Management
+
 A **to-do list** (or task list) is a written set of tasks you intend to complete, often with due dates, priorities, and checkboxes. Task management is the broader practice of capturing, organizing, and finishing work.
 
 ## Why lists boost productivity

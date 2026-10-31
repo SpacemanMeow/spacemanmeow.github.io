@@ -79,3 +79,7 @@ Meow Mood Diary 是一款安全、私密的心情日记与记录应用，带平�
 - [Google Play — Meow Mood Diary](https://play.google.com/store/apps/details?id=com.glgjing.meow.mood.diary)
 - [App Store — Meow Mood Diary](https://apps.apple.com/app/id6767560237)
 或阅读 [最佳心情日记应用](/zh/posts/best-meow-mood-diary-diary/) 看完整拆解。
+
+## 相关术语
+
+- [什么是心情追踪（Mood Tracker）？](/zh/glossary/what-is-a-mood-tracker/)

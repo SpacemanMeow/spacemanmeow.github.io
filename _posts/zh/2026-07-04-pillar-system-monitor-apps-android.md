@@ -81,3 +81,9 @@ System Monitor 是一款付费安卓硬件信息检测工具：实时 CPU 温度
 - [Google Play — System Monitor](https://play.google.com/store/apps/details?id=com.glgjing.marvel)
 
 或阅读 [最佳系统监控应用](/zh/posts/best-system-monitor-monitor/) 看完整拆解。
+
+## 相关术语
+
+- [什么是 CPU 温度监控？](/zh/glossary/what-is-a-cpu-temperature-monitor/)
+- [什么是系统监控（System Monitor）？](/zh/glossary/what-is-a-system-monitor/)
+- [什么是内存清理（RAM Booster）？](/zh/glossary/what-is-a-ram-booster/)

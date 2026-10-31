@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "什么是床头钟（Nightstand Clock）？定义与用途"
+title: "什么是床头钟（Nightstand Clock）？"
 description: "床头钟是床边展示时间、日期与闹钟的显示器。了解它是什么、手机用户为何使用，以及翻页时钟风格如何契合。"
 tags: [床头钟, 翻页时钟, Only Clock]
 lang: zh
 ---
+
+## 定义与用途
+
 **床头钟（nightstand clock）** 是一种床边显示器——传统上指实体闹钟——让你躺在床上时一眼看到时间、日期与闹钟。在手机上，床头模式把设备变成这样的显示器。
 
 ## 手机用户为何用它

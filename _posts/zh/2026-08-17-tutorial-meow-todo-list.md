@@ -175,3 +175,7 @@ CSV 导出是 **VIP** 功能。
 
 Meow Todo List 是一款友好、可爱的任务管理器，覆盖快速捕捉、重复任务、日历视图与统计——并配 Drive/WebDav 备份守护你的清单。
 
+## 相关术语
+
+- [什么是待办清单（To-Do List）？](/zh/glossary/what-is-a-to-do-list/)
+- [什么是子任务？](/zh/glossary/what-is-a-subtask/)

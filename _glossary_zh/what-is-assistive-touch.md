@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "什么是辅助触控（Assistive Touch）？定义与作用"
+title: "什么是辅助触控（Assistive Touch）？"
 description: "辅助触控是一个屏幕虚拟按钮，无需硬件按键即可快捷操作。了解它是什么，以及悬浮助手应用与之的关系。"
 tags: [辅助触控, 无障碍, Floating Assistant]
 lang: zh
 ---
+
+## 定义与作用
+
 **辅助触控（Assistive Touch）** 是一项无障碍功能——在 iOS 上广为人知——它在屏幕上添加一个可悬浮的虚拟按钮，点按即可直达常用操作（主屏、截屏、音量、快捷方式），无需使用实体硬件按键。
 
 ## 人们为什么用它

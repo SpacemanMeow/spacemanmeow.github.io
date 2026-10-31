@@ -114,5 +114,10 @@ One Widget 的 One UI 免费，其他家族一次性解锁。KWGT 免费可用�
 - **选 KWGT** 若你想要完全的创作掌控、实时数据公式，且不介意学习（并花时间）去搭建独特组件。
 - **许多安卓用户两者都留**：One Widget 应付快速、日常的组件，KWGT 则在想要真正自定义时出场。
 
-<!--
--->
+## 相关术语
+
+- [什么是主屏幕小组件（Home Screen Widget）？](/zh/glossary/what-is-a-home-screen-widget/)
+- [什么是 Material You？](/zh/glossary/what-is-material-you/)
+- [什么是 Nothing UI？](/zh/glossary/what-is-nothing-ui/)
+- [什么是 Galaxy One UI？](/zh/glossary/what-is-galaxy-one-ui/)
+- [什么是 iOS Glass？](/zh/glossary/what-is-ios-glass/)

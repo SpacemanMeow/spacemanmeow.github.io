@@ -120,5 +120,6 @@ Meow Habits 核心免费；Streaks 约 $4.99 一次性。两者都不基于订�
 - **选 Streaks** 如果你只用 iPhone、想要最精致的极简追踪器，且活在苹果生态（HealthKit、Watch、快捷指令）。
 - **对多数跨平台或注重隐私的用户，Meow Habits 覆盖更多情形**；对纯 iOS 极简爱好者，Streaks 仍是更干净的选择。
 
-<!--
--->
+## 相关术语
+
+- [什么是习惯追踪应用（Habit Tracker）？](/zh/glossary/what-is-a-habit-tracker/)

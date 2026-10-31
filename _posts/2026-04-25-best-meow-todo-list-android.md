@@ -94,3 +94,8 @@ Todoist is the most-installed task manager, with natural-language input and deep
 - Want **the lightest Gmail-tied list** → **Google Tasks**.
 
 [Get Meow Todo](/apps/meow-todo-list/) — available on Android and iOS.
+
+## Related terms
+
+- [What Is a To-Do List?](/glossary/what-is-a-to-do-list/)
+- [What Is a Subtask?](/glossary/what-is-a-subtask/)

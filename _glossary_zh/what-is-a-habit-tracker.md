@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "什么是习惯追踪应用（Habit Tracker）？定义与原理"
+title: "什么是习惯追踪应用（Habit Tracker）？"
 description: "习惯追踪应用是记录你每天是否完成目标行为的工具。了解习惯追踪是什么，以及它为何能培养坚持。"
 tags: [习惯追踪, Meow Habits]
 lang: zh
 ---
+
+## 定义与原理
+
 **习惯追踪应用（habit tracker）** 是一种工具——通常是像 Meow Habits 这样的手机 App——用于记录你每天是否完成了选定的行为（冥想、阅读、喝水），并随时间展示进度。
 
 ## 为什么习惯追踪有效

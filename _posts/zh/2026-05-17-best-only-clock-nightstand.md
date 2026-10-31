@@ -87,3 +87,8 @@ Flip Clock（包名 `com.wssc.simpleclock`）是一款免费、无广告的 **�
 - 想要 **免费裸钟**、且自己管亮度 → **Flip Clock**。
 
 [获取 Only Clock](/zh/apps/only-clock/)——安卓与 iOS 平台可用。
+
+## 相关术语
+
+- [什么是翻页时钟（Flip Clock）？](/zh/glossary/what-is-a-flip-clock/)
+- [什么是床头钟（Nightstand Clock）？](/zh/glossary/what-is-a-nightstand-clock/)

@@ -77,3 +77,7 @@ Crosshair Hero (package `me.okitastudio.crosshairherofps`) offers preset styles 
 - Want **presets + custom PNG, quick** → **Crosshair Hero**.
 
 [Get Crosshair Aim](/apps/cross-hair/) — available on Android.
+
+## Related terms
+
+- [What Is a Crosshair?](/glossary/what-is-a-crosshair/)

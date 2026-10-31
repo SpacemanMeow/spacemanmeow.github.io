@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "What Is a CPU Temperature Monitor? Definition & Why It Matters"
+title: "What Is a CPU Temperature Monitor?"
 description: "A CPU temperature monitor reads and displays your processor's heat in real time. Learn why CPU temp matters and how monitoring apps help prevent throttling."
 tags: [CPU Temperature, CPU Monitor, System Monitor]
 lang: en
 ---
+
+## Definition & Why It Matters
+
 A **CPU temperature monitor** is a tool—such as CPU Monitor—that reads your processor's current and peak temperature and shows it in real time, often with graphs and alerts.
 
 ## Why CPU temperature matters

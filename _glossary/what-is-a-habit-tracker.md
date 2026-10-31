@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "What Is a Habit Tracker? Definition & How It Works"
+title: "What Is a Habit Tracker?"
 description: "A habit tracker is an app or system for recording whether you did a target behavior each day. Learn what habit tracking is and why it builds consistency."
 tags: [Habit Tracker, Meow Habits]
 lang: en
 ---
+
+## Definition & How It Works
+
 A **habit tracker** is a tool—often a mobile app like Meow Habits—for recording whether you performed a chosen behavior each day (meditate, read, drink water) and showing your progress over time.
 
 ## Why habit tracking works

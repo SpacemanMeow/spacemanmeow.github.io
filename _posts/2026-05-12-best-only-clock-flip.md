@@ -84,3 +84,8 @@ Flip Clock (package `com.wssc.simpleclock`) is a popular **free flip-clock app**
 - Want a **free, bare retro flip clock** → **Flip Clock**.
 
 [Get Only Clock](/apps/only-clock/) — available on Android and iOS.
+
+## Related terms
+
+- [What Is a Flip Clock?](/glossary/what-is-a-flip-clock/)
+- [What Is a Nightstand Clock?](/glossary/what-is-a-nightstand-clock/)

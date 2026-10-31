@@ -81,3 +81,8 @@ Assistive Touch（包名 `mtr.assistivetouch.easytools`）提供屏幕虚拟按�
 - 想要 **简单的免费虚拟按键** → **Assistive Touch**。
 
 [获取 Floating Assistant](/zh/apps/floating-assistant/)——安卓平台可用。
+
+## 相关术语
+
+- [什么是辅助触控（Assistive Touch）？](/zh/glossary/what-is-assistive-touch/)
+- [什么是悬浮窗（Floating Window）？](/zh/glossary/what-is-a-floating-window/)

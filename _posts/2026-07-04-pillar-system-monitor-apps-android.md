@@ -81,3 +81,9 @@ For Android users who want honest, read-only device monitoring rather than clean
 - [Google Play — System Monitor](https://play.google.com/store/apps/details?id=com.glgjing.marvel)
 
 Or read the [Best system monitor app](/posts/best-system-monitor-monitor/) for the full breakdown.
+
+## Related terms
+
+- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
+- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)
+- [What Is a RAM Booster?](/glossary/what-is-a-ram-booster/)

@@ -115,5 +115,8 @@ System Monitor 核心免费 + 可选解锁；CCleaner 免费但带广告与订�
 - **选 CCleaner** 若你特别想要一款熟悉、一键清理缓存/垃圾，而不需要监控。
 - **最佳实践**：用 System Monitor 保持感知；若你非清存储不可，优先选 **Files by Google**（官方、安全、无激进行为），而非盲目清理。
 
-<!--
--->
+## 相关术语
+
+- [什么是 CPU 温度监控？](/zh/glossary/what-is-a-cpu-temperature-monitor/)
+- [什么是系统监控（System Monitor）？](/zh/glossary/what-is-a-system-monitor/)
+- [什么是内存清理（RAM Booster）？](/zh/glossary/what-is-a-ram-booster/)

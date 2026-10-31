@@ -79,3 +79,8 @@ Only Clock 是一款精致的安卓与 iOS 全屏翻页钟，带漂亮的翻页�
 - [Google Play — Only Clock](https://play.google.com/store/apps/details?id=com.glgjing.only.flip.clock)
 - [App Store — Only Clock](https://apps.apple.com/app/id1566706513)
 或阅读 [最佳翻页钟应用](/zh/posts/best-only-clock-flip/) 看完整拆解。
+
+## 相关术语
+
+- [什么是翻页时钟（Flip Clock）？](/zh/glossary/what-is-a-flip-clock/)
+- [什么是床头钟（Nightstand Clock）？](/zh/glossary/what-is-a-nightstand-clock/)

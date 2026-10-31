@@ -94,3 +94,7 @@ Day One 是获奖最多的日记应用，跨 Android、iOS、Mac 与网页加密
 - 想要 **带密码的加密云** → **Penzu**。
 
 [获取 Meow Mood](/zh/apps/meow-mood-diary/)——安卓与 iOS 平台可用。
+
+## 相关术语
+
+- [什么是心情追踪（Mood Tracker）？](/zh/glossary/what-is-a-mood-tracker/)

@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "What Is Assistive Touch? Definition & What It Does"
+title: "What Is Assistive Touch?"
 description: "Assistive Touch is an on-screen virtual button that gives quick access to actions without hardware keys. Learn what it is and how a floating assistant app relates."
 tags: [Assistive Touch, Accessibility, Floating Assistant]
 lang: en
 ---
+
+## Definition & What It Does
+
 **Assistive Touch** is an accessibility feature—popularized on iOS—that adds a floating on-screen button you can tap to reach common actions (home, screenshot, volume, shortcuts) without using physical hardware keys.
 
 ## Why people use it

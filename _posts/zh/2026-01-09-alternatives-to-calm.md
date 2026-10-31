@@ -255,5 +255,6 @@ Noisli 是一款面向工作、学习与睡眠的 **专注与放松声音混音�
 4. **先试免费档**——Insight Timer 与 Meow FM 不花钱也能用很多。
 5. **确认新应用已覆盖你的夜间习惯后**，再取消 Calm 订阅。
 
-<!--
--->
+## 相关术语
+
+- [什么是白噪音（White Noise）？](/zh/glossary/what-is-white-noise/)

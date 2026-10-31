@@ -121,5 +121,8 @@ Meow Money is free at the core with a one-time VIP; YNAB is a recurring subscrip
 - **Choose YNAB** if you want proactive, zero-based budgeting with automatic bank sync and are willing to pay a subscription and learn the method.
 - **Pragmatic split**: use Meow Money for day-to-day private tracking and multi-currency, and adopt YNAB only if you specifically want behavior-changing planning with auto-sync.
 
-<!--
--->
+## Related terms
+
+- [What Is an Expense Tracker?](/glossary/what-is-an-expense-tracker/)
+- [What Is Budget Management?](/glossary/what-is-budget-management/)
+- [What Is Reimbursement Management?](/glossary/what-is-reimbursement-management/)

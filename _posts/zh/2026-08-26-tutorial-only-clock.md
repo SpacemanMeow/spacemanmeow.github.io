@@ -120,3 +120,7 @@ Only Clock 是一款安卓与 iOS 漂亮的 **全屏翻页钟**——把任何�
 
 Only Clock 把任何设备变成华丽的翻页钟显示，带组件与舒缓白噪音——免费起步，Pro 升级去广告、解锁全部主题。
 
+## 相关术语
+
+- [什么是翻页时钟（Flip Clock）？](/zh/glossary/what-is-a-flip-clock/)
+- [什么是床头钟（Nightstand Clock）？](/zh/glossary/what-is-a-nightstand-clock/)

@@ -242,5 +242,8 @@ Norton Clean is a **straightforward junk and cache cleaner** that removes tempor
 4. **Uninstall CCleaner** once the new tool covers your needs — modern Android needs less constant cleaning.
 5. **Keep it simple**: delete big media and old apps regularly; let the OS handle the rest.
 
-<!--
--->
+## Related terms
+
+- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
+- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)
+- [What Is a RAM Booster?](/glossary/what-is-a-ram-booster/)

@@ -79,3 +79,8 @@ For most Android users who want a clean, cute, offline-friendly task manager, Me
 - [Google Play — Meow Todo List](https://play.google.com/store/apps/details?id=com.glgjing.money.task.todo.list.meow)
 - [App Store — Meow Todo List](https://apps.apple.com/app/id6742345495)
 Or read the [Best to-do list for students](/posts/best-meow-todo-list-students/) for the full breakdown.
+
+## Related terms
+
+- [What Is a To-Do List?](/glossary/what-is-a-to-do-list/)
+- [What Is a Subtask?](/glossary/what-is-a-subtask/)

@@ -79,3 +79,8 @@ For most Android users who want a beautiful desk or nightstand clock with a focu
 - [Google Play — Only Clock](https://play.google.com/store/apps/details?id=com.glgjing.only.flip.clock)
 - [App Store — Only Clock](https://apps.apple.com/app/id1566706513)
 Or read the [Best flip clock app](/posts/best-only-clock-flip/) for the full breakdown.
+
+## Related terms
+
+- [What Is a Flip Clock?](/glossary/what-is-a-flip-clock/)
+- [What Is a Nightstand Clock?](/glossary/what-is-a-nightstand-clock/)

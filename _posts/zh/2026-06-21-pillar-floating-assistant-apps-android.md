@@ -79,3 +79,8 @@ Floating Assistant 为安卓加上可自定义的浮动球，用于快速启动�
 - [Google Play — Floating Assistant](https://play.google.com/store/apps/details?id=com.glgjing.floating.apps.assistive.touch.pro)
 
 或阅读 [最佳浮动助手应用](/zh/posts/best-floating-assistant-general/) 看完整拆解。
+
+## 相关术语
+
+- [什么是辅助触控（Assistive Touch）？](/zh/glossary/what-is-assistive-touch/)
+- [什么是悬浮窗（Floating Window）？](/zh/glossary/what-is-a-floating-window/)

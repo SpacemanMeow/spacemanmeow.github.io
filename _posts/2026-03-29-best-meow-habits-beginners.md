@@ -90,3 +90,7 @@ Streaks (Crunchy Bagel) is the most polished iOS habit to-do, with Apple Health 
 - Need game motivation → **Habitica**.
 
 [Get Meow Habits](/apps/meow-habits/) — available on Android and iOS.
+
+## Related terms
+
+- [What Is a Habit Tracker?](/glossary/what-is-a-habit-tracker/)

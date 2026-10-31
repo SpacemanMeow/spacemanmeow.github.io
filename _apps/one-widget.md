@@ -66,3 +66,6 @@ One Widget integrates 500+ high-quality premium widgets. We keep updating and ad
 
 - [What Is a Home Screen Widget?](/glossary/what-is-a-home-screen-widget/)
 - [What Is Material You?](/glossary/what-is-material-you/)
+- [What Is Nothing UI?](/glossary/what-is-nothing-ui/)
+- [What Is Galaxy One UI?](/glossary/what-is-galaxy-one-ui/)
+- [What Is iOS Glass?](/glossary/what-is-ios-glass/)

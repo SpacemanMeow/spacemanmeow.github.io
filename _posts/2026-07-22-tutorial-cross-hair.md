@@ -110,3 +110,6 @@ Not separately. Thickness is part of each style's design.
 
 Crosshair is the lightest way to add a precise, customizable reticle to any Android shooter — no root, no Accessibility, with 80+ styles and a free tier to start.
 
+## Related terms
+
+- [What Is a Crosshair?](/glossary/what-is-a-crosshair/)

@@ -126,3 +126,7 @@ The global button actions (home/back/recent/lock/screenshot) are performed throu
 
 Floating Assistant makes a big phone usable one-handed: a floating ball for launches and system actions, plus toggle widgets — free to start, with an ad-free Pro app.
 
+## Related terms
+
+- [What Is Assistive Touch?](/glossary/what-is-assistive-touch/)
+- [What Is a Floating Window?](/glossary/what-is-a-floating-window/)

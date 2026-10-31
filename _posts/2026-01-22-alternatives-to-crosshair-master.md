@@ -239,5 +239,6 @@ Crosshair PRO (Custom Scope) is a professional **overlay tool for FPS and TPS en
 4. **Recreate your reticle** — set style, color, size and position to match what you had.
 5. **Test in a match** and use the in-game adjuster to fine-tune placement before competitive play.
 
-<!--
--->
+## Related terms
+
+- [What Is a Crosshair?](/glossary/what-is-a-crosshair/)

@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "什么是 CPU 温度监控？定义与重要性"
+title: "什么是 CPU 温度监控？"
 description: "CPU 温度监控会实时读取并显示处理器热量。了解 CPU 温度为何重要，以及监控应用如何帮助避免降频。"
 tags: [CPU 温度, CPU Monitor, System Monitor]
 lang: zh
 ---
+
+## 定义与重要性
+
 **CPU 温度监控** 是一种工具——例如 CPU Monitor——读取处理器当前与峰值温度并实时显示，通常配有曲线图和告警。
 
 ## 为什么 CPU 温度重要

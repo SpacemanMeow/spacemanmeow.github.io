@@ -238,5 +238,7 @@ Flip Clock — Digital Clock is a simple, elegant iOS **flip clock** with themes
 4. **Add a widget** (Only Clock, Flip Clock: World Clock, or the iOS widget apps) to your home or lock screen for at-a-glance time.
 5. **If you want focus or sleep help**, turn on white noise (Only Clock, FliTik) or a Pomodoro timer (FliTik, Fullscreen Clock, Flip Clock: World Clock) so the clock does more than tell time.
 
-<!--
--->
+## Related terms
+
+- [What Is a Flip Clock?](/glossary/what-is-a-flip-clock/)
+- [What Is a Nightstand Clock?](/glossary/what-is-a-nightstand-clock/)

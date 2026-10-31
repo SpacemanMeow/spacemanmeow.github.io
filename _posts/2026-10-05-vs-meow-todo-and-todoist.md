@@ -122,5 +122,7 @@ Meow Todo's core is free with no hard project cap. Todoist's free Beginner tier 
 - **Choose Todoist** if you need natural-language capture, powerful filters, and shared projects for collaboration, and will pay for Pro.
 - **For personal, privacy-minded planning**, Meow Todo covers the essentials for free; **for team or power workflows**, Todoist justifies its subscription.
 
-<!--
--->
+## Related terms
+
+- [What Is a To-Do List?](/glossary/what-is-a-to-do-list/)
+- [What Is a Subtask?](/glossary/what-is-a-subtask/)

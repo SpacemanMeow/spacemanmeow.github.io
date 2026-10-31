@@ -272,5 +272,8 @@ The table below shows, as objectively as possible, which capabilities each app s
 4. **Set budgets and recurring items** (rent, salary, subscriptions) so tracking is smooth going forward.
 5. **Link the bank or stay manual** — if privacy matters, a manual app keeps your data on your device.
 
-<!--
--->
+## Related terms
+
+- [What Is an Expense Tracker?](/glossary/what-is-an-expense-tracker/)
+- [What Is Budget Management?](/glossary/what-is-budget-management/)
+- [What Is Reimbursement Management?](/glossary/what-is-reimbursement-management/)

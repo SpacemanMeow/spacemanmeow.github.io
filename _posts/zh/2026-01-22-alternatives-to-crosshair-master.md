@@ -239,5 +239,6 @@ Crosshair PRO（Custom Scope）是一款面向 FPS/TPS 爱好者的专业 **叠�
 4. **重建你的准星**——设置样式、颜色、大小与位置，匹配原来的效果。
 5. **在对局中测试**，并用游戏内调节器在正式上分前微调位置。
 
-<!--
--->
+## 相关术语
+
+- [什么是准星（Crosshair）？](/zh/glossary/what-is-a-crosshair/)

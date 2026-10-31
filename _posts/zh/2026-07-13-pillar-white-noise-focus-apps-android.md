@@ -79,3 +79,7 @@ Meow FM 是一款猫主题白噪音应用，用于睡眠、放松与专注，带
 - [Google Play — Meow FM](https://play.google.com/store/apps/details?id=com.glgjing.whitenoise.relax.night.sleep.meow)
 - [App Store — Meow FM](https://apps.apple.com/app/id1606715188)
 或阅读 [最佳睡眠白噪音应用](/zh/posts/best-meow-fm-sleep/) 看完整拆解。
+
+## 相关术语
+
+- [什么是白噪音（White Noise）？](/zh/glossary/what-is-white-noise/)

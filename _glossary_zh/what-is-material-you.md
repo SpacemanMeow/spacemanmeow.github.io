@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "什么是 Material You？定义与 Android 设计语言"
+title: "什么是 Material You？"
 description: "Material You 是 Google 在 Android 12 引入的自适应设计语言。了解它是什么，以及小组件为何采用其主题化。"
 tags: [Material You, Android, One Widget]
 lang: zh
 ---
+
+## 定义与 Android 设计语言
+
 **Material You** 是 Google 在 Android 12 引入的设计语言，以个性化与自适应色彩为核心。其招牌特性是动态配色：系统从你的壁纸提取调色板，并应用到界面与支持的应用上。
 
 ## 核心理念

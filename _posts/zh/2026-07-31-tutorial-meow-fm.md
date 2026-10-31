@@ -114,3 +114,6 @@ Meow FM 提供三种可放到主屏的小组件：
 
 Meow FM 是给睡眠或专注加上平静环境声最简单的方式——免费起步、完全离线，且睡眠计时器会自己关掉。
 
+## 相关术语
+
+- [什么是白噪音（White Noise）？](/zh/glossary/what-is-white-noise/)

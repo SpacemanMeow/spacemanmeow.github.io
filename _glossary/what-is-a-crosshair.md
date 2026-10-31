@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "What Is a Crosshair? Definition & Use in Games"
+title: "What Is a Crosshair?"
 description: "A crosshair is the aiming reticle at the center of a screen. Learn what a crosshair overlay is, why mobile gamers use one, and how it works."
 tags: [Crosshair, FPS, CrossHair]
 lang: en
 ---
+
+## Definition & Use in Games
+
 A **crosshair** is the aiming reticle—usually a small cross, dot, or ring—centered on a screen to mark where actions or shots land. On desktops it is built into games; on phones it often is not.
 
 ## Why mobile gamers add one

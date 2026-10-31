@@ -79,3 +79,7 @@ For most Android users who want sleep and focus sounds without a subscription, M
 - [Google Play — Meow FM](https://play.google.com/store/apps/details?id=com.glgjing.whitenoise.relax.night.sleep.meow)
 - [App Store — Meow FM](https://apps.apple.com/app/id1606715188)
 Or read the [Best white noise app for sleep](/posts/best-meow-fm-sleep/) for the full breakdown.
+
+## Related terms
+
+- [What Is White Noise?](/glossary/what-is-white-noise/)

@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "What Is an Expense Tracker? Definition & How It Works"
+title: "What Is an Expense Tracker?"
 description: "An expense tracker is an app or method for recording spending so you can see where money goes. Learn what expense trackers do and why they help budgeting."
 tags: [Expense Tracker, Budget App, Meow Money]
 lang: en
 ---
+
+## Definition & How It Works
+
 An **expense tracker** is a tool -- usually an app like Meow Money -- that records your spending and income so you can see exactly where your money goes.
 
 ## What it does

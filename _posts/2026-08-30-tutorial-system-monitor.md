@@ -119,3 +119,8 @@ From standard Android APIs (e.g. BatteryManager and system files). Nothing is ch
 
 System Monitor is the honest choice when you just want to *see* your phone's internals — CPU temp, battery health and live stats — without cleaners or boosters. A one-time paid download.
 
+## Related terms
+
+- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
+- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)
+- [What Is a RAM Booster?](/glossary/what-is-a-ram-booster/)

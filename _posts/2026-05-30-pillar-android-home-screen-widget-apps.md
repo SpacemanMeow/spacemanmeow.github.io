@@ -17,7 +17,7 @@ On Android, widgets are first-class: One Widget drops clocks, toggles and app sh
 
 ## What to look for in a home screen widget app
 
-- **Style variety** — Glass, Material You, One UI, Nothing and more, so the widget matches your launcher.
+- **Style variety** — Glass iOS, Material You, Galaxy One UI and Nothing and more, so the widget matches your launcher.
 - **Deep customization** — size, color, corner radius, and what the widget actually shows.
 - **Quick toggles & shortcuts** — Wi-Fi, Bluetooth, torch and app shortcuts one tap from the home screen.
 - **Live info** — clock, calendar, battery, RAM widgets that update in place.
@@ -79,3 +79,11 @@ For Android users who want a stylish, all-in-one widget toolkit without DIY scri
 - [Google Play — One Widget](https://play.google.com/store/apps/details?id=com.glgjing.galaxy.nothing.glass.material.widget)
 
 Or read the [Best Android widgets app](/posts/best-one-widget-android/) for the full breakdown.
+
+## Related terms
+
+- [What Is a Home Screen Widget?](/glossary/what-is-a-home-screen-widget/)
+- [What Is Material You?](/glossary/what-is-material-you/)
+- [What Is Nothing UI?](/glossary/what-is-nothing-ui/)
+- [What Is Galaxy One UI?](/glossary/what-is-galaxy-one-ui/)
+- [What Is iOS Glass?](/glossary/what-is-ios-glass/)

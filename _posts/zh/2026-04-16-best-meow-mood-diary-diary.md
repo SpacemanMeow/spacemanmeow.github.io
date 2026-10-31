@@ -97,3 +97,7 @@ Day One 是元老级、获奖最多的数字日记——被 *The New York Times*
 - 想要 **提示式结构** → **Grid Diary**。
 
 [获取 Meow Mood](/zh/apps/meow-mood-diary/)——安卓与 iOS 平台可用。
+
+## 相关术语
+
+- [什么是心情追踪（Mood Tracker）？](/zh/glossary/what-is-a-mood-tracker/)

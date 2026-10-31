@@ -109,5 +109,6 @@ Crosshair Aim's free core is ad-free with an unlock for extras. Crosshair Hero i
 - **Choose Crosshair Hero** if you want a recognizable preset crosshair in seconds and don't need fine tuning.
 - **For competitive play**, the in-game adjuster and transparency control of Crosshair Aim make it the more practical daily driver.
 
-<!--
--->
+## Related terms
+
+- [What Is a Crosshair?](/glossary/what-is-a-crosshair/)

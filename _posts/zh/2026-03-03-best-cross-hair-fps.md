@@ -77,3 +77,7 @@ Crosshair Hero（包名 `me.okitastudio.crosshairherofps`）是一款热门的 *
 - 想要 **快速预设准星** → **Crosshair Hero**。
 
 [获取 Crosshair Aim](/zh/apps/cross-hair/)——安卓平台可用。
+
+## 相关术语
+
+- [什么是准星（Crosshair）？](/zh/glossary/what-is-a-crosshair/)

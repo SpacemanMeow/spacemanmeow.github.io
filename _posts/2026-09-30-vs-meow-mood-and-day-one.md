@@ -119,5 +119,6 @@ Meow Mood is free at the core; Day One is a ~$35/year subscription. For pure moo
 - **Choose Day One** if you want a full multimedia journal that syncs everywhere and keeps a written, photo-rich life record.
 - **They're complementary**: many users keep Meow Mood for daily mood check-ins and Day One for longer journaling — but if you only want one, let the mood-vs-memory question decide.
 
-<!--
--->
+## Related terms
+
+- [What Is a Mood Tracker?](/glossary/what-is-a-mood-tracker/)

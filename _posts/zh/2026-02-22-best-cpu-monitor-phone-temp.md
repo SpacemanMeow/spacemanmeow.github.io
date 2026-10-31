@@ -82,3 +82,8 @@ CPU-Z（包名 `com.cpuid.cpu_z`）会报告硬件细节，包括可用传感器
 - 想要 **免费参数与当前温度** → **CPU-Z**。
 
 [获取 CPU Monitor](/zh/apps/cpu-monitor/)——安卓平台可用。
+
+## 相关术语
+
+- [什么是 CPU 温度监控？](/zh/glossary/what-is-a-cpu-temperature-monitor/)
+- [什么是系统监控（System Monitor）？](/zh/glossary/what-is-a-system-monitor/)

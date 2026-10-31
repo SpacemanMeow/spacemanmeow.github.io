@@ -114,3 +114,6 @@ Use the sleep timer (0–60 min); playback stops at zero.
 
 Meow FM is the simplest way to add calming ambient sound to sleep or focus — free to start, fully offline, with a sleep timer that turns itself off.
 
+## Related terms
+
+- [What Is White Noise?](/glossary/what-is-white-noise/)

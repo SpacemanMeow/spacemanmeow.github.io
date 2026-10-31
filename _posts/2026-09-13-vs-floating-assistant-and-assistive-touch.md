@@ -114,5 +114,7 @@ Floating Assistant positions itself as not collecting personal data, with an ad-
 - **Choose Assistive Touch (Easy Touch)** if you just need a simple, free floating navigation ball to replace hardware keys.
 - **For an all-in-one daily driver**, Floating Assistant covers more ground without forcing you into multiple apps.
 
-<!--
--->
+## Related terms
+
+- [What Is Assistive Touch?](/glossary/what-is-assistive-touch/)
+- [What Is a Floating Window?](/glossary/what-is-a-floating-window/)

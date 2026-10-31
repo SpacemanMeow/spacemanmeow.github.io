@@ -242,5 +242,8 @@ Norton Clean 是一款 **直截了当的垃圾与缓存清理工具**，轻点�
 4. **卸载 CCleaner**——等新工具满足需求后。现代安卓不需要频繁清理。
 5. **保持简单**：定期删除大媒体与旧应用，其余交给系统。
 
-<!--
--->
+## 相关术语
+
+- [什么是 CPU 温度监控？](/zh/glossary/what-is-a-cpu-temperature-monitor/)
+- [什么是系统监控（System Monitor）？](/zh/glossary/what-is-a-system-monitor/)
+- [什么是内存清理（RAM Booster）？](/zh/glossary/what-is-a-ram-booster/)

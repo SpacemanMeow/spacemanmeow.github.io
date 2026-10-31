@@ -114,5 +114,7 @@ Only Clock 运行于 Android 与 iOS；Flip Clock 以安卓为主。iPhone 用�
 - **选 Flip Clock** 若你只想要一款免费、简单的复古翻页时钟，不需要声音或附加项。
 - **作为一体化床头伴侣**，Only Clock 做的更多；作为光秃秃、怀旧的一只钟，Flip Clock 正合适。
 
-<!--
--->
+## 相关术语
+
+- [什么是翻页时钟（Flip Clock）？](/zh/glossary/what-is-a-flip-clock/)
+- [什么是床头钟（Nightstand Clock）？](/zh/glossary/what-is-a-nightstand-clock/)

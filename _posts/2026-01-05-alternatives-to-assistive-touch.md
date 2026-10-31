@@ -242,5 +242,7 @@ Assistive Touch (smarttool) is a **straightforward floating-touch app** with vir
 4. **Enable extras you'll use** — Floating Assistant's clock/monitor, or Button Mapper's volume-key shortcuts.
 5. **Review privacy**: prefer apps that don't collect data (Floating Assistant, Button Mapper, All in One Gestures) over ad-heavy clones.
 
-<!--
--->
+## Related terms
+
+- [What Is Assistive Touch?](/glossary/what-is-assistive-touch/)
+- [What Is a Floating Window?](/glossary/what-is-a-floating-window/)

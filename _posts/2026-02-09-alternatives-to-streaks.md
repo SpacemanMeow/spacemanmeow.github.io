@@ -254,5 +254,6 @@ Habitify is a **cross-platform habit tracker** (iOS, Android, web, Wear OS) that
 4. **Set reminders** for the same times you used in Streaks so the new chain survives the switch.
 5. **Enable backup** (Meow Habits: Google Drive / WebDav; Habitica / Habitify / Fabulous: account sync) so you're never locked in.
 
-<!--
--->
+## Related terms
+
+- [What Is a Habit Tracker?](/glossary/what-is-a-habit-tracker/)

@@ -238,5 +238,10 @@ WidgetClub 是一款有质感的组件、壁纸与图标应用，拥有海量目
 - 想要 **与朋友或伴侣的社交 / 宠物组件** → **Widgetable**。
 - 想要 **跨越 iOS 与安卓的可爱、主题驱动组件** → **WidgetClub**。
 
-<!--
--->
+## 相关术语
+
+- [什么是主屏幕小组件（Home Screen Widget）？](/zh/glossary/what-is-a-home-screen-widget/)
+- [什么是 Material You？](/zh/glossary/what-is-material-you/)
+- [什么是 Nothing UI？](/zh/glossary/what-is-nothing-ui/)
+- [什么是 Galaxy One UI？](/zh/glossary/what-is-galaxy-one-ui/)
+- [什么是 iOS Glass？](/zh/glossary/what-is-ios-glass/)

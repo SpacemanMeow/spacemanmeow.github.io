@@ -245,5 +245,7 @@ System Monitor is an **all-in-one Android tool**: CPU monitor, storage cleaner, 
 4. **Turn on the overheat alarm** if you game or charge heavily, so you get warned before throttling.
 5. **Use one-tap boost or cleaner** (CPU Monitor boost, System Monitor cleaner) to free memory when the phone feels slow.
 
-<!--
--->
+## Related terms
+
+- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
+- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)

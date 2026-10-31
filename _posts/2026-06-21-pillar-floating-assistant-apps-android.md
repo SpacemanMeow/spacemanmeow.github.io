@@ -79,3 +79,8 @@ For large-phone users who want one-handed, one-tap access to actions, Floating A
 - [Google Play — Floating Assistant](https://play.google.com/store/apps/details?id=com.glgjing.floating.apps.assistive.touch.pro)
 
 Or read the [Best floating assistant app](/posts/best-floating-assistant-general/) for the full breakdown.
+
+## Related terms
+
+- [What Is Assistive Touch?](/glossary/what-is-assistive-touch/)
+- [What Is a Floating Window?](/glossary/what-is-a-floating-window/)

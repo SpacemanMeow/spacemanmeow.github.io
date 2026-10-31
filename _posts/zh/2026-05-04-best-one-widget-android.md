@@ -82,3 +82,11 @@ KWGT（Kustom Widget Maker，包名 `org.kustom.widget`）是安卓上最强的�
 - 想要 **完全掌控、不介意学习** → **KWGT**。
 
 [获取 One Widget](/zh/apps/one-widget/)——安卓平台可用。
+
+## 相关术语
+
+- [什么是主屏幕小组件（Home Screen Widget）？](/zh/glossary/what-is-a-home-screen-widget/)
+- [什么是 Material You？](/zh/glossary/what-is-material-you/)
+- [什么是 Nothing UI？](/zh/glossary/what-is-nothing-ui/)
+- [什么是 Galaxy One UI？](/zh/glossary/what-is-galaxy-one-ui/)
+- [什么是 iOS Glass？](/zh/glossary/what-is-ios-glass/)

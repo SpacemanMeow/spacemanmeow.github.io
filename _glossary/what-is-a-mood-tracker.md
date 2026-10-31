@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "What Is a Mood Tracker? Definition & How It Helps"
+title: "What Is a Mood Tracker?"
 description: "A mood tracker is a tool for recording how you feel each day. Learn what mood tracking is, why people use it, and how mood tracker apps work."
 tags: [Mood Tracker, Mood Diary, Meow Mood Diary]
 lang: en
 ---
+
+## Definition & How It Helps
+
 A **mood tracker** is any tool—paper journal, spreadsheet, or app like Meow Mood Diary—that records how you feel on a given day, often with a rating (such as 1–5), tags (stressed, calm, energetic), and optional notes.
 
 ## Why people track mood

@@ -79,3 +79,8 @@ Meow Todo List 是一款安卓与 iOS 的简易日程规划器与待办清单任
 - [Google Play — Meow Todo List](https://play.google.com/store/apps/details?id=com.glgjing.money.task.todo.list.meow)
 - [App Store — Meow Todo List](https://apps.apple.com/app/id6742345495)
 或阅读 [最佳学生待办清单](/zh/posts/best-meow-todo-list-students/) 看完整拆解。
+
+## 相关术语
+
+- [什么是待办清单（To-Do List）？](/zh/glossary/what-is-a-to-do-list/)
+- [什么是子任务？](/zh/glossary/what-is-a-subtask/)

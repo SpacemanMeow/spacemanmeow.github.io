@@ -94,3 +94,8 @@ Todoist 是安装量最大的任务管理器，拥有 3000 万用户信任，带
 - 想要 **任务、日历、专注合一的应用** → **TickTick**。
 
 [获取 Meow Todo](/zh/apps/meow-todo-list/)——安卓与 iOS 平台可用。
+
+## 相关术语
+
+- [什么是待办清单（To-Do List）？](/zh/glossary/what-is-a-to-do-list/)
+- [什么是子任务？](/zh/glossary/what-is-a-subtask/)

@@ -114,5 +114,10 @@ One Widget is free for One UI with a one-time unlock for other families. KWGT is
 - **Choose KWGT** if you want total creative control, live-data formulas, and don't mind learning (and spending time) to build unique widgets.
 - **Many Android users keep both**: One Widget for fast, everyday widgets, and KWGT when they want something truly custom.
 
-<!--
--->
+## Related terms
+
+- [What Is a Home Screen Widget?](/glossary/what-is-a-home-screen-widget/)
+- [What Is Material You?](/glossary/what-is-material-you/)
+- [What Is Nothing UI?](/glossary/what-is-nothing-ui/)
+- [What Is Galaxy One UI?](/glossary/what-is-galaxy-one-ui/)
+- [What Is iOS Glass?](/glossary/what-is-ios-glass/)

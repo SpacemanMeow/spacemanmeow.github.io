@@ -80,3 +80,7 @@ Meow Habits 是一款习惯追踪与日常构建器，带 500+ 可爱图标、�
 - [App Store — Meow Habits](https://apps.apple.com/app/id6758230559)
 
 或阅读 [最佳习惯追踪应用](/zh/posts/best-meow-habits-general/) 看完整拆解。
+
+## 相关术语
+
+- [什么是习惯追踪应用（Habit Tracker）？](/zh/glossary/what-is-a-habit-tracker/)

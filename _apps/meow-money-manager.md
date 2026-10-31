@@ -104,3 +104,5 @@ Meow Money manager support iCloud backup and WebDav backup, the backup files wil
 ## Related terms
 
 - [What Is an Expense Tracker?](/glossary/what-is-an-expense-tracker/)
+- [What Is Budget Management?](/glossary/what-is-budget-management/)
+- [What Is Reimbursement Management?](/glossary/what-is-reimbursement-management/)

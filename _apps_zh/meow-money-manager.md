@@ -97,3 +97,5 @@ Meow Money Manager 支持 iCloud 与 WebDav 备份，添加记录时自动保存
 ## 相关术语
 
 - [什么是记账应用（Expense Tracker）？](/zh/glossary/what-is-an-expense-tracker/)
+- [什么是预算管理？](/zh/glossary/what-is-budget-management/)
+- [什么是报销管理？](/zh/glossary/what-is-reimbursement-management/)

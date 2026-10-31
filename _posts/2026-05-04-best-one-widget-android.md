@@ -82,3 +82,11 @@ KWGT (Kustom Widget Maker, package `org.kustom.widget`) is the most powerful wid
 - Want **total control and don't mind learning** → **KWGT**.
 
 [Get One Widget](/apps/one-widget/) — available on Android.
+
+## Related terms
+
+- [What Is a Home Screen Widget?](/glossary/what-is-a-home-screen-widget/)
+- [What Is Material You?](/glossary/what-is-material-you/)
+- [What Is Nothing UI?](/glossary/what-is-nothing-ui/)
+- [What Is Galaxy One UI?](/glossary/what-is-galaxy-one-ui/)
+- [What Is iOS Glass?](/glossary/what-is-ios-glass/)

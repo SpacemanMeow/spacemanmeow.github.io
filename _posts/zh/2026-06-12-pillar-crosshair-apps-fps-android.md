@@ -78,3 +78,7 @@ Crosshair Aim Pro 为安卓上的 FPS 射击游戏加上自定义准星叠层，
 - [Google Play — Crosshair Aim](https://play.google.com/store/apps/details?id=com.glgjing.crosshair.aim.fps.game)
 
 或阅读 [最佳 FPS 游戏准星](/zh/posts/best-cross-hair-fps/) 看完整拆解。
+
+## 相关术语
+
+- [什么是准星（Crosshair）？](/zh/glossary/what-is-a-crosshair/)

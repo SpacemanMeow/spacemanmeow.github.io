@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "什么是系统监控（System Monitor）？定义与功能"
+title: "什么是系统监控（System Monitor）？"
 description: "系统监控会显示设备的实时状态——CPU、内存、电池、网络。了解系统监控应用展示什么，以及 Android 用户为何使用它。"
 tags: [系统监控, System Monitor]
 lang: zh
 ---
+
+## 定义与功能
+
 **系统监控（system monitor）** 是一类应用——如 System Monitor——显示设备的实时内部状态：CPU 占用、内存（RAM）、电池健康、存储与网络活动，通常配有实时图表。
 
 ## 系统监控展示什么

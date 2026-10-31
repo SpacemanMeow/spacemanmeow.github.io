@@ -115,5 +115,8 @@ System Monitor is free at the core with an optional unlock; CCleaner is free but
 - **Choose CCleaner** if you specifically want a familiar, one-tap cache/junk clear and don't need monitoring.
 - **Best practice**: keep System Monitor for awareness, and if you must clear storage, prefer **Files by Google** (official, safe, no aggressive behavior) over blind cleaning.
 
-<!--
--->
+## Related terms
+
+- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
+- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)
+- [What Is a RAM Booster?](/glossary/what-is-a-ram-booster/)

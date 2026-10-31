@@ -128,3 +128,6 @@ Yes — PDF export is a VIP feature.
 
 Meow Mood Diary makes daily mood tracking effortless and private, with a clear calendar and trend charts to help you understand your emotions over time.
 
+## Related terms
+
+- [What Is a Mood Tracker?](/glossary/what-is-a-mood-tracker/)

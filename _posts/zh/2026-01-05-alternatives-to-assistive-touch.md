@@ -221,5 +221,7 @@ Assistive Touch（smarttool）是一款 **简洁直接的悬浮触控应用**，
 4. **开启你会用到的附加功能**——比如 Floating Assistant 的时钟/监控，或 Button Mapper 的音量键快捷方式。
 5. **审视隐私**：优先选择不收集数据的应用（Floating Assistant、Button Mapper、All in One Gestures），而非广告泛滥的仿制品。
 
-<!--
--->
+## 相关术语
+
+- [什么是辅助触控（Assistive Touch）？](/zh/glossary/what-is-assistive-touch/)
+- [什么是悬浮窗（Floating Window）？](/zh/glossary/what-is-a-floating-window/)

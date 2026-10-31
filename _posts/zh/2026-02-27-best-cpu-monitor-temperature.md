@@ -87,3 +87,8 @@ CPU-Z（包名 `com.cpuid.cpu_z`）是知名 CPUID 工具的安卓移植版，�
 - 想要 **免费、详尽的硬件参数** → **CPU-Z**。
 
 [获取 CPU Monitor](/zh/apps/cpu-monitor/)——安卓平台可用。
+
+## 相关术语
+
+- [什么是 CPU 温度监控？](/zh/glossary/what-is-a-cpu-temperature-monitor/)
+- [什么是系统监控（System Monitor）？](/zh/glossary/what-is-a-system-monitor/)

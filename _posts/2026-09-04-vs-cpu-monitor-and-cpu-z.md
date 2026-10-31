@@ -118,5 +118,7 @@ Both are free on Android; CPU Monitor adds an optional unlock for extra themes/h
 - **Choose CPU-Z** if you need a trustworthy, detailed spec sheet of your device — chip, GPU, memory, sensors — and don't care about live tracking.
 - **Power users often keep both**: CPU-Z for the occasional "what's in this phone?" check, and CPU Monitor for day-to-day thermal and load awareness.
 
-<!--
--->
+## Related terms
+
+- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
+- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)

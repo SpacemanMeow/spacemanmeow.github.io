@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "What Is Material You? Definition & Android Design"
+title: "What Is Material You?"
 description: "Material You is Google's adaptive Android design language introduced in Android 12. Learn what it is and why widgets adopt its theming."
 tags: [Material You, Android, One Widget]
 lang: en
 ---
+
+## Definition & Android Design
+
 **Material You** is Google's design language, introduced with Android 12, built around personalization and adaptive color. The headline feature is dynamic color: the system extracts a palette from your wallpaper and applies it across the UI and supported apps.
 
 ## Key ideas

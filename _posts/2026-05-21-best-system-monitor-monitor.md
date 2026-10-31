@@ -89,3 +89,9 @@ CCleaner (package `com.piriform.ccleaner`, by Gen Digital) is best known for PC 
 - Want **a one-tap cache/storage cleaner** → **CCleaner**.
 
 [Get System Monitor](/apps/system-monitor/) — available on Android.
+
+## Related terms
+
+- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
+- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)
+- [What Is a RAM Booster?](/glossary/what-is-a-ram-booster/)

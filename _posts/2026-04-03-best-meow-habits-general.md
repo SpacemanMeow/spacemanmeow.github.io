@@ -94,3 +94,7 @@ Streaks (by Crunchy Bagel) is an **Apple Design Award winner** and the cleanest 
 - Want **minimal open-source on Android** → **Loop**.
 
 [Get Meow Habits](/apps/meow-habits/) — available on Android and iOS.
+
+## Related terms
+
+- [What Is a Habit Tracker?](/glossary/what-is-a-habit-tracker/)

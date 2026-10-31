@@ -126,3 +126,7 @@ Floating Assistant 为安卓添加一颗 **浮动球**，用于快速启动应�
 
 Floating Assistant 让大屏手机可以单手操作：一颗用于启动与应用动作的浮动球，外加开关小组件——免费起步，另有无广告的 Pro 应用。
 
+## 相关术语
+
+- [什么是辅助触控（Assistive Touch）？](/zh/glossary/what-is-assistive-touch/)
+- [什么是悬浮窗（Floating Window）？](/zh/glossary/what-is-a-floating-window/)

@@ -94,3 +94,8 @@ Todoist is the most-installed task manager around, trusted by 30 million users, 
 - Want **one app for tasks, calendar, and focus** → **TickTick**.
 
 [Get Meow Todo](/apps/meow-todo-list/) — available on Android and iOS.
+
+## Related terms
+
+- [What Is a To-Do List?](/glossary/what-is-a-to-do-list/)
+- [What Is a Subtask?](/glossary/what-is-a-subtask/)

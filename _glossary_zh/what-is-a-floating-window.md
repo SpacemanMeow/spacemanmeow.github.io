@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "什么是悬浮窗（Floating Window）？定义与原理"
+title: "什么是悬浮窗（Floating Window）？"
 description: "悬浮窗是停留在其它应用之上的叠加界面。了解悬浮窗是什么，以及 Android 上如何用于监控、时钟与快捷操作。"
 tags: [Floating Window, Floating Assistant, Assistive Touch]
 lang: zh
 ---
+
+## 定义与原理
+
 **悬浮窗（floating window / overlay window）** 是一个始终停留在你当前所用应用之上的小型界面层，无需离开当前应用。
 
 ## Android 上的常见用途

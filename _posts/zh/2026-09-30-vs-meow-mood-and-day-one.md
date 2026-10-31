@@ -119,5 +119,6 @@ Meow Mood 核心免费；Day One 是约 $35/年的订阅。纯心情追踪，Meo
 - **选 Day One** 若你想要一本随处同步、保留带照片文字记录的全功能多媒体日记。
 - **两者互补**：许多用户用 Meow Mood 做每日心情打卡，用 Day One 写更长的日记——但如果只想要一个，让「心情 vs 回忆」这个问题替你决定。
 
-<!--
--->
+## 相关术语
+
+- [什么是心情追踪（Mood Tracker）？](/zh/glossary/what-is-a-mood-tracker/)

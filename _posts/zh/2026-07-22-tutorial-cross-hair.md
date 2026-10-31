@@ -110,3 +110,6 @@ Crosshair（Crosshair Aim）为安卓上的 FPS 游戏添加 **自定义准星�
 
 Crosshair 是给任何安卓射击游戏加一枚精准、可自定义准星最轻量的方式——无需 root、无需无障碍，80+ 样式加免费档即可起步。
 
+## 相关术语
+
+- [什么是准星（Crosshair）？](/zh/glossary/what-is-a-crosshair/)

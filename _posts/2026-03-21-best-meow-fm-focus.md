@@ -99,3 +99,7 @@ Calm is the best-known **meditation and sleep app** on Google Play (50M+ downloa
 - Want **engineered focus tracks** → **Brain.fm**.
 
 [Get Meow FM](/apps/meow-fm/) — available on Android and iOS.
+
+## Related terms
+
+- [What Is White Noise?](/glossary/what-is-white-noise/)

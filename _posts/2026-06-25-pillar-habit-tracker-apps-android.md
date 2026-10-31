@@ -80,3 +80,7 @@ For most Android users who want a cute, private, offline habit tracker, Meow Hab
 - [App Store — Meow Habits](https://apps.apple.com/app/id6758230559)
 
 Or read the [Best habit tracker app](/posts/best-meow-habits-general/) for the full breakdown.
+
+## Related terms
+
+- [What Is a Habit Tracker?](/glossary/what-is-a-habit-tracker/)

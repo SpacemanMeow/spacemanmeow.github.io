@@ -238,5 +238,7 @@ Flip Clock — Digital Clock 是一款简单优雅的 iOS **翻页时钟**，带
 4. **加个小组件**（Only Clock、Flip Clock: World Clock 或 iOS 小组件应用）到主屏或锁屏，一眼看时间。
 5. **若需要专注或助眠**，开启白噪音（Only Clock、FliTik）或番茄钟（FliTik、Fullscreen Clock、Flip Clock: World Clock），让时钟不止报时。
 
-<!--
--->
+## 相关术语
+
+- [什么是翻页时钟（Flip Clock）？](/zh/glossary/what-is-a-flip-clock/)
+- [什么是床头钟（Nightstand Clock）？](/zh/glossary/what-is-a-nightstand-clock/)

@@ -87,3 +87,8 @@ CPU-Z (package `com.cpuid.cpu_z`) is the Android port of the well-known CPUID to
 - Want **free, detailed hardware specs** → **CPU-Z**.
 
 [Get CPU Monitor](/apps/cpu-monitor/) — available on Android.
+
+## Related terms
+
+- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
+- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)

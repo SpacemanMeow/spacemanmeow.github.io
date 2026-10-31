@@ -114,5 +114,7 @@ Both are free to start. Only Clock's best themes/sounds are behind an unlock; Fl
 - **Choose Flip Clock** if you just want a free, simple retro flip clock and don't need sound or extras.
 - **For an all-in-one bedside companion**, Only Clock does more; for a bare, nostalgic clock, Flip Clock fits.
 
-<!--
--->
+## Related terms
+
+- [What Is a Flip Clock?](/glossary/what-is-a-flip-clock/)
+- [What Is a Nightstand Clock?](/glossary/what-is-a-nightstand-clock/)

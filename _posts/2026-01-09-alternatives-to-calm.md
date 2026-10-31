@@ -255,5 +255,6 @@ Noisli is a **focus and relaxation sound mixer** for work, study and sleep, with
 4. **Try the free tiers first** — Insight Timer and Meow FM give a lot without paying.
 5. **Cancel Calm only after** you've confirmed the new app covers your nightly routine.
 
-<!--
--->
+## Related terms
+
+- [What Is White Noise?](/glossary/what-is-white-noise/)

@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "什么是习惯打卡连续天数（Habit Streak）？定义与原理"
+title: "什么是习惯打卡连续天数（Habit Streak）？"
 description: "Habit Streak（连续打卡天数）是你坚持某个习惯的连续天数。了解连续天数计数器是什么、为什么能帮助养成习惯。"
 tags: [Habit Tracker, Habit Streak, Meow Habits]
 lang: zh
 ---
+
+## 定义与原理
+
 **习惯打卡连续天数（habit streak）** 是你连续完成某项习惯、没有中断的天数。习惯养成类应用会记录每天的打卡，并显示当前连续天数，让你直观看到坚持了多久。
 
 ## 为什么连续天数有用

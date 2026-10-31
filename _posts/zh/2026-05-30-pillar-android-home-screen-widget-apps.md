@@ -17,7 +17,7 @@ lang: zh
 
 ## 挑选主屏小组件应用要看什么
 
-- **风格多样**——Glass、Material You、One UI、Nothing 等，让组件贴合你的启动器。
+- **风格多样**——Glass iOS、Material You、Galaxy One UI 与 Nothing 等，让组件贴合你的启动器。
 - **深度自定义**——大小、颜色、圆角半径，以及组件真正显示的内容。
 - **快捷开关与快捷方式**——Wi-Fi、蓝牙、手电筒与应用快捷方式，从主屏一步触达。
 - **实时信息**——时钟、日历、电量、RAM 组件就地更新。
@@ -79,3 +79,11 @@ One Widget 内置 500+ 可自定义的安卓主屏组件，涵盖 Glass iOS、Ma
 - [Google Play — One Widget](https://play.google.com/store/apps/details?id=com.glgjing.galaxy.nothing.glass.material.widget)
 
 或阅读 [最佳安卓组件应用](/zh/posts/best-one-widget-android/) 看完整拆解。
+
+## 相关术语
+
+- [什么是主屏幕小组件（Home Screen Widget）？](/zh/glossary/what-is-a-home-screen-widget/)
+- [什么是 Material You？](/zh/glossary/what-is-material-you/)
+- [什么是 Nothing UI？](/zh/glossary/what-is-nothing-ui/)
+- [什么是 Galaxy One UI？](/zh/glossary/what-is-galaxy-one-ui/)
+- [什么是 iOS Glass？](/zh/glossary/what-is-ios-glass/)

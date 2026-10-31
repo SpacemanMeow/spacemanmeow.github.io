@@ -122,5 +122,7 @@ Meow Todo 核心免费，无硬性项目上限。Todoist 免费 Beginner 档限�
 - **选 Todoist** 如果你需要自然语言捕捉、强力过滤器，以及用于协作的共享项目，并愿意为 Pro 付费。
 - **对个人、重隐私的规划**，Meow Todo 免费覆盖刚需；**对团队或强力工作流**，Todoist 的订阅物有所值。
 
-<!--
--->
+## 相关术语
+
+- [什么是待办清单（To-Do List）？](/zh/glossary/what-is-a-to-do-list/)
+- [什么是子任务？](/zh/glossary/what-is-a-subtask/)

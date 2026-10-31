@@ -118,5 +118,7 @@ CPU Monitor 给你状态栏叠层、桌面浮窗，以及 CPU/RAM/电池主屏�
 - **选 CPU-Z** 如果你需要一份可信、详尽的的设备规格表——芯片、GPU、内存、传感器——并且不在乎实时追踪。
 - **重度用户常两者都留**：CPU-Z 应付偶尔的"这手机里有什么？"，CPU Monitor 负责日常热与负载感知。
 
-<!--
--->
+## 相关术语
+
+- [什么是 CPU 温度监控？](/zh/glossary/what-is-a-cpu-temperature-monitor/)
+- [什么是系统监控（System Monitor）？](/zh/glossary/what-is-a-system-monitor/)

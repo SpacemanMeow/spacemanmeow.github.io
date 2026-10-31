@@ -254,5 +254,6 @@ Habitify 是一款 **跨平台习惯追踪应用**（iOS、Android、网页、We
 4. **设置提醒**，时间与你在 Streaks 里用的保持一致，让新的连续不断能平稳过渡。
 5. **开启备份**（Meow Habits：Google Drive / WebDav；Habitica / Habitify / Fabulous：账号同步），从此不再被锁定。
 
-<!--
--->
+## 相关术语
+
+- [什么是习惯追踪应用（Habit Tracker）？](/zh/glossary/what-is-a-habit-tracker/)

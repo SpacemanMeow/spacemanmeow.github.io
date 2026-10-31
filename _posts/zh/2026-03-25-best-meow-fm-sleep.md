@@ -99,3 +99,7 @@ Calm 是 Google Play 上最知名的 **冥想与睡眠应用**（5000 万+ 下�
 - 想要 **海量、可调曲库** → **White Noise (TMSOFT)** 或 **myNoise**。
 
 [获取 Meow FM](/zh/apps/meow-fm/)——安卓与 iOS 平台可用。
+
+## 相关术语
+
+- [什么是白噪音（White Noise）？](/zh/glossary/what-is-white-noise/)

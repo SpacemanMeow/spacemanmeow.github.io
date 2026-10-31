@@ -107,3 +107,9 @@ YNAB (You Need A Budget) is the well-known **zero-based budgeting** app where ev
 - Want **Ramsey's zero-based plan** → **EveryDollar**.
 
 [Get Meow Money Manager](/apps/meow-money-manager/) — available on Android and iOS.
+
+## Related terms
+
+- [What Is an Expense Tracker?](/glossary/what-is-an-expense-tracker/)
+- [What Is Budget Management?](/glossary/what-is-budget-management/)
+- [What Is Reimbursement Management?](/glossary/what-is-reimbursement-management/)

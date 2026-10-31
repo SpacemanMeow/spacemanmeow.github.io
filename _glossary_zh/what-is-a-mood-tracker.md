@@ -1,10 +1,13 @@
 ---
 layout: glossary
-title: "什么是心情追踪（Mood Tracker）？定义与作用"
+title: "什么是心情追踪（Mood Tracker）？"
 description: "心情追踪是每天记录情绪状态的工具。了解心情追踪是什么、为什么人们使用它，以及心情追踪应用如何运作。"
 tags: [心情追踪, 日记, Meow Mood Diary]
 lang: zh
 ---
+
+## 定义与作用
+
 **心情追踪（mood tracker）** 是记录你每天情绪状态的工具——可以是纸质日记、表格，也可以是像 Meow Mood Diary 这样的 App——通常用一个评分（如 1–5）、标签（压力、平静、精力充沛）和可选备注来记录。
 
 ## 为什么人们追踪心情

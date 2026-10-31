@@ -120,5 +120,6 @@ Meow Habits is free at the core; Streaks is a ~$4.99 one-time buy. Neither is su
 - **Choose Streaks** if you're iPhone-only, want the most polished minimal tracker, and live inside Apple's ecosystem (HealthKit, Watch, Shortcuts).
 - **For most cross-platform or privacy-minded users, Meow Habits covers more cases**; for a pure-iOS simplicity fan, Streaks remains the cleaner pick.
 
-<!--
--->
+## Related terms
+
+- [What Is a Habit Tracker?](/glossary/what-is-a-habit-tracker/)

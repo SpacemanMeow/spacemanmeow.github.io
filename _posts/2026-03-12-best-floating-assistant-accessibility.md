@@ -81,3 +81,8 @@ Assistive Touch (package `mtr.assistivetouch.easytools`) offers on-screen virtua
 - Want **simple free virtual keys** → **Assistive Touch**.
 
 [Get Floating Assistant](/apps/floating-assistant/) — available on Android.
+
+## Related terms
+
+- [What Is Assistive Touch?](/glossary/what-is-assistive-touch/)
+- [What Is a Floating Window?](/glossary/what-is-a-floating-window/)

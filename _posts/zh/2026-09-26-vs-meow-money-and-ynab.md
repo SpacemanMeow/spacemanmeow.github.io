@@ -121,5 +121,8 @@ Meow Money 核心免费 + 一次性 VIP；YNAB 是循环订阅，还需学一套
 - **选 YNAB** 如果你想要主动式零基预算、自动银行同步，并愿意付费订阅、学习方法论。
 - **务实组合**：用 Meow Money 做日常私密记账与多币种管理，只有当特别需要「改变行为的自动同步规划」时，才上 YNAB。
 
-<!--
--->
+## 相关术语
+
+- [什么是记账应用（Expense Tracker）？](/zh/glossary/what-is-an-expense-tracker/)
+- [什么是预算管理？](/zh/glossary/what-is-budget-management/)
+- [什么是报销管理？](/zh/glossary/what-is-reimbursement-management/)

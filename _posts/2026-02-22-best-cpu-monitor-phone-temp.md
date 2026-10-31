@@ -82,3 +82,8 @@ CPU-Z (package `com.cpuid.cpu_z`) reports hardware details including current tem
 - Want **free specs and a current temp** → **CPU-Z**.
 
 [Get CPU Monitor](/apps/cpu-monitor/) — available on Android.
+
+## Related terms
+
+- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
+- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)

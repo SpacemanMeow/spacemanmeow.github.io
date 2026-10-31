@@ -360,3 +360,7 @@ Meow Money Manager provides multiple setting options to help you customize app f
 Meow Money Manager is a powerful and cute personal financial management app. Through this tutorial, you should have mastered its main features and usage methods. We hope it can help you better manage your personal finances and make bookkeeping more easy and enjoyable!
 
 If you encounter any problems during use, please feel free to contact me at: glgjingmarvel@gmail.com
+
+## Related terms
+
+- [What Is an Expense Tracker?](/glossary/what-is-an-expense-tracker/)

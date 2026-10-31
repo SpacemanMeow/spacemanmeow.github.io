@@ -90,3 +90,7 @@ Streaks（Crunchy Bagel）是最精致的 iOS 习惯待办，支持 Apple Health
 - 需要游戏化动力 → **Habitica**。
 
 [获取 Meow Habits](/zh/apps/meow-habits/)——安卓与 iOS 平台可用。
+
+## 相关术语
+
+- [什么是习惯追踪应用（Habit Tracker）？](/zh/glossary/what-is-a-habit-tracker/)

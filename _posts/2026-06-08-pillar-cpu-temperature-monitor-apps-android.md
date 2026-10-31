@@ -79,3 +79,8 @@ For Android users who want live CPU temperatures, an overheat alarm and widgets,
 - [Google Play — CPU Monitor](https://play.google.com/store/apps/details?id=com.glgjing.stark)
 
 Or read the [Best CPU temperature monitor](/posts/best-cpu-monitor-temperature/) for the full breakdown.
+
+## Related terms
+
+- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
+- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)

@@ -79,3 +79,7 @@ For most Android users who want a private, no-account mood diary, Meow Mood Diar
 - [Google Play — Meow Mood Diary](https://play.google.com/store/apps/details?id=com.glgjing.meow.mood.diary)
 - [App Store — Meow Mood Diary](https://apps.apple.com/app/id6767560237)
 Or read the [Best mood diary app](/posts/best-meow-mood-diary-diary/) for the full breakdown.
+
+## Related terms
+
+- [What Is a Mood Tracker?](/glossary/what-is-a-mood-tracker/)

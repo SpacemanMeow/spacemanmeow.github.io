@@ -94,3 +94,7 @@ Day One is the most-awarded journal app, with encrypted sync across Android, iOS
 - Want **encrypted cloud with a passcode** → **Penzu**.
 
 [Get Meow Mood](/apps/meow-mood-diary/) — available on Android and iOS.
+
+## Related terms
+
+- [What Is a Mood Tracker?](/glossary/what-is-a-mood-tracker/)

@@ -82,3 +82,8 @@ Assistive Touch (package `mtr.assistivetouch.easytools`) is a popular floating-b
 - Want **simple virtual keys, free** → **Assistive Touch**.
 
 [Get Floating Assistant](/apps/floating-assistant/) — available on Android.
+
+## Related terms
+
+- [What Is Assistive Touch?](/glossary/what-is-assistive-touch/)
+- [What Is a Floating Window?](/glossary/what-is-a-floating-window/)
