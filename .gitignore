@@ -34,3 +34,10 @@ assets/js/dist
 # Pagefind 构建临时目录
 .pagefind-bin/
 
+# GSC / API 凭据与分析导出（含密钥与站点分析数据，禁止提交）
+tools/gsc/credentials.json
+tools/gsc/token.json
+tools/gsc/*.json
+# GSC 月度数据导出（本地分析数据，不提交）
+seo/data/
+
