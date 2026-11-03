@@ -146,7 +146,7 @@
 ### 4.2 当月规划的事情
 
 - **2026-11**
-  - [ ] Glossary ×4（T-18x）
-  - [ ] 相关文章铺开（T-17x）
-  - [ ] 首次全站巡检（T-32：build + htmlproofer + sitemap/JSON-LD 校验 + PSI）
-  - [ ] 度量基线：拉取 GSC + GoatCounter，回填 `SEO-METRICS.md`（§4.1 D）
+  - [ ] **Glossary 完善：**头部关键词 + 长尾关键词（头部词仅占搜索流量 ~35%，约 65% 为长尾）现在 Meow Money Manager 落地
+  - [ ] **现有文章和 App 页面优化：**基于中文优化现有的 Meow Money Manager 文章，丰富内容，提升文章价值，优化关键字，增加 AI 索引能力
+  - [ ] **[通用理财词] 建 `money tracker` 支柱页并深链 App（T-36）**：money tracker 为 App 第一搜索词（日均 80.8，§5.1），当前仅在 App 集群顺带覆盖，应做成独立 SEO 资产，围绕 Meow Money Manager 最高频关键词主题生成一篇的新闻文章
+  - [ ] **多语言内容流量获取：** Meow Money Manager 获客语言构成为 印尼23% / 泰2.7%（但是展示量特别高），先将 Meow Money Manager 的所有内容进行多语言扩充 
