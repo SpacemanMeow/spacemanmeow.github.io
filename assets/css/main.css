@@ -695,7 +695,8 @@ body.no-scroll { overflow: hidden; }
 .tag-index__item a:hover { text-decoration: underline; }
 .tag-index__meta { font-family: var(--font); color: var(--text-body); font-size: var(--fs-sm); white-space: nowrap; }
 a.tag { text-decoration: none; }
-a.tag:hover { text-decoration: underline; }
+a.tag:hover,
+.post__footer a.tag:hover { text-decoration: none; }
 .page-head__tags-link { font-family: var(--font); color: var(--text-body); font-size: var(--fs-md); margin: var(--space-5) 0 0; }
 .page-head__tags-link a { color: var(--accent-strong); font-weight: var(--fw-head); text-decoration: none; }
 .page-head__tags-link a:hover { text-decoration: underline; }
@@ -855,13 +856,16 @@ a.tag:hover { text-decoration: underline; }
 .post__tags { display: flex; flex-wrap: wrap; gap: var(--space-3); }
 
 .tag {
-  padding: var(--space-1) var(--space-5);
+  padding: var(--space-3) var(--space-5);
   border-radius: 999px;
-  background: var(--accent-alpha);
+  background: var(--bg); /* 与导航语言按钮完全一致：默认 --bg，hover --line */
   color: var(--text-head);
   font-size: var(--fs-sm);
   font-weight: 600;
+  transition: background-color .16s ease;
 }
+
+.tag:hover { background: var(--line); }
 
 .back-link { color: var(--text-body); font-size: var(--fs-base); font-weight: 600; }
 .back-link:hover { color: var(--accent-strong); }

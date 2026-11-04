@@ -6,7 +6,7 @@ categories: [Tutorial]
 tags: [Expense Tracker]
 lang: zh
 author: author_meow_id
-description: "一份完整的 Meow Money Manager 使用指南——在这款猫主题记账应用里掌握记账、预算、多币种账本与 CSV 导出。"
+description: "一份完整的 Meow Money Manager（喵窝记账）使用指南——掌握记账、预算、多币种账本、报销管理与 CSV 导出，新手也能快速上手这款猫主题记账应用。"
 image: /assets/images/apps/meow-money-manager/icon.webp
 ---
 
@@ -26,11 +26,11 @@ image: /assets/images/apps/meow-money-manager/icon.webp
 
 ## 应用简介
 
-Meow Money Manager 是一款设计用于个人财务管理的可爱卡通风格记账应用。它以猫主题界面，将可爱设计与强大功能结合，帮你轻松管理个人财务。安卓 [Google Play 下载](https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow&hl=en) 与 iOS [App Store 下载](https://apps.apple.com/us/app/meow-money-manager/id1528852284) 均可使用。
+Meow Money Manager（喵窝记账）是一款设计用于个人财务管理的可爱卡通风格[记账应用](/zh/glossary/what-is-an-expense-tracker/)。它以猫主题界面，将可爱设计与强大功能结合，帮你轻松管理个人财务。应用支持中文、英文、印尼语、泰语、葡萄牙语等多语言界面，安卓 [Google Play 下载](https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow&hl=en) 与 iOS [App Store 下载](https://apps.apple.com/us/app/meow-money-manager/id1528852284) 均可使用。
 
 **🐱 可爱界面设计**
 - 猫主题卡通界面，让记账变得有趣
-- 500+ 精心设计的卡通图标，个个可爱有趣
+- 400+ 精心设计的卡通图标，个个可爱有趣
 - 支持深色模式、浅色模式，以及跟随系统主题，满足不同使用场景
 
 **💰 全面记账功能**
@@ -360,6 +360,20 @@ Meow Money Manager 提供多种设置选项，帮你自定义应用功能。
 Meow Money Manager 是一款强大又可爱的个人财务管理应用。通过本教程，你应该已掌握它的主要功能与使用方法。希望它能帮你更好地管理个人财务，让记账更轻松、更愉快！
 
 使用中遇到任何问题，欢迎随时联系我：glgjingmarvel@gmail.com
+
+## 常见问题（FAQ）
+
+**Meow Money Manager 需要注册账号吗？**
+不需要。数据完全本地存储，没有云端账号也能完整使用，仅备份时才会走 Google Drive, iCloud 或 WebDav。
+
+**支持哪些语言？**
+支持中文、英文、印尼语、泰语、葡萄牙语等多语言界面。
+
+**支持多币种记账吗？**
+支持，内置 50+ 种货币符号，并可为旅行、工作、家庭分设独立账本。
+
+**记录的数据怎么导出？**
+在「设置 → 导出数据」中选择时间范围与 CSV 格式即可导出到文件，用 Excel 查看或编辑；也可通过 iCloud / WebDav 备份还原。
 
 ## 相关术语
 

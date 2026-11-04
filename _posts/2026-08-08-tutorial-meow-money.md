@@ -6,7 +6,7 @@ categories: [Tutorial]
 tags: [Expense Tracker]
 lang: en
 author: author_meow_id
-description: "A complete Meow Money Manager user guide — master bookkeeping, budgets, multi-currency ledgers and CSV export with this cat-themed expense tracker."
+description: "A complete Meow Money Manager user guide — master bookkeeping, budgets, multi-currency ledgers, reimbursement tracking and CSV export with this cat-themed expense tracker (available in Chinese, English, Indonesian, Thai and Portuguese)."
 image: /assets/images/apps/meow-money-manager/icon.webp
 ---
 
@@ -26,11 +26,11 @@ image: /assets/images/apps/meow-money-manager/icon.webp
 
 ## App Introduction
 
-Meow Money Manager is a cute cartoon-style bookkeeping app designed for personal financial management. With a cat-themed interface, it combines cute design with powerful features to help you easily manage your personal finances. Available on both Android [Google Play Download](https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow&hl=en) and iOS [App Store Download](https://apps.apple.com/us/app/meow-money-manager/id1528852284).
+Meow Money Manager is a cute cartoon-style [expense tracker](/glossary/what-is-an-expense-tracker/) designed for personal financial management. With a cat-themed interface, it combines cute design with powerful features to help you easily manage your personal finances. It ships a multi-language UI — Chinese, English, Indonesian, Thai, and Portuguese — and is available on both Android [Google Play Download](https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow&hl=en) and iOS [App Store Download](https://apps.apple.com/us/app/meow-money-manager/id1528852284).
 
 **🐱 Adorable Interface Design**
 - Cat-themed cute cartoon interface that makes bookkeeping fun
-- 500+ carefully designed cartoon icons, each one cute and interesting
+- 400+ carefully designed cartoon icons, each one cute and interesting
 - Supports dark mode, light mode, and system theme following, meeting different usage scenarios
 
 **💰 Comprehensive Bookkeeping Features**
@@ -51,7 +51,7 @@ Meow Money Manager is a cute cartoon-style bookkeeping app designed for personal
 - Calendar view: quickly identify daily income and expenditure through color depth
 - Supports statistics by day, week, month, year, and custom time ranges
 
-**📒 Multi-Ledger Management**
+**📒 Multi-Ledger Management** (multiple ledgers is a VIP feature)
 - Supports creating multiple ledgers to categorize different types of income and expenses
 - Each ledger has independent statistics, clear and organized
 - Quick ledger switching, convenient for recording finances in different scenarios
@@ -320,6 +320,18 @@ Meow Money Manager provides multiple setting options to help you customize app f
 ![App home screen](/assets/images/blog/setting_export.webp){: width="180" .normal } ![Setting Export home screen](/assets/images/blog/setting_export_confirm.webp){: width="180" .normal } ![Setting Export home screen](/assets/images/blog/setting_export_waiting.webp){: width="180" .normal } ![Setting Export home screen](/assets/images/blog/setting_export_done.webp){: width="180" .normal }
 
 ## FAQ
+
+### Do I need to register an account for Meow Money Manager?
+No. Your data is stored entirely on your device, and you can use the full app without a cloud account; backups simply go through Google Drive, iCloud, or WebDav.
+
+### Which languages are supported?
+It supports a multi-language UI — Chinese, English, Indonesian, Thai, and Portuguese.
+
+### Does it support multi-currency tracking?
+Yes. It ships 50+ currency symbols and lets you set up separate ledgers for travel, work, and family.
+
+### How do I export my recorded data?
+In Settings → Export Data, choose a date range and the CSV format to export to a file for viewing or editing in Excel; you can also back up and restore via Google Drive, iCloud, or WebDav.
 
 ### How to modify an added bookkeeping record?
 

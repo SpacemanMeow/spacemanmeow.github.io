@@ -147,7 +147,13 @@
 
 - **2026-11**
   - [ ] **Glossary 完善：**头部关键词 + 长尾关键词（头部词仅占搜索流量 ~35%，约 65% 为长尾）现在 Meow Money Manager 落地
-  - [ ] **现有文章和 App 页面优化：**基于中文优化现有的 Meow Money Manager 文章，丰富内容，提升文章价值，优化关键字，增加 AI 索引能力
+  - [x] **现有文章和 App 页面优化：**基于中文优化现有的 Meow Money Manager 文章，丰富内容，提升文章价值，优化关键字，增加 AI 索引能力
+  - [x] `_posts/zh/2026-04-07-best-meow-money-manager-android.md`：description 加品牌名+关键词、开头 Glossary 内链、正文品牌露出+多语言、新增典型场景段、新增 AI 友好 FAQ
+  - [x] `_posts/zh/2026-04-12-best-meow-money-manager-students.md`：同上优化（品牌名/多语言/典型场景/FAQ）
+  - [x] `_posts/zh/2026-06-03-pillar-budget-expense-tracker-apps-android.md`：支柱页补全——品牌名/多语言/典型场景/FAQ，新增 EveryDollar 小节提升权威性，选购清单加 App 页内链，更新 last_modified_at
+  - [x] `_posts/zh/2026-08-08-tutorial-meow-money.md`：品牌名露出+多语言+Glossary 内链，修正图标数 500+→400+（与全站一致），新增 AI 友好 FAQ
+  - [x] `_posts/zh/2026-09-26-vs-meow-money-and-ynab.md`：品牌名露出+多语言+Glossary 内链，新增典型场景段、下载处 App 页内链、FAQ（核心区别/隐私/同步/多币种）
   - [x] `_posts/zh/2026-01-31-alternatives-to-mint.md`（Mint 替代品指南）：H2 加「喵窝记账」、开头段植入中文关键词+Glossary 内链、新增典型场景段、下载/选购处加 App 页权威内链、新增 AI 友好 FAQ
+  - [x] `_posts/2026-01-31-alternatives-to-mint.md`（EN 版，已与 ZH 同步）：description 加品牌名、开头段加 Glossary 内链+多语言、新增 Typical scenarios 段、下载/选购处加 `/apps/meow-money-manager/` 权威内链、新增 EN FAQ；7 款 App 的英文图片 alt 也升级为与 ZH 对应的细粒度描述
   - [ ] **[通用理财词] 建 `money tracker` 支柱页并深链 App（T-36）**：money tracker 为 App 第一搜索词（日均 80.8，§5.1），当前仅在 App 集群顺带覆盖，应做成独立 SEO 资产，围绕 Meow Money Manager 最高频关键词主题生成一篇的新闻文章
   - [ ] **多语言内容流量获取：** Meow Money Manager 获客语言构成为 印尼23% / 泰2.7%（但是展示量特别高），先将 Meow Money Manager 的所有内容进行多语言扩充 
