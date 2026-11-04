@@ -34,11 +34,11 @@ Android's strength is the home-screen widget and one-tap logging — you can che
 
 ## Meow Habits, in depth
 
-![Meow Habits screenshot: Meow Habits, in depth — Best Habit Tracker Apps for Android (2026)](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
-![Meow Habits screenshot 2: Meow Habits, in depth — Best Habit Tracker Apps for Android (2026)](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
-![Meow Habits screenshot 3: Meow Habits, in depth — Best Habit Tracker Apps for Android (2026)](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
-![Meow Habits screenshot 4: Meow Habits, in depth — Best Habit Tracker Apps for Android (2026)](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
-![Meow Habits screenshot 5: Meow Habits, in depth — Best Habit Tracker Apps for Android (2026)](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
+![Meow Habits habit list & today's check-in](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
+![Meow Habits check-in detail & note](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
+![Meow Habits streak & consecutive days](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
+![Meow Habits stats chart & calendar](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
+![Meow Habits reminder & settings](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
 
 Meow Habits is a habit tracker and routine builder with 500+ cute icons, streaks, charts and calendar views to keep you consistent.
 

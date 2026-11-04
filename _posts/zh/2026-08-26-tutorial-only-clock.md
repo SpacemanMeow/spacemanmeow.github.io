@@ -49,15 +49,15 @@ Only Clock 是一款安卓与 iOS 漂亮的 **全屏翻页钟**——把任何�
 - 工具栏（顶部）可快速访问设置、主题、声音与大小
 - 显示时钟时屏幕保持常亮
 
-![Only Clock 主屏截图：首次使用 —— Only Clock 官方使用指南](/assets/images/blog/tutorial_clock_home.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/blog/tutorial_clock_home.webp){: width="180" .normal }
 
 ## 翻页钟显示
 
 时钟显示翻页风格时间。点工具栏改 **主题**（Clock Theme）、**字体**（Clock Font）与 **大小**（Clock Size）。
 
-![Only Clock 主题截图：翻页钟显示 —— Only Clock 官方使用指南](/assets/images/blog/tutorial_clock_theme.webp){: width="180" .normal }
-![Only Clock 字体截图：翻页钟显示 —— Only Clock 官方使用指南](/assets/images/blog/tutorial_clock_font.webp){: width="180" .normal }
-![Only Clock 大小截图：翻页钟显示 —— Only Clock 官方使用指南](/assets/images/blog/tutorial_clock_size.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/blog/tutorial_clock_theme.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/blog/tutorial_clock_font.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/blog/tutorial_clock_size.webp){: width="180" .normal }
 
 ## 12/24 小时、秒、日期
 
@@ -69,7 +69,7 @@ Only Clock 是一款安卓与 iOS 漂亮的 **全屏翻页钟**——把任何�
    - **日期**（默认关）
    - **翻页背景** 遮罩（默认开）
 
-![Only Clock 设置截图：12/24 小时、秒、日期 —— Only Clock 官方使用指南](/assets/images/blog/tutorial_clock_settings.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/blog/tutorial_clock_settings.webp){: width="180" .normal }
 
 ## 时钟组件
 
@@ -79,7 +79,7 @@ Only Clock 是一款安卓与 iOS 漂亮的 **全屏翻页钟**——把任何�
 4. 长按主屏/锁屏 → 组件 → 选 Only Clock → 放置
 5. 4x2 翻页组件有自己的配置（秒 / 遮罩 / 星期 / 日期）
 
-![Only Clock 组件截图：时钟组件 —— Only Clock 官方使用指南](/assets/images/blog/tutorial_clock_widget.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/blog/tutorial_clock_widget.webp){: width="180" .normal }
 
 ## 白噪音
 
@@ -89,7 +89,7 @@ Only Clock 是一款安卓与 iOS 漂亮的 **全屏翻页钟**——把任何�
 
 时钟与独立白噪音应用共享同一个声音引擎。
 
-![Only Clock 噪音截图：白噪音 —— Only Clock 官方使用指南](/assets/images/blog/tutorial_clock_noise.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/blog/tutorial_clock_noise.webp){: width="180" .normal }
 
 ## 浮动时钟
 
@@ -97,7 +97,7 @@ Only Clock 是一款安卓与 iOS 漂亮的 **全屏翻页钟**——把任何�
 2. 如询问则授予叠层权限
 3. 时钟叠层显示在其它应用之上
 
-![Only Clock 浮动截图：浮动时钟 —— Only Clock 官方使用指南](/assets/images/blog/tutorial_clock_floating.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/blog/tutorial_clock_floating.webp){: width="180" .normal }
 
 ## 用闲置手机当钟
 

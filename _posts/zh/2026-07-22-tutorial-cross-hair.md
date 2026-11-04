@@ -49,7 +49,7 @@ Crosshair（Crosshair Aim）为安卓上的 FPS 游戏添加 **自定义准星�
 - 点击 **样式** 区选设计、**颜色** 选颜色，使用 **缩放/透明度** 滑块
 - 设置齿轮可打开语言、评分、分享与升级
 
-![Crosshair Aim 主屏截图：首次使用 —— Crosshair 官方使用指南](/assets/images/blog/tutorial_cross_home.webp){: width="180" .normal }
+![Tutorial Cross 准星叠加主界面](/assets/images/blog/tutorial_cross_home.webp){: width="180" .normal }
 
 ## 授予叠层权限
 
@@ -67,8 +67,8 @@ Crosshair（Crosshair Aim）为安卓上的 FPS 游戏添加 **自定义准星�
 3. 点击缩略图应用它
 4. 锁定的 Pro 样式会提示看奖励广告或升级
 
-![Crosshair Aim 样式截图：选择准星样式 —— Crosshair 官方使用指南](/assets/images/blog/tutorial_cross_style.webp){: width="180" .normal }
-![Crosshair Aim 进阶样式截图：选择准星样式 —— Crosshair 官方使用指南](/assets/images/blog/tutorial_cross_style_advance.webp){: width="180" .normal }
+![Tutorial Cross 准星叠加主界面](/assets/images/blog/tutorial_cross_style.webp){: width="180" .normal }
+![Tutorial Cross Style 准星叠加主界面](/assets/images/blog/tutorial_cross_style_advance.webp){: width="180" .normal }
 
 ## 自定义大小、颜色、位置
 
@@ -79,7 +79,7 @@ Crosshair（Crosshair Aim）为安卓上的 FPS 游戏添加 **自定义准星�
 
 **没有独立的粗细滑块**——每款预渲染样式已自带粗细。
 
-![Crosshair Aim 颜色截图：自定义大小、颜色、位置 —— Crosshair 官方使用指南](/assets/images/blog/tutorial_cross_color.webp){: width="180" .normal }
+![Tutorial Cross 准星叠加主界面](/assets/images/blog/tutorial_cross_color.webp){: width="180" .normal }
 
 ## 在游戏中使用
 
@@ -88,7 +88,7 @@ Crosshair（Crosshair Aim）为安卓上的 FPS 游戏添加 **自定义准星�
 3. 准星浮在游戏之上，且 **不** 拦截触摸（所以你的点按仍落在游戏里）
 4. 点击准星打开浮动控制面板：大小 +/−、透明度 +/−、方向键、重置、关闭
 
-![Crosshair Aim 游戏截图：在游戏中使用 —— Crosshair 官方使用指南](/assets/images/blog/tutorial_cross_game.webp){: width="180" .normal }
+![Tutorial Cross 准星叠加主界面](/assets/images/blog/tutorial_cross_game.webp){: width="180" .normal }
 
 ## 解锁更多样式
 

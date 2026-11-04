@@ -34,11 +34,11 @@ lang: zh
 
 ## 深入看 Floating Assistant
 
-![Floating Assistant 截图：深入看 Floating Assistant —— 最佳安卓浮动助手与辅助触控应用（2026）](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
-![Floating Assistant 截图 2：深入看 Floating Assistant —— 最佳安卓浮动助手与辅助触控应用（2026）](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
-![Floating Assistant 截图 3：深入看 Floating Assistant —— 最佳安卓浮动助手与辅助触控应用（2026）](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
-![Floating Assistant 截图 4：深入看 Floating Assistant —— 最佳安卓浮动助手与辅助触控应用（2026）](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
-![Floating Assistant 截图 5：深入看 Floating Assistant —— 最佳安卓浮动助手与辅助触控应用（2026）](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
+![Floating Assistant 悬浮窗主界面](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![Floating Assistant 快捷操作与手势](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
+![Floating Assistant 自定义菜单与按钮](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
+![Floating Assistant 辅助功能与选项](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
+![Floating Assistant 设置与权限](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
 
 Floating Assistant 为安卓加上可自定义的浮动球，用于快速启动应用、系统开关与单手控制。
 

@@ -30,11 +30,11 @@ lang: zh
 
 ## System Monitor 详解
 
-![System Monitor 截图：System Monitor 详解 —— System Monitor vs CCleaner：监控，还是清理？](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
-![System Monitor 截图 2：System Monitor 详解 —— System Monitor vs CCleaner：监控，还是清理？](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
-![System Monitor 截图 3：System Monitor 详解 —— System Monitor vs CCleaner：监控，还是清理？](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
-![System Monitor 截图 4：System Monitor 详解 —— System Monitor vs CCleaner：监控，还是清理？](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
-![System Monitor 截图 5：System Monitor 详解 —— System Monitor vs CCleaner：监控，还是清理？](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
+![System Monitor 悬浮窗与设置](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
+![System Monitor 进程与电池监控](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
+![System Monitor 网络与传感器](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
+![System Monitor 内存与存储占用](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
 
 System Monitor 是一款 **安卓一体化工具**：CPU 监控、存储概览、RAM 加速与电池医生——让你在一处同时获得洞察 *与* 快捷操作。
 
@@ -64,11 +64,11 @@ System Monitor 是一款 **安卓一体化工具**：CPU 监控、存储概览�
 
 ## CCleaner 详解
 
-![CCleaner 截图：CCleaner 详解 —— System Monitor vs CCleaner：监控，还是清理？](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
-![CCleaner 截图 2：CCleaner 详解 —— System Monitor vs CCleaner：监控，还是清理？](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
-![CCleaner 截图 3：CCleaner 详解 —— System Monitor vs CCleaner：监控，还是清理？](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
-![CCleaner 截图 4：CCleaner 详解 —— System Monitor vs CCleaner：监控，还是清理？](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
-![CCleaner 截图 5：CCleaner 详解 —— System Monitor vs CCleaner：监控，还是清理？](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
+![CCleaner 清理扫描主界面](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
+![CCleaner 垃圾文件与缓存](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
+![CCleaner 内存加速与进程](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
+![CCleaner 隐私与残留清理](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
+![CCleaner 设置与计划任务](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
 
 手机版 CCleaner 是 **知名 PC 工具的手机版本**——一种快速清除缓存、浏览记录与无用文件，外加基础照片与电池助手的方式。
 

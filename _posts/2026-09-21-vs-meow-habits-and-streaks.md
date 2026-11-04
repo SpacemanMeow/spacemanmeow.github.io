@@ -30,11 +30,11 @@ Both are habit trackers, but they target different users. **Meow Habits** is a f
 
 ## Meow Habits, in detail
 
-![Meow Habits screenshot: Meow Habits, in detail — Meow Habits vs Streaks: Which Habit Tracker Wins?](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
-![Meow Habits screenshot 2: Meow Habits, in detail — Meow Habits vs Streaks: Which Habit Tracker Wins?](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
-![Meow Habits screenshot 3: Meow Habits, in detail — Meow Habits vs Streaks: Which Habit Tracker Wins?](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
-![Meow Habits screenshot 4: Meow Habits, in detail — Meow Habits vs Streaks: Which Habit Tracker Wins?](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
-![Meow Habits screenshot 5: Meow Habits, in detail — Meow Habits vs Streaks: Which Habit Tracker Wins?](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
+![Meow Habits habit list & today's check-in](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
+![Meow Habits check-in detail & note](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
+![Meow Habits streak & consecutive days](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
+![Meow Habits stats chart & calendar](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
+![Meow Habits reminder & settings](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
 
 Meow Habits is a **habit tracker** built around a friendly, cat-themed interface and a huge set of cartoon icons. Its standout trait is the **design**: adorable visuals and 500+ rich cartoon icons make daily check-ins feel light rather than like a chore. It also supports both building good habits and breaking bad ones.
 
@@ -65,11 +65,11 @@ People who want a cute, cross-platform tracker that handles *both* building and 
 
 ## Streaks, in detail
 
-![Streaks screenshot: Streaks, in detail — Meow Habits vs Streaks: Which Habit Tracker Wins?](/assets/images/blog/streaks_1.webp){: width="180" .normal }
-![Streaks screenshot 2: Streaks, in detail — Meow Habits vs Streaks: Which Habit Tracker Wins?](/assets/images/blog/streaks_2.webp){: width="180" .normal }
-![Streaks screenshot 3: Streaks, in detail — Meow Habits vs Streaks: Which Habit Tracker Wins?](/assets/images/blog/streaks_3.webp){: width="180" .normal }
-![Streaks screenshot 4: Streaks, in detail — Meow Habits vs Streaks: Which Habit Tracker Wins?](/assets/images/blog/streaks_4.webp){: width="180" .normal }
-![Streaks screenshot 5: Streaks, in detail — Meow Habits vs Streaks: Which Habit Tracker Wins?](/assets/images/blog/streaks_5.webp){: width="180" .normal }
+![Streaks habit list & today's check-in](/assets/images/blog/streaks_1.webp){: width="180" .normal }
+![Streaks check-in detail & note](/assets/images/blog/streaks_2.webp){: width="180" .normal }
+![Streaks streak & consecutive days](/assets/images/blog/streaks_3.webp){: width="180" .normal }
+![Streaks stats chart & calendar](/assets/images/blog/streaks_4.webp){: width="180" .normal }
+![Streaks reminder & settings](/assets/images/blog/streaks_5.webp){: width="180" .normal }
 
 Streaks is the minimalist iOS habit app that helped define the category. You pick up to 12 tasks, mark them done each day, and watch your chain grow. It's all about focus and Apple-ecosystem polish.
 

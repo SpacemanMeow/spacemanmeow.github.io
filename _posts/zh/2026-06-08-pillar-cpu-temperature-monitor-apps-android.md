@@ -34,11 +34,11 @@ lang: zh
 
 ## 深入看 CPU Monitor
 
-![CPU Monitor 截图：深入看 CPU Monitor —— 最佳安卓 CPU 温度监控应用（2026）](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
-![CPU Monitor 截图 2：深入看 CPU Monitor —— 最佳安卓 CPU 温度监控应用（2026）](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
-![CPU Monitor 截图 3：深入看 CPU Monitor —— 最佳安卓 CPU 温度监控应用（2026）](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
-![CPU Monitor 截图 4：深入看 CPU Monitor —— 最佳安卓 CPU 温度监控应用（2026）](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
-![CPU Monitor 截图 5：深入看 CPU Monitor —— 最佳安卓 CPU 温度监控应用（2026）](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
+![CPU Monitor 温度与频率监控主界面](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
+![CPU Monitor 设置与高温告警](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
+![CPU Monitor 传感器与电池信息](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
+![CPU Monitor 设备硬件概览](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![CPU Monitor 实时核心频率详情](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
 
 CPU Monitor 在安卓上显示实时 CPU 温度与频率、RAM、电池与多核使用率，带浮窗、小组件与过热报警。
 

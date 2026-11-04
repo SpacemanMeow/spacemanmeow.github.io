@@ -36,11 +36,11 @@ lang: zh
 
 ## 深入看 System Monitor
 
-![System Monitor 截图：深入看 System Monitor —— 最佳安卓系统监控与设备信息应用（2026）](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
-![System Monitor 截图 2：深入看 System Monitor —— 最佳安卓系统监控与设备信息应用（2026）](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
-![System Monitor 截图 3：深入看 System Monitor —— 最佳安卓系统监控与设备信息应用（2026）](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
-![System Monitor 截图 4：深入看 System Monitor —— 最佳安卓系统监控与设备信息应用（2026）](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
-![System Monitor 截图 5：深入看 System Monitor —— 最佳安卓系统监控与设备信息应用（2026）](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
+![System Monitor 悬浮窗与设置](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
+![System Monitor 进程与电池监控](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
+![System Monitor 网络与传感器](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
+![System Monitor 内存与存储占用](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
 
 System Monitor 是一款付费安卓硬件信息检测工具：实时 CPU 温度与频率、存储与内存使用、电池健康监控——只读，无清理或加速。
 

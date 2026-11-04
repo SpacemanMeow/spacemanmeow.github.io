@@ -28,11 +28,11 @@ lang: zh
 
 ## Only Clock 详解
 
-![Only Clock 截图：Only Clock 详解 —— Only Clock vs Flip Clock：哪款翻页时钟应用？](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
-![Only Clock 截图 2：Only Clock 详解 —— Only Clock vs Flip Clock：哪款翻页时钟应用？](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
-![Only Clock 截图 3：Only Clock 详解 —— Only Clock vs Flip Clock：哪款翻页时钟应用？](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
-![Only Clock 截图 4：Only Clock 详解 —— Only Clock vs Flip Clock：哪款翻页时钟应用？](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
-![Only Clock 截图 5：Only Clock 详解 —— Only Clock vs Flip Clock：哪款翻页时钟应用？](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
+![OnlyClock 设置与选项](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
+![OnlyClock 闹钟与计时器](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
+![OnlyClock 夜间模式与主题](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
 
 Only Clock 是一款 **全屏翻页时钟**，配有漂亮的翻页动画与一整套主题——从可爱猫咪到太空与熊猫场景。除了外观，它额外加入了助专注与睡眠的白噪音，以及一个悬浮时钟叠层。
 
@@ -61,11 +61,11 @@ Only Clock 是一款 **全屏翻页时钟**，配有漂亮的翻页动画与一�
 
 ## Flip Clock 详解
 
-![Flip Clock 截图：Flip Clock 详解 —— Only Clock vs Flip Clock：哪款翻页时钟应用？](/assets/images/blog/flip_clock_1.webp){: width="180" .normal }
-![Flip Clock 截图 2：Flip Clock 详解 —— Only Clock vs Flip Clock：哪款翻页时钟应用？](/assets/images/blog/flip_clock_2.webp){: width="180" .normal }
-![Flip Clock 截图 3：Flip Clock 详解 —— Only Clock vs Flip Clock：哪款翻页时钟应用？](/assets/images/blog/flip_clock_3.webp){: width="180" .normal }
-![Flip Clock 截图 4：Flip Clock 详解 —— Only Clock vs Flip Clock：哪款翻页时钟应用？](/assets/images/blog/flip_clock_4.webp){: width="180" .normal }
-![Flip Clock 截图 5：Flip Clock 详解 —— Only Clock vs Flip Clock：哪款翻页时钟应用？](/assets/images/blog/flip_clock_5.webp){: width="180" .normal }
+![Flip Clock 时钟主界面与显示](/assets/images/blog/flip_clock_1.webp){: width="180" .normal }
+![Flip Clock 夜间模式与主题](/assets/images/blog/flip_clock_2.webp){: width="180" .normal }
+![Flip Clock 闹钟与计时器](/assets/images/blog/flip_clock_3.webp){: width="180" .normal }
+![Flip Clock 小组件与锁屏](/assets/images/blog/flip_clock_4.webp){: width="180" .normal }
+![Flip Clock 设置与选项](/assets/images/blog/flip_clock_5.webp){: width="180" .normal }
 
 Flip Clock 是一款人气 **免费翻页时钟应用**：干净的翻页全屏动画、亮度与常亮控制，外加日期——正是经典的床头外观，通常以带广告或小额内购的形式免费提供。
 

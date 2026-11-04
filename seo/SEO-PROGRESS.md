@@ -148,5 +148,6 @@
 - **2026-11**
   - [ ] **Glossary 完善：**头部关键词 + 长尾关键词（头部词仅占搜索流量 ~35%，约 65% 为长尾）现在 Meow Money Manager 落地
   - [ ] **现有文章和 App 页面优化：**基于中文优化现有的 Meow Money Manager 文章，丰富内容，提升文章价值，优化关键字，增加 AI 索引能力
+  - [x] `_posts/zh/2026-01-31-alternatives-to-mint.md`（Mint 替代品指南）：H2 加「喵窝记账」、开头段植入中文关键词+Glossary 内链、新增典型场景段、下载/选购处加 App 页权威内链、新增 AI 友好 FAQ
   - [ ] **[通用理财词] 建 `money tracker` 支柱页并深链 App（T-36）**：money tracker 为 App 第一搜索词（日均 80.8，§5.1），当前仅在 App 集群顺带覆盖，应做成独立 SEO 资产，围绕 Meow Money Manager 最高频关键词主题生成一篇的新闻文章
   - [ ] **多语言内容流量获取：** Meow Money Manager 获客语言构成为 印尼23% / 泰2.7%（但是展示量特别高），先将 Meow Money Manager 的所有内容进行多语言扩充 

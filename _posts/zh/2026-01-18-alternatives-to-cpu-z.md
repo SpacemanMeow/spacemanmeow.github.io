@@ -14,11 +14,11 @@ CPU-Z 查个快速参数表很方便，但在安卓上它 **不显示实时温�
 
 ## 为什么要跳出 CPU-Z
 
-![CPU-Z 截图：为什么要跳出 CPU-Z — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
-![CPU-Z 截图 2：为什么要跳出 CPU-Z — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
-![CPU-Z 截图 3：为什么要跳出 CPU-Z — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
-![CPU-Z 截图 4：为什么要跳出 CPU-Z — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
-![CPU-Z 截图 5：为什么要跳出 CPU-Z — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
+![CPU-Z 温度与频率监控主界面](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
+![CPU-Z 实时核心频率详情](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
+![CPU-Z 传感器与电池信息](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
+![CPU-Z 设备硬件概览](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
+![CPU-Z 设置与高温告警](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
 
 - 在大多数安卓设备上 **没有实时 CPU 温度**——它报的是参数，不是热量。
 - **没有悬浮窗或小组件**，无法一眼监控。
@@ -41,11 +41,11 @@ CPU-Z 查个快速参数表很方便，但在安卓上它 **不显示实时温�
 
 ### 1. CPU Monitor —— 实时温度最佳
 
-![CPU Monitor 截图：CPU Monitor：实时温度最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
-![CPU Monitor 截图 2：CPU Monitor：实时温度最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
-![CPU Monitor 截图 3：CPU Monitor：实时温度最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
-![CPU Monitor 截图 4：CPU Monitor：实时温度最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
-![CPU Monitor 截图 5：CPU Monitor：实时温度最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
+![CPU Monitor 温度与频率监控主界面](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
+![CPU Monitor 实时核心频率详情](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
+![CPU Monitor 传感器与电池信息](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
+![CPU Monitor 设备硬件概览](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![CPU Monitor 设置与高温告警](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
 
 CPU Monitor 显示 **实时 CPU 温度与频率**、内存、电池与多核占用，并带悬浮窗、小组件、一键加速与过热警报。
 
@@ -71,11 +71,11 @@ CPU Monitor 显示 **实时 CPU 温度与频率**、内存、电池与多核占�
 
 ### 2. DevCheck —— 详细传感器最佳
 
-![DevCheck 截图：DevCheck：详细传感器最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/dev_check_1.webp){: width="180" .normal }
-![DevCheck 截图 2：DevCheck：详细传感器最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/dev_check_2.webp){: width="180" .normal }
-![DevCheck 截图 3：DevCheck：详细传感器最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/dev_check_3.webp){: width="180" .normal }
-![DevCheck 截图 4：DevCheck：详细传感器最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/dev_check_4.webp){: width="180" .normal }
-![DevCheck 截图 5：DevCheck：详细传感器最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/dev_check_5.webp){: width="180" .normal }
+![DevCheck 系统状态主界面](/assets/images/blog/dev_check_1.webp){: width="180" .normal }
+![DevCheck 内存与存储占用](/assets/images/blog/dev_check_2.webp){: width="180" .normal }
+![DevCheck 进程与电池监控](/assets/images/blog/dev_check_3.webp){: width="180" .normal }
+![DevCheck 网络与传感器](/assets/images/blog/dev_check_4.webp){: width="180" .normal }
+![DevCheck 悬浮窗与设置](/assets/images/blog/dev_check_5.webp){: width="180" .normal }
 
 DevCheck 是一款 **全面的硬件与传感器报告工具**，仪表盘干净利落：CPU、GPU、电池、网络、传感器等一应俱全，并带系统监控与小组件。
 
@@ -101,11 +101,11 @@ DevCheck 是一款 **全面的硬件与传感器报告工具**，仪表盘干净
 
 ### 3. AIDA64 —— 深度参数报告最佳
 
-![AIDA64 截图：AIDA64：深度参数报告最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/aida64_1.webp){: width="180" .normal }
-![AIDA64 截图 2：AIDA64：深度参数报告最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/aida64_2.webp){: width="180" .normal }
-![AIDA64 截图 3：AIDA64：深度参数报告最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/aida64_3.webp){: width="180" .normal }
-![AIDA64 截图 4：AIDA64：深度参数报告最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/aida64_4.webp){: width="180" .normal }
-![AIDA64 截图 5：AIDA64：深度参数报告最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/aida64_5.webp){: width="180" .normal }
+![AIDA64 网络与传感器](/assets/images/blog/aida64_1.webp){: width="180" .normal }
+![AIDA64 网络与传感器](/assets/images/blog/aida64_2.webp){: width="180" .normal }
+![AIDA64 网络与传感器](/assets/images/blog/aida64_3.webp){: width="180" .normal }
+![AIDA64 网络与传感器](/assets/images/blog/aida64_4.webp){: width="180" .normal }
+![AIDA64 网络与传感器](/assets/images/blog/aida64_5.webp){: width="180" .normal }
 
 AIDA64 将知名的 PC 诊断品牌带到了安卓与 iOS，提供详尽的 **设备参数报告** 与实时传感器读数。
 
@@ -131,11 +131,11 @@ AIDA64 将知名的 PC 诊断品牌带到了安卓与 iOS，提供详尽的 **�
 
 ### 4. Device Info HW —— 逐部件信息最佳
 
-![Device Info HW 截图：Device Info HW：逐部件信息最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/device_info_1.webp){: width="180" .normal style="height:360px;object-fit:cover" }
-![Device Info HW 截图 2：Device Info HW：逐部件信息最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/device_info_2.webp){: width="180" .normal style="height:360px;object-fit:cover" }
-![Device Info HW 截图 3：Device Info HW：逐部件信息最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/device_info_3.webp){: width="180" .normal style="height:360px;object-fit:cover" }
-![Device Info HW 截图 4：Device Info HW：逐部件信息最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/device_info_4.webp){: width="180" .normal style="height:360px;object-fit:cover" }
-![Device Info HW 截图 5：Device Info HW：逐部件信息最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/device_info_5.webp){: width="180" .normal style="height:360px;object-fit:cover" }
+![Device Info 系统状态主界面](/assets/images/blog/device_info_1.webp){: width="180" .normal style="height:360px;object-fit:cover" }
+![Device Info 内存与存储占用](/assets/images/blog/device_info_2.webp){: width="180" .normal style="height:360px;object-fit:cover" }
+![Device Info 进程与电池监控](/assets/images/blog/device_info_3.webp){: width="180" .normal style="height:360px;object-fit:cover" }
+![Device Info 网络与传感器](/assets/images/blog/device_info_4.webp){: width="180" .normal style="height:360px;object-fit:cover" }
+![Device Info 悬浮窗与设置](/assets/images/blog/device_info_5.webp){: width="180" .normal style="height:360px;object-fit:cover" }
 
 Device Info HW 是一款 **硬件信息应用**，把每个部件——CPU、GPU、电池、摄像头、传感器、存储——拆开，以清晰的部件级视图呈现。
 
@@ -160,10 +160,10 @@ Device Info HW 是一款 **硬件信息应用**，把每个部件——CPU、GPU
 
 ### 5. Droid Hardware Info —— 快速参数最佳
 
-![Droid Hardware Info 截图：Droid Hardware Info：快速参数最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/droid_hardware_1.webp){: width="180" .normal }
-![Droid Hardware Info 截图 2：Droid Hardware Info：快速参数最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/droid_hardware_2.webp){: width="180" .normal }
-![Droid Hardware Info 截图 4：Droid Hardware Info：快速参数最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/droid_hardware_4.webp){: width="180" .normal }
-![Droid Hardware Info 截图 5：Droid Hardware Info：快速参数最佳 — 2026 年最佳 CPU-Z 安卓替代应用](/assets/images/blog/droid_hardware_5.webp){: width="180" .normal }
+![DevCheck 系统状态主界面](/assets/images/blog/droid_hardware_1.webp){: width="180" .normal }
+![DevCheck 内存与存储占用](/assets/images/blog/droid_hardware_2.webp){: width="180" .normal }
+![DevCheck 网络与传感器](/assets/images/blog/droid_hardware_4.webp){: width="180" .normal }
+![DevCheck 悬浮窗与设置](/assets/images/blog/droid_hardware_5.webp){: width="180" .normal }
 
 Droid Hardware Info 是一款 **轻量参数查看器**，以简单列表展示系统、CPU、GPU、内存、摄像头与传感器细节。
 

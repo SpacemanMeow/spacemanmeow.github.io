@@ -30,11 +30,11 @@ If privacy matters more than cloud features, you need a **private diary app** th
 
 ## Meow Mood, in depth
 
-![Meow Mood Diary screenshot: Meow Mood, in depth — Meow Mood: A Private Diary That Stays on Your Device](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
-![Meow Mood Diary screenshot 2: Meow Mood, in depth — Meow Mood: A Private Diary That Stays on Your Device](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
-![Meow Mood Diary screenshot 3: Meow Mood, in depth — Meow Mood: A Private Diary That Stays on Your Device](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
-![Meow Mood Diary screenshot 4: Meow Mood, in depth — Meow Mood: A Private Diary That Stays on Your Device](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
-![Meow Mood Diary screenshot 5: Meow Mood, in depth — Meow Mood: A Private Diary That Stays on Your Device](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
+![Meow Mood Diary journal editor & mood log](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
+![Meow Mood Diary mood picker & tags](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
+![Meow Mood Diary stats chart & trends](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
+![Meow Mood Diary calendar & history](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![Meow Mood Diary backup & export](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
 
 Meow Mood is a **cat-themed mood and diary app** for Android and iOS with privacy as the default, not a setting you hunt for.
 
@@ -57,11 +57,11 @@ Meow Mood is a **cat-themed mood and diary app** for Android and iOS with privac
 
 ## Day One, in depth
 
-![Day One screenshot: Day One, in depth — Meow Mood: A Private Diary That Stays on Your Device](/assets/images/blog/day_one_1.webp){: width="180" .normal }
-![Day One screenshot 2: Day One, in depth — Meow Mood: A Private Diary That Stays on Your Device](/assets/images/blog/day_one_2.webp){: width="180" .normal }
-![Day One screenshot 3: Day One, in depth — Meow Mood: A Private Diary That Stays on Your Device](/assets/images/blog/day_one_3.webp){: width="180" .normal }
-![Day One screenshot 4: Day One, in depth — Meow Mood: A Private Diary That Stays on Your Device](/assets/images/blog/day_one_4.webp){: width="180" .normal }
-![Day One screenshot 5: Day One, in depth — Meow Mood: A Private Diary That Stays on Your Device](/assets/images/blog/day_one_5.webp){: width="180" .normal }
+![Day One journal editor & mood log](/assets/images/blog/day_one_1.webp){: width="180" .normal }
+![Day One mood picker & tags](/assets/images/blog/day_one_2.webp){: width="180" .normal }
+![Day One stats chart & trends](/assets/images/blog/day_one_3.webp){: width="180" .normal }
+![Day One calendar & history](/assets/images/blog/day_one_4.webp){: width="180" .normal }
+![Day One backup & export](/assets/images/blog/day_one_5.webp){: width="180" .normal }
 
 Day One is the most-awarded journal app, with encrypted sync across Android, iOS, Mac, and web.
 

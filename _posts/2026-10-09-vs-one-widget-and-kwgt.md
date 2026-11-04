@@ -29,11 +29,11 @@ Both customize your home screen, but differently. **One Widget** ships 500+ fini
 
 ## One Widget, in detail
 
-![One Widget screenshot: One Widget, in detail — One Widget vs KWGT: Curated Widgets or Total Control?](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
-![One Widget screenshot 2: One Widget, in detail — One Widget vs KWGT: Curated Widgets or Total Control?](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
-![One Widget screenshot 3: One Widget, in detail — One Widget vs KWGT: Curated Widgets or Total Control?](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
-![One Widget screenshot 4: One Widget, in detail — One Widget vs KWGT: Curated Widgets or Total Control?](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
-![One Widget screenshot 5: One Widget, in detail — One Widget vs KWGT: Curated Widgets or Total Control?](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
+![One Widget widget home](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
+![One Widget custom look & theme](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
+![One Widget data source & layout](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
+![One Widget interaction & shortcuts](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
+![One Widget settings & permissions](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
 
 One Widget is an **all-in-one Android home-screen toolkit** packing 500+ premium widgets across four trending styles: Glass iOS, Material You, Galaxy One UI, and Nothing minimalist. You pick a finished widget, resize it, and you're done.
 
@@ -63,11 +63,11 @@ Users who want a cohesive, good-looking home screen quickly without learning a d
 
 ## KWGT, in detail
 
-![KWGT screenshot: KWGT, in detail — One Widget vs KWGT: Curated Widgets or Total Control?](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
-![KWGT screenshot 2: KWGT, in detail — One Widget vs KWGT: Curated Widgets or Total Control?](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
-![KWGT screenshot 3: KWGT, in detail — One Widget vs KWGT: Curated Widgets or Total Control?](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
-![KWGT screenshot 4: KWGT, in detail — One Widget vs KWGT: Curated Widgets or Total Control?](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
-![KWGT screenshot 5: KWGT, in detail — One Widget vs KWGT: Curated Widgets or Total Control?](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
+![KWGT widget home](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
+![KWGT custom look & theme](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
+![KWGT data source & layout](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
+![KWGT interaction & shortcuts](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
+![KWGT settings & permissions](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
 
 KWGT (Kustom Widget Maker) is the most powerful widget builder on Android. You place text, shapes, images and data points, then bind them to live sources — weather, music, battery, or your own formulas — to create entirely original widgets.
 

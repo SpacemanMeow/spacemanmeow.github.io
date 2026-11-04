@@ -34,11 +34,11 @@ On Android a floating overlay works above any app with no root, so large-screen 
 
 ## Floating Assistant, in depth
 
-![Floating Assistant screenshot: Floating Assistant, in depth — Best Floating Assistant & Assistive Touch Apps for Android (2026)](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
-![Floating Assistant screenshot 2: Floating Assistant, in depth — Best Floating Assistant & Assistive Touch Apps for Android (2026)](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
-![Floating Assistant screenshot 3: Floating Assistant, in depth — Best Floating Assistant & Assistive Touch Apps for Android (2026)](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
-![Floating Assistant screenshot 4: Floating Assistant, in depth — Best Floating Assistant & Assistive Touch Apps for Android (2026)](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
-![Floating Assistant screenshot 5: Floating Assistant, in depth — Best Floating Assistant & Assistive Touch Apps for Android (2026)](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
+![Floating Assistant floating window home](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![Floating Assistant quick actions & gestures](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
+![Floating Assistant custom menu & buttons](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
+![Floating Assistant accessibility & options](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
+![Floating Assistant settings & permissions](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
 
 Floating Assistant adds a customizable floating ball to Android for quick app launches, system toggles and one-handed control.
 

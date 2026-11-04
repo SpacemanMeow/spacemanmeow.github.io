@@ -22,11 +22,11 @@ lang: zh
 
 ## 最佳 Assistive Touch 替代品一览
 
-![Assistive Touch 截图：最佳 Assistive Touch 替代品一览 — 2026 年最佳 Assistive Touch 安卓替代应用](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
-![Assistive Touch 截图 2：最佳 Assistive Touch 替代品一览 — 2026 年最佳 Assistive Touch 安卓替代应用](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
-![Assistive Touch 截图 3：最佳 Assistive Touch 替代品一览 — 2026 年最佳 Assistive Touch 安卓替代应用](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
-![Assistive Touch 截图 4：最佳 Assistive Touch 替代品一览 — 2026 年最佳 Assistive Touch 安卓替代应用](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
-![Assistive Touch 截图 5：最佳 Assistive Touch 替代品一览 — 2026 年最佳 Assistive Touch 安卓替代应用](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
+![Assistive Touch 辅助触控主界面](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
+![Assistive Touch 快捷操作与手势](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
+![Assistive Touch 自定义菜单与按钮](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
+![Assistive Touch 辅助功能与选项](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
+![Assistive Touch 设置与权限](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
 
 | 应用 | 价格（2026） | 核心功能 | 附加功能 |
 |---|---|---|---|
@@ -41,11 +41,11 @@ lang: zh
 
 ### 1. Floating Assistant —— 最全面的一体化方案
 
-![Floating Assistant 截图：Floating Assistant：最全面的一体化方案 — 2026 年最佳 Assistive Touch 安卓替代应用](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
-![Floating Assistant 截图 2：Floating Assistant：最全面的一体化方案 — 2026 年最佳 Assistive Touch 安卓替代应用](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
-![Floating Assistant 截图 3：Floating Assistant：最全面的一体化方案 — 2026 年最佳 Assistive Touch 安卓替代应用](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
-![Floating Assistant 截图 4：Floating Assistant：最全面的一体化方案 — 2026 年最佳 Assistive Touch 安卓替代应用](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
-![Floating Assistant 截图 5：Floating Assistant：最全面的一体化方案 — 2026 年最佳 Assistive Touch 安卓替代应用](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
+![Floating Assistant 悬浮窗主界面](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![Floating Assistant 快捷操作与手势](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
+![Floating Assistant 自定义菜单与按钮](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
+![Floating Assistant 辅助功能与选项](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
+![Floating Assistant 设置与权限](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
 
 Floating Assistant 在你的安卓屏幕上提供 **辅助触控、悬浮时钟与悬浮系统监控**，让你通过一个便捷的悬浮层掌控手机。
 

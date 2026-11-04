@@ -53,7 +53,7 @@ Meow Mood Diary 是一款安全、私密的心情日记与记录应用，带平�
 - 点顶部 **菜单统计** 看统计
 - 点顶部 **菜单设置** 看设置
 
-![Meow Mood Diary 主屏截图：首次使用 —— Meow Mood Diary 官方使用指南](/assets/images/blog/tutorial_mood_home.webp){: width="180" .normal }
+![Tutorial Mood 日记编辑与心情记录](/assets/images/blog/tutorial_mood_home.webp){: width="180" .normal }
 
 ## 记录心情（一键）
 
@@ -72,7 +72,7 @@ Meow Mood Diary 是一款安全、私密的心情日记与记录应用，带平�
 6. 写可选 **备注**
 7. 点 **保存**
 
-![Meow Mood Diary 添加截图：完整心情条目 —— Meow Mood Diary 官方使用指南](/assets/images/blog/tutorial_mood_add.webp){: width="180" .normal }
+![Tutorial Mood 日记编辑与心情记录](/assets/images/blog/tutorial_mood_add.webp){: width="180" .normal }
 
 ## 历史日历
 
@@ -80,7 +80,7 @@ Meow Mood Diary 是一款安全、私密的心情日记与记录应用，带平�
 - 每一天是一段彩色弧，颜色反映当天 **平均心情等级**（未来日期显示灰色）
 - 点一天看当天的条目
 
-![Meow Mood Diary 日历截图：历史日历 —— Meow Mood Diary 官方使用指南](/assets/images/blog/tutorial_mood_calendar.webp){: width="180" .normal }
+![Tutorial Mood 日记编辑与心情记录](/assets/images/blog/tutorial_mood_calendar.webp){: width="180" .normal }
 
 ## 统计与趋势
 
@@ -91,7 +91,7 @@ Meow Mood Diary 是一款安全、私密的心情日记与记录应用，带平�
    - **月度直方图**
    - **情绪频率** 与 **情境频率**
 
-![Meow Mood Diary 统计截图：统计与趋势 —— Meow Mood Diary 官方使用指南](/assets/images/blog/tutorial_mood_stats.webp){: width="180" .normal }
+![Tutorial Mood 日记编辑与心情记录](/assets/images/blog/tutorial_mood_stats.webp){: width="180" .normal }
 
 ## 每日提醒
 

@@ -28,10 +28,10 @@ lang: zh
 
 ## 深入看 Crosshair Aim
 
-![Crosshair Aim 截图：深入看 Crosshair Aim —— 把 Crosshair Aim 当作自定义叠层：任意屏幕上的专属准星](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
-![Crosshair Aim 截图 2：深入看 Crosshair Aim —— 把 Crosshair Aim 当作自定义叠层：任意屏幕上的专属准星](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
-![Crosshair Aim 截图 3：深入看 Crosshair Aim —— 把 Crosshair Aim 当作自定义叠层：任意屏幕上的专属准星](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
-![Crosshair Aim 截图 4：深入看 Crosshair Aim —— 把 Crosshair Aim 当作自定义叠层：任意屏幕上的专属准星](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
+![Crosshair 准星叠加主界面](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
+![Crosshair 准星样式与自定义](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
+![Crosshair 透明度与位置调节](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
+![Crosshair 游戏内叠加效果](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
 
 Crosshair Aim 是一款拥有丰富样式集与实时浮动调节器的安卓 **自定义准星叠层**。
 
@@ -52,7 +52,7 @@ Crosshair Aim 是一款拥有丰富样式集与实时浮动调节器的安卓 **
 
 ## 深入看 Crosshair Hero
 
-![Crosshair Hero 截图：深入看 Crosshair Hero —— 把 Crosshair Aim 当作自定义叠层：任意屏幕上的专属准星](/assets/images/blog/crosshair_hero_1.webp){: width="720" .normal }
+![Crosshair Hero 准星叠加主界面](/assets/images/blog/crosshair_hero_1.webp){: width="720" .normal }
 
 Crosshair Hero（包名 `me.okitastudio.crosshairherofps`）提供预设样式加自定义 PNG，并支持颜色/大小/位置微调。
 

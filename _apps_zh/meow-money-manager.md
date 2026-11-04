@@ -1,5 +1,5 @@
 ---
-title: Meow Money Manager - 记账本
+title: Meow Money Manager - 喵窝记账
 tagline: 猫主题的开支追踪与预算管理应用
 description: "Meow Money Manager 是一款猫主题的开支追踪与预算应用，支持指纹锁、多币种账本与 CSV 导出，适用于 Android 与 iOS。"
 icon: /assets/images/apps/meow-money-manager/icon.webp
@@ -42,7 +42,7 @@ faq:
       不需要。Meow Money 可不使用账号直接使用，数据保存在本机，适合私密记账。
 ---
 
-Meow Money Manager 记账本是一款个人财务管理应用，助你掌控预算、资金与财务状况。开支与收入追踪让钱包与每张信用卡都清晰明了。你无需翻找钱包或查询银行账户就能掌握财务情况。用这款预算开支收入追踪财务应用，轻松管理你的资金。
+Meow Money Manager（喵窝记账）是一款个人财务管理应用，助你掌控预算、资金与财务状况。开支与收入追踪让钱包与每张信用卡都清晰明了。你无需翻找钱包或查询银行账户就能掌握财务情况。用这款预算开支收入追踪财务应用，轻松管理你的资金。
 
 ### Meow Money Manager 功能特性 - 完整指南
 

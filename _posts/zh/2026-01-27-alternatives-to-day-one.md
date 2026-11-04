@@ -14,11 +14,11 @@ Day One 是一款强大的日记应用，但它 **约 35 美元/年的订阅** �
 
 ## 为什么要跳出 Day One
 
-![Day One 截图：为什么要跳出 Day One — 2026 年最佳 Day One 替代应用](/assets/images/blog/day_one_1.webp){: width="180" .normal }
-![Day One 截图 2：为什么要跳出 Day One — 2026 年最佳 Day One 替代应用](/assets/images/blog/day_one_2.webp){: width="180" .normal }
-![Day One 截图 3：为什么要跳出 Day One — 2026 年最佳 Day One 替代应用](/assets/images/blog/day_one_3.webp){: width="180" .normal }
-![Day One 截图 4：为什么要跳出 Day One — 2026 年最佳 Day One 替代应用](/assets/images/blog/day_one_4.webp){: width="180" .normal }
-![Day One 截图 5：为什么要跳出 Day One — 2026 年最佳 Day One 替代应用](/assets/images/blog/day_one_5.webp){: width="180" .normal }
+![Day One 日记编辑与心情记录](/assets/images/blog/day_one_1.webp){: width="180" .normal }
+![Day One 心情选择与标签](/assets/images/blog/day_one_2.webp){: width="180" .normal }
+![Day One 统计图表与趋势](/assets/images/blog/day_one_3.webp){: width="180" .normal }
+![Day One 日历与历史回顾](/assets/images/blog/day_one_4.webp){: width="180" .normal }
+![Day One 备份与导出](/assets/images/blog/day_one_5.webp){: width="180" .normal }
 
 - 大多数人常用的功能，却要 **支付年订阅**（2026 年约 35 美元/年）。
 - 默认 **云同步**——有些用户想要自己掌控的纯本地存储。
@@ -41,11 +41,11 @@ Day One 是一款强大的日记应用，但它 **约 35 美元/年的订阅** �
 
 ### 1. Meow Mood Diary —— 私密、可爱的心情日记最佳
 
-![Meow Mood Diary 截图：Meow Mood Diary：私密、可爱的心情日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
-![Meow Mood Diary 截图 2：Meow Mood Diary：私密、可爱的心情日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
-![Meow Mood Diary 截图 3：Meow Mood Diary：私密、可爱的心情日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
-![Meow Mood Diary 截图 4：Meow Mood Diary：私密、可爱的心情日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
-![Meow Mood Diary 截图 5：Meow Mood Diary：私密、可爱的心情日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
+![Meow Mood Diary 日记编辑与心情记录](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
+![Meow Mood Diary 心情选择与标签](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
+![Meow Mood Diary 统计图表与趋势](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
+![Meow Mood Diary 日历与历史回顾](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![Meow Mood Diary 备份与导出](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
 
 Meow Mood Diary 是一款 **安全、私密的心情日记**，采用令人安心的猫咪主题界面。它最大的亮点是 **设计**：可爱的卡通猫形象与丰富的表情图标，让每日打卡变得轻松，而不是像一项苦差。除了外观，它从不把你的记录上传到服务器，仅备份到你自己的 Google Drive。
 
@@ -72,11 +72,11 @@ Meow Mood Diary 是一款 **安全、私密的心情日记**，采用令人安�
 
 ### 2. Journey —— 跨平台日记最佳
 
-![Journey 截图：Journey：跨平台日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/journey_1.webp){: width="180" .normal }
-![Journey 截图 2：Journey：跨平台日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/journey_2.webp){: width="180" .normal }
-![Journey 截图 3：Journey：跨平台日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/journey_3.webp){: width="180" .normal }
-![Journey 截图 4：Journey：跨平台日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/journey_4.webp){: width="180" .normal }
-![Journey 截图 5：Journey：跨平台日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/journey_5.webp){: width="180" .normal }
+![Journey 日记编辑与心情记录](/assets/images/blog/journey_1.webp){: width="180" .normal }
+![Journey 心情选择与标签](/assets/images/blog/journey_2.webp){: width="180" .normal }
+![Journey 统计图表与趋势](/assets/images/blog/journey_3.webp){: width="180" .normal }
+![Journey 日历与历史回顾](/assets/images/blog/journey_4.webp){: width="180" .normal }
+![Journey 备份与导出](/assets/images/blog/journey_5.webp){: width="180" .normal }
 
 Journey 是一款 **跨平台日记**，覆盖安卓、iOS、网页、Windows 与 Mac，支持图文记录、心情追踪与 Google Drive 同步。对多设备写作的人来说，它是 Day One 最接近的直面对手。
 
@@ -102,11 +102,11 @@ Journey 是一款 **跨平台日记**，覆盖安卓、iOS、网页、Windows �
 
 ### 3. Diaro —— 条理化学文字日记最佳
 
-![Diaro 截图：Diaro：条理化学文字日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/diaro_1.webp){: width="180" .normal }
-![Diaro 截图 2：Diaro：条理化学文字日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/diaro_2.webp){: width="180" .normal }
-![Diaro 截图 3：Diaro：条理化学文字日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/diaro_3.webp){: width="180" .normal }
-![Diaro 截图 4：Diaro：条理化学文字日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/diaro_4.webp){: width="180" .normal }
-![Diaro 截图 5：Diaro：条理化学文字日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/diaro_5.webp){: width="180" .normal }
+![Diaro 日记编辑与心情记录](/assets/images/blog/diaro_1.webp){: width="180" .normal }
+![Diaro 心情选择与标签](/assets/images/blog/diaro_2.webp){: width="180" .normal }
+![Diaro 统计图表与趋势](/assets/images/blog/diaro_3.webp){: width="180" .normal }
+![Diaro 日历与历史回顾](/assets/images/blog/diaro_4.webp){: width="180" .normal }
+![Diaro 备份与导出](/assets/images/blog/diaro_5.webp){: width="180" .normal }
 
 Diaro 是一款 **以文字为先的日记**，提供文件夹、标签、搜索与干净的仪表盘，覆盖安卓、iOS、Windows 与 Mac，支持云备份。
 
@@ -132,11 +132,11 @@ Diaro 是一款 **以文字为先的日记**，提供文件夹、标签、搜索
 
 ### 4. Daylio —— 极简心情记录最佳
 
-![Daylio 截图：Daylio：极简心情记录最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/daylio_1.webp){: width="180" .normal }
-![Daylio 截图 2：Daylio：极简心情记录最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/daylio_2.webp){: width="180" .normal }
-![Daylio 截图 3：Daylio：极简心情记录最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/daylio_3.webp){: width="180" .normal }
-![Daylio 截图 4：Daylio：极简心情记录最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/daylio_4.webp){: width="180" .normal }
-![Daylio 截图 5：Daylio：极简心情记录最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/daylio_5.webp){: width="180" .normal }
+![Daylio 日记编辑与心情记录](/assets/images/blog/daylio_1.webp){: width="180" .normal }
+![Daylio 心情选择与标签](/assets/images/blog/daylio_2.webp){: width="180" .normal }
+![Daylio 统计图表与趋势](/assets/images/blog/daylio_3.webp){: width="180" .normal }
+![Daylio 日历与历史回顾](/assets/images/blog/daylio_4.webp){: width="180" .normal }
+![Daylio 备份与导出](/assets/images/blog/daylio_5.webp){: width="180" .normal }
 
 Daylio 是一款 **极简心情追踪器**：点选你的感受、加几个活动即可，无需写字。它会生成彩色的日历与统计视图，呈现你的情绪规律。
 
@@ -162,11 +162,11 @@ Daylio 是一款 **极简心情追踪器**：点选你的感受、加几个活�
 
 ### 5. Grid Diary —— 基于引导提示的日记最佳
 
-![Grid Diary 截图：Grid Diary：基于引导提示的日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/grid_diary_1.webp){: width="180" .normal }
-![Grid Diary 截图 2：Grid Diary：基于引导提示的日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/grid_diary_2.webp){: width="180" .normal }
-![Grid Diary 截图 3：Grid Diary：基于引导提示的日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/grid_diary_3.webp){: width="180" .normal }
-![Grid Diary 截图 4：Grid Diary：基于引导提示的日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/grid_diary_4.webp){: width="180" .normal }
-![Grid Diary 截图 5：Grid Diary：基于引导提示的日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/grid_diary_5.webp){: width="180" .normal }
+![Grid Diary 日记编辑与心情记录](/assets/images/blog/grid_diary_1.webp){: width="180" .normal }
+![Grid Diary 心情选择与标签](/assets/images/blog/grid_diary_2.webp){: width="180" .normal }
+![Grid Diary 统计图表与趋势](/assets/images/blog/grid_diary_3.webp){: width="180" .normal }
+![Grid Diary 日历与历史回顾](/assets/images/blog/grid_diary_4.webp){: width="180" .normal }
+![Grid Diary 备份与导出](/assets/images/blog/grid_diary_5.webp){: width="180" .normal }
 
 Grid Diary 用 **问题引导的网格** 来结构化记录，借助可复用模板帮你反思。它在感恩日记、每日提问与习惯式记录中很受欢迎。
 
@@ -192,11 +192,11 @@ Grid Diary 用 **问题引导的网格** 来结构化记录，借助可复用模
 
 ### 6. Momento —— 私密时间线日记最佳
 
-![Momento 截图：Momento：私密时间线日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/momento_1.webp){: width="180" .normal }
-![Momento 截图 2：Momento：私密时间线日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/momento_2.webp){: width="180" .normal }
-![Momento 截图 3：Momento：私密时间线日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/momento_3.webp){: width="180" .normal }
-![Momento 截图 4：Momento：私密时间线日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/momento_4.webp){: width="180" .normal }
-![Momento 截图 5：Momento：私密时间线日记最佳 — 2026 年最佳 Day One 替代应用](/assets/images/blog/momento_5.webp){: width="180" .normal }
+![Momento 日记编辑与心情记录](/assets/images/blog/momento_1.webp){: width="180" .normal }
+![Momento 心情选择与标签](/assets/images/blog/momento_2.webp){: width="180" .normal }
+![Momento 统计图表与趋势](/assets/images/blog/momento_3.webp){: width="180" .normal }
+![Momento 日历与历史回顾](/assets/images/blog/momento_4.webp){: width="180" .normal }
+![Momento 备份与导出](/assets/images/blog/momento_5.webp){: width="180" .normal }
 
 Momento 是一款 **iOS 日记**，从你的记录与关联服务中构建私密时间线，主打一个安静、私密的个人反思空间。
 

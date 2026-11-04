@@ -28,11 +28,11 @@ When a game stutters or an app reloads, the usual suspect is **RAM** — but "lo
 
 ## System Monitor, in depth
 
-![System Monitor screenshot: System Monitor, in depth — System Monitor for RAM: See Exactly What Your Memory Is Doing](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
-![System Monitor screenshot 2: System Monitor, in depth — System Monitor for RAM: See Exactly What Your Memory Is Doing](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
-![System Monitor screenshot 3: System Monitor, in depth — System Monitor for RAM: See Exactly What Your Memory Is Doing](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
-![System Monitor screenshot 4: System Monitor, in depth — System Monitor for RAM: See Exactly What Your Memory Is Doing](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
-![System Monitor screenshot 5: System Monitor, in depth — System Monitor for RAM: See Exactly What Your Memory Is Doing](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
+![System Monitor system status overview](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
+![System Monitor overlay & settings](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
+![System Monitor process & battery monitor](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
+![System Monitor network & sensors](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
+![System Monitor RAM & storage usage](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
 
 System Monitor is a **paid Android device-info tool**. For a one-time download price it detects detailed hardware, including memory: total/used/free RAM and per-app memory use, with live updates as you switch tasks. It reports — it does not free or boost memory.
 
@@ -54,11 +54,11 @@ System Monitor is a **paid Android device-info tool**. For a one-time download p
 
 ## CCleaner, in depth
 
-![CCleaner screenshot: CCleaner, in depth — System Monitor for RAM: See Exactly What Your Memory Is Doing](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
-![CCleaner screenshot 2: CCleaner, in depth — System Monitor for RAM: See Exactly What Your Memory Is Doing](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
-![CCleaner screenshot 3: CCleaner, in depth — System Monitor for RAM: See Exactly What Your Memory Is Doing](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
-![CCleaner screenshot 4: CCleaner, in depth — System Monitor for RAM: See Exactly What Your Memory Is Doing](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
-![CCleaner screenshot 5: CCleaner, in depth — System Monitor for RAM: See Exactly What Your Memory Is Doing](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
+![CCleaner clean scan home](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
+![CCleaner junk files & cache](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
+![CCleaner memory boost & process](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
+![CCleaner privacy & residual clean](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
+![CCleaner settings & schedule](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
 
 CCleaner (package `com.piriform.ccleaner`, by Gen Digital) focuses on cleaning — cache, temp files, and duplicates.
 

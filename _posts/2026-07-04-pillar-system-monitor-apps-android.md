@@ -36,11 +36,11 @@ On Android, a floating window and home-screen widgets show live CPU, memory and 
 
 ## System Monitor, in depth
 
-![System Monitor screenshot: System Monitor, in depth — Best System Monitor & Device Info Apps for Android (2026)](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
-![System Monitor screenshot 2: System Monitor, in depth — Best System Monitor & Device Info Apps for Android (2026)](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
-![System Monitor screenshot 3: System Monitor, in depth — Best System Monitor & Device Info Apps for Android (2026)](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
-![System Monitor screenshot 4: System Monitor, in depth — Best System Monitor & Device Info Apps for Android (2026)](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
-![System Monitor screenshot 5: System Monitor, in depth — Best System Monitor & Device Info Apps for Android (2026)](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
+![System Monitor system status overview](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
+![System Monitor overlay & settings](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
+![System Monitor process & battery monitor](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
+![System Monitor network & sensors](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
+![System Monitor RAM & storage usage](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
 
 System Monitor is a paid Android tool for hardware info detection: real-time CPU temperature and frequency, storage and memory usage, and battery health monitoring — read-only, with no cleaning or boosting.
 

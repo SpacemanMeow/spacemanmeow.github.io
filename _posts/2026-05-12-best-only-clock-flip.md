@@ -29,11 +29,11 @@ A **flip clock app** turns any phone or tablet into a calming, retro timepiece. 
 
 ## Only Clock, in depth
 
-![Only Clock screenshot: Only Clock, in depth — Only Clock: A Flip Clock That Makes Any Screen Calm](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
-![Only Clock screenshot 2: Only Clock, in depth — Only Clock: A Flip Clock That Makes Any Screen Calm](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
-![Only Clock screenshot 3: Only Clock, in depth — Only Clock: A Flip Clock That Makes Any Screen Calm](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
-![Only Clock screenshot 4: Only Clock, in depth — Only Clock: A Flip Clock That Makes Any Screen Calm](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
-![Only Clock screenshot 5: Only Clock, in depth — Only Clock: A Flip Clock That Makes Any Screen Calm](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
+![OnlyClock settings & options](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
+![OnlyClock clock home & display](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
+![OnlyClock clock home & display](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
+![OnlyClock alarm & timer](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
+![OnlyClock night mode & theme](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
 
 Only Clock is a **fullscreen flip-clock** for Android and iOS with a 3D flip animation and a broad theme library.
 
@@ -56,11 +56,11 @@ Only Clock is a **fullscreen flip-clock** for Android and iOS with a 3D flip ani
 
 ## Flip Clock, in depth
 
-![Flip Clock screenshot: Flip Clock, in depth — Only Clock: A Flip Clock That Makes Any Screen Calm](/assets/images/blog/flip_clock_1.webp){: width="180" .normal }
-![Flip Clock screenshot 2: Flip Clock, in depth — Only Clock: A Flip Clock That Makes Any Screen Calm](/assets/images/blog/flip_clock_2.webp){: width="180" .normal }
-![Flip Clock screenshot 3: Flip Clock, in depth — Only Clock: A Flip Clock That Makes Any Screen Calm](/assets/images/blog/flip_clock_3.webp){: width="180" .normal }
-![Flip Clock screenshot 4: Flip Clock, in depth — Only Clock: A Flip Clock That Makes Any Screen Calm](/assets/images/blog/flip_clock_4.webp){: width="180" .normal }
-![Flip Clock screenshot 5: Flip Clock, in depth — Only Clock: A Flip Clock That Makes Any Screen Calm](/assets/images/blog/flip_clock_5.webp){: width="180" .normal }
+![Flip Clock clock home & display](/assets/images/blog/flip_clock_1.webp){: width="180" .normal }
+![Flip Clock night mode & theme](/assets/images/blog/flip_clock_2.webp){: width="180" .normal }
+![Flip Clock alarm & timer](/assets/images/blog/flip_clock_3.webp){: width="180" .normal }
+![Flip Clock widget & lockscreen](/assets/images/blog/flip_clock_4.webp){: width="180" .normal }
+![Flip Clock settings & options](/assets/images/blog/flip_clock_5.webp){: width="180" .normal }
 
 Flip Clock (package `com.wssc.simpleclock`) is a popular **free flip-clock app** — a clean fullscreen flip animation, brightness and always-on controls, and the date, with no ads.
 

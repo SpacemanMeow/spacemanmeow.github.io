@@ -29,11 +29,11 @@ lang: zh
 
 ## 深入看 CPU Monitor
 
-![CPU Monitor 截图：深入看 CPU Monitor —— CPU Monitor：在降频之前看清 CPU 温度](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
-![CPU Monitor 截图 2：深入看 CPU Monitor —— CPU Monitor：在降频之前看清 CPU 温度](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
-![CPU Monitor 截图 3：深入看 CPU Monitor —— CPU Monitor：在降频之前看清 CPU 温度](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
-![CPU Monitor 截图 4：深入看 CPU Monitor —— CPU Monitor：在降频之前看清 CPU 温度](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
-![CPU Monitor 截图 5：深入看 CPU Monitor —— CPU Monitor：在降频之前看清 CPU 温度](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
+![CPU Monitor 温度与频率监控主界面](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
+![CPU Monitor 设置与高温告警](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
+![CPU Monitor 传感器与电池信息](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
+![CPU Monitor 设备硬件概览](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![CPU Monitor 实时核心频率详情](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
 
 CPU Monitor 是一款安卓 **CPU 温度与负载监控工具**。其核心——实时温度、每核频率与负载——免费提供；VIP 增加更深的历史记录与选项。
 
@@ -54,11 +54,11 @@ CPU Monitor 是一款安卓 **CPU 温度与负载监控工具**。其核心—�
 
 ## 深入看 CPU-Z
 
-![CPU-Z 截图：深入看 CPU-Z —— CPU Monitor：在降频之前看清 CPU 温度](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
-![CPU-Z 截图 2：深入看 CPU-Z —— CPU Monitor：在降频之前看清 CPU 温度](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
-![CPU-Z 截图 3：深入看 CPU-Z —— CPU Monitor：在降频之前看清 CPU 温度](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
-![CPU-Z 截图 4：深入看 CPU-Z —— CPU Monitor：在降频之前看清 CPU 温度](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
-![CPU-Z 截图 5：深入看 CPU-Z —— CPU Monitor：在降频之前看清 CPU 温度](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
+![CPU-Z 温度与频率监控主界面](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
+![CPU-Z 实时核心频率详情](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
+![CPU-Z 传感器与电池信息](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
+![CPU-Z 设备硬件概览](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
+![CPU-Z 设置与高温告警](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
 
 CPU-Z（包名 `com.cpuid.cpu_z`）是知名 CPUID 工具的安卓移植版，专注于报告硬件细节。
 

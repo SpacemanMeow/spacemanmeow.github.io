@@ -28,11 +28,11 @@ A spare phone or tablet makes a perfect **nightstand clock**. The **best nightst
 
 ## Only Clock, in depth
 
-![Only Clock screenshot: Only Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
-![Only Clock screenshot 2: Only Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
-![Only Clock screenshot 3: Only Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
-![Only Clock screenshot 4: Only Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
-![Only Clock screenshot 5: Only Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
+![OnlyClock settings & options](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
+![OnlyClock clock home & display](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
+![OnlyClock clock home & display](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
+![OnlyClock alarm & timer](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
+![OnlyClock night mode & theme](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
 
 Only Clock is a **fullscreen flip-clock** for Android and iOS with dark themes, white noise, and anti-burn-in options.
 
@@ -54,11 +54,11 @@ Only Clock is a **fullscreen flip-clock** for Android and iOS with dark themes, 
 
 ## Flip Clock, in depth
 
-![Flip Clock screenshot: Flip Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/blog/flip_clock_1.webp){: width="180" .normal }
-![Flip Clock screenshot 2: Flip Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/blog/flip_clock_2.webp){: width="180" .normal }
-![Flip Clock screenshot 3: Flip Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/blog/flip_clock_3.webp){: width="180" .normal }
-![Flip Clock screenshot 4: Flip Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/blog/flip_clock_4.webp){: width="180" .normal }
-![Flip Clock screenshot 5: Flip Clock, in depth — Only Clock for the Nightstand: A Spare Phone as a Bedside Clock](/assets/images/blog/flip_clock_5.webp){: width="180" .normal }
+![Flip Clock clock home & display](/assets/images/blog/flip_clock_1.webp){: width="180" .normal }
+![Flip Clock night mode & theme](/assets/images/blog/flip_clock_2.webp){: width="180" .normal }
+![Flip Clock alarm & timer](/assets/images/blog/flip_clock_3.webp){: width="180" .normal }
+![Flip Clock widget & lockscreen](/assets/images/blog/flip_clock_4.webp){: width="180" .normal }
+![Flip Clock settings & options](/assets/images/blog/flip_clock_5.webp){: width="180" .normal }
 
 Flip Clock (package `com.wssc.simpleclock`) is a free, ad-free **flip-clock app** with brightness and always-on controls.
 

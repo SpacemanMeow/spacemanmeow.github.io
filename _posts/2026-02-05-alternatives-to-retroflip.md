@@ -35,11 +35,11 @@ Below we compare six strong **alternatives to Retroflip** — from a cute, featu
 
 ### 1. Only Clock — best full-featured flip clock
 
-![Only Clock screenshot: Only Clock: best full-featured flip clock — Best Retroflip Alternatives in 2026](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
-![Only Clock screenshot 2: Only Clock: best full-featured flip clock — Best Retroflip Alternatives in 2026](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
-![Only Clock screenshot 3: Only Clock: best full-featured flip clock — Best Retroflip Alternatives in 2026](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
-![Only Clock screenshot 4: Only Clock: best full-featured flip clock — Best Retroflip Alternatives in 2026](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
-![Only Clock screenshot 5: Only Clock: best full-featured flip clock — Best Retroflip Alternatives in 2026](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
+![OnlyClock settings & options](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
+![OnlyClock clock home & display](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
+![OnlyClock clock home & display](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
+![OnlyClock alarm & timer](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
+![OnlyClock night mode & theme](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
 
 Only Clock is a **fullscreen flip clock** for Android and iOS with a beautiful flip animation, many themes, white noise for focus, a floating clock, and widgets. It is the closest all-round upgrade to Retroflip and fixes almost every gap above.
 
@@ -66,10 +66,10 @@ Only Clock is a **fullscreen flip clock** for Android and iOS with a beautiful f
 
 ### 2. FliTik — best for Pomodoro and countdown
 
-![FliTik Flip Clock screenshot: FliTik: best for Pomodoro and countdown — Best Retroflip Alternatives in 2026](/assets/images/blog/flitik_flip_clock_1.webp){: width="180" .normal }
-![FliTik Flip Clock screenshot 2: FliTik: best for Pomodoro and countdown — Best Retroflip Alternatives in 2026](/assets/images/blog/flitik_flip_clock_2.webp){: width="180" .normal }
-![FliTik Flip Clock screenshot 3: FliTik: best for Pomodoro and countdown — Best Retroflip Alternatives in 2026](/assets/images/blog/flitik_flip_clock_3.webp){: width="180" .normal }
-![FliTik Flip Clock screenshot 4: FliTik: best for Pomodoro and countdown — Best Retroflip Alternatives in 2026](/assets/images/blog/flitik_flip_clock_4.webp){: width="180" .normal }
+![Flitik Flip Clock clock home & display](/assets/images/blog/flitik_flip_clock_1.webp){: width="180" .normal }
+![Flitik Flip Clock night mode & theme](/assets/images/blog/flitik_flip_clock_2.webp){: width="180" .normal }
+![Flitik Flip Clock alarm & timer](/assets/images/blog/flitik_flip_clock_3.webp){: width="180" .normal }
+![Flitik Flip Clock widget & lockscreen](/assets/images/blog/flitik_flip_clock_4.webp){: width="180" .normal }
 
 FliTik is a cross-platform **flip clock** that leans into ritual: stunning flip animations, a Pomodoro timer, count-up/count-down modes, and ambient sound so every second feels intentional. It's popular as a study and work-focus companion.
 
@@ -94,11 +94,11 @@ FliTik is a cross-platform **flip clock** that leans into ritual: stunning flip 
 
 ### 3. Flip Clock: World Clock — best Android flip clock with weather
 
-![WSSC Clock screenshot: Flip Clock: World Clock: best Android flip clock with weather — Best Retroflip Alternatives in 2026](/assets/images/blog/wssc_clock_1.webp){: width="180" .normal }
-![WSSC Clock screenshot 2: Flip Clock: World Clock: best Android flip clock with weather — Best Retroflip Alternatives in 2026](/assets/images/blog/wssc_clock_2.webp){: width="180" .normal }
-![WSSC Clock screenshot 3: Flip Clock: World Clock: best Android flip clock with weather — Best Retroflip Alternatives in 2026](/assets/images/blog/wssc_clock_3.webp){: width="180" .normal }
-![WSSC Clock screenshot 4: Flip Clock: World Clock: best Android flip clock with weather — Best Retroflip Alternatives in 2026](/assets/images/blog/wssc_clock_4.webp){: width="180" .normal }
-![WSSC Clock screenshot 5: Flip Clock: World Clock: best Android flip clock with weather — Best Retroflip Alternatives in 2026](/assets/images/blog/wssc_clock_5.webp){: width="180" .normal }
+![WSSC Clock clock home & display](/assets/images/blog/wssc_clock_1.webp){: width="180" .normal }
+![WSSC Clock night mode & theme](/assets/images/blog/wssc_clock_2.webp){: width="180" .normal }
+![WSSC Clock alarm & timer](/assets/images/blog/wssc_clock_3.webp){: width="180" .normal }
+![WSSC Clock widget & lockscreen](/assets/images/blog/wssc_clock_4.webp){: width="180" .normal }
+![WSSC Clock settings & options](/assets/images/blog/wssc_clock_5.webp){: width="180" .normal }
 
 Flip Clock: World Clock is a free Android **flip clock** that adds weather, a home-screen widget, a Pomodoro timer and a floating clock on top of the classic flip face.
 
@@ -123,8 +123,8 @@ Flip Clock: World Clock is a free Android **flip clock** that adds weather, a ho
 
 ### 4. Fullscreen Clock — best minimal fullscreen focus
 
-![Fullscreen Clock screenshot: Fullscreen Clock: best minimal fullscreen focus — Best Retroflip Alternatives in 2026](/assets/images/blog/fullscreen_clock_1.webp){: width="360" .normal }
-![Fullscreen Clock screenshot 2: Fullscreen Clock: best minimal fullscreen focus — Best Retroflip Alternatives in 2026](/assets/images/blog/fullscreen_clock_2.webp){: width="360" .normal }
+![Fullscreen Clock clock home & display](/assets/images/blog/fullscreen_clock_1.webp){: width="360" .normal }
+![Fullscreen Clock night mode & theme](/assets/images/blog/fullscreen_clock_2.webp){: width="360" .normal }
 
 Fullscreen Clock: Flip & Focus turns your iPhone or iPad into a clean, always-on **flip clock** with thirteen faces, night dimming, landscape support, and a built-in Pomodoro.
 
@@ -149,8 +149,8 @@ Fullscreen Clock: Flip & Focus turns your iPhone or iPad into a clean, always-on
 
 ### 5. Flip Clock: Digital Desk Widget — best desk widget + screensaver
 
-![Flip Digital Clock screenshot: Flip Clock: Digital Desk Widget: best desk widget + screensaver — Best Retroflip Alternatives in 2026](/assets/images/blog/flip_digital_1.webp){: width="360" .normal }
-![Flip Digital Clock screenshot 2: Flip Clock: Digital Desk Widget: best desk widget + screensaver — Best Retroflip Alternatives in 2026](/assets/images/blog/flip_digital_2.webp){: width="360" .normal }
+![Flip Digital home screen](/assets/images/blog/flip_digital_1.webp){: width="360" .normal }
+![Flip Digital feature detail](/assets/images/blog/flip_digital_2.webp){: width="360" .normal }
 
 Flip Clock: Digital Desk Widget is an iOS app focused on **desktop-style flip clocks**, interactive standby widgets, and a screensaver-like mode for desk and nightstand use.
 
@@ -175,11 +175,11 @@ Flip Clock: Digital Desk Widget is an iOS app focused on **desktop-style flip cl
 
 ### 6. Flip Clock — Digital Clock — best lightweight themed clock
 
-![Flip Clock Digital screenshot: Flip Clock: Digital Clock — best lightweight themed clock — Best Retroflip Alternatives in 2026](/assets/images/blog/flip_clock_digital_1.webp){: width="180" .normal }
-![Flip Clock Digital screenshot 2: Flip Clock: Digital Clock — best lightweight themed clock — Best Retroflip Alternatives in 2026](/assets/images/blog/flip_clock_digital_2.webp){: width="180" .normal }
-![Flip Clock Digital screenshot 3: Flip Clock: Digital Clock — best lightweight themed clock — Best Retroflip Alternatives in 2026](/assets/images/blog/flip_clock_digital_3.webp){: width="180" .normal }
-![Flip Clock Digital screenshot 4: Flip Clock: Digital Clock — best lightweight themed clock — Best Retroflip Alternatives in 2026](/assets/images/blog/flip_clock_digital_4.webp){: width="180" .normal }
-![Flip Clock Digital screenshot 5: Flip Clock: Digital Clock — best lightweight themed clock — Best Retroflip Alternatives in 2026](/assets/images/blog/flip_clock_digital_5.webp){: width="180" .normal }
+![Flip Clock Digital clock home & display](/assets/images/blog/flip_clock_digital_1.webp){: width="180" .normal }
+![Flip Clock Digital night mode & theme](/assets/images/blog/flip_clock_digital_2.webp){: width="180" .normal }
+![Flip Clock Digital alarm & timer](/assets/images/blog/flip_clock_digital_3.webp){: width="180" .normal }
+![Flip Clock Digital widget & lockscreen](/assets/images/blog/flip_clock_digital_4.webp){: width="180" .normal }
+![Flip Clock Digital settings & options](/assets/images/blog/flip_clock_digital_5.webp){: width="180" .normal }
 
 Flip Clock — Digital Clock is a simple, elegant iOS **flip clock** with themes, a standby widget, seconds/date display, and 12/24-hour support — a no-frills alternative to Retroflip.
 

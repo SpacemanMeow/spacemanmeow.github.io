@@ -30,11 +30,11 @@ lang: zh
 
 ## 深入看 Meow Mood
 
-![Meow Mood Diary 截图：深入看 Meow Mood —— Meow Mood：留在你设备上的私密日记](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
-![Meow Mood Diary 截图 2：深入看 Meow Mood —— Meow Mood：留在你设备上的私密日记](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
-![Meow Mood Diary 截图 3：深入看 Meow Mood —— Meow Mood：留在你设备上的私密日记](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
-![Meow Mood Diary 截图 4：深入看 Meow Mood —— Meow Mood：留在你设备上的私密日记](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
-![Meow Mood Diary 截图 5：深入看 Meow Mood —— Meow Mood：留在你设备上的私密日记](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
+![Meow Mood Diary 日记编辑与心情记录](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
+![Meow Mood Diary 心情选择与标签](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
+![Meow Mood Diary 统计图表与趋势](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
+![Meow Mood Diary 日历与历史回顾](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![Meow Mood Diary 备份与导出](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
 
 Meow Mood 是一款安卓与 iOS 的 **猫主题心情与日记应用**，以隐私为默认，而非你要去找的设置。
 
@@ -57,11 +57,11 @@ Meow Mood 是一款安卓与 iOS 的 **猫主题心情与日记应用**，以隐
 
 ## 深入看 Day One
 
-![Day One 截图：深入看 Day One —— Meow Mood：留在你设备上的私密日记](/assets/images/blog/day_one_1.webp){: width="180" .normal }
-![Day One 截图 2：深入看 Day One —— Meow Mood：留在你设备上的私密日记](/assets/images/blog/day_one_2.webp){: width="180" .normal }
-![Day One 截图 3：深入看 Day One —— Meow Mood：留在你设备上的私密日记](/assets/images/blog/day_one_3.webp){: width="180" .normal }
-![Day One 截图 4：深入看 Day One —— Meow Mood：留在你设备上的私密日记](/assets/images/blog/day_one_4.webp){: width="180" .normal }
-![Day One 截图 5：深入看 Day One —— Meow Mood：留在你设备上的私密日记](/assets/images/blog/day_one_5.webp){: width="180" .normal }
+![Day One 日记编辑与心情记录](/assets/images/blog/day_one_1.webp){: width="180" .normal }
+![Day One 心情选择与标签](/assets/images/blog/day_one_2.webp){: width="180" .normal }
+![Day One 统计图表与趋势](/assets/images/blog/day_one_3.webp){: width="180" .normal }
+![Day One 日历与历史回顾](/assets/images/blog/day_one_4.webp){: width="180" .normal }
+![Day One 备份与导出](/assets/images/blog/day_one_5.webp){: width="180" .normal }
 
 Day One 是获奖最多的日记应用，跨 Android、iOS、Mac 与网页加密同步。
 

@@ -48,11 +48,11 @@ CPU Monitor shows **real-time CPU temperature and frequency, RAM, battery and st
 
 The home screen has tabs: **CPU / SYSTEM / FLOATING / SENSOR**, with an **Upgrade** button at the top.
 
-![CPU Monitor home screenshot: First: time Use — CPU Monitor Official User Guide](/assets/images/blog/tutorial_cpu_home.webp){: width="180" .normal }
-![CPU Monitor floating screenshot: First: time Use — CPU Monitor Official User Guide](/assets/images/blog/tutorial_cpu_floating.webp){: width="180" .normal }
-![CPU Monitor clean screenshot: First: time Use — CPU Monitor Official User Guide](/assets/images/blog/tutorial_cpu_clean.webp){: width="180" .normal }
-![CPU Monitor sensor screenshot: First: time Use — CPU Monitor Official User Guide](/assets/images/blog/tutorial_cpu_sensor.webp){: width="180" .normal }
-![CPU Monitor system screenshot: First: time Use — CPU Monitor Official User Guide](/assets/images/blog/tutorial_cpu_system.webp){: width="180" .normal }
+![CPU Monitor temperature & frequency monitor](/assets/images/blog/tutorial_cpu_home.webp){: width="180" .normal }
+![CPU Monitor temperature & frequency monitor](/assets/images/blog/tutorial_cpu_floating.webp){: width="180" .normal }
+![CPU Monitor temperature & frequency monitor](/assets/images/blog/tutorial_cpu_clean.webp){: width="180" .normal }
+![CPU Monitor temperature & frequency monitor](/assets/images/blog/tutorial_cpu_sensor.webp){: width="180" .normal }
+![CPU Monitor temperature & frequency monitor](/assets/images/blog/tutorial_cpu_system.webp){: width="180" .normal }
 
 ## Real-time CPU
 

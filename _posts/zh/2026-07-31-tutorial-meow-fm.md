@@ -51,7 +51,7 @@ Meow FM 是一款猫主题白噪音应用，用于睡眠、放松与专注。播
 - 再点一次停止
 - 用计时滑块安排自动停止
 
-![Meow FM 主屏截图：首次使用 —— Meow FM 官方使用指南](/assets/images/blog/tutorial_fm_home.webp){: width="180" .normal }
+![Tutorial Fm 电台列表与播放](/assets/images/blog/tutorial_fm_home.webp){: width="180" .normal }
 
 ## 播放环境声
 
@@ -68,7 +68,7 @@ Meow FM 是一款猫主题白噪音应用，用于睡眠、放松与专注。播
 2. 计时归零时播放自动停止
 3. 在入睡前置好，声音就不会整夜响
 
-![Meow FM 计时截图：睡眠计时器 —— Meow FM 官方使用指南](/assets/images/blog/tutorial_fm_timer.webp){: width="180" .normal }
+![Tutorial Fm 电台列表与播放](/assets/images/blog/tutorial_fm_timer.webp){: width="180" .normal }
 
 ## 后台与熄屏播放
 
@@ -88,7 +88,7 @@ Meow FM 提供三种可放到主屏的小组件：
 
 从小组件选择器添加，再在组件配置里设定声音。
 
-![Meow FM 组件截图：主屏小组件 —— Meow FM 官方使用指南](/assets/images/blog/tutorial_fm_widget.webp){: width="180" .normal }
+![Tutorial Fm 电台列表与播放](/assets/images/blog/tutorial_fm_widget.webp){: width="180" .normal }
 
 ## 免费 vs 高级声音
 

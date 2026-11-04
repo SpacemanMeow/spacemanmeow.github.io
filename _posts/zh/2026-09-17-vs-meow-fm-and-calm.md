@@ -31,11 +31,11 @@ lang: zh
 
 ## Meow FM 详解
 
-![Meow FM 截图：Meow FM 详解 —— Meow FM vs Calm：该选哪款助眠声音应用？](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
-![Meow FM 截图 2：Meow FM 详解 —— Meow FM vs Calm：该选哪款助眠声音应用？](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
-![Meow FM 截图 3：Meow FM 详解 —— Meow FM vs Calm：该选哪款助眠声音应用？](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
-![Meow FM 截图 4：Meow FM 详解 —— Meow FM vs Calm：该选哪款助眠声音应用？](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
-![Meow FM 截图 5：Meow FM 详解 —— Meow FM vs Calm：该选哪款助眠声音应用？](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
+![Meow FM 电台列表与播放](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
+![Meow FM 收藏与频道](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
+![Meow FM 定时器与睡眠](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
+![Meow FM 音质与均衡器](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
+![Meow FM 设置与账号](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
 
 Meow FM 是一款 **白噪音应用**，用于睡眠、放松与专注。挑一个场景——雨、暴风、森林、海边、壁炉——加上睡眠计时器，然后播放。界面温暖且猫主题，并带一个桌面时钟，可兼作床头伴侣。
 
@@ -66,10 +66,10 @@ Meow FM 是一款 **白噪音应用**，用于睡眠、放松与专注。挑一�
 
 ## Calm 详解
 
-![Calm 截图：Calm 详解 —— Meow FM vs Calm：该选哪款助眠声音应用？](/assets/images/blog/calm_1.webp){: width="180" .normal }
-![Calm 截图 2：Calm 详解 —— Meow FM vs Calm：该选哪款助眠声音应用？](/assets/images/blog/calm_2.webp){: width="180" .normal }
-![Calm 截图 3：Calm 详解 —— Meow FM vs Calm：该选哪款助眠声音应用？](/assets/images/blog/calm_3.webp){: width="180" .normal }
-![Calm 截图 4：Calm 详解 —— Meow FM vs Calm：该选哪款助眠声音应用？](/assets/images/blog/calm_4.webp){: width="180" .normal }
+![Calm 课程与冥想主界面](/assets/images/blog/calm_1.webp){: width="180" .normal }
+![Calm 呼吸与正念练习](/assets/images/blog/calm_2.webp){: width="180" .normal }
+![Calm 睡眠故事与放松](/assets/images/blog/calm_3.webp){: width="180" .normal }
+![Calm 进度与统计](/assets/images/blog/calm_4.webp){: width="180" .normal }
 
 Calm 是最知名的心理健康应用之一：引导冥想、名人旁白的睡眠故事、呼吸练习，以及大音乐与声音库。它是一个健康平台，而不只是噪音播放器。
 

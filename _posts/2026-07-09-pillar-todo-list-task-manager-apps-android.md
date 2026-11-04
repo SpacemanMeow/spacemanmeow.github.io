@@ -34,11 +34,11 @@ On Android, a clean home-screen widget plus offline access and a fingerprint loc
 
 ## Meow Todo List, in depth
 
-![Meow Todo screenshot: Meow Todo List, in depth — Best To-Do List & Task Manager Apps for Android (2026)](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
-![Meow Todo screenshot 2: Meow Todo List, in depth — Best To-Do List & Task Manager Apps for Android (2026)](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
-![Meow Todo screenshot 3: Meow Todo List, in depth — Best To-Do List & Task Manager Apps for Android (2026)](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
-![Meow Todo screenshot 4: Meow Todo List, in depth — Best To-Do List & Task Manager Apps for Android (2026)](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
-![Meow Todo screenshot 5: Meow Todo List, in depth — Best To-Do List & Task Manager Apps for Android (2026)](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
+![Meow Todo List task list & today's to-dos](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
+![Meow Todo List task editor & reminder](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
+![Meow Todo List lists & tag groups](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
+![Meow Todo List calendar & schedule view](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
+![Meow Todo List sync & settings](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
 
 Meow Todo List is a simple schedule planner and to-do list task manager for Android and iOS, with calendar view, subtasks, reminders and cloud sync.
 

@@ -51,7 +51,7 @@ Floating Assistant 为安卓添加一颗 **浮动球**，用于快速启动应�
 - 打开 **主页入口** 显示浮动球
 - 设置齿轮可打开语言、评分、分享与升级
 
-![Floating Assistant 主屏截图：首次使用 —— Floating Assistant 官方使用指南](/assets/images/blog/tutorial_float_home.webp){: width="180" .normal }
+![Tutorial Float 主界面](/assets/images/blog/tutorial_float_home.webp){: width="180" .normal }
 
 ## 授予叠层与无障碍
 
@@ -68,7 +68,7 @@ Floating Assistant 为安卓添加一颗 **浮动球**，用于快速启动应�
 2. 球出现；**拖动** 它重新定位——它会自动吸附到左/右边缘
 3. 位置以屏幕百分比保存
 
-![Floating Assistant 球截图：启用并移动浮动球 —— Floating Assistant 官方使用指南](/assets/images/blog/tutorial_float_ball.webp){: width="180" .normal }
+![Tutorial Float 主界面](/assets/images/blog/tutorial_float_ball.webp){: width="180" .normal }
 
 ## 球的动作
 
@@ -93,7 +93,7 @@ Floating Assistant 为安卓添加一颗 **浮动球**，用于快速启动应�
    - **旋转** 写入自动旋转设置
 3. 用 **组合** 小组件把多个开关归一组
 
-![Floating Assistant 开关截图：系统开关小组件 —— Floating Assistant 官方使用指南](/assets/images/blog/tutorial_float_toggle.webp){: width="180" .normal }
+![Tutorial Float 主界面](/assets/images/blog/tutorial_float_toggle.webp){: width="180" .normal }
 
 ## 大小、颜色、吸附
 

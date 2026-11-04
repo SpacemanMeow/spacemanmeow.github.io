@@ -34,11 +34,11 @@ On Android, widgets are first-class: One Widget drops clocks, toggles and app sh
 
 ## One Widget, in depth
 
-![One Widget screenshot: One Widget, in depth — Best Android Home Screen Widget Apps (2026)](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
-![One Widget screenshot 2: One Widget, in depth — Best Android Home Screen Widget Apps (2026)](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
-![One Widget screenshot 3: One Widget, in depth — Best Android Home Screen Widget Apps (2026)](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
-![One Widget screenshot 4: One Widget, in depth — Best Android Home Screen Widget Apps (2026)](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
-![One Widget screenshot 5: One Widget, in depth — Best Android Home Screen Widget Apps (2026)](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
+![One Widget widget home](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
+![One Widget custom look & theme](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
+![One Widget data source & layout](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
+![One Widget interaction & shortcuts](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
+![One Widget settings & permissions](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
 
 One Widget packs 500+ customizable Android home screen widgets in Glass iOS, Material You, Galaxy One UI and Nothing styles, plus app shortcuts and quick toggles.
 

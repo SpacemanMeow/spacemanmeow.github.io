@@ -40,11 +40,11 @@ lang: zh
 
 ## 深入看 Meow Money Manager
 
-![Meow Money 截图：深入看 Meow Money Manager —— 最佳安卓记账与开销追踪应用（2026）](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
-![Meow Money 截图 2：深入看 Meow Money Manager —— 最佳安卓记账与开销追踪应用（2026）](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
-![Meow Money 截图 3：深入看 Meow Money Manager —— 最佳安卓记账与开销追踪应用（2026）](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
-![Meow Money 截图 4：深入看 Meow Money Manager —— 最佳安卓记账与开销追踪应用（2026）](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
-![Meow Money 截图 5：深入看 Meow Money Manager —— 最佳安卓记账与开销追踪应用（2026）](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
+![喵窝记账（Meow Money Manager） 主界面与账户总览](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
+![喵窝记账（Meow Money Manager） 预算与分类设置](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
+![喵窝记账（Meow Money Manager） 图表与收支统计](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
+![喵窝记账（Meow Money Manager） 多账本与资产管理](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
+![喵窝记账（Meow Money Manager） 报销与数据导出](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
 
 Meow Money Manager 是一款安卓与 iOS 的 **猫主题开销追踪与记账应用**，把所有数据 **存在你设备里**、锁在指纹之后——无需注册、无需银行登录、除非你备份到 iCloud 或 WebDav，否则数据不出手机。
 

@@ -32,11 +32,11 @@ lang: zh
 
 ## CPU Monitor 详解
 
-![CPU Monitor 截图：CPU Monitor 详解 —— CPU Monitor vs CPU-Z：哪款安卓硬件应用？](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
-![CPU Monitor 截图 2：CPU Monitor 详解 —— CPU Monitor vs CPU-Z：哪款安卓硬件应用？](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
-![CPU Monitor 截图 3：CPU Monitor 详解 —— CPU Monitor vs CPU-Z：哪款安卓硬件应用？](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
-![CPU Monitor 截图 4：CPU Monitor 详解 —— CPU Monitor vs CPU-Z：哪款安卓硬件应用？](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
-![CPU Monitor 截图 5：CPU Monitor 详解 —— CPU Monitor vs CPU-Z：哪款安卓硬件应用？](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
+![CPU Monitor 温度与频率监控主界面](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
+![CPU Monitor 设置与高温告警](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
+![CPU Monitor 传感器与电池信息](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
+![CPU Monitor 设备硬件概览](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![CPU Monitor 实时核心频率详情](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
 
 CPU Monitor 把你的状态栏与主屏变成一块实时仪表盘。它的招牌功能是 **实时 CPU 温度与频率** 配合过热报警，让你在长时间游戏或快充触发降频前就收到警告。
 
@@ -65,11 +65,11 @@ CPU Monitor 把你的状态栏与主屏变成一块实时仪表盘。它的招�
 
 ## CPU-Z 详解
 
-![CPU-Z 截图：CPU-Z 详解 —— CPU Monitor vs CPU-Z：哪款安卓硬件应用？](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
-![CPU-Z 截图 2：CPU-Z 详解 —— CPU Monitor vs CPU-Z：哪款安卓硬件应用？](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
-![CPU-Z 截图 3：CPU-Z 详解 —— CPU Monitor vs CPU-Z：哪款安卓硬件应用？](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
-![CPU-Z 截图 4：CPU-Z 详解 —— CPU Monitor vs CPU-Z：哪款安卓硬件应用？](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
-![CPU-Z 截图 5：CPU-Z 详解 —— CPU Monitor vs CPU-Z：哪款安卓硬件应用？](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
+![CPU-Z 温度与频率监控主界面](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
+![CPU-Z 实时核心频率详情](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
+![CPU-Z 传感器与电池信息](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
+![CPU-Z 设备硬件概览](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
+![CPU-Z 设置与高温告警](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
 
 CPU-Z 是 CPUID 知名 PC 工具的安卓移植版。它打开就是一份干净的标签式规格表：SoC 名称与架构、GPU、内存与存储、电池、传感器，甚至屏幕细节。当你需要 *知道里面是什么* 时，它就是你伸手去拿的应用。
 

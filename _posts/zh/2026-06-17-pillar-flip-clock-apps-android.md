@@ -34,11 +34,11 @@ lang: zh
 
 ## 深入看 Only Clock
 
-![Only Clock 截图：深入看 Only Clock —— 最佳安卓翻页钟应用（2026）](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
-![Only Clock 截图 2：深入看 Only Clock —— 最佳安卓翻页钟应用（2026）](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
-![Only Clock 截图 3：深入看 Only Clock —— 最佳安卓翻页钟应用（2026）](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
-![Only Clock 截图 4：深入看 Only Clock —— 最佳安卓翻页钟应用（2026）](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
-![Only Clock 截图 5：深入看 Only Clock —— 最佳安卓翻页钟应用（2026）](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
+![OnlyClock 设置与选项](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
+![OnlyClock 闹钟与计时器](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
+![OnlyClock 夜间模式与主题](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
 
 Only Clock 是一款精致的安卓与 iOS 全屏翻页钟，带漂亮的翻页动画、时钟组件、白噪音与专注计时器。
 

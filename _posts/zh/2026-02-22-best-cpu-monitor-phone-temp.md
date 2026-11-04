@@ -27,11 +27,11 @@ lang: zh
 
 ## 深入看 CPU Monitor
 
-![CPU Monitor 截图：深入看 CPU Monitor —— 用手机温度监控守住整机清凉：CPU Monitor 对比 CPU-Z](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
-![CPU Monitor 截图 2：深入看 CPU Monitor —— 用手机温度监控守住整机清凉：CPU Monitor 对比 CPU-Z](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
-![CPU Monitor 截图 3：深入看 CPU Monitor —— 用手机温度监控守住整机清凉：CPU Monitor 对比 CPU-Z](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
-![CPU Monitor 截图 4：深入看 CPU Monitor —— 用手机温度监控守住整机清凉：CPU Monitor 对比 CPU-Z](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
-![CPU Monitor 截图 5：深入看 CPU Monitor —— 用手机温度监控守住整机清凉：CPU Monitor 对比 CPU-Z](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
+![CPU Monitor 温度与频率监控主界面](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
+![CPU Monitor 设置与高温告警](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
+![CPU Monitor 传感器与电池信息](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
+![CPU Monitor 设备硬件概览](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![CPU Monitor 实时核心频率详情](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
 
 CPU Monitor 是一款覆盖 CPU、电池与传感器发热的安卓 **整机温度监控工具**，带提醒与建议。
 
@@ -51,11 +51,11 @@ CPU Monitor 是一款覆盖 CPU、电池与传感器发热的安卓 **整机温�
 
 ## 深入看 CPU-Z
 
-![CPU-Z 截图：深入看 CPU-Z —— 用手机温度监控守住整机清凉：CPU Monitor 对比 CPU-Z](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
-![CPU-Z 截图 2：深入看 CPU-Z —— 用手机温度监控守住整机清凉：CPU Monitor 对比 CPU-Z](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
-![CPU-Z 截图 3：深入看 CPU-Z —— 用手机温度监控守住整机清凉：CPU Monitor 对比 CPU-Z](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
-![CPU-Z 截图 4：深入看 CPU-Z —— 用手机温度监控守住整机清凉：CPU Monitor 对比 CPU-Z](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
-![CPU-Z 截图 5：深入看 CPU-Z —— 用手机温度监控守住整机清凉：CPU Monitor 对比 CPU-Z](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
+![CPU-Z 温度与频率监控主界面](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
+![CPU-Z 实时核心频率详情](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
+![CPU-Z 传感器与电池信息](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
+![CPU-Z 设备硬件概览](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
+![CPU-Z 设置与高温告警](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
 
 CPU-Z（包名 `com.cpuid.cpu_z`）会报告硬件细节，包括可用传感器提供的当前温度。
 

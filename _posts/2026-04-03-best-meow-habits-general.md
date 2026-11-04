@@ -30,11 +30,11 @@ Building a habit is mostly about showing up daily, and the right app makes that 
 
 ## Meow Habits, in depth
 
-![Meow Habits screenshot: Meow Habits, in depth — Meow Habits: A Habit Tracker That Makes Consistency Cute](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
-![Meow Habits screenshot 2: Meow Habits, in depth — Meow Habits: A Habit Tracker That Makes Consistency Cute](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
-![Meow Habits screenshot 3: Meow Habits, in depth — Meow Habits: A Habit Tracker That Makes Consistency Cute](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
-![Meow Habits screenshot 4: Meow Habits, in depth — Meow Habits: A Habit Tracker That Makes Consistency Cute](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
-![Meow Habits screenshot 5: Meow Habits, in depth — Meow Habits: A Habit Tracker That Makes Consistency Cute](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
+![Meow Habits habit list & today's check-in](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
+![Meow Habits check-in detail & note](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
+![Meow Habits streak & consecutive days](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
+![Meow Habits stats chart & calendar](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
+![Meow Habits reminder & settings](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
 
 Meow Habits is a **cat-themed habit tracker** for Android and iOS. The core — tracking, streaks, and charts — is free; VIP adds CSV export and extra customization.
 
@@ -57,11 +57,11 @@ Meow Habits is a **cat-themed habit tracker** for Android and iOS. The core — 
 
 ## Streaks, in depth
 
-![Streaks screenshot: Streaks, in depth — Meow Habits: A Habit Tracker That Makes Consistency Cute](/assets/images/blog/streaks_1.webp){: width="180" .normal }
-![Streaks screenshot 2: Streaks, in depth — Meow Habits: A Habit Tracker That Makes Consistency Cute](/assets/images/blog/streaks_2.webp){: width="180" .normal }
-![Streaks screenshot 3: Streaks, in depth — Meow Habits: A Habit Tracker That Makes Consistency Cute](/assets/images/blog/streaks_3.webp){: width="180" .normal }
-![Streaks screenshot 4: Streaks, in depth — Meow Habits: A Habit Tracker That Makes Consistency Cute](/assets/images/blog/streaks_4.webp){: width="180" .normal }
-![Streaks screenshot 5: Streaks, in depth — Meow Habits: A Habit Tracker That Makes Consistency Cute](/assets/images/blog/streaks_5.webp){: width="180" .normal }
+![Streaks habit list & today's check-in](/assets/images/blog/streaks_1.webp){: width="180" .normal }
+![Streaks check-in detail & note](/assets/images/blog/streaks_2.webp){: width="180" .normal }
+![Streaks streak & consecutive days](/assets/images/blog/streaks_3.webp){: width="180" .normal }
+![Streaks stats chart & calendar](/assets/images/blog/streaks_4.webp){: width="180" .normal }
+![Streaks reminder & settings](/assets/images/blog/streaks_5.webp){: width="180" .normal }
 
 Streaks (by Crunchy Bagel) is an **Apple Design Award winner** and the cleanest habit to-do on iOS. It integrates with Apple Health to auto-complete goals like steps or heart rate.
 

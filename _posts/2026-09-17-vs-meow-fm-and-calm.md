@@ -31,11 +31,11 @@ Both help you sleep, but they are different tools. **Meow FM** is a simple, cute
 
 ## Meow FM, in detail
 
-![Meow FM screenshot: Meow FM, in detail — Meow FM vs Calm: Which Sleep Sound App Should You Pick?](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
-![Meow FM screenshot 2: Meow FM, in detail — Meow FM vs Calm: Which Sleep Sound App Should You Pick?](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
-![Meow FM screenshot 3: Meow FM, in detail — Meow FM vs Calm: Which Sleep Sound App Should You Pick?](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
-![Meow FM screenshot 4: Meow FM, in detail — Meow FM vs Calm: Which Sleep Sound App Should You Pick?](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
-![Meow FM screenshot 5: Meow FM, in detail — Meow FM vs Calm: Which Sleep Sound App Should You Pick?](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
+![Meow FM station list & play](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
+![Meow FM favorites & channels](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
+![Meow FM timer & sleep](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
+![Meow FM audio quality & equalizer](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
+![Meow FM settings & account](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
 
 Meow FM is a **white noise app for sleep, relax and focus**. Pick a scene — rain, thunderstorm, forest, seaside, fireplace — add a sleep timer, and let it play. The interface is cozy and cat-themed, with a desktop clock so it doubles as a bedside companion.
 
@@ -66,10 +66,10 @@ People who want pretty, simple ambient sound to fall asleep or focus — no less
 
 ## Calm, in detail
 
-![Calm screenshot: Calm, in detail — Meow FM vs Calm: Which Sleep Sound App Should You Pick?](/assets/images/blog/calm_1.webp){: width="180" .normal }
-![Calm screenshot 2: Calm, in detail — Meow FM vs Calm: Which Sleep Sound App Should You Pick?](/assets/images/blog/calm_2.webp){: width="180" .normal }
-![Calm screenshot 3: Calm, in detail — Meow FM vs Calm: Which Sleep Sound App Should You Pick?](/assets/images/blog/calm_3.webp){: width="180" .normal }
-![Calm screenshot 4: Calm, in detail — Meow FM vs Calm: Which Sleep Sound App Should You Pick?](/assets/images/blog/calm_4.webp){: width="180" .normal }
+![Calm courses & meditation home](/assets/images/blog/calm_1.webp){: width="180" .normal }
+![Calm breathing & mindfulness](/assets/images/blog/calm_2.webp){: width="180" .normal }
+![Calm sleep stories & relax](/assets/images/blog/calm_3.webp){: width="180" .normal }
+![Calm progress & stats](/assets/images/blog/calm_4.webp){: width="180" .normal }
 
 Calm is one of the most recognized mindfulness apps: guided meditations, sleep stories narrated by celebrities, breathing exercises, and a large music and sound library. It's a wellness platform, not just a noise player.
 

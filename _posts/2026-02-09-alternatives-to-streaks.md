@@ -14,11 +14,11 @@ Below we compare six strong **alternatives to Streaks** — from a cute, privacy
 
 ## Why look beyond Streaks
 
-![Streaks screenshot: Why look beyond Streaks — Best Streaks Alternatives in 2026](/assets/images/blog/streaks_1.webp){: width="180" .normal }
-![Streaks screenshot 2: Why look beyond Streaks — Best Streaks Alternatives in 2026](/assets/images/blog/streaks_2.webp){: width="180" .normal }
-![Streaks screenshot 3: Why look beyond Streaks — Best Streaks Alternatives in 2026](/assets/images/blog/streaks_3.webp){: width="180" .normal }
-![Streaks screenshot 4: Why look beyond Streaks — Best Streaks Alternatives in 2026](/assets/images/blog/streaks_4.webp){: width="180" .normal }
-![Streaks screenshot 5: Why look beyond Streaks — Best Streaks Alternatives in 2026](/assets/images/blog/streaks_5.webp){: width="180" .normal }
+![Streaks habit list & today's check-in](/assets/images/blog/streaks_1.webp){: width="180" .normal }
+![Streaks check-in detail & note](/assets/images/blog/streaks_2.webp){: width="180" .normal }
+![Streaks streak & consecutive days](/assets/images/blog/streaks_3.webp){: width="180" .normal }
+![Streaks stats chart & calendar](/assets/images/blog/streaks_4.webp){: width="180" .normal }
+![Streaks reminder & settings](/assets/images/blog/streaks_5.webp){: width="180" .normal }
 
 - **iPhone/iPad only** — there is no Android app and only limited desktop access, so mixed-device households are out.
 - **Paid upfront (~$5.99)** with no free tier to try before buying.
@@ -41,11 +41,11 @@ Below we compare six strong **alternatives to Streaks** — from a cute, privacy
 
 ### 1. Meow Habits — best for a cute, private, no-account tracker
 
-![Meow Habits screenshot: Meow Habits: best for a cute, private, no-account tracker — Best Streaks Alternatives in 2026](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
-![Meow Habits screenshot 2: Meow Habits: best for a cute, private, no-account tracker — Best Streaks Alternatives in 2026](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
-![Meow Habits screenshot 3: Meow Habits: best for a cute, private, no-account tracker — Best Streaks Alternatives in 2026](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
-![Meow Habits screenshot 4: Meow Habits: best for a cute, private, no-account tracker — Best Streaks Alternatives in 2026](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
-![Meow Habits screenshot 5: Meow Habits: best for a cute, private, no-account tracker — Best Streaks Alternatives in 2026](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
+![Meow Habits habit list & today's check-in](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
+![Meow Habits check-in detail & note](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
+![Meow Habits streak & consecutive days](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
+![Meow Habits stats chart & calendar](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
+![Meow Habits reminder & settings](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
 
 Meow Habits is a cat-themed **habit tracker** for Android and iOS. Its standout trait is the **interface**: a cute, cartoon-style design with **500+ rich category icons** that make daily check-ins feel light rather than like a productivity chore. Beyond looks, it covers the practical habit basics — and it does so without forcing you into a cloud account.
 
@@ -72,11 +72,11 @@ Meow Habits is a cat-themed **habit tracker** for Android and iOS. Its standout 
 
 ### 2. Habitica — best for gamified accountability
 
-![Habitica screenshot: Habitica: best for gamified accountability — Best Streaks Alternatives in 2026](/assets/images/blog/habit_rpg_1.webp){: width="180" .normal }
-![Habitica screenshot 2: Habitica: best for gamified accountability — Best Streaks Alternatives in 2026](/assets/images/blog/habit_rpg_2.webp){: width="180" .normal }
-![Habitica screenshot 3: Habitica: best for gamified accountability — Best Streaks Alternatives in 2026](/assets/images/blog/habit_rpg_3.webp){: width="180" .normal }
-![Habitica screenshot 4: Habitica: best for gamified accountability — Best Streaks Alternatives in 2026](/assets/images/blog/habit_rpg_4.webp){: width="180" .normal }
-![Habitica screenshot 5: Habitica: best for gamified accountability — Best Streaks Alternatives in 2026](/assets/images/blog/habit_rpg_5.webp){: width="180" .normal }
+![Habitica habit list & today's check-in](/assets/images/blog/habit_rpg_1.webp){: width="180" .normal }
+![Habitica check-in detail & note](/assets/images/blog/habit_rpg_2.webp){: width="180" .normal }
+![Habitica streak & consecutive days](/assets/images/blog/habit_rpg_3.webp){: width="180" .normal }
+![Habitica stats chart & calendar](/assets/images/blog/habit_rpg_4.webp){: width="180" .normal }
+![Habitica reminder & settings](/assets/images/blog/habit_rpg_5.webp){: width="180" .normal }
 
 Habitica turns your habits, dailies, and to-dos into an **RPG**. You build an avatar, earn XP and gold for completing tasks, and lose health when you slip. It's cross-platform with an account, and parties, guilds, and challenges add a genuine social layer that Streaks lacks.
 
@@ -103,11 +103,11 @@ Habitica turns your habits, dailies, and to-dos into an **RPG**. You build an av
 
 ### 3. Loop Habit Tracker — best for free, open-source, privacy-first stats
 
-![Loop Habit Tracker screenshot: Loop Habit Tracker: best for free, open-source, privacy-first stats — Best Streaks Alternatives in 2026](/assets/images/blog/loop_habit_1.webp){: width="180" .normal }
-![Loop Habit Tracker screenshot 2: Loop Habit Tracker: best for free, open-source, privacy-first stats — Best Streaks Alternatives in 2026](/assets/images/blog/loop_habit_2.webp){: width="180" .normal }
-![Loop Habit Tracker screenshot 3: Loop Habit Tracker: best for free, open-source, privacy-first stats — Best Streaks Alternatives in 2026](/assets/images/blog/loop_habit_3.webp){: width="180" .normal }
-![Loop Habit Tracker screenshot 4: Loop Habit Tracker: best for free, open-source, privacy-first stats — Best Streaks Alternatives in 2026](/assets/images/blog/loop_habit_4.webp){: width="180" .normal }
-![Loop Habit Tracker screenshot 5: Loop Habit Tracker: best for free, open-source, privacy-first stats — Best Streaks Alternatives in 2026](/assets/images/blog/loop_habit_5.webp){: width="180" .normal }
+![Loop habit list & today's check-in](/assets/images/blog/loop_habit_1.webp){: width="180" .normal }
+![Loop check-in detail & note](/assets/images/blog/loop_habit_2.webp){: width="180" .normal }
+![Loop streak & consecutive days](/assets/images/blog/loop_habit_3.webp){: width="180" .normal }
+![Loop stats chart & calendar](/assets/images/blog/loop_habit_4.webp){: width="180" .normal }
+![Loop reminder & settings](/assets/images/blog/loop_habit_5.webp){: width="180" .normal }
 
 Loop is a **free, open-source, ad-free** habit tracker for Android. It strips everything down to solid statistics — habit score, streaks, frequency — and never asks you to sign up. There is no iOS version, but for Android purists it's hard to beat.
 
@@ -133,11 +133,11 @@ Loop is a **free, open-source, ad-free** habit tracker for Android. It strips ev
 
 ### 4. Fabulous — best for science-based coaching
 
-![Fabulous screenshot: Fabulous: best for science-based coaching — Best Streaks Alternatives in 2026](/assets/images/blog/fabulous_1.webp){: width="180" .normal }
-![Fabulous screenshot 2: Fabulous: best for science-based coaching — Best Streaks Alternatives in 2026](/assets/images/blog/fabulous_2.webp){: width="180" .normal }
-![Fabulous screenshot 3: Fabulous: best for science-based coaching — Best Streaks Alternatives in 2026](/assets/images/blog/fabulous_3.webp){: width="180" .normal }
-![Fabulous screenshot 4: Fabulous: best for science-based coaching — Best Streaks Alternatives in 2026](/assets/images/blog/fabulous_4.webp){: width="180" .normal }
-![Fabulous screenshot 5: Fabulous: best for science-based coaching — Best Streaks Alternatives in 2026](/assets/images/blog/fabulous_5.webp){: width="180" .normal }
+![Fabulous habit list & today's check-in](/assets/images/blog/fabulous_1.webp){: width="180" .normal }
+![Fabulous check-in detail & note](/assets/images/blog/fabulous_2.webp){: width="180" .normal }
+![Fabulous streak & consecutive days](/assets/images/blog/fabulous_3.webp){: width="180" .normal }
+![Fabulous stats chart & calendar](/assets/images/blog/fabulous_4.webp){: width="180" .normal }
+![Fabulous reminder & settings](/assets/images/blog/fabulous_5.webp){: width="180" .normal }
 
 Fabulous began as a **Duke University behavioral-economics research project** and frames habit building as guided journeys — morning routines, meditation, sleep, fitness, and mindful eating — with coaching rather than bare checkboxes.
 
@@ -164,11 +164,11 @@ Fabulous began as a **Duke University behavioral-economics research project** an
 
 ### 5. Productive — best for a polished iOS experience
 
-![Productive Habit screenshot: Productive: best for a polished iOS experience — Best Streaks Alternatives in 2026](/assets/images/blog/productive_habit_1.webp){: width="180" .normal }
-![Productive Habit screenshot 2: Productive: best for a polished iOS experience — Best Streaks Alternatives in 2026](/assets/images/blog/productive_habit_2.webp){: width="180" .normal }
-![Productive Habit screenshot 3: Productive: best for a polished iOS experience — Best Streaks Alternatives in 2026](/assets/images/blog/productive_habit_3.webp){: width="180" .normal }
-![Productive Habit screenshot 4: Productive: best for a polished iOS experience — Best Streaks Alternatives in 2026](/assets/images/blog/productive_habit_4.webp){: width="180" .normal }
-![Productive Habit screenshot 5: Productive: best for a polished iOS experience — Best Streaks Alternatives in 2026](/assets/images/blog/productive_habit_5.webp){: width="180" .normal }
+![Productive habit list & today's check-in](/assets/images/blog/productive_habit_1.webp){: width="180" .normal }
+![Productive check-in detail & note](/assets/images/blog/productive_habit_2.webp){: width="180" .normal }
+![Productive streak & consecutive days](/assets/images/blog/productive_habit_3.webp){: width="180" .normal }
+![Productive stats chart & calendar](/assets/images/blog/productive_habit_4.webp){: width="180" .normal }
+![Productive reminder & settings](/assets/images/blog/productive_habit_5.webp){: width="180" .normal }
 
 Productive is one of the **most popular iOS habit trackers**, known for a clean, beautiful interface and excellent widgets. It's iPhone/iPad-first and leans into Apple's design language, making it the closest spiritual sibling to Streaks for Apple users.
 
@@ -192,10 +192,10 @@ Productive is one of the **most popular iOS habit trackers**, known for a clean,
 
 ### 6. Habitify — best for cross-platform, time-based tracking
 
-![Habitify screenshot: Habitify: best for cross-platform, time-based tracking — Best Streaks Alternatives in 2026](/assets/images/blog/habitify_2.webp){: width="180" .normal }
-![Habitify screenshot 2: Habitify: best for cross-platform, time-based tracking — Best Streaks Alternatives in 2026](/assets/images/blog/habitify_3.webp){: width="180" .normal }
-![Habitify screenshot 3: Habitify: best for cross-platform, time-based tracking — Best Streaks Alternatives in 2026](/assets/images/blog/habitify_4.webp){: width="180" .normal }
-![Habitify screenshot 4: Habitify: best for cross-platform, time-based tracking — Best Streaks Alternatives in 2026](/assets/images/blog/habitify_5.webp){: width="180" .normal }
+![Habitify check-in detail & note](/assets/images/blog/habitify_2.webp){: width="180" .normal }
+![Habitify streak & consecutive days](/assets/images/blog/habitify_3.webp){: width="180" .normal }
+![Habitify stats chart & calendar](/assets/images/blog/habitify_4.webp){: width="180" .normal }
+![Habitify reminder & settings](/assets/images/blog/habitify_5.webp){: width="180" .normal }
 
 Habitify is a **cross-platform habit tracker** (iOS, Android, web, Wear OS) that organizes habits by **time of day — morning, afternoon, evening** — and syncs in real time. It's a strong pick if you live across several devices and like habits slotted into your schedule.
 

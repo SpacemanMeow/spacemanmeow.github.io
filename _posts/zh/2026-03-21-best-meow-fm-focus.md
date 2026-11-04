@@ -37,11 +37,11 @@ lang: zh
 
 ## 深入看 Meow FM
 
-![Meow FM 截图：深入看 Meow FM —— 用 Meow FM 专注：白噪音盖住办公室](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
-![Meow FM 截图 2：深入看 Meow FM —— 用 Meow FM 专注：白噪音盖住办公室](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
-![Meow FM 截图 3：深入看 Meow FM —— 用 Meow FM 专注：白噪音盖住办公室](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
-![Meow FM 截图 4：深入看 Meow FM —— 用 Meow FM 专注：白噪音盖住办公室](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
-![Meow FM 截图 5：深入看 Meow FM —— 用 Meow FM 专注：白噪音盖住办公室](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
+![Meow FM 电台列表与播放](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
+![Meow FM 收藏与频道](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
+![Meow FM 定时器与睡眠](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
+![Meow FM 音质与均衡器](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
+![Meow FM 设置与账号](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
 
 Meow FM 是一款安卓与 iOS 的 **猫主题白噪音与专注播放器**。核心免费：雨、海、壁炉等自然循环，外加一个停止播放的计时器，避免它整天响着。
 
@@ -64,10 +64,10 @@ Meow FM 是一款安卓与 iOS 的 **猫主题白噪音与专注播放器**。�
 
 ## 深入看 Calm
 
-![Calm 截图：深入看 Calm —— 用 Meow FM 专注：白噪音盖住办公室](/assets/images/blog/calm_1.webp){: width="180" .normal }
-![Calm 截图 2：深入看 Calm —— 用 Meow FM 专注：白噪音盖住办公室](/assets/images/blog/calm_2.webp){: width="180" .normal }
-![Calm 截图 3：深入看 Calm —— 用 Meow FM 专注：白噪音盖住办公室](/assets/images/blog/calm_3.webp){: width="180" .normal }
-![Calm 截图 4：深入看 Calm —— 用 Meow FM 专注：白噪音盖住办公室](/assets/images/blog/calm_4.webp){: width="180" .normal }
+![Calm 课程与冥想主界面](/assets/images/blog/calm_1.webp){: width="180" .normal }
+![Calm 呼吸与正念练习](/assets/images/blog/calm_2.webp){: width="180" .normal }
+![Calm 睡眠故事与放松](/assets/images/blog/calm_3.webp){: width="180" .normal }
+![Calm 进度与统计](/assets/images/blog/calm_4.webp){: width="180" .normal }
 
 Calm 是 Google Play 上最知名的 **冥想与睡眠应用**（5000 万+ 下载、4.3 星）。除睡眠外，它也提供专注音乐、呼吸，以及每天 10 分钟、面向专注的时段。
 

@@ -29,11 +29,11 @@ lang: zh
 
 ## Meow Mood 详解
 
-![Meow Mood Diary 截图：Meow Mood 详解 —— Meow Mood vs Day One：哪款日记应用适合你？](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
-![Meow Mood Diary 截图 2：Meow Mood 详解 —— Meow Mood vs Day One：哪款日记应用适合你？](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
-![Meow Mood Diary 截图 3：Meow Mood 详解 —— Meow Mood vs Day One：哪款日记应用适合你？](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
-![Meow Mood Diary 截图 4：Meow Mood 详解 —— Meow Mood vs Day One：哪款日记应用适合你？](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
-![Meow Mood Diary 截图 5：Meow Mood 详解 —— Meow Mood vs Day One：哪款日记应用适合你？](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
+![Meow Mood Diary 日记编辑与心情记录](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
+![Meow Mood Diary 心情选择与标签](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
+![Meow Mood Diary 统计图表与趋势](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
+![Meow Mood Diary 日历与历史回顾](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![Meow Mood Diary 备份与导出](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
 
 Meow Mood 是一款 **安全、私密的打卡心情日记**，配宁静的猫咪主题界面。它最突出的特质是 **设计**：可爱的卡通猫咪视觉与丰富的心情图标，让每日打卡轻松愉快，而非临床式的沉重。除了好看，它永不把记录上传到服务器，只备份到你自己的 Google Drive。
 
@@ -64,11 +64,11 @@ Meow Mood 是一款 **安全、私密的打卡心情日记**，配宁静的猫�
 
 ## Day One 详解
 
-![Day One 截图：Day One 详解 —— Meow Mood vs Day One：哪款日记应用适合你？](/assets/images/blog/day_one_1.webp){: width="180" .normal }
-![Day One 截图 2：Day One 详解 —— Meow Mood vs Day One：哪款日记应用适合你？](/assets/images/blog/day_one_2.webp){: width="180" .normal }
-![Day One 截图 3：Day One 详解 —— Meow Mood vs Day One：哪款日记应用适合你？](/assets/images/blog/day_one_3.webp){: width="180" .normal }
-![Day One 截图 4：Day One 详解 —— Meow Mood vs Day One：哪款日记应用适合你？](/assets/images/blog/day_one_4.webp){: width="180" .normal }
-![Day One 截图 5：Day One 详解 —— Meow Mood vs Day One：哪款日记应用适合你？](/assets/images/blog/day_one_5.webp){: width="180" .normal }
+![Day One 日记编辑与心情记录](/assets/images/blog/day_one_1.webp){: width="180" .normal }
+![Day One 心情选择与标签](/assets/images/blog/day_one_2.webp){: width="180" .normal }
+![Day One 统计图表与趋势](/assets/images/blog/day_one_3.webp){: width="180" .normal }
+![Day One 日历与历史回顾](/assets/images/blog/day_one_4.webp){: width="180" .normal }
+![Day One 备份与导出](/assets/images/blog/day_one_5.webp){: width="180" .normal }
 
 Day One 是最知名的数字日记：一个干净的书写空间，带照片、音频、视频，以及跨手机、平板、Mac 与网页的端到端加密云端同步。它专为捕捉生活，而非只是心情。
 

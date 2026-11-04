@@ -37,11 +37,11 @@ CCleaner 名气很大，但在现代安卓上它的作用有限，不少用户�
 
 ### 1. System Monitor —— 监控与清理兼顾最佳
 
-![System Monitor 截图：System Monitor：监控与清理兼顾最佳 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
-![System Monitor 截图 2：System Monitor：监控与清理兼顾最佳 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
-![System Monitor 截图 3：System Monitor：监控与清理兼顾最佳 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
-![System Monitor 截图 4：System Monitor：监控与清理兼顾最佳 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
-![System Monitor 截图 5：System Monitor：监控与清理兼顾最佳 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
+![System Monitor 内存与存储占用](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
+![System Monitor 进程与电池监控](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
+![System Monitor 网络与传感器](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
+![System Monitor 悬浮窗与设置](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
 
 System Monitor 是一款 **安卓全能工具**，集 CPU 监控、存储清理、内存加速与电池医生于一体——洞察 *与* 清理一次搞定。
 
@@ -66,11 +66,11 @@ System Monitor 是一款 **安卓全能工具**，集 CPU 监控、存储清理�
 
 ### 2. Files by Google —— 最安全的清理工具
 
-![Files by Google 截图：Files by Google：最安全的清理工具 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/google_files_1.webp){: width="180" .normal }
-![Files by Google 截图 2：Files by Google：最安全的清理工具 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/google_files_2.webp){: width="180" .normal }
-![Files by Google 截图 3：Files by Google：最安全的清理工具 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/google_files_3.webp){: width="180" .normal }
-![Files by Google 截图 4：Files by Google：最安全的清理工具 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/google_files_4.webp){: width="180" .normal }
-![Files by Google 截图 5：Files by Google：最安全的清理工具 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/google_files_5.webp){: width="180" .normal }
+![Google Files 文件浏览主界面](/assets/images/blog/google_files_1.webp){: width="180" .normal }
+![Google Files 分类与搜索](/assets/images/blog/google_files_2.webp){: width="180" .normal }
+![Google Files 传输与分享](/assets/images/blog/google_files_3.webp){: width="180" .normal }
+![Google Files 压缩与管理](/assets/images/blog/google_files_4.webp){: width="180" .normal }
+![Google Files 设置与云盘](/assets/images/blog/google_files_5.webp){: width="180" .normal }
 
 Files by Google 是谷歌的 **官方存储管理器**——它会清理未使用的文件、查找重复项，并以隐私友好、不激进后台任务的设计帮你释放空间。
 
@@ -95,11 +95,11 @@ Files by Google 是谷歌的 **官方存储管理器**——它会清理未使�
 
 ### 3. SD Maid —— 最佳深度清理
 
-![SD Maid 截图：SD Maid：最佳深度清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/sd_maid_1.webp){: width="180" .normal }
-![SD Maid 截图 2：SD Maid：最佳深度清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/sd_maid_2.webp){: width="180" .normal }
-![SD Maid 截图 3：SD Maid：最佳深度清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/sd_maid_3.webp){: width="180" .normal }
-![SD Maid 截图 4：SD Maid：最佳深度清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/sd_maid_4.webp){: width="180" .normal }
-![SD Maid 截图 5：SD Maid：最佳深度清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/sd_maid_5.webp){: width="180" .normal }
+![SD Maid 清理扫描主界面](/assets/images/blog/sd_maid_1.webp){: width="180" .normal }
+![SD Maid 垃圾文件与缓存](/assets/images/blog/sd_maid_2.webp){: width="180" .normal }
+![SD Maid 内存加速与进程](/assets/images/blog/sd_maid_3.webp){: width="180" .normal }
+![SD Maid 隐私与残留清理](/assets/images/blog/sd_maid_4.webp){: width="180" .normal }
+![SD Maid 设置与计划任务](/assets/images/blog/sd_maid_5.webp){: width="180" .normal }
 
 SD Maid 是一款 **谨慎而深度的安卓清理工具**：它能找到卸载后遗留的「残骸」文件、重复项、待优化的数据库，并提供应用管控。
 
@@ -124,11 +124,11 @@ SD Maid 是一款 **谨慎而深度的安卓清理工具**：它能找到卸载�
 
 ### 4. CCleaner —— 最熟悉的快速清理
 
-![CCleaner 截图：CCleaner：最熟悉的快速清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
-![CCleaner 截图 2：CCleaner：最熟悉的快速清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
-![CCleaner 截图 3：CCleaner：最熟悉的快速清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
-![CCleaner 截图 4：CCleaner：最熟悉的快速清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
-![CCleaner 截图 5：CCleaner：最熟悉的快速清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
+![CCleaner 清理扫描主界面](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
+![CCleaner 垃圾文件与缓存](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
+![CCleaner 内存加速与进程](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
+![CCleaner 隐私与残留清理](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
+![CCleaner 设置与计划任务](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
 
 CCleaner 移动版是 **那款知名 PC 工具的手机版本**——快速清除缓存、浏览历史与未用文件，并提供基础的照片与电池辅助功能。
 
@@ -153,10 +153,10 @@ CCleaner 移动版是 **那款知名 PC 工具的手机版本**——快速清�
 
 ### 5. Avast Cleanup —— 最佳照片清理
 
-![Avast Cleanup 截图：Avast Cleanup：最佳照片清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/avast_cleanup_2.webp){: width="180" .normal }
-![Avast Cleanup 截图 2：Avast Cleanup：最佳照片清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/avast_cleanup_3.webp){: width="180" .normal }
-![Avast Cleanup 截图 3：Avast Cleanup：最佳照片清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/avast_cleanup_4.webp){: width="180" .normal }
-![Avast Cleanup 截图 4：Avast Cleanup：最佳照片清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/avast_cleanup_5.webp){: width="180" .normal }
+![Avast Cleanup 垃圾文件与缓存](/assets/images/blog/avast_cleanup_2.webp){: width="180" .normal }
+![Avast Cleanup 内存加速与进程](/assets/images/blog/avast_cleanup_3.webp){: width="180" .normal }
+![Avast Cleanup 隐私与残留清理](/assets/images/blog/avast_cleanup_4.webp){: width="180" .normal }
+![Avast Cleanup 设置与计划任务](/assets/images/blog/avast_cleanup_5.webp){: width="180" .normal }
 
 Avast Cleanup 侧重于 **从照片与文件中腾出空间**——它能揪出低画质、相似与重复的照片，并清理垃圾与应用缓存。
 
@@ -181,10 +181,10 @@ Avast Cleanup 侧重于 **从照片与文件中腾出空间**——它能揪出�
 
 ### 6. Norton Clean —— 最佳简洁垃圾清理
 
-![Norton Clean 截图：Norton Clean：最佳简洁垃圾清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/norton_cleaner_1.webp){: width="180" .normal }
-![Norton Clean 截图 2：Norton Clean：最佳简洁垃圾清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/norton_cleaner_2.webp){: width="180" .normal }
-![Norton Clean 截图 3：Norton Clean：最佳简洁垃圾清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/norton_cleaner_3.webp){: width="180" .normal }
-![Norton Clean 截图 4：Norton Clean：最佳简洁垃圾清理 — 2026 年最佳 CCleaner 安卓替代应用](/assets/images/blog/norton_cleaner_4.webp){: width="180" .normal }
+![Norton Cleaner 清理扫描主界面](/assets/images/blog/norton_cleaner_1.webp){: width="180" .normal }
+![Norton Cleaner 垃圾文件与缓存](/assets/images/blog/norton_cleaner_2.webp){: width="180" .normal }
+![Norton Cleaner 内存加速与进程](/assets/images/blog/norton_cleaner_3.webp){: width="180" .normal }
+![Norton Cleaner 隐私与残留清理](/assets/images/blog/norton_cleaner_4.webp){: width="180" .normal }
 
 Norton Clean 是一款 **直截了当的垃圾与缓存清理工具**，轻点一下即可清除临时文件、残留数据与卸载残留。
 

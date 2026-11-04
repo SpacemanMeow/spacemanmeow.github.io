@@ -29,11 +29,11 @@ lang: zh
 
 ## One Widget 详解
 
-![One Widget 截图：One Widget 详解 —— One Widget vs KWGT：精选组件，还是完全掌控？](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
-![One Widget 截图 2：One Widget 详解 —— One Widget vs KWGT：精选组件，还是完全掌控？](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
-![One Widget 截图 3：One Widget 详解 —— One Widget vs KWGT：精选组件，还是完全掌控？](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
-![One Widget 截图 4：One Widget 详解 —— One Widget vs KWGT：精选组件，还是完全掌控？](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
-![One Widget 截图 5：One Widget 详解 —— One Widget vs KWGT：精选组件，还是完全掌控？](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
+![One Widget 小组件主界面](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
+![One Widget 自定义外观与主题](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
+![One Widget 信息源与布局](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
+![One Widget 交互与快捷操作](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
+![One Widget 设置与权限](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
 
 One Widget 是一款 **一体化安卓主屏工具箱**，打包了横跨四种潮流风格的 500+ 精品组件：Glass iOS、Material You、Galaxy One UI，以及 Nothing 极简风。你挑一个成品组件、改改尺寸，就完成了。
 
@@ -63,11 +63,11 @@ One Widget 是一款 **一体化安卓主屏工具箱**，打包了横跨四种�
 
 ## KWGT 详解
 
-![KWGT 截图：KWGT 详解 —— One Widget vs KWGT：精选组件，还是完全掌控？](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
-![KWGT 截图 2：KWGT 详解 —— One Widget vs KWGT：精选组件，还是完全掌控？](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
-![KWGT 截图 3：KWGT 详解 —— One Widget vs KWGT：精选组件，还是完全掌控？](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
-![KWGT 截图 4：KWGT 详解 —— One Widget vs KWGT：精选组件，还是完全掌控？](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
-![KWGT 截图 5：KWGT 详解 —— One Widget vs KWGT：精选组件，还是完全掌控？](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
+![KWGT 小组件主界面](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
+![KWGT 自定义外观与主题](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
+![KWGT 信息源与布局](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
+![KWGT 交互与快捷操作](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
+![KWGT 设置与权限](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
 
 KWGT（Kustom Widget Maker）是安卓上最强大的组件搭建器。你放置文字、形状、图片与数据点，再把它们绑定到实时来源——天气、音乐、电池，或你自己的公式——创造出完全原创的组件。
 

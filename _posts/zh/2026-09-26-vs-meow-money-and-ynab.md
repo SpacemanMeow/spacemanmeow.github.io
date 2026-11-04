@@ -30,11 +30,11 @@ lang: zh
 
 ## Meow Money Manager 详解
 
-![Meow Money 截图：Meow Money Manager 详解 —— Meow Money Manager vs YNAB：哪款记账应用适合你？](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
-![Meow Money 截图 2：Meow Money Manager 详解 —— Meow Money Manager vs YNAB：哪款记账应用适合你？](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
-![Meow Money 截图 3：Meow Money Manager 详解 —— Meow Money Manager vs YNAB：哪款记账应用适合你？](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
-![Meow Money 截图 4：Meow Money Manager 详解 —— Meow Money Manager vs YNAB：哪款记账应用适合你？](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
-![Meow Money 截图 5：Meow Money Manager 详解 —— Meow Money Manager vs YNAB：哪款记账应用适合你？](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
+![喵窝记账（Meow Money Manager） 主界面与账户总览](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
+![喵窝记账（Meow Money Manager） 预算与分类设置](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
+![喵窝记账（Meow Money Manager） 图表与收支统计](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
+![喵窝记账（Meow Money Manager） 多账本与资产管理](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
+![喵窝记账（Meow Money Manager） 报销与数据导出](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
 
 Meow Money Manager 是一款以隐私与简洁为核心的 **猫咪主题记账与预算管理应用**。你手动（或循环）记一笔、设好分类预算、看着图表走——无需账号，数据都在你设备上。
 
@@ -65,11 +65,11 @@ Meow Money Manager 是一款以隐私与简洁为核心的 **猫咪主题记账�
 
 ## YNAB 详解
 
-![YNAB 截图：YNAB 详解 —— Meow Money Manager vs YNAB：哪款记账应用适合你？](/assets/images/blog/ynab_1.webp){: width="180" .normal }
-![YNAB 截图 2：YNAB 详解 —— Meow Money Manager vs YNAB：哪款记账应用适合你？](/assets/images/blog/ynab_2.webp){: width="180" .normal }
-![YNAB 截图 3：YNAB 详解 —— Meow Money Manager vs YNAB：哪款记账应用适合你？](/assets/images/blog/ynab_3.webp){: width="180" .normal }
-![YNAB 截图 4：YNAB 详解 —— Meow Money Manager vs YNAB：哪款记账应用适合你？](/assets/images/blog/ynab_4.webp){: width="180" .normal }
-![YNAB 截图 5：YNAB 详解 —— Meow Money Manager vs YNAB：哪款记账应用适合你？](/assets/images/blog/ynab_5.webp){: width="180" .normal }
+![YNAB 主界面与账户总览](/assets/images/blog/ynab_1.webp){: width="180" .normal }
+![YNAB 预算与分类设置](/assets/images/blog/ynab_2.webp){: width="180" .normal }
+![YNAB 图表与收支统计](/assets/images/blog/ynab_3.webp){: width="180" .normal }
+![YNAB 多账本与资产管理](/assets/images/blog/ynab_4.webp){: width="180" .normal }
+![YNAB 报销与数据导出](/assets/images/blog/ynab_5.webp){: width="180" .normal }
 
 YNAB 是领先的 **零基预算** 应用：每一块钱都分配好去处，你提前规划，而非只记录过去。它既是一套工具，也是一种方法论，自动银行导入让余额保持实时。
 

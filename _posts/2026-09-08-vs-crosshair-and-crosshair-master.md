@@ -31,10 +31,10 @@ Both draw a reticle over your game, but they suit different players. **Crosshair
 
 ## Crosshair Aim, in detail
 
-![Crosshair Aim screenshot: Crosshair Aim, in detail — Crosshair vs Crosshair Hero: Which Overlay Reticle?](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
-![Crosshair Aim screenshot 2: Crosshair Aim, in detail — Crosshair vs Crosshair Hero: Which Overlay Reticle?](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
-![Crosshair Aim screenshot 3: Crosshair Aim, in detail — Crosshair vs Crosshair Hero: Which Overlay Reticle?](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
-![Crosshair Aim screenshot 4: Crosshair Aim, in detail — Crosshair vs Crosshair Hero: Which Overlay Reticle?](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
+![Crosshair crosshair overlay home](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
+![Crosshair crosshair style & customize](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
+![Crosshair transparency & position](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
+![Crosshair in-game overlay effect](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
 
 Crosshair Aim is a **crosshair app for FPS games** focused on control. It ships 80+ styles and lets you tune size, color, scale, position and transparency, then adjust everything from a floating button *during* a match.
 
@@ -63,7 +63,7 @@ Players who want lots of styles and *live, in-game* tuning rather than a fixed p
 
 ## Crosshair Hero, in detail
 
-![Crosshair Hero screenshot: Crosshair Hero, in detail — Crosshair vs Crosshair Hero: Which Overlay Reticle?](/assets/images/blog/crosshair_hero_1.webp){: width="720" .normal }
+![Crosshair Hero crosshair overlay home](/assets/images/blog/crosshair_hero_1.webp){: width="720" .normal }
 
 Crosshair Hero is a popular **crosshair overlay app** — tap a style, pick a color, and the reticle appears over your shooter. It's the quick, familiar choice for casual players.
 

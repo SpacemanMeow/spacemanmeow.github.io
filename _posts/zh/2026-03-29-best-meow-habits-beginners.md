@@ -30,11 +30,11 @@ lang: zh
 
 ## 深入看 Meow Habits
 
-![Meow Habits 截图：深入看 Meow Habits —— Meow Habits 新手入门：一键开始](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
-![Meow Habits 截图 2：深入看 Meow Habits —— Meow Habits 新手入门：一键开始](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
-![Meow Habits 截图 3：深入看 Meow Habits —— Meow Habits 新手入门：一键开始](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
-![Meow Habits 截图 4：深入看 Meow Habits —— Meow Habits 新手入门：一键开始](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
-![Meow Habits 截图 5：深入看 Meow Habits —— Meow Habits 新手入门：一键开始](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
+![Meow Habits 习惯列表与今日打卡](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
+![Meow Habits 打卡详情与备注](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
+![Meow Habits 连续天数与 Streak](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
+![Meow Habits 统计图表与日历](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
+![Meow Habits 提醒与设置](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
 
 Meow Habits 是一款安卓与 iOS 的 **猫主题习惯追踪器**，核心免费，带一键模板。
 
@@ -56,11 +56,11 @@ Meow Habits 是一款安卓与 iOS 的 **猫主题习惯追踪器**，核心免�
 
 ## 深入看 Streaks
 
-![Streaks 截图：深入看 Streaks —— Meow Habits 新手入门：一键开始](/assets/images/blog/streaks_1.webp){: width="180" .normal }
-![Streaks 截图 2：深入看 Streaks —— Meow Habits 新手入门：一键开始](/assets/images/blog/streaks_2.webp){: width="180" .normal }
-![Streaks 截图 3：深入看 Streaks —— Meow Habits 新手入门：一键开始](/assets/images/blog/streaks_3.webp){: width="180" .normal }
-![Streaks 截图 4：深入看 Streaks —— Meow Habits 新手入门：一键开始](/assets/images/blog/streaks_4.webp){: width="180" .normal }
-![Streaks 截图 5：深入看 Streaks —— Meow Habits 新手入门：一键开始](/assets/images/blog/streaks_5.webp){: width="180" .normal }
+![Streaks 习惯列表与今日打卡](/assets/images/blog/streaks_1.webp){: width="180" .normal }
+![Streaks 打卡详情与备注](/assets/images/blog/streaks_2.webp){: width="180" .normal }
+![Streaks 连续天数与 Streak](/assets/images/blog/streaks_3.webp){: width="180" .normal }
+![Streaks 统计图表与日历](/assets/images/blog/streaks_4.webp){: width="180" .normal }
+![Streaks 提醒与设置](/assets/images/blog/streaks_5.webp){: width="180" .normal }
 
 Streaks（Crunchy Bagel）是最精致的 iOS 习惯待办，支持 Apple Health 自动追踪。
 

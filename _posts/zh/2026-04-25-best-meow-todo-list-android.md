@@ -30,11 +30,11 @@ lang: zh
 
 ## 深入看 Meow Todo
 
-![Meow Todo 截图：深入看 Meow Todo —— Meow Todo 安卓版：留在你手机上的待办清单](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
-![Meow Todo 截图 2：深入看 Meow Todo —— Meow Todo 安卓版：留在你手机上的待办清单](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
-![Meow Todo 截图 3：深入看 Meow Todo —— Meow Todo 安卓版：留在你手机上的待办清单](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
-![Meow Todo 截图 4：深入看 Meow Todo —— Meow Todo 安卓版：留在你手机上的待办清单](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
-![Meow Todo 截图 5：深入看 Meow Todo —— Meow Todo 安卓版：留在你手机上的待办清单](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
+![Meow Todo List 任务列表与今日待办](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
+![Meow Todo List 任务编辑与提醒](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
+![Meow Todo List 清单与标签分组](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
+![Meow Todo List 日历与时间视图](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
+![Meow Todo List 同步与设置](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
 
 Meow Todo 是一款安卓与 iOS 的 **猫主题待办清单**。核心——清单、任务、提醒与日历视图——免费；VIP 增加无限清单、标签、子任务、CSV 导出与应用锁。
 
@@ -57,11 +57,11 @@ Meow Todo 是一款安卓与 iOS 的 **猫主题待办清单**。核心——清
 
 ## 深入看 Todoist
 
-![Todoist 截图：深入看 Todoist —— Meow Todo 安卓版：留在你手机上的待办清单](/assets/images/blog/todoist_1.webp){: width="180" .normal }
-![Todoist 截图 2：深入看 Todoist —— Meow Todo 安卓版：留在你手机上的待办清单](/assets/images/blog/todoist_2.webp){: width="180" .normal }
-![Todoist 截图 3：深入看 Todoist —— Meow Todo 安卓版：留在你手机上的待办清单](/assets/images/blog/todoist_3.webp){: width="180" .normal }
-![Todoist 截图 4：深入看 Todoist —— Meow Todo 安卓版：留在你手机上的待办清单](/assets/images/blog/todoist_4.webp){: width="180" .normal }
-![Todoist 截图 5：深入看 Todoist —— Meow Todo 安卓版：留在你手机上的待办清单](/assets/images/blog/todoist_5.webp){: width="180" .normal }
+![Todoist 任务列表与今日待办](/assets/images/blog/todoist_1.webp){: width="180" .normal }
+![Todoist 任务编辑与提醒](/assets/images/blog/todoist_2.webp){: width="180" .normal }
+![Todoist 清单与标签分组](/assets/images/blog/todoist_3.webp){: width="180" .normal }
+![Todoist 日历与时间视图](/assets/images/blog/todoist_4.webp){: width="180" .normal }
+![Todoist 同步与设置](/assets/images/blog/todoist_5.webp){: width="180" .normal }
 
 Todoist 是安装量最大的任务管理器，带自然语言输入与深度跨平台同步。
 

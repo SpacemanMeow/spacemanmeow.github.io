@@ -31,11 +31,11 @@ lang: zh
 
 ## Meow Todo 详解
 
-![Meow Todo 截图：Meow Todo 详解 —— Meow Todo vs Todoist：哪款任务管理应用该用？](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
-![Meow Todo 截图 2：Meow Todo 详解 —— Meow Todo vs Todoist：哪款任务管理应用该用？](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
-![Meow Todo 截图 3：Meow Todo 详解 —— Meow Todo vs Todoist：哪款任务管理应用该用？](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
-![Meow Todo 截图 4：Meow Todo 详解 —— Meow Todo vs Todoist：哪款任务管理应用该用？](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
-![Meow Todo 截图 5：Meow Todo 详解 —— Meow Todo vs Todoist：哪款任务管理应用该用？](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
+![Meow Todo List 任务列表与今日待办](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
+![Meow Todo List 任务编辑与提醒](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
+![Meow Todo List 清单与标签分组](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
+![Meow Todo List 日历与时间视图](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
+![Meow Todo List 同步与设置](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
 
 Meow Todo 是一款 **简洁的日程规划与待办管理应用**，界面干净可爱。它最突出的特质是友好的设计——400+ 卡通图标与宁静观感——外加务实的刚需：子任务、日历视图、提醒与 CSV 导出，全部在免费核心里。
 
@@ -67,11 +67,11 @@ Meow Todo 是一款 **简洁的日程规划与待办管理应用**，界面干�
 
 ## Todoist 详解
 
-![Todoist 截图：Todoist 详解 —— Meow Todo vs Todoist：哪款任务管理应用该用？](/assets/images/blog/todoist_1.webp){: width="180" .normal }
-![Todoist 截图 2：Todoist 详解 —— Meow Todo vs Todoist：哪款任务管理应用该用？](/assets/images/blog/todoist_2.webp){: width="180" .normal }
-![Todoist 截图 3：Todoist 详解 —— Meow Todo vs Todoist：哪款任务管理应用该用？](/assets/images/blog/todoist_3.webp){: width="180" .normal }
-![Todoist 截图 4：Todoist 详解 —— Meow Todo vs Todoist：哪款任务管理应用该用？](/assets/images/blog/todoist_4.webp){: width="180" .normal }
-![Todoist 截图 5：Todoist 详解 —— Meow Todo vs Todoist：哪款任务管理应用该用？](/assets/images/blog/todoist_5.webp){: width="180" .normal }
+![Todoist 任务列表与今日待办](/assets/images/blog/todoist_1.webp){: width="180" .normal }
+![Todoist 任务编辑与提醒](/assets/images/blog/todoist_2.webp){: width="180" .normal }
+![Todoist 清单与标签分组](/assets/images/blog/todoist_3.webp){: width="180" .normal }
+![Todoist 日历与时间视图](/assets/images/blog/todoist_4.webp){: width="180" .normal }
+![Todoist 同步与设置](/assets/images/blog/todoist_5.webp){: width="180" .normal }
 
 Todoist 是全球最受欢迎的任务管理应用之一：自然语言输入、强大的标签与过滤器，以及通过共享项目实现的协作。它可以从个人待办扩展到团队工作流。
 

@@ -34,11 +34,11 @@ On Android you can repurpose a spare phone or tablet as an always-on clock displ
 
 ## Only Clock, in depth
 
-![Only Clock screenshot: Only Clock, in depth — Best Flip Clock Apps for Android (2026)](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
-![Only Clock screenshot 2: Only Clock, in depth — Best Flip Clock Apps for Android (2026)](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
-![Only Clock screenshot 3: Only Clock, in depth — Best Flip Clock Apps for Android (2026)](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
-![Only Clock screenshot 4: Only Clock, in depth — Best Flip Clock Apps for Android (2026)](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
-![Only Clock screenshot 5: Only Clock, in depth — Best Flip Clock Apps for Android (2026)](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
+![OnlyClock settings & options](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
+![OnlyClock clock home & display](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
+![OnlyClock clock home & display](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
+![OnlyClock alarm & timer](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
+![OnlyClock night mode & theme](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
 
 Only Clock is an exquisite full-screen flip clock for Android and iOS with a beautiful flip animation, clock widgets, white noise and a focus timer.
 

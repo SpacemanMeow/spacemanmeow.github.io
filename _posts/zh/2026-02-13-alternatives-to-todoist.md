@@ -12,11 +12,11 @@ lang: zh
 
 ## 为什么人们会跳出 Todoist
 
-![Todoist 截图：为什么人们会跳出 Todoist —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/todoist_1.webp){: width="180" .normal }
-![Todoist 截图 2：为什么人们会跳出 Todoist —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/todoist_2.webp){: width="180" .normal }
-![Todoist 截图 3：为什么人们会跳出 Todoist —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/todoist_3.webp){: width="180" .normal }
-![Todoist 截图 4：为什么人们会跳出 Todoist —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/todoist_4.webp){: width="180" .normal }
-![Todoist 截图 5：为什么人们会跳出 Todoist —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/todoist_5.webp){: width="180" .normal }
+![Todoist 任务列表与今日待办](/assets/images/blog/todoist_1.webp){: width="180" .normal }
+![Todoist 任务编辑与提醒](/assets/images/blog/todoist_2.webp){: width="180" .normal }
+![Todoist 清单与标签分组](/assets/images/blog/todoist_3.webp){: width="180" .normal }
+![Todoist 日历与时间视图](/assets/images/blog/todoist_4.webp){: width="180" .normal }
+![Todoist 同步与设置](/assets/images/blog/todoist_5.webp){: width="180" .normal }
 
 - 免费的 **Beginner** 档把你限制在约 5 个活跃项目，且提醒功能有限。
 - **日历集成** 和大量自动化都锁在 **Pro** 方案（约 $60/年）之后。
@@ -36,11 +36,11 @@ lang: zh
 
 ### 1. Microsoft To Do —— 最适合微软生态
 
-![Microsoft To Do 截图：Microsoft To Do：最适合微软生态 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/microsoft_todo_1.webp){: width="180" .normal }
-![Microsoft To Do 截图 2：Microsoft To Do：最适合微软生态 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/microsoft_todo_2.webp){: width="180" .normal }
-![Microsoft To Do 截图 3：Microsoft To Do：最适合微软生态 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/microsoft_todo_3.webp){: width="180" .normal }
-![Microsoft To Do 截图 4：Microsoft To Do：最适合微软生态 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/microsoft_todo_4.webp){: width="180" .normal }
-![Microsoft To Do 截图 5：Microsoft To Do：最适合微软生态 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/microsoft_todo_5.webp){: width="180" .normal }
+![Microsoft To Do 任务列表与今日待办](/assets/images/blog/microsoft_todo_1.webp){: width="180" .normal }
+![Microsoft To Do 任务编辑与提醒](/assets/images/blog/microsoft_todo_2.webp){: width="180" .normal }
+![Microsoft To Do 清单与标签分组](/assets/images/blog/microsoft_todo_3.webp){: width="180" .normal }
+![Microsoft To Do 日历与时间视图](/assets/images/blog/microsoft_todo_4.webp){: width="180" .normal }
+![Microsoft To Do 同步与设置](/assets/images/blog/microsoft_todo_5.webp){: width="180" .normal }
 
 Microsoft To Do（由微软在 2015 年收购的原 Wunderlist 团队打造）**完全免费**，并深度绑定 Outlook 与 Windows。对任何已在 Microsoft 365 体系中的人来说，它都表现出色。
 
@@ -63,11 +63,11 @@ Microsoft To Do（由微软在 2015 年收购的原 Wunderlist 团队打造）**
 
 ### 2. Meow Todo —— 最适合隐私、愉悦界面与免费核心
 
-![Meow Todo 截图：Meow Todo：最适合隐私、愉悦界面与免费核心 —— 2026 年最佳 Todoist 替代应用](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
-![Meow Todo 截图 2：Meow Todo：最适合隐私、愉悦界面与免费核心 —— 2026 年最佳 Todoist 替代应用](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
-![Meow Todo 截图 3：Meow Todo：最适合隐私、愉悦界面与免费核心 —— 2026 年最佳 Todoist 替代应用](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
-![Meow Todo 截图 4：Meow Todo：最适合隐私、愉悦界面与免费核心 —— 2026 年最佳 Todoist 替代应用](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
-![Meow Todo 截图 5：Meow Todo：最适合隐私、愉悦界面与免费核心 —— 2026 年最佳 Todoist 替代应用](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
+![Meow Todo List 任务列表与今日待办](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
+![Meow Todo List 任务编辑与提醒](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
+![Meow Todo List 清单与标签分组](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
+![Meow Todo List 日历与时间视图](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
+![Meow Todo List 同步与设置](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
 
 Meow Todo List 是一款以猫为主题的 **任务管理器**，支持 Android 和 iOS。它最突出的特点是 **界面**：可爱、卡通风格的设计，搭配 **400+ 丰富的分类图标**，让每天做规划变得轻松，而不像在加班。除了颜值，它也覆盖了实用的待办基本功。
 
@@ -91,11 +91,11 @@ Meow Todo List 是一款以猫为主题的 **任务管理器**，支持 Android 
 
 ### 3. TickTick —— 最全能型
 
-![TickTick 截图：TickTick：最全能型 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/ticktick_todo_1.webp){: width="180" .normal }
-![TickTick 截图 2：TickTick：最全能型 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/ticktick_todo_2.webp){: width="180" .normal }
-![TickTick 截图 3：TickTick：最全能型 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/ticktick_todo_3.webp){: width="180" .normal }
-![TickTick 截图 4：TickTick：最全能型 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/ticktick_todo_4.webp){: width="180" .normal }
-![TickTick 截图 5：TickTick：最全能型 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/ticktick_todo_5.webp){: width="180" .normal }
+![TickTick 任务列表与今日待办](/assets/images/blog/ticktick_todo_1.webp){: width="180" .normal }
+![TickTick 任务编辑与提醒](/assets/images/blog/ticktick_todo_2.webp){: width="180" .normal }
+![TickTick 清单与标签分组](/assets/images/blog/ticktick_todo_3.webp){: width="180" .normal }
+![TickTick 日历与时间视图](/assets/images/blog/ticktick_todo_4.webp){: width="180" .normal }
+![TickTick 同步与设置](/assets/images/blog/ticktick_todo_5.webp){: width="180" .normal }
 
 TickTick 是一款强力的 **任务管理器**，内置日历、番茄钟与习惯追踪。它的功能比多数替代品都丰富，价格还低于 Todoist Pro。
 
@@ -118,11 +118,11 @@ TickTick 是一款强力的 **任务管理器**，内置日历、番茄钟与习
 
 ### 4. Google Tasks —— 最适合 Gmail 与日历用户
 
-![Google Tasks 截图：Google Tasks：最适合 Gmail 与日历用户 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/google_task_1.webp){: width="180" .normal }
-![Google Tasks 截图 2：Google Tasks：最适合 Gmail 与日历用户 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/google_task_2.webp){: width="180" .normal }
-![Google Tasks 截图 3：Google Tasks：最适合 Gmail 与日历用户 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/google_task_3.webp){: width="180" .normal }
-![Google Tasks 截图 4：Google Tasks：最适合 Gmail 与日历用户 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/google_task_4.webp){: width="180" .normal }
-![Google Tasks 截图 5：Google Tasks：最适合 Gmail 与日历用户 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/google_task_5.webp){: width="180" .normal }
+![Google Tasks 任务列表与今日待办](/assets/images/blog/google_task_1.webp){: width="180" .normal }
+![Google Tasks 任务编辑与提醒](/assets/images/blog/google_task_2.webp){: width="180" .normal }
+![Google Tasks 清单与标签分组](/assets/images/blog/google_task_3.webp){: width="180" .normal }
+![Google Tasks 日历与时间视图](/assets/images/blog/google_task_4.webp){: width="180" .normal }
+![Google Tasks 同步与设置](/assets/images/blog/google_task_5.webp){: width="180" .normal }
 
 Google Tasks 是 baked 进 Gmail 与 Google 日历的轻量任务工具。它刻意保持极简，任何 Google 账号都能免费使用。
 
@@ -144,11 +144,11 @@ Google Tasks 是 baked 进 Gmail 与 Google 日历的轻量任务工具。它刻
 
 ### 5. Things 3 —— 设计最佳、纯苹果
 
-![Things 3 截图：Things 3：设计最佳、纯苹果 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/things_todo_1.webp){: width="180" .normal }
-![Things 3 截图 2：Things 3：设计最佳、纯苹果 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/things_todo_2.webp){: width="180" .normal }
-![Things 3 截图 3：Things 3：设计最佳、纯苹果 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/things_todo_3.webp){: width="180" .normal }
-![Things 3 截图 4：Things 3：设计最佳、纯苹果 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/things_todo_4.webp){: width="180" .normal }
-![Things 3 截图 5：Things 3：设计最佳、纯苹果 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/things_todo_5.webp){: width="180" .normal }
+![Things 任务列表与今日待办](/assets/images/blog/things_todo_1.webp){: width="180" .normal }
+![Things 任务编辑与提醒](/assets/images/blog/things_todo_2.webp){: width="180" .normal }
+![Things 清单与标签分组](/assets/images/blog/things_todo_3.webp){: width="180" .normal }
+![Things 日历与时间视图](/assets/images/blog/things_todo_4.webp){: width="180" .normal }
+![Things 同步与设置](/assets/images/blog/things_todo_5.webp){: width="180" .normal }
 
 Things 3（出自 Cultured Code）被广泛赞为 **最好看的待办应用**，采用 GTD 友好的模型（收件箱、今天、即将到来、随时、某天、项目、领域、标签）。它只在苹果设备上运行。
 
@@ -170,11 +170,11 @@ Things 3（出自 Cultured Code）被广泛赞为 **最好看的待办应用**�
 
 ### 6. Notion —— 最灵活的一体化工作空间
 
-![Notion 截图：Notion：最灵活的一体化工作空间 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/notion_1.webp){: width="180" .normal }
-![Notion 截图 2：Notion：最灵活的一体化工作空间 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/notion_2.webp){: width="180" .normal }
-![Notion 截图 3：Notion：最灵活的一体化工作空间 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/notion_3.webp){: width="180" .normal }
-![Notion 截图 4：Notion：最灵活的一体化工作空间 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/notion_4.webp){: width="180" .normal }
-![Notion 截图 5：Notion：最灵活的一体化工作空间 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/notion_5.webp){: width="180" .normal }
+![Notion 任务列表与今日待办](/assets/images/blog/notion_1.webp){: width="180" .normal }
+![Notion 任务编辑与提醒](/assets/images/blog/notion_2.webp){: width="180" .normal }
+![Notion 清单与标签分组](/assets/images/blog/notion_3.webp){: width="180" .normal }
+![Notion 日历与时间视图](/assets/images/blog/notion_4.webp){: width="180" .normal }
+![Notion 同步与设置](/assets/images/blog/notion_5.webp){: width="180" .normal }
 
 Notion 是一个笔记 / 文档 / 数据库工作空间，也能通过数据库、看板（Kanban）与日历视图以及提醒来跑你的任务。它是这里最灵活的选择——也最重。
 
@@ -196,10 +196,10 @@ Notion 是一个笔记 / 文档 / 数据库工作空间，也能通过数据库�
 
 ### 7. Any.do —— 最适合日历与任务合一
 
-![AnyDo 截图：Any.do：最适合日历与任务合一 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/anydo_1.webp){: width="180" .normal }
-![AnyDo 截图 2：Any.do：最适合日历与任务合一 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/anydo_2.webp){: width="180" .normal }
-![AnyDo 截图 3：Any.do：最适合日历与任务合一 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/anydo_3.webp){: width="180" .normal }
-![AnyDo 截图 4：Any.do：最适合日历与任务合一 —— 2026 年最佳 Todoist 替代应用](/assets/images/blog/anydo_4.webp){: width="180" .normal }
+![Anydo 主界面](/assets/images/blog/anydo_1.webp){: width="180" .normal }
+![Anydo 功能详情](/assets/images/blog/anydo_2.webp){: width="180" .normal }
+![Anydo 数据与统计](/assets/images/blog/anydo_3.webp){: width="180" .normal }
+![Anydo 设置与管理](/assets/images/blog/anydo_4.webp){: width="180" .normal }
 
 Any.do 把待办清单、日历与规划器连同提醒打包在一起，被数千万用户在手机、桌面与网页上使用。
 

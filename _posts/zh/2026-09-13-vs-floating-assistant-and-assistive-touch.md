@@ -30,11 +30,11 @@ lang: zh
 
 ## Floating Assistant 详解
 
-![Floating Assistant 截图：Floating Assistant 详解 —— Floating Assistant vs Assistive Touch：哪款叠层工具？](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
-![Floating Assistant 截图 2：Floating Assistant 详解 —— Floating Assistant vs Assistive Touch：哪款叠层工具？](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
-![Floating Assistant 截图 3：Floating Assistant 详解 —— Floating Assistant vs Assistive Touch：哪款叠层工具？](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
-![Floating Assistant 截图 4：Floating Assistant 详解 —— Floating Assistant vs Assistive Touch：哪款叠层工具？](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
-![Floating Assistant 截图 5：Floating Assistant 详解 —— Floating Assistant vs Assistive Touch：哪款叠层工具？](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
+![Floating Assistant 悬浮窗主界面](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![Floating Assistant 快捷操作与手势](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
+![Floating Assistant 自定义菜单与按钮](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
+![Floating Assistant 辅助功能与选项](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
+![Floating Assistant 设置与权限](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
 
 Floating Assistant 把三个工具打包进一个叠层：用于导航的辅助触控球、可停在任意应用之上的浮动时钟，以及显示 CPU 温度、使用率、RAM 与电池并带一键加速的浮动系统监控。
 
@@ -63,11 +63,11 @@ Floating Assistant 把三个工具打包进一个叠层：用于导航的辅助�
 
 ## Assistive Touch (Easy Touch) 详解
 
-![Assistive Touch 截图：Assistive Touch (Easy Touch) 详解 —— Floating Assistant vs Assistive Touch：哪款叠层工具？](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
-![Assistive Touch 截图 2：Assistive Touch (Easy Touch) 详解 —— Floating Assistant vs Assistive Touch：哪款叠层工具？](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
-![Assistive Touch 截图 3：Assistive Touch (Easy Touch) 详解 —— Floating Assistant vs Assistive Touch：哪款叠层工具？](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
-![Assistive Touch 截图 4：Assistive Touch (Easy Touch) 详解 —— Floating Assistant vs Assistive Touch：哪款叠层工具？](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
-![Assistive Touch 截图 5：Assistive Touch (Easy Touch) 详解 —— Floating Assistant vs Assistive Touch：哪款叠层工具？](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
+![Assistive Touch 辅助触控主界面](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
+![Assistive Touch 快捷操作与手势](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
+![Assistive Touch 自定义菜单与按钮](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
+![Assistive Touch 辅助功能与选项](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
+![Assistive Touch 设置与权限](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
 
 Assistive Touch 是熟悉的、iOS 风格的安卓浮动球：虚拟主页、返回、最近与音量按钮，外加锁屏、截图、手电筒与可自定义手势——替换磨损硬件键最简单的方式。
 

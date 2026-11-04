@@ -31,11 +31,11 @@ Choosing a **task manager** often comes down to complexity vs simplicity. **Meow
 
 ## Meow Todo, in detail
 
-![Meow Todo screenshot: Meow Todo, in detail — Meow Todo vs Todoist: Which Task Manager Should You Use?](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
-![Meow Todo screenshot 2: Meow Todo, in detail — Meow Todo vs Todoist: Which Task Manager Should You Use?](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
-![Meow Todo screenshot 3: Meow Todo, in detail — Meow Todo vs Todoist: Which Task Manager Should You Use?](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
-![Meow Todo screenshot 4: Meow Todo, in detail — Meow Todo vs Todoist: Which Task Manager Should You Use?](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
-![Meow Todo screenshot 5: Meow Todo, in detail — Meow Todo vs Todoist: Which Task Manager Should You Use?](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
+![Meow Todo List task list & today's to-dos](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
+![Meow Todo List task editor & reminder](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
+![Meow Todo List lists & tag groups](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
+![Meow Todo List calendar & schedule view](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
+![Meow Todo List sync & settings](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
 
 Meow Todo is a **simple schedule planner and to-do list manager** with a clean, cute interface. Its standout trait is the friendly design — 400+ cartoon icons and a calming look — plus practical essentials: subtasks, a calendar view, reminders, and CSV export, all in a free core.
 
@@ -67,11 +67,11 @@ Individuals who want a private, cute, straightforward task list with a calendar 
 
 ## Todoist, in detail
 
-![Todoist screenshot: Todoist, in detail — Meow Todo vs Todoist: Which Task Manager Should You Use?](/assets/images/blog/todoist_1.webp){: width="180" .normal }
-![Todoist screenshot 2: Todoist, in detail — Meow Todo vs Todoist: Which Task Manager Should You Use?](/assets/images/blog/todoist_2.webp){: width="180" .normal }
-![Todoist screenshot 3: Todoist, in detail — Meow Todo vs Todoist: Which Task Manager Should You Use?](/assets/images/blog/todoist_3.webp){: width="180" .normal }
-![Todoist screenshot 4: Todoist, in detail — Meow Todo vs Todoist: Which Task Manager Should You Use?](/assets/images/blog/todoist_4.webp){: width="180" .normal }
-![Todoist screenshot 5: Todoist, in detail — Meow Todo vs Todoist: Which Task Manager Should You Use?](/assets/images/blog/todoist_5.webp){: width="180" .normal }
+![Todoist task list & today's to-dos](/assets/images/blog/todoist_1.webp){: width="180" .normal }
+![Todoist task editor & reminder](/assets/images/blog/todoist_2.webp){: width="180" .normal }
+![Todoist lists & tag groups](/assets/images/blog/todoist_3.webp){: width="180" .normal }
+![Todoist calendar & schedule view](/assets/images/blog/todoist_4.webp){: width="180" .normal }
+![Todoist sync & settings](/assets/images/blog/todoist_5.webp){: width="180" .normal }
 
 Todoist is one of the most popular task managers worldwide: natural-language input, powerful labels and filters, and collaboration via shared projects. It scales from a personal to-do to a team workflow.
 

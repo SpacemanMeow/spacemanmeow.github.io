@@ -28,11 +28,11 @@ lang: zh
 
 ## 深入看 Floating Assistant
 
-![Floating Assistant 截图：深入看 Floating Assistant —— 无障碍浮动助手：大屏手机上的单手操控](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
-![Floating Assistant 截图 2：深入看 Floating Assistant —— 无障碍浮动助手：大屏手机上的单手操控](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
-![Floating Assistant 截图 3：深入看 Floating Assistant —— 无障碍浮动助手：大屏手机上的单手操控](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
-![Floating Assistant 截图 4：深入看 Floating Assistant —— 无障碍浮动助手：大屏手机上的单手操控](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
-![Floating Assistant 截图 5：深入看 Floating Assistant —— 无障碍浮动助手：大屏手机上的单手操控](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
+![Floating Assistant 悬浮窗主界面](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![Floating Assistant 快捷操作与手势](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
+![Floating Assistant 自定义菜单与按钮](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
+![Floating Assistant 辅助功能与选项](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
+![Floating Assistant 设置与权限](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
 
 Floating Assistant 是一款带虚拟按键与手势的安卓 **边缘浮动球应用**。
 
@@ -53,11 +53,11 @@ Floating Assistant 是一款带虚拟按键与手势的安卓 **边缘浮动球�
 
 ## 深入看 Assistive Touch
 
-![Assistive Touch 截图：深入看 Assistive Touch —— 无障碍浮动助手：大屏手机上的单手操控](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
-![Assistive Touch 截图 2：深入看 Assistive Touch —— 无障碍浮动助手：大屏手机上的单手操控](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
-![Assistive Touch 截图 3：深入看 Assistive Touch —— 无障碍浮动助手：大屏手机上的单手操控](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
-![Assistive Touch 截图 4：深入看 Assistive Touch —— 无障碍浮动助手：大屏手机上的单手操控](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
-![Assistive Touch 截图 5：深入看 Assistive Touch —— 无障碍浮动助手：大屏手机上的单手操控](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
+![Assistive Touch 辅助触控主界面](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
+![Assistive Touch 快捷操作与手势](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
+![Assistive Touch 自定义菜单与按钮](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
+![Assistive Touch 辅助功能与选项](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
+![Assistive Touch 设置与权限](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
 
 Assistive Touch（包名 `mtr.assistivetouch.easytools`）提供屏幕虚拟按键与一个浮动球。
 

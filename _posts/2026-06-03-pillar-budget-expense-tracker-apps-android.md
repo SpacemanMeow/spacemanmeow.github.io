@@ -40,11 +40,11 @@ The features that matter most when you live inside the Google ecosystem:
 
 ## Meow Money Manager, in depth
 
-![Meow Money screenshot: Meow Money Manager, in depth — Best Budget & Expense Tracker Apps for Android (2026)](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
-![Meow Money screenshot 2: Meow Money Manager, in depth — Best Budget & Expense Tracker Apps for Android (2026)](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
-![Meow Money screenshot 3: Meow Money Manager, in depth — Best Budget & Expense Tracker Apps for Android (2026)](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
-![Meow Money screenshot 4: Meow Money Manager, in depth — Best Budget & Expense Tracker Apps for Android (2026)](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
-![Meow Money screenshot 5: Meow Money Manager, in depth — Best Budget & Expense Tracker Apps for Android (2026)](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
+![Meow Money Manager home screen with accounts overview](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
+![Meow Money Manager budget & category setup](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
+![Meow Money Manager charts & spending stats](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
+![Meow Money Manager multi-ledger & assets](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
+![Meow Money Manager reimbursement & CSV export](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
 
 Meow Money Manager is a **cat-themed expense tracker and budget app** for Android and iOS that stores everything **on your device** behind a fingerprint lock — no sign-up, no bank login, no data leaving your phone unless you back up to iCloud or WebDav.
 

@@ -34,11 +34,11 @@ lang: zh
 
 ## 深入看 Meow Mood Diary
 
-![Meow Mood Diary 截图：深入看 Meow Mood Diary —— 最佳心情日记与记录应用（2026）](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
-![Meow Mood Diary 截图 2：深入看 Meow Mood Diary —— 最佳心情日记与记录应用（2026）](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
-![Meow Mood Diary 截图 3：深入看 Meow Mood Diary —— 最佳心情日记与记录应用（2026）](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
-![Meow Mood Diary 截图 4：深入看 Meow Mood Diary —— 最佳心情日记与记录应用（2026）](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
-![Meow Mood Diary 截图 5：深入看 Meow Mood Diary —— 最佳心情日记与记录应用（2026）](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
+![Meow Mood Diary 日记编辑与心情记录](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
+![Meow Mood Diary 心情选择与标签](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
+![Meow Mood Diary 统计图表与趋势](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
+![Meow Mood Diary 日历与历史回顾](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![Meow Mood Diary 备份与导出](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
 
 Meow Mood Diary 是一款安全、私密的心情日记与记录应用，带平静的猫主题界面，用于记录感受、追踪心情。
 

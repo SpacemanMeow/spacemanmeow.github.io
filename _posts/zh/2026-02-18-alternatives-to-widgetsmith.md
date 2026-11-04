@@ -35,11 +35,11 @@ WidgetSmith 是最知名的 **iOS 小组件应用**，但它仅限 iPhone，而�
 
 ## 1. One Widget —— 最适合现成、多风格的安卓组件
 
-![One Widget 截图：One Widget：最适合现成、多风格的安卓组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
-![One Widget 截图 2：One Widget：最适合现成、多风格的安卓组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
-![One Widget 截图 3：One Widget：最适合现成、多风格的安卓组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
-![One Widget 截图 4：One Widget：最适合现成、多风格的安卓组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
-![One Widget 截图 5：One Widget：最适合现成、多风格的安卓组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
+![One Widget 小组件主界面](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
+![One Widget 自定义外观与主题](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
+![One Widget 信息源与布局](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
+![One Widget 交互与快捷操作](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
+![One Widget 设置与权限](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
 
 One Widget 是一套围绕 **四套完整设计语言**——**Galaxy One UI、Material You、iOS Glass 与 Nothing UI**——打造的安卓组件包，因此一个应用就能让三星、Pixel、iPhone 风或 Nothing 手机看起来风格统一。它内置 **500+ 现成组件**（时钟、日期、电量、内存、存储、应用快捷方式、Wi‑Fi / 蓝牙 / 手电筒等开关、日历、计步、音乐与天气），且开发者 **在持续新增组件**，让组件库保持新鲜。
 
@@ -65,11 +65,11 @@ One Widget 是一套围绕 **四套完整设计语言**——**Galaxy One UI、M
 
 ## 2. KWGT Kustom Widget Maker —— 最适合从零打造组件
 
-![KWGT 截图：KWGT Kustom Widget Maker：最适合从零打造组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
-![KWGT 截图 2：KWGT Kustom Widget Maker：最适合从零打造组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
-![KWGT 截图 3：KWGT Kustom Widget Maker：最适合从零打造组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
-![KWGT 截图 4：KWGT Kustom Widget Maker：最适合从零打造组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
-![KWGT 截图 5：KWGT Kustom Widget Maker：最适合从零打造组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
+![KWGT 小组件主界面](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
+![KWGT 自定义外观与主题](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
+![KWGT 信息源与布局](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
+![KWGT 交互与快捷操作](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
+![KWGT 设置与权限](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
 
 KWGT（出自 Kustom）是安卓上 **最强大的组件编辑器**。你不是选预设，而是用文字、形状、图片、进度条和一套公式语言来拼装组件，这套语言能拉取电量、网络、天气、日历乃至 **Health Connect** 数据（步数、睡眠、卡路里）。庞大的社区分享预设与主题包，所以你可以从别人的设计起步再加以微调。
 
@@ -95,11 +95,11 @@ KWGT（出自 Kustom）是安卓上 **最强大的组件编辑器**。你不是�
 
 ## 3. Widgy —— 最适合深度自定义的 iOS 组件
 
-![Widgy 截图：Widgy：最适合深度自定义的 iOS 组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widgy_widget_1.webp){: width="180" .normal }
-![Widgy 截图 2：Widgy：最适合深度自定义的 iOS 组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widgy_widget_2.webp){: width="180" .normal }
-![Widgy 截图 3：Widgy：最适合深度自定义的 iOS 组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widgy_widget_3.webp){: width="180" .normal }
-![Widgy 截图 4：Widgy：最适合深度自定义的 iOS 组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widgy_widget_4.webp){: width="180" .normal }
-![Widgy 截图 5：Widgy：最适合深度自定义的 iOS 组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widgy_widget_5.webp){: width="180" .normal }
+![Widgy 小组件主界面](/assets/images/blog/widgy_widget_1.webp){: width="180" .normal }
+![Widgy 自定义外观与主题](/assets/images/blog/widgy_widget_2.webp){: width="180" .normal }
+![Widgy 信息源与布局](/assets/images/blog/widgy_widget_3.webp){: width="180" .normal }
+![Widgy 交互与快捷操作](/assets/images/blog/widgy_widget_4.webp){: width="180" .normal }
+![Widgy 设置与权限](/assets/images/blog/widgy_widget_5.webp){: width="180" .normal }
 
 Widgy 是 iOS 上最贴近 KWGT 的存在：一个 **可视化、基于图层的构建器**（无需编码），配模板和广泛的数据源——天气、Apple Health、日历、提醒等。它面向 iPhone、iPad、Apple Watch、锁屏与 StandBy，并紧跟每一代新 iOS 设计语言（如 Liquid Glass）。
 
@@ -124,11 +124,11 @@ Widgy 是 iOS 上最贴近 KWGT 的存在：一个 **可视化、基于图层的
 
 ## 4. Color Widgets —— 最适合快速、有质感的 iOS 预设
 
-![Color Widget 截图：Color Widgets：最适合快速、有质感的 iOS 预设 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/color_widget_1.webp){: width="180" .normal }
-![Color Widget 截图 2：Color Widgets：最适合快速、有质感的 iOS 预设 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/color_widget_2.webp){: width="180" .normal }
-![Color Widget 截图 3：Color Widgets：最适合快速、有质感的 iOS 预设 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/color_widget_3.webp){: width="180" .normal }
-![Color Widget 截图 4：Color Widgets：最适合快速、有质感的 iOS 预设 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/color_widget_4.webp){: width="180" .normal }
-![Color Widget 截图 5：Color Widgets：最适合快速、有质感的 iOS 预设 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/color_widget_5.webp){: width="180" .normal }
+![Color Widgets 小组件主界面](/assets/images/blog/color_widget_1.webp){: width="180" .normal }
+![Color Widgets 自定义外观与主题](/assets/images/blog/color_widget_2.webp){: width="180" .normal }
+![Color Widgets 信息源与布局](/assets/images/blog/color_widget_3.webp){: width="180" .normal }
+![Color Widgets 交互与快捷操作](/assets/images/blog/color_widget_4.webp){: width="180" .normal }
+![Color Widgets 设置与权限](/assets/images/blog/color_widget_5.webp){: width="180" .normal }
 
 Color Widgets 依托 **数千款预设组件加一个简易自定义器**，并打包主题、图标包与壁纸，让你轻点几下就能给整个主屏与锁屏换肤。它覆盖照片、时间 / 日期、电量、倒计时、天气、音乐（Apple / Spotify）、日历、名言与活动组件，并接入 Apple Health 记录步数。
 
@@ -153,11 +153,11 @@ Color Widgets 依托 **数千款预设组件加一个简易自定义器**，并�
 
 ## 5. Widgetable —— 最适合社交与宠物组件
 
-![Widgetable 截图：Widgetable：最适合社交与宠物组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widgetable_1.webp){: width="180" .normal }
-![Widgetable 截图 2：Widgetable：最适合社交与宠物组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widgetable_2.webp){: width="180" .normal }
-![Widgetable 截图 3：Widgetable：最适合社交与宠物组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widgetable_3.webp){: width="180" .normal }
-![Widgetable 截图 4：Widgetable：最适合社交与宠物组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widgetable_4.webp){: width="180" .normal }
-![Widgetable 截图 5：Widgetable：最适合社交与宠物组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widgetable_5.webp){: width="180" .normal }
+![Widgetable 小组件主界面](/assets/images/blog/widgetable_1.webp){: width="180" .normal }
+![Widgetable 自定义外观与主题](/assets/images/blog/widgetable_2.webp){: width="180" .normal }
+![Widgetable 信息源与布局](/assets/images/blog/widgetable_3.webp){: width="180" .normal }
+![Widgetable 交互与快捷操作](/assets/images/blog/widgetable_4.webp){: width="180" .normal }
+![Widgetable 设置与权限](/assets/images/blog/widgetable_5.webp){: width="180" .normal }
 
 Widgetable 走了一条不同的路：**围绕关系打造的组件**。你领养和好友共同养育的虚拟宠物，分享睡眠组件，发送心情更新，并在锁屏或主屏上显示你和闺蜜之间的实时距离。它更受情侣与密友欢迎，而非作为通用生产力工具。
 
@@ -181,11 +181,11 @@ Widgetable 走了一条不同的路：**围绕关系打造的组件**。你领�
 
 ## 6. WidgetClub —— 最适合可爱、以主题驱动的组件
 
-![WidgetClub 截图：WidgetClub：最适合可爱、以主题驱动的组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widget_club_1.webp){: width="180" .normal }
-![WidgetClub 截图 2：WidgetClub：最适合可爱、以主题驱动的组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widget_club_2.webp){: width="180" .normal }
-![WidgetClub 截图 3：WidgetClub：最适合可爱、以主题驱动的组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widget_club_3.webp){: width="180" .normal }
-![WidgetClub 截图 4：WidgetClub：最适合可爱、以主题驱动的组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widget_club_4.webp){: width="180" .normal }
-![WidgetClub 截图 5：WidgetClub：最适合可爱、以主题驱动的组件 —— 最佳 WidgetSmith 替代应用（含安卓）](/assets/images/blog/widget_club_5.webp){: width="180" .normal }
+![WidgetClub 小组件主界面](/assets/images/blog/widget_club_1.webp){: width="180" .normal }
+![WidgetClub 自定义外观与主题](/assets/images/blog/widget_club_2.webp){: width="180" .normal }
+![WidgetClub 信息源与布局](/assets/images/blog/widget_club_3.webp){: width="180" .normal }
+![WidgetClub 交互与快捷操作](/assets/images/blog/widget_club_4.webp){: width="180" .normal }
+![WidgetClub 设置与权限](/assets/images/blog/widget_club_5.webp){: width="180" .normal }
 
 WidgetClub 是一款有质感的组件、壁纸与图标应用，拥有海量目录（数万款主题），涵盖天气、照片、日历、时钟、倒计时、电量与提醒组件。一个简单的制作器让你可以拖入照片和颜色；它同时运行在 **iOS 与安卓** 上。
 

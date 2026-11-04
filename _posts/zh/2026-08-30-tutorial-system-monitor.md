@@ -50,10 +50,10 @@ System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **只�
 - **浮窗** 配置叠层
 - **传感器** 列出设备传感器
 
-![System Monitor 主屏截图：首次使用 —— System Monitor 官方使用指南](/assets/images/blog/tutorial_system_monitor_home.webp){: width="180" .normal }
-![System Monitor 应用截图：首次使用 —— System Monitor 官方使用指南](/assets/images/blog/tutorial_system_monitor_app.webp){: width="180" .normal }
-![System Monitor 浮窗截图：首次使用 —— System Monitor 官方使用指南](/assets/images/blog/tutorial_system_monitor_floating.webp){: width="180" .normal }
-![System Monitor 传感器截图：首次使用 —— System Monitor 官方使用指南](/assets/images/blog/tutorial_system_monitor_sensor.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_home.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_app.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_floating.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_sensor.webp){: width="180" .normal }
 
 ## 查看硬件信息
 
@@ -65,16 +65,16 @@ System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **只�
    - **电池**：电池温度、健康、电压、电量
    - **系统**：存储与设备信息
 
-![System Monitor CPU 截图：查看硬件信息 —— System Monitor 官方使用指南](/assets/images/blog/tutorial_system_monitor_cpu.webp){: width="180" .normal }
-![System Monitor 内存截图：查看硬件信息 —— System Monitor 官方使用指南](/assets/images/blog/tutorial_system_monitor_memory.webp){: width="180" .normal }
-![System Monitor 电池截图：查看硬件信息 —— System Monitor 官方使用指南](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
-![System Monitor 系统截图：查看硬件信息 —— System Monitor 官方使用指南](/assets/images/blog/tutorial_system_monitor_system.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_cpu.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_memory.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_system.webp){: width="180" .normal }
 
 ## 电池健康
 
 在 **电池** 子标签，你可以看到电池 **温度、健康状态、电压与电量** 的曲线——便于长期关注损耗。
 
-![System Monitor 电池截图：电池健康 —— System Monitor 官方使用指南](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
 
 ## 过热报警
 
@@ -90,7 +90,7 @@ System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **只�
 3. 按提示授予 **"在其他应用上层绘制"** 权限
 4. 浮动数据出现在任意应用之上
 
-![System Monitor 浮窗截图：浮窗 —— System Monitor 官方使用指南](/assets/images/blog/tutorial_system_monitor_floating.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_floating.webp){: width="180" .normal }
 
 ## 主屏小组件
 
@@ -98,7 +98,7 @@ System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **只�
 2. 选一个组件：CPU / 电池 / RAM / ROM / 组合
 3. 从组件选择器放置
 
-![System Monitor 组件截图：主屏小组件 —— System Monitor 官方使用指南](/assets/images/blog/tutorial_system_monitor_widget.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_widget.webp){: width="180" .normal }
 
 ## 设置
 

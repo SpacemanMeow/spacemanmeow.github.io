@@ -28,11 +28,11 @@ Big phones are hard to use one-handed, and some users simply can't reach physica
 
 ## Floating Assistant, in depth
 
-![Floating Assistant screenshot: Floating Assistant, in depth — Floating Assistant for Accessibility: One-Handed Control on a Big Phone](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
-![Floating Assistant screenshot 2: Floating Assistant, in depth — Floating Assistant for Accessibility: One-Handed Control on a Big Phone](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
-![Floating Assistant screenshot 3: Floating Assistant, in depth — Floating Assistant for Accessibility: One-Handed Control on a Big Phone](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
-![Floating Assistant screenshot 4: Floating Assistant, in depth — Floating Assistant for Accessibility: One-Handed Control on a Big Phone](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
-![Floating Assistant screenshot 5: Floating Assistant, in depth — Floating Assistant for Accessibility: One-Handed Control on a Big Phone](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
+![Floating Assistant floating window home](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![Floating Assistant quick actions & gestures](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
+![Floating Assistant custom menu & buttons](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
+![Floating Assistant accessibility & options](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
+![Floating Assistant settings & permissions](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
 
 Floating Assistant is an **edge floating-ball app** for Android with virtual keys and gestures.
 
@@ -53,11 +53,11 @@ Floating Assistant is an **edge floating-ball app** for Android with virtual key
 
 ## Assistive Touch, in depth
 
-![Assistive Touch screenshot: Assistive Touch, in depth — Floating Assistant for Accessibility: One-Handed Control on a Big Phone](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
-![Assistive Touch screenshot 2: Assistive Touch, in depth — Floating Assistant for Accessibility: One-Handed Control on a Big Phone](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
-![Assistive Touch screenshot 3: Assistive Touch, in depth — Floating Assistant for Accessibility: One-Handed Control on a Big Phone](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
-![Assistive Touch screenshot 4: Assistive Touch, in depth — Floating Assistant for Accessibility: One-Handed Control on a Big Phone](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
-![Assistive Touch screenshot 5: Assistive Touch, in depth — Floating Assistant for Accessibility: One-Handed Control on a Big Phone](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
+![Assistive Touch assistive touch home](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
+![Assistive Touch quick actions & gestures](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
+![Assistive Touch custom menu & buttons](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
+![Assistive Touch accessibility & options](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
+![Assistive Touch settings & permissions](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
 
 Assistive Touch (package `mtr.assistivetouch.easytools`) offers on-screen virtual keys and a floating ball.
 

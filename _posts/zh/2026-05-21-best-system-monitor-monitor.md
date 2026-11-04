@@ -28,11 +28,11 @@ lang: zh
 
 ## System Monitor 详解
 
-![System Monitor 截图：System Monitor 详解 —— System Monitor：无冗余的实时设备数据](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
-![System Monitor 截图 2：System Monitor 详解 —— System Monitor：无冗余的实时设备数据](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
-![System Monitor 截图 3：System Monitor 详解 —— System Monitor：无冗余的实时设备数据](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
-![System Monitor 截图 4：System Monitor 详解 —— System Monitor：无冗余的实时设备数据](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
-![System Monitor 截图 5：System Monitor 详解 —— System Monitor：无冗余的实时设备数据](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
+![System Monitor 悬浮窗与设置](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
+![System Monitor 进程与电池监控](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
+![System Monitor 网络与传感器](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
+![System Monitor 内存与存储占用](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
 
 System Monitor 是一款 **付费的安卓设备信息工具**。一次性的下载价格，它就报告详细的硬件与实时数据：CPU 型号与每核频率、内存用量、存储明细，以及电池健康/温度——只读检测，而非优化。
 
@@ -55,11 +55,11 @@ System Monitor 是一款 **付费的安卓设备信息工具**。一次性的下
 
 ## CCleaner 详解
 
-![CCleaner 截图：CCleaner 详解 —— System Monitor：无冗余的实时设备数据](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
-![CCleaner 截图 2：CCleaner 详解 —— System Monitor：无冗余的实时设备数据](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
-![CCleaner 截图 3：CCleaner 详解 —— System Monitor：无冗余的实时设备数据](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
-![CCleaner 截图 4：CCleaner 详解 —— System Monitor：无冗余的实时设备数据](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
-![CCleaner 截图 5：CCleaner 详解 —— System Monitor：无冗余的实时设备数据](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
+![CCleaner 清理扫描主界面](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
+![CCleaner 垃圾文件与缓存](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
+![CCleaner 内存加速与进程](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
+![CCleaner 隐私与残留清理](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
+![CCleaner 设置与计划任务](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
 
 CCleaner（包名 `com.piriform.ccleaner`，Gen Digital 出品）以 PC 清理闻名，并将这品牌带到安卓，提供垃圾清理与性能工具。
 

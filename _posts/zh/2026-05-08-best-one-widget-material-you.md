@@ -27,11 +27,11 @@ lang: zh
 
 ## 深入看 One Widget
 
-![One Widget 截图：深入看 One Widget —— One Widget 与 Material You：贴合你壁纸的小组件](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
-![One Widget 截图 2：深入看 One Widget —— One Widget 与 Material You：贴合你壁纸的小组件](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
-![One Widget 截图 3：深入看 One Widget —— One Widget 与 Material You：贴合你壁纸的小组件](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
-![One Widget 截图 4：深入看 One Widget —— One Widget 与 Material You：贴合你壁纸的小组件](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
-![One Widget 截图 5：深入看 One Widget —— One Widget 与 Material You：贴合你壁纸的小组件](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
+![One Widget 小组件主界面](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
+![One Widget 自定义外观与主题](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
+![One Widget 信息源与布局](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
+![One Widget 交互与快捷操作](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
+![One Widget 设置与权限](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
 
 One Widget 是一款安卓的 **猫主题组件包**，风格跟随系统主题，包括 Material You 配色与圆角塑形。
 
@@ -52,11 +52,11 @@ One Widget 是一款安卓的 **猫主题组件包**，风格跟随系统主题�
 
 ## 深入看 KWGT
 
-![KWGT 截图：深入看 KWGT —— One Widget 与 Material You：贴合你壁纸的小组件](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
-![KWGT 截图 2：深入看 KWGT —— One Widget 与 Material You：贴合你壁纸的小组件](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
-![KWGT 截图 3：深入看 KWGT —— One Widget 与 Material You：贴合你壁纸的小组件](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
-![KWGT 截图 4：深入看 KWGT —— One Widget 与 Material You：贴合你壁纸的小组件](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
-![KWGT 截图 5：深入看 KWGT —— One Widget 与 Material You：贴合你壁纸的小组件](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
+![KWGT 小组件主界面](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
+![KWGT 自定义外观与主题](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
+![KWGT 信息源与布局](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
+![KWGT 交互与快捷操作](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
+![KWGT 设置与权限](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
 
 KWGT（Kustom Widget Maker，包名 `org.kustom.widget`）能精确复刻 Material You——前提是你写 Kode 去读取系统颜色并塑形。
 

@@ -50,7 +50,7 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 - Bottom tabs: **Home**, **Habit**, **Trend**, **Setting**
 - Tap **+** to add your first habit (the free tier allows up to **5 habits**; VIP unlocks unlimited)
 
-![Meow Habits home screenshot: First: time Use — Meow Habits Official User Guide](/assets/images/blog/tutorial_habit_home.webp){: width="180" .normal }
+![Meow Habits habit list & today's check-in](/assets/images/blog/tutorial_habit_home.webp){: width="180" .normal }
 
 ## Add a Habit
 
@@ -64,7 +64,7 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 8. Set a **start date**
 9. Tap **Confirm**
 
-![Meow Habits add screenshot: Add a Habit — Meow Habits Official User Guide](/assets/images/blog/tutorial_habit_add.webp){: width="180" .normal }
+![Meow Habits habit list & today's check-in](/assets/images/blog/tutorial_habit_add.webp){: width="180" .normal }
 
 ## Daily Check-in
 
@@ -73,7 +73,7 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 3. Use **+ / −** to adjust count, **Input** to type a value, **Skip** to skip, or **Complete** to finish
 4. The 3-dot menu gives Trend / Notification / Note / Edit / Archive / Delete
 
-![Meow Habits checkin screenshot: Daily Check: in — Meow Habits Official User Guide](/assets/images/blog/tutorial_habit_checkin.webp){: width="180" .normal }
+![Meow Habits habit list & today's check-in](/assets/images/blog/tutorial_habit_checkin.webp){: width="180" .normal }
 
 ## Reminders
 
@@ -82,14 +82,14 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 3. Pick one of the **3 time chips** and choose which weekdays (Sun–Sat) apply
 4. The app notifies you to check in
 
-![Meow Habits reminder screenshot: Reminders — Meow Habits Official User Guide](/assets/images/blog/tutorial_habit_reminder.webp){: width="180" .normal }
+![Meow Habits habit list & today's check-in](/assets/images/blog/tutorial_habit_reminder.webp){: width="180" .normal }
 
 ## Streaks and Trends
 
 1. Open a habit → **Detail** to see streak numbers, history bars and a calendar heatmap
 2. Switch to the **Trend** tab for charts and achievements
 
-![Meow Habits trend screenshot: Streaks and Trends — Meow Habits Official User Guide](/assets/images/blog/tutorial_habit_trend.webp){: width="180" .normal }
+![Meow Habits habit list & today's check-in](/assets/images/blog/tutorial_habit_trend.webp){: width="180" .normal }
 
 ## Edit, Archive or Delete
 

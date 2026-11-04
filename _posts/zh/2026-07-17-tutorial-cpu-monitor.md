@@ -48,11 +48,11 @@ CPU Monitor 在安卓上显示 **实时 CPU 温度与频率、RAM、电池与存
 
 主屏有标签页：**CPU / SYSTEM / FLOATING / SENSOR**，顶部有一个 **升级** 按钮。
 
-![CPU Monitor 主屏截图：首次使用 —— CPU Monitor 官方使用指南](/assets/images/blog/tutorial_cpu_home.webp){: width="180" .normal }
-![CPU Monitor 浮窗截图：首次使用 —— CPU Monitor 官方使用指南](/assets/images/blog/tutorial_cpu_floating.webp){: width="180" .normal }
-![CPU Monitor 清理截图：首次使用 —— CPU Monitor 官方使用指南](/assets/images/blog/tutorial_cpu_clean.webp){: width="180" .normal }
-![CPU Monitor 传感器截图：首次使用 —— CPU Monitor 官方使用指南](/assets/images/blog/tutorial_cpu_sensor.webp){: width="180" .normal }
-![CPU Monitor 系统截图：首次使用 —— CPU Monitor 官方使用指南](/assets/images/blog/tutorial_cpu_system.webp){: width="180" .normal }
+![CPU Monitor 温度与频率监控主界面](/assets/images/blog/tutorial_cpu_home.webp){: width="180" .normal }
+![CPU Monitor 温度与频率监控主界面](/assets/images/blog/tutorial_cpu_floating.webp){: width="180" .normal }
+![CPU Monitor 温度与频率监控主界面](/assets/images/blog/tutorial_cpu_clean.webp){: width="180" .normal }
+![CPU Monitor 温度与频率监控主界面](/assets/images/blog/tutorial_cpu_sensor.webp){: width="180" .normal }
+![CPU Monitor 温度与频率监控主界面](/assets/images/blog/tutorial_cpu_system.webp){: width="180" .normal }
 
 ## 实时 CPU
 

@@ -54,10 +54,10 @@ One Widget 内置 **500+ 可自定义安卓主屏组件**，横跨四种流行�
 - 每个风格页列出分类：工具、入口、硬件、时钟、启动器、组合、便签、联系人
 - 点分类看组件预览
 
-![One Widget One UI 截图：首次使用 —— One Widget 官方使用指南](/assets/images/blog/tutorial_widget_one_ui.webp){: width="180" .normal }
-![One Widget Nothing 截图：首次使用 —— One Widget 官方使用指南](/assets/images/blog/tutorial_widget_nothing.webp){: width="180" .normal }
-![One Widget Glass 截图：首次使用 —— One Widget 官方使用指南](/assets/images/blog/tutorial_widget_glass.webp){: width="180" .normal }
-![One Widget Material 截图：首次使用 —— One Widget 官方使用指南](/assets/images/blog/tutorial_widget_material.webp){: width="180" .normal }
+![Tutorial Widget One 小组件主界面](/assets/images/blog/tutorial_widget_one_ui.webp){: width="180" .normal }
+![One Widget 小组件主界面](/assets/images/blog/tutorial_widget_nothing.webp){: width="180" .normal }
+![One Widget 小组件主界面](/assets/images/blog/tutorial_widget_glass.webp){: width="180" .normal }
+![One Widget 小组件主界面](/assets/images/blog/tutorial_widget_material.webp){: width="180" .normal }
 
 ## 浏览四种风格
 
@@ -70,7 +70,7 @@ One Widget 内置 **500+ 可自定义安卓主屏组件**，横跨四种流行�
 3. 系统打开 One Widget **配置** 界面
 4. 设定选项并点 **确认** 放置
 
-![One Widget 添加截图：添加组件 —— One Widget 官方使用指南](/assets/images/blog/tutorial_widget_add.webp){: width="180" .normal }
+![One Widget 小组件主界面](/assets/images/blog/tutorial_widget_add.webp){: width="180" .normal }
 
 ## 配置组件
 
@@ -83,7 +83,7 @@ One Widget 内置 **500+ 可自定义安卓主屏组件**，横跨四种流行�
 
 图标背景色与圆角半径由形状派生（圆形 = 边长/2，圆角 = 边长/3）。
 
-![One Widget 配置截图：配置组件 —— One Widget 官方使用指南](/assets/images/blog/tutorial_widget_config.webp){: width="180" .normal }
+![One Widget 小组件主界面](/assets/images/blog/tutorial_widget_config.webp){: width="180" .normal }
 
 ## 快捷开关
 

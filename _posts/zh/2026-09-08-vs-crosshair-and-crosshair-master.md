@@ -31,10 +31,10 @@ lang: zh
 
 ## Crosshair Aim 详解
 
-![Crosshair Aim 截图：Crosshair Aim 详解 —— Crosshair Aim vs Crosshair Hero：哪款叠层准星？](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
-![Crosshair Aim 截图 2：Crosshair Aim 详解 —— Crosshair Aim vs Crosshair Hero：哪款叠层准星？](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
-![Crosshair Aim 截图 3：Crosshair Aim 详解 —— Crosshair Aim vs Crosshair Hero：哪款叠层准星？](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
-![Crosshair Aim 截图 4：Crosshair Aim 详解 —— Crosshair Aim vs Crosshair Hero：哪款叠层准星？](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
+![Crosshair 准星叠加主界面](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
+![Crosshair 准星样式与自定义](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
+![Crosshair 透明度与位置调节](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
+![Crosshair 游戏内叠加效果](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
 
 Crosshair Aim 是一款以控制为核心的 **FPS 游戏准星应用**。它内置 80+ 样式，可微调大小、颜色、缩放、位置与透明度，还能在 *对局中* 用浮动按钮实时调整一切。
 
@@ -63,7 +63,7 @@ Crosshair Aim 是一款以控制为核心的 **FPS 游戏准星应用**。它内
 
 ## Crosshair Hero 详解
 
-![Crosshair Hero 截图：Crosshair Hero 详解 —— Crosshair Aim vs Crosshair Hero：哪款叠层准星？](/assets/images/blog/crosshair_hero_1.webp){: width="720" .normal }
+![Crosshair Hero 准星叠加主界面](/assets/images/blog/crosshair_hero_1.webp){: width="720" .normal }
 
 Crosshair Hero 是一款受欢迎的 **准星叠层应用**——点一个样式、选一种颜色，准星就出现在你的射击游戏上。它是休闲玩家的快速、熟悉之选。
 

@@ -28,10 +28,10 @@ PUBG Mobile、COD Mobile 这类手机 FPS 会自己画准星，但它不总在�
 
 ## 深入看 Crosshair Aim
 
-![Crosshair Aim 截图：深入看 Crosshair Aim —— FPS 游戏准星瞄准：一个稳稳钉在原地的准星叠层](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
-![Crosshair Aim 截图 2：深入看 Crosshair Aim —— FPS 游戏准星瞄准：一个稳稳钉在原地的准星叠层](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
-![Crosshair Aim 截图 3：深入看 Crosshair Aim —— FPS 游戏准星瞄准：一个稳稳钉在原地的准星叠层](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
-![Crosshair Aim 截图 4：深入看 Crosshair Aim —— FPS 游戏准星瞄准：一个稳稳钉在原地的准星叠层](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
+![Crosshair 准星叠加主界面](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
+![Crosshair 准星样式与自定义](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
+![Crosshair 透明度与位置调节](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
+![Crosshair 游戏内叠加效果](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
 
 Crosshair Aim 是一款安卓 **自定义准星叠层**，拥有庞大的样式库和一个可拖到游戏之上的浮动调节器。
 
@@ -52,7 +52,7 @@ Crosshair Aim 是一款安卓 **自定义准星叠层**，拥有庞大的样式�
 
 ## 深入看 Crosshair Hero
 
-![Crosshair Hero 截图：深入看 Crosshair Hero —— FPS 游戏准星瞄准：一个稳稳钉在原地的准星叠层](/assets/images/blog/crosshair_hero_1.webp){: width="720" .normal }
+![Crosshair Hero 准星叠加主界面](/assets/images/blog/crosshair_hero_1.webp){: width="720" .normal }
 
 Crosshair Hero（包名 `me.okitastudio.crosshairherofps`）是一款热门的 **准星叠层应用**，提供 30+ 预设样式、自定义 PNG 支持，以及颜色/大小/位置的微调。
 

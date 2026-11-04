@@ -34,11 +34,11 @@ lang: zh
 
 ## 深入看 Meow Habits
 
-![Meow Habits 截图：深入看 Meow Habits —— 最佳安卓习惯追踪应用（2026）](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
-![Meow Habits 截图 2：深入看 Meow Habits —— 最佳安卓习惯追踪应用（2026）](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
-![Meow Habits 截图 3：深入看 Meow Habits —— 最佳安卓习惯追踪应用（2026）](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
-![Meow Habits 截图 4：深入看 Meow Habits —— 最佳安卓习惯追踪应用（2026）](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
-![Meow Habits 截图 5：深入看 Meow Habits —— 最佳安卓习惯追踪应用（2026）](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
+![Meow Habits 习惯列表与今日打卡](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
+![Meow Habits 打卡详情与备注](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
+![Meow Habits 连续天数与 Streak](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
+![Meow Habits 统计图表与日历](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
+![Meow Habits 提醒与设置](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
 
 Meow Habits 是一款习惯追踪与日常构建器，带 500+ 可爱图标、连续天数、图表与日历视图，帮你保持坚持。
 

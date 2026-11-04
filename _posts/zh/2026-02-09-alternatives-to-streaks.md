@@ -14,11 +14,11 @@ Streaks 让习惯追踪成为数百万 iPhone 用户每天的仪式——它界�
 
 ## 为什么要跳出 Streaks
 
-![Streaks 截图：为什么要跳出 Streaks —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/streaks_1.webp){: width="180" .normal }
-![Streaks 截图 2：为什么要跳出 Streaks —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/streaks_2.webp){: width="180" .normal }
-![Streaks 截图 3：为什么要跳出 Streaks —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/streaks_3.webp){: width="180" .normal }
-![Streaks 截图 4：为什么要跳出 Streaks —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/streaks_4.webp){: width="180" .normal }
-![Streaks 截图 5：为什么要跳出 Streaks —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/streaks_5.webp){: width="180" .normal }
+![Streaks 习惯列表与今日打卡](/assets/images/blog/streaks_1.webp){: width="180" .normal }
+![Streaks 打卡详情与备注](/assets/images/blog/streaks_2.webp){: width="180" .normal }
+![Streaks 连续天数与 Streak](/assets/images/blog/streaks_3.webp){: width="180" .normal }
+![Streaks 统计图表与日历](/assets/images/blog/streaks_4.webp){: width="180" .normal }
+![Streaks 提醒与设置](/assets/images/blog/streaks_5.webp){: width="180" .normal }
 
 - **仅限 iPhone / iPad**——没有安卓应用，桌面端支持也很有限，多设备混用的家庭基本被挡在门外。
 - **买断付费（约 $5.99）**，没有可以试用再决定的免费档。
@@ -41,11 +41,11 @@ Streaks 让习惯追踪成为数百万 iPhone 用户每天的仪式——它界�
 
 ### 1. Meow Habits —— 最适合可爱、私密、免账号的追踪
 
-![Meow Habits 截图：Meow Habits：最适合可爱、私密、免账号的追踪 —— 2026 年最佳 Streaks 替代应用](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
-![Meow Habits 截图 2：Meow Habits：最适合可爱、私密、免账号的追踪 —— 2026 年最佳 Streaks 替代应用](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
-![Meow Habits 截图 3：Meow Habits：最适合可爱、私密、免账号的追踪 —— 2026 年最佳 Streaks 替代应用](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
-![Meow Habits 截图 4：Meow Habits：最适合可爱、私密、免账号的追踪 —— 2026 年最佳 Streaks 替代应用](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
-![Meow Habits 截图 5：Meow Habits：最适合可爱、私密、免账号的追踪 —— 2026 年最佳 Streaks 替代应用](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
+![Meow Habits 习惯列表与今日打卡](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
+![Meow Habits 打卡详情与备注](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
+![Meow Habits 连续天数与 Streak](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
+![Meow Habits 统计图表与日历](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
+![Meow Habits 提醒与设置](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
 
 Meow Habits 是一款以猫为主题的 **习惯追踪应用**，支持 Android 和 iOS。它最突出的特点是 **界面**：可爱、卡通风格的设计，搭配 **500+ 丰富的分类图标**，让每天打卡变得轻松愉快，而不像在应付一项 productivity 任务。除了颜值，它也覆盖了实用的习惯基础功能，而且不强制你注册云端账号。
 
@@ -72,11 +72,11 @@ Meow Habits 是一款以猫为主题的 **习惯追踪应用**，支持 Android 
 
 ### 2. Habitica —— 最适合游戏化督促
 
-![Habitica 截图：Habitica：最适合游戏化督促 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/habit_rpg_1.webp){: width="180" .normal }
-![Habitica 截图 2：Habitica：最适合游戏化督促 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/habit_rpg_2.webp){: width="180" .normal }
-![Habitica 截图 3：Habitica：最适合游戏化督促 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/habit_rpg_3.webp){: width="180" .normal }
-![Habitica 截图 4：Habitica：最适合游戏化督促 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/habit_rpg_4.webp){: width="180" .normal }
-![Habitica 截图 5：Habitica：最适合游戏化督促 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/habit_rpg_5.webp){: width="180" .normal }
+![Habitica 习惯列表与今日打卡](/assets/images/blog/habit_rpg_1.webp){: width="180" .normal }
+![Habitica 打卡详情与备注](/assets/images/blog/habit_rpg_2.webp){: width="180" .normal }
+![Habitica 连续天数与 Streak](/assets/images/blog/habit_rpg_3.webp){: width="180" .normal }
+![Habitica 统计图表与日历](/assets/images/blog/habit_rpg_4.webp){: width="180" .normal }
+![Habitica 提醒与设置](/assets/images/blog/habit_rpg_5.webp){: width="180" .normal }
 
 Habitica 把你的习惯、日常任务和待办事项变成了一款 **RPG**。你创建角色，完成任务获得经验值和金币，偷懒则会掉血。它基于账号跨平台运行，小队、公会与挑战带来 Streaks 所没有的真正的社交层。
 
@@ -103,11 +103,11 @@ Habitica 把你的习惯、日常任务和待办事项变成了一款 **RPG**。
 
 ### 3. Loop Habit Tracker —— 最适合免费、开源、隐私优先的统计
 
-![Loop Habit Tracker 截图：Loop Habit Tracker：最适合免费、开源、隐私优先的统计 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/loop_habit_1.webp){: width="180" .normal }
-![Loop Habit Tracker 截图 2：Loop Habit Tracker：最适合免费、开源、隐私优先的统计 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/loop_habit_2.webp){: width="180" .normal }
-![Loop Habit Tracker 截图 3：Loop Habit Tracker：最适合免费、开源、隐私优先的统计 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/loop_habit_3.webp){: width="180" .normal }
-![Loop Habit Tracker 截图 4：Loop Habit Tracker：最适合免费、开源、隐私优先的统计 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/loop_habit_4.webp){: width="180" .normal }
-![Loop Habit Tracker 截图 5：Loop Habit Tracker：最适合免费、开源、隐私优先的统计 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/loop_habit_5.webp){: width="180" .normal }
+![Loop 习惯列表与今日打卡](/assets/images/blog/loop_habit_1.webp){: width="180" .normal }
+![Loop 打卡详情与备注](/assets/images/blog/loop_habit_2.webp){: width="180" .normal }
+![Loop 连续天数与 Streak](/assets/images/blog/loop_habit_3.webp){: width="180" .normal }
+![Loop 统计图表与日历](/assets/images/blog/loop_habit_4.webp){: width="180" .normal }
+![Loop 提醒与设置](/assets/images/blog/loop_habit_5.webp){: width="180" .normal }
 
 Loop 是一款 **免费、开源、无广告** 的安卓习惯追踪应用。它把一切化简为扎实的统计——习惯得分、连续天数、频率——并且从不要求你注册。它没有 iOS 版本，但对安卓原教旨主义者来说几乎无可匹敌。
 
@@ -133,11 +133,11 @@ Loop 是一款 **免费、开源、无广告** 的安卓习惯追踪应用。它
 
 ### 4. Fabulous —— 最适合有科学依据的行为教练
 
-![Fabulous 截图：Fabulous：最适合有科学依据的行为教练 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/fabulous_1.webp){: width="180" .normal }
-![Fabulous 截图 2：Fabulous：最适合有科学依据的行为教练 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/fabulous_2.webp){: width="180" .normal }
-![Fabulous 截图 3：Fabulous：最适合有科学依据的行为教练 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/fabulous_3.webp){: width="180" .normal }
-![Fabulous 截图 4：Fabulous：最适合有科学依据的行为教练 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/fabulous_4.webp){: width="180" .normal }
-![Fabulous 截图 5：Fabulous：最适合有科学依据的行为教练 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/fabulous_5.webp){: width="180" .normal }
+![Fabulous 习惯列表与今日打卡](/assets/images/blog/fabulous_1.webp){: width="180" .normal }
+![Fabulous 打卡详情与备注](/assets/images/blog/fabulous_2.webp){: width="180" .normal }
+![Fabulous 连续天数与 Streak](/assets/images/blog/fabulous_3.webp){: width="180" .normal }
+![Fabulous 统计图表与日历](/assets/images/blog/fabulous_4.webp){: width="180" .normal }
+![Fabulous 提醒与设置](/assets/images/blog/fabulous_5.webp){: width="180" .normal }
 
 Fabulous 起步于 **杜克大学的行为经济学研究项目**，把习惯养成包装成有引导的旅程——晨间作息、冥想、睡眠、健身和正念饮食——靠的是"教练"而非冷冰冰的勾选框。
 
@@ -164,11 +164,11 @@ Fabulous 起步于 **杜克大学的行为经济学研究项目**，把习惯养
 
 ### 5. Productive —— 最适合精致的 iOS 体验
 
-![Productive 截图：Productive：最适合精致的 iOS 体验 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/productive_habit_1.webp){: width="180" .normal }
-![Productive 截图 2：Productive：最适合精致的 iOS 体验 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/productive_habit_2.webp){: width="180" .normal }
-![Productive 截图 3：Productive：最适合精致的 iOS 体验 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/productive_habit_3.webp){: width="180" .normal }
-![Productive 截图 4：Productive：最适合精致的 iOS 体验 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/productive_habit_4.webp){: width="180" .normal }
-![Productive 截图 5：Productive：最适合精致的 iOS 体验 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/productive_habit_5.webp){: width="180" .normal }
+![Productive 习惯列表与今日打卡](/assets/images/blog/productive_habit_1.webp){: width="180" .normal }
+![Productive 打卡详情与备注](/assets/images/blog/productive_habit_2.webp){: width="180" .normal }
+![Productive 连续天数与 Streak](/assets/images/blog/productive_habit_3.webp){: width="180" .normal }
+![Productive 统计图表与日历](/assets/images/blog/productive_habit_4.webp){: width="180" .normal }
+![Productive 提醒与设置](/assets/images/blog/productive_habit_5.webp){: width="180" .normal }
 
 Productive 是 **最受欢迎的 iOS 习惯追踪应用之一**，以清爽美观的界面和出色的小组件闻名。它优先服务 iPhone / iPad，并深度贴合苹果的设计语言，堪称苹果用户精神上与 Streaks 最接近的兄弟应用。
 
@@ -192,10 +192,10 @@ Productive 是 **最受欢迎的 iOS 习惯追踪应用之一**，以清爽美�
 
 ### 6. Habitify —— 最适合跨平台、按时段的追踪
 
-![Habitify 截图：Habitify：最适合跨平台、按时段的追踪 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/habitify_2.webp){: width="180" .normal }
-![Habitify 截图 2：Habitify：最适合跨平台、按时段的追踪 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/habitify_3.webp){: width="180" .normal }
-![Habitify 截图 3：Habitify：最适合跨平台、按时段的追踪 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/habitify_4.webp){: width="180" .normal }
-![Habitify 截图 4：Habitify：最适合跨平台、按时段的追踪 —— 2026 年最佳 Streaks 替代应用](/assets/images/blog/habitify_5.webp){: width="180" .normal }
+![Habitify 打卡详情与备注](/assets/images/blog/habitify_2.webp){: width="180" .normal }
+![Habitify 连续天数与 Streak](/assets/images/blog/habitify_3.webp){: width="180" .normal }
+![Habitify 统计图表与日历](/assets/images/blog/habitify_4.webp){: width="180" .normal }
+![Habitify 提醒与设置](/assets/images/blog/habitify_5.webp){: width="180" .normal }
 
 Habitify 是一款 **跨平台习惯追踪应用**（iOS、Android、网页、Wear OS），它按 **一天中的时段——早晨、下午、晚上**——来组织习惯，并实时同步。如果你活跃在多个设备之间，喜欢把习惯嵌进日程，它是个强力的选择。
 

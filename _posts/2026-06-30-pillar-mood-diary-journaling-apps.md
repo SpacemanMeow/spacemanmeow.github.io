@@ -34,11 +34,11 @@ On Android, local-first storage plus a fingerprint lock means your private thoug
 
 ## Meow Mood Diary, in depth
 
-![Meow Mood Diary screenshot: Meow Mood Diary, in depth — Best Mood Diary & Journaling Apps (2026)](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
-![Meow Mood Diary screenshot 2: Meow Mood Diary, in depth — Best Mood Diary & Journaling Apps (2026)](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
-![Meow Mood Diary screenshot 3: Meow Mood Diary, in depth — Best Mood Diary & Journaling Apps (2026)](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
-![Meow Mood Diary screenshot 4: Meow Mood Diary, in depth — Best Mood Diary & Journaling Apps (2026)](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
-![Meow Mood Diary screenshot 5: Meow Mood Diary, in depth — Best Mood Diary & Journaling Apps (2026)](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
+![Meow Mood Diary journal editor & mood log](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
+![Meow Mood Diary mood picker & tags](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
+![Meow Mood Diary stats chart & trends](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
+![Meow Mood Diary calendar & history](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![Meow Mood Diary backup & export](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
 
 Meow Mood Diary is a safe, private mood diary and journaling app with a calming cat-themed interface for recording feelings and tracking mood.
 

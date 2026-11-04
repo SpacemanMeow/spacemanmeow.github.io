@@ -28,11 +28,11 @@ lang: zh
 
 ## 深入看 Only Clock
 
-![Only Clock 截图：深入看 Only Clock —— Only Clock 床头版：闲置手机变床头钟](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
-![Only Clock 截图 2：深入看 Only Clock —— Only Clock 床头版：闲置手机变床头钟](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
-![Only Clock 截图 3：深入看 Only Clock —— Only Clock 床头版：闲置手机变床头钟](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
-![Only Clock 截图 4：深入看 Only Clock —— Only Clock 床头版：闲置手机变床头钟](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
-![Only Clock 截图 5：深入看 Only Clock —— Only Clock 床头版：闲置手机变床头钟](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
+![OnlyClock 设置与选项](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
+![OnlyClock 时钟主界面与显示](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
+![OnlyClock 闹钟与计时器](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
+![OnlyClock 夜间模式与主题](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
 
 Only Clock 是一款安卓与 iOS 的 **全屏翻页钟**，带深色主题、白噪音与防烧屏选项。
 
@@ -54,11 +54,11 @@ Only Clock 是一款安卓与 iOS 的 **全屏翻页钟**，带深色主题、�
 
 ## 深入看 Flip Clock
 
-![Flip Clock 截图：深入看 Flip Clock —— Only Clock 床头版：闲置手机变床头钟](/assets/images/blog/flip_clock_1.webp){: width="180" .normal }
-![Flip Clock 截图 2：深入看 Flip Clock —— Only Clock 床头版：闲置手机变床头钟](/assets/images/blog/flip_clock_2.webp){: width="180" .normal }
-![Flip Clock 截图 3：深入看 Flip Clock —— Only Clock 床头版：闲置手机变床头钟](/assets/images/blog/flip_clock_3.webp){: width="180" .normal }
-![Flip Clock 截图 4：深入看 Flip Clock —— Only Clock 床头版：闲置手机变床头钟](/assets/images/blog/flip_clock_4.webp){: width="180" .normal }
-![Flip Clock 截图 5：深入看 Flip Clock —— Only Clock 床头版：闲置手机变床头钟](/assets/images/blog/flip_clock_5.webp){: width="180" .normal }
+![Flip Clock 时钟主界面与显示](/assets/images/blog/flip_clock_1.webp){: width="180" .normal }
+![Flip Clock 夜间模式与主题](/assets/images/blog/flip_clock_2.webp){: width="180" .normal }
+![Flip Clock 闹钟与计时器](/assets/images/blog/flip_clock_3.webp){: width="180" .normal }
+![Flip Clock 小组件与锁屏](/assets/images/blog/flip_clock_4.webp){: width="180" .normal }
+![Flip Clock 设置与选项](/assets/images/blog/flip_clock_5.webp){: width="180" .normal }
 
 Flip Clock（包名 `com.wssc.simpleclock`）是一款免费、无广告的 **翻页钟应用**，带亮度与常亮控制。
 

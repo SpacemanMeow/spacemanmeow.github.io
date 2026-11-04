@@ -24,11 +24,11 @@ The trade-off was that Mint monetized through referrals and eventually steered u
 
 ## YNAB (You Need A Budget) — the methodology leader
 
-![YNAB screenshot: YNAB (You Need A Budget): the methodology leader — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/ynab_1.webp){: width="180" .normal }
-![YNAB screenshot 2: YNAB (You Need A Budget): the methodology leader — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/ynab_2.webp){: width="180" .normal }
-![YNAB screenshot 3: YNAB (You Need A Budget): the methodology leader — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/ynab_3.webp){: width="180" .normal }
-![YNAB screenshot 4: YNAB (You Need A Budget): the methodology leader — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/ynab_4.webp){: width="180" .normal }
-![YNAB screenshot 5: YNAB (You Need A Budget): the methodology leader — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/ynab_5.webp){: width="180" .normal }
+![YNAB home screen with accounts overview](/assets/images/blog/ynab_1.webp){: width="180" .normal }
+![YNAB budget & category setup](/assets/images/blog/ynab_2.webp){: width="180" .normal }
+![YNAB charts & spending stats](/assets/images/blog/ynab_3.webp){: width="180" .normal }
+![YNAB multi-ledger & assets](/assets/images/blog/ynab_4.webp){: width="180" .normal }
+![YNAB reimbursement & CSV export](/assets/images/blog/ynab_5.webp){: width="180" .normal }
 
 YNAB is the best-known **zero-based budgeting** app: every dollar is "given a job" before you spend it, built on four simple rules. It has the largest dedicated budgeting community and the most education (workshops, guides, forums).
 
@@ -54,11 +54,11 @@ YNAB is the best-known **zero-based budgeting** app: every dollar is "given a jo
 
 ## Meow Money Manager — cat-themed tracker with a delightful interface
 
-![Meow Money screenshot: Meow Money Manager: cat-themed tracker with a delightful interface — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
-![Meow Money screenshot 2: Meow Money Manager: cat-themed tracker with a delightful interface — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
-![Meow Money screenshot 3: Meow Money Manager: cat-themed tracker with a delightful interface — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
-![Meow Money screenshot 4: Meow Money Manager: cat-themed tracker with a delightful interface — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
-![Meow Money screenshot 5: Meow Money Manager: cat-themed tracker with a delightful interface — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
+![Meow Money Manager home screen with accounts overview](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
+![Meow Money Manager budget & category setup](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
+![Meow Money Manager charts & spending stats](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
+![Meow Money Manager multi-ledger & assets](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
+![Meow Money Manager reimbursement & CSV export](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
 
 Meow Money Manager is a cat-themed expense tracker and budget app for **Android and iOS**. Its most distinctive trait is the **interface**: a cute, cartoon-style design with **400+ rich category icons** that make daily logging feel light rather than like office work. Beyond looks, it covers the practical bookkeeping basics.
 
@@ -90,10 +90,10 @@ Meow Money Manager is a cat-themed expense tracker and budget app for **Android 
 
 ## Monarch Money — the closest Mint successor
 
-![Monarch Money screenshot: Monarch Money: the closest Mint successor — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/monarch_money_1.webp){: width="180" .normal }
-![Monarch Money screenshot 2: Monarch Money: the closest Mint successor — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/monarch_money_2.webp){: width="180" .normal }
-![Monarch Money screenshot 3: Monarch Money: the closest Mint successor — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/monarch_money_3.webp){: width="180" .normal }
-![Monarch Money screenshot 4: Monarch Money: the closest Mint successor — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/monarch_money_4.webp){: width="180" .normal }
+![Monarch Money home screen with accounts overview](/assets/images/blog/monarch_money_1.webp){: width="180" .normal }
+![Monarch Money budget & category setup](/assets/images/blog/monarch_money_2.webp){: width="180" .normal }
+![Monarch Money charts & spending stats](/assets/images/blog/monarch_money_3.webp){: width="180" .normal }
+![Monarch Money multi-ledger & assets](/assets/images/blog/monarch_money_4.webp){: width="180" .normal }
 
 Monarch is the app most often named the **direct Mint replacement**. It aggregates banks, cards, loans, investments, and even crypto and real estate into one dashboard, with collaborative sharing so a partner can edit the same budget.
 
@@ -119,11 +119,11 @@ Monarch is the app most often named the **direct Mint replacement**. It aggregat
 
 ## Rocket Money — best for taming subscriptions
 
-![Rocket Money screenshot: Rocket Money: best for taming subscriptions — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/rocket_money_1.webp){: width="180" .normal }
-![Rocket Money screenshot 2: Rocket Money: best for taming subscriptions — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/rocket_money_2.webp){: width="180" .normal }
-![Rocket Money screenshot 3: Rocket Money: best for taming subscriptions — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/rocket_money_3.webp){: width="180" .normal }
-![Rocket Money screenshot 4: Rocket Money: best for taming subscriptions — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/rocket_money_4.webp){: width="180" .normal }
-![Rocket Money screenshot 5: Rocket Money: best for taming subscriptions — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/rocket_money_5.webp){: width="180" .normal }
+![Rocket Money home screen with accounts overview](/assets/images/blog/rocket_money_1.webp){: width="180" .normal }
+![Rocket Money budget & category setup](/assets/images/blog/rocket_money_2.webp){: width="180" .normal }
+![Rocket Money charts & spending stats](/assets/images/blog/rocket_money_3.webp){: width="180" .normal }
+![Rocket Money multi-ledger & assets](/assets/images/blog/rocket_money_4.webp){: width="180" .normal }
+![Rocket Money reimbursement & CSV export](/assets/images/blog/rocket_money_5.webp){: width="180" .normal }
 
 Rocket Money (formerly Truebill) is built around **finding and canceling unwanted subscriptions**, lowering bills through negotiation, and giving a simple spending overview. It is the strongest pick if recurring charges are your main pain point.
 
@@ -149,11 +149,11 @@ Rocket Money (formerly Truebill) is built around **finding and canceling unwante
 
 ## Empower (formerly Personal Capital) — best free net-worth & investment view
 
-![Empower screenshot: Empower (formerly Personal Capital): best free net-worth & investment vi — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/empower_money_1.webp){: width="180" .normal }
-![Empower screenshot 2: Empower (formerly Personal Capital): best free net-worth & investment vi — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/empower_money_2.webp){: width="180" .normal }
-![Empower screenshot 3: Empower (formerly Personal Capital): best free net-worth & investment vi — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/empower_money_3.webp){: width="180" .normal }
-![Empower screenshot 4: Empower (formerly Personal Capital): best free net-worth & investment vi — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/empower_money_4.webp){: width="180" .normal }
-![Empower screenshot 5: Empower (formerly Personal Capital): best free net-worth & investment vi — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/empower_money_5.webp){: width="180" .normal }
+![Empower home screen with accounts overview](/assets/images/blog/empower_money_1.webp){: width="180" .normal }
+![Empower budget & category setup](/assets/images/blog/empower_money_2.webp){: width="180" .normal }
+![Empower charts & spending stats](/assets/images/blog/empower_money_3.webp){: width="180" .normal }
+![Empower multi-ledger & assets](/assets/images/blog/empower_money_4.webp){: width="180" .normal }
+![Empower reimbursement & CSV export](/assets/images/blog/empower_money_5.webp){: width="180" .normal }
 
 Empower is **free** and focused on **net worth and investment tracking**. It aggregates bank, retirement, brokerage, crypto, and even mortgage/real-estate data to give a portfolio analysis, retirement planner, and fee analyzer.
 
@@ -179,11 +179,11 @@ Empower is **free** and focused on **net worth and investment tracking**. It agg
 
 ## PocketGuard — best for "safe to spend"
 
-![PocketGuard screenshot: PocketGuard: best for "safe to spend" — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/pocketguard_money_1.webp){: width="180" .normal }
-![PocketGuard screenshot 2: PocketGuard: best for "safe to spend" — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/pocketguard_money_2.webp){: width="180" .normal }
-![PocketGuard screenshot 3: PocketGuard: best for "safe to spend" — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/pocketguard_money_3.webp){: width="180" .normal }
-![PocketGuard screenshot 4: PocketGuard: best for "safe to spend" — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/pocketguard_money_4.webp){: width="180" .normal }
-![PocketGuard screenshot 5: PocketGuard: best for "safe to spend" — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/pocketguard_money_5.webp){: width="180" .normal }
+![PocketGuard home screen with accounts overview](/assets/images/blog/pocketguard_money_1.webp){: width="180" .normal }
+![PocketGuard budget & category setup](/assets/images/blog/pocketguard_money_2.webp){: width="180" .normal }
+![PocketGuard charts & spending stats](/assets/images/blog/pocketguard_money_3.webp){: width="180" .normal }
+![PocketGuard multi-ledger & assets](/assets/images/blog/pocketguard_money_4.webp){: width="180" .normal }
+![PocketGuard reimbursement & CSV export](/assets/images/blog/pocketguard_money_5.webp){: width="180" .normal }
 
 PocketGuard keeps things simple: it shows **"In My Pocket"** — how much you can safely spend after bills, savings, and goals are covered. It is the lightest way to avoid overspending without learning a method.
 
@@ -208,11 +208,11 @@ PocketGuard keeps things simple: it shows **"In My Pocket"** — how much you ca
 
 ## Goodbudget — best envelope budgeting without a subscription
 
-![Goodbudget screenshot: Goodbudget: best envelope budgeting without a subscription — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/good_budget_1.webp){: width="180" .normal }
-![Goodbudget screenshot 2: Goodbudget: best envelope budgeting without a subscription — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/good_budget_2.webp){: width="180" .normal }
-![Goodbudget screenshot 3: Goodbudget: best envelope budgeting without a subscription — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/good_budget_3.webp){: width="180" .normal }
-![Goodbudget screenshot 4: Goodbudget: best envelope budgeting without a subscription — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/good_budget_4.webp){: width="180" .normal }
-![Goodbudget screenshot 5: Goodbudget: best envelope budgeting without a subscription — Best Mint Alternatives in 2026 (After Mint Shut Down)](/assets/images/blog/good_budget_5.webp){: width="180" .normal }
+![Goodbudget home screen with accounts overview](/assets/images/blog/good_budget_1.webp){: width="180" .normal }
+![Goodbudget budget & category setup](/assets/images/blog/good_budget_2.webp){: width="180" .normal }
+![Goodbudget charts & spending stats](/assets/images/blog/good_budget_3.webp){: width="180" .normal }
+![Goodbudget multi-ledger & assets](/assets/images/blog/good_budget_4.webp){: width="180" .normal }
+![Goodbudget reimbursement & CSV export](/assets/images/blog/good_budget_5.webp){: width="180" .normal }
 
 Goodbudget digitizes the classic **envelope system**: you allocate money into virtual envelopes and spend from them. It is deliberately manual and shines for couples and families who share a budget.
 

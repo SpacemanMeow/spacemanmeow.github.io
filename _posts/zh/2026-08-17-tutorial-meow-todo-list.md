@@ -31,10 +31,10 @@ Meow Todo List 是一款安卓与 iOS 的可爱卡通风格任务管理器与待
 
 **📝 快速捕捉**
 
-![Meow Todo 页面截图 1：应用简介 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_page_1.webp){: width="180" .normal }
-![Meow Todo 页面截图 2：应用简介 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_page_2.webp){: width="180" .normal }
-![Meow Todo 页面截图 3：应用简介 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_page_3.webp){: width="180" .normal }
-![Meow Todo 页面截图 4：应用简介 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_page_4.webp){: width="180" .normal }
+![Meow Todo List 任务列表与今日待办](/assets/images/blog/tutorial_todo_page_1.webp){: width="180" .normal }
+![Meow Todo List 任务编辑与提醒](/assets/images/blog/tutorial_todo_page_2.webp){: width="180" .normal }
+![Meow Todo List 清单与标签分组](/assets/images/blog/tutorial_todo_page_3.webp){: width="180" .normal }
+![Meow Todo List 日历与时间视图](/assets/images/blog/tutorial_todo_page_4.webp){: width="180" .normal }
 
 - 四个底部标签：**任务**、**日历**、**统计**、**设置**
 - 一个浮动 **+** 按钮随处添加任务
@@ -61,7 +61,7 @@ Meow Todo List 是一款安卓与 iOS 的可爱卡通风格任务管理器与待
 - 左侧 **抽屉** 在 今天 / 明天 / 7 天 / 已完成 与你的自定义清单 & 标签间切换
 - 底部栏在 任务 / 日历 / 统计 / 设置 间移动
 
-![Meow Todo 任务截图：首次使用 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_tasks.webp){: width="180" .normal }
+![Meow Todo List 任务列表与今日待办](/assets/images/blog/tutorial_todo_tasks.webp){: width="180" .normal }
 
 ## 添加任务
 
@@ -73,11 +73,11 @@ Meow Todo List 是一款安卓与 iOS 的可爱卡通风格任务管理器与待
 6. 如喜欢可设 **优先级**
 7. 点 **确认** 保存
 
-![Meow Todo 添加截图：添加任务 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_add.webp){: width="180" .normal }
-![Meow Todo 添加清单截图：添加任务 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_add_book.webp){: width="180" .normal }
-![Meow Todo 添加标签截图：添加任务 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_add_tag.webp){: width="180" .normal }
-![Meow Todo 添加日期截图：添加任务 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_add_date.webp){: width="180" .normal }
-![Meow Todo 添加重复截图：添加任务 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_add_repeat.webp){: width="180" .normal }
+![Meow Todo List 任务列表与今日待办](/assets/images/blog/tutorial_todo_add.webp){: width="180" .normal }
+![Tutorial Todo Add 任务列表与今日待办](/assets/images/blog/tutorial_todo_add_book.webp){: width="180" .normal }
+![Tutorial Todo Add 任务列表与今日待办](/assets/images/blog/tutorial_todo_add_tag.webp){: width="180" .normal }
+![Tutorial Todo Add 任务列表与今日待办](/assets/images/blog/tutorial_todo_add_date.webp){: width="180" .normal }
+![Tutorial Todo Add 任务列表与今日待办](/assets/images/blog/tutorial_todo_add_repeat.webp){: width="180" .normal }
 
 ## 子任务
 
@@ -87,8 +87,8 @@ Meow Todo List 是一款安卓与 iOS 的可爱卡通风格任务管理器与待
 - 免费账号每任务最多 **15 个** 子任务；VIP 取消上限
 - 完成时勾选
 
-![Meow Todo 子任务截图：子任务 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_subtask.webp){: width="180" .normal }
-![Meow Todo 子任务输入截图：子任务 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_subtask_input.webp){: width="180" .normal }
+![Meow Todo List 任务列表与今日待办](/assets/images/blog/tutorial_todo_subtask.webp){: width="180" .normal }
+![Tutorial Todo Subtask 任务列表与今日待办](/assets/images/blog/tutorial_todo_subtask_input.webp){: width="180" .normal }
 
 ## 提醒
 
@@ -98,9 +98,9 @@ Meow Todo List 是一款安卓与 iOS 的可爱卡通风格任务管理器与待
 2. 确保应用已允许通知
 3. 编辑任务时应用会自动重新调度提醒
 
-![Meow Todo 通知截图 1：提醒 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_notification_1.webp){: width="180" .normal }
-![Meow Todo 通知截图 2：提醒 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_notification_2.webp){: width="180" .normal }
-![Meow Todo 通知截图 3：提醒 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_notification_3.webp){: width="180" .normal }
+![Tutorial Todo Notification 任务列表与今日待办](/assets/images/blog/tutorial_todo_notification_1.webp){: width="180" .normal }
+![Tutorial Todo Notification 任务编辑与提醒](/assets/images/blog/tutorial_todo_notification_2.webp){: width="180" .normal }
+![Tutorial Todo Notification 清单与标签分组](/assets/images/blog/tutorial_todo_notification_3.webp){: width="180" .normal }
 
 若没看到提醒，打开任务确认它有未来日期/时间，再在系统设置允许通知。
 
@@ -111,10 +111,10 @@ Meow Todo List 是一款安卓与 iOS 的可爱卡通风格任务管理器与待
 3. 有任务的天显示一个小圆点
 4. 点一天看当天任务
 
-![Meow Todo 页面截图 1：日历视图 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_page_2.webp){: width="180" .normal }
-![Meow Todo 日历选择截图：日历视图 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_calendar_select.webp){: width="180" .normal }
-![Meow Todo 日历周截图：日历视图 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_calendar_week.webp){: width="180" .normal }
-![Meow Todo 日历月截图：日历视图 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_calendar_month.webp){: width="180" .normal }
+![Meow Todo List 任务编辑与提醒](/assets/images/blog/tutorial_todo_page_2.webp){: width="180" .normal }
+![Tutorial Todo Calendar 任务列表与今日待办](/assets/images/blog/tutorial_todo_calendar_select.webp){: width="180" .normal }
+![Tutorial Todo Calendar 任务列表与今日待办](/assets/images/blog/tutorial_todo_calendar_week.webp){: width="180" .normal }
+![Tutorial Todo Calendar 任务列表与今日待办](/assets/images/blog/tutorial_todo_calendar_month.webp){: width="180" .normal }
 
 ## 统计
 
@@ -122,8 +122,8 @@ Meow Todo List 是一款安卓与 iOS 的可爱卡通风格任务管理器与待
 2. 查看贡献热力图与饼图
 3. 切换范围（周 / 月 / 年）看按清单与标签的趋势
 
-![Meow Todo 统计截图：统计 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_stats.webp){: width="180" .normal }
-![Meow Todo 统计日期截图：统计 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_stats_date.webp){: width="180" .normal }
+![Meow Todo List 任务列表与今日待办](/assets/images/blog/tutorial_todo_stats.webp){: width="180" .normal }
+![Tutorial Todo Stats 任务列表与今日待办](/assets/images/blog/tutorial_todo_stats_date.webp){: width="180" .normal }
 
 ## 清单与标签
 
@@ -131,7 +131,7 @@ Meow Todo List 是一款安卓与 iOS 的可爱卡通风格任务管理器与待
 - **标签** 让你跨清单筛选——免费账号最多创建 **10 个标签**
 - 从抽屉或 设置 → 管理 界面创建
 
-![Meow Todo 清单截图：清单与标签 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_book.webp){: width="180" .normal }
+![Meow Todo List 任务列表与今日待办](/assets/images/blog/tutorial_todo_book.webp){: width="180" .normal }
 
 ## 备份与同步
 
@@ -140,7 +140,7 @@ Meow Todo List 是一款安卓与 iOS 的可爱卡通风格任务管理器与待
 3. 点 **备份** 上传，**恢复** 下载
 4. 开启 **自动备份** 定期备份
 
-![Meow Todo 备份截图：备份与同步 —— Meow Todo List 官方使用指南](/assets/images/blog/tutorial_todo_backup.webp){: width="180" .normal }
+![Meow Todo List 任务列表与今日待办](/assets/images/blog/tutorial_todo_backup.webp){: width="180" .normal }
 
 ## CSV 导出（VIP）
 

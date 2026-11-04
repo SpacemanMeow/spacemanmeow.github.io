@@ -12,11 +12,11 @@ If you are shopping for **alternatives to Todoist**, you probably want lower cos
 
 ## Why people look beyond Todoist
 
-![Todoist screenshot: Why people look beyond Todoist — Best Todoist Alternatives in 2026](/assets/images/blog/todoist_1.webp){: width="180" .normal }
-![Todoist screenshot 2: Why people look beyond Todoist — Best Todoist Alternatives in 2026](/assets/images/blog/todoist_2.webp){: width="180" .normal }
-![Todoist screenshot 3: Why people look beyond Todoist — Best Todoist Alternatives in 2026](/assets/images/blog/todoist_3.webp){: width="180" .normal }
-![Todoist screenshot 4: Why people look beyond Todoist — Best Todoist Alternatives in 2026](/assets/images/blog/todoist_4.webp){: width="180" .normal }
-![Todoist screenshot 5: Why people look beyond Todoist — Best Todoist Alternatives in 2026](/assets/images/blog/todoist_5.webp){: width="180" .normal }
+![Todoist task list & today's to-dos](/assets/images/blog/todoist_1.webp){: width="180" .normal }
+![Todoist task editor & reminder](/assets/images/blog/todoist_2.webp){: width="180" .normal }
+![Todoist lists & tag groups](/assets/images/blog/todoist_3.webp){: width="180" .normal }
+![Todoist calendar & schedule view](/assets/images/blog/todoist_4.webp){: width="180" .normal }
+![Todoist sync & settings](/assets/images/blog/todoist_5.webp){: width="180" .normal }
 
 - The free **Beginner** tier caps you at ~5 active projects with limited reminders.
 - **Calendar integration** and many automations sit behind the **Pro** plan (~$60/year).
@@ -36,11 +36,11 @@ If you are shopping for **alternatives to Todoist**, you probably want lower cos
 
 ### 1. Microsoft To Do — best for the Microsoft ecosystem
 
-![Microsoft To Do screenshot: Microsoft To Do: best for the Microsoft ecosystem — Best Todoist Alternatives in 2026](/assets/images/blog/microsoft_todo_1.webp){: width="180" .normal }
-![Microsoft To Do screenshot 2: Microsoft To Do: best for the Microsoft ecosystem — Best Todoist Alternatives in 2026](/assets/images/blog/microsoft_todo_2.webp){: width="180" .normal }
-![Microsoft To Do screenshot 3: Microsoft To Do: best for the Microsoft ecosystem — Best Todoist Alternatives in 2026](/assets/images/blog/microsoft_todo_3.webp){: width="180" .normal }
-![Microsoft To Do screenshot 4: Microsoft To Do: best for the Microsoft ecosystem — Best Todoist Alternatives in 2026](/assets/images/blog/microsoft_todo_4.webp){: width="180" .normal }
-![Microsoft To Do screenshot 5: Microsoft To Do: best for the Microsoft ecosystem — Best Todoist Alternatives in 2026](/assets/images/blog/microsoft_todo_5.webp){: width="180" .normal }
+![Microsoft To Do task list & today's to-dos](/assets/images/blog/microsoft_todo_1.webp){: width="180" .normal }
+![Microsoft To Do task editor & reminder](/assets/images/blog/microsoft_todo_2.webp){: width="180" .normal }
+![Microsoft To Do lists & tag groups](/assets/images/blog/microsoft_todo_3.webp){: width="180" .normal }
+![Microsoft To Do calendar & schedule view](/assets/images/blog/microsoft_todo_4.webp){: width="180" .normal }
+![Microsoft To Do sync & settings](/assets/images/blog/microsoft_todo_5.webp){: width="180" .normal }
 
 Microsoft To Do (built by the former Wunderlist team Microsoft acquired in 2015) is **completely free** and deeply tied to Outlook and Windows. It shines for anyone already in Microsoft 365.
 
@@ -63,11 +63,11 @@ Microsoft To Do (built by the former Wunderlist team Microsoft acquired in 2015)
 
 ### 2. Meow Todo — best for privacy, a delightful interface, and a free core
 
-![Meow Todo screenshot: Meow Todo: best for privacy, a delightful interface, and a free core — Best Todoist Alternatives in 2026](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
-![Meow Todo screenshot 2: Meow Todo: best for privacy, a delightful interface, and a free core — Best Todoist Alternatives in 2026](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
-![Meow Todo screenshot 3: Meow Todo: best for privacy, a delightful interface, and a free core — Best Todoist Alternatives in 2026](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
-![Meow Todo screenshot 4: Meow Todo: best for privacy, a delightful interface, and a free core — Best Todoist Alternatives in 2026](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
-![Meow Todo screenshot 5: Meow Todo: best for privacy, a delightful interface, and a free core — Best Todoist Alternatives in 2026](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
+![Meow Todo List task list & today's to-dos](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
+![Meow Todo List task editor & reminder](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
+![Meow Todo List lists & tag groups](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
+![Meow Todo List calendar & schedule view](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
+![Meow Todo List sync & settings](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
 
 Meow Todo List is a cat-themed **task manager** for Android and iOS. Its standout trait is the **interface**: a cute, cartoon-style design with **400+ rich category icons** that make daily planning feel light rather than like office work. Beyond looks, it covers the practical to-do basics.
 
@@ -91,11 +91,11 @@ Meow Todo List is a cat-themed **task manager** for Android and iOS. Its standou
 
 ### 3. TickTick — best all-rounder
 
-![TickTick screenshot: TickTick: best all-rounder — Best Todoist Alternatives in 2026](/assets/images/blog/ticktick_todo_1.webp){: width="180" .normal }
-![TickTick screenshot 2: TickTick: best all-rounder — Best Todoist Alternatives in 2026](/assets/images/blog/ticktick_todo_2.webp){: width="180" .normal }
-![TickTick screenshot 3: TickTick: best all-rounder — Best Todoist Alternatives in 2026](/assets/images/blog/ticktick_todo_3.webp){: width="180" .normal }
-![TickTick screenshot 4: TickTick: best all-rounder — Best Todoist Alternatives in 2026](/assets/images/blog/ticktick_todo_4.webp){: width="180" .normal }
-![TickTick screenshot 5: TickTick: best all-rounder — Best Todoist Alternatives in 2026](/assets/images/blog/ticktick_todo_5.webp){: width="180" .normal }
+![TickTick task list & today's to-dos](/assets/images/blog/ticktick_todo_1.webp){: width="180" .normal }
+![TickTick task editor & reminder](/assets/images/blog/ticktick_todo_2.webp){: width="180" .normal }
+![TickTick lists & tag groups](/assets/images/blog/ticktick_todo_3.webp){: width="180" .normal }
+![TickTick calendar & schedule view](/assets/images/blog/ticktick_todo_4.webp){: width="180" .normal }
+![TickTick sync & settings](/assets/images/blog/ticktick_todo_5.webp){: width="180" .normal }
 
 TickTick is a strong **task manager** with a built-in calendar, pomodoro timer, and habit tracker. It packs more features than most alternatives and undercuts Todoist Pro on price.
 
@@ -118,11 +118,11 @@ TickTick is a strong **task manager** with a built-in calendar, pomodoro timer, 
 
 ### 4. Google Tasks — best for Gmail and Calendar users
 
-![Google Tasks screenshot: Google Tasks: best for Gmail and Calendar users — Best Todoist Alternatives in 2026](/assets/images/blog/google_task_1.webp){: width="180" .normal }
-![Google Tasks screenshot 2: Google Tasks: best for Gmail and Calendar users — Best Todoist Alternatives in 2026](/assets/images/blog/google_task_2.webp){: width="180" .normal }
-![Google Tasks screenshot 3: Google Tasks: best for Gmail and Calendar users — Best Todoist Alternatives in 2026](/assets/images/blog/google_task_3.webp){: width="180" .normal }
-![Google Tasks screenshot 4: Google Tasks: best for Gmail and Calendar users — Best Todoist Alternatives in 2026](/assets/images/blog/google_task_4.webp){: width="180" .normal }
-![Google Tasks screenshot 5: Google Tasks: best for Gmail and Calendar users — Best Todoist Alternatives in 2026](/assets/images/blog/google_task_5.webp){: width="180" .normal }
+![Google Tasks task list & today's to-dos](/assets/images/blog/google_task_1.webp){: width="180" .normal }
+![Google Tasks task editor & reminder](/assets/images/blog/google_task_2.webp){: width="180" .normal }
+![Google Tasks lists & tag groups](/assets/images/blog/google_task_3.webp){: width="180" .normal }
+![Google Tasks calendar & schedule view](/assets/images/blog/google_task_4.webp){: width="180" .normal }
+![Google Tasks sync & settings](/assets/images/blog/google_task_5.webp){: width="180" .normal }
 
 Google Tasks is the lightweight task tool baked into Gmail and Google Calendar. It's minimal by design and free with any Google account.
 
@@ -144,11 +144,11 @@ Google Tasks is the lightweight task tool baked into Gmail and Google Calendar. 
 
 ### 5. Things 3 — best-designed, Apple-only
 
-![Things 3 screenshot: Things 3: best-designed, Apple-only — Best Todoist Alternatives in 2026](/assets/images/blog/things_todo_1.webp){: width="180" .normal }
-![Things 3 screenshot 2: Things 3: best-designed, Apple-only — Best Todoist Alternatives in 2026](/assets/images/blog/things_todo_2.webp){: width="180" .normal }
-![Things 3 screenshot 3: Things 3: best-designed, Apple-only — Best Todoist Alternatives in 2026](/assets/images/blog/things_todo_3.webp){: width="180" .normal }
-![Things 3 screenshot 4: Things 3: best-designed, Apple-only — Best Todoist Alternatives in 2026](/assets/images/blog/things_todo_4.webp){: width="180" .normal }
-![Things 3 screenshot 5: Things 3: best-designed, Apple-only — Best Todoist Alternatives in 2026](/assets/images/blog/things_todo_5.webp){: width="180" .normal }
+![Things task list & today's to-dos](/assets/images/blog/things_todo_1.webp){: width="180" .normal }
+![Things task editor & reminder](/assets/images/blog/things_todo_2.webp){: width="180" .normal }
+![Things lists & tag groups](/assets/images/blog/things_todo_3.webp){: width="180" .normal }
+![Things calendar & schedule view](/assets/images/blog/things_todo_4.webp){: width="180" .normal }
+![Things sync & settings](/assets/images/blog/things_todo_5.webp){: width="180" .normal }
 
 Things 3 (by Cultured Code) is widely praised as the **best-looking to-do app**, with a GTD-friendly model (Inbox, Today, Upcoming, Anytime, Someday, Projects, Areas, tags). It runs only on Apple devices.
 
@@ -170,11 +170,11 @@ Things 3 (by Cultured Code) is widely praised as the **best-looking to-do app**,
 
 ### 6. Notion — best flexible all-in-one workspace
 
-![Notion screenshot: Notion: best flexible all-in-one workspace — Best Todoist Alternatives in 2026](/assets/images/blog/notion_1.webp){: width="180" .normal }
-![Notion screenshot 2: Notion: best flexible all-in-one workspace — Best Todoist Alternatives in 2026](/assets/images/blog/notion_2.webp){: width="180" .normal }
-![Notion screenshot 3: Notion: best flexible all-in-one workspace — Best Todoist Alternatives in 2026](/assets/images/blog/notion_3.webp){: width="180" .normal }
-![Notion screenshot 4: Notion: best flexible all-in-one workspace — Best Todoist Alternatives in 2026](/assets/images/blog/notion_4.webp){: width="180" .normal }
-![Notion screenshot 5: Notion: best flexible all-in-one workspace — Best Todoist Alternatives in 2026](/assets/images/blog/notion_5.webp){: width="180" .normal }
+![Notion task list & today's to-dos](/assets/images/blog/notion_1.webp){: width="180" .normal }
+![Notion task editor & reminder](/assets/images/blog/notion_2.webp){: width="180" .normal }
+![Notion lists & tag groups](/assets/images/blog/notion_3.webp){: width="180" .normal }
+![Notion calendar & schedule view](/assets/images/blog/notion_4.webp){: width="180" .normal }
+![Notion sync & settings](/assets/images/blog/notion_5.webp){: width="180" .normal }
 
 Notion is a notes/docs/database workspace that can also run your tasks via databases, board (Kanban) and calendar views, and reminders. It's the most flexible option here — and the heaviest.
 
@@ -196,10 +196,10 @@ Notion is a notes/docs/database workspace that can also run your tasks via datab
 
 ### 7. Any.do — best combined calendar and tasks
 
-![AnyDo screenshot: Any.do: best combined calendar and tasks — Best Todoist Alternatives in 2026](/assets/images/blog/anydo_1.webp){: width="180" .normal }
-![AnyDo screenshot 2: Any.do: best combined calendar and tasks — Best Todoist Alternatives in 2026](/assets/images/blog/anydo_2.webp){: width="180" .normal }
-![AnyDo screenshot 3: Any.do: best combined calendar and tasks — Best Todoist Alternatives in 2026](/assets/images/blog/anydo_3.webp){: width="180" .normal }
-![AnyDo screenshot 4: Any.do: best combined calendar and tasks — Best Todoist Alternatives in 2026](/assets/images/blog/anydo_4.webp){: width="180" .normal }
+![Anydo home screen](/assets/images/blog/anydo_1.webp){: width="180" .normal }
+![Anydo feature detail](/assets/images/blog/anydo_2.webp){: width="180" .normal }
+![Anydo data & stats](/assets/images/blog/anydo_3.webp){: width="180" .normal }
+![Anydo settings & management](/assets/images/blog/anydo_4.webp){: width="180" .normal }
 
 Any.do bundles a to-do list, calendar, and planner with reminders, used by tens of millions across mobile, desktop, and web.
 

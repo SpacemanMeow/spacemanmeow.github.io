@@ -34,10 +34,10 @@ lang: zh
 
 ## 深入看 Crosshair Aim
 
-![Crosshair Aim 截图：深入看 Crosshair Aim —— 最佳安卓 FPS 游戏准星应用（2026）](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
-![Crosshair Aim 截图 2：深入看 Crosshair Aim —— 最佳安卓 FPS 游戏准星应用（2026）](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
-![Crosshair Aim 截图 3：深入看 Crosshair Aim —— 最佳安卓 FPS 游戏准星应用（2026）](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
-![Crosshair Aim 截图 4：深入看 Crosshair Aim —— 最佳安卓 FPS 游戏准星应用（2026）](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
+![Crosshair 准星叠加主界面](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
+![Crosshair 准星样式与自定义](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
+![Crosshair 透明度与位置调节](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
+![Crosshair 游戏内叠加效果](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
 
 Crosshair Aim Pro 为安卓上的 FPS 射击游戏加上自定义准星叠层，80+ 样式助你在任何射击游戏里改善瞄准。
 

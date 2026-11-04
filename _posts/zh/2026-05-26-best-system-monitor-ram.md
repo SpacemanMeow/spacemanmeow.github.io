@@ -28,11 +28,11 @@ lang: zh
 
 ## System Monitor 详解
 
-![System Monitor 截图：System Monitor 详解 —— System Monitor 看内存：看清你的内存到底在做什么](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
-![System Monitor 截图 2：System Monitor 详解 —— System Monitor 看内存：看清你的内存到底在做什么](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
-![System Monitor 截图 3：System Monitor 详解 —— System Monitor 看内存：看清你的内存到底在做什么](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
-![System Monitor 截图 4：System Monitor 详解 —— System Monitor 看内存：看清你的内存到底在做什么](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
-![System Monitor 截图 5：System Monitor 详解 —— System Monitor 看内存：看清你的内存到底在做什么](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
+![System Monitor 系统状态主界面](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
+![System Monitor 悬浮窗与设置](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
+![System Monitor 进程与电池监控](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
+![System Monitor 网络与传感器](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
+![System Monitor 内存与存储占用](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
 
 System Monitor 是一款 **付费的安卓设备信息工具**。一次性的下载价格，它就检测详细的硬件，包括内存：总量/已用/空闲 RAM 与每应用内存占用，并在你切换任务时实时更新。它只报告——不释放、也不加速内存。
 
@@ -54,11 +54,11 @@ System Monitor 是一款 **付费的安卓设备信息工具**。一次性的下
 
 ## CCleaner 详解
 
-![CCleaner 截图：CCleaner 详解 —— System Monitor 看内存：看清你的内存到底在做什么](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
-![CCleaner 截图 2：CCleaner 详解 —— System Monitor 看内存：看清你的内存到底在做什么](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
-![CCleaner 截图 3：CCleaner 详解 —— System Monitor 看内存：看清你的内存到底在做什么](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
-![CCleaner 截图 4：CCleaner 详解 —— System Monitor 看内存：看清你的内存到底在做什么](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
-![CCleaner 截图 5：CCleaner 详解 —— System Monitor 看内存：看清你的内存到底在做什么](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
+![CCleaner 清理扫描主界面](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
+![CCleaner 垃圾文件与缓存](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
+![CCleaner 内存加速与进程](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
+![CCleaner 隐私与残留清理](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
+![CCleaner 设置与计划任务](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
 
 CCleaner（包名 `com.piriform.ccleaner`，Gen Digital 出品）聚焦清理——缓存、临时文件与重复项。
 

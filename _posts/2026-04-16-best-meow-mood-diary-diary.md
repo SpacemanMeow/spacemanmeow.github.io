@@ -31,11 +31,11 @@ A **mood diary** helps you notice patterns in how you feel — not by writing es
 
 ## Meow Mood, in depth
 
-![Meow Mood Diary screenshot: Meow Mood, in depth — Meow Mood: A Mood Diary That Fits Between Meetings](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
-![Meow Mood Diary screenshot 2: Meow Mood, in depth — Meow Mood: A Mood Diary That Fits Between Meetings](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
-![Meow Mood Diary screenshot 3: Meow Mood, in depth — Meow Mood: A Mood Diary That Fits Between Meetings](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
-![Meow Mood Diary screenshot 4: Meow Mood, in depth — Meow Mood: A Mood Diary That Fits Between Meetings](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
-![Meow Mood Diary screenshot 5: Meow Mood, in depth — Meow Mood: A Mood Diary That Fits Between Meetings](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
+![Meow Mood Diary journal editor & mood log](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
+![Meow Mood Diary mood picker & tags](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
+![Meow Mood Diary stats chart & trends](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
+![Meow Mood Diary calendar & history](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![Meow Mood Diary backup & export](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
 
 Meow Mood is a **cat-themed mood and diary app** for Android and iOS. Logging is one tap: choose an emotion, add optional tags or a short note, done.
 
@@ -59,11 +59,11 @@ Meow Mood is a **cat-themed mood and diary app** for Android and iOS. Logging is
 
 ## Day One, in depth
 
-![Day One screenshot: Day One, in depth — Meow Mood: A Mood Diary That Fits Between Meetings](/assets/images/blog/day_one_1.webp){: width="180" .normal }
-![Day One screenshot 2: Day One, in depth — Meow Mood: A Mood Diary That Fits Between Meetings](/assets/images/blog/day_one_2.webp){: width="180" .normal }
-![Day One screenshot 3: Day One, in depth — Meow Mood: A Mood Diary That Fits Between Meetings](/assets/images/blog/day_one_3.webp){: width="180" .normal }
-![Day One screenshot 4: Day One, in depth — Meow Mood: A Mood Diary That Fits Between Meetings](/assets/images/blog/day_one_4.webp){: width="180" .normal }
-![Day One screenshot 5: Day One, in depth — Meow Mood: A Mood Diary That Fits Between Meetings](/assets/images/blog/day_one_5.webp){: width="180" .normal }
+![Day One journal editor & mood log](/assets/images/blog/day_one_1.webp){: width="180" .normal }
+![Day One mood picker & tags](/assets/images/blog/day_one_2.webp){: width="180" .normal }
+![Day One stats chart & trends](/assets/images/blog/day_one_3.webp){: width="180" .normal }
+![Day One calendar & history](/assets/images/blog/day_one_4.webp){: width="180" .normal }
+![Day One backup & export](/assets/images/blog/day_one_5.webp){: width="180" .normal }
 
 Day One is the original, most-awarded digital journal — praised by *The New York Times* and *Wired* as a "completely private digital space." It syncs across Android, iOS, Mac, and web.
 

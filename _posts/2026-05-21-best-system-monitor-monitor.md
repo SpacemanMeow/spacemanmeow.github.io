@@ -28,11 +28,11 @@ When your phone feels slow, you want to know **why** — which core is pinned, h
 
 ## System Monitor, in depth
 
-![System Monitor screenshot: System Monitor, in depth — System Monitor: Real-Time Device Stats Without the Bloat](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
-![System Monitor screenshot 2: System Monitor, in depth — System Monitor: Real-Time Device Stats Without the Bloat](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
-![System Monitor screenshot 3: System Monitor, in depth — System Monitor: Real-Time Device Stats Without the Bloat](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
-![System Monitor screenshot 4: System Monitor, in depth — System Monitor: Real-Time Device Stats Without the Bloat](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
-![System Monitor screenshot 5: System Monitor, in depth — System Monitor: Real-Time Device Stats Without the Bloat](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
+![System Monitor system status overview](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
+![System Monitor overlay & settings](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
+![System Monitor process & battery monitor](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
+![System Monitor network & sensors](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
+![System Monitor RAM & storage usage](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
 
 System Monitor is a **paid Android device-info tool**. For a one-time download price it reports detailed hardware and live stats: CPU model and per-core frequency, memory usage, storage breakdown, and battery health/temperature — read-only detection, not optimization.
 
@@ -55,11 +55,11 @@ System Monitor is a **paid Android device-info tool**. For a one-time download p
 
 ## CCleaner, in depth
 
-![CCleaner screenshot: CCleaner, in depth — System Monitor: Real-Time Device Stats Without the Bloat](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
-![CCleaner screenshot 2: CCleaner, in depth — System Monitor: Real-Time Device Stats Without the Bloat](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
-![CCleaner screenshot 3: CCleaner, in depth — System Monitor: Real-Time Device Stats Without the Bloat](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
-![CCleaner screenshot 4: CCleaner, in depth — System Monitor: Real-Time Device Stats Without the Bloat](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
-![CCleaner screenshot 5: CCleaner, in depth — System Monitor: Real-Time Device Stats Without the Bloat](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
+![CCleaner clean scan home](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
+![CCleaner junk files & cache](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
+![CCleaner memory boost & process](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
+![CCleaner privacy & residual clean](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
+![CCleaner settings & schedule](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
 
 CCleaner (package `com.piriform.ccleaner`, by Gen Digital) is best known for PC cleanup and carries that brand to Android with junk cleaning and performance tools.
 

@@ -31,11 +31,11 @@ lang: zh
 
 ## 深入看 Meow Mood
 
-![Meow Mood Diary 截图：深入看 Meow Mood —— Meow Mood：塞得进会议间隙的心情日记](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
-![Meow Mood Diary 截图 2：深入看 Meow Mood —— Meow Mood：塞得进会议间隙的心情日记](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
-![Meow Mood Diary 截图 3：深入看 Meow Mood —— Meow Mood：塞得进会议间隙的心情日记](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
-![Meow Mood Diary 截图 4：深入看 Meow Mood —— Meow Mood：塞得进会议间隙的心情日记](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
-![Meow Mood Diary 截图 5：深入看 Meow Mood —— Meow Mood：塞得进会议间隙的心情日记](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
+![Meow Mood Diary 日记编辑与心情记录](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
+![Meow Mood Diary 心情选择与标签](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
+![Meow Mood Diary 统计图表与趋势](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
+![Meow Mood Diary 日历与历史回顾](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![Meow Mood Diary 备份与导出](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
 
 Meow Mood 是一款安卓与 iOS 的 **猫主题心情与日记应用**。记录只需一键：选一个情绪，添加可选标签或短注，完成。
 
@@ -59,11 +59,11 @@ Meow Mood 是一款安卓与 iOS 的 **猫主题心情与日记应用**。记录
 
 ## 深入看 Day One
 
-![Day One 截图：深入看 Day One —— Meow Mood：塞得进会议间隙的心情日记](/assets/images/blog/day_one_1.webp){: width="180" .normal }
-![Day One 截图 2：深入看 Day One —— Meow Mood：塞得进会议间隙的心情日记](/assets/images/blog/day_one_2.webp){: width="180" .normal }
-![Day One 截图 3：深入看 Day One —— Meow Mood：塞得进会议间隙的心情日记](/assets/images/blog/day_one_3.webp){: width="180" .normal }
-![Day One 截图 4：深入看 Day One —— Meow Mood：塞得进会议间隙的心情日记](/assets/images/blog/day_one_4.webp){: width="180" .normal }
-![Day One 截图 5：深入看 Day One —— Meow Mood：塞得进会议间隙的心情日记](/assets/images/blog/day_one_5.webp){: width="180" .normal }
+![Day One 日记编辑与心情记录](/assets/images/blog/day_one_1.webp){: width="180" .normal }
+![Day One 心情选择与标签](/assets/images/blog/day_one_2.webp){: width="180" .normal }
+![Day One 统计图表与趋势](/assets/images/blog/day_one_3.webp){: width="180" .normal }
+![Day One 日历与历史回顾](/assets/images/blog/day_one_4.webp){: width="180" .normal }
+![Day One 备份与导出](/assets/images/blog/day_one_5.webp){: width="180" .normal }
 
 Day One 是元老级、获奖最多的数字日记——被 *The New York Times* 与 *Wired* 赞为"完全私密的数字空间"。它跨 Android、iOS、Mac 与网页同步。
 

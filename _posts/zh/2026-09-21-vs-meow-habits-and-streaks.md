@@ -30,11 +30,11 @@ lang: zh
 
 ## Meow Habits 详解
 
-![Meow Habits 截图：Meow Habits 详解 —— Meow Habits vs Streaks：哪款习惯追踪器胜出？](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
-![Meow Habits 截图 2：Meow Habits 详解 —— Meow Habits vs Streaks：哪款习惯追踪器胜出？](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
-![Meow Habits 截图 3：Meow Habits 详解 —— Meow Habits vs Streaks：哪款习惯追踪器胜出？](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
-![Meow Habits 截图 4：Meow Habits 详解 —— Meow Habits vs Streaks：哪款习惯追踪器胜出？](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
-![Meow Habits 截图 5：Meow Habits 详解 —— Meow Habits vs Streaks：哪款习惯追踪器胜出？](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
+![Meow Habits 习惯列表与今日打卡](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
+![Meow Habits 打卡详情与备注](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
+![Meow Habits 连续天数与 Streak](/assets/images/apps/meow-habits/3.webp){: width="180" .normal }
+![Meow Habits 统计图表与日历](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
+![Meow Habits 提醒与设置](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
 
 Meow Habits 是一款 **习惯追踪器**，围绕友好、猫主题的界面与海量卡通图标构建。它最突出的特质是 **设计**：可爱的视觉与 500+ 丰富卡通图标让每日打卡轻快，而非像苦差。它还同时支持养成好习惯与戒掉坏习惯。
 
@@ -65,11 +65,11 @@ Meow Habits 是一款 **习惯追踪器**，围绕友好、猫主题的界面与
 
 ## Streaks 详解
 
-![Streaks 截图：Streaks 详解 —— Meow Habits vs Streaks：哪款习惯追踪器胜出？](/assets/images/blog/streaks_1.webp){: width="180" .normal }
-![Streaks 截图 2：Streaks 详解 —— Meow Habits vs Streaks：哪款习惯追踪器胜出？](/assets/images/blog/streaks_2.webp){: width="180" .normal }
-![Streaks 截图 3：Streaks 详解 —— Meow Habits vs Streaks：哪款习惯追踪器胜出？](/assets/images/blog/streaks_3.webp){: width="180" .normal }
-![Streaks 截图 4：Streaks 详解 —— Meow Habits vs Streaks：哪款习惯追踪器胜出？](/assets/images/blog/streaks_4.webp){: width="180" .normal }
-![Streaks 截图 5：Streaks 详解 —— Meow Habits vs Streaks：哪款习惯追踪器胜出？](/assets/images/blog/streaks_5.webp){: width="180" .normal }
+![Streaks 习惯列表与今日打卡](/assets/images/blog/streaks_1.webp){: width="180" .normal }
+![Streaks 打卡详情与备注](/assets/images/blog/streaks_2.webp){: width="180" .normal }
+![Streaks 连续天数与 Streak](/assets/images/blog/streaks_3.webp){: width="180" .normal }
+![Streaks 统计图表与日历](/assets/images/blog/streaks_4.webp){: width="180" .normal }
+![Streaks 提醒与设置](/assets/images/blog/streaks_5.webp){: width="180" .normal }
 
 Streaks 是定义了这一品类的极简 iOS 习惯应用。你最多挑 12 个任务，每天标记完成，看连胜增长。它关乎专注与苹果生态的精致。
 

@@ -14,10 +14,10 @@ Calm 很受欢迎，但它 **约 69.99 美元/年的订阅** 并非人人都能�
 
 ## 为什么要跳出 Calm
 
-![Calm 截图：为什么要跳出 Calm — 2026 年最佳 Calm 替代应用](/assets/images/blog/calm_1.webp){: width="180" .normal }
-![Calm 截图 2：为什么要跳出 Calm — 2026 年最佳 Calm 替代应用](/assets/images/blog/calm_2.webp){: width="180" .normal }
-![Calm 截图 3：为什么要跳出 Calm — 2026 年最佳 Calm 替代应用](/assets/images/blog/calm_3.webp){: width="180" .normal }
-![Calm 截图 4：为什么要跳出 Calm — 2026 年最佳 Calm 替代应用](/assets/images/blog/calm_4.webp){: width="180" .normal }
+![Calm 课程与冥想主界面](/assets/images/blog/calm_1.webp){: width="180" .normal }
+![Calm 呼吸与正念练习](/assets/images/blog/calm_2.webp){: width="180" .normal }
+![Calm 睡眠故事与放松](/assets/images/blog/calm_3.webp){: width="180" .normal }
+![Calm 进度与统计](/assets/images/blog/calm_4.webp){: width="180" .normal }
 
 - **付费订阅**（约 69.99 美元/年），而你可能几乎用不到整个库。
 - 你只想要 **环境音**，而非引导课程或睡眠故事。
@@ -40,11 +40,11 @@ Calm 很受欢迎，但它 **约 69.99 美元/年的订阅** 并非人人都能�
 
 ### 1. Meow FM —— 最佳简洁白噪音
 
-![Meow FM 截图：Meow FM：最佳简洁白噪音 — 2026 年最佳 Calm 替代应用](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
-![Meow FM 截图 2：Meow FM：最佳简洁白噪音 — 2026 年最佳 Calm 替代应用](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
-![Meow FM 截图 3：Meow FM：最佳简洁白噪音 — 2026 年最佳 Calm 替代应用](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
-![Meow FM 截图 4：Meow FM：最佳简洁白噪音 — 2026 年最佳 Calm 替代应用](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
-![Meow FM 截图 5：Meow FM：最佳简洁白噪音 — 2026 年最佳 Calm 替代应用](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
+![Meow FM 电台列表与播放](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
+![Meow FM 收藏与频道](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
+![Meow FM 定时器与睡眠](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
+![Meow FM 音质与均衡器](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
+![Meow FM 设置与账号](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
 
 Meow FM 是一款 **用于睡眠、放松与专注的白噪音应用**，提供雨声、雷雨、森林、海滨、壁炉等环境音，并附带睡眠定时器与桌面时钟，让你保持高效。
 
@@ -71,11 +71,11 @@ Meow FM 是一款 **用于睡眠、放松与专注的白噪音应用**，提供�
 
 ### 2. Headspace —— 最佳引导冥想
 
-![Headspace 截图：Headspace：最佳引导冥想 — 2026 年最佳 Calm 替代应用](/assets/images/blog/headspace_1.webp){: width="180" .normal }
-![Headspace 截图 2：Headspace：最佳引导冥想 — 2026 年最佳 Calm 替代应用](/assets/images/blog/headspace_2.webp){: width="180" .normal }
-![Headspace 截图 3：Headspace：最佳引导冥想 — 2026 年最佳 Calm 替代应用](/assets/images/blog/headspace_3.webp){: width="180" .normal }
-![Headspace 截图 4：Headspace：最佳引导冥想 — 2026 年最佳 Calm 替代应用](/assets/images/blog/headspace_4.webp){: width="180" .normal }
-![Headspace 截图 5：Headspace：最佳引导冥想 — 2026 年最佳 Calm 替代应用](/assets/images/blog/headspace_5.webp){: width="180" .normal }
+![Headspace 课程与冥想主界面](/assets/images/blog/headspace_1.webp){: width="180" .normal }
+![Headspace 呼吸与正念练习](/assets/images/blog/headspace_2.webp){: width="180" .normal }
+![Headspace 睡眠故事与放松](/assets/images/blog/headspace_3.webp){: width="180" .normal }
+![Headspace 进度与统计](/assets/images/blog/headspace_4.webp){: width="180" .normal }
+![Headspace 设置与提醒](/assets/images/blog/headspace_5.webp){: width="180" .normal }
 
 Headspace 将 **引导冥想** 与睡眠播客、专注音乐、呼吸练习结合——提供一条结构化的路径，帮你更安睡、更减压。
 
@@ -101,11 +101,11 @@ Headspace 将 **引导冥想** 与睡眠播客、专注音乐、呼吸练习结�
 
 ### 3. Insight Timer —— 最佳免费冥想库
 
-![Insight Timer 截图：Insight Timer：最佳免费冥想库 — 2026 年最佳 Calm 替代应用](/assets/images/blog/insight_timer_1.webp){: width="180" .normal }
-![Insight Timer 截图 2：Insight Timer：最佳免费冥想库 — 2026 年最佳 Calm 替代应用](/assets/images/blog/insight_timer_2.webp){: width="180" .normal }
-![Insight Timer 截图 3：Insight Timer：最佳免费冥想库 — 2026 年最佳 Calm 替代应用](/assets/images/blog/insight_timer_3.webp){: width="180" .normal }
-![Insight Timer 截图 4：Insight Timer：最佳免费冥想库 — 2026 年最佳 Calm 替代应用](/assets/images/blog/insight_timer_4.webp){: width="180" .normal }
-![Insight Timer 截图 5：Insight Timer：最佳免费冥想库 — 2026 年最佳 Calm 替代应用](/assets/images/blog/insight_timer_5.webp){: width="180" .normal }
+![Insight Timer 课程与冥想主界面](/assets/images/blog/insight_timer_1.webp){: width="180" .normal }
+![Insight Timer 呼吸与正念练习](/assets/images/blog/insight_timer_2.webp){: width="180" .normal }
+![Insight Timer 睡眠故事与放松](/assets/images/blog/insight_timer_3.webp){: width="180" .normal }
+![Insight Timer 进度与统计](/assets/images/blog/insight_timer_4.webp){: width="180" .normal }
+![Insight Timer 设置与提醒](/assets/images/blog/insight_timer_5.webp){: width="180" .normal }
 
 Insight Timer 提供 **庞大的免费冥想库**（数以万计引导课程），外加睡眠音乐、讲座与可自定义计时器。
 
@@ -131,11 +131,11 @@ Insight Timer 提供 **庞大的免费冥想库**（数以万计引导课程）�
 
 ### 4. BetterSleep —— 最佳声音混音
 
-![BetterSleep 截图：BetterSleep：最佳声音混音 — 2026 年最佳 Calm 替代应用](/assets/images/blog/better_sleep_1.webp){: width="180" .normal }
-![BetterSleep 截图 2：BetterSleep：最佳声音混音 — 2026 年最佳 Calm 替代应用](/assets/images/blog/better_sleep_2.webp){: width="180" .normal }
-![BetterSleep 截图 3：BetterSleep：最佳声音混音 — 2026 年最佳 Calm 替代应用](/assets/images/blog/better_sleep_3.webp){: width="180" .normal }
-![BetterSleep 截图 4：BetterSleep：最佳声音混音 — 2026 年最佳 Calm 替代应用](/assets/images/blog/better_sleep_4.webp){: width="180" .normal }
-![BetterSleep 截图 5：BetterSleep：最佳声音混音 — 2026 年最佳 Calm 替代应用](/assets/images/blog/better_sleep_5.webp){: width="180" .normal }
+![BetterSleep 睡眠主界面](/assets/images/blog/better_sleep_1.webp){: width="180" .normal }
+![BetterSleep 睡前放松与白噪音](/assets/images/blog/better_sleep_2.webp){: width="180" .normal }
+![BetterSleep 睡眠追踪与统计](/assets/images/blog/better_sleep_3.webp){: width="180" .normal }
+![BetterSleep 闹钟与唤醒](/assets/images/blog/better_sleep_4.webp){: width="180" .normal }
+![BetterSleep 设置与报表](/assets/images/blog/better_sleep_5.webp){: width="180" .normal }
 
 BetterSleep（前身 Relax Melodies）的核心是 **混出你自己的声景**——将雨声、风声、钢琴等数十层声音组合，外加睡眠故事与睡前练习。
 
@@ -161,11 +161,11 @@ BetterSleep（前身 Relax Melodies）的核心是 **混出你自己的声景**�
 
 ### 5. White Noise（TMSOFT）—— 最佳声音库
 
-![White Noise 截图：White Noise（TMSOFT）：最佳声音库 — 2026 年最佳 Calm 替代应用](/assets/images/blog/tmsoft_white_noise_1.webp){: width="180" .normal }
-![White Noise 截图 2：White Noise（TMSOFT）：最佳声音库 — 2026 年最佳 Calm 替代应用](/assets/images/blog/tmsoft_white_noise_2.webp){: width="180" .normal }
-![White Noise 截图 3：White Noise（TMSOFT）：最佳声音库 — 2026 年最佳 Calm 替代应用](/assets/images/blog/tmsoft_white_noise_3.webp){: width="180" .normal }
-![White Noise 截图 4：White Noise（TMSOFT）：最佳声音库 — 2026 年最佳 Calm 替代应用](/assets/images/blog/tmsoft_white_noise_4.webp){: width="180" .normal }
-![White Noise 截图 5：White Noise（TMSOFT）：最佳声音库 — 2026 年最佳 Calm 替代应用](/assets/images/blog/tmsoft_white_noise_5.webp){: width="180" .normal }
+![White Noise 声音列表与播放](/assets/images/blog/tmsoft_white_noise_1.webp){: width="180" .normal }
+![White Noise 混音与组合](/assets/images/blog/tmsoft_white_noise_2.webp){: width="180" .normal }
+![White Noise 定时器与睡眠](/assets/images/blog/tmsoft_white_noise_3.webp){: width="180" .normal }
+![White Noise 场景与收藏](/assets/images/blog/tmsoft_white_noise_4.webp){: width="180" .normal }
+![White Noise 设置与导出](/assets/images/blog/tmsoft_white_noise_5.webp){: width="180" .normal }
 
 TMSOFT 出品的 White Noise 拥有 **庞大的环境音库**（循环音与混音），一次性买断、无订阅，并支持录制与混音。
 
@@ -191,11 +191,11 @@ TMSOFT 出品的 White Noise 拥有 **庞大的环境音库**（循环音与混�
 
 ### 6. Noisli —— 最佳工作专注混音
 
-![Noisli 截图：Noisli：最佳工作专注混音 — 2026 年最佳 Calm 替代应用](/assets/images/blog/noisli_1.webp){: width="180" .normal }
-![Noisli 截图 2：Noisli：最佳工作专注混音 — 2026 年最佳 Calm 替代应用](/assets/images/blog/noisli_2.webp){: width="180" .normal }
-![Noisli 截图 3：Noisli：最佳工作专注混音 — 2026 年最佳 Calm 替代应用](/assets/images/blog/noisli_3.webp){: width="180" .normal }
-![Noisli 截图 4：Noisli：最佳工作专注混音 — 2026 年最佳 Calm 替代应用](/assets/images/blog/noisli_4.webp){: width="180" .normal }
-![Noisli 截图 5：Noisli：最佳工作专注混音 — 2026 年最佳 Calm 替代应用](/assets/images/blog/noisli_5.webp){: width="180" .normal }
+![Noisli 声音列表与播放](/assets/images/blog/noisli_1.webp){: width="180" .normal }
+![Noisli 混音与组合](/assets/images/blog/noisli_2.webp){: width="180" .normal }
+![Noisli 定时器与睡眠](/assets/images/blog/noisli_3.webp){: width="180" .normal }
+![Noisli 场景与收藏](/assets/images/blog/noisli_4.webp){: width="180" .normal }
+![Noisli 设置与导出](/assets/images/blog/noisli_5.webp){: width="180" .normal }
 
 Noisli 是一款面向工作、学习与睡眠的 **专注与放松声音混音器**，支持网页、安卓与 iOS 同步，并内置计时器与效率功能。
 

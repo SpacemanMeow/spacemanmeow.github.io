@@ -34,11 +34,11 @@ lang: zh
 
 ## 深入看 Meow Todo List
 
-![Meow Todo 截图：深入看 Meow Todo List —— 最佳安卓待办清单与任务管理应用（2026）](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
-![Meow Todo 截图 2：深入看 Meow Todo List —— 最佳安卓待办清单与任务管理应用（2026）](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
-![Meow Todo 截图 3：深入看 Meow Todo List —— 最佳安卓待办清单与任务管理应用（2026）](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
-![Meow Todo 截图 4：深入看 Meow Todo List —— 最佳安卓待办清单与任务管理应用（2026）](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
-![Meow Todo 截图 5：深入看 Meow Todo List —— 最佳安卓待办清单与任务管理应用（2026）](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
+![Meow Todo List 任务列表与今日待办](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
+![Meow Todo List 任务编辑与提醒](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
+![Meow Todo List 清单与标签分组](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
+![Meow Todo List 日历与时间视图](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
+![Meow Todo List 同步与设置](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
 
 Meow Todo List 是一款安卓与 iOS 的简易日程规划器与待办清单任务管理器，带日历视图、子任务、提醒与云同步。
 

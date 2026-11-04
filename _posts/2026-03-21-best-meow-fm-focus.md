@@ -37,11 +37,11 @@ An open-plan office, a chatty coffee shop, a roommate on a call — the enemy of
 
 ## Meow FM, in depth
 
-![Meow FM screenshot: Meow FM, in depth — Meow FM for Focus: White Noise That Blocks the Office](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
-![Meow FM screenshot 2: Meow FM, in depth — Meow FM for Focus: White Noise That Blocks the Office](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
-![Meow FM screenshot 3: Meow FM, in depth — Meow FM for Focus: White Noise That Blocks the Office](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
-![Meow FM screenshot 4: Meow FM, in depth — Meow FM for Focus: White Noise That Blocks the Office](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
-![Meow FM screenshot 5: Meow FM, in depth — Meow FM for Focus: White Noise That Blocks the Office](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
+![Meow FM station list & play](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
+![Meow FM favorites & channels](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
+![Meow FM timer & sleep](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
+![Meow FM audio quality & equalizer](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
+![Meow FM settings & account](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
 
 Meow FM is a **cat-themed white noise and focus player** for Android and iOS. The core is free: natural loops like rain, sea, and fireplace, plus a timer that stops playback so it isn't running all day.
 
@@ -64,10 +64,10 @@ Meow FM is a **cat-themed white noise and focus player** for Android and iOS. Th
 
 ## Calm, in depth
 
-![Calm screenshot: Calm, in depth — Meow FM for Focus: White Noise That Blocks the Office](/assets/images/blog/calm_1.webp){: width="180" .normal }
-![Calm screenshot 2: Calm, in depth — Meow FM for Focus: White Noise That Blocks the Office](/assets/images/blog/calm_2.webp){: width="180" .normal }
-![Calm screenshot 3: Calm, in depth — Meow FM for Focus: White Noise That Blocks the Office](/assets/images/blog/calm_3.webp){: width="180" .normal }
-![Calm screenshot 4: Calm, in depth — Meow FM for Focus: White Noise That Blocks the Office](/assets/images/blog/calm_4.webp){: width="180" .normal }
+![Calm courses & meditation home](/assets/images/blog/calm_1.webp){: width="180" .normal }
+![Calm breathing & mindfulness](/assets/images/blog/calm_2.webp){: width="180" .normal }
+![Calm sleep stories & relax](/assets/images/blog/calm_3.webp){: width="180" .normal }
+![Calm progress & stats](/assets/images/blog/calm_4.webp){: width="180" .normal }
 
 Calm is the best-known **meditation and sleep app** on Google Play (50M+ downloads, 4.3 stars). Beyond sleep, it offers focus music, breathing, and a daily 10-minute session aimed at concentration.
 

@@ -34,11 +34,11 @@ lang: zh
 
 ## 深入看 One Widget
 
-![One Widget 截图：深入看 One Widget —— 最佳安卓主屏小组件应用（2026）](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
-![One Widget 截图 2：深入看 One Widget —— 最佳安卓主屏小组件应用（2026）](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
-![One Widget 截图 3：深入看 One Widget —— 最佳安卓主屏小组件应用（2026）](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
-![One Widget 截图 4：深入看 One Widget —— 最佳安卓主屏小组件应用（2026）](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
-![One Widget 截图 5：深入看 One Widget —— 最佳安卓主屏小组件应用（2026）](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
+![One Widget 小组件主界面](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
+![One Widget 自定义外观与主题](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
+![One Widget 信息源与布局](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
+![One Widget 交互与快捷操作](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
+![One Widget 设置与权限](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
 
 One Widget 内置 500+ 可自定义的安卓主屏组件，涵盖 Glass iOS、Material You、Galaxy One UI 与 Nothing 风格，外加应用快捷方式与快捷开关。
 

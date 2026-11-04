@@ -29,11 +29,11 @@ When a phone gets hot it slows down — thermal throttling kicks in and frames d
 
 ## CPU Monitor, in depth
 
-![CPU Monitor screenshot: CPU Monitor, in depth — CPU Monitor: Watch Your CPU Temperature Before It Throttles](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
-![CPU Monitor screenshot 2: CPU Monitor, in depth — CPU Monitor: Watch Your CPU Temperature Before It Throttles](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
-![CPU Monitor screenshot 3: CPU Monitor, in depth — CPU Monitor: Watch Your CPU Temperature Before It Throttles](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
-![CPU Monitor screenshot 4: CPU Monitor, in depth — CPU Monitor: Watch Your CPU Temperature Before It Throttles](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
-![CPU Monitor screenshot 5: CPU Monitor, in depth — CPU Monitor: Watch Your CPU Temperature Before It Throttles](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
+![CPU Monitor temperature & frequency monitor](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
+![CPU Monitor settings & heat alerts](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
+![CPU Monitor sensor & battery info](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
+![CPU Monitor device hardware overview](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![CPU Monitor live core frequency detail](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
 
 CPU Monitor is a **CPU temperature and load monitor** for Android. The core — live temperature, per-core frequency, and load — is free; VIP adds deeper history and options.
 
@@ -54,11 +54,11 @@ CPU Monitor is a **CPU temperature and load monitor** for Android. The core — 
 
 ## CPU-Z, in depth
 
-![CPU-Z screenshot: CPU: Z, in depth — CPU Monitor: Watch Your CPU Temperature Before It Throttles](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
-![CPU-Z screenshot 2: CPU: Z, in depth — CPU Monitor: Watch Your CPU Temperature Before It Throttles](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
-![CPU-Z screenshot 3: CPU: Z, in depth — CPU Monitor: Watch Your CPU Temperature Before It Throttles](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
-![CPU-Z screenshot 4: CPU: Z, in depth — CPU Monitor: Watch Your CPU Temperature Before It Throttles](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
-![CPU-Z screenshot 5: CPU: Z, in depth — CPU Monitor: Watch Your CPU Temperature Before It Throttles](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
+![CPU-Z temperature & frequency monitor](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
+![CPU-Z live core frequency detail](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
+![CPU-Z sensor & battery info](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
+![CPU-Z device hardware overview](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
+![CPU-Z settings & heat alerts](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
 
 CPU-Z (package `com.cpuid.cpu_z`) is the Android port of the well-known CPUID tool, focused on reporting hardware details.
 

@@ -14,11 +14,11 @@ Below we compare six **alternatives to CPU-Z** — from a live temperature monit
 
 ## Why look beyond CPU-Z
 
-![CPU-Z screenshot: Why look beyond CPU: Z — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
-![CPU-Z screenshot 2: Why look beyond CPU: Z — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
-![CPU-Z screenshot 3: Why look beyond CPU: Z — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
-![CPU-Z screenshot 4: Why look beyond CPU: Z — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
-![CPU-Z screenshot 5: Why look beyond CPU: Z — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
+![CPU-Z temperature & frequency monitor](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
+![CPU-Z live core frequency detail](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
+![CPU-Z sensor & battery info](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
+![CPU-Z device hardware overview](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
+![CPU-Z settings & heat alerts](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
 
 - **No live CPU temperature** on most Android devices — it reports specs, not heat.
 - **No floating window or widgets** for at-a-glance monitoring.
@@ -41,11 +41,11 @@ Below we compare six **alternatives to CPU-Z** — from a live temperature monit
 
 ### 1. CPU Monitor — best for live temperature
 
-![CPU Monitor screenshot: CPU Monitor: best for live temperature — Best CPU-Z Alternatives for Android in 2026](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
-![CPU Monitor screenshot 2: CPU Monitor: best for live temperature — Best CPU-Z Alternatives for Android in 2026](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
-![CPU Monitor screenshot 3: CPU Monitor: best for live temperature — Best CPU-Z Alternatives for Android in 2026](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
-![CPU Monitor screenshot 4: CPU Monitor: best for live temperature — Best CPU-Z Alternatives for Android in 2026](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
-![CPU Monitor screenshot 5: CPU Monitor: best for live temperature — Best CPU-Z Alternatives for Android in 2026](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
+![CPU Monitor temperature & frequency monitor](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
+![CPU Monitor live core frequency detail](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
+![CPU Monitor sensor & battery info](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
+![CPU Monitor device hardware overview](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![CPU Monitor settings & heat alerts](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
 
 CPU Monitor shows **real-time CPU temperature and frequency**, RAM, battery and multicore usage, with a floating window, widgets, one-tap boost and an overheat alarm.
 
@@ -71,11 +71,11 @@ CPU Monitor shows **real-time CPU temperature and frequency**, RAM, battery and 
 
 ### 2. DevCheck — best for detailed sensors
 
-![DevCheck screenshot: DevCheck: best for detailed sensors — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/dev_check_1.webp){: width="180" .normal }
-![DevCheck screenshot 2: DevCheck: best for detailed sensors — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/dev_check_2.webp){: width="180" .normal }
-![DevCheck screenshot 3: DevCheck: best for detailed sensors — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/dev_check_3.webp){: width="180" .normal }
-![DevCheck screenshot 4: DevCheck: best for detailed sensors — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/dev_check_4.webp){: width="180" .normal }
-![DevCheck screenshot 5: DevCheck: best for detailed sensors — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/dev_check_5.webp){: width="180" .normal }
+![DevCheck system status overview](/assets/images/blog/dev_check_1.webp){: width="180" .normal }
+![DevCheck RAM & storage usage](/assets/images/blog/dev_check_2.webp){: width="180" .normal }
+![DevCheck process & battery monitor](/assets/images/blog/dev_check_3.webp){: width="180" .normal }
+![DevCheck network & sensors](/assets/images/blog/dev_check_4.webp){: width="180" .normal }
+![DevCheck overlay & settings](/assets/images/blog/dev_check_5.webp){: width="180" .normal }
 
 DevCheck is a **comprehensive hardware and sensor reporter** with a clean dashboard: CPU, GPU, battery, network, sensors, and more, plus a system monitor and widgets.
 
@@ -101,11 +101,11 @@ DevCheck is a **comprehensive hardware and sensor reporter** with a clean dashbo
 
 ### 3. AIDA64 — best deep spec report
 
-![AIDA64 screenshot: AIDA64: best deep spec report — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/aida64_1.webp){: width="180" .normal }
-![AIDA64 screenshot 2: AIDA64: best deep spec report — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/aida64_2.webp){: width="180" .normal }
-![AIDA64 screenshot 3: AIDA64: best deep spec report — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/aida64_3.webp){: width="180" .normal }
-![AIDA64 screenshot 4: AIDA64: best deep spec report — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/aida64_4.webp){: width="180" .normal }
-![AIDA64 screenshot 5: AIDA64: best deep spec report — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/aida64_5.webp){: width="180" .normal }
+![AIDA64 network & sensors](/assets/images/blog/aida64_1.webp){: width="180" .normal }
+![AIDA64 network & sensors](/assets/images/blog/aida64_2.webp){: width="180" .normal }
+![AIDA64 network & sensors](/assets/images/blog/aida64_3.webp){: width="180" .normal }
+![AIDA64 network & sensors](/assets/images/blog/aida64_4.webp){: width="180" .normal }
+![AIDA64 network & sensors](/assets/images/blog/aida64_5.webp){: width="180" .normal }
 
 AIDA64 brings the well-known PC diagnostic brand to Android and iOS, with a thorough **device specification report** and live sensor readings.
 
@@ -131,11 +131,11 @@ AIDA64 brings the well-known PC diagnostic brand to Android and iOS, with a thor
 
 ### 4. Device Info HW — best per-component info
 
-![Device Info screenshot: Device Info HW: best per-component info — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/device_info_1.webp){: width="180" .normal style="height:360px;object-fit:cover" }
-![Device Info screenshot 2: Device Info HW: best per-component info — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/device_info_2.webp){: width="180" .normal style="height:360px;object-fit:cover" }
-![Device Info screenshot 3: Device Info HW: best per-component info — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/device_info_3.webp){: width="180" .normal style="height:360px;object-fit:cover" }
-![Device Info screenshot 4: Device Info HW: best per-component info — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/device_info_4.webp){: width="180" .normal style="height:360px;object-fit:cover" }
-![Device Info screenshot 5: Device Info HW: best per-component info — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/device_info_5.webp){: width="180" .normal style="height:360px;object-fit:cover" }
+![Device Info system status overview](/assets/images/blog/device_info_1.webp){: width="180" .normal style="height:360px;object-fit:cover" }
+![Device Info RAM & storage usage](/assets/images/blog/device_info_2.webp){: width="180" .normal style="height:360px;object-fit:cover" }
+![Device Info process & battery monitor](/assets/images/blog/device_info_3.webp){: width="180" .normal style="height:360px;object-fit:cover" }
+![Device Info network & sensors](/assets/images/blog/device_info_4.webp){: width="180" .normal style="height:360px;object-fit:cover" }
+![Device Info overlay & settings](/assets/images/blog/device_info_5.webp){: width="180" .normal style="height:360px;object-fit:cover" }
 
 Device Info HW is a **hardware info app** that breaks down each component — CPU, GPU, battery, camera, sensors, storage — with a clear, component-level view.
 
@@ -160,10 +160,10 @@ Device Info HW is a **hardware info app** that breaks down each component — CP
 
 ### 5. Droid Hardware Info — best quick specification
 
-![Droid Hardware Info screenshot: Droid Hardware Info: best quick specification — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/droid_hardware_1.webp){: width="180" .normal }
-![Droid Hardware Info screenshot 2: Droid Hardware Info: best quick specification — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/droid_hardware_2.webp){: width="180" .normal }
-![Droid Hardware Info screenshot 3: Droid Hardware Info: best quick specification — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/droid_hardware_4.webp){: width="180" .normal }
-![Droid Hardware Info screenshot 4: Droid Hardware Info: best quick specification — Best CPU-Z Alternatives for Android in 2026](/assets/images/blog/droid_hardware_5.webp){: width="180" .normal }
+![DevCheck system status overview](/assets/images/blog/droid_hardware_1.webp){: width="180" .normal }
+![DevCheck RAM & storage usage](/assets/images/blog/droid_hardware_2.webp){: width="180" .normal }
+![DevCheck network & sensors](/assets/images/blog/droid_hardware_4.webp){: width="180" .normal }
+![DevCheck overlay & settings](/assets/images/blog/droid_hardware_5.webp){: width="180" .normal }
 
 Droid Hardware Info is a **lightweight spec viewer** that shows system, CPU, GPU, memory, camera and sensor details in a simple list.
 

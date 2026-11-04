@@ -35,10 +35,10 @@ Crosshair Master 能在射击游戏上叠加自定义准星，但它的 **样式
 
 ### 1. Crosshair Aim —— 自定义叠加层最佳
 
-![Crosshair Aim 截图：Crosshair Aim：自定义叠加层最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
-![Crosshair Aim 截图 2：Crosshair Aim：自定义叠加层最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
-![Crosshair Aim 截图 3：Crosshair Aim：自定义叠加层最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
-![Crosshair Aim 截图 4：Crosshair Aim：自定义叠加层最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
+![Crosshair 准星叠加主界面](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
+![Crosshair 准星样式与自定义](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
+![Crosshair 透明度与位置调节](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
+![Crosshair 游戏内叠加效果](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
 
 Crosshair Aim 是一款 **面向 FPS 游戏的准星应用**，提供 80+ 种样式、大小/颜色/缩放/位置完整控制、透明叠加层（默认 85% 透明度），以及游戏内悬浮调节器。
 
@@ -64,10 +64,10 @@ Crosshair Aim 是一款 **面向 FPS 游戏的准星应用**，提供 80+ 种样
 
 ### 2. Custom Crosshair —— 动画样式最佳
 
-![Custom Crosshair 截图：Custom Crosshair：动画样式最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/custom_crosshair_1.webp){: width="180" .normal }
-![Custom Crosshair 截图 2：Custom Crosshair：动画样式最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/custom_crosshair_2.webp){: width="180" .normal }
-![Custom Crosshair 截图 3：Custom Crosshair：动画样式最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/custom_crosshair_3.webp){: width="180" .normal }
-![Custom Crosshair 截图 4：Custom Crosshair：动画样式最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/custom_crosshair_5.webp){: width="180" .normal }
+![Custom Crosshair 准星叠加主界面](/assets/images/blog/custom_crosshair_1.webp){: width="180" .normal }
+![Custom Crosshair 准星样式与自定义](/assets/images/blog/custom_crosshair_2.webp){: width="180" .normal }
+![Custom Crosshair 透明度与位置调节](/assets/images/blog/custom_crosshair_3.webp){: width="180" .normal }
+![Custom Crosshair 设置与保存](/assets/images/blog/custom_crosshair_5.webp){: width="180" .normal }
 
 Custom Crosshair（Impact Crosshair）是一款热门的 **叠加层工具**，安装量超过 50 万，提供准星构建器、实时叠加层，以及面向 FPS/TPS 游戏的动画准星。
 
@@ -92,10 +92,10 @@ Custom Crosshair（Impact Crosshair）是一款热门的 **叠加层工具**，�
 
 ### 3. Custom Aim —— 准星生成器最佳
 
-![Custom Aim 截图：Custom Aim：准星生成器最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/custom_aim_1.webp){: width="180" .normal }
-![Custom Aim 截图 2：Custom Aim：准星生成器最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/custom_aim_2.webp){: width="180" .normal }
-![Custom Aim 截图 3：Custom Aim：准星生成器最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/custom_aim_3.webp){: width="180" .normal }
-![Custom Aim 截图 4：Custom Aim：准星生成器最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/custom_aim_5.webp){: width="180" .normal }
+![Custom Aim 准星叠加主界面](/assets/images/blog/custom_aim_1.webp){: width="180" .normal }
+![Custom Aim 准星样式与自定义](/assets/images/blog/custom_aim_2.webp){: width="180" .normal }
+![Custom Aim 透明度与位置调节](/assets/images/blog/custom_aim_3.webp){: width="180" .normal }
+![Custom Aim 设置与保存](/assets/images/blog/custom_aim_5.webp){: width="180" .normal }
 
 Custom Aim（Crosshair Generator Pro）让你能在任何射击 FPS 游戏中 **创建自定义准星叠加层**，提供预设，以及形状/颜色/大小的深度控制。
 
@@ -120,10 +120,10 @@ Custom Aim（Crosshair Generator Pro）让你能在任何射击 FPS 游戏中 **
 
 ### 4. Crosshair Pro —— 实时定位最佳
 
-![Crosshair Pro 截图：Crosshair Pro：实时定位最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/crosshair_pro_1.webp){: width="180" .normal }
-![Crosshair Pro 截图 2：Crosshair Pro：实时定位最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/crosshair_pro_2.webp){: width="180" .normal }
-![Crosshair Pro 截图 3：Crosshair Pro：实时定位最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/crosshair_pro_3.webp){: width="180" .normal }
-![Crosshair Pro 截图 4：Crosshair Pro：实时定位最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/crosshair_pro_4.webp){: width="180" .normal }
+![Crosshair Pro 准星叠加主界面](/assets/images/blog/crosshair_pro_1.webp){: width="180" .normal }
+![Crosshair Pro 准星样式与自定义](/assets/images/blog/crosshair_pro_2.webp){: width="180" .normal }
+![Crosshair Pro 透明度与位置调节](/assets/images/blog/crosshair_pro_3.webp){: width="180" .normal }
+![Crosshair Pro 游戏内叠加效果](/assets/images/blog/crosshair_pro_4.webp){: width="180" .normal }
 
 Crosshair Pro：Custom Scope 是一款移动端工具，能在屏幕任意位置放置 **精准的瞄准镜叠加层**，游戏过程中可实时调整，对主流 FPS 兼容性广。
 
@@ -148,11 +148,11 @@ Crosshair Pro：Custom Scope 是一款移动端工具，能在屏幕任意位置
 
 ### 5. CrossAim —— 简洁样式包最佳
 
-![CrossAim 截图：CrossAim：简洁样式包最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/cross_aim_1.webp){: width="180" .normal }
-![CrossAim 截图 2：CrossAim：简洁样式包最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/cross_aim_2.webp){: width="180" .normal }
-![CrossAim 截图 3：CrossAim：简洁样式包最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/cross_aim_3.webp){: width="180" .normal }
-![CrossAim 截图 4：CrossAim：简洁样式包最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/cross_aim_4.webp){: width="180" .normal }
-![CrossAim 截图 5：CrossAim：简洁样式包最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/cross_aim_5.webp){: width="180" .normal }
+![Cross Aim 准星叠加主界面](/assets/images/blog/cross_aim_1.webp){: width="180" .normal }
+![Cross Aim 准星样式与自定义](/assets/images/blog/cross_aim_2.webp){: width="180" .normal }
+![Cross Aim 透明度与位置调节](/assets/images/blog/cross_aim_3.webp){: width="180" .normal }
+![Cross Aim 游戏内叠加效果](/assets/images/blog/cross_aim_4.webp){: width="180" .normal }
+![Cross Aim 设置与保存](/assets/images/blog/cross_aim_5.webp){: width="180" .normal }
 
 CrossAim：Custom Crosshair 提供 **24 种样式**（含颜色与大小），是一款干净的叠加层工具，方便快速切换准星。
 
@@ -177,10 +177,10 @@ CrossAim：Custom Crosshair 提供 **24 种样式**（含颜色与大小），�
 
 ### 6. Crosshair PRO —— 专业叠加套装最佳
 
-![Crosshair PRO 截图：Crosshair PRO：专业叠加套装最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/crosshair_custom_scope_1.webp){: width="180" .normal }
-![Crosshair PRO 截图 2：Crosshair PRO：专业叠加套装最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/crosshair_custom_scope_2.webp){: width="180" .normal }
-![Crosshair PRO 截图 3：Crosshair PRO：专业叠加套装最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/crosshair_custom_scope_3.webp){: width="180" .normal }
-![Crosshair PRO 截图 4：Crosshair PRO：专业叠加套装最佳 — 2026 年最佳 Crosshair Master 替代应用](/assets/images/blog/crosshair_custom_scope_4.webp){: width="180" .normal }
+![Custom Scope 准星叠加主界面](/assets/images/blog/crosshair_custom_scope_1.webp){: width="180" .normal }
+![Custom Scope 准星样式与自定义](/assets/images/blog/crosshair_custom_scope_2.webp){: width="180" .normal }
+![Custom Scope 透明度与位置调节](/assets/images/blog/crosshair_custom_scope_3.webp){: width="180" .normal }
+![Custom Scope 游戏内叠加效果](/assets/images/blog/crosshair_custom_scope_4.webp){: width="180" .normal }
 
 Crosshair PRO（Custom Scope）是一款面向 FPS/TPS 爱好者的专业 **叠加层工具**，提供可自定义的瞄准镜样式，且占用极小。
 

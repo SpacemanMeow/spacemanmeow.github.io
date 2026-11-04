@@ -29,11 +29,11 @@ lang: zh
 
 ## 深入看 One Widget
 
-![One Widget 截图：深入看 One Widget —— One Widget：安卓上可爱、即放即用的小组件](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
-![One Widget 截图 2：深入看 One Widget —— One Widget：安卓上可爱、即放即用的小组件](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
-![One Widget 截图 3：深入看 One Widget —— One Widget：安卓上可爱、即放即用的小组件](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
-![One Widget 截图 4：深入看 One Widget —— One Widget：安卓上可爱、即放即用的小组件](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
-![One Widget 截图 5：深入看 One Widget —— One Widget：安卓上可爱、即放即用的小组件](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
+![One Widget 小组件主界面](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
+![One Widget 自定义外观与主题](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
+![One Widget 信息源与布局](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
+![One Widget 交互与快捷操作](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
+![One Widget 设置与权限](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
 
 One Widget 是一款安卓的 **猫主题组件包**。它内置时钟、天气、日历、电量、步数与倒计时组件，即放即用地摆上主屏。
 
@@ -54,11 +54,11 @@ One Widget 是一款安卓的 **猫主题组件包**。它内置时钟、天气�
 
 ## 深入看 KWGT
 
-![KWGT 截图：深入看 KWGT —— One Widget：安卓上可爱、即放即用的小组件](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
-![KWGT 截图 2：深入看 KWGT —— One Widget：安卓上可爱、即放即用的小组件](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
-![KWGT 截图 3：深入看 KWGT —— One Widget：安卓上可爱、即放即用的小组件](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
-![KWGT 截图 4：深入看 KWGT —— One Widget：安卓上可爱、即放即用的小组件](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
-![KWGT 截图 5：深入看 KWGT —— One Widget：安卓上可爱、即放即用的小组件](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
+![KWGT 小组件主界面](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
+![KWGT 自定义外观与主题](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
+![KWGT 信息源与布局](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
+![KWGT 交互与快捷操作](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
+![KWGT 设置与权限](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
 
 KWGT（Kustom Widget Maker，包名 `org.kustom.widget`）是安卓上最强的组件创造器——你用它的编辑器与一套公式语言（"Kode"）设计每一像素。
 

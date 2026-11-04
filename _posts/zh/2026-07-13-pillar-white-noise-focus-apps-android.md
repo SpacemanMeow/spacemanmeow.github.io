@@ -34,11 +34,11 @@ lang: zh
 
 ## 深入看 Meow FM
 
-![Meow FM 截图：深入看 Meow FM —— 最佳安卓白噪音与专注应用（2026）](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
-![Meow FM 截图 2：深入看 Meow FM —— 最佳安卓白噪音与专注应用（2026）](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
-![Meow FM 截图 3：深入看 Meow FM —— 最佳安卓白噪音与专注应用（2026）](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
-![Meow FM 截图 4：深入看 Meow FM —— 最佳安卓白噪音与专注应用（2026）](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
-![Meow FM 截图 5：深入看 Meow FM —— 最佳安卓白噪音与专注应用（2026）](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
+![Meow FM 电台列表与播放](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
+![Meow FM 收藏与频道](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
+![Meow FM 定时器与睡眠](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
+![Meow FM 音质与均衡器](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
+![Meow FM 设置与账号](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
 
 Meow FM 是一款猫主题白噪音应用，用于睡眠、放松与专注，带雨、暴风、森林、壁炉等环境声，外加工作时段用的桌面钟。
 

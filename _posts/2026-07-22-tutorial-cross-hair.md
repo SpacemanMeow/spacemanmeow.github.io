@@ -49,7 +49,7 @@ Open the app to the main console.
 - Tap the **style** area to pick a design, **color** for color, and use the **scale/alpha** sliders
 - The settings gear opens language, rate, share and upgrade
 
-![Crosshair Aim home screenshot: First: time Use — Crosshair Official User Guide](/assets/images/blog/tutorial_cross_home.webp){: width="180" .normal }
+![Tutorial Cross crosshair overlay home](/assets/images/blog/tutorial_cross_home.webp){: width="180" .normal }
 
 ## Grant Overlay Permission
 
@@ -67,8 +67,8 @@ This permission (not Accessibility, not root) is what lets the crosshair sit abo
 3. Tap a thumbnail to apply it
 4. Locked Pro styles prompt a reward ad or upgrade
 
-![Crosshair Aim style screenshot: Choose a Crosshair Style — Crosshair Official User Guide](/assets/images/blog/tutorial_cross_style.webp){: width="180" .normal }
-![Crosshair Aim style advance screenshot: Choose a Crosshair Style — Crosshair Official User Guide](/assets/images/blog/tutorial_cross_style_advance.webp){: width="180" .normal }
+![Tutorial Cross crosshair overlay home](/assets/images/blog/tutorial_cross_style.webp){: width="180" .normal }
+![Tutorial Cross Style crosshair overlay home](/assets/images/blog/tutorial_cross_style_advance.webp){: width="180" .normal }
 
 ## Customize Size, Color, Position
 
@@ -79,7 +79,7 @@ This permission (not Accessibility, not root) is what lets the crosshair sit abo
 
 There is **no independent thickness slider** — each pre-rendered style already has its own thickness.
 
-![Crosshair Aim color screenshot: Customize Size, Color, Position — Crosshair Official User Guide](/assets/images/blog/tutorial_cross_color.webp){: width="180" .normal }
+![Tutorial Cross crosshair overlay home](/assets/images/blog/tutorial_cross_color.webp){: width="180" .normal }
 
 ## Use It in a Game
 
@@ -88,7 +88,7 @@ There is **no independent thickness slider** — each pre-rendered style already
 3. The crosshair floats above the game and does **not** intercept touches (so your taps still hit the game)
 4. Tap the crosshair to open the floating control panel: size +/−, alpha +/−, arrows, reset, close
 
-![Crosshair Aim game screenshot: Use It in a Game — Crosshair Official User Guide](/assets/images/blog/tutorial_cross_game.webp){: width="180" .normal }
+![Tutorial Cross crosshair overlay home](/assets/images/blog/tutorial_cross_game.webp){: width="180" .normal }
 
 ## Unlock More Styles
 
