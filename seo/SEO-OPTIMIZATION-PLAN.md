@@ -3,6 +3,8 @@
 - **[SEO-PLAYBOOK.md](./SEO-PLAYBOOK.md)** —— SEO 方法沉淀手册：系统化、按分类（技术 / 内容 / 内链 / AI 搜索 / 外部权威 / i18n / 治理）归纳可复用的实践方法，每条标注本站落地状态。**用于长期积累 SEO 方法论。**
 - **[SEO-PROGRESS.md](./SEO-PROGRESS.md)** —— SEO 进度跟踪：任务总览（区分一次性 / 长期运营）、已落地明细、待做清单、月度运营规划（§4 checklist 化）。**用于看清哪些已做、哪些没做、按计划滚动。**
 - **[SEO-METRICS.md](./SEO-METRICS.md)** —— 核心指标月度报告：每月 GSC/GoatCounter 核心趋势表 + 各月详细分析（已拆出独立维护，便于按月滚动更新）。
+- **[SEO-KEYWORDS.md](./SEO-KEYWORDS.md)** —— 跨语言关键词权威库：按「语言 × 词层(Head/Middle/Long-tail) × 优先级(P0/P1/P2)」分组排序，含目标页映射与覆盖状态；新文/改文须基于本库优化文案，并随 Google Play Console / GSC 数据月度维护。**用于决定「写什么、怎么写」。**
+
 
 ## 使用方式
 1. 想了解「某类 SEO 该怎么做」→ 读 Playbook。
