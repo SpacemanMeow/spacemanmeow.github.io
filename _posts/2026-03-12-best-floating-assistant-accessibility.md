@@ -1,7 +1,7 @@
 ---
 date: 2026-03-12 09:00:00 +0800
 title: "Floating Assistant for Accessibility: One-Handed Control on a Big Phone"
-description: "A practical look at Floating Assistant versus Assistive Touch for accessibility in 2026 — virtual keys, edge reach, gestures, and control without physical buttons on Android."
+description: "Accessibility floating button 2026: Floating Assistant vs Assistive Touch on virtual keys, edge floating ball with gestures, large targets and price."
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
 image: /assets/images/apps/floating-assistant/icon.webp
@@ -9,7 +9,7 @@ lang: en
 last_modified_at: 2026-11-05
 ---
 
-Big phones are hard to use one-handed, and some users simply can't reach physical buttons reliably. An **[accessibility floating button](/glossary/what-is-a-floating-window/)** puts the controls you need within a thumb's reach. **Floating Assistant** is an **edge floating-ball app for Android** built for exactly this. Below we compare it with **Assistive Touch** for accessible, one-handed control.
+Big phones are hard to use one-handed, and some users simply can't reach physical buttons reliably. An **[accessibility floating button](/glossary/what-is-a-floating-window/)** puts the controls you need within a thumb's reach. **Floating Assistant** is an **edge floating-ball app for Android** built for exactly this. Below we compare it with **Assistive Touch** for accessible, one-handed control. Readers searching for **edge floating ball with gestures** or **floating button for one hand** are asking the same reachability question.
 
 ## What an accessibility tool needs
 
@@ -18,6 +18,17 @@ Big phones are hard to use one-handed, and some users simply can't reach physica
 - **Large, clear targets** — easy to hit, low precision needed.
 - **Custom common actions** — your daily moves in one tap.
 - **No reliance on hardware** — works when buttons are awkward or unavailable.
+
+## What accessibility actually needs from the ball
+
+An accessibility tool is judged on the day a hardware button fails, not on a feature list. Four practical details:
+
+- **Virtual keys that never miss** — back, home, recent and lock must be large, clearly separated targets. A **floating assistant back home recent button** row is the core of this, not an extra.
+- **Edge reach with gestures** — an **edge floating ball with gestures** lets a swipe do what a precise tap cannot; the ball should dock to either side so left-handed use is not an afterthought.
+- **Remappable shortcuts** — a **floating ball with custom shortcuts** means putting the one action a person needs most on the first tap, whether that is a contact, a toggle or the screenshot key.
+- **Clear, minimal permissions** — the overlay and accessibility service should be explained in plain language, with no account and no root requirement. Anything beyond that deserves scrutiny.
+
+Floating Assistant covers all four with an edge-docked ball; Assistive Touch keeps a smaller fixed menu. Neither replaces the system's own accessibility settings — they are a shortcut to them.
 
 ## The contenders at a glance
 
@@ -29,7 +40,7 @@ Big phones are hard to use one-handed, and some users simply can't reach physica
 
 ## Floating Assistant, in depth
 
-![Floating Assistant floating window home](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![Accessibility floating button with large back home recent targets](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
 ![Floating Assistant quick actions & gestures](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
 ![Floating Assistant custom menu & buttons](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
 ![Floating Assistant accessibility & options](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }

@@ -1,7 +1,7 @@
 ---
 date: 2026-02-05 09:00:00 +0800
 title: "2026 年最佳 Retroflip 替代应用"
-description: "2026 年想找 Retroflip 的替代品？我们对比了六款全屏与翻页时钟应用——Only Clock、FliTik、Flip Clock: World Clock、Fullscreen Clock、Flip Clock: Digital Desk Widget 和 Flip Clock — Digital Clock——从主题、白噪音、悬浮时钟、小组件到平台，附核心能力对比表与迁移清单。"
+description: "2026 年翻页时钟哪个好？六款 Retroflip 替代应用在主题、白噪音、悬浮时钟与小组件上的对比，说明每款适合谁并附迁移清单。"
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Alternatives, Retroflip]
 image: /assets/images/apps/only-clock/icon.webp
@@ -11,7 +11,7 @@ last_modified_at: 2026-11-05
 
 Retroflip 是一款免费、好看的复古 **[翻页时钟](/zh/glossary/what-is-a-flip-clock/)**，但基本只停留在钟面本身。它 **没有用于专注或睡眠的白噪音、没有悬浮时钟叠加层、没有小组件，也没有 iPhone 版**。如果你想要一款还能放环境音、能浮在其他应用之上、或能跑在 iOS 上的翻页时钟，这个品类已经迅速成熟。
 
-下面我们对比六款强力的 **Retroflip 替代品**——从可爱、功能丰富的全屏时钟，到适合番茄工作法的趣味翻页时钟——从价格、平台以及真正日常有用的功能出发。
+下面我们对比六款强力的 **Retroflip 替代品**——从可爱、功能丰富的全屏时钟，到适合番茄工作法的趣味翻页时钟——从价格、平台以及真正日常有用的功能出发。多数人卡在一个具体问题上：广告、没有小组件，或没有 iOS 版；下面会按「解决哪个问题」来讲每一款。
 
 ## 为什么要跳出 Retroflip
 
@@ -37,7 +37,7 @@ Retroflip 是一款免费、好看的复古 **[翻页时钟](/zh/glossary/what-i
 ### 1. Only Clock —— 功能最全的翻页时钟
 
 ![OnlyClock 设置与选项](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
-![OnlyClock 时钟主界面与显示](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
+![翻页时钟替代：Only Clock 全屏翻页钟面](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
 ![OnlyClock 时钟主界面与显示](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
 ![OnlyClock 闹钟与计时器](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
 ![OnlyClock 夜间模式与主题](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
@@ -221,6 +221,18 @@ Flip Clock — Digital Clock 是一款简单优雅的 iOS **翻页时钟**，带
 | **广告** | 无 | 无 | 有（免费） | 无 | 无 | 无 |
 
 ---
+
+## 每款 Retroflip 替代品适合谁
+
+表格比的是功能；这里按「除了显示时间，你还想让这块钟做什么」把同样的六款重新分组。
+
+- **钟面之外还要声音**——**翻页时钟替代**、**翻页桌面时钟替代** 这类搜法，多半想要一块安静常亮的钟面；Only Clock 在此之上加了白噪音、专注计时与悬浮模式。
+- **桌面或浏览器里的翻页钟**——**Fliqlo 替代** 对应电脑端；FliTik 与 Flip Clock: Digital Desk Widget 则是手机上的桌面组件式外观。
+- **小组件与世界时钟**——Flip Clock: World Clock 在钟面上加天气与时区；**翻页时钟24H 替代** 更看重 24 小时制与日期。
+- **替掉系统闹钟**——**谷歌时钟替代** 问的是闹钟与计时器，与装饰性全屏钟面不是一回事。
+- **整夜不被广告打扰**——从 **大字时钟替代**、**极简时钟替代** 到 **翻页时钟哪个好**，先按「有无广告、能不能变暗」筛一遍，因为这块屏会亮上好几个小时。
+
+不管用哪个词搜索，迁移前先问两句：能不能调暗又不烧 OLED？免费档里还留不留下你真正在用的那个组件？
 
 ## 如何选购
 

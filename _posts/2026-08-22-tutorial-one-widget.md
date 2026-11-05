@@ -7,7 +7,7 @@ tags: [Home Screen Widgets, KWGT, One Widget]
 lang: en
 author: author_meow_id
 last_modified_at: 2026-11-05
-description: "A complete One Widget user guide — place 500+ home-screen widgets in four styles, add quick toggles and app shortcuts."
+description: "One Widget user guide: place 500+ home-screen widgets in four styles, configure size and transparency, add quick toggles and app shortcuts."
 image: /assets/images/apps/one-widget/icon.webp
 ---
 
@@ -27,7 +27,7 @@ image: /assets/images/apps/one-widget/icon.webp
 
 ## App Introduction
 
-One Widget packs **500+ customizable Android [home-screen widgets](/glossary/what-is-a-home-screen-widget/)** in four trending styles, plus app shortcuts and quick toggles.
+One Widget packs **500+ customizable Android [home-screen widgets](/glossary/what-is-a-home-screen-widget/)** in four trending styles, plus app shortcuts and quick toggles. It is a **widget app** you can use without an account: browse the four style libraries, place a preset, then resize it and change its background and corner radius. This guide walks the full loop from first launch through the styles, adding and configuring a widget, **widget with app shortcuts android** toggles, and live clock, calendar and battery info.
 
 **🎨 Four Styles**
 - **One UI** (default; the only style included in the free "lite" app)
@@ -56,10 +56,10 @@ Open One Widget to a 4-tab gallery: **One UI / Nothing / Glass / Material You**.
 - Each style page lists categories: Tools, Entry, Hardware, Clock, Launcher, Combo, Note, Contact
 - Tap a category to see the widget previews
 
-![Tutorial Widget One widget home](/assets/images/blog/tutorial_widget_one_ui.webp){: width="180" .normal }
-![One Widget widget home](/assets/images/blog/tutorial_widget_nothing.webp){: width="180" .normal }
-![One Widget widget home](/assets/images/blog/tutorial_widget_glass.webp){: width="180" .normal }
-![One Widget widget home](/assets/images/blog/tutorial_widget_material.webp){: width="180" .normal }
+![One UI style widget presets in One Widget](/assets/images/blog/tutorial_widget_one_ui.webp){: width="180" .normal }
+![Nothing style dot-matrix widget presets](/assets/images/blog/tutorial_widget_nothing.webp){: width="180" .normal }
+![Glass style translucent widget presets](/assets/images/blog/tutorial_widget_glass.webp){: width="180" .normal }
+![Material You color-matched widget presets](/assets/images/blog/tutorial_widget_material.webp){: width="180" .normal }
 
 ## Browse the 4 Styles
 
@@ -72,7 +72,7 @@ Switch the top tabs to preview each style. **One UI** is the default and is avai
 3. The system opens the One Widget **configure** screen
 4. Set your options and tap **Confirm** to place it
 
-![One Widget widget home](/assets/images/blog/tutorial_widget_add.webp){: width="180" .normal }
+![Adding a widget to the Android home screen](/assets/images/blog/tutorial_widget_add.webp){: width="180" .normal }
 
 ## Configure a Widget
 
@@ -85,7 +85,7 @@ Most widgets share common options:
 
 Icon background color and corner radius are derived from the shape (circle = size/2, rounded = size/3).
 
-![One Widget widget home](/assets/images/blog/tutorial_widget_config.webp){: width="180" .normal }
+![Configuring widget size, color and corner radius](/assets/images/blog/tutorial_widget_config.webp){: width="180" .normal }
 
 ## Quick Toggles
 

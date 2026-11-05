@@ -7,7 +7,7 @@ tags: [Crosshair, Android, Crosshair Aim]
 lang: en
 last_modified_at: 2026-11-05
 author: author_meow_id
-description: "A complete Crosshair user guide — add a custom crosshair overlay to FPS games: 80+ styles, scale/color/position, no root."
+description: "A complete Crosshair user guide — add a custom crosshair overlay to FPS games on Android: 80+ styles, scale/color/position, no root, free to start."
 image: /assets/images/apps/cross-hair/icon.webp
 ---
 
@@ -24,7 +24,7 @@ image: /assets/images/apps/cross-hair/icon.webp
 
 ## App Introduction
 
-Crosshair (Crosshair Aim) adds a **[custom crosshair overlay](/glossary/what-is-a-crosshair/)** to FPS games on Android, with **80+ designs** to improve your aim.
+Crosshair (Crosshair Aim) adds a **[custom crosshair overlay](/glossary/what-is-a-crosshair/)** to FPS games on Android, with **80+ designs** to improve your aim — a free, **custom crosshair Android** tool that runs with no root.
 
 **🎯 80+ Styles**
 - **84 Basic** (flat) styles built in
@@ -50,7 +50,7 @@ Open the app to the main console.
 - Tap the **style** area to pick a design, **color** for color, and use the **scale/alpha** sliders
 - The settings gear opens language, rate, share and upgrade
 
-![Tutorial Cross crosshair overlay home](/assets/images/blog/tutorial_cross_home.webp){: width="180" .normal }
+![Custom crosshair Android — Crosshair overlay home](/assets/images/blog/tutorial_cross_home.webp){: width="180" .normal }
 
 ## Grant Overlay Permission
 
@@ -68,8 +68,8 @@ This permission (not Accessibility, not root) is what lets the crosshair sit abo
 3. Tap a thumbnail to apply it
 4. Locked Pro styles prompt a reward ad or upgrade
 
-![Tutorial Cross crosshair overlay home](/assets/images/blog/tutorial_cross_style.webp){: width="180" .normal }
-![Tutorial Cross Style crosshair overlay home](/assets/images/blog/tutorial_cross_style_advance.webp){: width="180" .normal }
+![Custom crosshair Android — Crosshair overlay home: Style](/assets/images/blog/tutorial_cross_style.webp){: width="180" .normal }
+![Custom crosshair Android — Crosshair style](/assets/images/blog/tutorial_cross_style_advance.webp){: width="180" .normal }
 
 ## Customize Size, Color, Position
 
@@ -80,7 +80,7 @@ This permission (not Accessibility, not root) is what lets the crosshair sit abo
 
 There is **no independent thickness slider** — each pre-rendered style already has its own thickness.
 
-![Tutorial Cross crosshair overlay home](/assets/images/blog/tutorial_cross_color.webp){: width="180" .normal }
+![Custom crosshair Android — Crosshair overlay home: Color](/assets/images/blog/tutorial_cross_color.webp){: width="180" .normal }
 
 ## Use It in a Game
 
@@ -89,7 +89,7 @@ There is **no independent thickness slider** — each pre-rendered style already
 3. The crosshair floats above the game and does **not** intercept touches (so your taps still hit the game)
 4. Tap the crosshair to open the floating control panel: size +/−, alpha +/−, arrows, reset, close
 
-![Tutorial Cross crosshair overlay home](/assets/images/blog/tutorial_cross_game.webp){: width="180" .normal }
+![Custom crosshair Android — Crosshair overlay home: In-game](/assets/images/blog/tutorial_cross_game.webp){: width="180" .normal }
 
 ## Unlock More Styles
 

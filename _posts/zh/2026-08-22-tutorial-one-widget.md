@@ -7,7 +7,7 @@ tags: [Home Screen Widgets, KWGT, One Widget]
 lang: zh
 author: author_meow_id
 last_modified_at: 2026-11-05
-description: "一份完整的 One Widget 使用指南——放入四种风格的 500+ 主屏组件，添加快捷开关与应用快捷方式。"
+description: "一份完整的 One Widget 使用指南——放入四种风格的 500+ 桌面小组件，配置尺寸与透明度，添加快捷开关与应用快捷方式。"
 image: /assets/images/apps/one-widget/icon.webp
 ---
 
@@ -27,7 +27,7 @@ image: /assets/images/apps/one-widget/icon.webp
 
 ## 应用简介
 
-One Widget 内置 **500+ 可自定义安卓[主屏组件](/zh/glossary/what-is-a-home-screen-widget/)**，横跨四种流行风格，外加应用快捷方式与快捷开关。
+One Widget 内置 **500+ 可自定义安卓[主屏组件](/zh/glossary/what-is-a-home-screen-widget/)**，横跨四种流行风格，外加应用快捷方式与快捷开关。它是一款 **无需账号的小组件 app**：浏览四种风格库、摆上一个预设，再改尺寸、背景色与圆角即可。这份指南会走完从首次启动、四种风格，到添加与配置组件、快捷开关，再到时钟、日历与电量实时信息的完整流程。
 
 **🎨 四种风格**
 - **One UI**（默认；免费"精简"版应用包含的唯一样式）
@@ -56,10 +56,10 @@ One Widget 内置 **500+ 可自定义安卓[主屏组件](/zh/glossary/what-is-a
 - 每个风格页列出分类：工具、入口、硬件、时钟、启动器、组合、便签、联系人
 - 点分类看组件预览
 
-![Tutorial Widget One 小组件主界面](/assets/images/blog/tutorial_widget_one_ui.webp){: width="180" .normal }
-![One Widget 小组件主界面](/assets/images/blog/tutorial_widget_nothing.webp){: width="180" .normal }
-![One Widget 小组件主界面](/assets/images/blog/tutorial_widget_glass.webp){: width="180" .normal }
-![One Widget 小组件主界面](/assets/images/blog/tutorial_widget_material.webp){: width="180" .normal }
+![One UI 风格小组件预设](/assets/images/blog/tutorial_widget_one_ui.webp){: width="180" .normal }
+![Nothing 风格小组件点阵预设](/assets/images/blog/tutorial_widget_nothing.webp){: width="180" .normal }
+![玻璃风格小组件通透预设](/assets/images/blog/tutorial_widget_glass.webp){: width="180" .normal }
+![Material You 小组件配色预设](/assets/images/blog/tutorial_widget_material.webp){: width="180" .normal }
 
 ## 浏览四种风格
 
@@ -72,7 +72,7 @@ One Widget 内置 **500+ 可自定义安卓[主屏组件](/zh/glossary/what-is-a
 3. 系统打开 One Widget **配置** 界面
 4. 设定选项并点 **确认** 放置
 
-![One Widget 小组件主界面](/assets/images/blog/tutorial_widget_add.webp){: width="180" .normal }
+![把安卓小组件添加到主屏](/assets/images/blog/tutorial_widget_add.webp){: width="180" .normal }
 
 ## 配置组件
 
@@ -85,7 +85,7 @@ One Widget 内置 **500+ 可自定义安卓[主屏组件](/zh/glossary/what-is-a
 
 图标背景色与圆角半径由形状派生（圆形 = 边长/2，圆角 = 边长/3）。
 
-![One Widget 小组件主界面](/assets/images/blog/tutorial_widget_config.webp){: width="180" .normal }
+![配置自定义小组件的尺寸、颜色与圆角](/assets/images/blog/tutorial_widget_config.webp){: width="180" .normal }
 
 ## 快捷开关
 

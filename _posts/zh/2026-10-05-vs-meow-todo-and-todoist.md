@@ -1,7 +1,7 @@
 ---
 date: 2026-10-05 09:00:00 +0800
 title: "Meow Todo vs Todoist：哪款任务管理应用该用？"
-description: "2026 年 Meow Todo 与 Todoist 深度对比：一款核心免费、私密、可爱的任务管理应用，带子任务、日历与 CSV 导出，对阵一款以自然语言输入与协作为特色的人气强者。价格、限制与按需结论。"
+description: "2026 年 Meow Todo 与 Todoist 深度对比：一款核心免费、私密、可爱的任务管理软件，带待办清单子任务、待办清单日历视图与 CSV 导出，对阵以自然语言输入与协作为特色的人气强者。价格、限制与按需结论。"
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Comparison, Todoist]
 image: /assets/images/apps/meow-todo-list/icon.webp
@@ -32,7 +32,7 @@ last_modified_at: 2026-11-05
 
 ## Meow Todo 详解
 
-![Meow Todo List 任务列表与今日待办](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
+![Todoist 替代 — Meow Todo List 今日待办](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
 ![Meow Todo List 任务编辑与提醒](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
 ![Meow Todo List 清单与标签分组](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
 ![Meow Todo List 日历与时间视图](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
@@ -145,6 +145,10 @@ Meow Todo 核心免费，无硬性项目上限。Todoist 免费 Beginner 档限�
 
 **能导出任务吗？**
 能。CSV 导出（VIP 功能）让你在 Excel 或 Sheets 里复查或迁移数据。
+
+## 其它值得考虑的待办应用
+
+还没定？这两款并不是全部。**微软待办替代** 适合活在 Outlook 里、只想要一份免费简单清单的人；**滴答清单替代** 适合想把日历与番茄钟放在一起的人；若你只要 Gmail 里的轻量任务，Google Tasks 一类更省事。想要数据留在本机的 **离线待办** 应用，Meow Todo 仍是阻力最小的选择。完整名单见 [2026 年最佳 Todoist 替代应用](/zh/posts/alternatives-to-todoist/)。
 
 ## 相关术语
 

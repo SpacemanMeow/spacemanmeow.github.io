@@ -1,7 +1,7 @@
 ---
 date: 2026-05-30 09:00:00 +0800
 title: "最佳安卓主屏小组件应用（2026）"
-description: "2026 年最佳安卓主屏小组件应用：该看什么（风格、自定义、快捷开关），以及 One Widget 与 KWGT、WidgetSmith 的对比。"
+description: "2026 年安卓小组件 app 推荐与桌面小组件选购：看风格、自定义与快捷开关，以及 One Widget 与 KWGT、WidgetSmith 的对比。"
 layout: guide
 image: /assets/images/apps/one-widget/icon.webp
 tags: [Home Screen Widgets, KWGT, One Widget, App Roundup]
@@ -9,7 +9,17 @@ last_modified_at: 2026-11-05
 lang: zh
 ---
 
-安卓的主屏是它的超能力，而[主屏小组件](/zh/glossary/what-is-a-home-screen-widget/)就是让你把它变成自己模样的方式。这份 2026 指南讲清了挑选小组件应用要看什么，以及 One Widget 如何与 KWGT、WidgetSmith 对比。
+安卓的主屏是它的超能力，而[主屏小组件](/zh/glossary/what-is-a-home-screen-widget/)就是让你把它变成自己模样的方式。这份 2026 指南讲清了挑选小组件应用要看什么，以及 One Widget 如何与 KWGT、WidgetSmith 对比。无论叫它 **安卓小组件**、**桌面小组件** 还是 **小组件 app**，要挑的都是同一批应用；搜 **安卓桌面小组件哪个好** 的人，问的也是这件事。
+
+## 大家怎么称呼它
+
+同一个品类有好几种叫法，每种指向的其实是不太一样的工作：
+
+- **安卓小组件** / **桌面小组件** / **自定义小组件**——泛指放在启动器上的一切；搜 **安卓小组件 app 推荐** 或 **安卓桌面组件** 的人，多半想要现成组件库，而不是一张空白画布。
+- **安卓小组件制作**——指自己画组件的搭建器（KWGT 是这类基准），与预设库正好相反，代价是配置时间。
+- **小组件 app**——常见诉求是「一款应用覆盖时钟、日历、电量与开关」，而不是装五个单一用途的工具。
+
+风格词同样是搜索词：**Material You 小组件** 跟随壁纸调色板，**透明小组件** 与 **玻璃风格小组件** 追求通透感，**灵动岛小组件** 复刻动态岛的胶囊，**三星 One UI 小组件** 对齐 Galaxy 原生样式，**Nothing 风格小组件** 则是点阵极简。One Widget 把这几类都做成预设，所以它同时出现在「制作」与「现成」两份对比里。
 
 ## 为什么主屏小组件应用在安卓上重要
 
@@ -29,15 +39,15 @@ lang: zh
 | 应用 | 价格（2026） | 平台 | 适合人群 / 备注 |
 |---|---|---|---|
 | **One Widget** | 付费应用（一次性） | 仅 Android | 500+ 组件、4 种风格、快捷开关、应用快捷方式 |
-| **KWGT** | 免费 + Pro 密钥 约 $4.99 | 仅 Android | 完全自定义组件编辑器，但每个组件都得自己造（DIY） |
+| **KWGT** | 免费 + Pro 密钥约 $4.99 | 仅 Android | 完全自定义组件编辑器，但每个组件都得自己造（DIY） |
 | **WidgetSmith** | 免费 + 订阅 | 仅 iOS | iOS 主题组件；无安卓版本 |
 
 ## 深入看 One Widget
 
-![One Widget 小组件主界面](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
-![One Widget 自定义外观与主题](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
+![自定义小组件库主界面](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
+![透明小组件与玻璃风格小组件主题](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
 ![One Widget 信息源与布局](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
-![One Widget 交互与快捷操作](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
+![安卓小组件的快捷开关与应用快捷方式](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
 ![One Widget 设置与权限](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
 
 One Widget 内置 500+ 可自定义的安卓主屏组件，涵盖 Glass iOS、Material You、Galaxy One UI 与 Nothing 风格，外加应用快捷方式与快捷开关。

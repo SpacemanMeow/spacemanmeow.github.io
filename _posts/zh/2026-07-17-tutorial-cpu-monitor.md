@@ -7,7 +7,7 @@ tags: [CPU Monitor, CPU Temperature, Android]
 lang: zh
 author: author_meow_id
 last_modified_at: 2026-11-05
-description: "一份完整的 CPU Monitor 使用指南——实时 CPU 温度、浮窗、过热报警、历史曲线与缓存清理。"
+description: "一份完整的 CPU Monitor 使用指南——实时 cpu温度监控、cpu监控悬浮窗、过热报警、历史曲线与只读传感器读数。"
 image: /assets/images/apps/cpu-monitor/icon.webp
 ---
 
@@ -27,7 +27,7 @@ image: /assets/images/apps/cpu-monitor/icon.webp
 
 ## 应用简介
 
-CPU Monitor 在安卓上显示 **实时 [CPU 温度](/zh/glossary/what-is-a-cpu-temperature-monitor/) 与频率、RAM、电池与存储**，带浮窗、小组件、过热报警与历史曲线。
+CPU Monitor 在安卓上显示 **实时 [CPU 温度](/zh/glossary/what-is-a-cpu-temperature-monitor/) 与频率、RAM、电池与存储**，带浮窗、小组件、过热报警与历史曲线。它是一款 **只读** 工具：免 root 读取热传感器与系统计数，不修改游戏数据或系统设置。这份指南从首次启动讲到 **cpu监控悬浮窗安卓**、**cpu过热报警 app** 的阈值、**cpu频率历史曲线**、**cpu内存电池小组件安卓** 的主屏布局，再到缓存清理界面——只解释数字的含义，不承诺降温。
 
 **📈 实时监控**
 - CPU 温度与频率、每核使用率
@@ -50,11 +50,11 @@ CPU Monitor 在安卓上显示 **实时 [CPU 温度](/zh/glossary/what-is-a-cpu-
 
 主屏有标签页：**CPU / SYSTEM / FLOATING / SENSOR**，顶部有一个 **升级** 按钮。
 
-![CPU Monitor 温度与频率监控主界面](/assets/images/blog/tutorial_cpu_home.webp){: width="180" .normal }
-![CPU Monitor 温度与频率监控主界面](/assets/images/blog/tutorial_cpu_floating.webp){: width="180" .normal }
-![CPU Monitor 温度与频率监控主界面](/assets/images/blog/tutorial_cpu_clean.webp){: width="180" .normal }
-![CPU Monitor 温度与频率监控主界面](/assets/images/blog/tutorial_cpu_sensor.webp){: width="180" .normal }
-![CPU Monitor 温度与频率监控主界面](/assets/images/blog/tutorial_cpu_system.webp){: width="180" .normal }
+![CPU Monitor 主页：实时 cpu温度监控与逐核频率](/assets/images/blog/tutorial_cpu_home.webp){: width="180" .normal }
+![cpu监控悬浮窗停在其它应用之上](/assets/images/blog/tutorial_cpu_floating.webp){: width="180" .normal }
+![CPU Monitor 的缓存清理界面](/assets/images/blog/tutorial_cpu_clean.webp){: width="180" .normal }
+![电池温度监控与传感器读数](/assets/images/blog/tutorial_cpu_sensor.webp){: width="180" .normal }
+![系统监测总览：RAM 与存储](/assets/images/blog/tutorial_cpu_system.webp){: width="180" .normal }
 
 ## 实时 CPU
 

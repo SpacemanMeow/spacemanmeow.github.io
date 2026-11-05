@@ -93,7 +93,7 @@ The main interface includes the following main parts:
 - Bottom navigation bar: includes four options: bookkeeping, statistics, assets, and settings
 - Top banner: displays current ledger and asset overview
 
-![Record home screen](/assets/images/blog/record.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview](/assets/images/blog/assets.webp){: width="180" .normal } ![App home screen](/assets/images/blog/stats.webp){: width="180" .normal } ![App home screen](/assets/images/blog/setting.webp){: width="180" .normal }
+![Record home screen](/assets/images/blog/record.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview](/assets/images/blog/assets.webp){: width="180" .normal } ![App home screen](/assets/images/blog/stats.webp){: width="180" .normal } ![App home screen: Settings](/assets/images/blog/setting.webp){: width="180" .normal }
 
 ## Bookkeeping Features
 
@@ -110,7 +110,7 @@ Meow Money Manager's bookkeeping features are very intuitive, supporting three t
 7. Add notes (optional)
 8. Click confirm to complete bookkeeping
 
-![Record home screen](/assets/images/blog/record_add.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview](/assets/images/blog/record_add_ledger.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview](/assets/images/blog/record_add_assets.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview](/assets/images/blog/record_add_remark.webp){: width="180" .normal }
+![Record home screen: Add](/assets/images/blog/record_add.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview: Ledger](/assets/images/blog/record_add_ledger.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview: Accounts](/assets/images/blog/record_add_assets.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview: Remark](/assets/images/blog/record_add_remark.webp){: width="180" .normal }
 
 ### Transfer Function
 
@@ -123,7 +123,7 @@ Meow Money Manager's bookkeeping features are very intuitive, supporting three t
 7. Add notes (optional)
 8. Click confirm to complete the transfer
 
-![Meow Money Manager home screen with accounts overview](/assets/images/blog/record_add_transfer.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview](/assets/images/blog/record_add_charge.webp){: width="180" .normal }
+![Meow Money Manager home screen with accounts overview: Transfer](/assets/images/blog/record_add_transfer.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview: New charge](/assets/images/blog/record_add_charge.webp){: width="180" .normal }
 
 ## Budget Management
 
@@ -139,7 +139,7 @@ Meow Money Manager supports multiple types of budget management, including daily
 6. Enter budget name
 7. Click confirm to complete budget creation
 
-![Budget home screen](/assets/images/blog/budget_manage.webp){: width="180" .normal } ![Budget home screen](/assets/images/blog/budget_add.webp){: width="180" .normal } ![Budget Add home screen](/assets/images/blog/budget_add_period.webp){: width="180" .normal } ![Budget Add home screen](/assets/images/blog/budget_add_category.webp){: width="180" .normal } ![Budget Add home screen](/assets/images/blog/budget_add_amount.webp){: width="180" .normal }
+![Budget home screen](/assets/images/blog/budget_manage.webp){: width="180" .normal } ![Budget home screen: Add](/assets/images/blog/budget_add.webp){: width="180" .normal } ![Budget Add home screen](/assets/images/blog/budget_add_period.webp){: width="180" .normal } ![Budget Add home screen: Category](/assets/images/blog/budget_add_category.webp){: width="180" .normal } ![Budget Add home screen: Amount](/assets/images/blog/budget_add_amount.webp){: width="180" .normal }
 
 ### Budget Tracking
 
@@ -149,7 +149,7 @@ On the budget details page, you can view:
 - Daily average budget
 - Budget usage for each category
 
-![Budget Add home screen](/assets/images/blog/budget_add_detail.webp){: width="180" .normal }
+![Budget Add home screen: Detail](/assets/images/blog/budget_add_detail.webp){: width="180" .normal }
 
 ## Statistics and Analysis
 
@@ -165,7 +165,7 @@ Meow Money Manager provides multiple statistical analysis functions to help you 
 - **Bar chart statistics**: Bar chart shows daily or monthly income and expenditure, helping you understand income and expenditure trends.
 - **Calendar view**: Calendar view shows daily income and expenditure, with color depth indicating amount size.
 
-![App home screen](/assets/images/blog/stats.webp){: width="180" .normal } ![App home screen](/assets/images/blog/stats_date.webp){: width="180" .normal } ![App home screen](/assets/images/blog/stats_chart.webp){: width="180" .normal } ![App home screen](/assets/images/blog/stats_pie.webp){: width="180" .normal } ![App home screen](/assets/images/blog/stats_hist.webp){: width="180" .normal }
+![App home screen: Statistics](/assets/images/blog/stats.webp){: width="180" .normal } ![App home screen: Date](/assets/images/blog/stats_date.webp){: width="180" .normal } ![App home screen: Chart](/assets/images/blog/stats_chart.webp){: width="180" .normal } ![App home screen: Pie chart](/assets/images/blog/stats_pie.webp){: width="180" .normal } ![App home screen: Histogram](/assets/images/blog/stats_hist.webp){: width="180" .normal }
 
 ## Asset Management
 
@@ -181,7 +181,7 @@ Meow Money Manager supports managing multiple types of assets, such as cash, ban
 6. Select asset icon
 7. Click confirm to complete asset addition
 
-![Meow Money Manager home screen with accounts overview](/assets/images/blog/assets.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview](/assets/images/blog/assets_add.webp){: width="180" .normal }
+![Meow Money Manager home screen with accounts overview: Accounts (2)](/assets/images/blog/assets.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview: Add](/assets/images/blog/assets_add.webp){: width="180" .normal }
 
 ### Asset Details
 
@@ -190,7 +190,7 @@ Click on an asset to enter the details page, where you can view:
 - Asset income and expenditure records
 - Asset trend charts
 
-![Meow Money Manager home screen with accounts overview](/assets/images/blog/assets_detail.webp){: width="180" .normal } ![Assets Detail home screen](/assets/images/blog/assets_detail_transfer.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview](/assets/images/blog/assets_curve.webp){: width="180" .normal } ![Assets Curve home screen](/assets/images/blog/assets_curve_tip.webp){: width="180" .normal }
+![Meow Money Manager home screen with accounts overview: Detail](/assets/images/blog/assets_detail.webp){: width="180" .normal } ![Assets Detail home screen](/assets/images/blog/assets_detail_transfer.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview: Trend curve](/assets/images/blog/assets_curve.webp){: width="180" .normal } ![Assets Curve home screen](/assets/images/blog/assets_curve_tip.webp){: width="180" .normal }
 
 ## Ledger Management
 
@@ -204,7 +204,7 @@ Meow Money Manager supports creating multiple ledgers for managing different typ
 4. Select ledger icon
 5. Click confirm to complete ledger creation
 
-![Ledger home screen](/assets/images/blog/ledger_filter.webp){: width="180" .normal } ![Ledger home screen](/assets/images/blog/ledger_manage.webp){: width="180" .normal } ![Ledger home screen](/assets/images/blog/ledger_add.webp){: width="180" .normal }
+![Ledger home screen](/assets/images/blog/ledger_filter.webp){: width="180" .normal } ![Ledger home screen: Manage](/assets/images/blog/ledger_manage.webp){: width="180" .normal } ![Ledger home screen: Add](/assets/images/blog/ledger_add.webp){: width="180" .normal }
 
 ### Switch Ledger
 
@@ -212,7 +212,7 @@ Meow Money Manager supports creating multiple ledgers for managing different typ
 2. Select the ledger to use from the pop-up ledger list
 3. After completing the selection, the bookkeeping records for that ledger will be displayed
 
-![Meow Money Manager home screen with accounts overview](/assets/images/blog/record_add_ledger.webp){: width="180" .normal }
+![Meow Money Manager home screen with accounts overview: Ledger (2)](/assets/images/blog/record_add_ledger.webp){: width="180" .normal }
 
 ### Ledger Statistics
 
@@ -221,7 +221,7 @@ Click on a ledger to enter the details page, where you can view for that ledger:
 - Budget usage
 - Detailed bookkeeping records
 
-![Ledger Detail home screen](/assets/images/blog/ledger_detail_record.webp){: width="180" .normal } ![Ledger Detail home screen](/assets/images/blog/ledger_detail_stats.webp){: width="180" .normal } ![Ledger Detail home screen](/assets/images/blog/ledger_detail_date.webp){: width="180" .normal }
+![Ledger Detail home screen](/assets/images/blog/ledger_detail_record.webp){: width="180" .normal } ![Ledger Detail home screen: Statistics](/assets/images/blog/ledger_detail_stats.webp){: width="180" .normal } ![Ledger Detail home screen: Date](/assets/images/blog/ledger_detail_date.webp){: width="180" .normal }
 
 ## Recurring Transactions
 
@@ -240,7 +240,7 @@ The recurring transaction feature can help you automatically record regular inco
 9. Set start date and end date
 10. Click confirm to complete recurring transaction setup
 
-![Recurring Add Category home screen](/assets/images/blog/recurring_add_category_type.webp){: width="180" .normal } ![Recurring Add Category home screen](/assets/images/blog/recurring_add_category_select.webp){: width="180" .normal } ![Recurring Add home screen](/assets/images/blog/recurring_add_assets.webp){: width="180" .normal } ![Recurring Add home screen](/assets/images/blog/recurring_add_ledger.webp){: width="180" .normal } ![Recurring Add home screen](/assets/images/blog/recurring_add_cycle.webp){: width="180" .normal }
+![Recurring Add Category home screen](/assets/images/blog/recurring_add_category_type.webp){: width="180" .normal } ![Recurring Add Category home screen: Selection](/assets/images/blog/recurring_add_category_select.webp){: width="180" .normal } ![Recurring Add home screen](/assets/images/blog/recurring_add_assets.webp){: width="180" .normal } ![Recurring Add home screen: Ledger](/assets/images/blog/recurring_add_ledger.webp){: width="180" .normal } ![Recurring Add home screen: Cycle](/assets/images/blog/recurring_add_cycle.webp){: width="180" .normal }
 
 ### Recurring Transaction Management
 
@@ -249,7 +249,7 @@ In the recurring transaction list, you can:
 - Edit or delete recurring transaction tasks
 - Manually trigger recurring transactions
 
-![Recurring home screen](/assets/images/blog/recurring_manage.webp){: width="180" .normal } ![Recurring home screen](/assets/images/blog/recurring_edit.webp){: width="180" .normal }
+![Recurring home screen](/assets/images/blog/recurring_manage.webp){: width="180" .normal } ![Recurring home screen: Edit](/assets/images/blog/recurring_edit.webp){: width="180" .normal }
 
 ## Expense Reimbursement
 
@@ -261,7 +261,7 @@ The expense reimbursement feature can help you track expenses that need to be re
 2. Complete other bookkeeping information
 3. Click confirm to complete reimbursement record addition
 
-![Meow Money Manager home screen with accounts overview](/assets/images/blog/record_add_reimburse.webp){: width="180" .normal }
+![Meow Money Manager home screen with accounts overview: Reimbursement](/assets/images/blog/record_add_reimburse.webp){: width="180" .normal }
 
 ### Reimbursement Management
 
@@ -272,7 +272,7 @@ The expense reimbursement feature can help you track expenses that need to be re
 5. Select reimbursement method (asset)
 6. Click confirm to complete reimbursement
 
-![Meow Money Manager home screen with accounts overview](/assets/images/blog/reimburse_manage.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview](/assets/images/blog/reimburse_refund.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview](/assets/images/blog/reimburse_edit.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview](/assets/images/blog/reimburse_reimburse.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview](/assets/images/blog/reimburse_done.webp){: width="180" .normal }
+![Meow Money Manager home screen with accounts overview: Manage](/assets/images/blog/reimburse_manage.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview: Refund](/assets/images/blog/reimburse_refund.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview: Edit](/assets/images/blog/reimburse_edit.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview: Reimbursement (2)](/assets/images/blog/reimburse_reimburse.webp){: width="180" .normal } ![Meow Money Manager home screen with accounts overview: Done](/assets/images/blog/reimburse_done.webp){: width="180" .normal }
 
 ## Settings
 
@@ -288,7 +288,7 @@ Meow Money Manager provides multiple setting options to help you customize app f
    - Week start day settings
    - Month start day settings
 
-![App home screen](/assets/images/blog/setting_dark.webp){: width="180" .normal } ![App home screen](/assets/images/blog/setting_language.webp){: width="180" .normal } ![Setting Currency home screen](/assets/images/blog/setting_currency_symbol.webp){: width="180" .normal } ![Setting Week home screen](/assets/images/blog/setting_week_begin.webp){: width="180" .normal } ![Setting Month home screen](/assets/images/blog/setting_month_begin.webp){: width="180" .normal }
+![App home screen: Dark mode](/assets/images/blog/setting_dark.webp){: width="180" .normal } ![App home screen: Language](/assets/images/blog/setting_language.webp){: width="180" .normal } ![Setting Currency home screen](/assets/images/blog/setting_currency_symbol.webp){: width="180" .normal } ![Setting Week home screen](/assets/images/blog/setting_week_begin.webp){: width="180" .normal } ![Setting Month home screen](/assets/images/blog/setting_month_begin.webp){: width="180" .normal }
 
 ### Privacy Settings
 
@@ -296,7 +296,7 @@ Meow Money Manager provides multiple setting options to help you customize app f
 2. Enable or disable fingerprint app lock
 3. Set app password (if needed)
 
-![App home screen](/assets/images/blog/setting_lock.webp){: width="180" .normal } ![Setting Lock home screen](/assets/images/blog/setting_lock_password.webp){: width="180" .normal }
+![App home screen: App lock](/assets/images/blog/setting_lock.webp){: width="180" .normal } ![Setting Lock home screen](/assets/images/blog/setting_lock_password.webp){: width="180" .normal }
 
 ### Backup and Restore
 
@@ -308,7 +308,7 @@ Meow Money Manager provides multiple setting options to help you customize app f
 3. Click "Backup Now" for manual backup
 4. Click "Restore" to restore data from backup files
 
-![App home screen](/assets/images/blog/setting_backup.webp){: width="180" .normal } ![Setting Backup home screen](/assets/images/blog/setting_backup_backup.webp){: width="180" .normal } ![Setting Backup home screen](/assets/images/blog/setting_backup_restore.webp){: width="180" .normal } ![Setting Backup Restore home screen](/assets/images/blog/setting_backup_restore_done.webp){: width="180" .normal }
+![App home screen: Backup](/assets/images/blog/setting_backup.webp){: width="180" .normal } ![Setting Backup home screen](/assets/images/blog/setting_backup_backup.webp){: width="180" .normal } ![Setting Backup home screen: Restore](/assets/images/blog/setting_backup_restore.webp){: width="180" .normal } ![Setting Backup Restore home screen](/assets/images/blog/setting_backup_restore_done.webp){: width="180" .normal }
 
 ### Export Data
 
@@ -317,7 +317,7 @@ Meow Money Manager provides multiple setting options to help you customize app f
 3. Select export format (CSV)
 4. Click "Export" to export data to a file
 
-![App home screen](/assets/images/blog/setting_export.webp){: width="180" .normal } ![Setting Export home screen](/assets/images/blog/setting_export_confirm.webp){: width="180" .normal } ![Setting Export home screen](/assets/images/blog/setting_export_waiting.webp){: width="180" .normal } ![Setting Export home screen](/assets/images/blog/setting_export_done.webp){: width="180" .normal }
+![App home screen: Export](/assets/images/blog/setting_export.webp){: width="180" .normal } ![Setting Export home screen](/assets/images/blog/setting_export_confirm.webp){: width="180" .normal } ![Setting Export home screen: Waiting](/assets/images/blog/setting_export_waiting.webp){: width="180" .normal } ![Setting Export home screen: Done](/assets/images/blog/setting_export_done.webp){: width="180" .normal }
 
 ## FAQ
 

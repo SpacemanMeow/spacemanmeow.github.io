@@ -1,7 +1,7 @@
 ---
 date: 2026-05-17 09:00:00 +0800
 title: "Only Clock 床头版：闲置手机变床头钟"
-description: "2026 年 Only Clock 与 Flip Clock 作为床头钟的实用对比——暗色主题、常亮、白噪音与 OLED 烧屏防护。"
+description: "2026 年床头钟 app 对比：Only Clock 与 Flip Clock 在暗色主题、常亮、白噪音与 OLED 烧屏防护上的差别，含旧手机当时钟的建议。"
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Best Apps]
 image: /assets/images/apps/only-clock/icon.webp
@@ -9,7 +9,7 @@ lang: zh
 last_modified_at: 2026-11-05
 ---
 
-一部闲置手机或平板是完美的 **[床头钟](/zh/glossary/what-is-a-nightstand-clock/)**。一款 **最佳床头钟应用** 应当暗、易读、平静——最好还能放点声音盖住伴侣的鼾声。**Only Clock** 是一款适合床头的 **全屏翻页钟**。下面我们把它与免费的 **Flip Clock** 对比床头用法，外加设置与烧屏建议。
+一部闲置手机或平板是完美的 **[床头钟](/zh/glossary/what-is-a-nightstand-clock/)**。一款 **最佳床头钟应用** 应当暗、易读、平静——最好还能放点声音盖住伴侣的鼾声。**Only Clock** 是一款适合床头的 **全屏翻页钟**。下面我们把它与免费的 **Flip Clock** 对比床头用法，外加设置与烧屏建议。从 **旧手机当时钟** 或 **床头钟 app** 搜过来的人，问的其实是同一套摆放问题。
 
 ## 一款床头钟需要什么
 
@@ -18,6 +18,17 @@ last_modified_at: 2026-11-05
 - **白噪音**——盖住突兀的环境声。
 - **烧屏防护**——OLED 屏需要位移或变暗以避免残影。
 - **插上就忘**——闲置设备只做一件事。
+
+## 床头摆一套，真正要注意什么
+
+一款 **床头钟 app** 是在凌晨两点被评判的。四个细节决定那部旧手机能不能一直留在床头：
+
+- **别被打断**——**翻页时钟无广告** 是第一道筛选：睡前弹出全屏广告，整个摆法就白费了；暗色主题与数字本身一样重要。
+- **护屏**——常亮的 OLED 需要变暗或位移；只有一张纯白亮脸的 **床头钟 app** 不适合整夜亮着。
+- **声音不用再装一个应用**——**翻页时钟白噪音** 盖住鼾声或街上的车流，白天同一台设备上的 **翻页时钟专注计时** 又能拿来学习。
+- **旧硬件的第二春**——**旧手机当时钟** 是最便宜的 **桌面翻页时钟** 升级；在把设备固定下来之前，先确认应用在旧版安卓上还能跑。
+
+Only Clock 把暗色主题、声音与计时器放在一次安装里；Flip Clock 则只留一块干净免费的钟面。
 
 ## 参赛选手一览
 
@@ -31,7 +42,7 @@ last_modified_at: 2026-11-05
 
 ![OnlyClock 设置与选项](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
 ![OnlyClock 时钟主界面与显示](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
-![OnlyClock 时钟主界面与显示](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
+![翻页时钟无广告的床头暗色钟面](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
 ![OnlyClock 闹钟与计时器](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
 ![OnlyClock 夜间模式与主题](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
 

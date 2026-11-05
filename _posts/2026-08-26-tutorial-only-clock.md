@@ -7,7 +7,7 @@ tags: [Flip Clock, Android, Only Clock]
 lang: en
 author: author_meow_id
 last_modified_at: 2026-11-05
-description: "A complete Only Clock user guide — a beautiful full-screen flip clock, clock widgets, white noise and 12/24-hour display."
+description: "Only Clock user guide: full-screen flip clock display, 12/24-hour settings, clock widgets, white noise, floating mode and spare-phone setup."
 image: /assets/images/apps/only-clock/icon.webp
 ---
 
@@ -27,7 +27,7 @@ image: /assets/images/apps/only-clock/icon.webp
 
 ## App Introduction
 
-Only Clock is a beautiful **full-screen [flip clock](/glossary/what-is-a-flip-clock/)** for Android and iOS — turn any phone or tablet into a desk or nightstand clock.
+Only Clock is a beautiful **full-screen [flip clock](/glossary/what-is-a-flip-clock/)** for Android and iOS — turn any phone or tablet into a desk or nightstand clock. It works as a **flip clock with focus timer**, a **flip clock with white noise** and a **flip clock widget** source, so one install covers the desk, the nightstand and the home screen. This guide walks from the first launch through the 12/24-hour display, themes and digit size, then to widgets, sound and floating mode — including how to **use old phone as clock** without leaving the screen at full brightness.
 
 **🕐 Flip Animation**
 - A smooth page-flip transition as digits change (about 600 ms per digit)
@@ -51,15 +51,15 @@ Open the app to the **full-screen flip clock**.
 - The toolbar (top) gives quick access to settings, theme, sound and size
 - The screen stays awake while the clock is showing
 
-![OnlyClock clock home & display](/assets/images/blog/tutorial_clock_home.webp){: width="180" .normal }
+![Only Clock full-screen flip clock home display](/assets/images/blog/tutorial_clock_home.webp){: width="180" .normal }
 
 ## Flip Clock Display
 
 The clock shows a flip-style time. Tap the toolbar to change the **theme** (Clock Theme), **font** (Clock Font) and **size** (Clock Size).
 
-![OnlyClock clock home & display](/assets/images/blog/tutorial_clock_theme.webp){: width="180" .normal }
-![OnlyClock clock home & display](/assets/images/blog/tutorial_clock_font.webp){: width="180" .normal }
-![OnlyClock clock home & display](/assets/images/blog/tutorial_clock_size.webp){: width="180" .normal }
+![Black, white and sky clock themes in Only Clock](/assets/images/blog/tutorial_clock_theme.webp){: width="180" .normal }
+![Font and digit style options for the big digital clock](/assets/images/blog/tutorial_clock_font.webp){: width="180" .normal }
+![Resizing the clock digits for a desk clock setup](/assets/images/blog/tutorial_clock_size.webp){: width="180" .normal }
 
 ## 12/24-hour, Seconds, Date
 
@@ -71,7 +71,7 @@ The clock shows a flip-style time. Tap the toolbar to change the **theme** (Cloc
    - **Date** (default off)
    - **Flip background** mask (default on)
 
-![OnlyClock clock home & display](/assets/images/blog/tutorial_clock_settings.webp){: width="180" .normal }
+![12/24-hour, seconds and date display settings](/assets/images/blog/tutorial_clock_settings.webp){: width="180" .normal }
 
 ## Clock Widgets
 
@@ -81,7 +81,7 @@ The clock shows a flip-style time. Tap the toolbar to change the **theme** (Cloc
 4. Long-press your home/lock screen → Widgets → pick Only Clock → place it
 5. The 4x2 flip widget has its own config (seconds / mask / week / date)
 
-![OnlyClock clock home & display](/assets/images/blog/tutorial_clock_widget.webp){: width="180" .normal }
+![Flip clock widget on the Android home screen](/assets/images/blog/tutorial_clock_widget.webp){: width="180" .normal }
 
 ## White Noise
 
@@ -91,7 +91,7 @@ The clock shows a flip-style time. Tap the toolbar to change the **theme** (Cloc
 
 The clock shares the same sound engine as the standalone white-noise app.
 
-![OnlyClock clock home & display](/assets/images/blog/tutorial_clock_noise.webp){: width="180" .normal }
+![White noise player alongside the flip clock](/assets/images/blog/tutorial_clock_noise.webp){: width="180" .normal }
 
 ## Floating Clock
 
@@ -99,7 +99,7 @@ The clock shares the same sound engine as the standalone white-noise app.
 2. Grant the overlay permission if asked
 3. A clock overlay shows above other apps
 
-![OnlyClock clock home & display](/assets/images/blog/tutorial_clock_floating.webp){: width="180" .normal }
+![Floating clock over other apps in Only Clock](/assets/images/blog/tutorial_clock_floating.webp){: width="180" .normal }
 
 ## Spare Phone as a Clock
 

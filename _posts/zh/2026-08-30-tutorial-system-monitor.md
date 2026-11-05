@@ -7,7 +7,7 @@ tags: [System Monitor, RAM Booster, CPU Temperature, Android]
 lang: zh
 author: author_meow_id
 last_modified_at: 2026-11-05
-description: "一份完整的 System Monitor 使用指南——只读硬件信息检测：CPU 温度、电池健康、过热报警与实时组件。"
+description: "一份完整的 System Monitor 使用指南——只读硬件信息、CPU 温度、电池健康、过热报警、系统监控悬浮窗与实时小组件。"
 image: /assets/images/apps/system-monitor/icon.webp
 ---
 
@@ -26,7 +26,7 @@ image: /assets/images/apps/system-monitor/icon.webp
 
 ## 应用简介
 
-System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **[只读硬件信息检测](/zh/glossary/what-is-a-system-monitor/)**。它报告你手机内部正在发生什么——它 **不** 清理垃圾或加速 RAM。
+System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **[只读硬件信息检测](/zh/glossary/what-is-a-system-monitor/)**。它报告你手机内部正在发生什么——它 **不** 清理垃圾或加速 RAM。因为它只读取系统计数，从 **安卓系统监控清理加速** 搜过来的人，通常要的是可信的数字与一直看得见的方式。这份指南从首次启动讲到硬件信息、电池健康、过热报警、**系统监控悬浮窗** 浮层与 **悬浮窗系统监控安卓** 布局，再到主屏小组件——全程只读、无需账号，也不宣称清理垃圾。
 
 **🔍 它读取什么（只读）**
 - **CPU** 温度与频率、每核使用率
@@ -52,10 +52,10 @@ System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **[只�
 - **浮窗** 配置叠层
 - **传感器** 列出设备传感器
 
-![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_home.webp){: width="180" .normal }
-![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_app.webp){: width="180" .normal }
-![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_floating.webp){: width="180" .normal }
-![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_sensor.webp){: width="180" .normal }
+![System Monitor 主页：只读 CPU、RAM 与存储状态](/assets/images/blog/tutorial_system_monitor_home.webp){: width="180" .normal }
+![应用与进程列表：逐应用内存占用](/assets/images/blog/tutorial_system_monitor_app.webp){: width="180" .normal }
+![系统监控悬浮窗停在其它应用之上](/assets/images/blog/tutorial_system_monitor_floating.webp){: width="180" .normal }
+![传感器与网络读数](/assets/images/blog/tutorial_system_monitor_sensor.webp){: width="180" .normal }
 
 ## 查看硬件信息
 
@@ -67,16 +67,16 @@ System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **[只�
    - **电池**：电池温度、健康、电压、电量
    - **系统**：存储与设备信息
 
-![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_cpu.webp){: width="180" .normal }
-![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_memory.webp){: width="180" .normal }
-![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
-![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_system.webp){: width="180" .normal }
+![CPU 温度与逐核频率读数](/assets/images/blog/tutorial_system_monitor_cpu.webp){: width="180" .normal }
+![RAM 占用细分与进程明细](/assets/images/blog/tutorial_system_monitor_memory.webp){: width="180" .normal }
+![电池健康、电压与电池监控温度曲线](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
+![安卓系统监控硬件信息总览](/assets/images/blog/tutorial_system_monitor_system.webp){: width="180" .normal }
 
 ## 电池健康
 
 在 **电池** 子标签，你可以看到电池 **温度、健康状态、电压与电量** 的曲线——便于长期关注损耗。
 
-![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
+![过热报警阈值与电池温度图表](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
 
 ## 过热报警
 
@@ -92,7 +92,7 @@ System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **[只�
 3. 按提示授予 **"在其他应用上层绘制"** 权限
 4. 浮动数据出现在任意应用之上
 
-![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_floating.webp){: width="180" .normal }
+![运行其它应用时的悬浮窗系统监控安卓浮层](/assets/images/blog/tutorial_system_monitor_floating.webp){: width="180" .normal }
 
 ## 主屏小组件
 
@@ -100,7 +100,7 @@ System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **[只�
 2. 选一个组件：CPU / 电池 / RAM / ROM / 组合
 3. 从组件选择器放置
 
-![System Monitor 系统状态主界面](/assets/images/blog/tutorial_system_monitor_widget.webp){: width="180" .normal }
+![主屏小组件：实时 CPU 与电池数据](/assets/images/blog/tutorial_system_monitor_widget.webp){: width="180" .normal }
 
 ## 设置
 

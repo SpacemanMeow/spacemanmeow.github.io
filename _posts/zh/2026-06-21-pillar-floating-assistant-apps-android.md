@@ -1,7 +1,7 @@
 ---
 date: 2026-06-21 09:00:00 +0800
 title: "最佳安卓浮动助手与辅助触控应用（2026）"
-description: "2026 年最佳安卓浮动助手与辅助触控应用：该看什么（浮动球、快捷方式、单手操作），以及 Floating Assistant 与 Assistive Touch 的对比。"
+description: "2026 年悬浮助手与最佳悬浮助手安卓选购：看悬浮球、自定义快捷方式与单手手势，以及 Floating Assistant 与辅助触控的对比。"
 layout: guide
 image: /assets/images/apps/floating-assistant/icon.webp
 tags: [Floating Assistant, Assistive Touch, Android, App Roundup]
@@ -9,7 +9,19 @@ last_modified_at: 2026-11-05
 lang: zh
 ---
 
-一颗[浮动球](/zh/glossary/what-is-a-floating-window/)把你最常用的动作一步触达，让大屏手机也能单手操作。这份 2026 指南讲清挑选辅助触控应用要看什么，以及 Floating Assistant 如何与替代应用对比。
+一颗[浮动球](/zh/glossary/what-is-a-floating-window/)把你最常用的动作一步触达，让大屏手机也能单手操作。这份 2026 指南讲清挑选辅助触控应用要看什么，以及 Floating Assistant 如何与替代应用对比。同一款工具也被搜作 **安卓悬浮助手**、**单手助手** 或 **可自定义悬浮球安卓**，指向的都是下面这份清单。
+
+## 大家怎么称呼它
+
+一颗小球攒下了许多名字，每种叫法指向的任务略有不同：
+
+- **悬浮助手** / **安卓悬浮助手** / **悬浮球** / **悬浮按钮**——指叠层本身；**最好用的悬浮球** 这类问法，多半在比它好不好看、能停在哪。
+- **辅助触控** / **最佳辅助触控安卓**——借自 iPhone 的屏幕 Home 键；在安卓上，人们通常指一个装着系统动作的浮动菜单。**悬浮助手对比辅助触控** 也是同一类比较。
+- **边缘悬浮球**——贴在屏幕边缘、滑动展开的球，**边缘悬浮球手势** 说的就是这套交互。
+- **单手助手**——安装它的理由：**单手操作悬浮球** 让高屏手机不必换握姿也够得到。
+- **可自定义悬浮球安卓**——想把应用、联系人与开关换成自己的，而不是用一份固定菜单。
+
+真正把这些应用分开的不是名字，而是三件事：悬浮球能否免 root 跨应用常驻、长按与滑动能否绑到真实动作、后台是否够轻。Floating Assistant 用边缘吸附的球覆盖这三点；Assistive Touch 是最简的参照。
 
 ## 为什么浮动助手应用在安卓上重要
 
@@ -34,9 +46,9 @@ lang: zh
 
 ## 深入看 Floating Assistant
 
-![Floating Assistant 悬浮窗主界面](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
-![Floating Assistant 快捷操作与手势](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
-![Floating Assistant 自定义菜单与按钮](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
+![安卓悬浮助手吸附在屏幕边缘的小球](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![边缘悬浮球手势：滑动与长按动作](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
+![可自定义悬浮球安卓的应用快捷菜单](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
 ![Floating Assistant 辅助功能与选项](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
 ![Floating Assistant 设置与权限](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
 

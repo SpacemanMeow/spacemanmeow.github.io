@@ -132,6 +132,10 @@ Crosshair Aim 免费核心无广告，额外项需解锁。Crosshair Hero 常由
 **叠层安全吗 / 会被封号吗？**
 两款应用都只在屏幕上绘制准星，不修改游戏数据或内存，于是不会触发反作弊。请在每款游戏的公平规则内使用。
 
+## 其它准星叠层替代品
+
+两个都不满意？**Crosshair Hero** 是大多数玩家起步的预设式 **Crosshair Hero 替代** 之选，但绝非唯一。**Crosshair X** 是 iOS 射击玩家的跨平台选项（见我们的 **Crosshair X 替代** 说明）；想要从零构建，像 Custom Crosshair、Custom Aim 这类 **自定义准星安卓** 应用能给你完全掌控。完整清单见 [2026 年最佳 Crosshair Hero 替代应用](/zh/posts/alternatives-to-crosshair-master/)。
+
 ## 相关术语
 
 - [什么是准星（Crosshair）？](/zh/glossary/what-is-a-crosshair/)

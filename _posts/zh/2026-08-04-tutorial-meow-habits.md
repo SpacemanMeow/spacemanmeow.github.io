@@ -7,7 +7,7 @@ tags: [Habit Tracker, Android, Meow Habits]
 lang: zh
 author: author_meow_id
 last_modified_at: 2026-11-05
-description: "一份完整的 Meow Habits 使用指南——在这款可爱的习惯追踪器里建立连续天数、记录每日打卡、设置提醒并查看趋势。"
+description: "一份完整的 Meow Habits 使用指南——在这款可爱的习惯打卡应用里建立连续天数、记录每日打卡、设置提醒、查看趋势，并导出 CSV 或通过 WebDav 备份；无需账号，离线可用。"
 image: /assets/images/apps/meow-habits/icon.webp
 ---
 
@@ -27,7 +27,7 @@ image: /assets/images/apps/meow-habits/icon.webp
 
 ## 应用简介
 
-Meow Habits 是一款安卓与 iOS 的可爱**[习惯追踪](/zh/glossary/what-is-a-habit-tracker/)**与日常构建器。用连续天数、图表与日历热力图养成好习惯、戒掉坏习惯。
+Meow Habits 是一款安卓与 iOS 上的可爱**[习惯追踪](/zh/glossary/what-is-a-habit-tracker/)**与习惯养成工具，用连续天数、图表与日历热力图把好习惯坚持下来。它是一款**免账号、离线可用的习惯打卡应用**：打卡不需要注册，也不需要联网；**不订阅习惯打卡** 也能长期使用免费档，**习惯打卡小部件** 与提醒让一次打卡在主屏就能完成，而 CSV 导出与 WebDav 备份让历史数据始终属于自己。这份指南会从首次启动讲到小组件、提醒的设置，再到读懂自己的趋势。
 
 **🐱 500+ 可爱图标**
 - 一个约 **590 个图标**、横跨 **14 个分类** 的图标选择器
@@ -52,7 +52,7 @@ Meow Habits 是一款安卓与 iOS 的可爱**[习惯追踪](/zh/glossary/what-i
 - 底部标签：**主页**、**习惯**、**趋势**、**设置**
 - 点 **+** 添加你的第一个习惯（免费档最多 **5 个习惯**；VIP 解锁无限）
 
-![Meow Habits 习惯列表与今日打卡](/assets/images/blog/tutorial_habit_home.webp){: width="180" .normal }
+![Meow Habits 主页：今日习惯打卡列表与月历视图](/assets/images/blog/tutorial_habit_home.webp){: width="180" .normal }
 
 ## 添加习惯
 
@@ -66,16 +66,16 @@ Meow Habits 是一款安卓与 iOS 的可爱**[习惯追踪](/zh/glossary/what-i
 8. 设定 **开始日期**
 9. 点 **确认**
 
-![Meow Habits 习惯列表与今日打卡](/assets/images/blog/tutorial_habit_add.webp){: width="180" .normal }
+![在 Meow Habits 添加习惯：可爱图标、目标与灵活周期](/assets/images/blog/tutorial_habit_add.webp){: width="180" .normal }
 
 ## 每日打卡
 
 1. 在主页或习惯标签，点一个习惯打开 **打卡** 界面
 2. 一个大进度环显示今天的目标
 3. 用 **+ / −** 调整计数、**输入** 填值、**跳过** 跳过，或 **完成** 结束
-4. 三点菜单提供 趋势 / 通知 / 笔记 / 编辑 / 归档 / 删除
+4. 三点菜单提供趋势 / 通知 / 笔记 / 编辑 / 归档 / 删除
 
-![Meow Habits 习惯列表与今日打卡](/assets/images/blog/tutorial_habit_checkin.webp){: width="180" .normal }
+![每日打卡界面的目标进度环](/assets/images/blog/tutorial_habit_checkin.webp){: width="180" .normal }
 
 ## 提醒
 
@@ -84,14 +84,14 @@ Meow Habits 是一款安卓与 iOS 的可爱**[习惯追踪](/zh/glossary/what-i
 3. 选一个 **3 个时间胶囊** 之一，并选择适用星期（周日–周六）
 4. 应用通知你打卡
 
-![Meow Habits 习惯列表与今日打卡](/assets/images/blog/tutorial_habit_reminder.webp){: width="180" .normal }
+![为一次习惯打卡设置每日提醒](/assets/images/blog/tutorial_habit_reminder.webp){: width="180" .normal }
 
 ## 连续天数与趋势
 
 1. 打开一个习惯 → **详情** 看连续天数、历史柱状与日历热力图
 2. 切到 **趋势** 标签看图表与成就
 
-![Meow Habits 习惯列表与今日打卡](/assets/images/blog/tutorial_habit_trend.webp){: width="180" .normal }
+![连续天数图表与日历热力图](/assets/images/blog/tutorial_habit_trend.webp){: width="180" .normal }
 
 ## 编辑、归档或删除
 
@@ -110,7 +110,7 @@ Meow Habits 是一款安卓与 iOS 的可爱**[习惯追踪](/zh/glossary/what-i
 
 - **晨间例行**——设置好后把「喝水」「拉伸」钉到主屏小组件，从锁屏就能打卡，连续天数不断。
 - **戒掉坏习惯**——建一个「少刷手机」习惯并设每日提醒；日历热力图在连续崩掉前就让失误现形。
-- **回顾一个月**——打开「趋势」标签看完成率与成就，再用 设置 → 导出（VIP）拉一份 CSV 做更深分析。
+- **回顾一个月**——打开「趋势」标签看完成率与成就，再用设置 → 导出（VIP）拉一份 CSV 做更深分析。
 - **离线私密**——一切无需账号即可用；只在想要跨设备备份时才开启 Google Drive 或 WebDav。
 
 ## 常见问题

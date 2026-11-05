@@ -3,7 +3,7 @@
 > **用途**：所有 App 跨语言关键词的**权威库**。按「语言 × 词层 × 优先级」分组排序，作为**新文章撰写、现有文章更新**的文案优化依据；并随 Google Play Console / Search Console 真实数据持续维护。
 > **最后更新**：2026-11-04
 > **语言范围**：英文站（默认 `en`）+ `/zh/` 中文站（已上线）+ 后续可扩展 `id` / `ms` / `tl` / `hi` 等（试点见 `SEO-PROGRESS.md` T-31）。关键词须**本地化**而非直译（见 `SEO-PLAYBOOK.md` §6.1）。
-> **关联文档**：本库是 `SEO-PLAYBOOK.md` §2.1.1 关键词库的**详细展开与持续维护版**；内容集群模型见 §2.2，度量回填见 `SEO-METRICS.md`。
+> **关联文档**：本库是 `SEO-PLAYBOOK.md` §2.1.1 关键词库的**详细展开与持续维护版**；内容集群模型见 `SEO-PLAYBOOK.md` §2.2，度量回填见 `SEO-METRICS.md`。
 
 ---
 
@@ -11,7 +11,7 @@
 
 1. **新文章**：先查本库 §1 索引 → 选目标词（优先 P0/P1）→ 文案围绕目标词展开（title/description/H1/首段/Glossary 内链）→ 填 `tags`（app/品类/类型/竞品四层，见 §3.5）→ 确认与 Pillar/App 互链 → 改完后回写本库「当前覆盖」列 + 标 `last_modified_at`（见 `SEO-PLAYBOOK.md` §2.4）。
 2. **改文章**：用 GSC 实际点击词（`tools/gsc_export.py`）回填本库「搜索量(实测)/排名」列，并据低 CTR 词重写 title/description（`SEO-PLAYBOOK.md` §2.3）。
-3. **每月维护**：结合 Google Play Console「获客 → 商店列表 → 搜索关键字/来源」+ GSC 实际词，新增/调整/降权关键词，并在 §2.4 维护日志登记。
+3. **每月维护**：结合 Google Play Console「获客 → 商店列表 → 搜索关键字/来源」+ GSC 实际词，新增/调整/降权关键词，并在各 App 小节 §2.N.4 维护日志登记。
 4. **防自相残杀（cannibalization）**：同词只由一篇主吃，其余内链导流，不两篇抢同一词（见 `SEO-PLAYBOOK.md` §3 / §7.2）。
 
 ### 0.1 词层定义
@@ -39,33 +39,35 @@
 
 ## 1. 全 App 关键词索引（种子总览）
 
-> 完整展开见各 App 小节；本表给全站词源地图。种子词取自 `SEO-PLAYBOOK.md` §2.1.1，其余 App 待按 §2 模板展开。
+> 完整展开见各 App 小节；本表给全站词源地图。种子词取自 `SEO-PLAYBOOK.md` §2.1.1；全部 App 已按 §2 模板展开（§2.1–§2.11），状态见 §3。
 
 | App（英） | 中文名 | 核心 Head 词（en） | 核心 Head 词（zh） | 关键词状态 |
 |---|---|---|---|---|
-| **Meow Money Manager** | 喵窝记账 | expense tracker / budget app / money manager | 记账软件 / 记账应用 / 预算管理 | ✅ 已完整展开（§2） |
-| Meow Todo | — | to-do list / task manager / schedule planner | 待办 / 任务管理 | ☐ 待展开（种子见 §2.1.1） |
-| Meow Mood Diary | — | mood diary / journal / safe place | 心情日记 / 日记本 | ☐ 待展开 |
-| Meow Habits | — | habit tracker / habit building / routine | 习惯养成 / 打卡 | ☐ 待展开 |
-| One Widget | — | home screen widgets / Material You / clock widget | 桌面小组件 | ☐ 待展开 |
-| Only Clock | — | full-screen clock / flip animation / nightstand clock | 翻页时钟 / 整点钟 | ☐ 待展开 |
-| CPU Monitor | — | cpu temperature / cpu frequency / ram widget | CPU 温度 / 手机降温 | ☐ 待展开 |
-| System Monitor | — | cpu monitor / storage cleaner / memory booster | 系统清理 / 内存加速 | ☐ 待展开 |
-| Floating Assistant | — | assistive touch / floating clock / floating monitor | 悬浮球 / 悬浮窗 | ☐ 待展开 |
-| Meow FM | — | white noise / sleep / relax / concentrate | 白噪音 / 助眠 | ☐ 待展开 |
-| Crosshair Aim | — | crosshair / FPS games / aim / overlay | 准星 / 射击辅助 | ☐ 待展开 |
+| **Meow Money Manager** | 喵窝记账 | expense tracker / budget app / money manager | 记账软件 / 记账应用 / 预算管理 | ✅ 已完整展开（§2.1） |
+| Meow Todo | — | to-do list / task manager / schedule planner | 待办 / 任务管理 | ✅ 已完整展开（§2.2） |
+| Meow Habits | — | habit tracker / habit building / routine | 习惯养成 / 打卡 | ✅ 已完整展开（§2.3） |
+| Meow Mood Diary | — | mood diary / journal / safe place | 心情日记 / 日记本 | ✅ 已完整展开（§2.4） |
+| Meow FM | — | white noise / sleep / relax / concentrate | 白噪音 / 助眠 | ✅ 已完整展开（§2.5） |
+| One Widget | — | home screen widgets / Material You / clock widget | 桌面小组件 | ✅ 已完整展开（§2.6） |
+| Only Clock | — | full-screen clock / flip animation / nightstand clock | 翻页时钟 / 整点钟 | ✅ 已完整展开（§2.7） |
+| CPU Monitor | — | cpu temperature / cpu frequency / ram widget | CPU 温度 / 手机降温 | ✅ 已完整展开（§2.8） |
+| System Monitor | — | cpu monitor / storage cleaner / memory booster | 系统清理 / 内存加速 | ✅ 已完整展开（§2.9） |
+| Floating Assistant | — | assistive touch / floating clock / floating monitor | 悬浮球 / 悬浮窗 | ✅ 已完整展开（§2.10） |
+| Crosshair Aim | — | crosshair / FPS games / aim / overlay | 准星 / 射击辅助 | ✅ 已完整展开（§2.11） |
 
 ---
 
-## 2. Meow Money Manager（喵窝记账）关键词记录
+> **§2 结构**：按 App 并列，§2.1–§2.11 共 11 节，每节统一为「英文（en）/ 中文（zh）/ 竞品拦截词 / 维护日志」四段，词层再分 Head / Middle / Long-tail / 品牌词。编号连续，与 §1 索引、§3 清单一一对应。
+
+## 2.1 Meow Money Manager（喵窝记账）关键词记录
 
 **品牌**：Meow Money Manager（英）/ 喵窝记账（中，品牌中文名）
 **品类**：记账 / 预算管理 / 报销管理（Expense Tracker / Budget Management / Reimbursement）
 **核心卖点（用于长尾词构造）**：无账号、本地存储、隐私、多币种符号、离线记账、主屏小组件、指纹锁、CSV 导出、报销追踪、可爱猫主题、免费核心。
 
-### 2.1 英文（en）
+### 2.1.1 英文（en）
 
-#### 2.1.1 Head（大词，P2，Pillar 抢）
+#### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
 | expense tracker app | Head | P2 | 高 | 中 | Pillar | 已覆盖(pillar) | 站内已覆盖 | 品类根词 |
@@ -74,7 +76,7 @@
 | expense tracker | Head | P2 | 高 | 低 | Pillar | 已覆盖(glossary) | 站内已覆盖 | Glossary 命中 AI |
 | budgeting app | Head | P2 | 中 | 中 | Pillar | 待覆盖 | 竞品调研 | 同义变体 |
 
-#### 2.1.2 Middle（中词，P1，vs/Best/Alternatives 抢）
+#### Middle（中词，P1，vs/Best/Alternatives 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
 | free budget app | Middle | P1 | 高 | 中 | Best/App | 已覆盖(android/students/app) | 站内已覆盖 | 高量转化词 |
@@ -88,7 +90,7 @@
 | YNAB alternative | Middle | P1 | 中 | 高 | vs/Mint替代 | 已覆盖(vs/mint) | 竞品调研 | 抢竞品流量 |
 | Mint alternative | Middle | P1 | 高 | 高 | Mint替代 | 已覆盖(mint) | 竞品调研 | Mint 关停红利 |
 
-#### 2.1.3 Long-tail（精准长尾，P0，App 详情页主吃）
+#### Long-tail（精准长尾，P0，App 详情页主吃）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
 | budget app no account required | Long-tail | P0 | 中 | 高 | App | 已覆盖(app/FAQ) | 站内已覆盖 | 无账号卖点 |
@@ -105,7 +107,7 @@
 | subscription tracker app | Long-tail | P1 | 中 | 高 | App | 待覆盖 | 竞品调研 | 循环交易场景 |
 | best private budget app | Long-tail | P1 | 中 | 高 | vs/App | 已覆盖(vs) | 竞品调研 | 隐私+best |
 
-#### 2.1.4 品牌词 & 竞品替代词
+#### 品牌词 & 竞品替代词（en）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
 | Meow Money Manager | 品牌 | P0 | 中 | 高 | App | 已覆盖(app/全站) | 站内已覆盖 | 自有品牌，必守 |
@@ -114,11 +116,11 @@
 | best Mint alternative 2026 | 竞品替代 | P1 | 高 | 高 | Mint替代 | 已覆盖(mint) | 竞品调研 | Mint 红利 |
 | PocketGuard alternative | 竞品替代 | P1 | 低 | 高 | Pillar | 已覆盖(pillar) | 竞品调研 | 待强化 |
 
-### 2.2 中文（zh）
+### 2.1.2 中文（zh）
 
 > 本地化选词（非英文直译）：中文用户搜「记账软件/记账应用」而非 "expense tracker"；「喵窝记账」为品牌中文名。
 
-#### 2.2.1 Head（大词，P2，Pillar 抢）
+#### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
 | 记账软件 | Head | P2 | 高 | 中 | Pillar | 已覆盖(pillar-zh) | 站内已覆盖 | 品类根词 |
@@ -127,7 +129,7 @@
 | 预算管理 | Head | P2 | 中 | 中 | Pillar/Glossary | 已覆盖(pillar-zh/glossary) | 站内已覆盖 | 第二品类 |
 | 记账 | Head | P2 | 高 | 低 | Pillar | 已覆盖(pillar-zh) | 站内已覆盖 | 极短根词 |
 
-#### 2.2.2 Middle（中词，P1，vs/Best/Alternatives 抢）
+#### Middle（中词，P1，vs/Best/Alternatives 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
 | 安卓记账 | Middle | P1 | 高 | 中 | Android/Best | 已覆盖(android-zh) | 站内已覆盖 | 平台限定 |
@@ -143,7 +145,7 @@
 | Mint 替代 | Middle | P1 | 高 | 高 | Mint替代 | 已覆盖(mint-zh) | 竞品调研 | Mint 红利 |
 | 报销记账 | Middle | P1 | 中 | 高 | App/Tutorial | 已覆盖(tutorial-zh/app) | 站内已覆盖 | 报销管理 |
 
-#### 2.2.3 Long-tail（精准长尾，P0，App 详情页主吃）
+#### Long-tail（精准长尾，P0，App 详情页主吃）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
 | 不用注册账号的记账软件 | Long-tail | P0 | 中 | 高 | App | 已覆盖(app-zh/FAQ) | 站内已覆盖 | 无账号 |
@@ -157,7 +159,7 @@
 | 安卓 记账 小组件 | Long-tail | P0 | 中 | 中 | Android/App | 已覆盖(android-zh/app) | 站内已覆盖 | 小组件 |
 | 喵窝记账 | 品牌 | P0 | 中 | 高 | App | 已覆盖(app-zh/全站) | 站内已覆盖 | 品牌中文名必守 |
 
-#### 2.2.4 品牌词 & 竞品替代词（zh）
+#### 品牌词 & 竞品替代词（zh）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
 | 喵窝记账 | 品牌 | P0 | 中 | 高 | App | 已覆盖(app-zh/全站) | 站内已覆盖 | 品牌中文名 |
@@ -165,7 +167,7 @@
 | 最好用的记账应用 2026 | 竞品替代 | P1 | 高 | 中 | Pillar/Best | 已覆盖(pillar-zh/title) | 站内已覆盖 | 年度词 |
 | 最佳 Mint 替代 | 竞品替代 | P1 | 高 | 高 | Mint替代 | 已覆盖(mint-zh) | 竞品调研 | Mint 红利 |
 
-### 2.3 竞品拦截词（抢竞品品牌流量）
+### 2.1.3 竞品拦截词（en/zh 合表）
 | 竞品 | 拦截词（en） | 拦截词（zh） | 目标页型 | 当前覆盖 |
 |---|---|---|---|---|
 | Mint（已关停） | Mint alternative / best Mint alternative 2026 | Mint 替代 / 最佳 Mint 替代 | Mint替代页 | ✅ 已覆盖(mint/mint-zh) |
@@ -175,9 +177,9 @@
 | EveryDollar | EveryDollar alternative | EveryDollar 替代 | Pillar | 🟡 已并入对比段 |
 | Expensify | Expensify alternative（报销场景） | Expensify 替代 | App/报销 | ☐ 待覆盖 |
 
-### 2.4 维护日志 & Google Play 数据回填区
+### 2.1.4 维护日志 & Google Play 数据回填区
 
-> **每月动作**：从 Google Play Console（获客 → 商店列表 → 搜索关键字 / 搜索来源）与 GSC（`tools/gsc_export.py`）导出真实词，回填下表并调整 §2.1/§2.2 的「搜索量(实测)/排名/优先级」。
+> **每月动作**：从 Google Play Console（获客 → 商店列表 → 搜索关键字 / 搜索来源）与 GSC（`tools/gsc_export.py`）导出真实词，回填下表并调整 §2.1.1/§2.1.2 的「搜索量(实测)/排名/优先级」。
 
 | 月份 | 数据来源 | 新增/升权关键词 | 降权/删除关键词 | 备注 |
 |---|---|---|---|---|
@@ -190,20 +192,20 @@
 
 ---
 
-## 2.5 Meow Todo（待办清单）关键词记录
+## 2.2 Meow Todo（待办清单）关键词记录
 
 **品牌**：Meow Todo List（en/zh 同，无独立中文品牌名，正文统一用 "Meow Todo List"）
 **品类**：待办清单 / 任务管理 / 子任务（To-Do List / Task Manager / Subtask）
 **核心卖点（长尾词构造）**：日历视图、子任务、提醒、Google Drive/WebDav 同步、离线、指纹锁、400+ 可爱图标、免费核心、学生友好、简单不订阅、可爱 UI。
 
-### 2.5.1 英文（en）
+### 2.2.1 英文（en）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
 | to-do list app | Head | P2 | 高 | 中 | Pillar | 已覆盖(pillar) | 竞品调研 | 品类根词 |
 | task manager app | Head | P2 | 高 | 中 | Pillar | 已覆盖(pillar) | 竞品调研 | 双根词 |
-| task management app | Head | P2 | 中 | 中 | Pillar | 待覆盖 | 竞品调研 | 同义 |
-| checklist app | Head | P2 | 中 | 低 | Pillar | 待覆盖 | 竞品调研 | 同义变体 |
+| task management app | Head | P2 | 中 | 中 | Pillar | 已覆盖(pillar) | 竞品调研 | 2026-11 已核对正文：pillar「What people call it」 |
+| checklist app | Head | P2 | 中 | 低 | Pillar | 已覆盖(pillar) | 竞品调研 | 2026-11 已核对正文：pillar「What people call it」 |
 
 #### Middle（中词，P1，vs/Best/Alternatives 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
@@ -237,10 +239,10 @@
 | Meow Todo List | 品牌 | P0 | 中 | 高 | App | 已覆盖(app/全站) | 站内已覆盖 | 自有品牌 |
 | Todoist alternative | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Todoist |
 | TickTick alternative | 竞品 | P1 | 中 | 高 | Pillar | 已覆盖(pillar) | 竞品调研 | 抢 TickTick |
-| Microsoft To Do alternative | 竞品 | P1 | 中 | 高 | Pillar | 待覆盖 | 竞品调研 | 抢 MS To Do |
-| Google Tasks alternative | 竞品 | P1 | 中 | 高 | Pillar | 待覆盖 | 竞品调研 | 抢 Google Tasks |
+| Microsoft To Do alternative | 竞品 | P1 | 中 | 高 | Pillar | 已覆盖(vs/alt) | 竞品调研 | 2026-11 已核对正文：vs「其它方案」+ alternatives 逐款段 |
+| Google Tasks alternative | 竞品 | P1 | 中 | 高 | Pillar | 已覆盖(vs/alt) | 竞品调研 | 2026-11 已核对正文：vs「其它方案」+ alternatives 逐款段 |
 
-### 2.5.2 中文（zh）
+### 2.2.2 中文（zh）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -248,7 +250,7 @@
 | 待办清单app | Head | P2 | 高 | 中 | Pillar/App | 已覆盖(pillar-zh/app) | 竞品调研 | |
 | 任务管理 | Head | P2 | 高 | 中 | Pillar | 已覆盖(pillar-zh) | 竞品调研 | 双根词 |
 | 任务管理软件 | Head | P2 | 高 | 中 | Pillar | 已覆盖(pillar-zh) | 竞品调研 | |
-| 日程管理app | Head | P2 | 中 | 中 | Pillar | 待覆盖 | 竞品调研 | 同义 |
+| 日程管理app | Head | P2 | 中 | 中 | Pillar | 已覆盖(pillar-zh) | 竞品调研 | 2026-11 已核对正文：pillar zh「大家怎么称呼它」 |
 
 #### Middle（中词，P1）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
@@ -261,7 +263,7 @@
 | 离线 待办 | Middle | P1 | 中 | 高 | App/Pillar | 已覆盖(pillar-zh/app) | 竞品调研 | |
 | 待办清单 子任务 | Middle | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | |
 | 待办清单 日历视图 | Middle | P1 | 中 | 高 | App/Pillar | 已覆盖(pillar-zh/app) | 竞品调研 | |
-| 待办清单 排行榜 | Middle | P1 | 中 | 中 | Pillar | 待覆盖 | 竞品调研 | 榜单词 |
+| 待办清单 排行榜 | Middle | P1 | 中 | 中 | Pillar | 待覆盖 | 竞品调研 | 榜单词；2026-11 核对：正文无此词，且无榜单型文章可自然承载，保持待覆盖 |
 
 #### Long-tail（精准长尾，P0）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
@@ -271,32 +273,32 @@
 | 学生 免费 待办 | Long-tail | P0 | 中 | 高 | Students/App | 已覆盖(students-zh/app) | 竞品调研 | |
 | 待办清单 指纹锁 | Long-tail | P0 | 低 | 高 | App | 已覆盖(app-zh) | 竞品调研 | |
 | 待办清单 子任务 免费 | Long-tail | P0 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | |
-| 滴答清单 替代 | Long-tail | P0 | 中 | 高 | vs/Alt | 🟡 待强化 | 竞品调研 | 抢 TickTick(滴答清单) |
-| 微软待办 替代 | Long-tail | P0 | 中 | 高 | Pillar | 🟡 待强化 | 竞品调研 | 抢 Microsoft To Do |
+| 滴答清单 替代 | Long-tail | P0 | 中 | 高 | vs/Alt | 已覆盖(pillar/vs/alt-zh) | 竞品调研 | 2026-11 已核对正文：pillar/vs/alternatives 中文页 |
+| 微软待办 替代 | Long-tail | P0 | 中 | 高 | Pillar | 已覆盖(pillar/vs/alt-zh) | 竞品调研 | 2026-11 已核对正文：pillar/vs/alternatives 中文页 |
 | 待办清单 谷歌同步 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | |
 
-### 2.5.3 竞品拦截词（zh 重点）
+### 2.2.3 竞品拦截词（zh 重点）
 | 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
 |---|---|---|---|
-| 滴答清单（TickTick） | 滴答清单 替代 / 滴答清单 哪个好 | vs/Pillar | 🟡 待强化 |
-| 微软待办（Microsoft To Do） | 微软待办 替代 | Pillar | 🟡 待强化 |
-| 番茄ToDo | 番茄ToDo 替代 | Pillar | ☐ 待覆盖 |
+| 滴答清单（TickTick） | 滴答清单 替代 / 滴答清单 哪个好 | vs/Pillar | ✅ 已覆盖(pillar/vs/alt-zh) |
+| 微软待办（Microsoft To Do） | 微软待办 替代 | Pillar | ✅ 已覆盖(pillar/vs/alt-zh) |
+| 番茄ToDo | 番茄ToDo 替代 | Pillar | ✅ 已覆盖(alt-zh) |
 | Todoist（待办事项） | Todoist 替代 | vs/Alt | ✅ 已覆盖(vs/alt-zh) |
 
-### 2.5.4 维护日志
+### 2.2.4 维护日志
 | 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
 |---|---|---|---|---|
-| 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 滴答清单/微软待办 拦截词待在 vs/pillar 强化 |
+| 2026-11 | 竞品调研（web）+ 站内已覆盖（已逐词核对正文） | （初版建库；内容侧深度优化：12 文件正文扩写 + 关键词真实铺入 meta/首段/小标题/alt） | — | 本组 12 文件已完成 T-34：原标「已覆盖」41 词全部命中正文（核对脚本 0 未命中）；另 8 个原「待覆盖/待强化」词随扩写落地并升权；`待办清单 排行榜` 无榜单型页面可自然承载，保持待覆盖。绝对量待 Play Console/GSC 回填 |
 
 ---
 
-## 2.6 Meow Habits（习惯打卡）关键词记录
+## 2.3 Meow Habits（习惯打卡）关键词记录
 
 **品牌**：Meow Habits（en/zh 同，无独立中文品牌名，正文统一用 "Meow Habits"）
 **品类**：习惯打卡 / 习惯养成 / 自律 / 连续打卡（Habit Tracker / Habit Tracking / Streak）
-**核心卖点（长尾词构造）**：猫主题可爱 UI、400+ 分类图标、连续天数(streak)、提醒、完成率/完美周进度图、日历、习惯分类、免账号、数据留本机、CSV 导出、WebDav/Google Drive 备份、免费核心、小组件。
+**核心卖点（长尾词构造）**：猫主题可爱 UI、500+ 分类图标、连续天数(streak)、提醒、完成率/完美周进度图、日历、习惯分类、免账号、数据留本机、CSV 导出、WebDav/Google Drive 备份、免费核心、小组件。
 
-### 2.6.1 英文（en）
+### 2.3.1 英文（en）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -325,8 +327,8 @@
 | best free habit tracker Android | Long-tail | P0 | 中 | 高 | Android/App | 已覆盖(android/app) | 竞品调研 | |
 | habit tracker offline no account | Long-tail | P0 | 中 | 高 | App | 已覆盖(app) | 竞品调研 | |
 | Streaks alternative | Long-tail | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Streaks |
-| Loop Habit Tracker alternative | Long-tail | P1 | 中 | 高 | vs/Alt | 🟡 待强化 | 竞品调研 | 抢 Loop |
-| Habitica alternative | Long-tail | P1 | 中 | 高 | vs/Alt | 🟡 待强化 | 竞品调研 | 抢 Habitica |
+| Loop Habit Tracker alternative | Long-tail | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Loop；2026-11 正文核对已落地 |
+| Habitica alternative | Long-tail | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Habitica；2026-11 正文核对已落地 |
 | habit tracker with csv export | Long-tail | P1 | 中 | 高 | App | 已覆盖(app) | 竞品调研 | CSV |
 | habit tracker with webdav backup | Long-tail | P1 | 低 | 高 | App | 已覆盖(app) | 竞品调研 | 备份 |
 
@@ -335,11 +337,11 @@
 |---|---|---|---|---|---|---|---|---|
 | Meow Habits | 品牌 | P0 | 中 | 高 | App | 已覆盖(app/全站) | 站内已覆盖 | 自有品牌 |
 | Streaks alternative | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Streaks |
-| Habitica alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 🟡 待强化 | 竞品调研 | 抢 Habitica |
-| Habitify alternative | 竞品 | P1 | 中 | 高 | Pillar | 待覆盖 | 竞品调研 | 抢 Habitify |
-| Fabulous alternative | 竞品 | P1 | 中 | 高 | Pillar | 待覆盖 | 竞品调研 | 抢 Fabulous |
+| Habitica alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Habitica |
+| Habitify alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Habitify；2026-11 正文核对已落地 |
+| Fabulous alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Fabulous；2026-11 正文核对已落地 |
 
-### 2.6.2 中文（zh）
+### 2.3.2 中文（zh）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -363,36 +365,37 @@
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
 | 习惯打卡 app 哪个好 | Long-tail | P0 | 高 | 高 | Pillar/Best | 已覆盖(pillar-zh/best-zh) | 竞品调研 | |
-| 小日常 替代 | Long-tail | P0 | 中 | 高 | vs/Alt | 🟡 待强化 | 竞品调研 | 抢 小日常 |
+| 小日常 替代 | Long-tail | P0 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 小日常；2026-11 正文核对已落地 |
 | 习惯打卡 免费 | Long-tail | P0 | 中 | 高 | Best/App | 已覆盖(best-zh/app) | 竞品调研 | |
 | 自律 打卡 软件 | Long-tail | P0 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | |
 | 习惯养成 安卓 | Long-tail | P0 | 中 | 高 | Android/App | 已覆盖(android-zh/app) | 竞品调研 | |
 | 不订阅 习惯打卡 | Long-tail | P0 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 无订阅 |
-| 打卡 小日常 类似 | Long-tail | P1 | 中 | 高 | Pillar | 🟡 待强化 | 竞品调研 | 抢 小日常 |
+| 打卡 小日常 类似 | Long-tail | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 小日常；2026-11 正文核对已落地 |
 
-#### 竞品拦截词（zh 重点）
+### 2.3.3 竞品拦截词（zh 重点）
 | 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
 |---|---|---|---|
-| 小日常（打卡小日常/小日常生活） | 小日常 替代 / 小日常 哪个好 | vs/Pillar | 🟡 待强化 |
-| 小习惯 app | 小习惯 替代 | vs/Pillar | ☐ 待覆盖 |
-| 种子习惯 | 种子习惯 替代 | vs/Pillar | ☐ 待覆盖 |
-| 自律树 | 自律树 替代 | vs/Pillar | ☐ 待覆盖 |
-| 习惯足迹 | 习惯足迹 替代 | vs/Pillar | ☐ 待覆盖 |
+| 小日常（打卡小日常/小日常生活） | 小日常 替代 / 小日常 哪个好 | vs/Alt | 已覆盖(vs/alt) |
+| 小习惯 app | 小习惯 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 种子习惯 | 种子习惯 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 自律树 | 自律树 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 习惯足迹 | 习惯足迹 替代 | vs/Alt | 已覆盖(vs/alt) |
 
-### 2.6.3 维护日志
+### 2.3.4 维护日志
 | 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
 |---|---|---|---|---|
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 小日常/小习惯 拦截词待在 vs/pillar 强化 |
+| 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：Loop / Habitica / Habitify / Fabulous alternative、小日常 哪个好、小习惯 / 种子习惯 / 自律树 / 习惯足迹 替代、小日常 替代、打卡 小日常 类似 | — | 本组 50 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 37 个「已覆盖」状态复核无误；12 篇 description ≤160 字符、last_modified_at 齐；构建 + htmlproofer 通过 |
 
 ---
 
-## 2.7 Meow Mood Diary（心情日记）关键词记录
+## 2.4 Meow Mood Diary（心情日记）关键词记录
 
 **品牌**：Meow Mood Diary（en/zh 同，中文品牌名待确认；正文统一用 "Meow Mood Diary"）
 **品类**：心情日记 / 情绪记录 / 情绪追踪 / 心情树洞 / 每日打卡（Mood Tracker / Mood Diary / Journal）
 **核心卖点（长尾词构造）**：猫主题可爱 UI、两步打卡（选心情+活动）、表情/评分量表、活动标签、文字与照片笔记、图表与相关分析、日历热力图、免账号、数据留本机、CSV 导出、WebDav/Google 备份、免费核心。
 
-### 2.7.1 英文（en）
+### 2.4.1 英文（en）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -430,12 +433,12 @@
 |---|---|---|---|---|---|---|---|---|
 | Meow Mood Diary | 品牌 | P0 | 中 | 高 | App | 已覆盖(app/全站) | 站内已覆盖 | 自有品牌 |
 | Daylio alternative | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Daylio |
-| MoodKit alternative | 竞品 | P1 | 中 | 高 | Pillar | 待覆盖 | 竞品调研 | 抢 MoodKit |
-| Bearable alternative | 竞品 | P1 | 中 | 高 | Pillar | 待覆盖 | 竞品调研 | 抢 Bearable |
-| Journey alternative | 竞品 | P1 | 中 | 高 | Pillar | 待覆盖 | 竞品调研 | 抢 Journey |
-| Reflectly alternative | 竞品 | P1 | 中 | 高 | Pillar | 待覆盖 | 竞品调研 | 抢 Reflectly |
+| MoodKit alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 MoodKit；2026-11 正文核对已落地 |
+| Bearable alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Bearable；2026-11 正文核对已落地 |
+| Journey alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Journey；2026-11 正文核对已落地 |
+| Reflectly alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Reflectly；2026-11 正文核对已落地 |
 
-### 2.7.2 中文（zh）
+### 2.4.2 中文（zh）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -459,36 +462,37 @@
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
 | 心情日记 app 哪个好 | Long-tail | P0 | 高 | 高 | Pillar/Best | 已覆盖(pillar-zh/best-zh) | 竞品调研 | |
-| Daylio 替代 | Long-tail | P0 | 中 | 高 | vs/Alt | 🟡 待强化 | 竞品调研 | 抢 Daylio |
+| Daylio 替代 | Long-tail | P0 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Daylio；2026-11 正文核对已落地 |
 | 心情日记 免费 | Long-tail | P0 | 中 | 高 | Best/App | 已覆盖(best-zh/app) | 竞品调研 | |
 | 情绪记录 安卓 | Long-tail | P0 | 中 | 高 | Android/App | 已覆盖(android-zh/app) | 竞品调研 | |
 | 心情日记 不订阅 | Long-tail | P0 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 无订阅 |
-| 卡片日记 替代 | Long-tail | P1 | 中 | 高 | Pillar | 🟡 待强化 | 竞品调研 | 抢 格志/卡片日记 |
+| 卡片日记 替代 | Long-tail | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 格志/卡片日记；2026-11 正文核对已落地 |
 
-#### 竞品拦截词（zh 重点）
+### 2.4.3 竞品拦截词（zh 重点）
 | 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
 |---|---|---|---|
-| Daylio（日记/心情） | Daylio 替代 / Daylio 哪个好 | vs/Pillar | 🟡 待强化 |
-| MOODA心情日记 | MOODA 替代 | vs/Pillar | ☐ 待覆盖 |
-| moo日记 | moo日记 替代 | vs/Pillar | ☐ 待覆盖 |
-| 情绪指压心情日记（Moodpress） | 情绪指压 替代 | vs/Pillar | ☐ 待覆盖 |
-| 格志 / 卡片日记 | 卡片日记 替代 | vs/Pillar | ☐ 待覆盖 |
-| 心岛日记 | 心岛日记 替代 | vs/Pillar | ☐ 待覆盖 |
+| Daylio（日记/心情） | Daylio 替代 / Daylio 哪个好 | vs/Alt | 已覆盖(vs/alt) |
+| MOODA心情日记 | MOODA 替代 | vs/Alt | 已覆盖(vs/alt) |
+| moo日记 | moo日记 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 情绪指压心情日记（Moodpress） | 情绪指压 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 格志 / 卡片日记 | 卡片日记 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 心岛日记 | 心岛日记 替代 | vs/Alt | 已覆盖(vs/alt) |
 
-### 2.7.3 维护日志
+### 2.4.4 维护日志
 | 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
 |---|---|---|---|---|
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 Daylio/MOODA/moo日记 拦截词待在 vs/pillar 强化 |
+| 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：MoodKit / Bearable / Journey / Reflectly alternative、Daylio 替代、Daylio 哪个好、卡片日记 替代、MOODA / moo日记 / 情绪指压 / 心岛日记 替代 | — | 本组 50 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 37 个「已覆盖」复核无误；tutorial EN/ZH 共 8 张重复 alt 去重、2 条超长 description 压缩；12 篇 description ≤160 字符、last_modified_at 齐；构建+htmlproofer 通过 |
 
 ---
 
-## 2.8 Meow FM（白噪音 / 专注 / 助眠）关键词记录
+## 2.5 Meow FM（白噪音 / 专注 / 助眠）关键词记录
 
 **品牌**：Meow FM（en/zh 同，中文品牌名待确认；正文统一用 "Meow FM"）
 **品类**：白噪音 / 环境音 / 助眠声音 / 专注音乐 / 放松音景（White Noise / Ambient Sound / Sleep Sounds / Focus Sounds）
 **核心卖点（长尾词构造）**：猫主题可爱 UI、高保真音源库（雨声/海浪/篝火/森林/风扇/白噪音/棕噪音/粉红噪音）、声音自由混音、定时关闭/睡眠定时、离线播放、免订阅/免费核心、专注模式、睡眠模式、遮噪助眠。
 
-### 2.8.1 英文（en）
+### 2.5.1 英文（en）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -526,12 +530,12 @@
 | Meow FM | 品牌 | P0 | 中 | 高 | App | 已覆盖(app/全站) | 站内已覆盖 | 自有品牌 |
 | Calm alternative | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Calm |
 | Headspace alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Headspace |
-| Noisli alternative | 竞品 | P1 | 中 | 高 | Pillar/Alt | 待覆盖 | 竞品调研 | 抢 Noisli |
-| Brain.fm alternative | 竞品 | P1 | 中 | 高 | Pillar/Alt | 待覆盖 | 竞品调研 | 抢 Brain.fm |
-| myNoise alternative | 竞品 | P1 | 中 | 高 | Pillar/Alt | 待覆盖 | 竞品调研 | 抢 myNoise |
-| BetterSleep alternative | 竞品 | P1 | 中 | 高 | Pillar/Alt | 待覆盖 | 竞品调研 | 抢 BetterSleep |
+| Noisli alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Noisli；2026-11 正文核对已落地 |
+| Brain.fm alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Brain.fm；2026-11 正文核对已落地 |
+| myNoise alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 myNoise；2026-11 正文核对已落地 |
+| BetterSleep alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 BetterSleep；2026-11 正文核对已落地 |
 
-### 2.8.2 中文（zh）
+### 2.5.2 中文（zh）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -559,30 +563,31 @@
 | 白噪音 定时关闭 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 睡眠定时 |
 | 雨声 白噪音 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | |
 
-#### 竞品拦截词（zh 重点）
+### 2.5.3 竞品拦截词（zh 重点）
 | 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
 |---|---|---|---|
-| 潮汐 (Tide) | 潮汐 替代 / 潮汐 哪个好 | vs/Pillar | 🟡 待强化 |
-| 小睡眠 | 小睡眠 替代 | vs/Pillar | ☐ 待覆盖 |
-| MUJI to Relax | MUJI to Relax 替代 | vs/Pillar | ☐ 待覆盖 |
-| Noisli | Noisli 替代 | vs/Pillar | ☐ 待覆盖 |
-| Brain.fm | Brain.fm 替代 | vs/Pillar | ☐ 待覆盖 |
-| 白噪音（通用） | 白噪音 替代 | vs/Pillar | 🟡 待强化 |
+| 潮汐 (Tide) | 潮汐 替代 / 潮汐 哪个好 | vs/Alt | 已覆盖(vs/alt) |
+| 小睡眠 | 小睡眠 替代 | vs/Alt | 已覆盖(vs/alt) |
+| MUJI to Relax | MUJI to Relax 替代 | vs/Alt | 已覆盖(vs/alt) |
+| Noisli | Noisli 替代 | vs/Alt | 已覆盖(vs/alt) |
+| Brain.fm | Brain.fm 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 白噪音（通用） | 白噪音 替代 | vs/Alt | 已覆盖(vs/alt) |
 
-### 2.8.3 维护日志
+### 2.5.4 维护日志
 | 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
 |---|---|---|---|---|
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 潮汐/小睡眠 拦截词待在 vs/pillar 强化 |
+| 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：Noisli / Brain.fm / myNoise / BetterSleep alternative、潮汐 替代、潮汐 哪个好、小睡眠 / MUJI to Relax / Noisli / Brain.fm / 白噪音 替代 | — | 本组 48 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 37 个「已覆盖」复核无误；tutorial EN/ZH 共 6 张重复 alt 去重、4 条超长 description 压缩；12 篇 description ≤160 字符、last_modified_at 齐；构建+htmlproofer 通过 |
 
 ---
 
-## 2.9 One Widget（安卓桌面小组件）关键词记录
+## 2.6 One Widget（安卓桌面小组件）关键词记录
 
 **品牌**：One Widget（en/zh 同；中文品牌名待确认；正文统一用 "One Widget"）
 **品类**：安卓桌面小组件 / 自定义小组件 / Material You 小组件 / 玻璃风格小组件 / Nothing 风格小组件 / 组件制作（Android Home Screen Widgets / Custom Widgets / Widget Maker）
 **核心卖点（长尾词构造）**：500+ 可定制组件、四大风格（Glass iOS / Material You / Galaxy One UI / Nothing 极简）、应用快捷方式、系统快捷开关（Wi-Fi/蓝牙/手电）、时钟与日历组件、电量/内存组件、设备信息组件、尺寸与背景色/圆角自由自定义、覆盖三星/Pixel/Nothing 等所有安卓、付费（免费含 One UI 主题组件）。
 
-### 2.9.1 英文（en）
+### 2.6.1 英文（en）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -597,7 +602,7 @@
 |---|---|---|---|---|---|---|---|---|
 | best android widget app | Middle | P1 | 高 | 中 | Pillar/Best | 已覆盖(pillar/best) | 竞品调研 | 年度词 |
 | android widgets 2026 | Middle | P1 | 高 | 中 | Pillar | 已覆盖(pillar) | 竞品调研 | |
-| material you widgets | Middle | P1 | 高 | 中 | Best/Pillar | 已覆盖(best-zh/pillar) | 竞品调研 | |
+| material you widgets | Middle | P1 | 高 | 中 | Best/Pillar | 已覆盖(pillar/best) | 竞品调研 | |
 | glass widgets android | Middle | P1 | 中 | 中 | Best/App | 已覆盖(best/app) | 竞品调研 | 玻璃风格 |
 | nothing widgets | Middle | P1 | 中 | 中 | Best/App | 已覆盖(best/app) | 竞品调研 | Nothing 风格 |
 | samsung one ui widgets | Middle | P1 | 中 | 中 | Best/App | 已覆盖(best/app) | 竞品调研 | 三星 |
@@ -626,10 +631,10 @@
 | Kustom Widget Maker alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Kustom |
 | Widgetsmith alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Widgetsmith |
 | Chronus alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Chronus |
-| Widgetopia alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Widgetopia |
-| Zooper Widget alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Zooper |
+| Widgetopia alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Widgetopia；2026-11 正文核对已落地 |
+| Zooper Widget alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Zooper；2026-11 正文核对已落地 |
 
-### 2.9.2 中文（zh）
+### 2.6.2 中文（zh）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -663,31 +668,32 @@
 | 500+ 小组件 安卓 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 数量卖点 |
 | 安卓 小组件 不订阅 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 无订阅 |
 
-#### 竞品拦截词（zh 重点）
+### 2.6.3 竞品拦截词（zh 重点）
 | 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
 |---|---|---|---|
-| 小组件盒子 | 小组件盒子 替代 / 小组件盒子 哪个好 | vs/Pillar | 🟡 待强化 |
-| 灵动坞 | 灵动坞 替代 | vs/Pillar | 🟡 待强化 |
-| 万能小组件 (Top Widgets) | 万能小组件 替代 | vs/Pillar | ☐ 待覆盖 |
-| 魔力小组件 | 魔力小组件 替代 | vs/Pillar | ☐ 待覆盖 |
-| 元气小组件 | 元气小组件 替代 | vs/Pillar | ☐ 待覆盖 |
-| iScreen / 米写 | iScreen 替代 / 米写 替代 | vs/Pillar | ☐ 待覆盖 |
-| KWGT 中文 (KustomWidget) | KWGT 中文 替代 | vs/Pillar | ☐ 待覆盖 |
+| 小组件盒子 | 小组件盒子 替代 / 小组件盒子 哪个好 | vs/Alt | 已覆盖(vs/alt) |
+| 灵动坞 | 灵动坞 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 万能小组件 (Top Widgets) | 万能小组件 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 魔力小组件 | 魔力小组件 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 元气小组件 | 元气小组件 替代 | vs/Alt | 已覆盖(vs/alt) |
+| iScreen / 米写 | iScreen 替代 / 米写 替代 | vs/Alt | 已覆盖(vs/alt) |
+| KWGT 中文 (KustomWidget) | KWGT 中文 替代 | vs/Alt | 已覆盖(vs/alt) |
 
-### 2.9.3 维护日志
+### 2.6.4 维护日志
 | 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
 |---|---|---|---|---|
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 小组件盒子/灵动坞 拦截词待在 vs/pillar 强化 |
+| 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：Widgetopia / Zooper Widget alternative、小组件盒子 替代、小组件盒子 哪个好、灵动坞 / 万能小组件 / 魔力小组件 / 元气小组件 / iScreen / 米写 / KWGT 中文 替代 | — | 本组 60 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 49 个「已覆盖」复核无误；tutorial EN/ZH 共 12 张重复 alt 去重、2 条超长 description 压缩；修正 material you widgets 页型笔误；12 篇 description ≤160 字符、last_modified_at 齐；构建+htmlproofer 通过 |
 
 ---
 
-## 2.10 Only Clock（翻页钟/全屏时钟/床头钟）关键词记录
+## 2.7 Only Clock（翻页钟/全屏时钟/床头钟）关键词记录
 
 **品牌**：Only Clock（en/zh 同；中文品牌名待确认；正文统一用 "Only Clock"）
 **品类**：翻页钟 / 全屏时钟 / 床头钟 / 桌面钟 / 大字号时钟（Flip Clock / Full Screen Clock / Nightstand Clock / Desk Clock / Big Digital Clock）
 **核心卖点（长尾词构造）**：全屏翻页动画、桌面钟/床头钟、学习工作专注计时、时钟小组件、白噪音助专注、12/24 小时与日期显示、黑白主题、闲置手机/iPad 当钟表摆件、极简风格。
 
-### 2.10.1 英文（en）
+### 2.7.1 英文（en）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -728,14 +734,14 @@
 | Only Clock | 品牌 | P0 | 中 | 高 | App | 已覆盖(app/全站) | 站内已覆盖 | 自有品牌 |
 | Retroflip Clock alternative | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Retroflip（主对比） |
 | best Retroflip Clock alternative | 竞品 | P0 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | |
-| Flip Clock (Soosu) alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Soosu Flip Clock |
-| Fliqlo alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Fliqlo（桌面） |
-| Nightdream alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Nightdream（开源） |
-| ClockLab alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 ClockLab |
-| Google Clock alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Google Clock |
-| Digital Clock Widget alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 DCW |
+| Flip Clock (Soosu) alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Soosu Flip Clock；2026-11 正文核对已落地 |
+| Fliqlo alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Fliqlo（桌面）；2026-11 正文核对已落地 |
+| Nightdream alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Nightdream（开源）；2026-11 正文核对已落地 |
+| ClockLab alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 ClockLab；2026-11 正文核对已落地 |
+| Google Clock alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Google Clock；2026-11 正文核对已落地 |
+| Digital Clock Widget alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 DCW；2026-11 正文核对已落地 |
 
-### 2.10.2 中文（zh）
+### 2.7.2 中文（zh）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -770,31 +776,32 @@
 | 翻页时钟 小组件 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | |
 | 大字 极简 时钟 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | |
 
-#### 竞品拦截词（zh 重点）
+### 2.7.3 竞品拦截词（zh 重点）
 | 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
 |---|---|---|---|
-| 翻页时钟 (com.charm) | 翻页时钟 替代 / 翻页时钟 哪个好 | vs/Pillar | 🟡 待强化 |
-| 翻页桌面时钟 (com.deepaso) | 翻页桌面时钟 替代 | vs/Pillar | ☐ 待覆盖 |
-| 大字时钟 | 大字时钟 替代 | vs/Pillar | ☐ 待覆盖 |
-| 翻页时钟24H | 翻页时钟24H 替代 | vs/Pillar | ☐ 待覆盖 |
-| 极简时钟 | 极简时钟 替代 | vs/Pillar | ☐ 待覆盖 |
-| 谷歌时钟 (Google Clock) | 谷歌时钟 替代 | vs/Pillar | ☐ 待覆盖 |
-| Fliqlo | Fliqlo 替代 | vs/Pillar | ☐ 待覆盖 |
+| 翻页时钟 (com.charm) | 翻页时钟 替代 / 翻页时钟 哪个好 | vs/Alt | 已覆盖(vs/alt) |
+| 翻页桌面时钟 (com.deepaso) | 翻页桌面时钟 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 大字时钟 | 大字时钟 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 翻页时钟24H | 翻页时钟24H 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 极简时钟 | 极简时钟 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 谷歌时钟 (Google Clock) | 谷歌时钟 替代 | vs/Alt | 已覆盖(vs/alt) |
+| Fliqlo | Fliqlo 替代 | vs/Alt | 已覆盖(vs/alt) |
 
-### 2.10.3 维护日志
+### 2.7.4 维护日志
 | 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
 |---|---|---|---|---|
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 翻页时钟(com.charm)/极简时钟 拦截词待在 vs/pillar 强化 |
+| 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：Flip Clock (Soosu) / Fliqlo / Nightdream / ClockLab / Google Clock / Digital Clock Widget alternative、翻页时钟 替代、翻页时钟 哪个好、翻页桌面时钟 / 大字时钟 / 翻页时钟24H / 极简时钟 / 谷歌时钟 / Fliqlo 替代 | — | 本组 61 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 47 个「已覆盖」复核无误；tutorial EN/ZH 共 16 张重复 alt、pillar 共 10 张重复 alt 去重并关键词化；4 条超长 description 压缩（346→157、199→140、175→147、197→70）；12 篇 description ≤160 字符、last_modified_at 齐；构建+htmlproofer 通过 |
 
 ---
 
-## 2.11 CPU Monitor（CPU/温度/电池监控）关键词记录
+## 2.8 CPU Monitor（CPU/温度/电池监控）关键词记录
 
 **品牌**：CPU Monitor（en/zh 同；中文品牌名"CPU 监测"；正文统一用 "CPU Monitor"）
 **品类**：CPU 温度监控 / 手机温度监控 / 系统监测 / 性能监测 / 多核 CPU 监控（CPU Temperature Monitor / CPU Monitor / System Monitor / Phone Temperature Monitor / Performance Monitor）
 **核心卖点（长尾词构造）**：实时监控 CPU 温度与频率、RAM、电池与多核占用、状态栏+桌面浮窗、RAM/CPU/电池小组件、一键加速、过热报警、温度/频率历史分析、多主题；Pro 升级为 Powerful System Monitor 全家桶（无 iOS）。
 
-### 2.11.1 英文（en）
+### 2.8.1 英文（en）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -835,13 +842,13 @@
 | CPU Monitor | 品牌 | P0 | 中 | 高 | App | 已覆盖(app/全站) | 站内已覆盖 | 自有品牌 |
 | CPU-Z alternative | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 CPU-Z（主对比） |
 | best CPU-Z alternative android | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | |
-| DevCheck alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 DevCheck |
-| AIDA64 alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 AIDA64 |
-| Simple System Monitor alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Simple System Monitor |
-| CPU Float alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 CPU Float |
-| Cooler Master alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Cooler Master |
+| DevCheck alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 DevCheck；2026-11 正文核对已落地 |
+| AIDA64 alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 AIDA64；2026-11 正文核对已落地 |
+| Simple System Monitor alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Simple System Monitor；2026-11 正文核对已落地 |
+| CPU Float alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 CPU Float；2026-11 正文核对已落地 |
+| Cooler Master alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Cooler Master；2026-11 正文核对已落地 |
 
-### 2.11.2 中文（zh）
+### 2.8.2 中文（zh）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -875,32 +882,33 @@
 | 手机降温 cpu监控 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 降温 |
 | 多核cpu频率监控 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 历史分析 |
 
-#### 竞品拦截词（zh 重点）
+### 2.8.3 竞品拦截词（zh 重点）
 | 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
 |---|---|---|---|
-| CPU-Z 中文 | cpu-z 中文 替代 / cpu-z 中文 哪个好 | vs/Pillar | 🟡 待强化 |
-| 鲁大师 | 鲁大师 替代 / 鲁大师 降温 | vs/Pillar | ☐ 待覆盖 |
-| 安兔兔 | 安兔兔 替代 / 安兔兔 温度监控 | vs/Pillar | ☐ 待覆盖 |
-| CPU监控大师 | CPU监控大师 替代 | vs/Pillar | ☐ 待覆盖 |
-| 强力监测 (Powerful Monitor) | 强力监测 替代 | vs/Pillar | ☐ 待覆盖 |
-| 手机降温/Cooler Master | 手机降温 替代 | vs/Pillar | ☐ 待覆盖 |
-| Device Info HW | Device Info HW 替代 | vs/Pillar | ☐ 待覆盖 |
-| AIDA64 中文 | AIDA64 中文 替代 | vs/Pillar | ☐ 待覆盖 |
+| CPU-Z 中文 | cpu-z 中文 替代 / cpu-z 中文 哪个好 | vs/Alt | 已覆盖(vs/alt) |
+| 鲁大师 | 鲁大师 替代 / 鲁大师 降温 | vs/Alt | 已覆盖(vs/alt) |
+| 安兔兔 | 安兔兔 替代 / 安兔兔 温度监控 | vs/Alt | 已覆盖(vs/alt) |
+| CPU监控大师 | CPU监控大师 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 强力监测 (Powerful Monitor) | 强力监测 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 手机降温/Cooler Master | 手机降温 替代 | vs/Alt | 已覆盖(vs/alt) |
+| Device Info HW | Device Info HW 替代 | vs/Alt | 已覆盖(vs/alt) |
+| AIDA64 中文 | AIDA64 中文 替代 | vs/Alt | 已覆盖(vs/alt) |
 
-### 2.11.3 维护日志
+### 2.8.4 维护日志
 | 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
 |---|---|---|---|---|
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 CPU-Z 中文/鲁大师 拦截词待在 vs/pillar 强化 |
+| 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：DevCheck / AIDA64 / Simple System Monitor / CPU Float / Cooler Master alternative、cpu-z 中文 哪个好、鲁大师 / 安兔兔 / CPU监控大师 / 强力监测 / 手机降温 / Device Info HW / AIDA64 中文 替代 | — | 本组 62 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 46 个「已覆盖」复核无误；tutorial EN/ZH 共 10 张重复 alt 去重；3 条超长 description 压缩（312→152、183→139、183→145）；补充只读/免 root 合规表述；12 篇 description ≤160 字符、last_modified_at 齐；构建+htmlproofer 通过 |
 
 ---
 
-## 2.12 System Monitor（系统监控/手机清理/RAM 加速/存储清理）关键词记录
+## 2.9 System Monitor（系统监控/手机清理/RAM 加速/存储清理）关键词记录
 
 **品牌**：System Monitor（en/zh 同；中文品牌名"系统监控"/"系统管家"；正文统一用 "System Monitor"）
 **品类**：系统监控 / 手机清理 / 内存加速 / 存储清理 / 电池医生（System Monitor / Phone Cleaner / RAM Booster / Storage Cleaner / Battery Monitor）
 **核心卖点（长尾词构造）**：CPU 温度/频率监控+历史+多核；存储清理（垃圾/缓存）；内存分析+一键加速；电池医生（健康/电压/温度曲线）；过热报警与保护；浮窗+小组件；多主题；免费核心+Pro。同开发者家族（com.glgjing），也是 CPU Monitor Pro 解锁的"Powerful System Monitor"全家桶。
 
-### 2.12.1 英文（en）
+### 2.9.1 英文（en）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -943,13 +951,13 @@
 | System Monitor | 品牌 | P0 | 中 | 高 | App | 已覆盖(app/全站) | 站内已覆盖 | 自有品牌 |
 | CCleaner alternative | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 CCleaner（主对比） |
 | best CCleaner alternative android | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | |
-| AVG Cleaner alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 AVG Cleaner |
-| Files by Google alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Files by Google |
-| SD Maid alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 SD Maid |
-| Clean Master alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Clean Master |
-| 3C Toolbox alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 3C Toolbox |
+| AVG Cleaner alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 AVG Cleaner；2026-11 正文核对已落地 |
+| Files by Google alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Files by Google；2026-11 正文核对已落地 |
+| SD Maid alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 SD Maid；2026-11 正文核对已落地 |
+| Clean Master alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Clean Master；2026-11 正文核对已落地 |
+| 3C Toolbox alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 3C Toolbox；2026-11 正文核对已落地 |
 
-### 2.12.2 中文（zh）
+### 2.9.2 中文（zh）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -985,33 +993,34 @@
 | 电池监控 温度曲线 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 电池曲线 |
 | 悬浮窗 系统监控 安卓 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 浮窗 |
 
-#### 竞品拦截词（zh 重点）
+### 2.9.3 竞品拦截词（zh 重点）
 | 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
 |---|---|---|---|
-| CCleaner | ccleaner 替代 / ccleaner 安卓 替代 | vs/Pillar | 🟡 待强化 |
-| 360清理大师 | 360清理大师 替代 | vs/Pillar | ☐ 待覆盖 |
-| 鲁大师 | 鲁大师 替代 / 鲁大师 清理 | vs/Pillar | ☐ 待覆盖 |
-| 腾讯手机管家 | 手机管家 替代 / 腾讯手机管家 替代 | vs/Pillar | ☐ 待覆盖 |
-| 百度手机卫士 | 百度手机卫士 替代 | vs/Pillar | ☐ 待覆盖 |
-| 猎豹清理大师 | 猎豹清理大师 替代 | vs/Pillar | ☐ 待覆盖 |
-| 清浊 | 清浊 替代 | vs/Pillar | ☐ 待覆盖 |
-| SD Maid | SD Maid 替代 | vs/Pillar | ☐ 待覆盖 |
-| 安卓清理君 | 安卓清理君 替代 | vs/Pillar | ☐ 待覆盖 |
+| CCleaner | ccleaner 替代 / ccleaner 安卓 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 360清理大师 | 360清理大师 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 鲁大师 | 鲁大师 替代 / 鲁大师 清理 | vs/Alt | 已覆盖(vs/alt) |
+| 腾讯手机管家 | 手机管家 替代 / 腾讯手机管家 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 百度手机卫士 | 百度手机卫士 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 猎豹清理大师 | 猎豹清理大师 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 清浊 | 清浊 替代 | vs/Alt | 已覆盖(vs/alt) |
+| SD Maid | SD Maid 替代 | vs/Alt | 已覆盖(vs/alt) |
+| 安卓清理君 | 安卓清理君 替代 | vs/Alt | 已覆盖(vs/alt) |
 
-### 2.12.3 维护日志
+### 2.9.4 维护日志
 | 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
 |---|---|---|---|---|
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 CCleaner/360清理大师/鲁大师/手机管家 拦截词待在 vs/pillar 强化 |
+| 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：AVG Cleaner / Files by Google / SD Maid / Clean Master / 3C Toolbox alternative、ccleaner 替代、ccleaner 安卓 替代、360清理大师 / 鲁大师 / 腾讯手机管家 / 百度手机卫士 / 猎豹清理大师 / 清浊 / SD Maid / 安卓清理君 替代 | — | 本组 67 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 50 个「已覆盖」复核无误；tutorial EN/ZH 共 22 张重复 alt 去重；4 条超长 description 压缩（319→146、199→149、190→145、166→76）；清理/加速类词按「品类对照」诚实落地，修正 vs 首段与 pillar/tutorial 只读定位的冲突；12 篇 description ≤160 字符、last_modified_at 齐；构建+htmlproofer 通过 |
 
 ---
 
-## 2.13 Floating Assistant（悬浮助手/悬浮球/辅助触控/单手助手）关键词记录
+## 2.10 Floating Assistant（悬浮助手/悬浮球/辅助触控/单手助手）关键词记录
 
 **品牌**：Floating Assistant（en/zh 同；中文品牌名"浮动助手"/"悬浮助手"；正文统一用 "Floating Assistant"）
 **品类**：悬浮助手 / 悬浮球 / 辅助触控 / 单手助手 / 边缘浮动球（Floating Assistant / Assistive Touch / Floating Ball / One-Hand Helper）
 **核心卖点（长尾词构造）**：边缘浮动球 + 自定义快捷（应用/联系人/系统开关）；动作集（返回/主页/多任务/锁屏/截屏/分屏）；按钮+手势；单手控制；轻量稳定；核心免费 + VIP。同开发者家族（com.glgjing），与 CPU Monitor / System Monitor 共享品牌体系。
 
-### 2.13.1 英文（en）
+### 2.10.1 英文（en）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -1050,12 +1059,12 @@
 | Floating Assistant | 品牌 | P0 | 中 | 高 | App | 已覆盖(app/全站) | 站内已覆盖 | 自有品牌 |
 | Assistive Touch alternative | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Assistive Touch（主对比） |
 | best Assistive Touch alternative android | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | |
-| Easy Touch alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Easy Touch |
-| Floatify alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Floatify |
-| Button Mapper alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Button Mapper |
-| Simple Control alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Simple Control |
+| Easy Touch alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Easy Touch |
+| Floatify alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Floatify |
+| Button Mapper alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Button Mapper |
+| Simple Control alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Simple Control |
 
-### 2.13.2 中文（zh）
+### 2.10.2 中文（zh）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -1089,34 +1098,35 @@
 | 边缘悬浮球 手势 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | |
 | 悬浮助手 返回 主页 最近键 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 动作集 |
 
-#### 竞品拦截词（zh 重点）
+### 2.10.3 竞品拦截词（zh 重点）
 | 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
 |---|---|---|---|
-| Assistive Touch（辅助触摸小白点） | 辅助触控 替代 / assistive touch 中文 替代 | vs/Pillar | 🟡 待强化 |
-| 小米悬浮球 | 小米悬浮球 替代 | vs/Pillar | ☐ 待覆盖 |
-| 苹果辅助触控 | 苹果辅助触控 替代 | vs/Pillar | ☐ 待覆盖 |
-| 小白点 / 安卓小白点 | 小白点 替代 | vs/Pillar | ☐ 待覆盖 |
-| 按钮大师 | 按钮大师 替代 | vs/Pillar | ☐ 待覆盖 |
-| 悬浮助手SoftCircle | 悬浮助手SoftCircle 替代 | vs/Pillar | ☐ 待覆盖 |
-| 白开水悬浮助手 | 白开水悬浮助手 替代 | vs/Pillar | ☐ 待覆盖 |
-| fooview悬浮球 | fooview悬浮球 替代 | vs/Pillar | ☐ 待覆盖 |
-| 龙珠悬浮窗 | 龙珠悬浮窗 替代 | vs/Pillar | ☐ 待覆盖 |
+| Assistive Touch（辅助触摸小白点） | 辅助触控 替代 / assistive touch 中文 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 小米悬浮球 | 小米悬浮球 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 苹果辅助触控 | 苹果辅助触控 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 小白点 / 安卓小白点 | 小白点 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 按钮大师 | 按钮大师 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 悬浮助手SoftCircle | 悬浮助手SoftCircle 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 白开水悬浮助手 | 白开水悬浮助手 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| fooview悬浮球 | fooview悬浮球 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 龙珠悬浮窗 | 龙珠悬浮窗 替代 | vs/Pillar | 已覆盖(vs/alt) |
 
-### 2.13.3 维护日志
+### 2.10.4 维护日志
 | 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
 |---|---|---|---|---|
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 小米悬浮球/辅助触控 拦截词待在 vs/pillar 强化 |
+| 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：Easy Touch / Floatify / Button Mapper / Simple Control alternative、辅助触控 替代、assistive touch 中文 替代、小米悬浮球 / 苹果辅助触控 / 小白点 / 按钮大师 / 悬浮助手SoftCircle / 白开水悬浮助手 / fooview悬浮球 / 龙珠悬浮窗 替代 | — | 本组 57 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 44 个「已覆盖」复核无误（基线 31 词未命中，经 6 批实质扩写铺入正文/meta/alt）；13 行竞品拦截词升权（4 个 EN 竞品词 + 9 行 ZH 拦截词，共 14 词）；12 篇 description 全部改写关键词化，其中 6 条超长压缩（397→158、233→100、193→141、187→147、174→149、161→144）；18 张 alt 改写（tutorial EN/ZH 共 6 张重复 alt 去重、pillar 共 6 张关键词化）；新增 10 个实质 H2（EN/ZH 各 5）；12 篇 description ≤160 字符、last_modified_at 齐、alt 无重复；构建+htmlproofer 通过 |
 
 ---
 
-## 2.14 Crosshair Aim（准星 / 射击游戏辅助 / FPS 叠层 / 屏幕准星）关键词记录
+## 2.11 Crosshair Aim（准星 / 射击游戏辅助 / FPS 叠层 / 屏幕准星）关键词记录
 
 **品牌**：Crosshair Aim（en/zh 同；中文品牌名"准星瞄准"/"十字准星"；正文统一用 "Crosshair Aim"）
 **品类**：准星 / 射击游戏辅助 / FPS 叠层 / 屏幕准星（Crosshair / FPS Crosshair / Crosshair Overlay / Screen Crosshair）
 **核心卖点（长尾词构造）**：80+ 样式准星叠层；完全可自定义（大小/颜色/位置/透明度）；全射击游戏支持（含无原生准星的武器）；每游戏预设；轻量叠层不卡帧；核心免费 + Pro。合规卖点（必须强调）：纯视觉辅助、不修改游戏数据、不触发反作弊、免 root。同开发者家族（com.glgjing）。
-**竞品主对比**：全站统一以 **Crosshair Hero** 为主对比（原 pillar/alternatives 曾用 Crosshair Hero，已统一）。其余竞品（EN：Crosshair X / Crosshair Pro / Custom Crosshair / Custom Aim / CrossAim / Crosshair PRO；ZH：准星大师 / 准星精灵 / 准星助手 / TapAim / 吃鸡准星助手 / 准心助手 / 准星实验室 等）统一拦截。
+**竞品主对比**：全站统一以 **Crosshair Hero** 为主对比（此前 pillar/alternatives 与 vs 口径不一，现已统一为该名）。其余竞品（EN：Crosshair X / Crosshair Pro / Custom Crosshair / Custom Aim / CrossAim / Crosshair PRO；ZH：准星大师 / 准星精灵 / 准星助手 / TapAim / 吃鸡准星助手 / 准心助手 / 准星实验室 等）按中文市场拦截词收录，正文未逐词织入。
 
-### 2.14.1 英文（en）
+### 2.11.1 英文（en）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -1135,9 +1145,8 @@
 | best crosshair overlay app | Middle | P1 | 高 | 中 | Pillar/Best | 已覆盖(pillar/best) | 竞品调研 | |
 | fps crosshair android | Middle | P1 | 高 | 中 | Pillar/Best | 已覆盖(pillar/best) | 竞品调研 | |
 | crosshair for pubg mobile | Middle | P1 | 高 | 中 | Best/App | 已覆盖(best/app) | 竞品调研 | 热门游戏词 |
-| crosshair hero alternative | Middle | P1 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Crosshair Hero（alternatives 页主对比） |
-| crosshair hero alternative | Middle | P1 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Crosshair Hero（vs 页主对比） |
-| crosshair x alternative | Middle | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Crosshair X（iOS） |
+| crosshair hero alternative | Middle | P1 | 高 | 高 | vs/Alt | 已覆盖(alt/vs) | 竞品调研 | 主对比（原 master 已统一为 Crosshair Hero）：alternatives + vs 双页 |
+| crosshair x alternative | Middle | P1 | 中 | 高 | vs/Alt | 已覆盖(alt/vs) | 竞品调研 | 抢 Crosshair X（iOS） |
 | custom crosshair android | Middle | P1 | 中 | 中 | Best/App | 已覆盖(best/app) | 竞品调研 | |
 
 #### Long-tail（精准长尾，P0，App/Best 主吃）
@@ -1153,17 +1162,16 @@
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
 | Crosshair Aim | 品牌 | P0 | 中 | 高 | App | 已覆盖(app/全站) | 站内已覆盖 | 自有品牌 |
-| Crosshair Hero alternative | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Crosshair Hero（alternatives 页主对比） |
-| best Crosshair Hero alternative android | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | |
-| Crosshair Hero alternative | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Crosshair Hero（vs 页主对比） |
-| Crosshair X alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Crosshair X（iOS） |
-| Crosshair Pro alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Crosshair Pro |
-| Custom Crosshair alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Custom Crosshair |
-| Custom Aim alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Custom Aim |
-| CrossAim alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 CrossAim |
-| Crosshair PRO alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 待覆盖 | 竞品调研 | 抢 Crosshair PRO |
+| Crosshair Hero alternative | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(alt/vs) | 竞品调研 | 主对比（原 Crosshair Master 已统一为 Crosshair Hero）：alternatives + vs 双页 |
+| best Crosshair Hero alternative android | 竞品 | P0 | 高 | 高 | vs/Alt | 已覆盖(alt/vs) | 竞品调研 | |
+| Crosshair X alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(alt/vs) | 竞品调研 | 抢 Crosshair X（iOS） |
+| Crosshair Pro alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(alt) | 竞品调研 | 抢 Crosshair Pro |
+| Custom Crosshair alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(alt) | 竞品调研 | 抢 Custom Crosshair |
+| Custom Aim alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(alt) | 竞品调研 | 抢 Custom Aim |
+| CrossAim alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(alt) | 竞品调研 | 抢 CrossAim |
+| Crosshair PRO alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(alt) | 竞品调研 | 抢 Crosshair PRO |
 
-### 2.14.2 中文（zh）
+### 2.11.2 中文（zh）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
@@ -1182,8 +1190,8 @@
 | 最佳准星叠层 应用 | Middle | P1 | 高 | 中 | Pillar/Best | 已覆盖(pillar-zh/best-zh) | 竞品调研 | |
 | 游戏准星 安卓 | Middle | P1 | 高 | 中 | Best/App | 已覆盖(best-zh/app) | 竞品调研 | |
 | 和平精英 准星 | Middle | P1 | 高 | 中 | Best/App | 已覆盖(best-zh/app) | 竞品调研 | 热门游戏词 |
-| 准星大师 替代 | Middle | P1 | 高 | 高 | vs/Pillar | 已覆盖(vs/pillar-zh) | 竞品调研 | 抢 准星大师（=Crosshair Hero，主对比） |
-| Crosshair Hero 替代 | Middle | P1 | 中 | 高 | vs/Pillar | 已覆盖(vs/pillar-zh) | 竞品调研 | 抢 Crosshair Hero（vs zh 页主对比） |
+| 准星大师 替代 | Middle | P1 | 高 | 高 | vs/Pillar | 待覆盖 | 竞品调研 | 中文市场拦截词；正文统一用 Crosshair Hero，未逐词织入 |
+| Crosshair Hero 替代 | Middle | P1 | 中 | 高 | vs/Pillar | 已覆盖(vs/pillar-zh) | 竞品调研 | 主对比；vs / alternatives / pillar 中文页正文均已出现 |
 | 准星精灵 替代 | Middle | P1 | 中 | 高 | vs/Pillar | 待覆盖 | 竞品调研 | 抢 准星精灵 |
 | 自定义 准星 安卓 | Middle | P1 | 中 | 中 | Best/App | 已覆盖(best-zh/app) | 竞品调研 | |
 
@@ -1192,14 +1200,14 @@
 |---|---|---|---|---|---|---|---|---|
 | 最好的 准星 app 安卓 2026 | Long-tail | P0 | 高 | 高 | Best/App | 已覆盖(app-zh) | 竞品调研 | |
 | 最佳 准星叠层 fps 游戏 | Long-tail | P0 | 高 | 高 | Best/App | 已覆盖(app-zh) | 竞品调研 | |
-| 准星大师 替代 安卓 | Long-tail | P0 | 高 | 高 | vs/Pillar | 已覆盖(vs/pillar-zh) | 竞品调研 | |
+| 准星大师 替代 安卓 | Long-tail | P0 | 高 | 高 | vs/Pillar | 待覆盖 | 竞品调研 | 中文市场拦截词；正文统一用 Crosshair Hero，未逐词织入 |
 | 自定义 准星叠层 安卓 免root | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 免 root |
 | 射击游戏 准星 安卓 免费 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 免费 |
 
-#### 竞品拦截词（zh 重点）
+### 2.11.3 竞品拦截词（zh 重点）
 | 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
 |---|---|---|---|
-| 准星大师（Crosshair Hero） | 准星大师 替代 / 准星大师 安卓 替代 | vs/Pillar | 🟡 待强化 |
+| 准星大师（中文市场竞品） | 准星大师 替代 / 准星大师 安卓 替代 | vs/Pillar | ☐ 待覆盖 |
 | 准星精灵 / 准星精灵大师（Crosshair Pro） | 准星精灵 替代 | vs/Pillar | ☐ 待覆盖 |
 | 准星助手（FPSTool） | 准星助手 替代 | vs/Pillar | ☐ 待覆盖 |
 | TapAim 瞄准镜助手 | TapAim 替代 | vs/Pillar | ☐ 待覆盖 |
@@ -1209,17 +1217,17 @@
 | 多功能准星助手 | 多功能准星助手 替代 | vs/Pillar | ☐ 待覆盖 |
 | Crosshair Pro 高级版 | crosshair pro 替代 | vs/Pillar | ☐ 待覆盖 |
 
-### 2.14.3 维护日志
+### 2.11.4 维护日志
 | 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
 |---|---|---|---|---|
-| 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 准星大师/准星精灵 拦截词待在 vs/pillar 强化 |
+| 2026-11 | 竞品调研（web）+ 站内已覆盖（已核对正文） | （初版建库；关键词真实铺入正文/meta/alt） | — | 英文竞品拦截词（Crosshair X / Pro / Custom / CrossAim / PRO）已落 alternatives+vs 正文；中文竞品专名（准星精灵 / 准星助手 / TapAim / 吃鸡准星助手 / 准心助手 / 准星实验室 / 多功能准星助手）仍未织入正文，保持 待覆盖；绝对量待 Play Console/GSC 回填 |
 
 ---
 
-## 4. 编辑落地检查（与红线对齐）
+## 3. 编辑落地检查（与红线对齐）
 
-- 每篇新/改内容：**差异化 title + description（含目标词）+ 关键词化 alt**（§2.3 / §1.6）。
+- 每篇新/改内容：**差异化 title + description（含目标词）+ 关键词化 alt**（`SEO-PLAYBOOK.md` §2.3 / §1.6）。
 - 目标词须来自本库；写前查重避免 cannibalization（§7.2）。
 - 财务类属 YMYL：表述用事实/数字，避免空泛「最好」类绝对词（见此前审计结论），保 E-E-A-T。
 - 所有改动**中英同步**（§6.1 红线）；新增语言走 `/<lang>/` 子路径。
-- 改完真实更新正文 + `last_modified_at`，并回写本库覆盖状态（§2.4 纪律）。
+- 改完真实更新正文 + `last_modified_at`，并回写本库覆盖状态（`SEO-PLAYBOOK.md` §2.4 纪律）。

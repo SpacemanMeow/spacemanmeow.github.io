@@ -7,7 +7,7 @@ tags: [Mood Diary, Android, Meow Mood]
 lang: en
 author: author_meow_id
 last_modified_at: 2026-11-05
-description: "A complete Meow Mood Diary user guide — log moods in one tap, view the calendar and trend stats, all stored privately on device."
+description: "Meow Mood Diary user guide: one-tap daily mood log, private offline journal, calendar and trend charts, app lock, reminders and export — no account needed."
 image: /assets/images/apps/meow-mood-diary/icon.webp
 ---
 
@@ -28,7 +28,7 @@ image: /assets/images/apps/meow-mood-diary/icon.webp
 
 ## App Introduction
 
-Meow Mood Diary is a safe, private [mood diary](/glossary/what-is-a-mood-tracker/) and journaling app with a calming cat-themed interface.
+Meow Mood Diary is a safe, private [mood diary](/glossary/what-is-a-mood-tracker/) and journaling app with a calming cat-themed interface. It works as a **mood tracker offline** and a **daily check-in app**: one tap records a mood, a second adds activities and a note, and the rest of this guide covers the calendar, charts, an optional app lock, reminders, and how to take your history out of a **mood diary app** that never asks you to sign up.
 
 **😺 One-tap Logging**
 - Five mood-level "capsules" on the home screen
@@ -55,7 +55,7 @@ The home screen shows five mood capsules, a month calendar, and today's mood lis
 - Tap **menu stats** (top) for statistics
 - Tap **menu setting** (top) for settings
 
-![Tutorial Mood journal editor & mood log](/assets/images/blog/tutorial_mood_home.webp){: width="180" .normal }
+![Meow Mood Diary home: five mood capsules for a one-tap daily mood log](/assets/images/blog/tutorial_mood_home.webp){: width="180" .normal }
 
 ## Log a Mood (One-tap)
 
@@ -74,7 +74,7 @@ A one-tap log saves the mood level with no note or tags.
 6. Write an optional **note**
 7. Tap **Save**
 
-![Tutorial Mood journal editor & mood log](/assets/images/blog/tutorial_mood_add.webp){: width="180" .normal }
+![Full mood entry with activity tags and a note in Meow Mood Diary](/assets/images/blog/tutorial_mood_add.webp){: width="180" .normal }
 
 ## History Calendar
 
@@ -82,7 +82,7 @@ A one-tap log saves the mood level with no note or tags.
 - Each day is a colored arc whose color reflects the **average mood level** for that day (future days appear greyed)
 - Tap a day to see that day's entries
 
-![Tutorial Mood journal editor & mood log](/assets/images/blog/tutorial_mood_calendar.webp){: width="180" .normal }
+![History calendar heatmap of daily mood check-ins](/assets/images/blog/tutorial_mood_calendar.webp){: width="180" .normal }
 
 ## Statistics & Trends
 
@@ -93,7 +93,7 @@ A one-tap log saves the mood level with no note or tags.
    - **Monthly histogram**
    - **Emotion frequency** and **context frequency**
 
-![Tutorial Mood journal editor & mood log](/assets/images/blog/tutorial_mood_stats.webp){: width="180" .normal }
+![Mood tracker with charts: statistics and trends view](/assets/images/blog/tutorial_mood_stats.webp){: width="180" .normal }
 
 ## Daily Reminder
 

@@ -7,7 +7,7 @@ tags: [White Noise, Android, Meow FM]
 lang: en
 author: author_meow_id
 last_modified_at: 2026-11-05
-description: "A complete Meow FM user guide — play calming ambient sounds, set a sleep timer and relax or focus, fully offline."
+description: "Meow FM user guide: play cat white noise app soundscapes, set a sleep timer, mix rain and brown noise, and keep playing offline with the screen off."
 image: /assets/images/apps/meow-fm/icon.webp
 ---
 
@@ -27,7 +27,7 @@ image: /assets/images/apps/meow-fm/icon.webp
 
 ## App Introduction
 
-Meow FM is a cat-themed [white-noise](/glossary/what-is-white-noise/) app for sleep, relaxation and focus. Play calming ambient sounds to fall asleep faster, focus longer, or quiet a noisy room.
+Meow FM is a cat-themed [white-noise](/glossary/what-is-white-noise/) app for sleep, relaxation and focus. Play calming ambient sounds to fall asleep faster, focus longer, or quiet a noisy room. It is a **white noise offline** player: the sound library lives on the device, so **white noise to block noise** still works on a plane or with the screen locked. This guide walks from your first loop through **white noise with timer**, layering a **rain sounds app**-style track under the low rumble of a **brown noise app**, and the home-screen widget — all from a **cat white noise app** that needs no account.
 
 **🌧 Ambient Sounds**
 - A library of **15+ sounds**: rain, thunderstorm, forest, fireplace, wind, seaside, summer night, and more
@@ -53,7 +53,7 @@ The home screen is a single page: a selected-sound chip plus a scrollable list o
 - Tap again to stop
 - Use the timer slider to schedule auto-stop
 
-![Tutorial Fm station list & play](/assets/images/blog/tutorial_fm_home.webp){: width="180" .normal }
+![Meow FM home: cat-themed ambient sound station list](/assets/images/blog/tutorial_fm_home.webp){: width="180" .normal }
 
 ## Play an Ambient Sound
 
@@ -70,7 +70,7 @@ Playback continues while you use other apps or lock the screen.
 2. Playback automatically stops when the timer reaches zero
 3. Set it before you doze off so the sound does not run all night
 
-![Tutorial Fm station list & play](/assets/images/blog/tutorial_fm_timer.webp){: width="180" .normal }
+![Sleep timer with white noise auto-stop in Meow FM](/assets/images/blog/tutorial_fm_timer.webp){: width="180" .normal }
 
 ## Background & Off-screen Playback
 
@@ -90,7 +90,7 @@ Meow FM provides three widget types you can place on your home screen:
 
 Add them from the widget picker, then configure the sound(s) in the widget config.
 
-![Tutorial Fm station list & play](/assets/images/blog/tutorial_fm_widget.webp){: width="180" .normal }
+![Home-screen widget for one-tap white noise playback](/assets/images/blog/tutorial_fm_widget.webp){: width="180" .normal }
 
 ## Free vs Premium Sounds
 

@@ -1,7 +1,7 @@
 ---
 date: 2026-02-13 09:00:00 +0800
 title: "2026 年最佳 Todoist 替代应用"
-description: "正在寻找 2026 年 Todoist 的替代应用？我们从价格、免费档限制、核心功能、隐私与简洁度等维度，对比了七款主流待办应用——Microsoft To Do、Meow Todo、TickTick、Google Tasks、Things 3、Notion 与 Any.do，并附核心能力对比表与迁移清单。"
+description: "2026 年最佳免费 Todoist 替代：七款待办清单app 对比——Microsoft To Do、Meow Todo、TickTick、Google Tasks、Things 3、Notion、Any.do——看免费档限制、免费待办清单、待办清单子任务免费与隐私。附对比表与迁移清单。"
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Alternatives, Todoist]
 image: /assets/images/apps/meow-todo-list/icon.webp
@@ -13,7 +13,7 @@ last_modified_at: 2026-11-05
 
 ## 为什么人们会跳出 Todoist
 
-![Todoist 任务列表与今日待办](/assets/images/blog/todoist_1.webp){: width="180" .normal }
+![最佳免费 Todoist 替代 — Todoist 任务列表与今日待办](/assets/images/blog/todoist_1.webp){: width="180" .normal }
 ![Todoist 任务编辑与提醒](/assets/images/blog/todoist_2.webp){: width="180" .normal }
 ![Todoist 清单与标签分组](/assets/images/blog/todoist_3.webp){: width="180" .normal }
 ![Todoist 日历与时间视图](/assets/images/blog/todoist_4.webp){: width="180" .normal }
@@ -248,6 +248,10 @@ Any.do 把待办清单、日历与规划器连同提醒打包在一起，被数�
 - 只用 **苹果设备**、想要最精致的应用 → **Things 3**
 - 想要 **文档 + 任务 + 项目合一的灵活工作空间** → **Notion**
 - 想要 **任务与日历合一、带语音 / 位置提醒** → **Any.do**
+
+## 每款 Todoist 替代品适合谁
+
+把每一款都当作有明确分工的 **Todoist 替代** 来看：**微软待办替代** 是 Outlook 原生的免费清单，**滴答清单替代** 把日历与番茄钟装进一个应用，**番茄ToDo 替代** 更偏专注计时与自习打卡，Google Tasks 则是 Gmail 侧栏里最轻的那个。Things 3 与 Any.do 主打设计质感，Notion 主打数据库；而 Meow Todo 是这份名单里更适合做 **离线待办** 与 **待办清单子任务免费** 的那款，也常被当作 **待办清单 app 哪个好** 的答案。如果你离开 Todoist 的真实原因是价格，先试 **免费待办清单**，别把一份订阅换成另一份。更完整的选型见 [2026 年最佳安卓待办清单](/zh/posts/pillar-todo-list-task-manager-apps-android/)。
 
 ## 如何从 Todoist 迁移
 

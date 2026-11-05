@@ -7,7 +7,7 @@ tags: [Mood Diary, Android, Meow Mood]
 lang: zh
 author: author_meow_id
 last_modified_at: 2026-11-05
-description: "一份完整的 Meow Mood Diary 使用指南——一键记录心情、查看日历与趋势统计，数据全部私密存储在设备端。"
+description: "一份完整的 Meow Mood Diary 使用指南——一键情绪记录、离线心情日记、日历与趋势图表、应用锁与提醒，无需账号，数据留在本机。"
 image: /assets/images/apps/meow-mood-diary/icon.webp
 ---
 
@@ -28,7 +28,7 @@ image: /assets/images/apps/meow-mood-diary/icon.webp
 
 ## 应用简介
 
-Meow Mood Diary 是一款安全、私密的[心情日记](/zh/glossary/what-is-a-mood-tracker/)与记录应用，带平静的猫主题界面。
+Meow Mood Diary 是一款安全、私密的[心情日记](/zh/glossary/what-is-a-mood-tracker/)与记录应用，带平静的猫主题界面。它既是一款 **离线心情日记**，也是一款 **每日情绪记录** 工具：一键记下心情，第二步补上活动与文字；这份指南接着讲日历、图表、可选应用锁、每日提醒，以及如何从一款无需注册的 **日记 app** 里导出自己的历史。
 
 **😺 一键记录**
 - 主屏上五个心情等级"胶囊"
@@ -55,7 +55,7 @@ Meow Mood Diary 是一款安全、私密的[心情日记](/zh/glossary/what-is-a
 - 点顶部 **菜单统计** 看统计
 - 点顶部 **菜单设置** 看设置
 
-![Tutorial Mood 日记编辑与心情记录](/assets/images/blog/tutorial_mood_home.webp){: width="180" .normal }
+![Meow Mood Diary 主页：五个心情胶囊，一键情绪记录](/assets/images/blog/tutorial_mood_home.webp){: width="180" .normal }
 
 ## 记录心情（一键）
 
@@ -74,7 +74,7 @@ Meow Mood Diary 是一款安全、私密的[心情日记](/zh/glossary/what-is-a
 6. 写可选 **备注**
 7. 点 **保存**
 
-![Tutorial Mood 日记编辑与心情记录](/assets/images/blog/tutorial_mood_add.webp){: width="180" .normal }
+![完整心情条目：活动标签与文字笔记](/assets/images/blog/tutorial_mood_add.webp){: width="180" .normal }
 
 ## 历史日历
 
@@ -82,7 +82,7 @@ Meow Mood Diary 是一款安全、私密的[心情日记](/zh/glossary/what-is-a
 - 每一天是一段彩色弧，颜色反映当天 **平均心情等级**（未来日期显示灰色）
 - 点一天看当天的条目
 
-![Tutorial Mood 日记编辑与心情记录](/assets/images/blog/tutorial_mood_calendar.webp){: width="180" .normal }
+![每日打卡的历史日历热力图](/assets/images/blog/tutorial_mood_calendar.webp){: width="180" .normal }
 
 ## 统计与趋势
 
@@ -93,7 +93,7 @@ Meow Mood Diary 是一款安全、私密的[心情日记](/zh/glossary/what-is-a
    - **月度直方图**
    - **情绪频率** 与 **情境频率**
 
-![Tutorial Mood 日记编辑与心情记录](/assets/images/blog/tutorial_mood_stats.webp){: width="180" .normal }
+![带图表的心情追踪：统计与趋势视图](/assets/images/blog/tutorial_mood_stats.webp){: width="180" .normal }
 
 ## 每日提醒
 

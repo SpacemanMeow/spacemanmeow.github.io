@@ -1,7 +1,7 @@
 ---
 date: 2026-09-17 09:00:00 +0800
 title: "Meow FM vs Calm：该选哪款助眠声音应用？"
-description: "2026 年 Meow FM 与 Calm 深度对比：一款简单可爱的白噪音播放器，对阵完整的冥想与睡眠订阅服务。价格、声音与按需结论。"
+description: "2026 年 Meow FM 与 Calm 对比：简单可爱的白噪音 app 对阵冥想与睡眠订阅服务。价格、声音、离线能力与按需结论。"
 layout: guide
 tags: [Meow FM, White Noise, Android, Comparison, Calm]
 image: /assets/images/apps/meow-fm/icon.webp
@@ -9,7 +9,7 @@ lang: zh
 last_modified_at: 2026-11-05
 ---
 
-两者都助你睡眠，但是不同的工具。**Meow FM** 是一款简单可爱的白噪音播放器——雨、海、壁炉等，带睡眠计时器。**Calm** 是一个完整的健康订阅服务，含引导冥想、睡眠故事与音乐。这份 **Meow FM vs Calm** 对比带真实价格，帮你在 2026 年挑对 **助眠声音应用**。
+两者都助你睡眠，但是不同的工具。**Meow FM** 是一款简单可爱的白噪音播放器——雨、海、壁炉等，带睡眠计时器。**Calm** 是一个完整的健康订阅服务，含引导冥想、睡眠故事与音乐。这份 **Meow FM vs Calm** 对比带真实价格，帮你在 2026 年挑对 **助眠声音应用**。如果你其实是在找 **潮汐替代** 或 **白噪音替代**、不想续订，下面「价格」一行基本就能决定。
 
 ## 一览
 
@@ -17,7 +17,7 @@ last_modified_at: 2026-11-05
 |---|---|---|
 | **核心** | 白噪音与环境声 | 冥想、睡眠故事、音乐 |
 | **平台** | Android、iOS | Android、iOS、web |
-| **价格** | 免费核心 + 可选解锁 | 约 $69.99/年 订阅 |
+| **价格** | 免费核心 + 可选解锁 | 约 $69.99/年订阅 |
 | **声音库** | 精选环境（雨、海、壁炉…） | 大（环境 + 音乐 + 故事） |
 | **声音混音** | 精选场景 | 高级档内混音 |
 | **睡眠计时器** | **有（自动停止）** | 有 |
@@ -32,9 +32,9 @@ last_modified_at: 2026-11-05
 
 ## Meow FM 详解
 
-![Meow FM 电台列表与播放](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
+![白噪音 app 的电台列表与播放](/assets/images/apps/meow-fm/1.webp){: width="180" .normal }
 ![Meow FM 收藏与频道](/assets/images/apps/meow-fm/2.webp){: width="180" .normal }
-![Meow FM 定时器与睡眠](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
+![白噪音定时关闭的睡眠计时器](/assets/images/apps/meow-fm/3.webp){: width="180" .normal }
 ![Meow FM 音质与均衡器](/assets/images/apps/meow-fm/4.webp){: width="180" .normal }
 ![Meow FM 设置与账号](/assets/images/apps/meow-fm/5.webp){: width="180" .normal }
 
@@ -117,6 +117,17 @@ Meow FM 直接打开就是声音——无账号、无引导。Calm 要你选目�
 - **选 Meow FM** 如果你只想要平静的环境声来入睡或专注，偏好无账号、无订阅，且喜欢可爱简单的界面。
 - **选 Calm** 如果你想要引导冥想、睡眠故事与结构化健康课程，并愿用付费订阅。
 - **两者兼得**：许多人每晚用 Meow FM 听纯噪音，保留 Calm 偶尔冥想——但若预算要紧，Meow FM 单独就能胜任助眠声音这件事。
+
+## 其它值得考虑的声音应用
+
+两款对比装不下所有找 **白噪音替代** 的原因，该换什么取决于你原来在为什么付钱：
+
+- 搜 **潮汐替代** 或 **潮汐哪个好** 的人，多半舍不得的是引导冥想与睡前仪式；如果这部分才是你常用的，换成纯声音播放器反而会觉得降级。
+- **小睡眠替代**、**MUJI to Relax 替代** 指向的是「随手一按就有环境声」的轻量体验；Meow FM 用本机音源加混音覆盖这一点，不需要账号。
+- **Noisli 替代** 与 **Brain.fm 替代** 分别对应可自由叠层的噪音、以及为特定状态设计的声音；前者 Meow FM 能接住，后者是另一套产品思路。
+- 想找 **白噪音替代** 而不想被订阅绑住，判断顺序仍是：熄屏后台播放、离线音源、定时关闭、能否长期免费。
+
+完整名单见 [2026 年最佳 Calm 替代应用](/zh/posts/alternatives-to-calm/)。
 
 ## 典型场景
 

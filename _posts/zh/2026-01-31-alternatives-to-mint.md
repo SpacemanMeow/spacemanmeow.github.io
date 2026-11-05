@@ -39,7 +39,7 @@ YNAB 是最知名的 **零基预算（zero-based budgeting）** 应用：每笔�
 - 成熟、维护良好、跨平台。
 
 **不足**
-- **无免费档**——仅 34 天试用，之后 $14.99/月 或 $109/年。
+- **无免费档**——仅 34 天试用，之后 $14.99/月或 $109/年。
 - **学习曲线陡**——你需要主动做预算；它是一套系统，而非被动记录器。
 - **无专门报销流程**，且 **多币种支持弱**（以美元为中心）。
 - 报表不错，但做临时分析不如电子表格灵活。
@@ -55,10 +55,10 @@ YNAB 是最知名的 **零基预算（zero-based budgeting）** 应用：每笔�
 ## Meow Money Manager（喵窝记账）—— 猫咪主题、界面讨喜的记账工具
 
 ![喵窝记账（Meow Money Manager）卡通主界面：400+ 分类图标](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
-![喵窝记账 多账本视图：个人、旅行、工作分别记账](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
-![喵窝记账 预算与分类预算设置：日 / 月 / 年周期](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
-![喵窝记账 图表统计：日、月、年支出报表](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
-![喵窝记账 报销管理与 CSV 导出：可报销标记与对账](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
+![喵窝记账多账本视图：个人、旅行、工作分别记账](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
+![喵窝记账预算与分类预算设置：日 / 月 / 年周期](/assets/images/apps/meow-money-manager/3.webp){: width="180" .normal }
+![喵窝记账图表统计：日、月、年支出报表](/assets/images/apps/meow-money-manager/4.webp){: width="180" .normal }
+![喵窝记账报销管理与 CSV 导出：可报销标记与对账](/assets/images/apps/meow-money-manager/5.webp){: width="180" .normal }
 
 Meow Money Manager（喵窝记账）是一款 **安卓与 iOS** 双平台的猫咪主题[记账软件](/zh/glossary/what-is-an-expense-tracker/)与[预算管理](/zh/glossary/what-is-budget-management/)应用。它最鲜明的特质是 **界面**：可爱的卡通风格设计，配上 **400+ 丰富的分类图标**，让每日记账变得轻松，而不是像在办公。除了外观，它也覆盖了实用的记账基本功，并支持中文、英文、印尼语、泰语、葡萄牙语等多语言界面。
 
@@ -192,7 +192,7 @@ PocketGuard 把事情简化：它显示 **「口袋里还剩多少」**——在
 **优势**
 - **「口袋里还剩多少」这个可安全花费数字**直观又立竿见影。
 - 自动分类交易、追踪订阅，并提供降费功能。
-- **免费档** 加 PocketGuard Plus（约 $12.99/月 或 $74.99/年）解锁更多细节。
+- **免费档** 加 PocketGuard Plus（约 $12.99/月或 $74.99/年）解锁更多细节。
 
 **不足**
 - **预算深度有限**——没有零基或信封法；可定制性弱。
@@ -220,7 +220,7 @@ Goodbudget 把经典的 **信封系统** 数字化：把钱分到虚拟信封里
 
 **优势**
 - **把信封法做对了**，带跨设备云同步，让全家保持一致。
-- **免费档**（20 个信封、2 台设备、1 年历史）；Premium（约 $8/月 或 $70/年）解锁无限信封、更多设备、7 年历史与银行同步。
+- **免费档**（20 个信封、2 台设备、1 年历史）；Premium（约 $8/月或 $70/年）解锁无限信封、更多设备、7 年历史与银行同步。
 - 平台灵活：iOS、安卓与网页。
 
 **不足**

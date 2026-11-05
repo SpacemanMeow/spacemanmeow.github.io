@@ -1,7 +1,7 @@
 ---
 date: 2026-10-13 09:00:00 +0800
 title: "Only Clock vs Flip Clock：哪款翻页时钟应用？"
-description: "2026 年 Only Clock 与 Flip Clock 深度对比：一款带白噪音与悬浮模式的主题化全屏翻页时钟，对阵一款人气免费的翻页时钟应用。功能、平台与按需结论。"
+description: "2026 年 Only Clock 与 Flip Clock 对比：带白噪音与悬浮模式的全屏翻页时钟对阵免费带广告的翻页应用，回答安卓翻页时钟哪个好。"
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Comparison, Retroflip]
 image: /assets/images/apps/only-clock/icon.webp
@@ -9,7 +9,7 @@ lang: zh
 last_modified_at: 2026-11-05
 ---
 
-两者都呈现经典的翻页外观，但附赠的额外功能不同。**Only Clock** 是一款带白噪音与悬浮模式的主题化全屏翻页时钟。**Flip Clock** 则是一款人气免费的翻页时钟应用——简单、全屏、带广告。这份 **Only Clock vs Flip Clock** 对比，帮你在 2026 年挑一款 **[翻页时钟](/zh/glossary/what-is-a-flip-clock/)应用**。
+两者都呈现经典的翻页外观，但附赠的额外功能不同。**Only Clock** 是一款带白噪音与悬浮模式的主题化全屏翻页时钟。**Flip Clock** 则是一款人气免费的翻页时钟应用——简单、全屏、带广告。这份 **Only Clock vs Flip Clock** 对比，帮你在 2026 年挑一款 **[翻页时钟](/zh/glossary/what-is-a-flip-clock/)应用**。如果你其实是在问 **安卓翻页时钟哪个好**，或想找 **翻页时钟替代**，下面的功能与广告两行就是答案。
 
 ## 一览
 
@@ -31,7 +31,7 @@ last_modified_at: 2026-11-05
 
 ![OnlyClock 设置与选项](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
 ![OnlyClock 时钟主界面与显示](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
-![OnlyClock 时钟主界面与显示](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
+![翻页时钟替代：Only Clock 主题化翻页钟面](/assets/images/apps/only-clock/1.webp){: width="180" .normal }
 ![OnlyClock 闹钟与计时器](/assets/images/apps/only-clock/3.webp){: width="180" .normal }
 ![OnlyClock 夜间模式与主题](/assets/images/apps/only-clock/2.webp){: width="180" .normal }
 
@@ -114,6 +114,18 @@ Only Clock 运行于 Android 与 iOS；Flip Clock 以安卓为主。iPhone 用�
 - **选 Only Clock** 如果你想要主题化视觉、白噪音、悬浮时钟或组件，并支持 iPhone。
 - **选 Flip Clock** 若你只想要一款免费、简单的复古翻页时钟，不需要声音或附加项。
 - **作为一体化床头伴侣**，Only Clock 做的更多；作为光秃秃、怀旧的一只钟，Flip Clock 正合适。
+
+## 其它值得考虑的翻页钟应用
+
+两款对比装不下所有人找 **翻页时钟替代** 的原因，该换什么取决于这块钟要做什么：
+
+- 搜 **翻页桌面时钟替代** 的人，多半想要一块干净、少设置的桌面钟面；**大字时钟替代** 与 **极简时钟替代** 指向的也是可读性优先的那一类。
+- **Fliqlo 替代** 通常是想在电脑或浏览器里复刻经典翻页钟，而不是装一个安卓应用。
+- **谷歌时钟替代** 问的是「能不能替掉系统自带的闹钟与计时器」，与装饰性钟面是两件事。
+- **翻页时钟24H 替代** 更看重 24 小时制与日期显示；Only Clock 在设置里直接提供 12/24 小时切换。
+- 从 **翻页时钟替代** 或 **翻页时钟哪个好** 搜过来，判断顺序仍是：有没有广告、整夜亮着会不会太亮、要不要白噪音或专注计时。
+
+完整名单见 [2026 年最佳 Retroflip 替代应用](/zh/posts/alternatives-to-retroflip/)。
 
 ## 典型场景
 

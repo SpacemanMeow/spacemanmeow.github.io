@@ -1,7 +1,7 @@
 ---
 date: 2026-03-07 09:00:00 +0800
 title: "Crosshair Aim as a Custom Overlay: Your Own Reticle on Any Screen"
-description: "A practical look at Crosshair Aim versus Crosshair Hero as a custom crosshair overlay in 2026 — PNG import, transparency, per-app positioning, and price on Android."
+description: "Best crosshair overlay app in 2026: Crosshair Aim vs Crosshair Hero as a custom crosshair overlay for Android — PNG import, transparency, per-app positioning, no root, free."
 layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Best Apps]
 image: /assets/images/apps/cross-hair/icon.webp
@@ -9,7 +9,7 @@ lang: en
 last_modified_at: 2026-11-05
 ---
 
-Beyond shooters, a **[custom crosshair overlay](/glossary/what-is-a-crosshair/)** is handy for aim trainers, emulators, and any app where a fixed reference point helps. The **best crosshair overlay** lets you import your own image, set transparency, and remember positions per app. **Crosshair Aim** is a **custom crosshair app** for Android with PNG import and a floating adjuster. Below we compare it with **Crosshair Hero** for general overlay use.
+Beyond shooters, a **[custom crosshair overlay](/glossary/what-is-a-crosshair/)** is handy for aim trainers, emulators, and any app where a fixed reference point helps. The **best crosshair overlay app** lets you import your own image, set transparency, and remember positions per app — a true **custom crosshair Android** setup. **Crosshair Aim** is a **custom crosshair app** for Android with PNG import and a floating adjuster, and it runs **no root**. Below we compare it with **Crosshair Hero** for general overlay use.
 
 ## What a custom overlay needs
 
@@ -19,6 +19,18 @@ Beyond shooters, a **[custom crosshair overlay](/glossary/what-is-a-crosshair/)*
 - **Per-position memory** — where you left it, it stays.
 - **No root** — standard overlay permission.
 
+## Best crosshair overlay app: what to look for
+
+A good **custom crosshair overlay** is more than a static dot. Judge it on:
+
+- **PNG / image import** — drop in your own reticle art instead of a preset.
+- **Transparency and blend** — sit cleanly over any background, light or dark.
+- **Per-app position memory** — where you leave it stays, across games and tools.
+- **No root** — the standard overlay permission is enough.
+- **Free to start** — a usable core, with deeper features behind an unlock.
+
+For **custom crosshair overlay Android no root** use, both Crosshair Aim and Crosshair Hero qualify; the difference is live control vs quick presets.
+
 ## The contenders at a glance
 
 | App | Price (2026) | Custom PNG | Any app | Transparency | Best for |
@@ -27,12 +39,14 @@ Beyond shooters, a **[custom crosshair overlay](/glossary/what-is-a-crosshair/)*
 | **Crosshair Hero** | Free + IAP | ✅ | ✅ | ✅ | Preset + custom |
 | **Crosshair X** | Free + sub | ✅ | ✅ | ✅ | iOS only |
 
+If you live in aim trainers or emulators, **per-app positioning** saves time: set a tight reticle for a trainer, a bold one for an emulator, and switch without re-tuning. That is where a **custom crosshair Android** setup with memory beats a preset-only app.
+
 ## Crosshair Aim, in depth
 
-![Crosshair crosshair overlay home](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
-![Crosshair crosshair style & customize](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
-![Crosshair transparency & position](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
-![Crosshair in-game overlay effect](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
+![Best crosshair overlay app — Crosshair Aim home](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
+![Crosshair Aim custom style and PNG import](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
+![Crosshair Aim transparency and per-app position](/assets/images/apps/cross-hair/3.webp){: width="180" .normal }
+![Crosshair Aim live overlay effect](/assets/images/apps/cross-hair/4.webp){: width="180" .normal }
 
 Crosshair Aim is a **custom crosshair overlay** for Android with a large style set and a live floating adjuster.
 
@@ -74,10 +88,10 @@ Crosshair Hero (package `me.okitastudio.crosshairherofps`) offers preset styles 
 
 ## Which should you pick?
 
-- Want **80+ styles + live adjuster + PNG import** → **Crosshair Aim**.
+- Want the **best crosshair overlay app for FPS games** with **80+ styles + live adjuster + PNG import** → **Crosshair Aim**.
 - Want **presets + custom PNG, quick** → **Crosshair Hero**.
 
-[Get Crosshair Aim](/apps/cross-hair/) — available on Android.
+[Get Crosshair Aim](/apps/cross-hair/) — a **custom crosshair overlay** for Android, no root, free to start.
 
 ## Typical scenarios
 

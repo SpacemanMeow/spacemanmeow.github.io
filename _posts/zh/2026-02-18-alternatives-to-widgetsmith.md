@@ -1,7 +1,7 @@
 ---
 date: 2026-02-18 09:00:00 +0800
 title: "最佳 WidgetSmith 替代应用（含安卓）"
-description: "正在寻找 2026 年 WidgetSmith 的替代应用？我们从现成预设、自定义编辑器、实时系统数据到核心主屏能力等维度，对比了六款主流小组件应用——One Widget、KWGT、Widgy、Color Widgets、Widgetable 与 WidgetClub，并附详细优缺点与下载链接。"
+description: "2026 年安卓小组件 app 推荐与 WidgetSmith 替代对比：六款小组件应用在预设、编辑器、实时数据与价格上的差别，含小组件盒子哪个好的按需答案。"
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Alternatives, Widgetsmith]
 image: /assets/images/apps/one-widget/icon.webp
@@ -9,7 +9,7 @@ lang: zh
 last_modified_at: 2026-11-05
 ---
 
-WidgetSmith 是最知名的 **iOS 小组件应用**，但它仅限 iPhone，而且即使在 iOS 上，也有用户想要不一样的风格、实时设备数据（电量、内存），或者更大的现成组件库。本指南跨平台对比了 **六款** 主流 **[小组件应用](/zh/glossary/what-is-a-home-screen-widget/)**，每一款或因某一项突出优势、或因市场覆盖广而被选中。下面每款应用都会给出真实优点、真实缺点，以及它在人们真正在意的主屏核心能力上的表现——现成预设、自定义编辑器、实时系统数据、天气、健康、照片、交互性与锁屏支持。下载链接在每节末尾。
+WidgetSmith 是最知名的 **iOS 小组件应用**，但它仅限 iPhone，而且即使在 iOS 上，也有用户想要不一样的风格、实时设备数据（电量、内存），或者更大的现成组件库。本指南跨平台对比了 **六款** 主流 **[小组件应用](/zh/glossary/what-is-a-home-screen-widget/)**，每一款或因某一项突出优势、或因市场覆盖广而被选中。下面每款应用都会给出真实优点、真实缺点，以及它在人们真正在意的主屏核心能力上的表现——现成预设、自定义编辑器、实时系统数据、天气、健康、照片、交互性与锁屏支持。下载链接在每节末尾。多数人卡在一个具体问题上：只有 iPhone 能用、要订阅，或现成组件太少；下面会按「解决哪个问题」来讲每一款。
 
 ## 为什么要跳出 WidgetSmith
 
@@ -36,7 +36,7 @@ WidgetSmith 是最知名的 **iOS 小组件应用**，但它仅限 iPhone，而�
 
 ## 1. One Widget —— 最适合现成、多风格的安卓组件
 
-![One Widget 小组件主界面](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
+![小组件盒子替代：One Widget 现成预设库](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
 ![One Widget 自定义外观与主题](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
 ![One Widget 信息源与布局](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
 ![One Widget 交互与快捷操作](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
@@ -229,6 +229,18 @@ WidgetClub 是一款有质感的组件、壁纸与图标应用，拥有海量目
 | **更新节奏** | **持续新增组件** | 积极维护 | 积极（新 iOS） | 积极 | 积极 | 积极 |
 
 ---
+
+## 每款 WidgetSmith 替代品适合谁
+
+表格比的是功能；这里按「你原本想在桌面摆什么」把同样的六款重新分组。
+
+- **安卓上的现成预设**——搜 **KWGT 中文替代** 或 **小组件盒子替代** 的人，多半不想进编辑器：One Widget 把 One UI、Nothing、Glass 与 Material You 四套风格的 500+ 成品直接摆上主屏。
+- **亲手画一个组件**——KWGT 仍是图层与公式的基准，Widgy 是 iOS 上的对应物；两者都换来更多配置时间。
+- **先看时钟、日历与资讯**——专门的时钟组件在字号与信息密度上更合适，主题包反而显得多余。
+- **要大预设库、不想写脚本**——Color Widgets、WidgetClub 走的是目录式路线；**万能小组件替代**、**元气小组件替代** 通常也指向这一类。
+- **可爱或社交向组件**——Widgetable、WidgetClub 覆盖宠物、情侣与主题，代价是库里大部分内容需要订阅。
+
+从 **灵动坞替代**、**魔力小组件替代**、**iScreen 替代** 到 **米写替代**，换应用前先确认两件不随潮流变的事：免费档能不能真的摆放并调整尺寸？启动器更新后，组件还会不会照常显示实时数据？
 
 ## 如何挑选
 

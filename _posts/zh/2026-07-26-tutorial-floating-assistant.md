@@ -7,7 +7,7 @@ tags: [Floating Assistant, Assistive Touch, Android]
 lang: zh
 author: author_meow_id
 last_modified_at: 2026-11-05
-description: "一份完整的 Floating Assistant 使用指南——一颗用于启动应用、系统开关与单手控制的浮动球，无需 root。"
+description: "一份完整的 Floating Assistant 使用指南——边缘悬浮球手势、自定义悬浮球快捷方式、系统开关与单手控制，无需 root。"
 image: /assets/images/apps/floating-assistant/icon.webp
 ---
 
@@ -28,7 +28,7 @@ image: /assets/images/apps/floating-assistant/icon.webp
 
 ## 应用简介
 
-Floating Assistant 为安卓添加一颗 **[浮动球](/zh/glossary/what-is-a-floating-window/)**，用于快速启动应用、系统开关与大屏手机的单手控制。
+Floating Assistant 为安卓添加一颗 **[浮动球](/zh/glossary/what-is-a-floating-window/)**，用于快速启动应用、系统开关与大屏手机的单手控制。它也是一款 **单手操作悬浮球安卓** 工具：球可吸附左右任一侧、每个位置都能重新指派，快捷方式覆盖应用、联系人与系统开关。这份指南从首次启动讲到授予叠层与无障碍权限、移动与缩放小球、设置 **自定义悬浮球快捷方式**，再到免费/Pro 分界——并用直白的话说明这些权限允许什么、不允许什么。
 
 **🔵 浮动球**
 - 可在任意应用之上拖动的球（无需 root）
@@ -53,7 +53,7 @@ Floating Assistant 为安卓添加一颗 **[浮动球](/zh/glossary/what-is-a-fl
 - 打开 **主页入口** 显示浮动球
 - 设置齿轮可打开语言、评分、分享与升级
 
-![Tutorial Float 主界面](/assets/images/blog/tutorial_float_home.webp){: width="180" .normal }
+![Floating Assistant 主界面：吸附在边缘的悬浮球](/assets/images/blog/tutorial_float_home.webp){: width="180" .normal }
 
 ## 授予叠层与无障碍
 
@@ -70,7 +70,7 @@ Floating Assistant 为安卓添加一颗 **[浮动球](/zh/glossary/what-is-a-fl
 2. 球出现；**拖动** 它重新定位——它会自动吸附到左/右边缘
 3. 位置以屏幕百分比保存
 
-![Tutorial Float 主界面](/assets/images/blog/tutorial_float_ball.webp){: width="180" .normal }
+![悬浮助手返回主页最近键与手势动作](/assets/images/blog/tutorial_float_ball.webp){: width="180" .normal }
 
 ## 球的动作
 
@@ -95,7 +95,7 @@ Floating Assistant 为安卓添加一颗 **[浮动球](/zh/glossary/what-is-a-fl
    - **旋转** 写入自动旋转设置
 3. 用 **组合** 小组件把多个开关归一组
 
-![Tutorial Float 主界面](/assets/images/blog/tutorial_float_toggle.webp){: width="180" .normal }
+![悬浮球菜单里的系统开关小组件](/assets/images/blog/tutorial_float_toggle.webp){: width="180" .normal }
 
 ## 大小、颜色、吸附
 
@@ -106,7 +106,7 @@ Floating Assistant 为安卓添加一颗 **[浮动球](/zh/glossary/what-is-a-fl
 
 ## 单手使用
 
-有了这颗球，你可以通过无障碍服务完成 主页 / 返回 / 最近任务 / 电源菜单 / 锁屏 / 截图，加上球上的手电筒/音量/旋转——于是你用拇指就能控制手机，不必去够实体按键。
+有了这颗球，你可以通过无障碍服务完成主页 / 返回 / 最近任务 / 电源菜单 / 锁屏 / 截图，加上球上的手电筒/音量/旋转——于是你用拇指就能控制手机，不必去够实体按键。
 
 ## 免费 vs Pro
 

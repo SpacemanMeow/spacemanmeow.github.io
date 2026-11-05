@@ -1,7 +1,7 @@
 ---
 date: 2026-10-09 09:00:00 +0800
 title: "One Widget vs KWGT：精选组件，还是完全掌控？"
-description: "2026 年 One Widget 与 KWGT 深度对比：500+ 现成的 One UI、Nothing、Glass 与 Material You 组件，对阵一个需学习曲线、可从零搭建的组件编辑器。价格与按需结论。"
+description: "2026 年 One Widget 与 KWGT 对比：500+ 现成安卓小组件对阵从零搭建的编辑器；含小组件盒子替代与安卓桌面小组件哪个好的判断。"
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Comparison, KWGT]
 image: /assets/images/apps/one-widget/icon.webp
@@ -9,7 +9,7 @@ lang: zh
 last_modified_at: 2026-11-05
 ---
 
-两者都自定义你的主屏，但方式不同。**One Widget** 自带 500+ 成品、紧跟潮流的组件，你只需改尺寸、放上去即可。**KWGT**（Kustom Widget Maker）则是一个从零开始的编辑器，你能搭建任何想象得到的组件。这份 **One Widget vs KWGT** 对比，帮你在 2026 年挑对 **[安卓组件应用](/zh/glossary/what-is-a-home-screen-widget/)**。
+两者都自定义你的主屏，但方式不同。**One Widget** 自带 500+ 成品、紧跟潮流的组件，你只需改尺寸、放上去即可。**KWGT**（Kustom Widget Maker）则是一个从零开始的编辑器，你能搭建任何想象得到的组件。这份 **One Widget vs KWGT** 对比，帮你在 2026 年挑对 **[安卓组件应用](/zh/glossary/what-is-a-home-screen-widget/)**。如果你在找的是不用进编辑器的 **KWGT 中文替代**，下面「设置成本」那一行基本就决定了。
 
 ## 一览
 
@@ -30,10 +30,10 @@ last_modified_at: 2026-11-05
 
 ## One Widget 详解
 
-![One Widget 小组件主界面](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
+![小组件盒子替代：One Widget 预设库主界面](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
 ![One Widget 自定义外观与主题](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
 ![One Widget 信息源与布局](/assets/images/apps/one-widget/3.webp){: width="180" .normal }
-![One Widget 交互与快捷操作](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
+![安卓小组件的快捷开关与应用快捷方式](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
 ![One Widget 设置与权限](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
 
 One Widget 是一款 **一体化安卓主屏工具箱**，打包了横跨四种潮流风格的 500+ 精品组件：Glass iOS、Material You、Galaxy One UI，以及 Nothing 极简风。你挑一个成品组件、改改尺寸，就完成了。
@@ -114,6 +114,17 @@ One Widget 的 One UI 免费，其他家族一次性解锁。KWGT 免费可用�
 - **选 One Widget** 若你想几分钟内拥有一个统一、精致的主屏，且偏好精选风格而非设计工具。
 - **选 KWGT** 若你想要完全的创作掌控、实时数据公式，且不介意学习（并花时间）去搭建独特组件。
 - **许多安卓用户两者都留**：One Widget 应付快速、日常的组件，KWGT 则在想要真正自定义时出场。
+
+## 其它值得考虑的小组件工具
+
+两款对比装不下所有找 **KWGT 中文替代** 的原因，该换什么取决于你原本想搭什么：
+
+- 搜 **小组件盒子替代** 或 **小组件盒子哪个好** 的人，多半想要现成预设与中文界面，而不是从零画图层；One Widget 走的是「选一个、改尺寸、摆上去」这条短路。
+- **万能小组件替代**、**魔力小组件替代**、**元气小组件替代** 指向的是同一类诉求：模板多、样式全、上手快。
+- **灵动坞替代** 与 **iScreen 替代** / **米写替代** 更偏灵动岛式胶囊或桌面美化套装；One Widget 用 Glass 与 Nothing 两套预设覆盖这些外观，且不必切到另一套主题体系。
+- 若你要的只是稳定的时钟与日历，专门的时钟组件比通用组件包更轻；若还想摆上 Wi-Fi、手电筒开关，通用包才划算。
+
+完整名单见 [2026 年最佳 WidgetSmith 替代应用](/zh/posts/alternatives-to-widgetsmith/)。
 
 ## 典型场景
 

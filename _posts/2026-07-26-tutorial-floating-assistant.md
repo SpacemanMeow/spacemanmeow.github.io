@@ -7,7 +7,7 @@ tags: [Floating Assistant, Assistive Touch, Android]
 lang: en
 author: author_meow_id
 last_modified_at: 2026-11-05
-description: "A complete Floating Assistant user guide — a floating ball for app launches, system toggles and one-handed control, no root."
+description: "Floating Assistant user guide: edge-docked floating ball, custom shortcuts, system toggles, one-handed control and clear permissions, no root."
 image: /assets/images/apps/floating-assistant/icon.webp
 ---
 
@@ -28,7 +28,7 @@ image: /assets/images/apps/floating-assistant/icon.webp
 
 ## App Introduction
 
-Floating Assistant adds a **[floating ball](/glossary/what-is-a-floating-window/)** to Android for quick app launches, system toggles and one-handed control of a large phone.
+Floating Assistant adds a **[floating ball](/glossary/what-is-a-floating-window/)** to Android for quick app launches, system toggles and one-handed control of a large phone. It works as a **floating button app for one hand android**: the ball docks to either edge, every slot can be remapped, and shortcuts cover apps, contacts and system toggles. This guide walks from the first launch through granting the overlay and accessibility permissions, moving and resizing the ball, assigning **floating ball with custom shortcuts**, and the free/Pro split — with a plain explanation of what those permissions allow and what they do not.
 
 **🔵 Floating Ball**
 - A draggable ball that stays above any app (no root)
@@ -53,7 +53,7 @@ Open the app to the home screen with a top upgrade promo and a **"Home entry"** 
 - Turn on **Home entry** to show the ball
 - The settings gear opens language, rate, share and upgrade
 
-![Tutorial Float home screen](/assets/images/blog/tutorial_float_home.webp){: width="180" .normal }
+![Floating Assistant home screen with the edge-docked floating ball](/assets/images/blog/tutorial_float_home.webp){: width="180" .normal }
 
 ## Grant Overlay & Accessibility
 
@@ -70,7 +70,7 @@ The overlay permission lets the ball draw above apps; Accessibility lets it perf
 2. The ball appears; **drag** it to reposition — it auto-snaps to the left/right edge
 3. Its position is saved as a screen percentage
 
-![Tutorial Float home screen](/assets/images/blog/tutorial_float_ball.webp){: width="180" .normal }
+![Floating ball actions: back, home, recent and gesture settings](/assets/images/blog/tutorial_float_ball.webp){: width="180" .normal }
 
 ## Ball Actions
 
@@ -95,7 +95,7 @@ Defaults: 1=power menu, 2=lock, 3=screenshot, 4=flashlight, 6=phone, 7=back, 8=h
    - **Rotate** writes the auto-rotate setting
 3. Use the **Combine** widget to group several toggles
 
-![Tutorial Float home screen](/assets/images/blog/tutorial_float_toggle.webp){: width="180" .normal }
+![System toggle widgets inside the floating ball menu](/assets/images/blog/tutorial_float_toggle.webp){: width="180" .normal }
 
 ## Resize, Color, Dock
 

@@ -7,7 +7,7 @@ tags: [Habit Tracker, Android, Meow Habits]
 lang: en
 author: author_meow_id
 last_modified_at: 2026-11-05
-description: "A complete Meow Habits user guide — build streaks, log daily check-ins, set reminders and review trends in this cute habit tracker."
+description: "Meow Habits user guide: build streaks, log daily check-ins, set reminders, review trends in this cute habit tracker, and export CSV or back up via WebDav."
 image: /assets/images/apps/meow-habits/icon.webp
 ---
 
@@ -27,7 +27,7 @@ image: /assets/images/apps/meow-habits/icon.webp
 
 ## App Introduction
 
-Meow Habits is a cute **[habit tracker](/glossary/what-is-a-habit-tracker/)** and routine builder for Android and iOS. Build good habits and break bad ones with streaks, charts, and a calendar heatmap.
+Meow Habits is a cute **[habit tracker](/glossary/what-is-a-habit-tracker/)** and routine builder for Android and iOS. Build good habits and break bad ones with streaks, charts, and a calendar heatmap. It works as a **habit tracker no account** and an **offline habit tracker**: logging needs no sign-up and no signal, and a **habit tracker with csv export** plus **habit tracker with webdav backup** keeps the history yours. This guide walks from first launch through **habit tracker with widgets** and **habit tracker with reminders** to reading your own trends.
 
 **🐱 500+ Cute Icons**
 - An icon picker with roughly **590 icons** across **14 categories**
@@ -52,7 +52,7 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 - Bottom tabs: **Home**, **Habit**, **Trend**, **Setting**
 - Tap **+** to add your first habit (the free tier allows up to **5 habits**; VIP unlocks unlimited)
 
-![Meow Habits habit list & today's check-in](/assets/images/blog/tutorial_habit_home.webp){: width="180" .normal }
+![Meow Habits home tab: today's check-in list and month calendar in this habit tracker with calendar](/assets/images/blog/tutorial_habit_home.webp){: width="180" .normal }
 
 ## Add a Habit
 
@@ -66,7 +66,7 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 8. Set a **start date**
 9. Tap **Confirm**
 
-![Meow Habits habit list & today's check-in](/assets/images/blog/tutorial_habit_add.webp){: width="180" .normal }
+![Adding a habit with a cute icon, goal and flexible cycle in Meow Habits](/assets/images/blog/tutorial_habit_add.webp){: width="180" .normal }
 
 ## Daily Check-in
 
@@ -75,7 +75,7 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 3. Use **+ / −** to adjust count, **Input** to type a value, **Skip** to skip, or **Complete** to finish
 4. The 3-dot menu gives Trend / Notification / Note / Edit / Archive / Delete
 
-![Meow Habits habit list & today's check-in](/assets/images/blog/tutorial_habit_checkin.webp){: width="180" .normal }
+![Daily check-in screen with a progress ring in a cute habit tracker](/assets/images/blog/tutorial_habit_checkin.webp){: width="180" .normal }
 
 ## Reminders
 
@@ -84,14 +84,14 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 3. Pick one of the **3 time chips** and choose which weekdays (Sun–Sat) apply
 4. The app notifies you to check in
 
-![Meow Habits habit list & today's check-in](/assets/images/blog/tutorial_habit_reminder.webp){: width="180" .normal }
+![Setting a daily reminder in a habit tracker with reminders](/assets/images/blog/tutorial_habit_reminder.webp){: width="180" .normal }
 
 ## Streaks and Trends
 
 1. Open a habit → **Detail** to see streak numbers, history bars and a calendar heatmap
 2. Switch to the **Trend** tab for charts and achievements
 
-![Meow Habits habit list & today's check-in](/assets/images/blog/tutorial_habit_trend.webp){: width="180" .normal }
+![Streak charts and a calendar heatmap in the Meow Habits trend tab](/assets/images/blog/tutorial_habit_trend.webp){: width="180" .normal }
 
 ## Edit, Archive or Delete
 

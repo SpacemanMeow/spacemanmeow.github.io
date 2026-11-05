@@ -93,7 +93,7 @@ Meow Money Manager（喵窝记账）是一款设计用于个人财务管理的�
 - 底部导航栏：包含记账、统计、资产、设置四个选项
 - 顶部横幅：显示当前账本与资产概览
 
-![Record 主界面](/assets/images/blog/record.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览](/assets/images/blog/assets.webp){: width="180" .normal } ![App 主界面](/assets/images/blog/stats.webp){: width="180" .normal } ![App 主界面](/assets/images/blog/setting.webp){: width="180" .normal }
+![Record 主界面](/assets/images/blog/record.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览](/assets/images/blog/assets.webp){: width="180" .normal } ![App 主界面](/assets/images/blog/stats.webp){: width="180" .normal } ![App 主界面：设置](/assets/images/blog/setting.webp){: width="180" .normal }
 
 ## 记账功能
 
@@ -110,7 +110,7 @@ Meow Money Manager 的记账功能非常直观，支持三类记录：支出、�
 7. 添加备注（可选）
 8. 点击确认完成记账
 
-![Record 主界面](/assets/images/blog/record_add.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览](/assets/images/blog/record_add_ledger.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览](/assets/images/blog/record_add_assets.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览](/assets/images/blog/record_add_remark.webp){: width="180" .normal }
+![Record 主界面：新增](/assets/images/blog/record_add.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览：账本](/assets/images/blog/record_add_ledger.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览：账户资产](/assets/images/blog/record_add_assets.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览：备注](/assets/images/blog/record_add_remark.webp){: width="180" .normal }
 
 ### 转账功能
 
@@ -123,7 +123,7 @@ Meow Money Manager 的记账功能非常直观，支持三类记录：支出、�
 7. 添加备注（可选）
 8. 点击确认完成转账
 
-![Meow Money Manager 主界面与账户总览](/assets/images/blog/record_add_transfer.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览](/assets/images/blog/record_add_charge.webp){: width="180" .normal }
+![Meow Money Manager 主界面与账户总览：转账](/assets/images/blog/record_add_transfer.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览：记一笔](/assets/images/blog/record_add_charge.webp){: width="180" .normal }
 
 ## 预算管理
 
@@ -139,7 +139,7 @@ Meow Money Manager 支持多种预算管理，含每天、每周、每月、每�
 6. 输入预算名称
 7. 点击确认完成预算创建
 
-![Budget 主界面](/assets/images/blog/budget_manage.webp){: width="180" .normal } ![Budget 主界面](/assets/images/blog/budget_add.webp){: width="180" .normal } ![Budget Add 主界面](/assets/images/blog/budget_add_period.webp){: width="180" .normal } ![Budget Add 主界面](/assets/images/blog/budget_add_category.webp){: width="180" .normal } ![Budget Add 主界面](/assets/images/blog/budget_add_amount.webp){: width="180" .normal }
+![Budget 主界面](/assets/images/blog/budget_manage.webp){: width="180" .normal } ![Budget 主界面：新增](/assets/images/blog/budget_add.webp){: width="180" .normal } ![Budget Add 主界面](/assets/images/blog/budget_add_period.webp){: width="180" .normal } ![Budget Add 主界面：分类](/assets/images/blog/budget_add_category.webp){: width="180" .normal } ![Budget Add 主界面：金额](/assets/images/blog/budget_add_amount.webp){: width="180" .normal }
 
 ### 预算追踪
 
@@ -149,7 +149,7 @@ Meow Money Manager 支持多种预算管理，含每天、每周、每月、每�
 - 日均预算
 - 各分类预算使用情况
 
-![Budget Add 主界面](/assets/images/blog/budget_add_detail.webp){: width="180" .normal }
+![Budget Add 主界面：详情](/assets/images/blog/budget_add_detail.webp){: width="180" .normal }
 
 ## 统计与分析
 
@@ -165,7 +165,7 @@ Meow Money Manager 提供多种统计分析功能，帮你了解财务状况。
 - **柱状图统计**：柱状图展示每日或每月收支，帮你了解收支趋势。
 - **日历视图**：日历视图展示每日收支，颜色深浅表示金额大小。
 
-![App 主界面](/assets/images/blog/stats.webp){: width="180" .normal } ![App 主界面](/assets/images/blog/stats_date.webp){: width="180" .normal } ![App 主界面](/assets/images/blog/stats_chart.webp){: width="180" .normal } ![App 主界面](/assets/images/blog/stats_pie.webp){: width="180" .normal } ![App 主界面](/assets/images/blog/stats_hist.webp){: width="180" .normal }
+![App 主界面：统计](/assets/images/blog/stats.webp){: width="180" .normal } ![App 主界面：日期](/assets/images/blog/stats_date.webp){: width="180" .normal } ![App 主界面：图表](/assets/images/blog/stats_chart.webp){: width="180" .normal } ![App 主界面：饼图](/assets/images/blog/stats_pie.webp){: width="180" .normal } ![App 主界面：直方图](/assets/images/blog/stats_hist.webp){: width="180" .normal }
 
 ## 资产管理
 
@@ -181,7 +181,7 @@ Meow Money Manager 支持管理多种资产，如现金、银行卡、信用卡�
 6. 选择资产图标
 7. 点击确认完成资产添加
 
-![Meow Money Manager 主界面与账户总览](/assets/images/blog/assets.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览](/assets/images/blog/assets_add.webp){: width="180" .normal }
+![Meow Money Manager 主界面与账户总览：账户资产（2）](/assets/images/blog/assets.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览：新增](/assets/images/blog/assets_add.webp){: width="180" .normal }
 
 ### 资产详情
 
@@ -190,7 +190,7 @@ Meow Money Manager 支持管理多种资产，如现金、银行卡、信用卡�
 - 资产收支记录
 - 资产趋势图表
 
-![Meow Money Manager 主界面与账户总览](/assets/images/blog/assets_detail.webp){: width="180" .normal } ![Assets Detail 主界面](/assets/images/blog/assets_detail_transfer.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览](/assets/images/blog/assets_curve.webp){: width="180" .normal } ![Assets Curve 主界面](/assets/images/blog/assets_curve_tip.webp){: width="180" .normal }
+![Meow Money Manager 主界面与账户总览：详情](/assets/images/blog/assets_detail.webp){: width="180" .normal } ![Assets Detail 主界面](/assets/images/blog/assets_detail_transfer.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览：趋势曲线](/assets/images/blog/assets_curve.webp){: width="180" .normal } ![Assets Curve 主界面](/assets/images/blog/assets_curve_tip.webp){: width="180" .normal }
 
 ## 账本管理
 
@@ -204,7 +204,7 @@ Meow Money Manager 支持创建多个账本，管理不同类型的收支。
 4. 选择账本图标
 5. 点击确认完成账本创建
 
-![Ledger 主界面](/assets/images/blog/ledger_filter.webp){: width="180" .normal } ![Ledger 主界面](/assets/images/blog/ledger_manage.webp){: width="180" .normal } ![Ledger 主界面](/assets/images/blog/ledger_add.webp){: width="180" .normal }
+![Ledger 主界面](/assets/images/blog/ledger_filter.webp){: width="180" .normal } ![Ledger 主界面：管理](/assets/images/blog/ledger_manage.webp){: width="180" .normal } ![Ledger 主界面：新增](/assets/images/blog/ledger_add.webp){: width="180" .normal }
 
 ### 切换账本
 
@@ -212,7 +212,7 @@ Meow Money Manager 支持创建多个账本，管理不同类型的收支。
 2. 从弹出的账本列表中选择要用的账本
 3. 选择完成后，显示该账本的记账记录
 
-![Meow Money Manager 主界面与账户总览](/assets/images/blog/record_add_ledger.webp){: width="180" .normal }
+![Meow Money Manager 主界面与账户总览：账本（2）](/assets/images/blog/record_add_ledger.webp){: width="180" .normal }
 
 ### 账本统计
 
@@ -221,7 +221,7 @@ Meow Money Manager 支持创建多个账本，管理不同类型的收支。
 - 预算使用情况
 - 详细记账记录
 
-![Ledger Detail 主界面](/assets/images/blog/ledger_detail_record.webp){: width="180" .normal } ![Ledger Detail 主界面](/assets/images/blog/ledger_detail_stats.webp){: width="180" .normal } ![Ledger Detail 主界面](/assets/images/blog/ledger_detail_date.webp){: width="180" .normal }
+![Ledger Detail 主界面](/assets/images/blog/ledger_detail_record.webp){: width="180" .normal } ![Ledger Detail 主界面：统计](/assets/images/blog/ledger_detail_stats.webp){: width="180" .normal } ![Ledger Detail 主界面：日期](/assets/images/blog/ledger_detail_date.webp){: width="180" .normal }
 
 ## 循环交易
 
@@ -240,7 +240,7 @@ Meow Money Manager 支持创建多个账本，管理不同类型的收支。
 9. 设定开始与结束日期
 10. 点击确认完成循环交易设置
 
-![Recurring Add Category 主界面](/assets/images/blog/recurring_add_category_type.webp){: width="180" .normal } ![Recurring Add Category 主界面](/assets/images/blog/recurring_add_category_select.webp){: width="180" .normal } ![Recurring Add 主界面](/assets/images/blog/recurring_add_assets.webp){: width="180" .normal } ![Recurring Add 主界面](/assets/images/blog/recurring_add_ledger.webp){: width="180" .normal } ![Recurring Add 主界面](/assets/images/blog/recurring_add_cycle.webp){: width="180" .normal }
+![Recurring Add Category 主界面](/assets/images/blog/recurring_add_category_type.webp){: width="180" .normal } ![Recurring Add Category 主界面：选择](/assets/images/blog/recurring_add_category_select.webp){: width="180" .normal } ![Recurring Add 主界面](/assets/images/blog/recurring_add_assets.webp){: width="180" .normal } ![Recurring Add 主界面：账本](/assets/images/blog/recurring_add_ledger.webp){: width="180" .normal } ![Recurring Add 主界面：循环周期](/assets/images/blog/recurring_add_cycle.webp){: width="180" .normal }
 
 ### 循环交易管理
 
@@ -249,7 +249,7 @@ Meow Money Manager 支持创建多个账本，管理不同类型的收支。
 - 编辑或删除循环交易任务
 - 手动触发循环交易
 
-![Recurring 主界面](/assets/images/blog/recurring_manage.webp){: width="180" .normal } ![Recurring 主界面](/assets/images/blog/recurring_edit.webp){: width="180" .normal }
+![Recurring 主界面](/assets/images/blog/recurring_manage.webp){: width="180" .normal } ![Recurring 主界面：编辑](/assets/images/blog/recurring_edit.webp){: width="180" .normal }
 
 ## 费用报销
 
@@ -261,7 +261,7 @@ Meow Money Manager 支持创建多个账本，管理不同类型的收支。
 2. 完成其他记账信息
 3. 点击确认完成报销记录添加
 
-![Meow Money Manager 主界面与账户总览](/assets/images/blog/record_add_reimburse.webp){: width="180" .normal }
+![Meow Money Manager 主界面与账户总览：报销](/assets/images/blog/record_add_reimburse.webp){: width="180" .normal }
 
 ### 报销管理
 
@@ -272,7 +272,7 @@ Meow Money Manager 支持创建多个账本，管理不同类型的收支。
 5. 选择报销方式（资产）
 6. 点击确认完成报销
 
-![Meow Money Manager 主界面与账户总览](/assets/images/blog/reimburse_manage.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览](/assets/images/blog/reimburse_refund.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览](/assets/images/blog/reimburse_edit.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览](/assets/images/blog/reimburse_reimburse.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览](/assets/images/blog/reimburse_done.webp){: width="180" .normal }
+![Meow Money Manager 主界面与账户总览：管理](/assets/images/blog/reimburse_manage.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览：退款](/assets/images/blog/reimburse_refund.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览：编辑](/assets/images/blog/reimburse_edit.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览：报销（2）](/assets/images/blog/reimburse_reimburse.webp){: width="180" .normal } ![Meow Money Manager 主界面与账户总览：完成](/assets/images/blog/reimburse_done.webp){: width="180" .normal }
 
 ## 设置
 
@@ -288,7 +288,7 @@ Meow Money Manager 提供多种设置选项，帮你自定义应用功能。
    - 一周起始日设置
    - 一月起始日设置
 
-![App 主界面](/assets/images/blog/setting_dark.webp){: width="180" .normal } ![App 主界面](/assets/images/blog/setting_language.webp){: width="180" .normal } ![Setting Currency 主界面](/assets/images/blog/setting_currency_symbol.webp){: width="180" .normal } ![Setting Week 主界面](/assets/images/blog/setting_week_begin.webp){: width="180" .normal } ![Setting Month 主界面](/assets/images/blog/setting_month_begin.webp){: width="180" .normal }
+![App 主界面：深色模式](/assets/images/blog/setting_dark.webp){: width="180" .normal } ![App 主界面：语言](/assets/images/blog/setting_language.webp){: width="180" .normal } ![Setting Currency 主界面](/assets/images/blog/setting_currency_symbol.webp){: width="180" .normal } ![Setting Week 主界面](/assets/images/blog/setting_week_begin.webp){: width="180" .normal } ![Setting Month 主界面](/assets/images/blog/setting_month_begin.webp){: width="180" .normal }
 
 ### 隐私设置
 
@@ -296,7 +296,7 @@ Meow Money Manager 提供多种设置选项，帮你自定义应用功能。
 2. 开启或关闭指纹应用锁
 3. 设置应用密码（如需）
 
-![App 主界面](/assets/images/blog/setting_lock.webp){: width="180" .normal } ![Setting Lock 主界面](/assets/images/blog/setting_lock_password.webp){: width="180" .normal }
+![App 主界面：应用锁](/assets/images/blog/setting_lock.webp){: width="180" .normal } ![Setting Lock 主界面](/assets/images/blog/setting_lock_password.webp){: width="180" .normal }
 
 ### 备份与恢复
 
@@ -308,7 +308,7 @@ Meow Money Manager 提供多种设置选项，帮你自定义应用功能。
 3. 点击"立即备份"进行手动备份
 4. 点击"恢复"从备份文件恢复数据
 
-![App 主界面](/assets/images/blog/setting_backup.webp){: width="180" .normal } ![Setting Backup 主界面](/assets/images/blog/setting_backup_backup.webp){: width="180" .normal } ![Setting Backup 主界面](/assets/images/blog/setting_backup_restore.webp){: width="180" .normal } ![Setting Backup Restore 主界面](/assets/images/blog/setting_backup_restore_done.webp){: width="180" .normal }
+![App 主界面：备份](/assets/images/blog/setting_backup.webp){: width="180" .normal } ![Setting Backup 主界面](/assets/images/blog/setting_backup_backup.webp){: width="180" .normal } ![Setting Backup 主界面：恢复](/assets/images/blog/setting_backup_restore.webp){: width="180" .normal } ![Setting Backup Restore 主界面](/assets/images/blog/setting_backup_restore_done.webp){: width="180" .normal }
 
 ### 导出数据
 
@@ -317,7 +317,7 @@ Meow Money Manager 提供多种设置选项，帮你自定义应用功能。
 3. 选择导出格式（CSV）
 4. 点击"导出"将数据导出到文件
 
-![App 主界面](/assets/images/blog/setting_export.webp){: width="180" .normal } ![Setting Export 主界面](/assets/images/blog/setting_export_confirm.webp){: width="180" .normal } ![Setting Export 主界面](/assets/images/blog/setting_export_waiting.webp){: width="180" .normal } ![Setting Export 主界面](/assets/images/blog/setting_export_done.webp){: width="180" .normal }
+![App 主界面：导出](/assets/images/blog/setting_export.webp){: width="180" .normal } ![Setting Export 主界面](/assets/images/blog/setting_export_confirm.webp){: width="180" .normal } ![Setting Export 主界面：等待](/assets/images/blog/setting_export_waiting.webp){: width="180" .normal } ![Setting Export 主界面：完成](/assets/images/blog/setting_export_done.webp){: width="180" .normal }
 
 ## 常见问题
 

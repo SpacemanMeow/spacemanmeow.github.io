@@ -232,6 +232,8 @@ Crosshair PRO（Custom Scope）是一款面向 FPS/TPS 爱好者的专业 **叠�
 - 想要 **简洁、干净的 24 样式包** → **CrossAim**
 - 想要 **专注的专业瞄准镜叠加层** → **Crosshair PRO**
 
+把每一款都当作 **Crosshair Hero 替代** 来看：想要动画准星选 **Custom Crosshair 替代**，想从零构建选 **Custom Aim 替代**，想要快速 24 样式包选 **CrossAim 替代**，看重实时定位选 **Crosshair Pro 替代**，想要专业瞄准镜选 **Crosshair PRO 替代**。iOS 用户只有 **Crosshair X 替代** 这一跨平台之选。它们全都是 **自定义准星安卓** 叠加层——免 root，使用安全。
+
 ## 如何摆脱 Crosshair Hero
 
 1. **列出你使用自定义准星的游戏**（如 PUBG Mobile、Free Fire、CODM）。

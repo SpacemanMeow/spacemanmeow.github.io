@@ -1,7 +1,7 @@
 ---
 date: 2026-09-13 09:00:00 +0800
 title: "Floating Assistant vs Assistive Touch：哪款叠层工具？"
-description: "2026 年 Floating Assistant 与 Assistive Touch 深度对比：带时钟与监控的 3 合 1 叠层，对阵经典的免费浮动球按钮应用。功能、价格与按需结论。"
+description: "2026 年 Floating Assistant 与 Assistive Touch 对比：3 合 1 叠层对阵经典浮动球，回答辅助触控替代与 assistive touch 中文替代。"
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Comparison]
 image: /assets/images/apps/floating-assistant/icon.webp
@@ -9,7 +9,7 @@ lang: zh
 last_modified_at: 2026-11-05
 ---
 
-两者都把控件放到你的屏幕之上，但解决的是不同问题。**Floating Assistant** 是一个 3 合 1 叠层——辅助触控、浮动时钟与实时系统监控。**Assistive Touch**（Easy Touch）是经典的浮动导航球。这份 **Floating Assistant vs Assistive Touch** 对比帮你在 2026 年挑选一款 **[叠层小组件](/zh/glossary/what-is-a-floating-window/)** 应用。
+两者都把控件放到你的屏幕之上，但解决的是不同问题。**Floating Assistant** 是一个 3 合 1 叠层——辅助触控、浮动时钟与实时系统监控。**Assistive Touch**（Easy Touch）是经典的浮动导航球。这份 **Floating Assistant vs Assistive Touch** 对比帮你在 2026 年挑选一款 **[叠层小组件](/zh/glossary/what-is-a-floating-window/)** 应用。如果你在找的是不止一颗导航球的 **辅助触控替代**，下面「叠层能力」几行就足够判断。
 
 ## 一览
 
@@ -31,7 +31,7 @@ last_modified_at: 2026-11-05
 
 ## Floating Assistant 详解
 
-![Floating Assistant 悬浮窗主界面](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![辅助触控替代：Floating Assistant 边缘悬浮球](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
 ![Floating Assistant 快捷操作与手势](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
 ![Floating Assistant 自定义菜单与按钮](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
 ![Floating Assistant 辅助功能与选项](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
@@ -114,6 +114,17 @@ Floating Assistant 自我定位为不收集个人数据、核心无广告。Assi
 - **选 Floating Assistant** 如果你想要一个叠层包办导航、浮动时钟与实时系统监控（对游戏与老手机很棒）。
 - **选 Assistive Touch (Easy Touch)** 如果你只想要一个简单的、免费的浮动导航球替换硬件键。
 - **作为全能日常工具**，Floating Assistant 覆盖更广，不必迫使你装多个应用。
+
+## 其它值得考虑的浮动按钮应用
+
+两款对比装不下所有找 **辅助触控替代** 或 **assistive touch 中文替代** 的原因，该换什么取决于你想让这颗球做什么：
+
+- **小米悬浮球替代**、**苹果辅助触控替代**、**小白点替代** 指向的是系统自带或 iOS 式的小白点；迁到安卓后，常见诉求是「能不能自己换菜单、能不能吸附到边缘」。
+- **按钮大师替代** 更偏把物理音量键、电源键重新指派，而不是屏幕上的一颗球。
+- **悬浮助手SoftCircle 替代**、**白开水悬浮助手替代**、**fooview悬浮球替代**、**龙珠悬浮窗替代** 这类搜法，多半来自国内轻量悬浮工具的用户；判断顺序仍是：免不免 root、菜单能否重排、后台是否够轻。
+- 从 **辅助触控替代** 到 **单手操作悬浮球**，真正不变的两问是：每个位置能不能重映射？叠层与无障碍权限有没有说清楚？
+
+完整名单见 [2026 年最佳 Assistive Touch 替代应用](/zh/posts/alternatives-to-assistive-touch/)。
 
 ## 典型场景
 

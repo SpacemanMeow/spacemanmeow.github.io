@@ -7,7 +7,7 @@ tags: [White Noise, Android, Meow FM]
 lang: zh
 author: author_meow_id
 last_modified_at: 2026-11-05
-description: "一份完整的 Meow FM 使用指南——播放平静的环境声、设定睡眠计时器，放松或专注，完全离线。"
+description: "一份完整的 Meow FM 使用指南——播放助眠声音、设定白噪音定时关闭、混音雨声白噪音，熄屏后也能离线播放。"
 image: /assets/images/apps/meow-fm/icon.webp
 ---
 
@@ -27,7 +27,7 @@ image: /assets/images/apps/meow-fm/icon.webp
 
 ## 应用简介
 
-Meow FM 是一款猫主题[白噪音](/zh/glossary/what-is-white-noise/)应用，用于睡眠、放松与专注。播放平静的环境声，让你更快入睡、更久专注，或让嘈杂的房间安静下来。
+Meow FM 是一款猫主题[白噪音](/zh/glossary/what-is-white-noise/)应用，用于睡眠、放松与专注。播放平静的环境声，让你更快入睡、更久专注，或让嘈杂的房间安静下来。它是一款 **离线也能播的白噪音 app**：音源放在设备里，熄屏、飞机上、没信号时照样能用，正是遮住突兀噪音最常被需要的时刻。这份指南会从第一次播放讲到 **白噪音定时关闭**、把 **雨声白噪音** 垫在棕噪音下做混音，再到主屏小组件——全程无需账号。
 
 **🌧 环境声**
 - 一个 **15+ 声音** 的曲库：雨、暴风、森林、壁炉、风、海边、夏夜，等等
@@ -53,7 +53,7 @@ Meow FM 是一款猫主题[白噪音](/zh/glossary/what-is-white-noise/)应用�
 - 再点一次停止
 - 用计时滑块安排自动停止
 
-![Tutorial Fm 电台列表与播放](/assets/images/blog/tutorial_fm_home.webp){: width="180" .normal }
+![Meow FM 主页：猫主题助眠声音电台列表](/assets/images/blog/tutorial_fm_home.webp){: width="180" .normal }
 
 ## 播放环境声
 
@@ -70,7 +70,7 @@ Meow FM 是一款猫主题[白噪音](/zh/glossary/what-is-white-noise/)应用�
 2. 计时归零时播放自动停止
 3. 在入睡前置好，声音就不会整夜响
 
-![Tutorial Fm 电台列表与播放](/assets/images/blog/tutorial_fm_timer.webp){: width="180" .normal }
+![白噪音定时关闭的睡眠计时器](/assets/images/blog/tutorial_fm_timer.webp){: width="180" .normal }
 
 ## 后台与熄屏播放
 
@@ -90,7 +90,7 @@ Meow FM 提供三种可放到主屏的小组件：
 
 从小组件选择器添加，再在组件配置里设定声音。
 
-![Tutorial Fm 电台列表与播放](/assets/images/blog/tutorial_fm_widget.webp){: width="180" .normal }
+![一键播放白噪音的主屏小组件](/assets/images/blog/tutorial_fm_widget.webp){: width="180" .normal }
 
 ## 免费 vs 高级声音
 

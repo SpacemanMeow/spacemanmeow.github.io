@@ -1,7 +1,7 @@
 ---
 date: 2026-04-20 09:00:00 +0800
 title: "Meow Mood：留在你设备上的私密日记"
-description: "2026 年 Meow Mood 与 Day One、Daylio、Apple Journal、Penzu 在隐私上的对比——默认不上传、本机锁与清晰导出。"
+description: "2026 年心情日记隐私对比：Meow Mood 与 Day One、Daylio、Apple Journal、Penzu 在本机存储、应用锁、离线与导出上的差别，含心情日记不订阅之选。"
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Best Apps]
 image: /assets/images/apps/meow-mood-diary/icon.webp
@@ -9,7 +9,7 @@ lang: zh
 last_modified_at: 2026-11-05
 ---
 
-如果隐私比云功能更重要，你需要一款 **私密日记应用**，永不把你的想法发往服务器。**Meow Mood** 正是一款以此承诺为核心的 **[离线心情日记](/zh/glossary/what-is-a-mood-tracker/)**：条目留在你设备，唯一的备份是你自选的 Google Drive。下面它与其它注重隐私的选项对比，以及承诺之前该检查什么。
+如果隐私比云功能更重要，你需要一款 **私密日记应用**，永不把你的想法发往服务器。**Meow Mood** 正是一款以此承诺为核心的 **[离线心情日记](/zh/glossary/what-is-a-mood-tracker/)**：条目留在你设备，唯一的备份是你自选的 Google Drive。下面它与其它注重隐私的选项对比，以及承诺之前该检查什么。这和 **心情日记不订阅** 是两回事：一个问数据存在哪，一个问怎么付费；下面两项都会检查。
 
 ## 一款私密日记需要什么
 
@@ -18,6 +18,17 @@ last_modified_at: 2026-11-05
 - **清晰的导出路径**——PDF 或文本，让你永不被锁定。
 - **离线使用**——在飞机上或没信号时也能写。
 - **你可控的可选同步**——你自己的 Drive，而非强制账号。
+
+## 「私密」到底要你付出什么
+
+**心情日记隐私** 常被当成一个开关，其实是两件事：一是厂商手里没有你的身份（免账号），二是断网时记录照样能写、应用服务器关停后历史照样在。Meow Mood 两者都做——记录不需要注册，也不需要信号；代价是跨设备同步要你自己用自己的 Google Drive 或 WebDav 配好。
+
+在把几年的心情交给任何一款 **日记 app** 之前，有两件事值得先确认：
+
+- **免费档是否同样私密？** 一款 **心情日记不订阅** 的工具，不该把应用锁或日历放进付费墙，否则隐私就成了付费功能。
+- **历史能不能带走？** 能导出文件，才不会因为改价把几年的记录困在里面；纯云端日记往往只给 PDF，再导入别处就麻烦得多。
+
+如果你同时也记习惯，把 Meow Mood Diary 与 Meow Habits 搭着用，两份记录都能留在本机，不必分散到两个账号里。
 
 ## 参赛选手一览
 
@@ -34,8 +45,8 @@ last_modified_at: 2026-11-05
 ![Meow Mood Diary 日记编辑与心情记录](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
 ![Meow Mood Diary 心情选择与标签](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
 ![Meow Mood Diary 统计图表与趋势](/assets/images/apps/meow-mood-diary/3.webp){: width="180" .normal }
-![Meow Mood Diary 日历与历史回顾](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
-![Meow Mood Diary 备份与导出](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
+![离线心情日记的日历与历史回顾](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
+![可导出历史的心情日记备份设置](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
 
 Meow Mood 是一款安卓与 iOS 的 **猫主题心情与日记应用**，以隐私为默认，而非你要去找的设置。
 

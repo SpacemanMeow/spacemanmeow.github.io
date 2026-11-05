@@ -7,7 +7,7 @@ tags: [Crosshair, Android, Crosshair Aim]
 lang: zh
 last_modified_at: 2026-11-05
 author: author_meow_id
-description: "一份完整的 Crosshair 使用指南——为 FPS 游戏添加自定义准星叠层：80+ 样式、缩放/颜色/位置，无需 root。"
+description: "一份完整的 Crosshair 使用指南——为安卓 FPS 游戏添加自定义准星叠层：80+ 样式、缩放/颜色/位置，免 root，免费起步。"
 image: /assets/images/apps/cross-hair/icon.webp
 ---
 
@@ -24,7 +24,7 @@ image: /assets/images/apps/cross-hair/icon.webp
 
 ## 应用简介
 
-Crosshair（Crosshair Aim）为安卓上的 FPS 游戏添加 **[自定义准星叠层](/zh/glossary/what-is-a-crosshair/)**，拥有 **80+ 设计** 来改善你的瞄准。
+Crosshair（Crosshair Aim）为安卓上的 FPS 游戏添加 **[自定义准星叠层](/zh/glossary/what-is-a-crosshair/)**，拥有 **80+ 设计** 来改善你的瞄准——一款免费、且属于 **自定义准星安卓** 的免 root 工具。
 
 **🎯 80+ 样式**
 - 内置 **84 款基础**（扁平）样式
@@ -50,7 +50,7 @@ Crosshair（Crosshair Aim）为安卓上的 FPS 游戏添加 **[自定义准星�
 - 点击 **样式** 区选设计、**颜色** 选颜色，使用 **缩放/透明度** 滑块
 - 设置齿轮可打开语言、评分、分享与升级
 
-![Tutorial Cross 准星叠加主界面](/assets/images/blog/tutorial_cross_home.webp){: width="180" .normal }
+![自定义准星安卓 — 准星叠层主界面](/assets/images/blog/tutorial_cross_home.webp){: width="180" .normal }
 
 ## 授予叠层权限
 
@@ -68,8 +68,8 @@ Crosshair（Crosshair Aim）为安卓上的 FPS 游戏添加 **[自定义准星�
 3. 点击缩略图应用它
 4. 锁定的 Pro 样式会提示看奖励广告或升级
 
-![Tutorial Cross 准星叠加主界面](/assets/images/blog/tutorial_cross_style.webp){: width="180" .normal }
-![Tutorial Cross Style 准星叠加主界面](/assets/images/blog/tutorial_cross_style_advance.webp){: width="180" .normal }
+![自定义准星安卓 — 准星叠层主界面：样式](/assets/images/blog/tutorial_cross_style.webp){: width="180" .normal }
+![自定义准星安卓 — 准星样式](/assets/images/blog/tutorial_cross_style_advance.webp){: width="180" .normal }
 
 ## 自定义大小、颜色、位置
 
@@ -80,7 +80,7 @@ Crosshair（Crosshair Aim）为安卓上的 FPS 游戏添加 **[自定义准星�
 
 **没有独立的粗细滑块**——每款预渲染样式已自带粗细。
 
-![Tutorial Cross 准星叠加主界面](/assets/images/blog/tutorial_cross_color.webp){: width="180" .normal }
+![自定义准星安卓 — 准星叠层主界面：颜色](/assets/images/blog/tutorial_cross_color.webp){: width="180" .normal }
 
 ## 在游戏中使用
 
@@ -89,7 +89,7 @@ Crosshair（Crosshair Aim）为安卓上的 FPS 游戏添加 **[自定义准星�
 3. 准星浮在游戏之上，且 **不** 拦截触摸（所以你的点按仍落在游戏里）
 4. 点击准星打开浮动控制面板：大小 +/−、透明度 +/−、方向键、重置、关闭
 
-![Tutorial Cross 准星叠加主界面](/assets/images/blog/tutorial_cross_game.webp){: width="180" .normal }
+![自定义准星安卓 — 准星叠层主界面：游戏内](/assets/images/blog/tutorial_cross_game.webp){: width="180" .normal }
 
 ## 解锁更多样式
 

@@ -1,7 +1,7 @@
 ---
 date: 2026-03-12 09:00:00 +0800
 title: "无障碍浮动助手：大屏手机上的单手操控"
-description: "2026 年 Floating Assistant 与 Assistive Touch 在无障碍场景下的实用对比——虚拟按键、边缘触及、手势，以及无需物理按键的安卓操控。"
+description: "2026 年边缘悬浮球手势与悬浮助手返回主页最近键对比：Floating Assistant 与 Assistive Touch 在虚拟按键、大目标与权限上的差别。"
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
 image: /assets/images/apps/floating-assistant/icon.webp
@@ -9,7 +9,7 @@ lang: zh
 last_modified_at: 2026-11-05
 ---
 
-大屏手机单手很难操作，有些用户更是根本够不到可靠的物理按键。一个 **[无障碍浮动按钮](/zh/glossary/what-is-a-floating-window/)** 能把手边需要的控制放到拇指可及之处。**Floating Assistant** 正是一款为此而生的安卓 **边缘浮动球应用**。下面我们把它与 **Assistive Touch** 对比，看二者如何实现易用的单手操控。
+大屏手机单手很难操作，有些用户更是根本够不到可靠的物理按键。一个 **[无障碍浮动按钮](/zh/glossary/what-is-a-floating-window/)** 能把手边需要的控制放到拇指可及之处。**Floating Assistant** 正是一款为此而生的安卓 **边缘浮动球应用**。下面我们把它与 **Assistive Touch** 对比，看二者如何实现易用的单手操控。从 **边缘悬浮球手势** 或 **单手操作悬浮球** 搜过来的人，问的其实是同一个「够不够得着」的问题。
 
 ## 一款无障碍工具需要什么
 
@@ -18,6 +18,17 @@ last_modified_at: 2026-11-05
 - **大而清晰的目标**——好点中，不要求高精度。
 - **自定义常用动作**——最常用的几步操作一触即达。
 - **不依赖硬件**——按键尴尬或不可用时仍能工作。
+
+## 无障碍场景真正需要小球做什么
+
+无障碍工具是在物理按键失灵那天被评判的，不是在功能表里。四个实际细节：
+
+- **虚拟按键不能点空**——返回、主页、多任务与锁屏必须是大而分开的目标；**悬浮助手返回主页最近键** 这一排是核心，不是附加项。
+- **边缘可及 + 手势**——**边缘悬浮球手势** 让一次滑动完成精准点按做不到的事；球应能吸附左右任一侧，左手使用不该是事后才想到的功能。
+- **快捷方式可重映射**——**自定义悬浮球快捷方式** 的意义，是把最需要的那一个动作放到第一次点击上，可能是一位联系人、一个开关，或截图键。
+- **权限清楚且最少**——叠层与无障碍服务要用直白的话说明，不需要账号，也不要求 root；超出这一范围就该多问一句。
+
+Floating Assistant 用边缘吸附的球覆盖这四点；Assistive Touch 保留一份更小的固定菜单。两者都不替代系统自带的无障碍设置——它们只是通往这些设置的快捷方式。
 
 ## 参赛选手一览
 
@@ -29,7 +40,7 @@ last_modified_at: 2026-11-05
 
 ## 深入看 Floating Assistant
 
-![Floating Assistant 悬浮窗主界面](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
+![悬浮助手返回主页最近键的大目标虚拟按键](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
 ![Floating Assistant 快捷操作与手势](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
 ![Floating Assistant 自定义菜单与按钮](/assets/images/apps/floating-assistant/3.webp){: width="180" .normal }
 ![Floating Assistant 辅助功能与选项](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }

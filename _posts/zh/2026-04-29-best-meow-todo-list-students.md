@@ -1,7 +1,7 @@
 ---
 date: 2026-04-29 09:00:00 +0800
 title: "Meow Todo 学生版：别错过任何 syllabus 截止日"
-description: "面向学生的 Meow Todo 与 Todoist、Microsoft To Do、TickTick 对比（2026）——免费核心、子任务、提醒、日历视图与无需账号。"
+description: "2026 年学生待办清单推荐：Meow Todo 与 Todoist、Microsoft To Do、TickTick 对比——学生免费待办、待办清单子任务免费、可爱待办app、日历视图与无需账号。"
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
@@ -31,7 +31,7 @@ last_modified_at: 2026-11-05
 
 ## 深入看 Meow Todo
 
-![Meow Todo List 任务列表与今日待办](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
+![学生待办清单 — Meow Todo List 今日待办](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
 ![Meow Todo List 任务编辑与提醒](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
 ![Meow Todo List 清单与标签分组](/assets/images/apps/meow-todo-list/3.webp){: width="180" .normal }
 ![Meow Todo List 日历与时间视图](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
@@ -86,6 +86,16 @@ Todoist 是安装量最大的任务管理器，拥有 3000 万用户信任，带
 
 - **Microsoft To Do** 在微软世界里完全免费，带共享清单与 Outlook 整合——若学校用 Microsoft 365 则理想。
 - **TickTick** 把任务、日历、番茄钟与习惯追踪打包；免费含订阅解锁完整套件。
+
+## 什么样的学生待办清单才好用
+
+**学生待办清单** 和工作用的任务管理器不是一回事：截止日成批涌来，一份作业横跨几周，预算通常是零。比起长长的功能表，三点更要紧：
+
+- **待办清单子任务免费** 就可用——考试周把「查资料、起草、修改、提交」拆开，不该被付费墙挡住。
+- **能摊开整学期的待办清单日历视图**，让第 3 周与第 10 周一起看得见，而不是只能一天天地翻。
+- **可爱待办app** 让你真的愿意打开——如果应用本身像作业，清单到学期中就不更新了。
+
+这也是为什么 **学生免费待办** 里最好用的往往不是功能最强的那款，而是周日晚上你还会打开的那款。
 
 ## 学生该选哪个？
 
