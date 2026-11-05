@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [Mood Diary, Android, Meow Mood]
 lang: zh
 author: author_meow_id
+last_modified_at: 2026-11-05
 description: "一份完整的 Meow Mood Diary 使用指南——一键记录心情、查看日历与趋势统计，数据全部私密存储在设备端。"
 image: /assets/images/apps/meow-mood-diary/icon.webp
 ---
@@ -22,11 +23,12 @@ image: /assets/images/apps/meow-mood-diary/icon.webp
 - [应用锁（VIP）](#应用锁vip)
 - [备份](#备份)
 - [设置](#设置)
+- [典型场景](#典型场景)
 - [常见问题](#常见问题)
 
 ## 应用简介
 
-Meow Mood Diary 是一款安全、私密的心情日记与记录应用，带平静的猫主题界面。
+Meow Mood Diary 是一款安全、私密的[心情日记](/zh/glossary/what-is-a-mood-tracker/)与记录应用，带平静的猫主题界面。
 
 **😺 一键记录**
 - 主屏上五个心情等级"胶囊"
@@ -113,6 +115,13 @@ Meow Mood Diary 是一款安全、私密的心情日记与记录应用，带平�
 
 设置包含语言、一周起始、应用锁（VIP）、小组件、心情图标（VIP）、主题色（VIP）、情绪/情境标签、导出（VIP）、提醒，以及 Google Drive / WebDav。
 
+## 典型场景
+
+- **低落日快速记**——某个难熬的晚上，点一个情绪图标加几个标签即可；不必写段落，于是那些本想跳过的日子也留了下来。
+- **默认私密**——条目锁在（VIP）指纹之后、留在本机；在共享的家庭手机上，除非你主动选 Google Drive，否则想法不会同步到厂商云。
+- **看见规律**——日历与图表暴露「周日低落」或「喝完咖啡飙升」，把模糊的感受变成可行动的东西。
+- **随处离线**——飞机或地铁死角也能记；捕捉当下无需 Wi-Fi。
+
 ## 常见问题
 
 ### 我的日记会被上传到服务器吗？
@@ -127,6 +136,8 @@ Meow Mood Diary 是一款安全、私密的心情日记与记录应用，带平�
 ## 小结
 
 Meow Mood Diary 让每日心情追踪轻松又私密，用清晰的日历与趋势图表帮你看清随着时间推移的情绪。
+
+[Meow Mood Diary App 页](/zh/apps/meow-mood-diary/)——安卓与 iOS 可用。
 
 ## 相关术语
 

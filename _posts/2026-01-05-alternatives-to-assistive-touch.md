@@ -6,9 +6,10 @@ layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Alternatives]
 image: /assets/images/apps/floating-assistant/icon.webp
 lang: en
+last_modified_at: 2026-11-05
 ---
 
-If you want on-screen navigation without hardware keys, these **alternatives to Assistive Touch** go from simple floating balls to full overlays and gesture control. (iPhone users: **AssistiveTouch is built into iOS** — Settings > Accessibility > Touch > AssistiveTouch — so no app is needed.)
+If you want on-screen navigation without hardware keys, these **[alternatives to Assistive Touch](/glossary/what-is-a-floating-window/)** go from simple floating balls to full overlays and gesture control. (iPhone users: **AssistiveTouch is built into iOS** — Settings > Accessibility > Touch > AssistiveTouch — so no app is needed.)
 
 Below we compare six Android tools across price, capabilities and the things that actually matter, so you can pick the right one.
 
@@ -241,6 +242,22 @@ Assistive Touch (smarttool) is a **straightforward floating-touch app** with vir
 3. **Customize the ball or gestures** — add your most-used apps, toggles and screenshot.
 4. **Enable extras you'll use** — Floating Assistant's clock/monitor, or Button Mapper's volume-key shortcuts.
 5. **Review privacy**: prefer apps that don't collect data (Floating Assistant, Button Mapper, All in One Gestures) over ad-heavy clones.
+
+## FAQ
+
+**Is Floating Assistant the best Assistive Touch alternative?**
+If you want one overlay that does assistive touch + a floating clock + live CPU/RAM/battery monitoring with one-tap boost, yes — the other five are single-purpose (ball, gestures, or hardware remap) with no clock or monitor.
+
+**Which Assistive Touch alternative has a floating clock and monitor?**
+Only Floating Assistant. Easy Touch, Assistive Touch and the rest offer virtual buttons or gestures but no clock and no live system readout.
+
+**Which Assistive Touch alternative avoids ads?**
+Floating Assistant (free core, optional unlock), Button Mapper and All in One Gestures (free + Pro, no ads) are the ad-light picks; the Easy Touch / Assistive Touch clones are ad-supported.
+
+**Is there an Assistive Touch for iPhone?**
+Yes — AssistiveTouch is built into iOS (Settings > Accessibility > Touch > AssistiveTouch), so no app is needed on iPhone.
+
+[Get Floating Assistant](/apps/floating-assistant/) — available on Android.
 
 ## Related terms
 

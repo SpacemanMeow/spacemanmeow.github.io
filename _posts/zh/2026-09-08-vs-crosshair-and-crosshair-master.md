@@ -6,9 +6,10 @@ layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Comparison, Crosshair Hero]
 image: /assets/images/apps/cross-hair/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-两者都在游戏上画准星，但适合不同的玩家。**Crosshair Aim** 是一款带游戏内浮动调节器的可自定义 FPS 叠层；**Crosshair Hero** 是点一下就能用的受欢迎预设式准星叠层。这份 **Crosshair Aim vs Crosshair Hero** 对比帮你在 2026 年挑选一款 **自定义准星叠层**。
+两者都在游戏上画准星，但适合不同的玩家。**Crosshair Aim** 是一款带游戏内浮动调节器的可自定义 FPS 叠层；**Crosshair Hero** 是点一下就能用的受欢迎预设式准星叠层。这份 **Crosshair Aim vs Crosshair Hero** 对比帮你在 2026 年挑选一款 **[自定义准星叠层](/zh/glossary/what-is-a-crosshair/)**。
 
 ## 一览
 
@@ -108,6 +109,28 @@ Crosshair Aim 免费核心无广告，额外项需解锁。Crosshair Hero 常由
 - **选 Crosshair Aim** 如果你想要深度、实时控制——自定义大小/颜色/位置、游戏内调节器，以及任意武器的准星。
 - **选 Crosshair Hero** 如果你想要几秒就有一个认得出来的预设准星、且不需要精调。
 - **竞技玩家** 而言，Crosshair Aim 的游戏内调节器与透明度控制让它成为更实用的日常工具。
+
+## 典型场景
+
+- **对局中切枪**——Crosshair Aim 的浮动游戏内调节器让你不离场就能缩小或改色准星，于是狙击手和突进者都能保持精准。
+- **无原生准星**——为出厂不带准星的武器或模式生成准星，于是每一枪都有参照点。
+- **休闲玩家要快速预设**——Crosshair Hero 点一下就用的预设，几秒就让屏幕出现可用准星。
+- **避开广告打扰**——Crosshair Aim 免费核心无广告、需解锁，而许多预设类应用在免费档插广告。
+- **保持游戏安全**——两者都是无 root 叠层，只绘制准星、从不碰游戏文件，于是都不触发反作弊。
+
+## 常见问题（FAQ）
+
+**Crosshair Aim 还是 Crosshair Hero，怎么选？**
+想要深度、实时、游戏内控制（大小/颜色/位置、任意武器的准星）→ Crosshair Aim；想要几秒就有一个认得出来的预设、且不需精调 → Crosshair Hero。
+
+**Crosshair Aim 免费吗？**
+免费。基础样式集合免费且无广告；Pro 解锁完整 80+ 库。
+
+**Crosshair Aim 在 iOS 上能用吗？**
+不能。Crosshair Aim 仅安卓。
+
+**叠层安全吗 / 会被封号吗？**
+两款应用都只在屏幕上绘制准星，不修改游戏数据或内存，于是不会触发反作弊。请在每款游戏的公平规则内使用。
 
 ## 相关术语
 

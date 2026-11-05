@@ -6,9 +6,10 @@ layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
 image: /assets/images/apps/floating-assistant/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-大屏手机单手很难操作，有些用户更是根本够不到可靠的物理按键。一个 **无障碍浮动按钮** 能把手边需要的控制放到拇指可及之处。**Floating Assistant** 正是一款为此而生的安卓 **边缘浮动球应用**。下面我们把它与 **Assistive Touch** 对比，看二者如何实现易用的单手操控。
+大屏手机单手很难操作，有些用户更是根本够不到可靠的物理按键。一个 **[无障碍浮动按钮](/zh/glossary/what-is-a-floating-window/)** 能把手边需要的控制放到拇指可及之处。**Floating Assistant** 正是一款为此而生的安卓 **边缘浮动球应用**。下面我们把它与 **Assistive Touch** 对比，看二者如何实现易用的单手操控。
 
 ## 一款无障碍工具需要什么
 
@@ -81,6 +82,28 @@ Assistive Touch（包名 `mtr.assistivetouch.easytools`）提供屏幕虚拟按�
 - 想要 **简单的免费虚拟按键** → **Assistive Touch**。
 
 [获取 Floating Assistant](/zh/apps/floating-assistant/)——安卓平台可用。
+
+## 典型场景
+
+- **大屏手机单手用**——边缘球把返回/主页/多任务与锁屏送到拇指下，不必拉伸。
+- **硬件键磨损或够不到**——锁屏、截屏、多任务变成屏幕点按，于是失灵的电源键不再是拦路石。
+- **运动或够取受限**——又大又贴拇指的目标，比细小的侧键更不要求精度。
+- **睡前单手**——躺着用球查看或关掉应用，不必双手忙乱。
+- **无广告核心**——核心球免费、可选解锁，于是你躲开其他球的广告墙。
+
+## 常见问题（FAQ）
+
+**Floating Assistant 免费吗？**
+免费。核心边缘浮动球、虚拟按键与手势都免费；可选 VIP 解锁更深的主题与选项。
+
+**无障碍场景 Floating Assistant 还是 Assistive Touch？**
+想要灵活、手势丰富的单手操控 → Floating Assistant；想要简单免费的虚拟按键 → Assistive Touch。
+
+**Floating Assistant 需要 root 吗？**
+不需要。它以辅助功能/叠层服务运行，无需 root。
+
+**Floating Assistant 在 iOS 上能用吗？**
+不能。仅安卓；iOS 在辅助功能设置里已有内置 AssistiveTouch。
 
 ## 相关术语
 

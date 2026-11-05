@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [System Monitor, RAM Booster, CPU Temperature, Android]
 lang: zh
 author: author_meow_id
+last_modified_at: 2026-11-05
 description: "一份完整的 System Monitor 使用指南——只读硬件信息检测：CPU 温度、电池健康、过热报警与实时组件。"
 image: /assets/images/apps/system-monitor/icon.webp
 ---
@@ -20,11 +21,12 @@ image: /assets/images/apps/system-monitor/icon.webp
 - [浮窗](#浮窗)
 - [主屏小组件](#主屏小组件)
 - [设置](#设置)
+- [典型场景](#典型场景)
 - [常见问题](#常见问题)
 
 ## 应用简介
 
-System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **只读硬件信息检测**。它报告你手机内部正在发生什么——它 **不** 清理垃圾或加速 RAM。
+System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **[只读硬件信息检测](/zh/glossary/what-is-a-system-monitor/)**。它报告你手机内部正在发生什么——它 **不** 清理垃圾或加速 RAM。
 
 **🔍 它读取什么（只读）**
 - **CPU** 温度与频率、每核使用率
@@ -103,6 +105,14 @@ System Monitor 是一款 **付费、一次性** 的安卓工具，用于 **只�
 ## 设置
 
 设置包含主题、过热报警、温度单位、刷新率、组件画廊，以及浮窗自动恢复。
+
+## 典型场景
+
+- **游戏时读 CPU 温度**——打开硬件标签（CPU 子标签），盯住温度与每核负载，在降频掉帧前抓到苗头。
+- **护住电池**——在电池子标签查看温度、健康、电压与电量的曲线，数月追踪损耗发展。
+- **不打开也一瞥**——开启浮窗叠层，或在主屏放一个组合组件，抬眼即得实时 CPU/电池/RAM。
+- **设一道热闸**——开启过热报警并设阈值，在手机热到受损前收到警告。
+- **记住它是什么**——记住它只读：不清理垃圾、不释放 RAM，重负载应用得你自己关。
 
 ## 常见问题
 

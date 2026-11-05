@@ -5,7 +5,7 @@ description: "2026 年最佳心情日记与记录应用：该看什么（隐私�
 layout: guide
 image: /assets/images/apps/meow-mood-diary/icon.webp
 tags: [Mood Diary, Android, Meow Mood, App Roundup]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 lang: zh
 ---
 
@@ -15,7 +15,7 @@ lang: zh
 
 在安卓上，本地优先存储加指纹锁意味着你的私密想法除非备份到自己 Google Drive，否则永不离开设备。这比 iOS 更重要——在 iOS 上人们默认一切都在 iCloud。
 
-## 挑选心情日记要看什么
+## 挑选[心情日记](/zh/glossary/what-is-a-mood-tracker/)要看什么
 
 - **隐私与归属**——条目存在本地或你自己的云，而非你无法掌控的厂商服务器。
 - **一键快速记录**——坏日子里，点一个情绪图标，不必写段落。
@@ -40,7 +40,7 @@ lang: zh
 ![Meow Mood Diary 日历与历史回顾](/assets/images/apps/meow-mood-diary/4.webp){: width="180" .normal }
 ![Meow Mood Diary 备份与导出](/assets/images/apps/meow-mood-diary/5.webp){: width="180" .normal }
 
-Meow Mood Diary 是一款安全、私密的心情日记与记录应用，带平静的猫主题界面，用于记录感受、追踪心情。
+Meow Mood Diary 是一款安全、私密的[心情日记](/zh/glossary/what-is-a-mood-tracker/)与记录应用，带平静的猫主题界面，用于记录感受、追踪心情。
 
 - **完全隐私**——条目永不上传到我们的服务器；你只备份到自己 Google Drive。
 - **一键心情记录**——选一个情绪图标；低落日无需长写。
@@ -71,6 +71,27 @@ Meow Mood Diary 是一款安全、私密的心情日记与记录应用，带平�
 - 想要丰富照片记录 + 同步、接受订阅 → Day One。
 - 想要网页 + 旅行地图 → Journey。
 - 只需 30 秒每日心情打卡 → Meow Mood Diary。
+
+## 典型场景
+
+- **低落日快速记**——某个难熬的晚上，点一个情绪图标加几个标签即可；不必写段落，于是那些本想跳过的日子也留了下来。
+- **默认私密**——条目锁在指纹之后、留在本机；在共享的家庭手机上，除非你主动选 Google Drive，否则想法不会同步到厂商云。
+- **看见规律**——日历与图表暴露「周日低落」或「喝完咖啡飙升」，把模糊的感受变成可行动的东西。
+- **随处离线**——飞机或地铁死角也能记；捕捉当下无需 Wi-Fi。
+
+## 常见问题（FAQ）
+
+**Meow Mood Diary 免费吗？**
+核心——快速心情记录、历史、图表与离线使用——都免费起步；少数额外能力在可选的一次性解锁之后。
+
+**Meow Mood Diary 能离线用吗？**
+能。没网、无账号也能记录、查看、编辑；数据留在本机。
+
+**我的日记私密吗？**
+私密——条目永不上传到我们的服务器；你只备份到自己 Google Drive，指纹或密码锁让日记只属于你。
+
+**Meow Mood Diary 和 Day One 怎么选？**
+想要免费、私密、无账号、设备端的心情日记 → Meow Mood Diary；想要丰富照片记录加同步、并愿付订阅 → Day One。
 
 ## 结论
 

@@ -6,9 +6,10 @@ layout: guide
 tags: [Meow Todo, To-Do List, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
 lang: en
+last_modified_at: 2026-11-05
 ---
 
-Between lectures, assignments, and part-time shifts, students need a **task manager** that is fast and free. Syllabus deadlines hide across a dozen courses, group projects span weeks, and a forgotten reading can sink a grade. **Meow Todo** is a **free to-do list app for students** with subtasks, a calendar view, and reminders that survive a busy semester. Here's how it compares with other student-friendly options.
+Between lectures, assignments, and part-time shifts, students need a **[task manager](/glossary/what-is-a-to-do-list/)** that is fast and free. Syllabus deadlines hide across a dozen courses, group projects span weeks, and a forgotten reading can sink a grade. **Meow Todo** is a **[free to-do list](/glossary/what-is-a-to-do-list/) app for students** with subtasks, a calendar view, and reminders that survive a busy semester. Here's how it compares with other student-friendly options.
 
 ## What students actually need
 
@@ -94,6 +95,27 @@ Todoist is the most-installed task manager around, trusted by 30 million users, 
 - Want **one app for tasks, calendar, and focus** → **TickTick**.
 
 [Get Meow Todo](/apps/meow-todo-list/) — available on Android and iOS.
+
+## Typical scenarios
+
+- **Syllabus week** — at the start of term, paste every course deadline into one list, set a daily reminder, and let the calendar view show the whole semester so nothing hides between weeks 3 and 10.
+- **Group project** — split a deliverable into subtasks (research, draft, edit, submit) and export a CSV to share the plan with group mates.
+- **Exam crunch** — use tags and 400+ cute category icons to separate "Lectures", "Assignments", and "Part-time", so a glance shows only what's due now.
+- **No-account peace** — open and start on day one with no sign-up; your plan stays on your device behind a fingerprint lock, safe from a forgotten password.
+
+## FAQ
+
+**Is Meow Todo free for students?**
+Yes — lists, tasks, due dates, and the calendar view are free; unlimited lists, tags, subtasks, CSV export, and app lock sit behind an optional one-time VIP.
+
+**Do I need an account?**
+No. You can start on the first day of term with no sign-up; your tasks stay local behind a fingerprint lock.
+
+**Can I track group projects?**
+Yes — subtasks break a deliverable into steps, and CSV export lets you hand the plan to group mates or keep a printable copy.
+
+**Meow Todo or Todoist for a student?**
+Want free, private, no-account tracking with subtasks and reminders → Meow Todo; want natural-language input, collaboration, and will pay for Pro → Todoist.
 
 ## Related terms
 

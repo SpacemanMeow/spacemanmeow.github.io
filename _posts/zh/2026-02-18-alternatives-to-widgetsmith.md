@@ -6,9 +6,10 @@ layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Alternatives, Widgetsmith]
 image: /assets/images/apps/one-widget/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-WidgetSmith 是最知名的 **iOS 小组件应用**，但它仅限 iPhone，而且即使在 iOS 上，也有用户想要不一样的风格、实时设备数据（电量、内存），或者更大的现成组件库。本指南跨平台对比了 **六款** 主流 **小组件应用**，每一款或因某一项突出优势、或因市场覆盖广而被选中。下面每款应用都会给出真实优点、真实缺点，以及它在人们真正在意的主屏核心能力上的表现——现成预设、自定义编辑器、实时系统数据、天气、健康、照片、交互性与锁屏支持。下载链接在每节末尾。
+WidgetSmith 是最知名的 **iOS 小组件应用**，但它仅限 iPhone，而且即使在 iOS 上，也有用户想要不一样的风格、实时设备数据（电量、内存），或者更大的现成组件库。本指南跨平台对比了 **六款** 主流 **[小组件应用](/zh/glossary/what-is-a-home-screen-widget/)**，每一款或因某一项突出优势、或因市场覆盖广而被选中。下面每款应用都会给出真实优点、真实缺点，以及它在人们真正在意的主屏核心能力上的表现——现成预设、自定义编辑器、实时系统数据、天气、健康、照片、交互性与锁屏支持。下载链接在每节末尾。
 
 ## 为什么要跳出 WidgetSmith
 
@@ -237,6 +238,22 @@ WidgetClub 是一款有质感的组件、壁纸与图标应用，拥有海量目
 - 想 **快速拥有漂亮 iOS 组件与配套主题** → **Color Widgets**。
 - 想要 **与朋友或伴侣的社交 / 宠物组件** → **Widgetable**。
 - 想要 **跨越 iOS 与安卓的可爱、主题驱动组件** → **WidgetClub**。
+
+## 常见问题（FAQ）
+
+**One Widget 算好的安卓 WidgetSmith 替代品吗？**
+算。如果你想要跨 One UI、Material You、Glass、Nothing 四种外观、且无需设计工具的庞大现成安卓组件库，One Widget 是最贴近 WidgetSmith「预设哲学」的安卓原生答案。
+
+**One Widget 能在 iOS 上用吗？**
+不能。One Widget 仅安卓。iOS 上可选本指南里的 Widgy 或 Color Widgets，它们是 WidgetSmith 风格的选法。
+
+**哪款 WidgetSmith 替代品最擅长自定义搭建？**
+KWGT——安卓上最强大的从零编辑器。One Widget 仍基于预设，所以想要完全掌控就选 KWGT。
+
+**One Widget 免费吗？**
+One UI 风格套件免费；另外三种风格通过一次性购买解锁（无订阅）。
+
+[One Widget App 页](/zh/apps/one-widget/)——安卓平台可用。
 
 ## 相关术语
 

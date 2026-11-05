@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [Floating Assistant, Assistive Touch, Android]
 lang: en
 author: author_meow_id
+last_modified_at: 2026-11-05
 description: "A complete Floating Assistant user guide — a floating ball for app launches, system toggles and one-handed control, no root."
 image: /assets/images/apps/floating-assistant/icon.webp
 ---
@@ -22,11 +23,12 @@ image: /assets/images/apps/floating-assistant/icon.webp
 - [Resize, Color, Dock](#resize-color-dock)
 - [One-handed Use](#one-handed-use)
 - [Free vs Pro](#free-vs-pro)
+- [Typical scenarios](#typical-scenarios)
 - [FAQ](#faq)
 
 ## App Introduction
 
-Floating Assistant adds a **floating ball** to Android for quick app launches, system toggles and one-handed control of a large phone.
+Floating Assistant adds a **[floating ball](/glossary/what-is-a-floating-window/)** to Android for quick app launches, system toggles and one-handed control of a large phone.
 
 **🔵 Floating Ball**
 - A draggable ball that stays above any app (no root)
@@ -110,6 +112,14 @@ With the ball you can do HOME / BACK / RECENTS / POWER-DIALOG / LOCK / SCREENSHO
 
 - **Free** shows ads (banner + interstitial)
 - **Pro** is a separate app with **no ads**; the in-app upgrade just opens Google Play for it
+
+## Typical scenarios
+
+- **First-time setup** — turn on Home entry, grant Draw-over-other-apps and Accessibility once, then the ball stays above every app.
+- **One-handed on a big phone** — drag the ball to the bottom edge so back/home/recent and a screenshot land under your thumb.
+- **Lock without the power key** — map a slot to lock the screen and spare the hardware button.
+- **Quick app jumps** — fill the 8 app slots with your daily apps so you skip the home-screen hunt.
+- **Toggle without digging** — drop the 11 system toggle widgets (Wi-Fi, torch, DND…) on the home screen for one-tap control.
 
 ## FAQ
 

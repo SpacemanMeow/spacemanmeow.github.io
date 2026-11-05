@@ -6,9 +6,10 @@ layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Best Apps]
 image: /assets/images/apps/one-widget/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-自 Android 12 起，**Material You** 让系统从壁纸提取调色板，并铺满整个 UI。一款 **Material You 小组件** 应当感觉原生——圆角、配色协调、感知主题。**One Widget** 内置可爱、贴合主题的小组件，跟随你的系统外观。下面我们把它们与 **KWGT** 放到 Material You 风格上对比。
+自 Android 12 起，**Material You** 让系统从壁纸提取调色板，并铺满整个 UI。一款 **[Material You](/zh/glossary/what-is-material-you/) 小组件** 应当感觉原生——圆角、配色协调、感知主题。**One Widget** 内置可爱、贴合主题的小组件，跟随你的系统外观。下面我们把它们与 **KWGT** 放到 Material You 风格上对比。
 
 ## Material You 小组件需要什么
 
@@ -79,6 +80,27 @@ KWGT（Kustom Widget Maker，包名 `org.kustom.widget`）能精确复刻 Materi
 - 想要 **手写动态配色** → **KWGT**。
 
 [获取 One Widget](/zh/apps/one-widget/)——安卓平台可用。
+
+## 典型场景
+
+- **几秒得原生观感**——摆一个时钟或天气组件，它已自动拾取你的壁纸配色与圆角；无需编辑器。
+- **换壁纸即换主题**——因为调色板由壁纸衍生，新壁纸会让所有组件一次换装。
+- **浅/深色跟随系统**——组件随系统主题切换，主屏昼夜都协调。
+- **可爱又不破坏 material**——猫主题风格仍尊重形状与配色语言。
+- **轻且本地**——在本机运行、无账号；不上传任何东西。
+
+## 常见问题（FAQ）
+
+**One Widget 的 Material You 主题免费吗？**
+核心 Material You 匹配组件免费摆放；更深风格与额外组件类型通过可选的一次性 VIP 解锁。
+
+**One Widget 跟随系统浅/深色主题吗？**
+跟随。组件感知主题，随系统浅/深色模式与壁纸衍生配色切换。
+
+**Material You 上 One Widget 还是 KWGT？**
+想要壁纸匹配组件、即放即得、不碰编辑器 → One Widget；想手写动态配色、像素级掌控 → KWGT（Pro 密钥）。
+
+[One Widget App 页](/zh/apps/one-widget/)——安卓平台可用。
 
 ## 相关术语
 

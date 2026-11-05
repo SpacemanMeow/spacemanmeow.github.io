@@ -27,7 +27,7 @@ image: /assets/images/apps/meow-todo-list/icon.webp
 
 ## App Introduction
 
-Meow Todo List is a cute cartoon-style task manager and to-do list for Android and iOS. It helps you capture tasks quickly and review them by day, week, month, or list.
+Meow Todo List is a cute cartoon-style task manager and **[to-do list](/glossary/what-is-a-to-do-list/)** for Android and iOS. It helps you capture tasks quickly and review them by day, week, month, or list.
 
 **📝 Quick Capture**
 
@@ -159,6 +159,13 @@ Settings include:
 - **Week start day** and **language**
 - **Completed tasks** display (shows the last 10 by default, with "show all")
 - **Google Drive / WebDAV** and **Widgets**
+
+## Typical scenarios
+
+- **Exam season** — use the calendar view and daily reminders to keep every course deadline visible, so nothing slips between weeks.
+- **Group project** — create a Book (list) per project and Tags per member, then split work into subtasks and export a CSV to share the plan.
+- **Offline capture** — on a commute with no signal, add tasks instantly; they stay on your device and sync to Google Drive or WebDav only when you're back online.
+- **Privacy-first** — local Room storage plus an optional fingerprint app lock keeps your lists on your phone, not in another cloud account.
 
 ## FAQ
 

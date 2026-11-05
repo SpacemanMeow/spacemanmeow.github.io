@@ -6,6 +6,7 @@ layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Comparison, Day One]
 image: /assets/images/apps/meow-mood-diary/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
 两者都是日记，但满足的需求不同。**Meow Mood** 是一款私密、以情绪为核心的打卡日记，配宁静的猫咪主题界面。**Day One** 则是一款富功能生活日记，带照片、音频与云端同步。这份 **Meow Mood vs Day One** 对比，结合真实定价与隐私差异，帮你在 2026 年挑对 **日记应用**。
@@ -118,6 +119,27 @@ Meow Mood 核心免费；Day One 是约 $35/年的订阅。纯心情追踪，Meo
 - **选 Meow Mood** 若你的目标是私密追踪情绪、看清规律，偏好离线优先的隐私，并想要可爱、快速的每日打卡。
 - **选 Day One** 若你想要一本随处同步、保留带照片文字记录的全功能多媒体日记。
 - **两者互补**：许多用户用 Meow Mood 做每日心情打卡，用 Day One 写更长的日记——但如果只想要一个，让「心情 vs 回忆」这个问题替你决定。
+
+## 典型场景
+
+- **每日心情打卡**——Meow Mood 一键记录适合 20 秒的晚间习惯；Day One 想要更完整的条目，更适合周末回顾。
+- **严格隐私**——Meow Mood 无账号、条目留在本机；Day One 的加密云很出色，但仍是服务器存储。
+- **富回忆留存**——Day One 凭照片、音频与跨设备同步出彩；Meow Mood 刻意保持精简。
+- **两者都用**——许多人用 Meow Mood 记心情、用 Day One 写长文；若只想要一个，让「心情 vs 回忆」替你决定。
+
+## 常见问题（FAQ）
+
+**Meow Mood 还是 Day One，怎么选？**
+想要私密、免费、离线、以情绪为核心的每日打卡 → Meow Mood；想要随处同步的多媒体生活日记 → Day One。
+
+**Meow Mood 免费吗？**
+核心免费；Day One 需用约 $35/年的订阅才能解锁大多数人要的功能。
+
+**Meow Mood 能离线用吗？**
+能。没网、无账号也能记录、查看、编辑；数据留在本机。
+
+**Meow Mood 真的私密吗？**
+真私密——记录永不上传我们的服务器；备份只去你自己的 Google Drive。
 
 ## 相关术语
 

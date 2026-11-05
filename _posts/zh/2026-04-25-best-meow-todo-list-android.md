@@ -6,9 +6,10 @@ layout: guide
 tags: [Meow Todo, To-Do List, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-在安卓上，一款 **待办清单应用** 是你一天打开几十次的东西，所以任务存在哪很重要。有人想要跨设备云同步；有人宁可把任务锁在指纹之后、留在手机里，而不是再建一个账号。**Meow Todo** 是一款安卓与 iOS 的 **免费待办清单**，把任务本地存储并加锁。下面我们从隐私、小组件、同步与价格，对比安卓用户实际会装的应用——**Meow Todo、Todoist、Microsoft To Do、Google Tasks**。
+在安卓上，一款 **[待办清单应用](/zh/glossary/what-is-a-to-do-list/)** 是你一天打开几十次的东西，所以任务存在哪很重要。有人想要跨设备云同步；有人宁可把任务锁在指纹之后、留在手机里，而不是再建一个账号。**Meow Todo** 是一款安卓与 iOS 的 **[免费待办清单](/zh/glossary/what-is-a-to-do-list/)**，把任务本地存储并加锁。下面我们从隐私、小组件、同步与价格，对比安卓用户实际会装的应用——**Meow Todo、Todoist、Microsoft To Do、Google Tasks**。
 
 ## 一款安卓待办应用该做什么
 
@@ -94,6 +95,27 @@ Todoist 是安装量最大的任务管理器，带自然语言输入与深度跨
 - 想要 **最轻量、绑 Gmail 的清单** → **Google Tasks**。
 
 [获取 Meow Todo](/zh/apps/meow-todo-list/)——安卓与 iOS 平台可用。
+
+## 典型场景
+
+- **私密日常记录**——地铁或飞机没信号时也能随手加任务；它们锁在指纹之后、留在设备上，不会上传到又一个云账号。
+- **工作与生活分隔**——用标签与 400+ 可爱分类图标把「工作」「家庭」「旅行」分开，一瞥只看到此刻要紧的事。
+- **学生学期规划**——把课程与作业截止日放进同一份清单，让每日提醒在截止前轻推你；子任务把一个大项目拆开，不再是一面文字墙。
+- **离线优先的旅行**——出发前建好旅行清单；离线勾选，仅回到线上才同步到 Google Drive 或 WebDav。
+
+## 常见问题（FAQ）
+
+**Meow Todo List 免费吗？**
+核心使用免费——清单、任务、提醒与日历视图都免费；无限清单、标签、子任务、CSV 导出与应用锁在可选的一次性 VIP 之后。
+
+**Meow Todo 能离线用吗？**
+能。没网也能添加、勾掉任务；数据留在设备上，仅在你开启备份时才同步到 Google Drive 或 WebDav。
+
+**用 Meow Todo 需要账号吗？**
+不需要。打开即记，无需注册；任务本地留存于指纹锁之后。
+
+**Meow Todo 和 Todoist 怎么选？**
+想要免费、私密、离线友好、无账号的待办清单 → Meow Todo；想要自然语言输入与跨设备实时同步 → Todoist（付费 Pro）。
 
 ## 相关术语
 

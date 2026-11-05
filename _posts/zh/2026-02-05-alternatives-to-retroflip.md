@@ -6,9 +6,10 @@ layout: guide
 tags: [Only Clock, Flip Clock, Android, Alternatives, Retroflip]
 image: /assets/images/apps/only-clock/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-Retroflip 是一款免费、好看的复古 **翻页时钟**，但基本只停留在钟面本身。它 **没有用于专注或睡眠的白噪音、没有悬浮时钟叠加层、没有小组件，也没有 iPhone 版**。如果你想要一款还能放环境音、能浮在其他应用之上、或能跑在 iOS 上的翻页时钟，这个品类已经迅速成熟。
+Retroflip 是一款免费、好看的复古 **[翻页时钟](/zh/glossary/what-is-a-flip-clock/)**，但基本只停留在钟面本身。它 **没有用于专注或睡眠的白噪音、没有悬浮时钟叠加层、没有小组件，也没有 iPhone 版**。如果你想要一款还能放环境音、能浮在其他应用之上、或能跑在 iOS 上的翻页时钟，这个品类已经迅速成熟。
 
 下面我们对比六款强力的 **Retroflip 替代品**——从可爱、功能丰富的全屏时钟，到适合番茄工作法的趣味翻页时钟——从价格、平台以及真正日常有用的功能出发。
 
@@ -237,6 +238,22 @@ Flip Clock — Digital Clock 是一款简单优雅的 iOS **翻页时钟**，带
 3. **设置 12/24 小时与日期显示**，匹配你在 Retroflip 里的习惯。
 4. **加个小组件**（Only Clock、Flip Clock: World Clock 或 iOS 小组件应用）到主屏或锁屏，一眼看时间。
 5. **若需要专注或助眠**，开启白噪音（Only Clock、FliTik）或番茄钟（FliTik、Fullscreen Clock、Flip Clock: World Clock），让时钟不止报时。
+
+## 常见问题（FAQ）
+
+**Only Clock 是最好的 Retroflip 替代品吗？**
+对多数人来说是的。Only Clock 是最接近「全面升级 Retroflip」的选择——在保留翻页钟外观的同时，加上了白噪音、悬浮时钟、小组件与 iOS 支持。
+
+**哪款 Retroflip 替代品带白噪音？**
+Only Clock 与 FliTik 都含环境音；其余四款 iOS 选项都是无声钟。
+
+**哪款 Retroflip 替代品安卓与 iOS 都能用？**
+Only Clock 双平台都跑；Flip Clock: World Clock 仅安卓，其余仅 iOS。
+
+**Only Clock 免费吗？**
+免费。核心钟、主题与白噪音免费可用；一次性或订阅解锁打开最丰富的主题与声音。
+
+[One Clock App 页](/zh/apps/only-clock/)——安卓与 iOS 平台可用。
 
 ## 相关术语
 

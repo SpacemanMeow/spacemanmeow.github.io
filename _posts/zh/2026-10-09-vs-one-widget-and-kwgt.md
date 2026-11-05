@@ -6,9 +6,10 @@ layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Comparison, KWGT]
 image: /assets/images/apps/one-widget/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-两者都自定义你的主屏，但方式不同。**One Widget** 自带 500+ 成品、紧跟潮流的组件，你只需改尺寸、放上去即可。**KWGT**（Kustom Widget Maker）则是一个从零开始的编辑器，你能搭建任何想象得到的组件。这份 **One Widget vs KWGT** 对比，帮你在 2026 年挑对 **安卓组件应用**。
+两者都自定义你的主屏，但方式不同。**One Widget** 自带 500+ 成品、紧跟潮流的组件，你只需改尺寸、放上去即可。**KWGT**（Kustom Widget Maker）则是一个从零开始的编辑器，你能搭建任何想象得到的组件。这份 **One Widget vs KWGT** 对比，帮你在 2026 年挑对 **[安卓组件应用](/zh/glossary/what-is-a-home-screen-widget/)**。
 
 ## 一览
 
@@ -113,6 +114,28 @@ One Widget 的 One UI 免费，其他家族一次性解锁。KWGT 免费可用�
 - **选 One Widget** 若你想几分钟内拥有一个统一、精致的主屏，且偏好精选风格而非设计工具。
 - **选 KWGT** 若你想要完全的创作掌控、实时数据公式，且不介意学习（并花时间）去搭建独特组件。
 - **许多安卓用户两者都留**：One Widget 应付快速、日常的组件，KWGT 则在想要真正自定义时出场。
+
+## 典型场景
+
+- **今晚就要精致主屏**——One Widget 的 500+ 现成组件，挑一下、改尺寸、完成；KWGT 得先来一场搭建。
+- **你爱从零造**——KWGT 的编辑器与 Kode 让你把天气、音乐、自定义公式绑定进独一无二的组件。
+- **你只想要快捷开关**——One Widget 把 Wi-Fi/蓝牙/手电与应用捷径做成组件；无需写脚本。
+- **你要小众实时数据**——KWGT 完整的实时数据绑定，对"正在播放"、天气公式、定制统计无可匹敌。
+- **两者都留**——许多安卓用户用 One Widget 应付日常组件，KWGT 留给真正想要自定义的时刻。
+
+## 常见问题（FAQ）
+
+**One Widget 还是 KWGT，怎么选？**
+想要几分钟就统一、精致的桌面、不碰编辑器 → One Widget；想要完全创作掌控、带实时数据公式、且不介意学习曲线 → KWGT。
+
+**One Widget 免费吗？**
+One UI 风格套件免费；另外三种风格通过一次性购买解锁（无订阅）。
+
+**One Widget 能在 iOS 上用吗？**
+不能。One Widget 仅安卓；KWGT 也仅安卓。iOS 上可看 WidgetSmith。
+
+**KWGT 免订阅吗？**
+KWGT 免费可用、可测试；约 $4.99 的一次性 Pro 密钥去水印、解锁完整导出。无订阅。
 
 ## 相关术语
 

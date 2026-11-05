@@ -6,9 +6,10 @@ layout: guide
 tags: [Only Clock, Flip Clock, Android, Best Apps]
 image: /assets/images/apps/only-clock/icon.webp
 lang: en
+last_modified_at: 2026-11-05
 ---
 
-A spare phone or tablet makes a perfect **nightstand clock**. The **best nightstand clock app** should be dim, readable, and calm — and ideally play sound that masks a partner's snore. **Only Clock** is a **fullscreen flip clock** that fits the bedside. Here's how it compares with the free **Flip Clock** for nightstand use, plus setup and burn-in tips.
+A spare phone or tablet makes a perfect **[nightstand clock](/glossary/what-is-a-nightstand-clock/)**. The **best nightstand clock app** should be dim, readable, and calm — and ideally play sound that masks a partner's snore. **Only Clock** is a **fullscreen flip clock** that fits the bedside. Here's how it compares with the free **Flip Clock** for nightstand use, plus setup and burn-in tips.
 
 ## What a nightstand clock needs
 
@@ -87,6 +88,24 @@ Flip Clock (package `com.wssc.simpleclock`) is a free, ad-free **flip-clock app*
 - Want a **free bare clock** and will manage brightness yourself → **Flip Clock**.
 
 [Get Only Clock](/apps/only-clock/) — available on Android and iOS.
+
+## Typical scenarios
+
+- **Spare phone as a bedside clock** — plug an old phone in by the bed, open Only Clock, and the dim flip face shows the time without lighting up the room.
+- **Mask a snoring partner** — pair the flip clock with built-in white noise (rain, fireplace) so you fall asleep despite the noise.
+- **OLED without ghosting** — the anti-burn-in shift/dim keeps an OLED panel safe through the night.
+- **Kid or guest room** — a cheap spare device becomes a calm, always-on clock with no account and no fuss.
+
+## FAQ
+
+**Is Only Clock free for nightstand use?**
+Yes. The core clock, dim themes and white noise work free; a one-time VIP unlocks the richest themes and sound packs.
+
+**Does Only Clock protect OLED from burn-in?**
+Yes. It offers anti-burn-in clock-shift and dim options so an OLED panel doesn't ghost when left always-on overnight.
+
+**Only Clock or Flip Clock for the bedside?**
+Want a dim, sound-equipped bedside clock with burn-in safety → Only Clock; want a free bare clock and will manage brightness yourself → Flip Clock.
 
 ## Related terms
 

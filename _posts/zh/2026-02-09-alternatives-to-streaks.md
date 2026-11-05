@@ -6,6 +6,7 @@ layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Alternatives]
 image: /assets/images/apps/meow-habits/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
 Streaks 让习惯追踪成为数百万 iPhone 用户每天的仪式——它界面清爽，曾斩获 Apple 设计奖，不断提醒你维持习惯的连续不断。但它确实有明显的局限：**仅支持 iPhone 和 iPad，属于付费买断制、没有免费档，同步被 iCloud 锁定，自定义也只能在苹果生态内完成**。如果你需要安卓支持、跨平台同步、更丰富的统计、免费方案，或者更有趣的界面，那么如今市面上可选的优秀应用已经非常多。
@@ -47,7 +48,7 @@ Streaks 让习惯追踪成为数百万 iPhone 用户每天的仪式——它界�
 ![Meow Habits 统计图表与日历](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
 ![Meow Habits 提醒与设置](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
 
-Meow Habits 是一款以猫为主题的 **习惯追踪应用**，支持 Android 和 iOS。它最突出的特点是 **界面**：可爱、卡通风格的设计，搭配 **500+ 丰富的分类图标**，让每天打卡变得轻松愉快，而不像在应付一项 productivity 任务。除了颜值，它也覆盖了实用的习惯基础功能，而且不强制你注册云端账号。
+Meow Habits 是一款以猫为主题的 **[习惯追踪应用](/zh/glossary/what-is-a-habit-tracker/)**，支持 Android 和 iOS。它最突出的特点是 **界面**：可爱、卡通风格的设计，搭配 **500+ 丰富的分类图标**，让每天打卡变得轻松愉快，而不像在应付一项 productivity 任务。除了颜值，它也覆盖了实用的习惯基础功能，而且不强制你注册云端账号。
 
 **优点**
 - **精美卡通界面 + 500+ 自定义图标**——最鲜明的差异化卖点；打卡这件事在视觉上就很有获得感。
@@ -253,6 +254,22 @@ Habitify 是一款 **跨平台习惯追踪应用**（iOS、Android、网页、We
 3. **重建习惯**——在支持的应用里选择养成或戒除模式，并照抄每个任务的频率。
 4. **设置提醒**，时间与你在 Streaks 里用的保持一致，让新的连续不断能平稳过渡。
 5. **开启备份**（Meow Habits：Google Drive / WebDav；Habitica / Habitify / Fabulous：账号同步），从此不再被锁定。
+
+## 常见问题（FAQ）
+
+**Meow Habits 算好的免费 Streaks 替代品吗？**
+算。它支持安卓与 iOS（Streaks 仅 iOS），核心免费、无需账号，同时支持养成与戒除双模式，并把数据锁在指纹之后、留在本机。
+
+**Meow Habits 能在安卓上用吗？**
+能——安卓完整支持，带 Google Drive 备份，还有主屏小组件可一步打卡。
+
+**哪款 Streaks 替代品最注重隐私？**
+Meow Habits——无需账号、数据本机留存加可选指纹锁，且只在你开启时才备份到你自己的 Google Drive 或 WebDav。
+
+**我能把习惯从 Streaks 搬出来吗？**
+Streaks 没有 CSV 导出，需要手动重建习惯；而 Meow Habits 自身支持 CSV 导出，之后数据始终可带走。
+
+[Meow Habits App 页](/zh/apps/meow-habits/)——安卓与 iOS 可下载。
 
 ## 相关术语
 

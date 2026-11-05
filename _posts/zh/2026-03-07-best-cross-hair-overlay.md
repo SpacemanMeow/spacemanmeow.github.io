@@ -6,9 +6,10 @@ layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Best Apps]
 image: /assets/images/apps/cross-hair/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-除了射击游戏，一个 **自定义准星叠层** 在瞄准训练、模拟器，以及任何需要固定参考点的应用里都很好用。**最佳准星叠层** 应当能导入你自己的图片、设置透明度，并记住每个应用的位置。**Crosshair Aim** 是一款支持 PNG 导入与浮动调节器的安卓 **自定义准星应用**。下面我们把它与 **Crosshair Hero** 对比，看二者在通用叠层场景下的表现。
+除了射击游戏，一个 **[自定义准星叠层](/zh/glossary/what-is-a-crosshair/)** 在瞄准训练、模拟器，以及任何需要固定参考点的应用里都很好用。**最佳准星叠层** 应当能导入你自己的图片、设置透明度，并记住每个应用的位置。**Crosshair Aim** 是一款支持 PNG 导入与浮动调节器的安卓 **自定义准星应用**。下面我们把它与 **Crosshair Hero** 对比，看二者在通用叠层场景下的表现。
 
 ## 一个自定义叠层需要什么
 
@@ -77,6 +78,28 @@ Crosshair Hero（包名 `me.okitastudio.crosshairherofps`）提供预设样式�
 - 想要 **预设 + 自定义 PNG，快速上手** → **Crosshair Hero**。
 
 [获取 Crosshair Aim](/zh/apps/cross-hair/)——安卓平台可用。
+
+## 典型场景
+
+- **瞄准训练与模拟器**——在任何窗口之上都保留一个固定参考点，不限于游戏。
+- **你自己的准星美术**——导入 PNG（VIP），让准星完全贴合你的风格。
+- **按应用记忆位置**——把准星留在你想要的位置，跨应用都保持。
+- **低对比背景**——设好透明度与大小，让它清清楚楚盖在任何屏幕上。
+- **无需 root**——只要标准叠层权限。
+
+## 常见问题（FAQ）
+
+**Crosshair Aim 免费吗？**
+免费。基础样式集合免费；VIP 解锁 PNG 导入与完整 80+ 库。
+
+**Crosshair Aim 还是 Crosshair Hero，怎么选？**
+想要 80+ 样式、实时浮动调节器加 PNG 导入 → Crosshair Aim；想要快速预设加自定义 PNG → Crosshair Hero。
+
+**Crosshair Aim 在 iOS 上能用吗？**
+不能。Crosshair Aim 仅安卓。
+
+**它安全吗 / 会被封号吗？**
+它只是视觉叠层，不修改游戏数据或内存，于是不会触发反作弊。请在每款游戏的公平规则内使用。
 
 ## 相关术语
 

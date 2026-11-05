@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [CPU Monitor, CPU Temperature, Android]
 lang: en
 author: author_meow_id
+last_modified_at: 2026-11-05
 description: "A complete CPU Monitor user guide — real-time CPU temperature, floating window, overheat alarm, history curves and cache clean."
 image: /assets/images/apps/cpu-monitor/icon.webp
 ---
@@ -21,11 +22,12 @@ image: /assets/images/apps/cpu-monitor/icon.webp
 - [History Curves](#history-curves)
 - [Upgrade to Pro](#upgrade-to-pro)
 - [Settings](#settings)
+- [Typical scenarios](#typical-scenarios)
 - [FAQ](#faq)
 
 ## App Introduction
 
-CPU Monitor shows **real-time CPU temperature and frequency, RAM, battery and storage** on Android, with a floating window, widgets, an overheat alarm and history curves.
+CPU Monitor shows **real-time [CPU temperature](/glossary/what-is-a-cpu-temperature-monitor/) and frequency, RAM, battery and storage** on Android, with a floating window, widgets, an overheat alarm and history curves.
 
 **📈 Live Monitoring**
 - CPU temperature & frequency, per-core usage
@@ -89,6 +91,14 @@ Tap **Upgrade** to open the Pro screen: "Powerful System Monitor" removes all ad
 ## Settings
 
 Settings include Upgrade, theme, overheat alarm, temperature unit, refresh rate, and the widget gallery.
+
+## Typical scenarios
+
+- **Watch the heat while gaming** — open the FLOATING tab, grant overlay, and CPU temp/battery float above the game so you pause before throttling.
+- **Catch a charging hotspot** — drop a home-screen CPU widget and set an overheat alarm, then you're warned if the battery cooks.
+- **Find the culprit** — open the history curves after a hot session to see which app spiked the temperature.
+- **Quick clean** — use the CLEAN screen to clear app cache/junk when the phone feels sluggish.
+- **Silence the ads** — tap Upgrade to remove ads and unlock the full Powerful System Monitor toolset.
 
 ## FAQ
 

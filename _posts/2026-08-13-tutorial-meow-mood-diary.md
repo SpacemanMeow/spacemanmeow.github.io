@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [Mood Diary, Android, Meow Mood]
 lang: en
 author: author_meow_id
+last_modified_at: 2026-11-05
 description: "A complete Meow Mood Diary user guide — log moods in one tap, view the calendar and trend stats, all stored privately on device."
 image: /assets/images/apps/meow-mood-diary/icon.webp
 ---
@@ -22,11 +23,12 @@ image: /assets/images/apps/meow-mood-diary/icon.webp
 - [App Lock (VIP)](#app-lock-vip)
 - [Backup](#backup)
 - [Settings](#settings)
+- [Typical scenarios](#typical-scenarios)
 - [FAQ](#faq)
 
 ## App Introduction
 
-Meow Mood Diary is a safe, private mood diary and journaling app with a calming cat-themed interface.
+Meow Mood Diary is a safe, private [mood diary](/glossary/what-is-a-mood-tracker/) and journaling app with a calming cat-themed interface.
 
 **😺 One-tap Logging**
 - Five mood-level "capsules" on the home screen
@@ -113,6 +115,13 @@ Settings → **Google Drive** (sign in, backup / restore / auto) and **WebDav**.
 
 Settings include language, week start, app lock (VIP), widgets, mood icons (VIP), theme color (VIP), emotion/context tags, export (VIP), reminder, and Google Drive / WebDav.
 
+## Typical scenarios
+
+- **A bad-day quick log** — on a rough evening, tap one emotion and a couple of tags; no paragraphs required, so the diary survives the days you'd otherwise skip.
+- **Private by default** — entries stay on-device behind a (VIP) fingerprint lock; on a shared family phone your thoughts never sync to a vendor cloud unless you choose Google Drive.
+- **Spotting the pattern** — calendar and charts surface a 'Sunday blues' or a post-coffee spike, turning vague feelings into something you can act on.
+- **Offline anywhere** — log on a plane or in a subway dead zone; nothing needs Wi-Fi to capture the moment.
+
 ## FAQ
 
 ### Is my diary uploaded to a server?
@@ -127,6 +136,8 @@ Yes — PDF export is a VIP feature.
 ## Summary
 
 Meow Mood Diary makes daily mood tracking effortless and private, with a clear calendar and trend charts to help you understand your emotions over time.
+
+[Meow Mood Diary app page](/apps/meow-mood-diary/) — available on Android and iOS.
 
 ## Related terms
 

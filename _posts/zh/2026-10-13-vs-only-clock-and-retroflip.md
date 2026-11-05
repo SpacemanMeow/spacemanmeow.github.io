@@ -6,9 +6,10 @@ layout: guide
 tags: [Only Clock, Flip Clock, Android, Comparison, Retroflip]
 image: /assets/images/apps/only-clock/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-两者都呈现经典的翻页外观，但附赠的额外功能不同。**Only Clock** 是一款带白噪音与悬浮模式的主题化全屏翻页时钟。**Flip Clock** 则是一款人气免费的翻页时钟应用——简单、全屏、带广告。这份 **Only Clock vs Flip Clock** 对比，帮你在 2026 年挑一款 **翻页时钟应用**。
+两者都呈现经典的翻页外观，但附赠的额外功能不同。**Only Clock** 是一款带白噪音与悬浮模式的主题化全屏翻页时钟。**Flip Clock** 则是一款人气免费的翻页时钟应用——简单、全屏、带广告。这份 **Only Clock vs Flip Clock** 对比，帮你在 2026 年挑一款 **[翻页时钟](/zh/glossary/what-is-a-flip-clock/)应用**。
 
 ## 一览
 
@@ -113,6 +114,24 @@ Only Clock 运行于 Android 与 iOS；Flip Clock 以安卓为主。iPhone 用�
 - **选 Only Clock** 如果你想要主题化视觉、白噪音、悬浮时钟或组件，并支持 iPhone。
 - **选 Flip Clock** 若你只想要一款免费、简单的复古翻页时钟，不需要声音或附加项。
 - **作为一体化床头伴侣**，Only Clock 做的更多；作为光秃秃、怀旧的一只钟，Flip Clock 正合适。
+
+## 典型场景
+
+- **有主题的床头或桌面钟**——Only Clock 的猫咪/天空/太空/熊猫主题让钟成为房间一部分；Flip Clock 守住经典复古脸。
+- **带声音入睡或学习**——只有 Only Clock 加了白噪音，所以若你想让钟也安抚你，它才是选法。
+- **时间浮于其他应用之上**——Only Clock 的悬浮叠层让时间显在视频或笔记之上；Flip Clock 留在应用内。
+- **iPhone 或闲置设备使用**——Only Clock 跑在安卓与 iOS 上，还能把旧手机或 iPad 变成钟；Flip Clock 以安卓为主。
+
+## 常见问题（FAQ）
+
+**Only Clock 还是 Flip Clock，怎么选？**
+想要主题化视觉、白噪音、悬浮时钟或组件，并支持 iPhone → Only Clock；只想要免费、简单复古翻页钟、别无附加 → Flip Clock。
+
+**Only Clock 免费吗？**
+免费。核心钟、主题与白噪音免费可用；一次性或订阅解锁打开最丰富的主题与声音。
+
+**Only Clock 在 iOS 上能用吗？**
+能。Only Clock 同时跑在安卓与 iOS（iPad 也是绝佳的钟显示）。
 
 ## 相关术语
 

@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [Flip Clock, Android, Only Clock]
 lang: en
 author: author_meow_id
+last_modified_at: 2026-11-05
 description: "A complete Only Clock user guide — a beautiful full-screen flip clock, clock widgets, white noise and 12/24-hour display."
 image: /assets/images/apps/only-clock/icon.webp
 ---
@@ -21,11 +22,12 @@ image: /assets/images/apps/only-clock/icon.webp
 - [Floating Clock](#floating-clock)
 - [Spare Phone as a Clock](#spare-phone-as-a-clock)
 - [Free vs Pro](#free-vs-pro)
+- [Typical scenarios](#typical-scenarios)
 - [FAQ](#faq)
 
 ## App Introduction
 
-Only Clock is a beautiful **full-screen flip clock** for Android and iOS — turn any phone or tablet into a desk or nightstand clock.
+Only Clock is a beautiful **full-screen [flip clock](/glossary/what-is-a-flip-clock/)** for Android and iOS — turn any phone or tablet into a desk or nightstand clock.
 
 **🕐 Flip Animation**
 - A smooth page-flip transition as digits change (about 600 ms per digit)
@@ -107,6 +109,13 @@ Because the screen stays awake (`FLAG_KEEP_SCREEN_ON`) and you can place widgets
 
 - **Free** shows ads and gates some themes/fonts/sounds behind reward ads or purchase
 - **Pro** removes ads and unlocks everything
+
+## Typical scenarios
+
+- **A bedside clock from a spare phone** — open Only Clock, plug the phone in by the bed, and the dim flip face shows the time all night with the screen kept awake.
+- **A desk focus anchor** — run the full-screen clock with white noise during a study block; the floating mode keeps the time above notes or a video.
+- **Home-screen at a glance** — add a 4x2 flip widget with seconds, week and date so the time is one look away.
+- **Match the room** — switch Black/White/Sky themes and font/size so the clock fits your setup.
 
 ## FAQ
 

@@ -5,7 +5,7 @@ description: "2026 年最佳安卓待办清单与任务管理应用：该看什�
 layout: guide
 image: /assets/images/apps/meow-todo-list/icon.webp
 tags: [To-Do List, Android, Meow Todo, App Roundup]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-04
 lang: zh
 ---
 
@@ -72,6 +72,13 @@ Meow Todo List 是一款安卓与 iOS 的简易日程规划器与待办清单任
 - 想要内置番茄钟 + 日历 → TickTick。
 - 想要可爱 UI + 离线 + Drive 备份 → Meow Todo List。
 
+## 典型场景
+
+- **学生学期规划**——每天早晨打开主屏小组件，把当天的课程与作业截止日放进同一份清单，让提醒在截止前轻推你；子任务把一个大项目拆开，不再是一面让人发怵的文字墙。
+- **工作与生活分隔**——用 400+ 可爱分类图标与标签，把「工作」「家庭」「旅行」分开，一瞥只看到此刻要紧的事，而不是整个人生一股脑摊开。
+- **离线记录**——地铁或飞机没信号时也能随手加任务；数据先留在设备里，只在回到线上时同步到 Google Drive 或 WebDav，既不丢、也不会流进你没选的云账号。
+- **共享设备隐私**——指纹锁在家庭平板或工作手机上保住你的清单私密。
+
 ## 结论
 
 对多数想要干净、可爱、离线友好任务管理器的安卓用户，Meow Todo List 是最易上手的选择——且免费起步。
@@ -79,6 +86,20 @@ Meow Todo List 是一款安卓与 iOS 的简易日程规划器与待办清单任
 - [Google Play — Meow Todo List](https://play.google.com/store/apps/details?id=com.glgjing.money.task.todo.list.meow)
 - [App Store — Meow Todo List](https://apps.apple.com/app/id6742345495)
 或阅读 [最佳学生待办清单](/zh/posts/best-meow-todo-list-students/) 看完整拆解。
+
+## 常见问题（FAQ）
+
+**Meow Todo List 免费吗？**
+核心的待办、日历、子任务、提醒与 Drive/WebDav 同步都免费起步；少数进阶能力在可选的一次性解锁之后。
+
+**Meow Todo List 能离线用吗？**
+能。没网也能添加、勾掉任务，回到线上再同步到 Google Drive 或 WebDav。
+
+**能一瞥看到整周或整月吗？**
+能——日、周、月日历视图让循环工作清晰可见，不藏事。
+
+**Meow Todo List 和 Todoist 怎么选？**
+想要免费、可爱、离线友好、上手简单的任务管理器 → Meow Todo List；想要自然语言输入和重度团队协作 → Todoist（付费 Pro）。
 
 ## 相关术语
 

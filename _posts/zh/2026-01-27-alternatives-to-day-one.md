@@ -6,11 +6,12 @@ layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Alternatives, Day One]
 image: /assets/images/apps/meow-mood-diary/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
 Day One 是一款强大的日记应用，但它 **约 35 美元/年的订阅** 与「云优先」模式并不适合所有人。如果你想要更私密、更偏心情记录，或者单纯更便宜的方案，日记这个品类里有不少强项应用。
 
-下面我们对比六款 **Day One 的替代品**——从可爱、私密的心情日记，到跨平台日记与极简心情记录——从价格、平台以及真正关键的功能出发。
+下面我们对比六款 **Day One 的替代品**——从可爱、私密的[心情日记](/zh/glossary/what-is-a-mood-tracker/)，到跨平台日记与极简心情记录——从价格、平台以及真正关键的功能出发。
 
 ## 为什么要跳出 Day One
 
@@ -254,6 +255,22 @@ Momento 是一款 **iOS 日记**，从你的记录与关联服务中构建私密
 3. **导入或重建记录**——Journey/Diaro/Grid Diary 支持导入；Meow Mood 则从轻量一键心情记录开始，再补充文字。
 4. 在新应用里 **设置每日提醒**，让习惯在切换后得以延续。
 5. **开启备份**（Meow Mood：你自己的 Google Drive；Journey/Diaro：账号同步），从此不再被锁定。
+
+## 常见问题（FAQ）
+
+**Meow Mood Diary 算好的免费 Day One 替代品吗？**
+算。它核心免费、覆盖安卓与 iOS，永不把记录上传服务器，且只备份到你自己的 Google Drive——如果你更看重隐私与快速心情记录而非富多媒体，它是强选。
+
+**Meow Mood Diary 能离线用吗？**
+能。没网、无账号也能记录、查看、编辑；数据留在本机。
+
+**哪款 Day One 替代品最注重隐私？**
+Meow Mood Diary——无需账号、数据本机留存加可选指纹锁，且只在你开启时才备份到你自己的 Google Drive。
+
+**我能把记录从 Day One 搬出来吗？**
+Day One 可导出 PDF 等格式；Meow Mood 自身也能导出 PDF（CSV 走 VIP），数据始终可带走。
+
+[Meow Mood Diary App 页](/zh/apps/meow-mood-diary/)——安卓与 iOS 可用。
 
 ## 相关术语
 

@@ -6,9 +6,10 @@ layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Best Apps]
 image: /assets/images/apps/cross-hair/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-PUBG Mobile、COD Mobile 这类手机 FPS 会自己画准星，但它不总在你想要的位置。一个 **准星叠层** 能在游戏之上叠一个你说了算的准星——无需 root，只要一个叠层权限。**Crosshair Aim** 是一款安卓 **自定义准星应用**，内置 80+ 样式与一个游戏内浮动调节器。下面我们把它与 **Crosshair Hero** 对比，看谁更适合射击游戏。
+PUBG Mobile、COD Mobile 这类手机 FPS 会自己画准星，但它不总在你想要的位置。一个 **[准星叠层](/zh/glossary/what-is-a-crosshair/)** 能在游戏之上叠一个你说了算的准星——无需 root，只要一个叠层权限。**Crosshair Aim** 是一款安卓 **自定义准星应用**，内置 80+ 样式与一个游戏内浮动调节器。下面我们把它与 **Crosshair Hero** 对比，看谁更适合射击游戏。
 
 ## 一个 FPS 准星叠层需要什么
 
@@ -77,6 +78,28 @@ Crosshair Hero（包名 `me.okitastudio.crosshairherofps`）是一款热门的 *
 - 想要 **快速预设准星** → **Crosshair Hero**。
 
 [获取 Crosshair Aim](/zh/apps/cross-hair/)——安卓平台可用。
+
+## 典型场景
+
+- **默认准星较弱的射击游戏**——PUBG Mobile、COD Mobile 的准星常不在你想要的位置；在之上叠一个你说了算的准星，于是每一枪都对得齐。
+- **对局中切枪**——用浮动调节器实时缩放、改色，无需退出游戏。
+- **低对比地图**——调颜色与透明度，让准星在亮场或暗场都看得见。
+- **保住帧率**——轻量叠层常驻顶层而不拖垮 FPS，于是瞄准辅助不牺牲性能。
+- **设计即安全**——它只绘制准星、不碰游戏数据，于是避开反作弊。
+
+## 常见问题（FAQ）
+
+**Crosshair Aim 免费吗？**
+免费。基础样式集合免费；VIP 解锁完整 80+ 库与更深自定义。
+
+**Crosshair Aim 还是 Crosshair Hero，怎么选？**
+想要 80+ 现成设计、且带实时浮动游戏内调节器 → Crosshair Aim；想要点一下就用的快速预设 → Crosshair Hero。
+
+**Crosshair Aim 在 iOS 上能用吗？**
+不能。Crosshair Aim 仅安卓；iOS 用户可看 Crosshair X，它无安卓版。
+
+**它安全吗 / 会被封号吗？**
+它只是视觉叠层，不修改游戏数据或内存，于是不会触发反作弊。请在每款游戏的公平规则内使用。
 
 ## 相关术语
 

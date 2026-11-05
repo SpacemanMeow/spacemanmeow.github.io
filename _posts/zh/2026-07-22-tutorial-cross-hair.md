@@ -5,6 +5,7 @@ date: 2026-07-22 09:00:00 +0800
 categories: [Tutorial]
 tags: [Crosshair, Android, Crosshair Aim]
 lang: zh
+last_modified_at: 2026-11-05
 author: author_meow_id
 description: "一份完整的 Crosshair 使用指南——为 FPS 游戏添加自定义准星叠层：80+ 样式、缩放/颜色/位置，无需 root。"
 image: /assets/images/apps/cross-hair/icon.webp
@@ -23,7 +24,7 @@ image: /assets/images/apps/cross-hair/icon.webp
 
 ## 应用简介
 
-Crosshair（Crosshair Aim）为安卓上的 FPS 游戏添加 **自定义准星叠层**，拥有 **80+ 设计** 来改善你的瞄准。
+Crosshair（Crosshair Aim）为安卓上的 FPS 游戏添加 **[自定义准星叠层](/zh/glossary/what-is-a-crosshair/)**，拥有 **80+ 设计** 来改善你的瞄准。
 
 **🎯 80+ 样式**
 - 内置 **84 款基础**（扁平）样式

@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [Floating Assistant, Assistive Touch, Android]
 lang: zh
 author: author_meow_id
+last_modified_at: 2026-11-05
 description: "一份完整的 Floating Assistant 使用指南——一颗用于启动应用、系统开关与单手控制的浮动球，无需 root。"
 image: /assets/images/apps/floating-assistant/icon.webp
 ---
@@ -22,11 +23,12 @@ image: /assets/images/apps/floating-assistant/icon.webp
 - [大小、颜色、吸附](#大小颜色吸附)
 - [单手使用](#单手使用)
 - [免费 vs Pro](#免费-vs-pro)
+- [典型场景](#典型场景)
 - [常见问题](#常见问题)
 
 ## 应用简介
 
-Floating Assistant 为安卓添加一颗 **浮动球**，用于快速启动应用、系统开关与大屏手机的单手控制。
+Floating Assistant 为安卓添加一颗 **[浮动球](/zh/glossary/what-is-a-floating-window/)**，用于快速启动应用、系统开关与大屏手机的单手控制。
 
 **🔵 浮动球**
 - 可在任意应用之上拖动的球（无需 root）
@@ -110,6 +112,14 @@ Floating Assistant 为安卓添加一颗 **浮动球**，用于快速启动应�
 
 - **免费** 含广告（横幅 + 插屏）
 - **Pro** 是独立应用，**无广告**；应用内升级只是为它打开 Google Play
+
+## 典型场景
+
+- **首次设置**——打开主页入口，一次性授予「在其他应用上层绘制」与「无障碍」，此后球常驻任意应用之上。
+- **大屏手机单手用**——把球拖到屏幕底部边缘，返回/主页/多任务与截图都落在拇指下。
+- **不按电源键锁屏**——把某个槽映射为锁屏，替下硬件键。
+- **快速跳应用**——把 8 个应用槽填满日常应用，跳过回主屏找图标。
+- **不用深挖的开关**——把 11 个系统开关小组件（Wi-Fi、手电筒、勿扰……）放到主屏，一步控制。
 
 ## 常见问题
 

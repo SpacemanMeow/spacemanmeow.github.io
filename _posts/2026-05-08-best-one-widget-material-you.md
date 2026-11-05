@@ -6,9 +6,10 @@ layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Best Apps]
 image: /assets/images/apps/one-widget/icon.webp
 lang: en
+last_modified_at: 2026-11-05
 ---
 
-Since Android 12, **Material You** lets the system pull a color palette from your wallpaper and spread it across the UI. A **Material You widget** should feel native — rounded, color-matched, and theme-aware. **One Widget** ships cute, theme-friendly widgets that follow your system look. Below we compare it with **KWGT** for Material You styling.
+Since Android 12, **Material You** lets the system pull a color palette from your wallpaper and spread it across the UI. A **[Material You](/glossary/what-is-material-you/) widget** should feel native — rounded, color-matched, and theme-aware. **One Widget** ships cute, theme-friendly widgets that follow your system look. Below we compare it with **KWGT** for Material You styling.
 
 ## What Material You widgets need
 
@@ -79,6 +80,27 @@ KWGT (Kustom Widget Maker, package `org.kustom.widget`) can reproduce Material Y
 - Want **hand-authored dynamic color** → **KWGT**.
 
 [Get One Widget](/apps/one-widget/) — available on Android.
+
+## Typical scenarios
+
+- **Native look in seconds** — drop a clock or weather widget and it already picks up your wallpaper colors and rounded corners; no editor.
+- **Change wallpaper, change theme** — because palettes are wallpaper-derived, a new wallpaper re-themes every widget at once.
+- **Light/dark follows system** — widgets switch with the system theme, so the home screen stays coherent day and night.
+- **Cute without breaking material** — cat-themed styling that still respects the shape and color language.
+- **Light and local** — runs on-device with no account; nothing uploaded.
+
+## FAQ
+
+**Is One Widget's Material You theming free?**
+Core Material You-matched widgets are free to place; deeper styling and extra widget types unlock via an optional one-time VIP.
+
+**Does One Widget follow the system light/dark theme?**
+Yes. Widgets are theme-aware and follow the system light/dark mode and wallpaper-derived colors.
+
+**One Widget or KWGT for Material You?**
+Want wallpaper-matched widgets instantly, no editor → One Widget; want to hand-author dynamic color with pixel control → KWGT (Pro Key).
+
+[One Widget app page](/apps/one-widget/) — available on Android.
 
 ## Related terms
 

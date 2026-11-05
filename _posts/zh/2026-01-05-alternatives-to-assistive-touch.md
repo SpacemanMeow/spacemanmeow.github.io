@@ -6,9 +6,10 @@ layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Alternatives]
 image: /assets/images/apps/floating-assistant/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-如果你想在不依赖实体按键的情况下操作屏幕导航，这些 **Assistive Touch 的替代品** 从简单的悬浮球，到完整的悬浮层与手势控制，应有尽有。（iPhone 用户注意：**AssistiveTouch 已内置在 iOS 中**——路径为「设置 > 辅助功能 > 触控 > AssistiveTouch」——无需额外下载 App。）
+如果你想在不依赖实体按键的情况下操作屏幕导航，这些 **[Assistive Touch 的替代品](/zh/glossary/what-is-a-floating-window/)** 从简单的悬浮球，到完整的悬浮层与手势控制，应有尽有。（iPhone 用户注意：**AssistiveTouch 已内置在 iOS 中**——路径为「设置 > 辅助功能 > 触控 > AssistiveTouch」——无需额外下载 App。）
 
 下面我们从价格、功能以及真正关键的点出发，对比六款安卓工具，帮你选对那一款。
 
@@ -220,6 +221,22 @@ Assistive Touch（smarttool）是一款 **简洁直接的悬浮触控应用**，
 3. **自定义悬浮球或手势**——加入你最常用的应用、开关与截图。
 4. **开启你会用到的附加功能**——比如 Floating Assistant 的时钟/监控，或 Button Mapper 的音量键快捷方式。
 5. **审视隐私**：优先选择不收集数据的应用（Floating Assistant、Button Mapper、All in One Gestures），而非广告泛滥的仿制品。
+
+## 常见问题（FAQ）
+
+**Floating Assistant 是最好的 Assistive Touch 替代品吗？**
+如果你想要一个叠层同时做辅助触控 + 悬浮时钟 + 实时 CPU/RAM/电池监控（含一键加速），是的——其余五款都是单一用途（悬浮球、手势或实体重映射），没有时钟也没有监控。
+
+**哪款 Assistive Touch 替代品带悬浮时钟与监控？**
+只有 Floating Assistant。Easy Touch、Assistive Touch 等提供虚拟按键或手势，但都没有时钟、也没有实时系统读数。
+
+**哪款 Assistive Touch 替代品不打广告？**
+Floating Assistant（免费核心、可选解锁）、Button Mapper 与 All in One Gestures（免费 + 专业版、无广告）是轻广告之选；Easy Touch / Assistive Touch 类仿品靠广告支撑。
+
+**iPhone 有 Assistive Touch 吗？**
+有——AssistiveTouch 已内置在 iOS 中（设置 > 辅助功能 > 触控 > AssistiveTouch），所以 iPhone 上无需下载 App。
+
+[获取 Floating Assistant](/zh/apps/floating-assistant/)——安卓平台可用。
 
 ## 相关术语
 

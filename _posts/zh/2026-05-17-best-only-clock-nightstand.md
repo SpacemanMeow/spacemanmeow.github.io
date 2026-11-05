@@ -6,9 +6,10 @@ layout: guide
 tags: [Only Clock, Flip Clock, Android, Best Apps]
 image: /assets/images/apps/only-clock/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-一部闲置手机或平板是完美的 **床头钟**。一款 **最佳床头钟应用** 应当暗、易读、平静——最好还能放点声音盖住伴侣的鼾声。**Only Clock** 是一款适合床头的 **全屏翻页钟**。下面我们把它与免费的 **Flip Clock** 对比床头用法，外加设置与烧屏建议。
+一部闲置手机或平板是完美的 **[床头钟](/zh/glossary/what-is-a-nightstand-clock/)**。一款 **最佳床头钟应用** 应当暗、易读、平静——最好还能放点声音盖住伴侣的鼾声。**Only Clock** 是一款适合床头的 **全屏翻页钟**。下面我们把它与免费的 **Flip Clock** 对比床头用法，外加设置与烧屏建议。
 
 ## 一款床头钟需要什么
 
@@ -87,6 +88,24 @@ Flip Clock（包名 `com.wssc.simpleclock`）是一款免费、无广告的 **�
 - 想要 **免费裸钟**、且自己管亮度 → **Flip Clock**。
 
 [获取 Only Clock](/zh/apps/only-clock/)——安卓与 iOS 平台可用。
+
+## 典型场景
+
+- **闲置手机当床头钟**——把旧手机插在床边，打开 Only Clock，暗色翻页脸显示时间，却不照亮房间。
+- **盖住伴侣鼾声**——把翻页钟与内置白噪音（雨、壁炉）配对，纵有噪音也能入睡。
+- **OLED 不残影**——防烧屏位移 / 变暗让 OLED 面板安全过夜。
+- **儿童房或客房**——一台便宜的闲置设备变成平静、常亮的钟，无账号、无麻烦。
+
+## 常见问题（FAQ）
+
+**Only Clock 用于床头免费吗？**
+免费。核心钟、暗色主题与白噪音免费可用；一次性 VIP 解锁最丰富的主题与声音包。
+
+**Only Clock 能防 OLED 烧屏吗？**
+能。它提供防烧屏时钟位移与变暗选项，OLED 面板整夜常亮也不残影。
+
+**床头用 Only Clock 还是 Flip Clock？**
+想要暗色、带声音、有烧屏防护的床头钟 → Only Clock；只想要免费裸钟、且自己管亮度 → Flip Clock。
 
 ## 相关术语
 

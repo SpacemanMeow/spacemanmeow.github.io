@@ -6,9 +6,10 @@ layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
 image: /assets/images/apps/floating-assistant/icon.webp
 lang: en
+last_modified_at: 2026-11-05
 ---
 
-Big phones are hard to use one-handed, and some users simply can't reach physical buttons reliably. An **accessibility floating button** puts the controls you need within a thumb's reach. **Floating Assistant** is an **edge floating-ball app for Android** built for exactly this. Below we compare it with **Assistive Touch** for accessible, one-handed control.
+Big phones are hard to use one-handed, and some users simply can't reach physical buttons reliably. An **[accessibility floating button](/glossary/what-is-a-floating-window/)** puts the controls you need within a thumb's reach. **Floating Assistant** is an **edge floating-ball app for Android** built for exactly this. Below we compare it with **Assistive Touch** for accessible, one-handed control.
 
 ## What an accessibility tool needs
 
@@ -81,6 +82,28 @@ Assistive Touch (package `mtr.assistivetouch.easytools`) offers on-screen virtua
 - Want **simple free virtual keys** → **Assistive Touch**.
 
 [Get Floating Assistant](/apps/floating-assistant/) — available on Android.
+
+## Typical scenarios
+
+- **Big phone, one hand** — the edge ball brings back/home/recent and the lock under your thumb, no stretching.
+- **Hardware buttons worn or unreachable** — lock, screenshot and recents become on-screen taps, so a failing power key isn't a blocker.
+- **Motor or reach limits** — large, thumb-placed targets need less precision than the tiny side keys.
+- **Bedtime one-hand** — check or close apps with the ball while lying down, no two-handed juggle.
+- **Ads-free core** — the core ball is free with an optional unlock, so you skip the ad walls of other balls.
+
+## FAQ
+
+**Is Floating Assistant free?**
+Yes. The core edge floating ball, virtual keys and gestures are free; an optional VIP unlock adds deeper themes and options.
+
+**Floating Assistant or Assistive Touch for accessibility?**
+Want flexible, gesture-rich one-handed control → Floating Assistant; want simple, free virtual keys → Assistive Touch.
+
+**Does Floating Assistant need root?**
+No. It runs as an accessibility/overlay service, no root required.
+
+**Does Floating Assistant work on iOS?**
+No. Android-only; iOS has a built-in AssistiveTouch in accessibility settings.
 
 ## Related terms
 

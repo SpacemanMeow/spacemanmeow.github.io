@@ -5,11 +5,11 @@ description: "2026 年最佳安卓浮动助手与辅助触控应用：该看什�
 layout: guide
 image: /assets/images/apps/floating-assistant/icon.webp
 tags: [Floating Assistant, Assistive Touch, Android, App Roundup]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 lang: zh
 ---
 
-一颗浮动球把你最常用的动作一步触达，让大屏手机也能单手操作。这份 2026 指南讲清挑选辅助触控应用要看什么，以及 Floating Assistant 如何与替代应用对比。
+一颗[浮动球](/zh/glossary/what-is-a-floating-window/)把你最常用的动作一步触达，让大屏手机也能单手操作。这份 2026 指南讲清挑选辅助触控应用要看什么，以及 Floating Assistant 如何与替代应用对比。
 
 ## 为什么浮动助手应用在安卓上重要
 
@@ -71,6 +71,28 @@ Floating Assistant 为安卓加上可自定义的浮动球，用于快速启动�
 - 对广告无所谓、想要安装量最大的球 → Assistive Touch。
 - 想要免费的手势 + 球 → Easy Touch。
 - 想要最少广告 + 可选解锁 → Floating Assistant。
+
+## 典型场景
+
+- **大屏手机单手用**——把浮动球放在底部边缘，返回/主页/多任务与截屏都够得着，无需重排握姿。
+- **不按电源键锁屏**——把点按或手势映射为锁屏，减少电源键磨损。
+- **快速跳应用**——把最常用的应用放进球菜单，跳过回主屏找图标。
+- **够到系统开关**——一步到 Wi-Fi、亮度或音量，不必两次滑动。
+- **无广告控制**——核心球免费、可选解锁，于是你躲开其他球的持续广告墙。
+
+## 常见问题（FAQ）
+
+**Floating Assistant 免费吗？**
+免费。核心浮动球、动作与手势都免费；可选 VIP 解锁更深的主题与选项。
+
+**Floating Assistant 还是 Assistive Touch，怎么选？**
+想要可自定义、近乎无广告、动作与手势深入的浮动球 → Floating Assistant；对热门但靠广告支撑的球无所谓 → Assistive Touch (easytools)。
+
+**Floating Assistant 在 iOS 上能用吗？**
+不能。Floating Assistant 仅安卓；iOS 在辅助功能设置里已有内置 AssistiveTouch。
+
+**Floating Assistant 需要 root 吗？**
+不需要。它以辅助功能/叠层服务运行，无需 root。
 
 ## 结论
 

@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [Habit Tracker, Android, Meow Habits]
 lang: en
 author: author_meow_id
+last_modified_at: 2026-11-05
 description: "A complete Meow Habits user guide — build streaks, log daily check-ins, set reminders and review trends in this cute habit tracker."
 image: /assets/images/apps/meow-habits/icon.webp
 ---
@@ -21,11 +22,12 @@ image: /assets/images/apps/meow-habits/icon.webp
 - [Edit, Archive or Delete](#edit-archive-or-delete)
 - [Backup and Export](#backup-and-export)
 - [Settings](#settings)
+- [Typical scenarios](#typical-scenarios)
 - [FAQ](#faq)
 
 ## App Introduction
 
-Meow Habits is a cute habit tracker and routine builder for Android and iOS. Build good habits and break bad ones with streaks, charts, and a calendar heatmap.
+Meow Habits is a cute **[habit tracker](/glossary/what-is-a-habit-tracker/)** and routine builder for Android and iOS. Build good habits and break bad ones with streaks, charts, and a calendar heatmap.
 
 **🐱 500+ Cute Icons**
 - An icon picker with roughly **590 icons** across **14 categories**
@@ -104,6 +106,13 @@ From the check-in 3-dot menu you can **Edit**, **Archive** (keep history but hid
 
 Settings include a VIP banner, **dark mode**, **language**, **week start**, **app lock** (VIP), sound, notifications, **widgets**, Lists, Habits, **Export** (VIP), Google Drive, WebDav, and the Meow family section.
 
+## Typical scenarios
+
+- **Morning routine** — after setup, pin 'Drink water' and 'Stretch' to the home-screen widget and check in from the lock screen so the streak never breaks.
+- **Break a bad habit** — create a 'Stop scrolling' habit with a daily reminder; the calendar heatmap makes a slip visible before it becomes a broken streak.
+- **Review your month** — open the Trend tab to see completion rates and achievements, then use Settings → Export (VIP) to pull a CSV for deeper analysis.
+- **Stay private offline** — everything works with no account; enable Google Drive or WebDav only when you want cross-device backup.
+
 ## FAQ
 
 ### What breaks a streak?
@@ -118,6 +127,8 @@ On your device by default. Use Google Drive or WebDav backup to move it between 
 ## Summary
 
 Meow Habits turns habit-building into a calm daily ritual with cute icons, streaks, and clear trends — and it works fully offline.
+
+[Meow Habits app page](/apps/meow-habits/) — available on Android and iOS.
 
 ## Related terms
 

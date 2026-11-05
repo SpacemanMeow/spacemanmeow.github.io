@@ -6,6 +6,7 @@ layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Comparison]
 image: /assets/images/apps/meow-habits/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
 两者都是习惯追踪器，但面向不同用户。**Meow Habits** 是一款免费核心、跨平台、带 500+ 可爱卡通图标、且同时支持养成 *与* 戒除模式的追踪器。**Streaks** 是一款精致、iOS 专属、用于完成正向任务的极简应用。这份 **Meow Habits vs Streaks** 对比带 2026 价格与真实功能差异，帮你选择。
@@ -36,7 +37,7 @@ lang: zh
 ![Meow Habits 统计图表与日历](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
 ![Meow Habits 提醒与设置](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
 
-Meow Habits 是一款 **习惯追踪器**，围绕友好、猫主题的界面与海量卡通图标构建。它最突出的特质是 **设计**：可爱的视觉与 500+ 丰富卡通图标让每日打卡轻快，而非像苦差。它还同时支持养成好习惯与戒掉坏习惯。
+Meow Habits 是一款 **[习惯追踪器](/zh/glossary/what-is-a-habit-tracker/)**，围绕友好、猫主题的界面与海量卡通图标构建。它最突出的特质是 **设计**：可爱的视觉与 500+ 丰富卡通图标让每日打卡轻快，而非像苦差。它还同时支持养成好习惯与戒掉坏习惯。
 
 ### 优点
 - **500+ 可爱卡通图标**——最清晰的区别；记录有玩心，而非临床。
@@ -119,6 +120,27 @@ Meow Habits 核心免费；Streaks 约 $4.99 一次性。两者都不基于订�
 - **选 Meow Habits** 如果你用安卓或双平台、想追踪戒除习惯、爱可爱图标，或偏好离线/私密追踪与 CSV 导出。
 - **选 Streaks** 如果你只用 iPhone、想要最精致的极简追踪器，且活在苹果生态（HealthKit、Watch、快捷指令）。
 - **对多数跨平台或注重隐私的用户，Meow Habits 覆盖更多情形**；对纯 iOS 极简爱好者，Streaks 仍是更干净的选择。
+
+## 典型场景
+
+- **家里有安卓**——若同住或共事的人用安卓，Meow Habits 是两者中唯一能跑在那里的，共享的日常才能真正共享。
+- **养成与戒除一起**——在同一应用里追踪「学吉他」和「戒深夜零食」；Streaks 为完成正向任务而建，不擅长戒除。
+- **你掌控的隐私**——离线、指纹锁下记录，只在你选择时同步到自己的 Google Drive 或 WebDav，默认不进厂商云。
+- **可爱的一致**——500+ 卡通图标让每日打卡有玩心，于是你持续出现。
+
+## 常见问题（FAQ）
+
+**Meow Habits 和 Streaks 怎么选？**
+想要安卓或双平台、养成+戒除模式、可爱图标与离线/私密追踪 → Meow Habits；想要最精致、纯 iOS 极简、活在苹果生态里的追踪器 → Streaks。
+
+**Meow Habits 免费吗？**
+核心免费——连续、图表、提醒与模板都免费；CSV 导出与少数进阶能力在可选的一次性 VIP 之后。
+
+**Meow Habits 能离线用吗？**
+能。没网、无账号也能打卡；数据留在本机，并在你选择时备份到 Google Drive 或 WebDav。
+
+**Streaks 能戒掉坏习惯吗？**
+不太行——Streaks 为完成正向任务设计；Meow Habits 明确支持养成与戒除双模式。
 
 ## 相关术语
 

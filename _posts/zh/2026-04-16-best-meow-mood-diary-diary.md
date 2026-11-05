@@ -6,9 +6,10 @@ layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Best Apps]
 image: /assets/images/apps/meow-mood-diary/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-一款 **心情日记** 帮你察觉自己感受中的规律——不是靠写长文，而是十秒钟记下一个感觉，让趋势替你说话。**Meow Mood** 是一款安卓与 iOS 的 **私密心情追踪器**，让记录变得轻松：点一个情绪、加点背景，然后看图表。下面我们从心情追踪、隐私、价格与平台，对比人们实际会装的应用——**Meow Mood、Day One、Journey、Daylio、Grid Diary**。
+一款 **[心情日记](/zh/glossary/what-is-a-mood-tracker/)** 帮你察觉自己感受中的规律——不是靠写长文，而是十秒钟记下一个感觉，让趋势替你说话。**Meow Mood** 是一款安卓与 iOS 的 **私密心情追踪器**，让记录变得轻松：点一个情绪、加点背景，然后看图表。下面我们从心情追踪、隐私、价格与平台，对比人们实际会装的应用——**Meow Mood、Day One、Journey、Daylio、Grid Diary**。
 
 ## 一款心情日记该做什么
 
@@ -97,6 +98,27 @@ Day One 是元老级、获奖最多的数字日记——被 *The New York Times*
 - 想要 **提示式结构** → **Grid Diary**。
 
 [获取 Meow Mood](/zh/apps/meow-mood-diary/)——安卓与 iOS 平台可用。
+
+## 典型场景
+
+- **低落日快速记**——某个难熬的晚上，点一个情绪图标加几个标签即可；不必写段落，于是那些本想跳过的日子也留了下来。
+- **默认私密**——条目锁在指纹之后、留在本机；在共享的家庭手机上，除非你主动选 Google Drive，否则想法不会同步到厂商云。
+- **看见规律**——日历与图表暴露「周日低落」或「喝完咖啡飙升」，把模糊的感受变成可行动的东西。
+- **随处离线**——飞机或地铁死角也能记；捕捉当下无需 Wi-Fi。
+
+## 常见问题（FAQ）
+
+**Meow Mood 免费吗？**
+核心——快速心情记录、历史、图表与离线使用——都免费起步；少数额外能力（如 CSV 导出）在可选的一次性 VIP 之后。
+
+**Meow Mood 能离线用吗？**
+能。没网、无账号也能记录、查看、编辑；数据留在本机。
+
+**我的日记私密吗？**
+私密——条目永不上传到我们的服务器；你只备份到自己 Google Drive，指纹或密码锁让日记只属于你。
+
+**Meow Mood 和 Day One 怎么选？**
+想要免费、私密、无账号、设备端的心情日记 → Meow Mood；想要丰富照片记录加同步、并愿付订阅 → Day One。
 
 ## 相关术语
 

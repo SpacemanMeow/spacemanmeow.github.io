@@ -6,9 +6,10 @@ layout: guide
 tags: [Meow Todo, To-Do List, Android, Alternatives, Todoist]
 image: /assets/images/apps/meow-todo-list/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-如果你在挑选 **Todoist 的替代应用**，多半是想要更低的价格、更强的隐私，或更简洁的界面。以下是 2026 年值得一看的 **最佳待办列表应用** 替代品——我们选了七款，或因市场份额高，或因某一项突出优势——并给出详细的优缺点、核心能力对比和直接下载链接。
+如果你在挑选 **Todoist 的替代应用**，多半是想要更低的价格、更强的隐私，或更简洁的界面。以下是 2026 年值得一看的 **[最佳待办列表应用](/zh/glossary/what-is-a-to-do-list/)** 替代品——我们选了七款，或因市场份额高，或因某一项突出优势——并给出详细的优缺点、核心能力对比和直接下载链接。
 
 ## 为什么人们会跳出 Todoist
 
@@ -69,7 +70,7 @@ Microsoft To Do（由微软在 2015 年收购的原 Wunderlist 团队打造）**
 ![Meow Todo List 日历与时间视图](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
 ![Meow Todo List 同步与设置](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
 
-Meow Todo List 是一款以猫为主题的 **任务管理器**，支持 Android 和 iOS。它最突出的特点是 **界面**：可爱、卡通风格的设计，搭配 **400+ 丰富的分类图标**，让每天做规划变得轻松，而不像在加班。除了颜值，它也覆盖了实用的待办基本功。
+Meow Todo List 是一款以猫为主题的 **[任务管理器](/zh/glossary/what-is-a-to-do-list/)**，支持 Android 和 iOS。它最突出的特点是 **界面**：可爱、卡通风格的设计，搭配 **400+ 丰富的分类图标**，让每天做规划变得轻松，而不像在加班。除了颜值，它也覆盖了实用的待办基本功。
 
 **优点**
 - **精美卡通界面 + 400+ 自定义图标**——最鲜明的差异化卖点；记录任务在视觉上就有获得感。
@@ -97,7 +98,7 @@ Meow Todo List 是一款以猫为主题的 **任务管理器**，支持 Android 
 ![TickTick 日历与时间视图](/assets/images/blog/ticktick_todo_4.webp){: width="180" .normal }
 ![TickTick 同步与设置](/assets/images/blog/ticktick_todo_5.webp){: width="180" .normal }
 
-TickTick 是一款强力的 **任务管理器**，内置日历、番茄钟与习惯追踪。它的功能比多数替代品都丰富，价格还低于 Todoist Pro。
+TickTick 是一款强力的 **[任务管理器](/zh/glossary/what-is-a-to-do-list/)**，内置日历、番茄钟与习惯追踪。它的功能比多数替代品都丰富，价格还低于 Todoist Pro。
 
 **优点**
 - **内置日历 + 番茄钟 + 习惯追踪**，一个应用搞定，无需东拼西凑。
@@ -255,6 +256,22 @@ Any.do 把待办清单、日历与规划器连同提醒打包在一起，被数�
 3. **重建你的结构**——清单（To Do、Meow）或项目（Todoist）彼此能干净对应；在 Notion 里则建一个任务数据库。
 4. **重新添加循环任务**与截止日期；设置每日提醒，在支持的情况下再加上位置或语音提醒。
 5. **保留一份 CSV 备份**（Meow Todo 和多数应用都能导出），从此不再被锁定。
+
+## 常见问题（FAQ）
+
+**Meow Todo List 算好的免费 Todoist 替代品吗？**
+算。它的核心（清单、子任务、日历视图、提醒、CSV 导出）免费，无需账号，并可用可选指纹锁把任务留在本机；只有少数进阶能力放在一次性 VIP 之后。
+
+**Meow Todo 能离线用吗？**
+能。没网也能添加、勾掉任务；数据留在设备上，只在你主动选择时同步到 iCloud 或 WebDav。
+
+**哪款 Todoist 替代品最注重隐私？**
+Meow Todo——它无需账号，任务锁在指纹之后、存于本机，且只在你开启时才备份到 iCloud 或 WebDav，因此清单默认不会躺在厂商云里。
+
+**我能把任务从 Todoist 搬出来吗？**
+能。先从 Todoist 导出 CSV，再重建你的清单；Meow Todo 同样支持 CSV 导出，随时可把数据搬到 Excel 或别的应用。
+
+[Meow Todo List App 页](/zh/apps/meow-todo-list/)——安卓与 iOS 可下载。
 
 ## 相关术语
 

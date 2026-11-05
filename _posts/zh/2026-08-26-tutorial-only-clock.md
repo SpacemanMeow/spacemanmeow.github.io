@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [Flip Clock, Android, Only Clock]
 lang: zh
 author: author_meow_id
+last_modified_at: 2026-11-05
 description: "一份完整的 Only Clock 使用指南——一款漂亮的全屏翻页钟、时钟组件、白噪音与 12/24 小时显示。"
 image: /assets/images/apps/only-clock/icon.webp
 ---
@@ -21,11 +22,12 @@ image: /assets/images/apps/only-clock/icon.webp
 - [浮动时钟](#浮动时钟)
 - [用闲置手机当钟](#用闲置手机当钟)
 - [免费 vs Pro](#免费-vs-pro)
+- [典型场景](#典型场景)
 - [常见问题](#常见问题)
 
 ## 应用简介
 
-Only Clock 是一款安卓与 iOS 漂亮的 **全屏翻页钟**——把任何手机或平板变成桌面或床头钟。
+Only Clock 是一款安卓与 iOS 漂亮的 **全屏[翻页钟](/zh/glossary/what-is-a-flip-clock/)**——把任何手机或平板变成桌面或床头钟。
 
 **🕐 翻页动画**
 - 数字变化时的流畅翻页过渡（每个数字约 600 毫秒）
@@ -107,6 +109,13 @@ Only Clock 是一款安卓与 iOS 漂亮的 **全屏翻页钟**——把任何�
 
 - **免费** 含广告，并把部分主题/字体/声音锁在奖励广告或购买之后
 - **Pro** 去广告并解锁全部
+
+## 典型场景
+
+- **闲置手机当床头钟**——打开 Only Clock，把手机插在床边，暗色翻页脸整夜显示时间，屏幕保持常亮。
+- **桌前专注锚点**——学习时段用全屏钟配白噪音；浮窗模式让时间停在笔记或视频之上。
+- **主屏一瞥即达**——加一个带秒、星期、日期的 4x2 翻页组件，时间抬眼便见。
+- **搭配房间**——切换黑/白/天空主题与字体/大小，让钟契合你的布置。
 
 ## 常见问题
 

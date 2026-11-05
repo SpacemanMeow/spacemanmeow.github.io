@@ -6,6 +6,7 @@ layout: guide
 tags: [CPU Monitor, CPU Temperature, Android, Comparison, CPU-Z]
 image: /assets/images/apps/cpu-monitor/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
 两者都读取手机内部，但回答的问题不同。**CPU Monitor** 是为了 *实时盯* 你的设备——游戏或充电时的温度、频率、RAM 与电池。**CPU-Z** 是为了 *一次性识别* 你的设备——一份干净的 SoC、GPU、内存与传感器规格表。这份 **CPU Monitor vs CPU-Z** 对比帮你在 2026 年挑对 **安卓硬件应用**。
@@ -38,7 +39,7 @@ lang: zh
 ![CPU Monitor 设备硬件概览](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
 ![CPU Monitor 实时核心频率详情](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
 
-CPU Monitor 把你的状态栏与主屏变成一块实时仪表盘。它的招牌功能是 **实时 CPU 温度与频率** 配合过热报警，让你在长时间游戏或快充触发降频前就收到警告。
+CPU Monitor 把你的状态栏与主屏变成一块实时仪表盘。它的招牌功能是 **实时 [CPU 温度](/zh/glossary/what-is-a-cpu-temperature-monitor/) 与频率** 配合过热报警，让你在长时间游戏或快充触发降频前就收到警告。
 
 ### 优点
 - **带过热报警的实时温度**——CPU-Z 唯一无法企及的功能；它提醒你关掉重负载应用、降降温。
@@ -117,6 +118,27 @@ CPU Monitor 给你状态栏叠层、桌面浮窗，以及 CPU/RAM/电池主屏�
 - **选 CPU Monitor** 如果你想实时盯温度、频率与 RAM，游戏时收到过热警告，或在主屏留一个浮动组件。
 - **选 CPU-Z** 如果你需要一份可信、详尽的的设备规格表——芯片、GPU、内存、传感器——并且不在乎实时追踪。
 - **重度用户常两者都留**：CPU-Z 应付偶尔的"这手机里有什么？"，CPU Monitor 负责日常热与负载感知。
+
+## 典型场景
+
+- **游戏盯热**——把 CPU Monitor 浮窗压在游戏之上；过热报警让你在降频掉帧前暂停。
+- **一次性识机**——当你只想确认 SoC、GPU 或存储类型（比如买二手），CPU-Z 的规格表几秒给出答案。
+- **充电护盾**——设好电池过热报警，快充发烫时提醒你拔掉。
+- **两者都留**——许多安卓用户用 CPU-Z 应付偶尔识别，用 CPU Monitor 负责日常热感知。
+
+## 常见问题（FAQ）
+
+**CPU Monitor 还是 CPU-Z，怎么选？**
+想要游戏时实时温度、频率、RAM 与过热报警 → CPU Monitor；想要免费、权威的设备规格表 → CPU-Z。
+
+**CPU Monitor 显示随时间的实时温度吗？**
+显示。它把 CPU 与电池温度画成曲线，让你回看整场，而不只是快照。
+
+**CPU-Z 有浮窗或过热报警吗？**
+没有。CPU-Z 是静态读取器——打开它看当前值，但不追踪趋势，也不会报警。
+
+**CPU Monitor 免费吗？**
+免费。核心监控、组件、浮窗与过热报警都免费；可选解锁加深主题与历史。
 
 ## 相关术语
 

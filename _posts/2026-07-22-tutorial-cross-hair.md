@@ -5,6 +5,7 @@ date: 2026-07-22 09:00:00 +0800
 categories: [Tutorial]
 tags: [Crosshair, Android, Crosshair Aim]
 lang: en
+last_modified_at: 2026-11-05
 author: author_meow_id
 description: "A complete Crosshair user guide — add a custom crosshair overlay to FPS games: 80+ styles, scale/color/position, no root."
 image: /assets/images/apps/cross-hair/icon.webp
@@ -23,7 +24,7 @@ image: /assets/images/apps/cross-hair/icon.webp
 
 ## App Introduction
 
-Crosshair (Crosshair Aim) adds a **custom crosshair overlay** to FPS games on Android, with **80+ designs** to improve your aim.
+Crosshair (Crosshair Aim) adds a **[custom crosshair overlay](/glossary/what-is-a-crosshair/)** to FPS games on Android, with **80+ designs** to improve your aim.
 
 **🎯 80+ Styles**
 - **84 Basic** (flat) styles built in

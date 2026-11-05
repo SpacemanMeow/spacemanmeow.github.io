@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [Habit Tracker, Android, Meow Habits]
 lang: zh
 author: author_meow_id
+last_modified_at: 2026-11-05
 description: "一份完整的 Meow Habits 使用指南——在这款可爱的习惯追踪器里建立连续天数、记录每日打卡、设置提醒并查看趋势。"
 image: /assets/images/apps/meow-habits/icon.webp
 ---
@@ -21,11 +22,12 @@ image: /assets/images/apps/meow-habits/icon.webp
 - [编辑、归档或删除](#编辑归档或删除)
 - [备份与导出](#备份与导出)
 - [设置](#设置)
+- [典型场景](#典型场景)
 - [常见问题](#常见问题)
 
 ## 应用简介
 
-Meow Habits 是一款安卓与 iOS 的可爱习惯追踪与日常构建器。用连续天数、图表与日历热力图养成好习惯、戒掉坏习惯。
+Meow Habits 是一款安卓与 iOS 的可爱**[习惯追踪](/zh/glossary/what-is-a-habit-tracker/)**与日常构建器。用连续天数、图表与日历热力图养成好习惯、戒掉坏习惯。
 
 **🐱 500+ 可爱图标**
 - 一个约 **590 个图标**、横跨 **14 个分类** 的图标选择器
@@ -104,6 +106,13 @@ Meow Habits 是一款安卓与 iOS 的可爱习惯追踪与日常构建器。用
 
 设置包含 VIP 横幅、**深色模式**、**语言**、**一周起始**、**应用锁**（VIP）、声音、通知、**小组件**、清单、习惯、**导出**（VIP）、Google Drive、WebDav，以及 Meow 家族区块。
 
+## 典型场景
+
+- **晨间例行**——设置好后把「喝水」「拉伸」钉到主屏小组件，从锁屏就能打卡，连续天数不断。
+- **戒掉坏习惯**——建一个「少刷手机」习惯并设每日提醒；日历热力图在连续崩掉前就让失误现形。
+- **回顾一个月**——打开「趋势」标签看完成率与成就，再用 设置 → 导出（VIP）拉一份 CSV 做更深分析。
+- **离线私密**——一切无需账号即可用；只在想要跨设备备份时才开启 Google Drive 或 WebDav。
+
 ## 常见问题
 
 ### 什么会打断连续天数？
@@ -118,6 +127,8 @@ Meow Habits 是一款安卓与 iOS 的可爱习惯追踪与日常构建器。用
 ## 小结
 
 Meow Habits 用可爱图标、连续天数与清晰趋势，把养成习惯变成平静的日常仪式——并且完全离线可用。
+
+[Meow Habits App 页](/zh/apps/meow-habits/)——安卓与 iOS 可用。
 
 ## 相关术语
 

@@ -5,11 +5,11 @@ description: "The best floating assistant and assistive touch apps for Android i
 layout: guide
 image: /assets/images/apps/floating-assistant/icon.webp
 tags: [Floating Assistant, Assistive Touch, Android, App Roundup]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 lang: en
 ---
 
-A floating ball puts your most-used actions one tap away and makes big phones usable one-handed. This 2026 guide covers what to look for in an assistive-touch app and how Floating Assistant compares to the alternatives.
+A [floating ball](/glossary/what-is-a-floating-window/) puts your most-used actions one tap away and makes big phones usable one-handed. This 2026 guide covers what to look for in an assistive-touch app and how Floating Assistant compares to the alternatives.
 
 ## Why floating assistant app matters on Android
 
@@ -71,6 +71,28 @@ Quick pick by situation:
 - Fine with ads, want the most installed ball → Assistive Touch.
 - Want gestures + ball free → Easy Touch.
 - Want minimal ads + optional unlock → Floating Assistant.
+
+## Typical scenarios
+
+- **Big phone, one hand** — drop the floating ball at the bottom edge so back/home/recent and a screenshot are reachable without reshuffling your grip.
+- **Lock screen without the button** — map a tap or gesture to lock the screen and save wear on the power key.
+- **Quick app jump** — put your most-opened apps in the ball menu to skip the home-screen hunt.
+- **Reach system toggles** — one tap to Wi-Fi, brightness or volume instead of two swipes.
+- **Ads-free control** — the core ball is free with an optional unlock, so you skip the constant ad walls of other balls.
+
+## FAQ
+
+**Is Floating Assistant free?**
+Yes. The core floating ball, actions and gestures are free; an optional VIP unlock adds deeper themes and options.
+
+**Floating Assistant or Assistive Touch — which should I pick?**
+Want a customizable, mostly ad-free floating ball with deep actions and gestures → Floating Assistant; fine with a popular, ad-supported ball → Assistive Touch (easytools).
+
+**Does Floating Assistant work on iOS?**
+No. Floating Assistant is Android-only; iOS already has a built-in AssistiveTouch in accessibility settings.
+
+**Does Floating Assistant need root?**
+No. It runs as an accessibility/overlay service with no root required.
 
 ## Conclusion
 

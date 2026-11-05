@@ -6,9 +6,10 @@ layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Best Apps]
 image: /assets/images/apps/cross-hair/icon.webp
 lang: en
+last_modified_at: 2026-11-05
 ---
 
-Mobile FPS games like PUBG Mobile and COD Mobile draw their own crosshair, and it isn't always where you want it. A **crosshair overlay** puts a reticle you control on top of the game — no root, just an overlay permission. **Crosshair Aim** is a **custom crosshair app** for Android with 80+ styles and an in-game floating adjuster. Below we compare it with **Crosshair Hero** for shooter use.
+Mobile FPS games like PUBG Mobile and COD Mobile draw their own crosshair, and it isn't always where you want it. A **[crosshair overlay](/glossary/what-is-a-crosshair/)** puts a reticle you control on top of the game — no root, just an overlay permission. **Crosshair Aim** is a **custom crosshair app** for Android with 80+ styles and an in-game floating adjuster. Below we compare it with **Crosshair Hero** for shooter use.
 
 ## What an FPS crosshair overlay needs
 
@@ -77,6 +78,28 @@ Crosshair Hero (package `me.okitastudio.crosshairherofps`) is a popular **crossh
 - Want a **quick preset crosshair** → **Crosshair Hero**.
 
 [Get Crosshair Aim](/apps/cross-hair/) — available on Android.
+
+## Typical scenarios
+
+- **Shooters with a weak default reticle** — PUBG Mobile or COD Mobile keep their crosshair off-center; drop a controlled reticle on top so every shot lines up.
+- **Switching weapons mid-match** — resize or recolor the reticle live with the floating adjuster without leaving the game.
+- **Low-contrast maps** — tune color and transparency so the reticle stays visible in bright or dark scenes.
+- **Keep frame rate** — the lightweight overlay stays on top without costing FPS, so aiming help doesn't hurt performance.
+- **Safe by design** — it only draws a reticle and never touches game data, so it stays clear of anti-cheat.
+
+## FAQ
+
+**Is Crosshair Aim free?**
+Yes. The basic style set is free; a VIP unlock opens the full 80+ library and deeper customization.
+
+**Crosshair Aim or Crosshair Hero — which should I pick?**
+Want 80+ ready designs with a live, floating in-game adjuster → Crosshair Aim; want a quick preset you can tap and go → Crosshair Hero.
+
+**Does Crosshair Aim work on iOS?**
+No. Crosshair Aim is Android-only; iOS users can look at Crosshair X, which has no Android build.
+
+**Is it safe / will it get me banned?**
+It's a visual-only overlay that doesn't modify game data or memory, so it doesn't trigger anti-cheat. Use it within each game's fair-play rules.
 
 ## Related terms
 

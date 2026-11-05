@@ -5,11 +5,11 @@ description: "2026 年最佳安卓翻页钟应用：该看什么（翻页动画�
 layout: guide
 image: /assets/images/apps/only-clock/icon.webp
 tags: [Flip Clock, Android, Only Clock, App Roundup]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 lang: zh
 ---
 
-一块全屏翻页钟能把任何手机变成桌面或床头钟——也变成学习的专注计时器。这份 2026 指南讲清挑选翻页钟应用要看什么，以及 Only Clock 如何与 Retroflip 及翻页钟一众对比。
+一块全屏[翻页钟](/zh/glossary/what-is-a-flip-clock/)能把任何手机变成桌面或床头钟——也变成学习的专注计时器。这份 2026 指南讲清挑选翻页钟应用要看什么，以及 Only Clock 如何与 Retroflip 及翻页钟一众对比。
 
 ## 为什么翻页钟应用在安卓上重要
 
@@ -71,6 +71,27 @@ Only Clock 是一款精致的安卓与 iOS 全屏翻页钟，带漂亮的翻页�
 - 仅 iPhone、钟爱复古铬光 → Retroflip。
 - 只想要免费全屏钟 → Flip Clock (simpleclock)。
 - 用专注计时器 + 白噪音学习 → Only Clock。
+
+## 典型场景
+
+- **真正会睡的床头钟**——把闲置手机放床头，打开 Only Clock，翻页动画加自动变暗夜间模式让时间清晰可读，又不照亮房间。
+- **桌前的专注时段**——用全屏钟配白噪音当番茄锚点；大大的翻页让时间变得可触，于是你不再去摸手机。
+- **旧设备再利用**——把不用的手机或 iPad 变成专用桌面钟；12/24 小时与日期选项适配任何布置。
+- **极简主屏**——放一个带日期的时钟组件，替代平淡的数字读数，锁屏上也保留翻页味道。
+
+## 常见问题（FAQ）
+
+**Only Clock 免费吗？**
+免费。Only Clock 可免费下载，核心翻页钟、组件与白噪音无需付费即可用；一次性解锁打开额外主题与选项。
+
+**Only Clock 在 iOS 上能用吗？**
+能。Only Clock 同时跑在安卓与 iOS（App Store），你也可把 iPad 当钟用。
+
+**Only Clock 还是 Retroflip，怎么选？**
+想要安卓上的翻页动画、外加组件、白噪音与专注计时器 → Only Clock；只想要纯复古、仅 iOS、且接受无安卓版 → Retroflip。
+
+**能用旧手机当钟吗？**
+能。Only Clock 为闲置设备而造——把旧手机或 iPad 立在支架上，就成了专用桌面或床头钟。
 
 ## 结论
 

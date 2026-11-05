@@ -6,9 +6,10 @@ layout: guide
 tags: [Only Clock, Flip Clock, Android, Alternatives, Retroflip]
 image: /assets/images/apps/only-clock/icon.webp
 lang: en
+last_modified_at: 2026-11-05
 ---
 
-Retroflip is a free, good-looking retro **flip clock** for Android — but it mostly stops at the clock face. There is **no white noise for focus or sleep, no floating clock overlay, no widgets, and no iPhone version**. If you want a flip clock that also plays ambient sound, sits on top of other apps, or runs on iOS, the category has matured fast.
+Retroflip is a free, good-looking retro **[flip clock](/glossary/what-is-a-flip-clock/)** for Android — but it mostly stops at the clock face. There is **no white noise for focus or sleep, no floating clock overlay, no widgets, and no iPhone version**. If you want a flip clock that also plays ambient sound, sits on top of other apps, or runs on iOS, the category has matured fast.
 
 Below we compare six strong **alternatives to Retroflip** — from a cute, feature-rich fullscreen clock to playful, Pomodoro-friendly flip clocks — across price, platforms and the everyday capabilities that actually matter.
 
@@ -237,6 +238,22 @@ Flip Clock — Digital Clock is a simple, elegant iOS **flip clock** with themes
 3. **Set 12/24-hour and date display** to match what you used in Retroflip.
 4. **Add a widget** (Only Clock, Flip Clock: World Clock, or the iOS widget apps) to your home or lock screen for at-a-glance time.
 5. **If you want focus or sleep help**, turn on white noise (Only Clock, FliTik) or a Pomodoro timer (FliTik, Fullscreen Clock, Flip Clock: World Clock) so the clock does more than tell time.
+
+## FAQ
+
+**Is Only Clock the best Retroflip alternative?**
+For most people, yes. Only Clock is the closest all-round upgrade — it adds white noise, a floating clock, widgets and iOS support while keeping the flip-clock look Retroflip users love.
+
+**Which Retroflip alternative has white noise?**
+Only Clock and FliTik both include ambient sound; the other four iOS options are silent clocks.
+
+**Which Retroflip alternative works on Android and iOS?**
+Only Clock runs on both platforms; Flip Clock: World Clock covers Android only, and the rest are iOS-only.
+
+**Is Only Clock free?**
+Yes. The core clock, themes and white noise work free; a one-time or subscription unlock opens the richest themes and sounds.
+
+[Only Clock app page](/apps/only-clock/) — available on Android and iOS.
 
 ## Related terms
 

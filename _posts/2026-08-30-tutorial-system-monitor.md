@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [System Monitor, RAM Booster, CPU Temperature, Android]
 lang: en
 author: author_meow_id
+last_modified_at: 2026-11-05
 description: "A complete System Monitor user guide — read-only hardware info detection: CPU temp, battery health, overheat alarm and live widgets."
 image: /assets/images/apps/system-monitor/icon.webp
 ---
@@ -20,11 +21,12 @@ image: /assets/images/apps/system-monitor/icon.webp
 - [Floating Window](#floating-window)
 - [Home-screen Widgets](#home-screen-widgets)
 - [Settings](#settings)
+- [Typical scenarios](#typical-scenarios)
 - [FAQ](#faq)
 
 ## App Introduction
 
-System Monitor is a **paid, one-time** Android tool for **read-only hardware info detection**. It reports what is happening inside your phone — it does **not** clean junk or boost RAM.
+System Monitor is a **paid, one-time** Android tool for **[read-only hardware info detection](/glossary/what-is-a-system-monitor/)**. It reports what is happening inside your phone — it does **not** clean junk or boost RAM.
 
 **🔍 What It Reads (read-only)**
 - **CPU** temperature and frequency, per-core usage
@@ -103,6 +105,14 @@ On the **BAT** sub-tab you can see battery **temperature, health status, voltage
 ## Settings
 
 Settings include theme, overheat alarm, temperature unit, refresh rate, widget gallery, and floating auto-restore.
+
+## Typical scenarios
+
+- **Read CPU temp while gaming** — open the Hardware tab (CPU sub-tab) and keep an eye on temperature and per-core load to catch throttling before it drops frames.
+- **Protect the battery** — check the BAT sub-tab's temperature, health, voltage and level curves to watch wear develop over months.
+- **Glance without opening** — enable the Floating overlay or drop a Combine widget on your home screen for live CPU/battery/RAM at a look.
+- **Set a heat guard** — turn on the overheat alarm with a threshold so you're warned before the phone gets damagingly hot.
+- **Know what it isn't** — remember it's read-only: it won't clean junk or free RAM, so close heavy apps yourself.
 
 ## FAQ
 

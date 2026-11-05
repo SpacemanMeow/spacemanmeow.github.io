@@ -6,9 +6,10 @@ layout: guide
 tags: [Meow Todo, To-Do List, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
 lang: en
+last_modified_at: 2026-11-05
 ---
 
-On Android, a **to-do list app** is something you open dozens of times a day, so where your tasks live matters. Some people want cloud sync across every device; others would rather keep tasks on the phone behind a fingerprint than in yet another account. **Meow Todo** is a **free to-do list for Android and iOS** that stores tasks locally with a lock. Below we compare the apps Android users actually install — **Meow Todo, Todoist, Microsoft To Do, and Google Tasks** — across privacy, widgets, sync, and price.
+On Android, a **[to-do list app](/glossary/what-is-a-to-do-list/)** is something you open dozens of times a day, so where your tasks live matters. Some people want cloud sync across every device; others would rather keep tasks on the phone behind a fingerprint than in yet another account. **Meow Todo** is a **[free to-do list](/glossary/what-is-a-to-do-list/) for Android and iOS** that stores tasks locally with a lock. Below we compare the apps Android users actually install — **Meow Todo, Todoist, Microsoft To Do, and Google Tasks** — across privacy, widgets, sync, and price.
 
 ## What an Android to-do app should do
 
@@ -94,6 +95,27 @@ Todoist is the most-installed task manager, with natural-language input and deep
 - Want **the lightest Gmail-tied list** → **Google Tasks**.
 
 [Get Meow Todo](/apps/meow-todo-list/) — available on Android and iOS.
+
+## Typical scenarios
+
+- **Private daily capture** — on the subway or a plane with no signal, add tasks instantly; they stay on your device behind a fingerprint lock, so nothing is uploaded to yet another cloud account.
+- **Work + life split** — use tags and 400+ cute category icons to separate "Work", "Home", and "Trip", so a glance shows only what matters now.
+- **Student semester planning** — drop classes and assignment due dates into one list and let daily reminders nudge you before each deadline; subtasks keep a big project from feeling like a wall of text.
+- **Offline-first travel** — build a trip checklist before you fly; tick items offline and sync to Google Drive or WebDav only when you're back online.
+
+## FAQ
+
+**Is Meow Todo List free?**
+Yes for core use — lists, tasks, reminders, and the calendar view are free; unlimited lists, tags, subtasks, CSV export, and app lock sit behind an optional one-time VIP.
+
+**Does Meow Todo work offline?**
+Yes. You can add and check off tasks with no internet; your data stays on your device and only syncs to Google Drive or WebDav when you enable backup.
+
+**Do I need an account to use Meow Todo?**
+No. You can start immediately with no sign-up; tasks stay local behind a fingerprint lock.
+
+**Meow Todo or Todoist — which should I pick?**
+Want a free, private, offline-friendly, no-account to-do list → Meow Todo; want natural-language input and real-time sync across every device → Todoist (paid Pro).
 
 ## Related terms
 

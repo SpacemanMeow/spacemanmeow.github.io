@@ -6,9 +6,10 @@ layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Comparison]
 image: /assets/images/apps/floating-assistant/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-两者都把控件放到你的屏幕之上，但解决的是不同问题。**Floating Assistant** 是一个 3 合 1 叠层——辅助触控、浮动时钟与实时系统监控。**Assistive Touch**（Easy Touch）是经典的浮动导航球。这份 **Floating Assistant vs Assistive Touch** 对比帮你在 2026 年挑选一款 **叠层小组件** 应用。
+两者都把控件放到你的屏幕之上，但解决的是不同问题。**Floating Assistant** 是一个 3 合 1 叠层——辅助触控、浮动时钟与实时系统监控。**Assistive Touch**（Easy Touch）是经典的浮动导航球。这份 **Floating Assistant vs Assistive Touch** 对比帮你在 2026 年挑选一款 **[叠层小组件](/zh/glossary/what-is-a-floating-window/)** 应用。
 
 ## 一览
 
@@ -113,6 +114,28 @@ Floating Assistant 自我定位为不收集个人数据、核心无广告。Assi
 - **选 Floating Assistant** 如果你想要一个叠层包办导航、浮动时钟与实时系统监控（对游戏与老手机很棒）。
 - **选 Assistive Touch (Easy Touch)** 如果你只想要一个简单的、免费的浮动导航球替换硬件键。
 - **作为全能日常工具**，Floating Assistant 覆盖更广，不必迫使你装多个应用。
+
+## 典型场景
+
+- **不用硬件键也能导航**——Floating Assistant 的辅助触控球把返回/主页/多任务/锁屏/截图送到拇指下，替下磨损的按键。
+- **让时间常驻可见**——它的浮动时钟停在任何应用或游戏之上，作床头或桌面伴侣很方便。
+- **游戏时盯着热量**——实时 CPU/RAM/电池监控与一键加速在长时段有用；Assistive Touch 什么都看不到。
+- **一个叠层，而非三个应用**——触控、时钟与监控收进单一浮动层，不必同时摆弄多款工具。
+- **隐私优先**——无障碍仅用于所列控件、不收集个人数据，不像靠广告支撑的球。
+
+## 常见问题（FAQ）
+
+**Floating Assistant 还是 Assistive Touch，怎么选？**
+想要一个叠层同时做辅助触控 + 浮动时钟 + 实时系统监控 → Floating Assistant；只想要简单免费的导航球 → Assistive Touch (Easy Touch)。
+
+**Floating Assistant 带浮动时钟吗？**
+带。不像 Assistive Touch，它把时钟停在其它应用之上——作床头或桌面一瞥很实用。
+
+**Floating Assistant 监控 CPU/RAM/电池吗？**
+监控，实时。它显示 CPU 温度/使用率、RAM 与电池，并提供一键加速；Assistive Touch 没有系统监控。
+
+**Floating Assistant 免费吗？**
+免费。核心叠层免费；可选解锁加深主题与模块。
 
 ## 相关术语
 

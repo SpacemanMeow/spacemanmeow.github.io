@@ -6,9 +6,10 @@ layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Best Apps]
 image: /assets/images/apps/meow-habits/icon.webp
 lang: zh
+last_modified_at: 2026-11-05
 ---
 
-养成习惯，核心大多是每天出现，而合适的应用能让这件事让人满足，而不是压力山大。**Meow Habits** 是一款安卓与 iOS 的 **可爱习惯追踪器**，把日常变成分数、图表与每日小胜利。下面我们把人们实际会装的应用——**Meow Habits、Streaks、Habitica、Loop**——放到养成/戒除模式、平台、隐私与价格上对比。
+养成习惯，核心大多是每天出现，而合适的应用能让这件事让人满足，而不是压力山大。**Meow Habits** 是一款安卓与 iOS 的 **[可爱习惯追踪器](/zh/glossary/what-is-a-habit-tracker/)**，把日常变成分数、图表与每日小胜利。下面我们把人们实际会装的应用——**Meow Habits、Streaks、Habitica、Loop**——放到养成/戒除模式、平台、隐私与价格上对比。
 
 ## 一款习惯追踪器该做什么
 
@@ -36,7 +37,7 @@ lang: zh
 ![Meow Habits 统计图表与日历](/assets/images/apps/meow-habits/4.webp){: width="180" .normal }
 ![Meow Habits 提醒与设置](/assets/images/apps/meow-habits/5.webp){: width="180" .normal }
 
-Meow Habits 是一款安卓与 iOS 的 **猫主题习惯追踪器**。核心——追踪、连续天数与图表——免费；VIP 增加 CSV 导出与额外自定义。
+Meow Habits 是一款安卓与 iOS 的 **[猫主题习惯追踪器](/zh/glossary/what-is-a-habit-tracker/)**。核心——追踪、连续天数与图表——免费；VIP 增加 CSV 导出与额外自定义。
 
 **优势**
 - **跨平台**——Android 与 iOS 同一款应用，这很少见（Streaks 仅 iOS，Loop 仅安卓）。
@@ -94,6 +95,27 @@ Streaks（Crunchy Bagel 出品）是 **Apple 设计奖得主**，也是 iOS 上�
 - 想要 **极简开源安卓** → **Loop**。
 
 [获取 Meow Habits](/zh/apps/meow-habits/)——安卓与 iOS 平台可用。
+
+## 典型场景
+
+- **早晚例行**——把「喝水」「拉伸」「睡前不刷手机」钉在主屏小组件，从锁屏就能勾掉，不必打开应用。
+- **养成与戒除一起**——在同一个应用里追踪好习惯（「读 20 页」）和坏习惯（「少刷手机」），意志力不分散到多个工具。
+- **共享设备也私密**——无需账号；日常锁在指纹之后，在家庭平板上也安全。
+- **随处离线**——飞行或地铁死角也能记录；WebDav 或 Google Drive 备份让历史跨设备不丢。
+
+## 常见问题（FAQ）
+
+**Meow Habits 免费吗？**
+核心免费——追踪、连续天数、图表、提醒与养成/戒除模式都免费；CSV 导出与少数进阶能力在可选的一次性 VIP 之后。
+
+**Meow Habits 能离线用吗？**
+能。没网、无账号也能打卡；数据留在本机，并在你选择时备份到 WebDav 或 Google Drive。
+
+**Meow Habits 和 Streaks 怎么选？**
+想要可爱、免费、跨平台（安卓 + iOS）、离线的追踪器 → Meow Habits；想要最精致、带 Apple Health 的纯 iOS UI → Streaks。
+
+**能追踪要戒掉的习惯，而不只是养成吗？**
+能——Meow Habits 有养成与戒除双模式，你可以把「少刷手机」和「喝水」放在同一处追踪。
 
 ## 相关术语
 

@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [Home Screen Widgets, KWGT, One Widget]
 lang: zh
 author: author_meow_id
+last_modified_at: 2026-11-05
 description: "一份完整的 One Widget 使用指南——放入四种风格的 500+ 主屏组件，添加快捷开关与应用快捷方式。"
 image: /assets/images/apps/one-widget/icon.webp
 ---
@@ -21,11 +22,12 @@ image: /assets/images/apps/one-widget/icon.webp
 - [应用快捷方式](#应用快捷方式)
 - [实时信息组件](#实时信息组件)
 - [设置](#设置)
+- [典型场景](#典型场景)
 - [常见问题](#常见问题)
 
 ## 应用简介
 
-One Widget 内置 **500+ 可自定义安卓主屏组件**，横跨四种流行风格，外加应用快捷方式与快捷开关。
+One Widget 内置 **500+ 可自定义安卓[主屏组件](/zh/glossary/what-is-a-home-screen-widget/)**，横跨四种流行风格，外加应用快捷方式与快捷开关。
 
 **🎨 四种风格**
 - **One UI**（默认；免费"精简"版应用包含的唯一样式）
@@ -109,6 +111,14 @@ One Widget 内置 **500+ 可自定义安卓主屏组件**，横跨四种流行�
 ## 设置
 
 设置包含深色模式、语言、温度单位、评分、分享、反馈、隐私与版本。
+
+## 典型场景
+
+- **5 分钟焕新主屏**——打开四标签画廊，点一个风格，挑个时钟或天气组件，摆上去；无需编辑器、无需 Kode。
+- **配壁纸**——设主题色与深/浅色，选圆形或圆角，组件融入你的启动器。
+- **一键快捷开关**——把 Wi-Fi、蓝牙、手电筒放进 4x1 一条，不再翻设置。
+- **应用与联系人快捷方式**——从单个组件启动 Chrome、地图或常用联系人。
+- **全安卓设备**——Galaxy、Pixel、Nothing 都支持；免费精简版含 One UI 风格，完整版解锁四种。
 
 ## 常见问题
 

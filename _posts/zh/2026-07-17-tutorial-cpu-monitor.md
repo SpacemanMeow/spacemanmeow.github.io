@@ -6,6 +6,7 @@ categories: [Tutorial]
 tags: [CPU Monitor, CPU Temperature, Android]
 lang: zh
 author: author_meow_id
+last_modified_at: 2026-11-05
 description: "一份完整的 CPU Monitor 使用指南——实时 CPU 温度、浮窗、过热报警、历史曲线与缓存清理。"
 image: /assets/images/apps/cpu-monitor/icon.webp
 ---
@@ -21,11 +22,12 @@ image: /assets/images/apps/cpu-monitor/icon.webp
 - [历史曲线](#历史曲线)
 - [升级到 Pro](#升级到-pro)
 - [设置](#设置)
+- [典型场景](#典型场景)
 - [常见问题](#常见问题)
 
 ## 应用简介
 
-CPU Monitor 在安卓上显示 **实时 CPU 温度与频率、RAM、电池与存储**，带浮窗、小组件、过热报警与历史曲线。
+CPU Monitor 在安卓上显示 **实时 [CPU 温度](/zh/glossary/what-is-a-cpu-temperature-monitor/) 与频率、RAM、电池与存储**，带浮窗、小组件、过热报警与历史曲线。
 
 **📈 实时监控**
 - CPU 温度与频率、每核使用率
@@ -89,6 +91,14 @@ CPU Monitor 在安卓上显示 **实时 CPU 温度与频率、RAM、电池与存
 ## 设置
 
 设置包含升级、主题、过热报警、温度单位、刷新率，以及小组件画廊。
+
+## 典型场景
+
+- **游戏时盯着热量**——打开 FLOATING 标签、授予叠层权限，CPU 温度/电池便浮在游戏之上，让你在降频前暂停。
+- **抓充电热点**——放一个主屏 CPU 组件、设好过热报警，电池发烫时你就会收到警告。
+- **找出元凶**——一局发烫后打开历史曲线，看是哪个应用让温度飙升。
+- **快速清理**——手机发卡时用清理屏幕清掉应用缓存/垃圾。
+- **告别广告**——点升级移除广告，并解锁完整的"强力系统监控"工具集。
 
 ## 常见问题
 
