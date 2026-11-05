@@ -141,15 +141,23 @@ Meow Mood 核心免费；Day One 是约 $35/年的订阅。纯心情追踪，Meo
 ## 常见问题（FAQ）
 
 **Meow Mood 还是 Day One，怎么选？**
+{:.faq-q}
+
 想要私密、免费、离线、以情绪为核心的每日打卡 → Meow Mood；想要随处同步的多媒体生活日记 → Day One。
 
 **Meow Mood 免费吗？**
+{:.faq-q}
+
 核心免费；Day One 需用约 $35/年的订阅才能解锁大多数人要的功能。
 
 **Meow Mood 能离线用吗？**
+{:.faq-q}
+
 能。没网、无账号也能记录、查看、编辑；数据留在本机。
 
 **Meow Mood 真的私密吗？**
+{:.faq-q}
+
 真私密——记录永不上传我们的服务器；备份只去你自己的 Google Drive。
 
 ## 相关术语

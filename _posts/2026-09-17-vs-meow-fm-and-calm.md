@@ -139,15 +139,23 @@ The full field is compared in [Best Calm Alternatives in 2026](/posts/alternativ
 ## FAQ
 
 **Meow FM or Calm — which should I pick?**
+{:.faq-q}
+
 Want free, offline, no-account ambient noise with a self-stopping timer → Meow FM; want guided meditations, sleep stories and a structured program → Calm (accept a ~$69.99/yr subscription).
 
 **Is Meow FM free?**
+{:.faq-q}
+
 Yes. The core ambient scenes are free; extra scenes unlock via a one-time purchase, no subscription.
 
 **Does Meow FM work offline?**
+{:.faq-q}
+
 Yes. Every sound plays with no internet, so you can sleep or focus on a plane, in a tent, or anywhere Wi-Fi drops.
 
 **Is Meow FM really private?**
+{:.faq-q}
+
 Yes — no account required and nothing is uploaded; you just press play.
 
 ## Related terms

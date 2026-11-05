@@ -106,12 +106,18 @@ KWGT (Kustom Widget Maker, package `org.kustom.widget`) is the most powerful wid
 ## FAQ
 
 **Is One Widget free?**
+{:.faq-q}
+
 The core cat-themed widgets are free to place and resize; extra widgets and deeper styling unlock via an optional one-time VIP (no subscription).
 
 **Does One Widget work offline / locally?**
+{:.faq-q}
+
 Yes. Widgets run on-device with no account and no heavy cloud, so they work offline and keep your data local.
 
 **One Widget or KWGT — which should I pick?**
+{:.faq-q}
+
 Want cute, ready-made widgets in seconds, no editor → One Widget; want to design every pixel with full control → KWGT (Pro Key).
 
 [One Widget app page](/apps/one-widget/) — available on Android.

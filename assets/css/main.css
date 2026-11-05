@@ -791,6 +791,8 @@ a.tag:hover,
 .post__header { }
 
 .post__title { font-size: var(--fs-3xl); letter-spacing: -.015em; }
+/* guide 布局的标题下导语（page.description）：此前无样式，继承 p{margin:0} 会紧贴标题 */
+.guide__lead { margin-top: var(--space-6); }
 .post__meta { margin-top: var(--space-6); padding-bottom: 0; }
 
 .post__content { color: var(--text-body); font-size: var(--fs-md); line-height: 1.8; font-weight: var(--fw-body); }
@@ -802,6 +804,13 @@ a.tag:hover,
 .post__content a:hover { text-decoration: underline; }
 .post__content ul, .post__content ol { margin: var(--space-5) 0 0; padding-left: var(--space-8); }
 .post__content li { margin: var(--space-3) 0; }
+
+/* FAQ 问答：问句独立成段、用普通字体色并加粗，前置自动序号；答案紧跟问句 */
+.post__content { counter-reset: faq; }
+.post__content .faq-q { color: inherit; counter-increment: faq; font-weight: var(--fw-head); }
+.post__content .faq-q::before { content: counter(faq) ". "; }
+.post__content p.faq-q { margin-top: var(--space-7); }
+.post__content p.faq-q + p { margin-top: var(--space-2); }
 
 .post__content img {
   max-width: 100%;

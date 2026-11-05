@@ -260,15 +260,23 @@ Before settling on any floating button app, check two things: which actions actu
 ## FAQ
 
 **Is Floating Assistant the best Assistive Touch alternative?**
+{:.faq-q}
+
 If you want one overlay that does assistive touch + a floating clock + live CPU/RAM/battery monitoring with one-tap boost, yes — the other five are single-purpose (ball, gestures, or hardware remap) with no clock or monitor.
 
 **Which Assistive Touch alternative has a floating clock and monitor?**
+{:.faq-q}
+
 Only Floating Assistant. Easy Touch, Assistive Touch and the rest offer virtual buttons or gestures but no clock and no live system readout.
 
 **Which Assistive Touch alternative avoids ads?**
+{:.faq-q}
+
 Floating Assistant (free core, optional unlock), Button Mapper and All in One Gestures (free + Pro, no ads) are the ad-light picks; the Easy Touch / Assistive Touch clones are ad-supported.
 
 **Is there an Assistive Touch for iPhone?**
+{:.faq-q}
+
 Yes — AssistiveTouch is built into iOS (Settings > Accessibility > Touch > AssistiveTouch), so no app is needed on iPhone.
 
 [Get Floating Assistant](/apps/floating-assistant/) — available on Android.

@@ -88,15 +88,23 @@ Quick pick by situation:
 ## FAQ
 
 **Is Meow Habits free?**
+{:.faq-q}
+
 The core — tracking, streaks, charts, reminders, and CSV export — is free to start; a few advanced extras sit behind an optional one-time unlock.
 
 **Does Meow Habits work offline?**
+{:.faq-q}
+
 Yes. You can log habits with no internet and no account; data stays on your device and backs up to WebDav or Google Drive when you choose.
 
 **Can I see my progress over time?**
+{:.faq-q}
+
 Yes — bar, pie, and calendar views show completion rates and trends, and CSV export lets you analyze everything in a spreadsheet.
 
 **Meow Habits or Streaks — which should I pick?**
+{:.faq-q}
+
 Want a cute, free, offline, Android-friendly tracker → Meow Habits; want the most polished iOS-only UI and already live in Apple's ecosystem → Streaks.
 
 ## Conclusion

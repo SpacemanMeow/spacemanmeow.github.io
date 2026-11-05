@@ -3,8 +3,8 @@
 > **定位**：本站「大规模改动后」的唯一全站验收标准。回答一个问题：**改动之后，整个站点是否仍然正确？**
 > **适用站点**：`spacemanmeow.com` 英文站（根路径）+ `/zh/` 中文站；Jekyll 4.4、双语合并构建、GitHub Pages 部署。
 > **触发时机**：见 §1.1。**每次触发都必须完整跑一遍 §0 的七步，并填写 §8 教研记录表**，不得只做「改了哪一块就只验哪一块」。
-> **判定原则**：P0 硬门禁全绿 + 基线项不得恶化（只许改善）；详见 §1.3 / §1.4。
-> **基线快照日期**：2026-11-05。所有数量以 §2 为准，数量变化必须能解释。
+> **判定原则**：P0 硬门禁全绿 + WARN 逐条给出人工结论；详见 §1.3 / §1.4。
+> **基线快照日期**：2026-11-05（历史欠账已全部清零，见 §8）。所有数量以 §2 为准，数量变化必须能解释。
 > **关联文档**：`SEO-OPTIMIZATION-PLAN.md`（总览）、`SEO-PLAYBOOK.md`（方法与运营红线）、`SEO-PROGRESS.md`（进度台账）、`SEO-METRICS.md`（月度指标）、`SEO-KEYWORDS.md`（关键词权威库）。本文档不替代它们，只规定「如何整体验收」。
 
 ---
@@ -16,7 +16,7 @@
 | 1 | 工作区与文件名红线 | `git status --short`；对照 §4 D14 | P0 |
 | 2 | **完整构建（CI 同款，不带 `SKIP_PAGEFIND`）** | `JEKYLL_ENV=production bash scripts/build.sh` | P0 |
 | 3 | 链接与资源校验 | `bundle exec htmlproofer _site --disable-external --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"` | P0 |
-| 4 | 一键静态教研 | 复制 §5 脚本整段执行（在仓库根目录） | P0 + BASE |
+| 4 | 一键静态教研 | 复制 §5 脚本整段执行（在仓库根目录） | P0 |
 | 5 | 产物与 SEO 产物抽验 | §4 D05 / D10 / D11 / D12 的人工抽验项 | P1 |
 | 6 | 线上与人工项 | §6（GSC、Rich Results、PSI、外链、真实设备） | P1 |
 | 7 | 记录 | 填写 §8 教研记录表，写明结论与基线数字变化 | P0 |
@@ -51,7 +51,7 @@
 |---|---|---|
 | **P0 / FAIL** | 构建失败、链接断、双语缺页、文件缺失、URL 泄漏、hreflang/sitemap 破损、关键词丢失、JSON-LD 污染 | **阻塞发布**，必须当场修复并重跑全流程 |
 | **P1 / WARN** | 需人工确认或线上验证的项（外链、Pagefind、发布物白名单、性能、合规表述抽验） | 记录结论；有疑点则转 P0 |
-| **P2 / BASE** | 已知历史欠账（§2.3） | 与基线比对；**数量不得上升**；改善后更新基线 |
+| **P2 / BASE** | 已知历史欠账（§2.3 当前为空） | 与基线比对；**数量不得上升**；改善后更新基线 |
 
 ### 1.4 基线对账原则
 
@@ -62,6 +62,8 @@
 - `当前值 < 基线` → `PASS`，视为改善，并同步更新 §2.3 与脚本中的 `BASE` 常量。
 
 这条规则的目的：**不因历史欠账让每次教研满屏 FAIL，也不让新改动悄悄扩大欠账。**
+
+> 2026-11-05 整改教研已把 §2.3 全部欠账清零，当前 `BASE` 为空；**所有维度均为 P0 硬门禁**，任何回升直接判 FAIL，不再有「与基线持平即可放行」的口子。
 
 ---
 
@@ -94,28 +96,34 @@
 6. **feed / 搜索**：`feed.xml`（EN）与 `zh/feed.xml`（ZH）；Pagefind 索引 `_site/pagefind/`，`data-pagefind-body` 只索引正文；`robots.txt` 指向生产 sitemap。
 7. **CI**：`.github/workflows/pages-deploy.yml` 跑 `bash scripts/build.sh` + `htmlproofer`，部署后 Ping IndexNow。教研须与 CI 同款构建，不能只跑 `tools/test.sh`（见 §2.4）。
 
-### 2.3 已知基线欠账（BASE，允许存在但不得恶化）
+### 2.3 已知基线欠账（BASE）
 
-| 项 | 基线值 | 说明 |
-|---|---|---|
-| `description > 160` | **29**（文章 18 / 应用页 1 / 静态页 1 / 术语页 9） | T-34 只覆盖了 10 个 App 分组，其余页未压缩 |
-| EN/ZH H2 数量不一致 | **1**（`_posts/.../2026-08-08-tutorial-meow-money.md` EN 14 / ZH 15） | Meow Money 组未纳入 T-34 |
-| `lang` 缺失或与目录不符 | **1**（`_pages/search.md` 缺 `lang`） | 对应 ZH 版正常 |
-| 关键词虚标 | **§2.1 Meow Money 组 MISS 36** | 该组未做 T-34 内容侧深度优化；**§2.2–§2.11 十组 MISS = 0** |
-| 裸 `&` 的 description | 1 处 | 可能污染 JSON-LD，需人工确认 |
-| `_site/seo/` 存在 | 是 | `seo/` 未加入两份 `_config*.yml` 的 `exclude`，内部文档会被公开发布 |
+**当前为空（`BASE = {}`）。** 2026-11-05 的整改教研已把建立本文档时发现的全部欠账清零；这些项已升级为 §5 脚本的 P0 硬门禁（`chk`），一旦回升直接判 FAIL。
+
+| 原欠账 | 原基线 | 现状 | 修复方式 |
+|---|---|---|---|
+| `description > 160` | 29 | **0**（最长 159） | 逐条改写，保留年份、主词与事实表述 |
+| EN/ZH H2 数量不一致 | 1 | **0** | 中文教程文末重复的 FAQ 合并进原 FAQ 章节，EN/ZH 各 14 个 H2、9 个问答 |
+| `lang` 缺失或与目录不符 | 1 | **0** | `_pages/search.md` 补 `lang: en` |
+| 关键词虚标 | §2.1 MISS 36 | **全 11 组 MISS = 0** | Meow Money 组 10 个 EN/ZH 页面成对补 FAQ 问答，36 词全部真实落地 |
+| 裸 `&` 的 description | 1 | **0** | 改写为 `and` |
+| `_site/seo/` 发布内部文档 | 是 | **否** | 两份 `_config*.yml` 的 `exclude` 加 `seo/` 与 `"seo/**"` |
+| Pagefind 索引缺失 | SKIP_PAGEFIND 构建 | **已生成** | 完整构建（2 语言 / 228 页 / 8704 词） |
+| 图片 width 等模糊 WARN | 5 条 | **0** | §5 脚本改为精确 `chk` 判定 |
+
+> 若未来出现无法立即清理的新欠账，按 §1.4 登记进 `BASE` 并同步本表；**不得为了让脚本少报 FAIL 而把已清零项退回 BASE**。
 
 ### 2.4 已知工程风险（教研时必须确认，不自动放行）
 
 - `tools/test.sh` **只做 EN 单语言构建**，不覆盖 `/zh/`、hreflang 与合并 sitemap；**不可用于全站验收**。
 - `SEO-PROGRESS.md` T-34 明细引用的 `CONTENT-OPTIMIZATION-RULES.md` 在仓库中不存在（引用悬空）。
 - `tools/compress_images.py`、`tools/md_to_html.py` 硬编码旧机绝对路径 `/Users/gaolitao/...`，在当前工作区不可用。
-- 文档滞后：`SEO-PROGRESS.md` / `SEO-PLAYBOOK.md` 记 Glossary 为「16 条/语言」，实际 **22 条/语言**；`SEO-KEYWORDS.md` §3 口径说明仍写「仅 Crosshair Aim 组完成内容侧深度优化」，实际 **10 组已完成**。
+- 文档滞后：`SEO-PROGRESS.md` / `SEO-PLAYBOOK.md` 记 Glossary 为「16 条/语言」，实际 **22 条/语言**；`SEO-KEYWORDS.md` §3 口径说明仍写「仅 Crosshair Aim 组完成内容侧深度优化」，实际 **11 组关键词已全部落地**（T-34 深度优化 10 组，§2.1 于 2026-11-05 整改教研补齐）。
 - `README.md` 仍是 Chirpy Starter 模板，未写本站构建命令。
 
 ### 2.5 基线更新规则
 
-只要修复了 §2.3 任一项，或新增语言 / 集合 / 批量新增内容，**必须同步更新本文档 §2 与 §5 脚本顶部的 `BASE` 常量**，并在 §8 记录表写明变更前后数值。
+只要修复或新增了 §2.3 任一项，或新增语言 / 集合 / 批量新增内容，**必须同步更新本文档 §2 与 §5 脚本顶部的 `BASE` 常量**，并在 §8 记录表写明变更前后数值。当前 `BASE` 为空，表示所有维度均为硬门禁。
 
 ---
 
@@ -128,16 +136,16 @@
 | D03 | 双语源对账 | P0 | §5 脚本 | 文章/应用/页面/术语 4 组文件名差集均为 0 |
 | D04 | 路由、集合与隔离 | P0 | 配置核对 + 产物 URL 抽查 | 集合分离、`exclude` 正确、`/zh/` 下无英文页泄漏 |
 | D05 | hreflang / sitemap / canonical / feed / robots | P0 | §5 脚本 + 人工抽验 | 每页 3 条 alternate；合并 sitemap；404 排除；canonical 为生产域名 |
-| D06 | frontmatter 与元数据 | P0 + BASE | §5 脚本 | 必填齐、`lang` 对、`description ≤160`（按基线对账） |
-| D07 | 正文结构与中英对等 | P0 + BASE | §5 脚本 + 人工抽验 | H2 一致（按基线）、无汉字间多余空格、段落对应 |
-| D08 | 图片与可访问性 | P0 | §5 脚本 | alt 唯一、无 `![image]`、引用文件存在、带 `width` |
-| D09 | 关键词真实覆盖 | P0 + BASE | §5 脚本归一化逐词核对 | 已完成 10 组 MISS = 0；§2.1 欠账不恶化 |
+| D06 | frontmatter 与元数据 | P0 | §5 脚本 | 必填齐、`lang` 对、`description ≤160`、无裸 `&` |
+| D07 | 正文结构与中英对等 | P0 | §5 脚本 + 人工抽验 | H2 一致、无汉字间多余空格、段落对应 |
+| D08 | 图片与可访问性 | P0 | §5 脚本 | alt 唯一、无 `![image]`、引用文件存在、全部带 `width` |
+| D09 | 关键词真实覆盖 | P0 | §5 脚本归一化逐词核对 | 全部 11 组 MISS = 0 |
 | D10 | 结构化数据与富媒体 | P0 + P1 | §5 脚本 + Rich Results Test | JSON-LD 无 `&amp;`；app 页 @type 正确；OG 图正确 |
 | D11 | 内链闭环 | P0 | §5 脚本 + 抽验 | 语言前缀正确、glossary/tags/app 回链闭合 |
-| D12 | 搜索与索引 | P0 + P1 | 完整构建 + 产物检查 | Pagefind 索引生成、sitemap/feed/robots/IndexNow 正常 |
+| D12 | 搜索与索引 | P0 | 完整构建 + 产物检查 | Pagefind 索引生成、sitemap/feed/robots/IndexNow 正常 |
 | D13 | 合规与产品表述 | P1 | 人工抽验 | 只读/免 root、不承诺虚假效果、YMYL、隐私、外链 rel |
 | D14 | 文件名与 URL 红线 | P0 | `git status` | 无未经批准的文章/页面重命名、删除、新增；permalink 未变 |
-| D15 | 发布物与敏感文件 | P0 + WARN | 产物目录检查 | 无临时目录、无凭据；`_site/seo/` 需人工确认 |
+| D15 | 发布物与敏感文件 | P0 | 产物目录检查 | 无临时目录、无凭据；`_site/seo/` 不存在 |
 | D16 | 文档与台账一致性 | P1 | 人工核对 | 优化方案/进度已同步；纯修复未误写进计划文档；滞后项已登记 |
 
 ---
@@ -184,18 +192,18 @@
 - **手段**：§5 脚本 D05 + 人工抽查 1 个文章页、1 个 app 页、1 个 glossary 页的 `<head>`。
 - **失败处理**：hreflang 缺页通常是「某语言缺同名文件」（回到 D03）；sitemap 分裂说明 `i18n_postprocess.py` 没跑或 URL 分组键错误。
 
-### D06 frontmatter 与元数据（P0 + BASE）
+### D06 frontmatter 与元数据（P0）
 
 - **检查点**：
   - 全部内容 md 必须有 `title`、`description`；文章额外 `date/layout/tags/image`；应用页额外 `icon`；静态页额外 `permalink`；`tutorial-*` 带 `author`；
   - `lang` 与目录一致；`description ≤160` 字符且含目标词；`last_modified_at` 必须伴随**真实正文改动**（只推日期无效）；
   - 文章 `image:` 必须等于目标 App 的 `icon`，否则 App⇄文章回链断裂；
   - 应用页 / 隐私 / 条款页有 `seo.type: WebPage`，避免被误判 `BlogPosting`；
-  - `description` 中裸 `&` 会转 `&amp;` 污染 JSON-LD，需人工确认。
-- **手段**：§5 脚本 D06；`description >160` 按 §1.4 基线对账。
+  - `description` 中裸 `&` 会转 `&amp;` 污染 JSON-LD，脚本硬门禁要求为 0。
+- **手段**：§5 脚本 D06；`description >160` 与裸 `&` 均为硬门禁 FAIL。
 - **失败处理**：补字段；压缩 description 时保留年份与 2–4 个目标词；不要为塞关键词在汉字之间插空格（见 D07）。
 
-### D07 正文结构与中英对等（P0 + BASE）
+### D07 正文结构与中英对等（P0）
 
 - **检查点**：EN/ZH 成对文章 H2 数量一致、小节语义对应；中文正文**无汉字之间的多余空格**（数字/英文与汉字之间的空格是合法排版，保留）；术语统一（品牌名、竞品名大小写）；中文不是英文的机器直译；每篇有实质选型/场景/FAQ 内容。
 - **手段**：§5 脚本 D07 + 人工抽验改动涉及的页面。
@@ -208,9 +216,9 @@
 - **手段**：§5 脚本 D08 + `tools/compress_images.py`（注意 §2.4 的旧机路径风险）。
 - **失败处理**：重复 alt 用「原描述 + 图片文件名对应的视图标识」区分，不要只加序号凑唯一；缺图先确认是路径写错还是资源未提交。
 
-### D09 关键词真实覆盖（P0 + BASE）
+### D09 关键词真实覆盖（P0）
 
-- **检查点**：从 `SEO-KEYWORDS.md` 提取所有标「已覆盖」的词（含中文竞品拦截表按 `/` 拆分），去空格/去粗体/小写归一化后，在**全站内容 md 正文**中逐词核对；§2.2–§2.11 十组必须 **MISS = 0**；§2.1 Meow Money 组的 MISS 按 §1.4 基线对账。
+- **检查点**：从 `SEO-KEYWORDS.md` 提取所有标「已覆盖」的词（含中文竞品拦截表按 `/` 拆分），去空格/去粗体/小写归一化后，在**全站内容 md 正文**中逐词核对；**§2.1–§2.11 全部 11 组必须 MISS = 0**，不再分组豁免。
 - **手段**：§5 脚本 D09。
 - **配套检查**：新增/升权关键词后，`SEO-KEYWORDS.md` 的「当前覆盖」列与维护日志已回写；同词不由两篇主吃（cannibalization）；目标词来自词库。
 - **失败处理**：MISS 说明「台账标已覆盖但正文没落地」——要么把词自然织入正文/meta/alt，要么把状态改回「待覆盖」；**不允许只改台账状态蒙混过关**。
@@ -230,7 +238,7 @@
 ### D12 搜索与索引（P0 + P1）
 
 - **检查点**：完整构建生成 `_site/pagefind/`；搜索页能 `import("/pagefind/pagefind.js")` 并按语言检索；sitemap 与 IndexNow 使用生产 URL；404 有 `data-pagefind-ignore` 且不在 sitemap；GoatCounter 与 `.nojekyll` 正常。
-- **说明**：本地 `SKIP_PAGEFIND=1` 构建时此项为 WARN，**发布前教研必须完整构建一次**；CI 不设该变量，会生成索引。
+- **说明**：`SKIP_PAGEFIND=1` 构建不会生成索引，脚本直接判 FAIL（不再是 WARN）；**发布前教研必须完整构建一次**；CI 不设该变量，会生成索引。
 - **失败处理**：Pagefind 失败先看 `.pagefind-bin/` 二进制与网络；索引缺失时搜索页会静默失效，需手动打开搜索页验证。
 
 ### D13 合规与产品表述（P1）
@@ -242,14 +250,14 @@
 ### D14 文件名与 URL 红线（P0）
 
 - **检查点**：`git status --short` 中，内容目录（`_posts/`、`_posts/zh/`、`_apps*/`、`_pages/`、`_glossary*/`）不得出现未经批准的 `R` / `D` / `A` / `??`；已发布页 `permalink` 不变（本站**没有 301 重定向机制**，改文件名即等于丢权重）；新增语言 URL 一旦发布不再改。
-- **手段**：`git status --short` + §5 脚本 D14（WARN 需人工确认）。
+- **手段**：`git status --short` + §5 脚本 D14（无增删改判 PASS，有则 WARN 需人工确认）。
 - **失败处理**：确需改名时，必须同时评估索引丢失、hrefang 分组断裂、外链与 sitemap 变化，并在记录表中写明；新增文章必须 EN/ZH 成对。
 
 ### D15 发布物与敏感文件（P0 + WARN）
 
-- **检查点**：`_site/` 中不含 `.jekyll-zh/`、`.pagefind-bin/`、`tools/gsc/credentials.json`、`token.json`、缓存目录；`.nojekyll` 存在；`_site/seo/` 是否存在需人工确认（当前**存在**，见 §2.3，内部 SEO 文档会被公开）。
+- **检查点**：`_site/` 中不含 `.jekyll-zh/`、`.pagefind-bin/`、`tools/gsc/credentials.json`、`token.json`、缓存目录；`.nojekyll` 存在；**`_site/seo/` 不存在**（内部 SEO 文档与 `seo/data/*.csv/json` GSC 导出不得公开）。
 - **手段**：§5 脚本 D15 + `find _site -maxdepth 2 -type d | sort` 抽查。
-- **失败处理**：若决定不公开内部文档，把 `seo/` 加入两份 `_config*.yml` 的 `exclude`，并重新构建验证；敏感文件泄漏属 P0。
+- **失败处理**：`seo/` 已加入两份 `_config*.yml` 的 `exclude`；若重新出现，先 `rm -rf _site/seo` 再完整重构建验证；敏感文件泄漏属 P0。
 
 ### D16 文档与台账一致性（P1）
 
@@ -265,23 +273,19 @@
 ## 5. 一键静态教研脚本
 
 > **用法**：在仓库根目录（`/Users/glt/Documents/code/spacemanmeow.github.io`）整段复制执行；**执行前先完成一次构建**（否则产物类维度会跳过）。
-> **输出**：`PASS` = 硬门禁通过；`FAIL` = 阻塞；`BASE` = 已知欠账与基线持平；`WARN` = 需人工确认。
-> **维护**：修复 §2.3 欠账后，同步修改脚本顶部 `BASE` 常量与本文档 §2.3。
+> **输出**：`PASS` = 硬门禁通过；`FAIL` = 阻塞；`WARN` = 需人工确认（仅 D14 出现文件增删改时）。
+> **维护**：`BASE` 当前为空；若登记新欠账，同步修改脚本顶部 `BASE` 常量与本文档 §2.3。
 
 <!-- AUDIT-SCRIPT-START -->
 ```bash
 python3 - <<'PY'
-# 全站教研静态检查 v1.0 / 基线 2026-11-05
+# 全站教研静态检查 v2.0 / 基线 2026-11-05（BASE 已清零）
+# 若未来登记新欠账，按 §1.4 恢复 base() 对账逻辑并同步 §2.3
 import os, re, glob, subprocess, collections
-BASE = {'desc_over_160': 29, 'h2_mismatch': 1, 'lang_bad': 1, 'kw_miss_legacy': 36}
+BASE = {}
 R = []
 def add(lv, c, n, d=''): R.append((lv, c, n, d))
 def chk(c, n, ok, d=''): add('PASS' if ok else 'FAIL', c, n, d)
-def base(k, c, n, v):
-    b = BASE[k]
-    if v > b: add('FAIL', c, n, f'{v} > 基线 {b}：引入回归，必须修复')
-    elif v == b: add('BASE', c, n, f'{v}，与基线持平（已知欠账，见规范 §2.3）')
-    else: add('PASS', c, n, f'{v} < 基线 {b}：已改善，请更新 BASE')
 def warn(c, n, d=''): add('WARN', c, n, d)
 def fs(p): return sorted(glob.glob(p, recursive=True))
 def nm(p): return {os.path.basename(x) for x in fs(p)}
@@ -296,21 +300,18 @@ def fm(t):
     return d
 def iszh(f): return f.startswith(('_posts/zh/', '_pages/zh/', '_apps_zh/', '_glossary_zh/'))
 def norm(s): return s.lower().replace(' ', '').replace('\t', '').replace('**', '').replace('　', '')
-
 mds = sorted(set(fs('_posts/**/*.md') + fs('_apps/**/*.md') + fs('_apps_zh/**/*.md')
                  + fs('_pages/**/*.md') + fs('_glossary/**/*.md') + fs('_glossary_zh/**/*.md')))
 txt = {f: open(f, encoding='utf-8').read() for f in mds}
 fms = {f: fm(t) for f, t in txt.items()}
-
-# D03 双语源对账
+# D03
 for lab, a, b in [('文章', '_posts/*.md', '_posts/zh/*.md'),
                   ('应用', '_apps/*.md', '_apps_zh/*.md'),
                   ('页面', '_pages/*.md', '_pages/zh/*.md'),
                   ('术语', '_glossary/*.md', '_glossary_zh/*.md')]:
     A, B = nm(a), nm(b)
     chk('D03', lab + ' EN/ZH 一一对应', A == B, f'EN={len(A)} ZH={len(B)} 差集={len(A ^ B)}')
-
-# D06 frontmatter
+# D06
 need0 = {'title', 'description'}
 bad = []
 for f, d in fms.items():
@@ -321,7 +322,7 @@ for f, d in fms.items():
     if n - set(d): bad.append((f, ','.join(sorted(n - set(d)))))
 chk('D06', 'frontmatter 必填字段', not bad, f'异常 {len(bad)} {bad[:2]}')
 langbad = [f for f, d in fms.items() if d.get('lang') != ('zh' if iszh(f) else 'en')]
-base('lang_bad', 'D06', 'lang 存在且与目录一致', len(langbad))
+chk('D06', 'lang 存在且与目录一致', not langbad, f'异常 {len(langbad)} {langbad[:2]}')
 long, amp = [], []
 for f, d in fms.items():
     v = d.get('description', '')
@@ -329,10 +330,9 @@ for f, d in fms.items():
     s = v.strip('"')
     if len(s) > 160: long.append((f, len(s)))
     if '&' in s: amp.append(f)
-base('desc_over_160', 'D06', 'description >160 字符', len(long))
-warn('D06', 'description 含裸 &（JSON-LD 风险）', f'{len(amp)} 处需人工确认')
-
-# D07 正文结构
+chk('D06', 'description ≤160 字符', not long, f'超长 {len(long)} {long[:2]}')
+chk('D06', 'description 无裸 &', not amp, f'{len(amp)} 处')
+# D07
 h2, sp = [], []
 for f, t in txt.items():
     if re.search(r'(?<=[\u4e00-\u9fff])[ \t]+(?=[\u4e00-\u9fff])', t): sp.append(f)
@@ -342,25 +342,26 @@ for n in nm('_posts/*.md'):
         a = len(re.findall(r'^## ', txt['_posts/' + n], re.M))
         b = len(re.findall(r'^## ', txt[z], re.M))
         if a != b: h2.append((n, a, b))
-base('h2_mismatch', 'D07', 'EN/ZH H2 数量不一致', len(h2))
+chk('D07', 'EN/ZH H2 数量一致', not h2, f'不一致 {len(h2)} {h2[:2]}')
 chk('D07', '无汉字间多余空格', not sp, f'残留 {len(sp)} {sp[:2]}')
-
-# D08 图片与 alt
-dup, gen, missing, total = [], [], [], 0
+# D08：严格按紧跟图片的 {: width=... } 判定
+IMGRE = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)\s*(\{:[^}]*\})?')
+dup, gen, missing, nowidth, total = [], [], [], [], 0
 for f, t in txt.items():
-    a = re.findall(r'!\[(.*?)\]\(([^)]+)\)', t)
+    a = IMGRE.findall(t)
     if len(a) != len(set(x[0] for x in a)): dup.append(f)
     if re.search(r'!\[image\]', t, re.I): gen.append(f)
-    for alt, p in a:
+    for alt, p, attr in a:
         if p.startswith('/assets/'):
             total += 1
             if not os.path.exists('.' + p): missing.append((f, p))
+            if not attr or not re.search(r'width\s*=', attr): nowidth.append((f, p))
 chk('D08', '同文件 alt 唯一', not dup, f'重复 {len(dup)} {dup[:2]}')
 chk('D08', '无 ![image] 残留', not gen, f'{len(gen)}')
 chk('D08', '引用图片文件存在', not missing, f'缺失 {len(missing)} {missing[:2]}')
-warn('D08', '图片 width 覆盖（防 CLS）', f'共 {total} 处引用，需抽验宽度属性')
-
-# D09 关键词真实覆盖（中文按去空格归一化）
+chk('D08', '图片 width 覆盖（防 CLS）', total > 0 and not nowidth,
+    f'{total} 处引用，缺 width {len(nowidth)} {nowidth[:2]}')
+# D09：全部 11 组均须 MISS=0
 K = open('seo/SEO-KEYWORDS.md', encoding='utf-8').read().split('\n')
 sec, terms = None, collections.defaultdict(set)
 for l in K:
@@ -374,24 +375,21 @@ for l in K:
     if len(c) == 4 and '已覆盖' in c[3]:
         for w in c[1].split('/'): terms[sec].add(w.strip())
 cn = norm('\n'.join(txt.values()))
-done = [w for k in terms if k != '2.1' for w in terms[k] if w and norm(w) not in cn]
-legacy = [w for w in terms.get('2.1', set()) if w and norm(w) not in cn]
-chk('D09', '已完成 T-34 的 10 组关键词覆盖', not done, f'MISS {len(done)} {done[:3]}')
-base('kw_miss_legacy', 'D09', '§2.1 Meow Money 未复核词', len(legacy))
-
-# D11 内链语言前缀
+miss = sorted(w for v in terms.values() for w in v if w and norm(w) not in cn)
+chk('D09', '全部关键词真实覆盖', not miss and len(terms) >= 11,
+    f'{len(terms)} 组，MISS {len(miss)} {miss[:3]}')
+# D11
 zbad = [f for f, t in txt.items() if iszh(f) and re.search(r'\]\(/glossary/', t)]
 ebad = [f for f, t in txt.items() if not iszh(f) and re.search(r'\]\(/zh/', t)]
 chk('D11', '内链语言前缀', not zbad and not ebad,
     f'ZH 缺前缀 {len(zbad)} / EN 误带 {len(ebad)}')
-
-# D14 文件名红线
+# D14
 st = subprocess.run(['git', 'status', '--short'], capture_output=True, text=True).stdout.split('\n')
 risk = [l for l in st if re.match(r'^\s*(R|D|A|\?\?)', l)
         and any(k in l for k in ('_posts/', '_apps', '_pages/', '_glossary'))]
-warn('D14', '文件名增删改（红线）', f'{len(risk)} 条需人工确认 {risk[:2]}')
-
-# D05 / D10 / D12 / D15 构建产物
+if risk: warn('D14', '文件名增删改（红线）', f'{len(risk)} 条需人工确认 {risk[:2]}')
+else: chk('D14', '文件名增删改（红线）', True, '0 条')
+# 产物维度
 if os.path.isdir('_site'):
     hs = fs('_site/**/*.html')
     chk('D05', '每页 hreflang 块',
@@ -409,17 +407,15 @@ if os.path.isdir('_site'):
     chk('D12', 'feed / robots',
         os.path.exists('_site/feed.xml') and os.path.exists('_site/zh/feed.xml')
         and os.path.exists('_site/robots.txt'), '')
-    if os.path.isdir('_site/pagefind'):
-        chk('D12', 'Pagefind 索引', True, '')
-    else:
-        warn('D12', 'Pagefind 索引未生成',
-             '本地 SKIP_PAGEFIND=1 属预期；发布前须不带该变量完整构建一次')
+    chk('D12', 'Pagefind 索引', os.path.isfile('_site/pagefind/pagefind.js'), '')
     chk('D15', '无临时目录残留', not os.path.isdir('.jekyll-zh'), '')
-    warn('D15', '_site/seo/ 会发布内部文档',
-         f'存在={os.path.isdir("_site/seo")}，需确认是否加入 exclude')
+    chk('D15', '内部 seo/ 未发布', not os.path.isdir('_site/seo'),
+        f'存在={os.path.isdir("_site/seo")}')
+    leaks = [p for p in fs('_site/**/*') if any(k in p for k in
+             ('credentials.json', 'token.json', 'pagefind-bin', 'jekyll-zh'))]
+    chk('D15', '无凭据/缓存文件泄漏', not leaks, f'{len(leaks)} 个')
 else:
-    warn('DXX', '未构建', '产物维度跳过；请先运行 bash scripts/build.sh')
-
+    warn('DXX', '未构建', '请先运行 bash scripts/build.sh')
 print('=== 全站教研结果 ===')
 for lv, c, n, d in R: print(f'{lv:4s} {c:4s} {n:32s} {d}')
 print('汇总', dict(collections.Counter(x[0] for x in R)))
@@ -427,7 +423,7 @@ PY
 ```
 <!-- AUDIT-SCRIPT-END -->
 
-**输出判读**：`FAIL` 必须清零（或确认属 `SKIP_PAGEFIND` 预期的 WARN）；`BASE` 项对照 §2.3 登记；`WARN` 项逐条给出人工结论并写进 §8 记录表。
+**输出判读**：`FAIL` 必须清零；`BASE` 当前应为空（有值说明登记了新欠账，需对照 §2.3）；`WARN` 项逐条给出人工结论并写进 §8 记录表。目标汇总：`{PASS: N, FAIL: 0, WARN: 0}`。
 
 ---
 
@@ -459,7 +455,7 @@ PY
 | 汉字间多余空格 | 为逐词匹配硬塞分词空格 | 只删汉字间空格，改用归一化核对 |
 | JSON-LD 报 `&amp;` | frontmatter 裸 `&` | 改写为 and / 顿号；确认是脚本块内命中而非正文误报 |
 | htmlproofer 断链 | 文件改名、permalink 变化、锚点文字改动 | 恢复文件名或补 301（本站无重定向机制，优先恢复） |
-| `_site/seo/` 出现 | `seo/` 未 `exclude` | 决定是否公开；不公开则加进两份配置并重构建 |
+| `_site/seo/` 出现 | `seo/` 的 `exclude` 被误删，或旧产物残留 | 恢复两份配置的 `seo/` 排除，`rm -rf _site/seo` 后完整重构建 |
 | `tools/test.sh` 全绿但线上 ZH 异常 | 该脚本只构建 EN | 教研一律用 `scripts/build.sh` |
 
 ---
@@ -477,6 +473,9 @@ PY
 | 日期 | 改动范围 | 构建 | htmlproofer | 关键结果 | 基线数字 | 结论 |
 |---|---|---|---|---|---|---|
 | 2026-11-05 | 新建全站教研规范；此前完成 10 组 T-34、中文空格清理、alt 去重、关键词库重编号 | PASS（EN+ZH，229 页 / 2 语言） | PASS（229 文件 / 407 内链） | D03/D05/D08/D10/D11/D12 全 PASS；10 组关键词 MISS=0；汉字间空格 0；alt 重复 0；JSON-LD `&amp;` 0 | desc>160=29、H2 不一致=1、lang 缺失=1、§2.1 MISS=36 | ✅ 基线成立，欠账按 §1.4 管控 |
+| 2026-11-05 | **整改教研**（§1.1 大规模改动）：29 条 description、`_pages/search.md`、Mood 裸 `&`、Meow Money 组 10 篇 EN/ZH 正文、中文教程 FAQ 合并、两份 `_config*.yml` 排除 `seo/` | PASS（完整构建 EN+ZH，228 页 / 2 语言；Pagefind 228 页 / 8704 词） | PASS（229 文件 / 407 内链） | D03/D05/D06/D07/D08/D09/D10/D11/D12/D14/D15 全 PASS；11 组关键词 MISS=0；汉字间空格 0；alt 重复 0；图片 width 1661/1661；JSON-LD `&amp;` 0 | desc>160 29→0、H2 不一致 1→0、lang 缺失 1→0、§2.1 MISS 36→0、裸 `&` 1→0、`_site/seo/` 有→无 | ✅ 欠账清零，`BASE` 置空，全部升级为硬门禁；可发布 |
+| 2026-11-05 | **FAQ 呈现修复**（§1.1 大规模改动）：132 个内容文件的 FAQ 问句挂 `{:.faq-q}` 并插入空行分隔答案；`assets/css/main.css` 新增主题色与间距规则 | PASS（完整构建 EN+ZH，228 页 / 2 语言；Pagefind 228 页 / 8704 词） | PASS（229 文件 / 407 内链） | 27 PASS；产物 132 页含 `faq-q`（其中 22 页为 H3 型）、IAL 文本残留 0、CSS 规则已进 `_site`；11 组 MISS=0、汉字间空格 0、H2 一致、alt 重复 0 | 无变化（`BASE` 仍为空） | ✅ 可发布 |
+| 2026-11-05 | **guide 导语间距修复**（§1.1 结构性改动）：`assets/css/main.css` 新增 `.guide__lead` 的 `margin-top` | PASS（完整构建 EN+ZH，228 页 / 2 语言；Pagefind 228 页） | PASS（229 文件 / 407 内链） | 27 PASS；产物 CSS 含 `.guide__lead`、110 页含该元素；11 组 MISS=0、H2 一致、alt 重复 0 | 无变化（`BASE` 仍为空） | ✅ 可发布 |
 
 ---
 
@@ -487,6 +486,6 @@ PY
 - 站点结构、集合目录、`exclude`、`permalink` 规则变化；
 - 构建脚本、i18n 注入逻辑、CI 流程变化；
 - **新增语言**（D03/D04/D05 的判定要扩展为 N 语言）；
-- §2.3 任一欠账被修复（同步更新 `BASE` 常量）；
+- §2.3 任一欠账被修复或新增（同步更新 `BASE` 常量与硬门禁项）；
 - 新增了自动校验脚本（把其纳入 §0 步骤，避免两套口径）；
 - 教研中发现新的「反复出现但脚本没覆盖」的问题（补进 §3 维度表与 §5 脚本）。

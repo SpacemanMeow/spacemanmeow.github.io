@@ -1,7 +1,7 @@
 ---
 date: 2026-09-08 09:00:00 +0800
 title: "Crosshair vs Crosshair Hero: Which Overlay Reticle?"
-description: "Crosshair Aim vs Crosshair Hero compared in depth for 2026: a customizable FPS overlay with an in-game floating adjuster versus a popular crosshair overlay app. Features, price, and the Crosshair Hero alternative verdict per need."
+description: "Crosshair Aim vs Crosshair Hero in 2026: an FPS overlay with in-game floating adjuster versus a popular crosshair app. Features, price and verdict per need."
 layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Comparison, Crosshair Hero]
 image: /assets/images/apps/cross-hair/icon.webp
@@ -121,15 +121,23 @@ Crosshair Aim's free core is ad-free with an unlock for extras. Crosshair Hero i
 ## FAQ
 
 **Crosshair Aim or Crosshair Hero — which should I pick?**
+{:.faq-q}
+
 Want deep, live, in-game control (size/color/position, a reticle for any weapon) → Crosshair Aim; want a recognizable preset in seconds and don't need fine tuning → Crosshair Hero.
 
 **Is Crosshair Aim free?**
+{:.faq-q}
+
 Yes. The basic style set is free and ad-free; a Pro unlock opens the full 80+ library.
 
 **Does Crosshair Aim work on iOS?**
+{:.faq-q}
+
 No. Crosshair Aim is Android-only.
 
 **Is the overlay safe / will it get me banned?**
+{:.faq-q}
+
 Both apps only draw a reticle over the screen and don't modify game data or memory, so they don't trigger anti-cheat. Use them within each game's fair-play rules.
 
 ## Other crosshair overlay alternatives

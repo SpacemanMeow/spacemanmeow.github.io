@@ -93,15 +93,23 @@ Quick pick by situation:
 ## FAQ
 
 **Is One Widget free?**
+{:.faq-q}
+
 One Widget is a paid app. The free version includes One UI themed widgets you can resize and recolor; Glass iOS, Material You and Nothing styles unlock via a one-time purchase.
 
 **What widget styles does One Widget offer?**
+{:.faq-q}
+
 Four trending 2026 styles — Glass iOS, Material You (wallpaper-aware), Galaxy One UI and Nothing minimalist — across 500+ widgets.
 
 **Which devices support One Widget?**
+{:.faq-q}
+
 All Android devices, including Samsung Galaxy, Google Pixel and Nothing phones.
 
 **One Widget or KWGT — which should I pick?**
+{:.faq-q}
+
 Want 500+ ready-made, themed widgets fast, no editor → One Widget; want to build every widget from scratch with total control → KWGT (Pro Key).
 
 ## Conclusion

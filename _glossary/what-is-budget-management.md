@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: "What Is Budget Management?"
-description: "Budget management is the ongoing process of planning, tracking, and controlling income and spending so you stay within limits. Learn what it is and how Meow Money Manager helps you budget by category."
+description: "Budget management means planning, tracking and controlling income and spending to stay within limits. Learn how Meow Money Manager budgets by category."
 tags: [Budget Management, Budget, Meow Money Manager]
 lang: en
 ---

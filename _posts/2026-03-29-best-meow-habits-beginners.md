@@ -112,15 +112,23 @@ Streaks and Habitica are excellent apps, but both ask for commitment up front (a
 ## FAQ
 
 **Is Meow Habits good for beginners?**
+{:.faq-q}
+
 Yes. One-tap templates, a free core, and forgiving streaks let you start in seconds and won't punish a missed day.
 
 **Is Meow Habits free?**
+{:.faq-q}
+
 The core — tracking, streaks, templates, and reminders — is free; CSV export and a few extras sit behind an optional one-time VIP.
 
 **Do I need an account?**
+{:.faq-q}
+
 No. You can start immediately with no sign-up; data stays on your device and backs up to WebDav or Google Drive when you choose.
 
 **Meow Habits or Loop for a beginner?**
+{:.faq-q}
+
 Want cute, free, cross-platform (Android + iOS) with templates → Meow Habits; Android-only and want minimal open-source → Loop.
 
 ## Related terms

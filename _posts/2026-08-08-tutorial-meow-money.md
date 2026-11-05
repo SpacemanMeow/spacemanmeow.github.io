@@ -6,7 +6,7 @@ categories: [Tutorial]
 tags: [Expense Tracker]
 lang: en
 author: author_meow_id
-description: "A complete Meow Money Manager user guide — master bookkeeping, budgets, multi-currency ledgers, reimbursement tracking and CSV export with this cat-themed expense tracker (available in Chinese, English, Indonesian, Thai and Portuguese)."
+description: "A complete Meow Money Manager guide for 2026: bookkeeping, budgets, multi-currency ledgers, reimbursements and CSV export in this cat-themed expense tracker."
 image: /assets/images/apps/meow-money-manager/icon.webp
 ---
 
@@ -322,18 +322,23 @@ Meow Money Manager provides multiple setting options to help you customize app f
 ## FAQ
 
 ### Do I need to register an account for Meow Money Manager?
+{:.faq-q}
 No. Your data is stored entirely on your device, and you can use the full app without a cloud account; backups simply go through Google Drive, iCloud, or WebDav.
 
 ### Which languages are supported?
+{:.faq-q}
 It supports a multi-language UI — Chinese, English, Indonesian, Thai, and Portuguese.
 
 ### Does it support multi-currency tracking?
+{:.faq-q}
 Yes. It ships 50+ currency symbols and lets you set up separate ledgers for travel, work, and family.
 
 ### How do I export my recorded data?
+{:.faq-q}
 In Settings → Export Data, choose a date range and the CSV format to export to a file for viewing or editing in Excel; you can also back up and restore via Google Drive, iCloud, or WebDav.
 
 ### How to modify an added bookkeeping record?
+{:.faq-q}
 
 1. In the bookkeeping record list, find the record you want to modify
 2. Click on the record and select "Edit" in the pop-up page
@@ -341,12 +346,14 @@ In Settings → Export Data, choose a date range and the CSV format to export to
 4. Click confirm to complete the modification
 
 ### How to delete a bookkeeping record?
+{:.faq-q}
 
 1. In the bookkeeping record list, find the record you want to delete
 2. Long press on the record and select "Delete"
 3. Confirm the deletion operation
 
 ### How to switch currency symbols?
+{:.faq-q}
 
 1. Enter the settings page
 2. Click "Currency Symbol Settings"
@@ -354,6 +361,7 @@ In Settings → Export Data, choose a date range and the CSV format to export to
 4. Click confirm to complete the setting
 
 ### How to set up app lock?
+{:.faq-q}
 
 1. Enter the settings page
 2. Click "Privacy Settings"
@@ -361,6 +369,7 @@ In Settings → Export Data, choose a date range and the CSV format to export to
 4. Follow the prompts to complete the setup
 
 ### How to back up data?
+{:.faq-q}
 
 1. Enter the settings page
 2. Click "Backup and Restore"

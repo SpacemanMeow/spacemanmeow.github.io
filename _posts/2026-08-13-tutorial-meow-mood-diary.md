@@ -125,12 +125,15 @@ Settings include language, week start, app lock (VIP), widgets, mood icons (VIP)
 ## FAQ
 
 ### Is my diary uploaded to a server?
+{:.faq-q}
 No. All entries are stored in a local database on your device. Only you can back them up to your own Google Drive or WebDav.
 
 ### How is the calendar color decided?
+{:.faq-q}
 Each day's color is the mood level averaged from that day's entries, mapped to the active theme's 5-color palette. Days with no entry are left plain.
 
 ### Can I export my diary?
+{:.faq-q}
 Yes — PDF export is a VIP feature.
 
 ## Summary

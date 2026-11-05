@@ -94,15 +94,23 @@ Quick pick by situation:
 ## FAQ
 
 **Is CPU Monitor free?**
+{:.faq-q}
+
 Yes. CPU Monitor is a free download; the core temperature, frequency, widgets, floating window and overheat alarm work free, and a Pro unlock opens the deeper 'Powerful System Monitor' toolset.
 
 **Does CPU Monitor work on iOS?**
+{:.faq-q}
+
 No. CPU Monitor is Android-only. For hardware specs on iPhone, CPU-Z (iOS) is a common pick, but it has no live overheat alarm.
 
 **Does CPU Monitor show per-core frequency?**
+{:.faq-q}
+
 Yes. It monitors multicore CPU usage and per-core frequency in real time, with history curves so you can spot throttling.
 
 **Can CPU Monitor prevent overheating?**
+{:.faq-q}
+
 It can't cool the hardware, but it shows real-time CPU and battery temperature and triggers an overheat alarm so you can close heavy apps and cool the phone down before damage.
 
 ## Conclusion

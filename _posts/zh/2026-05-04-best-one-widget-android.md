@@ -106,12 +106,18 @@ KWGT（Kustom Widget Maker，包名 `org.kustom.widget`）是安卓上最强的�
 ## 常见问题（FAQ）
 
 **One Widget 免费吗？**
+{:.faq-q}
+
 核心猫主题组件免费摆放与缩放；额外组件与更深风格通过可选的一次性 VIP 解锁（无订阅）。
 
 **One Widget 能离线 / 本地用吗？**
+{:.faq-q}
+
 能。组件在本机运行，无账号、无沉重云，所以能离线、且数据留本地。
 
 **One Widget 还是 KWGT，怎么选？**
+{:.faq-q}
+
 想要可爱的现成组件、几秒搞定、不碰编辑器 → One Widget；想设计每一像素、完全掌控 → KWGT（Pro 密钥）。
 
 [One Widget App 页](/zh/apps/one-widget/)——安卓平台可用。

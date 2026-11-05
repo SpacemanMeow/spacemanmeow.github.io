@@ -120,9 +120,11 @@ Because the screen stays awake (`FLAG_KEEP_SCREEN_ON`) and you can place widgets
 ## FAQ
 
 ### Is there a focus/pomodoro timer in Only Clock?
+{:.faq-q}
 No. The focus timer is a separate app. Only Clock provides the flip clock, widgets and white noise.
 
 ### Does it keep the screen on?
+{:.faq-q}
 Yes — the clock uses a keep-screen-on flag while displayed; for a nightstand use, also ignore battery optimization.
 
 ## Summary

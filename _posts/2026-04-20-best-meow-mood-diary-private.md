@@ -117,15 +117,23 @@ Day One is the most-awarded journal app, with encrypted sync across Android, iOS
 ## FAQ
 
 **Is Meow Mood really private?**
+{:.faq-q}
+
 Yes. Entries never upload to our servers by default; the only backup is the Google Drive you choose, and a fingerprint or passcode lock keeps the diary to yourself.
 
 **Does Meow Mood work offline?**
+{:.faq-q}
+
 Yes. You can write and read entries with no internet; everything is stored on your device.
 
 **Can I export my diary?**
+{:.faq-q}
+
 Yes — free users export PDF; CSV export (VIP) lets you take the data into a spreadsheet.
 
 **Meow Mood or Day One for privacy?**
+{:.faq-q}
+
 Want entries that never leave your device and no account → Meow Mood; want encrypted sync across every device and accept a subscription → Day One.
 
 ## Related terms

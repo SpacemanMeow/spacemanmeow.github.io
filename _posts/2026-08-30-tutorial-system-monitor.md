@@ -117,12 +117,15 @@ Settings include theme, overheat alarm, temperature unit, refresh rate, widget g
 ## FAQ
 
 ### Does it clean memory or storage?
+{:.faq-q}
 No. System Monitor is strictly read-only — it reports facts and never deletes files or "boosts" RAM.
 
 ### Does it have an app lock?
+{:.faq-q}
 No. There is no fingerprint or password lock in this app.
 
 ### Where does the data come from?
+{:.faq-q}
 From standard Android APIs (e.g. BatteryManager and system files). Nothing is changed.
 
 ## Summary

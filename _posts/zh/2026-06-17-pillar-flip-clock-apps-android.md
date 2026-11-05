@@ -94,15 +94,23 @@ Only Clock 是一款精致的安卓与 iOS 全屏翻页钟，带漂亮的翻页�
 ## 常见问题（FAQ）
 
 **Only Clock 免费吗？**
+{:.faq-q}
+
 免费。Only Clock 可免费下载，核心翻页钟、组件与白噪音无需付费即可用；一次性解锁打开额外主题与选项。
 
 **Only Clock 在 iOS 上能用吗？**
+{:.faq-q}
+
 能。Only Clock 同时跑在安卓与 iOS（App Store），你也可把 iPad 当钟用。
 
 **Only Clock 还是 Retroflip，怎么选？**
+{:.faq-q}
+
 想要安卓上的翻页动画、外加组件、白噪音与专注计时器 → Only Clock；只想要纯复古、仅 iOS、且接受无安卓版 → Retroflip。
 
 **能用旧手机当钟吗？**
+{:.faq-q}
+
 能。Only Clock 为闲置设备而造——把旧手机或 iPad 立在支架上，就成了专用桌面或床头钟。
 
 ## 结论

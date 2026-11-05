@@ -137,15 +137,23 @@ One Widget 的 One UI 免费，其他家族一次性解锁。KWGT 免费可用�
 ## 常见问题（FAQ）
 
 **One Widget 还是 KWGT，怎么选？**
+{:.faq-q}
+
 想要几分钟就统一、精致的桌面、不碰编辑器 → One Widget；想要完全创作掌控、带实时数据公式、且不介意学习曲线 → KWGT。
 
 **One Widget 免费吗？**
+{:.faq-q}
+
 One UI 风格套件免费；另外三种风格通过一次性购买解锁（无订阅）。
 
 **One Widget 能在 iOS 上用吗？**
+{:.faq-q}
+
 不能。One Widget 仅安卓；KWGT 也仅安卓。iOS 上可看 WidgetSmith。
 
 **KWGT 免订阅吗？**
+{:.faq-q}
+
 KWGT 免费可用、可测试；约 $4.99 的一次性 Pro 密钥去水印、解锁完整导出。无订阅。
 
 ## 相关术语

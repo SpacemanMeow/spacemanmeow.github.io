@@ -107,12 +107,18 @@ Flip Clock（包名 `com.wssc.simpleclock`）是一款热门的 **免费翻页�
 ## 常见问题（FAQ）
 
 **Only Clock 免费吗？**
+{:.faq-q}
+
 免费。核心翻页钟、组件与白噪音免费可用；一次性 VIP 解锁最丰富的主题与声音包。
 
 **Only Clock 有浮窗钟吗？**
+{:.faq-q}
+
 有。浮窗叠层模式让钟停在其他应用或视频之上，工作时不离开应用。
 
 **Only Clock 还是 Flip Clock，怎么选？**
+{:.faq-q}
+
 想要主题、白噪音、浮窗与组件 → Only Clock；只想要免费、裸复古翻页钟、别无附加 → Flip Clock。
 
 ## 相关术语

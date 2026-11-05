@@ -138,15 +138,23 @@ System Monitor 核心免费 + 可选解锁；CCleaner 免费但带广告与订�
 ## 常见问题（FAQ）
 
 **System Monitor 还是 CCleaner，怎么选？**
+{:.faq-q}
+
 想要实时洞察与掌控（温度、频率、RAM、过热报警、悬浮组件），外加可选的一键加速 → System Monitor；只想要熟悉的一键缓存/垃圾清扫、不需要监控 → CCleaner。
 
 **System Monitor 清理垃圾或缓存吗？**
+{:.faq-q}
+
 不。System Monitor 是带一键加速的监控器；它（按设计）不删除垃圾或缓存文件。要清存储，指南指向 Files by Google。
 
 **System Monitor 释放 RAM 吗？**
+{:.faq-q}
+
 释放——它有一键 RAM 加速并带忽略列表，重要的应用保持开启；这是掌控，而非完整体清理器。
 
 **System Monitor 免费吗？**
+{:.faq-q}
+
 免费。核心监控、组件、浮窗与过热报警都免费；可选解锁加深主题与历史。
 
 ## 相关术语

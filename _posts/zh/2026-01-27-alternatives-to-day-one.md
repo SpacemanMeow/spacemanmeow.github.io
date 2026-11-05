@@ -270,15 +270,23 @@ Momento 是一款 **iOS 日记**，从你的记录与关联服务中构建私密
 ## 常见问题（FAQ）
 
 **Meow Mood Diary 算好的免费 Day One 替代品吗？**
+{:.faq-q}
+
 算。它核心免费、覆盖安卓与 iOS，永不把记录上传服务器，且只备份到你自己的 Google Drive——如果你更看重隐私与快速心情记录而非富多媒体，它是强选。
 
 **Meow Mood Diary 能离线用吗？**
+{:.faq-q}
+
 能。没网、无账号也能记录、查看、编辑；数据留在本机。
 
 **哪款 Day One 替代品最注重隐私？**
+{:.faq-q}
+
 Meow Mood Diary——无需账号、数据本机留存加可选指纹锁，且只在你开启时才备份到你自己的 Google Drive。
 
 **我能把记录从 Day One 搬出来吗？**
+{:.faq-q}
+
 Day One 可导出 PDF 等格式；Meow Mood 自身也能导出 PDF（CSV 走 VIP），数据始终可带走。
 
 [Meow Mood Diary App 页](/zh/apps/meow-mood-diary/)——安卓与 iOS 可用。

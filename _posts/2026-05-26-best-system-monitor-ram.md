@@ -111,15 +111,23 @@ CCleaner (package `com.piriform.ccleaner`, by Gen Digital) focuses on cleaning �
 ## FAQ
 
 **Is System Monitor free?**
+{:.faq-q}
+
 No. It's a one-time paid download — no subscription, no upgrade wall.
 
 **System Monitor or CCleaner for RAM?**
+{:.faq-q}
+
 Want detailed, read-only RAM and hardware info → System Monitor; want a one-tap cache/storage cleaner → CCleaner. Note: Android already reclaims memory automatically, so a "boost" is usually short-lived.
 
 **Does System Monitor free memory or kill tasks?**
+{:.faq-q}
+
 No. It reports memory facts (total/used/free and per-app use) and never frees RAM or kills tasks — you close apps manually.
 
 **Does System Monitor show a process list?**
+{:.faq-q}
+
 Yes. It lists running apps and their memory use, so you can see what's holding RAM.
 
 ## Related terms

@@ -1,7 +1,7 @@
 ---
 date: 2026-10-05 09:00:00 +0800
 title: "Meow Todo vs Todoist: Which Task Manager Should You Use?"
-description: "Meow Todo vs Todoist in 2026: a free-core, private, cute task manager with subtasks, a to-do app with calendar, and CSV export versus a collaboration powerhouse. Prices, limits, and the Todoist alternative verdict per user type."
+description: "Meow Todo vs Todoist in 2026: a free-core, private, cute task manager with subtasks, calendar and CSV export vs a collaboration powerhouse. Prices and verdict."
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Comparison, Todoist]
 image: /assets/images/apps/meow-todo-list/icon.webp
@@ -135,15 +135,23 @@ Meow Todo's core is free with no hard project cap. Todoist's free Beginner tier 
 ## FAQ
 
 **Do I need an account for Meow Todo?**
+{:.faq-q}
+
 No. You can start immediately with no sign-up; tasks stay local behind a fingerprint lock.
 
 **Does Meow Todo support subtasks and a calendar view?**
+{:.faq-q}
+
 Yes — subtasks break work into steps, and day/week/month calendar views keep deadlines visible.
 
 **Meow Todo or Todoist — which should I pick?**
+{:.faq-q}
+
 Want a free, private, cute, no-account to-do list with subtasks, calendar, and CSV export → Meow Todo; want natural-language input and shared projects for collaboration → Todoist (paid Pro).
 
 **Can I export my tasks?**
+{:.faq-q}
+
 Yes — CSV export (a VIP feature) lets you review or move your data in Excel or Sheets.
 
 ## Other to-do apps worth considering

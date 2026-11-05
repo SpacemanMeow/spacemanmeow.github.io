@@ -137,12 +137,18 @@ Only Clock 运行于 Android 与 iOS；Flip Clock 以安卓为主。iPhone 用�
 ## 常见问题（FAQ）
 
 **Only Clock 还是 Flip Clock，怎么选？**
+{:.faq-q}
+
 想要主题化视觉、白噪音、悬浮时钟或组件，并支持 iPhone → Only Clock；只想要免费、简单复古翻页钟、别无附加 → Flip Clock。
 
 **Only Clock 免费吗？**
+{:.faq-q}
+
 免费。核心钟、主题与白噪音免费可用；一次性或订阅解锁打开最丰富的主题与声音。
 
 **Only Clock 在 iOS 上能用吗？**
+{:.faq-q}
+
 能。Only Clock 同时跑在安卓与 iOS（iPad 也是绝佳的钟显示）。
 
 ## 相关术语

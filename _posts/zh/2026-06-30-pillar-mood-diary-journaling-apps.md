@@ -88,15 +88,23 @@ Meow Mood Diary 是一款安全、私密的[心情日记](/zh/glossary/what-is-a
 ## 常见问题（FAQ）
 
 **Meow Mood Diary 免费吗？**
+{:.faq-q}
+
 核心——快速心情记录、历史、图表与离线使用——都免费起步；少数额外能力在可选的一次性解锁之后。
 
 **Meow Mood Diary 能离线用吗？**
+{:.faq-q}
+
 能。没网、无账号也能记录、查看、编辑；数据留在本机。
 
 **我的日记私密吗？**
+{:.faq-q}
+
 私密——条目永不上传到我们的服务器；你只备份到自己 Google Drive，指纹或密码锁让日记只属于你。
 
 **Meow Mood Diary 和 Day One 怎么选？**
+{:.faq-q}
+
 想要免费、私密、无账号、设备端的心情日记 → Meow Mood Diary；想要丰富照片记录加同步、并愿付订阅 → Day One。
 
 ## 结论

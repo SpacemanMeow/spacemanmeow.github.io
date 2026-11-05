@@ -5,7 +5,7 @@
 # ===================================================================
 title: System Monitor # 应用名称（列表页 & 详情页标题）
 tagline: Real-time CPU, storage, memory and battery info detection for Android. # 一句话简介
-description: "System Monitor is a paid Android tool for hardware info detection: real-time CPU temperature and frequency, storage and memory usage, and battery health monitoring."
+description: "System Monitor is a paid Android tool for hardware info: real-time CPU temperature and frequency, storage, memory usage, and battery health."
 icon: /assets/images/apps/system-monitor/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/system-monitor/icon.webp
 lang: en

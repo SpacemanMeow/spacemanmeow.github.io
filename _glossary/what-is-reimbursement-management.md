@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: "What Is Reimbursement Management?"
-description: "Reimbursement management is the process of submitting, approving, and tracking expense claims so money you fronted gets paid back. Learn what it is and how Meow Money Manager tracks reimbursable entries."
+description: "Reimbursement management covers submitting, approving and tracking expense claims so money you fronted gets paid back. See how Meow Money Manager tracks them."
 tags: [Reimbursement, Expense, Meow Money Manager]
 lang: en
 ---

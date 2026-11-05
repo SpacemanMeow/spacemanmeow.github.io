@@ -1,7 +1,7 @@
 ---
 date: 2026-06-12 09:00:00 +0800
 title: "Best Crosshair Apps for FPS Games on Android (2026)"
-description: "Best crosshair app for Android in 2026: the best crosshair overlay apps for FPS games (PUBG Mobile, COD Mobile) — what to look for (styles, customization, no root) and how Crosshair Aim compares to Crosshair Hero."
+description: "Best crosshair app for Android in 2026: FPS overlay apps for PUBG Mobile and COD Mobile — styles, customization, no root — and Crosshair Aim vs Crosshair Hero."
 layout: guide
 image: /assets/images/apps/cross-hair/icon.webp
 tags: [Crosshair, Android, Crosshair Aim, App Roundup]
@@ -86,15 +86,23 @@ Quick pick by situation:
 ## FAQ
 
 **Is Crosshair Aim free?**
+{:.faq-q}
+
 Yes. The basic style set is free; a Pro unlock opens the full 80+ library and deeper customization.
 
 **Crosshair Aim or Crosshair Hero — which should I pick?**
+{:.faq-q}
+
 Want 80+ ready designs with a quick, lightweight setup → Crosshair Aim; want a deep editor and don't mind tweaking → Crosshair Hero (Pro).
 
 **Does Crosshair Aim work on iOS?**
+{:.faq-q}
+
 No. Crosshair Aim is Android-only; iOS users can look at Crosshair X, which has no Android build.
 
 **Is it safe / will it get me banned?**
+{:.faq-q}
+
 It's a visual-only overlay that doesn't modify game data or memory, so it doesn't trigger anti-cheat. Use it within each game's fair-play rules.
 
 ## Conclusion

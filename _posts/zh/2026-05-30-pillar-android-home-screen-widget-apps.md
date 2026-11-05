@@ -93,15 +93,23 @@ One Widget 内置 500+ 可自定义的安卓主屏组件，涵盖 Glass iOS、Ma
 ## 常见问题（FAQ）
 
 **One Widget 免费吗？**
+{:.faq-q}
+
 One Widget 是付费应用。免费版含 One UI 主题组件，可改大小与配色；Glass iOS、Material You、Nothing 风格通过一次性购买解锁。
 
 **One Widget 提供哪些组件风格？**
+{:.faq-q}
+
 四种 2026 流行风格——Glass iOS、Material You（随壁纸变色）、Galaxy One UI 与 Nothing 极简——覆盖 500+ 组件。
 
 **哪些设备支持 One Widget？**
+{:.faq-q}
+
 所有安卓设备，包括三星 Galaxy、Google Pixel 与 Nothing 手机。
 
 **One Widget 还是 KWGT，怎么选？**
+{:.faq-q}
+
 想要 500+ 现成、有主题的组件、要快、不碰编辑器 → One Widget；想要从零造每个组件、完全掌控 → KWGT（Pro 密钥）。
 
 ## 结论

@@ -110,12 +110,18 @@ Flip Clock (package `com.wssc.simpleclock`) is a free, ad-free **flip-clock app*
 ## FAQ
 
 **Is Only Clock free for nightstand use?**
+{:.faq-q}
+
 Yes. The core clock, dim themes and white noise work free; a one-time VIP unlocks the richest themes and sound packs.
 
 **Does Only Clock protect OLED from burn-in?**
+{:.faq-q}
+
 Yes. It offers anti-burn-in clock-shift and dim options so an OLED panel doesn't ghost when left always-on overnight.
 
 **Only Clock or Flip Clock for the bedside?**
+{:.faq-q}
+
 Want a dim, sound-equipped bedside clock with burn-in safety → Only Clock; want a free bare clock and will manage brightness yourself → Flip Clock.
 
 ## Related terms

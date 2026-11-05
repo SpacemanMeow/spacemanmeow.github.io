@@ -1,7 +1,7 @@
 ---
 date: 2026-01-22 09:00:00 +0800
 title: "2026 年最佳 Crosshair Hero 替代应用"
-description: "2026 年想找 Crosshair Hero 的替代品？我们对比了六款免 Root 的准星叠加层应用（面向 FPS 与射击游戏）——Crosshair Aim、Custom Crosshair、Custom Aim、Crosshair Pro、CrossAim 和 Crosshair PRO——从样式、自定义、游戏内调节器到价格，附核心能力对比表与按需选购指南。"
+description: "2026 年想找 Crosshair Hero 的替代品？我们对比六款免 Root 的准星叠加层应用，从样式、自定义、游戏内调节器到价格，附能力对比表与按需选购指南。"
 layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Alternatives, Crosshair Hero]
 image: /assets/images/apps/cross-hair/icon.webp
@@ -245,15 +245,23 @@ Crosshair PRO（Custom Scope）是一款面向 FPS/TPS 爱好者的专业 **叠�
 ## 常见问题（FAQ）
 
 **Crosshair Aim 是最好的 Crosshair Hero 替代品吗？**
+{:.faq-q}
+
 如果你想要 80+ 样式、外加游戏内实时浮动调节器（大小、颜色、位置、透明度），以及为无准星武器生成准星，是的——Crosshair Aim 在控制力上领先。Custom Crosshair 胜在动画准星，Custom Aim 胜在从零设计。
 
 **哪款替代品有动画准星？**
+{:.faq-q}
+
 Custom Crosshair（Impact Crosshair）是这里唯一带动画准星的；Crosshair Aim 与其余都是静态。
 
 **哪款替代品最像 Crosshair Hero？**
+{:.faq-q}
+
 Crosshair Hero（vs 指南里有）与 CrossAim 是最接近的预设式选择；Crosshair Aim 是更深、更可自定义的选项。
 
 **Crosshair Aim 免费吗？**
+{:.faq-q}
+
 免费。基础样式集合免费且无广告；Pro 解锁完整库。
 
 [Crosshair Aim App 页](/zh/apps/cross-hair/)——安卓平台可用。

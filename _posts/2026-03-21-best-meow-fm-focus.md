@@ -121,15 +121,23 @@ Calm is the best-known **meditation and sleep app** on Google Play (50M+ downloa
 ## FAQ
 
 **Is Meow FM free for focus?**
+{:.faq-q}
+
 Yes. The core focus soundscapes — rain, sea, fireplace and more — are free with no paywall on listening; a one-time VIP unlocks extra scenes, not the timer or offline playback.
 
 **Does Meow FM work offline?**
+{:.faq-q}
+
 Yes. Downloaded scenes play with no internet, so you can focus on a plane, subway, or dead Wi-Fi cafe.
 
 **Does Meow FM have a timer for pomodoro?**
+{:.faq-q}
+
 Yes. Set 15/30/60 minutes or a custom duration and the audio auto-stops, which fits a 25-minute pomodoro block.
 
 **Meow FM or Brain.fm for focus?**
+{:.faq-q}
+
 Want free, offline, no-account ambient noise with a real timer → Meow FM; want AI-composed functional music engineered for attention → Brain.fm (paid subscription).
 
 ## Related terms

@@ -105,15 +105,23 @@ Assistive Touch（包名 `mtr.assistivetouch.easytools`）提供屏幕虚拟按�
 ## 常见问题（FAQ）
 
 **Floating Assistant 免费吗？**
+{:.faq-q}
+
 免费。核心边缘浮动球、虚拟按键与手势都免费；可选 VIP 解锁更深的主题与选项。
 
 **无障碍场景 Floating Assistant 还是 Assistive Touch？**
+{:.faq-q}
+
 想要灵活、手势丰富的单手操控 → Floating Assistant；想要简单免费的虚拟按键 → Assistive Touch。
 
 **Floating Assistant 需要 root 吗？**
+{:.faq-q}
+
 不需要。它以辅助功能/叠层服务运行，无需 root。
 
 **Floating Assistant 在 iOS 上能用吗？**
+{:.faq-q}
+
 不能。仅安卓；iOS 在辅助功能设置里已有内置 AssistiveTouch。
 
 ## 相关术语

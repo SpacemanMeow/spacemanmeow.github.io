@@ -141,15 +141,23 @@ The full field is compared in [Best Day One Alternatives in 2026](/posts/alterna
 ## FAQ
 
 **Meow Mood or Day One — which should I pick?**
+{:.faq-q}
+
 Want a private, free, offline, emotion-focused daily check-in → Meow Mood; want a multimedia life journal that syncs everywhere → Day One.
 
 **Is Meow Mood free?**
+{:.faq-q}
+
 The core is free; Day One needs a ~$35/year subscription for the features most people use.
 
 **Does Meow Mood work offline?**
+{:.faq-q}
+
 Yes. You can log, view, and edit entries with no internet and no account; data stays on your device.
 
 **Is Meow Mood really private?**
+{:.faq-q}
+
 Yes — entries never upload to our servers; backup goes only to your own Google Drive.
 
 ## Related terms

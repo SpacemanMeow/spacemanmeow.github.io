@@ -96,15 +96,23 @@ Quick pick by situation:
 ## FAQ
 
 **Is System Monitor free?**
+{:.faq-q}
+
 No. System Monitor is a one-time paid download — no subscription and no 'free + upgrade nag'. You buy it once.
 
 **Does System Monitor clean or boost my phone?**
+{:.faq-q}
+
 No. System Monitor is read-only: it reports CPU, storage, memory and battery facts and never clears caches, frees memory or changes files. For cleaning, see the [CCleaner alternatives](/posts/alternatives-to-ccleaner/) guide.
 
 **Does System Monitor show battery health?**
+{:.faq-q}
+
 Yes. It charts battery temperature, health, voltage and level over time, so you can watch wear develop.
 
 **Does System Monitor work on iOS?**
+{:.faq-q}
+
 No. System Monitor is Android-only.
 
 ## Conclusion

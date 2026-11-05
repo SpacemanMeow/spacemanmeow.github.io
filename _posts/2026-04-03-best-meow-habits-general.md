@@ -117,15 +117,23 @@ Streaks (by Crunchy Bagel) is an **Apple Design Award winner** and the cleanest 
 ## FAQ
 
 **Is Meow Habits free?**
+{:.faq-q}
+
 Yes for the core — tracking, streaks, charts, reminders, and build/break modes are free; CSV export and a few extras sit behind an optional one-time VIP.
 
 **Does Meow Habits work offline?**
+{:.faq-q}
+
 Yes. You can log habits with no internet and no account; data stays on your device and backs up to WebDav or Google Drive when you choose.
 
 **Meow Habits or Streaks — which should I pick?**
+{:.faq-q}
+
 Want a cute, free, cross-platform (Android + iOS), offline tracker → Meow Habits; want the most polished iOS-only UI with Apple Health → Streaks.
 
 **Can I track habits to drop, not just build?**
+{:.faq-q}
+
 Yes — Meow Habits has both build and break modes, so you can track 'stop scrolling' alongside 'drink water'.
 
 ## Related terms

@@ -107,12 +107,18 @@ Flip Clock (package `com.wssc.simpleclock`) is a popular **free flip-clock app**
 ## FAQ
 
 **Is Only Clock free?**
+{:.faq-q}
+
 Yes. The core flip clock, widgets and white noise work free; a one-time VIP unlocks the richest themes and sound packs.
 
 **Does Only Clock have a floating clock?**
+{:.faq-q}
+
 Yes. A floating overlay mode keeps the clock above other apps or a video while you work.
 
 **Only Clock or Flip Clock — which should I pick?**
+{:.faq-q}
+
 Want themes, white noise, floating mode and widgets → Only Clock; want a free, bare retro flip clock with no extras → Flip Clock.
 
 ## Related terms

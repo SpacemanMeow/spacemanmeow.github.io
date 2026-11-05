@@ -271,15 +271,23 @@ Whatever the label, ask two questions before migrating: can you take your histor
 ## FAQ
 
 **Is Meow Mood Diary a good free Day One alternative?**
+{:.faq-q}
+
 Yes. It's free at the core, runs on Android and iOS, never uploads entries to a server, and backs up only to your own Google Drive — a strong pick if you want privacy and quick mood logging over rich multimedia.
 
 **Does Meow Mood Diary work offline?**
+{:.faq-q}
+
 Yes. You can log, view, and edit entries with no internet and no account; data stays on your device.
 
 **Which Day One alternative is best for privacy?**
+{:.faq-q}
+
 Meow Mood Diary — no account, on-device storage with an optional fingerprint lock, and backups only to your own Google Drive when you enable them.
 
 **Can I move my entries out of Day One?**
+{:.faq-q}
+
 Day One exports PDF and other formats; Meow Mood itself exports PDF (CSV via VIP), so your data stays portable.
 
 [Meow Mood Diary app page](/apps/meow-mood-diary/) — available on Android and iOS.

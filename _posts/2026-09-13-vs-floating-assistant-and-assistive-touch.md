@@ -137,15 +137,23 @@ For the **best Assistive Touch alternative android** shortlist, the deciding que
 ## FAQ
 
 **Floating Assistant or Assistive Touch — which should I pick?**
+{:.faq-q}
+
 Want one overlay that does assistive touch + a floating clock + live system monitoring → Floating Assistant; want a simple, free navigation ball → Assistive Touch (Easy Touch).
 
 **Does Floating Assistant include a floating clock?**
+{:.faq-q}
+
 Yes. Unlike Assistive Touch, it keeps a clock above other apps — useful as a bedside or desk glance.
 
 **Does Floating Assistant monitor CPU/RAM/battery?**
+{:.faq-q}
+
 Yes, live. It shows CPU temperature/usage, RAM and battery and offers a one-tap boost; Assistive Touch has no system monitor.
 
 **Is Floating Assistant free?**
+{:.faq-q}
+
 Yes. The core overlay is free; an optional unlock adds deeper themes and modules.
 
 ## Related terms

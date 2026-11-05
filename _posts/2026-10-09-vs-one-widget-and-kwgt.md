@@ -137,15 +137,23 @@ The full field is compared in [Best WidgetSmith Alternatives in 2026](/posts/alt
 ## FAQ
 
 **One Widget or KWGT — which should I pick?**
+{:.faq-q}
+
 Want a cohesive, polished home screen in minutes, no editor → One Widget; want total creative control with live-data formulas and don't mind the learning curve → KWGT.
 
 **Is One Widget free?**
+{:.faq-q}
+
 The One UI style set is free; the other three styles unlock with a one-time purchase (no subscription).
 
 **Does One Widget work on iOS?**
+{:.faq-q}
+
 No. One Widget is Android-only; KWGT is also Android-only. For iOS, look at WidgetSmith.
 
 **Is KWGT subscription-free?**
+{:.faq-q}
+
 KWGT is free to build and test; a ~$4.99 one-time Pro key removes the watermark and unlocks full export. No subscription.
 
 ## Related terms

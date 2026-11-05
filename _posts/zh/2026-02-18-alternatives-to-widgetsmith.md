@@ -254,15 +254,23 @@ WidgetClub 是一款有质感的组件、壁纸与图标应用，拥有海量目
 ## 常见问题（FAQ）
 
 **One Widget 算好的安卓 WidgetSmith 替代品吗？**
+{:.faq-q}
+
 算。如果你想要跨 One UI、Material You、Glass、Nothing 四种外观、且无需设计工具的庞大现成安卓组件库，One Widget 是最贴近 WidgetSmith「预设哲学」的安卓原生答案。
 
 **One Widget 能在 iOS 上用吗？**
+{:.faq-q}
+
 不能。One Widget 仅安卓。iOS 上可选本指南里的 Widgy 或 Color Widgets，它们是 WidgetSmith 风格的选法。
 
 **哪款 WidgetSmith 替代品最擅长自定义搭建？**
+{:.faq-q}
+
 KWGT——安卓上最强大的从零编辑器。One Widget 仍基于预设，所以想要完全掌控就选 KWGT。
 
 **One Widget 免费吗？**
+{:.faq-q}
+
 One UI 风格套件免费；另外三种风格通过一次性购买解锁（无订阅）。
 
 [One Widget App 页](/zh/apps/one-widget/)——安卓平台可用。

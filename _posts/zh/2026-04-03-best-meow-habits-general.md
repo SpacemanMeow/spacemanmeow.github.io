@@ -117,15 +117,23 @@ Streaks（Crunchy Bagel 出品）是 **Apple 设计奖得主**，也是 iOS 上�
 ## 常见问题（FAQ）
 
 **Meow Habits 免费吗？**
+{:.faq-q}
+
 核心免费——追踪、连续天数、图表、提醒与养成/戒除模式都免费；CSV 导出与少数进阶能力在可选的一次性 VIP 之后。
 
 **Meow Habits 能离线用吗？**
+{:.faq-q}
+
 能。没网、无账号也能打卡；数据留在本机，并在你选择时备份到 WebDav 或 Google Drive。
 
 **Meow Habits 和 Streaks 怎么选？**
+{:.faq-q}
+
 想要可爱、免费、跨平台（安卓 + iOS）、离线的追踪器 → Meow Habits；想要最精致、带 Apple Health 的纯 iOS UI → Streaks。
 
 **能追踪要戒掉的习惯，而不只是养成吗？**
+{:.faq-q}
+
 能——Meow Habits 有养成与戒除双模式，你可以把「少刷手机」和「喝水」放在同一处追踪。
 
 ## 相关术语

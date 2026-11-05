@@ -95,15 +95,23 @@ Floating Assistant 为安卓加上可自定义的浮动球，用于快速启动�
 ## 常见问题（FAQ）
 
 **Floating Assistant 免费吗？**
+{:.faq-q}
+
 免费。核心浮动球、动作与手势都免费；可选 VIP 解锁更深的主题与选项。
 
 **Floating Assistant 还是 Assistive Touch，怎么选？**
+{:.faq-q}
+
 想要可自定义、近乎无广告、动作与手势深入的浮动球 → Floating Assistant；对热门但靠广告支撑的球无所谓 → Assistive Touch (easytools)。
 
 **Floating Assistant 在 iOS 上能用吗？**
+{:.faq-q}
+
 不能。Floating Assistant 仅安卓；iOS 在辅助功能设置里已有内置 AssistiveTouch。
 
 **Floating Assistant 需要 root 吗？**
+{:.faq-q}
+
 不需要。它以辅助功能/叠层服务运行，无需 root。
 
 ## 结论

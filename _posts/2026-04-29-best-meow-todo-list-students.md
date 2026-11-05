@@ -1,7 +1,7 @@
 ---
 date: 2026-04-29 09:00:00 +0800
 title: "Meow Todo for Students: Never Miss a Syllabus Deadline"
-description: "Best to-do app for students in 2026: Meow Todo vs Todoist, Microsoft To Do and TickTick — a task manager with subtasks free, cute task manager android, calendar view, and no account required."
+description: "Best to-do app for students in 2026: Meow Todo vs Todoist, Microsoft To Do and TickTick — free subtasks, calendar view, no account required."
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
@@ -116,15 +116,23 @@ That is also why the **best free to-do list app** for students is rarely the mos
 ## FAQ
 
 **Is Meow Todo free for students?**
+{:.faq-q}
+
 Yes — lists, tasks, due dates, and the calendar view are free; unlimited lists, tags, subtasks, CSV export, and app lock sit behind an optional one-time VIP.
 
 **Do I need an account?**
+{:.faq-q}
+
 No. You can start on the first day of term with no sign-up; your tasks stay local behind a fingerprint lock.
 
 **Can I track group projects?**
+{:.faq-q}
+
 Yes — subtasks break a deliverable into steps, and CSV export lets you hand the plan to group mates or keep a printable copy.
 
 **Meow Todo or Todoist for a student?**
+{:.faq-q}
+
 Want free, private, no-account tracking with subtasks and reminders → Meow Todo; want natural-language input, collaboration, and will pay for Pro → Todoist.
 
 ## Related terms

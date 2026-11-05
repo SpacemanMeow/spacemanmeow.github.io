@@ -1,7 +1,7 @@
 ---
 date: 2026-04-25 09:00:00 +0800
 title: "Meow Todo for Android: A To-Do List That Stays on Your Phone"
-description: "Best task manager Android 2026: Meow Todo vs Todoist, Microsoft To Do and Google Tasks — local-first privacy, offline to-do app, simple to-do app, to-do app with reminders, and price."
+description: "Best task manager Android 2026: Meow Todo vs Todoist, Microsoft To Do and Google Tasks on local privacy, offline to-do app, reminders and price."
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Best Apps]
 image: /assets/images/apps/meow-todo-list/icon.webp
@@ -115,15 +115,23 @@ Todoist is the most-installed task manager, with natural-language input and deep
 ## FAQ
 
 **Is Meow Todo List free?**
+{:.faq-q}
+
 Yes for core use — lists, tasks, reminders, and the calendar view are free; unlimited lists, tags, subtasks, CSV export, and app lock sit behind an optional one-time VIP.
 
 **Does Meow Todo work offline?**
+{:.faq-q}
+
 Yes. You can add and check off tasks with no internet; your data stays on your device and only syncs to Google Drive or WebDav when you enable backup.
 
 **Do I need an account to use Meow Todo?**
+{:.faq-q}
+
 No. You can start immediately with no sign-up; tasks stay local behind a fingerprint lock.
 
 **Meow Todo or Todoist — which should I pick?**
+{:.faq-q}
+
 Want a free, private, offline-friendly, no-account to-do list → Meow Todo; want natural-language input and real-time sync across every device → Todoist (paid Pro).
 
 ## Related terms

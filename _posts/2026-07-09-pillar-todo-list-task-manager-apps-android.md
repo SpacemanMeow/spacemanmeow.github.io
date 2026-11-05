@@ -1,7 +1,7 @@
 ---
 date: 2026-07-09 09:00:00 +0800
 title: "Best To-Do List & Task Manager Apps for Android (2026)"
-description: "Best to-do list app for Android in 2026: how to pick a task manager app — calendar view, subtasks, reminders, offline to-do app, free core — and how Meow Todo List compares to Todoist and TickTick."
+description: "Best to-do list app for Android in 2026: how to pick a task manager — calendar view, subtasks, reminders, offline, free core — and Meow Todo vs Todoist."
 layout: guide
 image: /assets/images/apps/meow-todo-list/icon.webp
 tags: [To-Do List, Android, Meow Todo, App Roundup]
@@ -96,15 +96,23 @@ Or read the [Best to-do list for students](/posts/best-meow-todo-list-students/)
 ## FAQ
 
 **Is Meow Todo List free?**
+{:.faq-q}
+
 Core to-do, calendar, subtasks, reminders and Drive/WebDav sync are free to start; a few advanced extras sit behind an optional one-time unlock.
 
 **Does Meow Todo List work offline?**
+{:.faq-q}
+
 Yes. You can add and check off tasks with no internet, then sync to Google Drive or WebDav when you're back online.
 
 **Can I see my week or month at a glance?**
+{:.faq-q}
+
 Yes — daily, weekly and monthly calendar views keep recurring work visible so nothing hides.
 
 **Meow Todo List or Todoist — which should I pick?**
+{:.faq-q}
+
 Want a free, cute, offline-friendly task manager → Meow Todo List; want natural-language input and heavy team collaboration → Todoist (paid Pro).
 
 ## Related terms

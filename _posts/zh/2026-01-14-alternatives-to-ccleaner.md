@@ -258,15 +258,23 @@ Norton Clean 是一款 **直截了当的垃圾与缓存清理工具**，轻点�
 ## 常见问题（FAQ）
 
 **System Monitor 是最好的 CCleaner 替代品吗？**
+{:.faq-q}
+
 若你想要监控兼清理，是的。System Monitor 是这里唯一带实时 CPU/内存/电量监控、过热报警与一键加速的应用——其余都是清理或存储工具，没有实时洞察。
 
 **哪款 CCleaner 替代品清理存储最安全？**
+{:.faq-q}
+
 Files by Google 最安全——官方、无广告、无激进后台任务。SD Maid 是进阶用户最深的清理器。
 
 **哪款 CCleaner 替代品真能释放 RAM？**
+{:.faq-q}
+
 System Monitor 是这里唯一带一键内存加速的；其余管理存储与缓存，但不做实时监控或释放内存。
 
 **System Monitor 免费吗？**
+{:.faq-q}
+
 免费。核心监控、组件、浮窗与过热报警都免费；可选解锁加深主题与历史。
 
 [System Monitor App 页](/zh/apps/system-monitor/)——安卓平台可用。

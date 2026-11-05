@@ -120,15 +120,23 @@ Day One is the original, most-awarded digital journal — praised by *The New Yo
 ## FAQ
 
 **Is Meow Mood free?**
+{:.faq-q}
+
 The core — quick mood logging, history, charts, and offline use — is free to start; a few extras (like CSV export) sit behind an optional one-time VIP.
 
 **Does Meow Mood work offline?**
+{:.faq-q}
+
 Yes. You can log, view, and edit entries with no internet and no account; data stays on your device.
 
 **Is my diary private?**
+{:.faq-q}
+
 Yes — entries are never uploaded to our servers; you back up only to your own Google Drive, and a fingerprint or passcode lock keeps the diary to yourself.
 
 **Meow Mood or Day One — which should I pick?**
+{:.faq-q}
+
 Want a free, private, no-account, on-device mood diary → Meow Mood; want rich photo journaling with sync and accept a subscription → Day One.
 
 ## Related terms

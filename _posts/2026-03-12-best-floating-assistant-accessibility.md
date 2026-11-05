@@ -105,15 +105,23 @@ Assistive Touch (package `mtr.assistivetouch.easytools`) offers on-screen virtua
 ## FAQ
 
 **Is Floating Assistant free?**
+{:.faq-q}
+
 Yes. The core edge floating ball, virtual keys and gestures are free; an optional VIP unlock adds deeper themes and options.
 
 **Floating Assistant or Assistive Touch for accessibility?**
+{:.faq-q}
+
 Want flexible, gesture-rich one-handed control → Floating Assistant; want simple, free virtual keys → Assistive Touch.
 
 **Does Floating Assistant need root?**
+{:.faq-q}
+
 No. It runs as an accessibility/overlay service, no root required.
 
 **Does Floating Assistant work on iOS?**
+{:.faq-q}
+
 No. Android-only; iOS has a built-in AssistiveTouch in accessibility settings.
 
 ## Related terms

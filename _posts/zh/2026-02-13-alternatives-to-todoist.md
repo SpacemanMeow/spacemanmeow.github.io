@@ -264,15 +264,23 @@ Any.do 把待办清单、日历与规划器连同提醒打包在一起，被数�
 ## 常见问题（FAQ）
 
 **Meow Todo List 算好的免费 Todoist 替代品吗？**
+{:.faq-q}
+
 算。它的核心（清单、子任务、日历视图、提醒、CSV 导出）免费，无需账号，并可用可选指纹锁把任务留在本机；只有少数进阶能力放在一次性 VIP 之后。
 
 **Meow Todo 能离线用吗？**
+{:.faq-q}
+
 能。没网也能添加、勾掉任务；数据留在设备上，只在你主动选择时同步到 iCloud 或 WebDav。
 
 **哪款 Todoist 替代品最注重隐私？**
+{:.faq-q}
+
 Meow Todo——它无需账号，任务锁在指纹之后、存于本机，且只在你开启时才备份到 iCloud 或 WebDav，因此清单默认不会躺在厂商云里。
 
 **我能把任务从 Todoist 搬出来吗？**
+{:.faq-q}
+
 能。先从 Todoist 导出 CSV，再重建你的清单；Meow Todo 同样支持 CSV 导出，随时可把数据搬到 Excel 或别的应用。
 
 [Meow Todo List App 页](/zh/apps/meow-todo-list/)——安卓与 iOS 可下载。

@@ -99,12 +99,15 @@ There is **no independent thickness slider** — each pre-rendered style already
 ## FAQ
 
 ### Do I need root or Accessibility?
+{:.faq-q}
 No. Only the overlay (Draw over other apps) permission.
 
 ### Can I save a different crosshair per game?
+{:.faq-q}
 No — the app stores one global configuration. You change it manually when switching games.
 
 ### Can I change thickness?
+{:.faq-q}
 Not separately. Thickness is part of each style's design.
 
 ## Summary

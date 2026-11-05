@@ -263,15 +263,23 @@ System Monitor 是一款 **安卓全能工具**：CPU 监控、存储清理、�
 ## 常见问题（FAQ）
 
 **CPU Monitor 是最好的 CPU-Z 替代品吗？**
+{:.faq-q}
+
 论实时监控，是的。如果你想要实时 CPU/电池温度、悬浮窗、小组件与过热报警——也就是 CPU-Z 不做的事——CPU Monitor 是最贴近的替代。
 
 **哪款 CPU-Z 替代品能随时间显示实时温度？**
+{:.faq-q}
+
 CPU Monitor 与 System Monitor 都把温度画成曲线；DevCheck 与 AIDA64 显示实时传感器值，但没有连续历史。
 
 **哪款 CPU-Z 替代品参数报告最深？**
+{:.faq-q}
+
 DevCheck 与 AIDA64 是最强的参数报告器；Device Info HW 额外提供部件级细节，如确切的摄像头/GPU 型号。
 
 **CPU Monitor 免费吗？**
+{:.faq-q}
+
 免费。核心监控——实时温度、悬浮窗、小组件与过热报警——都免费；可选解锁加深主题与历史。
 
 [CPU Monitor App 页](/zh/apps/cpu-monitor/)——安卓平台可用。

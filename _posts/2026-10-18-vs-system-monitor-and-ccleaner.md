@@ -138,15 +138,23 @@ For the **best CCleaner alternative android** shortlist, keep the two jobs separ
 ## FAQ
 
 **System Monitor or CCleaner — which should I pick?**
+{:.faq-q}
+
 Want live insight and control (temp, frequency, RAM, overheat alarm, floating widgets) plus an optional one-tap boost → System Monitor; want a familiar, one-tap cache/junk clear and don't need monitoring → CCleaner.
 
 **Does System Monitor clean junk or cache?**
+{:.faq-q}
+
 No. System Monitor is a monitor with a one-tap boost; it does not delete junk or cache files (by design). For storage cleanup, the guide points to Files by Google.
 
 **Does System Monitor free RAM?**
+{:.faq-q}
+
 Yes — it has a one-tap RAM boost with an ignore list so important apps stay open; it's control, not a full cleaner.
 
 **Is System Monitor free?**
+{:.faq-q}
+
 Yes. The core monitor, widgets, floating window and overheat alarm are free; an optional unlock adds deeper themes and history.
 
 ## Related terms

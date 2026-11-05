@@ -103,12 +103,18 @@ KWGT (Kustom Widget Maker, package `org.kustom.widget`) can reproduce Material Y
 ## FAQ
 
 **Is One Widget's Material You theming free?**
+{:.faq-q}
+
 Core Material You-matched widgets are free to place; deeper styling and extra widget types unlock via an optional one-time VIP.
 
 **Does One Widget follow the system light/dark theme?**
+{:.faq-q}
+
 Yes. Widgets are theme-aware and follow the system light/dark mode and wallpaper-derived colors.
 
 **One Widget or KWGT for Material You?**
+{:.faq-q}
+
 Want wallpaper-matched widgets instantly, no editor → One Widget; want to hand-author dynamic color with pixel control → KWGT (Pro Key).
 
 [One Widget app page](/apps/one-widget/) — available on Android.

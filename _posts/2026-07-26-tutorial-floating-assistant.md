@@ -124,12 +124,15 @@ With the ball you can do HOME / BACK / RECENTS / POWER-DIALOG / LOCK / SCREENSHO
 ## FAQ
 
 ### Are there contacts shortcuts?
+{:.faq-q}
 No. The only people-related action is the **phone/dialer** shortcut. There is no contacts shortcut.
 
 ### Can I swipe the ball?
+{:.faq-q}
 Gestures are **tap-to-expand, tap-a-slot, and drag-to-move/dock** only. There is no swipe-left/right mapping.
 
 ### Why Accessibility?
+{:.faq-q}
 The global button actions (home/back/recent/lock/screenshot) are performed through Android's Accessibility service.
 
 ## Summary

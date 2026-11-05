@@ -88,15 +88,23 @@ Meow Habits 是一款[习惯追踪](/zh/glossary/what-is-a-habit-tracker/)与日
 ## 常见问题（FAQ）
 
 **Meow Habits 免费吗？**
+{:.faq-q}
+
 核心——追踪、连续天数、图表、提醒与 CSV 导出——都免费起步；少数进阶能力在可选的一次性解锁之后。
 
 **Meow Habits 能离线用吗？**
+{:.faq-q}
+
 能。没网、无账号也能打卡；数据留在本机，并在你选择时备份到 WebDav 或 Google Drive。
 
 **能看到一段时间内的进度吗？**
+{:.faq-q}
+
 能——柱状、饼图与日历视图展示完成率与趋势，CSV 导出还能把一切拉进表格分析。
 
 **Meow Habits 和 Streaks 怎么选？**
+{:.faq-q}
+
 想要可爱、免费、离线、对安卓友好的追踪器 → Meow Habits；想要最精致的纯 iOS UI、且已在苹果生态里 → Streaks。
 
 ## 结论

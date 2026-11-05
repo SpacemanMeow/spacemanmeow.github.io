@@ -103,9 +103,11 @@ Settings include Upgrade, theme, overheat alarm, temperature unit, refresh rate,
 ## FAQ
 
 ### Is CPU Monitor the same as System Monitor?
+{:.faq-q}
 They share code, but CPU Monitor adds a **CLEAN** (cache) screen and a Pro upgrade; System Monitor is read-only with no cleaning.
 
 ### Why am I seeing ads?
+{:.faq-q}
 The free version is ad-supported. Upgrade to Pro to remove them.
 
 ## Summary

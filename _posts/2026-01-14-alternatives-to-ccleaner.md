@@ -258,15 +258,23 @@ Whatever the label, ask two questions before migrating: can you review the delet
 ## FAQ
 
 **Is System Monitor the best CCleaner alternative?**
+{:.faq-q}
+
 If you want monitoring plus cleanup, yes. System Monitor is the only app here with live CPU/RAM/battery monitoring, an overheat alarm and a one-tap boost — the others are cleaners or storage tools without real-time insight.
 
 **Which CCleaner alternative is safest for storage?**
+{:.faq-q}
+
 Files by Google is the safest pick — official, no ads, no aggressive background tasks. SD Maid is the deepest cleaner for power users.
 
 **Which CCleaner alternative actually frees RAM?**
+{:.faq-q}
+
 System Monitor is the only one here with a one-tap RAM boost; the rest manage storage and cache but don't monitor or free memory live.
 
 **Is System Monitor free?**
+{:.faq-q}
+
 Yes. The core monitor, widgets, floating window and overheat alarm are free; an optional unlock adds deeper themes and history.
 
 [System Monitor app page](/apps/system-monitor/) — available on Android.

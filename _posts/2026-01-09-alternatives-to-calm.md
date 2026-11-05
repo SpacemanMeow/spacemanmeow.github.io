@@ -271,15 +271,23 @@ Before migrating, ask two questions: can the sound run with no signal, and does 
 ## FAQ
 
 **Is Meow FM a good free Calm alternative?**
+{:.faq-q}
+
 Yes. If you mainly want ambient sound for sleep and focus, Meow FM is free at the core, needs no account, plays fully offline, and has a sleep timer that auto-stops — no ~$69.99/yr subscription.
 
 **Does Meow FM work offline?**
+{:.faq-q}
+
 Yes. Every sound plays with no internet, so you can sleep or focus on a plane, in a tent, or anywhere Wi-Fi drops.
 
 **Which Calm alternative is best for mixing sounds?**
+{:.faq-q}
+
 BetterSleep and Noisli are the deepest mixers; White Noise (TMSOFT) offers a huge library for a one-time price; Meow FM is the simplest no-account pick for pure ambient noise.
 
 **Can I move away from Calm easily?**
+{:.faq-q}
+
 Yes. Pick the alternative that matches what you use (sound vs stories vs meditation), build a bedtime playlist with a timer, and cancel Calm only after the new app covers your nightly routine.
 
 [Meow FM app page](/apps/meow-fm/) — available on Android and iOS.

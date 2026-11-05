@@ -4,6 +4,7 @@ title: Search
 subtitle: "Find apps, articles and glossary terms."
 permalink: /search/
 nav: search
+lang: en
 description: "Search across Meow Apps Studio — apps, blog posts, and glossary terms."
 image: /assets/images/favicons/avatar.png
 ---

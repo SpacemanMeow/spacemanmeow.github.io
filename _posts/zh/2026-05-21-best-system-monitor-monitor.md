@@ -113,15 +113,23 @@ CCleaner（包名 `com.piriform.ccleaner`，Gen Digital 出品）以 PC 清理�
 ## 常见问题（FAQ）
 
 **System Monitor 免费吗？**
+{:.faq-q}
+
 不。它是一次性付费下载——无订阅、无升级墙。
 
 **System Monitor 还是 CCleaner，怎么选？**
+{:.faq-q}
+
 想要深入、只读的 CPU、内存、存储与电池视图 → System Monitor；想要一键缓存/存储清理、并接受订阅 → CCleaner。
 
 **System Monitor 显示进程列表吗？**
+{:.faq-q}
+
 显示。它列出运行中的应用及其资源占用，让你看清是谁在消耗 CPU 或内存。
 
 **System Monitor 会清垃圾或释放内存吗？**
+{:.faq-q}
+
 不会。System Monitor 是只读的；它只报告事实，从不清缓存或释放内存。要清理，请看 [CCleaner 替代](/zh/posts/alternatives-to-ccleaner/) 指南。
 
 ## 相关术语

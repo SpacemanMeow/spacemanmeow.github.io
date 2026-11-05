@@ -1,7 +1,7 @@
 ---
 date: 2026-02-13 09:00:00 +0800
 title: "Best Todoist Alternatives in 2026"
-description: "Best free Todoist alternative in 2026: seven to-do apps compared — Microsoft To Do, Meow Todo, TickTick, Google Tasks, Things 3, Notion, Any.do — on free-tier limits, privacy, a task manager with subtasks free, and more. Table + migration checklist."
+description: "Best free Todoist alternative in 2026: seven to-do apps compared on free-tier limits, privacy and subtasks — Microsoft To Do, Meow Todo, TickTick and more."
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Alternatives, Todoist]
 image: /assets/images/apps/meow-todo-list/icon.webp
@@ -264,15 +264,23 @@ Read each option as a **Todoist alternative** with a specific job: the **Microso
 ## FAQ
 
 **Is Meow Todo List a good free Todoist alternative?**
+{:.faq-q}
+
 Yes — its core (lists, subtasks, calendar view, reminders, CSV export) is free, with no account required and on-device privacy via an optional fingerprint lock; only a few advanced extras sit behind a one-time VIP.
 
 **Does Meow Todo work offline?**
+{:.faq-q}
+
 Yes. You can add and check off tasks with no internet; data stays on your device and syncs to iCloud or WebDav only when you choose.
 
 **Which Todoist alternative is best for privacy?**
+{:.faq-q}
+
 Meow Todo — it needs no account, keeps tasks on-device behind a fingerprint lock, and only backs up to iCloud or WebDav when you enable it, so your list never sits in a vendor cloud by default.
 
 **Can I move my tasks out of Todoist?**
+{:.faq-q}
+
 Yes — export a CSV from Todoist, then recreate your lists; Meow Todo also exports CSV, so you can move your data to Excel or another app anytime.
 
 [Meow Todo List app page](/apps/meow-todo-list/) — download for Android and iOS.

@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: "What Is iOS Glass?"
-description: "iOS Glass (Glass iOS) is the frosted, translucent widget aesthetic inspired by Apple's glassmorphism — blurred backgrounds that let content show through. Learn what it is and why Android widget packs copy the look."
+description: "iOS Glass (Glass iOS) is the frosted, translucent widget look inspired by Apple's glassmorphism. Learn why Android widget packs copy it."
 tags: [iOS Glass, Glass, iOS, Android, One Widget]
 lang: en
 ---

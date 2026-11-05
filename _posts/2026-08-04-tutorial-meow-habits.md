@@ -116,12 +116,15 @@ Settings include a VIP banner, **dark mode**, **language**, **week start**, **ap
 ## FAQ
 
 ### What breaks a streak?
+{:.faq-q}
 A streak continues while you check in on the scheduled days. Missing a scheduled day resets the current streak for that habit.
 
 ### Is there a free limit?
+{:.faq-q}
 Yes — the free tier allows up to **5 habits**. VIP unlocks unlimited habits, unlimited lists, dark mode, app lock, and CSV export.
 
 ### Where is my data stored?
+{:.faq-q}
 On your device by default. Use Google Drive or WebDav backup to move it between devices.
 
 ## Summary

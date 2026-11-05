@@ -103,9 +103,11 @@ CPU Monitor 在安卓上显示 **实时 [CPU 温度](/zh/glossary/what-is-a-cpu-
 ## 常见问题
 
 ### CPU Monitor 和 System Monitor 是同一个吗？
+{:.faq-q}
 它们共享代码，但 CPU Monitor 额外有 **清理**（缓存）屏幕与 Pro 升级；System Monitor 是只读、无清理。
 
 ### 为什么我看到广告？
+{:.faq-q}
 免费版含广告。升级到 Pro 即可移除。
 
 ## 小结

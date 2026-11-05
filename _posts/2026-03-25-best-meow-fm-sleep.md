@@ -122,15 +122,23 @@ Calm is the best-known **meditation and sleep app** on Google Play (50M+ downloa
 ## FAQ
 
 **Is Meow FM free for sleep?**
+{:.faq-q}
+
 Yes. The core sleep soundscapes — rain, sea, fireplace and more — are free with no paywall on listening; a one-time VIP unlocks extra scenes, not the timer or offline playback.
 
 **Does Meow FM work offline?**
+{:.faq-q}
+
 Yes. Downloaded scenes play with no internet, so you can fall asleep on a plane, in a tent, or anywhere the Wi-Fi drops.
 
 **Does Meow FM have a sleep timer?**
+{:.faq-q}
+
 Yes. Set 30/60/90 minutes or a custom duration and the audio auto-stops, saving battery and never running till morning.
 
 **Meow FM or Calm for sleep?**
+{:.faq-q}
+
 Want free, offline, no-account ambient sounds with a self-stopping timer → Meow FM; want Sleep Stories and guided meditation and accept a ~$69.99/yr subscription → Calm.
 
 ## Related terms

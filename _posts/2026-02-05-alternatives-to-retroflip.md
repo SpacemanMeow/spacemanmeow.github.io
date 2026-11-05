@@ -254,15 +254,23 @@ Whatever the label, ask two questions before migrating: can the display stay dim
 ## FAQ
 
 **Is Only Clock the best Retroflip alternative?**
+{:.faq-q}
+
 For most people, yes. Only Clock is the closest all-round upgrade — it adds white noise, a floating clock, widgets and iOS support while keeping the flip-clock look Retroflip users love.
 
 **Which Retroflip alternative has white noise?**
+{:.faq-q}
+
 Only Clock and FliTik both include ambient sound; the other four iOS options are silent clocks.
 
 **Which Retroflip alternative works on Android and iOS?**
+{:.faq-q}
+
 Only Clock runs on both platforms; Flip Clock: World Clock covers Android only, and the rest are iOS-only.
 
 **Is Only Clock free?**
+{:.faq-q}
+
 Yes. The core clock, themes and white noise work free; a one-time or subscription unlock opens the richest themes and sounds.
 
 [Only Clock app page](/apps/only-clock/) — available on Android and iOS.

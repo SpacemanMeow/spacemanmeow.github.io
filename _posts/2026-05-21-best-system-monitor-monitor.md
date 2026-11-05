@@ -113,15 +113,23 @@ CCleaner (package `com.piriform.ccleaner`, by Gen Digital) is best known for PC 
 ## FAQ
 
 **Is System Monitor free?**
+{:.faq-q}
+
 No. It's a one-time paid download — no subscription and no upgrade wall.
 
 **System Monitor or CCleaner — which should I pick?**
+{:.faq-q}
+
 Want a deep, read-only view of CPU, memory, storage and battery → System Monitor; want a one-tap cache/storage cleaner and accept a subscription → CCleaner.
 
 **Does System Monitor show a process list?**
+{:.faq-q}
+
 Yes. It lists running apps and their resource use, so you can see what's consuming CPU or memory.
 
 **Does System Monitor clean junk or free RAM?**
+{:.faq-q}
+
 No. System Monitor is read-only; it reports facts and never clears caches or frees memory. For cleaning, see the [CCleaner alternatives](/posts/alternatives-to-ccleaner/) guide.
 
 ## Related terms

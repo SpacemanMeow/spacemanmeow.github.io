@@ -141,15 +141,23 @@ The full six-app field, including Productive for iOS-first users, is compared in
 ## FAQ
 
 **Meow Habits or Streaks — which should I pick?**
+{:.faq-q}
+
 Want Android or both platforms, build-and-break modes, cute icons, and offline/private tracking → Meow Habits; want the most polished minimal iOS-only tracker inside Apple's ecosystem → Streaks.
 
 **Is Meow Habits free?**
+{:.faq-q}
+
 Yes for the core — streaks, charts, reminders, and templates are free; CSV export and a few extras sit behind an optional one-time VIP.
 
 **Does Meow Habits work offline?**
+{:.faq-q}
+
 Yes. You can log habits with no internet and no account; data stays on your device and backs up to Google Drive or WebDav when you choose.
 
 **Can Streaks break bad habits?**
+{:.faq-q}
+
 Not naturally — Streaks is designed around completing positive tasks; Meow Habits explicitly supports both build and break modes.
 
 ## Related terms

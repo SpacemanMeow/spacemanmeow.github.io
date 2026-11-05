@@ -123,12 +123,15 @@ Settings include dark mode, language, temperature unit, rate, share, feedback, p
 ## FAQ
 
 ### Why can't I use Nothing / Glass / Material You in the free app?
+{:.faq-q}
 The free app is a "lite" build that includes only the One UI style. Install the paid full app to unlock the other three styles.
 
 ### Is "Material You" real dynamic theming?
+{:.faq-q}
 It is a style that uses fixed blue/purple day-night palettes. It is not wallpaper-based dynamic color.
 
 ### Do toggles need root?
+{:.faq-q}
 No. They use standard system APIs and settings; torch uses the camera flashlight API.
 
 ## Summary

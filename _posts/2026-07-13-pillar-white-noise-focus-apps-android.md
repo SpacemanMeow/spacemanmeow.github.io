@@ -92,15 +92,23 @@ Quick pick by situation:
 ## FAQ
 
 **Is Meow FM free?**
+{:.faq-q}
+
 Core playback is free — a selection of ambient sounds, the sleep timer, and offline playback cost nothing; extra scenes unlock via a one-time purchase, with no subscription.
 
 **Does Meow FM work offline?**
+{:.faq-q}
+
 Yes. All sounds play with no internet, so you can mask noise on a plane, subway, or campsite without burning data.
 
 **Does Meow FM have a sleep timer?**
+{:.faq-q}
+
 Yes. Set 15/30/60 minutes or a custom duration and the audio auto-stops after you fall asleep.
 
 **Meow FM or Calm — which should I pick?**
+{:.faq-q}
+
 Want free, offline, no-account ambient sounds with a sleep timer → Meow FM; want guided meditation and sleep stories and accept a ~$69.99/yr subscription → Calm.
 
 ## Conclusion

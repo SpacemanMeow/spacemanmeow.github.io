@@ -137,12 +137,18 @@ For the **best Retroflip Clock alternative** shortlist, the deciding questions a
 ## FAQ
 
 **Only Clock or Flip Clock — which should I pick?**
+{:.faq-q}
+
 Want themed visuals, white noise, a floating clock or widgets, and iPhone support → Only Clock; want a free, simple retro flip clock with no extras → Flip Clock.
 
 **Is Only Clock free?**
+{:.faq-q}
+
 Yes. The core clock, themes and white noise work free; a one-time or subscription unlock opens the richest themes and sounds.
 
 **Does Only Clock work on iOS?**
+{:.faq-q}
+
 Yes. Only Clock runs on both Android and iOS (and an iPad makes a great clock display).
 
 ## Related terms

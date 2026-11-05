@@ -108,12 +108,18 @@ CPU-Z（包名 `com.cpuid.cpu_z`）是知名 CPUID 工具的安卓移植版，�
 ## 常见问题（FAQ）
 
 **CPU Monitor 免费吗？**
+{:.faq-q}
+
 免费。核心的实时温度、每核负载与过热提醒都免费；VIP 解锁更深的历史记录与选项。
 
 **CPU Monitor 还是 CPU-Z，怎么选？**
+{:.faq-q}
+
 想要实时温度、每核负载与过热提醒 → CPU Monitor；想要免费、详尽硬件参数、不需要提醒 → CPU-Z。
 
 **CPU Monitor 显示温度历史曲线吗？**
+{:.faq-q}
+
 显示。它把 CPU 与电池温度随时间画成曲线，让你看清一局里何时飙升。
 
 [获取 CPU Monitor](/zh/apps/cpu-monitor/)——安卓平台可用。

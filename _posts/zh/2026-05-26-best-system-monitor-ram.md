@@ -111,15 +111,23 @@ CCleaner（包名 `com.piriform.ccleaner`，Gen Digital 出品）聚焦清理—
 ## 常见问题（FAQ）
 
 **System Monitor 免费吗？**
+{:.faq-q}
+
 不。它是一次性付费下载——无订阅、无升级墙。
 
 **内存方面 System Monitor 还是 CCleaner？**
+{:.faq-q}
+
 想要详细、只读的内存与硬件信息 → System Monitor；想要一键缓存/存储清理 → CCleaner。注意：安卓已自动回收内存，"加速"通常只是昙花一现。
 
 **System Monitor 会释放内存或杀任务吗？**
+{:.faq-q}
+
 不会。它只报告内存事实（总量/已用/空闲与每应用占用），从不释放 RAM 或杀任务——你手动关应用。
 
 **System Monitor 显示进程列表吗？**
+{:.faq-q}
+
 显示。它列出运行中的应用及其内存占用，让你看清是谁占着 RAM。
 
 ## 相关术语

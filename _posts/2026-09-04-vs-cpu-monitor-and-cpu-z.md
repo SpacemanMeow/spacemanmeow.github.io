@@ -140,15 +140,23 @@ For the **best CPU-Z alternative android** shortlist, the deciding question is s
 ## FAQ
 
 **CPU Monitor or CPU-Z — which should I pick?**
+{:.faq-q}
+
 Want live temp, frequency, RAM and an overheat alarm while gaming → CPU Monitor; want a free, authoritative spec sheet of your device → CPU-Z.
 
 **Does CPU Monitor show live temperature over time?**
+{:.faq-q}
+
 Yes. It charts CPU and battery temperature as curves, so you can review a whole session, not just a snapshot.
 
 **Does CPU-Z have a floating window or overheat alarm?**
+{:.faq-q}
+
 No. CPU-Z is a static reader — open it to see current values, but it won't track trends or alert you.
 
 **Is CPU Monitor free?**
+{:.faq-q}
+
 Yes. The core monitor, widgets, floating window and overheat alarm are free; an optional unlock adds deeper themes and history.
 
 ## Related terms

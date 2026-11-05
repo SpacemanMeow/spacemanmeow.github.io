@@ -96,15 +96,23 @@ System Monitor 是一款付费安卓硬件信息检测工具：实时 CPU 温度
 ## 常见问题（FAQ）
 
 **System Monitor 免费吗？**
+{:.faq-q}
+
 不。System Monitor 是一次性付费下载——无订阅、无"免费 + 升级唠叨"。买一次即可。
 
 **System Monitor 会清理或加速我的手机吗？**
+{:.faq-q}
+
 不会。System Monitor 是只读的：它报告 CPU、存储、内存与电池实情，从不清缓存、释放内存或改动文件。要清理，请看 [CCleaner 替代](/zh/posts/alternatives-to-ccleaner/) 指南。
 
 **System Monitor 显示电池健康吗？**
+{:.faq-q}
+
 显示。它随时间画出电池温度、健康、电压与电量，让你看着损耗发展。
 
 **System Monitor 在 iOS 上能用吗？**
+{:.faq-q}
+
 不能。System Monitor 仅安卓。
 
 ## 结论

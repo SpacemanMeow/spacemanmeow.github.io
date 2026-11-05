@@ -108,12 +108,18 @@ CPU-Z (package `com.cpuid.cpu_z`) is the Android port of the well-known CPUID to
 ## FAQ
 
 **Is CPU Monitor free?**
+{:.faq-q}
+
 Yes. The core live temperature, per-core load and overheat alerts are free; VIP unlocks deeper history and options.
 
 **CPU Monitor or CPU-Z — which should I pick?**
+{:.faq-q}
+
 Want real-time temp, per-core load and overheat alerts → CPU Monitor; want free, detailed hardware specs with no alerts → CPU-Z.
 
 **Does CPU Monitor show a temperature history curve?**
+{:.faq-q}
+
 Yes. It charts CPU and battery temperature over time so you can see when spikes happened during a session.
 
 [Get CPU Monitor](/apps/cpu-monitor/) — available on Android.

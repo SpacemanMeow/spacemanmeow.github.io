@@ -239,15 +239,23 @@ Assistive Touch（smarttool）是一款 **简洁直接的悬浮触控应用**，
 ## 常见问题（FAQ）
 
 **Floating Assistant 是最好的 Assistive Touch 替代品吗？**
+{:.faq-q}
+
 如果你想要一个叠层同时做辅助触控 + 悬浮时钟 + 实时 CPU/RAM/电池监控（含一键加速），是的——其余五款都是单一用途（悬浮球、手势或实体重映射），没有时钟也没有监控。
 
 **哪款 Assistive Touch 替代品带悬浮时钟与监控？**
+{:.faq-q}
+
 只有 Floating Assistant。Easy Touch、Assistive Touch 等提供虚拟按键或手势，但都没有时钟、也没有实时系统读数。
 
 **哪款 Assistive Touch 替代品不打广告？**
+{:.faq-q}
+
 Floating Assistant（免费核心、可选解锁）、Button Mapper 与 All in One Gestures（免费 + 专业版、无广告）是轻广告之选；Easy Touch / Assistive Touch 类仿品靠广告支撑。
 
 **iPhone 有 Assistive Touch 吗？**
+{:.faq-q}
+
 有——AssistiveTouch 已内置在 iOS 中（设置 > 辅助功能 > 触控 > AssistiveTouch），所以 iPhone 上无需下载 App。
 
 [获取 Floating Assistant](/zh/apps/floating-assistant/)——安卓平台可用。

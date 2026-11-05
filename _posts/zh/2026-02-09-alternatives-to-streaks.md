@@ -270,15 +270,23 @@ Habitify 是一款 **跨平台习惯追踪应用**（iOS、Android、网页、We
 ## 常见问题（FAQ）
 
 **Meow Habits 算好的免费 Streaks 替代品吗？**
+{:.faq-q}
+
 算。它支持安卓与 iOS（Streaks 仅 iOS），核心免费、无需账号，同时支持养成与戒除双模式，并把数据锁在指纹之后、留在本机。
 
 **Meow Habits 能在安卓上用吗？**
+{:.faq-q}
+
 能——安卓完整支持，带 Google Drive 备份，还有主屏小组件可一步打卡。
 
 **哪款 Streaks 替代品最注重隐私？**
+{:.faq-q}
+
 Meow Habits——无需账号、数据本机留存加可选指纹锁，且只在你开启时才备份到你自己的 Google Drive 或 WebDav。
 
 **我能把习惯从 Streaks 搬出来吗？**
+{:.faq-q}
+
 Streaks 没有 CSV 导出，需要手动重建习惯；而 Meow Habits 自身支持 CSV 导出，之后数据始终可带走。
 
 [Meow Habits App 页](/zh/apps/meow-habits/)——安卓与 iOS 可下载。

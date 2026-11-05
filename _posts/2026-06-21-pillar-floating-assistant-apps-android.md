@@ -95,15 +95,23 @@ Quick pick by situation:
 ## FAQ
 
 **Is Floating Assistant free?**
+{:.faq-q}
+
 Yes. The core floating ball, actions and gestures are free; an optional VIP unlock adds deeper themes and options.
 
 **Floating Assistant or Assistive Touch — which should I pick?**
+{:.faq-q}
+
 Want a customizable, mostly ad-free floating ball with deep actions and gestures → Floating Assistant; fine with a popular, ad-supported ball → Assistive Touch (easytools).
 
 **Does Floating Assistant work on iOS?**
+{:.faq-q}
+
 No. Floating Assistant is Android-only; iOS already has a built-in AssistiveTouch in accessibility settings.
 
 **Does Floating Assistant need root?**
+{:.faq-q}
+
 No. It runs as an accessibility/overlay service with no root required.
 
 ## Conclusion

@@ -1,7 +1,7 @@
 ---
 date: 2026-06-30 09:00:00 +0800
 title: "Best Mood Diary & Journaling Apps (2026)"
-description: "Best mood tracker app & journaling picks for 2026: what to look for (privacy, quick logging, offline) and how Meow Mood Diary compares to Day One."
+description: "Best mood tracker app and journaling picks for 2026: what to look for (privacy, quick logging, offline) and how Meow Mood Diary compares to Day One."
 layout: guide
 image: /assets/images/apps/meow-mood-diary/icon.webp
 tags: [Mood Diary, Android, Meow Mood, App Roundup]
@@ -88,15 +88,23 @@ Quick pick by situation:
 ## FAQ
 
 **Is Meow Mood Diary free?**
+{:.faq-q}
+
 The core — quick mood logging, history, charts, and offline use — is free to start; a few extras sit behind an optional one-time unlock.
 
 **Does Meow Mood Diary work offline?**
+{:.faq-q}
+
 Yes. You can log, view, and edit entries with no internet and no account; data stays on your device.
 
 **Is my diary private?**
+{:.faq-q}
+
 Yes — entries are never uploaded to our servers; you back up only to your own Google Drive, and a fingerprint or passcode lock keeps the diary to yourself.
 
 **Meow Mood Diary or Day One — which should I pick?**
+{:.faq-q}
+
 Want a free, private, no-account, on-device mood diary → Meow Mood Diary; want rich photo journaling with sync and accept a subscription → Day One.
 
 ## Conclusion

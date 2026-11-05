@@ -103,12 +103,18 @@ KWGT（Kustom Widget Maker，包名 `org.kustom.widget`）能精确复刻 Materi
 ## 常见问题（FAQ）
 
 **One Widget 的 Material You 主题免费吗？**
+{:.faq-q}
+
 核心 Material You 匹配组件免费摆放；更深风格与额外组件类型通过可选的一次性 VIP 解锁。
 
 **One Widget 跟随系统浅/深色主题吗？**
+{:.faq-q}
+
 跟随。组件感知主题，随系统浅/深色模式与壁纸衍生配色切换。
 
 **Material You 上 One Widget 还是 KWGT？**
+{:.faq-q}
+
 想要壁纸匹配组件、即放即得、不碰编辑器 → One Widget；想手写动态配色、像素级掌控 → KWGT（Pro 密钥）。
 
 [One Widget App 页](/zh/apps/one-widget/)——安卓平台可用。

@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: "What Is Nothing UI?"
-description: "Nothing UI is the minimalist, low-saturation design language of Nothing phones, built around the Glyph interface and dot-matrix aesthetics. Learn what it is and why widget packs replicate its look."
+description: "Nothing UI is the minimalist, low-saturation design language of Nothing phones, built around Glyph and dot-matrix aesthetics. Learn why widget packs copy it."
 tags: [Nothing UI, Android, One Widget]
 lang: en
 ---

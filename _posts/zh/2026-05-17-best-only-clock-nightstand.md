@@ -110,12 +110,18 @@ Flip Clock（包名 `com.wssc.simpleclock`）是一款免费、无广告的 **�
 ## 常见问题（FAQ）
 
 **Only Clock 用于床头免费吗？**
+{:.faq-q}
+
 免费。核心钟、暗色主题与白噪音免费可用；一次性 VIP 解锁最丰富的主题与声音包。
 
 **Only Clock 能防 OLED 烧屏吗？**
+{:.faq-q}
+
 能。它提供防烧屏时钟位移与变暗选项，OLED 面板整夜常亮也不残影。
 
 **床头用 Only Clock 还是 Flip Clock？**
+{:.faq-q}
+
 想要暗色、带声音、有烧屏防护的床头钟 → Only Clock；只想要免费裸钟、且自己管亮度 → Flip Clock。
 
 ## 相关术语

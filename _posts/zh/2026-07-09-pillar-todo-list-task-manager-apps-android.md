@@ -96,15 +96,23 @@ Meow Todo List 是一款安卓与 iOS 的简易日程规划器与待办清单任
 ## 常见问题（FAQ）
 
 **Meow Todo List 免费吗？**
+{:.faq-q}
+
 核心的待办、日历、子任务、提醒与 Drive/WebDav 同步都免费起步；少数进阶能力在可选的一次性解锁之后。
 
 **Meow Todo List 能离线用吗？**
+{:.faq-q}
+
 能。没网也能添加、勾掉任务，回到线上再同步到 Google Drive 或 WebDav。
 
 **能一瞥看到整周或整月吗？**
+{:.faq-q}
+
 能——日、周、月日历视图让循环工作清晰可见，不藏事。
 
 **Meow Todo List 和 Todoist 怎么选？**
+{:.faq-q}
+
 想要免费、可爱、离线友好、上手简单的任务管理器 → Meow Todo List；想要自然语言输入和重度团队协作 → Todoist（付费 Pro）。
 
 ## 相关术语

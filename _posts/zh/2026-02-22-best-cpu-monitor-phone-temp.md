@@ -105,12 +105,18 @@ CPU-Z（包名 `com.cpuid.cpu_z`）会报告硬件细节，包括可用传感器
 ## 常见问题（FAQ）
 
 **CPU Monitor 免费吗？**
+{:.faq-q}
+
 免费。核心的整机温度监控、过热提醒与降温建议都免费；VIP 解锁更深的历史记录与选项。
 
 **CPU Monitor 还是 CPU-Z，怎么选？**
+{:.faq-q}
+
 想要整机发热、提醒与降温建议 → CPU Monitor；想要免费参数与当前温度快照 → CPU-Z。
 
 **CPU Monitor 也监控电池温度吗？**
+{:.faq-q}
+
 监控。它读取 CPU 与电池温度（以及可用的传感器数据），并在电池受热损伤前发出警告。
 
 [获取 CPU Monitor](/zh/apps/cpu-monitor/)——安卓平台可用。

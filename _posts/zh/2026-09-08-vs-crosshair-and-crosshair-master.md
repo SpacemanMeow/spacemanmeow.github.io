@@ -121,15 +121,23 @@ Crosshair Aim 免费核心无广告，额外项需解锁。Crosshair Hero 常由
 ## 常见问题（FAQ）
 
 **Crosshair Aim 还是 Crosshair Hero，怎么选？**
+{:.faq-q}
+
 想要深度、实时、游戏内控制（大小/颜色/位置、任意武器的准星）→ Crosshair Aim；想要几秒就有一个认得出来的预设、且不需精调 → Crosshair Hero。
 
 **Crosshair Aim 免费吗？**
+{:.faq-q}
+
 免费。基础样式集合免费且无广告；Pro 解锁完整 80+ 库。
 
 **Crosshair Aim 在 iOS 上能用吗？**
+{:.faq-q}
+
 不能。Crosshair Aim 仅安卓。
 
 **叠层安全吗 / 会被封号吗？**
+{:.faq-q}
+
 两款应用都只在屏幕上绘制准星，不修改游戏数据或内存，于是不会触发反作弊。请在每款游戏的公平规则内使用。
 
 ## 其它准星叠层替代品

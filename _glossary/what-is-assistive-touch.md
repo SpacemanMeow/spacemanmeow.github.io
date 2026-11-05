@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: "What Is Assistive Touch?"
-description: "Assistive Touch is an on-screen virtual button that gives quick access to actions without hardware keys. Learn what it is and how a floating assistant app relates."
+description: "Assistive Touch is an on-screen virtual button for quick actions without hardware keys. Learn how a floating assistant app relates."
 tags: [Assistive Touch, Accessibility, Floating Assistant]
 lang: en
 ---

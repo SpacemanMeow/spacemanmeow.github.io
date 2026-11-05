@@ -111,12 +111,15 @@ Settings include theme (light/dark), the Meow family cross-promo, and billing / 
 ## FAQ
 
 ### Can I mix rain + thunder together?
+{:.faq-q}
 Not in the current app — it plays one sound at a time. Choose the single scene that works best (e.g. Thunderstorm already combines rain and thunder).
 
 ### Does it need internet?
+{:.faq-q}
 No. All sounds are bundled and play fully offline.
 
 ### How do I stop it automatically?
+{:.faq-q}
 Use the sleep timer (0–60 min); playback stops at zero.
 
 ## Summary

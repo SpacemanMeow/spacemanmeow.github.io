@@ -254,15 +254,23 @@ Before switching, check two things that do not change with trends: does the free
 ## FAQ
 
 **Is One Widget a good WidgetSmith alternative on Android?**
+{:.faq-q}
+
 Yes. If you want a large, ready-made Android widget library across One UI, Material You, Glass and Nothing looks — no design tool required — One Widget is the closest Android-native answer to WidgetSmith's preset philosophy.
 
 **Does One Widget work on iOS?**
+{:.faq-q}
+
 No. One Widget is Android-only. For iOS, Widgy or Color Widgets (in this guide) are the WidgetSmith-style picks.
 
 **Which WidgetSmith alternative is best for custom building?**
+{:.faq-q}
+
 KWGT — the most powerful from-scratch Android editor. One Widget stays preset-based, so pick KWGT if you want total control.
 
 **Is One Widget free?**
+{:.faq-q}
+
 The One UI style set is free; the other three styles unlock with a one-time purchase (no subscription).
 
 [One Widget app page](/apps/one-widget/) — available on Android.

@@ -263,15 +263,23 @@ Whatever the label, check two things before switching: does the app read real th
 ## FAQ
 
 **Is CPU Monitor the best CPU-Z alternative?**
+{:.faq-q}
+
 For live monitoring, yes. CPU Monitor is the closest match if you want real-time CPU/battery temperature, a floating window, widgets and an overheat alarm — the things CPU-Z doesn't do.
 
 **Which CPU-Z alternative shows live temperature over time?**
+{:.faq-q}
+
 CPU Monitor and System Monitor both chart temperature as curves; DevCheck and AIDA64 show live sensor values but not a continuous history.
 
 **Which CPU-Z alternative has the deepest spec report?**
+{:.faq-q}
+
 DevCheck and AIDA64 are the strongest spec reporters; Device Info HW adds component-level detail like exact camera/GPU models.
 
 **Is CPU Monitor free?**
+{:.faq-q}
+
 Yes. The core monitor — live temperature, floating window, widgets and overheat alarm — is free; an optional unlock adds deeper themes and history.
 
 [CPU Monitor app page](/apps/cpu-monitor/) — available on Android.

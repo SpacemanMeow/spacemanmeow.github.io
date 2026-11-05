@@ -143,15 +143,23 @@ Meow Habits 核心免费；Streaks 约 $4.99 一次性。两者都不基于订�
 ## 常见问题（FAQ）
 
 **Meow Habits 和 Streaks 怎么选？**
+{:.faq-q}
+
 想要安卓或双平台、养成+戒除模式、可爱图标与离线/私密追踪 → Meow Habits；想要最精致、纯 iOS 极简、活在苹果生态里的追踪器 → Streaks。
 
 **Meow Habits 免费吗？**
+{:.faq-q}
+
 核心免费——连续、图表、提醒与模板都免费；CSV 导出与少数进阶能力在可选的一次性 VIP 之后。
 
 **Meow Habits 能离线用吗？**
+{:.faq-q}
+
 能。没网、无账号也能打卡；数据留在本机，并在你选择时备份到 Google Drive 或 WebDav。
 
 **Streaks 能戒掉坏习惯吗？**
+{:.faq-q}
+
 不太行——Streaks 为完成正向任务设计；Meow Habits 明确支持养成与戒除双模式。
 
 ## 相关术语

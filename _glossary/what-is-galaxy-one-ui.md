@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: "What Is Galaxy One UI?"
-description: "Galaxy One UI is Samsung's Android interface layer, optimized for one-handed use and large screens. Learn what it is and why widget packs ship One UI-style widgets for Galaxy phones."
+description: "Galaxy One UI is Samsung's Android interface, tuned for one-handed use and large screens. Learn why widget packs ship One UI-style widgets."
 tags: [Galaxy One UI, Samsung, Android, One Widget]
 lang: en
 ---

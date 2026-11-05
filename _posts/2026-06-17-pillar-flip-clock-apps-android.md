@@ -94,15 +94,23 @@ Quick pick by situation:
 ## FAQ
 
 **Is Only Clock free?**
+{:.faq-q}
+
 Yes. Only Clock is free to download and the core flip clock, widgets and white noise work without payment; a one-time unlock opens extra themes and options.
 
 **Does Only Clock work on iOS?**
+{:.faq-q}
+
 Yes. Only Clock runs on both Android and iOS (App Store), and you can also use an iPad as a clock display.
 
 **Only Clock or Retroflip — which should I pick?**
+{:.faq-q}
+
 Want the flip animation on Android plus widgets, white noise and a focus timer → Only Clock; want a pure retro iOS-only look and accept no Android build → Retroflip.
 
 **Can I use an old phone as a clock?**
+{:.faq-q}
+
 Yes. Only Clock is built for spare-device use — park an old phone or iPad on a stand and it becomes a dedicated desk or nightstand clock.
 
 ## Conclusion

@@ -270,15 +270,23 @@ If the real question is which **habit tracker app** to keep for years, start wit
 ## FAQ
 
 **Is Meow Habits a good free Streaks alternative?**
+{:.faq-q}
+
 Yes. It runs on Android and iOS (Streaks is iOS-only), is free at the core with no account, supports build *and* break modes, and keeps your data on-device behind a fingerprint lock.
 
 **Does Meow Habits work on Android?**
+{:.faq-q}
+
 Yes — Android is fully supported, with Google Drive backup and a home-screen widget for one-tap check-ins.
 
 **Which Streaks alternative is best for privacy?**
+{:.faq-q}
+
 Meow Habits — no account required, on-device storage with an optional fingerprint lock, and backups only to your own Google Drive or WebDav when you enable them.
 
 **Can I move my habits out of Streaks?**
+{:.faq-q}
+
 Streaks has no CSV export, so you'll recreate habits manually; Meow Habits itself exports CSV, so your data stays portable afterward.
 
 [Meow Habits app page](/apps/meow-habits/) — download for Android and iOS.

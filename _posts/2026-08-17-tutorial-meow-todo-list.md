@@ -7,7 +7,7 @@ tags: [To-Do List, Android, Meow Todo]
 lang: en
 last_modified_at: 2026-11-05
 author: author_meow_id
-description: "A complete Meow Todo List user guide — master tasks, subtasks, reminders, calendar view and CSV export in this cute task manager. Offline to-do app, no account, free to start."
+description: "A complete Meow Todo List guide: tasks, subtasks, reminders, calendar view and CSV export in this cute offline task manager. No account, free to start."
 image: /assets/images/apps/meow-todo-list/icon.webp
 ---
 
@@ -171,12 +171,15 @@ Settings include:
 ## FAQ
 
 ### How do I edit or delete a task?
+{:.faq-q}
 Open the task, change the fields, and tap confirm to save. Use the 3-dot menu (or long-press) to delete.
 
 ### How do repeat tasks work?
+{:.faq-q}
 When you complete a repeating task, the app creates the next occurrence automatically (day +1, week +7, month +1, year +1, or your custom interval) and stops the original.
 
 ### Are there limits on the free version?
+{:.faq-q}
 Total tasks have no hard cap, but Books are limited to 10, Tags to 10, and subtasks to 15 on the free tier. The free version also shows ads.
 
 ## Summary

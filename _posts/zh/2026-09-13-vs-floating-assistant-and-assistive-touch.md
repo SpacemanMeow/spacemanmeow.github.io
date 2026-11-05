@@ -137,15 +137,23 @@ Floating Assistant 自我定位为不收集个人数据、核心无广告。Assi
 ## 常见问题（FAQ）
 
 **Floating Assistant 还是 Assistive Touch，怎么选？**
+{:.faq-q}
+
 想要一个叠层同时做辅助触控 + 浮动时钟 + 实时系统监控 → Floating Assistant；只想要简单免费的导航球 → Assistive Touch (Easy Touch)。
 
 **Floating Assistant 带浮动时钟吗？**
+{:.faq-q}
+
 带。不像 Assistive Touch，它把时钟停在其它应用之上——作床头或桌面一瞥很实用。
 
 **Floating Assistant 监控 CPU/RAM/电池吗？**
+{:.faq-q}
+
 监控，实时。它显示 CPU 温度/使用率、RAM 与电池，并提供一键加速；Assistive Touch 没有系统监控。
 
 **Floating Assistant 免费吗？**
+{:.faq-q}
+
 免费。核心叠层免费；可选解锁加深主题与模块。
 
 ## 相关术语

@@ -1,7 +1,7 @@
 ---
 date: 2026-03-07 09:00:00 +0800
 title: "Crosshair Aim as a Custom Overlay: Your Own Reticle on Any Screen"
-description: "Best crosshair overlay app in 2026: Crosshair Aim vs Crosshair Hero as a custom crosshair overlay for Android — PNG import, transparency, per-app positioning, no root, free."
+description: "Best crosshair overlay app in 2026: Crosshair Aim vs Crosshair Hero for Android — PNG import, transparency, per-app positioning, no root, free."
 layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Best Apps]
 image: /assets/images/apps/cross-hair/icon.webp
@@ -104,15 +104,23 @@ Crosshair Hero (package `me.okitastudio.crosshairherofps`) offers preset styles 
 ## FAQ
 
 **Is Crosshair Aim free?**
+{:.faq-q}
+
 Yes. The basic style set is free; a VIP unlock opens PNG import and the full 80+ library.
 
 **Crosshair Aim or Crosshair Hero — which should I pick?**
+{:.faq-q}
+
 Want 80+ styles, a live floating adjuster and PNG import → Crosshair Aim; want quick presets plus custom PNG → Crosshair Hero.
 
 **Does Crosshair Aim work on iOS?**
+{:.faq-q}
+
 No. Crosshair Aim is Android-only.
 
 **Is it safe / will it get me banned?**
+{:.faq-q}
+
 It's a visual-only overlay that doesn't modify game data or memory, so it doesn't trigger anti-cheat. Use it within each game's fair-play rules.
 
 ## Related terms

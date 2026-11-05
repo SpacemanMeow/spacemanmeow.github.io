@@ -105,12 +105,18 @@ CPU-Z (package `com.cpuid.cpu_z`) reports hardware details including current tem
 ## FAQ
 
 **Is CPU Monitor free?**
+{:.faq-q}
+
 Yes. The core device-temperature monitoring, overheat alerts and advice are free; VIP unlocks deeper history and options.
 
 **CPU Monitor or CPU-Z — which should I pick?**
+{:.faq-q}
+
 Want whole-device heat, alerts and cooling advice → CPU Monitor; want free specs and a current temp snapshot → CPU-Z.
 
 **Does CPU Monitor monitor battery temperature too?**
+{:.faq-q}
+
 Yes. It reads CPU and battery temperature (plus sensors where available) and warns before the battery takes heat damage.
 
 [Get CPU Monitor](/apps/cpu-monitor/) — available on Android.

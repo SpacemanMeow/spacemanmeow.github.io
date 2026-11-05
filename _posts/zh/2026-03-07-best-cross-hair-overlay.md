@@ -104,15 +104,23 @@ Crosshair Hero（包名 `me.okitastudio.crosshairherofps`）提供预设样式�
 ## 常见问题（FAQ）
 
 **Crosshair Aim 免费吗？**
+{:.faq-q}
+
 免费。基础样式集合免费；VIP 解锁 PNG 导入与完整 80+ 库。
 
 **Crosshair Aim 还是 Crosshair Hero，怎么选？**
+{:.faq-q}
+
 想要 80+ 样式、实时浮动调节器加 PNG 导入 → Crosshair Aim；想要快速预设加自定义 PNG → Crosshair Hero。
 
 **Crosshair Aim 在 iOS 上能用吗？**
+{:.faq-q}
+
 不能。Crosshair Aim 仅安卓。
 
 **它安全吗 / 会被封号吗？**
+{:.faq-q}
+
 它只是视觉叠层，不修改游戏数据或内存，于是不会触发反作弊。请在每款游戏的公平规则内使用。
 
 ## 相关术语
