@@ -28,13 +28,24 @@ echo "==> 1. 生成 _config_$CODE.yml（基于 _config_zh.yml）"
 sed -e "s/^lang: zh/lang: $CODE/" \
     -e "s#path: _pages/zh#path: _pages/$CODE#" \
     -e "s#apps_zh#apps_$CODE#g" \
+    -e "s#glossary_zh#glossary_$CODE#g" \
     -e "s#path: _posts/zh#path: _posts/$CODE#" \
+    -e "s#^  path: zh/feed.xml#  path: $CODE/feed.xml#" \
     -e "s#/zh/#/$CODE/#g" \
     -e "s#_site/zh#_site/$CODE#g" \
     "_config_zh.yml" > "_config_$CODE.yml"
 
+# 生成后必须人工核对的项（sed 无法推断本地化文案）：
+#   title / tagline / description / social.links.*.name / developer.* 需换成该语言文案。
+if grep -q "zh/feed.xml" "_config_$CODE.yml"; then
+  echo "⚠️  feed.path 未被替换，请手工检查 _config_$CODE.yml" >&2
+fi
+if grep -q "glossary_zh\|_glossary_zh" "_config_$CODE.yml"; then
+  echo "⚠️  glossary 集合未被替换，请手工检查 _config_$CODE.yml" >&2
+fi
+
 echo "==> 2. 创建目录与模板"
-mkdir -p "_pages/$CODE" "_posts/$CODE" "_apps_$CODE" "$CODE/blog"
+mkdir -p "_pages/$CODE" "_posts/$CODE" "_apps_$CODE" "_glossary_$CODE" "$CODE/blog"
 cat > "_pages/$CODE/index.md" <<MD
 ---
 layout: app-list
@@ -66,11 +77,12 @@ grep -q "code: $CODE$" _data/languages.yml || cat >> _data/languages.yml <<YML
   short: $SHORT
 YML
 
-echo "==> 4. 为所有 _config_*.yml 补齐 exclude（排除其它语言源目录）"
-python3 - <<PY
+echo "==> 4. 为 _config.yml 与所有 _config_*.yml 补齐 exclude（排除其它语言源目录）"
+python3 - <<'PY'
 import re, glob
-code = "$CODE"
-langs = sorted({re.match(r"_config_(.*)\.yml", f).group(1) for f in glob.glob("_config_*.yml")})
+langs = ["en"] + sorted({re.match(r"_config_(.*)\.yml", f).group(1)
+                         for f in glob.glob("_config_*.yml")})
+configs = ["_config.yml"] + sorted(glob.glob("_config_*.yml"))
 print("已知语言:", langs)
 
 def excludes_for(owner):
@@ -79,18 +91,20 @@ def excludes_for(owner):
         if x == owner:
             continue
         if x == "en":
-            # 英文源在根级、无前缀
-            ex += ["_apps/", "_posts/1*", "_posts/2*", "index.html", "blog/", "meow/"]
+            # 英文源在根级、无前缀；非 EN 构建必须排除（_apps/ 带尾斜杠避免误伤 _apps_zh）
+            ex += ["_apps/", "_glossary/", "_glossary/**", "_posts/1*", "_posts/2*",
+                   "index.html", "blog/", "meow/", "robots.txt", "CNAME", "app-ads.txt", "404.html"]
         else:
-            ex += [f"_posts/{x}", f"_posts/{x}/**", f"_apps_{x}", f"_apps_{x}/**", f"{x}/", f"{x}/**"]
+            ex += [f"_posts/{x}", f"_posts/{x}/**", f"_pages/{x}", f"_pages/{x}/**",
+                   f"_apps_{x}", f"_apps_{x}/**", f"_glossary_{x}", f"_glossary_{x}/**",
+                   f"{x}/", f"{x}/**"]
     return sorted(set(ex))
 
-for f in glob.glob("_config_*.yml"):
-    owner = re.match(r"_config_(.*)\.yml", f).group(1)
+for f in configs:
+    owner = "en" if f == "_config.yml" else re.match(r"_config_(.*)\.yml", f).group(1)
     needed = excludes_for(owner)
     lines = open(f, encoding="utf-8").read().split("\n")
-    existing = set()
-    in_ex = False
+    existing, in_ex = set(), False
     for line in lines:
         if re.match(r"^exclude:\s*$", line):
             in_ex = True

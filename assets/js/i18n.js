@@ -12,11 +12,11 @@
 (function () {
   var DEFAULT = "en";
 
-  // 语言列表（含默认语言），由页面注入；缺失时回退到旧的 en/zh 默认值。
+  // 语言列表（含默认语言），由页面注入；缺失时只保留默认语言，不再写死任何第二语言。
   var LANGS =
     window.SITE_LANGS && window.SITE_LANGS.length
       ? window.SITE_LANGS.slice()
-      : [DEFAULT, "zh"];
+      : [DEFAULT];
   if (LANGS.indexOf(DEFAULT) < 0) LANGS.unshift(DEFAULT);
 
   function curLang(pathname) {

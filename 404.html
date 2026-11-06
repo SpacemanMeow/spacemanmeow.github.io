@@ -9,13 +9,26 @@ sitemap: false
   <div class="container">
     <p class="nf__code" aria-hidden="true">404</p>
     <h1 class="nf__title">Page not found</h1>
-    <h1 class="nf__title nf__title--zh">找不到该页面</h1>
+    <h1 class="nf__title" data-nf-lang="zh">找不到该页面</h1>
+    <h1 class="nf__title" data-nf-lang="id">Halaman tidak ditemukan</h1>
   </div>
 </div>
 
 <script>
 (function () {
-  var zh = location.pathname.indexOf("/zh/") === 0;
-  document.documentElement.setAttribute("data-nf", zh ? "zh" : "en");
+  // 语言由 URL 首段 + nav.html 注入的 window.SITE_LANGS 决定；
+  // 新增语言只需在上方加一行 data-nf-lang="<code>" 的标题，无需改 CSS/JS。
+  var seg = location.pathname.split("/")[1] || "";
+  var langs = window.SITE_LANGS || ["en"];
+  var lang = langs.indexOf(seg) >= 0 ? seg : "en";
+  document.documentElement.setAttribute("data-nf", lang);
+
+  if (lang === "en") return;
+  var base = document.querySelector(".nf__title:not([data-nf-lang])");
+  var local = document.querySelector('.nf__title[data-nf-lang="' + lang + '"]');
+  if (base && local) {
+    base.style.display = "none";
+    local.style.display = "block";
+  }
 })();
 </script>

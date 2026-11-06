@@ -157,4 +157,10 @@
   - [x] `_posts/2026-01-31-alternatives-to-mint.md`（EN 版，已与 ZH 同步）：description 加品牌名、开头段加 Glossary 内链+多语言、新增 Typical scenarios 段、下载/选购处加 `/apps/meow-money-manager/` 权威内链、新增 EN FAQ；7 款 App 的英文图片 alt 也升级为与 ZH 对应的细粒度描述
   - [x] `_apps_zh/meow-money-manager.md` / `_apps/meow-money-manager.md`：按 Google Play 当地检索确认的中英文关键词优化 App 详情页——tagline 与 description 补品牌和 P0 长尾、正文 11 项功能按「特色优先」重排并补全细节、合并重复 FAQ 补齐 7 组问答、备份口径改为 Google Drive 与 WebDAV；EN/ZH 的 H2 与 FAQ 数量对等，title 保持纯品牌词避免与 Pillar 抢 Head 词
   - [ ] **[通用理财词] 建 `money tracker` 支柱页并深链 App（T-36）**：money tracker 为 App 第一搜索词（日均 80.8，§5.1），当前仅在 App 集群顺带覆盖，应做成独立 SEO 资产，围绕 Meow Money Manager 最高频关键词主题生成一篇的新闻文章
-  - [ ] **多语言内容流量获取：** Meow Money Manager 获客语言构成为 印尼23% / 泰2.7%（但是展示量特别高），先将 Meow Money Manager 的所有内容进行多语言扩充 
+  - [ ] **多语言内容流量获取：** Meow Money Manager 获客语言构成为 印尼23% / 泰2.7%（但是展示量特别高），先将 Meow Money Manager 的所有内容进行多语言扩充
+  - [x] **规范与状态外置**：新增 `seo/SEO-I18N-PLAYBOOK.md`（后续所有语言扩展按此执行，无需重复说明要求）与 `seo/SEO-I18N-PROGRESS.md`（外置进度，防上下文溢出导致质量下降 / 实现方式不一致）
+  - [x] **印尼语关键词先行**：基于 Google Play `hl=id&gl=ID` 在架标题 + 印尼本地网页检索确定本地词（非 en/zh 等价翻译），已登记 `seo/SEO-KEYWORDS.md` §2.1.5；确认 `aplikasi catatan keuangan` / `pencatat keuangan` / `atur anggaran bulanan` / `offline tanpa internet` 等，并收录英语借词 `budget` / `expense tracker` 与本地竞品拦截词
+  - [x] **`/id/` 网页结构按既有 i18n 规范落地**：独立集合 `apps_id` / `glossary_id`、`_config_id.yml`、`/id/` permalink、hreflang 成环、canonical、合并 sitemap、feed、Pagefind 分片；模板消除 `zh`-vs-else 二元硬编码改为 N 语言通用
+  - [x] **页面类型不遗漏**：除 posts 与 app 页外，`pages`（about/privacy/terms/search/tags/glossary/meow/index）、22 条术语定义、blog 分页、404、导航 / UI / 语言切换、搜索均需印尼语内容（结构页 8 / 术语 22 / App 11 / blog / 404 / 导航 / UI / feed / sitemap / Pagefind 已全部落地；posts 36/66：G1 6 篇 + Phase 3 · G2 6 篇 + G3 6 篇 + G4 6 篇 + G5 6 篇 + G6 6 篇，其余按 Phase 3 分批）
+  - [x] **Meow Money Manager 印尼语内容**：`_apps_id/meow-money-manager.md` + 6 篇 `_posts/id/`（按本地关键词重写，不是逐段翻译）
+  - [ ] 后续按 `SEO-I18N-PROGRESS.md` 分批：其余 10 个 App 的印尼语内容 → 印尼语全部 posts → 泰语等其它语言（Phase 3 进行中：30 / 60 篇完成（G2、G3、G4、G5、G6 已交付，后续自动推进），进度见 `SEO-I18N-PROGRESS.md`）

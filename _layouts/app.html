@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{%- assign lang = site.lang | default: 'en' -%}
 {%- comment -%}
   应用详情页模板。
   数据来自 _apps/*.md 的 front matter（title / tagline / icon / google_play / app_store / screenshots），
@@ -55,7 +56,7 @@ layout: default
         {% for post in guides %}
         <li class="app-guides__item">
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          <span class="app-guides__meta">{% if site.lang == 'zh' %}{{ post.date | date: '%Y年%-m月%-d日' }}{% else %}{{ post.date | date: '%b %-d, %Y' }}{% endif %}</span>
+          <span class="app-guides__meta">{{ post.date | date: site.data.ui[lang].date_format }}</span>
         </li>
         {% endfor %}
       </ul>

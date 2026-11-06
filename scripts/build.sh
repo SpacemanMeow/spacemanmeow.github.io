@@ -34,6 +34,14 @@ rm -rf "$TMP_ZH"
 # rsync -a --delete "$TMP_JA/ja/" _site/ja/
 # rm -rf "$TMP_JA"
 
+
+# 新增语言 id (/id/) —— 由 scripts/new-language.sh 生成
+echo "==> Building id (/id/)"
+TMP_ID=".jekyll-id"
+bundle exec jekyll build --config _config_id.yml --destination "$TMP_ID"
+mkdir -p _site/id
+rsync -a --delete "$TMP_ID/id/" _site/id/
+rm -rf "$TMP_ID"
 echo "==> Injecting hreflang + combined sitemap"
 python3 scripts/i18n_postprocess.py --url "$SITE_URL"
 
@@ -73,4 +81,5 @@ else
   fi
 fi
 
-echo "==> Done. Combined site in _site/ (EN at root, ZH at /zh/)"
+LANGS=$(ls _config_*.yml 2>/dev/null | sed -E 's/^_config_(.+)\.yml$/\/\1\//' | sort | paste -sd' ' -)
+echo "==> Done. Combined site in _site/ (EN at root; ${LANGS})"

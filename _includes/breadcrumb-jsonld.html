@@ -1,12 +1,16 @@
 {% comment %}
   BreadcrumbList 结构化数据。
   层级规则：
-    - 首页(/) 不输出
-    - Meow 系列 app(/apps/ 且有 series): Home > Meow(/meow/) > App
+    - 各语言首页(/、/zh/、/id/ …) 不输出
+    - Meow 系列 app(/apps/ 且有 series): Home > Meow(/<lang>/meow/) > App
     - 其他 app / 普通页: Home > 当前页
-    - 博客文章(/posts/): Home > Blog(/blog/) > Post
+    - 博客文章(/posts/): Home > Blog(/<lang>/blog/) > Post
+  链接按 site.lang 动态加语言前缀（见 SEO-I18N-PLAYBOOK.md §2.6）。
 {% endcomment %}
-{% if page.url != "/" %}
+{% assign lang = site.lang | default: 'en' %}
+{% assign lp = '' %}{% if lang != 'en' %}{% assign lp = '/' | append: lang %}{% endif %}
+{% assign home = '/' | prepend: lp %}
+{% if page.url != home %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -16,13 +20,13 @@
       "@type": "ListItem",
       "position": 1,
       "name": {{ site.title | jsonify }},
-      "item": "{{ site.url }}/"
+      "item": "{{ site.url }}{{ home }}"
     }{% if page.series and page.url contains '/apps/' %},
     {
       "@type": "ListItem",
       "position": 2,
       "name": {{ page.series | jsonify }},
-      "item": "{{ site.url }}/{{ page.series | downcase }}/"
+      "item": "{{ site.url }}{{ lp }}/{{ page.series | downcase }}/"
     },
     {
       "@type": "ListItem",
@@ -34,7 +38,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "{{ site.url }}/blog/"
+      "item": "{{ site.url }}{{ lp }}/blog/"
     },
     {
       "@type": "ListItem",

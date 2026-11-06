@@ -1151,9 +1151,9 @@ a.tag:hover,
   color: var(--text-body);
 }
 .nf__title { margin: var(--space-2) 0 0; font-size: var(--fs-xl); font-weight: var(--fw-body); color: var(--text-body); }
-.nf__title--zh { display: none; }
-:root[data-nf="zh"] .nf__title { display: none; }
-:root[data-nf="zh"] .nf__title--zh { display: block; }
+/* 404 多语言标题：默认只显示不带 data-nf-lang 的英文标题，
+   其余语言标题由 404.html 的脚本按 window.SITE_LANGS 切换，新增语言无需改 CSS。 */
+.nf__title[data-nf-lang] { display: none; }
 
 /* 导航搜索按钮：与深浅模式切换按钮样式一致 */
 .header-search {

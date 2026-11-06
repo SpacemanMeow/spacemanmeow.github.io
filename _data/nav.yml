@@ -1,34 +1,43 @@
 # 顶部导航栏。修改这里即可调整导航项与顺序。
 # nav 字段用于高亮当前页面，取值：home / meow / blog / about
-# title 与 url 均按语言提供，新增语言时在两种语言下补充对应文案与路径即可。
+# title 与 url 必须按 site.data.languages 列出的每一种语言提供键；
+# 新增语言时逐项补 <code>: 键，缺键会静默输出空链接（见 SEO-I18N-PLAYBOOK.md §2.4）。
 - title:
     en: Home
     zh: 首页
+    id: Beranda
   url:
     en: /
     zh: /zh/
+    id: /id/
   nav: home
 
 - title:
     en: Meow
     zh: 喵窝
+    id: Meow
   url:
     en: /meow/
     zh: /zh/meow/
+    id: /id/meow/
   nav: meow
 
 - title:
     en: Blog
     zh: 博客
+    id: Blog
   url:
     en: /blog/
     zh: /zh/blog/
+    id: /id/blog/
   nav: blog
 
 - title:
     en: About
     zh: 关于
+    id: Tentang
   url:
     en: /about/
     zh: /zh/about/
+    id: /id/about/
   nav: about

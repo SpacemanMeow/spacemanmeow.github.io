@@ -133,6 +133,16 @@ sass:
   style: compressed
 
 exclude:
+  - _apps_id
+  - _apps_id/**
+  - _glossary_id
+  - _glossary_id/**
+  - _pages/id
+  - _pages/id/**
+  - _posts/id
+  - _posts/id/**
+  - id/
+  - id/**
   - _posts/zh
   - _posts/zh/**
   - _pages/zh

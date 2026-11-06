@@ -1,0 +1,171 @@
+# ===================================================================
+#  Meow Apps Studio - 印尼语站配置（Bahasa Indonesia / id）
+#  独立配置（不依赖 _config.yml 合并），与英文站并列构建：
+#    bundle exec jekyll build --config _config_id.yml  -> 输出到 _site/id/
+#  印尼语源文件：_posts/id/、_pages/id/、_apps_id/、_glossary_id/
+#  英文站：bundle exec jekyll build --config _config.yml -> 输出到 _site/
+#  合并构建：scripts/build.sh（先 EN 后各语言，再注入 hreflang + 合并 sitemap）
+#  由 scripts/new-language.sh 生成后按 SEO-I18N-PLAYBOOK.md §2.3 本地化文案。
+# ===================================================================
+
+lang: id
+timezone: Asia/Shanghai
+
+title: Meow Apps Studio
+tagline: Aplikasi mobile yang indah dan elegan.
+description: >-
+  Kami membuat aplikasi iOS dan Android yang indah sekaligus andal untuk pengguna di seluruh dunia.
+  Sejumlah aplikasi berkualitas telah kami rilis, dan kami terus mengembangkannya.
+  Terima kasih atas perhatian Anda — dukungan Anda adalah motivasi terbesar kami.
+
+url: "https://spacemanmeow.com"
+baseurl: ""
+
+avatar: /assets/images/favicons/avatar.png
+favicon: /assets/images/favicons/favicon-96x96.jpg
+apple_touch_icon: /assets/images/favicons/apple-touch-icon.jpg
+
+social:
+  name: SpacemanMeow
+  email: meow@spacemanmeow.com
+  links:
+    - name: Kebijakan Privasi
+      url: /id/privacy/
+    - name: Syarat Penggunaan
+      url: /id/terms/
+    - name: Email
+      url: mailto:meow@spacemanmeow.com
+
+webmaster_verifications:
+  google: MvOa_RCgbYDbkyWz1nce7QzlFS30B4RYjBNLI43eHjU
+  bing: 3696BDF54B98CDFFA525A706AC915374
+  yandex: 7b7f2662239dd86d
+
+goatcounter_code: "spacemanmeow"
+
+developer:
+  title: Halaman Pengembang
+  logo: /assets/images/favicons/avatar.png
+  description: >-
+    Kami membuat aplikasi iOS dan Android yang indah sekaligus andal untuk pengguna di seluruh dunia.
+    Sejumlah aplikasi berkualitas telah kami rilis, dan kami terus mengembangkannya.
+    Terima kasih atas perhatian Anda — dukungan Anda adalah motivasi terbesar kami.
+  google_play: https://play.google.com/store/apps/dev?id=9089535463678444622
+  app_store: https://apps.apple.com/us/developer/%E5%A2%83-%E9%AB%98/id1528847758
+
+collections:
+  pages:
+    output: true
+    path: _pages/id
+    permalink: /id/:name/
+  # 印尼语应用使用独立集合 apps_id（源 _apps_id），与英文 apps（源 _apps）完全分离。
+  # 原因：Jekyll 集合始终从 _#{label} 目录递归读取，collections.*.path 只影响 URL、不影响读取目录；
+  # 若复用 apps 集合，英文 _apps/*.md 也会被 ID 构建读到并映射到 /id/apps/ 造成冲突。
+  apps_id:
+    output: true
+    path: _apps_id
+    permalink: /id/apps/:name/
+  glossary_id:
+    output: true
+    path: _glossary_id
+    permalink: /id/glossary/:name/
+  posts:
+    output: true
+    path: _posts/id
+    permalink: /id/posts/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /id/posts/:title/
+      nav: blog
+  - scope:
+      path: ""
+      type: apps_id
+    values:
+      layout: app
+      nav: home
+      seo:
+        type: WebPage
+
+paginate: 10
+paginate_path: /id/blog/page:num
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: id/feed.xml
+
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+sass:
+  style: compressed
+
+# 输出到主站 _site/id/ 子目录，与英文根目录合并部署
+destination: _site/id
+
+# 排除其它语言源文件，避免被读到并发布到 /id/ 下。
+#   - EN 根级：_apps/（带尾斜杠，避免误伤 _apps_id）、_glossary/、_posts/2* / _posts/1*
+#     （fnmatch 的 * 跨 / 匹配，故按年份前缀排除英文根级文章，不误伤 _posts/id/ 下的印尼语文章）。
+#   - ZH：_apps_zh、_glossary_zh、_pages/zh、_posts/zh、zh/
+#   - EN 的 _pages/*.md 带显式 permalink（/about/ 等），在 ID 构建中映射到临时目录根，
+#     不会被 rsync 进 _site/id，故无需排除。
+exclude:
+  - _apps_zh
+  - _apps_zh/**
+  - _glossary_zh
+  - _glossary_zh/**
+  - _pages/zh
+  - _pages/zh/**
+  - _posts/zh
+  - _posts/zh/**
+  - zh/
+  - zh/**
+  - _apps/
+  - _glossary/
+  - _glossary/**
+  - _posts/2*
+  - _posts/1*
+  - index.html
+  - blog/
+  - meow/
+  - robots.txt
+  - CNAME
+  - app-ads.txt
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - seo/
+  - "seo/**"
+  - README.md
+  - SEO-OPTIMIZATION-PLAN.md
+  - LICENSE
+  - purgecss.js
+  - "*.config.js"
+  - "package*.json"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
+  - .devcontainer
+  - .idea
+  - .vscode
+  - .qoder
+  - 404.html

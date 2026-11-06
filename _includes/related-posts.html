@@ -1,7 +1,10 @@
 {%- comment -%}
   自动相关文章区块（T-17）：同语言内按标签重叠取最多 4 篇相关文章，
-  并附父 app 详情页回链（转化点）。中英自动适配（构建时 site.posts 已按语言隔离）。
+  并附父 app 详情页回链（转化点）。构建时 site.posts 已按语言隔离。
+  集合按 site.lang 动态索引，新增语言无需改本文件（见 SEO-I18N-PLAYBOOK.md §2.6）。
 {%- endcomment -%}
+{%- assign lang = site.lang | default: 'en' -%}
+{%- assign coll_apps = 'apps' -%}{%- if lang != 'en' -%}{%- assign coll_apps = 'apps_' | append: lang -%}{%- endif -%}
 {%- assign current = page -%}
 {%- assign rel = "" | split: "" -%}
 {%- assign rel_urls = "" | split: "" -%}
@@ -16,16 +19,13 @@
   {%- endfor -%}
   {%- if rel.size >= 4 %}{% break %}{% endif -%}
 {%- endfor -%}
-{%- comment -%} 反查父 app 页（post.image == app.icon）；ZH 构建的应用集合是 apps_zh {%- endcomment -%}
-{%- assign app_collection = site.apps -%}
-{%- if current.lang == "zh" -%}{%- assign app_collection = site.apps_zh -%}{%- endif -%}
+{%- assign app_collection = site[coll_apps] -%}
 {%- assign parent_app = nil -%}
 {%- for app in app_collection -%}
   {%- if app.icon == current.image -%}{%- assign parent_app = app -%}{%- endif -%}
 {%- endfor -%}
 {%- if rel.size > 0 -%}
-  {%- assign heading = "Related posts" -%}
-  {%- if current.lang == "zh" -%}{%- assign heading = "相关文章" -%}{%- endif -%}
+  {%- assign heading = site.data.ui[lang].related_posts -%}
 <section class="related-posts" aria-label="{{ heading }}">
   <h2 class="related-posts__title">{{ heading }}</h2>
   <ul class="related-posts__list">
@@ -36,8 +36,7 @@
 </section>
 {%- endif -%}
 {%- if parent_app -%}
-  {%- assign app_heading = "Related App" -%}
-  {%- if current.lang == "zh" -%}{%- assign app_heading = "相关应用" -%}{%- endif -%}
+  {%- assign app_heading = site.data.ui[lang].related_app -%}
 <section class="related-posts related-posts--app" aria-label="{{ app_heading }}">
   <h2 class="related-posts__title">{{ app_heading }}</h2>
   <ul class="related-posts__list">

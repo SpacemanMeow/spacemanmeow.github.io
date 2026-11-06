@@ -11,3 +11,7 @@
 - code: zh
   label: 中文
   short: 中文
+
+- code: id
+  label: Bahasa Indonesia
+  short: ID

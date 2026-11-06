@@ -95,6 +95,11 @@ Easy Touch 是一款热门的安卓 **iOS 风格辅助球**，提供虚拟导航
 
 ### 3. Assistive Touch（Easy Tools）—— 最佳快捷开关
 
+![Anyscanner Touch 悬浮触控替代主界面](/assets/images/blog/anyscanner_touch_1.webp){: width="180" .normal }
+![Anyscanner Touch 快捷操作与手势](/assets/images/blog/anyscanner_touch_2.webp){: width="180" .normal }
+![Anyscanner Touch 自定义菜单与按钮](/assets/images/blog/anyscanner_touch_3.webp){: width="180" .normal }
+![Anyscanner Touch 辅助功能与选项](/assets/images/blog/anyscanner_touch_4.webp){: width="180" .normal }
+
 Assistive Touch（Easy Tools）添加一个 **导航栏悬浮层**，包含多任务/主页/返回，以及丰富的快捷开关、截图与录屏功能。
 
 **优势**
@@ -117,6 +122,12 @@ Assistive Touch（Easy Tools）添加一个 **导航栏悬浮层**，包含多�
 ---
 
 ### 4. Button Mapper —— 最佳实体按键重映射
+
+![Button Mapper 实体按键重映射主界面](/assets/images/blog/button_mapper_1.webp){: width="180" .normal }
+![Button Mapper 功能详情](/assets/images/blog/button_mapper_2.webp){: width="180" .normal }
+![Button Mapper 数据与统计](/assets/images/blog/button_mapper_3.webp){: width="180" .normal }
+![Button Mapper 设置与管理](/assets/images/blog/button_mapper_4.webp){: width="180" .normal }
+![Button Mapper 高级选项](/assets/images/blog/button_mapper_5.webp){: width="180" .normal }
 
 Button Mapper 将你的 **实体按键**（音量键、Bixby 键等）重映射为自定义动作——这是另一种「辅助控制」思路，完全不需要悬浮球。
 
@@ -141,6 +152,12 @@ Button Mapper 将你的 **实体按键**（音量键、Bixby 键等）重映射�
 
 ### 5. All in One Gestures —— 最佳手势控制
 
+![Conena 手势控制主界面](/assets/images/blog/conena_touch_1.webp){: width="180" .normal }
+![Conena 快捷操作与手势](/assets/images/blog/conena_touch_2.webp){: width="180" .normal }
+![Conena 自定义菜单与按钮](/assets/images/blog/conena_touch_3.webp){: width="180" .normal }
+![Conena 辅助功能与选项](/assets/images/blog/conena_touch_4.webp){: width="180" .normal }
+![Conena 设置与权限](/assets/images/blog/conena_touch_5.webp){: width="180" .normal }
+
 All in One Gestures 让你 **隐藏虚拟按键、用手势操控设备**——滑动、捏合等——获得干净、无按键的体验。
 
 **优势**
@@ -163,6 +180,10 @@ All in One Gestures 让你 **隐藏虚拟按键、用手势操控设备**——�
 ---
 
 ### 6. Assistive Touch —— 最佳简洁悬浮触控
+
+![Wanata 快捷操作与手势](/assets/images/blog/wanata_touch_2.webp){: width="180" .normal }
+![Wanata 自定义菜单与按钮](/assets/images/blog/wanata_touch_3.webp){: width="180" .normal }
+![Wanata 辅助功能与选项](/assets/images/blog/wanata_touch_4.webp){: width="180" .normal }
 
 Assistive Touch（smarttool）是一款 **简洁直接的悬浮触控应用**，提供虚拟按键与快捷设置，接近经典的 AssistiveTouch 体验。
 

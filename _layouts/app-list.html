@@ -4,13 +4,11 @@ layout: default
 {%- comment -%}
   应用列表页（Home / Meow 共用）
   在页面 front matter 中设置 series: Meow 只显示该系列应用；不设置则显示全部。
+  集合按 site.lang 动态索引，新增语言只需建 _apps_<lang>/ 集合，无需改本文件。
 {%- endcomment -%}
-{%- comment -%} 中文站应用使用独立的 apps_zh 集合（源目录 _apps_zh），与英文 apps 集合分离 {%- endcomment -%}
-{%- if site.lang == 'zh' -%}
-  {%- assign apps = site.apps_zh | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}
-{%- else -%}
-  {%- assign apps = site.apps | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}
-{%- endif -%}
+{%- assign lang = site.lang | default: 'en' -%}
+{%- assign coll_apps = 'apps' -%}{%- if lang != 'en' -%}{%- assign coll_apps = 'apps_' | append: lang -%}{%- endif -%}
+{%- assign apps = site[coll_apps] | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}
 {%- if page.series -%}
   {%- assign apps = apps | where_exp: 'a', 'a.series == page.series' -%}
 {%- endif -%}
@@ -26,6 +24,6 @@ layout: default
   {%- for app in apps %}
     {% include app-card.html app=app %}
   {%- else %}
-    <div class="container"><p class="empty-tip">{{ site.data.ui[site.lang].no_apps }}</p></div>
+    <div class="container"><p class="empty-tip">{{ site.data.ui[lang].no_apps }}</p></div>
   {%- endfor %}
 </div>

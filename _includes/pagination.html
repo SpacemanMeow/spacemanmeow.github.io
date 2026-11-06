@@ -3,7 +3,7 @@
   {%- if paginator.previous_page %}
   <a class="pagination__link" href="{{ paginator.previous_page_path | relative_url }}">{{ site.data.ui[site.lang].prev }}</a>
   {%- else %}
-  <span class="pagination__link is-disabled">&lsaquo; Prev</span>
+  <span class="pagination__link is-disabled">{{ site.data.ui[site.lang].prev }}</span>
   {%- endif %}
 
   <span class="pagination__status">{{ site.data.ui[site.lang].page_status | replace: '%c', paginator.page | replace: '%t', paginator.total_pages }}</span>
@@ -11,7 +11,7 @@
   {%- if paginator.next_page %}
   <a class="pagination__link" href="{{ paginator.next_page_path | relative_url }}">{{ site.data.ui[site.lang].next }}</a>
   {%- else %}
-  <span class="pagination__link is-disabled">Next &rsaquo;</span>
+  <span class="pagination__link is-disabled">{{ site.data.ui[site.lang].next }}</span>
   {%- endif %}
 </nav>
 {%- endif -%}

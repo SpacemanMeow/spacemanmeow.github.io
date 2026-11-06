@@ -1,8 +1,9 @@
 # SpacemanMeow SEO 关键词库（Keyword Bank）
 
 > **用途**：所有 App 跨语言关键词的**权威库**。按「语言 × 词层 × 优先级」分组排序，作为**新文章撰写、现有文章更新**的文案优化依据；并随 Google Play Console / Search Console 真实数据持续维护。
-> **最后更新**：2026-11-04
-> **语言范围**：英文站（默认 `en`）+ `/zh/` 中文站（已上线）+ 后续可扩展 `id` / `ms` / `tl` / `hi` 等（试点见 `SEO-PROGRESS.md` T-31）。关键词须**本地化**而非直译（见 `SEO-PLAYBOOK.md` §6.1）。
+> **最后更新**：2026-11-06
+> **语言范围**：英文站（默认 `en`）+ `/zh/` 中文站（已上线）+ `/id/` 印尼语站（扩展中，见 `SEO-I18N-PROGRESS.md`）+ 后续 `th` / `ms` / `tl` / `hi` 等。关键词须**本地化**而非直译（见 `SEO-PLAYBOOK.md` §6.1 与 `SEO-I18N-PLAYBOOK.md` §3）。
+> **多语言词库规则**：每新增一门语言，先按 `SEO-I18N-PLAYBOOK.md` §3 做当地检索，再在对应 App 小节追加 `§2.N.x <语言>` 词表（初始状态「待覆盖」，内容落地后逐条改「已覆盖」并跑 D09）；**禁止**由 en/zh 词等价翻译生成。
 > **关联文档**：本库是 `SEO-PLAYBOOK.md` §2.1.1 关键词库的**详细展开与持续维护版**；内容集群模型见 `SEO-PLAYBOOK.md` §2.2，度量回填见 `SEO-METRICS.md`。
 
 ---
@@ -185,11 +186,103 @@
 |---|---|---|---|---|
 | 2026-11 | 站内已覆盖 + 竞品调研（初版） | （建库） | — | 首版基于站内内容+竞品调研；绝对量待 Play Console/GSC 回填 |
 | 2026-11 | Google Play 当地检索（zh_CN/SG、en_US/US） | —（核对现有词，未新增词条） | — | 以 Play 在架标题校验 App 详情页用词：zh 记账/记账本/预算，en expense tracker/budget planner；App 页 tagline、description、正文与 FAQ 按已覆盖词重新落地，D09 MISS = 0 |
+| 2026-11-06 | Google Play `hl=id&gl=ID` 在架标题 + 印尼本地网页/评测检索 | **建立 `id` 印尼语词表（§2.1.5）**：`aplikasi catatan keuangan` / `catatan keuangan harian` / `pencatat keuangan` / `atur anggaran bulanan` / `budget harian` / `catat pengeluaran & pemasukan` / `offline tanpa internet` / `tanpa daftar akun` 等 | — | **非直译**：印尼用户高频使用 `catatan keuangan`（财务记录）而非英文 `expense tracker` 的直译 `pelacak pengeluaran`；同时当地在架标题混用英语借词 `budget` / `expense tracker` / `money manager`，故按「印尼语主体 + 借词并存」收录。词表初始全部标「待覆盖」，待 `/id/` 内容落地后逐条改「已覆盖」并跑 D09；进度见 `SEO-I18N-PROGRESS.md` |
+| 2026-11-06 | 站内 `/id/` 内容落地（47 个印尼语内容源）+ D09 归一化逐词核对 | §2.1.5 共 52 词：**51 词**由「待覆盖」改为「已覆盖(id)」；1 词 `widget catatan keuangan` 因产品功能口径未确认而合规挂起 | — | 逐词与 ID 正文归一化核对后才标「已覆盖」，D09 11 组 MISS=0；Head/Middle/Long-tail/竞品拦截词均按本地检索证据落地，非 en/zh 直译 |
 | _待填_ | Google Play Console | | | |
 | _待填_ | GSC 实际点击词 | | | |
 
 **回填字段模板**（每条关键词补充两列，月度更新）：
 `搜索量(实测)`（来自 Play Console/GSC，绝对数）｜ `当前平均排名`（GSC）。
+
+### 2.1.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
+
+> **本地化选词（非英文直译）**：印尼用户把这类 App 叫 `aplikasi catatan keuangan`（财务记录应用）或 `pencatat keuangan`，**不是** `expense tracker` 的逐词翻译 `pelacak pengeluaran`。同时印尼 Google Play 在架标题大量混用英语借词 `budget` / `expense tracker` / `money manager` / `Expense Tracker`，因此本语言采用「印尼语主体词 + 真实在架借词」双轨，**不强行全译成印尼语**。
+> **证据（2026-11-06 检索）**：
+> 1. Google Play `https://play.google.com/store/search?q=catatan%20keuangan&c=apps&hl=id&gl=ID` 在架标题：`Pengelola Keuangan`、`Pengelola Keuangan - Pembukuan`、`Manajer uang : Expense Tracker`、`Spendee Budget & Money Tracker`；该查询混入 `DANA Dompet Digital Indonesia` / `GoPay` / `ShopeePay` 等钱包类噪声，说明 `catatan keuangan` 是印尼的通用财务词，落地页需靠 `aplikasi / pencatat / anggaran` 等修饰词收敛意图。
+> 2. Google Play 在架详情：`DompetKu - Pencatat Keuangan`、`MoneyTrack - Pencatat Keuangan`（Cipta Programmer Indonesia）、`DuitKu`（"tanpa koneksi internet … data tersimpan … lokal di perangkat"）、`Caku - Catatan Saku`、`Artos: Catatan Keuangan Harian`（"atur anggaran bulanan"、"Tidak perlu daftar akun"）。
+> 3. 印尼本地描述/评测：`FinSave`「Catat pengeluaran & pemasukan, atur budget harian & gajian. Privat & offline」；`Finansialku` 的 `Membuat anggaran / Mencatat keuangan / Merencanakan keuangan`；`pocketclear.app` 印尼专题列出 `IDR (Rp)` 支持、`offline`（各岛网络不稳）、`GoPay / OVO / DANA` 电子钱包、`kos`（租房）、`GoFood`、`warung` 等本地场景。
+> **数据来源标签**：`Play 当地检索(id_ID)` / `印尼本地网页(id)` / `站内已覆盖` / `GSC实测(待回填)`。
+
+#### Head（大词，P2，Pillar 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi catatan keuangan | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | Play 当地检索(id_ID) | 品类根词，最本地的说法 |
+| catatan keuangan | Head | P2 | 高 | 低 | Pillar/Glossary | 已覆盖(id) | Play 当地检索(id_ID) | 极短根词，含钱包类噪声 |
+| aplikasi keuangan | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | Play 当地检索(id_ID) | Google Play ASO 已确认词 |
+| pengelola keuangan | Head | P2 | 中 | 中 | Pillar | 已覆盖(id) | Play 当地检索(id_ID) | 在架标题 `Pengelola Keuangan` |
+| pencatat keuangan | Head | P2 | 中 | 中 | Pillar/App | 已覆盖(id) | Play 当地检索(id_ID) | 在架标题 `Pencatat Keuangan` |
+| catatan keuangan harian | Head | P2 | 中 | 中 | Pillar | 已覆盖(id) | Play 当地检索(id_ID) | 在架标题 `Artos: Catatan Keuangan Harian` |
+| buku kas / pembukuan | Head | P2 | 中 | 低 | Pillar/Glossary | 已覆盖(id) | Play 当地检索(id_ID) | 本地账务说法，在架标题含 `Pembukuan` |
+| expense tracker | Head | P2 | 中 | 低 | Pillar/Glossary | 已覆盖(id) | Play 当地检索(id_ID) | **英语借词**，在架标题 `Manajer uang : Expense Tracker` |
+| money manager | Head | P2 | 中 | 中 | Pillar/App | 已覆盖(id) | Play 当地检索(id_ID) | **英语借词**，本地在架标题高频 |
+
+#### Middle（中词，P1，Best/vs/Alternatives 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi catatan keuangan terbaik | Middle | P1 | 高 | 中 | Pillar/Best | 已覆盖(id) | 印尼本地网页(id) | 年度/榜单词 |
+| aplikasi catatan keuangan gratis | Middle | P1 | 高 | 中 | Best/App | 已覆盖(id) | Play 当地检索(id_ID) | 免费高转化 |
+| aplikasi catatan keuangan offline | Middle | P1 | 中 | 高 | App/Pillar | 已覆盖(id) | 印尼本地网页(id) | 各岛网络不稳是本地真实痛点 |
+| aplikasi catatan keuangan Android | Middle | P1 | 高 | 中 | Android/Best | 已覆盖(id) | Play 当地检索(id_ID) | 平台限定 |
+| aplikasi anggaran bulanan | Middle | P1 | 中 | 中 | Pillar/App | 已覆盖(id) | 印尼本地网页(id) | `atur anggaran bulanan` |
+| budget harian | Middle | P1 | 中 | 中 | App/Pillar | 已覆盖(id) | 印尼本地网页(id) | FinSave 在架用语，借词 `budget` 照实收录 |
+| aplikasi pencatat pengeluaran harian | Middle | P1 | 中 | 中 | Best/App | 已覆盖(id) | 印尼本地网页(id) | 场景词 |
+| catat pemasukan dan pengeluaran | Middle | P1 | 高 | 中 | App/Tutorial | 已覆盖(id) | Play 当地检索(id_ID) | 在架描述高频短语 |
+| kelola keuangan pribadi | Middle | P1 | 中 | 中 | Pillar | 已覆盖(id) | 印尼本地网页(id) | 个人理财 |
+| aplikasi keuangan tanpa akun | Middle | P1 | 中 | 高 | vs/App | 已覆盖(id) | Play 当地检索(id_ID) | `Tidak perlu daftar akun` |
+| aplikasi keuangan privat | Middle | P1 | 中 | 高 | vs/App | 已覆盖(id) | 印尼本地网页(id) | `Privat & offline` |
+| aplikasi catatan keuangan mahasiswa | Middle | P1 | 中 | 中 | Students | 已覆盖(id) | 印尼本地网页(id) | 学生场景，配合 `kos` |
+| aplikasi catatan keuangan 2026 | Middle | P1 | 中 | 中 | Pillar/Best | 已覆盖(id) | 印尼本地网页(id) | 年度词 |
+| alternatif Mint | Middle | P1 | 低 | 高 | Mint替代 | 已覆盖(id) | 竞品调研(id) | 印尼 Mint 声量低于英语区，优先级低于本地竞品 |
+| alternatif YNAB | Middle | P1 | 低 | 高 | vs | 已覆盖(id) | 竞品调研(id) | 同上 |
+
+#### Long-tail（精准长尾，P0，App 详情页主吃）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi catatan keuangan tanpa akun | Long-tail | P0 | 中 | 高 | App/FAQ | 已覆盖(id) | Play 当地检索(id_ID) | 免账号 |
+| aplikasi catatan keuangan tanpa internet | Long-tail | P0 | 中 | 高 | App/Android | 已覆盖(id) | Play 当地检索(id_ID) | `tanpa koneksi internet` |
+| data tersimpan lokal di perangkat | Long-tail | P0 | 中 | 高 | App/vs | 已覆盖(id) | 印尼本地网页(id) | 本地存储，DuitKu 在架用语 |
+| aplikasi catatan keuangan sidik jari | Long-tail | P0 | 低 | 高 | App | 已覆盖(id) | 印尼本地网页(id) | 指纹锁 |
+| ekspor CSV catatan keuangan | Long-tail | P0 | 中 | 高 | App/Tutorial | 已覆盖(id) | 印尼本地网页(id) | 导出 |
+| aplikasi catatan keuangan multi mata uang | Long-tail | P0 | 中 | 高 | App/Pillar | 已覆盖(id) | 印尼本地网页(id) | 50+ 符号 |
+| aplikasi catatan keuangan rupiah | Long-tail | P0 | 中 | 高 | App | 已覆盖(id) | 印尼本地网页(id) | `IDR (Rp)` 本地货币 |
+| catat reimburse / penggantian biaya | Long-tail | P0 | 中 | 高 | App/Tutorial | 已覆盖(id) | 印尼本地网页(id) | 报销，本地用 `reimburse` 借词 |
+| aplikasi budget per kategori | Long-tail | P0 | 中 | 高 | App | 已覆盖(id) | 印尼本地网页(id) | 分类预算 |
+| aplikasi catatan keuangan multi buku | Long-tail | P0 | 低 | 高 | App | 已覆盖(id) | 印尼本地网页(id) | 多账本 / `buku kas` |
+| aplikasi catatan keuangan ikon lucu kucing | Long-tail | P0 | 低 | 中 | App | 已覆盖(id) | 站内已覆盖 | 400+ 图标差异化 |
+| aplikasi keuangan tanpa langganan | Long-tail | P0 | 中 | 高 | Best/App | 已覆盖(id) | 印尼本地网页(id) | 免费核心 |
+| backup Google Drive dan WebDAV | Long-tail | P0 | 中 | 高 | App | 已覆盖(id) | 站内已覆盖 | 备份口径统一 |
+| grafik pengeluaran bulanan | Long-tail | P1 | 中 | 中 | App/Tutorial | 已覆盖(id) | 印尼本地网页(id) | 图表 |
+| transaksi berulang cicilan bulanan | Long-tail | P1 | 中 | 高 | App | 已覆盖(id) | 印尼本地网页(id) | 周期记录 / `cicilan` 分期 |
+| aset utang kekayaan bersih | Long-tail | P1 | 低 | 中 | App | 已覆盖(id) | 站内已覆盖 | 资产净值 |
+| widget catatan keuangan | Long-tail | P1 | 中 | 中 | Android/App | 待覆盖 | 印尼本地网页(id) | **合规挂起**：应用截图含 `widget.webp`，但站内文案未明确记账 widget 的功能口径；产品确认前不写入正文，避免虚假功能 |
+
+#### 品牌词 & 竞品拦截词（id）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| Meow Money Manager | 品牌 | P0 | 中 | 高 | App | 已覆盖(id) | 站内已覆盖 | 品牌名原样，不翻译 |
+| Meow Money | 品牌 | P0 | 低 | 高 | App | 已覆盖(id) | 站内已覆盖 | 简称 |
+| alternatif DuitKu | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(id) | Play 当地检索(id_ID) | 印尼本地在架竞品 |
+| alternatif DompetKu | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(id) | Play 当地检索(id_ID) | 印尼本地在架竞品 |
+| alternatif MoneyTrack | 竞品 | P1 | 低 | 高 | vs/Alt | 已覆盖(id) | Play 当地检索(id_ID) | Cipta Programmer Indonesia |
+| alternatif Caku | 竞品 | P1 | 低 | 高 | vs/Alt | 已覆盖(id) | Play 当地检索(id_ID) | `Caku - Catatan Saku` |
+| alternatif Catatku | 竞品 | P1 | 低 | 高 | vs/Alt | 已覆盖(id) | 印尼本地网页(id) | 印尼开发者、离线 |
+| alternatif Celenganku | 竞品 | P1 | 低 | 高 | vs/Alt | 已覆盖(id) | 印尼本地网页(id) | 本地存钱罐类 |
+| alternatif Monefy | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(id) | 印尼本地网页(id) | 印尼评测常列 |
+| alternatif Spendee | 竞品 | P1 | 低 | 高 | vs/Alt | 已覆盖(id) | Play 当地检索(id_ID) | `Spendee Budget & Money Tracker` |
+| YNAB vs Meow Money Manager | 竞品对比 | P0 | 低 | 高 | vs | 已覆盖(id) | 竞品调研(id) | 对比拦截 |
+
+#### 本地场景词（用于内容扩写，非排名词）
+| 场景词 | 含义 / 用途 | 落地建议 |
+|---|---|---|
+| `gajian` / `tanggal muda` / `tanggal tua` | 发薪日 / 月初宽裕 / 月底钱紧（印尼特有表达） | 首段与预算段用，显著区分于英文直译 |
+| `Rp` / `IDR` / `Rupiah` | 本地货币、大额数字 | 多币种段与示例金额 |
+| `GoPay` / `OVO` / `DANA` / `QRIS` | 本地电子钱包与支付标准 | 多账本/分类段举例，**仅作手动记账示例** |
+| `kos` / `warung` / `GoFood` / `ojek online` | 租房 / 小食摊 / 外卖 / 网约摩的 | 分类图标、日常开销场景 |
+| `THR` / `cicilan` / `uang makan` | 节日奖金 / 分期 / 餐费 | 周期记录、报销、预算段 |
+| `UMKM` | 印尼中小微企业 | 多账本（生意与个人分开）段 |
+
+#### 明确不收录的词（当地高频但产品不具备）
+`sinkronisasi otomatis rekening bank`（银行自动同步）、`import QRIS otomatis`（QRIS 自动导入）、`scan struk otomatis`（收据 OCR 自动记账）。这些词在印尼在架 App 中常见，但 Meow Money Manager 为纯手动本地记账，写入会构成**虚假功能**，违反 `SEO-GOOGLE-PLAY.md` 合规红线与站内 E-E-A-T 要求。
 
 ---
 
@@ -290,6 +383,35 @@
 | 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
 |---|---|---|---|---|
 | 2026-11 | 竞品调研（web）+ 站内已覆盖（已逐词核对正文） | （初版建库；内容侧深度优化：12 文件正文扩写 + 关键词真实铺入 meta/首段/小标题/alt） | — | 本组 12 文件已完成 T-34：原标「已覆盖」41 词全部命中正文（核对脚本 0 未命中）；另 8 个原「待覆盖/待强化」词随扩写落地并升权；`待办清单 排行榜` 无榜单型页面可自然承载，保持待覆盖。绝对量待 Play Console/GSC 回填 |
+| 2026-11 | 本批 ID 正文落地（EN/ZH 词库本地化；Play 当地检索待回填） | 新增 §2.2.5 印尼语词组 10 词，全部标「已覆盖(id)」并逐词核对正文 | — | Phase 3 · G2 首批 2 篇 posts 落地；不虚构检索证据，绝对量待 Play Console/GSC 回填 |
+| 2026-11 | 本批 ID 正文落地（EN/ZH 词库本地化；Play 当地检索待回填） | G2 剩余 4 篇落地，§2.2.5 的 10 词复核仍逐词命中 | — | Phase 3 · G2 6/6 完成；绝对量待 Play Console/GSC 回填 |
+
+### 2.2.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
+
+> **本地化选词（非英文直译）**：印尼用户把这类 App 叫 `aplikasi to-do list` / `daftar tugas` / `aplikasi tugas harian`；Google Play 印尼在架标题同样大量混用英语借词 `to-do list` / `task manager`，因此沿用 §2.1.5 的「印尼语主体词 + 在架借词」双轨，不逐词硬译。
+> **数据来源标签**：`EN/ZH 词库本地化` / `本批 ID 正文落地`；`Play 当地检索(id_ID)` 与 `GSC实测` 待回填，本批不虚构检索证据。
+
+#### Head（大词，P2，Pillar 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi to-do list | Head | P2 | 高 | 中 | Best/Pillar | 已覆盖(id) | 本批 ID 正文落地 | 品类根词 |
+| daftar tugas | Head | P2 | 高 | 低 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 印尼语通用说法 |
+| aplikasi tugas harian | Head | P2 | 中 | 中 | Best | 已覆盖(id) | 本批 ID 正文落地 | 日常任务说法 |
+
+#### Middle（中词，P1，Best/App 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi to-do offline | Middle | P1 | 中 | 高 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 离线卖点 |
+| aplikasi pengingat tugas | Middle | P1 | 中 | 高 | Best | 已覆盖(id) | 本批 ID 正文落地 | 提醒卖点 |
+| aplikasi kalender tugas | Middle | P1 | 中 | 中 | Best | 已覆盖(id) | 本批 ID 正文落地 | 日历视图 |
+
+#### Long-tail（精准长尾，P0）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi to-do untuk mahasiswa | Long-tail | P0 | 中 | 高 | Students | 已覆盖(id) | 本批 ID 正文落地 | 学生场景 |
+| alternatif Todoist | Long-tail | P0 | 高 | 高 | Best/vs | 已覆盖(id) | 本批 ID 正文落地 | 竞品拦截 |
+| daftar tugas tanpa akun | Long-tail | P0 | 中 | 高 | Best | 已覆盖(id) | 本批 ID 正文落地 | 无账号卖点 |
+| aplikasi subtask gratis | Long-tail | P0 | 中 | 高 | Students | 已覆盖(id) | 本批 ID 正文落地 | 子任务免费 |
 
 ---
 
@@ -387,6 +509,35 @@
 |---|---|---|---|---|
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 小日常/小习惯 拦截词待在 vs/pillar 强化 |
 | 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：Loop / Habitica / Habitify / Fabulous alternative、小日常 哪个好、小习惯 / 种子习惯 / 自律树 / 习惯足迹 替代、小日常 替代、打卡 小日常 类似 | — | 本组 50 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 37 个「已覆盖」状态复核无误；12 篇 description ≤160 字符、last_modified_at 齐；构建 + htmlproofer 通过 |
+| 2026-11 | 本批 ID 正文落地（EN/ZH 词库本地化；Play 当地检索待回填） | 新增 §2.3.5 印尼语词组 10 词，全部标「已覆盖(id)」并逐词核对正文 | — | Phase 3 · G3（Meow Habits）6 篇 posts 落地；不虚构检索证据，绝对量待回填 |
+
+### 2.3.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
+
+> **本地化选词（非英文直译）**：印尼用户把这类 App 叫作 `aplikasi habit tracker` / `aplikasi pelacak kebiasaan`，并混用英语借词 `habit tracker` / `streak`；沿用 §2.1.5 的「印尼语主体词 + 在架借词」双轨，不逐词硬译。
+> **数据来源标签**：`EN/ZH 词库本地化` / `本批 ID 正文落地`；`Play 当地检索(id_ID)` 与 `GSC实测` 待回填，本批不虚构检索证据。
+
+#### Head（大词，P2，Pillar 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi habit tracker | Head | P2 | 高 | 中 | Best/Pillar | 已覆盖(id) | 本批 ID 正文落地 | 品类根词（借词） |
+| aplikasi pelacak kebiasaan | Head | P2 | 高 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 印尼语主体说法 |
+| kebiasaan harian | Head | P2 | 高 | 低 | Best/Tutorial | 已覆盖(id) | 本批 ID 正文落地 | 日常习惯说法 |
+
+#### Middle（中词，P1，Best/App 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi habit tracker gratis | Middle | P1 | 中 | 高 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 免费卖点 |
+| aplikasi habit tracker offline | Middle | P1 | 中 | 高 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 离线卖点 |
+| aplikasi habit tracker dengan pengingat | Middle | P1 | 中 | 高 | Best/Tutorial | 已覆盖(id) | 本批 ID 正文落地 | 提醒卖点 |
+
+#### Long-tail（精准长尾，P0）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| alternatif Streaks | Long-tail | P0 | 高 | 高 | vs/Alt | 已覆盖(id) | 本批 ID 正文落地 | 竞品拦截 |
+| aplikasi habit tracker tanpa akun | Long-tail | P0 | 中 | 高 | Best | 已覆盖(id) | 本批 ID 正文落地 | 无账号卖点 |
+| aplikasi pelacak kebiasaan untuk pemula | Long-tail | P0 | 中 | 高 | Beginners | 已覆盖(id) | 本批 ID 正文落地 | 新手场景 |
+| cara membuat kebiasaan | Long-tail | P0 | 中 | 高 | Tutorial | 已覆盖(id) | 本批 ID 正文落地 | 教程意图 |
+
 
 ---
 
@@ -484,6 +635,35 @@
 |---|---|---|---|---|
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 Daylio/MOODA/moo日记 拦截词待在 vs/pillar 强化 |
 | 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：MoodKit / Bearable / Journey / Reflectly alternative、Daylio 替代、Daylio 哪个好、卡片日记 替代、MOODA / moo日记 / 情绪指压 / 心岛日记 替代 | — | 本组 50 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 37 个「已覆盖」复核无误；tutorial EN/ZH 共 8 张重复 alt 去重、2 条超长 description 压缩；12 篇 description ≤160 字符、last_modified_at 齐；构建+htmlproofer 通过 |
+| 2026-11 | 本批 ID 正文落地（EN/ZH 词库本地化；Play 当地检索待回填） | 新增 §2.4.5 印尼语词组 10 词，全部标「已覆盖(id)」并逐词核对正文 | — | Phase 3 · G4（Meow Mood Diary）5 篇 posts 落地；末篇待补，绝对量待回填 |
+
+### 2.4.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
+
+> **本地化选词（非英文直译）**：印尼用户把这类 App 叫作 `aplikasi jurnal harian` / `buku harian digital` / `aplikasi mood tracker`，并混用英语借词 `mood tracker` / `check-in`；沿用 §2.1.5 的「印尼语主体词 + 在架借词」双轨，不逐词硬译。
+> **数据来源标签**：`EN/ZH 词库本地化` / `本批 ID 正文落地`；`Play 当地检索(id_ID)` 与 `GSC实测` 待回填，本批不虚构检索证据。
+
+#### Head（大词，P2，Pillar 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi jurnal harian | Head | P2 | 高 | 中 | Best/Pillar | 已覆盖(id) | 本批 ID 正文落地 | 品类根词 |
+| buku harian digital | Head | P2 | 高 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 印尼语主体说法 |
+| aplikasi mood tracker | Head | P2 | 高 | 中 | Best/Pillar | 已覆盖(id) | 本批 ID 正文落地 | 在架借词 |
+
+#### Middle（中词，P1，Best/App 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| pelacak suasana hati | Middle | P1 | 中 | 中 | Best/Tutorial | 已覆盖(id) | 本批 ID 正文落地 | 印尼语同义说法 |
+| jurnal pribadi | Middle | P1 | 中 | 高 | Best/Private | 已覆盖(id) | 本批 ID 正文落地 | 隐私场景 |
+| aplikasi buku harian privat | Middle | P1 | 中 | 高 | Best/Private | 已覆盖(id) | 本批 ID 正文落地 | 隐私卖点 |
+| aplikasi mood tracker offline | Middle | P1 | 中 | 高 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 离线卖点 |
+
+#### Long-tail（精准长尾，P0）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| alternatif Day One | Long-tail | P0 | 高 | 高 | vs/Alt | 已覆盖(id) | 本批 ID 正文落地 | 竞品拦截 |
+| pelacak mood gratis | Long-tail | P0 | 中 | 高 | Best | 已覆盖(id) | 本批 ID 正文落地 | 免费卖点 |
+| aplikasi check-in harian | Long-tail | P0 | 中 | 高 | Tutorial | 已覆盖(id) | 本批 ID 正文落地 | 教程意图 |
+
 
 ---
 
@@ -686,6 +866,33 @@
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 小组件盒子/灵动坞 拦截词待在 vs/pillar 强化 |
 | 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：Widgetopia / Zooper Widget alternative、小组件盒子 替代、小组件盒子 哪个好、灵动坞 / 万能小组件 / 魔力小组件 / 元气小组件 / iScreen / 米写 / KWGT 中文 替代 | — | 本组 60 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 49 个「已覆盖」复核无误；tutorial EN/ZH 共 12 张重复 alt 去重、2 条超长 description 压缩；修正 material you widgets 页型笔误；12 篇 description ≤160 字符、last_modified_at 齐；构建+htmlproofer 通过 |
 
+### 2.6.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
+
+> **本地化选词（非英文直译）**：印尼用户把这类 App 叫作 `widget Android` / `widget layar utama` / `aplikasi widget`，并混用英语借词 `widget` / `Material You` / `KWGT`；沿用 §2.1.5 的「印尼语主体词 + 在架借词」双轨，不逐词硬译。
+> **数据来源标签**：`EN/ZH 词库本地化` / `本批 ID 正文落地`；`Play 当地检索(id_ID)` 与 `GSC实测` 待回填，本批不虚构检索证据。
+
+#### Head（大词，P2，Pillar 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| widget Android | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 借词品类根词 |
+| widget layar utama | Head | P2 | 高 | 中 | Best/Pillar | 已覆盖(id) | 本批 ID 正文落地 | 印尼语主体说法 |
+| aplikasi widget | Head | P2 | 高 | 中 | Best/Pillar | 已覆盖(id) | 本批 ID 正文落地 | 印尼语主体说法 |
+
+#### Middle（中词，P1，Best/App 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| widget kustom | Middle | P1 | 中 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 自定义 |
+| widget Material You | Middle | P1 | 中 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 风格词 |
+| widget kaca Android | Middle | P1 | 中 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 玻璃风格 |
+| widget Samsung One UI | Middle | P1 | 中 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 三星风格 |
+
+#### Long-tail（精准长尾，P0）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi widget terbaik untuk Android | Long-tail | P0 | 高 | 高 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 年度词 |
+| alternatif KWGT | Long-tail | P0 | 高 | 高 | vs/Alt | 已覆盖(id) | 本批 ID 正文落地 | 竞品拦截 |
+| widget Android tanpa langganan | Long-tail | P0 | 中 | 高 | App | 已覆盖(id) | 本批 ID 正文落地 | 无订阅卖点 |
+
 ---
 
 ## 2.7 Only Clock（翻页钟/全屏时钟/床头钟）关键词记录
@@ -794,6 +1001,33 @@
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 翻页时钟(com.charm)/极简时钟 拦截词待在 vs/pillar 强化 |
 | 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：Flip Clock (Soosu) / Fliqlo / Nightdream / ClockLab / Google Clock / Digital Clock Widget alternative、翻页时钟 替代、翻页时钟 哪个好、翻页桌面时钟 / 大字时钟 / 翻页时钟24H / 极简时钟 / 谷歌时钟 / Fliqlo 替代 | — | 本组 61 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 47 个「已覆盖」复核无误；tutorial EN/ZH 共 16 张重复 alt、pillar 共 10 张重复 alt 去重并关键词化；4 条超长 description 压缩（346→157、199→140、175→147、197→70）；12 篇 description ≤160 字符、last_modified_at 齐；构建+htmlproofer 通过 |
 
+### 2.7.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
+
+> **本地化选词（非英文直译）**：印尼用户把这类 App 叫作 `jam flip` / `jam layar penuh` / `jam meja samping tempat tidur`，并混用英语借词 `white noise` / `widget` / `Pomodoro`；沿用 §2.1.5 的「印尼语主体词 + 在架借词」双轨，不逐词硬译。
+> **数据来源标签**：`EN/ZH 词库本地化` / `本批 ID 正文落地`；`Play 当地检索(id_ID)` 与 `GSC实测` 待回填，本批不虚构检索证据。
+
+#### Head（大词，P2，Pillar 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| jam flip | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 品类根词 |
+| jam layar penuh | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 全屏时钟 |
+| jam meja samping tempat tidur | Head | P2 | 中 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 床头钟 |
+
+#### Middle（中词，P1，Best/App 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| jam flip Android | Middle | P1 | 高 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | |
+| jam melayang | Middle | P1 | 中 | 中 | App | 已覆盖(id) | 本批 ID 正文落地 | 悬浮时钟 |
+| widget jam | Middle | P1 | 高 | 中 | App | 已覆盖(id) | 本批 ID 正文落地 | 时钟小组件 |
+| jam flip bertema | Middle | P1 | 中 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 主题化 |
+
+#### Long-tail（精准长尾，P0）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| alternatif Retroflip | Long-tail | P0 | 高 | 高 | vs/Alt | 已覆盖(id) | 本批 ID 正文落地 | 竞品拦截（主对比） |
+| alternatif Retroflip terbaik | Long-tail | P0 | 中 | 高 | vs/Alt | 已覆盖(id) | 本批 ID 正文落地 | |
+| jam flip dengan white noise | Long-tail | P1 | 中 | 高 | App | 已覆盖(id) | 本批 ID 正文落地 | 白噪音 |
+
 ---
 
 ## 2.8 CPU Monitor（CPU/温度/电池监控）关键词记录
@@ -900,6 +1134,33 @@
 |---|---|---|---|---|
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 CPU-Z 中文/鲁大师 拦截词待在 vs/pillar 强化 |
 | 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：DevCheck / AIDA64 / Simple System Monitor / CPU Float / Cooler Master alternative、cpu-z 中文 哪个好、鲁大师 / 安兔兔 / CPU监控大师 / 强力监测 / 手机降温 / Device Info HW / AIDA64 中文 替代 | — | 本组 62 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 46 个「已覆盖」复核无误；tutorial EN/ZH 共 10 张重复 alt 去重；3 条超长 description 压缩（312→152、183→139、183→145）；补充只读/免 root 合规表述；12 篇 description ≤160 字符、last_modified_at 齐；构建+htmlproofer 通过 |
+
+### 2.8.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
+
+> **本地化选词（非英文直译）**：印尼用户把这类 App 叫作 `monitor suhu CPU` / `monitor suhu ponsel`，并混用英语借词 `widget` / `floating window`（印尼语 `jendela melayang`）/ `overheat`；沿用 §2.1.5 的「印尼语主体词 + 在架借词」双轨，不逐词硬译。
+> **数据来源标签**：`EN/ZH 词库本地化` / `本批 ID 正文落地`；`Play 当地检索(id_ID)` 与 `GSC实测` 待回填，本批不虚构检索证据。
+
+#### Head（大词，P2，Pillar 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| monitor suhu CPU | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 品类根词 |
+| monitor suhu ponsel | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 手机温度 |
+| cpu monitor android | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 品类根词 |
+
+#### Middle（中词，P1，Best/App 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi monitor suhu CPU terbaik | Middle | P1 | 高 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 年度词 |
+| alarm overheat CPU | Middle | P1 | 中 | 高 | App | 已覆盖(id) | 本批 ID 正文落地 | 过热报警 |
+| jendela melayang | Middle | P1 | 中 | 中 | App | 已覆盖(id) | 本批 ID 正文落地 | 浮窗 |
+| widget cpu ram baterai android | Middle | P1 | 高 | 中 | App | 已覆盖(id) | 本批 ID 正文落地 | 小组件 |
+
+#### Long-tail（精准长尾，P0）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| alternatif CPU-Z terbaik android | Long-tail | P0 | 高 | 高 | vs/Alt | 已覆盖(id) | 本批 ID 正文落地 | 竞品拦截（主对比） |
+| monitor CPU multicore android | Long-tail | P1 | 中 | 中 | App | 已覆盖(id) | 本批 ID 正文落地 | 多核 |
+| CPU Monitor vs CPU-Z | Long-tail | P1 | 中 | 高 | vs | 已覆盖(id) | 本批 ID 正文落地 | 对比 |
 
 ---
 
@@ -1013,6 +1274,33 @@
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 CCleaner/360清理大师/鲁大师/手机管家 拦截词待在 vs/pillar 强化 |
 | 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：AVG Cleaner / Files by Google / SD Maid / Clean Master / 3C Toolbox alternative、ccleaner 替代、ccleaner 安卓 替代、360清理大师 / 鲁大师 / 腾讯手机管家 / 百度手机卫士 / 猎豹清理大师 / 清浊 / SD Maid / 安卓清理君 替代 | — | 本组 67 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 50 个「已覆盖」复核无误；tutorial EN/ZH 共 22 张重复 alt 去重；4 条超长 description 压缩（319→146、199→149、190→145、166→76）；清理/加速类词按「品类对照」诚实落地，修正 vs 首段与 pillar/tutorial 只读定位的冲突；12 篇 description ≤160 字符、last_modified_at 齐；构建+htmlproofer 通过 |
 
+### 2.9.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
+
+> **本地化选词（非英文直译）**：印尼用户把这类 App 叫作 `system monitor android` / `info perangkat android`，并混用英语借词 `cleaner` / `booster` / `widget` / `floating window`（印尼语 `jendela melayang`）；沿用 §2.1.5 的「印尼语主体词 + 在架借词」双轨，不逐词硬译。
+> **数据来源标签**：`EN/ZH 词库本地化` / `本批 ID 正文落地`；`Play 当地检索(id_ID)` 与 `GSC实测` 待回填，本批不虚构检索证据。
+
+#### Head（大词，P2，Pillar 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| system monitor android | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 品类根词 |
+| info perangkat android | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 设备信息 |
+| aplikasi system monitor | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 品类根词 |
+
+#### Middle（中词，P1，Best/App 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi pembersih ponsel terbaik android | Middle | P1 | 高 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 清理 |
+| ram booster android terbaik | Middle | P1 | 中 | 高 | App | 已覆盖(id) | 本批 ID 正文落地 | 内存加速 |
+| android cleaner | Middle | P1 | 高 | 中 | App | 已覆盖(id) | 本批 ID 正文落地 | 清理 |
+| monitor baterai | Middle | P1 | 中 | 中 | App | 已覆盖(id) | 本批 ID 正文落地 | 电池健康 |
+
+#### Long-tail（精准长尾，P0）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| alternatif ccleaner terbaik android | Long-tail | P0 | 高 | 高 | vs/Alt | 已覆盖(id) | 本批 ID 正文落地 | 竞品拦截（主对比） |
+| system monitor dengan jendela melayang | Long-tail | P1 | 中 | 中 | App | 已覆盖(id) | 本批 ID 正文落地 | 浮窗 |
+| System Monitor vs CCleaner | Long-tail | P1 | 中 | 高 | vs | 已覆盖(id) | 本批 ID 正文落地 | 对比 |
+
 ---
 
 ## 2.10 Floating Assistant（悬浮助手/悬浮球/辅助触控/单手助手）关键词记录
@@ -1098,6 +1386,33 @@
 | 自定义 悬浮球 快捷方式 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | |
 | 边缘悬浮球 手势 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | |
 | 悬浮助手 返回 主页 最近键 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 动作集 |
+
+### 2.10.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
+
+> **本地化选词（非英文直译）**：印尼用户把这类 App 叫作 `bola melayang` / `tombol melayang` / `asisten melayang`，并混用英语借词 `floating window`（印尼语 `jendela melayang`）；沿用 §2.1.5 的「印尼语主体词 + 在架借词」双轨，不逐词硬译。
+> **数据来源标签**：`EN/ZH 词库本地化` / `本批 ID 正文落地`；`Play 当地检索(id_ID)` 与 `GSC实测` 待回填，本批不虚构检索证据。
+
+#### Head（大词，P2，Pillar 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| floating assistant | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 品类根词 |
+| bola melayang | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 浮动球 |
+| tombol melayang | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 浮动按钮 |
+| asisten melayang | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 悬浮助手 |
+
+#### Middle（中词，P1，Best/App 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| bola tepi | Middle | P1 | 中 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 边缘浮动球 |
+| satu tangan | Middle | P1 | 中 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 单手操作 |
+| pintasan kustom | Middle | P1 | 中 | 高 | App | 已覆盖(id) | 本批 ID 正文落地 | 自定义快捷 |
+
+#### Long-tail（精准长尾，P0）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi asisten melayang android terbaik | Long-tail | P0 | 高 | 高 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 年度词 |
+| aplikasi assistive touch android terbaik 2026 | Long-tail | P0 | 高 | 高 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 对比词 |
+| jendela melayang | Long-tail | P1 | 中 | 中 | App | 已覆盖(id) | 本批 ID 正文落地 | 浮动窗口 |
 
 ### 2.10.3 竞品拦截词（zh 重点）
 | 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
@@ -1204,6 +1519,33 @@
 | 准星大师 替代 安卓 | Long-tail | P0 | 高 | 高 | vs/Pillar | 待覆盖 | 竞品调研 | 中文市场拦截词；正文统一用 Crosshair Hero，未逐词织入 |
 | 自定义 准星叠层 安卓 免root | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 免 root |
 | 射击游戏 准星 安卓 免费 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 免费 |
+
+### 2.11.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
+
+> **本地化选词（非英文直译）**：印尼用户把这类 App 叫作 `bidik silang` / `overlay bidik silang`，并混用英语借词 `crosshair` / `crosshair aim`；沿用 §2.1.5 的「印尼语主体词 + 在架借词」双轨，不逐词硬译。
+> **数据来源标签**：`EN/ZH 词库本地化` / `本批 ID 正文落地`；`Play 当地检索(id_ID)` 与 `GSC实测` 待回填，本批不虚构检索证据。
+
+#### Head（大词，P2，Pillar 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| crosshair aim | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 品类根词 |
+| bidik silang | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 准星 |
+| overlay bidik silang | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 准星叠层 |
+| aplikasi bidik silang | Head | P2 | 高 | 中 | Pillar | 已覆盖(id) | 本批 ID 正文落地 | 准星 app |
+
+#### Middle（中词，P1，Best/App 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| custom crosshair android | Middle | P1 | 中 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 品类对照 |
+| bidik silang fps | Middle | P1 | 高 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | FPS 准星 |
+| overlay fps | Middle | P1 | 中 | 中 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | FPS 叠层 |
+| crosshair hero | Middle | P1 | 高 | 高 | vs/Pillar | 已覆盖(id) | 本批 ID 正文落地 | 竞品主对比 |
+| pengatur melayang | Middle | P1 | 中 | 高 | App | 已覆盖(id) | 本批 ID 正文落地 | 浮动调节器 |
+
+#### Long-tail（精准长尾，P0）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| bidik silang terbaik android | Long-tail | P0 | 高 | 高 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 年度词 |
 
 ### 2.11.3 竞品拦截词（zh 重点）
 | 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |

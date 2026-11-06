@@ -1,7 +1,10 @@
+{%- assign lang = site.lang | default: 'en' -%}
+{%- assign lp = '' -%}{%- if lang != 'en' -%}{%- assign lp = '/' | append: lang -%}{%- endif -%}
+{%- assign home = '/' | prepend: lp -%}
 {%- assign active = page.nav -%}
 {%- unless active -%}
   {%- assign u = page.url -%}
-  {%- if u == '/' or u == '/zh/' -%}
+  {%- if u == home -%}
     {%- assign active = 'home' -%}
   {%- elsif u contains '/meow' -%}
     {%- assign active = 'meow' -%}
@@ -13,7 +16,7 @@
 {%- endunless -%}
 <header class="site-header">
   <div class="container site-header__inner">
-    <a class="brand" href="{% if site.lang == 'zh' %}/zh/{% else %}/{% endif %}">
+    <a class="brand" href="{{ home | relative_url }}">
       <img class="brand__logo" src="{{ site.avatar | relative_url }}" alt="" />
       <span class="brand__text">
         <strong>{{ site.title }}</strong>
@@ -27,20 +30,20 @@
 
     <div class="header-tools">
       <div class="lang-switch" data-lang-switch>
-        {%- assign cur_lang = page.lang | default: site.lang -%}
+        {%- assign cur_lang = site.lang | default: 'en' -%}
         <button class="lang-switch__btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Language">
-          {%- for lang in site.data.languages -%}
-          {%- if lang.code == cur_lang -%}{{ lang.label }}{%- endif -%}
+          {%- for lng in site.data.languages -%}
+          {%- if lng.code == cur_lang -%}{{ lng.label }}{%- endif -%}
           {%- endfor -%}
         </button>
         <ul class="lang-switch__menu" role="listbox">
-          {%- for lang in site.data.languages -%}
-          <li role="option" data-lang="{{ lang.code }}"{% if lang.code == cur_lang %} aria-selected="true"{% endif %}>{{ lang.label }}</li>
+          {%- for lng in site.data.languages -%}
+          <li role="option" data-lang="{{ lng.code }}"{% if lng.code == cur_lang %} aria-selected="true"{% endif %}>{{ lng.label }}</li>
           {%- endfor -%}
         </ul>
       </div>
 
-      <a class="header-search" href="{% if site.lang == 'zh' %}/zh/search/{% else %}/search/{% endif %}" aria-label="Search" title="Search">
+      <a class="header-search" href="{{ '/search/' | prepend: lp | relative_url }}" aria-label="Search" title="Search">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <circle cx="11" cy="11" r="7" />
           <line x1="21" y1="21" x2="16.65" y2="16.65" />
@@ -68,7 +71,7 @@
     <nav class="site-nav" data-nav>
       {%- for item in site.data.nav %}
       <a class="site-nav__link{% if item.nav == active %} is-active{% endif %}"
-         href="{{ item.url[site.lang] | relative_url }}">{{ item.title[site.lang] }}</a>
+         href="{{ item.url[lang] | relative_url }}">{{ item.title[lang] }}</a>
       {%- endfor %}
     </nav>
 

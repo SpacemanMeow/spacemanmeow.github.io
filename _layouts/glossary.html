@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{%- assign lang = site.lang | default: 'en' -%}
+{%- assign lp = '' -%}{%- if lang != 'en' -%}{%- assign lp = '/' | append: lang -%}{%- endif -%}
 <div class="page-head">
   <div class="container">
     <h1 class="page-head__title">{{ page.title }}</h1>
@@ -12,7 +14,7 @@ layout: default
   <div class="container">
     <div class="page-content">
       {{ content }}
-      <p class="glossary__back"><a href="{% if site.lang == 'zh' %}/zh/glossary/{% else %}/glossary/{% endif %}">{% if site.lang == 'zh' %}← 返回词汇表{% else %}← Back to Glossary{% endif %}</a></p>
+      <p class="glossary__back"><a href="{{ '/glossary/' | prepend: lp | relative_url }}">{{ site.data.ui[lang].back_to_glossary }}</a></p>
     </div>
   </div>
 </div>

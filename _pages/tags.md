@@ -23,7 +23,7 @@ lang: en
       {% for post in tag_posts %}
       <li class="tag-index__item">
         <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        <span class="tag-index__meta">{% if site.lang == 'zh' %}{{ post.date | date: '%Y年%-m月%-d日' }}{% else %}{{ post.date | date: '%b %-d, %Y' }}{% endif %}</span>
+        <span class="tag-index__meta">{{ post.date | date: site.data.ui[site.lang].date_format }}</span>
       </li>
       {% endfor %}
     </ul>

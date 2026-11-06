@@ -13,11 +13,9 @@ image: /assets/images/favicons/avatar.png
   <input type="search" id="search-input" class="search__input" placeholder="输入关键词搜索…" autocomplete="off" />
   <p id="search-empty" class="search__hint">在上方输入关键词，结果会随输入实时更新。</p>
   <nav id="search-apps" class="search-apps" aria-label="我们的应用">
-    {%- if site.lang == 'zh' -%}
-      {%- assign apps = site.apps_zh | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}
-    {%- else -%}
-      {%- assign apps = site.apps | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}
-    {%- endif -%}
+    {%- assign lang = site.lang | default: 'en' -%}
+    {%- assign coll_apps = 'apps' -%}{%- if lang != 'en' -%}{%- assign coll_apps = 'apps_' | append: lang -%}{%- endif -%}
+    {%- assign apps = site[coll_apps] | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}
     {%- for app in apps -%}
     <a class="search-apps__item" href="{{ app.url | relative_url }}" title="{{ app.title }}">
       <img class="search-apps__icon" src="{{ app.icon | relative_url }}" alt="{{ app.title }}" width="64" height="64" loading="lazy" />
@@ -35,6 +33,7 @@ image: /assets/images/favicons/avatar.png
   var empty = document.getElementById("search-empty");
   var apps = document.getElementById("search-apps");
   var lang = document.documentElement.lang || "zh";
+  var lp = lang === "en" ? "" : "/" + lang;
   var pagefind;
 
   function loadPF(cb) {
@@ -62,7 +61,7 @@ image: /assets/images/favicons/avatar.png
         Promise.all(s.results.slice(0, 20).map(function (r) { return r.data(); }))
           .then(function (data) {
             results.innerHTML = data
-              .filter(function (d) { return d.url.indexOf("/search") !== 0; })
+              .filter(function (d) { return d.url.indexOf(lp + "/search") !== 0; })
               .map(function (d) {
                 var title = (d.meta && d.meta.title) || d.url;
                 return '<a class="search__item" href="' + d.url + '">' +
