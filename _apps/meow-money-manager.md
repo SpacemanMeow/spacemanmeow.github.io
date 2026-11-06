@@ -4,8 +4,8 @@
 #  修改 front matter 里的字段即可，正文用 markdown 写应用介绍
 # ===================================================================
 title: Meow Money Manager # 应用名称（列表页 & 详情页标题）
-tagline: Cat-Themed Expense Tracking & Budget Management App # 一句话简介
-description: "Meow Money Manager is a cat-themed expense tracker and budget app for Android and iOS, with fingerprint lock, multi-currency ledgers and CSV export."
+tagline: A cat-themed expense tracker and budget app with no account required, local storage and 400+ cute icons # 一句话简介
+description: "Meow Money Manager: cat-themed expense tracker and budget app with no account, 400+ icons, fingerprint lock, category budgets, CSV export and cloud backup."
 icon: /assets/images/apps/meow-money-manager/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/meow-money-manager/icon.webp
 lang: en
@@ -28,78 +28,77 @@ screenshots:
 
 # 详情页底部 FAQ（会自动生成 FAQPage 结构化数据，并渲染可见 FAQ 区块）
 faq:
-  - question: Is Meow Money Manager a free expense tracker app?
+  - question: Is Meow Money Manager a budget app with no account required?
     answer: >-
-      Meow Money Manager is free to download, with core expense tracking and budgeting available at no cost. Some advanced features, such as multiple ledgers and CSV export, require a purchase to unlock.
-  - question: Does Meow Money need an account to track expenses?
+      Yes. Meow Money Manager opens without an account, keeps records on your device and does not connect to a bank account. You can set a fingerprint or passcode lock, and backup files stay in your own Google Drive or WebDAV space.
+  - question: How does a private expense tracker with fingerprint lock protect my data?
     answer: >-
-      No. You can use it as a private expense tracker with no account required. Your data stays on your device, protected by fingerprint lock, and can be backed up to iCloud or WebDav.
-  - question: Can Meow Money handle multiple currencies and budgets?
+      Meow Money Manager has no account system and stores no personal information. Turn on the fingerprint or passcode lock and the app asks for verification each time it opens, so your financial records stay out of sight.
+  - question: How do I export an expense report to CSV?
     answer: >-
-      Yes. The budget app supports 50+ currency symbols and multiple ledgers. You can set daily, monthly or yearly category budgets and track spending with charts and recurring records.
-  - question: How do I export my expense report to CSV?
+      Meow Money Manager is an expense tracker with CSV export: choose all records or a date range on the export screen, then open the CSV file in a spreadsheet application to review or edit it. Reimbursed and outstanding amounts can be checked before exporting.
+  - question: Can a reimbursement tracker app follow reimbursement status?
     answer: >-
-      Open the app, choose export, and save your records as a CSV file for a selected date range, then view or edit it in Excel.
-  - question: Is Meow Money free to use?
+      Yes. Tick reimbursement when adding a business trip or an advance payment, and Meow Money Manager follows that expense. Check and edit status and amount on the reimbursement screen, with settled and outstanding items shown apart.
+  - question: Is Meow Money Manager free to use?
     answer: >-
-      Meow Money is free to download and track expenses; advanced features like multi-currency ledger and CSV export can be unlocked via one-time or subscription upgrades.
-  - question: Does Meow Money require an account?
+      Meow Money Manager is free to download, and core expense tracking and budgeting are free to use. Some advanced features, such as multiple ledgers and CSV export, need to be unlocked.
+  - question: Which backup options does Meow Money Manager support?
     answer: >-
-      No. Meow Money works without an account, and your data stays on your device — ideal for private expense tracking.
+      Google Drive and WebDAV backup are supported. With automatic backup on, a file is created whenever you add a record; manual backup is available too. Files stay in your own cloud space, and the app stores neither bookkeeping records nor personal data.
+  - question: Can I set category budgets and use multiple currencies?
+    answer: >-
+      Yes. Set a total budget per day, month or year and give any income or expense category its own limit, with days left and the amount available per day calculated automatically. It is a multi-currency expense tracker app with 50+ currency symbols that can be shown or hidden, and each ledger keeps its own statistics.
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
-Meow Money Manager bookkeeping is a financial app for your personal finances management. This finances app will help you take your budget, money and finances under control. The expense and income tracker make your budget wallet and every credit card very clearly. You won’t need to dig through your wallet or check your bank account to be aware of your financial circumstances. With this budget expense and income tracker finances app you can easily track your money.
+Meow Money Manager is a cat-themed expense tracker for recording everyday income and expenses and keeping a personal budget in view. As an [expense tracker](/glossary/what-is-an-expense-tracker/), it opens without an account, keeps records on the device and does not connect to a bank account, so every entry is one you make yourself. It suits anyone looking for a private, offline or cute budget app on Android and iOS.
 
-### Features of Meow Money Manager - complete guide
+### Meow Money Manager Features: Expense Tracking, Budgets, Reimbursements and Assets
 
-**Cute record category icons**
+**400+ cute category icons**
 
-400+ cute icons for you to custom your own money manager. Meow Money manager has various record type, you can choose the icon for your consumption habit.
+Over 400 cartoon-style icons match your own spending habits, with categories for food, groceries, music, pets, transport, shopping, healthcare, family, education and income. Pick the icons you like and shape a money manager that feels like your own.
 
-**Budget tracker & category budget**
+**No account, private by design**
 
-The budget for daily monthly or annual period. You can also setup category budget for any expense or income category, the total budget and all the category budgets will be tracked clearly at the same time.
+Meow Money Manager has no account system and stores no personal information. A fingerprint or passcode lock checks your fingerprint before the app opens, so financial records stay out of sight.
 
-**Instant and powerful chart statistics**
+**Reimbursement tracking**
 
-Reports of financial recording activities daily, monthly, and yearly. Make it easier for you to track your finances.
+Tick reimbursement on a business trip or an advance payment and Meow Money Manager follows that expense. Check and edit status and amount on one screen, with settled and outstanding items apart, so no business expense gets lost.
 
-**Reimbursement management**
+**Assets, liabilities and net worth**
 
-When your expenses need to be reimbursed, like a business trip, you just need check the reimburse button on the add record page, then the Meow Manager will track the reimbursement automatically. You can check and modify the reimbursement status at any time.
+Cash, stocks, bank cards, credit cards and bonuses can be separate assets. Pie charts and curves show assets, liabilities and net worth; each asset has its own trend and income/expense history, and transfers between assets are supported.
 
-**Support multiple ledgers**
+**Multiple books**
 
-You can add different ledger for tracking different expense or income, and you check the records for every ledger individually. Select the ledger or all the ledger at same time.
+Keep household costs, a side business, education or a wedding in separate books. Each has its own records and statistics, and all books can be viewed together in one report.
 
-**Assets management**
+**Budgets and category limits**
 
-You can add multiple assets for different assets, like cash, funding, stock, bank card and so on. Meow manager will track your assets, liabilities and net assets.
+Set a total budget per day, month or year and give any income or expense category its own limit. Days left in the period and the amount available per day are calculated automatically.
 
-**Recurring record**
+**Charts, reports and search**
 
-Meow Manager support recurring record, you can setup recurring record category, cycle time include daily weekly monthly and annual type. Then the Meow Manager will recurring record automatically at the time you setup.
+Pie charts break income and spending down by category, bar charts compare days or months, and views switch between day, month and year. Detailed income, expense and transfer records are listed, and any entry can be found by note or amount.
 
-**Dark Mode**
+**Recurring entries**
 
-You can choose the dark mode theme, light mode theme or automatically follow system them as you like. Different theme for your favorite.
+Schedule records by day, week, month or year, with several dates at once, and Meow Money Manager adds them automatically. Card payments, loan instalments and monthly salary need no retyping.
 
-**Currency Symbol**
+**CSV report export**
 
-Meow Money manager support 50+ different currency symbols, including: Dollar, RMB, Pound, Euro, Franc, Rouble, Rupee, Lira, etc.
+Export all records at once or a chosen date range to CSV, then open the file in a spreadsheet to review, edit or archive your accounts.
 
-**Fingerprint app lock**
+**50+ currencies and themes**
 
-You can setup fingerprint app lock to protect your privacy, it need to enter fingerprint when open app.
+Over 50 currency symbols are built in, including dollar, yuan, pound, euro, franc, ruble, rupee and lira, and can be shown or hidden. Light mode, dark mode and automatic system matching are available.
 
-**Export reports**
+**Backup and restore**
 
-Meow Manager can export the record report to file in the form of csv. You can export all the records one time or export the records within the time range of your select, then you can check and eidt the file with excel software.
-
-**Backup & Restore**
-
-Meow Money manager support iCloud backup and WebDav backup, the backup files will be auto saved when you add the records to prevent data loss. You can also backup files manually.
+Google Drive and WebDAV backup are supported. With automatic backup on, a file is created whenever you add a record; manual backup is available too. Files stay in your own cloud space, and Meow Money Manager stores neither bookkeeping records nor personal data.
 
 ## Related terms
 

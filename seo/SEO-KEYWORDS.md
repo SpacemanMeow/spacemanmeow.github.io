@@ -184,6 +184,7 @@
 | 月份 | 数据来源 | 新增/升权关键词 | 降权/删除关键词 | 备注 |
 |---|---|---|---|---|
 | 2026-11 | 站内已覆盖 + 竞品调研（初版） | （建库） | — | 首版基于站内内容+竞品调研；绝对量待 Play Console/GSC 回填 |
+| 2026-11 | Google Play 当地检索（zh_CN/SG、en_US/US） | —（核对现有词，未新增词条） | — | 以 Play 在架标题校验 App 详情页用词：zh 记账/记账本/预算，en expense tracker/budget planner；App 页 tagline、description、正文与 FAQ 按已覆盖词重新落地，D09 MISS = 0 |
 | _待填_ | Google Play Console | | | |
 | _待填_ | GSC 实际点击词 | | | |
 
