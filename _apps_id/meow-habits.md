@@ -1,6 +1,6 @@
 ---
 title: Meow Habits
-tagline: Pelacak kebiasaan dengan 500+ ikon lucu, streak, grafik progres, dan perlindungan privat offline
+tagline: Angin segar untuk membangun kebiasaan, tinggalkan semangat yang cepat pudar
 description: "Meow Habits: pelacak kebiasaan dengan 500+ ikon, streak, grafik, kunci sidik jari, ekspor CSV, serta backup Google Drive dan WebDAV."
 icon: /assets/images/apps/meow-habits/icon.webp
 image: /assets/images/apps/meow-habits/icon.webp

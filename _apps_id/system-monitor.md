@@ -1,6 +1,6 @@
 ---
 title: System Monitor
-tagline: Alat informasi perangkat keras Android untuk suhu dan frekuensi CPU, penyimpanan, memori, serta kesehatan baterai
+tagline: Deteksi info CPU, penyimpanan, memori, dan baterai Android secara real-time.
 description: "System Monitor: lihat suhu dan frekuensi CPU, penyimpanan, RAM, serta kesehatan baterai Android. Alat hanya-baca dengan alarm panas berlebih."
 icon: /assets/images/apps/system-monitor/icon.webp
 image: /assets/images/apps/system-monitor/icon.webp

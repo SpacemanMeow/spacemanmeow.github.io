@@ -3,8 +3,9 @@
 > **用途**：本站 `spacemanmeow.com` 新增任何语言、任何 App 的多语言内容时，**直接按本文档执行**，无需再向需求方确认实现细节。
 > **适用**：Jekyll 4.4 多语言合并构建；默认语言 `en`（根路径），其他语言走 `/<lang>/` 子路径。
 > **权威关系**：技术红线以 `SITE-AUDIT.md` 为准；关键词以 `SEO-KEYWORDS.md` 为准；SEO 方法论以 `SEO-PLAYBOOK.md` 为准；进度与台账以 `SEO-PROGRESS.md` / 本文档配套 `SEO-I18N-PROGRESS.md` 为准。本文档负责把四者串成**可重复执行的流程**。
-> **最后更新**：2026-11-06
-> **首个实例**：`id`（Bahasa Indonesia / 印度尼西亚；2026-11-06 完成 Phase 0–2，状态见 `SEO-I18N-PROGRESS.md`），Meow Money Manager 优先。
+> **最后更新**：2026-11-07
+> **首个实例**：`id`（Bahasa Indonesia / 印度尼西亚；2026-11-06 完成 Phase 0–3，66/66 posts 可发布，状态见 `SEO-I18N-PROGRESS.md`），Meow Money Manager 优先。
+> **第二个实例**：`th`（泰语 / Thai；2026-11-07 完成 Phase 4 全量交付，posts/apps/gloss 66/66·11/11·22/22、**结构页 8/8 已补齐**，htmlproofer 0 failure），从 `id` 骨架逐篇翻译，完整教研见 `SITE-AUDIT.md` §8。
 
 ---
 
@@ -46,6 +47,7 @@
 9. **功能事实口径统一**：备份 = Google Drive + WebDAV（Google Play 描述不写 iCloud）；图标 = 400+；货币 = 50+；FAQ 用 `{:.faq-q}`，问句与答案之间留空行。
 10. **文章插图必须与 EN 同源**：非 EN 文章的 `![...](/assets/images/...)` 图片路径集合（含重复次数）必须与 EN 同名文章完全一致，`alt` 按本语言关键词优化而非照抄 EN。详见 §3.5（D17 硬门禁）。
 11. **所有语言版本的文章结构、文章目录、图片插入都以 EN 为准**：H2/H3 的层级、数量、顺序、含义逐条对应；结构块（表格 / 列表 / 编号步骤 / FAQ / 分隔线）与文章目录（TOC 条目数、所在行序）逐项对应；正文论点、对比对象、功能点、表格、FAQ 条目、数据大致一致，差异只出现在关键词、本地场景举例与表达措辞。因此图片落在**与 EN 完全相同的位置**，不要求「紧跟标题」。全语言由 `SITE-AUDIT.md` §5 **D18** 自动硬校验（D17 另校验图片集合、行序与 `alt`）。详见 §3.2 / §3.3 / §3.5。
+12. **App 详情页 `tagline` 四语语义与信息量对等**：`tagline` 是 EN 短句的**忠实本地化版本**，只允许换用词、语序与本地惯用表达，**不得把正文 / `description` 里的功能点、规格数字、卖点清单提炼进 tagline**，也不得删减 EN 原有的核心信息。**只设上限、不设下限**（中文信息密度高，忠实短句天然只有 EN 的 0.2–0.7 倍字符数，属正常）。自动门禁（`SITE-AUDIT.md` §5 **D06**，逐 App 点名异常文件）：① 字符数 ≤ EN × `1.5`；② tagline 中的规格数字（如 `400+` / `500+` / `80`）集合必须是 EN tagline 数字集合的子集；③ 语义要点一一对应由人工抽验兜底。超出即视为「另写一句 SEO 长句」，破坏 hreflang 对应页内容对等与列表页卡片排版，属 P0。2026-11-07 已按此规则把 `_apps_id` / `_apps_th` 的 11 个 tagline 收敛回 EN 短句。
 
 ---
 
@@ -87,6 +89,7 @@ bash scripts/new-language.sh <code> "<Label>" <SHORT>
 | 目录 | `_pages/<lang>/`、`_posts/<lang>/`、`_apps_<lang>/`、`_glossary_<lang>/`、`<lang>/blog/index.html` |
 | `_config.yml` | 追加新语言源目录排除 |
 | 其它 `_config_*.yml` | 追加新语言源目录排除（脚手架会自动做） |
+| **配置内站点级可见文案** | `_config_<lang>.yml` 的 `social.links[].name`（页脚「隐私 / 条款 / 邮箱」）、`developer.title` / `developer.description` 等**必须逐项译为目标语言**。从其它语言配置复制时禁止残留源语言文案——页脚直接可见，属 P0 外观缺陷；非 zh 语言配置中出现 CJK 即视为 FAIL |
 
 > **`feed.path` 陷阱**：配置里写成 `zh/feed.xml`（无前导 `/`），用 `s#/zh/#/id/#g` 的 sed 替换不到它，会生成 `/id/zh/feed.xml`。必须单独替换。
 
@@ -188,7 +191,7 @@ canonical 由各 `_config_<lang>.yml` 的 `permalink` 自带 `/<lang>/` 前缀�
 | 页面类型 | 策略 | 理由 |
 |---|---|---|
 | **结构页**（about / privacy / terms / search / tags / meow / index / glossary 定义 / 404） | **忠实本地化**：语义准确、术语统一、UI 文案按 `_data/ui.yml`；不强行塞关键词 | 法律/术语文本要求准确，堆词反而伤 E-E-A-T |
-| **App 详情页** | **EN 骨架 + 本地词**：字段顺序、截图、功能点、FAQ 数量与条目、Related terms 与 EN 一致；`tagline` / `description` / 首段 / FAQ 用词围绕当地 P0 词优化 | 承接转化，是长尾词主吃页；功能事实口径须三语一致 |
+| **App 详情页** | **EN 骨架 + 本地词**：字段顺序、截图、功能点、FAQ 数量与条目、Related terms 与 EN 一致；`description` / 首段 / FAQ 用词围绕当地 P0 词优化。**但 `tagline` 例外**：必须是 EN 短句的忠实本地化，禁止堆砌功能点 / 规格数字（见 §1 红线 12） | 承接转化，是长尾词主吃页；功能事实口径须三语一致；tagline 出现在列表卡片与详情页首屏，信息量不对等会破坏 hreflang 对等与卡片排版 |
 | **Posts（Pillar / Best / vs / Alternatives / Tutorial）** | **EN 骨架的本地化版本**：H2/H3、段落顺序、对比对象、表格、FAQ、图片位置与 EN 逐项对应；仅把关键词、标题用词、场景举例与表达换成当地说法 | hreflang 对应页须内容对等；结构分化会让对应页内容不对等、图片错位、教研无法比对 |
 
 ### 3.4 front matter 模板（非 EN）
@@ -267,7 +270,7 @@ image: /assets/images/apps/<app>/icon.webp
 - **Phase 0**：流程/进度文档 + 词库 + 基础设施（配置、数据、脚本、模板通用化、教研文档）。**一次做完、全语言复用**。
 - **Phase 1**：结构页 + 全部 App 页（首页完整性所必需）+ 首个 App 的 posts。
 - **Phase N**：按 App 逐个补齐 posts（`SEO-KEYWORDS.md` §2.2–§2.11 每节对应一个 App 集群，约 6 篇/组）。
-- **Phase N+1**：换语言时**只做 Phase 0 的配置/数据部分 + 全部内容批次**，模板不再改。
+- **Phase N+1（换语言）**：只做 Phase 0 的配置/数据部分 + **全部内容批次**，模板不再改。但**结构页（8 页：index/meow/about/privacy/terms/search/tags/glossary）+ `<lang>/blog/index.html` + 404 必须作为与内容同批的强制交付**：从首个非 EN 语言（`id`）的对应骨架逐篇翻译，**不得标记为「待补」后置**。`SEO-I18N-PROGRESS.md` 中该语言 `pages` 列未达 `8/8` 前，**整行不得标 ✅**（见 §1 P0 #7、§4）。验收以 §5 脚本 D03「结构页 8/8」硬门禁全绿为通过判据——任何 `1/8`、`7/8` 均为阻塞 FAIL，不允许作为「已知项」挂起。
 
 ### 5.3 每批固定动作（开工 / 收工）
 
@@ -336,6 +339,7 @@ bundle exec htmlproofer _site --disable-external  # 或项目既有参数
 | Pagefind 词干 | 部分语言检索召回偏低 | 实测后用 extended 版二进制；不臆断配置 |
 | 词库登记早于内容 | D09 MISS 上升 | 词库与内容同批完成、同批校验 |
 | 模板用 `page.lang` 选集合 | 非 EN 构建会渲染到 EN 根级 `_pages/index.md`（其 `page.lang: en`），`site['apps']` 返回 nil，`sort` 报 `Cannot sort a null object` | 集合/前缀/UI 一律用**构建级** `site.lang`；`page.lang` 只用于内容语言标记 |
+| 从 `zh` 配置复制新语言（如 `th`） | 页脚 `social.links` 第三项残留中文「邮箱」，前两项已本地化却漏一项 | 按 §2.3 逐项本地化 `social.links` / `developer`；收工前扫描非 zh 的 `_config_<lang>.yml` 与 `_pages/<lang>/` 的 CJK 残留（注释除外），并在产物页脚抽验三项文字 |
 
 ---
 

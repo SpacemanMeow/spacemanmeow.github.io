@@ -1,6 +1,6 @@
 ---
 title: Crosshair Aim for FPS Games
-tagline: Overlay crosshair kustom untuk game FPS Android dengan lebih dari 80 gaya tanda bidik
+tagline: Membantu Anda mengganti crosshair di game FPS
 description: "Crosshair Aim: overlay crosshair FPS Android dengan 80+ desain, ukuran dan warna kustom, untuk senjata tanpa tanda bidik bawaan."
 icon: /assets/images/apps/cross-hair/icon.webp
 image: /assets/images/apps/cross-hair/icon.webp

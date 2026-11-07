@@ -15,3 +15,7 @@
 - code: id
   label: Bahasa Indonesia
   short: ID
+
+- code: th
+  label: ไทย
+  short: TH

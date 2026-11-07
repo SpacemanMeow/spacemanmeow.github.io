@@ -1,6 +1,6 @@
 ---
 title: CPU Monitor - temperature
-tagline: Pantau suhu dan frekuensi CPU, RAM, serta baterai secara langsung dengan jendela mengambang dan widget
+tagline: Pantau suhu dan frekuensi CPU secara real time
 description: "CPU Monitor: pantau suhu dan frekuensi CPU multi-inti, RAM, dan baterai di Android dengan jendela mengambang, widget, dan alarm panas."
 icon: /assets/images/apps/cpu-monitor/icon.webp
 image: /assets/images/apps/cpu-monitor/icon.webp

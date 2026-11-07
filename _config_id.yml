@@ -127,6 +127,16 @@ destination: _site/id
 #   - EN 的 _pages/*.md 带显式 permalink（/about/ 等），在 ID 构建中映射到临时目录根，
 #     不会被 rsync 进 _site/id，故无需排除。
 exclude:
+  - _apps_th
+  - _apps_th/**
+  - _glossary_th
+  - _glossary_th/**
+  - _pages/th
+  - _pages/th/**
+  - _posts/th
+  - _posts/th/**
+  - th/
+  - th/**
   - _apps_zh
   - _apps_zh/**
   - _glossary_zh

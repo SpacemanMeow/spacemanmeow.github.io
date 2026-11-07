@@ -6,38 +6,46 @@
     en: Home
     zh: 首页
     id: Beranda
+    th: หน้าแรก
   url:
     en: /
     zh: /zh/
     id: /id/
+    th: /th/
   nav: home
 
 - title:
     en: Meow
     zh: 喵窝
     id: Meow
+    th: Meow
   url:
     en: /meow/
     zh: /zh/meow/
     id: /id/meow/
+    th: /th/meow/
   nav: meow
 
 - title:
     en: Blog
     zh: 博客
     id: Blog
+    th: บล็อก
   url:
     en: /blog/
     zh: /zh/blog/
     id: /id/blog/
+    th: /th/blog/
   nav: blog
 
 - title:
     en: About
     zh: 关于
     id: Tentang
+    th: เกี่ยวกับ
   url:
     en: /about/
     zh: /zh/about/
     id: /id/about/
+    th: /th/about/
   nav: about

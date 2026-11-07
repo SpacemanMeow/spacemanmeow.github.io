@@ -1,6 +1,6 @@
 ---
 title: Only Clock
-tagline: Jam flip layar penuh dengan animasi lembaran, widget jam, white noise, dan pengatur waktu fokus
+tagline: Jam layar penuh yang indah dengan animasi flip untuk menampilkan waktu
 description: "Only Clock: jam flip layar penuh Android dan iOS dengan widget jam, white noise, mode fokus, format 12/24 jam, dan tema yang dapat diganti."
 icon: /assets/images/apps/only-clock/icon.webp
 image: /assets/images/apps/only-clock/icon.webp

@@ -1,6 +1,6 @@
 ---
 title: Meow Todo List and Task
-tagline: Daftar tugas dan perencana jadwal dengan tampilan kalender, subtugas, pengingat, serta sinkronisasi Google Drive atau WebDAV
+tagline: Meow Todo perencana jadwal dan pengelola daftar tugas
 description: "Meow Todo List: daftar tugas dengan kalender, subtugas, pengingat, kunci sidik jari, sinkronisasi Google Drive atau WebDAV, dan ekspor CSV."
 icon: /assets/images/apps/meow-todo-list/icon.webp
 image: /assets/images/apps/meow-todo-list/icon.webp

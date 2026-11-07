@@ -1,6 +1,6 @@
 ---
 title: One Widget
-tagline: 500+ widget layar utama Android bergaya Glass iOS, Material You, Galaxy One UI, dan Nothing
+tagline: 500+ widget bergaya One UI, Nothing, Glass, dan Material You dalam satu aplikasi.
 description: "One Widget: 500+ widget homescreen Android dengan empat gaya, pintasan aplikasi, sakelar sistem, jam, dan info perangkat yang dapat disesuaikan."
 icon: /assets/images/apps/one-widget/icon.webp
 image: /assets/images/apps/one-widget/icon.webp

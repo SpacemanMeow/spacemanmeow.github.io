@@ -1,6 +1,6 @@
 ---
 title: Floating Assistant
-tagline: Bola mengambang Assistive Touch, jam dan hitung mundur melayang, serta pemantau sistem di atas aplikasi lain
+tagline: Termasuk assistive touch, jam mengambang, dan pemantau mengambang
 description: "Floating Assistant: tombol mengambang Android dengan Assistive Touch, jam melayang, dan pemantau suhu CPU, RAM, serta baterai secara langsung."
 icon: /assets/images/apps/floating-assistant/icon.webp
 image: /assets/images/apps/floating-assistant/icon.webp

@@ -1,6 +1,6 @@
 ---
 title: Meow FM - White Noise
-tagline: White noise untuk tidur, relaksasi, dan fokus, lengkap dengan jam meja dan pengatur waktu otomatis
+tagline: White noise untuk tidur, santai, dan fokus saat bekerja atau belajar.
 description: "Meow FM: aplikasi white noise untuk tidur dan fokus dengan suara hujan, hutan, dan perapian, jam meja, timer, serta tema gelap dan terang."
 icon: /assets/images/apps/meow-fm/icon.webp
 image: /assets/images/apps/meow-fm/icon.webp

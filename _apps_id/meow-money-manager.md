@@ -1,6 +1,6 @@
 ---
 title: Meow Money Manager
-tagline: Aplikasi catatan keuangan bertema kucing tanpa akun, data tersimpan lokal di perangkat, dengan 400+ ikon lucu
+tagline: Aplikasi pencatat pengeluaran dan anggaran bertema kucing tanpa akun, penyimpanan lokal, dan 400+ ikon lucu
 description: "Meow Money Manager: aplikasi catatan keuangan offline tanpa akun, 400+ ikon, sidik jari, budget per kategori, ekspor CSV, backup Google Drive dan WebDAV."
 icon: /assets/images/apps/meow-money-manager/icon.webp
 image: /assets/images/apps/meow-money-manager/icon.webp

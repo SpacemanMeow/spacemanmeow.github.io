@@ -1,6 +1,6 @@
 ---
 title: Meow Mood Diary
-tagline: Jurnal suasana hati privat dengan sekali ketuk, kalender, grafik, dan kunci sidik jari — dapat dipakai sepenuhnya offline
+tagline: Meow Mood Diary - tempat aman untuk perasaan Anda
 description: "Meow Mood Diary: jurnal suasana hati privat dengan pencatatan sekali ketuk, riwayat dan grafik, pengingat, kunci sidik jari, dan backup Google Drive."
 icon: /assets/images/apps/meow-mood-diary/icon.webp
 image: /assets/images/apps/meow-mood-diary/icon.webp
