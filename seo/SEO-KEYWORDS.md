@@ -1,8 +1,8 @@
 # SpacemanMeow SEO 关键词库（Keyword Bank）
 
 > **用途**：所有 App 跨语言关键词的**权威库**。按「语言 × 词层 × 优先级」分组排序，作为**新文章撰写、现有文章更新**的文案优化依据；并随 Google Play Console / Search Console 真实数据持续维护。
-> **最后更新**：2026-11-06
-> **语言范围**：英文站（默认 `en`）+ `/zh/` 中文站（已上线）+ `/id/` 印尼语站（扩展中，见 `SEO-I18N-PROGRESS.md`）+ 后续 `th` / `ms` / `tl` / `hi` 等。关键词须**本地化**而非直译（见 `SEO-PLAYBOOK.md` §6.1 与 `SEO-I18N-PLAYBOOK.md` §3）。
+> **最后更新**：2026-11-07
+> **语言范围**：英文站（默认 `en`）+ `/zh/` 中文站（已上线）+ `/id/` 印尼语站（已上线）+ `/th/` 泰语站（已上线）+ `/ms/` 马来语站（Phase 5 全量完成：66 posts / 11 App / 22 术语 / 8 结构页，见 `SEO-I18N-PROGRESS.md`）+ 后续 `tl` / `hi` 等。关键词须**本地化**而非直译（见 `SEO-PLAYBOOK.md` §6.1 与 `SEO-I18N-PLAYBOOK.md` §3）。
 > **多语言词库规则**：每新增一门语言，先按 `SEO-I18N-PLAYBOOK.md` §3 做当地检索，再在对应 App 小节追加 `§2.N.x <语言>` 词表（初始状态「待覆盖」，内容落地后逐条改「已覆盖」并跑 D09）；**禁止**由 en/zh 词等价翻译生成。
 > **关联文档**：本库是 `SEO-PLAYBOOK.md` §2.1.1 关键词库的**详细展开与持续维护版**；内容集群模型见 `SEO-PLAYBOOK.md` §2.2，度量回填见 `SEO-METRICS.md`。
 
@@ -188,6 +188,7 @@
 | 2026-11 | Google Play 当地检索（zh_CN/SG、en_US/US） | —（核对现有词，未新增词条） | — | 以 Play 在架标题校验 App 详情页用词：zh 记账/记账本/预算，en expense tracker/budget planner；App 页 tagline、description、正文与 FAQ 按已覆盖词重新落地，D09 MISS = 0 |
 | 2026-11-06 | Google Play `hl=id&gl=ID` 在架标题 + 印尼本地网页/评测检索 | **建立 `id` 印尼语词表（§2.1.5）**：`aplikasi catatan keuangan` / `catatan keuangan harian` / `pencatat keuangan` / `atur anggaran bulanan` / `budget harian` / `catat pengeluaran & pemasukan` / `offline tanpa internet` / `tanpa daftar akun` 等 | — | **非直译**：印尼用户高频使用 `catatan keuangan`（财务记录）而非英文 `expense tracker` 的直译 `pelacak pengeluaran`；同时当地在架标题混用英语借词 `budget` / `expense tracker` / `money manager`，故按「印尼语主体 + 借词并存」收录。词表初始全部标「待覆盖」，待 `/id/` 内容落地后逐条改「已覆盖」并跑 D09；进度见 `SEO-I18N-PROGRESS.md` |
 | 2026-11-06 | 站内 `/id/` 内容落地（47 个印尼语内容源）+ D09 归一化逐词核对 | §2.1.5 共 52 词：**51 词**由「待覆盖」改为「已覆盖(id)」；1 词 `widget catatan keuangan` 因产品功能口径未确认而合规挂起 | — | 逐词与 ID 正文归一化核对后才标「已覆盖」，D09 11 组 MISS=0；Head/Middle/Long-tail/竞品拦截词均按本地检索证据落地，非 en/zh 直译 |
+| 2026-11-07 | Google Play `hl=ms&gl=MY` 在架说明 + 大马本地评测（StashAway.my / RinggitWise / CelcomDigi / Mr Money TV / FMT） + DOSM 家庭支出统计 | **建立 `ms` 马来语词表（§2.1.6）**：29 词（Head 6 / Middle 8 / Long-tail 8 / 品牌与竞品 7），含 `aplikasi catatan kewangan` / `aplikasi bajet` / `aplikasi kewangan tanpa akaun` / `cap jari` / `sandaran Google Drive dan WebDAV` | 不收录银行自动同步、LHDN 自动报税、resit OCR（产品不具备，合规挂起） | 从 `id` 骨架逐行本地化落地 66 posts + 11 App + 22 术语 + 8 结构页；`GoPay/OVO/DANA/QRIS`→`DuitNow QR/Touch 'n Go eWallet/GrabPay/Boost`、`Rp/Rupiah`→`RM/Ringgit`；逐词核对后 29/29 标「已覆盖(ms)」，D09 MISS=0 |
 | _待填_ | Google Play Console | | | |
 | _待填_ | GSC 实际点击词 | | | |
 
@@ -283,6 +284,72 @@
 
 #### 明确不收录的词（当地高频但产品不具备）
 `sinkronisasi otomatis rekening bank`（银行自动同步）、`import QRIS otomatis`（QRIS 自动导入）、`scan struk otomatis`（收据 OCR 自动记账）。这些词在印尼在架 App 中常见，但 Meow Money Manager 为纯手动本地记账，写入会构成**虚假功能**，违反 `SEO-GOOGLE-PLAY.md` 合规红线与站内 E-E-A-T 要求。
+
+---
+
+### 2.1.6 马来语（ms / Bahasa Melayu，马来西亚）
+
+> **本地化选词（非英文直译）**：大马用户说 `aplikasi catatan kewangan` / `aplikasi bajet` / `jejak perbelanjaan`，**不是** `expense tracker` 的逐词翻译。与印尼语不同：`keuangan→kewangan`、`anggaran→bajet`、`pengeluaran→perbelanjaan`、`uang→wang`、`gratis→percuma`、`akun→akaun`、`unduh→muat turun`。大马 Google Play / 评测大量混用英语借词 `expense tracker` / `money manager` / `budgeting apps`，照实收录，不强行全译。
+> **证据（2026-11-07 检索）**：
+> 1. Google Play 马来语在架说明：`记帐宝` 的 `ms` 描述出现 `aplikasi perakaunan`、`merekod pendapatan dan perbelanjaan`、`laporan kewangan`、`mengira baki bajet`、`cabaran kewangan harian`；`Belanje`（aizztech solutions，Built for Malaysia）在架描述 `Track spending, budgets...`。
+> 2. 大马本地评测：`StashAway.my`《Best Free Expense Tracker and Budgeting Apps in Malaysia》、`RinggitWise.co`《Best Budgeting Apps Malaysia 2026》、`CelcomDigi Discover`《Top budgeting apps for Malaysians》、`Mr Money TV`《5 Budgeting Apps to Manage Your Money in Malaysia》、`Free Malaysia Today`《5 apps that make tracking expenses easy》。
+> 3. 本地支付/生活场景：`DuitNow QR`、`Touch 'n Go eWallet`、`Grab`、`Shopee`、`bank transfer`、`RM`/`Ringgit`（DOSM 2024 家庭月均支出 RM 5,566）。
+> **数据来源标签**：`Play 当地检索(ms_MY)` / `大马本地网页(ms)` / `站内已覆盖` / `GSC实测(待回填)`。
+> **状态**：2026-11-07 Phase 5 内容全量落地，29 词逐条归一化核对后全部标「已覆盖(ms)」，D09 11 组 MISS=0；本地检索证据与选词依据保持不变。
+
+#### Head（大词，P2，Pillar 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi catatan kewangan | Head | P2 | 高 | 中 | Pillar | 已覆盖(ms) | Play 当地检索(ms_MY) | 品类根词，大马用 `kewangan` 非 `keuangan` |
+| aplikasi bajet / aplikasi belanjawan | Head | P2 | 高 | 中 | Pillar | 已覆盖(ms) | 大马本地网页(ms) | 本地评测标题高频 `budgeting apps` / `bajet` |
+| aplikasi jejak perbelanjaan | Head | P2 | 高 | 中 | Pillar/Glossary | 已覆盖(ms) | 大马本地网页(ms) | `tracking expenses` 的本地说法 |
+| aplikasi kewangan peribadi | Head | P2 | 中 | 中 | Pillar | 已覆盖(ms) | 大马本地网页(ms) | personal finance |
+| expense tracker | Head | P2 | 中 | 低 | Pillar/Glossary | 已覆盖(ms) | 大马本地网页(ms) | **英语借词**，大马评测标题原样使用 |
+| money manager | Head | P2 | 中 | 中 | Pillar/App | 已覆盖(ms) | Play 当地检索(ms_MY) | **英语借词**，在架标题高频 |
+
+#### Middle（中词，P1，Best/vs/Alternatives 抢）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi catatan kewangan terbaik | Middle | P1 | 高 | 中 | Pillar/Best | 已覆盖(ms) | 大马本地网页(ms) | 年度/榜单词 |
+| aplikasi bajet bulanan | Middle | P1 | 中 | 中 | Pillar/App | 已覆盖(ms) | 大马本地网页(ms) | 月度预算 |
+| catat perbelanjaan harian | Middle | P1 | 中 | 中 | App/Tutorial | 已覆盖(ms) | Play 当地检索(ms_MY) | 在架描述短语 |
+| aplikasi kewangan tanpa akaun | Middle | P1 | 中 | 高 | vs/App | 已覆盖(ms) | 大马本地网页(ms) | 免账号 |
+| aplikasi kewangan offline | Middle | P1 | 中 | 高 | App/Pillar | 已覆盖(ms) | 大马本地网页(ms) | 离线可用 |
+| aplikasi kewangan percuma | Middle | P1 | 高 | 中 | Best/App | 已覆盖(ms) | 大马本地网页(ms) | 免费高转化 |
+| aplikasi catatan kewangan Android | Middle | P1 | 中 | 中 | Android/Best | 已覆盖(ms) | Play 当地检索(ms_MY) | 平台限定 |
+| aplikasi catatan kewangan 2026 | Middle | P1 | 中 | 中 | Pillar/Best | 已覆盖(ms) | 大马本地网页(ms) | 年度词 |
+
+#### Long-tail（精准长尾，P0，App 详情页主吃）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| aplikasi catatan kewangan tanpa akaun | Long-tail | P0 | 中 | 高 | App/FAQ | 已覆盖(ms) | Play 当地检索(ms_MY) | 免账号 |
+| data disimpan secara lokal | Long-tail | P0 | 中 | 高 | App/vs | 已覆盖(ms) | 大马本地网页(ms) | 本地存储 |
+| aplikasi catatan kewangan cap jari | Long-tail | P0 | 低 | 高 | App | 已覆盖(ms) | Play 当地检索(ms_MY) | 指纹锁，大马用 `cap jari` |
+| eksport CSV catatan kewangan | Long-tail | P0 | 中 | 高 | App/Tutorial | 已覆盖(ms) | 大马本地网页(ms) | 导出 |
+| sandaran Google Drive dan WebDAV | Long-tail | P0 | 中 | 高 | App/vs | 已覆盖(ms) | 大马本地网页(ms) | 备份口径统一 |
+| bajet per kategori | Long-tail | P0 | 中 | 高 | App | 已覆盖(ms) | 大马本地网页(ms) | 分类预算 |
+| tuntutan balik perbelanjaan | Long-tail | P0 | 低 | 高 | App/Glossary | 已覆盖(ms) | 大马本地网页(ms) | reimbursement 的本地说法 |
+| lebih 50 mata wang termasuk Ringgit | Long-tail | P0 | 低 | 高 | App | 已覆盖(ms) | 大马本地网页(ms) | 多币种，40+ 图标口径不混 |
+
+#### 品牌词 & 竞品拦截词（ms）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| Meow Money Manager | 品牌 | P0 | 低 | 高 | App | 已覆盖(ms) | 站内已覆盖 | 品牌名原样 |
+| alternatif Money Manager | 竞品 | P1 | 低 | 高 | vs/Alt | 已覆盖(ms) | 大马本地网页(ms) | 在架竞品 |
+| alternatif Spendee | 竞品 | P1 | 低 | 高 | vs/Alt | 已覆盖(ms) | 大马本地网页(ms) | RinggitWise 常列 |
+| MoneyMama / Belanje / MAE by Maybank2u | 竞品 | P1 | 低 | 高 | vs/Alt | 已覆盖(ms) | 大马本地网页(ms) | 大马本地在架竞品，保留 EN 原有对比对象 |
+
+#### 本地场景词（用于内容扩写，非排名词）
+| 场景词 | 含义 / 用途 | 落地建议 |
+|---|---|---|
+| `RM` / `Ringgit` / `DOSM` | 本地货币与官方统计 | 多币种段与示例金额 |
+| `DuitNow QR` / `Touch 'n Go eWallet` / `GrabPay` / `Boost` | 大马电子钱包与支付标准 | 分类/多账本段举例，**仅作手动记账示例** |
+| `Grab` / `Shopee` / `e-hailing` / `kedai mamak` | 网约车 / 电商 / 嘛嘛档 | 日常开销场景 |
+| `gaji bulanan` / `bil utiliti` / `sewa bilik` | 月薪 / 水电费 / 房租 | 周期记录与预算段 |
+| `resit` / `tuntutan balik` | 收据 / 报销 | 报销段 |
+
+#### 明确不收录的词（当地高频但产品不具备）
+`sinkronisasi automatik akaun bank`（银行自动同步）、`pelepasan cukai LHDN automatik`（LHDN 自动报税）、`imbasan resit OCR automatik`（收据 OCR 自动记账）。大马本地理财 App（Finpersona、MAE）常见，但 Meow Money Manager 为纯手动本地记账，写入会构成**虚假功能**，违反 `SEO-GOOGLE-PLAY.md` 合规红线。
 
 ---
 

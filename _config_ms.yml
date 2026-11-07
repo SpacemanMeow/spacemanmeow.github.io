@@ -1,0 +1,191 @@
+# ===================================================================
+#  Meow Apps Studio - Malay site config (Bahasa Melayu / ms)
+#  Standalone config (no merge with _config.yml), built alongside the EN site:
+#    bundle exec jekyll build --config _config_ms.yml   -> writes to _site/ms/
+#  Malay sources: _posts/ms/, _pages/ms/, _apps_ms/, _glossary_ms/
+#  Combined build: scripts/build.sh (EN first, then each language, then hreflang + sitemap)
+# ===================================================================
+
+lang: ms
+timezone: Asia/Kuala_Lumpur
+
+title: Meow Apps Studio
+tagline: "Aplikasi mudah alih yang cantik dan elegan."
+description: >-
+  Kami komited membina aplikasi iOS dan Android yang cantik serta boleh dipercayai.
+  Kami telah melancarkan beberapa aplikasi berkualiti tinggi yang digemari ramai pengguna.
+  Terima kasih atas perhatian anda — sokongan anda ialah dorongan terbesar untuk kami terus berkarya.
+
+url: "https://spacemanmeow.com"
+baseurl: ""
+
+avatar: /assets/images/favicons/avatar.png
+favicon: /assets/images/favicons/favicon-96x96.jpg
+apple_touch_icon: /assets/images/favicons/apple-touch-icon.jpg
+
+social:
+  name: SpacemanMeow
+  email: meow@spacemanmeow.com
+  links:
+    - name: Dasar Privasi
+      url: /ms/privacy/
+    - name: Syarat Penggunaan
+      url: /ms/terms/
+    - name: E-mel
+      url: mailto:meow@spacemanmeow.com
+
+webmaster_verifications:
+  google: MvOa_RCgbYDbkyWz1nce7QzlFS30B4RYjBNLI43eHjU
+  bing: 3696BDF54B98CDFFA525A706AC915374
+  yandex: 7b7f2662239dd86d
+
+goatcounter_code: "spacemanmeow"
+
+developer:
+  title: Halaman Pembangun
+  logo: /assets/images/favicons/avatar.png
+  description: >-
+    Kami komited membina aplikasi iOS dan Android yang cantik serta boleh dipercayai.
+    Kami telah melancarkan beberapa aplikasi berkualiti tinggi yang digemari ramai pengguna.
+    Terima kasih atas perhatian anda — sokongan anda ialah dorongan terbesar untuk kami terus berkarya.
+  google_play: https://play.google.com/store/apps/dev?id=9089535463678444622
+  app_store: https://apps.apple.com/us/developer/%E5%A2%83-%E9%AB%98/id1528847758
+
+collections:
+  pages:
+    output: true
+    path: _pages/ms
+    permalink: /ms/:name/
+  # Malay apps live in a separate collection apps_ms (source _apps_ms).
+  # Jekyll always reads collections recursively from _#{label}, and collections.*.path
+  # only affects the URL prefix, not the read directory. Reusing `apps` would pull the
+  # EN _apps/ docs into the ms build and collide under /ms/apps/.
+  apps_ms:
+    output: true
+    path: _apps_ms
+    permalink: /ms/apps/:name/
+  glossary_ms:
+    output: true
+    path: _glossary_ms
+    permalink: /ms/glossary/:name/
+  posts:
+    output: true
+    path: _posts/ms
+    permalink: /ms/posts/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /ms/posts/:title/
+      nav: blog
+  - scope:
+      path: ""
+      type: apps_ms
+    values:
+      layout: app
+      nav: home
+      seo:
+        type: WebPage
+
+paginate: 10
+paginate_path: /ms/blog/page:num
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: ms/feed.xml
+
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+sass:
+  style: compressed
+
+# Writes to the _site/ms/ subdirectory, merged with the EN root on deploy
+destination: _site/ms
+
+# Exclude EN root-level sources and static files so they are not regenerated under /ms/.
+# EN posts are date-named files directly under _posts/, excluded by numeric prefixes;
+# _posts/ms/ is not affected because "ms/" does not start with a digit.
+# Jekyll fnmatch "*" crosses "/" (no FNM_PATHNAME), so "_posts/*" cannot separate
+# root posts from language posts. Use the prefix/directory approach below.
+# Directory exclusions must carry a trailing slash (_apps/) so they do not also
+# match the same-prefixed _apps_ms source directory.
+exclude:
+  - _apps_zh
+  - _apps_zh/**
+  - _glossary_zh
+  - _glossary_zh/**
+  - _pages/zh
+  - _pages/zh/**
+  - _posts/zh
+  - _posts/zh/**
+  - zh/
+  - zh/**
+  - _apps_th
+  - _apps_th/**
+  - _glossary_th
+  - _glossary_th/**
+  - _pages/th
+  - _pages/th/**
+  - _posts/th
+  - _posts/th/**
+  - th/
+  - th/**
+  - _apps_id
+  - _apps_id/**
+  - _glossary_id
+  - _glossary_id/**
+  - _pages/id
+  - _pages/id/**
+  - _posts/id
+  - _posts/id/**
+  - id/
+  - id/**
+  - _apps/
+  - _glossary/
+  - _glossary/**
+  - _posts/2*
+  - _posts/1*
+  - index.html
+  - blog/
+  - meow/
+  - robots.txt
+  - CNAME
+  - app-ads.txt
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - seo/
+  - "seo/**"
+  - README.md
+  - SEO-OPTIMIZATION-PLAN.md
+  - LICENSE
+  - purgecss.js
+  - "*.config.js"
+  - "package*.json"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
+  - .devcontainer
+  - .idea
+  - .vscode
+  - .qoder
+  - 404.html

@@ -7,11 +7,13 @@
     zh: 首页
     id: Beranda
     th: หน้าแรก
+    ms: Utama
   url:
     en: /
     zh: /zh/
     id: /id/
     th: /th/
+    ms: /ms/
   nav: home
 
 - title:
@@ -19,11 +21,13 @@
     zh: 喵窝
     id: Meow
     th: Meow
+    ms: Meow
   url:
     en: /meow/
     zh: /zh/meow/
     id: /id/meow/
     th: /th/meow/
+    ms: /ms/meow/
   nav: meow
 
 - title:
@@ -31,11 +35,13 @@
     zh: 博客
     id: Blog
     th: บล็อก
+    ms: Blog
   url:
     en: /blog/
     zh: /zh/blog/
     id: /id/blog/
     th: /th/blog/
+    ms: /ms/blog/
   nav: blog
 
 - title:
@@ -43,9 +49,11 @@
     zh: 关于
     id: Tentang
     th: เกี่ยวกับ
+    ms: Tentang
   url:
     en: /about/
     zh: /zh/about/
     id: /id/about/
     th: /th/about/
+    ms: /ms/about/
   nav: about

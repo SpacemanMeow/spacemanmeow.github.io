@@ -65,6 +65,28 @@ id:
   glossary_link: "Glosarium &rarr;"
   back_to_glossary: "&larr; Kembali ke Glosarium"
 
+ms:
+  back_to_blog: "&lsaquo; Kembali ke blog"
+  tags_index_link: "Indeks tag &rarr;"
+  no_posts: "Tiada artikel lagi."
+  no_apps: "Tiada aplikasi. Tambah fail Markdown di bawah <code>_apps_ms/</code>."
+  prev: "&lsaquo; Sebelumnya"
+  next: "Seterusnya &rsaquo;"
+  page_status: "Halaman %c / %t"
+  read_more: "Baca lagi"
+  faq_title: "Soalan Lazim"
+  guides_title: "Panduan &amp; Tutorial"
+  guides_intro: "Panduan mendalam, perbandingan, dan tutorial untuk aplikasi berikut:"
+  related_posts: "Artikel Berkaitan"
+  related_app: "Aplikasi Berkaitan"
+  table_of_contents: "Kandungan"
+  date_format: "%-d/%-m/%Y"
+  updated_label: "Kemas kini terakhir: "
+  blog_intro: "Lihat semua artikel mengikut topik: "
+  quick_definitions: "Definisi ringkas: "
+  glossary_link: "Glosari &rarr;"
+  back_to_glossary: "&larr; Kembali ke glosari"
+
 th:
   back_to_blog: "&lsaquo; กลับไปที่บล็อก"
   tags_index_link: "ดัชนีแท็ก &rarr;"

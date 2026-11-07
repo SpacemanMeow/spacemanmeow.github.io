@@ -50,6 +50,14 @@ bundle exec jekyll build --config _config_th.yml --destination "$TMP_TH"
 mkdir -p _site/th
 rsync -a --delete "$TMP_TH/th/" _site/th/
 rm -rf "$TMP_TH"
+
+# 新增语言 ms (/ms/) —— 由 scripts/new-language.sh 生成
+echo "==> Building ms (/ms/)"
+TMP_MS=".jekyll-ms"
+bundle exec jekyll build --config _config_ms.yml --destination "$TMP_MS"
+mkdir -p _site/ms
+rsync -a --delete "$TMP_MS/ms/" _site/ms/
+rm -rf "$TMP_MS"
 echo "==> Injecting hreflang + combined sitemap"
 python3 scripts/i18n_postprocess.py --url "$SITE_URL"
 

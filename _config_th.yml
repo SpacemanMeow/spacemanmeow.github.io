@@ -132,6 +132,16 @@ destination: _site/th
 # 注意：字符串通配符 * 在 Jekyll 的 fnmatch 中不带 FNM_PATHNAME，会跨 / 匹配，
 #       因此无法用 "_posts/*" 区分直接子项与 _posts/th/ 子项，须用上述前缀/目录排除法。
 exclude:
+  - _apps_ms
+  - _apps_ms/**
+  - _glossary_ms
+  - _glossary_ms/**
+  - _pages/ms
+  - _pages/ms/**
+  - _posts/ms
+  - _posts/ms/**
+  - ms/
+  - ms/**
   - _apps_zh
   - _apps_zh/**
   - _glossary_zh

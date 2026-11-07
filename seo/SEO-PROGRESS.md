@@ -163,4 +163,5 @@
   - [x] **`/id/` 网页结构按既有 i18n 规范落地**：独立集合 `apps_id` / `glossary_id`、`_config_id.yml`、`/id/` permalink、hreflang 成环、canonical、合并 sitemap、feed、Pagefind 分片；模板消除 `zh`-vs-else 二元硬编码改为 N 语言通用
   - [x] **页面类型不遗漏**：除 posts 与 app 页外，`pages`（about/privacy/terms/search/tags/glossary/meow/index）、22 条术语定义、blog 分页、404、导航 / UI / 语言切换、搜索均需印尼语内容（结构页 8 / 术语 22 / App 11 / blog / 404 / 导航 / UI / feed / sitemap / Pagefind 已全部落地；posts 36/66：G1 6 篇 + Phase 3 · G2 6 篇 + G3 6 篇 + G4 6 篇 + G5 6 篇 + G6 6 篇，其余按 Phase 3 分批）
   - [x] **Meow Money Manager 印尼语内容**：`_apps_id/meow-money-manager.md` + 6 篇 `_posts/id/`（按本地关键词重写，不是逐段翻译）
-  - [ ] 后续按 `SEO-I18N-PROGRESS.md` 分批：其余 10 个 App 的印尼语内容 → 印尼语全部 posts → 泰语等其它语言（Phase 3 进行中：30 / 60 篇完成（G2、G3、G4、G5、G6 已交付，后续自动推进），进度见 `SEO-I18N-PROGRESS.md`）
+  - [x] **马来语（ms）Phase 5 全量交付**：`/ms/` 66 posts + 11 App + 22 术语 + 8 结构页，`SEO-KEYWORDS.md` §2.1.6 共 29 词全部已覆盖；5 语构建 570 页、htmlproofer 1099 内链 0 failure、教研 ms 全维度 PASS
+  - [x] 后续按 `SEO-I18N-PROGRESS.md` 分批：其余 10 个 App 的印尼语内容 → 印尼语全部 posts → 泰语 / 马来语等其它语言（Phase 3 / 4 / 5 均已完成，5 语 66/66 posts 全量交付，进度见 `SEO-I18N-PROGRESS.md`）

@@ -3,8 +3,8 @@
 > **配套规范**：`SEO-I18N-PLAYBOOK.md`（**每批开工前必读**）。本文档是唯一状态源：不依赖会话记忆、不依赖上下文是否溢出。
 > **词库**：`SEO-KEYWORDS.md`　**教研**：`SITE-AUDIT.md`　**总台账**：`SEO-PROGRESS.md`
 > **最后更新**：2026-11-07
-> **当前批次**：**Phase 3（id）已完成 66/66**；**Phase 4（th 泰语）posts/apps/gloss 已完成 66/66·11/11·22/22，结构页 8/8 已补齐（2026-11-07 完成，htmlproofer 0 failure）**
-> **本批成果**：`/id/` 结构完整可发布（11 App、8 结构页、22 术语）；**G2 6 篇 + G3 6 篇 + G4 6 篇 + G5（Meow FM）6 篇 + G6（One Widget）6 篇 + G7（Only Clock）6 篇 + G8（CPU Monitor）6 篇 + G9（System Monitor）6 篇 + G10（Floating Assistant）6 篇 + G11（Crosshair Aim）6 篇 posts 已落地（66/66）**，新增 §2.2.5 / §2.3.5 / §2.4.5 / §2.5.5 / §2.6.5 / §2.7.5 / §2.8.5 / §2.9.5 / §2.10.5 / §2.11.5 印尼语词组各 10 词；三语合并构建、教研与内链校验全绿。
+> **当前批次**：**Phase 5（ms 马来语）全量完成 66/66 · 11/11 · 22/22 · 结构页 8/8（2026-11-07）**；此前 Phase 3（id）66/66、Phase 4（th）全量完成且结构页 8/8 已补齐（htmlproofer 0 failure）
+> **本批成果**：`/ms/` 结构完整可发布（11 App、8 结构页、22 术语、66 posts）；5 语合并构建 570 页、htmlproofer 571 文件 / 1099 内链 / 0 failure；`SEO-KEYWORDS.md` §2.1.6 马来语词库 29/29 已覆盖，D09 11 组 MISS=0；D06 tagline 红线 12 与 D03 / D04 / D05 / D07 / D08 / D17 / D18 全部 PASS
 
 ---
 
@@ -16,9 +16,10 @@
 | 中文 | `zh` | `/zh/` | ✅ 已上线（基线） | 11 | 66 | 8 | 22 | ✅ |
 | Bahasa Indonesia | `id` | `/id/` | 🟢 Phase 0–3 完成（66/66 可发布） | 11 ✅ | 66 / 66 ✅ | 8 ✅ | 22 ✅ | ✅ 完整可发布 |
 | 泰语 Thai | `th` | `/th/` | 🟢 Phase 4 全量完成（66/66·11/11·22/22·结构页 8/8） | 11 ✅ | 66 / 66 ✅ | 8 / 8 ✅ | 22 ✅ | ✅ 可发布 |
-| 后续语言（`ms` / `tl` / `hi` …） | — | `/<lang>/` | ☐ 未启动 | 0 | 0 | 0 | 0 | ☐ |
+| Bahasa Melayu | `ms` | `/ms/` | 🟢 Phase 5 全量完成（66/66·11/11·22/22·结构页 8/8） | 11 ✅ | 66 / 66 ✅ | 8 / 8 ✅ | 22 ✅ | ✅ 可发布 |
+| 后续语言（`tl` / `hi` …） | — | `/<lang>/` | ☐ 未启动 | 0 | 0 | 0 | 0 | ☐ |
 
-> 数据来源：`SEO-PROGRESS.md` 待办 —— 「印尼 23% / 泰 2.7%（展示量特别高）」的获客语言构成，故 `id` 优先，其后 `th`。
+> 数据来源：`SEO-PROGRESS.md` 待办 —— 「印尼 23% / 泰 2.7%（展示量特别高）」的获客语言构成，故 `id` 优先，其后 `th`，再扩 `ms`（大马与印尼同源语言，本地检索证据见 `SEO-KEYWORDS.md` §2.1.6）。
 
 ### 1.1 规范资产（全部完成）
 
@@ -44,6 +45,24 @@
 | 骨架对齐 EN | D18 H2/H3·结构块·TOC·图片行序 | ✅（除 `tutorial-meow-todo` 图片/TOC 行序偏移 1 行，frontmatter 行数差，内容一致） |
 
 **发布前置条件**：补齐 7 个 TH 结构页后，复跑 htmlproofer 至全绿方可发布。完整教研结论见 `SITE-AUDIT.md` §8（2026-11-07）。
+
+---
+
+## 1.3 马来语（ms）Phase 5 进度
+
+> 从 `id` 骨架逐行本地化（同源语言用词差异 + 大马本地场景），`/id/`→`/ms/` 内链；66 篇 posts 与 EN 同名骨架对齐（D17 / D18 全绿）。
+
+| 维度 | 数量 | 状态 |
+|---|---|---|
+| Posts | 66 / 66 | ✅ 全 11 组完成，行类型序列差异 0、图片行序与路径集合与 EN 一致 |
+| App 详情页 | 11 / 11 | ✅ `tagline` 遵守 §1 红线 12（≤1.5× EN、无增补规格数字） |
+| Glossary 术语页 | 22 / 22 | ✅ 标题与定义逐条本地化 |
+| 结构页 | 8 / 8 | ✅ index / meow / about / privacy / terms / search / tags / glossary + `ms/blog/index.html` |
+| 关键词 | 29 / 29 | ✅ `SEO-KEYWORDS.md` §2.1.6 全部「已覆盖(ms)」，D09 MISS=0 |
+| 目录锚点 | 全量 | ✅ TOC 与正文 hash 改写为本地化后 kramdown auto_id，htmlproofer 0 failure |
+| 基础设施 | — | ✅ `_config_ms.yml` / `languages.yml` / `nav.yml` / `ui.yml` / `404.html` / `build.sh` / 各 config exclude |
+
+**本地化要点**：`keuangan→kewangan`、`anggaran→bajet`、`pengeluaran→perbelanjaan`、`uang→wang`、`gratis→percuma`、`akun→akaun`、`Rp/Rupiah→RM/Ringgit`、`GoPay/OVO/DANA/QRIS→DuitNow QR/Touch 'n Go eWallet/GrabPay/Boost`、`tanggal tua→hujung bulan`；保留 `offline` / `expense tracker` / `money manager` 等大马常用英语借词。目录锚点从印尼语 slug 同步重映射为马来语 slug（不用行内 IAL，避免 kramdown 把 `{:#id}` 当作标题文本污染 auto_id）。
 
 ---
 
@@ -99,7 +118,8 @@
 | **1** | 结构页（8 + 1 blog 模板）+ 术语 22 + App 11 | 42 | `/id/` 无断链、首页 11 App 完整 | ✅ |
 | **2** | Meow Money Manager 的 app 页 + 6 篇 posts | 7 | 按 `id` 词库 P0/P1 落地、D09 MISS=0 | ✅ |
 | **3** | 其余 10 个 App 各 6 篇 posts | 60 | 按各 App `id` 词库逐组落地；一律从 EN 骨架起稿（D17/D18） | ✅ 完成（66/66，G2–G11 全组落地） |
-| **4** | 换语言（`th` 等） | — | 只做 Phase 0 配置/数据 + 内容批次，模板零改动 | ☐ |
+| **4** | 换语言（`th` 等） | — | 只做 Phase 0 配置/数据 + 内容批次，模板零改动 | ✅ |
+| **5** | 马来语（`ms`） | 108 | Phase 0 配置 / 词库 + 8 结构页 + 22 术语 + 11 App + 66 posts；5 语构建、htmlproofer、教研 | ✅ 完成（2026-11-07） |
 
 ### 3.1 Posts 全清单（66 篇，按 App 组勾选）
 
@@ -228,6 +248,7 @@
 | 语言 | 词库位置 | 检索证据 | 状态 |
 |---|---|---|---|
 | `id` | `SEO-KEYWORDS.md` §2.1.5 + §2.2.5 + §2.3.5 + §2.4.5 + §2.5.5 + §2.6.5 + §2.7.5 + §2.8.5 + §2.9.5 + §2.10.5 + §2.11.5 | Google Play `hl=id&gl=ID` 在架标题 + 印尼本地网页/评测检索（§2.2.5–§2.11.5 由 EN/ZH 词库本地化，当地检索待回填） | ✅ 52 词登记（§2.1.5）+ 10 词 ×10（§2.2.5–§2.11.5）；**51 已覆盖(id)** / 1 合规挂起，G2–G11 各 10 词全部已覆盖；D09 11 组 MISS=0 |
+| `ms` | `SEO-KEYWORDS.md` §2.1.6 | Google Play `hl=ms&gl=MY` 在架说明 + 大马本地评测 / DOSM（2026-11-07） | ✅ 29 词登记、**29/29 已覆盖(ms)**；D09 MISS=0 |
 
 **选词结论（非英文直译）**：印尼用户说 `aplikasi catatan keuangan` / `pencatat keuangan`，不是 `expense tracker` 的直译 `pelacak pengeluaran`；同时在架标题混用英语借词 `budget` / `expense tracker` / `money manager`，故按「印尼语主体 + 借词并存」双轨收录。
 
@@ -257,6 +278,7 @@
 | 2026-11-07 | Phase 3 自动推进 · G9（System Monitor）全组 6 篇 | ✅ 完整构建 3 语 / 330 页；Pagefind 330 页 / 12182 词 / 3 语分片 | ✅ 637 内链 / 0 failure | ✅ **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS 0、D14 0 条 | ✅ 新增 6 组页面各 4 条 hreflang | ✅ 6 篇 EN 骨架逐行对齐（行类型差 0、图片行序一致、alt 唯一、TOC 锚点命中、`<html lang=id>`）、description ≤160 且无裸 &；alternatives 28 图 / 291 行、tutorial 10 锚点全命中 | ✅ 已填 |
 | 2026-11-07 | Phase 3 自动推进 · G10（Floating Assistant）全组 6 篇 | ✅ 完整构建 3 语 / 335 页；Pagefind 335 页 / 12305 词 / 3 语分片 | ✅ 653 内链 / 0 failure | ✅ **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS 0、D14 0 条 | ✅ 新增 6 组页面各 4 条 hreflang | ✅ 6 篇 EN 骨架逐行对齐（行类型差 0、图片行序一致、alt 唯一、TOC 12 锚点命中、`<html lang=id>`）、description ≤160 且无裸 &；alternatives 27 图 / 288 行、tutorial 12 锚点全命中 | ✅ 已填 |
 | 2026-11-07 | Phase 3 自动推进 · G11（Crosshair Aim）全组 6 篇 | ✅ 完整构建 3 语 / 342 页；Pagefind 342 页 / 12403 词 / 3 语分片 | ✅ 672 内链 / 0 failure | ✅ **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS 0、D14 0 条 | ✅ 新增 6 组页面各 4 条 hreflang | ✅ 6 篇 EN 骨架逐行对齐（行类型差 0、图片行序一致、alt 唯一未照抄 EN、内链前缀异常 0、description ≤160 且无裸 &；alternatives 27 图 / 274 行、tutorial 8 锚点全命中） | ✅ 已填 |
+| 2026-11-07 | Phase 5（ms 马来语）全量交付 | ✅ `JEKYLL_ENV=production bash scripts/build.sh`；5 语 / 570 页；Pagefind 570 页 / 29820 词 / 5 语分片 | ✅ 571 文件 / 1099 内链 / 0 failure | ✅ **60 PASS / 4 FAIL / 0 WARN**；ms 全维度 PASS（D03 一一对应 + 结构页 8/8、D06 tagline 红线 12、D09 MISS=0、D17 / D18 骨架全绿）；4 个 FAIL 均为既有 th 遗留项（D11 的 6 条 `/id/` 内链、D17/D18 `tutorial-meow-todo-list` 行序偏移 1 行），与 ms 无关 | ✅ hreflang 6 条 × 570 页、ms 114 页含自身 alternate、x-default 指向 EN | ✅ `/ms/` 首页 11 App、`<html lang=ms>`、66 posts / 11 apps / 22 glossary / 8 pages、feed 存在、子 sitemap 已删 | ✅ 已填 |
 
 ---
 
@@ -359,12 +381,23 @@
 - **验收**：完整构建 3 语 / 342 页；htmlproofer 672 内链 / 0 failure；§5 教研 47 PASS / 0 FAIL / 0 WARN，D09 11 组 MISS 0、D17 / D18 全绿。
 - **下一批**：Phase 3 收官（66/66 达成），进入 Phase 4（泰语 `th` 等）。
 
+### 2026-11-07 · Phase 5（ms 马来语）全量交付
+
+- **关键词先行**：Google Play `hl=ms&gl=MY` 在架说明（`aplikasi perakaunan` / `merekod pendapatan dan perbelanjaan` / `mengira baki bajet`）+ 大马本地评测（StashAway.my / RinggitWise / CelcomDigi / Mr Money TV / FMT）+ DOSM 统计，登记 `SEO-KEYWORDS.md` §2.1.6 共 29 词；明确不收录银行自动同步 / LHDN 报税 / resit OCR。
+- **基础设施**：`scripts/new-language.sh ms "Bahasa Melayu" MS` 生成 `_config_ms.yml`（可见文案逐项译为马来语、`Asia/Kuala_Lumpur`）、`_data/{languages,nav,ui}.yml`、`404.html`、`scripts/build.sh` 与四份 config 的 `ms` exclude。
+- **结构页**：8 页 + `ms/blog/index.html` 同批交付（不后置），搜索页按 `pf.search(q,{language:'ms'})` 分片。
+- **内容**：从 `_posts/id/`（已与 EN 骨架对齐）逐行本地化 66 篇 posts、`_apps_id/` 11 篇 App、`_glossary_id/` 22 篇术语；建立 `id→ms` 词典（同源语言用词差异、大马支付场景、竞品拦截词），保留 EN 骨架 / 图片路径与行序 / TOC 条目，`alt` 马来语化且唯一。
+- **锚点**：kramdown 行内 IAL `{:#id}` 会被当作标题文本并污染 auto_id（首轮 120 处断链），改为移除 IAL、把 TOC 与正文 hash 重映射为本地化后标题的 kramdown auto_id，htmlproofer 恢复 0 failure。
+- **词库**：29/29 逐词归一化核对后标「已覆盖(ms)」，6 个未自然出现的词织入 G1 真实句子（不新增行、不改结构块）；§2.1.4 维护日志追加一行。
+- **验收**：完整构建 5 语 / 570 页、Pagefind 5 语分片 / 29820 词；htmlproofer 571 文件 / 1099 内链 / 0 failure；§5 教研 60 PASS，ms 相关维度全部 PASS；产物 hreflang 6 条 / 570 页、`/ms/feed.xml` 存在、子 sitemap 已删。
+- **已知项**：4 个教研 FAIL 均为既有 th 遗留（D11 的 6 条 `/id/` 内链、D17/D18 `tutorial-meow-todo-list` 行序偏移 1 行），与 ms 无关，按 `SITE-AUDIT.md` §1.4 登记。
+
 ---
 
 ## 7. 待办与阻塞
 
 - **已完成（P0，2026-11-06）**：按 `SEO-I18N-PLAYBOOK.md` §1 红线 11 / §3.2 / §3.3 **重构 `_posts/id/` 首批 6 篇**——以 EN 同名文章为骨架（H2/H3、段落顺序、表格、FAQ、图片位置逐项对应），仅优化关键词与局部表达。三批共 6 篇全部交付；`SITE-AUDIT.md` §5 已启用 D17「图片块行序一致」与 D18「文章骨架全语言对等」硬门禁（v3.4，72 篇全量一致）。后续 Phase 3 的 60 篇 posts 一律从 EN 骨架起稿。
-- **待办**：核实 `widget catatan keuangan` 的产品口径后决定落地或删除词条；Phase 4 泰语（`th`）等后续语言。
+- **待办**：核实 `widget catatan keuangan` 的产品口径后决定落地或删除词条；后续语言 `tl` / `hi` 等（按获客数据排期）。
 - **阻塞**：无。
-- **风险**：`id` 已达 66/66 完整可发布；按 2026-11-06 新规则，**所有语言**一律以 EN 骨架为准，由 `SITE-AUDIT.md` §5 脚本 D18 逐篇硬校验文章结构 / 目录 / 图片插入，已启用 H2 一一对应硬门禁。后续 Phase 4 泰语（`th`）等沿用同套流程。
+- **风险**：`id` / `th` / `ms` 均已达 66/66 完整可发布；按红线 11 所有语言一律以 EN 骨架为准，由 `SITE-AUDIT.md` §5 脚本 D18 逐篇硬校验结构 / 目录 / 图片插入；新增语言沿用同套流程。Pagefind 对 zh / th / ms 不支持 stemming（仅影响词形召回，不阻断发布）。
 - **Pagefind**：印尼语分片已生成且未出现词干不支持警告；中文仍有已知的 stemming 不支持提示（仅影响词形召回，不阻断发布）。

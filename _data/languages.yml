@@ -19,3 +19,7 @@
 - code: th
   label: ไทย
   short: TH
+
+- code: ms
+  label: Bahasa Melayu
+  short: MS

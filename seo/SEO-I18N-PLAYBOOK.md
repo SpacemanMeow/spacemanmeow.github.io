@@ -6,6 +6,7 @@
 > **最后更新**：2026-11-07
 > **首个实例**：`id`（Bahasa Indonesia / 印度尼西亚；2026-11-06 完成 Phase 0–3，66/66 posts 可发布，状态见 `SEO-I18N-PROGRESS.md`），Meow Money Manager 优先。
 > **第二个实例**：`th`（泰语 / Thai；2026-11-07 完成 Phase 4 全量交付，posts/apps/gloss 66/66·11/11·22/22、**结构页 8/8 已补齐**，htmlproofer 0 failure），从 `id` 骨架逐篇翻译，完整教研见 `SITE-AUDIT.md` §8。
+> **第三个实例**：`ms`（Bahasa Melayu / 马来西亚；2026-11-07 完成 Phase 5 全量交付，posts/apps/gloss/结构页 66/66·11/11·22/22·8/8），从 `id` 骨架逐行本地化，处理同源语言用词差异、大马本地支付场景与目录锚点重映射，完整教研见 `SITE-AUDIT.md` §8。
 
 ---
 
