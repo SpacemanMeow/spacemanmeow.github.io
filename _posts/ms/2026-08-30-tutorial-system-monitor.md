@@ -70,7 +70,7 @@ Skrin utama punya empat tab: **Hardware**, **App**, **Floating**, **Sensor**.
 ![Bacaan suhu CPU dan frekuensi per-core](/assets/images/blog/tutorial_system_monitor_cpu.webp){: width="180" .normal }
 ![Butiran penggunaan RAM dan detail proses](/assets/images/blog/tutorial_system_monitor_memory.webp){: width="180" .normal }
 ![Kesihatan bateri, tegangan, dan lengkung suhu](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
-![Ikhtisar maklumat hardware system monitor android](/assets/images/blog/tutorial_system_monitor_system.webp){: width="180" .normal }
+![Ringkasan maklumat hardware system monitor android](/assets/images/blog/tutorial_system_monitor_system.webp){: width="180" .normal }
 
 ## Kesihatan Bateri
 
@@ -118,7 +118,7 @@ Tetapan merangkumi tema, penggera overheat, satuan suhu, tingkat penyegaran, gal
 
 ### Apakah ini membersihkan memori atau storage?
 {:.faq-q}
-Tidak. System Monitor strictly read-only — melaporkan fakta dan tidak pernah memadam file atau "boost" RAM.
+Tidak. System Monitor strictly read-only — melaporkan fakta dan tidak pernah memadam fail atau "boost" RAM.
 
 ### Apakah ada app lock?
 {:.faq-q}
@@ -126,7 +126,7 @@ Tidak. Tidak ada kunci fingerprint atau password di aplikasi ini.
 
 ### Dari mana data berasal?
 {:.faq-q}
-Dari API Android standar (mis. BatteryManager dan file sistem). Tidak ada yang diubah.
+Dari API Android standar (mis. BatteryManager dan fail sistem). Tidak ada yang diubah.
 
 ## Ringkasan
 

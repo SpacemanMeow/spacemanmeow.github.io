@@ -38,7 +38,7 @@ Meow Todo List adalah pengurus tugasan bergaya kartun comel sekaligus **[aplikas
 ![Aplikasi kalendar tugasan — paparan jadual Meow Todo List](/assets/images/blog/tutorial_todo_page_4.webp){: width="180" .normal }
 
 - Empat tab bawah: **Tugasan**, **Kalendar**, **Statistik**, **Tetapan**
-- Butang terapung **+** menambah tugasan dari mana saja
+- Butang terapung **+** menambah tugasan dari mana sahaja
 - Filter laci samping: Semua / Hari Ini / Besok / 7 hari / Selesai, plus Buku (daftar) dan Tag Anda
 
 **🗓 Perancangan**

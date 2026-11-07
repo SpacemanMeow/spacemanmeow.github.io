@@ -21,7 +21,7 @@ Di bawah ini kami membandingkan enam aplikasi tentang harga, platform, dan keupa
 - **Kekhawatiran privasi** — sebahagian pembersih meminta kebenaran luas.
 - Anda mungkin menginginkan **pemantauan nyata** (apa yang memakan CPU/bateri) bukan sekadar pembersihan.
 
-> Realita: di Android modern, kemenangan storage terbesar adalah memadam file tidak terpakai dan media besar — bukan "mengosongkan RAM." Pilih alat untuk *manajemen storage selamat*, dan gunakan monitor untuk menemukan apa yang benar-benar menguras sumber daya.
+> Realita: di Android modern, kemenangan storage terbesar adalah memadam fail tidak digunakan dan media besar — bukan "mengosongkan RAM." Pilih alat untuk *manajemen storage selamat*, dan gunakan monitor untuk menemukan apa yang benar-benar menguras sumber daya.
 
 ## Alternatif CCleaner terbaik sekilas
 
@@ -38,7 +38,7 @@ Di bawah ini kami membandingkan enam aplikasi tentang harga, platform, dan keupa
 
 ### 1. System Monitor — terbaik untuk monitor plus pembersihan
 
-![Perbandingan alternatif CCleaner: ikhtisar status sistem read-only](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
+![Perbandingan alternatif CCleaner: ringkasan status sistem read-only](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
 ![Penggunaan RAM & storage System Monitor](/assets/images/apps/system-monitor/2.webp){: width="180" .normal }
 ![Monitor proses & bateri System Monitor](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
 ![Rangkaian & sensor System Monitor](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
@@ -67,24 +67,24 @@ System Monitor adalah **alat Android all-in-one** dengan monitor CPU, pembersih 
 
 ### 2. Files by Google — terbaik pembersih selamat
 
-![Skrin utama peramban file Google Files](/assets/images/blog/google_files_1.webp){: width="180" .normal }
+![Skrin utama peramban fail Google Files](/assets/images/blog/google_files_1.webp){: width="180" .normal }
 ![Kategori & carian Google Files](/assets/images/blog/google_files_2.webp){: width="180" .normal }
 ![Pindahan & berkongsi Google Files](/assets/images/blog/google_files_3.webp){: width="180" .normal }
 ![Arsip & kelola Google Files](/assets/images/blog/google_files_4.webp){: width="180" .normal }
 ![Tetapan & cloud Google Files](/assets/images/blog/google_files_5.webp){: width="180" .normal }
 
-Files by Google adalah **pengurus storage resmi** Google — mengosongkan file tidak terpakai, menemukan duplikat, dan membantu menghemat ruang dengan reka bentuk ramah privasi tanpa tugasan latar agresif.
+Files by Google adalah **pengurus storage resmi** Google — mengosongkan fail tidak digunakan, menemukan duplikat, dan membantu menghemat ruang dengan reka bentuk ramah privasi tanpa tugasan latar agresif.
 
 **Kelebihan**
 - **Resmi dan selamat** — buatan Google, kebenaran minimum, tanpa perilaku meragukan.
-- **Pembersihan storage cerdas**: file tidak terpakai, duplikat, media besar, dan cache aplikasi.
-- **Penjelajahan dan berkongsi file** offline dengan rekan.
+- **Pembersihan storage cerdas**: fail tidak digunakan, duplikat, media besar, dan cache aplikasi.
+- **Penjelajahan dan berkongsi fail** offline dengan rekan.
 - **Tanpa iklan, tanpa langganan** — sepenuhnya percuma.
-- UI jelas dan sederhana untuk siapa saja.
+- UI jelas dan sederhana untuk sesiapa sahaja.
 
 **Kelemahan**
 - **Tanpa RAM boost atau pemantauan sistem** — hanya storage.
-- Tanpa perburuan file "mayat" dalam seperti SD Maid.
+- Tanpa perburuan fail "mayat" dalam seperti SD Maid.
 - Hanya Android.
 
 **Terbaik untuk:** pengguna yang ingin cara terpercaya dan tanpa ribet untuk mengambil kembali storage.
@@ -97,16 +97,16 @@ Files by Google adalah **pengurus storage resmi** Google — mengosongkan file t
 ### 3. SD Maid — terbaik pembersih dalam
 
 ![Skrin utama pindai bersih SD Maid](/assets/images/blog/sd_maid_1.webp){: width="180" .normal }
-![File junk & cache SD Maid](/assets/images/blog/sd_maid_2.webp){: width="180" .normal }
+![Fail junk & cache SD Maid](/assets/images/blog/sd_maid_2.webp){: width="180" .normal }
 ![Boost memori & proses SD Maid](/assets/images/blog/sd_maid_3.webp){: width="180" .normal }
 ![Bersih privasi & sisa SD Maid](/assets/images/blog/sd_maid_4.webp){: width="180" .normal }
 ![Tetapan & jadual SD Maid](/assets/images/blog/sd_maid_5.webp){: width="180" .normal }
 
-SD Maid adalah **pembersih dalam yang hati-hati** untuk Android: menemukan file sisa ("mayat") dari aplikasi yang dihapus, duplikat, database untuk optimasi, dan kontrol aplikasi.
+SD Maid adalah **pembersih dalam yang hati-hati** untuk Android: menemukan fail sisa ("mayat") dari aplikasi yang dihapus, duplikat, database untuk optimasi, dan kontrol aplikasi.
 
 **Kelebihan**
 - **Pencari mayat** memadam sisa yang terlewat pembersih lain.
-- **Carian duplikat dan file** di seluruh storage.
+- **Carian duplikat dan fail** di seluruh storage.
 - **Kontrol / pembekuan aplikasi** dan pengoptimal database.
 - **Penjadwal** untuk pemeliharaan automatik.
 - Reputasi kuat di kalangan power user; tier percuma berguna.
@@ -126,16 +126,16 @@ SD Maid adalah **pembersih dalam yang hati-hati** untuk Android: menemukan file 
 ### 4. CCleaner — terbaik bersih cepat familier
 
 ![Skrin utama pindai bersih CCleaner](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
-![File junk & cache CCleaner](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
+![Fail junk & cache CCleaner](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
 ![Boost memori & proses CCleaner](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
 ![Bersih privasi & sisa CCleaner](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
 ![Tetapan & jadual CCleaner](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
 
-CCleaner seluler adalah **versi telefon pintar alat PC terkenal** — cara cepat mengosongkan cache, sejarah penjelajahan, dan file tidak terpakai, plus pembantu foto dan bateri dasar.
+CCleaner seluler adalah **versi telefon pintar alat PC terkenal** — cara cepat mengosongkan cache, sejarah penjelajahan, dan fail tidak digunakan, plus pembantu foto dan bateri dasar.
 
 **Kelebihan**
 - **Merek dan alur familier** bila Anda pakai CCleaner di desktop.
-- **Pembersihan cache/sejarah cepat** dan ikhtisar storage sederhana.
+- **Pembersihan cache/sejarah cepat** dan ringkasan storage sederhana.
 - **Pembantu hibernasi bateri dan aplikasi** di tier premium.
 - Pindai satu ketik mudah.
 - Tier percuma tersedia.
@@ -154,16 +154,16 @@ CCleaner seluler adalah **versi telefon pintar alat PC terkenal** — cara cepat
 
 ### 5. Avast Cleanup — terbaik untuk bersih foto
 
-![File junk & cache Avast Cleanup](/assets/images/blog/avast_cleanup_2.webp){: width="180" .normal }
+![Fail junk & cache Avast Cleanup](/assets/images/blog/avast_cleanup_2.webp){: width="180" .normal }
 ![Boost memori & proses Avast Cleanup](/assets/images/blog/avast_cleanup_3.webp){: width="180" .normal }
 ![Bersih privasi & sisa Avast Cleanup](/assets/images/blog/avast_cleanup_4.webp){: width="180" .normal }
 ![Tetapan & jadual Avast Cleanup](/assets/images/blog/avast_cleanup_5.webp){: width="180" .normal }
 
-Avast Cleanup fokus pada **mengosongkan ruang dari foto dan file** — menemukan foto berkualitas rendah, serupa, dan duplikat, plus membersihkan junk dan cache aplikasi.
+Avast Cleanup fokus pada **mengosongkan ruang dari foto dan fail** — menemukan foto berkualitas rendah, serupa, dan duplikat, plus membersihkan junk dan cache aplikasi.
 
 **Kelebihan**
 - **Pembersihan foto** yang menandai foto buram, duplikat, dan serupa untuk dihapus.
-- **Penghapusan junk dan cache** dengan ikhtisar storage jelas.
+- **Penghapusan junk dan cache** dengan ringkasan storage jelas.
 - **Hibernasi aplikasi** untuk mengurangi beban latar.
 - Dukungan merek keselamatan terkemuka.
 - Percuma dengan langganan premium.
@@ -183,15 +183,15 @@ Avast Cleanup fokus pada **mengosongkan ruang dari foto dan file** — menemukan
 ### 6. Norton Clean — terbaik pembersih junk sederhana
 
 ![Skrin utama pindai bersih Norton Cleaner](/assets/images/blog/norton_cleaner_1.webp){: width="180" .normal }
-![File junk & cache Norton Cleaner](/assets/images/blog/norton_cleaner_2.webp){: width="180" .normal }
+![Fail junk & cache Norton Cleaner](/assets/images/blog/norton_cleaner_2.webp){: width="180" .normal }
 ![Boost memori & proses Norton Cleaner](/assets/images/blog/norton_cleaner_3.webp){: width="180" .normal }
 ![Bersih privasi & sisa Norton Cleaner](/assets/images/blog/norton_cleaner_4.webp){: width="180" .normal }
 
-Norton Clean adalah **pembersih junk dan cache lugas** yang memadam file sementara, data sisa, dan sisa aplikasi dengan satu ketik sederhana.
+Norton Clean adalah **pembersih junk dan cache lugas** yang memadam fail sementara, data sisa, dan sisa aplikasi dengan satu ketik sederhana.
 
 **Kelebihan**
-- **Penghapusan junk/cache sederhana** — mudah untuk siapa saja.
-- **Pembersihan file sisa** setelah uninstall.
+- **Penghapusan junk/cache sederhana** — mudah untuk sesiapa sahaja.
+- **Pembersihan fail sisa** setelah uninstall.
 - Didukung merek keselamatan Norton.
 - Percuma digunakan.
 - Ringan dan tidak mengganggu.
@@ -231,7 +231,7 @@ Norton Clean adalah **pembersih junk dan cache lugas** yang memadam file sementa
 Jadual memeringkat ciri; di sini keenam aplikasi dikelompokkan menurut *apa yang sebenarnya ingin Anda capai*.
 
 - **Memahami slowdown** — sebuah **alternatif CCleaner** yang melaporkan CPU, RAM, bateri, dan suhu (System Monitor) menjawab pertanyaan berbeza dari yang memadam cache. Bila storage tidak kelihatan bermasalah, pembersihan tidak akan menjelaskan stutter.
-- **Pembersihan storage selamat resmi** — carian **alternatif Files by Google** tentang meninjau file besar dan duplikat sebelum padam; Norton Clean adalah versi minimum dari kerja itu.
+- **Pembersihan storage selamat resmi** — carian **alternatif Files by Google** tentang meninjau fail besar dan duplikat sebelum padam; Norton Clean adalah versi minimum dari kerja itu.
 - **Pembersihan sisa berbasis aturan dalam** — **alternatif SD Maid** atau **alternatif AVG Cleaner** sesuai bagi yang ingin melihat tepat sisa mana yang dihapus. **Alternatif Clean Master** adalah versi "satu ketik" lebih tua dan luas dari ide sama.
 - **Toolbox lengkap** — **alternatif 3C Toolbox** menggabungkan pemantauan, pelarasan, dan statistik bateri dalam satu instalasi, dengan perbelanjaan kerumitan.
 - **Foto dan langganan** — Avast Cleanup menarget library foto, dan sebahagian besar aplikasi ini menaruh pindai lebih dalam di sebalik tier berbayar; periksa apa yang benar-benar dihapus teras percuma.
@@ -250,8 +250,8 @@ Apapun labelnya, ajukan dua pertanyaan sebelum migrasi: dapatkah Anda meninjau d
 ## Cara migrasi dari CCleaner
 
 1. **Tentukan tujuan nyata Anda** — lebih banyak ruang kosong, atau telefon pintar lebih cepat? Dua perbaikan berbeza.
-2. **Pasang alat storage** (Files by Google atau SD Maid) dan jalankan pembersihan sekali pakai duplikat dan file tidak terpakai.
-3. **Tambahkan monitor** (System Monitor) untuk menemukan apa yang benar-benar menguras CPU/bateri alih-alih "boost" buta.
+2. **Pasang alat storage** (Files by Google atau SD Maid) dan jalankan pembersihan sekali pakai duplikat dan fail tidak digunakan.
+3. **Tambahkan monitor** (System Monitor) untuk menemukan apa yang benar-benar menguras CPU/bateri dan bukannya "boost" buta.
 4. **Uninstall CCleaner** begitu alat baru merangkumi kebutuhan Anda — Android modern perlu pembersihan malar lebih sedikit.
 5. **Tetap sederhana**: padam media besar dan aplikasi lama secara rutin; biarkan OS mengurus sisanya.
 

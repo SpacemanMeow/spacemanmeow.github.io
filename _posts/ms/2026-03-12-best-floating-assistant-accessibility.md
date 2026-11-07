@@ -36,7 +36,7 @@ Floating Assistant merangkumi keempatnya dengan bola bertempel di tepi; Assistiv
 |---|---|---|---|---|---|
 | **Floating Assistant** | Teras percuma + VIP | ✅ | ✅ | ✅ | Akses fleksibel |
 | **Assistive Touch** | Percuma + IAP | ✅ | ✅ | ✅ | Butang virtual sederhana |
-| **Kebolehcapaian sistem** | Percuma (OS) | ⚠️ terhad | ❌ | ⚠️ | Bawaan saja |
+| **Kebolehcapaian sistem** | Percuma (OS) | ⚠️ terhad | ❌ | ⚠️ | Bawaan sahaja |
 
 ## Floating Assistant, lebih dalam
 
@@ -59,7 +59,7 @@ Floating Assistant adalah **aplikasi Android bola tepi** dengan butang virtual d
 - **VIP untuk lebih** — gerak isyarat lebih dalam di sebalik peningkatan.
 - **Kebenaran overlay** — pemberian satu kali.
 
-**Terbaik untuk:** pengguna telefon pintar besar dan siapa saja yang perlu kendali satu tangan boleh dipercayai.
+**Terbaik untuk:** pengguna telefon pintar besar dan sesiapa sahaja yang perlu kendali satu tangan boleh dipercayai.
 
 - [Google Play — Floating Assistant](https://play.google.com/store/apps/details?id=com.glgjing.floating.apps.assistive.touch.pro)
 

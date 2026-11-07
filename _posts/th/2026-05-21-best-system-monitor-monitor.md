@@ -126,7 +126,7 @@ CCleaner (แพ็กเกจ `com.piriform.ccleaner` จาก Gen Digital) �
 
 **System Monitor ทำความสะอาด junk หรือเคลียร์ RAM ไหม?**
 {:.faq-q}
-ไม่ System Monitor อ่านอย่างเดียว; มันรายงานข้อเท็จจริงและไม่เคยทำความสะอาดแคชหรือเคลียร์หน่วยความจำ สำหรับการทำความสะอาด ดูคู่มือ [ทางเลือก CCleaner](/id/posts/alternatives-to-ccleaner/)
+ไม่ System Monitor อ่านอย่างเดียว; มันรายงานข้อเท็จจริงและไม่เคยทำความสะอาดแคชหรือเคลียร์หน่วยความจำ สำหรับการทำความสะอาด ดูคู่มือ [ทางเลือก CCleaner](/th/posts/alternatives-to-ccleaner/)
 
 ## ศัพท์ที่เกี่ยวข้อง
 

@@ -42,7 +42,7 @@ CPU Monitor merangkumi sensor, widget, dan tetingkap terapung sebagai paparan re
 ![Monitor suhu bateri dan bacaan panas sensor di CPU Monitor](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
 ![Tetapan & amaran panas CPU Monitor](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
 ![Info sensor & bateri CPU Monitor](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
-![Ikhtisar hardware peranti CPU Monitor](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![Ringkasan hardware peranti CPU Monitor](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
 ![Detail frekuensi core terus CPU Monitor](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
 
 CPU Monitor adalah **monitor suhu peranti** untuk Android yang merangkumi panas CPU, bateri, dan sensor, lengkap dengan penggera dan syor.
@@ -66,7 +66,7 @@ CPU Monitor adalah **monitor suhu peranti** untuk Android yang merangkumi panas 
 ![Monitor suhu & frekuensi CPU-Z](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
 ![Detail frekuensi core terus CPU-Z](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
 ![Info sensor & bateri CPU-Z](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
-![Ikhtisar hardware peranti CPU-Z](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
+![Ringkasan hardware peranti CPU-Z](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
 ![Tetapan & amaran panas CPU-Z](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
 
 CPU-Z (pakej `com.cpuid.cpu_z`) melaporkan detail hardware termasuk suhu saat ini dari sensor yang tersedia.
@@ -99,7 +99,7 @@ CPU-Z (pakej `com.cpuid.cpu_z`) melaporkan detail hardware termasuk suhu saat in
 
 - **Lindungi bateri dari panas** — CPU Monitor mengawasi suhu bateri dan memperingatkan sebelum menua akibat overheat berulang.
 - **Syor pendinginan di tempat** — saat suhu naik, ia menyarankan menutup game atau mencabut, bukan sekadar angka.
-- **Paparan seluruh peranti** — suhu CPU, bateri, dan sensor di satu tempat alih-alih tiga aplikasi.
+- **Paparan seluruh peranti** — suhu CPU, bateri, dan sensor di satu tempat dan bukannya tiga aplikasi.
 - **Pantau pengisian** — biarkan widget kelihatan saat mengecas supaya Anda menangkap bateri panas sejak awal.
 
 ## FAQ

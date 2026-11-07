@@ -48,7 +48,7 @@ Microsoft To Do (dibangun oleh bekas tim Wunderlist yang diakuisisi Microsoft pa
 **Kelebihan**
 - **Sepenuhnya percuma** di iOS, Android, Windows, macOS, dan web, dengan dukungan 34 bahasa.
 - **Integrasi mendalam Outlook / Microsoft 365** — email yang ditandai berubah menjadi tugasan, dan memakai mesin yang sama dengan tugasan Outlook.
-- Perancangan **My Day** yang rapi, daftar bersama, subtugasan, lampiran file, dan peringatan tarikh akhir.
+- Perancangan **My Day** yang rapi, daftar bersama, subtugasan, lampiran fail, dan peringatan tarikh akhir.
 - Didukung Microsoft, sehingga penyegerakan dan keandalannya solid.
 
 **Kekurangan**
@@ -281,7 +281,7 @@ Meow Todo — tidak memerlukan akaun, menyimpan tugasan di peranti di sebalik ku
 **Bolehkah saya memindahkan tugasan keluar dari Todoist?**
 {:.faq-q}
 
-Ya — eksport CSV dari Todoist, lalu bangun ulang daftar Anda; Meow Todo juga mengekspor CSV, sehingga data boleh dipindahkan ke Excel atau aplikasi lain kapan saja.
+Ya — eksport CSV dari Todoist, lalu bangun ulang daftar Anda; Meow Todo juga mengekspor CSV, sehingga data boleh dipindahkan ke Excel atau aplikasi lain bila-bila sahaja.
 
 [Halaman aplikasi Meow Todo List](/ms/apps/meow-todo-list/) — muat turun untuk Android dan iOS.
 

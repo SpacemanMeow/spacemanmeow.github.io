@@ -9,7 +9,7 @@ lang: ms
 last_modified_at: 2026-11-06
 ---
 
-Memilih **[aplikasi to-do list](/ms/glossary/what-is-a-to-do-list/)** sering bermuara pada kompleksitas versus kesederhanaan. **Meow Todo** adalah aplikasi to-do dengan teras percuma, peribadi, dan comel, lengkap dengan subtask, paparan kalendar, dan eksport CSV. **Todoist** adalah aplikasi populer yang tangguh dengan input bahasa alami dan kolaborasi. Perbandingan **Meow Todo vs Todoist** ini membantu Anda memilih **[aplikasi to-do list](/ms/glossary/what-is-a-to-do-list/)** yang sesuai dengan cara kerja Anda sehari-hari, lengkap dengan harga 2026 dan had ciri yang nyata.
+Memilih **[aplikasi to-do list](/ms/glossary/what-is-a-to-do-list/)** sering bermuara pada kompleksitas versus kesederhanaan. **Meow Todo** adalah aplikasi to-do dengan teras percuma, peribadi, dan comel, lengkap dengan subtask, paparan kalendar, dan eksport CSV. **Todoist** adalah aplikasi popular yang tangguh dengan input bahasa alami dan kolaborasi. Perbandingan **Meow Todo vs Todoist** ini membantu Anda memilih **[aplikasi to-do list](/ms/glossary/what-is-a-to-do-list/)** yang sesuai dengan cara kerja Anda sehari-hari, lengkap dengan harga 2026 dan had ciri yang nyata.
 
 ## Sekilas
 
@@ -74,7 +74,7 @@ Individu yang ingin **senarai tugasan** peribadi, comel, dan sederhana dengan pa
 ![Paparan kalendar dan jadual Todoist](/assets/images/blog/todoist_4.webp){: width="180" .normal }
 ![Segerak cloud dan tetapan Todoist](/assets/images/blog/todoist_5.webp){: width="180" .normal }
 
-Todoist adalah salah satu pengurus tugasan paling populer di dunia: input bahasa alami, label dan filter canggih, serta kolaborasi lewat projek bersama. Skalanya mulai dari senarai tugasan peribadi hingga alur kerja tim.
+Todoist adalah salah satu pengurus tugasan paling popular di dunia: input bahasa alami, label dan filter canggih, serta kolaborasi lewat projek bersama. Skalanya mulai dari senarai tugasan peribadi hingga alur kerja tim.
 
 ### Kelebihan
 - **Input bahasa alami** — ketik "Kirim laporan setiap Sen 09.00" dan tarikh serta pengulangan diproses automatik.
@@ -86,7 +86,7 @@ Todoist adalah salah satu pengurus tugasan paling populer di dunia: input bahasa
 
 ### Kekurangan
 - **Pakej percuma terhad** — sekitar 5 projek aktif, peringatan dihadkan, tanpa integrasi kalendar; pengguna berat perlu Pro (~$60/tahun).
-- **Wajib akaun cloud** — data disimpan di server Todoist, bukan lokal saja.
+- **Wajib akaun cloud** — data disimpan di server Todoist, bukan setempat sahaja.
 - **Tetapan lebih rumit** bagi pengguna sederhana yang hanya ingin senarai tugasan.
 - **Tanpa eksport CSV** tugasan pada pakej standar.
 - **Kurang "comel"** — UI utilitarian, tanpa ikon kartun.
@@ -112,7 +112,7 @@ Ini kelebihan utama Todoist: "setiap sen 09.00" terus bekerja. Meow Todo memakai
 Todoist mendukung projek bersama dan komentar (Pro) — penting untuk tim. Meow Todo hanya untuk peribadi. Jika Anda merencanakan bersama orang lain, Todoist jelas pilihannya.
 
 ### Privasi dan segerak
-Meow Todo mengutamakan offline sebagai **aplikasi to-do offline** dengan kunci cap jari dan sandaran ke Drive/WebDav sendiri. Todoist mengutamakan cloud. Untuk data tugasan sensitif atau lokal saja, Meow Todo memberi kontrol lebih.
+Meow Todo mengutamakan offline sebagai **aplikasi to-do offline** dengan kunci cap jari dan sandaran ke Drive/WebDav sendiri. Todoist mengutamakan cloud. Untuk data tugasan sensitif atau setempat sahaja, Meow Todo memberi kontrol lebih.
 
 ### Harga dan batasan
 Teras Meow Todo percuma tanpa had projek yang kaku. Pakej percuma Beginner Todoist dihadkan ~5 projek; Pro membuka sisanya seharga ~$60/tahun. Meow Todo adalah pilihan lebih murah dan lebih ringan untuk individu.
@@ -130,7 +130,7 @@ Teras Meow Todo percuma tanpa had projek yang kaku. Pakej percuma Beginner Todoi
 - **Perancangan harian peribadi** — buka lalu catat tanpa akaun; tugasan tetap di peranti di sebalik kunci cap jari, selamat dari cloud lain.
 - **Pencatatan comel dan tanpa tekanan** — 400+ ikon kartun membuat tugasan rutin dan tugasan **kuliah** terasa lebih ringan, sehingga Anda tetap menggunakannya.
 - **Perjalanan atau komuter tanpa isyarat** — sebagai **aplikasi to-do offline**, tambah tugasan tanpa isyarat; segerak ke Google Drive atau WebDav hanya saat kembali online.
-- **Data milik Anda** — eksport CSV memindahkan daftar ke Excel kapan saja; tidak ada yang terjebak di cloud proprietary.
+- **Data milik Anda** — eksport CSV memindahkan daftar ke Excel bila-bila sahaja; tidak ada yang terjebak di cloud proprietary.
 
 ## FAQ
 

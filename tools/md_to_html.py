@@ -20,10 +20,11 @@ import hashlib
 from pathlib import Path
 from datetime import datetime
 
-# Configuration
-POSTS_DIR = '/Users/gaolitao/Documents/code/spacemanmeow.github.io/_posts'
-OUTPUT_DIR = '/Users/gaolitao/Documents/code/spacemanmeow.github.io/assets/html'
-CACHE_FILE = '/Users/gaolitao/Documents/code/spacemanmeow.github.io/tools/.md_to_html_cache'
+# Configuration（相对脚本位置推导，不依赖任何机器的绝对路径）
+ROOT = Path(__file__).resolve().parent.parent
+POSTS_DIR = str(ROOT / '_posts')
+OUTPUT_DIR = str(ROOT / 'assets' / 'html')
+CACHE_FILE = str(ROOT / 'tools' / '.md_to_html_cache')
 
 # HTML Template with rich styling
 HTML_TEMPLATE = '''<!DOCTYPE html>

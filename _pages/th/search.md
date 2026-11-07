@@ -12,7 +12,7 @@ image: /assets/images/favicons/avatar.png
 <div class="search">
   <input type="search" id="search-input" class="search__input" placeholder="พิมพ์คำค้นหา…" autocomplete="off" />
   <p id="search-empty" class="search__hint">พิมพ์คำค้นหาด้านบน ผลลัพธ์จะปรากฏขณะที่คุณพิมพ์</p>
-  <nav id="search-apps" class="search-apps" aria-label="แอปของเรา">
+  <nav id="search-apps" class="search-apps" aria-label="{{ site.data.ui[site.lang].search_apps }}">
     {%- assign lang = site.lang | default: 'en' -%}
     {%- assign coll_apps = 'apps' -%}{%- if lang != 'en' -%}{%- assign coll_apps = 'apps_' | append: lang -%}{%- endif -%}
     {%- assign apps = site[coll_apps] | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}

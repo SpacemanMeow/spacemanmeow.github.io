@@ -18,4 +18,4 @@ lang: ms
 
 ## Mengapa ia berguna
 
-Tabiat kecil sukar dinilai dari ingatan saja. Catatan harian mengubahnya menjadi data: Anda tahu tabiat mana yang konsisten dan mana yang sering terlewat. Meow Habits menambahkan ikon kategori, peringatan, dan widget supaya pencatatan tidak memakan waktu.
+Tabiat kecil sukar dinilai dari ingatan sahaja. Catatan harian mengubahnya menjadi data: Anda tahu tabiat mana yang konsisten dan mana yang sering terlewat. Meow Habits menambahkan ikon kategori, peringatan, dan widget supaya pencatatan tidak memakan waktu.

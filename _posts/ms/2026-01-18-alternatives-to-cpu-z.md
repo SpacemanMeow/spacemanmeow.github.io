@@ -18,7 +18,7 @@ Di bawah ini kami membandingkan enam **alternatif CPU-Z** — dari pemantau suhu
 ![Daftar pendek alternatif CPU-Z: skrin spesifikasi hardware CPU-Z](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
 ![Detail frekuensi core terus CPU-Z](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
 ![Info sensor & bateri CPU-Z](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
-![Ikhtisar hardware peranti CPU-Z](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
+![Ringkasan hardware peranti CPU-Z](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
 ![Tetapan & amaran panas CPU-Z](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
 
 - **Tidak ada suhu CPU terus** di banyak peranti Android — ia melaporkan spesifikasi, bukan panas.
@@ -45,7 +45,7 @@ Di bawah ini kami membandingkan enam **alternatif CPU-Z** — dari pemantau suhu
 ![Monitor suhu & frekuensi CPU Monitor](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
 ![Detail frekuensi core terus CPU Monitor](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
 ![Info sensor & bateri CPU Monitor](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
-![Ikhtisar hardware peranti CPU Monitor](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![Ringkasan hardware peranti CPU Monitor](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
 ![Tetapan & amaran panas CPU Monitor](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
 
 CPU Monitor memaparkan **suhu dan frekuensi CPU waktu nyata**, RAM, bateri, dan penggunaan multicore, lengkap dengan tetingkap terapung, widget, boost satu ketik, dan penggera overheat.
@@ -72,20 +72,20 @@ CPU Monitor memaparkan **suhu dan frekuensi CPU waktu nyata**, RAM, bateri, dan 
 
 ### 2. DevCheck — terbaik untuk sensor detail
 
-![Ikhtisar status sistem DevCheck](/assets/images/blog/dev_check_1.webp){: width="180" .normal }
+![Ringkasan status sistem DevCheck](/assets/images/blog/dev_check_1.webp){: width="180" .normal }
 ![Penggunaan RAM & storan DevCheck](/assets/images/blog/dev_check_2.webp){: width="180" .normal }
 ![Monitor proses & bateri DevCheck](/assets/images/blog/dev_check_3.webp){: width="180" .normal }
 ![Rangkaian & sensor DevCheck](/assets/images/blog/dev_check_4.webp){: width="180" .normal }
 ![Overlay & tetapan DevCheck](/assets/images/blog/dev_check_5.webp){: width="180" .normal }
 
-DevCheck adalah **pelapor hardware dan sensor komprehensif** dengan dasbor bersih: CPU, GPU, bateri, rangkaian, sensor, dan lain-lain, plus monitor sistem dan widget.
+DevCheck adalah **pelapor hardware dan sensor komprehensif** dengan papan pemuka bersih: CPU, GPU, bateri, rangkaian, sensor, dan lain-lain, plus monitor sistem dan widget.
 
 **Kelebihan**
 - **Bacaan hardware mendalam** — SoC, GPU, memori, storan, kamera, sensor.
-- **Dasbor terus** untuk CPU, bateri, dan info thermal.
+- **Papan pemuka terus** untuk CPU, bateri, dan info thermal.
 - **Widget dan monitor sistem** untuk penjejakan berkelanjutan.
 - Antara muka bersih, minim iklan.
-- Percuma dengan upgrade Pro untuk dasbor ekstra.
+- Percuma dengan upgrade Pro untuk papan pemuka ekstra.
 
 **Kelemahan**
 - Tidak ada overlay tetingkap terapung.
@@ -132,7 +132,7 @@ AIDA64 membawa merek diagnostik PC terkenal ke Android dan iOS, dengan **laporan
 
 ### 4. Device Info HW — terbaik info per komponen
 
-![Ikhtisar status sistem Device Info](/assets/images/blog/device_info_1.webp){: width="180" .normal style="height:360px;object-fit:cover" }
+![Ringkasan status sistem Device Info](/assets/images/blog/device_info_1.webp){: width="180" .normal style="height:360px;object-fit:cover" }
 ![Penggunaan RAM & storan Device Info](/assets/images/blog/device_info_2.webp){: width="180" .normal style="height:360px;object-fit:cover" }
 ![Monitor proses & bateri Device Info](/assets/images/blog/device_info_3.webp){: width="180" .normal style="height:360px;object-fit:cover" }
 ![Rangkaian & sensor Device Info](/assets/images/blog/device_info_4.webp){: width="180" .normal style="height:360px;object-fit:cover" }
@@ -161,7 +161,7 @@ Device Info HW adalah **aplikasi info hardware** yang memecah setiap komponen �
 
 ### 5. Droid Hardware Info — terbaik spesifikasi cepat
 
-![Ikhtisar status sistem DevCheck: paparan 1](/assets/images/blog/droid_hardware_1.webp){: width="180" .normal }
+![Ringkasan status sistem DevCheck: paparan 1](/assets/images/blog/droid_hardware_1.webp){: width="180" .normal }
 ![Penggunaan RAM & storan DevCheck: paparan 2](/assets/images/blog/droid_hardware_2.webp){: width="180" .normal }
 ![Rangkaian & sensor DevCheck: paparan 4](/assets/images/blog/droid_hardware_4.webp){: width="180" .normal }
 ![Overlay & tetapan DevCheck: paparan 5](/assets/images/blog/droid_hardware_5.webp){: width="180" .normal }
@@ -180,7 +180,7 @@ Droid Hardware Info adalah **penampil spesifikasi ringan** yang memaparkan siste
 - Tidak ada pemantauan terus, widget, atau tetingkap terapung.
 - Kedalaman lebih rendah dari DevCheck atau AIDA64.
 
-**Terbaik untuk:** siapa saja yang ingin bacaan spesifikasi peranti bersih dan cepat.
+**Terbaik untuk:** sesiapa sahaja yang ingin bacaan spesifikasi peranti bersih dan cepat.
 
 **Muat turun Droid Hardware Info**
 - [Google Play](https://play.google.com/store/apps/details?id=com.inkwired.droidinfo)
@@ -234,13 +234,13 @@ System Monitor adalah **alat Android all-in-one**: monitor CPU, cleaner storan, 
 
 Jadual memeringkat ciri; di sini keenam aplikasi dikelompokkan menurut *apa yang sebenarnya Anda inginkan dari aplikasi hardware*.
 
-- **Dasbor terus, bukan lembar spesifikasi** — daftar pendek **alternatif CPU-Z terbaik android** dimulai dari CPU Monitor: suhu waktu nyata, frekuensi per core, tetingkap terapung, dan penggera overheat.
+- **Papan pemuka terus, bukan lembar spesifikasi** — daftar pendek **alternatif CPU-Z terbaik android** dimulai dari CPU Monitor: suhu waktu nyata, frekuensi per core, tetingkap terapung, dan penggera overheat.
 - **Laporan hardware paling mendalam** — **alternatif DevCheck** atau **alternatif AIDA64** masih unggul tentang detail SoC, GPU, skrin, dan sensor. Device Info HW melangkah per komponen; Droid Hardware Info adalah bacaan percuma cepat.
 - **Toolkit sistem lengkap** — **alternatif 3C Toolbox** adalah pilihan lebih berat dengan pemantauan, statistik bateri, dan pelarasan dalam satu instalasi.
 - **Graf read-only bersih** — **alternatif Simple System Monitor** memberi lengkung CPU, RAM, dan rangkaian tanpa klaim prestasi.
 - **Kesihatan bateri daripada suhu CPU** — **alternatif AccuBattery** adalah pasangan tepat jika suhu pengisian dan siklus charge jadi perhatian.
 
-Dua carian lain mendarat di sini tetapi mengarah keluar dari enam aplikasi ini: **alternatif CPU Float** biasanya permintaan untuk bacaan CPU kecil selalu-di-atas, bukan dasbor penuh, dan **alternatif Cooler Master** tentang hardware PC atau aksesori pendingin, bukan aplikasi pemantauan Android. Tidak satu pun pengganti bacaan sensor thermal terus.
+Dua carian lain mendarat di sini tetapi mengarah keluar dari enam aplikasi ini: **alternatif CPU Float** biasanya permintaan untuk bacaan CPU kecil selalu-di-atas, bukan papan pemuka penuh, dan **alternatif Cooler Master** tentang hardware PC atau aksesori pendingin, bukan aplikasi pemantauan Android. Tidak satu pun pengganti bacaan sensor thermal terus.
 
 Apa pun labelnya, periksa dua hal sebelum pindah: apakah aplikasi membaca sensor thermal nyata tanpa root, dan apakah tingkat percuma tetap menyertakan tetingkap terapung atau widget yang benar-benar Anda pakai?
 

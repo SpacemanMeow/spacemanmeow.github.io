@@ -8,7 +8,7 @@ lang: ms
 
 ## Definisi & Cara Ia Berfungsi
 
-**Pemantau sistem** adalah aplikasi yang mengumpulkan maklumat kondisi peranti — CPU, RAM, storan, dan bateri — ke dalam satu dasbor.
+**Pemantau sistem** adalah aplikasi yang mengumpulkan maklumat kondisi peranti — CPU, RAM, storan, dan bateri — ke dalam satu papan pemuka.
 
 ## Fungsinya
 
@@ -18,4 +18,4 @@ lang: ms
 
 ## Mengapa ia berguna
 
-Saat telefon pintar melambat, satu angka saja jarang cukup: boleh kerana memori penuh, storan hampir habis, atau suhu tinggi. Dasbor gabungan memudahkan mencari penyebabnya. Aplikasi pemantau hanya membaca maklumat yang disediakan Android dan tidak mengubah prestasi peranti secara instan.
+Saat telefon pintar melambat, satu angka sahaja jarang cukup: boleh kerana memori penuh, storan hampir habis, atau suhu tinggi. Papan pemuka gabungan memudahkan mencari penyebabnya. Aplikasi pemantau hanya membaca maklumat yang disediakan Android dan tidak mengubah prestasi peranti secara instan.

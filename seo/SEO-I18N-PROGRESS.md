@@ -33,7 +33,7 @@
 
 ## 1.2 泰语（th）Phase 4 进度
 
-> 泰语从 `id` 骨架逐篇翻译（非 EN 直译），`/id/`→`/th/` 内链；跨组 `alternatives-*` 指向既有 `/id/` 页面（有意保留，待后续 th 补译）。
+> 泰语从 `id` 骨架逐篇翻译（非 EN 直译）；2026-11-07 全站教研已把 6 条遗留的跨组 `/id/` 内链改为 `/th/`，全部内链前缀统一。
 
 | 维度 | 数量 | 状态 |
 |---|---|---|
@@ -42,9 +42,9 @@
 | Glossary 术语页 | 22 / 22 | ✅ |
 | 结构页 | 8 / 8 | ✅ 7 页已补齐（2026-11-07，从 `id` 骨架翻译；htmlproofer 0 failure） |
 | FAQ 标记 | `{:.faq-q}` 260 处 | ✅ 已统一为无空格规范格式 |
-| 骨架对齐 EN | D18 H2/H3·结构块·TOC·图片行序 | ✅（除 `tutorial-meow-todo` 图片/TOC 行序偏移 1 行，frontmatter 行数差，内容一致） |
+| 骨架对齐 EN | D18 H2/H3·结构块·TOC·图片行序 | ✅ 全 66 篇一致（`tutorial-meow-todo-list` 行序已于 2026-11-07 对齐） |
 
-**发布前置条件**：补齐 7 个 TH 结构页后，复跑 htmlproofer 至全绿方可发布。完整教研结论见 `SITE-AUDIT.md` §8（2026-11-07）。
+**发布前置条件**：已满足（结构页 8/8、D11 / D17 / D18 遗留项清零、htmlproofer 0 failure）。完整教研结论见 `SITE-AUDIT.md` §8（2026-11-07）。
 
 ---
 
@@ -279,6 +279,7 @@
 | 2026-11-07 | Phase 3 自动推进 · G10（Floating Assistant）全组 6 篇 | ✅ 完整构建 3 语 / 335 页；Pagefind 335 页 / 12305 词 / 3 语分片 | ✅ 653 内链 / 0 failure | ✅ **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS 0、D14 0 条 | ✅ 新增 6 组页面各 4 条 hreflang | ✅ 6 篇 EN 骨架逐行对齐（行类型差 0、图片行序一致、alt 唯一、TOC 12 锚点命中、`<html lang=id>`）、description ≤160 且无裸 &；alternatives 27 图 / 288 行、tutorial 12 锚点全命中 | ✅ 已填 |
 | 2026-11-07 | Phase 3 自动推进 · G11（Crosshair Aim）全组 6 篇 | ✅ 完整构建 3 语 / 342 页；Pagefind 342 页 / 12403 词 / 3 语分片 | ✅ 672 内链 / 0 failure | ✅ **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS 0、D14 0 条 | ✅ 新增 6 组页面各 4 条 hreflang | ✅ 6 篇 EN 骨架逐行对齐（行类型差 0、图片行序一致、alt 唯一未照抄 EN、内链前缀异常 0、description ≤160 且无裸 &；alternatives 27 图 / 274 行、tutorial 8 锚点全命中） | ✅ 已填 |
 | 2026-11-07 | Phase 5（ms 马来语）全量交付 | ✅ `JEKYLL_ENV=production bash scripts/build.sh`；5 语 / 570 页；Pagefind 570 页 / 29820 词 / 5 语分片 | ✅ 571 文件 / 1099 内链 / 0 failure | ✅ **60 PASS / 4 FAIL / 0 WARN**；ms 全维度 PASS（D03 一一对应 + 结构页 8/8、D06 tagline 红线 12、D09 MISS=0、D17 / D18 骨架全绿）；4 个 FAIL 均为既有 th 遗留项（D11 的 6 条 `/id/` 内链、D17/D18 `tutorial-meow-todo-list` 行序偏移 1 行），与 ms 无关 | ✅ hreflang 6 条 × 570 页、ms 114 页含自身 alternate、x-default 指向 EN | ✅ `/ms/` 首页 11 App、`<html lang=ms>`、66 posts / 11 apps / 22 glossary / 8 pages、feed 存在、子 sitemap 已删 | ✅ 已填 |
+| 2026-11-07 | 全站正确性教研（重点多语言） | ✅ 完整构建 5 语 / 570 页 | ✅ 571 文件 / 1099 内链 / 0 failure | ✅ **64 PASS / 0 FAIL / 0 WARN**（修复 th 6 条 `/id/` 内链 + 1 篇行序）；产物级深度抽验 75 PASS / 0 FAIL | ✅ 6 条 hreflang × 570 页 | ✅ 5 语 slug 一一对应、`<html lang>` 571/571、TOC 锚点全命中 | ✅ 已填 |
 
 ---
 
@@ -390,7 +391,7 @@
 - **锚点**：kramdown 行内 IAL `{:#id}` 会被当作标题文本并污染 auto_id（首轮 120 处断链），改为移除 IAL、把 TOC 与正文 hash 重映射为本地化后标题的 kramdown auto_id，htmlproofer 恢复 0 failure。
 - **词库**：29/29 逐词归一化核对后标「已覆盖(ms)」，6 个未自然出现的词织入 G1 真实句子（不新增行、不改结构块）；§2.1.4 维护日志追加一行。
 - **验收**：完整构建 5 语 / 570 页、Pagefind 5 语分片 / 29820 词；htmlproofer 571 文件 / 1099 内链 / 0 failure；§5 教研 60 PASS，ms 相关维度全部 PASS；产物 hreflang 6 条 / 570 页、`/ms/feed.xml` 存在、子 sitemap 已删。
-- **已知项**：4 个教研 FAIL 均为既有 th 遗留（D11 的 6 条 `/id/` 内链、D17/D18 `tutorial-meow-todo-list` 行序偏移 1 行），与 ms 无关，按 `SITE-AUDIT.md` §1.4 登记。
+- **已知项**：4 个教研 FAIL 原为 th 遗留（D11 的 6 条 `/id/` 内链、D17/D18 `tutorial-meow-todo-list` 行序偏移 1 行），**已于 2026-11-07 全站教研修复并复跑至 64 PASS / 0 FAIL**。
 
 ---
 

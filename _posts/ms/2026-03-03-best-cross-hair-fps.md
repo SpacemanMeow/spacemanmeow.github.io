@@ -68,7 +68,7 @@ Crosshair Aim adalah **overlay bidik silang tersuai** untuk Android dengan pusta
 
 ![Skrin utama overlay Crosshair Hero](/assets/images/blog/crosshair_hero_1.webp){: width="720" .normal }
 
-Crosshair Hero (pakej `me.okitastudio.crosshairherofps`) adalah **aplikasi overlay bidik silang** populer dengan 30+ gaya pratetap, dukungan PNG tersuai, dan tetapan warna/ukuran/posisi.
+Crosshair Hero (pakej `me.okitastudio.crosshairherofps`) adalah **aplikasi overlay bidik silang** popular dengan 30+ gaya pratetap, dukungan PNG tersuai, dan tetapan warna/ukuran/posisi.
 
 **Kelebihan untuk pemain FPS**
 - **30+ pratetap** — gaya bidik silang yang dikenal, ketik dan terus pakai.

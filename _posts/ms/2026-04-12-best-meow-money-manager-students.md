@@ -120,7 +120,7 @@ Pencatatan teras, bajet, dan simbol multi mata wang sepenuhnya percuma; eksport 
 **Apakah tanpa akaun justru merepotkan?**
 {:.faq-q}
 
-Justru sebaliknya — buka lalu catat, satu kata laluan lebih sedikit dan satu kekhawatiran privasi lebih sedikit, dengan **data disimpan secara lokal pada peranti** saja.
+Justru sebaliknya — buka lalu catat, satu kata laluan lebih sedikit dan satu kekhawatiran privasi lebih sedikit, dengan **data disimpan secara lokal pada peranti** sahaja.
 
 **Bolehkah mencatat dua mata wang saat kuliah di luar negeri?**
 {:.faq-q}

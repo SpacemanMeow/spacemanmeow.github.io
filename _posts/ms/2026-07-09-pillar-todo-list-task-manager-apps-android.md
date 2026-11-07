@@ -9,13 +9,13 @@ last_modified_at: 2026-11-06
 lang: ms
 ---
 
-Senarai tugasan hanya berguna kalau Anda benar-benar membukanya, dan aplikasi peringatan tugasan yang tepat membuat itu terjadi alih-alih jadi satu tab lagi yang diabaikan. Panduan 2026 ini membincangkan apa yang membuat aplikasi tugasan harian Android layak digunakan, aplikasi to-do offline percuma mana yang sepadan dengan waktu Anda, dan bagaimana Meow Todo List berhadapan dengan alternatif Todoist dan pemimpin kategori lain-lain.
+Senarai tugasan hanya berguna kalau Anda benar-benar membukanya, dan aplikasi peringatan tugasan yang tepat membuat itu terjadi dan bukannya jadi satu tab lagi yang diabaikan. Panduan 2026 ini membincangkan apa yang membuat aplikasi tugasan harian Android layak digunakan, aplikasi to-do offline percuma mana yang sepadan dengan waktu Anda, dan bagaimana Meow Todo List berhadapan dengan alternatif Todoist dan pemimpin kategori lain-lain.
 
 ## Mengapa aplikasi to-do list penting di Android
 
 Di Android, widget skrin utama yang rapi plus akses offline dan kunci cap jari menjaga senarai tugasan tetap kelihatan sekaligus peribadi, sementara penyegerakan Google Drive / WebDav berarti telefon pintar hilang tidak berarti tugasan hilang. Reka bentuk yang mengutamakan widget juga jadi kelebihan Android dibanding iOS untuk perancangan sekilas.
 
-## Apa saja sebutan orang untuknya
+## Apa sahaja sebutan orang untuknya
 
 Alat yang sama dicari dengan banyak nama: **aplikasi to-do list**, **aplikasi pengurus tugasan**, **aplikasi manajemen tugasan**, atau **aplikasi checklist**. Kueri seperti **aplikasi to-do list percuma terbaik**, **pengurus tugasan offline sederhana**, dan **aplikasi to-do offline** biasanya merujuk hal yang sama — senarai tugasan tanpa akaun yang tetap digunakan di kereta bawah tanah dan tidak menimbun Anda dalam tetapan. Sebahagian menambahkan syarat khusus: **aplikasi kalendar tugasan** untuk perancangan mingguan, **aplikasi peringatan tugasan** untuk tarikh akhir, atau **aplikasi to-do dengan kunci cap jari** untuk catatan peribadi. Daftar pemeriksaan di bawah berlaku untuk semuanya.
 
@@ -25,7 +25,7 @@ Alat yang sama dicari dengan banyak nama: **aplikasi to-do list**, **aplikasi pe
 - **Subtugasan & detail** — pecah kerja dan tambahkan konteks sambil jalan.
 - **Peringatan** — lembut atau tegas, supaya tarikh akhir tidak pernah terlewat.
 - **Penyegerakan & sandaran** — Google Drive / WebDav supaya tugasan selamat saat ganti peranti.
-- **Offline + kunci** — peribadi dan tetap digunakan di mana saja, bahkan saat mode pesawat.
+- **Offline + kunci** — peribadi dan tetap digunakan di mana sahaja, bahkan saat mode pesawat.
 - **UI bersih dan comel** — sesuatu yang senang dibuka setiap hari, bukan yang ditakuti.
 
 ## Gambaran pilihan yang ada

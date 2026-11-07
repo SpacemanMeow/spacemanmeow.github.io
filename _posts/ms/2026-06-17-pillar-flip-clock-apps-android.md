@@ -19,7 +19,7 @@ Satu aplikasi menjawab banyak carian berbeza, dan labelnya biasanya menunjukkan 
 - **Jam skrin penuh** / **jam skrin penuh Android** / **jam flip skrin penuh Android** — telefon pintar disandarkan dan tidak ada yang lain di skrin. **Jam digital besar** adalah ide sama dengan kejelasan sebagai prioritas.
 - **Jam samping tempat tidur** / **jam meja** / **jam flip untuk meja** — penggunaan di samping tempat tidur atau meja, di mana peredupan, perlindungan burn-in, dan pengalaman **jam samping tempat tidur tanpa iklan** lebih penting daripada ciri ekstra.
 - **Widget jam** / **widget jam flip** — versi skrin utama yang lebih kecil, bukan pengambil-alih skrin penuh.
-- **Gunakan telefon pintar lama sebagai jam** — pertanyaan daur ulang: telefon pintar atau tablet Android lama menjadi jam permanen alih-alih dibuang.
+- **Gunakan telefon pintar lama sebagai jam** — pertanyaan daur ulang: telefon pintar atau tablet Android lama menjadi jam permanen dan bukannya dibuang.
 
 Only Clock merangkumi mode skrin penuh, widget jam, dan **jam flip dengan tetapan fokus**, itulah sebabnya ia muncul di kedua perbandingan "paparan" dan "fokus" di bawah.
 
@@ -88,8 +88,8 @@ Pilihan cepat berdasarkan situasi:
 
 - **Jam samping tempat tidur yang benar-benar tidur** — taruh telefon pintar sandaran di samping tempat tidur, buka Only Clock, dan animasi flip plus mode malam auto-redup menjaga waktu tetap terbaca tanpa menerangi ruangan.
 - **Blok fokus di meja** — jalankan jam skrin penuh dengan white noise sebagai jangkar Pomodoro; page-flip besar membuat waktu terasa nyata sehingga Anda berhenti meraih telefon pintar.
-- **Manfaatkan peranti lama** — ubah telefon pintar tidak terpakai atau iPad menjadi jam meja khusus; pilihan 12/24 jam dan tarikh sesuai untuk setup apa pun.
-- **Skrin utama minimalis** — taruh widget jam (dengan tarikh) alih-alih paparan digital polos, dan pertahankan pesona flip di skrin kunci juga.
+- **Manfaatkan peranti lama** — ubah telefon pintar tidak digunakan atau iPad menjadi jam meja khusus; pilihan 12/24 jam dan tarikh sesuai untuk setup apa pun.
+- **Skrin utama minimalis** — taruh widget jam (dengan tarikh) dan bukannya paparan digital polos, dan pertahankan pesona flip di skrin kunci juga.
 
 ## FAQ
 

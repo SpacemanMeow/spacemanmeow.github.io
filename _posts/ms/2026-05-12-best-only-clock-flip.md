@@ -9,7 +9,7 @@ lang: ms
 last_modified_at: 2026-11-07
 ---
 
-Sebuah aplikasi **[jam flip](/ms/glossary/what-is-a-flip-clock/)** mengubah telefon pintar atau tablet apa pun menjadi jam retro yang menenangkan. **Only Clock** adalah **jam flip skrin penuh** dengan animasi flip mulus, tema, mode terapung, white noise, dan tetapan fokus. Di bawah ini kami membandingkannya dengan **Flip Clock** percuma yang populer dan kelebihan masing-masing. Daftar pendek yang sama sering dicari sebagai **jam flip dengan tetapan fokus** atau **jam flip dengan white noise**, jadi kami juga membandingkan ekstra selain animasi.
+Sebuah aplikasi **[jam flip](/ms/glossary/what-is-a-flip-clock/)** mengubah telefon pintar atau tablet apa pun menjadi jam retro yang menenangkan. **Only Clock** adalah **jam flip skrin penuh** dengan animasi flip mulus, tema, mode terapung, white noise, dan tetapan fokus. Di bawah ini kami membandingkannya dengan **Flip Clock** percuma yang popular dan kelebihan masing-masing. Daftar pendek yang sama sering dicari sebagai **jam flip dengan tetapan fokus** atau **jam flip dengan white noise**, jadi kami juga membandingkan ekstra selain animasi.
 
 ## Yang harus dilakukan aplikasi jam flip
 
@@ -74,7 +74,7 @@ Only Clock adalah **jam flip skrin penuh** untuk Android dan iOS dengan animasi 
 ![Widget & skrin kunci Flip Clock](/assets/images/blog/flip_clock_4.webp){: width="180" .normal }
 ![Tetapan & pilihan Flip Clock](/assets/images/blog/flip_clock_5.webp){: width="180" .normal }
 
-Flip Clock (pakej `com.wssc.simpleclock`) adalah **aplikasi jam flip percuma** yang populer — animasi flip skrin penuh yang bersih, kontrol kecerahan dan selalu-menyala, serta tarikh, tanpa iklan.
+Flip Clock (pakej `com.wssc.simpleclock`) adalah **aplikasi jam flip percuma** yang popular — animasi flip skrin penuh yang bersih, kontrol kecerahan dan selalu-menyala, serta tarikh, tanpa iklan.
 
 **Kelebihan**
 - **Percuma dan bersih** — paparan flip retro tanpa repot, tanpa harga, tanpa iklan.

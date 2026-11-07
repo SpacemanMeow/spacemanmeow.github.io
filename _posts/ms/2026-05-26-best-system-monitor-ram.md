@@ -9,7 +9,7 @@ lang: ms
 last_modified_at: 2026-11-07
 ---
 
-Saat game stutter atau aplikasi muat ulang, tersangka utama adalah **RAM** — tetapi "memori rendah" kabur sampai Anda boleh melihatnya. Sebuah [alat info RAM](/ms/glossary/what-is-a-ram-booster/) memaparkan tepat apa yang memakai memori dan berapa yang kosong, sehingga Anda memahami masalah alih-alih buta mengetuk butang "boost". **System Monitor** adalah **aplikasi info-perangkat berbayar satu kali untuk Android** yang mendeteksi memori, CPU, storage, dan data bateri mendetail. Di bawah ini kami membandingkannya dengan **CCleaner**, yang benar-benar memadam cache, untuk memahami memori telefon pintar Anda. Pembaca yang membandingkan **ram booster satu ketik** dengan monitor read-only akan menemukan bedanya di bahagian bawah.
+Saat game stutter atau aplikasi muat ulang, tersangka utama adalah **RAM** — tetapi "memori rendah" kabur sampai Anda boleh melihatnya. Sebuah [alat info RAM](/ms/glossary/what-is-a-ram-booster/) memaparkan tepat apa yang memakai memori dan berapa yang kosong, sehingga Anda memahami masalah dan bukannya buta mengetuk butang "boost". **System Monitor** adalah **aplikasi info-perangkat berbayar satu kali untuk Android** yang mendeteksi memori, CPU, storage, dan data bateri mendetail. Di bawah ini kami membandingkannya dengan **CCleaner**, yang benar-benar memadam cache, untuk memahami memori telefon pintar Anda. Pembaca yang membandingkan **ram booster satu ketik** dengan monitor read-only akan menemukan bedanya di bahagian bawah.
 
 ## Apa yang dibutuhkan alat info RAM
 
@@ -25,10 +25,10 @@ Saat game stutter atau aplikasi muat ulang, tersangka utama adalah **RAM** — t
 
 - **RAM kosong bukan RAM terbuang** — Android sengaja menyimpan aplikasi terpakai di memori supaya terbuka instan. Angka terpakai tinggi itu normal; angka yang harus diawasi adalah apakah aplikasi muat ulang di tengah sesi.
 - **Detail per-aplikasi dan proses** — perbandingan **ram booster android terbaik** sebaiknya menunjukkan proses mana yang benar-benar menahan memori, bukan sekadar ring persentase.
-- **Storage adalah hambatan berbeza** — **pembersih storage file junk android** tentang cache dan sisa di disk; storage rendah boleh melambatkan telefon pintar dengan cara yang tidak ditunjukkan angka RAM.
+- **Storage adalah hambatan berbeza** — **pembersih storage fail junk android** tentang cache dan sisa di disk; storage rendah boleh melambatkan telefon pintar dengan cara yang tidak ditunjukkan angka RAM.
 - **Lengkung bateri dan panas** — sebuah **monitor bateri dengan lengkung suhu** membantu memisahkan throttle thermal dari masalah memori, itulah sebabnya System Monitor menaruh bacaan itu di samping paparan RAM.
 
-CCleaner bertindak pada file; System Monitor melaporkan angka, termasuk overlay **system monitor tetingkap terapung android** yang boleh dibiarkan menyala saat pengujian. Tidak satu pun membuat telefon pintar lebih cepat dengan membunuh proses — itulah had jujur kategori ini.
+CCleaner bertindak pada fail; System Monitor melaporkan angka, termasuk overlay **system monitor tetingkap terapung android** yang boleh dibiarkan menyala saat pengujian. Tidak satu pun membuat telefon pintar lebih cepat dengan membunuh proses — itulah had jujur kategori ini.
 
 ## Para pesaing sekilas
 
@@ -67,12 +67,12 @@ System Monitor adalah **alat info-perangkat Android berbayar**. Dengan harga mua
 ## CCleaner, lebih dalam
 
 ![Skrin utama pindai bersih CCleaner](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
-![File junk & cache CCleaner](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
+![Fail junk & cache CCleaner](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
 ![Boost memori & proses CCleaner](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
 ![Bersih privasi & sisa CCleaner](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
 ![Tetapan & jadual CCleaner](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
 
-CCleaner (pakej `com.piriform.ccleaner`, dari Gen Digital) fokus pada pembersihan — cache, file temp, dan duplikat.
+CCleaner (pakej `com.piriform.ccleaner`, dari Gen Digital) fokus pada pembersihan — cache, fail temp, dan duplikat.
 
 **Kelebihan untuk RAM/storage**
 - **Pembersihan storage** — memadam cache dan junk yang benar-benar memakan ruang.
@@ -102,7 +102,7 @@ CCleaner (pakej `com.piriform.ccleaner`, dari Gen Digital) fokus pada pembersiha
 
 ## Senario khas
 
-- **Tangkap penyebab stutter** — buka paparan RAM sebelum dan sesudah meluncurkan game untuk melihat tepat aplikasi mana yang menguras memori, alih-alih buta mengetuk boost.
+- **Tangkap penyebab stutter** — buka paparan RAM sebelum dan sesudah meluncurkan game untuk melihat tepat aplikasi mana yang menguras memori, dan bukannya mengetuk boost secara buta.
 - **Burulah pemakan memori** — daftar proses menunjukkan aplikasi mana yang menahan RAM terbanyak, sehingga Anda menutupnya sendiri.
 - **Awasi terus** — lihat RAM jumlah/terpakai/kosong bergeser nyata semasa Anda beralih tugasan.
 - **Pasangkan dengan storage** — lihat apa yang memenuhi peranti, bukan sekadar bar memori.

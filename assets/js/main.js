@@ -64,19 +64,20 @@
       g.list.push(el);
     });
 
+    var lbUi = window.SITE_UI || {};
     var lb = document.createElement('div');
     lb.className = 'lightbox';
     lb.setAttribute('role', 'dialog');
     lb.setAttribute('aria-modal', 'true');
     lb.setAttribute('aria-hidden', 'true');
     lb.innerHTML =
-      '<button class="lightbox__close" type="button" aria-label="Close preview">&times;</button>' +
-      '<button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous">&lsaquo;</button>' +
+      '<button class="lightbox__close" type="button" aria-label="' + (lbUi.lightbox_close || 'Close preview') + '">&times;</button>' +
+      '<button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="' + (lbUi.lightbox_prev || 'Previous') + '">&lsaquo;</button>' +
       '<figure class="lightbox__stage">' +
         '<img class="lightbox__img" alt="" />' +
         '<figcaption class="lightbox__caption" hidden></figcaption>' +
       '</figure>' +
-      '<button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next">&rsaquo;</button>';
+      '<button class="lightbox__nav lightbox__nav--next" type="button" aria-label="' + (lbUi.lightbox_next || 'Next') + '">&rsaquo;</button>';
     document.body.appendChild(lb);
 
     var lbImg = lb.querySelector('.lightbox__img');

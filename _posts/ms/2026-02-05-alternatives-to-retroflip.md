@@ -50,7 +50,7 @@ Only Clock adalah **jam flip skrin penuh** untuk Android dan iOS dengan animasi 
 - **Jam terapung** overlay supaya Anda boleh melihat waktu di atas aplikasi lain.
 - **Widget jam** untuk skrin utama, plus paparan 12/24-jam dan tarikh.
 - **Berjalan di Android dan iOS**, dan bekerja hebat di telefon pintar sandaran atau iPad sebagai jam meja.
-- Tanpa akaun diperlukan — buka saja, jam terus jalan.
+- Tanpa akaun diperlukan — buka sahaja, jam terus jalan.
 
 **Kelemahan**
 - Tema dan suara terkaya berada di sebalik buka kunci sekali bayar atau langganan kecil.
@@ -72,7 +72,7 @@ Only Clock adalah **jam flip skrin penuh** untuk Android dan iOS dengan animasi 
 ![Penggera & tetapan FliTik](/assets/images/blog/flitik_flip_clock_3.webp){: width="180" .normal }
 ![Widget & skrin kunci FliTik](/assets/images/blog/flitik_flip_clock_4.webp){: width="180" .normal }
 
-FliTik adalah **jam flip** merentas platform yang mengedepankan ritual: animasi flip memukau, tetapan Pomodoro, mode hitung-maju/hitung-mundur, dan suara ambient sehingga setiap saat terasa disengaja. Populer sebagai pendamping fokus belajar dan kerja.
+FliTik adalah **jam flip** merentas platform yang mengedepankan ritual: animasi flip memukau, tetapan Pomodoro, mode hitung-maju/hitung-mundur, dan suara ambient sehingga setiap saat terasa disengaja. Popular sebagai pendamping fokus belajar dan kerja.
 
 **Kelebihan**
 - **Tetapan Pomodoro** plus mode hitung-maju dan hitung-mundur untuk sprint belajar dan kerja.

@@ -1,4 +1,5 @@
 {%- assign lang = site.lang | default: 'en' -%}
+{%- assign ui = site.data.ui[lang] -%}
 {%- assign lp = '' -%}{%- if lang != 'en' -%}{%- assign lp = '/' | append: lang -%}{%- endif -%}
 {%- assign home = '/' | prepend: lp -%}
 {%- assign active = page.nav -%}
@@ -24,14 +25,14 @@
       </span>
     </a>
 
-    <button class="nav-toggle" type="button" aria-label="Toggle navigation" data-nav-toggle>
+    <button class="nav-toggle" type="button" aria-label="{{ ui.nav_toggle }}" data-nav-toggle>
       <span></span><span></span><span></span>
     </button>
 
     <div class="header-tools">
       <div class="lang-switch" data-lang-switch>
         {%- assign cur_lang = site.lang | default: 'en' -%}
-        <button class="lang-switch__btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Language">
+        <button class="lang-switch__btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="{{ ui.lang_switch }}">
           {%- for lng in site.data.languages -%}
           {%- if lng.code == cur_lang -%}{{ lng.label }}{%- endif -%}
           {%- endfor -%}
@@ -43,14 +44,14 @@
         </ul>
       </div>
 
-      <a class="header-search" href="{{ '/search/' | prepend: lp | relative_url }}" aria-label="Search" title="Search">
+      <a class="header-search" href="{{ '/search/' | prepend: lp | relative_url }}" aria-label="{{ ui.search_label }}" title="{{ ui.search_label }}">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <circle cx="11" cy="11" r="7" />
           <line x1="21" y1="21" x2="16.65" y2="16.65" />
         </svg>
       </a>
 
-      <button class="theme-toggle" type="button" data-theme-toggle aria-label="切换深浅模式">
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="{{ ui.theme_toggle }}">
       <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <circle cx="12" cy="12" r="4" />
         <line x1="12" y1="2" x2="12" y2="5" />
@@ -75,6 +76,7 @@
       {%- endfor %}
     </nav>
 
-    <script>window.SITE_LANGS = {{ site.data.languages | map: "code" | jsonify }};</script>
+    <script>window.SITE_LANGS = {{ site.data.languages | map: "code" | jsonify }};
+window.SITE_UI = { lightbox_close: {{ ui.lightbox_close | jsonify }}, lightbox_prev: {{ ui.lightbox_prev | jsonify }}, lightbox_next: {{ ui.lightbox_next | jsonify }} };</script>
   </div>
 </header>

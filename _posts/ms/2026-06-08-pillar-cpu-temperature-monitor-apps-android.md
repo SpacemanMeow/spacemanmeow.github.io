@@ -48,7 +48,7 @@ Di Android, status-bar dan tetingkap terapung desktop plus widget skrin utama me
 ![Monitor suhu CPU android: suhu & frekuensi terus](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
 ![Tetapan & amaran panas CPU Monitor](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
 ![Info monitor suhu bateri & sensor di CPU Monitor](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
-![Ikhtisar hardware peranti CPU Monitor](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![Ringkasan hardware peranti CPU Monitor](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
 ![Frekuensi core terus monitor CPU multicore android](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
 
 CPU Monitor memaparkan suhu dan frekuensi CPU waktu nyata, RAM, bateri, dan penggunaan multicore di Android, lengkap dengan tetingkap terapung, widget, dan penggera overheat.

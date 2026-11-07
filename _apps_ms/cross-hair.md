@@ -25,7 +25,7 @@ faq:
       Boleh. Atur ukuran, warna, dan posisi crosshair supaya sesuai dengan kontrol senjata Anda, serta pilih dari beragam reka bentuk yang tersedia.
   - question: Apakah berfungsi di semua game penembakan?
     answer: >-
-      Ya. Crosshair Aim mendukung hampir semua game FPS dan aksi populer, dan dapat menghasilkan crosshair bahkan untuk senjata yang tidak memilikinya.
+      Ya. Crosshair Aim mendukung hampir semua game FPS dan aksi popular, dan dapat menghasilkan crosshair bahkan untuk senjata yang tidak memilikinya.
   - question: Apakah Crosshair Aim percuma?
     answer: >-
       Crosshair Aim percuma digunakan dengan sejumlah gaya crosshair dasar. Gaya lanjutan dan premium memerlukan pembelian versi pro.
@@ -49,7 +49,7 @@ Crosshair Aim Pro menghasilkan crosshair tersuai untuk senjata yang tidak menyed
 
 **Mendukung berbagai game**
 
-Crosshair Aim mendukung hampir semua game penembakan FPS populer untuk menukar reka bentuk crosshair bawaannya, termasuk beragam judul game aksi utama.
+Crosshair Aim mendukung hampir semua game penembakan FPS popular untuk menukar reka bentuk crosshair bawaannya, termasuk beragam judul game aksi utama.
 
 ## Istilah berkaitan
 

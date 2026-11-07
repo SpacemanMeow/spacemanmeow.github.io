@@ -30,7 +30,7 @@ faq:
       Boleh. Buat beberapa tabiat dengan siklus harian, mingguan, bulanan, atau khusus, lalu pantau streak, tingkat penyelesaian, dan trend jangka panjang lewat graf visual.
   - question: Apakah Meow Habits bekerja offline dan menjaga data?
     answer: >-
-      Ya. Catat tabiat kapan saja tanpa internet, kunci aplikasi dengan cap jari, dan sandarkan data ke Google Drive atau WebDAV.
+      Ya. Catat tabiat bila-bila sahaja tanpa internet, kunci aplikasi dengan cap jari, dan sandarkan data ke Google Drive atau WebDAV.
   - question: Bolehkah progres tabiat diekspor?
     answer: >-
       Boleh. Eksport laporan CSV untuk menganalisis trend tabiat dan memperbaiki rutinitas.

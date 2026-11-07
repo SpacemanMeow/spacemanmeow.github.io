@@ -112,7 +112,7 @@ Streaks (dari Crunchy Bagel) adalah **peraih Apple Design Award** dan to-do tabi
 - **Rutinitas pagi dan malam** — sematkan 'minum air', 'regang badan', dan 'tanpa HP di kasur' ke widget skrin utama lalu centang dari skrin kunci tanpa membuka aplikasi.
 - **Build dan break sekaligus** — catat tabiat baik ('baca 20 halaman') dan yang buruk ('berhenti scroll') di aplikasi yang sama, supaya kemauan tidak terbagi ke banyak alat.
 - **Peribadi di peranti bersama** — tanpa akaun; rutinitas Anda terkunci di sebalik cap jari, selamat di tablet keluarga.
-- **Offline di mana saja** — catat di pesawat atau di saluran kereta tanpa isyarat; sandaran WebDav atau Google Drive menjaga sejarah tetap selamat lintas peranti.
+- **Offline di mana sahaja** — catat di pesawat atau di saluran kereta tanpa isyarat; sandaran WebDav atau Google Drive menjaga sejarah tetap selamat lintas peranti.
 
 ## FAQ
 

@@ -26,7 +26,7 @@ Menilai **aplikasi jurnal mood** lebih tentang apakah Anda masih mencatat di har
 
 1. **Waktu mencatat** — satu ketik untuk emosi, dengan tag aktivitas pilihan. Jika satu entri perlu halaman kosong, itu jurnal, bukan **penjejak mood percuma** yang akan terus Anda pakai.
 2. **Versi percuma yang bertahan** — **aplikasi mood tracker percuma terbaik** semestinya memungkinkan Anda terus mencatat dan meninjau trend tanpa hitung mundur percubaan atau paywall pada kalendar.
-3. **Data yang boleh dibawa** — eksport dan bawaan lokal; akaun cloud saja jadi perbelanjaan nyata saat aplikasi mengubah harga.
+3. **Data yang boleh dibawa** — eksport dan bawaan lokal; akaun cloud sahaja jadi perbelanjaan nyata saat aplikasi mengubah harga.
 4. **Graf yang menjawab pertanyaan** — peta panas kalendar dan butiran mood/aktivitas, bukan sekadar angka streak.
 
 Dengan pemeriksaan itu, Meow Mood adalah pilihan **aplikasi mood tracker Android** terkuat untuk entri cepat dan peribadi, sementara Day One menang bila Anda ingin jurnal panjang berfoto dan tidak keberatan langganan.
@@ -105,7 +105,7 @@ Day One adalah jurnal digital paling awal dan paling banyak meraih penghargaan �
 
 - Ingin **catatan mood cepat, peribadi, satu ketik** → **Meow Mood**.
 - Ingin **jurnal hidup kaya dan tersinkron** serta menerima langganan → **Day One**.
-- Ingin **catatan mikro berikon saja** → **Daylio**.
+- Ingin **catatan mikro berikon sahaja** → **Daylio**.
 - Ingin **struktur berprompt** → **Grid Diary**.
 
 [Dapatkan Meow Mood](/ms/apps/meow-mood-diary/) — tersedia di Android dan iOS.
@@ -115,7 +115,7 @@ Day One adalah jurnal digital paling awal dan paling banyak meraih penghargaan �
 - **Catatan cepat saat hari buruk** — pada malam yang berat, ketik satu emosi dan beberapa tag; tanpa paragraf, sehingga buku harian tetap bertahan di hari yang biasanya Anda lewatkan.
 - **Peribadi secara bawaan** — entri tetap di peranti di sebalik kunci cap jari; pada telefon pintar keluarga bersama, pikiran Anda tidak pernah tersinkron ke cloud vendor kecuali Anda memilih Google Drive.
 - **Menemukan pola** — kalendar dan graf memunculkan 'rasa muram hari Minggu' atau lonjakan setelah kopi, mengubah perasaan samar jadi sesuatu yang boleh ditindaklanjuti.
-- **Offline di mana saja** — catat di pesawat atau di area kereta bawah tanah tanpa isyarat; tidak ada yang perlu Wi-Fi untuk merekam momen.
+- **Offline di mana sahaja** — catat di pesawat atau di area kereta bawah tanah tanpa isyarat; tidak ada yang perlu Wi-Fi untuk merekam momen.
 
 ## FAQ
 

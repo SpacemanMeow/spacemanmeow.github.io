@@ -40,7 +40,7 @@ One Widget adalah **toolkit skrin utama Android serba ada** yang memuat 500+ wid
 
 ### Kelebihan
 - **500+ widget jadi** — tanpa editor, tanpa keahlian reka bentuk; ketik dan taruh.
-- **Empat gaya populer** — Glass, Material You, Galaxy One UI, Nothing — merangkumi sebahagian besar selera estetika.
+- **Empat gaya popular** — Glass, Material You, Galaxy One UI, Nothing — merangkumi sebahagian besar selera estetika.
 - **8 kategori fungsional**: shortcut aplikasi, quick toggle sistem (Wi-Fi, Bluetooth, senter…), info hardware peranti (bateri, RAM, storage), jam/kalendar, catatan/kutipan, kontak, peluncur aplikasi agregat (Google/AI/sosial), dan mini alat (kompas, pedometer, kalkulator).
 - **Pelarasan ukuran penuh** (1x1 hingga 2x6), warna latar ikon, dan radius sudut supaya sesuai dengan tema Anda.
 - **Quick toggle dan shortcut aplikasi** sebagai widget skrin utama — sungguh berguna, bukan sekadar dekoratif.

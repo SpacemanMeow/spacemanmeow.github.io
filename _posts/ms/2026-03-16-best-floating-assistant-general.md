@@ -9,7 +9,7 @@ lang: ms
 last_modified_at: 2026-11-07
 ---
 
-Sebuah [asisten terapung](/ms/glossary/what-is-a-floating-window/) menaruh butang kecil di tepi skrin yang memicu aksi yang sering Anda gunakan — back, home, recent, lock, tangkapan skrin — tanpa mencari butang fisik. **Floating Assistant** adalah **aplikasi Android bola tepi terapung** dengan pelarasan mendalam. Di bawah kami membandingkannya dengan **Assistive Touch**, kelas butang terapung populer, untuk multitasking sehari-hari. Ini daftar pendek yang dimaksud orang dengan **aplikasi asisten terapung android terbaik** atau **aplikasi assistive touch android terbaik 2026**.
+Sebuah [asisten terapung](/ms/glossary/what-is-a-floating-window/) menaruh butang kecil di tepi skrin yang memicu aksi yang sering Anda gunakan — back, home, recent, lock, tangkapan skrin — tanpa mencari butang fisik. **Floating Assistant** adalah **aplikasi Android bola tepi terapung** dengan pelarasan mendalam. Di bawah kami membandingkannya dengan **Assistive Touch**, kelas butang terapung popular, untuk multitasking sehari-hari. Ini daftar pendek yang dimaksud orang dengan **aplikasi asisten terapung android terbaik** atau **aplikasi assistive touch android terbaik 2026**.
 
 ## Apa yang dibutuhkan asisten terapung
 
@@ -71,7 +71,7 @@ Floating Assistant adalah **aplikasi Android bola tepi terapung** dengan kumpula
 ![Assistive Touch kebolehcapaian dan pilihan](/assets/images/blog/assistive_touch_4.webp){: width="180" .normal }
 ![Assistive Touch tetapan dan kebenaran](/assets/images/blog/assistive_touch_5.webp){: width="180" .normal }
 
-Assistive Touch (pakej `mtr.assistivetouch.easytools`) adalah aplikasi butang terapung populer yang menawarkan butang virtual dan pintasan.
+Assistive Touch (pakej `mtr.assistivetouch.easytools`) adalah aplikasi butang terapung popular yang menawarkan butang virtual dan pintasan.
 
 **Kelebihan untuk penggunaan sehari-hari**
 - **Bola terapung + butang virtual** — back, home, recent, lock, dan lain-lain sebagai butang di skrin.

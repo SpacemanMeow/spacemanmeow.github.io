@@ -23,7 +23,7 @@ Overlay yang sama punya beberapa nama: sebuah **bidik silang skrin**, sebuah **b
 
 - **Gaya bidik silang** — titik, lingkaran, tanda, dan bentuk dinamis, bukan hanya satu retikel statik.
 - **Pelarasan** — ukuran, warna, ketebalan, dan posisi untuk mencocokkan kontrol dan senjata Anda.
-- **Dukungan game** — bekerja lintas shooter populer, bukan hanya satu judul.
+- **Dukungan game** — bekerja lintas shooter popular, bukan hanya satu judul.
 - **Prestasi overlay** — tetap di atas tanpa lag atau memicu masalah anti-cheat.
 - **Pratetap per senjata** — simpan bidik silang per game supaya tidak setel ulang setiap sesi.
 - **Percuma vs pro** — berapa banyak gaya percuma dan apa yang ditambahkan buka pro.
@@ -78,7 +78,7 @@ Pilihan cepat berdasarkan situasi:
 ## Senario umum
 
 - **Tidak ada bidik silang bawaan** — sebahagian senjata atau mode tidak menyertakan retikel; letakkan yang tersuai supaya Anda selalu punya titik aim.
-- **Senjata beda, kebutuhan beda** — simpan pratetap per game atau per senjata dan beralih dalam satu ketik alih-alih setel ulang.
+- **Senjata beda, kebutuhan beda** — simpan pratetap per game atau per senjata dan beralih dalam satu ketik dan bukannya setel ulang.
 - **Map visibilitas rendah** — pilih warna dan ketebalan kontras tinggi supaya retikel tetap kelihatan di adegan gelap atau terang.
 - **Pertahankan frame rate** — overlay ringan dan tetap di atas tanpa menjatuhkan FPS, sehingga bantuan aim tidak memakan prestasi.
 - **Selamat by design** — ini overlay hanya visual yang tidak menyentuh memori atau data game, sehingga selamat dari anti-cheat.

@@ -17,7 +17,7 @@ Kategori yang sama dikenal dengan beberapa nama, dan masing-masing menunjuk ke t
 
 - **Widget Android** / **widget skrin utama** / **widget tersuai** — label umum untuk apa pun yang Anda taruh di peluncur. Mencari **aplikasi widget Android terbaik** atau **widget Android 2026** biasanya berarti pustaka jadi, bukan kanvas kosong.
 - **Pembuat widget Android** — sebuah builder tempat Anda melukis widget sendiri (KWGT adalah acuannya). Ini kebalikan dari pustaka pratetap, dan memakan waktu tetapan.
-- **Aplikasi widget** — sering berarti permintaan akan satu aplikasi yang merangkumi jam, kalendar, bateri, dan toggle alih-alih lima instalasi satu fungsi.
+- **Aplikasi widget** — sering berarti permintaan akan satu aplikasi yang merangkumi jam, kalendar, bateri, dan toggle dan bukannya lima instalasi satu fungsi.
 
 Kata gaya juga menjadi carian: **widget Material You** mengikuti palet wallpaper, **widget kaca Android** / **widget gaya iOS Android** meniru paparan tembus pandang iOS, **widget Nothing** sesuai dengan estetika dot-matrix Nothing, dan **widget Samsung One UI** sesuai dengan gaya bawaan Galaxy. One Widget menyediakan keempatnya sebagai pratetap, itulah sebabnya ia muncul di kedua perbandingan "pembuat" dan "jadi" di bawah.
 

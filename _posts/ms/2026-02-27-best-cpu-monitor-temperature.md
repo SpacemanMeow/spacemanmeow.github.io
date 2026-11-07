@@ -25,7 +25,7 @@ Bacaan suhu hanya berguna bila terpercaya dan murah untuk dibiarkan terbuka. Emp
 
 1. **Dari mana angka berasal** — sebuah aplikasi **monitor suhu CPU android** harus membaca sensor thermal peranti, bukan memperkirakan panas dari beban CPU. Jika angka tidak pernah bergerak saat mengecas, itu tebakan.
 2. **Semua core, plus lengkung** — **monitor suhu dan frekuensi CPU android** berarti frekuensi per-core dan **monitor sejarah frekuensi CPU**, sehingga Anda boleh melihat lonjakan mana yang mendahului throttling.
-3. **Amaran yang boleh ditindak** — sebuah **aplikasi penggera overheat CPU** harus membiarkan Anda menetapkan ambang dan memberi notifikasi sebelum telefon pintar throttling, alih-alih hanya memaparkan angka merah setelahnya.
+3. **Amaran yang boleh ditindak** — sebuah **aplikasi penggera overheat CPU** harus membiarkan Anda menetapkan ambang dan memberi notifikasi sebelum telefon pintar throttling, dan bukannya hanya memaparkan angka merah setelahnya.
 4. **Tetap ringan dan read-only** — sebuah **monitor CPU multicore android** yang polling terlalu agresif justru memanaskan telefon pintar yang diukurnya. CPU Monitor membaca sensor tanpa root dan tidak mengubah tetapan sistem.
 
 CPU Monitor menang di cek 1–3 dengan bacaan waktu nyata, sejarah, dan penggera; CPU-Z lebih kuat bila Anda terutama ingin inventaris hardware.
@@ -44,7 +44,7 @@ CPU Monitor menang di cek 1–3 dengan bacaan waktu nyata, sejarah, dan penggera
 ![Aplikasi monitor suhu CPU terbaik android: bacaan thermal terus](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
 ![Tetapan & amaran panas CPU Monitor](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
 ![Info sensor & bateri CPU Monitor](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
-![Ikhtisar hardware peranti CPU Monitor](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![Ringkasan hardware peranti CPU Monitor](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
 ![Detail frekuensi core terus CPU Monitor](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
 
 CPU Monitor adalah **monitor suhu dan beban CPU** untuk Android. Teras — suhu terus, frekuensi per-core, dan beban — percuma; VIP menambah sejarah dan pilihan lebih dalam.
@@ -69,7 +69,7 @@ CPU Monitor adalah **monitor suhu dan beban CPU** untuk Android. Teras — suhu 
 ![Monitor suhu & frekuensi CPU-Z](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
 ![Detail frekuensi core terus CPU-Z](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
 ![Info sensor & bateri CPU-Z](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
-![Ikhtisar hardware peranti CPU-Z](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
+![Ringkasan hardware peranti CPU-Z](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
 ![Tetapan & amaran panas CPU-Z](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
 
 CPU-Z (pakej `com.cpuid.cpu_z`) adalah port Android dari alat CPUID terkenal, berfokus pada pelaporan detail hardware.

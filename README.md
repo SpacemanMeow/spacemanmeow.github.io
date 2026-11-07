@@ -1,43 +1,29 @@
-# Chirpy Starter
+# Meow Apps Studio
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+[spacemanmeow.com](https://spacemanmeow.com) 是 Meow Apps Studio 的官方网站。我们为 iOS 与 Android 打造美观而实用的移动应用，并在官网上提供应用介绍、使用指南、对比与常见问题。
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+## 网站内容
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+- **应用介绍**：11 款应用的功能说明、截图与详情页
+- **博客**：使用教程、选购对比、术语解释与常见问题
+- **站内搜索**：查找文章、应用与术语
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+## 应用
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+日常与效率：Meow Money Manager、Meow Todo List、Meow Habits、Meow Mood Diary、Meow FM、Only Clock。
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+工具与个性化：One Widget、Floating Assistant、Crosshair Aim、CPU Monitor、System Monitor。
 
-## Usage
+涵盖记账、待办与习惯养成、心情日记、白噪音与专注、翻页时钟、桌面小组件、悬浮助手、游戏准星，以及 CPU 与系统状态监控。各应用的详细介绍与下载方式见[官网首页](https://spacemanmeow.com/)。
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+## 语言
 
-## Contributing
+官网提供 English（默认）、中文、Bahasa Indonesia、ไทย、Bahasa Melayu 五个语言版本，可在页面右上角切换。
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+## 链接
 
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+- 官网：<https://spacemanmeow.com>
+- [Google Play 开发者页](https://play.google.com/store/apps/dev?id=9089535463678444622)
+- [App Store 开发者页](https://apps.apple.com/us/developer/%E5%A2%83-%E9%AB%98/id1528847758)
+- [隐私政策](https://spacemanmeow.com/privacy/) · [使用条款](https://spacemanmeow.com/terms/)
+- 联系邮箱：meow@spacemanmeow.com

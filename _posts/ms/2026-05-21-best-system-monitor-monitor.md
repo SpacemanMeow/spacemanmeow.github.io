@@ -23,7 +23,7 @@ Saat telefon pintar terasa lemot, Anda ingin tahu **alasannya** — core mana ya
 
 Memeringkat kategori ini sebenarnya memisahkan dua kerja: melaporkan apa yang dilakukan telefon pintar, dan mengubah apa yang disimpan di dalamnya. Empat cek:
 
-1. **Akurasi read-only** — sebuah **aplikasi cleaner android** memadam file; daftar pendek **system monitor cpu ram bateri cleaner** sebaiknya dahulu membuktikan angka adalah bacaan sensor dan sistem nyata, bukan perkiraan.
+1. **Akurasi read-only** — sebuah **aplikasi cleaner android** memadam fail; daftar pendek **system monitor cpu ram bateri cleaner** sebaiknya dahulu membuktikan angka adalah bacaan sensor dan sistem nyata, bukan perkiraan.
 2. **Satu skrin, semua angka** — carian **system monitor android dengan cleaner dan booster** biasanya berarti seseorang ingin CPU, RAM, storage, dan bateri bersama. System Monitor menutupi separuh pelaporan; CCleaner menutupi separuh pembersihan, dan tidak satu pun jujur melakukan keduanya.
 3. **Overlay yang tetap ringan** — bacaan **system monitor dengan tetingkap terapung** atau **system monitor tetingkap terapung android** berguna hanya bila ia tidak sendiri menambah beban semasa Anda gaming.
 4. **Tanpa klaim kelajuan palsu** — sebuah **alat all-in-one android** yang menjanjikan perbaikan satu ketik sedang membuat klaim yang sebaiknya tidak diklaim monitor read-only. Mematikan aplikasi latar di Android modern sering justru memakan bateri lebih banyak daripada menghematnya.
@@ -50,14 +50,14 @@ System Monitor adalah **alat info-perangkat Android berbayar**. Dengan harga mua
 
 **Kelebihan untuk pemantauan**
 - **Deteksi hardware detail** — model/arsitektur CPU, frekuensi per-core, jumlah dan penggunaan memori, butiran storage, bacaan sensor.
-- **CPU/RAM/storage/bateri terus** — dasbor jelas tentang yang terjadi kini.
+- **CPU/RAM/storage/bateri terus** — papan pemuka jelas tentang yang terjadi kini.
 - **Daftar proses** — lihat aplikasi berjalan dan penggunaan sumber dayanya.
 - **Bacaan suhu** — tangkap panas bersama beban.
 - **Ringan dan lokal** — berjalan di peranti, tanpa akaun, tanpa cloud.
 - **Berbayar, tanpa upsell** — set ciri penuh dengan harga satu kali; tanpa dinding VIP.
 
 **Kelemahan untuk pemantauan**
-- **Hanya info** — ia melaporkan spesifikasi dan statik; tidak mengosongkan memori, membersihkan file, atau membunuh tugasan.
+- **Hanya info** — ia melaporkan spesifikasi dan statik; tidak mengosongkan memori, membersihkan fail, atau membunuh tugasan.
 - **Tumpang tindih alat OS** — tetapan Android sendiri sudah memaparkan sebahagian ini.
 - **Berbayar di awal** — tidak ada tier percuma untuk cuba dulu.
 
@@ -68,7 +68,7 @@ System Monitor adalah **alat info-perangkat Android berbayar**. Dengan harga mua
 ## CCleaner, lebih dalam
 
 ![Skrin utama pindai bersih CCleaner](/assets/images/blog/ccleaner_1.webp){: width="180" .normal }
-![File junk & cache CCleaner](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
+![Fail junk & cache CCleaner](/assets/images/blog/ccleaner_2.webp){: width="180" .normal }
 ![Boost memori & proses CCleaner](/assets/images/blog/ccleaner_3.webp){: width="180" .normal }
 ![Bersih privasi & sisa CCleaner](/assets/images/blog/ccleaner_4.webp){: width="180" .normal }
 ![Tetapan & jadual CCleaner](/assets/images/blog/ccleaner_5.webp){: width="180" .normal }
@@ -76,13 +76,13 @@ System Monitor adalah **alat info-perangkat Android berbayar**. Dengan harga mua
 CCleaner (pakej `com.piriform.ccleaner`, dari Gen Digital) terkenal untuk pembersihan PC dan membawa merek itu ke Android dengan pembersihan junk dan alat prestasi.
 
 **Kelebihan untuk pemantauan/pembersihan**
-- **Pembersihan junk & cache** — mengosongkan storage dari file temp.
-- **Pencari file duplikat** — mengambil kembali ruang dari pengulangan.
+- **Pembersihan junk & cache** — mengosongkan storage dari fail temp.
+- **Pencari fail duplikat** — mengambil kembali ruang dari pengulangan.
 - **Pembersihan privasi** — memadam jejak penjelajahan.
 - **Merek merentas platform** — familier dari desktop.
 
 **Kelemahan untuk pemantauan**
-- **Statik terus lemah** — ia lebih membersihkan daripada memantau; tidak ada dasbor waktu nyata kaya.
+- **Statik terus lemah** — ia lebih membersihkan daripada memantau; tidak ada papan pemuka waktu nyata kaya.
 - **Terhad di Android** — Android modern sudah mengurus memori dan cache automatik, jadi hasilnya sedikit.
 - **Langganan** — ciri Pro perlu pakej berbayar.
 - **Sejarah privasi** — merek pernah menghadapi pengawasan atas praktik data.
@@ -104,7 +104,7 @@ CCleaner (pakej `com.piriform.ccleaner`, dari Gen Digital) terkenal untuk pember
 
 ## Senario khas
 
-- **Temukan penyebab lemot** — buka dasbor untuk melihat core mana yang menempel, sisa RAM berapa, dan apa yang memakan storage, alih-alih menebak.
+- **Temukan penyebab lemot** — buka papan pemuka untuk melihat core mana yang menempel, sisa RAM berapa, dan apa yang memakan storage, dan bukannya menebak.
 - **Lacak keausan bateri** — periksa lengkung suhu, kesihatan, dan tegangan untuk menangkap penurunan kapasitas sejak awal.
 - **Awasi proses** — daftar proses menunjukkan aplikasi mana yang menghisap CPU atau memori kini.
 - **Intip tanpa privasi** — semua bacaan lokal, tanpa akaun dan tanpa muat naik cloud, sehingga data peranti tetap di peranti.

@@ -121,7 +121,7 @@ Loop adalah **aplikasi habit tracker** yang **percuma, open-source, dan bebas ik
 
 **Kekurangan**
 - **Hanya Android** — tanpa iOS, web, atau klien desktop.
-- **Tanpa penyegerakan cloud atau lintas peranti**; data disimpan lokal dengan eksport/import manual saja.
+- **Tanpa penyegerakan cloud atau lintas peranti**; data disimpan lokal dengan eksport/import manual sahaja.
 - **Tanpa gamifikasi, tanpa sosial, tanpa pembinaan** — murni penjejak tabiat.
 - UI lebih polos dengan bimbingan lebih sedikit untuk pemula.
 
@@ -171,7 +171,7 @@ Fabulous berawal dari **projek riset ekonomi perilaku Duke University** dan mema
 ![Graf statistik dan kalendar Productive](/assets/images/blog/productive_habit_4.webp){: width="180" .normal }
 ![Peringatan dan tetapan widget Productive](/assets/images/blog/productive_habit_5.webp){: width="180" .normal }
 
-Productive adalah salah satu **aplikasi habit tracker iOS paling populer**, dikenal kerana antara muka bersih dan indah serta widget yang sangat baik. Aplikasi ini mengutamakan iPhone/iPad dan mengikuti bahasa reka bentuk Apple, sehingga menjadi saudara spiritual terdekat Streaks bagi pengguna Apple.
+Productive adalah salah satu **aplikasi habit tracker iOS paling popular**, dikenal kerana antara muka bersih dan indah serta widget yang sangat baik. Aplikasi ini mengutamakan iPhone/iPad dan mengikuti bahasa reka bentuk Apple, sehingga menjadi saudara spiritual terdekat Streaks bagi pengguna Apple.
 
 **Kelebihan**
 - **UI iOS yang rapi dan indah** dengan widget skrin utama serta skrin kunci yang luar biasa.

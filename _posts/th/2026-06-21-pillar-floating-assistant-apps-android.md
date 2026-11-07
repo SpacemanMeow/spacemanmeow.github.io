@@ -73,7 +73,7 @@ Floating Assistant เพิ่มลูกบอลลอยปรับแต�
 
 - **เทียบ Assistive Touch (easytools)** — Assistive Touch (easytools) คือลูกบอลมีโฆษณายอดนิยม; Floating Assistant ให้การควบคุมลอยเดียวกันด้วยรูปแบบปลดล็อกเลือกได้ที่สะอาดกว่า แทนโฆษณาต่อเนื่อง รายละเอียดเต็มใน [Floating Assistant vs Assistive Touch](/th/posts/vs-floating-assistant-and-assistive-touch/)
 - **เทียบ Easy Touch** — Easy Touch คือลูกบอลมีโฆษณาอีกตัวพร้อมท่าทาง; หากคุณอยากโฆษณาน้อยลงและปลดล็อกสไตล์จ่ายครั้งเดียว Floating Assistant คือตัวเลือกที่เบากว่า
-- **ตัวเลือกอื่น** — ดู [ทางเลือก Assistive Touch ที่ดีที่สุดใน 2026](/id/posts/alternatives-to-assistive-touch/) สำหรับภาพรวมเต็ม
+- **ตัวเลือกอื่น** — ดู [ทางเลือก Assistive Touch ที่ดีที่สุดใน 2026](/th/posts/alternatives-to-assistive-touch/) สำหรับภาพรวมเต็ม
 
 ## คุณควรเลือกอะไร
 

@@ -12,7 +12,7 @@ image: /assets/images/favicons/avatar.png
 <div class="search">
   <input type="search" id="search-input" class="search__input" placeholder="输入关键词搜索…" autocomplete="off" />
   <p id="search-empty" class="search__hint">在上方输入关键词，结果会随输入实时更新。</p>
-  <nav id="search-apps" class="search-apps" aria-label="我们的应用">
+  <nav id="search-apps" class="search-apps" aria-label="{{ site.data.ui[site.lang].search_apps }}">
     {%- assign lang = site.lang | default: 'en' -%}
     {%- assign coll_apps = 'apps' -%}{%- if lang != 'en' -%}{%- assign coll_apps = 'apps_' | append: lang -%}{%- endif -%}
     {%- assign apps = site[coll_apps] | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}

@@ -83,13 +83,13 @@ Day One adalah jurnal digital paling terkenal: ruang menulis yang bersih dengan 
 
 ### Kelemahan
 - **Langganan berbayar** (~$35/tahun) untuk ciri yang paling sering digunakan orang.
-- **Model cloud sejak awal** — entri hidup di server Day One (terenkripsi, tetapi tidak lokal saja).
+- **Model cloud sejak awal** — entri hidup di server Day One (terenkripsi, tetapi tidak setempat sahaja).
 - **Lemah dalam penjejakan mood cepat** — sengaja tanpa ikon mood atau graf pola emosi.
 - **Kurang privat-lokal** daripada aplikasi yang mengutamakan offline.
 - Warisan yang condong ke iPhone; pengalaman Android/web tertinggal dari iOS.
 
 ### Paling sesuai untuk
-Pengguna yang menginginkan jurnal hidup multimedia yang indah, tersinkron di mana saja, dan menyimpan catatan tertulis kaya foto.
+Pengguna yang menginginkan jurnal hidup multimedia yang indah, tersinkron di mana sahaja, dan menyimpan catatan tertulis kaya foto.
 
 **Muat turun Day One**
 - [Google Play](https://play.google.com/store/apps/details?id=com.dayoneapp.dayone)
@@ -117,7 +117,7 @@ Teras Meow Mood percuma; Day One langganan ~$35/tahun. Untuk penjejakan mood mur
 ## Mana yang sebaiknya Anda pilih
 
 - **Pilih Meow Mood** bila tujuan Anda melacak emosi secara peribadi dan melihat polanya, Anda mengutamakan privasi offline, dan menginginkan check-in harian yang comel serta cepat.
-- **Pilih Day One** bila Anda menginginkan jurnal multimedia lengkap yang tersinkron di mana saja dan menyimpan catatan hidup kaya foto.
+- **Pilih Day One** bila Anda menginginkan jurnal multimedia lengkap yang tersinkron di mana sahaja dan menyimpan catatan hidup kaya foto.
 - **Keduanya saling melengkapi**: banyak pengguna memakai Meow Mood untuk check-in mood harian dan Day One untuk jurnal panjang — tetapi bila hanya ingin satu, biarkan pertanyaan mood-versus-kenangan yang memutuskan.
 
 ## Aplikasi mood lain yang layak dipertimbangkan
@@ -143,7 +143,7 @@ Seluruh pilihan dibandingkan di [Alternatif Day One Terbaik di 2026](/ms/posts/a
 **Meow Mood atau Day One — mana yang sebaiknya saya pilih?**
 {:.faq-q}
 
-Ingin check-in harian percuma, peribadi, offline, dan berfokus pada emosi → Meow Mood; ingin jurnal hidup multimedia yang tersinkron di mana saja → Day One.
+Ingin check-in harian percuma, peribadi, offline, dan berfokus pada emosi → Meow Mood; ingin jurnal hidup multimedia yang tersinkron di mana sahaja → Day One.
 
 **Apakah Meow Mood percuma?**
 {:.faq-q}

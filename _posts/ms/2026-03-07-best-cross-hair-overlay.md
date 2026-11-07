@@ -23,7 +23,7 @@ Lebih daripada sekadar shooter, **[overlay bidik silang tersuai](/ms/glossary/wh
 
 Overlay **bidik silang tersuai** yang baik lebih daripada sekadar titik statik. Nilai dari:
 
-- **Import PNG / gambar** — masukkan seni retikel sendiri alih-alih pratetap.
+- **Import PNG / gambar** — masukkan seni retikel sendiri dan bukannya pratetap.
 - **Ketelusan dan blend** — duduk bersih di atas latar apa pun, terang atau gelap.
 - **Ingatan posisi per aplikasi** — di mana Anda meninggalkannya tetap, lintas game dan alat.
 - **Tanpa root** — kebenaran overlay standar sudah cukup.

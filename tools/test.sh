@@ -1,77 +1,38 @@
 #!/usr/bin/env bash
 #
-# Build and test the site content
+# 全站构建 + 链接校验（与 .github/workflows/pages-deploy.yml 同款）
+# 5 语合并构建：EN 根目录 + /zh/ /id/ /th/ /ms/，含 hreflang、合并 sitemap、Pagefind。
 #
-# Requirement: html-proofer, jekyll
+# 用法：
+#   bash tools/test.sh           完整构建 + htmlproofer（发布前验收）
+#   bash tools/test.sh --fast    跳过 Pagefind，本地快速验收
+#   bash tools/test.sh -h        查看帮助
 #
-# Usage: See help information
+# 依赖：html-proofer、jekyll（bundle install）、python3。
+# 全站静态教研（D01–D18）另见 seo/SITE-AUDIT.md §5 的一键脚本。
 
-set -eu
+set -euo pipefail
 
-SITE_DIR="_site"
-
-_config="_config.yml"
-
-_baseurl=""
+cd "$(dirname "$0")/.."
 
 help() {
-  echo "Build and test the site content"
+  echo "全站构建 + 链接校验（5 语合并，与 CI 同款）"
   echo
   echo "Usage:"
-  echo
-  echo "   bash $0 [options]"
+  echo "   bash $0 [--fast]"
   echo
   echo "Options:"
-  echo '     -c, --config   "<config_a[,config_b[...]]>"    Specify config file(s)'
-  echo "     -h, --help               Print this information."
+  echo "     --fast     设置 SKIP_PAGEFIND=1，跳过搜索索引生成"
+  echo "     -h, --help 显示本帮助"
+  echo
+  echo "验收一律用本脚本或 scripts/build.sh；单语预览请用 jekyll serve。"
 }
 
-read_baseurl() {
-  if [[ $_config == *","* ]]; then
-    # multiple config
-    IFS=","
-    read -ra config_array <<<"$_config"
-
-    # reverse loop the config files
-    for ((i = ${#config_array[@]} - 1; i >= 0; i--)); do
-      _tmp_baseurl="$(grep '^baseurl:' "${config_array[i]}" | sed "s/.*: *//;s/['\"]//g;s/#.*//")"
-
-      if [[ -n $_tmp_baseurl ]]; then
-        _baseurl="$_tmp_baseurl"
-        break
-      fi
-    done
-
-  else
-    # single config
-    _baseurl="$(grep '^baseurl:' "$_config" | sed "s/.*: *//;s/['\"]//g;s/#.*//")"
-  fi
-}
-
-main() {
-  # clean up
-  if [[ -d $SITE_DIR ]]; then
-    rm -rf "$SITE_DIR"
-  fi
-
-  read_baseurl
-
-  # build
-  JEKYLL_ENV=production bundle exec jekyll b \
-    -d "$SITE_DIR$_baseurl" -c "$_config"
-
-  # test
-  bundle exec htmlproofer "$SITE_DIR" \
-    --disable-external \
-    --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
-}
-
+fast=0
 while (($#)); do
-  opt="$1"
-  case $opt in
-  -c | --config)
-    _config="$2"
-    shift
+  case "$1" in
+  --fast)
+    fast=1
     shift
     ;;
   -h | --help)
@@ -79,11 +40,23 @@ while (($#)); do
     exit 0
     ;;
   *)
-    # unknown option
-    help
+    echo "未知参数: $1" >&2
+    help >&2
     exit 1
     ;;
   esac
 done
 
-main
+echo "==> 全站构建（EN + ZH + ID + TH + MS）"
+if ((fast)); then
+  JEKYLL_ENV=production SKIP_PAGEFIND=1 bash scripts/build.sh
+else
+  JEKYLL_ENV=production bash scripts/build.sh
+fi
+
+echo "==> htmlproofer（与 CI 同参数）"
+bundle exec htmlproofer _site \
+  --disable-external \
+  --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+
+echo "==> 完成：_site/ 为 5 语合并产物，链接校验 0 failure"

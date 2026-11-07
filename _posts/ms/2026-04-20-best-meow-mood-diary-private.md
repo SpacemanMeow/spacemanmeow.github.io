@@ -28,7 +28,7 @@ Dua hal yang layak dicek sebelum memilih **aplikasi buku harian mood** di sini:
 - **Apakah versi percuma tetap peribadi?** **Aplikasi mood tracker tanpa langganan** semestinya tidak menaruh kunci aplikasi atau kalendar di sebalik paywall; kalau tidak, privasi berubah jadi ciri berbayar.
 - **Bolehkah Anda pergi membawa sejarah?** **Aplikasi mood tracker dengan eksport** memungkinkan sejarah dibawa keluar sebagai fail, jadi perubahan harga tidak membuat catatan bertahun-tahun terdampar. Jurnal yang hanya mengandalkan cloud biasanya menawarkan PDF, yang lebih sukar diimpor ulang.
 
-Jika Anda juga melacak rutinitas, memasangkan **penjejak mood dan tabiat** — Meow Mood Diary bersama Meow Habits — menjaga kedua catatan tetap di peranti, alih-alih terbagi ke dua akaun.
+Jika Anda juga melacak rutinitas, memasangkan **penjejak mood dan tabiat** — Meow Mood Diary bersama Meow Habits — menjaga kedua catatan tetap di peranti, dan bukannya terbagi ke dua akaun.
 
 ## Sekilas para kandidat
 
@@ -54,8 +54,8 @@ Meow Mood adalah **aplikasi mood dan buku harian bertema kucing** untuk Android 
 - **Tanpa unggahan bawaan** — entri tidak pernah meninggalkan peranti kecuali Anda mencadangkannya.
 - **Drive Anda, pilihan Anda** — sandaran menuju Google Drive milik sendiri, bukan akaun wajib.
 - **Kunci cap jari atau kode sandi** — hanya Anda yang boleh membukanya.
-- **Offline di mana saja** — menulis tanpa isyarat.
-- **Eksport PDF** — keluarkan entri dengan rapi kapan saja.
+- **Offline di mana sahaja** — menulis tanpa isyarat.
+- **Eksport PDF** — keluarkan entri dengan rapi bila-bila sahaja.
 - **Ringan** — catat mood satu ketik menjaga tabiat tetap tanpa hambatan.
 
 **Kelemahan untuk privasi**
@@ -111,7 +111,7 @@ Day One adalah aplikasi jurnal paling banyak meraih penghargaan, dengan penyeger
 
 - **Telefon pintar keluarga bersama** — pada peranti yang boleh dipegang orang lain, kunci cap jari atau kode sandi menjaga entri tetap milik Anda; tidak ada yang terunggah kecuali Anda mencadangkannya.
 - **Tanpa isyarat, tetap boleh** — catat perasaan di pesawat atau di area kereta bawah tanah yang mati isyarat; buku harian tidak perlu cloud untuk merekam momen.
-- **Boleh pergi kapan saja** — eksport PDF menarik seluruh entri keluar dengan rapi, jadi Anda tidak pernah terkunci pada satu vendor.
+- **Boleh pergi bila-bila sahaja** — eksport PDF menarik seluruh entri keluar dengan rapi, jadi Anda tidak pernah terkunci pada satu vendor.
 - **Drive Anda, aturan Anda** — sandaran pilihan hanya menuju Google Drive milik sendiri, bukan akaun wajib.
 
 ## FAQ

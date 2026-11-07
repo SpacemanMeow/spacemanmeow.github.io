@@ -9,7 +9,7 @@ lang: ms
 last_modified_at: 2026-11-07
 ---
 
-WidgetSmith adalah **aplikasi widget iOS** yang paling dikenal, tetapi hanya untuk iPhone, dan bahkan di iOS sebahagian pengguna ingin gaya berbeza, data peranti terus (bateri, RAM), atau pustaka widget jadi yang lebih besar. Panduan ini membandingkan **enam** **[aplikasi widget](/ms/glossary/what-is-a-home-screen-widget/)** merentas platform terkemuka, masing-masing dipilih kerana kelebihan khas atau jangkauan pasar luas. Setiap aplikasi di bawah dibincangkan dengan kelebihan nyata, kelemahan nyata, dan kinerjanya pada keupayaan skrin utama teras yang benar-benar penting — pratetap jadi, editor tersuai, data sistem terus, cuaca, kesihatan, foto, interaktivitas, dan dukungan skrin kunci. Pautan muat turun ada di akhir setiap bahagian. Kebanyakan pembaca datang dengan satu penghalang — dukungan iPhone saja, langganan, atau pustaka yang terlalu kecil — jadi setiap pilihan dibingkai menurut alasan itu.
+WidgetSmith adalah **aplikasi widget iOS** yang paling dikenal, tetapi hanya untuk iPhone, dan bahkan di iOS sebahagian pengguna ingin gaya berbeza, data peranti terus (bateri, RAM), atau pustaka widget jadi yang lebih besar. Panduan ini membandingkan **enam** **[aplikasi widget](/ms/glossary/what-is-a-home-screen-widget/)** merentas platform terkemuka, masing-masing dipilih kerana kelebihan khas atau jangkauan pasar luas. Setiap aplikasi di bawah dibincangkan dengan kelebihan nyata, kelemahan nyata, dan kinerjanya pada keupayaan skrin utama teras yang benar-benar penting — pratetap jadi, editor tersuai, data sistem terus, cuaca, kesihatan, foto, interaktivitas, dan dukungan skrin kunci. Pautan muat turun ada di akhir setiap bahagian. Kebanyakan pembaca datang dengan satu penghalang — dukungan iPhone sahaja, langganan, atau pustaka yang terlalu kecil — jadi setiap pilihan dibingkai menurut alasan itu.
 
 ## Mengapa melihat di luar WidgetSmith
 
@@ -72,7 +72,7 @@ One Widget adalah pakej widget Android yang dibangun di sekitar **empat bahasa r
 ![Interaksi & shortcut KWGT](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
 ![Tetapan & kebenaran KWGT](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
 
-KWGT (by Tersuai) adalah **editor widget paling powerful di Android**. Alih-alih memilih pratetap, Anda menyusun widget dari teks, bentuk, gambar, bar progres, dan bahasa formula yang boleh menarik bateri, rangkaian, cuaca, kalendar, dan bahkan data **Health Connect** (langkah, tidur, kalori). Komunitas besar berkongsi pratetap dan pakej tema, sehingga Anda boleh mulai dari reka bentuk orang lain dan menyesuaikannya.
+KWGT (by Tersuai) adalah **editor widget paling powerful di Android**. Bukannya memilih pratetap, Anda menyusun widget dari teks, bentuk, gambar, bar progres, dan bahasa formula yang boleh menarik bateri, rangkaian, cuaca, kalendar, dan bahkan data **Health Connect** (langkah, tidur, kalori). Komunitas besar berkongsi pratetap dan pakej tema, sehingga Anda boleh mulai dari reka bentuk orang lain dan menyesuaikannya.
 
 **Kelebihan**
 - **Kendali tingkat piksel berbasis formula** — pada dasarnya widget apa pun yang boleh dibayangkan.
@@ -160,7 +160,7 @@ Color Widgets mengandalkan **ribuan widget yang sudah didesain plus pengustomisa
 ![Interaksi & shortcut Widgetable](/assets/images/blog/widgetable_4.webp){: width="180" .normal }
 ![Tetapan & kebenaran Widgetable](/assets/images/blog/widgetable_5.webp){: width="180" .normal }
 
-Widgetable mengambil sudut berbeza: **widget yang dibangun di sekitar relasi**. Anda mengadopsi haiwan peliharaan virtual yang Anda rawat bersama teman, berkongsi widget tidur, mengirim pembaruan mood, dan memaparkan jarak waktu nyata antara Anda dan sahabat — semua di Skrin Kunci atau Utama. Ini populer di kalangan pasangan dan sahabat dekat daripada sebagai toolkit produktivitas umum.
+Widgetable mengambil sudut berbeza: **widget yang dibangun di sekitar relasi**. Anda mengadopsi haiwan peliharaan virtual yang Anda rawat bersama teman, berkongsi widget tidur, mengirim pembaruan mood, dan memaparkan jarak waktu nyata antara Anda dan sahabat — semua di Skrin Kunci atau Utama. Ini popular di kalangan pasangan dan sahabat dekat daripada sebagai toolkit produktivitas umum.
 
 **Kelebihan**
 - **Widget sosial/relasi unik** (peliharaan, tidur, mood, jarak, status teman) yang tidak ada di aplikasi widget umum.

@@ -120,7 +120,7 @@ Tetapan merangkumi bahasa, hari awal pekan, kunci aplikasi (VIP), widget, ikon m
 - **Catatan cepat saat hari buruk** — pada malam yang berat, ketik satu emosi dan beberapa tag; tanpa paragraf, sehingga buku harian tetap bertahan di hari yang biasanya Anda lewatkan.
 - **Peribadi secara bawaan** — entri tetap di peranti di sebalik kunci cap jari (VIP); pada telefon pintar keluarga bersama, pikiran Anda tidak pernah tersinkron ke cloud vendor kecuali Anda memilih Google Drive.
 - **Menemukan pola** — kalendar dan graf memunculkan 'rasa muram hari Minggu' atau lonjakan setelah kopi, mengubah perasaan samar jadi sesuatu yang boleh ditindaklanjuti.
-- **Offline di mana saja** — catat di pesawat atau di area kereta bawah tanah tanpa isyarat; tidak ada yang perlu Wi-Fi untuk merekam momen.
+- **Offline di mana sahaja** — catat di pesawat atau di area kereta bawah tanah tanpa isyarat; tidak ada yang perlu Wi-Fi untuk merekam momen.
 
 ## FAQ
 

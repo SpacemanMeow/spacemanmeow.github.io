@@ -19,7 +19,7 @@ Satu bola kecil mengumpulkan banyak nama, dan setiap label menandakan tugasan ya
 - **Assistive touch** / **aplikasi assistive touch android terbaik** — pinjaman dari butang home di skrin iPhone; di Android orang biasanya maksudnya menu terapung berisi aksi sistem.
 - **Bola terapung tepi** — bola yang parkir di tepi skrin dan melebar saat disapu, dari situlah **bola terapung tepi dengan gerak isyarat** berasal.
 - **Pembantu satu tangan** — alasan orang memasangnya: **butang terapung untuk satu tangan** membuat telefon pintar jangkung terjangkau tanpa mengubah genggaman.
-- **Bola terapung boleh dikustomisasi android** — permintaan akan pintasan, kontak, dan toggle sendiri alih-alih menu tetap.
+- **Bola terapung boleh dikustomisasi android** — permintaan akan pintasan, kontak, dan toggle sendiri dan bukannya menu tetap.
 
 Yang memisahkan aplikasi di bawah bukan namanya, melainkan tiga hal: apakah bola tetap di atas aplikasi tanpa root, apakah tahan lama dan sapuan boleh ditugaskan ke aksi nyata, dan apakah ia tetap ringan di latar. Floating Assistant menutupinya dengan bola bertempel di tepi; Assistive Touch adalah titik rujukan minimum.
 
@@ -41,7 +41,7 @@ Di Android, overlay terapung bekerja di atas aplikasi apa pun tanpa root, sehing
 | App | Harga (2026) | Platform | Terbaik untuk / catatan |
 |---|---|---|---|
 | **Floating Assistant** | Muat turun percuma, teras percuma + buka kunci pilihan | Hanya Android | Bola terapung, pintasan aplikasi/kontak, pembantu satu tangan |
-| **Assistive Touch (easytools)** | Percuma + iklan | Hanya Android | Bola sentuh terapung populer, tetapi beriklan |
+| **Assistive Touch (easytools)** | Percuma + iklan | Hanya Android | Bola sentuh terapung popular, tetapi beriklan |
 | **Easy Touch** | Percuma + iklan | Hanya Android | Bola sentuh terapung dengan gerak isyarat, model iklan serupa |
 
 ## Floating Assistant, lebih dalam
@@ -54,7 +54,7 @@ Di Android, overlay terapung bekerja di atas aplikasi apa pun tanpa root, sehing
 
 Floating Assistant menambahkan bola terapung boleh dikustomisasi ke Android untuk peluncuran aplikasi cepat, toggle sistem, dan kendali satu tangan.
 
-- **Bola terapung** — overlay persisten di atas aplikasi apa pun, boleh dipindah ke mana saja.
+- **Bola terapung** — overlay persisten di atas aplikasi apa pun, boleh dipindah ke mana sahaja.
 - **Pintasan tersuai** — aplikasi, kontak, dan toggle sistem seketuk jauh.
 - **Pembantu satu tangan** — jangkau aksi di telefon pintar besar tanpa mengatur ulang genggaman.
 - **Dukungan gerak isyarat** — ketik atau sapu bola untuk aksi berbeza.
@@ -71,7 +71,7 @@ Selami lebih dalam:
 
 ## Bagaimana Floating Assistant membandingkan dengan kompetisi
 
-- **vs Assistive Touch (easytools)** — Assistive Touch (easytools) adalah bola beriklan populer; Floating Assistant memberi kendali terapung sama dengan model buka kunci pilihan lebih bersih alih-alih iklan terus-menerus. Butiran lengkap di [Floating Assistant vs Assistive Touch](/ms/posts/vs-floating-assistant-and-assistive-touch/).
+- **vs Assistive Touch (easytools)** — Assistive Touch (easytools) adalah bola beriklan popular; Floating Assistant memberi kendali terapung sama dengan model buka kunci pilihan lebih bersih dan bukannya iklan terus-menerus. Butiran lengkap di [Floating Assistant vs Assistive Touch](/ms/posts/vs-floating-assistant-and-assistive-touch/).
 - **vs Easy Touch** — Easy Touch adalah bola beriklan lain dengan gerak isyarat; bila Anda ingin iklan lebih sedikit dan buka kunci gaya sekali bayar, Floating Assistant pilihan lebih ringan.
 - **Pilihan lain** — lihat [Alternatif Assistive Touch Terbaik di 2026](/ms/posts/alternatives-to-assistive-touch/) untuk lapangan lengkap.
 
@@ -102,7 +102,7 @@ Ya. Teras bola terapung, aksi, dan gerak isyarat percuma; buka kunci VIP pilihan
 **Floating Assistant atau Assistive Touch — mana yang harus saya pilih?**
 {:.faq-q}
 
-Ingin bola terapung boleh dikustomisasi, hampir bebas iklan, dengan aksi dan gerak isyarat mendalam → Floating Assistant; tidak masalah bola beriklan populer → Assistive Touch (easytools).
+Ingin bola terapung boleh dikustomisasi, hampir bebas iklan, dengan aksi dan gerak isyarat mendalam → Floating Assistant; tidak masalah bola beriklan popular → Assistive Touch (easytools).
 
 **Apakah Floating Assistant boleh di iOS?**
 {:.faq-q}

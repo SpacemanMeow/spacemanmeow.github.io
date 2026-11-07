@@ -1,6 +1,7 @@
 # 界面文案（chrome strings）。按 site.lang 取值，新增语言时追加对应键值即可。
 # 通过 site.data.ui[site.lang].<key> 在布局/包含文件中引用。
 # 所有语言必须拥有完全相同的键；缺键会静默输出空白（见 SEO-I18N-PLAYBOOK.md §2.6）。
+# 共享模板（nav.html / main.js）的 aria-label 一律走这里，禁止写死单一语言。
 en:
   back_to_blog: "&lsaquo; Back to Blog"
   tags_index_link: "Tags index &rarr;"
@@ -22,6 +23,14 @@ en:
   quick_definitions: "Quick definitions: "
   glossary_link: "Glossary &rarr;"
   back_to_glossary: "&larr; Back to Glossary"
+  nav_toggle: "Toggle navigation"
+  lang_switch: "Language"
+  search_label: "Search"
+  theme_toggle: "Toggle dark mode"
+  search_apps: "Our apps"
+  lightbox_close: "Close preview"
+  lightbox_prev: "Previous"
+  lightbox_next: "Next"
 zh:
   back_to_blog: "&lsaquo; 返回博客"
   tags_index_link: "标签索引 &rarr;"
@@ -43,6 +52,14 @@ zh:
   quick_definitions: "术语速查："
   glossary_link: "词汇表 &rarr;"
   back_to_glossary: "&larr; 返回词汇表"
+  nav_toggle: "切换导航"
+  lang_switch: "切换语言"
+  search_label: "搜索"
+  theme_toggle: "切换深浅模式"
+  search_apps: "我们的应用"
+  lightbox_close: "关闭预览"
+  lightbox_prev: "上一张"
+  lightbox_next: "下一张"
 id:
   back_to_blog: "&lsaquo; Kembali ke Blog"
   tags_index_link: "Indeks Tag &rarr;"
@@ -64,6 +81,14 @@ id:
   quick_definitions: "Definisi singkat: "
   glossary_link: "Glosarium &rarr;"
   back_to_glossary: "&larr; Kembali ke Glosarium"
+  nav_toggle: "Buka/tutup navigasi"
+  lang_switch: "Pilih bahasa"
+  search_label: "Cari"
+  theme_toggle: "Alih mode gelap"
+  search_apps: "Aplikasi kami"
+  lightbox_close: "Tutup pratinjau"
+  lightbox_prev: "Sebelumnya"
+  lightbox_next: "Berikutnya"
 
 ms:
   back_to_blog: "&lsaquo; Kembali ke blog"
@@ -86,6 +111,14 @@ ms:
   quick_definitions: "Definisi ringkas: "
   glossary_link: "Glosari &rarr;"
   back_to_glossary: "&larr; Kembali ke glosari"
+  nav_toggle: "Togol navigasi"
+  lang_switch: "Pilih bahasa"
+  search_label: "Cari"
+  theme_toggle: "Togol mod gelap"
+  search_apps: "Aplikasi kami"
+  lightbox_close: "Tutup pratonton"
+  lightbox_prev: "Sebelumnya"
+  lightbox_next: "Seterusnya"
 
 th:
   back_to_blog: "&lsaquo; กลับไปที่บล็อก"
@@ -108,3 +141,11 @@ th:
   quick_definitions: "นิยามอย่างย่อ: "
   glossary_link: "อภิธานศัพท์ &rarr;"
   back_to_glossary: "&larr; กลับไปที่อภิธานศัพท์"
+  nav_toggle: "สลับเมนูนำทาง"
+  lang_switch: "เลือกภาษา"
+  search_label: "ค้นหา"
+  theme_toggle: "สลับโหมดมืด"
+  search_apps: "แอปของเรา"
+  lightbox_close: "ปิดตัวอย่าง"
+  lightbox_prev: "ก่อนหน้า"
+  lightbox_next: "ถัดไป"

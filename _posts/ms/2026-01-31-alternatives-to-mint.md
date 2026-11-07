@@ -15,7 +15,7 @@ Panduan ini membandingkan **tujuh** aplikasi pada dimensi yang sama. Masing-masi
 ## Apa yang hilang saat Mint ditutup
 
 - **Import transaksi automatik** dari akaun bank dan kartu yang ditautkan.
-- **Satu dasbor** untuk kekayaan bersih, bil, dan langganan.
+- **Satu papan pemuka** untuk kekayaan bersih, bil, dan langganan.
 - **Bajet kategori percuma dan sederhana**.
 
 Konsekuensinya, Mint menghasilkan wang lewat rujukan dan akhirnya mengarahkan pengguna ke bisnis kredit Credit Karma. Pengganti di bawah mempertahankan bahagian yang baik dan membiarkan Anda menentukan sendiri seberapa banyak otomatisasi dan storan cloud yang diinginkan.
@@ -67,7 +67,7 @@ Meow Money Manager adalah [aplikasi catatan kewangan](/ms/glossary/what-is-an-ex
 - **Multi buku kas** — pisahkan buku (peribadi, perjalanan, usaha) dan lihat satu atau semuanya sekaligus.
 - **Penjejak bajet & bajet per kategori** — tempoh harian / bulanan / tahunan, dengan jumlah bajet dan bajet setiap kategori dipantau bersamaan.
 - **Statistik graf instan** — laporan perbelanjaan harian, bulanan, dan tahunan.
-- **Pengurusan tuntutan balik** — tandai perbelanjaan boleh diganti (contohnya perjalanan kerja) dan pantau statusnya kapan saja.
+- **Pengurusan tuntutan balik** — tandai perbelanjaan boleh diganti (contohnya perjalanan kerja) dan pantau statusnya bila-bila sahaja.
 - **Pengurusan aset** — catat tunai, reksa dana, saham, kartu, hutang, dan kekayaan bersih.
 - **Transaksi berulang** — automatik berulang harian / mingguan / bulanan / tahunan.
 - **50+ simbol mata wang**, **mode gelap**, dan **kunci cap jari**.
@@ -92,15 +92,15 @@ Meow Money Manager adalah [aplikasi catatan kewangan](/ms/glossary/what-is-an-ex
 
 ## Monarch Money — penerus Mint paling mirip
 
-![Monarch dasbor terpadu: kekayaan bersih, arus kas, dan langganan](/assets/images/blog/monarch_money_1.webp){: width="180" .normal }
+![Monarch papan pemuka terpadu: kekayaan bersih, arus kas, dan langganan](/assets/images/blog/monarch_money_1.webp){: width="180" .normal }
 ![Monarch penyegerakan automatik: bank, investasi, dan nilai properti](/assets/images/blog/monarch_money_2.webp){: width="180" .normal }
 ![Monarch bajet bulanan dan target: bajet per kategori tersuai](/assets/images/blog/monarch_money_3.webp){: width="180" .normal }
 ![Monarch kolaborasi pasangan: bajet bersama masa nyata](/assets/images/blog/monarch_money_4.webp){: width="180" .normal }
 
-Monarch adalah aplikasi yang paling sering disebut **pengganti Mint terus**. Ia menggabungkan bank, kartu, pinjaman, investasi, bahkan kripto dan properti ke dalam satu dasbor, dengan berkongsi kolaboratif sehingga pasangan boleh mengedit bajet yang sama.
+Monarch adalah aplikasi yang paling sering disebut **pengganti Mint terus**. Ia menggabungkan bank, kartu, pinjaman, investasi, bahkan kripto dan properti ke dalam satu papan pemuka, dengan berkongsi kolaboratif sehingga pasangan boleh mengedit bajet yang sama.
 
 **Kelebihan**
-- **Paling mirip dasbor Mint** — kekayaan bersih, arus kas, dan langganan dalam satu paparan.
+- **Paling mirip papan pemuka Mint** — kekayaan bersih, arus kas, dan langganan dalam satu paparan.
 - **Segerak automatik luas** termasuk investasi dan properti (lewat penilaian).
 - **Kolaboratif** — bagikan dan edit bersama pasangan; keduanya melihat pembaruan terus.
 - Pengalaman web + seluler yang rapi dan alat target/bajet yang baik.
@@ -111,7 +111,7 @@ Monarch adalah aplikasi yang paling sering disebut **pengganti Mint terus**. Ia 
 - Seperti Mint, ia bergantung pada **keandalan agregasi**; sambungan yang putus berarti pembersihan manual.
 - **Multi mata wang terhad** dan berorientasi pada pasar AS.
 
-**Paling sesuai untuk:** bekas pengguna Mint yang ingin dasbor all-in-one serupa dan tidak keberatan langganan.
+**Paling sesuai untuk:** bekas pengguna Mint yang ingin papan pemuka all-in-one serupa dan tidak keberatan langganan.
 
 **Muat turun Monarch Money**
 - [Google Play](https://play.google.com/store/apps/details?id=com.monarchmoney.mobile)
@@ -133,7 +133,7 @@ Rocket Money (dulu Truebill) dibangun untuk **menemukan dan membatalkan langgana
 - **Manajemen langganan terbaik di kelasnya** — mendeteksi, melacak, dan membantu membatalkan langganan; boleh menegosiasikan bil lebih rendah.
 - **Pakej percuma** tersedia; penjejakan akaun automatik dan bajet di atasnya.
 - Pemantauan skor kredit dan amaran perlindungan baki minus (premium).
-- Angka muat turun sangat populer, jadi dukungan dan stabilitas solid.
+- Angka muat turun sangat popular, jadi dukungan dan stabilitas solid.
 
 **Kelemahan**
 - **Penganggaran dasar** — tanpa metode zero-based atau amplop; ia mencatat, bukan merencanakan.
@@ -151,7 +151,7 @@ Rocket Money (dulu Truebill) dibangun untuk **menemukan dan membatalkan langgana
 
 ## Empower (dulu Personal Capital) — paparan kekayaan bersih & investasi percuma terbaik
 
-![Empower dasbor kekayaan bersih percuma: aset dan hutang](/assets/images/blog/empower_money_1.webp){: width="180" .normal }
+![Empower papan pemuka kekayaan bersih percuma: aset dan hutang](/assets/images/blog/empower_money_1.webp){: width="180" .normal }
 ![Empower alokasi aset dan analisis investasi: portofolio dan perbelanjaan](/assets/images/blog/empower_money_2.webp){: width="180" .normal }
 ![Empower perancang pensiun: proyeksi portofolio](/assets/images/blog/empower_money_3.webp){: width="180" .normal }
 ![Empower analisis perbelanjaan investasi: rasio perbelanjaan portofolio](/assets/images/blog/empower_money_4.webp){: width="180" .normal }
@@ -160,7 +160,7 @@ Rocket Money (dulu Truebill) dibangun untuk **menemukan dan membatalkan langgana
 Empower **percuma** dan berfokus pada **penjejakan kekayaan bersih dan investasi**. Ia menggabungkan data bank, dana pensiun, sekuritas, kripto, bahkan hipotek/properti untuk memberi analisis portofolio, perancang pensiun, dan analisis perbelanjaan.
 
 **Kelebihan**
-- **Sepenuhnya percuma** untuk dasbor teras.
+- **Sepenuhnya percuma** untuk papan pemuka teras.
 - **Analisis kekayaan bersih dan investasi terbaik di kelasnya** — alokasi aset, proyeksi pensiun, audit perbelanjaan.
 - Belanjepan akaun sangat luas, termasuk investasi dan properti.
 - Rekam jejak panjang (beroperasi lebih daripada satu dekade dengan nama Personal Capital).
@@ -227,7 +227,7 @@ Goodbudget mendigitalkan **sistem amplop** klasik: Anda mengalokasikan wang ke a
 - **Sebahagian besar entri manual** — tanpa import bank automatik di pakej percuma, dan segerak bank berbayar pun terhad dibanding YNAB/Monarch.
 - **Kategorisasi automatik minimum**; Anda yang memilah.
 - Tanpa penjejakan investasi/kekayaan bersih, tanpa tuntutan balik, multi mata wang lemah.
-- Graf dan laporan lebih polos daripada dasbor automatik.
+- Graf dan laporan lebih polos daripada papan pemuka automatik.
 
 **Paling sesuai untuk:** penggemar bajet amplop dan bajet rumah tangga bersama yang memilih kendali daripada otomatisasi.
 
@@ -260,7 +260,7 @@ Jadual di bawah menunjukkan, seobjektif mungkin, keupayaan yang didukung setiap 
 
 - Ingin **metode zero-based teruji** dan bersedia mempelajarinya → **YNAB**.
 - Ingin **percuma, peribadi, tanpa akaun, multi mata wang, dengan tuntutan balik** → **[Meow Money Manager](/ms/apps/meow-money-manager/)**.
-- Ingin **dasbor paling mirip Mint** dengan investasi → **Monarch Money**.
+- Ingin **papan pemuka paling mirip Mint** dengan investasi → **Monarch Money**.
 - Ingin **menghentikan langganan dan menurunkan bil** → **Rocket Money**.
 - Ingin **ringkasan kekayaan bersih / investasi percuma** → **Empower**.
 - Ingin jawaban cepat **"bolehkah saya membelanjakan ini?"** → **PocketGuard**.
@@ -284,7 +284,7 @@ Boleh. Mint tetap mengizinkan eksport transaksi (CSV), akaun, dan bajet disimpan
 **Alternatif Mint mana yang percuma dan ramah privasi?**
 {:.faq-q}
 
-Jika Anda mengutamakan "data tetap di peranti, tanpa pendaftaran", **Meow Money Manager** termasuk sedikit pencatat yang teras percuma sekaligus lokal saja tanpa akaun cloud; sandaran masuk ke Google Drive, iCloud (iOS), atau WebDav, bukan login cloud paksa.
+Jika Anda mengutamakan "data tetap di peranti, tanpa pendaftaran", **Meow Money Manager** termasuk sedikit pencatat yang teras percuma sekaligus setempat sahaja tanpa akaun cloud; sandaran masuk ke Google Drive, iCloud (iOS), atau WebDav, bukan login cloud paksa.
 
 **Apakah Meow Money Manager mendukung beberapa mata wang?**
 {:.faq-q}

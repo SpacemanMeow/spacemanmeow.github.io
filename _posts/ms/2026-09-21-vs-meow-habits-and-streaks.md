@@ -107,7 +107,7 @@ Ini penentu bagi banyak orang. Meow Habits berjalan di Android dan iOS; Streaks 
 Streaks dibangun di sekitar *melakukan* tugasan positif. Meow Habits secara eksplisit juga mendukung *menghentikan* tabiat — berhenti merokok, kurangi waktu skrin, tidur lebih awal — yang tidak dimodelkan Streaks secara sealami itu.
 
 ### Privasi dan segerak
-Meow Habits mengutamakan offline dengan kunci cap jari dan segerak ke Google Drive/WebDav *milik Anda*. Streaks memakai iCloud. Keduanya wajar; Meow Habits memberi kontrol lebih terus dan penggunaan lokal saja.
+Meow Habits mengutamakan offline dengan kunci cap jari dan segerak ke Google Drive/WebDav *milik Anda*. Streaks memakai iCloud. Keduanya wajar; Meow Habits memberi kontrol lebih terus dan penggunaan setempat sahaja.
 
 ### Pelarasan dan graf
 Meow Habits menang pada variasi ikon (500+) dan jenis graf (batang, pai, kalendar, trend) plus eksport CSV. Streaks menang pada kesederhanaan serta widget/Shortcuts ala Apple.

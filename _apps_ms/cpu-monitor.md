@@ -21,7 +21,7 @@ screenshots:
   - image: /assets/images/apps/cpu-monitor/8.webp
 
 faq:
-  - question: Apa saja yang dipaparkan CPU Monitor?
+  - question: Apa sahaja yang dipaparkan CPU Monitor?
     answer: >-
       CPU Monitor memaparkan suhu dan frekuensi CPU, RAM, bateri, serta penggunaan multi-inti secara masa nyata di Android, lengkap dengan analisis sejarah dan penggera panas berlebih.
   - question: Apakah CPU Monitor punya tetingkap terapung dan widget?

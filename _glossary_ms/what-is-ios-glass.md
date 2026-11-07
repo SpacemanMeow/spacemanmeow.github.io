@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: "Apakah iOS Glass?"
-description: "iOS Glass adalah gaya kaca transparan dengan latar buram yang dipopulerkan antara muka iOS. Fahami ciri dan penerapannya pada widget."
+description: "iOS Glass adalah gaya kaca transparan dengan latar buram yang dipopularkan antara muka iOS. Fahami ciri dan penerapannya pada widget."
 tags: [iOS Glass, One Widget]
 lang: ms
 ---

@@ -85,7 +85,7 @@ Assistive Touch adalah bola terapung gaya iOS familiar untuk Android: butang vir
 - **Tanpa jam terapung** — hanya navigasi.
 - **Tanpa monitor terus** — tidak ada bacaan CPU/RAM/bateri, tidak ada kesadaran overheat.
 - **Tanpa boost satu ketik atau manajemen RAM** di pengalaman teras.
-- **Caveat privasi** — aplikasi beriklan biasanya meminta kebenaran lebih luas daripada alat monitor-saja.
+- **Caveat privasi** — aplikasi beriklan biasanya meminta kebenaran lebih luas daripada alat monitor-sahaja.
 
 ### Terbaik untuk
 Pengguna yang hanya ingin bola navigasi gaya iOS sederhana untuk menukar atau melengkapi butang keras.
@@ -131,7 +131,7 @@ Untuk daftar pendek **alternatif Assistive Touch android terbaik**, pertanyaan p
 - **Navigasi tanpa butang keras** — bola assistive touch Floating Assistant mengembalikan home/back/recent/kunci/tangkapan skrin dalam jangkauan ibu jari, menyelamatkan butang aus.
 - **Waktu tetap kelihatan** — jam melayangnya bertahan di atas aplikasi atau game apa pun, praktikal sebagai pendamping samping tempat tidur atau meja.
 - **Awasi panas saat gaming** — monitor CPU/RAM/bateri terus dan boost satu ketik membantu sesi panjang; Assistive Touch tidak memaparkan apa pun.
-- **Satu overlay, bukan tiga aplikasi** — touch, jam, dan monitor dalam satu lapisan terapung alih-alih juggling alat terpisah.
+- **Satu overlay, bukan tiga aplikasi** — touch, jam, dan monitor dalam satu lapisan terapung dan bukannya juggling alat terpisah.
 - **Privasi-utama** — Kebolehcapaian hanya untuk kontrol terdaftar dan tidak mengumpulkan data peribadi, berbeza dari bola beriklan.
 
 ## FAQ

@@ -9,18 +9,18 @@ last_modified_at: 2026-11-07
 lang: ms
 ---
 
-Sebahagian alat Android mencuba 'bersihkan' dan 'boost'; sebahagian lain hanya memaparkan apa yang terjadi di dalam telefon pintar. Jika Anda ingin [info peranti android](/ms/glossary/what-is-a-system-monitor/) jujur dan read-only, panduan 2026 ini untuk Anda — dan merangkumi bagaimana System Monitor dibandingkan dengan pembersih. Kategori sama sering dicari sebagai **android cleaner**, **ram booster**, atau **android optimizer** — tiga label untuk alat yang menjanjikan mengubah telefon pintar alih-alih sekadar melaporkannya.
+Sebahagian alat Android mencuba 'bersihkan' dan 'boost'; sebahagian lain hanya memaparkan apa yang terjadi di dalam telefon pintar. Jika Anda ingin [info peranti android](/ms/glossary/what-is-a-system-monitor/) jujur dan read-only, panduan 2026 ini untuk Anda — dan merangkumi bagaimana System Monitor dibandingkan dengan pembersih. Kategori sama sering dicari sebagai **android cleaner**, **ram booster**, atau **android optimizer** — tiga label untuk alat yang menjanjikan mengubah telefon pintar dan bukannya sekadar melaporkannya.
 
 ## Apa yang orang sebut
 
 Orang tiba di kategori ini dari dua arah, dan kata-katanya penting kerana menggambarkan janji berbeza:
 
 - **System monitor** / **system monitor android** / **aplikasi system monitor** — fakta read-only: CPU, RAM, storage, bateri, dan suhu terus. Inilah yang dilakukan System Monitor.
-- **Pembersih telefon pintar** / **android cleaner** / **storage cleaner** — alat yang memadam cache dan file junk. Daftar pendek **pembersih telefon pintar terbaik android** tentang mengosongkan ruang, bukan melaporkannya.
+- **Pembersih telefon pintar** / **android cleaner** / **storage cleaner** — alat yang memadam cache dan fail junk. Daftar pendek **pembersih telefon pintar terbaik android** tentang mengosongkan ruang, bukan melaporkannya.
 - **Ram booster** / **ram booster android terbaik** / **android optimizer** — alat yang mengklaim mempercepat telefon pintar dengan membunuh proses. Di Android modern, menutup aplikasi cara ini sering justru memakan bateri lebih banyak daripada menghematnya.
 - **Alat all-in-one android** — permintaan untuk pemantauan, pembersihan, dan perawatan bateri dalam satu instalasi; System Monitor menutupi separuh pemantauan dan kesihatan bateri, tanpa klaim pembersihan.
 
-Garis had bergunanya sederhana: sebuah **monitor bateri** atau system monitor melaporkan angka yang boleh Anda pengesahan, sementara pembersih mengubah file. Panduan ini memeringkat jenis pertama dan membandingkannya jujur dengan jenis kedua.
+Garis had bergunanya sederhana: sebuah **monitor bateri** atau system monitor melaporkan angka yang boleh Anda pengesahan, sementara pembersih mengubah fail. Panduan ini memeringkat jenis pertama dan membandingkannya jujur dengan jenis kedua.
 
 ## Mengapa aplikasi system monitor penting di Android
 
@@ -47,7 +47,7 @@ Di Android, tetingkap terapung dan widget skrin utama memaparkan statik CPU, mem
 
 ## System Monitor, lebih dalam
 
-![Ikhtisar status read-only system monitor android](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
+![Ringkasan status read-only system monitor android](/assets/images/apps/system-monitor/1.webp){: width="180" .normal }
 ![System monitor dengan tetingkap terapung dan tetapan](/assets/images/apps/system-monitor/5.webp){: width="180" .normal }
 ![Monitor proses & bateri System Monitor](/assets/images/apps/system-monitor/3.webp){: width="180" .normal }
 ![Rangkaian & sensor System Monitor](/assets/images/apps/system-monitor/4.webp){: width="180" .normal }
@@ -72,7 +72,7 @@ Selami lebih dalam:
 
 ## Bagaimana System Monitor membandingkan dengan kompetisi
 
-- **vs CCleaner** — CCleaner adalah pembersih dan RAM booster — ia mengubah telefon pintar Anda (memadam cache, mengosongkan memori). System Monitor sebaliknya: hanya melaporkan fakta hardware dan tidak pernah menyentuh file atau memori Anda. Pilih berdasar niat — pantau vs bersih. Butiran lengkap di [System Monitor vs CCleaner](/ms/posts/vs-system-monitor-and-ccleaner/).
+- **vs CCleaner** — CCleaner adalah pembersih dan RAM booster — ia mengubah telefon pintar Anda (memadam cache, mengosongkan memori). System Monitor sebaliknya: hanya melaporkan fakta hardware dan tidak pernah menyentuh fail atau memori Anda. Pilih berdasar niat — pantau vs bersih. Butiran lengkap di [System Monitor vs CCleaner](/ms/posts/vs-system-monitor-and-ccleaner/).
 - **vs Device Info HW** — Device Info HW adalah pendeteksi hardware percuma yang solid, tetapi lebih ringan di penggera overheat terus dan pengalaman tetingkap terapung yang menjadi pusat System Monitor.
 - **Pilihan lain** — lihat [Alternatif CCleaner Terbaik di 2026](/ms/posts/alternatives-to-ccleaner/) untuk lapangan lengkap.
 
@@ -103,7 +103,7 @@ Tidak. System Monitor adalah muat turun berbayar satu kali — tanpa langganan d
 **Apakah System Monitor membersihkan atau boost telefon pintar saya?**
 {:.faq-q}
 
-Tidak. System Monitor read-only: melaporkan fakta CPU, storage, memori, dan bateri dan tidak pernah memadam cache, mengosongkan memori, atau mengubah file. Untuk pembersihan, lihat panduan [alternatif CCleaner](/ms/posts/alternatives-to-ccleaner/).
+Tidak. System Monitor read-only: melaporkan fakta CPU, storage, memori, dan bateri dan tidak pernah memadam cache, mengosongkan memori, atau mengubah fail. Untuk pembersihan, lihat panduan [alternatif CCleaner](/ms/posts/alternatives-to-ccleaner/).
 
 **Apakah System Monitor memaparkan kesihatan bateri?**
 {:.faq-q}
@@ -117,7 +117,7 @@ Tidak. System Monitor hanya untuk Android.
 
 ## Kesimpulan
 
-Untuk pengguna Android yang menginginkan pemantauan peranti read-only jujur alih-alih pembersih atau booster, System Monitor adalah pilihan tepat — muat turun berbayar satu kali.
+Untuk pengguna Android yang menginginkan pemantauan peranti read-only jujur dan bukannya pembersih atau booster, System Monitor adalah pilihan tepat — muat turun berbayar satu kali.
 
 - [Google Play — System Monitor](https://play.google.com/store/apps/details?id=com.glgjing.marvel)
 

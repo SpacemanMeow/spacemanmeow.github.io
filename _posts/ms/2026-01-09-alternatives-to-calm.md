@@ -9,7 +9,7 @@ lang: ms
 last_modified_at: 2026-11-07
 ---
 
-Calm populer, tetapi **langganan ~$69,99/tahun**-nya tidak untuk semua orang. Jika yang Anda inginkan terutama adalah **suara ambient untuk tidur dan fokus**, ada alternatif yang lebih sederhana, lebih murah, dan sering tanpa akaun.
+Calm popular, tetapi **langganan ~$69,99/tahun**-nya tidak untuk semua orang. Jika yang Anda inginkan terutama adalah **suara ambient untuk tidur dan fokus**, ada alternatif yang lebih sederhana, lebih murah, dan sering tanpa akaun.
 
 Di bawah kami membandingkan enam **alternatif Calm** — dari aplikasi [white noise](/ms/glossary/what-is-white-noise/) yang comel dan sederhana hingga pustaka suara raksasa dan komunitas meditasi — dari sisi harga, platform, dan keupayaan yang benar-benar penting. Kebanyakan pembaca datang dengan satu penghalang — langganan, akaun, atau suara yang berhenti saat skrin terkunci — jadi setiap pilihan dibingkai menurut alasan itu.
 

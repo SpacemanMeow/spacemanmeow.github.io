@@ -21,13 +21,13 @@ screenshots:
   - image: /assets/images/apps/one-widget/4.webp
 
 faq:
-  - question: Gaya widget apa saja yang ditawarkan One Widget?
+  - question: Gaya widget apa sahaja yang ditawarkan One Widget?
     answer: >-
       One Widget menyediakan lebih daripada 500 widget skrin utama Android bergaya Glass iOS, Material You, Galaxy One UI, dan Nothing minimalis, termasuk pintasan aplikasi, jam, kalendar, bateri, dan widget RAM.
   - question: Apakah One Widget percuma dan dapat disesuaikan?
     answer: >-
       One Widget adalah aplikasi berbayar. Versi percuma menyertakan widget bergaya One UI yang ukurannya dapat disesuaikan dari 1x1 hingga 2x6, beserta warna latar ikon dan radius sudut. Gaya lain memerlukan pembelian.
-  - question: Peranti apa saja yang mendukung One Widget?
+  - question: Peranti apa sahaja yang mendukung One Widget?
     answer: >-
       One Widget bekerja di semua peranti Android, termasuk Samsung Galaxy, Google Pixel, dan telefon pintar Nothing.
   - question: Bolehkah menambahkan sakelar cepat dan pintasan aplikasi?
@@ -35,11 +35,11 @@ faq:
       Boleh. Tambahkan sakelar cepat sistem seperti Wi-Fi, Bluetooth, dan senter, serta pintasan aplikasi, kontak, dan peluncur alat AI sebagai widget skrin utama.
 ---
 
-One Widget adalah peranti pelarasan skrin utama Android yang menyatukan lebih daripada 500 widget dalam empat gaya reka bentuk populer: Glass iOS, [Material You](/ms/glossary/what-is-material-you/), [Galaxy One UI](/ms/glossary/what-is-galaxy-one-ui/), dan [Nothing UI](/ms/glossary/what-is-nothing-ui/) yang minimalis.
+One Widget adalah peranti pelarasan skrin utama Android yang menyatukan lebih daripada 500 widget dalam empat gaya reka bentuk popular: Glass iOS, [Material You](/ms/glossary/what-is-material-you/), [Galaxy One UI](/ms/glossary/what-is-galaxy-one-ui/), dan [Nothing UI](/ms/glossary/what-is-nothing-ui/) yang minimalis.
 
 ### Ciri One Widget
 
-**Empat gaya widget populer**
+**Empat gaya widget popular**
 
 Tidak perlu memasang beberapa aplikasi widget. One Widget menggabungkan gaya reka bentuk paling umum digunakan: gaya Glass menghadirkan efek kaca buram transparan ala [iOS Glass](/ms/glossary/what-is-ios-glass/) yang ramping, disamping Material You, Galaxy One UI, dan Nothing yang minimalis.
 

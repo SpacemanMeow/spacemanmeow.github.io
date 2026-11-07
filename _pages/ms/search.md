@@ -12,7 +12,7 @@ image: /assets/images/favicons/avatar.png
 <div class="search">
   <input type="search" id="search-input" class="search__input" placeholder="Taip kata kunci…" autocomplete="off" />
   <p id="search-empty" class="search__hint">Masukkan kata kunci di atas. Hasil akan muncul semasa anda menaip.</p>
-  <nav id="search-apps" class="search-apps" aria-label="Aplikasi kami">
+  <nav id="search-apps" class="search-apps" aria-label="{{ site.data.ui[site.lang].search_apps }}">
     {%- assign lang = site.lang | default: 'en' -%}
     {%- assign coll_apps = 'apps' -%}{%- if lang != 'en' -%}{%- assign coll_apps = 'apps_' | append: lang -%}{%- endif -%}
     {%- assign apps = site[coll_apps] | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}

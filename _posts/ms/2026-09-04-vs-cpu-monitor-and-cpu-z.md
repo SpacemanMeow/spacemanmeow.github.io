@@ -33,13 +33,13 @@ Keduanya membaca isi telefon pintar Anda, tetapi menjawab pertanyaan berbeza. **
 
 ## CPU Monitor, secara detail
 
-![Alternatif CPU-Z terbaik android: dasbor thermal terus CPU Monitor](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
+![Alternatif CPU-Z terbaik android: papan pemuka thermal terus CPU Monitor](/assets/images/apps/cpu-monitor/1.webp){: width="180" .normal }
 ![Tetapan & amaran panas CPU Monitor](/assets/images/apps/cpu-monitor/5.webp){: width="180" .normal }
 ![Info sensor & bateri CPU Monitor](/assets/images/apps/cpu-monitor/3.webp){: width="180" .normal }
-![Ikhtisar hardware peranti CPU Monitor](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
+![Ringkasan hardware peranti CPU Monitor](/assets/images/apps/cpu-monitor/4.webp){: width="180" .normal }
 ![Detail frekuensi core terus CPU Monitor](/assets/images/apps/cpu-monitor/2.webp){: width="180" .normal }
 
-CPU Monitor mengubah status-bar dan skrin utama Anda menjadi dasbor terus. Ciri utamanya adalah **suhu [CPU](/ms/glossary/what-is-a-cpu-temperature-monitor/) dan frekuensi waktu nyata** dengan penggera overheat, sehingga Anda diperingatkan sebelum thermal throttling aktif selama game panjang atau pengisian cepat.
+CPU Monitor mengubah status-bar dan skrin utama Anda menjadi papan pemuka masa nyata. Ciri utamanya adalah **suhu [CPU](/ms/glossary/what-is-a-cpu-temperature-monitor/) dan frekuensi waktu nyata** dengan penggera overheat, sehingga Anda diperingatkan sebelum thermal throttling aktif selama game panjang atau pengisian cepat.
 
 ### Kelebihan
 - **Suhu terus dengan penggera overheat** — satu ciri yang tidak boleh ditandingi CPU-Z; ia memperingatkan Anda menutup aplikasi berat dan mendinginkan.
@@ -57,7 +57,7 @@ CPU Monitor mengubah status-bar dan skrin utama Anda menjadi dasbor terus. Ciri 
 - **Tanpa eksport** laporan spesifikasi.
 
 ### Terbaik untuk
-Gamer, penggemar emulasi, dan siapa saja yang ingin *mengawasi* panas dan beban waktu nyata daripada membaca daftar spesifikasi sekali waktu.
+Gamer, penggemar emulasi, dan sesiapa sahaja yang ingin *mengawasi* panas dan beban waktu nyata daripada membaca daftar spesifikasi sekali waktu.
 
 **Muat turun CPU Monitor**
 - [Google Play](https://play.google.com/store/apps/details?id=com.glgjing.stark)
@@ -69,7 +69,7 @@ Gamer, penggemar emulasi, dan siapa saja yang ingin *mengawasi* panas dan beban 
 ![Monitor suhu & frekuensi CPU-Z](/assets/images/blog/cpu_z_1.webp){: width="180" .normal }
 ![Detail frekuensi core terus CPU-Z](/assets/images/blog/cpu_z_2.webp){: width="180" .normal }
 ![Info sensor & bateri CPU-Z](/assets/images/blog/cpu_z_3.webp){: width="180" .normal }
-![Ikhtisar hardware peranti CPU-Z](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
+![Ringkasan hardware peranti CPU-Z](/assets/images/blog/cpu_z_4.webp){: width="180" .normal }
 ![Tetapan & amaran panas CPU-Z](/assets/images/blog/cpu_z_5.webp){: width="180" .normal }
 
 CPU-Z adalah port Android dari utilitas PC terkenal oleh CPUID. Ia membuka lembar spesifikasi bertab bersih: nama SoC dan arsitektur, GPU, memori dan storan, bateri, sensor, dan bahkan detail skrin. Ini aplikasi yang Anda ambil saat perlu *tahu isi di dalamnya*.
@@ -89,7 +89,7 @@ CPU-Z adalah port Android dari utilitas PC terkenal oleh CPUID. Ia membuka lemba
 - **Tanpa trend atau sejarah** — Anda tidak boleh melihat bagaimana suhu berubah selama game.
 
 ### Terbaik untuk
-Pengembang, pembeli yang memverifikasi telefon pintar bekas, dan siapa saja yang perlu bacaan hardware terpercaya sekali waktu.
+Pengembang, pembeli yang memverifikasi telefon pintar bekas, dan sesiapa sahaja yang perlu bacaan hardware terpercaya sekali waktu.
 
 **Muat turun CPU-Z**
 - [Google Play](https://play.google.com/store/apps/details?id=com.cpuid.cpu_z)
@@ -102,7 +102,7 @@ Pengembang, pembeli yang memverifikasi telefon pintar bekas, dan siapa saja yang
 Ini teras perbedaan. CPU Monitor adalah *monitor*: buka (atau gunakan tetingkap terapung) dan Anda melihat suhu naik, core naik, dan RAM terisi — waktu nyata. CPU-Z adalah *pembaca*: menangkap keadaan semasa Anda membukanya dan menyajikannya sebagai laporan rapi. Jika tujuan Anda "apakah telefon pintar saya overheat?", hanya CPU Monitor yang menjawabnya terus-menerus.
 
 ### Overlay dan widget
-CPU Monitor memberi Anda overlay status-bar, tetingkap terapung desktop, dan widget skrin utama untuk CPU/RAM/bateri — visibilitas persisten. CPU-Z tidak memaparkan apa pun kecuali Anda meluncurkannya. Untuk yang ingin dasbor sekilas, itu menentukan.
+CPU Monitor memberi Anda overlay status-bar, tetingkap terapung desktop, dan widget skrin utama untuk CPU/RAM/bateri — visibilitas persisten. CPU-Z tidak memaparkan apa pun kecuali Anda meluncurkannya. Untuk yang ingin papan pemuka sekilas, itu menentukan.
 
 ### Perlindungan panas gaming
 Saat bermain, penggera overheat CPU Monitor dan graf frekuensi terus memberi tahu kapan harus mundur. CPU-Z boleh memaparkan suhu sekali, tetapi tidak boleh mengawasi sesi. Untuk gaming atau emulasi berat, CPU Monitor adalah pilihan praktikal.
@@ -121,7 +121,7 @@ Keduanya percuma di Android; CPU Monitor menambah buka kunci pilihan untuk tema/
 
 ## Aplikasi hardware dan suhu lain yang patut dipertimbangkan
 
-Perbandingan dua aplikasi tidak boleh merangkumi setiap alasan orang mencari **alternatif CPU-Z**. Pengganti tepat bergantung apakah Anda ingin lembar spesifikasi, dasbor terus, atau amaran:
+Perbandingan dua aplikasi tidak boleh merangkumi setiap alasan orang mencari **alternatif CPU-Z**. Pengganti tepat bergantung apakah Anda ingin lembar spesifikasi, papan pemuka masa nyata, atau amaran:
 
 - Sebuah **alternatif DevCheck** atau **alternatif AIDA64** untuk inventaris hardware paling mendalam — SoC, GPU, skrin, sensor, dan detail build sistem. Keduanya lebih dekat ke CPU-Z daripada ke monitor terus.
 - Sebuah **alternatif 3C Toolbox** adalah carian semasa Anda ingin toolkit sistem lengkap dengan pemantauan, pelarasan, dan statistik bateri dalam satu tempat; itu instalasi lebih berat daripada aplikasi suhu sederhana.

@@ -22,7 +22,7 @@ Di bawah ini kami bandingkan enam **alternatif Day One** — dari [buku harian m
 ![Sandaran dan eksport cloud Day One](/assets/images/blog/day_one_5.webp){: width="180" .normal }
 
 - **Langganan tahunan berbayar** (~$35/tahun di 2026) untuk ciri yang paling sering digunakan orang.
-- **Segerak cloud secara bawaan** — sebahagian pengguna ingin storan lokal saja yang mereka kendalikan.
+- **Segerak cloud secara bawaan** — sebahagian pengguna ingin storan setempat sahaja yang mereka kendalikan.
 - **Mengutamakan prosa** — kurang pas bila Anda hanya ingin check-in mood cepat.
 - **Condong ke iPhone** — aplikasi Android dan web tertinggal dari versi iOS.
 - **Terkunci** — pindah berarti mengekspor, dan formatnya tidak selalu portabel.
@@ -109,7 +109,7 @@ Journey adalah **jurnal merentas platform** untuk Android, iOS, web, Windows, da
 ![Kalendar dan sejarah jurnal Diaro](/assets/images/blog/diaro_4.webp){: width="180" .normal }
 ![Sandaran dan eksport Diaro](/assets/images/blog/diaro_5.webp){: width="180" .normal }
 
-Diaro adalah **buku harian berbasis teks** dengan folder, tag, carian, dan dasbor bersih, tersedia di Android, iOS, Windows, dan Mac dengan sandaran cloud.
+Diaro adalah **buku harian berbasis teks** dengan folder, tag, carian, dan papan pemuka bersih, tersedia di Android, iOS, Windows, dan Mac dengan sandaran cloud.
 
 **Kelebihan**
 - **Folder, tag, dan carian tangguh** memudahkan navigasi jurnal panjang.
@@ -169,7 +169,7 @@ Daylio adalah **penjejak mood mikro** di mana Anda mengetuk perasaan dan menamba
 ![Kalendar dan sejarah jurnal Grid Diary](/assets/images/blog/grid_diary_4.webp){: width="180" .normal }
 ![Sandaran dan eksport Grid Diary](/assets/images/blog/grid_diary_5.webp){: width="180" .normal }
 
-Grid Diary memakai **kisi berpanduan pertanyaan** untuk menyusun entri, membantu Anda merenung dengan template yang boleh digunakan ulang. Populer untuk jurnal rasa syukur, pertanyaan harian, dan gaya tabiat.
+Grid Diary memakai **kisi berpanduan pertanyaan** untuk menyusun entri, membantu Anda merenung dengan template yang boleh digunakan ulang. Popular untuk jurnal rasa syukur, pertanyaan harian, dan gaya tabiat.
 
 **Kelebihan**
 - **Kisi berpanduan pertanyaan** mengubah halaman kosong jadi pertanyaan terarah.

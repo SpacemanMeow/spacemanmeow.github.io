@@ -1,7 +1,7 @@
 # 网站整体教研（全站校验）规范
 
 > **定位**：本站「大规模改动后」的唯一全站验收标准。回答一个问题：**改动之后，整个站点是否仍然正确？**
-> **适用站点**：`spacemanmeow.com` 英文站（根路径）+ `/zh/` 中文站；Jekyll 4.4、双语合并构建、GitHub Pages 部署。
+> **适用站点**：`spacemanmeow.com` 英文站（根路径）+ `/zh/` `/id/` `/th/` `/ms/` 四个子站；Jekyll 4.4、5 语合并构建、GitHub Pages Pages-artifact 部署。
 > **触发时机**：见 §1.1。**每次触发都必须完整跑一遍 §0 的七步，并填写 §8 教研记录表**，不得只做「改了哪一块就只验哪一块」。
 > **判定原则**：P0 硬门禁全绿 + WARN 逐条给出人工结论；详见 §1.3 / §1.4。
 > **基线快照日期**：2026-11-05（历史欠账已全部清零，见 §8）。所有数量以 §2 为准，数量变化必须能解释。
@@ -73,28 +73,28 @@
 
 | 类别 | 数量 | 路径 |
 |---|---|---|
-| 文章 | **264 = 66 EN + 66 ZH + 66 ID + 66 TH** | `_posts/*.md` / `_posts/zh/*.md` / `_posts/id/*.md` / `_posts/th/*.md`（均同名一一对应） |
-| 应用详情页 | **44 = 11 EN + 11 ZH + 11 ID + 11 TH** | `_apps/` / `_apps_zh/` / `_apps_id/` / `_apps_th/` |
-| 静态页 | **32 = 8 EN + 8 ZH + 8 ID + 8 TH** | `_pages/` / `_pages/zh/` / `_pages/id/` / `_pages/th/`（TH 8 结构页已于 2026-11-07 补齐，见 §8） |
-| Glossary 术语页 | **88 = 22 EN + 22 ZH + 22 ID + 22 TH** | `_glossary/` / `_glossary_zh/` / `_glossary_id/` / `_glossary_th/` |
-| 内容 Markdown 合计 | **421** | 上述四类 |
+| 文章 | **330 = 66 × 5 语（EN / ZH / ID / TH / MS）** | `_posts/*.md` / `_posts/{zh,id,th,ms}/*.md`（均同名一一对应） |
+| 应用详情页 | **55 = 11 × 5 语** | `_apps/` / `_apps_{zh,id,th,ms}/` |
+| 静态页 | **40 = 8 × 5 语** | `_pages/` / `_pages/{zh,id,th,ms}/` |
+| Glossary 术语页 | **110 = 22 × 5 语** | `_glossary/` / `_glossary_{zh,id,th,ms}/` |
+| 内容 Markdown 合计 | **535** | 上述四类 |
 | 图片文件 | **533**（526 webp + 4 jpg + 1 png + 1 svg + 1 ico） | `assets/images/` |
 | 模板 | 8 layouts + 13 includes | `_layouts/` / `_includes/` |
-| 构建产物 | **449 个 HTML**（含 404）、sitemap **449 条 `<loc>`** | `_site/` |
-| 语言 | 4（EN 根 / ZH `/zh/` / ID `/id/` / TH `/th/`） | `scripts/i18n_postprocess.py` 日志 `Languages detected: ['en', 'id', 'th', 'zh']` |
-| 内链 | htmlproofer 检查约 **670** 条内部链接（TH 结构页曾缺失致 963 断链，已于 2026-11-07 清零，见 §8） | 随内容增长变化 |
+| 构建产物 | **571 个 HTML**（含 404）、sitemap **570 条 `<loc>`** | `_site/` |
+| 语言 | 5（EN 根 / ZH `/zh/` / ID `/id/` / TH `/th/` / MS `/ms/`） | `scripts/i18n_postprocess.py` 日志 `Languages detected: ['en', 'id', 'ms', 'th', 'zh']` |
+| 内链 | htmlproofer 检查 **1099** 条内部链接（0 failure） | 随内容增长变化 |
 
 > 数量是快照不是硬阈值。新增文章/术语/语言后数量上升是正常的，但必须在教研记录表中写明「新增了什么、完整语言是否成对、分批语言的覆盖进度」。ID 为分批建设中的语言，进度以 `SEO-I18N-PROGRESS.md` 为准。
 
 ### 2.2 构建与路由事实（教研时的判定依据）
 
-1. **合并构建**：`scripts/build.sh` 先用 `_config.yml` 构建 EN 到 `_site/`，再用 `_config_zh.yml` 构建 ZH 到临时目录 `.jekyll-zh`，`rsync` 到 `_site/zh/`，最后 `scripts/i18n_postprocess.py --url` 注入 hreflang 并覆盖写合并 `sitemap.xml`，随后生成 Pagefind 索引。
+1. **合并构建**：`scripts/build.sh` 先用 `_config.yml` 构建 EN 到 `_site/`，再依次用 `_config_{zh,id,th,ms}.yml` 构建各语言到临时目录 `.jekyll-<lang>`，`rsync` 到 `_site/<lang>/`，最后 `scripts/i18n_postprocess.py --url` 注入 hreflang 并覆盖写合并 `sitemap.xml`，随后生成 Pagefind 索引。
 2. **集合必须分离**：Jekyll 集合始终从 `_#{label}` 目录递归读取，`collections.*.path` 只影响 URL、不影响读取目录。因此中文应用必须用独立集合 `apps_zh`（源 `_apps_zh/`），术语用 `glossary_zh`（源 `_glossary_zh/`）；否则 ZH 构建会把英文文档一并读入并映射到 `/zh/`。
 3. **`exclude` 细节**：Jekyll fnmatch 的 `*` 不带 `FNM_PATHNAME`，会跨 `/` 匹配，故不能用 `_posts/*` 区分根级文章与 `_posts/zh/`；`_config_zh.yml` 用 `_posts/2*`、`_posts/1*` 按年份前缀排除英文文章，并用 `_apps/`（**带尾斜杠**）避免误伤 `_apps_zh`。不支持 `!ruby/regexp`，且目录排除用 `start_with?` 判断。
 4. **URL 规则**：EN `/posts/:title/`、`/apps/:name/`、`/glossary/:name/`；ZH 全部加 `/zh/` 前缀。`_pages/*.md` 用显式 permalink，不会与 `/zh/` 冲突。
 5. **hreflang / sitemap**：按「去掉语言前缀后的路径」分组；每页注入组内所有语言 + 一条 `x-default` 指向 EN；合并 sitemap 每个语言变体一条 `<url>`，并删除 `/zh/sitemap.xml`；`404.html` 不注入、不进 sitemap。
 6. **feed / 搜索**：`feed.xml`（EN）与 `zh/feed.xml`（ZH）；Pagefind 索引 `_site/pagefind/`，`data-pagefind-body` 只索引正文；`robots.txt` 指向生产 sitemap。
-7. **CI**：`.github/workflows/pages-deploy.yml` 跑 `bash scripts/build.sh` + `htmlproofer`，部署后 Ping IndexNow。教研须与 CI 同款构建，不能只跑 `tools/test.sh`（见 §2.4）。
+7. **CI**：`.github/workflows/pages-deploy.yml` 跑 `bash scripts/build.sh` + `htmlproofer`，部署后 Ping IndexNow。教研须与 CI 同款构建；`tools/test.sh` 已改为调用 `scripts/build.sh` 的全站验收入口，可直接用于验收（见 §2.4）。
 
 ### 2.3 已知基线欠账（BASE）
 
@@ -115,11 +115,18 @@
 
 ### 2.4 已知工程风险（教研时必须确认，不自动放行）
 
-- `tools/test.sh` **只做 EN 单语言构建**，不覆盖 `/zh/`、hreflang 与合并 sitemap；**不可用于全站验收**。
-- `SEO-PROGRESS.md` T-34 明细引用的 `CONTENT-OPTIMIZATION-RULES.md` 在仓库中不存在（引用悬空）。
-- `tools/compress_images.py`、`tools/md_to_html.py` 硬编码旧机绝对路径 `/Users/gaolitao/...`，在当前工作区不可用。
-- 文档滞后：`SEO-PROGRESS.md` / `SEO-PLAYBOOK.md` 记 Glossary 为「16 条/语言」，实际 **22 条/语言**；`SEO-KEYWORDS.md` §3 口径说明仍写「仅 Crosshair Aim 组完成内容侧深度优化」，实际 **11 组关键词已全部落地**（T-34 深度优化 10 组，§2.1 于 2026-11-05 整改教研补齐）。
-- `README.md` 仍是 Chirpy Starter 模板，未写本站构建命令。
+**2026-11-07 已全部清零**。下表为历史风险与修复方式；教研时复核未回退即可，不自动放行。
+
+| 历史风险 | 修复 | 复核方式 |
+|---|---|---|
+| `tools/test.sh` 只做 EN 单语构建，不可用于全站验收 | 改为调用 `scripts/build.sh` + CI 同款 `htmlproofer`，支持 `--fast` 跳过 Pagefind | 执行 `bash tools/test.sh`，确认 5 语产物、hreflang 与合并 sitemap |
+| `SEO-PROGRESS.md` T-34 引用不存在的 `CONTENT-OPTIMIZATION-RULES.md` | 明细改指向本行 ①–⑩ 与 `SEO-KEYWORDS.md` §2.1 各组关键词表 | `seo/` 内大写文档名引用逐一可解析 |
+| `tools/compress_images.py`、`tools/md_to_html.py` 硬编码某台机器的用户目录绝对路径 | 改为 `Path(__file__).resolve().parent.parent` 推导；文档命令改用 `git rev-parse --show-toplevel` 定位仓库根 | 两个脚本的路径常量均基于 `__file__`，文档命令不含机器路径 |
+| 文档滞后：Glossary 记 16 条/语言，实际 22 条/语言 | `SEO-PROGRESS.md` / `SEO-PLAYBOOK.md` 改为 22 条/语言 | 与 `_glossary*/` 计数一致 |
+| `README.md` 仍是 Chirpy Starter 模板 | 先重写为构建/验收说明，最终收敛为**纯对外站点介绍**（站点内容、应用、5 语、公开链接）；不含构建命令、目录结构、教研与 CI 等内部实现信息（仓库首页公开可见） | README 不含任何内部命令/路径；「语言」段与 `_data/languages.yml` 一致由 §5 脚本 D01 硬门禁校验 |
+
+> `SEO-KEYWORDS.md` §3 的「仅 Crosshair Aim 组完成内容侧深度优化」在 2026-11-05 整改教研中已改为通用口径，本次复核确认该滞后表述已不存在；11 组关键词覆盖以 §2.1 为准。
+> **2026-11-07 复核**：完整构建 + `bash tools/test.sh` 0 failure、§5 教研 64 PASS / 0 FAIL / 0 WARN、产物级深度抽验 75 PASS / 0 FAIL，五项均未回退（详见 §8）。
 
 ### 2.5 基线更新规则
 
@@ -130,7 +137,7 @@
 - **语言清单自动发现**：§5 脚本从 `_config_<lang>.yml` 自动构造 `LANGS = ['en', ...]`，新增语言**不需要改脚本**；`i18n_postprocess.py` 亦按 `_site/` 下两位字母目录自动发现，无需改动。
 - **完成度分层**：文章数与 EN 相等的语言判为「完整语言」，按一一对应硬门禁；不足者判为「分批建设中」，只要求「无孤立文件（不存在 EN 没有的文件）」并输出 `x/y` 覆盖进度，避免阻塞分批上线。其余三类（应用 / 页面 / 术语）对所有语言均要求无孤立文件。
 - **文章骨架全语言对等（2026-11-06 起）**：**所有语言版本**的文章结构、文章目录与图片插入都以 EN 为准——H2/H3 层级与顺序、结构块（表格 / 列表 / 编号步骤 / FAQ / 分隔线）序列、文章目录（TOC 条目数与所在行序）、图片插入行序逐篇与 EN 同名文章一致；不再按本地搜索意图重新组织内容，也不再只要求「H2 ≥ 4 且含 FAQ」的结构下限。纯文本段落可因语言表达做局部调整，关键词按各语言词库优化。由 §5 脚本 **D18** 逐篇硬校验；依据 `SEO-I18N-PLAYBOOK.md` §1 红线 11 / §3.2 / §3.3 / §3.5。
-- **hreflang 条数**：按「去掉语言前缀后的路径」分组，条数 = 组内实际语言数 + 1（x-default）。分批建设期间允许 2/3/4 条并存（当前分布 3 条 132 页、4 条 144 页），**不**要求每页固定为总语言数 + 1。
+- **hreflang 条数**：按「去掉语言前缀后的路径」分组，条数 = 组内实际语言数 + 1（x-default）。5 语全部完整后每页固定 6 条（当前分布 `{6: 570}`）；分批建设期间允许 2–5 条并存，**不**要求每页固定为总语言数 + 1。
 - **D14 白名单**：新增语言源文件属已批准改动，不计入文件名红线告警；EN/ZH 既有文件的增删改仍照常告警。
 - **模板通用化**：所有布局/包含按构建级 `site.lang` 动态取集合与前缀（`site[coll]`、`site.data.ui[lang]`），禁止 `zh`-vs-else 二元判断；`page.lang` 不可用于集合选择（非 EN 构建会渲染到 EN 根级页面）。
 
@@ -140,12 +147,12 @@
 
 | 编号 | 维度 | 级别 | 主要手段 | 合格标准 |
 |---|---|---|---|---|
-| D01 | 构建与产物 | P0 | `scripts/build.sh` 全量构建 | 退出码 0；各语言首页存在；日志 N 语言、页数正常 |
+| D01 | 构建与产物 | P0 | `scripts/build.sh` 全量构建 + §5 脚本 | 退出码 0；各语言首页存在；日志 N 语言、页数正常；**`README.md`「语言」段与 `_data/languages.yml` 一致**（新增语言不漏改对外清单，见 `SEO-I18N-PLAYBOOK.md` §2.4） |
 | D02 | 链接与资源 | P0 | `htmlproofer` | 0 failure；内链、锚点、图片、脚本全通 |
-| D03 | 多语言源对账 | P0 | §5 脚本 | 完整语言 4 组差集为 0；分批语言无孤立文件并报告覆盖进度 |
+| D03 | 多语言源对账 | P0 | §5 脚本 | 4 个非 EN 完整语言（zh/id/th/ms）逐组差集为 0、结构页 8/8；分批语言无孤立文件并报告覆盖进度 |
 | D04 | 路由、集合与隔离 | P0 | 配置核对 + 产物 URL 抽查 | 集合分离且非空、`exclude` 正确、各语言子站无跨语言泄漏 |
 | D05 | hreflang / sitemap / canonical / feed / robots | P0 | §5 脚本 + 人工抽验 | 组内每语言 1 条 + x-default；合并 sitemap；404 排除；canonical 为生产域名 |
-| D06 | frontmatter 与元数据 | P0 | §5 脚本 | 必填齐、`lang` 对、`description ≤160`、无裸 `&`；**App `tagline` 四语信息量与 EN 对等**（≤1.5× 且无增补规格数字，见 `SEO-I18N-PLAYBOOK.md` §1 红线 12） |
+| D06 | frontmatter 与元数据 | P0 | §5 脚本 | 必填齐、`lang` 对、`description ≤160`、无裸 `&`；**App `tagline` 四语信息量与 EN 对等**（≤1.5× 且无增补规格数字，见 §1 红线 12）；**站点级 `tagline` 单行显示宽度** `w≤60` 且非 EN ≤ EN（见 §1 红线 13） |
 | D07 | 正文结构与多语言对等 | P0 | §5 脚本 + 人工抽验 | 完整语言 H2 一致；分批语言基础结构下限（H2≥4 且含 FAQ）；**骨架全语言对等由 D18 硬校验**；无汉字间多余空格 |
 | D08 | 图片与可访问性 | P0 | §5 脚本 | alt 唯一、无 `![image]`、引用文件存在、全部带 `width` |
 | D09 | 关键词真实覆盖 | P0 | §5 脚本归一化逐词核对 | 全部 11 组 MISS = 0 |
@@ -165,9 +172,9 @@
 
 ### D01 构建与产物（P0）
 
-- **检查点**：完整构建退出码为 0；`_site/index.html`、`_site/zh/index.html`、`_site/id/index.html` 存在；日志出现 `Languages detected: ['en', 'id', 'zh']` 与 `Processed N pages across 3 languages`；所有 `.jekyll-<lang>` 临时目录已清理；`==> Done. Combined site in _site/` 出现。
+- **检查点**：完整构建退出码为 0；`_site/index.html` 与 `_site/{zh,id,th,ms}/index.html` 均存在；日志出现 `Languages detected: ['en', 'id', 'ms', 'th', 'zh']` 与 `Processed N pages across 5 languages`；所有 `.jekyll-<lang>` 临时目录已清理；`==> Done. Combined site in _site/` 出现；`README.md`「语言」段必须列出 `_data/languages.yml` 的全部 `label` 且数量词与实际语言数一致（§5 脚本 D01 硬门禁，新增语言漏改即 FAIL）。
 - **命令**：`JEKYLL_ENV=production bash scripts/build.sh`（发布前教研**不要**带 `SKIP_PAGEFIND`）。
-- **合格标准**：N 与 §2.1 快照 276 相当（允许随新增内容/语言增长，须解释）。
+- **合格标准**：N 与 §2.1 快照 570 相当（允许随新增内容/语言增长，须解释）。
 - **失败处理**：先看是 EN 还是 ZH 阶段失败；ZH 失败优先查 `_config_zh.yml` 的 `exclude` 与集合目录名；EN 失败查 `_config.yml` 与 frontmatter 语法。
 
 ### D02 链接与资源（P0）
@@ -196,10 +203,10 @@
 ### D05 hreflang / sitemap / canonical / feed / robots（P0）
 
 - **检查点**：
-  - 每个 HTML（除 404）都有 `<!-- i18n-hreflang -->` 块，含 `hreflang="en"`、`hreflang="zh"`、`hreflang="x-default"` 共 3 条，且 x-default 指向 EN；组内互指成环；
-  - `_site/sitemap.xml` 为合并版（约 228 条 `<loc>`），每条带 `xhtml:link` alternates；`/zh/sitemap.xml` **不存在**；404 不在 sitemap；
-  - canonical 为 `https://spacemanmeow.com/...`，ZH 为 `.../zh/...`；`url` 配置未被改成 localhost；
-  - `_site/feed.xml` 与 `_site/zh/feed.xml` 均存在且各含约 10 条 entry；`robots.txt` 的 Sitemap 行指向生产域名。
+  - 每个 HTML（除 404）都有 `<!-- i18n-hreflang -->` 块，含 5 条语言 alternate + `hreflang="x-default"` 共 6 条，且 x-default 指向 EN；组内互指成环；
+  - `_site/sitemap.xml` 为合并版（570 条 `<loc>`），每条带 6 个 `xhtml:link` alternates；`/<lang>/sitemap.xml` 全部**不存在**；404 不在 sitemap；
+  - canonical 为 `https://spacemanmeow.com/...`，非 EN 为 `.../<lang>/...`；`url` 配置未被改成 localhost；
+  - `_site/feed.xml` 与 `_site/{zh,id,th,ms}/feed.xml` 共 5 个 feed 均存在、含 entry 且 `xml:lang` 与语言一致；`robots.txt` 的 Sitemap 行指向生产域名。
 - **手段**：§5 脚本 D05 + 人工抽查 1 个文章页、1 个 app 页、1 个 glossary 页的 `<head>`。
 - **失败处理**：hreflang 缺页通常是「某语言缺同名文件」（回到 D03）；sitemap 分裂说明 `i18n_postprocess.py` 没跑或 URL 分组键错误。
 
@@ -212,8 +219,9 @@
   - 应用页 / 隐私 / 条款页有 `seo.type: WebPage`，避免被误判 `BlogPosting`；
   - `description` 中裸 `&` 会转 `&amp;` 污染 JSON-LD，脚本硬门禁要求为 0；
   - **App 页 `tagline` 必须是 EN 短句的忠实本地化**，字符数 ≤ EN ×1.5、不得出现 EN tagline 没有的规格数字（`400+` / `500+` / `80`…），语义要点一一对应由人工抽验；禁止把正文功能点 / 卖点清单提炼进 tagline。规则见 `SEO-I18N-PLAYBOOK.md` §1 红线 12。
-- **手段**：§5 脚本 D06；`description >160`、裸 `&`、tagline 信息量不对等均为硬门禁 FAIL。
-- **失败处理**：补字段；压缩 description 时保留年份与 2–4 个目标词；tagline 超限时按 EN 短句重译（只换词，不增功能点），不要为塞关键词在汉字之间插空格（见 D07）。
+  - **站点级 `tagline`（`_config*.yml` 的 header 副标题）单行不得过长**：按显示宽度 `w`（CJK / 全角 = 2，泰文 / 拉丁 = 1）计，`w ≤ 60` 且非 EN `w ≤ w(EN)`；只写「品类 + 1–2 个形容词」的短名词短语，禁止把「致力于…」「且实用…」等额外卖点堆进副标题。规则见 §1 红线 13；`_includes/nav.html` 的 `.brand__text small` 是 `nowrap + ellipsis`，≤768px 直接隐藏。
+- **手段**：§5 脚本 D06；`description >160`、裸 `&`、App tagline 信息量不对等、站点级 tagline 超宽均为硬门禁 FAIL。
+- **失败处理**：补字段；压缩 description 时保留年份与 2–4 个目标词；App tagline 超限时按 EN 短句重译（只换词，不增功能点）；站点级 tagline 超限时删掉动词前缀与额外形容词，收敛回 EN 短名词短语（MS / TH 均按此返工），不要靠放宽 CSS 省略号绕过；不要为塞关键词在汉字之间插空格（见 D07）。
 
 ### D07 正文结构与中英对等（P0）
 
@@ -235,7 +243,7 @@
 ### D08 图片与可访问性（P0）
 
 - **检查点**：同文件内 `alt` **零重复**且关键词化；`![image]` 零残留；所有 `/assets/...` 引用文件真实存在；每图带 `{: width="180" .normal }` 之类宽度属性防 CLS；各语言文章图片引用与 EN 一一对应（含行序位置，见 §3.5 对应规范）；新增图片走 webp 压缩。
-- **手段**：§5 脚本 D08 + `tools/compress_images.py`（注意 §2.4 的旧机路径风险）。
+- **手段**：§5 脚本 D08 + `tools/compress_images.py`（路径已改为相对脚本位置推导，见 §2.4）。
 - **失败处理**：重复 alt 用「原描述 + 图片文件名对应的视图标识」区分，不要只加序号凑唯一；缺图先确认是路径写错还是资源未提交。
 
 ### D09 关键词真实覆盖（P0）
@@ -294,7 +302,7 @@
 
 ## 5. 一键静态教研脚本
 
-> **用法**：在仓库根目录（`/Users/glt/Documents/code/spacemanmeow.github.io`）整段复制执行；**执行前先完成一次构建**（否则产物类维度会跳过）。
+> **用法**：在仓库根目录整段复制执行（如 `cd "$(git rev-parse --show-toplevel)"`）；**执行前先完成一次构建**（否则产物类维度会跳过）。
 > **输出**：`PASS` = 硬门禁通过；`FAIL` = 阻塞；`WARN` = 需人工确认（仅 D14 出现文件增删改时）。
 > **维护**：`BASE` 当前为空；若登记新欠账，同步修改脚本顶部 `BASE` 常量与本文档 §2.3。
 
@@ -348,6 +356,19 @@ FULL = [L for L in LANGS[1:] if nm(dirs(L)['posts'] + '/*.md') == en_posts]
 PARTIAL = [L for L in LANGS[1:] if L not in FULL]
 chk('D01', '语言清单与完成度', len(LANGS) >= 2,
     f'LANGS={LANGS} 完整={FULL} 分批中={PARTIAL}')
+# D01：README 对外语言清单必须与 _data/languages.yml 同步（新增语言最易漏改的公开文案）
+_labels = re.findall(r'^\s+label:\s*(.+?)\s*$',
+                     open('_data/languages.yml', encoding='utf-8').read(), re.M)
+_rm = re.search(r'^## 语言[ \t]*\n(.*?)(?=^## |\Z)',
+                open('README.md', encoding='utf-8').read(), re.M | re.S)
+_seg = _rm.group(1) if _rm else ''
+_miss = [x for x in _labels if x not in _seg]
+_CN = {1:'一', 2:'二', 3:'三', 4:'四', 5:'五', 6:'六', 7:'七', 8:'八', 9:'九',
+       10:'十', 11:'十一', 12:'十二'}
+_num = _CN.get(len(_labels), str(len(_labels)))
+chk('D01', 'README 对外语言清单与 languages.yml 一致',
+    bool(_labels) and not _miss and (f'{_num}个语言版本' in _seg),
+    f'languages.yml {len(_labels)} 语；README 缺失 {_miss}；数量词应为「{_num}个语言版本」')
 empty = [(L, k) for L in LANGS[1:] for k in ('apps', 'gloss')
          if not fs(dirs(L)[k] + '/*.md')]
 chk('D04', '各语言集合非空（防 site[coll] 静默失败）', not empty, f'空集合 {empty}')
@@ -413,6 +434,22 @@ for L in LANGS[1:]:
             tgl_bad.append((f, f'长度比 {ratio:.2f} 规格数字增补 {sorted(extra)}'))
 chk('D06', 'App tagline 信息量与 EN 对等（≤1.5× 且无增补规格数字）', not tgl_bad,
     f'异常 {len(tgl_bad)} {tgl_bad[:2]}')
+# D06：站点级 tagline 单行显示宽度（SEO-I18N-PLAYBOOK.md §1 红线 13）
+# header .brand__text small 为 nowrap + ellipsis；CJK/全角按 2 单位，泰文/拉丁按 1 单位
+import unicodedata
+def _w(s):
+    return sum(2 if unicodedata.east_asian_width(c) in 'WF' else 1 for c in s)
+def _cfg_tagline(f):
+    for l in open(f, encoding='utf-8').read().split('\n'):
+        if l.startswith('tagline:'):
+            return re.sub(r'\s+#\s.*$', '', l[len('tagline:'):].strip()).strip().strip('"')
+    return ''
+_cfgs = ['_config.yml'] + ['_config_%s.yml' % L for L in LANGS[1:]]
+_tw = {f: _w(_cfg_tagline(f)) for f in _cfgs if os.path.isfile(f)}
+_enw = _tw.get('_config.yml', 0)
+_tw_bad = [(f, w) for f, w in _tw.items() if w > 60 or (f != '_config.yml' and w > _enw)]
+chk('D06', '站点级 tagline 单行显示宽度（w≤60，非 EN ≤ EN）', not _tw_bad,
+    f'EN w={_enw}，各语 {sorted(_tw.items())}，异常 {_tw_bad}')
 # D06：YAML 语法硬门禁（Jekyll 会静默丢弃解析失败的文档，导致空 src / 空链接的连带故障）
 RB = r'''require 'yaml'
 bad = []
@@ -648,7 +685,7 @@ PY
 | JSON-LD 报 `&amp;` | frontmatter 裸 `&` | 改写为 and / 顿号；确认是脚本块内命中而非正文误报 |
 | htmlproofer 断链 | 文件改名、permalink 变化、锚点文字改动 | 恢复文件名或补 301（本站无重定向机制，优先恢复） |
 | `_site/seo/` 出现 | `seo/` 的 `exclude` 被误删，或旧产物残留 | 恢复两份配置的 `seo/` 排除，`rm -rf _site/seo` 后完整重构建 |
-| `tools/test.sh` 全绿但线上 ZH 异常 | 该脚本只构建 EN | 教研一律用 `scripts/build.sh` |
+| `tools/test.sh` 全绿但线上某语言异常 | 历史原因：该脚本曾只构建 EN（2026-11-07 已改为全站构建） | 用 `bash tools/test.sh` / `scripts/build.sh` 全站构建后复跑 §5 教研 |
 | D18 骨架不一致 | 某语言按本地意图重写正文、漏 / 多列表项、目录增删条目、图片挪位置 | 以 EN 同名文章为骨架补齐或合并结构块，禁止改动 EN 凑一致（§4 D18） |
 
 ---
@@ -695,6 +732,10 @@ PY
 | 2026-11-07 | **Phase 3 自动推进 · G5（Meow FM）进行中 2/6**（限定范围）：补齐 `_posts/id/2026-07-31-tutorial-meow-fm.md`（134 行 / 3 图 / TOC 11 锚点全命中），行类型序列差异 0、图片行序一致、alt 唯一未照抄 EN、内链前缀异常 0；含 5 处指向同组未落地页面的预期断链（整组完成后消链） | 未做完整验收（含预期断链） | 未做（含预期断链） | 单篇校验通过（行类型差 0、图片行序一致、alt 唯一、内链前缀异常 0、description 136、TOC 11 锚点全命中）；D17/D18 该篇通过；D09 11 组 MISS 0 未重测（词库 §2.5 待整组补） | 文章 157（66+66+25）、内容 md 280、产物约 298 HTML、sitemap 约 297（含预期断链，未计入全绿基线） | 无 WARN | 🟡 进行中（G5 2/6），含预期断链；整组完成后跑完整构建+htmlproofer+教研，再更新全绿基线 | — |
 | 2026-11-07 | **Phase 3 自动推进 · G5（Meow FM）进行中 1/6**（限定范围）：补齐 `_posts/id/2026-07-13-pillar-white-noise-focus-apps-android.md`（125 行 / 5 图），行类型序列差异 0、图片行序一致、alt 唯一未照抄 EN；含 5 处指向同组未落地页面的预期断链（整组完成后消链） | 未做完整验收（含预期断链） | 未做（含预期断链） | 单篇校验通过（行类型差 0、图片行序一致、alt 唯一、内链前缀异常 0、description 150 字符）；D17 / D18 该篇通过；D09 11 组 MISS 0 未重测（词库 §2.5 待整组补） | 文章 157（66+66+25）、内容 md 280、产物约 298 HTML、sitemap 约 297（含预期断链，未计入全绿基线） | 无 WARN | 🟡 进行中（G5 1/6），含预期断链；整组完成后跑完整构建+htmlproofer+教研，再更新全绿基线 | — |
 | 2026-11-07 | **马来语（ms）Phase 5 多语言扩展 · 全量交付**（§1.1 大规模改动）：`_config_ms.yml`、`_data/{languages,nav,ui}.yml`、`404.html`、`scripts/build.sh` 与四份 config 的 `ms` exclude；`_posts/ms/` 66 篇、`_apps_ms/` 11 篇、`_glossary_ms/` 22 篇、`_pages/ms/` 8 篇 + `ms/blog/index.html` 从 `id` 骨架逐行本地化；`SEO-KEYWORDS.md` §2.1.6 的 29 词全部落地 | PASS（完整构建 5 语 / 570 页；Pagefind 570 页 / 29820 词 / 5 语分片） | PASS（571 文件 / 1099 内链 / 0 failure） | **60 PASS / 4 FAIL / 0 WARN**；ms 全维度 PASS：D01 语言清单、D03 四语一一对应 + 结构页 8/8、D04 集合非空、D05 hreflang 6 条 × 570 页、D06 tagline 红线 12 与 YAML、D07 H2、D08/D17 插图集合与行序、D09 MISS=0、D10 JSON-LD、D12 feed / Pagefind、D14 0 条、D18 骨架 / TOC / 图片行序；4 个 FAIL 均为既有 th 遗留项（D11 的 6 条 `/id/` 内链、D17/D18 `tutorial-meow-todo-list` 行序偏移 1 行），与 ms 无关 | 产物 570 HTML、sitemap 570、内链 1099、Pagefind 29820 词；`/ms/` 114 页 | 无 WARN | ✅ `/ms/` 可发布；4 个既有 th 遗留 FAIL 按 §1.4 登记，不阻塞 ms | — |
+| 2026-11-07 | **全站正确性教研（重点多语言）**（按 §1.3 修复 4 个 P0 FAIL）：步 1–4 全量复跑；按 §4 做 75 项产物级多语言抽验；修复 `_posts/th/` 6 条跨语言 `/id/` 内链（D11）与 `tutorial-meow-todo-list` 行序偏移 1 行（D17 / D18 三项）；按 §2.5 同步 §2.1 基线快照与 §2.2 / §2.6 / §4 的 5 语口径 | PASS（完整构建 5 语 / 570 页；Pagefind 570 页 / 29727 词 / 5 语分片） | PASS（571 文件 / 1099 内链 / 0 failure） | **64 PASS / 0 FAIL / 0 WARN**（§5 脚本由 60/4 → 64/0）；产物级深度抽验 **75 PASS / 0 FAIL**：5 语 slug 一一对应、571 页 `<html lang>` 正确、570 页 6 条 hreflang 成环且 x-default 指 EN、canonical / sitemap 570 loc / 5 语 feed / TOC 锚点全命中 / App JSON-LD 四类齐备 / 配置集合与 exclude 隔离 | 产物 570 HTML、sitemap 570、内链 1099、Pagefind 29727 词；`BASE` 仍为空 | 无 WARN | ✅ 全站可发布；P1 人工项见报告（共享 `aria-label` 中文、ms 正文印尼语借词、§6 线上项） | — |
+| 2026-11-07 | **P1 人工项 + §2.4 工程风险清零**（全站改动）：共享 `aria-label` 8 键迁入 `_data/ui.yml`（5 语各 28 键一致），`nav.html` / `main.js` / 5 个搜索页按 `site.lang` 取值；ms 正文 7 类印尼语借词本地化（57 文件 / 223 处，标题 auto_id 锚点重映射、行序不变）；`tools/test.sh` 改为全站验收入口、两个 tools 脚本去掉旧机绝对路径并清空旧缓存、README 重写、T-34 悬空引用与 Glossary 16→22 口径修正；按 §1.3 修复 TH `tutorial-meow-todo-list` 行序回归 1 行 | PASS（完整构建 5 语 / 570 页；Pagefind 570 页 / 29724 词 / 5 语分片） | PASS（571 文件 / 1099 内链 / 0 failure，锚点 hash 全命中） | **64 PASS / 0 FAIL / 0 WARN**；产物级深度抽验 **75 PASS / 0 FAIL**；D09 11 组 MISS=0；全量抽验 571 页 `aria-label` 与 `<html lang>` 一致（异常 0）、非 ZH 页无中文 aria-label、ms 正文 7 类借词残留 0 | 产物 570 HTML、sitemap 570、内链 1099、Pagefind 29727→29724 词（ms 借词替换）；`BASE` 仍为空 | 无 WARN | ✅ 全站可发布；§2.4 已清零，剩余 P1 仅 §6 线上人工项 | — |
+| 2026-11-07 | **泰语站点副标题收敛 + 副标题长度红线入规范**：`_config_th.yml` 的 `tagline` 由 63 字符（w=63，1.19× EN）缩为 35 字符（w=35，0.66× EN）的「品类 + 2 个形容词」短名词短语；`SEO-I18N-PLAYBOOK.md` §1 新增红线 13（站点级 tagline 显示宽度 `w≤60` 且非 EN ≤ EN、短名词短语写法、桌面目视兜底，与红线 12 的 App tagline 明确区分）并在 §2.3 Step 3 配置核对表加入该项；`SITE-AUDIT.md` §3 维度表 / §4 D06 / §5 脚本新增同名硬门禁（教研 64→65 PASS），反向注入旧长句验证立刻 FAIL 并点名 `_config_th.yml` | PASS（完整构建 5 语 / 570 页；Pagefind 570 页 / 29724 词 / 5 语分片） | PASS（571 文件 / 1099 内链 / 0 failure） | **65 PASS / 0 FAIL / 0 WARN**；产物级深度抽验 **75 PASS / 0 FAIL**；D06 站点级 tagline 各语 w = EN 53 / ZH 36 / ID 38 / MS 43 / TH 35，异常 0；TH 产物 `<small>` 已为新短句 | 产物 570 HTML、sitemap 570、内链 1099、Pagefind 29724 词不变；`BASE` 仍为空 | 无 WARN | ✅ 全站可发布；副标题过长已由硬门禁防复发 | — |
+| 2026-11-07 | **新增语言同步 README 对外语言清单（规则 + 硬门禁）**：`README.md`「语言」段被标为对外可见清单；`SEO-I18N-PLAYBOOK.md` §0 步骤 4 / §2.4 Step 4 / §6.2 加入「新增语言必须同步 `README.md` 的语言名与数量词」；`SITE-AUDIT.md` §3 D01 / §4 D01 / §5 脚本 新增 D01 硬门禁，对照 `_data/languages.yml` 的 `label` 与中文数量词；反向验证三场景（漏改语言名 / 漏改数量词 / 完整更新）分别为 FAIL / FAIL / 全绿 | PASS（完整构建 5 语 / 570 页；Pagefind 570 页 / 29724 词 / 5 语分片） | PASS（571 文件 / 1099 内链 / 0 failure） | **66 PASS / 0 FAIL / 0 WARN**（教研 65→66）；产物级深度抽验 **75 PASS / 0 FAIL**；D01 README 门禁 PASS（5 语，缺失 []，数量词「五个语言版本」） | 产物 570 HTML、sitemap 570、内链 1099、Pagefind 29724 词不变；`BASE` 仍为空 | 无 WARN | ✅ 全站可发布；新增语言漏改对外清单已由硬门禁防复发 | — |
 
 ---
 

@@ -30,7 +30,7 @@ faq:
   - question: Bolehkah Only Clock digunakan sebagai pemasa fokus?
     answer: >-
       Boleh. Gunakan jam flip skrin penuh bersama white noise untuk membantu belajar, fokus bekerja, atau mengatur waktu.
-  - question: Peranti apa saja yang didukung Only Clock?
+  - question: Peranti apa sahaja yang didukung Only Clock?
     answer: >-
       Only Clock berjalan di Android dan iOS. Telefon pintar atau iPad lama juga boleh digunakan sebagai paparan jam.
 ---

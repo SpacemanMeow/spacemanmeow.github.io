@@ -325,7 +325,7 @@ Meow Money Manager menyediakan beberapa pilihan tetapan untuk menyesuaikan fungs
 {:.faq-q}
 Tidak. **Data disimpan secara lokal pada peranti** sepenuhnya, dan Anda boleh memakai seluruh aplikasi tanpa akaun cloud; sandaran cukup lewat Google Drive, iCloud, atau WebDav.
 
-### Bahasa apa saja yang didukung?
+### Bahasa apa sahaja yang didukung?
 {:.faq-q}
 Mendukung UI multi-bahasa — Cina, Inggeris, Malaysia, Thai, dan Portugis.
 

@@ -18,7 +18,7 @@ Di bawah ini kami membandingkan enam alat Android menurut harga, keupayaan, dan 
 - **Aplikasi percuma sarat iklan** yang mengganggu pengalaman overlay tenang.
 - **Terhad pada butang virtual** — tanpa jam, tanpa monitor, tanpa ekstra.
 - **Kebenaran kebolehcapaian luas** dengan praktik data tidak jelas di sebahagian klon.
-- Anda mungkin menginginkan **gerak isyarat atau pemetaan ulang butang keras** alih-alih bola terapung.
+- Anda mungkin menginginkan **gerak isyarat atau pemetaan ulang butang keras** dan bukannya bola terapung.
 - Alternatif baik menggabungkan **alat terapung berguna lebih banyak** dalam satu tempat.
 
 ## Alternatif Assistive Touch terbaik sekilas
@@ -72,7 +72,7 @@ Floating Assistant menghadirkan **assistive touch, jam terapung, dan monitor sis
 
 ### 2. Easy Touch — terbaik bola gaya iOS
 
-Easy Touch adalah **bola assistive gaya iOS** populer untuk Android, dengan navigasi virtual, pengalih cepat, gerak isyarat, dan tema yang meniru AssistiveTouch iPhone.
+Easy Touch adalah **bola assistive gaya iOS** popular untuk Android, dengan navigasi virtual, pengalih cepat, gerak isyarat, dan tema yang meniru AssistiveTouch iPhone.
 
 **Kelebihan**
 - **Bola terapung** dengan kontrol home, back, recent, dan volume.

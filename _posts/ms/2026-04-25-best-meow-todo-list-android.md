@@ -54,7 +54,7 @@ Meow Todo adalah **aplikasi senarai tugasan bertema kucing** untuk Android dan i
 - **Widget** — centang tugasan dari skrin utama dalam satu ketikan.
 - **Subtugasan dan peringatan** — pecah dan jadwalkan kerja dengan notifikasi harian.
 - **Sandaran yang Anda kendalikan** — Google Drive atau WebDav, hanya semasa Anda aktifkan.
-- **Eksport CSV** — keluarkan data kapan saja.
+- **Eksport CSV** — keluarkan data bila-bila sahaja.
 
 **Kelemahan untuk pengguna Android**
 - **VIP untuk ciri lanjutan** — daftar tanpa had, tag, dan eksport CSV ada di sebalik peningkatan.

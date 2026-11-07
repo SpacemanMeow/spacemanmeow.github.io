@@ -70,7 +70,7 @@ Crosshair Aim adalah **aplikasi bidik silang untuk game FPS** dengan 80+ gaya, k
 ![Ketelusan dan posisi Custom Crosshair](/assets/images/blog/custom_crosshair_3.webp){: width="180" .normal }
 ![Tetapan dan simpan Custom Crosshair](/assets/images/blog/custom_crosshair_5.webp){: width="180" .normal }
 
-Custom Crosshair (Impact Crosshair) adalah **alat overlay** populer dengan 500.000+ instal, pembuat bidik silang, overlay waktu nyata, dan retikel animasi untuk game FPS dan TPS.
+Custom Crosshair (Impact Crosshair) adalah **alat overlay** popular dengan 500.000+ instal, pembuat bidik silang, overlay waktu nyata, dan retikel animasi untuk game FPS dan TPS.
 
 **Kelebihan**
 - **Pembuat bidik silang** dengan ukuran, warna, dan reka bentuk yang boleh disesuaikan.
@@ -126,10 +126,10 @@ Custom Aim (Crosshair Generator Pro) memungkinkan Anda **membuat overlay bidik s
 ![Ketelusan dan posisi Crosshair Pro](/assets/images/blog/crosshair_pro_3.webp){: width="180" .normal }
 ![Efek overlay saat bermain Crosshair Pro](/assets/images/blog/crosshair_pro_4.webp){: width="180" .normal }
 
-Crosshair Pro: Custom Scope adalah utilitas seluler yang menempatkan **overlay scope presisi** di mana saja di skrin, boleh disesuaikan waktu nyata saat bermain, dengan kompatibilitas FPS luas.
+Crosshair Pro: Custom Scope adalah utilitas seluler yang menempatkan **overlay scope presisi** di mana sahaja di skrin, boleh disesuaikan waktu nyata saat bermain, dengan kompatibilitas FPS luas.
 
 **Kelebihan**
-- **Tempatkan bidik silang di mana saja** dan sesuaikan saat bermain secara waktu nyata.
+- **Tempatkan bidik silang di mana sahaja** dan sesuaikan saat bermain secara waktu nyata.
 - **Semua game FPS utama** didukung dengan kompatibilitas baik.
 - Set klasik dan pro untuk mencocokkan gaya menembak Anda.
 - UI sederhana dan fokus.

@@ -9,7 +9,7 @@ last_modified_at: 2026-11-06
 lang: ms
 ---
 
-Buku harian digital mengubah perasaan yang berceceran menjadi sesuatu yang benar-benar boleh Anda lihat dan pelajari. Panduan 2026 ini membincangkan hal yang penting dalam aplikasi jurnal harian dan bagaimana Meow Mood Diary dibandingkan dengan aplikasi jurnal besar lain-lain. Jika Anda datang ke sini untuk mencari **aplikasi mood tracker** alih-alih aplikasi untuk menulis jurnal, mulailah dari bahagian penamaan di bawah.
+Buku harian digital mengubah perasaan yang berceceran menjadi sesuatu yang benar-benar boleh Anda lihat dan pelajari. Panduan 2026 ini membincangkan hal yang penting dalam aplikasi jurnal harian dan bagaimana Meow Mood Diary dibandingkan dengan aplikasi jurnal besar lain-lain. Jika Anda datang ke sini untuk mencari **aplikasi mood tracker** dan bukannya aplikasi untuk menulis jurnal, mulailah dari bahagian penamaan di bawah.
 
 ## Sebutan yang digunakan orang
 
@@ -26,7 +26,7 @@ Di Android, storan yang mengutamakan peranti plus kunci cap jari berarti pikiran
 - **Privasi dan kepemilikan** — entri disimpan secara lokal atau di cloud milik Anda sendiri, bukan di server vendor yang tidak Anda kendalikan.
 - **Pencatatan cepat satu ketik** — pilih ikon emosi tanpa harus menulis paragraf saat hari sedang buruk.
 - **Sejarah dan wawasan** — kalendar serta graf untuk melihat pola (contohnya, rasa muram hari Minggu atau lonjakan setelah kopi).
-- **Penggunaan offline** — catat kapan saja tanpa Wi-Fi, sehingga tabiat tetap tanpa hambatan.
+- **Penggunaan offline** — catat bila-bila sahaja tanpa Wi-Fi, sehingga tabiat tetap tanpa hambatan.
 - **Peringatan** — dorongan harian yang lembut untuk membangun tabiat check-in.
 - **Kunci** — cap jari atau kode sandi supaya hanya Anda yang boleh membuka buku harian.
 
@@ -83,7 +83,7 @@ Pilihan cepat berdasarkan situasi:
 - **Catatan cepat saat hari buruk** — pada malam yang berat, ketik satu ikon emosi dan beberapa tag; tanpa paragraf, sehingga buku harian tetap bertahan di hari-hari yang biasanya Anda lewatkan.
 - **Peribadi secara bawaan** — entri tetap di peranti di sebalik kunci cap jari; pada telefon pintar keluarga bersama, pikiran Anda tidak pernah tersinkron ke cloud vendor kecuali Anda memilih Google Drive.
 - **Menemukan pola** — kalendar dan graf memunculkan 'rasa muram hari Minggu' atau lonjakan setelah kopi, mengubah perasaan samar menjadi sesuatu yang boleh ditindaklanjuti.
-- **Offline di mana saja** — catat di pesawat atau di area tanpa isyarat kereta bawah tanah; tidak ada yang perlu Wi-Fi untuk merekam momen.
+- **Offline di mana sahaja** — catat di pesawat atau di area tanpa isyarat kereta bawah tanah; tidak ada yang perlu Wi-Fi untuk merekam momen.
 
 ## FAQ
 

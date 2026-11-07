@@ -17,7 +17,7 @@
 | 1 | **关键词先行**：用当地语言在 Google Play 与网上做本地检索 | `seo/SEO-KEYWORDS.md` 新增 `§2.N.x <语言>` 小节 | ✅ |
 | 2 | 登记词库与证据 | 词层表 + 维护日志 + `§1` 索引语言范围 | ✅ |
 | 3 | 生成语言配置与目录 | `bash scripts/new-language.sh <code> "<Label>" <SHORT>`，再按 §2.3 手工补齐 | ✅ |
-| 4 | 补数据文件 | `_data/languages.yml` / `nav.yml` / `ui.yml` | ✅ |
+| 4 | 补数据文件 | `_data/languages.yml` / `nav.yml` / `ui.yml`；**同步 `README.md`「语言」段**（对外可见，见 §2.4） | ✅ |
 | 5 | 补构建脚本 | `scripts/build.sh` 增加该语言 build + rsync 块 | ✅ |
 | 6 | **模板 N 语言通用化**（仅首次新增第三语言时做一次） | 消除所有 `zh`-vs-else 二元判断，见 §2.6 | ✅（一次性） |
 | 7 | 教研文档 N 语言化 | `SITE-AUDIT.md` §2/§3/§4/§5 脚本/§8 | ✅ |
@@ -49,6 +49,12 @@
 10. **文章插图必须与 EN 同源**：非 EN 文章的 `![...](/assets/images/...)` 图片路径集合（含重复次数）必须与 EN 同名文章完全一致，`alt` 按本语言关键词优化而非照抄 EN。详见 §3.5（D17 硬门禁）。
 11. **所有语言版本的文章结构、文章目录、图片插入都以 EN 为准**：H2/H3 的层级、数量、顺序、含义逐条对应；结构块（表格 / 列表 / 编号步骤 / FAQ / 分隔线）与文章目录（TOC 条目数、所在行序）逐项对应；正文论点、对比对象、功能点、表格、FAQ 条目、数据大致一致，差异只出现在关键词、本地场景举例与表达措辞。因此图片落在**与 EN 完全相同的位置**，不要求「紧跟标题」。全语言由 `SITE-AUDIT.md` §5 **D18** 自动硬校验（D17 另校验图片集合、行序与 `alt`）。详见 §3.2 / §3.3 / §3.5。
 12. **App 详情页 `tagline` 四语语义与信息量对等**：`tagline` 是 EN 短句的**忠实本地化版本**，只允许换用词、语序与本地惯用表达，**不得把正文 / `description` 里的功能点、规格数字、卖点清单提炼进 tagline**，也不得删减 EN 原有的核心信息。**只设上限、不设下限**（中文信息密度高，忠实短句天然只有 EN 的 0.2–0.7 倍字符数，属正常）。自动门禁（`SITE-AUDIT.md` §5 **D06**，逐 App 点名异常文件）：① 字符数 ≤ EN × `1.5`；② tagline 中的规格数字（如 `400+` / `500+` / `80`）集合必须是 EN tagline 数字集合的子集；③ 语义要点一一对应由人工抽验兜底。超出即视为「另写一句 SEO 长句」，破坏 hreflang 对应页内容对等与列表页卡片排版，属 P0。2026-11-07 已按此规则把 `_apps_id` / `_apps_th` 的 11 个 tagline 收敛回 EN 短句。
+13. **站点级 `tagline`（header 副标题）不得过长**：各 `_config*.yml` 的 `tagline` 渲染在 `_includes/nav.html` 的 `.brand__text small`，该元素为 `white-space: nowrap` + `text-overflow: ellipsis`，桌面端超宽会被截断、≤768px 则直接 `display: none`。新增语言或改文案时必须满足：
+    - **只写「品类 + 1–2 个形容词」的短名词短语**，与 EN `Focus on creating beautiful and elegant applications.` 信息量对等；禁止把 `description` / 品牌口号里的「致力于…」「且实用…」等额外卖点堆进副标题。MS（68→43 字符）与 TH（63→35 字符）均曾因此返工。
+    - **自动门禁（`SITE-AUDIT.md` §5 D06）**：按显示宽度 `w` 计（CJK / 全角字符 = 2，其余含泰文、拉丁 = 1），① 所有语言 `w ≤ 60`；② 非 EN 的 `w ≤ w(EN)`——EN 是已验证不截断的基准，任何语言都不得比它更长。违反即 P0 FAIL 并点名文件与实际宽度。
+    - **人工兜底**：新语言上线前在桌面宽度（≥769px）实际查看首页 header，确认没有省略号；字体渲染非线性，脚本只做上限保护，不替代目视确认。
+    - **与红线 12 区分**：红线 12 管 **App 详情页 `tagline`**（内容信息量对等，≤1.5× EN），本条管 **站点配置 `tagline`**（单行显示宽度，≤1.0× EN）；对象与阈值不同，不可混用。
+    - 2026-11-07 把本规则写入规范并加入 D06 硬门禁，防止同类问题反复出现。
 
 ---
 
@@ -90,7 +96,7 @@ bash scripts/new-language.sh <code> "<Label>" <SHORT>
 | 目录 | `_pages/<lang>/`、`_posts/<lang>/`、`_apps_<lang>/`、`_glossary_<lang>/`、`<lang>/blog/index.html` |
 | `_config.yml` | 追加新语言源目录排除 |
 | 其它 `_config_*.yml` | 追加新语言源目录排除（脚手架会自动做） |
-| **配置内站点级可见文案** | `_config_<lang>.yml` 的 `social.links[].name`（页脚「隐私 / 条款 / 邮箱」）、`developer.title` / `developer.description` 等**必须逐项译为目标语言**。从其它语言配置复制时禁止残留源语言文案——页脚直接可见，属 P0 外观缺陷；非 zh 语言配置中出现 CJK 即视为 FAIL |
+| **配置内站点级可见文案** | `_config_<lang>.yml` 的 **`tagline`（header 副标题）必须是「品类 + 1–2 个形容词」的短名词短语**，显示宽度 `w ≤ 60` 且 `w ≤ w(EN)`，禁止堆「致力于…」「且实用…」等额外卖点（§1 红线 13，D06 硬门禁）；`social.links[].name`（页脚「隐私 / 条款 / 邮箱」）、`developer.title` / `developer.description` 等**必须逐项译为目标语言**。从其它语言配置复制时禁止残留源语言文案——页脚直接可见，属 P0 外观缺陷；非 zh 语言配置中出现 CJK 即视为 FAIL |
 
 > **`feed.path` 陷阱**：配置里写成 `zh/feed.xml`（无前导 `/`），用 `s#/zh/#/id/#g` 的 sed 替换不到它，会生成 `/id/zh/feed.xml`。必须单独替换。
 
@@ -99,6 +105,7 @@ bash scripts/new-language.sh <code> "<Label>" <SHORT>
 - `_data/languages.yml`：追加 `- code: <lang> / label: <本地语言名> / short: <简称>`。语言切换下拉、`window.SITE_LANGS` 自动生效。
 - `_data/nav.yml`：**每个条目**补 `title.<lang>` 与 `url.<lang>`（`url.id: /id/blog/` 形式）。缺一个键 → 该导航项 `href=""`、文字空白（Liquid 静默失败）。
 - `_data/ui.yml`：追加完整 `<lang>:` 块，键必须与 `en`/`zh` 对齐，另含通用化新增键：`date_format`、`updated_label`、`related_app`、`blog_intro`、`glossary_link`、`back_to_glossary`。缺键同样静默空白。
+- **`README.md`「语言」段（对外可见，必须同步）**：新增语言后把 `<label>` 追加进语言列表，并把「五个语言版本」的数量词改为实际语言数。`README.md` 是 GitHub 仓库首页自动渲染的公开说明，漏改会让访客看到过期清单；它是站点对外可见文案，不得写内部实现信息。由 `SITE-AUDIT.md` §5 **D01** 硬门禁对照 `_data/languages.yml` 的 `label` 与数量词自动校验（见 §6.2）。
 
 ### 2.5 Step 5 · 构建脚本
 
@@ -294,7 +301,7 @@ image: /assets/images/apps/<app>/icon.webp
 ### 6.1 构建
 
 ```bash
-cd /Users/glt/Documents/code/spacemanmeow.github.io
+cd "$(git rev-parse --show-toplevel)"
 JEKYLL_ENV=production bash scripts/build.sh       # 完整（含 Pagefind）
 SKIP_PAGEFIND=1 bash scripts/build.sh             # 本地快速预览
 bundle exec htmlproofer _site --disable-external  # 或项目既有参数
@@ -304,7 +311,7 @@ bundle exec htmlproofer _site --disable-external  # 或项目既有参数
 
 ### 6.2 教研脚本
 
-按 `SITE-AUDIT.md` §5 整段执行，目标 `{PASS: N, FAIL: 0, WARN: 0}`；`D14` 有 WARN 时逐条给人工结论并写 §8。
+按 `SITE-AUDIT.md` §5 整段执行，目标 `{PASS: N, FAIL: 0, WARN: 0}`；`D14` 有 WARN 时逐条给人工结论并写 §8。其中 **D01** 会校验 `README.md`「语言」段与 `_data/languages.yml` 一致，新增语言漏改对外清单会直接 FAIL 并点名缺失的语言与数量词。
 
 ### 6.3 产物抽验（每语言）
 

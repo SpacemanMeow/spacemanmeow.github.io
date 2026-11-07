@@ -54,7 +54,7 @@ Skrin utama punya tab: **CPU / SYSTEM / FLOATING / SENSOR**, dengan butang **Upg
 ![CPU monitor dengan tetingkap terapung di atas aplikasi lain](/assets/images/blog/tutorial_cpu_floating.webp){: width="180" .normal }
 ![Skrin bersih cache di CPU Monitor](/assets/images/blog/tutorial_cpu_clean.webp){: width="180" .normal }
 ![Bacaan sensor & monitor suhu bateri](/assets/images/blog/tutorial_cpu_sensor.webp){: width="180" .normal }
-![Ikhtisar monitor sistem android dengan RAM dan storan](/assets/images/blog/tutorial_cpu_system.webp){: width="180" .normal }
+![Ringkasan monitor sistem android dengan RAM dan storan](/assets/images/blog/tutorial_cpu_system.webp){: width="180" .normal }
 
 ## CPU Waktu Nyata
 
