@@ -1,7 +1,7 @@
 # SpacemanMeow SEO 进度跟踪（Progress）
 
 > **用途**：跟踪每条 SEO 方法的落地状态、月度运营计划与进度台账。方法本身见 `SEO-PLAYBOOK.md`。
-> **最后更新**：2026-11-05
+> **最后更新**：2026-11-08
 > **语言范围**：英文站（默认）+ `/zh/` 中文站（已上线）+ 后续可扩展其他语言（id/ms/tl/hi 等）。所有优化默认全语言同步；新增语言走 `/<lang>/` 子路径、配 hreflang + canonical，URL 不变。
 > 状态图例：✅ 已落地　🟡 部分落地　♻️ 持续运营中　☐ 待做
 
@@ -109,7 +109,7 @@
 | T-28 | Glossary→App 反向回链 + 面包屑 | 内链 | 站内 | 中 | ☐ |
 | T-29 | 图片再优化（AVIF/srcset/预载） | 性能 | 站内 | 中 | ☐ |
 | T-30 | App 内官网链接加 UTM | 度量 | App 侧 | 中 | ☐ |
-| T-31 | 其他语种试点（id/ms/tl/hi） | 扩张 | 站内+人工 | 待评估 | ☐（需 ZH 数据） |
+| T-31 | 其他语种试点（id/ms/th 已全量交付；tl/hi 待做） | 扩张 | 站内+人工 | 🟡 部分 | id/ms/th 5 语已全量交付（含本次预算对比文补齐，66/66→67/67），tl/hi 待评估 |
 | T-32 | 结构化数据月度校验 | 治理 | 站内 | 中 | ♻️ 月度 |
 | T-33 | GSC/Bing 月度「请求编入索引」 | 治理 | 手动 | 中 | ♻️ 月度 |
 | T-34 | 既有文章人工审核与完善（`_posts` 批量生成文，逐批审） | 内容质量 | 人工 | 中-高 | ✅（已完成 10 组，全部复核完毕） |
@@ -165,3 +165,4 @@
   - [x] **Meow Money Manager 印尼语内容**：`_apps_id/meow-money-manager.md` + 6 篇 `_posts/id/`（按本地关键词重写，不是逐段翻译）
   - [x] **马来语（ms）Phase 5 全量交付**：`/ms/` 66 posts + 11 App + 22 术语 + 8 结构页，`SEO-KEYWORDS.md` §2.1.6 共 29 词全部已覆盖；5 语构建 570 页、htmlproofer 1099 内链 0 failure、教研 ms 全维度 PASS
   - [x] 后续按 `SEO-I18N-PROGRESS.md` 分批：其余 10 个 App 的印尼语内容 → 印尼语全部 posts → 泰语 / 马来语等其它语言（Phase 3 / 4 / 5 均已完成，5 语 66/66 posts 全量交付，进度见 `SEO-I18N-PROGRESS.md`）
+  - [x] **EN 预算对比文标杆 + 5 语同步补齐**：`_posts/2026-11-08-budget-feature-comparison.md`（EN 标杆，对比类教程骨架：速览表→技术分歧 6 节→逐 App 拆解→多维对比→选型建议含官方下载表→FAQ→相关术语）+ ZH/ID/MS/TH 各 1 篇（结构/目录/图片行序对齐 EN，D18 全绿）；各语言新增 5 个预算概念 glossary（`zero-based budgeting` / `envelope budgeting` / `budget rollover` / `sinking fund` / `category budget` 借词形态，H2 风格按各语言既有 glossary），D03 五语文章 67/67、术语 27/27 全部对称；词库 `SEO-KEYWORDS.md` §2.1.5/6/7 登记借词概念词（TH 原无独立词表段先补 §2.1.7）；本地竞品补充段（ID DuitKu、MS MoneyMama/MAE、TH TrueMoney/PromptPay）；完整教研（含 Pagefind）65 PASS / 0 FAIL / 1 WARN（D14 仅标新增文件待确认），`SEO-I18N-PLAYBOOK.md` 新增 §3.6 单篇跨语言新增 SOP

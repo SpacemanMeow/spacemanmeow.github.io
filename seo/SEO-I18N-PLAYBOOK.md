@@ -3,7 +3,7 @@
 > **用途**：本站 `spacemanmeow.com` 新增任何语言、任何 App 的多语言内容时，**直接按本文档执行**，无需再向需求方确认实现细节。
 > **适用**：Jekyll 4.4 多语言合并构建；默认语言 `en`（根路径），其他语言走 `/<lang>/` 子路径。
 > **权威关系**：技术红线以 `SITE-AUDIT.md` 为准；关键词以 `SEO-KEYWORDS.md` 为准；SEO 方法论以 `SEO-PLAYBOOK.md` 为准；进度与台账以 `SEO-PROGRESS.md` / 本文档配套 `SEO-I18N-PROGRESS.md` 为准。本文档负责把四者串成**可重复执行的流程**。
-> **最后更新**：2026-11-07
+> **最后更新**：2026-11-08
 > **首个实例**：`id`（Bahasa Indonesia / 印度尼西亚；2026-11-06 完成 Phase 0–3，66/66 posts 可发布，状态见 `SEO-I18N-PROGRESS.md`），Meow Money Manager 优先。
 > **第二个实例**：`th`（泰语 / Thai；2026-11-07 完成 Phase 4 全量交付，posts/apps/gloss 66/66·11/11·22/22、**结构页 8/8 已补齐**，htmlproofer 0 failure），从 `id` 骨架逐篇翻译，完整教研见 `SITE-AUDIT.md` §8。
 > **第三个实例**：`ms`（Bahasa Melayu / 马来西亚；2026-11-07 完成 Phase 5 全量交付，posts/apps/gloss/结构页 66/66·11/11·22/22·8/8），从 `id` 骨架逐行本地化，处理同源语言用词差异、大马本地支付场景与目录锚点重映射，完整教研见 `SITE-AUDIT.md` §8。
@@ -243,6 +243,19 @@ image: /assets/images/apps/<app>/icon.webp
 - `zh` 66/66：**符合 D17 / D18**——H2/H3 层级、结构块序列、目录条目、图片行序与 EN 一致；历史翻译的纯文本段落与空行差异不纳入硬门禁（允许局部表达调整）。
 - `id` 首批 6 篇：**已完成按 EN 骨架重构（6/6）**——三批交付，逐行行类型序列、图片行号与路径序列、表格 / FAQ / 目录全部与 EN 一致，本地关键词与场景举例保留，教研全绿；进度见 `SEO-I18N-PROGRESS.md`。
 - `id` 其余 60 篇（Phase 3）一律直接从 EN 骨架起稿，不再重写。
+
+---
+
+### 3.6 单篇跨语言新增 SOP（已上线多语言站点）
+
+> **适用**：站点已完整上线 N 语言（posts/apps/glossary/结构页各语言齐全）后，**新增一篇文章并同步全部语言版本 + 对应 glossary**。与「新增一门语言」（§0 十二步）和「Phase 补齐某 App 的 posts」（§5.3）不同，本流程前提是语言基础设施已存在，只补内容。本次「7 款 App 预算功能对比」（2026-11-08）即按此执行：EN 标杆 + ZH/ID/MS/TH 各 1 篇 + 各语言 5 个预算概念 glossary，5 语文章 67/67、术语 27/27 全部对称，教研 65 PASS / 0 FAIL。
+
+1. **先定 EN 标杆**：在 `_posts/2026-MM-DD-slug.md`（EN 根目录）写标杆，固定 H2/H3 层级序列、结构块序列、TOC 条目与行位置、图片插入行序——后续所有语言版本必须逐篇与之一致（§1 红线 11 / D18）。对比类教程推荐骨架：速览表 → 技术分歧 N 节 → 逐 App 拆解（Meow 含 6 个 `####`）→ 多维对比表 → 选型建议（含官方下载表）→ FAQ → 相关术语。
+2. **词库先登记借词概念词**：在已上线语言的各 `§2.1.x` 词表（id §2.1.5 / ms §2.1.6 / th §2.1.7）新增「Budget concept terms」段，登记英语借词（`zero-based budgeting` / `envelope budgeting` / `budget rollover` / `sinking fund` / `category budget`）为概念词，标「已覆盖(<lang>)」。**借词照实收录**，不强行译成本地纯语（§2.1 Step 1）；本地长尾词（如 `aplikasi catatan keuangan` / `แอปบันทึกการเงิน` / `bajet per kategori`）另列。词库与内容同批完成（D09 登记即生效，不得只改台账蒙混）。
+3. **各语言从 EN 骨架逐行本地化**：`_posts/<lang>/` 复制 EN 同名文件结构，逐行翻译文字与 `alt`，遵循 §3.5 插图一致 + §1 红线 11 骨架对等；**若某语言词表段原本缺失（如本次 th 无独立 §2.1.x）须先补建该段，再写文**。
+4. **各语言 glossary 同步新增**：在 `_glossary_<lang>/` 新增与 EN 同名的 5 个概念词页，H2 结构按该语言既有 glossary 风格（EN `What it is & How it works` / ID `Definisi & Cara Kerja` / MS `Definisi & Cara Ia Berfungsi` / TH `นิยามและวิธีการทำงาน`），`lang` 与目录一致，内链用 `/<lang>/glossary/...`，保证 D03 术语对称（各语言 22→27 等）。
+5. **本地竞品补充**：在「你该选哪个」段末尾加入本地钱包/理财 App 场景词（ID 的 DuitKu、MS 的 MoneyMama/MAE、TH 的 TrueMoney/PromptPay）作为本地替代提及；**产品不具备的功能词不得写入**（§1 红线 6）。
+6. **校验闭环**：完整构建（含 Pagefind）+ htmlproofer + §5 脚本；确认 D03 各语言对称、D09 MISS=0、D18 骨架对等、D06 `description ≤160`；同批更新 `SEO-PROGRESS.md` 与 `SITE-AUDIT.md` §8。
 
 ---
 

@@ -272,6 +272,15 @@
 | alternatif Spendee | 竞品 | P1 | 低 | 高 | vs/Alt | 已覆盖(id) | Play 当地检索(id_ID) | `Spendee Budget & Money Tracker` |
 | YNAB vs Meow Money Manager | 竞品对比 | P0 | 低 | 高 | vs | 已覆盖(id) | 竞品调研(id) | 对比拦截 |
 
+#### Budget concept terms（glossary 对应词，借词形态，非直译）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| zero-based budgeting | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(id) | 站内已覆盖 | 借词；对应 EN what-is-zero-based-budgeting，id 文章与 glossary 落地 |
+| envelope budgeting | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(id) | 站内已覆盖 | 借词；对应 EN what-is-envelope-budgeting |
+| budget rollover | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(id) | 站内已覆盖 | 借词；对应 EN what-is-budget-rollover |
+| sinking fund | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(id) | 站内已覆盖 | 借词；对应 EN what-is-a-sinking-fund |
+| category budget | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(id) | 站内已覆盖 | 借词；与长尾 `aplikasi budget per kategori` 同源，对应 EN what-is-a-category-budget |
+
 #### 本地场景词（用于内容扩写，非排名词）
 | 场景词 | 含义 / 用途 | 落地建议 |
 |---|---|---|
@@ -348,8 +357,81 @@
 | `gaji bulanan` / `bil utiliti` / `sewa bilik` | 月薪 / 水电费 / 房租 | 周期记录与预算段 |
 | `resit` / `tuntutan balik` | 收据 / 报销 | 报销段 |
 
+#### Budget concept terms（glossary 对应词，借词形态，非直译）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| zero-based budgeting | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(ms) | 站内已覆盖 | 借词；对应 EN what-is-zero-based-budgeting，ms 文章与 glossary 落地 |
+| envelope budgeting | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(ms) | 站内已覆盖 | 借词；对应 EN what-is-envelope-budgeting |
+| budget rollover | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(ms) | 站内已覆盖 | 借词；对应 EN what-is-budget-rollover |
+| sinking fund | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(ms) | 站内已覆盖 | 借词；对应 EN what-is-a-sinking-fund |
+| category budget | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(ms) | 站内已覆盖 | 借词；与长尾 `bajet per kategori` 同源，对应 EN what-is-a-category-budget |
+
 #### 明确不收录的词（当地高频但产品不具备）
 `sinkronisasi automatik akaun bank`（银行自动同步）、`pelepasan cukai LHDN automatik`（LHDN 自动报税）、`imbasan resit OCR automatik`（收据 OCR 自动记账）。大马本地理财 App（Finpersona、MAE）常见，但 Meow Money Manager 为纯手动本地记账，写入会构成**虚假功能**，违反 `SEO-GOOGLE-PLAY.md` 合规红线。
+
+---
+
+### 2.1.7 泰语（th / ภาษาไทย，泰国）
+
+> **本地化选词（非英文直译）**：泰国用户说 `แอปบันทึกการเงิน` / `แอปจัดการงบประมาณ` / `งบประมาณ` / `งบรายวัน` / `งบต่อหมวด`，**不是** `expense tracker` 的逐词翻译。泰语大量混用英语借词 `budget` / `expense tracker` / `zero-based` / `envelope` / `sinking fund` / `rollover`，照实收录，不强行全译。
+> **证据**：泰国 Google Play / 本地评测大量使用英语借词与泰语混合；站点 th 已上线（66 posts / 11 App / 22 术语 / 8 结构页）。
+> **数据来源标签**：`Play 当地检索(th_TH)` / `泰国本地网页(th)` / `站内已覆盖` / `GSC实测(待回填)`。
+> **状态**：2026-11-08 补齐本文章与 5 个 budget 概念术语（借词为主），D09 对应组 MISS=0。
+
+#### Head（大词，P2）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| แอปบันทึกการเงิน | Head | P2 | 高 | 中 | Pillar | 已覆盖(th) | Play 当地检索(th_TH) | 品类根词 |
+| แอปจัดการงบประมาณ | Head | P2 | 高 | 中 | Pillar | 已覆盖(th) | 泰国本地网页(th) | budget app |
+| งบประมาณ | Head | P2 | 中 | 中 | Pillar/Glossary | 已覆盖(th) | 泰国本地网页(th) | budget |
+| expense tracker | Head | P2 | 中 | 低 | Pillar/Glossary | 已覆盖(th) | 泰国本地网页(th) | **英语借词** |
+
+#### Middle（中词，P1）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| แอปบันทึกการเงินที่ดีที่สุด | Middle | P1 | 高 | 中 | Pillar/Best | 已覆盖(th) | 泰国本地网页(th) | 年度词 |
+| งบประมาณรายเดือน | Middle | P1 | 中 | 中 | Pillar/App | 已覆盖(th) | 泰国本地网页(th) | 月度预算 |
+| งบรายวัน | Middle | P1 | 中 | 中 | App | 已覆盖(th) | Play 当地检索(th_TH) | 日预算 |
+| แอปบันทึกการเงินแบบส่วนตัว | Middle | P1 | 中 | 高 | vs/App | 已覆盖(th) | 泰国本地网页(th) | 私密/免账号 |
+| แอปบันทึกการเงินออฟไลน์ | Middle | P1 | 中 | 高 | App/Pillar | 已覆盖(th) | 泰国本地网页(th) | 离线 |
+| แอปบันทึกการเงินฟรี | Middle | P1 | 高 | 中 | Best/App | 已覆盖(th) | 泰国本地网页(th) | 免费 |
+| แอปบันทึกการเงิน Android | Middle | P1 | 中 | 中 | Android/Best | 已覆盖(th) | Play 当地检索(th_TH) | 平台限定 |
+
+#### Long-tail（精准长尾，P0）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| แอปบันทึกการเงินไม่มีบัญชี | Long-tail | P0 | 中 | 高 | App/FAQ | 已覆盖(th) | Play 当地检索(th_TH) | 免账号 |
+| ข้อมูลเก็บในเครื่อง | Long-tail | P0 | 中 | 高 | App/vs | 已覆盖(th) | 泰国本地网页(th) | 本地存储 |
+| งบต่อหมวด | Long-tail | P0 | 中 | 高 | App/Glossary | 已覆盖(th) | 泰国本地网页(th) | 分类预算 |
+| เบิกคืนค่าใช้จ่าย | Long-tail | P0 | 低 | 高 | App/Glossary | 已覆盖(th) | 泰国本地网页(th) | reimbursement |
+| หลายสกุลเงินรวมบาทไทย | Long-tail | P0 | 低 | 高 | App | 已覆盖(th) | 泰国本地网页(th) | 多币种 |
+
+#### 品牌词 & 竞品拦截词（th）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| Meow Money Manager | 品牌 | P0 | 低 | 高 | App | 已覆盖(th) | 站内已覆盖 | 品牌名原样 |
+| ทางเลือก YNAB | 竞品 | P1 | 低 | 高 | vs/Alt | 已覆盖(th) | 泰国本地网页(th) | YNAB 替代 |
+
+#### Budget concept terms（glossary 对应词，借词形态，非直译）
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| zero-based budgeting | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(th) | 站内已覆盖 | 借词；对应 EN what-is-zero-based-budgeting，th 文章与 glossary 落地 |
+| envelope budgeting | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(th) | 站内已覆盖 | 借词；对应 EN what-is-envelope-budgeting |
+| budget rollover | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(th) | 站内已覆盖 | 借词；对应 EN what-is-budget-rollover |
+| sinking fund | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(th) | 站内已覆盖 | 借词；对应 EN what-is-a-sinking-fund |
+| category budget | 概念词 | P1 | 中 | 高 | Glossary | 已覆盖(th) | 站内已覆盖 | 借词；与长尾 `งบต่อหมวด` 同源，对应 EN what-is-a-category-budget |
+
+#### 本地场景词（用于内容扩写，非排名词）
+| 场景词 | 含义 / 用途 | 落地建议 |
+|---|---|---|
+| `฿` / `บาท` / `ธนาคารแห่งประเทศไทย` | 本地货币与官方统计 | 多币种段与示例金额 |
+| `PromptPay` / `TrueMoney Wallet` / `GrabPay` / `ShopeePay` | 泰国电子钱包与支付标准 | 分类/多账本段举例，**仅作手动记账示例** |
+| `Grab` / `Shopee` / `7-Eleven` / `ร้านอาหาร` | 网约车 / 电商 / 便利店 / 餐饮 | 日常开销场景 |
+| `เงินเดือน` / `บิลค่าสาธารณูปโภค` / `ค่าเช่า` | 月薪 / 水电费 / 房租 | 周期记录与预算段 |
+| `ใบเสร็จ` / `เบิกคืน` | 收据 / 报销 | 报销段 |
+
+#### 明确不收录的词（当地高频但产品不具备）
+`ซิงค์ธนาคารอัตโนมัติ`（银行自动同步）、`สแกนใบเสร็จ OCR`（收据 OCR 自动记账）。泰国本地理财 App 常见，但 Meow Money Manager 为纯手动本地记账，写入会构成**虚假功能**，违反合规红线。
 
 ---
 
