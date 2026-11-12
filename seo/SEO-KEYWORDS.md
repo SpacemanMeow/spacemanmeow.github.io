@@ -613,6 +613,33 @@
 | Habitify alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Habitify；2026-11 正文核对已落地 |
 | Fabulous alternative | 竞品 | P1 | 中 | 高 | vs/Alt | 已覆盖(vs/alt) | 竞品调研 | 抢 Fabulous；2026-11 正文核对已落地 |
 
+#### Habit concept terms（2026-11-12 深对比文概念词，借词形态，非直译）
+
+> 按 `SEO-I18N-PLAYBOOK.md` §3.6 Step 2 登记：英语借词照实收录，本地概念词按 en / zh / id / ms / th 各语言正文实际用词列出，全部经 D09 归一化逐词核对后标「已覆盖」，与 5 语文章同批落地。
+
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| habit score | 概念词 | P1 | 低 | 中 | Comparison | 已覆盖(en) | 官方商店描述 | Loop 的衰减分数口径 |
+| habit stacking | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(en) | Fabulous 官方 | 行为科学机制 |
+| self-monitoring | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(en) | Lally 2010 / Burke 2011 | 自我监测，证据强度弱已在正文说明 |
+| completion rate | 概念词 | P1 | 中 | 中 | Comparison | 已覆盖(en) | 竞品官方页面 | 完成率口径不可横向比较 |
+| numeric goal | 概念词 | P1 | 低 | 中 | Comparison | 已覆盖(en) | 竞品官方页面 | 布尔型 vs 数值型 |
+| habit streak | 概念词 | P1 | 中 | 中 | Comparison | 已覆盖(en) | 站内术语页 | 与 glossary 对应 |
+| streak anxiety | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(en) | Lally 2010 | 断链焦虑 |
+| self-hosted backup | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(en) | 应用内功能 | WebDAV 自建备份 |
+| 习惯追踪机制 | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(zh) | 中文定稿正文 | |
+| 断签语义 | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(zh) | 中文定稿正文 | |
+| 完成率 | 概念词 | P1 | 中 | 中 | Comparison | 已覆盖(zh) | 中文定稿正文 | |
+| aplikasi kebiasaan harian | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(id) | ID 定稿正文 | 印尼本地场景词 |
+| skor kebiasaan | 概念词 | P1 | 低 | 中 | Comparison | 已覆盖(id) | ID 定稿正文 | |
+| target numerik | 概念词 | P1 | 低 | 中 | Comparison | 已覆盖(id) | ID 定稿正文 | |
+| aplikasi amalan harian | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(ms) | MS 定稿正文 | 大马本地场景词 |
+| skor tabiat | 概念词 | P1 | 低 | 中 | Comparison | 已覆盖(ms) | MS 定稿正文 | |
+| sasaran berangka | 概念词 | P1 | 低 | 中 | Comparison | 已覆盖(ms) | MS 定稿正文 | |
+| แอปสร้างนิสัย | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(th) | TH 定稿正文 | 泰国本地场景词 |
+| คะแนนนิสัย | 概念词 | P1 | 低 | 中 | Comparison | 已覆盖(th) | TH 定稿正文 | |
+| อัตราความสำเร็จ | 概念词 | P1 | 中 | 中 | Comparison | 已覆盖(th) | TH 定稿正文 | |
+
 ### 2.3.2 中文（zh）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
@@ -659,6 +686,7 @@
 | 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 小日常/小习惯 拦截词待在 vs/pillar 强化 |
 | 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：Loop / Habitica / Habitify / Fabulous alternative、小日常 哪个好、小习惯 / 种子习惯 / 自律树 / 习惯足迹 替代、小日常 替代、打卡 小日常 类似 | — | 本组 50 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 37 个「已覆盖」状态复核无误；12 篇 description ≤160 字符、last_modified_at 齐；构建 + htmlproofer 通过 |
 | 2026-11 | 本批 ID 正文落地（EN/ZH 词库本地化；Play 当地检索待回填） | 新增 §2.3.5 印尼语词组 10 词，全部标「已覆盖(id)」并逐词核对正文 | — | Phase 3 · G3（Meow Habits）6 篇 posts 落地；不虚构检索证据，绝对量待回填 |
+| 2026-11-12 | 5 语习惯机制深对比文正文逐词核对（D09 归一化） | 新增 §2.3.1「Habit concept terms」20 个概念词：8 个英语借词 + zh/id/ms/th 各 3 个本地概念词，全部标「已覆盖」 | — | 按 `SEO-I18N-PLAYBOOK.md` §3.6 单篇跨语言新增 SOP 落地 EN 标杆 + ZH/ID/MS/TH 同步发布；24 张图 5 语同路径、同行号、alt 本地化且未照抄 EN；D09 MISS=0，绝对量待 GSC 回填 |
 
 ### 2.3.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
 
