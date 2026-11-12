@@ -485,6 +485,33 @@
 | Microsoft To Do alternative | 竞品 | P1 | 中 | 高 | Pillar | 已覆盖(vs/alt) | 竞品调研 | 2026-11 已核对正文：vs「其它方案」+ alternatives 逐款段 |
 | Google Tasks alternative | 竞品 | P1 | 中 | 高 | Pillar | 已覆盖(vs/alt) | 竞品调研 | 2026-11 已核对正文：vs「其它方案」+ alternatives 逐款段 |
 
+#### Todo concept terms（2026-11-12 清单深对比文概念词，借词形态，非直译）
+
+> 按 `SEO-I18N-PLAYBOOK.md` §3.6 Step 2 登记：英语借词照实收录，本地概念词按 en / zh / id / ms / th 各语言正文实际用词列出，全部经 D09 归一化逐词核对后标「已覆盖」，与 5 语文章同批落地。
+
+| 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
+|---|---|---|---|---|---|---|---|---|
+| to-do list app | 概念词 | P1 | 中 | 中 | Comparison | 已覆盖(en) | 竞品官方页面 | 品类根词 |
+| task manager | 概念词 | P1 | 中 | 中 | Comparison | 已覆盖(en) | 站内已覆盖 | 品类第二根词 |
+| inbox | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(en) | 竞品官方页面 | 先捕获后分类 |
+| subtask | 概念词 | P1 | 中 | 高 | Comparison | 已覆盖(en) | 站内术语页 | 与已有 glossary 对应 |
+| recurring rule | 概念词 | P1 | 低 | 中 | Comparison | 已覆盖(en) | 竞品官方页面 | 完成后如何派生下一条 |
+| today view | 概念词 | P1 | 中 | 中 | Comparison | 已覆盖(en) | 竞品官方页面 | 逾期语义各家不同 |
+| overdue | 概念词 | P1 | 中 | 中 | Comparison | 已覆盖(en) | 竞品官方页面 | 台账与每日重排之分 |
+| natural language input | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(en) | 竞品官方页面 | 缩短第一段入口成本 |
+| 清单应用 | 概念词 | P1 | 中 | 中 | Comparison | 已覆盖(zh) | 中文定稿正文 | 品类根词 |
+| 今天视图 | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(zh) | 中文定稿正文 | 逾期不顺延 |
+| 重复规则 | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(zh) | 中文定稿正文 | 派生全新下一条 |
+| aplikasi daftar tugas | 概念词 | P1 | 中 | 中 | Comparison | 已覆盖(id) | ID 定稿正文 | 印尼本地场景词 |
+| tugas berulang | 概念词 | P1 | 低 | 中 | Comparison | 已覆盖(id) | ID 定稿正文 | 重复任务口径 |
+| tampilan hari ini | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(id) | ID 定稿正文 | 今天视图 |
+| aplikasi senarai tugas | 概念词 | P1 | 中 | 中 | Comparison | 已覆盖(ms) | MS 定稿正文 | 大马本地场景词 |
+| paparan hari ini | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(ms) | MS 定稿正文 | 今天视图 |
+| senarai tugas harian | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(ms) | MS 定稿正文 | 日常清单场景 |
+| แอปรายการสิ่งที่ต้องทำ | 概念词 | P1 | 中 | 中 | Comparison | 已覆盖(th) | TH 定稿正文 | 泰国本地场景词 |
+| งานที่เกิดซ้ำ | 概念词 | P1 | 低 | 中 | Comparison | 已覆盖(th) | TH 定稿正文 | 重复任务口径 |
+| มุมมองวันนี้ | 概念词 | P2 | 低 | 中 | Comparison | 已覆盖(th) | TH 定稿正文 | 今天视图 |
+
 ### 2.2.2 中文（zh）
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
@@ -534,6 +561,7 @@
 | 2026-11 | 竞品调研（web）+ 站内已覆盖（已逐词核对正文） | （初版建库；内容侧深度优化：12 文件正文扩写 + 关键词真实铺入 meta/首段/小标题/alt） | — | 本组 12 文件已完成 T-34：原标「已覆盖」41 词全部命中正文（核对脚本 0 未命中）；另 8 个原「待覆盖/待强化」词随扩写落地并升权；`待办清单 排行榜` 无榜单型页面可自然承载，保持待覆盖。绝对量待 Play Console/GSC 回填 |
 | 2026-11 | 本批 ID 正文落地（EN/ZH 词库本地化；Play 当地检索待回填） | 新增 §2.2.5 印尼语词组 10 词，全部标「已覆盖(id)」并逐词核对正文 | — | Phase 3 · G2 首批 2 篇 posts 落地；不虚构检索证据，绝对量待 Play Console/GSC 回填 |
 | 2026-11 | 本批 ID 正文落地（EN/ZH 词库本地化；Play 当地检索待回填） | G2 剩余 4 篇落地，§2.2.5 的 10 词复核仍逐词命中 | — | Phase 3 · G2 6/6 完成；绝对量待 Play Console/GSC 回填 |
+| 2026-11-12 | 5 语清单功能深对比文正文逐词核对（D09 归一化） | 新增 §2.2.1「Todo concept terms」20 个概念词：8 个英语借词 + zh/id/ms/th 各 3 个本地概念词，全部标「已覆盖」 | — | 按 `SEO-I18N-PLAYBOOK.md` §3.6 单篇跨语言新增 SOP 落地 EN 标杆 + ZH/ID/MS/TH 同步发布；中文打磨稿自 `seo/drafts/` 转正，5 语逐行对齐 327 行、24 张图同路径同行号、alt 本地化且未照抄 EN；D09 MISS=0，绝对量待 GSC 回填 |
 
 ### 2.2.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
 
