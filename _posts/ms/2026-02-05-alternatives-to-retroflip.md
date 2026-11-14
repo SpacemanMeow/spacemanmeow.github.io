@@ -4,7 +4,8 @@ title: "Alternatif Retroflip Terbaik di 2026"
 description: "Alternatif Retroflip 2026: enam aplikasi jam flip dibandingkan tentang tema, white noise, mode terapung, widget, dan platform, plus panduan pilih mengikut…"
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Alternatives, Retroflip]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/alternatives-to-retroflip.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: ms
 last_modified_at: 2026-11-07
 ---

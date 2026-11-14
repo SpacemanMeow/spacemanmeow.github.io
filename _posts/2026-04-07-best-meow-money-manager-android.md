@@ -4,7 +4,8 @@ title: "Meow Money Manager for Android: Budgeting Without the Bank Login"
 description: "Meow Money Manager for Android vs YNAB, PocketGuard and EveryDollar in 2026: privacy, local storage, multi-currency, offline entry, widgets and price."
 layout: guide
 tags: [Meow Money, Expense Tracker, Android, Best Apps]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/best-meow-money-manager-android.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: en
 ---
 

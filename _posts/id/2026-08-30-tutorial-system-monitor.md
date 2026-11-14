@@ -8,7 +8,8 @@ lang: id
 author: author_meow_id
 last_modified_at: 2026-11-07
 description: "Panduan pengguna System Monitor: info hardware read-only, suhu CPU, kesehatan baterai, alarm overheat, jendela melayang, dan widget layar utama langsung."
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/tutorial-system-monitor.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 ---
 
 ## Daftar Isi

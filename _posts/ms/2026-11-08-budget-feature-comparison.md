@@ -4,7 +4,8 @@ title: "Sebenarnya Apakah Bezanya Ciri Bajet antara Aplikasi? Bedah Mendalam 7 A
 description: "Bedah ciri bajet 7 aplikasi: YNAB, Monarch, Goodbudget, EveryDollar, PocketGuard, Wallet, Meow Money Manager — objek, tempoh, rollover, bajet harian."
 layout: guide
 tags: [Meow Money, Bajet, Expense Tracker, Comparison, Android]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/budget-feature-comparison.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: ms
 last_modified_at: 2026-11-08
 ---

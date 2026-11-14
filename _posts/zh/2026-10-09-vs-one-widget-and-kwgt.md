@@ -4,7 +4,8 @@ title: "One Widget vs KWGT：精选组件，还是完全掌控？"
 description: "2026 年 One Widget 与 KWGT 对比：500+ 现成安卓小组件对阵从零搭建的编辑器；含小组件盒子替代与安卓桌面小组件哪个好的判断。"
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Comparison, KWGT]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/vs-one-widget-and-kwgt.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

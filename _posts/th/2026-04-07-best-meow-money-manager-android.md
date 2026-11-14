@@ -4,7 +4,8 @@ title: "แอปบันทึกการเงิน Android ที่ดี
 description: "มองหาแอปบันทึกการเงิน Android ที่ดีที่สุด 2026? เปรียบเทียบ Meow Money Manager, DuitKu และ Monefy ด้านออฟไลน์ งบต่อหมวด และบาทไทย"
 layout: guide
 tags: [Meow Money, Expense Tracker, Android, Best Apps, Budget App]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/best-meow-money-manager-android.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: th
 ---
 

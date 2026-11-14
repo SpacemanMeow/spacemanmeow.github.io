@@ -3,7 +3,8 @@ date: 2026-06-17 09:00:00 +0800
 title: "แอปนาฬิกาพลิกที่ดีที่สุดสำหรับ Android (2026)"
 description: "แอปนาฬิกาพลิก Android 2026: โหมดหน้าจอเต็ม วิดเจ็ต นาฬิกาข้างเตียง ตัวจับเวลาโฟกัส และเปรียบเทียบ Only Clock vs Retroflip"
 layout: guide
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/pillar-flip-clock-apps-android.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 tags: [Flip Clock, Android, Only Clock, App Roundup]
 lang: th
 last_modified_at: 2026-11-07

@@ -4,7 +4,8 @@ title: "Alternatif Crosshair Hero Terbaik di 2026"
 description: "Cari alternatif Crosshair Hero di 2026? Kami bandingkan enam aplikasi overlay bidik silang tanpa root untuk game FPS: gaya, tersuai, tetapan, dan harga."
 layout: guide
 tags: [Crosshair Aim, Bidik Silang, Android, Alternatif, Crosshair Hero]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/alternatives-to-crosshair-master.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: ms
 last_modified_at: 2026-11-05
 ---

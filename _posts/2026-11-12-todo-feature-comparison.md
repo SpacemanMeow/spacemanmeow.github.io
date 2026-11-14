@@ -3,8 +3,9 @@ date: 2026-11-12 18:00:00 +0800
 title: "A To-Do App Is More Than a Checkbox: One Task's Five Stages Across 7 Apps"
 description: "One task, five stages: capture, organise, act, complete, review. See what a to-do app really does and how 7 apps differ on dates, repeats and data."
 layout: guide
-tags: [Meow Todo List, To Do List, Task Manager, Comparison, Android]
-image: /assets/images/apps/meow-todo-list/icon.webp
+tags: [Meow Todo, To-Do List, Task Manager, Comparison, Android]
+image: /assets/images/covers/todo-feature-comparison.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: en
 last_modified_at: 2026-11-12
 ---

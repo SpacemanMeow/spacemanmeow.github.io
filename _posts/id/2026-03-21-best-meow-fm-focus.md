@@ -4,7 +4,8 @@ title: "Meow FM untuk Fokus: White Noise yang Memblokir Kantor"
 description: "Aplikasi suara fokus 2026: Meow FM vs Calm, Noisli, Brain.fm soal loop noise, timer, offline, harga — white noise gratis fokus."
 layout: guide
 tags: [Meow FM, White Noise, Android, Best Apps]
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/best-meow-fm-focus.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 lang: id
 last_modified_at: 2026-11-07
 ---

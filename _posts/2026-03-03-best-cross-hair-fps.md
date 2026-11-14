@@ -4,7 +4,8 @@ title: "Crosshair Aim for FPS Games: A Reticle Overlay That Stays Put"
 description: "Best crosshair app for Android in 2026: Crosshair Aim vs Crosshair Hero for PUBG Mobile and COD Mobile. FPS overlay, in-game adjuster, no root, free core."
 layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Best Apps]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/best-cross-hair-fps.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

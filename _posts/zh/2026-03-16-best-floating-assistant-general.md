@@ -4,7 +4,8 @@ title: "Floating Assistant：一个替你干活的浮动按钮"
 description: "2026 年最好的悬浮助手 app 安卓对比：Floating Assistant 与 Assistive Touch 在边缘悬浮球、自定义悬浮球快捷方式与单手操作上的差别。"
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/best-floating-assistant-general.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

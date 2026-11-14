@@ -4,7 +4,8 @@ title: "ทางเลือก WidgetSmith ที่ดีที่สุด (
 description: "ทางเลือก WidgetSmith 2026: แอปวิดเจ็ต 6 ตัวเปรียบเทียบด้านพรีเซ็ตสำเร็จ ตัวแก้ไขคัสตอม ข้อมูลระบบ และราคา พร้อมคู่มือเลือกตามความต้องการ"
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Alternatives, Widgetsmith]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/alternatives-to-widgetsmith.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

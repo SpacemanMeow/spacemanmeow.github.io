@@ -8,7 +8,8 @@ lang: th
 author: author_meow_id
 last_modified_at: 2026-11-07
 description: "คู่มือผู้ใช้ CPU Monitor: อุณหภูมิ CPU เรียลไทม์ หน้าต่างลอย การเตือนความร้อนเกิน เส้นโค้งประวัติ วิดเจ็ตหน้าจอหลัก และการอ่านเซ็นเซอร์แบบอ่านอย่างเดียว"
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/tutorial-cpu-monitor.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 ---
 
 ## สารบัญ

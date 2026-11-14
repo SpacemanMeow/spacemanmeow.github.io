@@ -4,7 +4,8 @@ title: "Only Clock vs Flip Clock: แอปนาฬิกาพลิกตั�
 description: "ทางเลือก Retroflip ที่ดีที่สุด 2026: Only Clock เทียบกับแอปนาฬิกาพลิกฟรี ด้านธีม ไวท์นอยส์ โหมดลอย โฆษณา และบทสรุปต่อการใช้งาน"
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Comparison, Retroflip]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/vs-only-clock-and-retroflip.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

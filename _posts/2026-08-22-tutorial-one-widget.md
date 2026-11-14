@@ -8,7 +8,8 @@ lang: en
 author: author_meow_id
 last_modified_at: 2026-11-05
 description: "One Widget user guide: place 500+ home-screen widgets in four styles, configure size and transparency, add quick toggles and app shortcuts."
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/tutorial-one-widget.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 ---
 
 ## Table of Contents

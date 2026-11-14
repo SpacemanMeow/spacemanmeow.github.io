@@ -4,7 +4,8 @@ title: "One Widget: วิดเจ็ตน่ารักและพร้อ
 description: "แอปวิดเจ็ต Android ที่ดีที่สุด 2026: One Widget เทียบกับ KWGT ด้านพรีเซ็ตสำเร็จ การปรับแต่งสไตล์ ทางลัด ราคา และการใช้ออฟไลน์"
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Best Apps]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/best-one-widget-android.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

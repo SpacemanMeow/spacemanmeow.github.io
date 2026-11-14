@@ -3,7 +3,8 @@ date: 2026-07-04 09:00:00 +0800
 title: "最佳安卓系统监控与设备信息应用（2026）"
 description: "2026 年系统监控 app 与最佳手机清理安卓选购：看只读硬件检测、温度与电池健康，以及 System Monitor 与手机清理类工具的区别。"
 layout: guide
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/pillar-system-monitor-apps-android.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 tags: [System Monitor, RAM Booster, CPU Temperature, Android, App Roundup]
 last_modified_at: 2026-11-05
 lang: zh

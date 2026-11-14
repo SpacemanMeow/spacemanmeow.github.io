@@ -4,7 +4,8 @@ title: "แอปติดตามนิสัยที่ดีที่สุ
 description: "คู่มือแอปติดตามนิสัย Android 2026: เช็คสเตรกประจำวัน การเตือน วิดเจ็ต ออฟไลน์ ส่งออก CSV และเปรียบเทียบ Meow Habits vs Streaks"
 layout: guide
 tags: [Habit Tracker, Android, Meow Habits, App Roundup]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/pillar-habit-tracker-apps-android.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

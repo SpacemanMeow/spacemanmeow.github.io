@@ -3,8 +3,9 @@ date: 2026-11-12 18:00:00 +0800
 title: "清单应用不只是打勾：一条待办的五段旅程与 7 款产品对照"
 description: "同一条「下周三交报表」，有的应用只存标题，有的会拆出日期、优先级和重复规则。从捕获、组织、执行、完成到回顾，讲清清单应用的核心概念与实际价值，并对照 7 款产品的任务口径与数据归属。"
 layout: guide
-tags: [Meow Todo List, To Do List, Task Manager, Comparison, Android]
-image: /assets/images/apps/meow-todo-list/icon.webp
+tags: [Meow Todo, To-Do List, Task Manager, Comparison, Android]
+image: /assets/images/covers/todo-feature-comparison.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: zh
 last_modified_at: 2026-11-12
 ---

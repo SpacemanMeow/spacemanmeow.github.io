@@ -4,7 +4,8 @@ title: "Meow Mood: ไดอารี่อารมณ์ที่พอดี�
 description: "แอปไดอารี่ดิจิทัลที่ดีที่สุด 2026: Meow Mood เทียบกับ Day One, Journey, Daylio และ Grid Diary ด้านบันทึกด่วน เทรนด์ ความเป็นส่วนตัว และราคา"
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Best Apps]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/best-meow-mood-diary-diary.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

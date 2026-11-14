@@ -4,7 +4,8 @@ title: "Floating Assistant: Butang Terapung yang Mengerjakan Tugasan"
 description: "Aplikasi asisten terapung android terbaik 2026: Floating Assistant vs Assistive Touch tentang bola tepi, pintasan tersuai, gerak isyarat, dan pakai satu tangan."
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/best-floating-assistant-general.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: ms
 last_modified_at: 2026-11-07
 ---

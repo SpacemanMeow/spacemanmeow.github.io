@@ -4,7 +4,8 @@ title: "Only Clock：让任意屏幕安静下来的翻页钟"
 description: "2026 年翻页时钟哪个好？Only Clock 与 Flip Clock 在翻页动画、主题、翻页时钟白噪音、翻页时钟专注计时与价格上的对比。"
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Best Apps]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/best-only-clock-flip.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

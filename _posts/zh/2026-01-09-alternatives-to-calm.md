@@ -4,7 +4,8 @@ title: "2026 年最佳 Calm 替代应用"
 description: "2026 年白噪音替代与白噪音 app 哪个好：六款助眠应用在声音库、混音、计时器与价格上的对比，说明每款适合谁并附迁移清单。"
 layout: guide
 tags: [Meow FM, White Noise, Android, Alternatives, Calm]
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/alternatives-to-calm.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

@@ -4,7 +4,8 @@ title: "Meow Habits for Beginners: Start With One Tap"
 description: "Best habit tracker for beginners 2026: Meow Habits vs Loop and Habitica — a cute habit tracker with one-tap widgets, reminders and a free core."
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Best Apps]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/best-meow-habits-beginners.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

@@ -4,7 +4,8 @@ title: "Alternatif Day One Terbaik di 2026"
 description: "Alternatif Day One 2026: enam jurnal dan buku harian mood dibandingkan dari harga, privasi, platform, eksport, kesesuaian, serta senarai semak migrasi."
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Alternatives, Day One]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/alternatives-to-day-one.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: ms
 last_modified_at: 2026-11-06
 ---

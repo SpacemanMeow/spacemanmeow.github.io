@@ -4,7 +4,8 @@ title: "Only Clock: A Flip Clock That Makes Any Screen Calm"
 description: "Best flip clock app for android 2026: Only Clock vs Flip Clock on animation, themes, white noise, widgets, focus timer and price."
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Best Apps]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/best-only-clock-flip.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

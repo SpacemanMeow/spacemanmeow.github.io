@@ -3,7 +3,8 @@ date: 2026-06-21 09:00:00 +0800
 title: "แอปปุ่มลอยที่ดีที่สุดสำหรับ Android (2026)"
 description: "แอปปุ่มลอย android ที่ดีที่สุด 2026: Floating Assistant vs Assistive Touch ว่าด้วย overlay คืออะไร ใช้เมื่อไหร่ และวิธีเลือก"
 layout: guide
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/pillar-floating-assistant-apps-android.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 tags: [Floating Assistant, Assistive Touch, Android, App Roundup]
 last_modified_at: 2026-11-07
 lang: th

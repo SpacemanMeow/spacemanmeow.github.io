@@ -4,7 +4,8 @@ title: "One Widget vs KWGT: วิดเจ็ตคัดสรรหรือ�
 description: "ทางเลือก KWGT ที่ดีที่สุด Android 2026: One Widget เทียบกับ KWGT ด้านพรีเซ็ตสำเร็จ 500+ ตัวสร้างจากศูนย์ ราคา และ verdict ต่อผู้ใช้"
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Comparison, KWGT]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/vs-one-widget-and-kwgt.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

@@ -8,7 +8,8 @@ lang: en
 author: author_meow_id
 last_modified_at: 2026-11-05
 description: "Only Clock user guide: full-screen flip clock display, 12/24-hour settings, clock widgets, white noise, floating mode and spare-phone setup."
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/tutorial-only-clock.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 ---
 
 ## Table of Contents

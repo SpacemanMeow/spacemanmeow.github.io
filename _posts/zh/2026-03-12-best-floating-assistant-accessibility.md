@@ -4,7 +4,8 @@ title: "无障碍浮动助手：大屏手机上的单手操控"
 description: "2026 年边缘悬浮球手势与悬浮助手返回主页最近键对比：Floating Assistant 与 Assistive Touch 在虚拟按键、大目标与权限上的差别。"
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/best-floating-assistant-accessibility.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

@@ -4,7 +4,8 @@ title: "Meow Todo 学生版：别错过任何 syllabus 截止日"
 description: "2026 年学生待办清单推荐：Meow Todo 与 Todoist、Microsoft To Do、TickTick 对比——学生免费待办、待办清单子任务免费、可爱待办app、日历视图与无需账号。"
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Best Apps]
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/best-meow-todo-list-students.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

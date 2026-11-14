@@ -4,7 +4,8 @@ title: "Crosshair vs Crosshair Hero: โอเวอร์เลย์จุด�
 description: "Crosshair Aim vs Crosshair Hero 2026: โอเวอร์เลย์ FPS ที่มีตัวตั้งค่าลอย เทียบแอปพรีเซ็ตยอดนิยม ฟีเจอร์ ราคา บทสรุปตามความต้องการ"
 layout: guide
 tags: [Crosshair Aim, ครอสแฮร์, Android, เปรียบเทียบ, Crosshair Hero]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/vs-crosshair-and-crosshair-master.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

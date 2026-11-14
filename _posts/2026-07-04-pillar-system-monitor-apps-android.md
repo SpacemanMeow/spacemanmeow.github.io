@@ -3,7 +3,8 @@ date: 2026-07-04 09:00:00 +0800
 title: "Best System Monitor & Device Info Apps for Android (2026)"
 description: "Best system monitor app for Android 2026: read-only hardware detection, temp and battery health, and how System Monitor differs from a phone cleaner."
 layout: guide
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/pillar-system-monitor-apps-android.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 tags: [System Monitor, RAM Booster, CPU Temperature, Android, App Roundup]
 last_modified_at: 2026-11-05
 lang: en

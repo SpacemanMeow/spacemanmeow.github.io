@@ -4,7 +4,8 @@ title: "Meow FM vs Calm: Aplikasi Suara Tidur Mana yang Harus Dipilih?"
 description: "Meow FM vs Calm 2026: pemutar white noise imut dengan sleep timer versus langganan meditasi dan tidur lengkap. Harga, suara, penggunaan offline, dan kesimpulan."
 layout: guide
 tags: [Meow FM, White Noise, Android, Comparison, Calm]
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/vs-meow-fm-and-calm.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 lang: id
 last_modified_at: 2026-11-07
 ---

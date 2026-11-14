@@ -3,7 +3,8 @@ date: 2026-06-21 09:00:00 +0800
 title: "最佳安卓浮动助手与辅助触控应用（2026）"
 description: "2026 年悬浮助手与最佳悬浮助手安卓选购：看悬浮球、自定义快捷方式与单手手势，以及 Floating Assistant 与辅助触控的对比。"
 layout: guide
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/pillar-floating-assistant-apps-android.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 tags: [Floating Assistant, Assistive Touch, Android, App Roundup]
 last_modified_at: 2026-11-05
 lang: zh

@@ -4,7 +4,8 @@ title: "Best Day One Alternatives in 2026"
 description: "Day One alternatives 2026: six journals and mood diaries compared on price, privacy, platforms and export, with who each fits and a migration checklist."
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Alternatives, Day One]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/alternatives-to-day-one.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

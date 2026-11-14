@@ -4,7 +4,8 @@ title: "ทางเลือก Todoist ที่ดีที่สุดใน
 description: "ทางเลือก Todoist ฟรี 2026: เปรียบเทียบแอป to-do list เจ็ดตัวในด้านขอบเขตฟรี ความเป็นส่วนตัว และ subtask — Microsoft To Do, Meow Todo, TickTick"
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Alternatives, Todoist]
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/alternatives-to-todoist.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

@@ -4,7 +4,8 @@ title: "Aplikasi Catatan Kewangan dan Bajet Bulanan Android: Panduan Lengkap 202
 description: "Panduan aplikasi catatan kewangan dan expense tracker Android 2026: atur bajet bulanan, bajet per kategori, offline tanpa akaun, Ringgit, dan eksport CSV."
 layout: guide
 tags: [Meow Money, Expense Tracker, Bajet App, Android, Pillar]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/pillar-budget-expense-tracker-apps-android.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: ms
 last_modified_at: 2026-11-06
 ---

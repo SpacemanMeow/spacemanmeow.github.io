@@ -4,7 +4,8 @@ title: "Floating Assistant: ปุ่มลอยที่ทำงานให�
 description: "แอปผู้ช่วยลอย android ที่ดีที่สุด 2026: Floating Assistant vs Assistive Touch ด้านลูกบอลขอบจอ ทางลัดที่กำหนดเอง ท่าทาง และการใช้มือเดียว"
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/best-floating-assistant-general.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

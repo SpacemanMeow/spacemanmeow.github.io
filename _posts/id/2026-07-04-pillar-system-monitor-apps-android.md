@@ -3,7 +3,8 @@ date: 2026-07-04 09:00:00 +0800
 title: "Aplikasi System Monitor & Info Perangkat Terbaik untuk Android (2026)"
 description: "Aplikasi system monitor terbaik android 2026: deteksi hardware read-only, suhu dan kesehatan baterai, dan bedanya System Monitor dengan pembersih ponsel."
 layout: guide
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/pillar-system-monitor-apps-android.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 tags: [System Monitor, RAM Booster, CPU Temperature, Android, App Roundup]
 last_modified_at: 2026-11-07
 lang: id

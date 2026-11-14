@@ -4,7 +4,8 @@ title: "CPU Monitor: Watch Your CPU Temperature Before It Throttles"
 description: "Best cpu temperature monitor app for android 2026: CPU Monitor vs CPU-Z on real-time temp, per-core load, overheat alerts, history and price."
 layout: guide
 tags: [CPU Monitor, CPU Temperature, Android, Best Apps]
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/best-cpu-monitor-temperature.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

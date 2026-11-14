@@ -4,7 +4,8 @@ title: "ทางเลือก CPU-Z ที่ดีที่สุดสำ�
 description: "ทางเลือก CPU-Z 2026: แอปฮาร์ดแวร์และข้อมูลระบบหกตัวเปรียบเทียบด้านอุณหภูมิเรียลไทม์ หน้าต่างลอย วิดเจ็ต และราคา"
 layout: guide
 tags: [CPU Monitor, อุณหภูมิ CPU, Android, Alternatives, CPU-Z]
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/alternatives-to-cpu-z.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

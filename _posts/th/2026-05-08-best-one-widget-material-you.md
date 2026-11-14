@@ -4,7 +4,8 @@ title: "One Widget และ Material You: วิดเจ็ตที่เข�
 description: "วิดเจ็ต Material You 2026: One Widget เทียบกับ KWGT ด้านสีไดนามิก ความเข้ากันของธีม วิดเจ็ตนาฬิกาและปฏิทิน การตั้งค่า และราคาบน Android 12+"
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Best Apps]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/best-one-widget-material-you.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

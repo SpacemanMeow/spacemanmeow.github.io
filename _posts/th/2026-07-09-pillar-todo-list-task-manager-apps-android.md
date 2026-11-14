@@ -4,7 +4,8 @@ title: "แอป To-Do List และตัวจัดการงานที
 description: "คู่มือแอป to-do list Android 2026: เลือกตัวจัดการงานพร้อมปฏิทิน งานย่อย การเตือน ออฟไลน์ และฟรี; Meow Todo List เทียบกับ Todoist"
 layout: guide
 tags: [To-Do List, Android, Meow Todo, App Roundup]
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/pillar-todo-list-task-manager-apps-android.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

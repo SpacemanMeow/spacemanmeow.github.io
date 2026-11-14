@@ -4,7 +4,8 @@ title: "Meow Mood: Buku Harian Peribadi yang Tetap di Peranti Anda"
 description: "Aplikasi buku harian peribadi 2026: Meow Mood vs Day One, Daylio, Apple Journal dan Penzu tentang storan lokal, kunci, offline dan eksport. Tanpa akaun."
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Best Apps]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/best-meow-mood-diary-private.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: ms
 last_modified_at: 2026-11-06
 ---

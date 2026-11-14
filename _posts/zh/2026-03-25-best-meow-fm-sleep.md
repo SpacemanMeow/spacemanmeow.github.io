@@ -4,7 +4,8 @@ title: "用 Meow FM 入睡：会自己关掉声景"
 description: "2026 年助眠白噪音与睡眠白噪音对比：Meow FM、Calm、Rain Rain、White Noise (TMSOFT) 在免费声景、自动停止计时器、离线播放与价格上的差别。"
 layout: guide
 tags: [Meow FM, White Noise, Android, Best Apps]
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/best-meow-fm-sleep.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

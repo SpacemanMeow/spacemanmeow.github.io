@@ -4,7 +4,8 @@ title: "Meow Mood：塞得进会议间隙的心情日记"
 description: "2026 年心情日记 app 哪个好？Meow Mood 与 Day One、Journey、Daylio、Grid Diary 在快速记录、趋势、隐私与价格上的对比，含免费心情日记之选。"
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Best Apps]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/best-meow-mood-diary-diary.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

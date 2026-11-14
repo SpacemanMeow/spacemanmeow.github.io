@@ -4,7 +4,8 @@ title: "ทางเลือก Retroflip ที่ดีที่สุดใ�
 description: "ทางเลือก Retroflip 2026: แอปนาฬิกาพลิกหกตัวเปรียบเทียบด้านธีม ไวท์นอยส์ โหมดลอย วิดเจ็ต และแพลตฟอร์ม พร้อมคู่มือเลือกตามความต้องการ"
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Alternatives, Retroflip]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/alternatives-to-retroflip.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

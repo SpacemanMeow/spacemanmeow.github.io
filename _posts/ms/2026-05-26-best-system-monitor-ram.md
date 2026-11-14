@@ -4,7 +4,8 @@ title: "System Monitor untuk RAM: Lihat Tepat Apa yang Dilakukan Memori Anda"
 description: "Ram booster satu ketik atau info RAM jujur? System Monitor vs CCleaner 2026 tentang detail memori, daftar proses, konteks storage, dan harga."
 layout: guide
 tags: [System Monitor, RAM Booster, Android, Best Apps]
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/best-system-monitor-ram.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 lang: ms
 last_modified_at: 2026-11-07
 ---

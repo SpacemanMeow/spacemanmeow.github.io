@@ -4,7 +4,8 @@ title: "CPU Monitor vs CPU-Z：哪款安卓硬件应用？"
 description: "2026 年 CPU Monitor 与 CPU-Z 对比：实时温度与浮窗对阵硬件规格表，回答 cpu-z 中文替代与安卓手机cpu温度监控哪个好。"
 layout: guide
 tags: [CPU Monitor, CPU Temperature, Android, Comparison, CPU-Z]
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/vs-cpu-monitor-and-cpu-z.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

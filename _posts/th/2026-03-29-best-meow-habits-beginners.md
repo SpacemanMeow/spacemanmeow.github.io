@@ -4,7 +4,8 @@ title: "Meow Habits สำหรับผู้เริ่มต้น: เร�
 description: "แอปติดตามนิสัยที่ดีที่สุดสำหรับผู้เริ่มต้น 2026: Meow Habits เทียบกับ Loop และ Habitica — แอปติดตามนิสัยน่ารัก วิดเจ็ตแตะเดียว การเตือน หลักฟรี"
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Best Apps]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/best-meow-habits-beginners.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

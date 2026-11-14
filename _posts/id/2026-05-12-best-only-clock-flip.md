@@ -4,7 +4,8 @@ title: "Only Clock: Jam Flip yang Menenangkan Layar Anda"
 description: "Aplikasi jam flip terbaik untuk Android 2026: Only Clock vs Flip Clock soal animasi, tema, white noise, widget, pengatur fokus, dan harga."
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Best Apps]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/best-only-clock-flip.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: id
 last_modified_at: 2026-11-07
 ---

@@ -4,7 +4,8 @@ title: "Meow Todo for Android: A To-Do List That Stays on Your Phone"
 description: "Best task manager Android 2026: Meow Todo vs Todoist, Microsoft To Do and Google Tasks on local privacy, offline to-do app, reminders and price."
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Best Apps]
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/best-meow-todo-list-android.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

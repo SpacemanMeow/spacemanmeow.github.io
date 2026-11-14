@@ -4,7 +4,8 @@ title: "Meow Money Manager vs YNAB: Mana Aplikasi Anggaran yang Cocok untuk Anda
 description: "Meow Money Manager vs YNAB 2026: catatan lokal privat dan multi mata uang vs zero-based dengan sinkron bank. Harga, fitur, dan kesimpulan."
 layout: guide
 tags: [Meow Money, Expense Tracker, Android, Comparison]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/vs-meow-money-and-ynab.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: id
 ---
 

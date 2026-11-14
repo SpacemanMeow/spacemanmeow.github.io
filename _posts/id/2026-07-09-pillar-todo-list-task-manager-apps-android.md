@@ -3,7 +3,8 @@ date: 2026-07-09 09:00:00 +0800
 title: "Aplikasi To-Do List dan Pengelola Tugas Terbaik untuk Android (2026)"
 description: "Panduan aplikasi to-do list Android 2026: pilih pengelola tugas dengan kalender, subtugas, pengingat, offline, dan gratis; Meow Todo List vs Todoist."
 layout: guide
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/pillar-todo-list-task-manager-apps-android.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 tags: [To-Do List, Android, Meow Todo, App Roundup]
 last_modified_at: 2026-11-06
 lang: id

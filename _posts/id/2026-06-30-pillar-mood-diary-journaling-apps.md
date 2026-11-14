@@ -3,8 +3,9 @@ date: 2026-06-30 09:00:00 +0800
 title: "Aplikasi Mood Tracker dan Jurnal Harian Terbaik (2026)"
 description: "Pilihan aplikasi mood tracker dan buku harian digital 2026: privasi, catatan cepat, offline, ekspor, serta perbandingan Meow Mood Diary dan Day One."
 layout: guide
-image: /assets/images/apps/meow-mood-diary/icon.webp
-tags: [Mood Diary, Android, Meow Mood, App Roundup]
+image: /assets/images/covers/pillar-mood-diary-journaling-apps.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
+tags: [Mood Diary, Android, Meow Mood Diary, App Roundup]
 last_modified_at: 2026-11-06
 lang: id
 ---

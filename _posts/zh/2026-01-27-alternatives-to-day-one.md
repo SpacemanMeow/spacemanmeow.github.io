@@ -4,7 +4,8 @@ title: "2026 年最佳 Day One 替代应用"
 description: "2026 年 Day One 替代与心情日记 app 哪个好：六款日记应用在价格、隐私、平台与导出上的对比，说明每款适合谁并附迁移清单。"
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Alternatives, Day One]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/alternatives-to-day-one.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

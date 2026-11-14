@@ -4,7 +4,8 @@ title: "Only Clock: นาฬิกาพลิกที่ผ่อนคลา
 description: "แอปนาฬิกาพลิกที่ดีที่สุดสำหรับ Android 2026: Only Clock เทียบกับ Flip Clock ด้านแอนิเมชัน ธีม ไวท์นอยส์ วิดเจ็ต ตัวจับเวลาโฟกัส และราคา"
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Best Apps]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/best-only-clock-flip.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

@@ -4,7 +4,8 @@ title: "Floating Assistant: ลูกบอลลอยขอบจอเป็�
 description: "assistive touch ลอย android ที่ดีที่สุด 2026: Floating Assistant vs Assistive Touch ด้านป้ายกำกับ โปรแกรมอ่านหน้าจอ ท่าทาง ความเป็นส่วนตัว และราคา"
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/best-floating-assistant-accessibility.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

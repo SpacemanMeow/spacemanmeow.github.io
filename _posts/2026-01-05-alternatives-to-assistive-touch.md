@@ -4,7 +4,8 @@ title: "Best Assistive Touch Alternatives for Android in 2026"
 description: "Compare the best Assistive Touch alternative android in 2026: Floating Assistant, Easy Touch, Button Mapper and more, by buttons, gestures, privacy and price."
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Alternatives]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/alternatives-to-assistive-touch.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

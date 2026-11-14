@@ -4,7 +4,8 @@ title: "Floating Assistant: A Floating Button That Does the Work"
 description: "Best floating assistant app for android 2026: Floating Assistant vs Assistive Touch on edge ball, custom shortcuts, gestures and one-handed use."
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/best-floating-assistant-general.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

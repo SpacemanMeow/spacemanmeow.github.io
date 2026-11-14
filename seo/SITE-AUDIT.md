@@ -165,6 +165,7 @@
 | D16 | 文档与台账一致性 | P1 | 人工核对 | 优化方案/进度已同步；纯修复未误写进计划文档；滞后项已登记 |
 | D17 | 文章插图跨语言一致性 | P0 | §5 脚本 + 人工抽验 | 非 EN 文章图片路径多重集 = EN 同名文章、**位置与 EN 行序一致**、`alt` 已本地化未照抄 EN（规范见 `SEO-I18N-PLAYBOOK.md` §3.5）；行序硬门禁于 2026-11-06 全量启用（72 篇一致） |
 | D18 | 多语言文章骨架对等（结构 / 目录 / 插图） | P0 | §5 脚本 | **所有非 EN 语言**文章的 H2/H3 层级序列、结构块序列、文章目录（TOC 条目与行位置）、图片插入行序逐篇与 EN 同名文章一致；规则见 §2.6 与 `SEO-I18N-PLAYBOOK.md` §1 红线 11 / §3.5 |
+| D19 | 文章 tags 一致性与相关文章匹配 | P0 | §5 脚本 + 人工抽验 | 每篇文章至少带 1 个**规范产品标签**（11 个 App 之一：Meow Todo / Meow Habits / Meow Money / Meow Mood Diary / Meow FM / Only Clock / One Widget / Crosshair Aim / System Monitor / CPU Monitor / Floating Assistant）；无产品标签变体（如 `Meow Mood` / `Meow Todo List` / `To Do List` 或多余的 `Meow ` 前缀）；`related-posts.html` 已跳过泛标签（Android / Comparison / Best Apps / App Roundup / Alternatives），这些泛标签可保留但不得作为品类归属依据 |
 
 ---
 
@@ -239,6 +240,17 @@
   3. **图片插入** — 图片所在行号序列与 EN 一致（D17 同时校验路径集合、行序与 `alt` 本地化）；不得挪到小节末尾、合并或拆分图片块、改变图片块之间的正文顺序。
 - **手段**：§5 脚本 D18 四组 `chk` 全语言逐篇比对；新增 / 重构文章另按 `SEO-I18N-PLAYBOOK.md` §3.5 从 EN 骨架逐行起稿。
 - **失败处理**：按 EN 同名文章补齐缺失的标题 / 列表项 / 表格行 / FAQ 条目，或把多出的结构块并入相邻正文；目录缺条目按 EN 补链接；图片位置错位按 EN 行号移回。禁止用删减 EN 对应小节或改动 EN 来凑一致。
+
+### D19 文章 tags 一致性与相关文章匹配（P0，2026-11-15 新增）
+
+- **背景**：相关文章逻辑（`_includes/related-posts.html`）按 `tags` 标签重叠取同语言 4 篇；Jekyll `where: "tags", tag` 为**精确匹配**。一旦某篇产品的标签写法与同组其余文章不一致（如 `Meow Mood` vs `Meow Mood Diary`、`Meow Todo List` vs `Meow Todo`），同组匹配落空，会一路退到泛标签（如 `Comparison`）抓全站最新文章，导致相关文章跨品类串味。**2026-11-15 已全量修复**：Mood 组 10 篇 `Meow Mood`→`Meow Mood Diary`、Budget 教程 5 篇补 `Meow Money`；并给匹配逻辑加了「跳过泛标签」的兜底（见下）。
+- **检查点**：
+  1. **规范产品标签白名单**（11 个 App，每个 App 唯一）：`Meow Todo` / `Meow Habits` / `Meow Money` / `Meow Mood Diary` / `Meow FM` / `Only Clock` / `One Widget` / `Crosshair Aim` / `System Monitor` / `CPU Monitor` / `Floating Assistant`；
+  2. **每篇文章** frontmatter `tags` 至少包含上述白名单中 1 个（否则无法归入任何 App 组，related-posts 退化）；
+  3. **不得出现产品标签变体**：`Meow Mood` / `Meow Todo List` / `To Do List`，或以 `Meow `/`Only Clock`/`One Widget`/`Crosshair Aim`/`System Monitor`/`CPU Monitor`/`Floating Assistant` 开头却不在白名单的标签；
+  4. **泛标签**（Android / Comparison / Best Apps / App Roundup / Alternatives）允许保留，但 `related-posts.html` 的跳过清单必须与这里一致——新增泛标签时两处同步改，否则会被当作品类归属依据。
+- **手段**：§5 脚本 D19 两段 `chk`（变体 `chk` + 缺产品标签 `chk`）；新增文章/批量改标签后由本项硬门禁拦住。
+- **失败处理**：变体标签按白名单改回（如 `Meow Mood`→`Meow Mood Diary`）；缺产品标签的补上对应 App 标签；泛标签清单与 `related-posts.html` 不同步时一并更新。
 
 ### D08 图片与可访问性（P0）
 
@@ -581,6 +593,29 @@ cn = norm('\n'.join(txt.values()))
 miss = sorted(w for v in terms.values() for w in v if w and norm(w) not in cn)
 chk('D09', '全部关键词真实覆盖', not miss and len(terms) >= 11,
     f'{len(terms)} 组，MISS {len(miss)} {miss[:3]}')
+# D19：tags 一致性与相关文章匹配（P0；产品标签变体曾致 related-posts 跨品类，见 §4 D19）
+# 规则：① 每篇至少带 1 个规范产品标签（11 个 App 之一）；
+#       ② 不得出现产品标签变体（Meow Mood / Meow Todo List / To Do List / 多余 Meow 前缀等）。
+#       ③ related-posts.html 跳过泛标签（Android/Comparison/Best Apps/App Roundup/Alternatives）。
+CANON_PRODUCT = {'Meow Todo', 'Meow Habits', 'Meow Money', 'Meow Mood Diary',
+                 'Meow FM', 'Only Clock', 'One Widget', 'Crosshair Aim',
+                 'System Monitor', 'CPU Monitor', 'Floating Assistant'}
+BRAND_PREFIX = ('Meow', 'Only Clock', 'One Widget', 'Crosshair Aim',
+                'System Monitor', 'CPU Monitor', 'Floating Assistant')
+_badvar, _noprod = [], []
+for f, d in fms.items():
+    if not f.startswith('_posts/'): continue
+    raw = d.get('tags', '')
+    m = re.match(r'\[(.*)\]', raw)
+    tags = [x.strip() for x in m.group(1).split(',') if x.strip()] if m else []
+    for tg in tags:
+        if tg in ('Meow Mood', 'Meow Todo List', 'To Do List') or \
+           (tg.startswith(BRAND_PREFIX) and tg not in CANON_PRODUCT):
+            _badvar.append((f, tg))
+    if not (set(tags) & CANON_PRODUCT):
+        _noprod.append(f)
+chk('D19', 'tags 无产品标签变体', not _badvar, f'异常 {len(_badvar)} {_badvar[:2]}')
+chk('D19', '每篇至少带规范产品标签', not _noprod, f'缺失 {len(_noprod)} {_noprod[:2]}')
 # D11 内链前缀（按语言检查，排除共享资源）
 def links(t): return re.findall(r'\]\((/[^)]*)\)', t)
 zbad, ebad = [], []

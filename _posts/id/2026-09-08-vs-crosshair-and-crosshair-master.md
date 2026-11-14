@@ -4,7 +4,8 @@ title: "Crosshair vs Crosshair Hero: Overlay Retikel Mana?"
 description: "Crosshair Aim vs Crosshair Hero 2026: overlay FPS berpengatur melayang vs aplikasi preset populer. Fitur, harga, verdict per kebutuhan."
 layout: guide
 tags: [Crosshair Aim, Bidik Silang, Android, Perbandingan, Crosshair Hero]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/vs-crosshair-and-crosshair-master.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: id
 last_modified_at: 2026-11-05
 ---

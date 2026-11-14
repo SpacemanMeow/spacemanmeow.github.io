@@ -4,7 +4,8 @@ title: "最佳 WidgetSmith 替代应用（含安卓）"
 description: "2026 年安卓小组件 app 推荐与 WidgetSmith 替代对比：六款小组件应用在预设、编辑器、实时数据与价格上的差别，含小组件盒子哪个好的按需答案。"
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Alternatives, Widgetsmith]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/alternatives-to-widgetsmith.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

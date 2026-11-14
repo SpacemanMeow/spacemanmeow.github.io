@@ -4,7 +4,8 @@ title: "2026 年最佳 CPU-Z 安卓替代应用"
 description: "2026 年 CPU-Z 中文版替代与硬件信息查看器替代对比：六款应用在实时温度、悬浮窗与小组件上的差别，说明每款适合谁并附迁移清单。"
 layout: guide
 tags: [CPU Monitor, CPU Temperature, Android, Alternatives, CPU-Z]
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/alternatives-to-cpu-z.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

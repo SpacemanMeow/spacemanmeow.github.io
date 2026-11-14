@@ -3,7 +3,8 @@ date: 2026-05-30 09:00:00 +0800
 title: "最佳安卓主屏小组件应用（2026）"
 description: "2026 年安卓小组件 app 推荐与桌面小组件选购：看风格、自定义与快捷开关，以及 One Widget 与 KWGT、WidgetSmith 的对比。"
 layout: guide
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/pillar-android-home-screen-widget-apps.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 tags: [Home Screen Widgets, KWGT, One Widget, App Roundup]
 last_modified_at: 2026-11-05
 lang: zh

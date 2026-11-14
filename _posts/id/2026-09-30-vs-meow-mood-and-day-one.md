@@ -4,7 +4,8 @@ title: "Meow Mood vs Day One: Aplikasi Jurnal Mana yang Pas untuk Anda?"
 description: "Meow Mood vs Day One 2026: pelacak mood privat dengan check-in satu ketuk versus jurnal hidup kaya fitur bersinkron cloud. Harga, privasi, ekspor dan simpulan."
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Comparison, Day One]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/vs-meow-mood-and-day-one.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: id
 last_modified_at: 2026-11-06
 ---

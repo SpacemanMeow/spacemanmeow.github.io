@@ -4,7 +4,8 @@ title: "Meow Money Manager สำหรับนักศึกษา: บัน
 description: "แอปบันทึกการเงินสำหรับนักศึกษา: Meow Money Manager เทียบ YNAB, Goodbudget, EveryDollar — ฟรี ไม่ต้องสมัครบัญชี หลายสกุลเงิน เบิกคืน ราคา 2026"
 layout: guide
 tags: [Meow Money, Expense Tracker, Android, Best Apps]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/best-meow-money-manager-students.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: th
 ---
 

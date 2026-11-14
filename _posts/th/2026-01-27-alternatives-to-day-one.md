@@ -4,7 +4,8 @@ title: "ทางเลือก Day One ที่ดีที่สุดใน
 description: "ทางเลือก Day One 2026: เปรียบเทียบหกไดอารี่และบันทึกอารมณ์จากราคา ความเป็นส่วนตัว แพลตฟอร์ม ส่งออก ความเหมาะสม และเช็คลิสต์การย้าย"
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Alternatives, Day One]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/alternatives-to-day-one.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

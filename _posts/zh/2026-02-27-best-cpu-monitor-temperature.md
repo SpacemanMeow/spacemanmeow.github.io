@@ -4,7 +4,8 @@ title: "CPU Monitor：在降频之前看清 CPU 温度"
 description: "2026 年最好的cpu温度监控软件对比：CPU Monitor 与 CPU-Z 在实时温度、多核cpu频率监控、cpu过热报警 app 与价格上的差别。"
 layout: guide
 tags: [CPU Monitor, CPU Temperature, Android, Best Apps]
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/best-cpu-monitor-temperature.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

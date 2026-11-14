@@ -4,7 +4,8 @@ title: "One Widget vs KWGT: Curated Widgets or Total Control?"
 description: "Best KWGT alternative android 2026: One Widget vs KWGT on 500+ ready-made presets, a from-scratch builder, price and a verdict per user."
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Comparison, KWGT]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/vs-one-widget-and-kwgt.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

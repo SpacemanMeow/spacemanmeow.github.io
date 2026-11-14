@@ -3,7 +3,8 @@ date: 2026-06-17 09:00:00 +0800
 title: "最佳安卓翻页钟应用（2026）"
 description: "2026 年翻页时钟哪个好与全屏时钟安卓选购：看翻页动画、小组件、床头模式与专注计时，以及 Only Clock 与 Retroflip 的对比。"
 layout: guide
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/pillar-flip-clock-apps-android.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 tags: [Flip Clock, Android, Only Clock, App Roundup]
 last_modified_at: 2026-11-05
 lang: zh

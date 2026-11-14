@@ -3,7 +3,8 @@ date: 2026-06-25 09:00:00 +0800
 title: "Best Habit Tracker Apps for Android (2026)"
 description: "Best habit tracker app for Android in 2026: what to look for (streaks, reminders, widgets, offline, CSV export) and how Meow Habits compares to Streaks."
 layout: guide
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/pillar-habit-tracker-apps-android.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 tags: [Habit Tracker, Android, Meow Habits, App Roundup]
 last_modified_at: 2026-11-05
 lang: en

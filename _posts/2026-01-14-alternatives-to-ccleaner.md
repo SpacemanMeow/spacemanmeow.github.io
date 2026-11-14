@@ -4,7 +4,8 @@ title: "Best CCleaner Alternatives for Android in 2026"
 description: "CCleaner alternatives 2026: six cleaning and monitoring apps compared on junk cleanup, storage analysis, live stats and price, with honest limits."
 layout: guide
 tags: [System Monitor, RAM Booster, Android, Alternatives, CCleaner]
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/alternatives-to-ccleaner.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

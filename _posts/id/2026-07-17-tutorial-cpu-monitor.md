@@ -8,7 +8,8 @@ lang: id
 author: author_meow_id
 last_modified_at: 2026-11-07
 description: "Panduan pengguna CPU Monitor: suhu CPU waktu nyata, jendela melayang, alarm overheat, kurva riwayat, widget layar utama, dan bacaan sensor read-only."
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/tutorial-cpu-monitor.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 ---
 
 ## Daftar Isi

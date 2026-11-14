@@ -4,7 +4,8 @@ title: "Meow Todo for Students: Never Miss a Syllabus Deadline"
 description: "Best to-do app for students in 2026: Meow Todo vs Todoist, Microsoft To Do and TickTick — free subtasks, calendar view, no account required."
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Best Apps]
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/best-meow-todo-list-students.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

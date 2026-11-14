@@ -4,7 +4,8 @@ title: "习惯应用到底在记录什么？7 款主流产品的功能机制深�
 description: "从记录单位、周期模型、连续次数口径、断签语义到数据归属，深度对比喵窝习惯、Streaks、Habitica、Loop、Habitify、Productive 与 Fabulous 的习惯追踪机制，并讲清习惯应用的实际价值与边界。"
 layout: guide
 tags: [Meow Habits, Habit Tracker, Habit Streak, Comparison, Android]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/habit-feature-comparison.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: zh
 last_modified_at: 2026-11-12
 ---

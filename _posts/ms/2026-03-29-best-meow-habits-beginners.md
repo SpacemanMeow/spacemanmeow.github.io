@@ -4,7 +4,8 @@ title: "Meow Habits untuk Pemula: Mulai dengan Satu Ketikan"
 description: "Aplikasi habit tracker terbaik untuk pemula 2026: Meow Habits vs Loop dan Habitica — penjejak tabiat comel, widget satu ketikan, peringatan, teras percuma."
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Best Apps]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/best-meow-habits-beginners.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: ms
 last_modified_at: 2026-11-06
 ---

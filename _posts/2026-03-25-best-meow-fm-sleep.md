@@ -4,7 +4,8 @@ title: "Meow FM for Sleep: Soundscapes That Switch Themselves Off"
 description: "Best sleep sounds apps 2026: Meow FM vs Calm, Rain Rain and White Noise (TMSOFT) on free soundscapes, a self-stopping timer, offline playback and price."
 layout: guide
 tags: [Meow FM, White Noise, Android, Best Apps]
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/best-meow-fm-sleep.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

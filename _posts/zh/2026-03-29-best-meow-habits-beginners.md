@@ -4,7 +4,8 @@ title: "Meow Habits 新手入门：一键开始"
 description: "2026 年新手习惯打卡应用推荐：Meow Habits 与 Loop、Streaks、Habitica 对比——免费习惯打卡、不订阅习惯打卡、一键小部件与温和提醒。"
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Best Apps]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/best-meow-habits-beginners.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

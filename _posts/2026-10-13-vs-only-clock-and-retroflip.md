@@ -4,7 +4,8 @@ title: "Only Clock vs Flip Clock: Which Flip Clock App?"
 description: "Best Retroflip Clock alternative 2026: Only Clock vs a free flip clock app on themes, white noise, floating mode, ads and a verdict per use."
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Comparison, Retroflip]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/vs-only-clock-and-retroflip.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

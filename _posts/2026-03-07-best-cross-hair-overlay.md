@@ -4,7 +4,8 @@ title: "Crosshair Aim as a Custom Overlay: Your Own Reticle on Any Screen"
 description: "Best crosshair overlay app in 2026: Crosshair Aim vs Crosshair Hero for Android — PNG import, transparency, per-app positioning, no root, free."
 layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Best Apps]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/best-cross-hair-overlay.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

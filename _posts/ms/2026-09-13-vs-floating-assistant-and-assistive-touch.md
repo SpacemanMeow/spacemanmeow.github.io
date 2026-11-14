@@ -4,7 +4,8 @@ title: "Floating Assistant vs Assistive Touch: Alat Overlay Mana?"
 description: "Alternatif Assistive Touch android terbaik 2026: Floating Assistant vs Assistive Touch tentang bola tepi, gerak isyarat, ekstra, harga, dan verdict per…"
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Comparison]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/vs-floating-assistant-and-assistive-touch.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: ms
 last_modified_at: 2026-11-07
 ---

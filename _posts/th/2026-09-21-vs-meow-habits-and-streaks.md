@@ -4,7 +4,8 @@ title: "Meow Habits vs Streaks: แอปติดตามนิสัยตั
 description: "Meow Habits vs Streaks 2026: แอปติดตามนิสัยหลักฟรีข้ามแพลตฟอร์ม ทางเลือก Streaks เทียบการติดตามมินิมอลเฉพาะ iOS ราคา ความเป็นส่วนตัว ส่งออก"
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Comparison]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/vs-meow-habits-and-streaks.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

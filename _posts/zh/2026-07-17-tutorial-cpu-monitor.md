@@ -8,7 +8,8 @@ lang: zh
 author: author_meow_id
 last_modified_at: 2026-11-05
 description: "一份完整的 CPU Monitor 使用指南——实时 cpu温度监控、cpu监控悬浮窗、过热报警、历史曲线与只读传感器读数。"
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/tutorial-cpu-monitor.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 ---
 
 ## 目录

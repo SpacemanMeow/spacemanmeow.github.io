@@ -4,7 +4,8 @@ title: "Meow Todo 安卓版：留在你手机上的待办清单"
 description: "2026 年安卓待办清单推荐：Meow Todo 与 Todoist、Microsoft To Do、Google Tasks 对比——免费待办清单、离线待办、待办清单指纹锁、待办清单日历视图与价格。"
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Best Apps]
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/best-meow-todo-list-android.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

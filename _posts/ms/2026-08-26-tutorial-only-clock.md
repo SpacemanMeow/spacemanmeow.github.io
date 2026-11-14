@@ -8,7 +8,8 @@ lang: ms
 author: author_meow_id
 last_modified_at: 2026-11-07
 description: "Panduan pengguna Only Clock: paparan jam flip skrin penuh, tetapan 12/24-jam, widget jam, white noise, mode terapung, dan setup telefon pintar sandaran."
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/tutorial-only-clock.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 ---
 
 ## Kandungan

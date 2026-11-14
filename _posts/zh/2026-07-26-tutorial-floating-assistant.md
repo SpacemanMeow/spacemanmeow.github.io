@@ -8,7 +8,8 @@ lang: zh
 author: author_meow_id
 last_modified_at: 2026-11-05
 description: "一份完整的 Floating Assistant 使用指南——边缘悬浮球手势、自定义悬浮球快捷方式、系统开关与单手控制，无需 root。"
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/tutorial-floating-assistant.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 ---
 
 ## 目录

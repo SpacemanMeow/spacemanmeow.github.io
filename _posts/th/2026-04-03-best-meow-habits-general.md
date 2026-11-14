@@ -4,7 +4,8 @@ title: "Meow Habits: แอปติดตามนิสัยที่ทำ�
 description: "แอปติดตามนิสัย Android ที่ดีที่สุด 2026: Meow Habits เทียบกับ Streaks, Habitica และ Loop — แอปติดตามนิสัยฟรีพร้อมวิดเจ็ต การเตือน ปฏิทิน ออฟไลน์"
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Best Apps]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/best-meow-habits-general.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

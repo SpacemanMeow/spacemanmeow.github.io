@@ -4,7 +4,8 @@ title: "Meow FM untuk Tidur: Soundscape yang Mematikan Dirinya Sendiri"
 description: "Aplikasi suara tidur terbaik 2026: Meow FM vs Calm, Rain Rain, White Noise (TMSOFT) soal soundscape gratis, timer mandiri-berhenti, offline, harga."
 layout: guide
 tags: [Meow FM, White Noise, Android, Best Apps]
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/best-meow-fm-sleep.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 lang: id
 last_modified_at: 2026-11-07
 ---

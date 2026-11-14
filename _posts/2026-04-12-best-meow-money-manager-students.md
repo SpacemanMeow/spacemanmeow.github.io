@@ -4,7 +4,8 @@ title: "Meow Money Manager for Students: Track Spending Between Classes"
 description: "Meow Money Manager vs YNAB, Goodbudget and EveryDollar for students (2026): free core, no account, study-abroad multi-currency, reimbursements and price."
 layout: guide
 tags: [Meow Money, Expense Tracker, Android, Best Apps]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/best-meow-money-manager-students.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: en
 ---
 

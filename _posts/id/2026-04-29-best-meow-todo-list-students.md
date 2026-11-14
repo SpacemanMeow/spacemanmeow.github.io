@@ -4,7 +4,8 @@ title: "Meow Todo untuk Mahasiswa: Jangan Lewatkan Satu Tenggat Kuliah"
 description: "Aplikasi to-do terbaik untuk mahasiswa 2026: Meow Todo vs Todoist, Microsoft To Do, dan TickTick — subtugas gratis, kalender, tanpa akun."
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Best Apps]
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/best-meow-todo-list-students.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: id
 last_modified_at: 2026-11-06
 ---

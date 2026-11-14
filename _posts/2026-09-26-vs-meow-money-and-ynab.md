@@ -4,7 +4,8 @@ title: "Meow Money Manager vs YNAB: Which Budget App Fits You?"
 description: "Meow Money Manager vs YNAB in 2026: privacy-first local tracking and multi-currency ledgers vs zero-based budgeting with bank sync. Price, features, verdict."
 layout: guide
 tags: [Meow Money, Expense Tracker, Android, Comparison]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/vs-meow-money-and-ynab.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: en
 ---
 

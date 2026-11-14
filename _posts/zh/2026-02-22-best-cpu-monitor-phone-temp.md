@@ -4,7 +4,8 @@ title: "用手机温度监控守住整机清凉：CPU Monitor 对比 CPU-Z"
 description: "2026 年手机温度监控与电池温度监控对比：CPU Monitor 与 CPU-Z 在多热源、cpu内存电池小组件安卓、过热提醒与整机建议上的差别。"
 layout: guide
 tags: [CPU Monitor, CPU Temperature, Android, Best Apps]
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/best-cpu-monitor-phone-temp.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

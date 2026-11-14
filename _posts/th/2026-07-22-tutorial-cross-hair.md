@@ -8,7 +8,8 @@ lang: th
 last_modified_at: 2026-11-07
 author: author_meow_id
 description: "คู่มือผู้ใช้ Crosshair ฉบับเต็ม — เพิ่มโอเวอร์เลย์ครอสแฮร์ที่กำหนดเองในเกม FPS บน Android: ดีไซน์ 80+ สเกล/สี/ตำแหน่ง โดยไม่รูท ฟรีเริ่มต้น"
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/tutorial-cross-hair.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 ---
 
 ## สารบัญ

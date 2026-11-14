@@ -4,7 +4,8 @@ title: "One Widget: Cute, Ready-Made Widgets for Android"
 description: "Best widget app for android 2026: One Widget vs KWGT on ready-made presets, custom styling, shortcuts, pricing and offline use."
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Best Apps]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/best-one-widget-android.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

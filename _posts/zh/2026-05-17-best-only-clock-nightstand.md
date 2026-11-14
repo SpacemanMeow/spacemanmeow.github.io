@@ -4,7 +4,8 @@ title: "Only Clock 床头版：闲置手机变床头钟"
 description: "2026 年床头钟 app 对比：Only Clock 与 Flip Clock 在暗色主题、常亮、白噪音与 OLED 烧屏防护上的差别，含旧手机当时钟的建议。"
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Best Apps]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/best-only-clock-nightstand.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

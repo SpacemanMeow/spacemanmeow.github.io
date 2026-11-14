@@ -4,7 +4,8 @@ title: "Alternatif Streaks Terbaik di 2026"
 description: "Alternatif Streaks 2026: enam aplikasi habit tracker dibandingkan soal platform, harga, statistik, dan privasi — tabel kemampuan dan daftar migrasi."
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Alternatives]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/alternatives-to-streaks.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: id
 last_modified_at: 2026-11-06
 ---

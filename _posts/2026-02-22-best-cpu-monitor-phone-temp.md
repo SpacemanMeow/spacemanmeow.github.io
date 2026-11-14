@@ -4,7 +4,8 @@ title: "CPU Monitor for Phone Temperature: Keep the Whole Device Cool"
 description: "Phone temperature app 2026: CPU Monitor vs CPU-Z on battery temperature monitor, cpu ram battery widget android, overheat alerts and device-wide advice."
 layout: guide
 tags: [CPU Monitor, CPU Temperature, Android, Best Apps]
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/best-cpu-monitor-phone-temp.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

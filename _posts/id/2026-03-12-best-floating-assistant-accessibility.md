@@ -4,7 +4,8 @@ title: "Floating Assistant: Bola Sentuh Melayang Ramah Aksesibilitas"
 description: "Floating assistive touch android terbaik 2026: Floating Assistant vs Assistive Touch soal label, screen-reader, gestur, privasi, dan harga."
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/best-floating-assistant-accessibility.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: id
 last_modified_at: 2026-11-07
 ---

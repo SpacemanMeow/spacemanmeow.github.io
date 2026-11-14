@@ -3,7 +3,8 @@ date: 2026-06-25 09:00:00 +0800
 title: "Aplikasi Habit Tracker dan Penjejak Tabiat Terbaik untuk Android (2026)"
 description: "Panduan aplikasi habit tracker Android 2026: cek streak harian, peringatan, widget, offline, eksport CSV, dan perbandingan Meow Habits vs Streaks."
 layout: guide
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/pillar-habit-tracker-apps-android.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 tags: [Habit Tracker, Android, Meow Habits, App Roundup]
 last_modified_at: 2026-11-06
 lang: ms

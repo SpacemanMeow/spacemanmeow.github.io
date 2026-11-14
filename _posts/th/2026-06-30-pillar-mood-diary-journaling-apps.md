@@ -3,8 +3,9 @@ date: 2026-06-30 09:00:00 +0800
 title: "แอปตัวติดตามอารมณ์และไดอารี่รายวันที่ดีที่สุด (2026)"
 description: "เลือกแอปตัวติดตามอารมณ์และไดอารี่ดิจิทัล 2026: ความเป็นส่วนตัว บันทึกด่วน ออฟไลน์ ส่งออก รวมถึงการเปรียบเทียบ Meow Mood Diary และ Day One"
 layout: guide
-tags: [Mood Diary, Android, Meow Mood, App Roundup]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+tags: [Mood Diary, Android, Meow Mood Diary, App Roundup]
+image: /assets/images/covers/pillar-mood-diary-journaling-apps.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

@@ -4,7 +4,8 @@ title: "Only Clock vs Flip Clock：哪款翻页时钟应用？"
 description: "2026 年 Only Clock 与 Flip Clock 对比：带白噪音与悬浮模式的全屏翻页时钟对阵免费带广告的翻页应用，回答安卓翻页时钟哪个好。"
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Comparison, Retroflip]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/vs-only-clock-and-retroflip.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

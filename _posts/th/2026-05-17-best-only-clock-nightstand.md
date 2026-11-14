@@ -4,7 +4,8 @@ title: "Only Clock สำหรับข้างเตียง: โทรศ�
 description: "แอปนาฬิกาข้างเตียง 2026: Only Clock เทียบกับ Flip Clock ด้านธีมหรี่แสง หน้าจอเปิดตลอด ไวท์นอยส์ และความปลอดภัย burn-in OLED"
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Best Apps]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/best-only-clock-nightstand.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

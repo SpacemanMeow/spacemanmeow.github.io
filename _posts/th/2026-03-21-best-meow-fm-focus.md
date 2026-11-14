@@ -4,7 +4,8 @@ title: "Meow FM สำหรับโฟกัส: ไวต์นอยส์�
 description: "แอปเสียงโฟกัส 2026: Meow FM เทียบกับ Calm, Noisli, Brain.fm ด้านลูปเสียง ตัวจับเวลา ออฟไลน์ ราคา — ไวต์นอยส์ฟรีสำหรับโฟกัส"
 layout: guide
 tags: [Meow FM, White Noise, Android, Best Apps]
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/best-meow-fm-focus.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

@@ -4,7 +4,8 @@ title: "Meow Money Manager 安卓版：不连银行也能记账"
 description: "2026 年安卓端 Meow Money Manager（喵窝记账）与 YNAB、PocketGuard、EveryDollar 的实用对比——隐私、本地存储、多币种、离线记账、主屏小组件与价格，帮你选到合适的安卓记账应用。"
 layout: guide
 tags: [Meow Money, Expense Tracker, Android, Best Apps]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/best-meow-money-manager-android.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: zh
 ---
 

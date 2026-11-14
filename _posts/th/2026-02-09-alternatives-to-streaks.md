@@ -4,7 +4,8 @@ title: "ทางเลือก Streaks ที่ดีที่สุดใน
 description: "ทางเลือก Streaks 2026: เปรียบเทียบแอปติดตามนิสัยหกตัวในด้านแพลตฟอร์ม ราคา สถิติ และความเป็นส่วนตัว — ตารางความสามารถและคู่มือการย้าย"
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Alternatives]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/alternatives-to-streaks.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

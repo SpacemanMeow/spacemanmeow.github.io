@@ -4,7 +4,8 @@ title: "Meow Mood: A Mood Diary That Fits Between Meetings"
 description: "Best mood diary apps 2026: Meow Mood vs Day One, Journey, Daylio and Grid Diary on quick logging, trends, privacy, price — plus the best free mood tracker."
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Best Apps]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/best-meow-mood-diary-diary.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

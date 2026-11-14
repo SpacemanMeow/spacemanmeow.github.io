@@ -4,7 +4,8 @@ title: "System Monitor: Statis Perangkat Langsung Tanpa Bloat"
 description: "Aplikasi pembersih ponsel terbaik android 2026: System Monitor vs CCleaner soal statis perangkat langsung, pemantauan read-only, pembersihan, dan harga."
 layout: guide
 tags: [System Monitor, RAM Booster, Android, Best Apps]
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/best-system-monitor-monitor.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 lang: id
 last_modified_at: 2026-11-07
 ---

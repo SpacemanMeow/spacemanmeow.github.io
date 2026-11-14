@@ -4,7 +4,8 @@ title: "2026 年最佳 CCleaner 安卓替代应用"
 description: "2026 年 CCleaner 替代与存储清理哪个好对比：六款清理与监控应用在垃圾清理、存储分析与实时读数上的差别，说明每款适合谁并附迁移清单。"
 layout: guide
 tags: [System Monitor, RAM Booster, Android, Alternatives, CCleaner]
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/alternatives-to-ccleaner.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

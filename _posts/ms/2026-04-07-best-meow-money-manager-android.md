@@ -4,7 +4,8 @@ title: "Aplikasi Catatan Kewangan Android Terbaik 2026: Bajet Harian, Peribadi, 
 description: "Cari aplikasi catatan kewangan Android terbaik 2026? Bandingkan Meow Money Manager, MoneyMama, dan Spendee tentang offline, bajet per kategori, dan Ringgit."
 layout: guide
 tags: [Meow Money, Expense Tracker, Android, Best Apps, Bajet App]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/best-meow-money-manager-android.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: ms
 ---
 

@@ -4,7 +4,8 @@ title: "Best Streaks Alternatives in 2026"
 description: "Streaks alternatives in 2026: six habit trackers compared on platform, price, stats and privacy — who each fits, a capability table and a migration checklist."
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Alternatives]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/alternatives-to-streaks.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

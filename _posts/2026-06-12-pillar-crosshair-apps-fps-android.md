@@ -3,7 +3,8 @@ date: 2026-06-12 09:00:00 +0800
 title: "Best Crosshair Apps for FPS Games on Android (2026)"
 description: "Best crosshair app for Android in 2026: FPS overlay apps for PUBG Mobile and COD Mobile — styles, customization, no root — and Crosshair Aim vs Crosshair Hero."
 layout: guide
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/pillar-crosshair-apps-fps-android.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 tags: [Crosshair, Android, Crosshair Aim, App Roundup]
 last_modified_at: 2026-11-05
 lang: en

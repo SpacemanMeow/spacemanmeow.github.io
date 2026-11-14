@@ -4,7 +4,8 @@ title: "用 Meow FM 专注：白噪音盖住办公室"
 description: "2026 年专注白噪音与专注音乐对比：Meow FM、Calm、Noisli、Brain.fm 在稳定循环、计时器、离线播放与价格上的差别，含白噪音 app 哪个好的专注向答案。"
 layout: guide
 tags: [Meow FM, White Noise, Android, Best Apps]
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/best-meow-fm-focus.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

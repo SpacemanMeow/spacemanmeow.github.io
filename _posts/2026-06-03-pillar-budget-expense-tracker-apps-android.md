@@ -3,7 +3,8 @@ date: 2026-06-03 09:00:00 +0800
 title: "Best Budget & Expense Tracker Apps for Android (2026)"
 description: "Best budget and expense tracker apps for Android in 2026: privacy, local storage, multi-currency, offline, widgets, plus Meow Money Manager vs YNAB."
 layout: guide
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/pillar-budget-expense-tracker-apps-android.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 tags: [Expense Tracker, Android, Meow Money, App Roundup]
 last_modified_at: 2026-11-04
 lang: en

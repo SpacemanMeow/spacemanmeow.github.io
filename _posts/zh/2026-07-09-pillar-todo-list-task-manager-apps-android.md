@@ -3,7 +3,8 @@ date: 2026-07-09 09:00:00 +0800
 title: "最佳安卓待办清单与任务管理应用（2026）"
 description: "2026 年最佳安卓待办清单与任务管理软件推荐：待办清单 app 哪个好？该看什么（待办清单日历视图、待办清单子任务、离线待办、提醒、同步），以及 Meow Todo List 与 Todoist、TickTick 的对比。"
 layout: guide
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/pillar-todo-list-task-manager-apps-android.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 tags: [To-Do List, Android, Meow Todo, App Roundup]
 last_modified_at: 2026-11-04
 lang: zh

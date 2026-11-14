@@ -8,7 +8,8 @@ lang: en
 author: author_meow_id
 last_modified_at: 2026-11-05
 description: "Meow Habits user guide: build streaks, log daily check-ins, set reminders, review trends in this cute habit tracker, and export CSV or back up via WebDav."
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/tutorial-meow-habits.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 ---
 
 ## Table of Contents

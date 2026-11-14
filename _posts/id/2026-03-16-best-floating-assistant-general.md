@@ -4,7 +4,8 @@ title: "Floating Assistant: Tombol Melayang yang Mengerjakan Tugas"
 description: "Aplikasi asisten melayang android terbaik 2026: Floating Assistant vs Assistive Touch soal bola tepi, pintasan kustom, gestur, dan pakai satu tangan."
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/best-floating-assistant-general.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: id
 last_modified_at: 2026-11-07
 ---

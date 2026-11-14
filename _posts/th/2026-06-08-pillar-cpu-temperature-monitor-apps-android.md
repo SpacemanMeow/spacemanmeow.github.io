@@ -3,7 +3,8 @@ date: 2026-06-08 09:00:00 +0800
 title: "แอปตัวตรวจสอบอุณหภูมิ CPU ที่ดีที่สุดสำหรับ Android (2026)"
 description: "แอป CPU Monitor ที่ดีที่สุด Android 2026: สิ่งที่ต้องหา (อุณหภูมิเรียลไทม์ วิดเจ็ต การเตือนความร้อนเกิน) และเปรียบเทียบ CPU Monitor vs CPU-Z และ DevCheck"
 layout: guide
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/pillar-cpu-temperature-monitor-apps-android.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 tags: [CPU Monitor, อุณหภูมิ CPU, Android, App Roundup]
 last_modified_at: 2026-11-07
 lang: th

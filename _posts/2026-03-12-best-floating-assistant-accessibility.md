@@ -4,7 +4,8 @@ title: "Floating Assistant for Accessibility: One-Handed Control on a Big Phone"
 description: "Accessibility floating button 2026: Floating Assistant vs Assistive Touch on virtual keys, edge floating ball with gestures, large targets and price."
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Best Apps]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/best-floating-assistant-accessibility.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

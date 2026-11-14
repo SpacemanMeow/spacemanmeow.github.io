@@ -36,6 +36,15 @@ layout: default
           <span class="meta-lang">{{ page.lang | upcase }}</span>
           {%- endif %}
         </div>
+        {%- comment -%} 封面图：与列表卡同一张 2400x1200 原图，按 slug 约定取，多语言共用 {%- endcomment -%}
+        {%- assign post_cover = page.cover | default: '' -%}
+        {%- if post_cover == '' -%}
+        {%- assign post_cover = page.path | split: '/' | last | split: '.' | first | slice: 11, 200 -%}
+        {%- assign post_cover = '/assets/images/covers/' | append: post_cover | append: '.webp' -%}
+        {%- endif -%}
+        <figure class="post-cover">
+          <img src="{{ post_cover | relative_url }}" alt="{{ page.title }}" width="2400" height="1200" fetchpriority="high">
+        </figure>
       </header>
     </div>
   </div>

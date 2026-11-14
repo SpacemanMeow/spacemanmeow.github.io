@@ -3,7 +3,8 @@ date: 2026-07-13 09:00:00 +0800
 title: "Aplikasi White Noise & Fokus Terbaik untuk Android (2026)"
 description: "Panduan aplikasi white noise Android 2026: apa yang dicari (pengatur waktu tidur, putar offline, pencampuran suara) dan bandingan Meow FM dengan Calm."
 layout: guide
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/pillar-white-noise-focus-apps-android.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 tags: [White Noise, Android, Meow FM, App Roundup]
 last_modified_at: 2026-11-06
 lang: id

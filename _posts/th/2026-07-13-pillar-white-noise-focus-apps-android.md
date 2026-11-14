@@ -4,7 +4,8 @@ title: "แอปไวต์นอยส์และโฟกัสที่ด
 description: "คู่มือแอปไวต์นอยส์ Android 2026: สิ่งที่ต้องหา (ตัวจับเวลานอน เล่นออฟไลน์ การผสมเสียง) และเปรียบเทียบ Meow FM กับ Calm"
 layout: guide
 tags: [White Noise, Android, Meow FM, App Roundup]
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/pillar-white-noise-focus-apps-android.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

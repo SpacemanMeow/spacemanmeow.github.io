@@ -4,7 +4,8 @@ title: "Meow Mood vs Day One: Which Journaling App Fits You?"
 description: "Meow Mood vs Day One 2026: a private mood tracker with one-tap check-ins versus a feature-rich life journal with cloud sync. Price, privacy, export and verdict."
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Comparison, Day One]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/vs-meow-mood-and-day-one.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

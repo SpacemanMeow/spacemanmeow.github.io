@@ -4,7 +4,8 @@ title: "Floating Assistant vs Assistive Touch: Which Overlay Tool?"
 description: "Best Assistive Touch alternative android 2026: Floating Assistant vs Easy Touch on edge ball, gestures, extras, price and a verdict per need."
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Comparison]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/vs-floating-assistant-and-assistive-touch.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

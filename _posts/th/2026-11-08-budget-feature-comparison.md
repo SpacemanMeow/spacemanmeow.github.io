@@ -4,7 +4,8 @@ title: "ความจริงแล้วฟีเจอร์งบประ
 description: "เจาะลึกฟีเจอร์งบประมาณ 7 แอป: YNAB, Monarch, Goodbudget, EveryDollar, PocketGuard, Wallet, Meow Money Manager — วัตถุ, รอบระยะ, rollover, งบรายวัน."
 layout: guide
 tags: [Meow Money, Budget, Expense Tracker, Comparison, Android]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/budget-feature-comparison.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: th
 last_modified_at: 2026-11-08
 ---

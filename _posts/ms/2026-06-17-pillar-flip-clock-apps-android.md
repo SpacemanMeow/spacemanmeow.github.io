@@ -3,7 +3,8 @@ date: 2026-06-17 09:00:00 +0800
 title: "Aplikasi Jam Flip Terbaik untuk Android (2026)"
 description: "Aplikasi jam flip terbaik Android 2026: mode skrin penuh, widget, jam samping tempat tidur, tetapan fokus, dan bandingan Only Clock vs Retroflip."
 layout: guide
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/pillar-flip-clock-apps-android.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 tags: [Flip Clock, Android, Only Clock, App Roundup]
 last_modified_at: 2026-11-07
 lang: ms

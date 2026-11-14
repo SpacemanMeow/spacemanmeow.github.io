@@ -4,7 +4,8 @@ title: "One Widget 与 Material You：贴合你壁纸的小组件"
 description: "2026 年 Material You 小组件对比：One Widget 与 KWGT 在动态配色、主题匹配、安卓时钟小组件 app 与价格上的差别。"
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Best Apps]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/best-one-widget-material-you.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

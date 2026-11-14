@@ -8,7 +8,8 @@ lang: th
 author: author_meow_id
 last_modified_at: 2026-11-07
 description: "คู่มือผู้ใช้ One Widget: วางวิดเจ็ตหน้าจอหลัก 500+ ในสี่สไตล์ ปรับขนาดและความโปร่งแสง เพิ่มสวิตช์ด่วนและทางลัดแอป"
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/tutorial-one-widget.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 ---
 
 ## สารบัญ

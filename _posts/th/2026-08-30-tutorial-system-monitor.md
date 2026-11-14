@@ -8,7 +8,8 @@ lang: th
 author: author_meow_id
 last_modified_at: 2026-11-07
 description: "คู่มือผู้ใช้ System Monitor: ข้อมูลฮาร์ดแวร์อ่านอย่างเดียว อุณหภูมิ CPU สุขภาพแบตเตอรี่ การเตือนความร้อนเกิน หน้าต่างลอย และวิดเจ็ตหน้าจอหลักเรียลไทม์"
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/tutorial-system-monitor.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 ---
 
 ## สารบัญ

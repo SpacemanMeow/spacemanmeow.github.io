@@ -4,7 +4,8 @@ title: "Meow Todo vs Todoist: แอป To-Do List ตัวไหนที่�
 description: "เปรียบเทียบ Meow Todo vs Todoist 2026: แอป to-do ส่วนตัวพร้อม subtask ฟรี ปฏิทิน และส่งออก CSV เทียบกับการร่วมมือทีม ราคาและบทสรุป"
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Comparison, Todoist]
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/vs-meow-todo-and-todoist.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

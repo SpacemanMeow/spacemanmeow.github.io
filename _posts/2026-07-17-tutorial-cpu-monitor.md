@@ -8,7 +8,8 @@ lang: en
 author: author_meow_id
 last_modified_at: 2026-11-05
 description: "CPU Monitor user guide: real-time cpu temperature, floating window, overheat alarm, history curves, home-screen widgets and read-only sensor readings."
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/tutorial-cpu-monitor.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 ---
 
 ## Table of Contents

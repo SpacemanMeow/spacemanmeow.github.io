@@ -3,7 +3,8 @@ date: 2026-05-30 09:00:00 +0800
 title: "Aplikasi Widget Layar Utama Android Terbaik (2026)"
 description: "Aplikasi widget Android terbaik 2026: apa yang harus dicari (gaya, kustomisasi, quick toggle) serta bandingan One Widget dengan KWGT."
 layout: guide
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/pillar-android-home-screen-widget-apps.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 tags: [Home Screen Widgets, KWGT, One Widget, App Roundup]
 last_modified_at: 2026-11-07
 lang: id

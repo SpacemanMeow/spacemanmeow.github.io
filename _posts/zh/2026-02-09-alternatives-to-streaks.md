@@ -4,7 +4,8 @@ title: "2026 年最佳 Streaks 替代应用"
 description: "正在寻找 2026 年 Streaks 的替代应用？我们从平台、价格、统计与隐私对比六款习惯打卡应用，说明每款适合谁，并附核心能力对比表与迁移清单。"
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Alternatives]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/alternatives-to-streaks.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

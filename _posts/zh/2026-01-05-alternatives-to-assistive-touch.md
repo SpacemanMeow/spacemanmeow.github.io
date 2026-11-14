@@ -4,7 +4,8 @@ title: "2026 年最佳 Assistive Touch 安卓替代应用"
 description: "2026 年最佳 Assistive Touch 替代品对比：Floating Assistant、Easy Touch、Button Mapper 等六款，按虚拟按键、手势、权限与价格挑选悬浮助手。"
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Alternatives]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/alternatives-to-assistive-touch.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

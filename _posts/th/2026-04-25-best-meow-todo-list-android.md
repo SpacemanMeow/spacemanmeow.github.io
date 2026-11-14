@@ -4,7 +4,8 @@ title: "Meow Todo สำหรับ Android: รายการสิ่งท�
 description: "แอปจัดการงาน Android ที่ดีที่สุด 2026: Meow Todo เทียบกับ Todoist, Microsoft To Do และ Google Tasks ในด้านความเป็นส่วนตัวในเครื่อง ออฟไลน์ การเตือน และราคา"
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Best Apps]
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/best-meow-todo-list-android.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

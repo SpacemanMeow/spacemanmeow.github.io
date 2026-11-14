@@ -4,7 +4,8 @@ title: "Aplikasi Catatan Keuangan Android Terbaik 2026: Budget Harian, Privat, t
 description: "Cari aplikasi catatan keuangan Android terbaik 2026? Bandingkan Meow Money Manager, DuitKu, dan Monefy soal offline, budget per kategori, dan Rupiah."
 layout: guide
 tags: [Meow Money, Expense Tracker, Android, Best Apps, Budget App]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/best-meow-money-manager-android.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: id
 ---
 

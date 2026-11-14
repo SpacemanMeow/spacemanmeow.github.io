@@ -4,7 +4,8 @@ title: "Meow Todo untuk Android: Daftar Tugasan yang Tetap Ada di Telefon pintar
 description: "Aplikasi task manager Android terbaik 2026: Meow Todo vs Todoist, Microsoft To Do, dan Google Tasks tentang privasi lokal, offline, peringatan, dan harga."
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Best Apps]
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/best-meow-todo-list-android.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: ms
 last_modified_at: 2026-11-06
 ---

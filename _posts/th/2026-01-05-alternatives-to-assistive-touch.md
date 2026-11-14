@@ -4,7 +4,8 @@ title: "ทางเลือก Assistive Touch ที่ดีที่สุ�
 description: "เปรียบเทียบทางเลือก assistive touch android ที่ดีที่สุด 2026: Floating Assistant Easy Touch Button Mapper และอื่นๆ ว่าด้วยปุ่ม ท่าทาง ความเป็นส่วนตัว และราคา"
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, ทางเลือก]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/alternatives-to-assistive-touch.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

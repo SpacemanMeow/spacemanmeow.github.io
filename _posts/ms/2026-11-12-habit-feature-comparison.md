@@ -4,7 +4,8 @@ title: "Sebenarnya Apa yang Direkod oleh Aplikasi Tabiat? Bedah Mendalam 7 Aplik
 description: "Bandingkan 7 aplikasi penjejak tabiat: unit rekod, model tempoh, peraturan streak, hari dilangkau dan pemilikan data, serta nilai sebenarnya."
 layout: guide
 tags: [Meow Habits, Habit Tracker, Habit Streak, Comparison, Android]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/habit-feature-comparison.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: ms
 last_modified_at: 2026-11-12
 ---

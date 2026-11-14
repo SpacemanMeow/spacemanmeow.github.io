@@ -4,7 +4,8 @@ title: "Crosshair Aim untuk Game FPS: Overlay Bidik Silang yang Tetap di Tempat"
 description: "Aplikasi bidik silang terbaik Android 2026: Crosshair Aim vs Crosshair Hero untuk PUBG/COD Mobile. Overlay FPS, pengatur saat main, tanpa root, gratis."
 layout: guide
 tags: [Crosshair Aim, Bidik Silang, Android, Aplikasi Terbaik]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/best-cross-hair-fps.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: id
 last_modified_at: 2026-11-05
 ---

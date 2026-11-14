@@ -4,7 +4,8 @@ title: "Crosshair Aim sebagai Overlay Tersuai: Retikel Anda di Skrin Mana Pun"
 description: "Aplikasi overlay bidik silang terbaik 2026: Crosshair Aim vs Crosshair Hero Android — import PNG, ketelusan, posisi per aplikasi, tanpa root, percuma."
 layout: guide
 tags: [Crosshair Aim, Bidik Silang, Android, Aplikasi Terbaik]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/best-cross-hair-overlay.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: ms
 last_modified_at: 2026-11-05
 ---

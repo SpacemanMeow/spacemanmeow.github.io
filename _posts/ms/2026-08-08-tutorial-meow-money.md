@@ -3,11 +3,12 @@ layout: post
 title: "Panduan Penggunaan Resmi Meow Money Manager"
 date: 2026-08-08 09:00:00 +0800
 categories: [Tutorial]
-tags: [Expense Tracker]
+tags: [Meow Money, Expense Tracker]
 lang: ms
 author: author_meow_id
 description: "Panduan lengkap Meow Money Manager 2026: pencatatan, bajet, buku kas multi mata wang, tuntutan balik, dan eksport CSV."
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/tutorial-meow-money.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 ---
 
 ## Kandungan

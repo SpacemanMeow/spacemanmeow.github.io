@@ -4,7 +4,8 @@ title: "把 Crosshair Aim 当作自定义叠层：任意屏幕上的专属准星
 description: "2026 年最佳准星叠层应用：Crosshair Aim 与 Crosshair Hero 作为安卓自定义准星叠层对比——PNG 导入、透明度、按应用记忆位置、免 root、免费。"
 layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Best Apps]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/best-cross-hair-overlay.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

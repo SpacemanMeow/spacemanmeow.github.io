@@ -4,7 +4,8 @@ title: "System Monitor：无冗余的实时设备数据"
 description: "2026 年安卓系统监控清理加速与最好的手机清理 app 安卓对比：System Monitor 与 CCleaner 在实时状态、只读监控与价格上的差别。"
 layout: guide
 tags: [System Monitor, RAM Booster, Android, Best Apps]
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/best-system-monitor-monitor.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

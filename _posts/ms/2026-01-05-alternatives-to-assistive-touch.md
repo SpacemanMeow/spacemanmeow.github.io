@@ -4,7 +4,8 @@ title: "Alternatif Assistive Touch Terbaik untuk Android di 2026"
 description: "Bandingkan alternatif Assistive Touch android terbaik 2026: Floating Assistant, Easy Touch, Button Mapper, dan lain-lain, tentang butang, gerak isyarat…"
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Alternatives]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/alternatives-to-assistive-touch.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: ms
 last_modified_at: 2026-11-07
 ---

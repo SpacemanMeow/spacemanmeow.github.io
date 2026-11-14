@@ -4,7 +4,8 @@ title: "2026 年最佳 Retroflip 替代应用"
 description: "2026 年翻页时钟哪个好？六款 Retroflip 替代应用在主题、白噪音、悬浮时钟与小组件上的对比，说明每款适合谁并附迁移清单。"
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Alternatives, Retroflip]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/alternatives-to-retroflip.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

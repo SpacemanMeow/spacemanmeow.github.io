@@ -4,7 +4,8 @@ title: "Meow FM vs Calm: แอปเสียงนอนอันไหนท�
 description: "Meow FM vs Calm 2026: เครื่องเล่นไวต์นอยส์น่ารักพร้อมตัวจับเวลานอน เทียบสมาชิกสมาธิและนอนครบวงจร ราคา เสียง การใช้ออฟไลน์ และบทสรุป"
 layout: guide
 tags: [Meow FM, White Noise, Android, Comparison, Calm]
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/vs-meow-fm-and-calm.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

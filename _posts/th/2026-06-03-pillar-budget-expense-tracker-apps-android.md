@@ -4,7 +4,8 @@ title: "แอปบันทึกการเงินและงบประ
 description: "คู่มือแอปบันทึกการเงินและตัวติดตามค่าใช้จ่าย Android 2026: จัดงบประมาณรายเดือน งบต่อหมวด ออฟไลน์ไม่ต้องสมัครบัญชี รูเปียห์ และส่งออก CSV"
 layout: guide
 tags: [Meow Money, Expense Tracker, Budget App, Android, Pillar]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/pillar-budget-expense-tracker-apps-android.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

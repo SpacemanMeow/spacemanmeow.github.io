@@ -3,11 +3,12 @@ layout: post
 title: "Meow Money Manager Official Detailed User Guide"
 date: 2026-08-08 09:00:00 +0800
 categories: [Tutorial]
-tags: [Expense Tracker]
+tags: [Meow Money, Expense Tracker]
 lang: en
 author: author_meow_id
 description: "A complete Meow Money Manager guide for 2026: bookkeeping, budgets, multi-currency ledgers, reimbursements and CSV export in this cat-themed expense tracker."
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/tutorial-meow-money.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 ---
 
 ## Table of Contents

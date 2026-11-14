@@ -4,7 +4,8 @@ title: "Meow Mood vs Day One：哪款日记应用适合你？"
 description: "2026 年 Meow Mood 与 Day One 对比：私密、一键情绪记录的心情日记对阵带照片、音频与云同步的生活日记。价格、隐私与按需结论。"
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Comparison, Day One]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/vs-meow-mood-and-day-one.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

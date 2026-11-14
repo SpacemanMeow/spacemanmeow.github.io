@@ -4,7 +4,8 @@ title: "CPU Monitor สำหรับอุณหภูมิโทรศัพ
 description: "แอปอุณหภูมิโทรศัพท์ 2026: CPU Monitor เทียบ CPU-Z ด้านการตรวจสอบอุณหภูมิแบตเตอรี่ วิดเจ็ต CPU RAM แบตเตอรี่ Android การเตือนความร้อนเกิน และคำแนะนำอุปกรณ์"
 layout: guide
 tags: [CPU Monitor, อุณหภูมิ CPU, Android, Best Apps]
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/best-cpu-monitor-phone-temp.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

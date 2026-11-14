@@ -4,7 +4,8 @@ title: "แอปติดตามนิสัยบันทึกอะไร
 description: "เปรียบเทียบ 7 แอปติดตามนิสัย: หน่วยบันทึก รอบระยะ กฎสตรีค วันที่ข้าม และความเป็นเจ้าของข้อมูล พร้อมประโยชน์ที่แท้จริง"
 layout: guide
 tags: [Meow Habits, Habit Tracker, Habit Streak, Comparison, Android]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/habit-feature-comparison.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: th
 last_modified_at: 2026-11-12
 ---

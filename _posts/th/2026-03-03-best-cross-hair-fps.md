@@ -4,7 +4,8 @@ title: "Crosshair Aim สำหรับเกม FPS: โอเวอร์เ�
 description: "แอปครอสแฮร์ Android ที่ดีที่สุด 2026: Crosshair Aim vs Crosshair Hero สำหรับ PUBG/COD Mobile โอเวอร์เลย์ FPS ตัวตั้งค่าขณะเล่น โดยไม่รูท ฟรี"
 layout: guide
 tags: [Crosshair Aim, ครอสแฮร์, Android, แอปที่ดีที่สุด]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/best-cross-hair-fps.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

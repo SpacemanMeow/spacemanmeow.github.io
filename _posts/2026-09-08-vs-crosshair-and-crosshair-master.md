@@ -4,7 +4,8 @@ title: "Crosshair vs Crosshair Hero: Which Overlay Reticle?"
 description: "Crosshair Aim vs Crosshair Hero in 2026: an FPS overlay with in-game floating adjuster versus a popular crosshair app. Features, price and verdict per need."
 layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Comparison, Crosshair Hero]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/vs-crosshair-and-crosshair-master.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

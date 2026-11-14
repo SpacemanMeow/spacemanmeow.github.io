@@ -3,7 +3,8 @@ date: 2026-06-12 09:00:00 +0800
 title: "最佳安卓 FPS 游戏准星应用（2026）"
 description: "2026 年最佳准星 app 安卓推荐：最佳准星叠层应用（PUBG Mobile、COD Mobile）该看什么（样式、自定义、免root），以及 Crosshair Aim 与 Crosshair Hero 的对比。"
 layout: guide
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/pillar-crosshair-apps-fps-android.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 tags: [Crosshair, Android, Crosshair Aim, App Roundup]
 last_modified_at: 2026-11-05
 lang: zh

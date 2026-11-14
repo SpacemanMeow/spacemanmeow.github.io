@@ -113,6 +113,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+# 社交分享卡片：文章页 image 已指向 1920x1080 cover 头图，
+# 用大图卡片展示（jekyll-seo-tag 读取 site.twitter.card）
+twitter:
+  card: summary_large_image
+
 feed:
   path: feed.xml
 

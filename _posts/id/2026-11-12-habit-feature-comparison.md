@@ -4,7 +4,8 @@ title: "Sebenarnya Apa yang Dicatat Aplikasi Kebiasaan? Bedah Mendalam 7 Aplikas
 description: "Bandingkan 7 aplikasi habit tracker: satuan catatan, model periode, aturan streak, hari yang dilewati dan kepemilikan data, plus manfaat nyatanya."
 layout: guide
 tags: [Meow Habits, Habit Tracker, Habit Streak, Comparison, Android]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/habit-feature-comparison.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: id
 last_modified_at: 2026-11-12
 ---

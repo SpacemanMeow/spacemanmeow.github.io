@@ -4,7 +4,8 @@ title: "记账应用的预算功能到底差在哪？7 款主流产品深度对�
 description: "从预算对象、周期、结转语义、非月度支出摊分到剩余日均计算，深度对比 YNAB、Monarch、Goodbudget、EveryDollar、PocketGuard、Wallet 与 Meow Money Manager 的预算机制。"
 layout: guide
 tags: [Meow Money, Budget, Expense Tracker, Comparison, Android]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/budget-feature-comparison.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: zh
 last_modified_at: 2026-11-08
 ---

@@ -4,7 +4,8 @@ title: "Meow Money Manager untuk Mahasiswa: Catat Perbelanjaan di Sela Kuliah"
 description: "Aplikasi catatan kewangan mahasiswa: Meow Money Manager vs YNAB, Goodbudget, EveryDollar — percuma, tanpa akaun, multi mata wang, tuntutan balik, harga 2026."
 layout: guide
 tags: [Meow Money, Expense Tracker, Android, Best Apps]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/best-meow-money-manager-students.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: ms
 ---
 

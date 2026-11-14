@@ -4,7 +4,8 @@ title: "2026 年最佳 Crosshair Hero 替代应用"
 description: "2026 年想找 Crosshair Hero 的替代品？我们对比六款免 Root 的准星叠加层应用，从样式、自定义、游戏内调节器到价格，附能力对比表与按需选购指南。"
 layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Alternatives, Crosshair Hero]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/alternatives-to-crosshair-master.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

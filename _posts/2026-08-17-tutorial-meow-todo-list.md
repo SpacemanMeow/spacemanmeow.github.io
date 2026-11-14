@@ -8,7 +8,8 @@ lang: en
 last_modified_at: 2026-11-05
 author: author_meow_id
 description: "A complete Meow Todo List guide: tasks, subtasks, reminders, calendar view and CSV export in this cute offline task manager. No account, free to start."
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/tutorial-meow-todo-list.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 ---
 
 ## Table of Contents

@@ -8,7 +8,8 @@ lang: en
 author: author_meow_id
 last_modified_at: 2026-11-05
 description: "Meow FM user guide: play cat white noise app soundscapes, set a sleep timer, mix rain and brown noise, and keep playing offline with the screen off."
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/tutorial-meow-fm.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 ---
 
 ## Table of Contents

@@ -4,7 +4,8 @@ title: "ทางเลือก Calm ที่ดีที่สุดใน 20
 description: "ทางเลือก Calm 2026: หกแอปนอนและไวต์นอยส์เปรียบเทียบด้านคลังเสียง การผสม ตัวจับเวลา สมาธิ และราคา"
 layout: guide
 tags: [Meow FM, White Noise, Android, Alternatives, Calm]
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/alternatives-to-calm.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

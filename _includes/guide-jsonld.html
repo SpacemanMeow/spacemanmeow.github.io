@@ -10,6 +10,7 @@
     "name": {{ site.title | jsonify }},
     "logo": { "@type": "ImageObject", "url": "{{ site.url }}{{ site.avatar | relative_url }}" }
   },
+  "image": [{{ page.image | absolute_url | jsonify }}],
   "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ site.url }}{{ page.url }}" }
 }
 </script>

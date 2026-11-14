@@ -4,7 +4,8 @@ title: "Best WidgetSmith Alternatives (Including Android)"
 description: "WidgetSmith alternatives 2026: six widget apps compared on ready presets, custom editors, live system data and price, with a pick-by-need guide."
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Alternatives, Widgetsmith]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/alternatives-to-widgetsmith.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

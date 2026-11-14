@@ -47,7 +47,7 @@ layout: default
       </div>
     </section>
     {% endif %}
-    {%- assign guides = site.posts | where_exp: "post", "post.image == page.icon" -%}
+    {%- assign guides = site.posts | where_exp: "post", "post.app_icon == page.icon" -%}
     {% if guides.size > 0 %}
     <section class="app-guides" aria-label="Guides and tutorials">
       <h2 class="app-guides__title">{{ site.data.ui[site.lang].guides_title }}</h2>

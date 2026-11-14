@@ -4,7 +4,8 @@ title: "Meow Habits vs Streaks: Aplikasi Pelacak Kebiasaan Mana yang Menang?"
 description: "Meow Habits vs Streaks 2026: aplikasi habit tracker inti gratis lintas platform, alternatif Streaks vs pelacakan minimalis khusus iOS. Harga, privasi, ekspor."
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Comparison]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/vs-meow-habits-and-streaks.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: id
 last_modified_at: 2026-11-06
 ---

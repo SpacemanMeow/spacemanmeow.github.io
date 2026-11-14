@@ -4,7 +4,8 @@ title: "Only Clock vs Flip Clock: Aplikasi Jam Flip Mana?"
 description: "Alternatif Jam Retroflip Terbaik 2026: Only Clock vs aplikasi jam flip percuma tentang tema, white noise, mode terapung, iklan, dan verdict per penggunaan."
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Comparison, Retroflip]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/vs-only-clock-and-retroflip.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: ms
 last_modified_at: 2026-11-07
 ---

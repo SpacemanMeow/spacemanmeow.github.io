@@ -4,7 +4,8 @@ title: "Floating Assistant vs Assistive Touch: โอเวอร์เลย์
 description: "ทางเลือก Assistive Touch android ที่ดีที่สุด 2026: Floating Assistant vs Assistive Touch ด้านลูกบอลขอบจอ ท่าทาง ส่วนเพิ่มเติม ราคา และบทสรุปตามความต้องการ"
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Comparison]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/vs-floating-assistant-and-assistive-touch.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

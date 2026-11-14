@@ -4,7 +4,8 @@ title: "One Widget vs KWGT: Widget Kurasi atau Kendali Penuh?"
 description: "Alternatif KWGT terbaik Android 2026: One Widget vs KWGT soal 500+ preset jadi, builder dari nol, harga, dan verdict per pengguna."
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Comparison, KWGT]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/vs-one-widget-and-kwgt.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: id
 last_modified_at: 2026-11-07
 ---

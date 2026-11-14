@@ -4,7 +4,8 @@ title: "One Widget dan Material You: Widget yang Cocok dengan Wallpaper Anda"
 description: "Widget Material You 2026: One Widget vs KWGT soal warna dinamis, kecocokan tema, widget jam dan kalender, setelan, dan harga di Android 12+."
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Best Apps]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/best-one-widget-material-you.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: id
 last_modified_at: 2026-11-07
 ---

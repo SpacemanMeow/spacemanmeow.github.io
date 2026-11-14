@@ -3,7 +3,8 @@ date: 2026-06-21 09:00:00 +0800
 title: "Aplikasi Tombol Melayang Terbaik untuk Android (2026)"
 description: "Aplikasi tombol melayang terbaik android 2026: Floating Assistant vs Assistive Touch soal apa itu overlay, kapan dipakai, dan cara memilih."
 layout: guide
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/pillar-floating-assistant-apps-android.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 tags: [Floating Assistant, Assistive Touch, Android, App Roundup]
 last_modified_at: 2026-11-07
 lang: id

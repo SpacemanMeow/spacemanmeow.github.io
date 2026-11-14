@@ -4,7 +4,8 @@ title: "Only Clock untuk Meja Samping: Telefon pintar Sandaran sebagai Jam Tempa
 description: "Aplikasi jam samping tempat tidur 2026: Only Clock vs Flip Clock tentang tema redup, selalu-menyala, white noise, dan keselamatan burn-in OLED."
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Best Apps]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/best-only-clock-nightstand.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: ms
 last_modified_at: 2026-11-07
 ---

@@ -4,7 +4,8 @@ title: "System Monitor สำหรับ RAM: ดูว่าหน่วยค
 description: "Ram booster หนึ่งแตะหรือข้อมูล RAM สุจริต? System Monitor vs CCleaner 2026 ด้านรายละเอียดหน่วยความจำ รายการกระบวนการ บริบทพื้นที่จัดเก็บ และราคา"
 layout: guide
 tags: [System Monitor, RAM Booster, Android, Best Apps]
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/best-system-monitor-ram.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

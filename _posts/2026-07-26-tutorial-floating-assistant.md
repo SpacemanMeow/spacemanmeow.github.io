@@ -8,7 +8,8 @@ lang: en
 author: author_meow_id
 last_modified_at: 2026-11-05
 description: "Floating Assistant user guide: edge-docked floating ball, custom shortcuts, system toggles, one-handed control and clear permissions, no root."
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/tutorial-floating-assistant.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 ---
 
 ## Table of Contents

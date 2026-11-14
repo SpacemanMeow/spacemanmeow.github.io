@@ -4,7 +4,8 @@ title: "Meow Mood: Buku Harian Mood yang Pas di Sela Jadual Padat"
 description: "Aplikasi buku harian digital terbaik 2026: Meow Mood vs Day One, Journey, Daylio dan Grid Diary tentang catatan cepat, trend, privasi dan harga."
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Best Apps]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/best-meow-mood-diary-diary.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: ms
 last_modified_at: 2026-11-06
 ---

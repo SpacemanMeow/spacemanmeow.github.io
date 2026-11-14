@@ -4,7 +4,8 @@ title: "Alternatif CPU-Z Terbaik untuk Android di 2026"
 description: "Alternatif CPU-Z 2026: enam aplikasi hardware dan info sistem dibandingkan soal suhu langsung, jendela melayang, widget, dan harga."
 layout: guide
 tags: [CPU Monitor, CPU Temperature, Android, Alternatives, CPU-Z]
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/alternatives-to-cpu-z.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 lang: id
 last_modified_at: 2026-11-07
 ---

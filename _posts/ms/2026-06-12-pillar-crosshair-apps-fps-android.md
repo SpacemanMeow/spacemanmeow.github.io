@@ -3,7 +3,8 @@ date: 2026-06-12 09:00:00 +0800
 title: "Aplikasi Bidik Silang Terbaik untuk Game FPS di Android (2026)"
 description: "Aplikasi bidik silang terbaik Android 2026: overlay FPS untuk PUBG/COD Mobile — gaya, pelarasan, tanpa root — dan Crosshair Aim vs Hero."
 layout: guide
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/pillar-crosshair-apps-fps-android.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 tags: [Bidik Silang, Android, Crosshair Aim, Kumpulan Aplikasi]
 last_modified_at: 2026-11-05
 lang: ms

@@ -4,7 +4,8 @@ title: "Meow Mood: ไดอารี่ส่วนตัวที่คงอ�
 description: "แอปไดอารี่ส่วนตัว 2026: Meow Mood เทียบกับ Day One, Daylio, Apple Journal และ Penzu ด้านการเก็บในเครื่อง ล็อก ออฟไลน์ และส่งออก ไม่ต้องบัญชี"
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Best Apps]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/best-meow-mood-diary-private.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

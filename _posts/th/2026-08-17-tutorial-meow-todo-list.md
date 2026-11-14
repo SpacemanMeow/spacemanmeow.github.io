@@ -7,7 +7,8 @@ tags: [To-Do List, Android, Meow Todo]
 lang: th
 author: author_meow_id
 description: "คู่มือฉบับสมบูรณ์ Meow Todo List: รายการสิ่งที่ต้องทำ งานย่อย การเตือน ปฏิทิน และส่งออก CSV ในแอป to-do ออฟไลน์ ไม่ต้องสมัครบัญชี ใช้งานฟรี"
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/tutorial-meow-todo-list.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 ---
 
 

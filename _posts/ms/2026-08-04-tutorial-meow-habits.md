@@ -8,7 +8,8 @@ lang: ms
 author: author_meow_id
 last_modified_at: 2026-11-06
 description: "Panduan lengkap Meow Habits: cara membuat tabiat di aplikasi habit tracker, check-in harian, atur peringatan, eksport CSV dan WebDav. Tanpa akaun, offline."
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/tutorial-meow-habits.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 ---
 
 ## Kandungan

@@ -8,7 +8,8 @@ lang: th
 author: author_meow_id
 last_modified_at: 2026-11-07
 description: "คู่มือผู้ใช้ Floating Assistant: ลูกบอลลอยเกาะขอบจอ ทางลัดที่กำหนดเอง สวิตช์ระบบ การควบคุมมือเดียว และสิทธิ์ชัดเจนโดยไม่รูท"
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/tutorial-floating-assistant.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 ---
 
 ## สารบัญ

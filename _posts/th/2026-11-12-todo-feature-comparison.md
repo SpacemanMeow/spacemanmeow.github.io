@@ -3,8 +3,9 @@ date: 2026-11-12 18:00:00 +0800
 title: "แอปรายการสิ่งที่ต้องทำไม่ใช่แค่ช่องติ๊ก: ห้าขั้นตอนของหนึ่งงานใน 7 แอป"
 description: "หนึ่งงาน ห้าขั้นตอน จด จัด ทำ เสร็จ ทบทวน อธิบายประโยชน์ของแอปรายการสิ่งที่ต้องทำ และ 7 แอปต่างกันตรงไหน"
 layout: guide
-tags: [Meow Todo List, To Do List, Task Manager, Comparison, Android]
-image: /assets/images/apps/meow-todo-list/icon.webp
+tags: [Meow Todo, To-Do List, Task Manager, Comparison, Android]
+image: /assets/images/covers/todo-feature-comparison.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: th
 last_modified_at: 2026-11-12
 ---

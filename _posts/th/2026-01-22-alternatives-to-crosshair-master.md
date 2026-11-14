@@ -4,7 +4,8 @@ title: "ทางเลือก Crosshair Hero ที่ดีที่สุ�
 description: "หาทางเลือก Crosshair Hero ใน 2026? เราเปรียบเทียบหกแอปโอเวอร์เลย์ครอสแฮร์โดยไม่รูทสำหรับเกม FPS: สไตล์ การปรับแต่ง ตัวตั้งค่า ราคา"
 layout: guide
 tags: [Crosshair Aim, ครอสแฮร์, Android, ทางเลือก, Crosshair Hero]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/alternatives-to-crosshair-master.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

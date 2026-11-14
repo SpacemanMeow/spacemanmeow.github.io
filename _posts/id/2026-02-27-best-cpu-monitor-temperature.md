@@ -4,7 +4,8 @@ title: "CPU Monitor: Awasi Suhu CPU Sebelum Throttling"
 description: "Aplikasi monitor suhu CPU terbaik android 2026: CPU Monitor vs CPU-Z soal suhu langsung, beban per-core, alarm overheat, riwayat, dan harga."
 layout: guide
 tags: [CPU Monitor, CPU Temperature, Android, Best Apps]
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/best-cpu-monitor-temperature.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 lang: id
 last_modified_at: 2026-11-07
 ---

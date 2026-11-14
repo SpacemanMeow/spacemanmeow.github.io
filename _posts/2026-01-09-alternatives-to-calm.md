@@ -4,7 +4,8 @@ title: "Best Calm Alternatives in 2026"
 description: "Calm alternatives 2026: six sleep and white-noise apps compared on sound libraries, mixing, timers, guided meditation and price, with a pick-by-need guide."
 layout: guide
 tags: [Meow FM, White Noise, Android, Alternatives, Calm]
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/alternatives-to-calm.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

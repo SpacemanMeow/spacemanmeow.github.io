@@ -4,7 +4,8 @@ title: "One Widget and Material You: Widgets That Match Your Wallpaper"
 description: "Material You widgets 2026: One Widget vs KWGT on dynamic color, theme matching, clock and calendar widgets, setup and price on Android 12+."
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Best Apps]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/best-one-widget-material-you.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

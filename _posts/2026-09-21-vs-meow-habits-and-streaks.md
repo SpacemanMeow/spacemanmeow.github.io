@@ -4,7 +4,8 @@ title: "Meow Habits vs Streaks: Which Habit Tracker Wins?"
 description: "Meow Habits vs Streaks 2026: a free-core, cross-platform cute habit tracker and Streaks alternative vs iOS-only minimal tracking. Price, privacy, export."
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Comparison]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/vs-meow-habits-and-streaks.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

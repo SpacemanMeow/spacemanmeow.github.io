@@ -8,7 +8,8 @@ lang: ms
 author: author_meow_id
 last_modified_at: 2026-11-07
 description: "Panduan pengguna One Widget: taruh 500+ widget skrin utama dalam empat gaya, atur ukuran dan ketelusan, tambah quick toggle dan shortcut aplikasi."
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/tutorial-one-widget.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 ---
 
 ## Kandungan

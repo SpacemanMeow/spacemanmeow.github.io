@@ -4,7 +4,8 @@ title: "Crosshair Aim ในฐานะโอเวอร์เลย์ที�
 description: "แอปโอเวอร์เลย์ครอสแฮร์ที่ดีที่สุด 2026: Crosshair Aim vs Crosshair Hero Android — นำเข้า PNG ความโปร่งใส ตำแหน่งต่อแอป โดยไม่รูท ฟรี"
 layout: guide
 tags: [Crosshair Aim, ครอสแฮร์, Android, แอปที่ดีที่สุด]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/best-cross-hair-overlay.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

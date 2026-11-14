@@ -4,7 +4,8 @@ title: "System Monitor: สถิตอุปกรณ์เรียลไท�
 description: "แอปทำความสะอาดโทรศัพท์ที่ดีที่สุด android 2026: System Monitor vs CCleaner ด้านสถิตอุปกรณ์เรียลไทม์ การตรวจสอบอ่านอย่างเดียว การทำความสะอาด และราคา"
 layout: guide
 tags: [System Monitor, RAM Booster, Android, Best Apps]
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/best-system-monitor-monitor.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

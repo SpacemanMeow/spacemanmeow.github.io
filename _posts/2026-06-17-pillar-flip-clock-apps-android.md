@@ -3,7 +3,8 @@ date: 2026-06-17 09:00:00 +0800
 title: "Best Flip Clock Apps for Android (2026)"
 description: "Best flip clock apps for Android 2026: full screen clock modes, widgets, nightstand use and focus timers, and how Only Clock compares to Retroflip."
 layout: guide
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/pillar-flip-clock-apps-android.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 tags: [Flip Clock, Android, Only Clock, App Roundup]
 last_modified_at: 2026-11-05
 lang: en

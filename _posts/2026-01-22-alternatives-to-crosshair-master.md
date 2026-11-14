@@ -4,7 +4,8 @@ title: "Best Crosshair Hero Alternatives in 2026"
 description: "Looking for Crosshair Hero alternatives in 2026? We compare six no-root crosshair overlay apps for FPS games on styles, customization, adjusters and price."
 layout: guide
 tags: [Crosshair Aim, Crosshair, Android, Alternatives, Crosshair Hero]
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/alternatives-to-crosshair-master.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

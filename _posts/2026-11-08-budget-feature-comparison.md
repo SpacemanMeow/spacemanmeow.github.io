@@ -4,7 +4,8 @@ title: "How Do Budget Features Actually Differ Across Apps? A Deep Dive into 7 L
 description: "How 7 budgeting apps differ: YNAB, Monarch, Goodbudget, EveryDollar, PocketGuard, Wallet and Meow Money Manager on object, period, rollover and daily remaining."
 layout: guide
 tags: [Meow Money, Budget, Expense Tracker, Comparison, Android]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/budget-feature-comparison.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: en
 last_modified_at: 2026-11-08
 ---

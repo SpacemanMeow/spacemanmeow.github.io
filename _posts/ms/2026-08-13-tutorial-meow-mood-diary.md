@@ -3,12 +3,13 @@ layout: post
 title: "Panduan Penggunaan Resmi Meow Mood Diary"
 date: 2026-08-13 09:00:00 +0800
 categories: [Tutorial]
-tags: [Mood Diary, Android, Meow Mood]
+tags: [Mood Diary, Android, Meow Mood Diary]
 lang: ms
 author: author_meow_id
 last_modified_at: 2026-11-06
 description: "Panduan Meow Mood Diary: catat mood satu ketik, jurnal peribadi offline, kalendar dan graf trend, kunci aplikasi, peringatan dan eksport. Tanpa akaun."
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/tutorial-meow-mood-diary.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 ---
 
 ## Kandungan

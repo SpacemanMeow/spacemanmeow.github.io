@@ -3,8 +3,9 @@ date: 2026-11-12 18:00:00 +0800
 title: "Aplikasi Daftar Tugas Bukan Sekadar Centang: Lima Tahap Satu Tugas di 7 Aplikasi"
 description: "Satu tugas, lima tahap: catat, atur, kerjakan, selesai, tinjau. Apa gunanya aplikasi daftar tugas, dan beda 7 aplikasi soal tanggal, tugas berulang, data."
 layout: guide
-tags: [Meow Todo List, To Do List, Task Manager, Comparison, Android]
-image: /assets/images/apps/meow-todo-list/icon.webp
+tags: [Meow Todo, To-Do List, Task Manager, Comparison, Android]
+image: /assets/images/covers/todo-feature-comparison.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: id
 last_modified_at: 2026-11-12
 ---

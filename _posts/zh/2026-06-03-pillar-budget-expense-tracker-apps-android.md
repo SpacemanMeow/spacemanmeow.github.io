@@ -3,7 +3,8 @@ date: 2026-06-03 09:00:00 +0800
 title: "最佳安卓记账与开销追踪应用（2026）"
 description: "2026 年最佳安卓记账与开销追踪应用：该看什么（隐私、本地存储、多币种、离线、小组件），以及 Meow Money Manager（喵窝记账）、YNAB、PocketGuard 的对比，并附 Mint 替代与教程指引。"
 layout: guide
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/pillar-budget-expense-tracker-apps-android.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 tags: [Expense Tracker, Android, Meow Money, App Roundup]
 last_modified_at: 2026-11-04
 lang: zh

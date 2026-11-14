@@ -3,7 +3,8 @@ date: 2026-07-04 09:00:00 +0800
 title: "แอป System Monitor และข้อมูลอุปกรณ์ที่ดีที่สุดสำหรับ Android (2026)"
 description: "แอป system monitor ที่ดีที่สุด android 2026: การตรวจจับฮาร์ดแวร์อ่านอย่างเดียว อุณหภูมิและสุขภาพแบตเตอรี่ และความต่างกับตัวทำความสะอาดโทรศัพท์"
 layout: guide
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/pillar-system-monitor-apps-android.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 tags: [System Monitor, RAM Booster, CPU Temperature, Android, App Roundup]
 last_modified_at: 2026-11-07
 lang: th

@@ -4,7 +4,8 @@ title: "Sebenarnya Apa Bedanya Fitur Anggaran Antar Aplikasi? Bedah Mendalam 7 A
 description: "Bedah fitur anggaran 7 aplikasi: YNAB, Monarch, Goodbudget, EveryDollar, PocketGuard, Wallet, Meow Money Manager — objek, periode, rollover, budget harian."
 layout: guide
 tags: [Meow Money, Budget, Expense Tracker, Comparison, Android]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/budget-feature-comparison.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: id
 last_modified_at: 2026-11-08
 ---

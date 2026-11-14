@@ -4,7 +4,8 @@ title: "Best Todoist Alternatives in 2026"
 description: "Best free Todoist alternative in 2026: seven to-do apps compared on free-tier limits, privacy and subtasks — Microsoft To Do, Meow Todo, TickTick and more."
 layout: guide
 tags: [Meow Todo, To-Do List, Android, Alternatives, Todoist]
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/alternatives-to-todoist.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

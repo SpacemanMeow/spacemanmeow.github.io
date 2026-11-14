@@ -4,7 +4,8 @@ title: "Meow Mood vs Day One: แอปไดอารี่ไหนเหม�
 description: "Meow Mood vs Day One 2026: ตัวติดตามอารมณ์ส่วนตัวที่เช็คอินแตะเดียว เทียบไดอารี่รูปภาพฟีเจอร์ครบที่ซิงค์คลาวด์ ราคา ความเป็นส่วนตัว ส่งออก และบทสรุป"
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Comparison, Day One]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/vs-meow-mood-and-day-one.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: th
 last_modified_at: 2026-11-06
 ---

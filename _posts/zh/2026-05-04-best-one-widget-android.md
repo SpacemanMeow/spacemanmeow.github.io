@@ -4,7 +4,8 @@ title: "One Widget：安卓上可爱、即放即用的小组件"
 description: "2026 年安卓桌面小组件哪个好？One Widget 与 KWGT 在现成组件、安卓自定义小组件 app、价格与离线使用上的对比。"
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Best Apps]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/best-one-widget-android.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

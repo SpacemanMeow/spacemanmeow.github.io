@@ -8,7 +8,8 @@ lang: th
 author: author_meow_id
 last_modified_at: 2026-11-06
 description: "คู่มือฉบับสมบูรณ์ Meow Habits: วิธีสร้างนิสัยในแอปติดตามนิสัย เช็คอินรายวัน ตั้งการเตือน ส่งออก CSV และ WebDav ไม่ต้องบัญชี ออฟไลน์"
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/tutorial-meow-habits.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 ---
 
 ## สารบัญ

@@ -4,7 +4,8 @@ title: "One Widget: Widget Lucu & Langsung Jadi untuk Android"
 description: "Aplikasi widget terbaik untuk Android 2026: One Widget vs KWGT soal preset jadi, gaya kustom, shortcut, harga, dan pakai offline."
 layout: guide
 tags: [One Widget, Home Screen Widgets, Android, Best Apps]
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/best-one-widget-android.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 lang: id
 last_modified_at: 2026-11-07
 ---

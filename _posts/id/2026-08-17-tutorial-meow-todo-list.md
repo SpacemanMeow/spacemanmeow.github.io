@@ -8,7 +8,8 @@ lang: id
 last_modified_at: 2026-11-06
 author: author_meow_id
 description: "Panduan lengkap Meow Todo List: daftar tugas, subtugas, pengingat, kalender, dan ekspor CSV di aplikasi to-do list offline. Tanpa akun, gratis dipakai."
-image: /assets/images/apps/meow-todo-list/icon.webp
+image: /assets/images/covers/tutorial-meow-todo-list.webp
+app_icon: /assets/images/apps/meow-todo-list/icon.webp
 ---
 
 ## Daftar Isi

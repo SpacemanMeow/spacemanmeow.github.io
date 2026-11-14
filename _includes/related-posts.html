@@ -8,7 +8,10 @@
 {%- assign current = page -%}
 {%- assign rel = "" | split: "" -%}
 {%- assign rel_urls = "" | split: "" -%}
+{%- comment -%} 泛标签跨品类共用，不参与相关文章匹配，避免混入其它 App 品类 {%- endcomment -%}
+{%- assign generic_tags = "Comparison|Android|Best Apps|App Roundup|Alternatives" | split: "|" -%}
 {%- for tag in current.tags -%}
+  {%- unless generic_tags contains tag -%}
   {%- assign tagged = site.posts | where: "tags", tag -%}
   {%- for p in tagged -%}
     {%- unless rel_urls contains p.url or p.url == current.url -%}
@@ -17,12 +20,13 @@
     {%- endunless -%}
     {%- if rel.size >= 4 %}{% break %}{% endif -%}
   {%- endfor -%}
+  {%- endunless -%}
   {%- if rel.size >= 4 %}{% break %}{% endif -%}
 {%- endfor -%}
 {%- assign app_collection = site[coll_apps] -%}
 {%- assign parent_app = nil -%}
 {%- for app in app_collection -%}
-  {%- if app.icon == current.image -%}{%- assign parent_app = app -%}{%- endif -%}
+  {%- if app.icon == current.app_icon -%}{%- assign parent_app = app -%}{%- endif -%}
 {%- endfor -%}
 {%- if rel.size > 0 -%}
   {%- assign heading = site.data.ui[lang].related_posts -%}

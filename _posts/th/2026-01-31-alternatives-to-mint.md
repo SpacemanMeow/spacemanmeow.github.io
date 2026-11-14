@@ -4,7 +4,8 @@ title: "ทางเลือก Mint ที่ดีที่สุด 2026 (�
 description: "Mint ปิดให้บริการ 2024 เปรียบเทียบทางเลือก Mint ที่ดีที่สุด 2026: แอปงบประมาณและบันทึกการเงินเจ็ดตัวรวม Meow Money Manager พร้อมตาราง"
 layout: guide
 tags: [Meow Money, Expense Tracker, Android, Alternatives, Mint]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/alternatives-to-mint.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: th
 ---
 

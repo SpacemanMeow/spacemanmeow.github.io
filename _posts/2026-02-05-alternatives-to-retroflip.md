@@ -4,7 +4,8 @@ title: "Best Retroflip Alternatives in 2026"
 description: "Retroflip alternatives 2026: six fullscreen flip-clock apps compared on themes, white noise, floating mode, widgets and platforms, with a pick-by-need guide."
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Alternatives, Retroflip]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/alternatives-to-retroflip.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

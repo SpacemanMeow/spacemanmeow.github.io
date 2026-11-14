@@ -4,7 +4,8 @@ title: "What Does a Habit App Actually Record? A Deep Dive into 7 Habit Trackers
 description: "What 7 habit apps really record — record units, period models, streak rules, skipped days and data ownership — and what habit tracking is actually good for."
 layout: guide
 tags: [Meow Habits, Habit Tracker, Habit Streak, Comparison, Android]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/habit-feature-comparison.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: en
 last_modified_at: 2026-11-12
 ---

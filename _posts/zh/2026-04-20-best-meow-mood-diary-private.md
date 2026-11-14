@@ -4,7 +4,8 @@ title: "Meow Mood：留在你设备上的私密日记"
 description: "2026 年心情日记隐私对比：Meow Mood 与 Day One、Daylio、Apple Journal、Penzu 在本机存储、应用锁、离线与导出上的差别，含心情日记不订阅之选。"
 layout: guide
 tags: [Meow Mood Diary, Mood Diary, Android, Best Apps]
-image: /assets/images/apps/meow-mood-diary/icon.webp
+image: /assets/images/covers/best-meow-mood-diary-private.webp
+app_icon: /assets/images/apps/meow-mood-diary/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

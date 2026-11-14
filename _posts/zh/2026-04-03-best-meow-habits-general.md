@@ -4,7 +4,8 @@ title: "Meow Habits：把坚持变得可爱的习惯追踪器"
 description: "2026 年习惯打卡应用推荐：Meow Habits 与 Streaks、Habitica、Loop 对比——免费习惯打卡、习惯打卡小部件、日历视图、离线与价格。"
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Best Apps]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/best-meow-habits-general.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

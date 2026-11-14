@@ -8,7 +8,8 @@ lang: zh
 last_modified_at: 2026-11-05
 author: author_meow_id
 description: "一份完整的 Crosshair 使用指南——为安卓 FPS 游戏添加自定义准星叠层：80+ 样式、缩放/颜色/位置，免 root，免费起步。"
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/tutorial-cross-hair.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 ---
 
 ## 目录

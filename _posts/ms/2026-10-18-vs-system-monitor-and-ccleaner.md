@@ -4,7 +4,8 @@ title: "System Monitor vs CCleaner: Monitor atau Cleaner?"
 description: "Alternatif CCleaner terbaik android 2026: System Monitor vs CCleaner tentang statik terus read-only, pembersihan junk, privasi, dan harga."
 layout: guide
 tags: [System Monitor, RAM Booster, Android, Comparison, CCleaner]
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/vs-system-monitor-and-ccleaner.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 lang: ms
 last_modified_at: 2026-11-07
 ---

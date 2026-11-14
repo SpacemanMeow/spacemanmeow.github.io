@@ -4,7 +4,8 @@ title: "Only Clock for the Nightstand: A Spare Phone as a Bedside Clock"
 description: "Nightstand / bedside clock app 2026: Only Clock vs Flip Clock on dim themes, always-on, white noise and OLED burn-in safety."
 layout: guide
 tags: [Only Clock, Flip Clock, Android, Best Apps]
-image: /assets/images/apps/only-clock/icon.webp
+image: /assets/images/covers/best-only-clock-nightstand.webp
+app_icon: /assets/images/apps/only-clock/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

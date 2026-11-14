@@ -4,7 +4,8 @@ title: "System Monitor 看内存：看清你的内存到底在做什么"
 description: "2026 年最好用的内存加速与内存加速一键清理安卓对比：System Monitor 与 CCleaner 在内存明细、进程列表与存储上下文上的差别。"
 layout: guide
 tags: [System Monitor, RAM Booster, Android, Best Apps]
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/best-system-monitor-ram.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

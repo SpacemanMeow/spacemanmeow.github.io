@@ -8,7 +8,8 @@ lang: zh
 author: author_meow_id
 last_modified_at: 2026-11-05
 description: "一份完整的 One Widget 使用指南——放入四种风格的 500+ 桌面小组件，配置尺寸与透明度，添加快捷开关与应用快捷方式。"
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/tutorial-one-widget.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 ---
 
 ## 目录

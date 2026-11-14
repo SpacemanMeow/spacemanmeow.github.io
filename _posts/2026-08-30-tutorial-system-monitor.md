@@ -8,7 +8,8 @@ lang: en
 author: author_meow_id
 last_modified_at: 2026-11-05
 description: "System Monitor user guide: read-only hardware info, CPU temp, battery health, overheat alarm, floating window and live home-screen widgets."
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/tutorial-system-monitor.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 ---
 
 ## Table of Contents

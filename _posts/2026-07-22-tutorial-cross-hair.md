@@ -8,7 +8,8 @@ lang: en
 last_modified_at: 2026-11-05
 author: author_meow_id
 description: "A complete Crosshair user guide — add a custom crosshair overlay to FPS games on Android: 80+ styles, scale/color/position, no root, free to start."
-image: /assets/images/apps/cross-hair/icon.webp
+image: /assets/images/covers/tutorial-cross-hair.webp
+app_icon: /assets/images/apps/cross-hair/icon.webp
 ---
 
 ## Table of Contents

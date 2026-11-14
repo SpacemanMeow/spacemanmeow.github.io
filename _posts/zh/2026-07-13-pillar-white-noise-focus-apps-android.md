@@ -3,7 +3,8 @@ date: 2026-07-13 09:00:00 +0800
 title: "最佳安卓白噪音与专注应用（2026）"
 description: "2026 年白噪音 app 推荐与白噪音安卓选购：看睡眠计时器、离线播放与混音，以及 Meow FM 与 Calm、Relax Melodies 的对比。"
 layout: guide
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/pillar-white-noise-focus-apps-android.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 tags: [White Noise, Android, Meow FM, App Roundup]
 last_modified_at: 2026-11-05
 lang: zh

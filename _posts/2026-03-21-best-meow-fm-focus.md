@@ -4,7 +4,8 @@ title: "Meow FM for Focus: White Noise That Blocks the Office"
 description: "Focus sounds apps 2026: Meow FM vs Calm, Noisli and Brain.fm on steady noise loops, timers, offline playback and price — free white noise for focus."
 layout: guide
 tags: [Meow FM, White Noise, Android, Best Apps]
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/best-meow-fm-focus.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

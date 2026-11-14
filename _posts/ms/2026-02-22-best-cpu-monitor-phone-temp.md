@@ -4,7 +4,8 @@ title: "CPU Monitor untuk Suhu Telefon pintar: Jaga Seluruh Peranti Tetap Dingin
 description: "Aplikasi suhu telefon pintar 2026: CPU Monitor vs CPU-Z tentang monitor suhu bateri, widget cpu ram bateri android, penggera overheat, dan syor seluruh peranti."
 layout: guide
 tags: [CPU Monitor, CPU Temperature, Android, Best Apps]
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/best-cpu-monitor-phone-temp.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 lang: ms
 last_modified_at: 2026-11-07
 ---

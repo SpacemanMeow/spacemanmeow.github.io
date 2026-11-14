@@ -4,7 +4,8 @@ title: "Floating Assistant vs Assistive Touch：哪款叠层工具？"
 description: "2026 年 Floating Assistant 与 Assistive Touch 对比：3 合 1 叠层对阵经典浮动球，回答辅助触控替代与 assistive touch 中文替代。"
 layout: guide
 tags: [Floating Assistant, Assistive Touch, Android, Comparison]
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/vs-floating-assistant-and-assistive-touch.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: zh
 last_modified_at: 2026-11-05
 ---

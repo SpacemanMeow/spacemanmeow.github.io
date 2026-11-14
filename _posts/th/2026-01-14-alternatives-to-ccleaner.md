@@ -4,7 +4,8 @@ title: "ทางเลือก CCleaner ที่ดีที่สุดส�
 description: "ทางเลือก CCleaner 2026: เปรียบเทียบแอปทำความสะอาดและตรวจสอบหกตัว ว่าด้วยการทำความสะอาดขยะ วิเคราะห์พื้นที่จัดเก็บ การอ่านเรียลไทม์ และราคา"
 layout: guide
 tags: [System Monitor, RAM Booster, Android, ทางเลือก, CCleaner]
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/alternatives-to-ccleaner.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

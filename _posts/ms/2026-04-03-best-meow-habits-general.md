@@ -4,7 +4,8 @@ title: "Meow Habits: Aplikasi Penjejak Tabiat yang Membuat Konsistensi Terasa Co
 description: "Aplikasi habit tracker terbaik Android 2026: Meow Habits vs Streaks, Habitica dan Loop — penjejak tabiat percuma dengan widget, peringatan, kalendar, offline."
 layout: guide
 tags: [Meow Habits, Habit Tracker, Android, Best Apps]
-image: /assets/images/apps/meow-habits/icon.webp
+image: /assets/images/covers/best-meow-habits-general.webp
+app_icon: /assets/images/apps/meow-habits/icon.webp
 lang: ms
 last_modified_at: 2026-11-06
 ---

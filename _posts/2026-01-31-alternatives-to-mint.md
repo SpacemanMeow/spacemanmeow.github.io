@@ -4,7 +4,8 @@ title: "Best Mint Alternatives in 2026 (After Mint Shut Down)"
 description: "Mint shut down in 2024. Compare the best Mint alternatives in 2026: seven budgeting and expense-tracking apps including Meow Money Manager, with a table."
 layout: guide
 tags: [Meow Money, Expense Tracker, Android, Alternatives, Mint]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/alternatives-to-mint.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: en
 ---
 

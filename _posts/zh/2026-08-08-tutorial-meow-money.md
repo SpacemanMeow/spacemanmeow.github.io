@@ -3,11 +3,12 @@ layout: post
 title: "Meow Money Manager 官方详细使用指南"
 date: 2026-08-08 09:00:00 +0800
 categories: [Tutorial]
-tags: [Expense Tracker]
+tags: [Meow Money, Expense Tracker]
 lang: zh
 author: author_meow_id
 description: "一份完整的 Meow Money Manager（喵窝记账）使用指南——掌握记账、预算、多币种账本、报销管理与 CSV 导出，新手也能快速上手这款猫主题记账应用。"
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/tutorial-meow-money.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 ---
 
 ## 目录

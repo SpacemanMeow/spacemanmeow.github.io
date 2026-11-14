@@ -4,7 +4,8 @@ title: "CPU Monitor vs CPU-Z: แอปฮาร์ดแวร์ Android ต�
 description: "ทางเลือก CPU-Z ที่ดีที่สุด Android 2026: CPU Monitor เทียบกับ CPU-Z ด้านอุณหภูมิเรียลไทม์ หน้าต่างลอย วิดเจ็ต ราคา และบทสรุปต่อความต้องการ"
 layout: guide
 tags: [CPU Monitor, อุณหภูมิ CPU, Android, Comparison, CPU-Z]
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/vs-cpu-monitor-and-cpu-z.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 lang: th
 last_modified_at: 2026-11-07
 ---

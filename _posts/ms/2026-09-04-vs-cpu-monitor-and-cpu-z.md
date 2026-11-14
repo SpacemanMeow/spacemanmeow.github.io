@@ -4,7 +4,8 @@ title: "CPU Monitor vs CPU-Z: Aplikasi Hardware Android Mana?"
 description: "Alternatif CPU-Z terbaik android 2026: CPU Monitor vs CPU-Z tentang suhu terus, tetingkap terapung, widget, harga, dan verdict per kebutuhan."
 layout: guide
 tags: [CPU Monitor, CPU Temperature, Android, Comparison, CPU-Z]
-image: /assets/images/apps/cpu-monitor/icon.webp
+image: /assets/images/covers/vs-cpu-monitor-and-cpu-z.webp
+app_icon: /assets/images/apps/cpu-monitor/icon.webp
 lang: ms
 last_modified_at: 2026-11-07
 ---

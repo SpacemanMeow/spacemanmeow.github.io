@@ -4,7 +4,8 @@ title: "Meow Money Manager 学生版：课间也能记账"
 description: "面向学生的 Meow Money Manager（喵窝记账）与 YNAB、Goodbudget、EveryDollar 对比（2026）——免费核心、无需账号、留学多币种、报销追踪与价格，选出最合适的免费学生记账应用。"
 layout: guide
 tags: [Meow Money, Expense Tracker, Android, Best Apps]
-image: /assets/images/apps/meow-money-manager/icon.webp
+image: /assets/images/covers/best-meow-money-manager-students.webp
+app_icon: /assets/images/apps/meow-money-manager/icon.webp
 lang: zh
 ---
 

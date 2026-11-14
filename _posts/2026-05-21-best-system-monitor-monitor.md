@@ -4,7 +4,8 @@ title: "System Monitor: Real-Time Device Stats Without the Bloat"
 description: "Best phone cleaner app for android 2026: System Monitor vs CCleaner on live device stats, read-only monitoring, cleanup and price."
 layout: guide
 tags: [System Monitor, RAM Booster, Android, Best Apps]
-image: /assets/images/apps/system-monitor/icon.webp
+image: /assets/images/covers/best-system-monitor-monitor.webp
+app_icon: /assets/images/apps/system-monitor/icon.webp
 lang: en
 last_modified_at: 2026-11-05
 ---

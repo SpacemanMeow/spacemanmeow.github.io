@@ -3,7 +3,8 @@ date: 2026-07-13 09:00:00 +0800
 title: "Best White Noise & Focus Apps for Android (2026)"
 description: "White noise app Android guide 2026: what to look for (sleep timer, offline playback, sound mixing) and how Meow FM compares to Calm."
 layout: guide
-image: /assets/images/apps/meow-fm/icon.webp
+image: /assets/images/covers/pillar-white-noise-focus-apps-android.webp
+app_icon: /assets/images/apps/meow-fm/icon.webp
 tags: [White Noise, Android, Meow FM, App Roundup]
 last_modified_at: 2026-11-05
 lang: en

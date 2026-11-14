@@ -8,7 +8,8 @@ lang: id
 author: author_meow_id
 last_modified_at: 2026-11-07
 description: "Panduan pengguna Floating Assistant: bola melayang bertempel di tepi, pintasan kustom, toggle sistem, kendali satu tangan, dan izin jelas tanpa root."
-image: /assets/images/apps/floating-assistant/icon.webp
+image: /assets/images/covers/tutorial-floating-assistant.webp
+app_icon: /assets/images/apps/floating-assistant/icon.webp
 ---
 
 ## Daftar Isi

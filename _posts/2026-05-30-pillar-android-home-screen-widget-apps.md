@@ -3,7 +3,8 @@ date: 2026-05-30 09:00:00 +0800
 title: "Best Android Home Screen Widget Apps (2026)"
 description: "Best Android widget app 2026: what to look for (styles, customization, quick toggles) and how One Widget compares to KWGT."
 layout: guide
-image: /assets/images/apps/one-widget/icon.webp
+image: /assets/images/covers/pillar-android-home-screen-widget-apps.webp
+app_icon: /assets/images/apps/one-widget/icon.webp
 tags: [Home Screen Widgets, KWGT, One Widget, App Roundup]
 last_modified_at: 2026-11-05
 lang: en
