@@ -727,7 +727,7 @@ a.tag:hover,
 .post-card__cover img {
   display: block;
   width: 100%;
-  height: auto; /* 覆盖 HTML height 属性，否则 aspect-ratio 不生效、图会被钉成 1200px 高 */
+  height: auto; /* 覆盖 HTML height 属性，让 aspect-ratio 生效（卡片 1:1 / 文章页 16:9） */
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: var(--radius);
@@ -1059,7 +1059,7 @@ a.tag:hover,
 
   .blog-list > .blog-row { padding: var(--space-9) 0; }
   .post-card { grid-template-columns: 1fr; gap: var(--space-7); }
-  .post-card__cover img { aspect-ratio: 1 / 1; }
+  .post-card__cover img { aspect-ratio: 16 / 9; }
   .post-card__title { font-size: var(--fs-xl); }
   .post-card__meta, .post__meta { gap: var(--space-5); }
 

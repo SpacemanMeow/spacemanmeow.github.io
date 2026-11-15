@@ -13,10 +13,13 @@
 {%- assign card_cover = post.path | split: '/' | last | split: '.' | first | slice: 11, 200 -%}
 {%- assign card_cover = '/assets/images/covers/' | append: card_cover | append: '.webp' -%}
 {%- endif -%}
+{%- assign cover_base = card_cover | remove: '.webp' -%}
+{%- assign cover_640 = cover_base | append: '-640.webp' -%}
+{%- assign cover_1280 = cover_base | append: '-1280.webp' -%}
 <article class="post-card">
   <div class="post-card__cover">
     <a href="{{ post.url | relative_url }}" aria-hidden="true" tabindex="-1">
-      <img src="{{ card_cover | relative_url }}" alt="{{ post.title }}" width="2400" height="1200" loading="lazy">
+      <img src="{{ cover_640 | relative_url }}" srcset="{{ cover_640 | relative_url }} 640w, {{ cover_1280 | relative_url }} 1280w, {{ card_cover | relative_url }} 1920w" sizes="(max-width: 768px) 92vw, 160px" alt="{{ post.title }}" width="1920" height="1080" loading="lazy" decoding="async">
     </a>
   </div>
   <div class="post-card__body">
