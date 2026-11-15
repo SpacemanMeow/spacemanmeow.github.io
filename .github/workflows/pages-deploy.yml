@@ -45,6 +45,14 @@ jobs:
           ruby-version: 3.4
           bundler-cache: true
 
+      - name: Setup Python (generate cover thumbnails)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: python3 -m pip install --disable-pip-version-check --no-input Pillow
+
       - name: Build multilingual site (EN at root + /zh/)
         run: bash scripts/build.sh
         env:

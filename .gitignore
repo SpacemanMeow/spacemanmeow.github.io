@@ -31,6 +31,10 @@ assets/js/dist
 
 .DS_Store
 
+# 响应式 cover 缩略图：构建产物，仅存原图，缩略图在 build.sh 中自动生成
+assets/images/covers/*-640.webp
+assets/images/covers/*-1280.webp
+
 # Pagefind 构建临时目录
 .pagefind-bin/
 
