@@ -874,9 +874,19 @@ a.tag:hover,
 
 .post__content pre code { padding: 0; background: transparent; color: inherit; }
 
-.post__content table { width: 100%; border-collapse: collapse; font-size: var(--fs-base); }
-.post__content th, .post__content td { padding: var(--space-3) var(--space-5); border: 1px solid var(--line); text-align: left; }
-.post__content th { background: var(--bg); }
+/* 表格：块化 + 横向滚动，列多时在容器内滑动而不撑破屏幕（移动端尤其需要） */
+.post__content table, .page-content table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+  font-size: var(--fs-base);
+}
+.post__content th, .post__content td,
+.page-content th, .page-content td { padding: var(--space-3) var(--space-5); border: 1px solid var(--line); text-align: left; }
+.post__content th, .page-content th { background: var(--bg); }
 
 .post__footer {
   display: flex;
@@ -1004,7 +1014,8 @@ a.tag:hover,
 @media (max-width: 768px) {
   body { font-size: var(--fs-md); }
 
-  .brand__text small { display: none; }
+  /* 移动端隐藏站点标题与副标题，仅保留 logo（链接名称由 .brand 的 aria-label 提供） */
+  .brand__text { display: none; }
 
   .nav-toggle { display: flex; }
 

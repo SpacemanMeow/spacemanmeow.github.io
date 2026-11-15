@@ -17,7 +17,7 @@
 {%- endunless -%}
 <header class="site-header">
   <div class="container site-header__inner">
-    <a class="brand" href="{{ home | relative_url }}">
+    <a class="brand" href="{{ home | relative_url }}" aria-label="{{ site.title }}">
       <img class="brand__logo" src="{{ site.avatar | relative_url }}" alt="" />
       <span class="brand__text">
         <strong>{{ site.title }}</strong>
