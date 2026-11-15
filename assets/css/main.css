@@ -719,18 +719,18 @@ a.tag:hover,
 .blog-list > .blog-row { background: var(--card); padding: 56px 0; }
 .blog-list > .blog-row:nth-child(even) { background: var(--bg); }
 
-/* 封面图：一张 2400x1200 原图。
-   列表卡片左侧 4:3 center_crop；文章页顶部日期下 2:1 center_crop。
-   cover 按 slug 约定（/assets/images/covers/<slug>.jpg），同一文章多语言共用 */
-.post-card { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: var(--space-9); align-items: center; }
+/* 封面图：一张 1920x1080 原图。
+   列表卡片左侧 1:1 center_crop；文章页顶部日期下 2:1 center_crop。
+   cover 按 slug 约定（/assets/images/covers/<slug>.webp），同一文章多语言共用 */
+.post-card { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: var(--space-9); align-items: center; }
 .post-card__cover { margin: 0; }
 .post-card__cover img {
   display: block;
   width: 100%;
   height: auto; /* 覆盖 HTML height 属性，否则 aspect-ratio 不生效、图会被钉成 1200px 高 */
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius);
 }
 .post-card__body { min-width: 0; }
 
@@ -1059,7 +1059,7 @@ a.tag:hover,
 
   .blog-list > .blog-row { padding: var(--space-9) 0; }
   .post-card { grid-template-columns: 1fr; gap: var(--space-7); }
-  .post-card__cover img { aspect-ratio: 16 / 9; }
+  .post-card__cover img { aspect-ratio: 1 / 1; }
   .post-card__title { font-size: var(--fs-xl); }
   .post-card__meta, .post__meta { gap: var(--space-5); }
 
