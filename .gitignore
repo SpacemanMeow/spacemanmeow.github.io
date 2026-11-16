@@ -45,3 +45,4 @@ tools/gsc/*.json
 # GSC 月度数据导出（本地分析数据，不提交）
 seo/data/
 
+/.workbuddy/memory/2026-11-16.md
