@@ -185,6 +185,7 @@ exclude:
   - seo/
   - "seo/**"
   - README.md
+  - AGENTS.md
   - SEO-OPTIMIZATION-PLAN.md
   - LICENSE
   - purgecss.js
