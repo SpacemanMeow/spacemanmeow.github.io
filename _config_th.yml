@@ -63,6 +63,10 @@ collections:
     output: true
     path: _apps_th
     permalink: /th/apps/:name/
+  release_notes_th:
+    output: true
+    path: _release_notes_th
+    permalink: /th/apps/:name/release-notes/
   glossary_th:
     output: true
     path: _glossary_th
@@ -86,6 +90,12 @@ defaults:
     values:
       layout: app
       nav: home
+      seo:
+        type: WebPage
+  - scope:
+      path: ""
+      type: release_notes_th
+    values:
       seo:
         type: WebPage
 

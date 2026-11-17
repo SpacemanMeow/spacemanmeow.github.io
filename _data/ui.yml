@@ -31,6 +31,11 @@ en:
   lightbox_close: "Close preview"
   lightbox_prev: "Previous"
   lightbox_next: "Next"
+  release_notes_title: "Release Notes"
+  release_notes_intro: "Latest changes, sourced from Google Play:"
+  release_notes_play: "View on Google Play"
+  release_notes_appstore: "View on App Store"
+  release_notes_link: "Release notes"
 zh:
   back_to_blog: "&lsaquo; 返回博客"
   tags_index_link: "标签索引 &rarr;"
@@ -60,6 +65,11 @@ zh:
   lightbox_close: "关闭预览"
   lightbox_prev: "上一张"
   lightbox_next: "下一张"
+  release_notes_title: "更新日志"
+  release_notes_intro: "最新更新内容，来自 Google Play："
+  release_notes_play: "在 Google Play 查看"
+  release_notes_appstore: "在 App Store 查看"
+  release_notes_link: "更新日志"
 id:
   back_to_blog: "&lsaquo; Kembali ke Blog"
   tags_index_link: "Indeks Tag &rarr;"
@@ -89,6 +99,11 @@ id:
   lightbox_close: "Tutup pratinjau"
   lightbox_prev: "Sebelumnya"
   lightbox_next: "Berikutnya"
+  release_notes_title: "Catatan Rilis"
+  release_notes_intro: "Perubahan terbaru, dari Google Play:"
+  release_notes_play: "Lihat di Google Play"
+  release_notes_appstore: "Lihat di App Store"
+  release_notes_link: "Catatan rilis"
 
 ms:
   back_to_blog: "&lsaquo; Kembali ke blog"
@@ -119,6 +134,11 @@ ms:
   lightbox_close: "Tutup pratonton"
   lightbox_prev: "Sebelumnya"
   lightbox_next: "Seterusnya"
+  release_notes_title: "Nota Keluaran"
+  release_notes_intro: "Perubahan terkini, dari Google Play:"
+  release_notes_play: "Lihat di Google Play"
+  release_notes_appstore: "Lihat di App Store"
+  release_notes_link: "Nota keluaran"
 
 th:
   back_to_blog: "&lsaquo; กลับไปที่บล็อก"
@@ -149,3 +169,8 @@ th:
   lightbox_close: "ปิดตัวอย่าง"
   lightbox_prev: "ก่อนหน้า"
   lightbox_next: "ถัดไป"
+  release_notes_title: "บันทึกการอัปเดต"
+  release_notes_intro: "การเปลี่ยนแปลงล่าสุดจาก Google Play:"
+  release_notes_play: "ดูบน Google Play"
+  release_notes_appstore: "ดูบน App Store"
+  release_notes_link: "บันทึกการอัปเดต"

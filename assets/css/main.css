@@ -682,6 +682,16 @@ body.no-scroll { overflow: hidden; }
 .app-guides__item a { font-family: var(--font); color: var(--accent-strong); font-size: var(--fs-md); line-height: 1.5; font-weight: var(--fw-head); text-decoration: none; }
 .app-guides__item a:hover { text-decoration: underline; }
 .app-guides__meta { font-family: var(--font); color: var(--text-body); font-size: var(--fs-sm); white-space: nowrap; }
+/* Release Note 内链 + 页面 */
+.app-release-notes { margin: var(--space-9) 0 0; padding-top: var(--space-9); border-top: 1px solid #e6e6e6; }
+.app-release-notes a { font-family: var(--font); color: var(--accent-strong); font-size: var(--fs-md); font-weight: var(--fw-head); text-decoration: none; }
+.app-release-notes a:hover { text-decoration: underline; }
+.release-note__intro { font-family: var(--font); color: var(--text-body); font-size: var(--fs-md); line-height: 1.75; margin: 0 0 var(--space-6); }
+.release-note__intro p { margin: 0; }
+.release-note__intro p + p { margin-top: var(--space-2); }
+.release-note__back { margin: var(--space-9) 0 0; padding-top: var(--space-6); border-top: 1px solid #e6e6e6; }
+.release-note__back a { font-family: var(--font); color: var(--accent-strong); font-size: var(--fs-md); font-weight: var(--fw-head); text-decoration: none; }
+.release-note__back a:hover { text-decoration: underline; }
 .tag-index { display: grid; gap: var(--space-9); }
 .tag-index__group { padding-bottom: var(--space-8); border-bottom: 1px solid #e6e6e6; }
 .tag-index__group:last-child { border-bottom: 0; padding-bottom: 0; }

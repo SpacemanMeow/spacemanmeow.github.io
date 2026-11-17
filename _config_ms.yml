@@ -64,6 +64,10 @@ collections:
     output: true
     path: _apps_ms
     permalink: /ms/apps/:name/
+  release_notes_ms:
+    output: true
+    path: _release_notes_ms
+    permalink: /ms/apps/:name/release-notes/
   glossary_ms:
     output: true
     path: _glossary_ms
@@ -87,6 +91,12 @@ defaults:
     values:
       layout: app
       nav: home
+      seo:
+        type: WebPage
+  - scope:
+      path: ""
+      type: release_notes_ms
+    values:
       seo:
         type: WebPage
 

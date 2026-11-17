@@ -63,6 +63,10 @@ collections:
     output: true
     path: _apps_zh
     permalink: /zh/apps/:name/
+  release_notes_zh:
+    output: true
+    path: _release_notes_zh
+    permalink: /zh/apps/:name/release-notes/
   glossary_zh:
     output: true
     path: _glossary_zh
@@ -86,6 +90,12 @@ defaults:
     values:
       layout: app
       nav: home
+      seo:
+        type: WebPage
+  - scope:
+      path: ""
+      type: release_notes_zh
+    values:
       seo:
         type: WebPage
 

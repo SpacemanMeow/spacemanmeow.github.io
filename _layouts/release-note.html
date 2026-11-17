@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{%- assign lang = page.lang | default: site.lang | default: 'en' -%}
+{%- assign u = site.data.ui[lang] -%}
+
+<div class="app-hero">
+  <div class="container app-hero__inner">
+    <h1 class="app-hero__title">{{ page.title }}</h1>
+  </div>
+</div>
+
+<div class="app-body">
+  <div class="container">
+    <div class="app-content">
+      <div class="release-note__intro">
+        <p>{{ u.release_notes_intro }}</p>
+        <p><a href="{{ page.google_play }}" target="_blank" rel="noopener noreferrer">{{ u.release_notes_play }} &rarr;</a></p>
+        {%- if page.app_store and page.app_store != '' %}
+        <p><a href="{{ page.app_store }}" target="_blank" rel="noopener noreferrer">{{ u.release_notes_appstore }} &rarr;</a></p>
+        {%- endif %}
+      </div>
+      {{ content }}
+      <p class="release-note__back">
+        <a href="/{% unless lang == 'en' %}{{ lang }}/{% endunless %}apps/{{ page.app_slug }}/">&larr; {{ page.app_title }}</a>
+      </p>
+    </div>
+  </div>
+</div>

@@ -65,6 +65,10 @@ collections:
     output: true
     path: _apps_id
     permalink: /id/apps/:name/
+  release_notes_id:
+    output: true
+    path: _release_notes_id
+    permalink: /id/apps/:name/release-notes/
   glossary_id:
     output: true
     path: _glossary_id
@@ -88,6 +92,12 @@ defaults:
     values:
       layout: app
       nav: home
+      seo:
+        type: WebPage
+  - scope:
+      path: ""
+      type: release_notes_id
+    values:
       seo:
         type: WebPage
 

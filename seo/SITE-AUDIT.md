@@ -166,6 +166,7 @@
 | D17 | 文章插图跨语言一致性 | P0 | §5 脚本 + 人工抽验 | 非 EN 文章图片路径多重集 = EN 同名文章、**位置与 EN 行序一致**、`alt` 已本地化未照抄 EN（规范见 `SEO-I18N-PLAYBOOK.md` §3.5）；行序硬门禁于 2026-11-06 全量启用（72 篇一致） |
 | D18 | 多语言文章骨架对等（结构 / 目录 / 插图） | P0 | §5 脚本 | **所有非 EN 语言**文章的 H2/H3 层级序列、结构块序列、文章目录（TOC 条目与行位置）、图片插入行序逐篇与 EN 同名文章一致；规则见 §2.6 与 `SEO-I18N-PLAYBOOK.md` §1 红线 11 / §3.5 |
 | D19 | 文章 tags 一致性与相关文章匹配 | P0 | §5 脚本 + 人工抽验 | 每篇文章至少带 1 个**规范产品标签**（11 个 App 之一：Meow Todo / Meow Habits / Meow Money / Meow Mood Diary / Meow FM / Only Clock / One Widget / Crosshair Aim / System Monitor / CPU Monitor / Floating Assistant）；无产品标签变体（如 `Meow Mood` / `Meow Todo List` / `To Do List` 或多余的 `Meow ` 前缀）；`related-posts.html` 已跳过泛标签（Android / Comparison / Best Apps / App Roundup / Alternatives），这些泛标签可保留但不得作为品类归属依据 |
+| D20 | Release Note 页面覆盖与内链 | P0 | §5 脚本 + 人工抽验 | 每语言 11 个 App 均有 `/apps/<slug>/release-notes/` 页面（5 语言共 55 页，permalink 由各 config 的 `release_notes[_<lang>]` 集合定义）；frontmatter 含 `layout/app_slug/app_title/google_play/app_store/lang/title` 且标题后缀本地化；正文含至少 1 条发布记录；双端 App 的简介区同时显示 Google Play 与 App Store 入口（单端只显示对应一个）；`_layouts/app.html` 底部有指向该页的内链；数据由用户直接发来的升级日志经 `tools/update_release_notes.py` 解析生成（日志临时写入被 gitignore 的 `seo/data/`，跑完可不保留；不联网抓取），页面为生成物 |
 
 ---
 
@@ -251,6 +252,21 @@
   4. **泛标签**（Android / Comparison / Best Apps / App Roundup / Alternatives）允许保留，但 `related-posts.html` 的跳过清单必须与这里一致——新增泛标签时两处同步改，否则会被当作品类归属依据。
 - **手段**：§5 脚本 D19 两段 `chk`（变体 `chk` + 缺产品标签 `chk`）；新增文章/批量改标签后由本项硬门禁拦住。
 - **失败处理**：变体标签按白名单改回（如 `Meow Mood`→`Meow Mood Diary`）；缺产品标签的补上对应 App 标签；泛标签清单与 `related-posts.html` 不同步时一并更新。
+
+### D20 Release Note 页面覆盖与内链（P0，2026-11-17 新增）
+
+- **背景**：每个 App 需有独立的发布记录页，URL 形如 `/apps/<slug>/release-notes/`（非英语加 `/<lang>` 前缀），App 详情页底部内链。**静态生成**：`build.sh` 不含抓取步骤。
+- **数据源（唯一）**：**用户在对话中直接发来的升级日志**。`seo/data/` 只是临时中转目录（已被 `.gitignore` 忽略，不进版本控制、不要求长期维护）：收到日志后临时写入 `seo/data/<app_slug>_release_note`，处理完可不保留。日志格式为 `内部版本号 (版本名)` 或纯版本号 + `<en-US>/<zh-CN>/<id>/<ms>/<th>` 等语言标签块；占位符「请在此处输入或粘贴...」视为缺失。
+- **生成命令**：`python3 tools/update_release_notes.py [日志文件...]`（省略参数则处理 `seo/data/*_release_note` 全部）。脚本只解析本地文件、不联网；按日志文件名匹配 `_apps/<slug>.md`（命名不一致时用脚本内 `SLUG_ALIASES` 映射），直接生成 5 语言页面到 `_release_notes[_<lang>]/`。
+- **译文修正/补全**：收到日志后先把补全/修正的 5 语言译文**直接整理进日志临时文件**再跑脚本——不依赖任何外部 fixes/中间修正库。日志须自带全部 5 语言内容（缺语言会生成空节，D20 会拦）。历史译文中已修正的错误包括 Apple Watch 条目遗漏、"喵咪"笔误、英文 typo 等，均已固化进现有页面；以 `- ` 开头的行渲染为上一项的子列表。
+- **页面格式**：多版本按 `## 版本号` 分节，每节有序列表从 1 递增编号。
+- **检查点**：
+  1. 每语言 11 个 App 均有对应 release note 页（5 语言共 55 页）；source 目录 `_release_notes[_<lang>]/`，集合 `release_notes[_<lang>]`，permalink `/[ lang /]apps/:name/release-notes/`；
+  2. frontmatter 含 `layout: release-note`、`app_slug`、`app_title`、`google_play`、`app_store`、`lang`、`title`，且 `title` 后缀为本地化文案（EN Release Notes / ZH 更新日志 / ID Catatan Rilis / MS Nota Keluaran / TH บันทึกการอัปเดต）；`app_store` 为 `#` 或空时不显示 App Store 入口，双端 App 则两个入口都显示；
+  3. 正文至少 1 条有序列表发布记录（`1. ...`），空页视为失败；
+  4. `_layouts/app.html` 底部有指向 `{{ page.url | relative_url }}release-notes/` 的内链（一处覆盖全语言）。
+- **手段**：§5 脚本 D20 五项硬门禁（覆盖 / frontmatter / 正文 / 标题本地化 / 内链）。
+- **失败处理**：缺页或内容过期 → 拿到用户发来的新日志（补全 5 语言译文后）临时写入 `seo/data/<app_slug>_release_note`，重跑 `python3 tools/update_release_notes.py` 并确认 55 页生成；某 App 确无发布记录须人工在对应 md 写明并登记，不得让空页过门禁。
 
 ### D08 图片与可访问性（P0）
 
@@ -349,9 +365,9 @@ for _f in sorted(glob.glob('_config_*.yml')):
     if _m and _m.group(1) not in LANGS: LANGS.append(_m.group(1))
 LANGS = ['en'] + sorted(LANGS[1:])
 def dirs(L):
-    if L == 'en': return dict(posts='_posts', pages='_pages', apps='_apps', gloss='_glossary')
+    if L == 'en': return dict(posts='_posts', pages='_pages', apps='_apps', gloss='_glossary', rel='_release_notes')
     return dict(posts='_posts/' + L, pages='_pages/' + L,
-                apps='_apps_' + L, gloss='_glossary_' + L)
+                apps='_apps_' + L, gloss='_glossary_' + L, rel='_release_notes_' + L)
 def lang_of(f):
     for L in LANGS[1:]:
         if any(f.startswith(d + '/') for d in dirs(L).values()): return L
@@ -407,6 +423,7 @@ for L in FULL:
 need0 = {'title', 'description'}
 bad = []
 for f, d in fms.items():
+    if re.match(r'^_release_notes(_[a-z]{2})?/', f): continue  # D20 单独校验其 frontmatter
     n = set(need0)
     if f.startswith('_posts/'): n |= {'date', 'layout', 'tags', 'image'}
     if re.match(r'^_apps(_[a-z]{2})?/', f): n.add('icon')
@@ -616,6 +633,30 @@ for f, d in fms.items():
         _noprod.append(f)
 chk('D19', 'tags 无产品标签变体', not _badvar, f'异常 {len(_badvar)} {_badvar[:2]}')
 chk('D19', '每篇至少带规范产品标签', not _noprod, f'缺失 {len(_noprod)} {_noprod[:2]}')
+# D20：Release Note 页面覆盖与内链（P0；见 §4 D20）
+# 规则：每语言 11 个 App 均有对应 release note 页；frontmatter 带 layout/app_slug/app_title/google_play；
+#       正文有发布记录内容；app 详情页底部有指向 release-notes/ 的内链。
+REL_LABEL = {'en': 'Release Notes', 'zh': '更新日志', 'id': 'Catatan Rilis',
+             'ms': 'Nota Keluaran', 'th': 'บันทึกการอัปเดต'}
+_rel_miss, _rel_badfm, _rel_empty, _rel_badtitle = [], [], [], []
+for L in LANGS:
+    app_slugs = nm(dirs(L)['apps'] + '/*.md')
+    rel_slugs = nm(dirs(L)['rel'] + '/*.md')
+    for s in app_slugs:
+        if s not in rel_slugs: _rel_miss.append((L, s))
+    for f, d in fms.items():
+        if not f.startswith('_%s/' % ('release_notes' if L == 'en' else 'release_notes_' + L)): continue
+        need = {'layout', 'app_slug', 'app_title', 'google_play', 'app_store', 'lang', 'title'}
+        if need - set(d): _rel_badfm.append((f, ','.join(sorted(need - set(d)))))
+        if not re.search(r'^\d+\.\s+\S', txt[f], re.M): _rel_empty.append(f)
+        if REL_LABEL.get(L, 'Release Notes') not in d.get('title', ''): _rel_badtitle.append(f)
+chk('D20', '每 App 均有 Release Note 页（全语言）', not _rel_miss, f'缺失 {len(_rel_miss)} {_rel_miss[:2]}')
+chk('D20', 'Release Note frontmatter 完整', not _rel_badfm, f'异常 {len(_rel_badfm)} {_rel_badfm[:2]}')
+chk('D20', 'Release Note 正文含发布记录', not _rel_empty, f'空 {len(_rel_empty)} {_rel_empty[:2]}')
+chk('D20', 'Release Note 标题含本地化后缀', not _rel_badtitle, f'异常 {len(_rel_badtitle)} {_rel_badtitle[:2]}')
+# app 模板须含 release-notes 内链（一处覆盖全语言）
+_app_tpl = open('_layouts/app.html', encoding='utf-8').read()
+chk('D20', 'app 详情页含 Release Note 内链', 'release-notes/' in _app_tpl, 'app.html 缺内链')
 # D11 内链前缀（按语言检查，排除共享资源）
 def links(t): return re.findall(r'\]\((/[^)]*)\)', t)
 zbad, ebad = [], []
