@@ -8,7 +8,7 @@
 缩略图是构建产物，不提交到 git（见 .gitignore）；仓库只存 1920x1080 原图，
 因此换 cover 时只需提交原图，构建会自动生成对应的 -640/-1280 缩略图，不会遗漏。
 
-也可本地单独运行：python3 tools/generate_thumbs.py
+也可本地单独运行：python3 skills/cover-images/scripts/generate_thumbs.py
 已存在且不比源图旧的缩略图会跳过（增量）；Pillow 缺失时会优雅降级。
 """
 import os
@@ -18,7 +18,7 @@ try:
 except ImportError:
     Image = None
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 COVERS = os.path.join(ROOT, "assets", "images", "covers")
 SIZES = ((640, 360), (1280, 720))
 

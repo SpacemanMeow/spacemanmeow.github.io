@@ -4,16 +4,16 @@
 # 5 语合并构建：EN 根目录 + /zh/ /id/ /th/ /ms/，含 hreflang、合并 sitemap、Pagefind。
 #
 # 用法：
-#   bash tools/test.sh           完整构建 + htmlproofer（发布前验收）
-#   bash tools/test.sh --fast    跳过 Pagefind，本地快速验收
-#   bash tools/test.sh -h        查看帮助
+#   bash skills/site-build-deploy/scripts/test.sh           完整构建 + htmlproofer（发布前验收）
+#   bash skills/site-build-deploy/scripts/test.sh --fast    跳过 Pagefind，本地快速验收
+#   bash skills/site-build-deploy/scripts/test.sh -h        查看帮助
 #
 # 依赖：html-proofer、jekyll（bundle install）、python3。
 # 全站静态教研（D01–D18）另见 seo/SITE-AUDIT.md §5 的一键脚本。
 
 set -euo pipefail
 
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")/../../.."
 
 help() {
   echo "全站构建 + 链接校验（5 语合并，与 CI 同款）"

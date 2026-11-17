@@ -5,8 +5,8 @@
 把收到的日志临时写入 seo/data/<app_slug>_release_note 再跑本脚本，处理完可删除。
 
 用法：
-  python3 tools/update_release_notes.py <日志文件> [<日志文件2> ...]
-  python3 tools/update_release_notes.py                      # 处理 seo/data/*_release_note 全部文件
+  python3 skills/release-notes/scripts/update_release_notes.py <日志文件> [<日志文件2> ...]
+  python3 skills/release-notes/scripts/update_release_notes.py                      # 处理 seo/data/*_release_note 全部文件
 
 输入文件格式（Play Console 导出样式）：
   内部版本号 (版本名)
@@ -34,7 +34,7 @@ import json
 import os
 import re
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 DATA_DIR = os.path.join(ROOT, "seo", "data")
 SITE_LANGS = {"en-US": "en", "zh-CN": "zh", "id": "id", "ms": "ms", "ms-MY": "ms", "th": "th"}
 LANGS = ["en", "zh", "id", "ms", "th"]
@@ -136,7 +136,7 @@ def build_page(app, lang, versions):
         "lang: %s" % lang,
         "seo:", "  type: WebPage", "---", "",
     ]
-    body = ["<!-- 由 tools/update_release_notes.py 从 seo/data 日志文件生成，请勿手工编辑 -->", ""]
+    body = ["<!-- 由 skills/release-notes/scripts/update_release_notes.py 从 seo/data 日志文件生成，请勿手工编辑 -->", ""]
     versions = [v for v in versions if v["langs"].get(lang)]
     for v in versions:
         body += ["## " + v["version"], ""]

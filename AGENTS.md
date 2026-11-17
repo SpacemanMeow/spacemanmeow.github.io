@@ -20,9 +20,9 @@
 4. **URL/permalink 不轻易改**：改 URL = 破坏收录；任何路由改动前查 `SEO-I18N-PLAYBOOK.md` 红线 1 与 `SITE-AUDIT.md` D01/D04。
 5. **hreflang 必须成环 + x-default**：由 `scripts/i18n_postprocess.py` 自动注入，不要手工改 `<link rel="alternate">`；改结构后跑全量校验（红线 2、D05）。
 6. **非英语文章骨架/目录/插图位置必须与 EN 同源同序**（红线 10-11、D17/D18）；不是另写一篇。
-7. **图片**：cover 原图 1920×1080 WebP 存 `assets/images/covers/<slug>.webp` 且**必须提交**；`-640.webp`/`-1280.webp` 是 gitignore 的构建产物，由 `tools/generate_thumbs.py` 在构建前自动生成，不提交。
-8. **Release Note 页面是生成物，不手改**：源文件在 `_release_notes*/`，由 `tools/update_release_notes.py` 从日志生成；页面顶部标注"请勿手工编辑"。
-9. **禁止提交**：`seo/data/`、`tools/gsc/` 凭据与导出、`tools/play/`（若存在）、缩略图、`.pagefind-bin/`、`.jekyll-*`、`.nojekyll` 例外；详见 `.gitignore` 与 D15。
+7. **图片**：cover 原图 1920×1080 WebP 存 `assets/images/covers/<slug>.webp` 且**必须提交**；`-640.webp`/`-1280.webp` 是 gitignore 的构建产物，由 `skills/cover-images/scripts/generate_thumbs.py` 在构建前自动生成，不提交。
+8. **Release Note 页面是生成物，不手改**：源文件在 `_release_notes*/`，由 `skills/release-notes/scripts/update_release_notes.py` 从日志生成；页面顶部标注"请勿手工编辑"。
+9. **禁止提交**：`seo/data/`、`skills/seo-research/scripts/gsc/` 的凭据与导出、生成的缩略图、`.pagefind-bin/`、`.jekyll-*`；`.nojekyll` 例外；详见 `.gitignore` 与 D15。
 10. **改完跑审计**：`seo/SITE-AUDIT.md` §5 内嵌一段 Python 脚本（`AUDIT-SCRIPT-START/END` 之间），构建后整段复制执行；`FAIL` 必须清零，`BASE` 应为空。
 
 ---
@@ -50,20 +50,39 @@
 │   ├── build.sh                               # 唯一正确构建入口（多语言 + i18n + Pagefind）
 │   ├── i18n_postprocess.py                    # hreflang/canonical/sitemap 注入（build.sh 调用）
 │   └── new-language.sh <code> <label> [short] # 新增语言脚手架（生成后仍需人工本地化，历史坑多）
-├── tools/
-│   ├── generate_thumbs.py                     # 封面响应式缩略图（构建前自动跑）
-│   ├── update_release_notes.py                # 从日志生成 5 语 Release Note 页
-│   ├── compress_images.py / md_to_html.py     # 图片压缩 / markdown→html（增量）
-│   ├── gsc_export.py                          # Google Search Console 数据导出（OAuth）
-│   ├── run.sh / test.sh                       # jekyll serve / CI 同款 htmlproofer 验证
-│   └── gsc/ covers_bg/ covers_custom/         # 凭据与素材（gsc 已 gitignore）
 ├── seo/                                       # SEO 规范与台账（见 §6）
 ├── .github/workflows/pages-deploy.yml         # push main → 构建 → htmlproofer → Pages → IndexNow
 ├── _site/                                     # 最终产物（预览服务器只读这里）
-└── AGENTS.md                                  # 本文件
+├── AGENTS.md                                  # 本文件（全局上下文入口）
+└── skills/                                    # SOP/工具/规则沉淀，全部中文（见下方 Skills 体系与 skills/README.md）
+    ├── cover-images/                          # SKILL.md + scripts/: generate_thumbs / compress_images
+    ├── i18n-rules/                            # SKILL.md + references/pitfalls
+    ├── release-notes/                         # SKILL.md + scripts/update_release_notes + references/app-mappings
+    ├── seo-audit/                             # SKILL.md + references/dimensions
+    ├── seo-research/                          # SKILL.md + scripts/: gsc_export / md_to_html + gsc/ 凭据
+    └── site-build-deploy/                     # SKILL.md + scripts/: run.sh / test.sh
 ```
 
 其它顶层目录：`blog/` 等是历史/中间产物；`covers-backup-20261116/`、`only-clock-covers_assets/` 为空的历史残留，无构建作用。
+
+### Skills 体系（SOP / 工具 / 规则的沉淀）
+
+`skills/` 把「流程怎么走」按 **CodeBuddy Skill 格式**沉淀为自包含单元；本 `AGENTS.md` 负责「工程是什么」的全局上下文。用法：新对话/其他 AI 先读本文件建立上下文，再按具体任务读取对应 `SKILL.md`。索引见 `skills/README.md`。
+
+- **格式**：每个 skill 是一个目录，核心 `SKILL.md` 带 YAML frontmatter（`name` 为英文 slug 标识，`description` 与正文**全部中文**）；可选 `references/`（补充规则/资料）、`scripts/`（工具）、`assets/`。
+- **工具位置**：原 `tools/` 已删除，全部脚本迁到各 skill 的 `scripts/` 下（见上方目录树）；缓存与 GSC 凭据随脚本就近存放（`skills/seo-research/scripts/gsc/` 被 gitignore）。需要脚本时优先用 `skills/*/scripts/`，不要在仓库里为一次性问题新建脚本（可用 `/tmp`）。
+- **使用方式**：处理具体任务前读取对应 `SKILL.md`；若运行环境支持 `use_skill` 且已注册 `skills/` 路径，可直接触发。
+- **发布**：`AGENTS.md` 与 `skills/` 已在全部 5 份 `_config*.yml` 中 `exclude`，不会被 Jekyll 收录或发布到 `_site/`。
+- **维护约定**：流程/规则变化时同步更新对应 `SKILL.md`（必要时 `references/`）与本文件，保持三处一致。
+
+| Skill | 何时读 | 核心内容 |
+|---|---|---|
+| `site-build-deploy` | 改源文件后验证、跑/排查构建、CI 部署 | 构建 5 步、快速/完整构建、预览机制、CI、D12 假阳性 |
+| `release-notes` | 用户发来升级日志、更新 Release Note、处理 D20 | 日志→临时文件→补全 5 语→生成器→构建→审计 |
+| `seo-audit` | 改动后验收、跑 D01–D20、排查维度失败 | 审计脚本提取执行、结果判读、维度速查 |
+| `i18n-rules` | 新增/改非英语内容、hreflang、集合/exclude、新增语言 | 14 条红线、site.lang vs page.lang、历史坑 |
+| `cover-images` | 换封面、文章配图、排查图片不更新/srcset | 原图/缩略图规格、模板引用、CSS 比例、换图流程 |
+| `seo-research` | 查关键词、导出 GSC、更新 SEO 指标/台账 | GSC 导出、关键词库、指标月报、数据位置 |
 
 ---
 
@@ -81,7 +100,7 @@
 
 **唯一正确构建入口**：`bash scripts/build.sh`
 ```
-1) python3 tools/generate_thumbs.py           # 缺缩略图则生成（需 Pillow）
+1) python3 skills/cover-images/scripts/generate_thumbs.py           # 缺缩略图则生成（需 Pillow）
 2) jekyll build --config _config.yml          # EN → _site/
 3) 逐语 jekyll build --config _config_<lang>.yml → .jekyll-<lang>/ → rsync 到 _site/<lang>/
 4) python3 scripts/i18n_postprocess.py --url $SITE_URL
@@ -89,7 +108,7 @@
 ```
 - 快速预览（日常）：`SKIP_PAGEFIND=1 bash scripts/build.sh`，然后浏览器硬刷新。
 - CI：`.github/workflows/pages-deploy.yml` → Ruby 3.4 + Python 3.12/Pillow → `JEKYLL_ENV=production SITE_URL=https://spacemanmeow.com bash scripts/build.sh` → htmlproofer → upload artifact → deploy-pages → Ping IndexNow（`indexnow-key.txt`，失败不阻断）。
-- `tools/test.sh [--fast]`：CI 同款本地验证；`tools/run.sh`：jekyll serve 开发服务器。
+- `skills/site-build-deploy/scripts/test.sh [--fast]`：CI 同款本地验证；`skills/site-build-deploy/scripts/run.sh`：jekyll serve 开发服务器。
 - 预览服务器是独立进程（`python3 -m http.server 4000` 指向 `_site/`），**不随构建重启**，构建后硬刷新即可。
 
 ---
@@ -131,14 +150,14 @@
 
 - **5 个集合** `_release_notes{,_zh,_id,_ms,_th}/` 各 11 页 → `/[lang/]apps/<slug>/release-notes/`，共 55 页。
 - **数据源**：用户在对话中直接发来的升级日志（不再维护 `seo/data/` 里的文件；该目录已 gitignore，仅临时中转，跑完可不保留）。
-- **生成器** `tools/update_release_notes.py`：
+- **生成器** `skills/release-notes/scripts/update_release_notes.py`：
   - 日志格式：`内部版本号 (版本名)` 或纯版本号 + `<en-US>/<zh-CN>/<id>/<ms>/<th>` 等标签块；**日志须自带全部 5 语言译文**（缺语言会生成空节、D20 会拦）；以 `- ` 开头的行渲染为上一项的子列表。
   - 日志名 → app slug：默认下划线转连字符，不一致时用脚本内 `SLUG_ALIASES`（meow_habit→meow-habits、meow_todo→meow-todo-list、meow_mood→meow-mood-diary、crosshair→cross-hair）。
-  - 用法：`python3 tools/update_release_notes.py [日志文件...]`，省略参数则处理 `seo/data/*_release_note` 全部。
+  - 用法：`python3 skills/release-notes/scripts/update_release_notes.py [日志文件...]`，省略参数则处理 `seo/data/*_release_note` 全部。
 - **收到新日志时的处理流程**（用户会把日志直接贴给你）：
   1. 写到 `seo/data/<app_slug（下划线）>_release_note`（临时文件）；
   2. **把用户日志中缺失的语言按其它语言准确翻译补全，并修正不准确/语法错误的译文**，直接整理进这个临时日志（不再有任何外部 fixes 文件）；
-  3. 跑 `python3 tools/update_release_notes.py` → 构建 → 跑审计脚本确认 D20 全 PASS；
+  3. 跑 `python3 skills/release-notes/scripts/update_release_notes.py` → 构建 → 跑审计脚本确认 D20 全 PASS；
   4. 临时文件可删除。
 - `_layouts/release-note.html`：本地化简介区（三行：说明 / Google Play / App Store），双端 App 才显示第二入口；底部返回 App 链接在 layout 中统一提供（正文已去掉，避免重复）。
 - `_layouts/app.html` 底部内链到本语言 Release Note 页。
@@ -151,7 +170,7 @@
 ## 8. Cover 图片系统
 
 - 原图：1920×1080 WebP，`assets/images/covers/<slug>.webp`，slug 取自文章文件名（去日期前缀），同一文章多语言共用。**原图必须提交 git**。
-- 缩略图：`<slug>-640.webp`（640×360）与 `<slug>-1280.webp`（1280×720），由 `tools/generate_thumbs.py` 在构建前增量生成，gitignore、不提交。
+- 缩略图：`<slug>-640.webp`（640×360）与 `<slug>-1280.webp`（1280×720），由 `skills/cover-images/scripts/generate_thumbs.py` 在构建前增量生成，gitignore、不提交。
 - 列表卡片 `_includes/post-card.html`：`<img src="-640" srcset="-640 640w, -1280 1280w, 原图 1920w" sizes="(max-width:768px) 92vw, 160px" loading="lazy" decoding="async" width="1920" height="1080">`。
 - 文章/指南头图：原图 + `fetchpriority="high"`，**不加 lazy**（LCP 元素）。
 - CSS `.post-card__cover img`：桌面与移动端均 `aspect-ratio: 1/1`、`object-fit: cover`、圆角 `var(--radius)`；列宽 160px。
@@ -182,7 +201,7 @@
 - 有序列表源码现在用显式 `1. 2. 3.`（不是全 `1.` 懒编号）；`- ` 开头行必须缩进 4 空格，否则会被渲染成 `2. ○ xxx`。
 - 双端 App 的 `app_store: "#"` 视为无入口；生成 Release Note 页时 `app_store` 为空要写成 `""`，否则 YAML 粘连会吞掉 layout 与 hreflang。
 - README 的「语言」段须与 `_data/languages.yml` 一致（D01）。
-- 外部 AI/工具不要修改 `_site/`（生成物）；不要在仓库里新建临时脚本解决一次性问题——优先用现有 `tools/` 脚本，必要时写在 `/tmp`。
+- 外部 AI/工具不要修改 `_site/`（生成物）；不要在仓库里新建临时脚本解决一次性问题——优先用 `skills/*/scripts/` 下的现有脚本，必要时写在 `/tmp`。
 
 ---
 
@@ -190,5 +209,5 @@
 
 - 本地预览：`http://localhost:4000`（独立 http.server 进程，根目录 `_site/`）。
 - 构建依赖：Ruby 3.4 + Bundler（`bundle install`）、Python 3 + Pillow（缩略图）、Node/Pagefind（CI 自动下载到 `.pagefind-bin/`）。
-- 静态站无后端；没有数据库；所有 SEO/分析数据靠 `tools/gsc_export.py` 导出到 gitignore 目录。
+- 静态站无后端；没有数据库；所有 SEO/分析数据靠 `skills/seo-research/scripts/gsc_export.py` 导出到 gitignore 目录。
 - 仓库含 `.gitmodules`（`assets/lib` 为 Chirpy 主题静态资源 submodule），常规工作不涉及。

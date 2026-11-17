@@ -11,7 +11,7 @@
 ## 0. 使用规范（编辑 SOP）
 
 1. **新文章**：先查本库 §1 索引 → 选目标词（优先 P0/P1）→ 文案围绕目标词展开（title/description/H1/首段/Glossary 内链）→ 填 `tags`（app/品类/类型/竞品四层，见 §3.5）→ 确认与 Pillar/App 互链 → 改完后回写本库「当前覆盖」列 + 标 `last_modified_at`（见 `SEO-PLAYBOOK.md` §2.4）。
-2. **改文章**：用 GSC 实际点击词（`tools/gsc_export.py`）回填本库「搜索量(实测)/排名」列，并据低 CTR 词重写 title/description（`SEO-PLAYBOOK.md` §2.3）。
+2. **改文章**：用 GSC 实际点击词（`skills/seo-research/scripts/gsc_export.py`）回填本库「搜索量(实测)/排名」列，并据低 CTR 词重写 title/description（`SEO-PLAYBOOK.md` §2.3）。
 3. **每月维护**：结合 Google Play Console「获客 → 商店列表 → 搜索关键字/来源」+ GSC 实际词，新增/调整/降权关键词，并在各 App 小节 §2.N.4 维护日志登记。
 4. **防自相残杀（cannibalization）**：同词只由一篇主吃，其余内链导流，不两篇抢同一词（见 `SEO-PLAYBOOK.md` §3 / §7.2）。
 
@@ -180,7 +180,7 @@
 
 ### 2.1.4 维护日志 & Google Play 数据回填区
 
-> **每月动作**：从 Google Play Console（获客 → 商店列表 → 搜索关键字 / 搜索来源）与 GSC（`tools/gsc_export.py`）导出真实词，回填下表并调整 §2.1.1/§2.1.2 的「搜索量(实测)/排名/优先级」。
+> **每月动作**：从 Google Play Console（获客 → 商店列表 → 搜索关键字 / 搜索来源）与 GSC（`skills/seo-research/scripts/gsc_export.py`）导出真实词，回填下表并调整 §2.1.1/§2.1.2 的「搜索量(实测)/排名/优先级」。
 
 | 月份 | 数据来源 | 新增/升权关键词 | 降权/删除关键词 | 备注 |
 |---|---|---|---|---|

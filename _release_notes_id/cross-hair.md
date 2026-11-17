@@ -10,7 +10,7 @@ seo:
   type: WebPage
 ---
 
-<!-- 由 tools/update_release_notes.py 从 seo/data 日志文件生成，请勿手工编辑 -->
+<!-- 由 skills/release-notes/scripts/update_release_notes.py 从 seo/data 日志文件生成，请勿手工编辑 -->
 
 ## 4.0.10
 

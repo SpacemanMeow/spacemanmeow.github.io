@@ -1,7 +1,7 @@
 # SEO 核心指标月度报告
 
 > 本文件**独立维护**，专门记录每月核心 SEO 指标的趋势与详细分析。
-> **更新方式**：每月初用 `../tools/gsc_export.py` 拉取上月全量 GSC 数据（用法见 `SEO-PLAYBOOK.md` §7.1），然后：
+> **更新方式**：每月初用 `../skills/seo-research/scripts/gsc_export.py` 拉取上月全量 GSC 数据（用法见 `SEO-PLAYBOOK.md` §7.1），然后：
 > 1. 在下方「核心指标趋势表」加一行数字；
 > 2. 在「每月详细分析」新增一个 `#### YYYY-MM` 小节，说明变化原因与后续动作。
 > **口径**：收录页数 / 点击 / 展现 / CTR / 排名来自 **GSC（Google 搜索）**；全站访问来自 **GoatCounter**（含所有来源，口径不同，仅作辅助参考）。
@@ -20,7 +20,7 @@
 | 2027-03 | | | | | |          |
 | 2027-04 | | | | | |          |
 
-收录页数 / 点击 / 展现 / CTR / 排名来自 **GSC（Google 搜索口径）**；全站访问来自 **GoatCounter**（含所有来源，口径不同，仅作辅助参考）。每月用 `../tools/gsc_export.py` 拉取后回填本表 + 下方分析。
+收录页数 / 点击 / 展现 / CTR / 排名来自 **GSC（Google 搜索口径）**；全站访问来自 **GoatCounter**（含所有来源，口径不同，仅作辅助参考）。每月用 `../skills/seo-research/scripts/gsc_export.py` 拉取后回填本表 + 下方分析。
 
 ## 每月详细分析
 

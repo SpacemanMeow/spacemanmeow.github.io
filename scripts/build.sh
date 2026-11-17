@@ -17,7 +17,7 @@ SITE_URL="${SITE_URL:-https://spacemanmeow.com}"
 TMP_ZH=".jekyll-zh"
 
 echo "==> Generating responsive cover thumbnails"
-python3 tools/generate_thumbs.py
+python3 skills/cover-images/scripts/generate_thumbs.py
 
 echo "==> Building EN (root)"
 bundle exec jekyll build --config _config.yml

@@ -373,8 +373,8 @@ AI 联网搜索不是按 PageRank 排位，而是：① 从已索引网页**检�
   - **GA4**：落地页表现、organic 会话、转化（Play 点击、文章→App 跳转）。
   - **PageSpeed Insights / Lighthouse**：CWV 实测分。
   - **GoatCounter**（本站轻量分析）：来源细分、AI 引流初现（chatgpt 已作来源）。
-- **GSC 全量数据自动拉取（脚本）**：`../tools/gsc_export.py` 通过 Search Console API 分页拉取**全量**搜索词/页面/国家/设备/日期（单次上限 5000 行，绕过 UI 导出 1000 行限制），输出 CSV + 汇总 JSON，供回填 **[SEO-METRICS.md](./SEO-METRICS.md)** 月度报告。
-  - 首次运行：`python3 ../tools/gsc_export.py --site sc-domain:spacemanmeow.com --start YYYY-MM-01 --end YYYY-MM-DD --out data/<yyyymm>` → 弹浏览器授权，自动生成 `../tools/gsc/token.json`（已 gitignore，后续免登录）。
+- **GSC 全量数据自动拉取（脚本）**：`../skills/seo-research/scripts/gsc_export.py` 通过 Search Console API 分页拉取**全量**搜索词/页面/国家/设备/日期（单次上限 5000 行，绕过 UI 导出 1000 行限制），输出 CSV + 汇总 JSON，供回填 **[SEO-METRICS.md](./SEO-METRICS.md)** 月度报告。
+  - 首次运行：`python3 ../skills/seo-research/scripts/gsc_export.py --site sc-domain:spacemanmeow.com --start YYYY-MM-01 --end YYYY-MM-DD --out data/<yyyymm>` → 弹浏览器授权，自动生成 `../skills/seo-research/scripts/gsc/token.json`（已 gitignore，后续免登录）。
   - 之后每月换日期重跑即可；结果 CSV/JSON 均在 `data/`（已 gitignore）。
   - 属性为**域名属性**，故 `--site` 用 `sc-domain:spacemanmeow.com`（URL 形式 `https://spacemanmeow.com/` 会 403）。
 - **KPI（月度跟踪）**：
@@ -410,7 +410,7 @@ AI 联网搜索不是按 PageRank 排位，而是：① 从已索引网页**检�
 1. **已发布页 URL 不变**：改文件名 / 加 `permalink` 前必须配 301；本项目暂无重定向机制，优先避免改 URL。
 2. **每篇新内容必须有**：差异化 `title` + meta `description` + 关键词化 `alt`（见 §2.3/§1.6）。
 3. **每篇新内容必须接入 app⇄文章双向内链**：检查 `image:` == 对应 app `icon`（见 §3.3）。
-4. **每月至少一次数据复盘**：更新 `SEO-METRICS.md` 月度报告（运行 `../tools/gsc_export.py` 拉数 → 填趋势表 + 新增月份分析），避免「发了不管」（见 §7.1）。
+4. **每月至少一次数据复盘**：更新 `SEO-METRICS.md` 月度报告（运行 `../skills/seo-research/scripts/gsc_export.py` 拉数 → 填趋势表 + 新增月份分析），避免「发了不管」（见 §7.1）。
 5. **所有改动中英同步**：URL / hreflang / canonical 不被破坏（见 §1.3/§6.1）。
 6. **新增语言走 `/<lang>/` 子路径**：不得改英文默认 URL、不得无 301 改已发布页 `permalink`（见 §6.2）。
 7. **新鲜度必须伴随真实内容改动**：只改日期无效且伤信任（见 §2.4 纪律）。

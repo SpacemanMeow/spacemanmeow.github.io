@@ -11,10 +11,10 @@ import subprocess
 from pathlib import Path
 
 # Configuration（相对脚本位置推导，不依赖任何机器的绝对路径）
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent.parent
 ASSETS_DIR = str(ROOT / 'assets')
 JPEG_QUALITY = 85  # Quality level (0-100, higher = better quality but larger file)
-CACHE_FILE = str(ROOT / 'tools' / '.compress_cache')
+CACHE_FILE = str(Path(__file__).resolve().parent / '.compress_cache')
 
 def get_file_size(filepath):
     """Get file size in KB"""

@@ -136,7 +136,7 @@
 - [ ] 外链铺垫（季度集中执行，月度物色 1–2 投稿目标）
 
 **D. 数据复盘（月末，约 1h）**
-- [ ] 更新 **[SEO-METRICS.md](./SEO-METRICS.md)** 月度报告（运行 `../tools/gsc_export.py` 拉取数据 → 填趋势表 + 新增月份分析小节）
+- [ ] 更新 **[SEO-METRICS.md](./SEO-METRICS.md)** 月度报告（运行 `../skills/seo-research/scripts/gsc_export.py` 拉取数据 → 填趋势表 + 新增月份分析小节）
 - [ ] GSC 对当月新页与重大改版页「请求编入索引」（T-33）
 - [ ] 复盘 CTR 偏低页 → 优化 `<title>` 与 meta `description`
 

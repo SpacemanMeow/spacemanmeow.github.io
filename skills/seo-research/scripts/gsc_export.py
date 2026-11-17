@@ -2,11 +2,11 @@
 """每月自动拉取 Google Search Console 全量数据并导出 CSV（突破 UI 1000 行限制）。
 
 用法:
-  # 首次运行会弹浏览器授权，自动生成 tools/gsc/token.json（已 gitignore）
-  python3 tools/gsc_export.py --start 2026-10-01 --end 2026-10-31 --out tools/gsc/oct2026
+  # 首次运行会弹浏览器授权，自动生成 skills/seo-research/scripts/gsc/token.json（已 gitignore）
+  python3 skills/seo-research/scripts/gsc_export.py --start 2026-10-01 --end 2026-10-31 --out skills/seo-research/scripts/gsc/oct2026
 
   # 之后可指定 GSC 属性（域名属性用 sc-domain:spacemanmeow.com）
-  python3 tools/gsc_export.py --site sc-domain:spacemanmeow.com --start 2026-11-01 --end 2026-11-30
+  python3 skills/seo-research/scripts/gsc_export.py --site sc-domain:spacemanmeow.com --start 2026-11-01 --end 2026-11-30
 
 输出:
   <out>_totals.json          整站汇总（clicks/impressions/ctr/position）

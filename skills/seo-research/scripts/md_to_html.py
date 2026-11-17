@@ -5,10 +5,10 @@ Converts Markdown files in _posts to rich text HTML files in assets/html
 Only processes files that have been modified since last conversion
 
 Usage:
-    python3 tools/md_to_html.py              # Convert updated files only
-    python3 tools/md_to_html.py --all        # Convert all files
-    python3 tools/md_to_html.py --verbose    # Verbose output
-    python3 tools/md_to_html.py --file post.md  # Convert specific file
+    python3 skills/seo-research/scripts/md_to_html.py              # Convert updated files only
+    python3 skills/seo-research/scripts/md_to_html.py --all        # Convert all files
+    python3 skills/seo-research/scripts/md_to_html.py --verbose    # Verbose output
+    python3 skills/seo-research/scripts/md_to_html.py --file post.md  # Convert specific file
 """
 
 import os
@@ -21,10 +21,10 @@ from pathlib import Path
 from datetime import datetime
 
 # Configuration（相对脚本位置推导，不依赖任何机器的绝对路径）
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent.parent
 POSTS_DIR = str(ROOT / '_posts')
 OUTPUT_DIR = str(ROOT / 'assets' / 'html')
-CACHE_FILE = str(ROOT / 'tools' / '.md_to_html_cache')
+CACHE_FILE = str(Path(__file__).resolve().parent / '.md_to_html_cache')
 
 # HTML Template with rich styling
 HTML_TEMPLATE = '''<!DOCTYPE html>
@@ -493,11 +493,11 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog='''
 Examples:
-    python3 tools/md_to_html.py              # Convert updated files only
-    python3 tools/md_to_html.py --all        # Convert all files
-    python3 tools/md_to_html.py --verbose    # Verbose output
-    python3 tools/md_to_html.py --file post.md  # Convert specific file
-    python3 tools/md_to_html.py --clean      # Clear cache and convert all
+    python3 skills/seo-research/scripts/md_to_html.py              # Convert updated files only
+    python3 skills/seo-research/scripts/md_to_html.py --all        # Convert all files
+    python3 skills/seo-research/scripts/md_to_html.py --verbose    # Verbose output
+    python3 skills/seo-research/scripts/md_to_html.py --file post.md  # Convert specific file
+    python3 skills/seo-research/scripts/md_to_html.py --clean      # Clear cache and convert all
         '''
     )
     parser.add_argument('--all', '-a', action='store_true', help='Convert all files (ignore cache)')

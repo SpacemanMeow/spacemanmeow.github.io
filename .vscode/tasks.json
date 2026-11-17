@@ -4,7 +4,7 @@
     {
       "label": "Run Jekyll Server",
       "type": "shell",
-      "command": "./tools/run.sh",
+      "command": "./skills/site-build-deploy/scripts/run.sh",
       "group": {
         "kind": "build",
         "isDefault": true
@@ -15,7 +15,7 @@
     {
       "label": "Build & Validate Site (5 languages)",
       "type": "shell",
-      "command": "./tools/test.sh",
+      "command": "./skills/site-build-deploy/scripts/test.sh",
       "group": {
         "kind": "build"
       },

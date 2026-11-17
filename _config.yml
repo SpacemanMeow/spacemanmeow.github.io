@@ -102,7 +102,7 @@ defaults:
       # 强制 seo-tag 类型，避免其把 app 页误判为 BlogPosting（app 页由 app-jsonld.html 提供正确的 SoftwareApplication）
       seo:
         type: WebPage
-  # Release Note 页：由 tools/update_release_notes.py 从 seo/data 日志文件生成，layout 在 front matter
+  # Release Note 页：由 skills/release-notes/scripts/update_release_notes.py 从 seo/data 日志文件生成，layout 在 front matter
   - scope:
       path: ""
       type: release_notes
@@ -196,6 +196,8 @@ exclude:
   - "seo/**"
   - README.md
   - AGENTS.md
+  - skills
+  - skills/**
   - SEO-OPTIMIZATION-PLAN.md
   - LICENSE
   - purgecss.js
