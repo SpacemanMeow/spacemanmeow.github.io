@@ -1,170 +1,87 @@
 # SpacemanMeow SEO 进度跟踪（Progress）
 
-> **用途**：跟踪每条 SEO 方法的落地状态、月度运营计划与进度台账。方法本身见 `SEO-PLAYBOOK.md`。
-> **最后更新**：2026-11-08
-> **语言范围**：英文站（默认）+ `/zh/` 中文站（已上线）+ 后续可扩展其他语言（id/ms/tl/hi 等）。所有优化默认全语言同步；新增语言走 `/<lang>/` 子路径、配 hreflang + canonical，URL 不变。
-> 状态图例：✅ 已落地　🟡 部分落地　♻️ 持续运营中　☐ 待做
+> **用途**：跟踪每条 SEO 方法的落地状态、待做项与月度运营计划。方法本身见 `SEO-PLAYBOOK.md`，多语言状态见 `SEO-I18N-PROGRESS.md`（唯一状态源），验收见 `SITE-AUDIT.md`。
+> **最后更新**：2026-11-17
+> **语言范围**：5 语并行（EN 根 + `/zh/` `/id/` `/ms/` `/th/`，全部全量上线）。所有优化默认全语言同步；新增语言走 `/<lang>/` 子路径、配 hreflang + canonical，URL 不变。
+> 状态图例：✅ 已落地　🟢 已完成可发布　🟡 部分落地　♻️ 持续运营中　☐ 待做
 
 ---
 
 ## 0. 阅读说明
-- **两类任务**：
-  - **短期 / 一次性**：技术地基、一次性内容建设（做完即固化）。
-  - **长期运营**：需按月滚动的内容/权威/数据动作（见 §4 月度计划）。
-- 已落地任务明细（§2）保留完整执行记录，便于回溯；待做项（§3）直接取自 Playbook 分类。
 
----
+- **两类任务**：短期/一次性（技术地基、一次性内容建设，做完即固化）与长期运营（按月滚动，见 §4）。
+- **文档同步范围**：本台账与 `SEO-OPTIMIZATION-PLAN.md` 只记录**优化方案/措施、进度与规划**；bug 修复、格式/一致性调整不写入。逐次执行明细见 `SITE-AUDIT.md` §8 与 git 提交历史，本文件不重复堆砌流水。
 
-## 1. 任务总览（按分类 + 类型 + 状态）
+## 1. 任务总览
 
-### 1.A 短期 / 一次性任务
-| 编号 | 任务 | 分类 | 状态 | 完成日期 | 备注 |
+### 1.A 技术地基 / 一次性内容（全部完成）
+
+| 编号 | 任务 | 分类 | 状态 | 完成 |
+|---|---|---|---|---|
+| T-01～T-03 | sitemap / robots / GSC 验证提交 | 技术 | ✅ | 2026-10 |
+| T-04～T-08 | app description / JSON-LD（SoftwareApplication、FAQPage、Breadcrumb、BlogPosting） | 技术/内容 | ✅ | 2026-10 |
+| T-09～T-13 | alt 关键词化去重 / canonical / OG 图 / CWV 首屏懒加载 / 提交 feed | 技术 | ✅ | 2026-10 |
+| T-14～T-17 | App Guides 回链 / tags 聚合 / 相关文章区块 | 内链 | ✅ | 2026-10 |
+| T-18 | Glossary 词汇页（现 27 条/语言） | 内容/AI | ✅ | 2026-10 起持续 |
+| T-19～T-20 | Pillar 新鲜度时间戳 / 404 + 站内搜索（Pagefind 5 语分片） | 内容/体验 | ✅ | 2026-10～11 |
+| T-23～T-24 | Bing WMT / IndexNow 自动提交 | 技术/AI | ✅ | 2026-10 |
+| T-34 | 既有文章人工审核与完善（10 组全量复核完毕） | 内容质量 | ✅ | 2026-11-05 |
+
+> 逐任务执行记录（含每组的关键词命中数、升权词、alt 去重数等）见 git 历史与 `SITE-AUDIT.md` §8；数量口径以文件系统实测为准。
+
+### 1.B 长期运营任务（按月滚动）
+
+| 编号 | 任务 | 分类 | 状态 | 频率 |
+|---|---|---|---|---|
+| T-18x | Glossary 词条持续扩量 | 内容/AI | ♻️ | 月度 |
+| T-17x | 相关文章补全（新文 + 旧文） | 内链 | ♻️ | 月度 |
+| T-19x | 更新日志（Release Note，5 语共 55 页已上线，见 D20） | 内容 | ♻️ | 随发版 |
+| T-25 | 长尾内容（Best / vs / Alternatives） | 内容 | ♻️ | 月度 |
+| T-32 / T-33 | 结构化数据月度校验 / GSC 请求编入索引 | 治理 | ♻️ | 月度 |
+| T-21 | 外链 / roundup 投稿 | 权威 | ☐ | 季度 |
+| T-22b | BlogPosting dateModified / author 细化 | 结构化 | ☐ | 规划 |
+| T-29 | 图片再优化（AVIF / srcset 预载） | 性能 | ☐ | 规划 |
+| T-30 | App 内官网链接加 UTM（App 侧） | 度量 | ☐ | 规划 |
+| T-31 | 新增语言（`tl` / `hi` 等；id/th/ms 已全部交付） | 扩张 | ☐ | 按数据排期 |
+
+## 2. 待做 / 候选优化清单
+
+| 编号 | 优化项 | 分类 | 谁做 | ROI | 状态 |
 |---|---|---|---|---|---|
-| T-01 | jekyll-sitemap 生成 sitemap.xml | 技术 | ✅ | 2026-10-10 | |
-| T-02 | robots.txt | 技术 | ✅ | 2026-10-10 | |
-| T-03 | GSC 验证 + 提交 sitemap | 技术 | ✅ | 2026-10-10 | |
-| T-04 | 11 app 补 description | 内容 | ✅ | 2026-10-10 | |
-| T-05 | SoftwareApplication JSON-LD | 技术 | ✅ | 2026-10-10 | |
-| T-06 | FAQPage JSON-LD + 可见 FAQ | 技术 | ✅ | 2026-10-10 | 11 页 4 问 |
-| T-07 | BreadcrumbList JSON-LD | 技术 | ✅ | 2026-10-10 | |
-| T-08 | BlogPosting/Article JSON-LD | 技术 | ✅ | 2026-10-10 | |
-| T-09 | 图片 alt 关键词化 + 差异化 0 重复 | 技术 | ✅ | 2026-10-18 | 839 处 |
-| T-10 | canonical 生效 | 技术 | ✅ | 2026-10-10 | |
-| T-11 | hreflang 双向 + `<html lang>` | 技术/i18n | ✅ | 2026-10-30 | `/zh/` 上线 |
-| T-12 | OG/Twitter 图按 app 区分 | 技术 | ✅ | 2026-10-10 | |
-| T-13 | Core Web Vitals 审计 + 首屏懒加载修正 | 技术 | ✅ | 2026-10-30 | PSI 实时分待手动取 |
-| T-14 | App 页 Guides 回链区块 | 内链 | ✅ | 2026-10-18 | |
-| T-15 | /tags/ 聚合页 + 标签可点击 | 内链 | ✅ | 2026-10-18 | 81 组 |
-| T-16 | 提交 feed.xml 到 GSC/Bing | 技术 | ✅ | 2026-10-30 | 提交步骤见 §2 |
-| T-17 | 文章底部「相关文章」区块 | 内链 | ✅ | 2026-10-30 | 自动化 |
-| T-18 | Glossary 词汇页（22 条/语言） | 内容/AI | ✅ | 2026-10-30 | |
-| T-19 | Pillar 新鲜度时间戳 | 内容 | ✅ | 2026-10-30 | 独立 changelog 待 Q1 |
-| T-20 | 404 页 + 站内搜索 | 体验 | ✅ | 2026-10-30 | |
-| T-23 | Bing WMT 验证 + sitemap | 技术/AI | ✅ | 2026-10-30 | |
-| T-24 | IndexNow 自动提交 | 技术/AI | ✅ | 2026-10-30 | deploy 后 ping |
-
-### 1.B 长期运营任务（需月度滚动）
-| 编号 | 任务 | 分类 | 状态 | 频率 | 备注 |
-|---|---|---|---|---|---|
-| T-18x | Glossary 词条持续扩量（≥2 条/月） | 内容/AI | ♻️ | 月度 | 已 22 条/语言，持续增 |
-| T-17x | 相关文章补全（新文 + 旧文） | 内链 | ♻️ | 月度 | |
-| T-19x | 更新日志/版本博客（≥1 篇/月） | 内容 | ♻️ | 月度 | 常态化新鲜度 |
-| T-25 | 长尾内容 ≥2 篇/月（Best/vs/Alternatives） | 内容 | ♻️ | 月度 | |
-| T-21 | 外链 / roundup 投稿 | 权威 | ☐ | 季度集中 | 手动排期 |
-| T-22b | BlogPosting dateModified / author 细化 | 技术 | ☐ | Q2 2027 | |
-| T-26 | Glossary 定义页加 FAQPage JSON-LD | 结构化 | ☐ | 待做 | AI 易引用 |
-| T-27 | 标签词表归并 | 内链 | ☐ | 待做 | |
-| T-28 | Glossary→App 反向回链 + 面包屑 | 内链 | ☐ | 待做 | |
-| T-29 | 图片再优化（AVIF/srcset/预载） | 性能 | ☐ | 待做 | |
-| T-30 | App 内官网链接加 UTM | 度量 | ☐ | 待做 | App 侧 |
-| T-31 | 其他语种试点（id/ms/tl/hi） | 扩张 | ☐ | 待评估 | 需 ZH 数据 |
-| T-32 | 结构化数据月度校验 | 治理 | ♻️ | 月度 | |
-| T-33 | GSC/Bing 月度「请求编入索引」 | 治理 | ♻️ | 月度 | |
-| T-34 | 既有文章人工审核与完善（`_posts` 批量生成文） | 内容质量 | ✅ | 持续（多月） | 逐批审完整度/准确性；纳入 §4.1 E。**2026-11-05：完成 10 组 / 共 10 组（逐组明细见本行 ①–⑩ 与 `SEO-KEYWORDS.md` §2.1 各组关键词表）**——① Crosshair Aim 示范组（12 文件，45/45 命中）；② Meow Todo（12 文件，41/41 命中 + 8 词升权）；③ Meow Habits（12 文件，50/50 命中 + 10 个竞品拦截词升权、10 张重复 alt 去重）；④ Meow Mood Diary（12 文件，50/50 命中 + 13 个竞品拦截词升权、8 张重复 alt 去重）；⑤ Meow FM（12 文件，48/48 命中 + 10 个竞品拦截词升权、6 张重复 alt 去重、4 条超长 description 压缩）；⑥ One Widget（12 文件，60/60 命中 + 11 个竞品拦截词升权、12 张重复 alt 去重、2 条超长 description 压缩）；⑦ Only Clock（12 文件，61/61 命中 + 14 个竞品拦截词升权、26 张重复 alt 去重、4 条超长 description 压缩）；⑧ CPU Monitor（12 文件，62/62 命中 + 16 个竞品拦截词升权、10 张重复 alt 去重、3 条超长 description 压缩）；⑨ System Monitor（12 文件，67/67 命中 + 17 个竞品拦截词升权、22 张重复 alt 去重、4 条超长 description 压缩）；⑩ Floating Assistant（12 文件，57/57 命中 + 13 行竞品拦截词升权、6 张重复 alt 去重、6 条超长 description 压缩）。均为正文实质扩写、关键词真实铺入正文/meta/alt、逐词脚本核对、构建+htmlproofer 通过。10 组全部完成。 |
-
----
-
-## 2. 已落地任务明细（执行记录）
-
-| 编号 | 任务 | 完成日期 | 执行记录 |
-|---|---|---|---|
-| T-01 | sitemap.xml | 2026-10-10 | jekyll-sitemap 原已在 ../Gemfile 与 ../_config.yml；修正 `url` 为 `https://spacemanmeow.com`（原误用 github.io），本地构建已生成 |
-| T-02 | robots.txt | 2026-10-10 | 根目录创建，Allow 全站并指向 sitemap |
-| T-03 | GSC 验证+提交 | 2026-10-10 | 用户已完成验证并线上提交；「无法抓取」为 SC 状态延迟，72h 后自动转成功 |
-| T-04 | app description | 2026-10-10 | 11 app 加 150–160 字符含主词 description |
-| T-05 | SoftwareApplication | 2026-10-10 | 新增 `_includes/app-jsonld.html` 接 `app.html`；11 页 JSON 合法 |
-| T-06 | FAQPage + FAQ | 2026-10-10 | 11 app 加 `faq:` 4 问/页；`app.html` 渲染可见 FAQ；薄弱集群后增至 6 问（T-22） |
-| T-07 | BreadcrumbList | 2026-10-10 | 新增 `_includes/breadcrumb-jsonld.html` 接 `default.html`；18 个非首页页含 |
-| T-08 | BlogPosting | 2026-10-10 | jekyll-seo-tag 自动输出；修作者 URL 旧域名 github.io→spacemanmeow.com |
-| T-09 | 图片 alt | 2026-10-18 | 839 处规范化为「{专名} screenshot: {小标题} — {标题}」；专名大小写修正；同文件重复 0；791 张带 width 防 CLS；`![image]` 零残留 |
-| T-10 | canonical | 2026-10-10 | seo-tag 输出 `<link rel="canonical" href="https://spacemanmeow.com/...">` |
-| T-11 | hreflang | 2026-10-30 | `/zh/` 上线后构建注入 en/zh 双向 hreflang（每页 3 条 alternate）；`<html lang>` 自动输出 |
-| T-12 | OG/Twitter 图 | 2026-10-10 | 11 app 加 `image:` 取各自 icon.webp；独立 og:image/twitter:image |
-| T-13 | CWV 审计 | 2026-10-30 | 审计全站懒加载：详情页 hero 商店徽章、列表首卡图标改 eager（原首屏却 lazy 伤 LCP）；页脚/卡内徽章保留 lazy；均 WebP、无自定义字体。PSI API 限流未取得实时分 |
-| T-14 | Guides 回链 | 2026-10-18 | `app.html`+`main.css` 按 `post.image==app.icon` 列该 app 6 篇相关文章；11 app 全生效 |
-| T-15 | /tags/ 聚合 | 2026-10-18 | `_pages/tags.md` 原生 81 组索引 + 文章底部 tag 可点击 + 44 篇 guide 补四层标签；死锚点 0，htmlproofer 绿 |
-| T-16 | feed.xml 提交 | 2026-10-30 | EN `feed.xml` 在线；ZH 因路径问题未产出，修正 `../_config_zh.yml` 的 `feed.path` 为 `zh/feed.xml` 后 EN/ZH 各 10 条 entry。提交步骤（手动）：GSC「Sitemaps」粘贴 feed URL；Bing WMT 同理 |
-| T-17 | 相关文章 | 2026-10-30 | `_includes/related-posts.html` 按标签重叠取同语言最多 4 篇 + 父 app 回链，接 `post.html`/`guide.html`；中英同步；原 20 篇手写区块已清理 |
-| T-18 | Glossary | 2026-10-30 | `glossary`/`glossary_zh` 集合 + `_layouts/glossary.html`；16 定义页/语言 + 索引页（EN/ZH 各 `/glossary/`、`/zh/glossary/`），进 sitemap + 双向 hreflang；10 个相关 app 页加「相关术语」回链；博客顶加「词汇表」入口。中英同步 |
-| T-19 | 新鲜度时间戳 | 2026-10-30 | 11 Pillar 页（EN+ZH 共 22 篇）加 `last_modified_at: 2026-10-30`，`post.html` 渲染 "Last updated/最后更新"。独立 changelog 页留 Q1 2027 |
-| T-20 | 404 + 搜索 | 2026-10-30 | 根 `404.html` 双语；Pagefind 扩展版 EN/ZH 独立索引（含中文分词）；导航加搜索入口 |
-| T-23 | Bing WMT | 2026-10-30 | 用户添加 `spacemanmeow.com` 并导入 GSC 验证；提交 sitemap。前置：`../_config.yml` 配 `webmaster_verifications.bing`，每页输出 `msvalidate.01` meta |
-| T-24 | IndexNow | 2026-10-30 | 根加 `../indexnow-key.txt`（key `d8564afe6a7d6a287d4b47b6296b1b15`）；`../.github/workflows/pages-deploy.yml` deploy 后 ping `api.indexnow.org` 提交全量 ~190 URL；`continue-on-error` 容错 |
-
-**已知问题与修复**
-- seo-tag 误判 + 非法 JSON：原把无日期页填构建时间当 `date` 误标 `BlogPosting`，且 `&`→`&amp;` 塞进 JSON-LD 致 Google 丢弃。修复：含 `&` 处改 `and`；apps/隐私/条款加 `seo.type: WebPage`。构建校验：全站 JSON-LD 无 `&amp;`，app 页 `@type` 为 `WebPage`+`SoftwareApplication`+`FAQPage`+`BreadcrumbList`。
-- `url` 已从 github.io 改为 spacemanmeow.com，线上 canonical/sitemap 均为该域名。
-
----
-
-## 3. 待做 / 候选优化清单（滚动维护）
-> 来源：Playbook 各分类标 ☐ 的项。每条标注类型 / 谁来做 / ROI。
-
-| 编号 | 优化项 | 分类 | 谁来做 | ROI | 状态 |
-|---|---|---|---|---|---|
-| T-21 | 外链/roundup 投稿（Product Hunt/alternative.to/少数派） | 权威 | 手动 | 高 | ☐ |
-| T-22b | BlogPosting dateModified / author 细化 | 结构化 | 站内 | 中 | ☐（Q2 2027） |
-| T-26 | Glossary 定义页加 FAQPage JSON-LD | 结构化 | 站内 | 高 | ☐（AI 易引用） |
-| T-27 | 标签词表归并 | 内链 | 站内 | 中 | ☐ |
-| T-28 | Glossary→App 反向回链 + 面包屑 | 内链 | 站内 | 中 | ☐ |
-| T-29 | 图片再优化（AVIF/srcset/预载） | 性能 | 站内 | 中 | ☐ |
+| T-21 | 外链 / roundup 投稿（Product Hunt / alternative.to / 少数派） | 权威 | 手动 | 高 | ☐ |
+| T-22b | BlogPosting dateModified / author 细化 | 结构化 | 站内 | 中 | ☐ |
+| T-29 | 图片再优化（AVIF / srcset / 预载） | 性能 | 站内 | 中 | ☐ |
 | T-30 | App 内官网链接加 UTM | 度量 | App 侧 | 中 | ☐ |
-| T-31 | 其他语种试点（id/ms/th 已全量交付；tl/hi 待做） | 扩张 | 站内+人工 | 🟡 部分 | id/ms/th 5 语已全量交付（含本次预算对比文补齐，66/66→67/67），tl/hi 待评估 |
-| T-32 | 结构化数据月度校验 | 治理 | 站内 | 中 | ♻️ 月度 |
-| T-33 | GSC/Bing 月度「请求编入索引」 | 治理 | 手动 | 中 | ♻️ 月度 |
-| T-34 | 既有文章人工审核与完善（`_posts` 批量生成文，逐批审） | 内容质量 | 人工 | 中-高 | ✅（已完成 10 组，全部复核完毕） |
+| T-31 | 新增语言（tl / hi） | 扩张 | 站内+人工 | 中 | ☐ 按获客数据排期 |
 
-**建议节奏**：先 T-26（Glossary FAQPage，站内高 ROI）→ T-27/29（低成本补完）→ T-21（季度外部杠杆）→ T-31（验证后扩语种）。
+> 已并入 D11/D19 硬门禁、不再列为待做：T-26（Glossary FAQPage 随结构化数据维护）、T-27（标签一致性由 D19 校验）、T-28（Glossary⇄App 回链由 D11 校验）。
+> **建议节奏**：先 T-29（低成本性能）→ T-21（季度外部杠杆）→ T-31（验证后扩语种）。
 
-## 4. 月度长期运营规划
+## 3. 月度长期运营规划
 
-### 4.1 月度固定清单（Monthly Checklist）
-**A. 技术巡检（每月第 1 周，约 1h）**
-- [ ] `bundle exec jekyll build` + htmlproofer，死链/锚点/图片全绿
+### 3.1 月度固定清单（Monthly Checklist）
+
+**A. 技术巡检（每月第 1 周）**
+- [ ] 按 `SITE-AUDIT.md` §0 完整构建 + htmlproofer，死链 / 锚点 / 图片全绿；跑 §5 教研脚本 FAIL=0
 - [ ] 确认 sitemap.xml 更新、GSC 无抓取错误
-- [ ] Rich Results Test 抽验 1–2 个 app 页 JSON-LD 合法（T-32）
-- [ ] PageSpeed Insights 抽 2 核心页，LCP/CLS 无回退
+- [ ] Rich Results Test 抽验 1–2 个 app 页 JSON-LD（T-32）
+- [ ] PageSpeed Insights 抽 2 核心页，LCP / CLS 无回退
 
-**B. 内容产出（全月配额，可累积）**
-- [ ] **Glossary 词条 ≥ 2 条**（T-18x）：what is … 类，AI 搜索最爱
-- [ ] **相关文章补全**：当月新文 + 至少 3 篇旧文补 Related posts（T-17x）
-- [ ] **更新日志 / 版本博客 ≥ 1 篇**（T-19x）
-- [ ] **新长尾内容 ≥ 2 篇**：Best-X-for-Y / vs / Alternatives 补薄弱品类（T-25）
+**B. 内容产出（全月配额）**
+- [ ] Glossary 词条 ≥ 2 条（T-18x）
+- [ ] 相关文章补全：当月新文 + 至少 3 篇旧文（T-17x）
+- [ ] 长尾内容 ≥ 2 篇（Best / vs / Alternatives，T-25）
 
 **C. 内链与权威**
-- [ ] 新文章确认纳入 app 页回链（检查 `image:` == 对应 app `icon`）
-- [ ] 外链铺垫（季度集中执行，月度物色 1–2 投稿目标）
+- [ ] 新文章确认纳入 App 页回链（`image:` == 对应 App `icon`）
+- [ ] 外链铺垫：月度物色 1–2 投稿目标（T-21 季度集中执行）
 
-**D. 数据复盘（月末，约 1h）**
-- [ ] 更新 **[SEO-METRICS.md](./SEO-METRICS.md)** 月度报告（运行 `../skills/seo-research/scripts/gsc_export.py` 拉取数据 → 填趋势表 + 新增月份分析小节）
+**D. 数据复盘（月末）**
+- [ ] 更新 `SEO-METRICS.md`（`../skills/seo-research/scripts/gsc_export.py` 拉数 → 趋势表 + 月份分析）
 - [ ] GSC 对当月新页与重大改版页「请求编入索引」（T-33）
-- [ ] 复盘 CTR 偏低页 → 优化 `<title>` 与 meta `description`
+- [ ] 复盘 CTR 偏低页 → 优化 `<title>` / `description`
 
-**E. 内容质量审核（持续多月，逐批推进）**
-- [ ] 人工审核并完善既有文章（T-34）：每月推进一批 `_posts` 批量生成文，核对完整度/准确性，补数据、修正表述、统一术语
+### 3.2 当月规划
 
-### 4.2 当月规划的事情
-
-- **2026-11**
-  - [ ] **Glossary 完善：**头部关键词 + 长尾关键词（头部词仅占搜索流量 ~35%，约 65% 为长尾）现在 Meow Money Manager 落地
-  - [x] **现有文章和 App 页面优化：**基于中文优化现有的 Meow Money Manager 文章，丰富内容，提升文章价值，优化关键字，增加 AI 索引能力
-  - [x] `_posts/zh/2026-04-07-best-meow-money-manager-android.md`：description 加品牌名+关键词、开头 Glossary 内链、正文品牌露出+多语言、新增典型场景段、新增 AI 友好 FAQ
-  - [x] `_posts/zh/2026-04-12-best-meow-money-manager-students.md`：同上优化（品牌名/多语言/典型场景/FAQ）
-  - [x] `_posts/zh/2026-06-03-pillar-budget-expense-tracker-apps-android.md`：支柱页补全——品牌名/多语言/典型场景/FAQ，新增 EveryDollar 小节提升权威性，选购清单加 App 页内链，更新 last_modified_at
-  - [x] `_posts/zh/2026-08-08-tutorial-meow-money.md`：品牌名露出+多语言+Glossary 内链，修正图标数 500+→400+（与全站一致），新增 AI 友好 FAQ
-  - [x] `_posts/zh/2026-09-26-vs-meow-money-and-ynab.md`：品牌名露出+多语言+Glossary 内链，新增典型场景段、下载处 App 页内链、FAQ（核心区别/隐私/同步/多币种）
-  - [x] `_posts/zh/2026-01-31-alternatives-to-mint.md`（Mint 替代品指南）：H2 加「喵窝记账」、开头段植入中文关键词+Glossary 内链、新增典型场景段、下载/选购处加 App 页权威内链、新增 AI 友好 FAQ
-  - [x] `_posts/2026-01-31-alternatives-to-mint.md`（EN 版，已与 ZH 同步）：description 加品牌名、开头段加 Glossary 内链+多语言、新增 Typical scenarios 段、下载/选购处加 `/apps/meow-money-manager/` 权威内链、新增 EN FAQ；7 款 App 的英文图片 alt 也升级为与 ZH 对应的细粒度描述
-  - [x] `_apps_zh/meow-money-manager.md` / `_apps/meow-money-manager.md`：按 Google Play 当地检索确认的中英文关键词优化 App 详情页——tagline 与 description 补品牌和 P0 长尾、正文 11 项功能按「特色优先」重排并补全细节、合并重复 FAQ 补齐 7 组问答、备份口径改为 Google Drive 与 WebDAV；EN/ZH 的 H2 与 FAQ 数量对等，title 保持纯品牌词避免与 Pillar 抢 Head 词
-  - [ ] **[通用理财词] 建 `money tracker` 支柱页并深链 App（T-36）**：money tracker 为 App 第一搜索词（日均 80.8，§5.1），当前仅在 App 集群顺带覆盖，应做成独立 SEO 资产，围绕 Meow Money Manager 最高频关键词主题生成一篇的新闻文章
-  - [ ] **多语言内容流量获取：** Meow Money Manager 获客语言构成为 印尼23% / 泰2.7%（但是展示量特别高），先将 Meow Money Manager 的所有内容进行多语言扩充
-  - [x] **规范与状态外置**：新增 `seo/SEO-I18N-PLAYBOOK.md`（后续所有语言扩展按此执行，无需重复说明要求）与 `seo/SEO-I18N-PROGRESS.md`（外置进度，防上下文溢出导致质量下降 / 实现方式不一致）
-  - [x] **印尼语关键词先行**：基于 Google Play `hl=id&gl=ID` 在架标题 + 印尼本地网页检索确定本地词（非 en/zh 等价翻译），已登记 `seo/SEO-KEYWORDS.md` §2.1.5；确认 `aplikasi catatan keuangan` / `pencatat keuangan` / `atur anggaran bulanan` / `offline tanpa internet` 等，并收录英语借词 `budget` / `expense tracker` 与本地竞品拦截词
-  - [x] **`/id/` 网页结构按既有 i18n 规范落地**：独立集合 `apps_id` / `glossary_id`、`_config_id.yml`、`/id/` permalink、hreflang 成环、canonical、合并 sitemap、feed、Pagefind 分片；模板消除 `zh`-vs-else 二元硬编码改为 N 语言通用
-  - [x] **页面类型不遗漏**：除 posts 与 app 页外，`pages`（about/privacy/terms/search/tags/glossary/meow/index）、22 条术语定义、blog 分页、404、导航 / UI / 语言切换、搜索均需印尼语内容（结构页 8 / 术语 22 / App 11 / blog / 404 / 导航 / UI / feed / sitemap / Pagefind 已全部落地；posts 36/66：G1 6 篇 + Phase 3 · G2 6 篇 + G3 6 篇 + G4 6 篇 + G5 6 篇 + G6 6 篇，其余按 Phase 3 分批）
-  - [x] **Meow Money Manager 印尼语内容**：`_apps_id/meow-money-manager.md` + 6 篇 `_posts/id/`（按本地关键词重写，不是逐段翻译）
-  - [x] **马来语（ms）Phase 5 全量交付**：`/ms/` 66 posts + 11 App + 22 术语 + 8 结构页，`SEO-KEYWORDS.md` §2.1.6 共 29 词全部已覆盖；5 语构建 570 页、htmlproofer 1099 内链 0 failure、教研 ms 全维度 PASS
-  - [x] 后续按 `SEO-I18N-PROGRESS.md` 分批：其余 10 个 App 的印尼语内容 → 印尼语全部 posts → 泰语 / 马来语等其它语言（Phase 3 / 4 / 5 均已完成，5 语 66/66 posts 全量交付，进度见 `SEO-I18N-PROGRESS.md`）
-  - [x] **EN 预算对比文标杆 + 5 语同步补齐**：`_posts/2026-11-08-budget-feature-comparison.md`（EN 标杆，对比类教程骨架：速览表→技术分歧 6 节→逐 App 拆解→多维对比→选型建议含官方下载表→FAQ→相关术语）+ ZH/ID/MS/TH 各 1 篇（结构/目录/图片行序对齐 EN，D18 全绿）；各语言新增 5 个预算概念 glossary（`zero-based budgeting` / `envelope budgeting` / `budget rollover` / `sinking fund` / `category budget` 借词形态，H2 风格按各语言既有 glossary），D03 五语文章 67/67、术语 27/27 全部对称；词库 `SEO-KEYWORDS.md` §2.1.5/6/7 登记借词概念词（TH 原无独立词表段先补 §2.1.7）；本地竞品补充段（ID DuitKu、MS MoneyMama/MAE、TH TrueMoney/PromptPay）；完整教研（含 Pagefind）65 PASS / 0 FAIL / 1 WARN（D14 仅标新增文件待确认），`SEO-I18N-PLAYBOOK.md` 新增 §3.6 单篇跨语言新增 SOP
-  - [x] **习惯应用功能机制深对比文 5 语正式发布（EN 标杆 + ZH/ID/MS/TH 同步）**：`_posts/2026-11-12-habit-feature-comparison.md`（EN 标杆，425 行 / 9 H2 / 31 H3 / 63 表格行 / 24 图 / 8 组 FAQ / 4 组深度对比表）与 `_posts/{zh,id,ms,th}/` 各 1 篇，按 `SEO-I18N-PLAYBOOK.md` §3.6 从 EN 骨架逐行本地化——5 语逐行对齐 424 行、24 张图同路径同绝对行号、`alt` 本地化且未照抄 EN、内链按语言加前缀、`description ≤160`；中文定稿自 `seo/drafts/` 转正，骨架为「核心概念 → 实际价值与边界 → 六个技术分歧点 → 7 款逐款拆解 → 多维深度对比 → 选型建议 → FAQ → 相关术语」，功能事实依据 `spaceman/packages/habit` 与竞品官方页面联网核对（含 Lally 2010 / Burke 2011 行为科学口径）；24 张图保持原始比例不裁切、同行自然等高，无需 `height` 属性且 `main.css` 零改动；`SEO-KEYWORDS.md` §2.3.1 新增「Habit concept terms」20 个概念词（8 个英语借词 + zh/id/ms/th 各 3 个本地概念词），D09 归一化逐词核对 MISS=0；各语言「相关术语」链接复用既有 2 个 habit glossary，术语页已对称故不新增；完整构建（含 Pagefind）+ htmlproofer + §5 教研结果与产物抽验见 `SITE-AUDIT.md` §8
-  - [x] **清单应用功能深度对比文 5 语正式发布（EN 标杆 + ZH/ID/MS/TH 同步，按 §3.6）**：`_posts/2026-11-12-todo-feature-comparison.md`（EN 标杆）与 `_posts/{zh,id,ms,th}/` 各 1 篇，各 327 行 / 11 H2 / 24 图 / 9 组同行等高插图 / 8 组 FAQ + 6 条误区 / 3 表 / 7 款官方下载链接 / 文内「核心概念小词典」8 词条；主题为「什么是清单应用 + 实际价值」，按**一条任务的五段旅程**（捕获 / 组织 / 执行 / 完成 / 回顾）组织，中文打磨稿自 `seo/drafts/` 转正后以中文定稿逐行起稿 4 语，5 语图片绝对行号、H2/H3 序列、结构块序列与 TOC 序列完全一致，`alt` 本地化且唯一、未照抄 EN，内链按语言加前缀，description ≤160；与预算文 / 习惯文**共享 H2 = 0**、速览表 / 阅读前提 / 一眼可见的分野 / 你该选哪个等模板句式 0 命中，标题不用「疑问句 + 7 款…深度对比」公式，FAQ 章节仍按站点模板保留 8 组 `{:.faq-q}`；中文 4 处平台口径修正为 Android / iOS 双平台，功能细则以 Android 界面为准、iOS 以应用内显示为准；功能事实依据 `spaceman/packages/todo` 代码（只取用户可见规则：重复任务派生全新下一条、逾期不顺延、纯本地无账号、10 类小组件、免费限 10 清单 / 10 标签 / 单任务 10 子任务、无导入 / 无回收站 / 无自然语言解析）与竞品官方页面 / 帮助中心 / 定价页联网核对，行为科学引用 Masicampo & Baumeister 2011（JPSP 101(4), 667–683）与蔡格尼克效应并写明证据边界；24 张官方截图（自家 9 张取自 `assets/images/apps/meow-todo-list/`，竞品 15 张抓自官方商店高清图）保持原始比例不裁切，无 `height` 属性、`main.css` 零改动；7 款产品的 Google Play 包名逐个打开页面核对应用名、App Store 应用 ID 用 Apple 官方 Lookup 接口核对名称与开发者，官方下载地址节按用户要求置于 FAQ 之前；`SEO-KEYWORDS.md` §2.2.1 新增「Todo concept terms」20 个概念词（8 英语借词 + zh/id/ms/th 各 3 个本地词）并在 §2.2.4 补维护日志，D09 MISS=0；文内小词典 + 复用既有 `what-is-a-subtask` 术语页满足 glossary 需求，术语页 27/27 已对称故不新增独立 glossary；完整构建（含 Pagefind）+ htmlproofer + §5 教研结果与产物抽验见 `SITE-AUDIT.md` §8
+- **2026-11**（已完成，详见 `SITE-AUDIT.md` §8）：5 语预算对比文、习惯机制深对比文、清单应用深对比文三批 5 语发布；id/th/ms 全量交付收尾；文章达 69/语、术语 27/语；Release Note 55 页上线；`page.lang` 与 GSC 输出路径等口径修正。
+- **待推进**：`money tracker` 独立支柱页（T-36，App 第一搜索词，当前仅在 App 集群顺带覆盖）；`widget catatan keuangan` 产品口径核实；T-21 外链投稿。

@@ -4,7 +4,7 @@ title: "System Monitor - 系统监控 — 更新日志"
 app_slug: system-monitor
 app_title: "System Monitor - 系统监控"
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.marvel
-app_store: 
+app_store: ""
 lang: zh
 seo:
   type: WebPage

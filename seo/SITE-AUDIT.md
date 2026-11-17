@@ -3,8 +3,8 @@
 > **定位**：本站「大规模改动后」的唯一全站验收标准。回答一个问题：**改动之后，整个站点是否仍然正确？**
 > **适用站点**：`spacemanmeow.com` 英文站（根路径）+ `/zh/` `/id/` `/th/` `/ms/` 四个子站；Jekyll 4.4、5 语合并构建、GitHub Pages Pages-artifact 部署。
 > **触发时机**：见 §1.1。**每次触发都必须完整跑一遍 §0 的七步，并填写 §8 教研记录表**，不得只做「改了哪一块就只验哪一块」。
-> **判定原则**：P0 硬门禁全绿 + WARN 逐条给出人工结论；详见 §1.3 / §1.4。
-> **基线快照日期**：2026-11-05（历史欠账已全部清零，见 §8）。所有数量以 §2 为准，数量变化必须能解释。
+> **判定原则**：P0 硬门禁全绿 + WARN 逐条给出人工结论（§1.3）；历史欠账已清零、`BASE` 恒为空，任何欠账回升直接 FAIL（§1.4）。
+> **当前基线**：以 §8 最近一次全绿记录为准（2026-11-12：610 页 / 1159 内链 / 69×5 文章 / 27×5 术语）。数量为快照非硬阈值，变化须能解释并记入 §8。
 > **关联文档**：`SEO-OPTIMIZATION-PLAN.md`（总览）、`SEO-PLAYBOOK.md`（方法与运营红线）、`SEO-PROGRESS.md`（进度台账）、`SEO-METRICS.md`（月度指标）、`SEO-KEYWORDS.md`（关键词权威库）。本文档不替代它们，只规定「如何整体验收」。
 
 ---
@@ -49,42 +49,33 @@
 
 | 级别 | 含义 | 处置 |
 |---|---|---|
-| **P0 / FAIL** | 构建失败、链接断、双语缺页、文件缺失、URL 泄漏、hreflang/sitemap 破损、关键词丢失、JSON-LD 污染 | **阻塞发布**，必须当场修复并重跑全流程 |
+| **P0 / FAIL** | 构建失败、链接断、多语言缺页、文件缺失、URL 泄漏、hreflang/sitemap 破损、关键词丢失、JSON-LD 污染 | **阻塞发布**，必须当场修复并重跑全流程 |
 | **P1 / WARN** | 需人工确认或线上验证的项（外链、Pagefind、发布物白名单、性能、合规表述抽验） | 记录结论；有疑点则转 P0 |
-| **P2 / BASE** | 已知历史欠账（§2.3 当前为空） | 与基线比对；**数量不得上升**；改善后更新基线 |
 
 ### 1.4 基线对账原则
 
-站点存在若干未清理的历史欠账（§2.3）。教研脚本对它们不判 FAIL，而是输出当前值并与 §2.3 基线比较：
-
-- `当前值 > 基线` → **FAIL，判定为本次改动引入回归，必须修复**；
-- `当前值 == 基线` → `BASE`，允许通过，但需在记录表中登记「欠账仍在」；
-- `当前值 < 基线` → `PASS`，视为改善，并同步更新 §2.3 与脚本中的 `BASE` 常量。
-
-这条规则的目的：**不因历史欠账让每次教研满屏 FAIL，也不让新改动悄悄扩大欠账。**
-
-> 2026-11-05 整改教研已把 §2.3 全部欠账清零，当前 `BASE` 为空；**所有维度均为 P0 硬门禁**，任何回升直接判 FAIL，不再有「与基线持平即可放行」的口子。
+历史欠账已于 2026-11-05 全部清零，§5 脚本 `BASE` 恒为空；**所有维度均为 P0 硬门禁**，任何欠账回升直接判 FAIL，不再有「与基线持平即可放行」的口子。
 
 ---
 
-## 2. 站点基线快照（2026-11-06）
+## 2. 站点基线快照（2026-11-12）
 
 ### 2.1 结构与数量
 
 | 类别 | 数量 | 路径 |
 |---|---|---|
-| 文章 | **330 = 66 × 5 语（EN / ZH / ID / TH / MS）** | `_posts/*.md` / `_posts/{zh,id,th,ms}/*.md`（均同名一一对应） |
-| 应用详情页 | **55 = 11 × 5 语** | `_apps/` / `_apps_{zh,id,th,ms}/` |
-| 静态页 | **40 = 8 × 5 语** | `_pages/` / `_pages/{zh,id,th,ms}/` |
-| Glossary 术语页 | **110 = 22 × 5 语** | `_glossary/` / `_glossary_{zh,id,th,ms}/` |
-| 内容 Markdown 合计 | **535** | 上述四类 |
+| 文章 | **345 = 69 × 5 语（EN / ZH / ID / MS / TH）** | `_posts/*.md` / `_posts/{zh,id,ms,th}/*.md`（均同名一一对应） |
+| 应用详情页 | **55 = 11 × 5 语** | `_apps/` / `_apps_{zh,id,ms,th}/` |
+| 静态页 | **40 = 8 × 5 语** | `_pages/` / `_pages/{zh,id,ms,th}/` |
+| Glossary 术语页 | **135 = 27 × 5 语** | `_glossary/` / `_glossary_{zh,id,ms,th}/` |
+| 内容 Markdown 合计 | **575** | 上述四类 |
 | 图片文件 | **533**（526 webp + 4 jpg + 1 png + 1 svg + 1 ico） | `assets/images/` |
 | 模板 | 8 layouts + 13 includes | `_layouts/` / `_includes/` |
-| 构建产物 | **571 个 HTML**（含 404）、sitemap **570 条 `<loc>`** | `_site/` |
-| 语言 | 5（EN 根 / ZH `/zh/` / ID `/id/` / TH `/th/` / MS `/ms/`） | `scripts/i18n_postprocess.py` 日志 `Languages detected: ['en', 'id', 'ms', 'th', 'zh']` |
-| 内链 | htmlproofer 检查 **1099** 条内部链接（0 failure） | 随内容增长变化 |
+| 构建产物 | **611 个 HTML**（含 404）、sitemap **610 条 `<loc>`** | `_site/` |
+| 语言 | 5（EN 根 / ZH `/zh/` / ID `/id/` / MS `/ms/` / TH `/th/`） | `scripts/i18n_postprocess.py` 日志 `Languages detected: ['en', 'id', 'ms', 'th', 'zh']` |
+| 内链 | htmlproofer 检查 **1159** 条内部链接（0 failure） | 随内容增长变化 |
 
-> 数量是快照不是硬阈值。新增文章/术语/语言后数量上升是正常的，但必须在教研记录表中写明「新增了什么、完整语言是否成对、分批语言的覆盖进度」。ID 为分批建设中的语言，进度以 `SEO-I18N-PROGRESS.md` 为准。
+> 数量是快照不是硬阈值。新增文章/术语/语言后数量上升是正常的，但必须在 §8 教研记录表写明「新增了什么、各语言是否成对」。5 语均已全量交付；任一语言文章数偏差按 D03「完整 / 分批」规则判定。
 
 ### 2.2 构建与路由事实（教研时的判定依据）
 
@@ -92,41 +83,23 @@
 2. **集合必须分离**：Jekyll 集合始终从 `_#{label}` 目录递归读取，`collections.*.path` 只影响 URL、不影响读取目录。因此中文应用必须用独立集合 `apps_zh`（源 `_apps_zh/`），术语用 `glossary_zh`（源 `_glossary_zh/`）；否则 ZH 构建会把英文文档一并读入并映射到 `/zh/`。
 3. **`exclude` 细节**：Jekyll fnmatch 的 `*` 不带 `FNM_PATHNAME`，会跨 `/` 匹配，故不能用 `_posts/*` 区分根级文章与 `_posts/zh/`；`_config_zh.yml` 用 `_posts/2*`、`_posts/1*` 按年份前缀排除英文文章，并用 `_apps/`（**带尾斜杠**）避免误伤 `_apps_zh`。不支持 `!ruby/regexp`，且目录排除用 `start_with?` 判断。
 4. **URL 规则**：EN `/posts/:title/`、`/apps/:name/`、`/glossary/:name/`；ZH 全部加 `/zh/` 前缀。`_pages/*.md` 用显式 permalink，不会与 `/zh/` 冲突。
-5. **hreflang / sitemap**：按「去掉语言前缀后的路径」分组；每页注入组内所有语言 + 一条 `x-default` 指向 EN；合并 sitemap 每个语言变体一条 `<url>`，并删除 `/zh/sitemap.xml`；`404.html` 不注入、不进 sitemap。
-6. **feed / 搜索**：`feed.xml`（EN）与 `zh/feed.xml`（ZH）；Pagefind 索引 `_site/pagefind/`，`data-pagefind-body` 只索引正文；`robots.txt` 指向生产 sitemap。
+5. **hreflang / sitemap**：按「去掉语言前缀后的路径」分组；每页注入组内所有语言 + 一条 `x-default` 指向 EN；合并 sitemap 每个语言变体一条 `<url>`，并删除各语言子 sitemap `/<lang>/sitemap.xml`；`404.html` 不注入、不进 sitemap。
+6. **feed / 搜索**：5 个 feed（`feed.xml` 与 `zh/id/ms/th/feed.xml`）均存在；Pagefind 索引 `_site/pagefind/` 按语言分片，`data-pagefind-body` 只索引正文；`robots.txt` 指向生产 sitemap。
 7. **CI**：`.github/workflows/pages-deploy.yml` 跑 `bash scripts/build.sh` + `htmlproofer`，部署后 Ping IndexNow。教研须与 CI 同款构建；`skills/site-build-deploy/scripts/test.sh` 已改为调用 `scripts/build.sh` 的全站验收入口，可直接用于验收（见 §2.4）。
 
 ### 2.3 已知基线欠账（BASE）
 
-**当前为空（`BASE = {}`）。** 2026-11-05 的整改教研已把建立本文档时发现的全部欠账清零；这些项已升级为 §5 脚本的 P0 硬门禁（`chk`），一旦回升直接判 FAIL。
+**当前为空（`BASE = {}`）。** 2026-11-05 的整改教研已把建立本文档时发现的全部欠账清零（description 超长、H2 数量不一致、`lang` 缺失、关键词虚标、裸 `&`、`_site/seo/` 泄漏、Pagefind 索引缺失、图片 width 模糊 WARN），并全部升级为 §5 脚本的 P0 硬门禁（`chk`），一旦回升直接判 FAIL。逐项修复明细见 git 历史，不在本文档维护。
 
-| 原欠账 | 原基线 | 现状 | 修复方式 |
-|---|---|---|---|
-| `description > 160` | 29 | **0**（最长 159） | 逐条改写，保留年份、主词与事实表述 |
-| EN/ZH H2 数量不一致 | 1 | **0** | 中文教程文末重复的 FAQ 合并进原 FAQ 章节，EN/ZH 各 14 个 H2、9 个问答 |
-| `lang` 缺失或与目录不符 | 1 | **0** | `_pages/search.md` 补 `lang: en` |
-| 关键词虚标 | §2.1 MISS 36 | **全 11 组 MISS = 0** | Meow Money 组 10 个 EN/ZH 页面成对补 FAQ 问答，36 词全部真实落地 |
-| 裸 `&` 的 description | 1 | **0** | 改写为 `and` |
-| `_site/seo/` 发布内部文档 | 是 | **否** | 两份 `_config*.yml` 的 `exclude` 加 `seo/` 与 `"seo/**"` |
-| Pagefind 索引缺失 | SKIP_PAGEFIND 构建 | **已生成** | 完整构建（2 语言 / 228 页 / 8704 词） |
-| 图片 width 等模糊 WARN | 5 条 | **0** | §5 脚本改为精确 `chk` 判定 |
+### 2.4 已清零的工程风险
 
-> 若未来出现无法立即清理的新欠账，按 §1.4 登记进 `BASE` 并同步本表；**不得为了让脚本少报 FAIL 而把已清零项退回 BASE**。
+以下历史风险均于 2026-11-07 前修复，教研时只需复核未回退，不自动放行：
 
-### 2.4 已知工程风险（教研时必须确认，不自动放行）
-
-**2026-11-07 已全部清零**。下表为历史风险与修复方式；教研时复核未回退即可，不自动放行。
-
-| 历史风险 | 修复 | 复核方式 |
-|---|---|---|
-| `skills/site-build-deploy/scripts/test.sh` 只做 EN 单语构建，不可用于全站验收 | 改为调用 `scripts/build.sh` + CI 同款 `htmlproofer`，支持 `--fast` 跳过 Pagefind | 执行 `bash skills/site-build-deploy/scripts/test.sh`，确认 5 语产物、hreflang 与合并 sitemap |
-| `SEO-PROGRESS.md` T-34 引用不存在的 `CONTENT-OPTIMIZATION-RULES.md` | 明细改指向本行 ①–⑩ 与 `SEO-KEYWORDS.md` §2.1 各组关键词表 | `seo/` 内大写文档名引用逐一可解析 |
-| `skills/cover-images/scripts/compress_images.py`、`skills/seo-research/scripts/md_to_html.py` 硬编码某台机器的用户目录绝对路径 | 改为 `Path(__file__).resolve().parent.parent` 推导；文档命令改用 `git rev-parse --show-toplevel` 定位仓库根 | 两个脚本的路径常量均基于 `__file__`，文档命令不含机器路径 |
-| 文档滞后：Glossary 记 16 条/语言，实际 22 条/语言 | `SEO-PROGRESS.md` / `SEO-PLAYBOOK.md` 改为 22 条/语言 | 与 `_glossary*/` 计数一致 |
-| `README.md` 仍是 Chirpy Starter 模板 | 先重写为构建/验收说明，最终收敛为**纯对外站点介绍**（站点内容、应用、5 语、公开链接）；不含构建命令、目录结构、教研与 CI 等内部实现信息（仓库首页公开可见） | README 不含任何内部命令/路径；「语言」段与 `_data/languages.yml` 一致由 §5 脚本 D01 硬门禁校验 |
-
-> `SEO-KEYWORDS.md` §3 的「仅 Crosshair Aim 组完成内容侧深度优化」在 2026-11-05 整改教研中已改为通用口径，本次复核确认该滞后表述已不存在；11 组关键词覆盖以 §2.1 为准。
-> **2026-11-07 复核**：完整构建 + `bash skills/site-build-deploy/scripts/test.sh` 0 failure、§5 教研 64 PASS / 0 FAIL / 0 WARN、产物级深度抽验 75 PASS / 0 FAIL，五项均未回退（详见 §8）。
+- `skills/site-build-deploy/scripts/test.sh` 已改为调用 `scripts/build.sh` + CI 同款 `htmlproofer` 的全站验收入口（支持 `--fast` 跳过 Pagefind）。
+- `SEO-PROGRESS.md` T-34 悬空引用已改指向 `SEO-KEYWORDS.md` §2.1 各组关键词表。
+- 两个工具脚本（compress_images / md_to_html）的机器绝对路径已改为基于 `__file__` 推导，缓存就近存放。
+- 文档数量口径以文件系统实测为准（文章 69 / 术语 27 / 5 语），不再写死旧值。
+- `README.md` 已收敛为纯对外站点介绍，不含内部命令/路径；「语言」段与 `_data/languages.yml` 一致由 §5 D01 硬门禁校验。
 
 ### 2.5 基线更新规则
 
@@ -147,7 +120,7 @@
 
 | 编号 | 维度 | 级别 | 主要手段 | 合格标准 |
 |---|---|---|---|---|
-| D01 | 构建与产物 | P0 | `scripts/build.sh` 全量构建 + §5 脚本 | 退出码 0；各语言首页存在；日志 N 语言、页数正常；**`README.md`「语言」段与 `_data/languages.yml` 一致**（新增语言不漏改对外清单，见 `SEO-I18N-PLAYBOOK.md` §2.4） |
+| D01 | 构建与产物 | P0 | `scripts/build.sh` 全量构建 + §5 脚本 | 退出码 0；各语言首页存在；日志 5 语言、页数正常（`LANGS >= 5`）；**`README.md`「语言」段与 `_data/languages.yml` 一致**（新增语言不漏改对外清单，见 `SEO-I18N-PLAYBOOK.md` §2.4） |
 | D02 | 链接与资源 | P0 | `htmlproofer` | 0 failure；内链、锚点、图片、脚本全通 |
 | D03 | 多语言源对账 | P0 | §5 脚本 | 4 个非 EN 完整语言（zh/id/th/ms）逐组差集为 0、结构页 8/8；分批语言无孤立文件并报告覆盖进度 |
 | D04 | 路由、集合与隔离 | P0 | 配置核对 + 产物 URL 抽查 | 集合分离且非空、`exclude` 正确、各语言子站无跨语言泄漏 |
@@ -158,11 +131,11 @@
 | D09 | 关键词真实覆盖 | P0 | §5 脚本归一化逐词核对 | 全部 11 组 MISS = 0 |
 | D10 | 结构化数据与富媒体 | P0 + P1 | §5 脚本 + Rich Results Test | JSON-LD 无 `&amp;`；app 页 @type 正确；OG 图正确 |
 | D11 | 内链闭环 | P0 | §5 脚本 + 抽验 | 语言前缀正确、glossary/tags/app 回链闭合 |
-| D12 | 搜索与索引 | P0 | 完整构建 + 产物检查 | Pagefind N 语言分片生成、各语言 feed / sitemap / robots / IndexNow 正常 |
+| D12 | 搜索与索引 | P0 | 完整构建 + 产物检查 | Pagefind N 语言分片生成、各语言 feed / sitemap / robots / IndexNow 正常；**仅完整构建下有效，`SKIP_PAGEFIND=1` 快速构建下 D12 FAIL 是已知假阳性，须重跑完整构建消除** |
 | D13 | 合规与产品表述 | P1 | 人工抽验 | 只读/免 root、不承诺虚假效果、YMYL、隐私、外链 rel |
 | D14 | 文件名与 URL 红线 | P0 | `git status` | 无未经批准的文章/页面重命名、删除、新增；permalink 未变 |
 | D15 | 发布物与敏感文件 | P0 | 产物目录检查 | 无临时目录、无凭据；`_site/seo/` 不存在 |
-| D16 | 文档与台账一致性 | P1 | 人工核对 | 优化方案/进度已同步；纯修复未误写进计划文档；滞后项已登记 |
+| D16 | 文档与台账一致性 | P1 | 人工核对 | 遵循 `SEO-OPTIMIZATION-PLAN.md`「文档更新规则」：长期价值内容已同步、临时流水未误写（见 §4 D16） |
 | D17 | 文章插图跨语言一致性 | P0 | §5 脚本 + 人工抽验 | 非 EN 文章图片路径多重集 = EN 同名文章、**位置与 EN 行序一致**、`alt` 已本地化未照抄 EN（规范见 `SEO-I18N-PLAYBOOK.md` §3.5）；行序硬门禁于 2026-11-06 全量启用（72 篇一致） |
 | D18 | 多语言文章骨架对等（结构 / 目录 / 插图） | P0 | §5 脚本 | **所有非 EN 语言**文章的 H2/H3 层级序列、结构块序列、文章目录（TOC 条目与行位置）、图片插入行序逐篇与 EN 同名文章一致；规则见 §2.6 与 `SEO-I18N-PLAYBOOK.md` §1 红线 11 / §3.5 |
 | D19 | 文章 tags 一致性与相关文章匹配 | P0 | §5 脚本 + 人工抽验 | 每篇文章至少带 1 个**规范产品标签**（11 个 App 之一：Meow Todo / Meow Habits / Meow Money / Meow Mood Diary / Meow FM / Only Clock / One Widget / Crosshair Aim / System Monitor / CPU Monitor / Floating Assistant）；无产品标签变体（如 `Meow Mood` / `Meow Todo List` / `To Do List` 或多余的 `Meow ` 前缀）；`related-posts.html` 已跳过泛标签（Android / Comparison / Best Apps / App Roundup / Alternatives），这些泛标签可保留但不得作为品类归属依据 |
@@ -176,7 +149,7 @@
 
 - **检查点**：完整构建退出码为 0；`_site/index.html` 与 `_site/{zh,id,th,ms}/index.html` 均存在；日志出现 `Languages detected: ['en', 'id', 'ms', 'th', 'zh']` 与 `Processed N pages across 5 languages`；所有 `.jekyll-<lang>` 临时目录已清理；`==> Done. Combined site in _site/` 出现；`README.md`「语言」段必须列出 `_data/languages.yml` 的全部 `label` 且数量词与实际语言数一致（§5 脚本 D01 硬门禁，新增语言漏改即 FAIL）。
 - **命令**：`JEKYLL_ENV=production bash scripts/build.sh`（发布前教研**不要**带 `SKIP_PAGEFIND`）。
-- **合格标准**：N 与 §2.1 快照 570 相当（允许随新增内容/语言增长，须解释）。
+- **合格标准**：N 与 §2.1 快照 610 相当（允许随新增内容/语言增长，须解释）。
 - **失败处理**：先看是 EN 还是 ZH 阶段失败；ZH 失败优先查 `_config_zh.yml` 的 `exclude` 与集合目录名；EN 失败查 `_config.yml` 与 frontmatter 语法。
 
 ### D02 链接与资源（P0）
@@ -188,7 +161,7 @@
 
 ### D03 多语言源对账（P0）
 
-- **检查点**：完整语言 `_posts` 66↔66、`_apps` 11↔11、`_pages` 8↔8、`_glossary` 22↔22，**按同名文件**一一对应；分批语言（当前 ID：6/66、11/11、8/8、22/22）要求无孤立文件并报告进度，见 §2.6。成对文件 `title/description/tags/image/layout` 均存在。
+- **检查点**：各语言 `_posts` 69↔69、`_apps` 11↔11、`_pages` 8↔8、`_glossary` 27↔27，**按同名文件**一一对应（具体数值以文件系统实测为准，脚本自动发现语言与完成度）；分批建设中的语言要求无孤立文件并报告进度，见 §2.6。成对文件 `title/description/tags/image/layout` 均存在。
 - **手段**：§5 脚本 D03。
 - **失败处理**：完整语言缺哪一侧补哪一侧；新增语言按 `SEO-I18N-PLAYBOOK.md` §2.3 建配置/目录/集合，内容按 `SEO-I18N-PROGRESS.md` 分批补齐。
 
@@ -206,7 +179,7 @@
 
 - **检查点**：
   - 每个 HTML（除 404）都有 `<!-- i18n-hreflang -->` 块，含 5 条语言 alternate + `hreflang="x-default"` 共 6 条，且 x-default 指向 EN；组内互指成环；
-  - `_site/sitemap.xml` 为合并版（570 条 `<loc>`），每条带 6 个 `xhtml:link` alternates；`/<lang>/sitemap.xml` 全部**不存在**；404 不在 sitemap；
+  - `_site/sitemap.xml` 为合并版（当前 610 条 `<loc>`），每条带 6 个 `xhtml:link` alternates；各语言 `/<lang>/sitemap.xml` 全部**不存在**；404 不在 sitemap；
   - canonical 为 `https://spacemanmeow.com/...`，非 EN 为 `.../<lang>/...`；`url` 配置未被改成 localhost；
   - `_site/feed.xml` 与 `_site/{zh,id,th,ms}/feed.xml` 共 5 个 feed 均存在、含 entry 且 `xml:lang` 与语言一致；`robots.txt` 的 Sitemap 行指向生产域名。
 - **手段**：§5 脚本 D05 + 人工抽查 1 个文章页、1 个 app 页、1 个 glossary 页的 `<head>`。
@@ -264,8 +237,9 @@
   1. 每语言 11 个 App 均有对应 release note 页（5 语言共 55 页）；source 目录 `_release_notes[_<lang>]/`，集合 `release_notes[_<lang>]`，permalink `/[ lang /]apps/:name/release-notes/`；
   2. frontmatter 含 `layout: release-note`、`app_slug`、`app_title`、`google_play`、`app_store`、`lang`、`title`，且 `title` 后缀为本地化文案（EN Release Notes / ZH 更新日志 / ID Catatan Rilis / MS Nota Keluaran / TH บันทึกการอัปเดต）；`app_store` 为 `#` 或空时不显示 App Store 入口，双端 App 则两个入口都显示；
   3. 正文至少 1 条有序列表发布记录（`1. ...`），空页视为失败；
-  4. `_layouts/app.html` 底部有指向 `{{ page.url | relative_url }}release-notes/` 的内链（一处覆盖全语言）。
-- **手段**：§5 脚本 D20 五项硬门禁（覆盖 / frontmatter / 正文 / 标题本地化 / 内链）。
+  4. `_layouts/app.html` 底部有指向 `{{ page.url | relative_url }}release-notes/` 的内链（一处覆盖全语言）；
+  5. 单端 App 的 `app_store` 用 `""`（**不要写空 `app_store:` 行**，否则 YAML 会吞掉下一行，破坏 layout 与 hreflang），双端 App 才显示两个入口；「返回应用」链接只在 `_layouts/release-note.html`，不写进页面正文。
+- **手段**：§5 脚本 D20 五项硬门禁（覆盖 / frontmatter / 正文 / 标题本地化 / 内链），外加上述 YAML 空值与返回链接由人工抽验。
 - **失败处理**：缺页或内容过期 → 拿到用户发来的新日志（补全 5 语言译文后）临时写入 `seo/data/<app_slug>_release_note`，重跑 `python3 skills/release-notes/scripts/update_release_notes.py` 并确认 55 页生成；某 App 确无发布记录须人工在对应 md 写明并登记，不得让空页过门禁。
 
 ### D08 图片与可访问性（P0）
@@ -289,14 +263,14 @@
 
 ### D11 内链闭环（P0）
 
-- **检查点**：ZH 正文的术语链接用 `/zh/glossary/...`，EN 用 `/glossary/...`；EN 内容里不误带 `/zh/`；`_pages/glossary.md` 索引覆盖全部 22 条；`/tags/#<slug>` 锚点存在；每篇文章 `image == app icon` 且 App 页能列出对应 Guides；related-posts 只出同语言；外链带 `rel="noopener noreferrer"`。
+- **检查点**：非 EN 正文的术语链接用 `/<lang>/glossary/...`，EN 用 `/glossary/...`；EN 内容里不误带任何 `/<lang>/` 前缀；`_pages/glossary.md` 索引覆盖全部 27 条；`/tags/#<slug>` 锚点存在；每篇文章 `image == app icon` 且 App 页能列出对应 Guides；related-posts 只出同语言；外链带 `rel="noopener noreferrer"`。
 - **手段**：§5 脚本 D11 + 人工抽验新增/改动文章的首段内链与底部相关推荐。
 - **失败处理**：语言前缀错误会导致中文读者跳到英文页、破坏 hreflang 语义，属 P0。
 
 ### D12 搜索与索引（P0 + P1）
 
 - **检查点**：完整构建生成 `_site/pagefind/`；搜索页能 `import("/pagefind/pagefind.js")` 并按语言检索；sitemap 与 IndexNow 使用生产 URL；404 有 `data-pagefind-ignore` 且不在 sitemap；GoatCounter 与 `.nojekyll` 正常。
-- **说明**：`SKIP_PAGEFIND=1` 构建不会生成索引，脚本直接判 FAIL（不再是 WARN）；**发布前教研必须完整构建一次**；CI 不设该变量，会生成索引。
+- **说明**：**本维度只在完整构建下有效**。`SKIP_PAGEFIND=1` 快速构建不生成索引，脚本判 FAIL 属**已知假阳性**（见维度表 D12、§10），不是回归；**发布前教研必须完整构建一次**消除该 FAIL；CI 不设该变量，会生成索引。
 - **失败处理**：Pagefind 失败先看 `.pagefind-bin/` 二进制与网络；索引缺失时搜索页会静默失效，需手动打开搜索页验证。
 
 ### D13 合规与产品表述（P1）
@@ -309,7 +283,7 @@
 
 - **检查点**：`git status --short` 中，内容目录（`_posts/`、`_posts/zh/`、`_apps*/`、`_pages/`、`_glossary*/`）不得出现未经批准的 `R` / `D` / `A` / `??`；已发布页 `permalink` 不变（本站**没有 301 重定向机制**，改文件名即等于丢权重）；新增语言 URL 一旦发布不再改。
 - **手段**：`git status --short` + §5 脚本 D14（无增删改判 PASS，有则 WARN 需人工确认）。
-- **失败处理**：确需改名时，必须同时评估索引丢失、hrefang 分组断裂、外链与 sitemap 变化，并在记录表中写明；新增文章必须 EN/ZH 成对。
+- **失败处理**：确需改名时，必须同时评估索引丢失、hreflang 分组断裂、外链与 sitemap 变化，并在记录表中写明；新增文章必须 EN + 4 语同源成对（红线 11 / D18）。
 
 ### D15 发布物与敏感文件（P0 + WARN）
 
@@ -319,12 +293,9 @@
 
 ### D16 文档与台账一致性（P1）
 
-- **必须同步**（属于 SEO 优化方案/措施、进度与规划）：
-  - `SEO-KEYWORDS.md`：关键词覆盖状态、竞品拦截词升权、维护日志、章节结构调整；
-  - `SEO-PROGRESS.md`：T-34 等任务进度、已完成组数；
-  - `SEO-METRICS.md`：月度 GSC / GoatCounter 数据复盘。
-- **不要同步**（bug 修复、细节 / 格式调整、一致性修复）：**不写进 `SEO-OPTIMIZATION-PLAN.md`**，也不为纯修复新增「已完成优化」条目。
-- **教研时确认**：本次改动属于哪一类、台账是否正确；§2.4 的文档滞后项是否在本次被扩大；教研记录表是否已填。
+- **唯一权威规则**：见 `SEO-OPTIMIZATION-PLAN.md`「文档更新规则」。只写长期价值内容（需沉淀的经验、阶段性重要进展、SOP / 规则），临时性内容与一次性改动不写入；规则或有价值内容出现即同步，避免遗漏。
+- **典型写入位置**：关键词覆盖状态 / 升权 → `SEO-KEYWORDS.md`；任务进度与规划 → `SEO-PROGRESS.md`、唯一状态源 `SEO-I18N-PROGRESS.md`；月度 GSC / GoatCounter 复盘 → `SEO-METRICS.md`；新坑 / 新经验 → 对应 PLAYBOOK 或 skill `references/`。
+- **教研时确认**：本轮是否有漏写的规则 / 经验 / 进展，或误写的临时流水；`BASE` 是否仍为空；教研记录表是否已填。
 
 ---
 
@@ -382,7 +353,7 @@ fms = {f: fm(t) for f, t in txt.items()}
 en_posts = nm('_posts/*.md')
 FULL = [L for L in LANGS[1:] if nm(dirs(L)['posts'] + '/*.md') == en_posts]
 PARTIAL = [L for L in LANGS[1:] if L not in FULL]
-chk('D01', '语言清单与完成度', len(LANGS) >= 2,
+chk('D01', '语言清单与完成度（至少 5 语）', len(LANGS) >= 5,
     f'LANGS={LANGS} 完整={FULL} 分批中={PARTIAL}')
 # D01：README 对外语言清单必须与 _data/languages.yml 同步（新增语言最易漏改的公开文案）
 _labels = re.findall(r'^\s+label:\s*(.+?)\s*$',
@@ -638,7 +609,7 @@ chk('D19', '每篇至少带规范产品标签', not _noprod, f'缺失 {len(_nopr
 #       正文有发布记录内容；app 详情页底部有指向 release-notes/ 的内链。
 REL_LABEL = {'en': 'Release Notes', 'zh': '更新日志', 'id': 'Catatan Rilis',
              'ms': 'Nota Keluaran', 'th': 'บันทึกการอัปเดต'}
-_rel_miss, _rel_badfm, _rel_empty, _rel_badtitle = [], [], [], []
+_rel_miss, _rel_badfm, _rel_empty, _rel_badtitle, _rel_badstore = [], [], [], [], []
 for L in LANGS:
     app_slugs = nm(dirs(L)['apps'] + '/*.md')
     rel_slugs = nm(dirs(L)['rel'] + '/*.md')
@@ -650,10 +621,13 @@ for L in LANGS:
         if need - set(d): _rel_badfm.append((f, ','.join(sorted(need - set(d)))))
         if not re.search(r'^\d+\.\s+\S', txt[f], re.M): _rel_empty.append(f)
         if REL_LABEL.get(L, 'Release Notes') not in d.get('title', ''): _rel_badtitle.append(f)
+        # 裸 app_store: 空值会被 YAML 吞掉下一行，破坏 layout/hreflang；单端须写 app_store: ""
+        if re.search(r'^app_store:[ \t]*$', txt[f], re.M): _rel_badstore.append(f)
 chk('D20', '每 App 均有 Release Note 页（全语言）', not _rel_miss, f'缺失 {len(_rel_miss)} {_rel_miss[:2]}')
 chk('D20', 'Release Note frontmatter 完整', not _rel_badfm, f'异常 {len(_rel_badfm)} {_rel_badfm[:2]}')
 chk('D20', 'Release Note 正文含发布记录', not _rel_empty, f'空 {len(_rel_empty)} {_rel_empty[:2]}')
 chk('D20', 'Release Note 标题含本地化后缀', not _rel_badtitle, f'异常 {len(_rel_badtitle)} {_rel_badtitle[:2]}')
+chk('D20', 'Release Note 无裸 app_store 空值行', not _rel_badstore, f'异常 {len(_rel_badstore)} {_rel_badstore[:2]}')
 # app 模板须含 release-notes 内链（一处覆盖全语言）
 _app_tpl = open('_layouts/app.html', encoding='utf-8').read()
 chk('D20', 'app 详情页含 Release Note 内链', 'release-notes/' in _app_tpl, 'app.html 缺内链')
@@ -761,61 +735,27 @@ PY
 | JSON-LD 报 `&amp;` | frontmatter 裸 `&` | 改写为 and / 顿号；确认是脚本块内命中而非正文误报 |
 | htmlproofer 断链 | 文件改名、permalink 变化、锚点文字改动 | 恢复文件名或补 301（本站无重定向机制，优先恢复） |
 | `_site/seo/` 出现 | `seo/` 的 `exclude` 被误删，或旧产物残留 | 恢复两份配置的 `seo/` 排除，`rm -rf _site/seo` 后完整重构建 |
-| `skills/site-build-deploy/scripts/test.sh` 全绿但线上某语言异常 | 历史原因：该脚本曾只构建 EN（2026-11-07 已改为全站构建） | 用 `bash skills/site-build-deploy/scripts/test.sh` / `scripts/build.sh` 全站构建后复跑 §5 教研 |
 | D18 骨架不一致 | 某语言按本地意图重写正文、漏 / 多列表项、目录增删条目、图片挪位置 | 以 EN 同名文章为骨架补齐或合并结构块，禁止改动 EN 凑一致（§4 D18） |
+| D20 空节 / 缺语言 / 标题未本地化 | 日志缺某语言块、译文没进临时日志、`title` 后缀照抄 EN | 补全 5 语译文进日志→重跑生成器→完整构建→复跑审计（§4 D20、`skills/release-notes/SKILL.md`） |
+| D12 在快速构建下 FAIL | `SKIP_PAGEFIND=1` 未生成 Pagefind 索引（已知假阳性） | 用完整 `bash scripts/build.sh` 重构建后复跑，不要在快速构建下当回归修 |
 
 ---
 
 ## 8. 教研记录表（每次必填）
 
 ```markdown
-| 日期 | 改动范围 | 构建 | htmlproofer | D03 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D15 | 基线数字变化 | WARN 结论 | 结论 | 执行人 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| YYYY-MM-DD | 简述改了哪些目录/文件、是否属 §1.1 大规模改动 | PASS/FAIL + 页数 | PASS/FAIL + 文件数/内链数 | … | … | … | … | … | … | … | … | … | … | 如 desc>160 29→29 | 逐条写明 | ✅ 可发布 / ❌ 阻塞 | … |
+| 日期 | 改动范围 | 构建 | htmlproofer | D03 | D05 | D06 | D09 | D12 | D17 | D18 | D19 | D20 | 基线数字变化 | WARN 结论 | 结论 | 执行人 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| YYYY-MM-DD | 简述改了哪些目录/文件、是否属 §1.1 大规模改动 | PASS/FAIL + 页数 | PASS/FAIL + 文件数/内链数 | … | … | … | … | … | … | … | … | … | 如 610→615 页 | 逐条写明 | ✅ 可发布 / ❌ 阻塞 | … |
 ```
 
-**本次基线登记（2026-11-05，建立本文档时的首次教研）**：
+**历史教研流水**：2026-11-05 至 2026-11-12 的逐次教研记录（欠账清零、5 语扩展、骨架对等硬门禁、tagline 红线、Release Note 上线等）已从本文档移出，完整过程见 git 提交历史。仅保留最近一次全绿基线用于对照：
 
-| 日期 | 改动范围 | 构建 | htmlproofer | 关键结果 | 基线数字 | 结论 |
-|---|---|---|---|---|---|---|
-| 2026-11-05 | 新建全站教研规范；此前完成 10 组 T-34、中文空格清理、alt 去重、关键词库重编号 | PASS（EN+ZH，229 页 / 2 语言） | PASS（229 文件 / 407 内链） | D03/D05/D08/D10/D11/D12 全 PASS；10 组关键词 MISS=0；汉字间空格 0；alt 重复 0；JSON-LD `&amp;` 0 | desc>160=29、H2 不一致=1、lang 缺失=1、§2.1 MISS=36 | ✅ 基线成立，欠账按 §1.4 管控 |
-| 2026-11-05 | **整改教研**（§1.1 大规模改动）：29 条 description、`_pages/search.md`、Mood 裸 `&`、Meow Money 组 10 篇 EN/ZH 正文、中文教程 FAQ 合并、两份 `_config*.yml` 排除 `seo/` | PASS（完整构建 EN+ZH，228 页 / 2 语言；Pagefind 228 页 / 8704 词） | PASS（229 文件 / 407 内链） | D03/D05/D06/D07/D08/D09/D10/D11/D12/D14/D15 全 PASS；11 组关键词 MISS=0；汉字间空格 0；alt 重复 0；图片 width 1661/1661；JSON-LD `&amp;` 0 | desc>160 29→0、H2 不一致 1→0、lang 缺失 1→0、§2.1 MISS 36→0、裸 `&` 1→0、`_site/seo/` 有→无 | ✅ 欠账清零，`BASE` 置空，全部升级为硬门禁；可发布 |
-| 2026-11-05 | **FAQ 呈现修复**（§1.1 大规模改动）：132 个内容文件的 FAQ 问句挂 `{:.faq-q}` 并插入空行分隔答案；`assets/css/main.css` 新增主题色与间距规则 | PASS（完整构建 EN+ZH，228 页 / 2 语言；Pagefind 228 页 / 8704 词） | PASS（229 文件 / 407 内链） | 27 PASS；产物 132 页含 `faq-q`（其中 22 页为 H3 型）、IAL 文本残留 0、CSS 规则已进 `_site`；11 组 MISS=0、汉字间空格 0、H2 一致、alt 重复 0 | 无变化（`BASE` 仍为空） | ✅ 可发布 |
-| 2026-11-05 | **guide 导语间距修复**（§1.1 结构性改动）：`assets/css/main.css` 新增 `.guide__lead` 的 `margin-top` | PASS（完整构建 EN+ZH，228 页 / 2 语言；Pagefind 228 页） | PASS（229 文件 / 407 内链） | 27 PASS；产物 CSS 含 `.guide__lead`、110 页含该元素；11 组 MISS=0、H2 一致、alt 重复 0 | 无变化（`BASE` 仍为空） | ✅ 可发布 |
-| 2026-11-05 | **FAQ 问句样式调整**（§1.1 结构性改动）：`assets/css/main.css` 去掉主题色、改为普通字体色 + 加粗，并用 CSS counter 生成前置序号 | PASS（完整构建 EN+ZH，228 页 / 2 语言；Pagefind 228 页） | PASS（229 文件 / 407 内链） | 27 PASS；无头 Chrome 实测序号 1/2/3 正常、颜色恢复普通色、p 型与 H3 型均编号；11 组 MISS=0、H2 一致、alt 重复 0 | 无变化（`BASE` 仍为空） | ✅ 可发布 |
-| 2026-11-06 | **App 详情页与 Google Play 文案对齐**（限定范围）：`_apps_zh/meow-money-manager.md`、`_apps/meow-money-manager.md` 的 tagline / description / FAQ / 正文；`SEO-PROGRESS.md`、`SEO-KEYWORDS.md` 台账同步 | PASS（完整构建 EN+ZH，228 页 / 2 语言；Pagefind 228 页 / 8715 词） | PASS（229 文件 / 407 内链） | 27 PASS；description zh 114 / en 155（≤160）、裸 `&` 0；EN/ZH FAQ 各 7 条、H2 各 1；D09 11 组 MISS=0；产物每页 4 个 JSON-LD 块、FAQPage 7 条、`&amp;` 0、hreflang 3 条，Google Drive / WebDAV 已落地且无 iCloud / WebDav 残留 | 无变化（`BASE` 仍为空）；Pagefind 词数 8704→8715（正文扩写） | ✅ 可发布 |
-| 2026-11-06 | **印尼语（id）多语言扩展 Phase 0–2**（§1.1 大规模改动）：新增 `SEO-I18N-PLAYBOOK.md` / `SEO-I18N-PROGRESS.md`；`SEO-KEYWORDS.md` §2.1.5 本地词库；`_config_id.yml` + 两份 config exclude + `languages/nav/ui` + `build.sh` + 修复 `new-language.sh`；11 个布局/包含/JS/404/CSS 消除 zh-vs-else；`/id/` 8 结构页 + 22 术语 + 11 App + 6 篇 Meow Money Manager posts；§5 脚本升级 v3.0 N 语言 | PASS（完整构建 EN+ZH+ID，276 页 / 3 语言；Pagefind 276 页 / 9895 词 / 3 语言分片） | PASS（277 文件 / 504 内链） | **39 PASS / 0 FAIL / 0 WARN**；D09 11 组 MISS=0；ID 首页 11 App、FAQPage 7 条、canonical 与面包屑全为 `/id/`、48 页 `<html lang=id>`；hreflang 分布 4 条 144 页 / 3 条 132 页；三语 feed 齐、子 sitemap 已删 | 语言 2→3；HTML 229→277；sitemap 228→276；内链 407→504；Pagefind 8715→9895；ID 词库 51 已覆盖 / 1 合规挂起（widget 待产品核实） | ✅ 可发布；ID 其余 60 篇 posts 按 `SEO-I18N-PROGRESS.md` Phase 3 分批补齐 | — |
-| 2026-11-06 | **`_apps_id` 内容质检与重写**（限定范围）：10 个 App 页按 EN 原版逐项对齐字段顺序 / screenshots / FAQ / 功能点与 Related terms；修正 system-monitor 只读事实、mood-diary 的 CSV 与 WebDAV、meow-fm 的 mixing、cross-hair 的 preset 与 root 等编造内容；修复 `tagline` 中 `: ` 引起的 YAML 解析失败；§5 脚本新增 frontmatter YAML 语法硬门禁（v3.1） | PASS（完整构建 3 语 / 276 页 / 0 YAML 与 Liquid 错误） | PASS（277 文件 / 504 内链） | **40 PASS / 0 FAIL / 0 WARN**；11 个 App 页截图条 4–9 张、FAQ 4–7 条全部与原版一致；空 `src` 0；中文残留 0 | 教研脚本 39→40 PASS（新增 D06 YAML 门禁）；基线数字无变化 | ✅ 可发布 | — |
-| 2026-11-06 | **文章插图跨语言一致性修复 + 规则固化**（限定范围）：`_posts/id/` 6 篇补回 EN 同名文章 131 张插图、`_posts/zh/2026-01-05-alternatives-to-assistive-touch.md` 补回 17 张；ID alt 105 条按 `SEO-KEYWORDS.md` §2.1.5 本地关键词重写、ZH 新增 17 条中文关键词化；`SEO-I18N-PLAYBOOK.md` §1 红线 10 + §3.5、`SEO-I18N-PROGRESS.md` Phase 3 入口写入规则；§5 脚本升级 v3.2 新增 D17 | PASS（完整构建 3 语 / 276 页；Pagefind 276 页 / 10010 词 / 3 语言分片） | PASS（277 文件 / 504 内链） | **42 PASS / 0 FAIL / 0 WARN**；D17 比对 72 篇插图集合全部一致、alt 照抄 0；D08 同文件 alt 重复 0、width 1809/1809；产物 ID 6 篇 + ZH 差异篇 img 数与 EN 完全相同、全站 3808 个 img 无缺失资源 | 教研 40→42 PASS；图片引用 1661→1809 | ✅ 可发布 | — |
-| 2026-11-06 | **ID 首批 6 篇按 EN 骨架重构 · 第 1 批**（限定范围）：`_posts/id/2026-06-03-pillar-budget-expense-tracker-apps-android.md` 与 `2026-04-07-best-meow-money-manager-android.md` 逐行本地化为 EN 骨架版本，H2/H3 含义、段落顺序、表格、FAQ 条目、图片行号完全对齐；`alt` 印尼语关键词化；D09 掉出的 8 个本地长尾词织回正文 | PASS（完整构建 3 语 / 276 页；Pagefind 276 页） | PASS（277 文件 / 504 内链） | **42 PASS / 0 FAIL / 0 WARN**；两篇行类型序列差异 0，图片行号 EN=ID（43–47、37–41 + 69–73），图片路径序列一致、alt 唯一；D09 11 组 MISS 0；产物两篇 img 数与 EN 相同（9 / 14） | 无变化（`BASE` 仍为空） | ✅ 可发布；剩余 4 篇按 `SEO-I18N-PROGRESS.md` 分批继续 | — |
-| 2026-11-06 | **ID 首批 6 篇按 EN 骨架重构 · 第 2 批**（限定范围）：`_posts/id/2026-04-12-best-meow-money-manager-students.md` 与 `2026-09-26-vs-meow-money-and-ynab.md` 逐行本地化为 EN 骨架版本，H2/H3 含义与数量、段落顺序、表格（4 应用 / 11 行对比）、FAQ 6 组与图片行号完全对齐；`alt` 印尼语关键词化；`SEO-I18N-PROGRESS.md` 同步 4/6 进度 | PASS（完整构建 3 语 / 276 页；Pagefind 276 页 / 10133 词 / 3 语分片） | PASS（277 文件 / 502 内链） | **42 PASS / 0 FAIL / 0 WARN**；D09 11 组 MISS=0；D17 插图集合一致、alt 照抄 0；D08 图片 width 1809/1809；两篇行类型序列差异 0、图片行号 EN=ID（44–48 + 73–77 / 33–37 + 70–74）、路径序列一致、alt 唯一；产物两篇 `img` 15/15 与 EN 相同、正文图片序列一致、`<html lang=id>`、hreflang 4 条 | 内链 504→502（旧 ID 独立版内链较多，按 EN 骨架对齐后减少 2 条）；Pagefind 10010→10133 词（正文按 EN 骨架扩写）；`BASE` 仍为空 | 无 WARN | ✅ 可发布；剩余 `alternatives-to-mint` 与 `tutorial-meow-money` 按 `SEO-I18N-PROGRESS.md` 继续 | — |
-| 2026-11-06 | **ID 首批 6 篇按 EN 骨架重构 · 第 3 批 + D17 行序硬门禁启用**（限定范围）：`_posts/id/2026-01-31-alternatives-to-mint.md`（314 行 / 13 H2 / 34 图）与 `2026-08-08-tutorial-meow-money.md`（388 行 / 14 H2 + 27 H3 / 62 图、19 个图片行）逐行本地化为 EN 骨架版本；`SEO-I18N-PROGRESS.md` 同步 6/6；§5 脚本升级 v3.3，新增「插图行序位置与 EN 一致」硬门禁 | PASS（完整构建 3 语 / 276 页；Pagefind 276 页 / 10256 词 / 3 语分片） | PASS（277 文件 / 512 内链；tutorial 11 个目录锚点全部命中） | **43 PASS / 0 FAIL / 0 WARN**；D17 插图集合一致、行序 72 篇全量一致、alt 照抄 0；D09 11 组 MISS=0；两篇行类型序列差异 0、图片行号与路径序列与 EN 一致、alt 唯一；产物 `img` 39/39 与 67/67 对齐 EN、正文图片序列一致 | 教研 42→43 PASS（新增 D17 行序门禁）；内链 502→512（教程目录 11 个锚点与骨架内链变化）；Pagefind 10133→10256 词（正文按 EN 骨架扩写）；`BASE` 仍为空 | 无 WARN | ✅ 可发布；ID 首批 6 篇重构全部完成，Phase 3 的 60 篇一律从 EN 骨架起稿 | — |
-| 2026-11-06 | **教研规则升级：全语言文章骨架对等（D18）**（限定范围）：按用户要求把「所有语言版本的文章结构、文章目录、图片插入必须与 EN 一致」写入 §2.6 / §3 维度表 / §4 D18 / §5 脚本（v3.4），并同步 `SEO-I18N-PLAYBOOK.md` §1 红线 11 / §3.5 / §6.3 与 `SEO-I18N-PROGRESS.md` 的旧口径；修复 2 篇 ZH 历史差异（`2026-01-27-alternatives-to-day-one` 补 1 个列表项、`2026-09-04-vs-cpu-monitor-and-cpu-z` 多出的列表项改为续行，内容保留） | PASS（完整构建 3 语 / 276 页；Pagefind 276 页 / 10261 词 / 3 语分片） | PASS（277 文件 / 512 内链；目录锚点无断链） | **47 PASS / 0 FAIL / 0 WARN**；D18 四项全绿（H2/H3 层级序列、结构块序列、文章目录 TOC、图片插入行序均为 0 篇不一致）；D17 三项 0 篇不一致；D09 11 组 MISS=0 | 教研 43→47 PASS（新增 D18 四组 `chk`）；Pagefind 10256→10261 词（中文补 1 条列表项）；内链 512 不变；`BASE` 仍为空 | 无 WARN | ✅ 可发布；D18 为 P0 硬门禁，后续所有新增 / 重构语言文章必须逐篇与 EN 骨架对等 | — |
-| 2026-11-06 | **Phase 3 启动 · G2（Meow Todo）首批 2 篇印尼语 posts**（限定范围）：`_posts/id/2026-04-25-best-meow-todo-list-android.md`（141 行）与 `2026-04-29-best-meow-todo-list-students.md`（142 行）从 EN 骨架逐行起稿；`SEO-KEYWORDS.md` 新增 §2.2.5 印尼语词组 10 词并全部正文落地；`SEO-I18N-PROGRESS.md` 同步 8/66；重新应用 `_posts/zh/2026-09-04-vs-cpu-monitor-and-cpu-z.md` 的结构修复（多余列表项改段落，内容保留） | PASS（完整构建 3 语 / 278 页；Pagefind 278 页 / 10331 词 / 3 语分片） | PASS（279 文件 / 516 内链） | **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿（74 篇对齐）、D09 11 组 MISS=0；两篇行类型序列差异 0、图片行号与路径序列与 EN 一致、各 10 图 `alt` 唯一且未照抄 EN；产物 `img` 15/15 对齐 EN、`<html lang=id>`、hreflang 4 条 | 文章 138→140、内容 md 261→263、产物 277→279、sitemap 276→278、内链 512→516、Pagefind 10261→10331 词（新增 2 篇 ID posts）；`BASE` 仍为空 | 无 WARN | ✅ 可发布；Phase 3 剩余 58 篇按「G2 剩 4 篇 + G3–G11 各组 6 篇」分批继续，一律从 EN 骨架起稿 | — |
-| 2026-11-06 | **Phase 3 自动推进 · G2 收尾 4 篇 + G3（Meow Habits）全组 6 篇**（限定范围）：新增 `_posts/id/` 10 篇印尼语 posts（8/66 → 18/66），一律从 EN 骨架逐行起稿；`SEO-KEYWORDS.md` 新增 §2.3.5 印尼语词组 10 词；G3 pillar 的 5 处同组断链随整组补齐消失；台账同步 | PASS（完整构建 3 语 / 289 页；Pagefind 289 页 / 10722 词 / 3 语分片） | PASS（290 文件 / 545 内链 / 0 failure；G3 教程 11 个目录锚点全命中） | **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS=0、D14 0 条；10 篇行类型序列差异 0、图片行号与路径序列与 EN 一致、`alt` 唯一未照抄 EN、内链前缀异常 0、description ≤160 | 文章 140→150、内容 md 263→273、产物 279→290、sitemap 278→289、内链 516→545、Pagefind 10331→10722 词（新增 10 篇 ID posts）；`BASE` 仍为空 | 无 WARN | ✅ 可发布；Phase 3 剩余 48 篇（G4–G11）按自动推进规则继续 | — |
-| 2026-11-06 | **Phase 3 自动推进 · G4（Meow Mood Diary）5 篇印尼语 posts**（限定范围）：新增 `_posts/id/` 5 篇（18/66 → 23/66），一律从 EN 骨架逐行起稿；`SEO-KEYWORDS.md` 新增 §2.4.5 印尼语词组 10 词；末篇 `alternatives-to-day-one` 未落地，pillar 与 vs 中指向它的 2 处链接暂以纯文本呈现以保证内链 0 failure；台账同步 | PASS（完整构建 3 语 / 295 页；Pagefind 295 页 / 10820 词 / 3 语分片） | PASS（296 文件 / 562 内链 / 0 failure；G4 教程 12 个目录锚点全命中） | **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS=0、D14 0 条；5 篇行类型序列差异 0、图片行号与路径序列与 EN 一致、`alt` 唯一未照抄 EN、内链前缀异常 0、description 140–159 字符 | 文章 150→155、内容 md 273→278、产物 290→296、sitemap 289→295、内链 545→562、Pagefind 10722→10820 词（新增 5 篇 ID posts）；`BASE` 仍为空 | 无 WARN | ✅ 可发布；G4 末篇补齐后须恢复 2 处 `/id/` 链接并复跑教研，Phase 3 剩余 43 篇继续自动推进 | — |
-| 2026-11-07 | **Phase 3 自动推进 · G4（Meow Mood Diary）全组 6 篇印尼语 posts**（限定范围）：补齐末篇 `alternatives-to-day-one`（EN 297 行 / 35 图），`_posts/id/` 合计 24/66；pillar 与 vs 中指向该页的 2 处链接由纯文本恢复为 `/id/` 链接 | PASS（完整构建 3 语 / 296 页；Pagefind 296 页 / 10855 词 / 3 语分片） | PASS（297 文件 / 564 内链 / 0 failure） | **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS=0、D14 0 条；6 篇行类型序列差异 0、图片行序一致、alt 唯一未照抄 EN、内链前缀异常 0、description 140–159 字符 | 文章 156（66+66+24）、内容 md 279、产物 297 HTML、sitemap 296、内链 564、Pagefind 10855 词（G4 全组 6 篇）；`BASE` 仍为空 | 无 WARN | ✅ 可发布；G4 全组完成，Phase 3 剩余 42 篇继续自动推进，下一批 G5（Meow FM） | — |
-| 2026-11-07 | **Phase 3 自动推进 · G5（Meow FM）全组 6 篇印尼语 posts**（限定范围）：补齐 `alternatives-to-calm`（EN 297 行 / 34 图）、`best-meow-fm-focus`（146 行 / 9 图）、`best-meow-fm-sleep`（147 行 / 9 图）、`vs-meow-fm-and-calm`（164 行 / 9 图）、`tutorial-meow-fm`（134 行 / 3 图 / TOC 11 锚点全命中）、`pillar-white-noise-focus-apps-android`（125 行 / 5 图），`_posts/id/` 合计 30/66；同组互链全部落地（无断链） | PASS（完整构建 3 语 / 303 页；Pagefind 303 页 / 11546 词 / 3 语分片） | PASS（579 内链 / 0 failure） | **47+ PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS=0、D14 0 条；6 篇行类型序列差异 0、图片行序一致、alt 唯一未照抄 EN、内链前缀异常 0 | 文章 156（66+66+30）、内容 md 285、产物 303 HTML、sitemap 302、内链 579、Pagefind 11546 词（G5 全组 6 篇） | 无 WARN | ✅ 可发布；G5 全组完成，Phase 3 剩余 36 篇继续自动推进，下一批 G6（One Widget） | — |
-| 2026-11-07 | **Phase 3 自动推进 · G6（One Widget）全组 6 篇印尼语 posts**（限定范围）：补齐 `alternatives-to-widgetsmith`（EN 285 行 / 30 图）、`best-one-widget-android`（132 行 / 10 图）、`best-one-widget-material-you`（129 行 / 10 图）、`pillar-android-home-screen-widget-apps`（130 行 / 5 图）、`tutorial-one-widget`（148 行 / 6 图 / TOC 11 锚点全命中）、`vs-one-widget-and-kwgt`（166 行 / 10 图），`_posts/id/` 合计 36/66；同组互链全部落地（无断链） | PASS（完整构建 3 语 / 309 页；Pagefind 309 页 / 11764 词 / 3 语分片） | PASS（596 内链 / 0 failure） | **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS=0、D14 0 条；6 篇行类型序列差异 0、图片行序一致、alt 唯一未照抄 EN、内链前缀异常 0、description ≤160 且无裸 & | 文章 168（66+66+36）、内容 md 291、产物 309 HTML、sitemap 309、内链 596、Pagefind 11764 词（G6 全组 6 篇） | 无 WARN | ✅ 可发布；G6 全组完成，Phase 3 剩余 30 篇继续自动推进，下一批 G7（Only Clock） | — |
-| 2026-11-07 | **Phase 3 自动推进 · G7（Only Clock）全组 6 篇印尼语 posts**（限定范围）：补齐末篇 `alternatives-to-retroflip`（EN 282 行 / 23 图）、`best-only-clock-flip`（128 行 / 10 图）、`best-only-clock-nightstand`（131 行 / 10 图）、`pillar-flip-clock-apps-android`（128 行 / 5 图）、`tutorial-only-clock`（138 行 / 8 图 / TOC 锚点全命中）、`vs-only-clock-and-retroflip`（158 行 / 10 图），`_posts/id/` 合计 42/66；同组互链全部落地（无断链） | PASS（完整构建 3 语 / 316 页；Pagefind 316 页 / 11919 词 / 3 语分片） | PASS（610 内链 / 0 failure） | **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS=0、D14 0 条；6 篇行类型序列差异 0、图片行序一致、alt 唯一未照抄 EN、内链前缀异常 0、description ≤160 且无裸 & | 文章 174（66+66+42）、内容 md 297、产物 316 HTML、sitemap 316、内链 610、Pagefind 11919 词（G7 全组 6 篇） | 无 WARN | ✅ 可发布；G7 全组完成，Phase 3 剩余 24 篇继续自动推进，下一批 G8（CPU Monitor） | — |
-| 2026-11-07 | **Phase 3 自动推进 · G8（CPU Monitor）全组 6 篇印尼语 posts**（限定范围）：补齐 `alternatives-to-cpu-z`（EN 291 行 / 29 图）、`best-cpu-monitor-phone-temp`（128 行 / 10 图）、`best-cpu-monitor-temperature`（131 行 / 10 图）、`pillar-cpu-temperature-monitor-apps-android`（128 行 / 5 图）、`tutorial-cpu-monitor`（121 行 / 5 图 / TOC 锚点全命中）、`vs-cpu-monitor-and-cpu-z`（166 行 / 10 图），`_posts/id/` 合计 48/66；同组互链全部落地（无断链） | PASS（完整构建 3 语 / 323 页；Pagefind 323 页 / 12058 词 / 3 语分片） | PASS（625 内链 / 0 failure） | **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS=0、D14 0 条；6 篇行类型序列差异 0、图片行序一致、alt 唯一未照抄 EN、内链前缀异常 0、description ≤160 且无裸 & | 文章 180（66+66+48）、内容 md 303、产物 323 HTML、sitemap 323、内链 625、Pagefind 12058 词（G8 全组 6 篇） | 无 WARN | ✅ 可发布；G8 全组完成，Phase 3 剩余 18 篇继续自动推进，下一批 G9（System Monitor） | — |
-| 2026-11-07 | **Phase 3 自动推进 · G9（System Monitor）全组 6 篇印尼语 posts**（限定范围）：补齐 `alternatives-to-ccleaner`（EN 291 行 / 28 图）、`best-system-monitor-monitor`（140 行 / 10 图）、`best-system-monitor-ram`（138 行 / 10 图）、`pillar-system-monitor-apps-android`（131 行 / 5 图）、`tutorial-system-monitor`（140 行 / 12 图 / TOC 锚点全命中）、`vs-system-monitor-and-ccleaner`（165 行 / 10 图），`_posts/id/` 合计 54/66；同组互链全部落地（无断链） | PASS（完整构建 3 语 / 330 页；Pagefind 330 页 / 12182 词 / 3 语分片） | PASS（637 内链 / 0 failure） | **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS=0、D14 0 条；6 篇行类型序列差异 0、图片行序一致、alt 唯一未照抄 EN、内链前缀异常 0、description ≤160 且无裸 & | 文章 186（66+66+54）、内容 md 309、产物 330 HTML、sitemap 330、内链 637、Pagefind 12182 词（G9 全组 6 篇） | 无 WARN | ✅ 可发布；G9 全组完成，Phase 3 剩余 12 篇继续自动推进，下一批 G10（Floating Assistant） | — |
-| 2026-11-07 | **Phase 3 自动推进 · G10（Floating Assistant）全组 6 篇印尼语 posts**（限定范围）：补齐 `alternatives-to-assistive-touch`（EN 288 行 / 27 图）、`best-floating-assistant-accessibility`（131 行 / 10 图）、`best-floating-assistant-general`（132 行 / 10 图）、`pillar-floating-assistant-apps-android`（129 行 / 5 图）、`tutorial-floating-assistant`（146 行 / 3 图 / TOC 12 锚点全命中）、`vs-floating-assistant-and-assistive-touch`（163 行 / 10 图），`_posts/id/` 合计 60/66；同组互链全部落地（无断链） | PASS（完整构建 3 语 / 335 页；Pagefind 335 页 / 12305 词 / 3 语分片） | PASS（653 内链 / 0 failure） | **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS=0、D14 0 条；6 篇行类型序列差异 0、图片行序一致、alt 唯一未照抄 EN、内链前缀异常 0、description ≤160 且无裸 &；另将 `info perangkat android` 织入 G9 pillar 正文以满足该词覆盖 | 文章 192（66+66+60）、内容 md 315、产物 335 HTML、sitemap 335、内链 653、Pagefind 12305 词（G10 全组 6 篇） | 无 WARN | ✅ 可发布；G10 全组完成，Phase 3 剩余 6 篇继续自动推进，下一批 G11 | — |
-| 2026-11-07 | **Phase 3 自动推进 · G11（Crosshair Aim）全组 6 篇印尼语 posts**（限定范围）：补齐 `alternatives-to-crosshair-master`（EN 274 行 / 27 图）、`best-cross-hair-fps`（128 行 / 5 图）、`best-cross-hair-overlay`（129 行 / 5 图）、`pillar-crosshair-apps-fps-android`（119 行 / 5 图）、`tutorial-cross-hair`（120 行 / 5 图 / TOC 8 锚点全命中）、`vs-crosshair-and-crosshair-master`（146 行 / 5 图），`_posts/id/` 合计 66/66；同组互链全部落地（无断链） | PASS（完整构建 3 语 / 342 页；Pagefind 342 页 / 12403 词 / 3 语分片） | PASS（672 内链 / 0 failure） | **47 PASS / 0 FAIL / 0 WARN**；D17 / D18 全绿、D09 11 组 MISS=0、D14 0 条；6 篇行类型序列差异 0、图片行序一致、alt 唯一未照抄 EN、内链前缀异常 0、description ≤160 且无裸 & | 文章 198（66+66+66）、内容 md 321、产物 342 HTML、sitemap 342、内链 672、Pagefind 12403 词（G11 全组 6 篇） | 无 WARN | ✅ 可发布；G11 全组完成，Phase 3 收官（66/66），下一批 Phase 4 | — |
-| 2026-11-07 | **泰语（th）Phase 4 多语言扩展 · 全量交付**（§1.1 大规模改动）：`_posts/th/` 66 篇、`_apps_th/` 11 篇、`_glossary_th/` 22 篇、`_pages/th/index.md` 1 篇，从 `id` 骨架逐篇翻译；§5 脚本自动纳入 TH 为第 4 语言；修复 TH FAQ 标记 `{: .faq-q}`→`{:.faq-q}`（260 处）、`vs-meow-mood-and-day-one` 漏掉的 6 个 `###` H3 骨架、首页补 `lang: th`、2 篇 description 压到 ≤160；整站教研（§0 七步） | PASS（完整构建 4 语 / 449 页；Pagefind 449 页 / 4 语言分片） | **FAIL**（963 处断链，全部指向 7 个缺失 TH 结构页：`/th/search/`、`/th/meow/`、`/th/about/`、`/th/privacy/`、`/th/terms/`、`/th/tags/`、`/th/glossary/`（术语索引）；另 2 篇 alternatives 指向 `/id/` 为有意保留） | **48 PASS / 5 FAIL / 0 WARN**：D01 语言 id/th/zh 齐全；D03 posts/apps/gloss 66/11/22 ↔ EN 全 PASS；D06 frontmatter/lang/≤160 全 PASS；D07 FAQ/D08 图片 alt·width/D09 关键词/D17 图片集合/D18 H2·H3 骨架·结构块 全 PASS；仅 FAIL：D03 `pages 1/8`（7 结构页未译）、D11 6 条 `/id/` 链接（有意，alternatives 无 TH 目标）、D17/D18 图片与 TOC 行序 `tutorial-meow-todo` 偏移 1 行（frontmatter 行数差，内容一致，软红线） | 文章 198→264（66+66+66+66）、应用 33→44、术语 66→88、静态页 24→25、内容 md 279→421、产物 342→449；语言 3→4 | 7 个 TH 结构页缺失（P0 发布阻塞项，须补齐后再发布）；其余内容正确 | 🟡 内容正确可归档；**发布前须补齐 7 个 TH 结构页**（search/meow/about/privacy/terms/tags/术语索引）以消除 963 断链，复跑 htmlproofer 全绿后方可发布 | — |
-| 2026-11-07 | **泰语（th）7 结构页补齐 + 锚点修复（收尾）**（§1.1 大规模改动后）：补齐 `_pages/th/` 的 about/privacy/terms/search/tags/glossary/meow 共 7 页（从 `id` 骨架翻译）；修复全部 TH 教程文 `## 标题{: #slug}` 缺空格致 IAL 未解析、生成畸形 id（963→120 断链），改为与 EN/ID/ZH 一致的 auto_ids 方案——移除显式 IAL 并将 TOC 锚点改写为泰语标题自动生成的 id；复跑完整构建（Pagefind 开）+ htmlproofer | PASS（完整构建 4 语 / 449 页 + Pagefind 4 语言分片） | **PASS**（0 failure；902 内链 / 457 文件全绿） | **49 PASS / 4 FAIL / 0 WARN**：D01/D03(文章·应用·术语·**页面 8/8**)/D06/D07/D08/D09/D17图片集合/D18 H2·H3·结构块 全 PASS；D12 Pagefind 全 PASS；仅 FAIL：D11 6 条 `/id/` 链接（alternatives 无 TH 目标，有意保留）、D17/D18 图片与 TOC 行序 `tutorial-meow-todo` 偏移 1 行（frontmatter 行数差，内容/结构/标题/块序列一致，软红线） | 文章 264、应用 44、术语 88、静态页 25、产物 449；语言 4 | 仅余 4 项软红线/设计项，无内容缺陷 | ✅ 可发布（TH 7 结构页补齐、htmlproofer 0 failure；D11/D17/D18 行序为已知设计/软红线，不阻塞） | — |
-| 2026-11-07 | **App `tagline` 四语信息量对齐（方案 A）+ 规则入规范**：`_apps_id/` / `_apps_th/` 共 22 个 tagline 从「功能点罗列长句」收敛回 EN 短句语义（仅本地措辞，不引入正文功能点 / 规格数字）；`SEO-I18N-PLAYBOOK.md` 新增 §1 红线 12、改写 §3.3 App 行；`SITE-AUDIT.md` §3 维度表 / §4 D06 / §5 脚本新增「App tagline 信息量与 EN 对等」硬门禁（≤1.5× 且规格数字不得增补），并做反向注入验证（旧长句立刻 FAIL 并点名文件） | PASS（完整构建 4 语 / 449 页 + Pagefind 4 语言分片） | PASS（0 failure；902 内链 / 457 文件全绿） | **53 PASS / 4 FAIL / 0 WARN**：新增 D06 tagline 门禁 PASS（异常 0）；D03 结构页 8/8 等全 PASS；仅 FAIL：D11 6 条 `/id/` 链接（有意保留）、D17/D18 图片与 TOC 行序 `tutorial-meow-todo` 偏移 1 行（软红线） | 基线数量无变化；tagline 长度比 非 EN/EN 从 1.2–2.5 收敛到 0.2–1.2（ZH 0.20–0.69 属中文信息密度正常范围） | 无 WARN | ✅ 可发布；hreflang 对应页首屏信息量恢复对等，列表卡片排版一致 | — |
-| 2026-11-07 | **Phase 3 自动推进 · G5（Meow FM）进行中 2/6**（限定范围）：补齐 `_posts/id/2026-07-31-tutorial-meow-fm.md`（134 行 / 3 图 / TOC 11 锚点全命中），行类型序列差异 0、图片行序一致、alt 唯一未照抄 EN、内链前缀异常 0；含 5 处指向同组未落地页面的预期断链（整组完成后消链） | 未做完整验收（含预期断链） | 未做（含预期断链） | 单篇校验通过（行类型差 0、图片行序一致、alt 唯一、内链前缀异常 0、description 136、TOC 11 锚点全命中）；D17/D18 该篇通过；D09 11 组 MISS 0 未重测（词库 §2.5 待整组补） | 文章 157（66+66+25）、内容 md 280、产物约 298 HTML、sitemap 约 297（含预期断链，未计入全绿基线） | 无 WARN | 🟡 进行中（G5 2/6），含预期断链；整组完成后跑完整构建+htmlproofer+教研，再更新全绿基线 | — |
-| 2026-11-07 | **Phase 3 自动推进 · G5（Meow FM）进行中 1/6**（限定范围）：补齐 `_posts/id/2026-07-13-pillar-white-noise-focus-apps-android.md`（125 行 / 5 图），行类型序列差异 0、图片行序一致、alt 唯一未照抄 EN；含 5 处指向同组未落地页面的预期断链（整组完成后消链） | 未做完整验收（含预期断链） | 未做（含预期断链） | 单篇校验通过（行类型差 0、图片行序一致、alt 唯一、内链前缀异常 0、description 150 字符）；D17 / D18 该篇通过；D09 11 组 MISS 0 未重测（词库 §2.5 待整组补） | 文章 157（66+66+25）、内容 md 280、产物约 298 HTML、sitemap 约 297（含预期断链，未计入全绿基线） | 无 WARN | 🟡 进行中（G5 1/6），含预期断链；整组完成后跑完整构建+htmlproofer+教研，再更新全绿基线 | — |
-| 2026-11-07 | **马来语（ms）Phase 5 多语言扩展 · 全量交付**（§1.1 大规模改动）：`_config_ms.yml`、`_data/{languages,nav,ui}.yml`、`404.html`、`scripts/build.sh` 与四份 config 的 `ms` exclude；`_posts/ms/` 66 篇、`_apps_ms/` 11 篇、`_glossary_ms/` 22 篇、`_pages/ms/` 8 篇 + `ms/blog/index.html` 从 `id` 骨架逐行本地化；`SEO-KEYWORDS.md` §2.1.6 的 29 词全部落地 | PASS（完整构建 5 语 / 570 页；Pagefind 570 页 / 29820 词 / 5 语分片） | PASS（571 文件 / 1099 内链 / 0 failure） | **60 PASS / 4 FAIL / 0 WARN**；ms 全维度 PASS：D01 语言清单、D03 四语一一对应 + 结构页 8/8、D04 集合非空、D05 hreflang 6 条 × 570 页、D06 tagline 红线 12 与 YAML、D07 H2、D08/D17 插图集合与行序、D09 MISS=0、D10 JSON-LD、D12 feed / Pagefind、D14 0 条、D18 骨架 / TOC / 图片行序；4 个 FAIL 均为既有 th 遗留项（D11 的 6 条 `/id/` 内链、D17/D18 `tutorial-meow-todo-list` 行序偏移 1 行），与 ms 无关 | 产物 570 HTML、sitemap 570、内链 1099、Pagefind 29820 词；`/ms/` 114 页 | 无 WARN | ✅ `/ms/` 可发布；4 个既有 th 遗留 FAIL 按 §1.4 登记，不阻塞 ms | — |
-| 2026-11-07 | **全站正确性教研（重点多语言）**（按 §1.3 修复 4 个 P0 FAIL）：步 1–4 全量复跑；按 §4 做 75 项产物级多语言抽验；修复 `_posts/th/` 6 条跨语言 `/id/` 内链（D11）与 `tutorial-meow-todo-list` 行序偏移 1 行（D17 / D18 三项）；按 §2.5 同步 §2.1 基线快照与 §2.2 / §2.6 / §4 的 5 语口径 | PASS（完整构建 5 语 / 570 页；Pagefind 570 页 / 29727 词 / 5 语分片） | PASS（571 文件 / 1099 内链 / 0 failure） | **64 PASS / 0 FAIL / 0 WARN**（§5 脚本由 60/4 → 64/0）；产物级深度抽验 **75 PASS / 0 FAIL**：5 语 slug 一一对应、571 页 `<html lang>` 正确、570 页 6 条 hreflang 成环且 x-default 指 EN、canonical / sitemap 570 loc / 5 语 feed / TOC 锚点全命中 / App JSON-LD 四类齐备 / 配置集合与 exclude 隔离 | 产物 570 HTML、sitemap 570、内链 1099、Pagefind 29727 词；`BASE` 仍为空 | 无 WARN | ✅ 全站可发布；P1 人工项见报告（共享 `aria-label` 中文、ms 正文印尼语借词、§6 线上项） | — |
-| 2026-11-07 | **P1 人工项 + §2.4 工程风险清零**（全站改动）：共享 `aria-label` 8 键迁入 `_data/ui.yml`（5 语各 28 键一致），`nav.html` / `main.js` / 5 个搜索页按 `site.lang` 取值；ms 正文 7 类印尼语借词本地化（57 文件 / 223 处，标题 auto_id 锚点重映射、行序不变）；`skills/site-build-deploy/scripts/test.sh` 改为全站验收入口、两个 tools 脚本去掉旧机绝对路径并清空旧缓存、README 重写、T-34 悬空引用与 Glossary 16→22 口径修正；按 §1.3 修复 TH `tutorial-meow-todo-list` 行序回归 1 行 | PASS（完整构建 5 语 / 570 页；Pagefind 570 页 / 29724 词 / 5 语分片） | PASS（571 文件 / 1099 内链 / 0 failure，锚点 hash 全命中） | **64 PASS / 0 FAIL / 0 WARN**；产物级深度抽验 **75 PASS / 0 FAIL**；D09 11 组 MISS=0；全量抽验 571 页 `aria-label` 与 `<html lang>` 一致（异常 0）、非 ZH 页无中文 aria-label、ms 正文 7 类借词残留 0 | 产物 570 HTML、sitemap 570、内链 1099、Pagefind 29727→29724 词（ms 借词替换）；`BASE` 仍为空 | 无 WARN | ✅ 全站可发布；§2.4 已清零，剩余 P1 仅 §6 线上人工项 | — |
-| 2026-11-07 | **泰语站点副标题收敛 + 副标题长度红线入规范**：`_config_th.yml` 的 `tagline` 由 63 字符（w=63，1.19× EN）缩为 35 字符（w=35，0.66× EN）的「品类 + 2 个形容词」短名词短语；`SEO-I18N-PLAYBOOK.md` §1 新增红线 13（站点级 tagline 显示宽度 `w≤60` 且非 EN ≤ EN、短名词短语写法、桌面目视兜底，与红线 12 的 App tagline 明确区分）并在 §2.3 Step 3 配置核对表加入该项；`SITE-AUDIT.md` §3 维度表 / §4 D06 / §5 脚本新增同名硬门禁（教研 64→65 PASS），反向注入旧长句验证立刻 FAIL 并点名 `_config_th.yml` | PASS（完整构建 5 语 / 570 页；Pagefind 570 页 / 29724 词 / 5 语分片） | PASS（571 文件 / 1099 内链 / 0 failure） | **65 PASS / 0 FAIL / 0 WARN**；产物级深度抽验 **75 PASS / 0 FAIL**；D06 站点级 tagline 各语 w = EN 53 / ZH 36 / ID 38 / MS 43 / TH 35，异常 0；TH 产物 `<small>` 已为新短句 | 产物 570 HTML、sitemap 570、内链 1099、Pagefind 29724 词不变；`BASE` 仍为空 | 无 WARN | ✅ 全站可发布；副标题过长已由硬门禁防复发 | — |
-| 2026-11-07 | **新增语言同步 README 对外语言清单（规则 + 硬门禁）**：`README.md`「语言」段被标为对外可见清单；`SEO-I18N-PLAYBOOK.md` §0 步骤 4 / §2.4 Step 4 / §6.2 加入「新增语言必须同步 `README.md` 的语言名与数量词」；`SITE-AUDIT.md` §3 D01 / §4 D01 / §5 脚本 新增 D01 硬门禁，对照 `_data/languages.yml` 的 `label` 与中文数量词；反向验证三场景（漏改语言名 / 漏改数量词 / 完整更新）分别为 FAIL / FAIL / 全绿 | PASS（完整构建 5 语 / 570 页；Pagefind 570 页 / 29724 词 / 5 语分片） | PASS（571 文件 / 1099 内链 / 0 failure） | **66 PASS / 0 FAIL / 0 WARN**（教研 65→66）；产物级深度抽验 **75 PASS / 0 FAIL**；D01 README 门禁 PASS（5 语，缺失 []，数量词「五个语言版本」） | 产物 570 HTML、sitemap 570、内链 1099、Pagefind 29724 词不变；`BASE` 仍为空 | 无 WARN | ✅ 全站可发布；新增语言漏改对外清单已由硬门禁防复发 | — |
-| 2026-11-08 | **5 语预算对比文补齐（EN 标杆 + ZH/ID/MS/TH 各 1 篇 + 各语言 5 预算概念 glossary）**（§1.1 大规模改动）：新增 `_posts/2026-11-08-budget-feature-comparison.md` EN 标杆与 ZH/ID/MS/TH 共 5 篇 posts、各 `_glossary_<lang>/` 5 个概念词页（zero-based/envelope budgeting、budget rollover、sinking fund、category budget 借词形态）；`SEO-KEYWORDS.md` §2.1.5/6/7 登记借词概念词；TH 原无独立词表段先补 §2.1.7；`SEO-I18N-PLAYBOOK.md` 新增 §3.6 单篇跨语言新增 SOP | PASS（完整构建 5 语 / 600 页；Pagefind 5 语 / 32488 词） | PASS（1134 内链 / 601 文件 / 0 failure） | **65 PASS / 0 FAIL / 1 WARN**；D03 五语文章 67/67、术语 27/27、结构页 8/8、应用 11/11 全对称；D18 骨架/目录/图片行序 0 篇不一致；D17 插图集合与 alt 本地化 0 篇不一致；D09 11 组 MISS=0；D06 description ≤160 / lang / YAML / tagline 宽度 全 PASS；D05 hreflang 6 条 × 600 页、D12 Pagefind/feed 全 PASS | 产物 600 页、sitemap 600、内链 1134、Pagefind 32488 词（本次新增 5 posts/语言 + 5 glossary/语言 + EN 5 glossary）；`BASE` 仍为空 | 1 WARN（D14 6 条未跟踪新增文件，属本次明确内容新建、已批准，不阻塞） | ✅ 全站可发布；P1 仅 §6 线上人工项 | — |
-| 2026-11-12 | **5 语习惯机制深对比文正式发布（EN 标杆 + ZH/ID/MS/TH 同步，按 §3.6）**（§1.1 大规模改动）：新增 `_posts/2026-11-12-habit-feature-comparison.md` EN 标杆与 ZH/ID/MS/TH 共 5 篇 posts，各 424 行 / 24 图 / 9 H2 / 31 H3 / 8 组 FAQ，逐行对齐使图片绝对行号、H2/H3 序列、结构块序列、TOC 序列完全一致，`alt` 本地化且未照抄 EN，内链按语言加前缀，description ≤160；中文定稿自 `seo/drafts/` 转正；`SEO-KEYWORDS.md` §2.3.1 新增「Habit concept terms」20 个概念词（8 英语借词 + zh/id/ms/th 各 3 个本地词）并在 §2.3.4 补维护日志；`SEO-PROGRESS.md` 状态由「中文打磨稿」改为 5 语正式发布；相关术语复用既有 2 个 habit glossary，术语页 27/27 已对称故不新增；24 张图保持原始比例不裁切、同行自然等高，`main.css` 零改动 | PASS（完整构建 5 语 / 605 页；Pagefind 5 语分片 / 605 页 / 34414 词） | PASS（1144 内链 / 606 文件 / 0 failure，锚点 hash 全命中） | **65 PASS / 0 FAIL / 1 WARN**；D03 五语文章 68/68、术语 27/27、结构页 8/8、应用 11/11 全对称；D17 插图集合 / 行序 / alt 本地化 0 篇不一致；D18 H2·H3·结构块·TOC·图片行序 0 篇不一致；D09 11 组 MISS=0（新增 20 词逐词归一化核对全命中）；D06 description ≤160 / lang / YAML / tagline 全 PASS；D08 4390 处图片引用 width 全覆盖；D05 hreflang 6 条 × 605 页、合并 sitemap 605 loc、D12 Pagefind / feed 全 PASS；产物级抽验 5 语新文页各 24 图 / 8 表 / `<html lang>` 正确 / canonical / 6 条 hreflang 成环 / 内链前缀异常 0 | 产物 600→605 页、sitemap 600→605、内链 1134→1144、Pagefind 32488→34414 词；文章 5 语 67→68；`BASE` 仍为空 | 1 WARN（D14 1 条未跟踪新增文件 `?? _posts/2026-11-12-habit-feature-comparison.md`，属本次明确内容新建、已批准，不阻塞；与 2026-11-08 预算文同因） | ✅ 全站可发布；P1 仅 §6 线上人工项 | — |
-| 2026-11-12 | **清单应用功能深度对比文 5 语正式发布（中文打磨稿转正 + EN 标杆 + ZH/ID/MS/TH 同步，按 §3.6）**（§1.1 大规模改动）：中文定稿自 `seo/drafts/` 移到 `_posts/zh/`，并以中文定稿逐行起稿生成 `_posts/2026-11-12-todo-feature-comparison.md` 及 `_posts/{id,ms,th}/` 同名文件，共 5 篇各 327 行 / 11 H2 / 24 图 / 9 组同行等高插图 / 8 组 FAQ + 6 条误区 / 3 表 / 7 款官方下载链接 / 文内「核心概念小词典」8 词条；主题为「什么是清单应用 + 实际价值」，按**一条任务的五段旅程**（捕获 / 组织 / 执行 / 完成 / 回顾）组织，5 语逐语与预算文、习惯文**共享 H2 = 0**（去掉章节编号后唯一相同的是站点模板 `## 常见问题（FAQ）`，按用户要求保留），速览表 / 阅读前提 / 一眼可见的分野 / 你该选哪个等模板句式 0 命中，标题不用疑问句 +「7 款…深度对比」公式；5 语逐行对齐，图片绝对行号与 H2/H3 序列、结构块序列、TOC 序列完全一致，`alt` 本地化唯一且未照抄 EN，内链按语言加前缀，description ≤160；中文 4 处平台口径修正为 Android / iOS 双平台，官方下载地址节按用户要求置于 FAQ 之前；功能事实依据 `spaceman/packages/todo` 代码（只取用户可见规则）与竞品官方页面 / 帮助中心 / 定价页联网核对，行为科学引用 Masicampo & Baumeister 2011 与蔡格尼克效应并写明证据边界；`SEO-KEYWORDS.md` §2.2.1 新增「Todo concept terms」20 个概念词（8 英语借词 + zh/id/ms/th 各 3 个本地词）并在 §2.2.4 补维护日志；`SEO-PROGRESS.md` 状态由「中文打磨稿」改为 5 语正式发布；文内小词典 + 复用既有 `what-is-a-subtask` 术语页满足 glossary 需求，术语页 27/27 已对称故不新增独立 glossary；24 张图保持原始比例不裁切，无 `height` 属性、`main.css` 零改动 | PASS（完整构建 5 语 / 610 页；Pagefind 5 语分片 / 610 页 / 36145 词） | PASS（1159 内链 / 611 文件 / 0 failure，锚点 hash 全命中） | **65 PASS / 0 FAIL / 1 WARN**；D03 五语文章 69/69、术语 27/27、结构页 8/8、应用 11/11 全对称；D17 插图集合 / 行序 / alt 本地化 0 篇不一致；D18 H2·H3·结构块·TOC·图片行序 0 篇不一致；D09 11 组 MISS=0（新增 20 词逐词归一化核对全命中）；D06 description ≤160 / lang / YAML / tagline 全 PASS；D08 4510 处图片引用 width 全覆盖；D05 hreflang 6 条 × 610 页、合并 sitemap 610 loc、D12 Pagefind / feed 全 PASS；产物级抽验 5 语新文页各 24 图且图片集合 5 语一致、`<html lang>` 正确 / canonical / 6 条 hreflang / 内链前缀异常 0 / 5 语 feed 齐 | 产物 605→610 页、sitemap 605→610、内链 1144→1159、Pagefind 34414→36145 词；文章 5 语 68→69；`BASE` 仍为空 | 1 WARN（D14 1 条未跟踪新增文件 `?? _posts/2026-11-12-todo-feature-comparison.md`，属本次明确内容新建、已批准，不阻塞；与 2026-11-08 预算文、2026-11-12 习惯文同因） | ✅ 全站可发布；P1 仅 §6 线上人工项 | — |
-| 2026-11-12 | **全站正确性教研（重点多语言，步 1–4 复跑 + 产物级多语言抽验）**：`git status` 干净（main 分支，无未提交改动）；确认 2026-11-12 两批 5 语对比文发布后无回归；五语数据完整且隔离正确 | PASS（完整构建 5 语 / 610 页；Pagefind 5 语分片 / 610 页 / 36145 词） | PASS（611 文件 / 1159 内链 / 0 failure） | PASS（69/69 文章·11/11 应用·8/8 页面·27/27 术语 五语对称） | PASS（6 条 hreflang × 610 页 + x-default 指 EN、成环完整；合并 sitemap 610 loc；子 sitemap 已删） | PASS（frontmatter/lang/≤160/无裸 &/tagline 红线 12·13/YAML 全 PASS） | PASS（H2 一致、无汉字间空格 0） | PASS（4510 处 width 全覆盖、alt 唯一、无 `![image]`） | PASS（11 组 MISS=0） | PASS（1617 JSON-LD 块无 `&amp;`） | PASS（内链前缀异常 0） | PASS（5 语 feed / Pagefind / robots 全） | PASS（无临时目录、seo/ 未发布、无凭据泄漏） | 无变化（与 2026-11-12 todo 文基线一致：610 页、sitemap 610、内链 1159、Pagefind 36145 词）；`BASE` 仍为空 | 无 WARN（D14 0 条，前两次发布文件已提交） | ✅ 全站可发布；多语言数据正确（canonical / `<html lang>` / hreflang 成环 / feed xml:lang / 无跨语言泄漏均抽验通过）；P1 仅 §6 线上人工项 | AI 教研 |
+| 日期 | 构建 | htmlproofer | 教研结果 | 基线数字 |
+|---|---|---|---|---|
+| 2026-11-12 | PASS（5 语 / 610 页；Pagefind 36145 词） | PASS（611 文件 / 1159 内链 / 0 failure） | 69/69 文章·11/11 应用·8/8 页面·27/27 术语 五语对称；D01–D20 全绿（D14 1 条未跟踪新文件已批准） | 610 页 / sitemap 610 loc / 6 条 hreflang × 610 页 / `BASE` 为空 |
+
+> D12 在 `SKIP_PAGEFIND=1` 快速构建下的 FAIL 是已知假阳性，不计入基线；本表只登记完整构建结果。
 
 ---
 

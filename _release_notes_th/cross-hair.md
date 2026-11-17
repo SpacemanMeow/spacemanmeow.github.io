@@ -4,7 +4,7 @@ title: "Crosshair Aim สำหรับเกม FPS — บันทึกก�
 app_slug: cross-hair
 app_title: "Crosshair Aim สำหรับเกม FPS"
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.crosshair.aim.fps.game
-app_store: 
+app_store: ""
 lang: th
 seo:
   type: WebPage

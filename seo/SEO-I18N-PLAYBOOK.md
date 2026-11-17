@@ -3,11 +3,8 @@
 > **用途**：本站 `spacemanmeow.com` 新增任何语言、任何 App 的多语言内容时，**直接按本文档执行**，无需再向需求方确认实现细节。
 > **适用**：Jekyll 4.4 多语言合并构建；默认语言 `en`（根路径），其他语言走 `/<lang>/` 子路径。
 > **权威关系**：技术红线以 `SITE-AUDIT.md` 为准；关键词以 `SEO-KEYWORDS.md` 为准；SEO 方法论以 `SEO-PLAYBOOK.md` 为准；进度与台账以 `SEO-PROGRESS.md` / 本文档配套 `SEO-I18N-PROGRESS.md` 为准。本文档负责把四者串成**可重复执行的流程**。
-> **最后更新**：2026-11-08
-> **首个实例**：`id`（Bahasa Indonesia / 印度尼西亚；2026-11-06 完成 Phase 0–3，66/66 posts 可发布，状态见 `SEO-I18N-PROGRESS.md`），Meow Money Manager 优先。
-> **第二个实例**：`th`（泰语 / Thai；2026-11-07 完成 Phase 4 全量交付，posts/apps/gloss 66/66·11/11·22/22、**结构页 8/8 已补齐**，htmlproofer 0 failure），从 `id` 骨架逐篇翻译，完整教研见 `SITE-AUDIT.md` §8。
-> **第三个实例**：`ms`（Bahasa Melayu / 马来西亚；2026-11-07 完成 Phase 5 全量交付，posts/apps/gloss/结构页 66/66·11/11·22/22·8/8），从 `id` 骨架逐行本地化，处理同源语言用词差异、大马本地支付场景与目录锚点重映射，完整教研见 `SITE-AUDIT.md` §8。
-
+> **最后更新**：2026-11-17
+> **已上线语言**：EN（根）/ ZH / ID / MS / TH，5 语均已全量交付（文章与 EN 对等、术语与结构页齐全）。逐语言状态以 `SEO-I18N-PROGRESS.md` 为准，教研记录见 `SITE-AUDIT.md` §8。
 ---
 
 ## 0. 速查：新增一门语言的 12 步
@@ -19,11 +16,11 @@
 | 3 | 生成语言配置与目录 | `bash scripts/new-language.sh <code> "<Label>" <SHORT>`，再按 §2.3 手工补齐 | ✅ |
 | 4 | 补数据文件 | `_data/languages.yml` / `nav.yml` / `ui.yml`；**同步 `README.md`「语言」段**（对外可见，见 §2.4） | ✅ |
 | 5 | 补构建脚本 | `scripts/build.sh` 增加该语言 build + rsync 块 | ✅ |
-| 6 | **模板 N 语言通用化**（仅首次新增第三语言时做一次） | 消除所有 `zh`-vs-else 二元判断，见 §2.6 | ✅（一次性） |
+| 6 | **模板 N 语言通用化**（已完成，仅新增语言时复核） | 消除所有 `zh`-vs-else 二元判断，按 `site.lang` 动态取值，见 §2.6 | ✅ |
 | 7 | 教研文档 N 语言化 | `SITE-AUDIT.md` §2/§3/§4/§5 脚本/§8 | ✅ |
-| 8 | **结构页全覆盖** | `_pages/<code>/` 8 页 + `<code>/blog/index.html` + `_glossary_<code>/` 22 条 + 404 | ✅ |
+| 8 | **结构页全覆盖** | `_pages/<code>/` 8 页 + `<code>/blog/index.html` + `_glossary_<code>/` 27 条 + 404 + Release Note 11 页（见下） | ✅ |
 | 9 | **App 页** | `_apps_<code>/` 全部 11 个 App（首页列表不得残缺） | ✅ |
-| 10 | **Posts** | `_posts/<code>/`，按 App 分批推进，见 §7 | 分批 |
+| 10 | **Posts + Release Note** | `_posts/<code>/` 从 EN 骨架同源本地化（见 §3.5）；Release Note 走 `skills/release-notes/SKILL.md` | ✅ |
 | 11 | 全量校验 | 完整构建 + htmlproofer + 教研脚本 + 产物抽验，见 §6 | ✅ |
 | 12 | 记录 | `SEO-I18N-PROGRESS.md` + `SITE-AUDIT.md` §8 + `SEO-PROGRESS.md` | ✅ |
 
@@ -45,7 +42,7 @@
 6. **关键词按各语言优化，但文章本体是同一篇**：非 EN 内容是 EN 对应文章的**语言版本**，不是另写一篇新文章；只允许优化关键词、标题用词与局部表达，当地高频但产品不具备的功能词不得写入文案。
 7. **所有页面类型都要有对应语言内容**：只有 `posts` 与 `app` 不算完成；`pages` / `glossary` / `blog` 分页 / 搜索 / 标签 / 隐私 / 条款 / 关于 / 404 / nav / UI / feed / sitemap / Pagefind 分片全部要覆盖，见 §5。
 8. **全站改动必须完整教研**：按 `SITE-AUDIT.md` §1.1，新增语言属 P0，必须跑全量构建 + htmlproofer + 教研脚本 + §8 记录。
-9. **功能事实口径统一**：备份 = Google Drive + WebDAV（Google Play 描述不写 iCloud）；图标 = 400+；货币 = 50+；FAQ 用 `{:.faq-q}`，问句与答案之间留空行。
+9. **功能事实口径统一**：备份 = Google Drive + WebDAV（Google Play 描述不写 iCloud）；功能规格数字以各 App `_apps/<slug>.md` 与 Google Play 描述为准，不得凭空增补（见红线 12）；FAQ 用 `{:.faq-q}`，问句与答案之间留空行，组数与 EN 对等。
 10. **文章插图必须与 EN 同源**：非 EN 文章的 `![...](/assets/images/...)` 图片路径集合（含重复次数）必须与 EN 同名文章完全一致，`alt` 按本语言关键词优化而非照抄 EN。详见 §3.5（D17 硬门禁）。
 11. **所有语言版本的文章结构、文章目录、图片插入都以 EN 为准**：H2/H3 的层级、数量、顺序、含义逐条对应；结构块（表格 / 列表 / 编号步骤 / FAQ / 分隔线）与文章目录（TOC 条目数、所在行序）逐项对应；正文论点、对比对象、功能点、表格、FAQ 条目、数据大致一致，差异只出现在关键词、本地场景举例与表达措辞。因此图片落在**与 EN 完全相同的位置**，不要求「紧跟标题」。全语言由 `SITE-AUDIT.md` §5 **D18** 自动硬校验（D17 另校验图片集合、行序与 `alt`）。详见 §3.2 / §3.3 / §3.5。
 12. **App 详情页 `tagline` 四语语义与信息量对等**：`tagline` 是 EN 短句的**忠实本地化版本**，只允许换用词、语序与本地惯用表达，**不得把正文 / `description` 里的功能点、规格数字、卖点清单提炼进 tagline**，也不得删减 EN 原有的核心信息。**只设上限、不设下限**（中文信息密度高，忠实短句天然只有 EN 的 0.2–0.7 倍字符数，属正常）。自动门禁（`SITE-AUDIT.md` §5 **D06**，逐 App 点名异常文件）：① 字符数 ≤ EN × `1.5`；② tagline 中的规格数字（如 `400+` / `500+` / `80`）集合必须是 EN tagline 数字集合的子集；③ 语义要点一一对应由人工抽验兜底。超出即视为「另写一句 SEO 长句」，破坏 hreflang 对应页内容对等与列表页卡片排版，属 P0。2026-11-07 已按此规则把 `_apps_id` / `_apps_th` 的 11 个 tagline 收敛回 EN 短句。
@@ -128,12 +125,14 @@ rm -rf "$TMP_ID"
 在每个布局/包含文件头部统一声明：
 
 ```liquid
-{% assign lang = page.lang | default: site.lang | default: 'en' %}
+{% assign lang = site.lang | default: 'en' %}
 {% assign lp = '' %}{% if lang != 'en' %}{% assign lp = '/' | append: lang %}{% endif %}
 {% assign home = '/' | prepend: lp %}
 {% assign coll_apps = 'apps' %}{% if lang != 'en' %}{% assign coll_apps = 'apps_' | append: lang %}{% endif %}
 {% assign coll_gloss = 'glossary' %}{% if lang != 'en' %}{% assign coll_gloss = 'glossary_' | append: lang %}{% endif %}
 ```
+
+> **关键**：`lang` 必须取构建级 `site.lang`，**绝不能用 `page.lang`**——非 EN 构建下 `page.lang` 会把页面渲染到 EN 根目录或触发 `Cannot sort a null object`。`page.lang` 只用于正文内容标记，不参与集合 / 前缀选择。
 
 统一替换规则：
 
@@ -162,14 +161,9 @@ rm -rf "$TMP_ID"
 
 canonical 由各 `_config_<lang>.yml` 的 `permalink` 自带 `/<lang>/` 前缀自动生成，**零改动**。
 
-### 2.7 Step 7 · 教研文档 N 语言化
+### 2.7 Step 7 · 教研文档 N 语言化（已完成，新增语言时复核）
 
-`SITE-AUDIT.md` 中所有「EN+ZH / 2 语言 / 3 条 alternate / 66↔66」断言改为 N 语言：
-- §2.1 基线数量、§2.2 构建与路由事实、§2.5 基线更新规则；
-- §3 维度表 D01/D03/D04/D05/D07/D08/D11；
-- §4 D01/D03/D04/D05/D07/D08/D11/D12/D14；
-- **§5 一键脚本**：`LANGS = ['en'] + sorted(所有两位字母目录)`；`iszh()` → `lang_of(path)`；`mds` 收集所有 `_apps_<lang>/`、`_glossary_<lang>/`、`_posts/<lang>/`、`_pages/<lang>/`；D03 改 N 路集合相等；D06 `d.get('lang') == lang_of(f)`；D07 按语言比 H2；D05 断言 `len(alts) == len(LANGS)+1`；D11 按 `lp` 检查内链前缀；D12 feed / 临时目录按 `LANGS` 循环；D15 泄漏白名单覆盖所有 `.jekyll-<lang>`。
-- §8 追加本次教研记录。
+`SITE-AUDIT.md` 的维度判定已全面 N 语言化，新增语言无需再改脚本：§5 脚本从 `_config_<lang>.yml` 自动发现 `LANGS`，按 `lang_of(path)` 逐语言校验集合相等、`lang` 一致、H2 对等、hreflang = 组内语言数 + 1、内链前缀、feed / 临时目录与泄漏白名单。新增语言时只需确认语言被自动发现、基线数量已更新，并在 §8 追加教研记录。
 
 ---
 
@@ -223,12 +217,11 @@ image: /assets/images/apps/<app>/icon.webp
 - 内链一律 `](/<lang>/glossary/.../)`、`](/<lang>/apps/.../)`、`](/<lang>/posts/.../)`；EN 内链不得出现在非 EN 正文，非 EN 前缀不得出现在 EN 正文（D11）。
 - 图片引用沿用 `/assets/...`（共享资源），带 `{: width=... }`，`alt` 站内唯一且不重复；**插图集合与 alt 本地化另见 §3.5（P0）**。
 - FAQ 用 `**问句？**` + 下一行 `{:.faq-q}` + **空行** + 答案；H3 问句直接挂 `{:.faq-q}`。
-- H2 数量与 EN 版一致（D07）；EN/ZH/新语言三者的 FAQ 条数建议对等，保证 JSON-LD 完整。
+- H2 数量与 EN 版一致（D07）；各语言 FAQ 条数与 EN 对等，保证 JSON-LD 完整。
 
 ### 3.5 文章插图一致性（P0，2026-11-06 新增）
 
-> **起因（已发生的错误）**：`id` 首批 6 篇 posts 按本地关键词重写正文时**漏掉了全部插图**，`/id/` 文章页只有全站共用图标；`zh` 也有 1 篇少 17 张竞品截图。`post.html` 只渲染 `{{ content }}`，正文没有 `![...]` 就不会有图；而旧教研 D08 只检查「已有图片」的 alt / width / 文件存在，**查不出「整篇没图」**。以下规则用于杜绝同类问题再次发生。
-
+> **背景**：早期非 EN 文章按本地关键词重写时曾整篇漏掉插图，而旧 D08 只检查「已有图片」的属性，查不出「整篇没图」。以下规则（D17/D18 硬门禁）杜绝同类问题。
 1. **资源集合一致**：任何非 EN 文章，只要 EN 存在同名文件（`_posts/<YYYY-MM-DD-slug>.md`），其正文 `![...](/assets/images/...)` 的**图片路径多重集（含重复次数）必须与 EN 完全一致**。不新增、不删减、不替换为本地自制图；资源一律 `/assets/...` 绝对路径（各语言构建共享同一份 `assets`）。
 2. **图片位置与 EN 完全一致**：因为目录结构（H2/H3、段落顺序）与 EN 一致，图片应落在**与 EN 相同的位置**——同一个标题之后、同一段落之后、同一个列表项之后，按行序一一对应。**不要求、也不应强行「图片紧跟标题」**：EN 中跟在段落或列表项之后的图片，本地化后保持同样位置；不得挪到小节末尾、合并/拆分图片块、改变图片块之间的正文顺序，也不得留下多余空行。
 3. **IAL 必须保留**：每条引用带 `{: width="180" .normal }`（沿用 EN），否则 D08「图片 width 覆盖」FAIL。
@@ -240,21 +233,17 @@ image: /assets/images/apps/<app>/icon.webp
 
 **自动门禁**：`SITE-AUDIT.md` §5 的 **D17** 逐篇比对非 EN 文章与 EN 同名文章的图片路径多重集、图片行序，并检查 `alt` 未照抄 EN；**D18** 逐篇比对 H2/H3 层级序列、结构块序列、文章目录（TOC 条目与行位置）、图片插入行序；任一不一致直接 FAIL。两项门禁覆盖所有非 EN 语言，已于 2026-11-06 全量启用（72 篇一致）。
 
-**当前状态（2026-11-06）**：
-- `zh` 66/66：**符合 D17 / D18**——H2/H3 层级、结构块序列、目录条目、图片行序与 EN 一致；历史翻译的纯文本段落与空行差异不纳入硬门禁（允许局部表达调整）。
-- `id` 首批 6 篇：**已完成按 EN 骨架重构（6/6）**——三批交付，逐行行类型序列、图片行号与路径序列、表格 / FAQ / 目录全部与 EN 一致，本地关键词与场景举例保留，教研全绿；进度见 `SEO-I18N-PROGRESS.md`。
-- `id` 其余 60 篇（Phase 3）一律直接从 EN 骨架起稿，不再重写。
-
+**当前状态**：5 语文章均已全量交付并通过 D17 / D18（图片集合 / 行序 / alt 本地化、H2/H3 / 结构块 / TOC / 图片插入行序逐篇与 EN 一致）；进度见 `SEO-I18N-PROGRESS.md`。
 ---
 
 ### 3.6 单篇跨语言新增 SOP（已上线多语言站点）
 
-> **适用**：站点已完整上线 N 语言（posts/apps/glossary/结构页各语言齐全）后，**新增一篇文章并同步全部语言版本 + 对应 glossary**。与「新增一门语言」（§0 十二步）和「Phase 补齐某 App 的 posts」（§5.3）不同，本流程前提是语言基础设施已存在，只补内容。本次「7 款 App 预算功能对比」（2026-11-08）即按此执行：EN 标杆 + ZH/ID/MS/TH 各 1 篇 + 各语言 5 个预算概念 glossary，5 语文章 67/67、术语 27/27 全部对称，教研 65 PASS / 0 FAIL。
+> **适用**：站点已完整上线 N 语言（posts/apps/glossary/结构页各语言齐全）后，**新增一篇文章并同步全部语言版本 + 对应 glossary**。与「新增一门语言」（§0 十二步）和「Phase 补齐某 App 的 posts」（§5.3）不同，本流程前提是语言基础设施已存在，只补内容。每篇新增文章（如 2026-11-08 预算对比文、2026-11-12 习惯 / 清单对比文）均按此执行：EN 标杆 + ZH/ID/MS/TH 各 1 篇 + 各语言对应概念 glossary，5 语对称，教研全绿。
 
 1. **先定 EN 标杆**：在 `_posts/2026-MM-DD-slug.md`（EN 根目录）写标杆，固定 H2/H3 层级序列、结构块序列、TOC 条目与行位置、图片插入行序——后续所有语言版本必须逐篇与之一致（§1 红线 11 / D18）。对比类教程推荐骨架：速览表 → 技术分歧 N 节 → 逐 App 拆解（Meow 含 6 个 `####`）→ 多维对比表 → 选型建议（含官方下载表）→ FAQ → 相关术语。
 2. **词库先登记借词概念词**：在已上线语言的各 `§2.1.x` 词表（id §2.1.5 / ms §2.1.6 / th §2.1.7）新增「Budget concept terms」段，登记英语借词（`zero-based budgeting` / `envelope budgeting` / `budget rollover` / `sinking fund` / `category budget`）为概念词，标「已覆盖(<lang>)」。**借词照实收录**，不强行译成本地纯语（§2.1 Step 1）；本地长尾词（如 `aplikasi catatan keuangan` / `แอปบันทึกการเงิน` / `bajet per kategori`）另列。词库与内容同批完成（D09 登记即生效，不得只改台账蒙混）。
 3. **各语言从 EN 骨架逐行本地化**：`_posts/<lang>/` 复制 EN 同名文件结构，逐行翻译文字与 `alt`，遵循 §3.5 插图一致 + §1 红线 11 骨架对等；**若某语言词表段原本缺失（如本次 th 无独立 §2.1.x）须先补建该段，再写文**。
-4. **各语言 glossary 同步新增**：在 `_glossary_<lang>/` 新增与 EN 同名的 5 个概念词页，H2 结构按该语言既有 glossary 风格（EN `What it is & How it works` / ID `Definisi & Cara Kerja` / MS `Definisi & Cara Ia Berfungsi` / TH `นิยามและวิธีการทำงาน`），`lang` 与目录一致，内链用 `/<lang>/glossary/...`，保证 D03 术语对称（各语言 22→27 等）。
+4. **各语言 glossary 同步新增**：在 `_glossary_<lang>/` 新增与 EN 同名的 5 个概念词页，H2 结构按该语言既有 glossary 风格（EN `What it is & How it works` / ID `Definisi & Cara Kerja` / MS `Definisi & Cara Ia Berfungsi` / TH `นิยามและวิธีการทำงาน`），`lang` 与目录一致，内链用 `/<lang>/glossary/...`，保证 D03 术语对称（数量以文件系统实测为准，当前 27/语言）。
 5. **本地竞品补充**：在「你该选哪个」段末尾加入本地钱包/理财 App 场景词（ID 的 DuitKu、MS 的 MoneyMama/MAE、TH 的 TrueMoney/PromptPay）作为本地替代提及；**产品不具备的功能词不得写入**（§1 红线 6）。
 6. **校验闭环**：完整构建（含 Pagefind）+ htmlproofer + §5 脚本；确认 D03 各语言对称、D09 MISS=0、D18 骨架对等、D06 `description ≤160`；同批更新 `SEO-PROGRESS.md` 与 `SITE-AUDIT.md` §8。
 
@@ -270,9 +259,10 @@ image: /assets/images/apps/<app>/icon.webp
 | 4 | 关于 / 隐私 / 条款 | `_pages/<lang>/about.md` `privacy.md` `terms.md` | `/<lang>/{about,privacy,terms}/` | 页脚 `social.links` 指向本语言 |
 | 5 | 搜索 | `_pages/<lang>/search.md` | `/<lang>/search/` | `lang: <lang>` 在 front matter；`pf.search(q,{language:lang})`；结果过滤 `d.url.indexOf(lp + '/search') !== 0`；App 图标区用 `site[coll_apps]` |
 | 6 | 标签索引 | `_pages/<lang>/tags.md` | `/<lang>/tags/` | 日期用 `site.data.ui[lang].date_format` |
-| 7 | 术语索引 + 22 条定义 | `_pages/<lang>/glossary.md` + `_glossary_<lang>/` | `/<lang>/glossary/.../` | 22 条内链全部指向 `/<lang>/glossary/`，不得 404 |
-| 8 | 11 个 App 详情 | `_apps_<lang>/` | `/<lang>/apps/.../` | `lang: <lang>`；FAQ 7 组；JSON-LD 完整；内链前缀 |
+| 7 | 术语索引 + 定义页 | `_pages/<lang>/glossary.md` + `_glossary_<lang>/` | `/<lang>/glossary/.../` | 各语言术语数量与 EN 对等（当前 27），内链指向 `/<lang>/glossary/`，不得 404 |
+| 8 | 11 个 App 详情 | `_apps_<lang>/` | `/<lang>/apps/.../` | `lang: <lang>`；FAQ 组数与 EN 一致；JSON-LD 完整；内链前缀 |
 | 9 | Posts | `_posts/<lang>/` | `/<lang>/posts/.../` | 与 EN 同名 slug 一一对应（D03） |
+| 9b | Release Note | `_release_notes_<lang>/` | `/<lang>/apps/<slug>/release-notes/` | 11 App 各一页、5 语共 55 页，由用户日志经 `skills/release-notes/SKILL.md` 生成（D20） |
 | 10 | feed | `_config_<lang>.yml` `feed.path` | `/<lang>/feed.xml` | 存在且含 entry |
 | 11 | sitemap / hreflang | `i18n_postprocess.py` | `/sitemap.xml` | 合并版；子 sitemap 删除；404 不进 |
 | 12 | 404 | 根级 `404.html`（共享） | — | 按 `SITE_LANGS` 判断首段语言，显示对应文案 |
@@ -285,7 +275,7 @@ image: /assets/images/apps/<app>/icon.webp
 
 ### 5.1 为什么必须分批
 
-一次新增语言涉及 100+ 内容文件（`66 posts + 11 apps + 8 pages + 22 glossary + 1 blog 模板 + 1 配置`）。上下文溢出会导致：后半批文件质量下降、front matter 字段不一致、内链前缀混用、关键词落地走样。因此**必须**按批次推进，并把状态外置到 `SEO-I18N-PROGRESS.md`。
+一次新增语言涉及 100+ 内容文件（`69 posts + 11 apps + 8 pages + 27 glossary + 11 Release Note + 1 blog 模板 + 1 配置`，数量以实测为准）。上下文溢出会导致：后半批文件质量下降、front matter 字段不一致、内链前缀混用、关键词落地走样。因此**必须**按批次推进，并把状态外置到 `SEO-I18N-PROGRESS.md`。
 
 ### 5.2 批次划分原则
 
@@ -321,11 +311,11 @@ SKIP_PAGEFIND=1 bash scripts/build.sh             # 本地快速预览
 bundle exec htmlproofer _site --disable-external  # 或项目既有参数
 ```
 
-日志应出现 `Languages detected: ['en', 'zh', '<lang>']`、`Processed N pages across 3 languages`、`==> Done. Combined site in _site/`。
+日志应出现 `Languages detected: ['en', 'id', 'ms', 'th', 'zh']`、`Processed N pages across 5 languages`、`==> Done. Combined site in _site/`。
 
 ### 6.2 教研脚本
 
-按 `SITE-AUDIT.md` §5 整段执行，目标 `{PASS: N, FAIL: 0, WARN: 0}`；`D14` 有 WARN 时逐条给人工结论并写 §8。其中 **D01** 会校验 `README.md`「语言」段与 `_data/languages.yml` 一致，新增语言漏改对外清单会直接 FAIL 并点名缺失的语言与数量词。
+按 `SITE-AUDIT.md` §5 整段执行，目标 `{PASS: N, FAIL: 0, WARN: 0}`（**D12 在 `SKIP_PAGEFIND=1` 快速构建下的 FAIL 是已知假阳性，须完整构建消除**）；`D14` 有 WARN 时逐条给人工结论并写 §8。其中 **D01** 会校验 `README.md`「语言」段与 `_data/languages.yml` 一致，新增语言漏改对外清单会直接 FAIL 并点名缺失的语言与数量词。
 
 ### 6.3 产物抽验（每语言）
 
@@ -367,6 +357,6 @@ bundle exec htmlproofer _site --disable-external  # 或项目既有参数
 
 ## 8. 文档维护
 
-- 新增语言后，更新本文档 §0 首个实例列表、§4 清单数量、`SEO-I18N-PROGRESS.md` 语言矩阵。
+- 新增语言后，更新本文语言范围说明、§4 清单与 `SEO-I18N-PROGRESS.md` 语言矩阵；**状态与进度只写入 `SEO-I18N-PROGRESS.md`**（唯一状态源），不在本文维护第二份状态。
 - 若 `scripts/new-language.sh` 再次改进，同步更新 §2.3 与 §7。
 - 若发现新的 `zh` 残留，补进 §2.6 与 §7，并在 §8 记录教研结论。

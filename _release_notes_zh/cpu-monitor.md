@@ -4,7 +4,7 @@ title: "CPU Monitor - 温度监控 — 更新日志"
 app_slug: cpu-monitor
 app_title: "CPU Monitor - 温度监控"
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.stark
-app_store: 
+app_store: ""
 lang: zh
 seo:
   type: WebPage

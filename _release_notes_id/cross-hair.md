@@ -4,7 +4,7 @@ title: "Crosshair Aim for FPS Games — Catatan Rilis"
 app_slug: cross-hair
 app_title: "Crosshair Aim for FPS Games"
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.crosshair.aim.fps.game
-app_store: 
+app_store: ""
 lang: id
 seo:
   type: WebPage

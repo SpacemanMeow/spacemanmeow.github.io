@@ -4,7 +4,7 @@ title: "One Widget - 桌面小组件 — 更新日志"
 app_slug: one-widget
 app_title: "One Widget - 桌面小组件"
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.galaxy.nothing.glass.material.widget
-app_store: 
+app_store: ""
 lang: zh
 seo:
   type: WebPage

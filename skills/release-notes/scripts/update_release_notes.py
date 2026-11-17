@@ -132,7 +132,8 @@ def build_page(app, lang, versions):
         "app_slug: %s" % app["slug"],
         "app_title: %s" % json.dumps(local_title(app, lang), ensure_ascii=False),
         "google_play: %s" % app["play"],
-        "app_store: %s" % app["store"],
+        # 单端 App 必须写 app_store: ""，裸空值会让 YAML 吞掉下一行 lang，破坏 hreflang
+        "app_store: %s" % (app["store"] if app["store"] else '""'),
         "lang: %s" % lang,
         "seo:", "  type: WebPage", "---", "",
     ]

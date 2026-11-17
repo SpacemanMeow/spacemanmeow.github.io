@@ -4,7 +4,7 @@ title: "Floating Assistant — Catatan Rilis"
 app_slug: floating-assistant
 app_title: "Floating Assistant"
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.floating.apps.assistive.touch.pro
-app_store: 
+app_store: ""
 lang: id
 seo:
   type: WebPage

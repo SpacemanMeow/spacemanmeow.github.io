@@ -4,7 +4,7 @@ title: "CPU Monitor - temperature — Nota Keluaran"
 app_slug: cpu-monitor
 app_title: "CPU Monitor - temperature"
 google_play: https://play.google.com/store/apps/details?id=com.glgjing.stark
-app_store: 
+app_store: ""
 lang: ms
 seo:
   type: WebPage

@@ -1,17 +1,17 @@
 # SpacemanMeow SEO 关键词库（Keyword Bank）
 
 > **用途**：所有 App 跨语言关键词的**权威库**。按「语言 × 词层 × 优先级」分组排序，作为**新文章撰写、现有文章更新**的文案优化依据；并随 Google Play Console / Search Console 真实数据持续维护。
-> **最后更新**：2026-11-07
-> **语言范围**：英文站（默认 `en`）+ `/zh/` 中文站（已上线）+ `/id/` 印尼语站（已上线）+ `/th/` 泰语站（已上线）+ `/ms/` 马来语站（Phase 5 全量完成：66 posts / 11 App / 22 术语 / 8 结构页，见 `SEO-I18N-PROGRESS.md`）+ 后续 `tl` / `hi` 等。关键词须**本地化**而非直译（见 `SEO-PLAYBOOK.md` §6.1 与 `SEO-I18N-PLAYBOOK.md` §3）。
+> **最后更新**：2026-11-17
+> **语言范围**：5 语并行（EN 根 + `/zh/` `/id/` `/ms/` `/th/`，均已全量上线，文章 69 / 术语 27 / 结构页 8 / App 11，见 `SEO-I18N-PROGRESS.md`）+ 后续 `tl` / `hi` 等。关键词须**本地化**而非直译（见 `SEO-I18N-PLAYBOOK.md` §3）。
 > **多语言词库规则**：每新增一门语言，先按 `SEO-I18N-PLAYBOOK.md` §3 做当地检索，再在对应 App 小节追加 `§2.N.x <语言>` 词表（初始状态「待覆盖」，内容落地后逐条改「已覆盖」并跑 D09）；**禁止**由 en/zh 词等价翻译生成。
-> **关联文档**：本库是 `SEO-PLAYBOOK.md` §2.1.1 关键词库的**详细展开与持续维护版**；内容集群模型见 `SEO-PLAYBOOK.md` §2.2，度量回填见 `SEO-METRICS.md`。
+> **关联文档**：本库是关键词**唯一权威源**（`SEO-PLAYBOOK.md` 不再复制词表）；内容集群模型见 `SEO-PLAYBOOK.md` §2.2，度量回填见 `SEO-METRICS.md`。
 
 ---
 
 ## 0. 使用规范（编辑 SOP）
 
-1. **新文章**：先查本库 §1 索引 → 选目标词（优先 P0/P1）→ 文案围绕目标词展开（title/description/H1/首段/Glossary 内链）→ 填 `tags`（app/品类/类型/竞品四层，见 §3.5）→ 确认与 Pillar/App 互链 → 改完后回写本库「当前覆盖」列 + 标 `last_modified_at`（见 `SEO-PLAYBOOK.md` §2.4）。
-2. **改文章**：用 GSC 实际点击词（`skills/seo-research/scripts/gsc_export.py`）回填本库「搜索量(实测)/排名」列，并据低 CTR 词重写 title/description（`SEO-PLAYBOOK.md` §2.3）。
+1. **新文章**：先查本库 §1 索引 → 选目标词（优先 P0/P1）→ 文案围绕目标词展开（title/description/H1/首段/Glossary 内链）→ 填 `tags`（至少 1 个规范产品标签 + 品类/类型，见 `SITE-AUDIT.md` D19）→ 确认与 Pillar/App 互链 → 改完后回写本库「当前覆盖」列 + 标 `last_modified_at`（见 `SEO-PLAYBOOK.md` §2.4）。
+2. **改文章**：用 GSC 实际点击词（`skills/seo-research/scripts/gsc_export.py`）分析表现（数据写入 `SEO-METRICS.md`，不在本库另设实测列），据低 CTR 词重写 title/description（`SEO-PLAYBOOK.md` §2.3）。
 3. **每月维护**：结合 Google Play Console「获客 → 商店列表 → 搜索关键字/来源」+ GSC 实际词，新增/调整/降权关键词，并在各 App 小节 §2.N.4 维护日志登记。
 4. **防自相残杀（cannibalization）**：同词只由一篇主吃，其余内链导流，不两篇抢同一词（见 `SEO-PLAYBOOK.md` §3 / §7.2）。
 
@@ -31,16 +31,16 @@
 
 ### 0.3 字段说明（每条关键词一行）
 `关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注`
-- **预估流量**：相对值 高/中/低（绝对量待 GSC/Play Console 回填至「搜索量(实测)」）。
+- **预估流量**：相对值 高/中/低；实测点击/展现由 GSC 导出后在 `SEO-METRICS.md` 分析，不在本库维护实测列。
 - **购买意图**：高/中/低（是否接近下载/付费决策）。
 - **当前覆盖**：`已覆盖(文件名)` 或 `待覆盖`。
-- **数据来源**：`站内已覆盖` / `竞品调研` / `GSC实测(待回填)` / `Play Console(待回填)`。
+- **数据来源**：`站内已覆盖` / `竞品调研` / `GSC实测` / `Play Console`（GSC/Play 实测明细在 `SEO-METRICS.md` 与各 gsc 导出，不写「待回填」占位）。
 
 ---
 
 ## 1. 全 App 关键词索引（种子总览）
 
-> 完整展开见各 App 小节；本表给全站词源地图。种子词取自 `SEO-PLAYBOOK.md` §2.1.1；全部 App 已按 §2 模板展开（§2.1–§2.11），状态见 §3。
+> 完整展开见各 App 小节；本表给全站词源地图。全部 App 已按 §2 模板展开（§2.1–§2.11），覆盖状态见各节「当前覆盖」列。
 
 | App（英） | 中文名 | 核心 Head 词（en） | 核心 Head 词（zh） | 关键词状态 |
 |---|---|---|---|---|
@@ -58,7 +58,7 @@
 
 ---
 
-> **§2 结构**：按 App 并列，§2.1–§2.11 共 11 节，每节统一为「英文（en）/ 中文（zh）/ 竞品拦截词 / 维护日志」四段，词层再分 Head / Middle / Long-tail / 品牌词。编号连续，与 §1 索引、§3 清单一一对应。
+> **§2 结构**：按 App 并列，§2.1–§2.11 共 11 节；每节按已上线语言分列（en / zh / id / ms / th，视该 App 词表进度），另含「竞品拦截词 / 维护日志」。词层分 Head / Middle / Long-tail / 品牌词/概念词，与 §1 索引一一对应。
 
 ## 2.1 Meow Money Manager（喵窝记账）关键词记录
 
@@ -188,9 +188,8 @@
 | 2026-11 | Google Play 当地检索（zh_CN/SG、en_US/US） | —（核对现有词，未新增词条） | — | 以 Play 在架标题校验 App 详情页用词：zh 记账/记账本/预算，en expense tracker/budget planner；App 页 tagline、description、正文与 FAQ 按已覆盖词重新落地，D09 MISS = 0 |
 | 2026-11-06 | Google Play `hl=id&gl=ID` 在架标题 + 印尼本地网页/评测检索 | **建立 `id` 印尼语词表（§2.1.5）**：`aplikasi catatan keuangan` / `catatan keuangan harian` / `pencatat keuangan` / `atur anggaran bulanan` / `budget harian` / `catat pengeluaran & pemasukan` / `offline tanpa internet` / `tanpa daftar akun` 等 | — | **非直译**：印尼用户高频使用 `catatan keuangan`（财务记录）而非英文 `expense tracker` 的直译 `pelacak pengeluaran`；同时当地在架标题混用英语借词 `budget` / `expense tracker` / `money manager`，故按「印尼语主体 + 借词并存」收录。词表初始全部标「待覆盖」，待 `/id/` 内容落地后逐条改「已覆盖」并跑 D09；进度见 `SEO-I18N-PROGRESS.md` |
 | 2026-11-06 | 站内 `/id/` 内容落地（47 个印尼语内容源）+ D09 归一化逐词核对 | §2.1.5 共 52 词：**51 词**由「待覆盖」改为「已覆盖(id)」；1 词 `widget catatan keuangan` 因产品功能口径未确认而合规挂起 | — | 逐词与 ID 正文归一化核对后才标「已覆盖」，D09 11 组 MISS=0；Head/Middle/Long-tail/竞品拦截词均按本地检索证据落地，非 en/zh 直译 |
-| 2026-11-07 | Google Play `hl=ms&gl=MY` 在架说明 + 大马本地评测（StashAway.my / RinggitWise / CelcomDigi / Mr Money TV / FMT） + DOSM 家庭支出统计 | **建立 `ms` 马来语词表（§2.1.6）**：29 词（Head 6 / Middle 8 / Long-tail 8 / 品牌与竞品 7），含 `aplikasi catatan kewangan` / `aplikasi bajet` / `aplikasi kewangan tanpa akaun` / `cap jari` / `sandaran Google Drive dan WebDAV` | 不收录银行自动同步、LHDN 自动报税、resit OCR（产品不具备，合规挂起） | 从 `id` 骨架逐行本地化落地 66 posts + 11 App + 22 术语 + 8 结构页；`GoPay/OVO/DANA/QRIS`→`DuitNow QR/Touch 'n Go eWallet/GrabPay/Boost`、`Rp/Rupiah`→`RM/Ringgit`；逐词核对后 29/29 标「已覆盖(ms)」，D09 MISS=0 |
-| _待填_ | Google Play Console | | | |
-| _待填_ | GSC 实际点击词 | | | |
+| 2026-11-07 | Google Play `hl=ms&gl=MY` 在架说明 + 大马本地评测（StashAway.my / RinggitWise / CelcomDigi / Mr Money TV / FMT） + DOSM 家庭支出统计 | **建立 `ms` 马来语词表（§2.1.6）**：29 词（Head 6 / Middle 8 / Long-tail 8 / 品牌与竞品 7），含 `aplikasi catatan kewangan` / `aplikasi bajet` / `aplikasi kewangan tanpa akaun` / `cap jari` / `sandaran Google Drive dan WebDAV` | 不收录银行自动同步、LHDN 自动报税、resit OCR（产品不具备，合规挂起） | 从 `id` 骨架逐行本地化落地 69 posts + 11 App + 27 术语 + 8 结构页；`GoPay/OVO/DANA/QRIS`→`DuitNow QR/Touch 'n Go eWallet/GrabPay/Boost`、`Rp/Rupiah`→`RM/Ringgit`；逐词核对后 29/29 标「已覆盖(ms)」，D09 MISS=0 |
+| 实测数据 | Play Console / GSC 导出后在 `SEO-METRICS.md` 分析，不在本库设占位行 | | | |
 
 **回填字段模板**（每条关键词补充两列，月度更新）：
 `搜索量(实测)`（来自 Play Console/GSC，绝对数）｜ `当前平均排名`（GSC）。
@@ -202,7 +201,7 @@
 > 1. Google Play `https://play.google.com/store/search?q=catatan%20keuangan&c=apps&hl=id&gl=ID` 在架标题：`Pengelola Keuangan`、`Pengelola Keuangan - Pembukuan`、`Manajer uang : Expense Tracker`、`Spendee Budget & Money Tracker`；该查询混入 `DANA Dompet Digital Indonesia` / `GoPay` / `ShopeePay` 等钱包类噪声，说明 `catatan keuangan` 是印尼的通用财务词，落地页需靠 `aplikasi / pencatat / anggaran` 等修饰词收敛意图。
 > 2. Google Play 在架详情：`DompetKu - Pencatat Keuangan`、`MoneyTrack - Pencatat Keuangan`（Cipta Programmer Indonesia）、`DuitKu`（"tanpa koneksi internet … data tersimpan … lokal di perangkat"）、`Caku - Catatan Saku`、`Artos: Catatan Keuangan Harian`（"atur anggaran bulanan"、"Tidak perlu daftar akun"）。
 > 3. 印尼本地描述/评测：`FinSave`「Catat pengeluaran & pemasukan, atur budget harian & gajian. Privat & offline」；`Finansialku` 的 `Membuat anggaran / Mencatat keuangan / Merencanakan keuangan`；`pocketclear.app` 印尼专题列出 `IDR (Rp)` 支持、`offline`（各岛网络不稳）、`GoPay / OVO / DANA` 电子钱包、`kos`（租房）、`GoFood`、`warung` 等本地场景。
-> **数据来源标签**：`Play 当地检索(id_ID)` / `印尼本地网页(id)` / `站内已覆盖` / `GSC实测(待回填)`。
+> **数据来源标签**：`Play 当地检索(id_ID)` / `印尼本地网页(id)` / `站内已覆盖` / `GSC实测`。
 
 #### Head（大词，P2，Pillar 抢）
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
@@ -303,7 +302,7 @@
 > 1. Google Play 马来语在架说明：`记帐宝` 的 `ms` 描述出现 `aplikasi perakaunan`、`merekod pendapatan dan perbelanjaan`、`laporan kewangan`、`mengira baki bajet`、`cabaran kewangan harian`；`Belanje`（aizztech solutions，Built for Malaysia）在架描述 `Track spending, budgets...`。
 > 2. 大马本地评测：`StashAway.my`《Best Free Expense Tracker and Budgeting Apps in Malaysia》、`RinggitWise.co`《Best Budgeting Apps Malaysia 2026》、`CelcomDigi Discover`《Top budgeting apps for Malaysians》、`Mr Money TV`《5 Budgeting Apps to Manage Your Money in Malaysia》、`Free Malaysia Today`《5 apps that make tracking expenses easy》。
 > 3. 本地支付/生活场景：`DuitNow QR`、`Touch 'n Go eWallet`、`Grab`、`Shopee`、`bank transfer`、`RM`/`Ringgit`（DOSM 2024 家庭月均支出 RM 5,566）。
-> **数据来源标签**：`Play 当地检索(ms_MY)` / `大马本地网页(ms)` / `站内已覆盖` / `GSC实测(待回填)`。
+> **数据来源标签**：`Play 当地检索(ms_MY)` / `大马本地网页(ms)` / `站内已覆盖` / `GSC实测`。
 > **状态**：2026-11-07 Phase 5 内容全量落地，29 词逐条归一化核对后全部标「已覆盖(ms)」，D09 11 组 MISS=0；本地检索证据与选词依据保持不变。
 
 #### Head（大词，P2，Pillar 抢）
@@ -374,8 +373,8 @@
 ### 2.1.7 泰语（th / ภาษาไทย，泰国）
 
 > **本地化选词（非英文直译）**：泰国用户说 `แอปบันทึกการเงิน` / `แอปจัดการงบประมาณ` / `งบประมาณ` / `งบรายวัน` / `งบต่อหมวด`，**不是** `expense tracker` 的逐词翻译。泰语大量混用英语借词 `budget` / `expense tracker` / `zero-based` / `envelope` / `sinking fund` / `rollover`，照实收录，不强行全译。
-> **证据**：泰国 Google Play / 本地评测大量使用英语借词与泰语混合；站点 th 已上线（66 posts / 11 App / 22 术语 / 8 结构页）。
-> **数据来源标签**：`Play 当地检索(th_TH)` / `泰国本地网页(th)` / `站内已覆盖` / `GSC实测(待回填)`。
+> **证据**：泰国 Google Play / 本地评测大量使用英语借词与泰语混合；站点 th 已上线（69 posts / 11 App / 27 术语 / 8 结构页）。
+> **数据来源标签**：`Play 当地检索(th_TH)` / `泰国本地网页(th)` / `站内已覆盖` / `GSC实测`。
 > **状态**：2026-11-08 补齐本文章与 5 个 budget 概念术语（借词为主），D09 对应组 MISS=0。
 
 #### Head（大词，P2）
@@ -1592,6 +1591,26 @@
 | 边缘悬浮球 手势 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | |
 | 悬浮助手 返回 主页 最近键 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 动作集 |
 
+### 2.10.3 竞品拦截词（zh 重点）
+| 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
+|---|---|---|---|
+| Assistive Touch（辅助触摸小白点） | 辅助触控 替代 / assistive touch 中文 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 小米悬浮球 | 小米悬浮球 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 苹果辅助触控 | 苹果辅助触控 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 小白点 / 安卓小白点 | 小白点 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 按钮大师 | 按钮大师 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 悬浮助手SoftCircle | 悬浮助手SoftCircle 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 白开水悬浮助手 | 白开水悬浮助手 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| fooview悬浮球 | fooview悬浮球 替代 | vs/Pillar | 已覆盖(vs/alt) |
+| 龙珠悬浮窗 | 龙珠悬浮窗 替代 | vs/Pillar | 已覆盖(vs/alt) |
+
+### 2.10.4 维护日志
+| 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
+|---|---|---|---|---|
+| 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 小米悬浮球/辅助触控 拦截词待在 vs/pillar 强化 |
+| 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：Easy Touch / Floatify / Button Mapper / Simple Control alternative、辅助触控 替代、assistive touch 中文 替代、小米悬浮球 / 苹果辅助触控 / 小白点 / 按钮大师 / 悬浮助手SoftCircle / 白开水悬浮助手 / fooview悬浮球 / 龙珠悬浮窗 替代 | — | 本组 57 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 44 个「已覆盖」复核无误（基线 31 词未命中，经 6 批实质扩写铺入正文/meta/alt）；13 行竞品拦截词升权（4 个 EN 竞品词 + 9 行 ZH 拦截词，共 14 词）；12 篇 description 全部改写关键词化，其中 6 条超长压缩（397→158、233→100、193→141、187→147、174→149、161→144）；18 张 alt 改写（tutorial EN/ZH 共 6 张重复 alt 去重、pillar 共 6 张关键词化）；新增 10 个实质 H2（EN/ZH 各 5）；12 篇 description ≤160 字符、last_modified_at 齐、alt 无重复；构建+htmlproofer 通过 |
+
+
 ### 2.10.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
 
 > **本地化选词（非英文直译）**：印尼用户把这类 App 叫作 `bola melayang` / `tombol melayang` / `asisten melayang`，并混用英语借词 `floating window`（印尼语 `jendela melayang`）；沿用 §2.1.5 的「印尼语主体词 + 在架借词」双轨，不逐词硬译。
@@ -1618,26 +1637,6 @@
 | aplikasi asisten melayang android terbaik | Long-tail | P0 | 高 | 高 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 年度词 |
 | aplikasi assistive touch android terbaik 2026 | Long-tail | P0 | 高 | 高 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 对比词 |
 | jendela melayang | Long-tail | P1 | 中 | 中 | App | 已覆盖(id) | 本批 ID 正文落地 | 浮动窗口 |
-
-### 2.10.3 竞品拦截词（zh 重点）
-| 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
-|---|---|---|---|
-| Assistive Touch（辅助触摸小白点） | 辅助触控 替代 / assistive touch 中文 替代 | vs/Pillar | 已覆盖(vs/alt) |
-| 小米悬浮球 | 小米悬浮球 替代 | vs/Pillar | 已覆盖(vs/alt) |
-| 苹果辅助触控 | 苹果辅助触控 替代 | vs/Pillar | 已覆盖(vs/alt) |
-| 小白点 / 安卓小白点 | 小白点 替代 | vs/Pillar | 已覆盖(vs/alt) |
-| 按钮大师 | 按钮大师 替代 | vs/Pillar | 已覆盖(vs/alt) |
-| 悬浮助手SoftCircle | 悬浮助手SoftCircle 替代 | vs/Pillar | 已覆盖(vs/alt) |
-| 白开水悬浮助手 | 白开水悬浮助手 替代 | vs/Pillar | 已覆盖(vs/alt) |
-| fooview悬浮球 | fooview悬浮球 替代 | vs/Pillar | 已覆盖(vs/alt) |
-| 龙珠悬浮窗 | 龙珠悬浮窗 替代 | vs/Pillar | 已覆盖(vs/alt) |
-
-### 2.10.4 维护日志
-| 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
-|---|---|---|---|---|
-| 2026-11 | 竞品调研（web）+ 站内已覆盖 | （初版建库） | — | 绝对量待 Play Console/GSC 回填；中文竞品 小米悬浮球/辅助触控 拦截词待在 vs/pillar 强化 |
-| 2026-11 | 12 篇 EN+ZH 正文逐词核对 | 竞品拦截词升权：Easy Touch / Floatify / Button Mapper / Simple Control alternative、辅助触控 替代、assistive touch 中文 替代、小米悬浮球 / 苹果辅助触控 / 小白点 / 按钮大师 / 悬浮助手SoftCircle / 白开水悬浮助手 / fooview悬浮球 / 龙珠悬浮窗 替代 | — | 本组 57 个词条（含拦截表按 / 拆分）在正文全部命中，0 未命中；原 44 个「已覆盖」复核无误（基线 31 词未命中，经 6 批实质扩写铺入正文/meta/alt）；13 行竞品拦截词升权（4 个 EN 竞品词 + 9 行 ZH 拦截词，共 14 词）；12 篇 description 全部改写关键词化，其中 6 条超长压缩（397→158、233→100、193→141、187→147、174→149、161→144）；18 张 alt 改写（tutorial EN/ZH 共 6 张重复 alt 去重、pillar 共 6 张关键词化）；新增 10 个实质 H2（EN/ZH 各 5）；12 篇 description ≤160 字符、last_modified_at 齐、alt 无重复；构建+htmlproofer 通过 |
-
 ---
 
 ## 2.11 Crosshair Aim（准星 / 射击游戏辅助 / FPS 叠层 / 屏幕准星）关键词记录
@@ -1725,6 +1724,25 @@
 | 自定义 准星叠层 安卓 免root | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 免 root |
 | 射击游戏 准星 安卓 免费 | Long-tail | P1 | 中 | 高 | App | 已覆盖(app-zh) | 竞品调研 | 免费 |
 
+### 2.11.3 竞品拦截词（zh 重点）
+| 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
+|---|---|---|---|
+| 准星大师（中文市场竞品） | 准星大师 替代 / 准星大师 安卓 替代 | vs/Pillar | ☐ 待覆盖 |
+| 准星精灵 / 准星精灵大师（Crosshair Pro） | 准星精灵 替代 | vs/Pillar | ☐ 待覆盖 |
+| 准星助手（FPSTool） | 准星助手 替代 | vs/Pillar | ☐ 待覆盖 |
+| TapAim 瞄准镜助手 | TapAim 替代 | vs/Pillar | ☐ 待覆盖 |
+| 吃鸡准星助手 | 吃鸡准星助手 替代 | vs/Pillar | ☐ 待覆盖 |
+| 准心助手 / 准心精灵助手 | 准心助手 替代 | vs/Pillar | ☐ 待覆盖 |
+| 准星实验室 | 准星实验室 替代 | vs/Pillar | ☐ 待覆盖 |
+| 多功能准星助手 | 多功能准星助手 替代 | vs/Pillar | ☐ 待覆盖 |
+| Crosshair Pro 高级版 | crosshair pro 替代 | vs/Pillar | ☐ 待覆盖 |
+
+### 2.11.4 维护日志
+| 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
+|---|---|---|---|---|
+| 2026-11 | 竞品调研（web）+ 站内已覆盖（已核对正文） | （初版建库；关键词真实铺入正文/meta/alt） | — | 英文竞品拦截词（Crosshair X / Pro / Custom / CrossAim / PRO）已落 alternatives+vs 正文；中文竞品专名（准星精灵 / 准星助手 / TapAim / 吃鸡准星助手 / 准心助手 / 准星实验室 / 多功能准星助手）仍未织入正文，保持 待覆盖；绝对量待 Play Console/GSC 回填 |
+
+
 ### 2.11.5 印尼语（id / Bahasa Indonesia，印度尼西亚）
 
 > **本地化选词（非英文直译）**：印尼用户把这类 App 叫作 `bidik silang` / `overlay bidik silang`，并混用英语借词 `crosshair` / `crosshair aim`；沿用 §2.1.5 的「印尼语主体词 + 在架借词」双轨，不逐词硬译。
@@ -1751,31 +1769,12 @@
 | 关键词 | 词层 | 优先级 | 预估流量 | 购买意图 | 目标页型 | 当前覆盖 | 数据来源 | 备注 |
 |---|---|---|---|---|---|---|---|---|
 | bidik silang terbaik android | Long-tail | P0 | 高 | 高 | Best/App | 已覆盖(id) | 本批 ID 正文落地 | 年度词 |
-
-### 2.11.3 竞品拦截词（zh 重点）
-| 竞品（中文） | 拦截词 | 目标页型 | 当前覆盖 |
-|---|---|---|---|
-| 准星大师（中文市场竞品） | 准星大师 替代 / 准星大师 安卓 替代 | vs/Pillar | ☐ 待覆盖 |
-| 准星精灵 / 准星精灵大师（Crosshair Pro） | 准星精灵 替代 | vs/Pillar | ☐ 待覆盖 |
-| 准星助手（FPSTool） | 准星助手 替代 | vs/Pillar | ☐ 待覆盖 |
-| TapAim 瞄准镜助手 | TapAim 替代 | vs/Pillar | ☐ 待覆盖 |
-| 吃鸡准星助手 | 吃鸡准星助手 替代 | vs/Pillar | ☐ 待覆盖 |
-| 准心助手 / 准心精灵助手 | 准心助手 替代 | vs/Pillar | ☐ 待覆盖 |
-| 准星实验室 | 准星实验室 替代 | vs/Pillar | ☐ 待覆盖 |
-| 多功能准星助手 | 多功能准星助手 替代 | vs/Pillar | ☐ 待覆盖 |
-| Crosshair Pro 高级版 | crosshair pro 替代 | vs/Pillar | ☐ 待覆盖 |
-
-### 2.11.4 维护日志
-| 月份 | 数据来源 | 新增/升权 | 降权/删除 | 备注 |
-|---|---|---|---|---|
-| 2026-11 | 竞品调研（web）+ 站内已覆盖（已核对正文） | （初版建库；关键词真实铺入正文/meta/alt） | — | 英文竞品拦截词（Crosshair X / Pro / Custom / CrossAim / PRO）已落 alternatives+vs 正文；中文竞品专名（准星精灵 / 准星助手 / TapAim / 吃鸡准星助手 / 准心助手 / 准星实验室 / 多功能准星助手）仍未织入正文，保持 待覆盖；绝对量待 Play Console/GSC 回填 |
-
 ---
 
 ## 3. 编辑落地检查（与红线对齐）
 
 - 每篇新/改内容：**差异化 title + description（含目标词）+ 关键词化 alt**（`SEO-PLAYBOOK.md` §2.3 / §1.6）。
-- 目标词须来自本库；写前查重避免 cannibalization（§7.2）。
+- 目标词须来自本库；写前查重避免 cannibalization（`SEO-PLAYBOOK.md` §7.2）。
 - 财务类属 YMYL：表述用事实/数字，避免空泛「最好」类绝对词（见此前审计结论），保 E-E-A-T。
-- 所有改动**中英同步**（§6.1 红线）；新增语言走 `/<lang>/` 子路径。
+- 所有改动**5 语同步**（`SEO-I18N-PLAYBOOK.md` 红线 6/11）；新增语言走 `/<lang>/` 子路径。
 - 改完真实更新正文 + `last_modified_at`，并回写本库覆盖状态（`SEO-PLAYBOOK.md` §2.4 纪律）。
