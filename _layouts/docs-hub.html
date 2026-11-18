@@ -2,12 +2,15 @@
 layout: default
 ---
 {%- assign lang = site.lang | default: 'en' -%}
-{%- assign lp = '' -%}{%- if lang != 'en' -%}{%- assign lp = '/' | append: lang -%}{%- endif -%}
 {%- assign ui = site.data.ui[lang] -%}
 {%- assign apps_key = 'apps_' | append: lang -%}
 {%- assign apps_coll = site.apps -%}
 {%- if lang != 'en' -%}{%- assign apps_coll = site[apps_key] -%}{%- endif -%}
 {%- assign docs_coll = site.posts | where: 'layout', 'docs' | sort: 'doc_order' -%}
+{%- assign rel_key = 'release_notes' -%}
+{%- if lang != 'en' -%}{%- assign rel_key = 'release_notes_' | append: lang -%}{%- endif -%}
+{%- assign rel_coll = site[rel_key] -%}
+{%- assign sorted_apps = apps_coll | sort: 'order' -%}
 
 <div class="page-head">
   <div class="container">
@@ -18,18 +21,40 @@ layout: default
 
 <div class="docs-hub">
   <div class="container">
-    <div class="docs-hub__grid">
-      {%- assign sorted_apps = apps_coll | sort: 'order' -%}
+    <h2 class="docs-hub__heading">{{ ui.docs_title }}</h2>
+    <div class="docs-hub__list">
       {%- for app in sorted_apps -%}
       {%- assign app_slug = app.path | split: '/' | last | split: '.' | first -%}
       {%- assign manual = docs_coll | where: 'doc_app', app_slug | first -%}
       {%- if manual -%}
-      <a class="docs-card" href="{{ manual.url | relative_url }}">
-        <img class="docs-card__icon" src="{{ app.icon | relative_url }}" alt="" width="90" height="90" loading="lazy">
-        <span class="docs-card__body">
-          <strong class="docs-card__title">{{ app.title }}</strong>
-          <span class="docs-card__meta">{{ manual.title | escape }}</span>
+      {%- assign lm = manual.last_modified_at | default: manual.date -%}
+      <a class="docs-row" href="{{ manual.url | relative_url }}">
+        <img class="docs-row__icon" src="{{ app.icon | relative_url }}" alt="" width="40" height="40" loading="lazy">
+        <span class="docs-row__body">
+          <strong class="docs-row__title">{{ app.title }}</strong>
+          <span class="docs-row__desc">{{ ui.official_user_guide }}</span>
         </span>
+        <time class="docs-row__date" datetime="{{ lm | date_to_xmlschema }}">{{ lm | date: ui.date_format }}</time>
+      </a>
+      {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    <h2 class="docs-hub__heading docs-hub__heading--spaced">{{ ui.release_notes_title }}</h2>
+    <div class="docs-hub__list">
+      {%- for app in sorted_apps -%}
+      {%- assign app_slug = app.path | split: '/' | last | split: '.' | first -%}
+      {%- assign note = rel_coll | where: 'app_slug', app_slug | first -%}
+      {%- assign manual = docs_coll | where: 'doc_app', app_slug | first -%}
+      {%- if note -%}
+      {%- assign lm = manual.last_modified_at | default: manual.date -%}
+      <a class="docs-row" href="{{ note.url | relative_url }}">
+        <img class="docs-row__icon" src="{{ app.icon | relative_url }}" alt="" width="40" height="40" loading="lazy">
+        <span class="docs-row__body">
+          <strong class="docs-row__title">{{ app.title }}</strong>
+          <span class="docs-row__desc">{{ ui.release_note_label }}</span>
+        </span>
+        <time class="docs-row__date" datetime="{{ lm | date_to_xmlschema }}">{{ lm | date: ui.date_format }}</time>
       </a>
       {%- endif -%}
       {%- endfor -%}

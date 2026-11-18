@@ -1,9 +1,9 @@
 ---
 layout: docs-hub
-title: "Panduan Penggunaan"
-subtitle: "Panduan langkah demi langkah untuk setiap aplikasi Meow Apps Studio"
+title: "Dokumentasi Aplikasi"
+subtitle: "Dokumentasi aplikasi rasmi untuk setiap aplikasi Meow Apps Studio"
 permalink: /ms/docs/
 lang: ms
-description: "Panduan penggunaan rasmi langkah demi langkah untuk semua aplikasi Meow Apps Studio — Money Manager, Only Clock, CPU Monitor, One Widget dan lain-lain."
+description: "Dokumentasi aplikasi rasmi untuk semua aplikasi Meow Apps Studio — panduan penggunaan dan nota keluaran mencakup persediaan, ciri, dan perubahan versi terkini."
 nav: docs
 ---
