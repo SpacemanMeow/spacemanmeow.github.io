@@ -22,7 +22,7 @@
 6. **非英语文章骨架/目录/插图位置必须与 EN 同源同序**（红线 10-11、D17/D18）；不是另写一篇。
 7. **图片**：cover 原图 1920×1080 WebP 存 `assets/images/covers/<slug>.webp` 且**必须提交**；`-640.webp`/`-1280.webp` 是 gitignore 的构建产物，由 `skills/cover-images/scripts/generate_thumbs.py` 在构建前自动生成，不提交。
 8. **Release Note 页面是生成物，不手改**：源文件在 `_release_notes*/`，由 `skills/release-notes/scripts/update_release_notes.py` 从日志生成；页面顶部标注"请勿手工编辑"。
-9. **禁止提交**：`seo/data/`、`skills/seo-research/scripts/gsc/` 的凭据与导出、生成的缩略图、`.pagefind-bin/`、`.jekyll-*`；`.nojekyll` 例外；详见 `.gitignore` 与 D15。
+9. **禁止提交**：`seo/data/`（GSC 导出数据）与 `skills/seo-research/scripts/gsc/`（OAuth 凭据）、生成的缩略图、`.pagefind-bin/`、`.jekyll-*`；`.nojekyll` 例外；详见 `.gitignore` 与 D15。
 10. **改完跑审计**：`seo/SITE-AUDIT.md` §5 内嵌一段 Python 脚本（`AUDIT-SCRIPT-START/END` 之间），构建后整段复制执行；`FAIL` 必须清零，`BASE` 应为空。
 
 ---
@@ -70,7 +70,7 @@
 `skills/` 把「流程怎么走」按 **CodeBuddy Skill 格式**沉淀为自包含单元；本 `AGENTS.md` 负责「工程是什么」的全局上下文。用法：新对话/其他 AI 先读本文件建立上下文，再按具体任务读取对应 `SKILL.md`。索引见 `skills/README.md`。
 
 - **格式**：每个 skill 是一个目录，核心 `SKILL.md` 带 YAML frontmatter（`name` 为英文 slug 标识，`description` 与正文**全部中文**）；可选 `references/`（补充规则/资料）、`scripts/`（工具）、`assets/`。
-- **工具位置**：原 `tools/` 已删除，全部脚本迁到各 skill 的 `scripts/` 下（见上方目录树）；缓存与 GSC 凭据随脚本就近存放（`skills/seo-research/scripts/gsc/` 被 gitignore）。需要脚本时优先用 `skills/*/scripts/`，不要在仓库里为一次性问题新建脚本（可用 `/tmp`）。
+- **工具位置**：原 `tools/` 已删除，全部脚本迁到各 skill 的 `scripts/` 下（见上方目录树）；GSC OAuth 凭据随脚本就近存放（`skills/seo-research/scripts/gsc/` 被 gitignore），**GSC 导出数据统一放 `seo/data/`**（被 gitignore，与 Oct/Nov 数据一致）。需要脚本时优先用 `skills/*/scripts/`，不要在仓库里为一次性问题新建脚本（可用 `/tmp`）。
 - **使用方式**：处理具体任务前读取对应 `SKILL.md`；若运行环境支持 `use_skill` 且已注册 `skills/` 路径，可直接触发。
 - **发布**：`AGENTS.md` 与 `skills/` 已在全部 5 份 `_config*.yml` 中 `exclude`，不会被 Jekyll 收录或发布到 `_site/`。
 - **维护约定**：流程/规则变化时同步更新对应 `SKILL.md`（必要时 `references/`）与本文件，保持三处一致。
@@ -118,10 +118,11 @@
 | 类型 | 数量 | 关键字段 | 备注 |
 |---|---|---|---|
 | App | 11 × 5 语 | title/tagline/description/icon/image/lang/series/order/google_play/app_store/screenshots/faq | tagline 非 EN ≤ EN 的 1.5 倍且无新增规格数字（红线 12） |
-| Post | 69 × 5 语 | date/title/description/layout(post\|guide)/tags/image/app_icon/lang/last_modified_at | 文件 `YYYY-MM-DD-slug.md`；slug 同时用于封面命名 |
+| Post | 69 × 5 语 | date/title/description/layout(post\|guide\|docs)/tags/image/app_icon/lang/last_modified_at | 文件 `YYYY-MM-DD-slug.md`；slug 同时用于封面命名；layout=docs 的教程构成 Docs 形态（见 CONTENT-HUB-PLAN.md） |
 | Guide | 属于 post（layout=guide） | 同上 + TOC | 骨架/插图/目录以 EN 为准 |
+| Docs | 11 × 5 语（复用 tutorial 文章） | layout: docs/doc_order/doc_app/可选 glossary_terms | 呈现形态，URL 不变；中心页 `/docs/`（结构页） |
 | Glossary | 27 × 5 语 | layout/title/description/tags/lang | `what-is-*.md` |
-| Page | 8 × 5 语 | layout/permalink/nav/lang/description | 站点结构页 |
+| Page | 9 × 5 语 | layout/permalink/nav/lang/description | 站点结构页（含 `/docs/` 中心页） |
 | Release Note | 11 × 5 语 | layout: release-note/app_slug/app_title/google_play/app_store/lang/seo.type | 生成物，勿手改 |
 
 **相关文章** `_includes/related-posts.html`：按同语言 tags 重叠取 ≤4 篇，跳过泛标签（Android/Comparison/Best Apps/App Roundup/Alternatives）；每篇文章至少带 1 个规范产品标签（11 个 App 之一），否则会跨品类——D19 硬门禁。

@@ -4,6 +4,7 @@ title: "Apa Itu Pengelolaan Anggaran?"
 description: "Pengelolaan anggaran adalah cara merencanakan batas pengeluaran per periode. Pahami budget harian, anggaran bulanan, dan budget per kategori."
 tags: [Budget Management, Budget App, Meow Money]
 lang: id
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Kerja

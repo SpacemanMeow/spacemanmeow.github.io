@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Meow FM 官方使用指南"
 date: 2026-07-31 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "一份完整的 Meow FM 使用指南——播放助眠声音、设定白噪音定时关闭、混音雨声白噪音，熄屏后也能离线播放。"
 image: /assets/images/covers/tutorial-meow-fm.webp
 app_icon: /assets/images/apps/meow-fm/icon.webp
+doc_order: 4
+doc_app: meow-fm
 ---
 
 ## 目录

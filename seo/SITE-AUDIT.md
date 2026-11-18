@@ -122,7 +122,7 @@
 |---|---|---|---|---|
 | D01 | 构建与产物 | P0 | `scripts/build.sh` 全量构建 + §5 脚本 | 退出码 0；各语言首页存在；日志 5 语言、页数正常（`LANGS >= 5`）；**`README.md`「语言」段与 `_data/languages.yml` 一致**（新增语言不漏改对外清单，见 `SEO-I18N-PLAYBOOK.md` §2.4） |
 | D02 | 链接与资源 | P0 | `htmlproofer` | 0 failure；内链、锚点、图片、脚本全通 |
-| D03 | 多语言源对账 | P0 | §5 脚本 | 4 个非 EN 完整语言（zh/id/th/ms）逐组差集为 0、结构页 8/8；分批语言无孤立文件并报告覆盖进度 |
+| D03 | 多语言源对账 | P0 | §5 脚本 | 4 个非 EN 完整语言（zh/id/th/ms）逐组差集为 0、结构页 9/9（含 docs）；分批语言无孤立文件并报告覆盖进度 |
 | D04 | 路由、集合与隔离 | P0 | 配置核对 + 产物 URL 抽查 | 集合分离且非空、`exclude` 正确、各语言子站无跨语言泄漏 |
 | D05 | hreflang / sitemap / canonical / feed / robots | P0 | §5 脚本 + 人工抽验 | 组内每语言 1 条 + x-default；合并 sitemap；404 排除；canonical 为生产域名 |
 | D06 | frontmatter 与元数据 | P0 | §5 脚本 | 必填齐、`lang` 对、`description ≤160`、无裸 `&`；**App `tagline` 四语信息量与 EN 对等**（≤1.5× 且无增补规格数字，见 §1 红线 12）；**站点级 `tagline` 单行显示宽度** `w≤60` 且非 EN ≤ EN（见 §1 红线 13） |
@@ -130,7 +130,7 @@
 | D08 | 图片与可访问性 | P0 | §5 脚本 | alt 唯一、无 `![image]`、引用文件存在、全部带 `width` |
 | D09 | 关键词真实覆盖 | P0 | §5 脚本归一化逐词核对 | 全部 11 组 MISS = 0 |
 | D10 | 结构化数据与富媒体 | P0 + P1 | §5 脚本 + Rich Results Test | JSON-LD 无 `&amp;`；app 页 @type 正确；OG 图正确 |
-| D11 | 内链闭环 | P0 | §5 脚本 + 抽验 | 语言前缀正确、glossary/tags/app 回链闭合 |
+| D11 | 内链闭环 | P0 | §5 脚本 + 抽验 | 语言前缀正确、glossary/tags/app 回链闭合、Docs 形态入口（docs 导航 + docs-hub 模板）齐全 |
 | D12 | 搜索与索引 | P0 | 完整构建 + 产物检查 | Pagefind N 语言分片生成、各语言 feed / sitemap / robots / IndexNow 正常；**仅完整构建下有效，`SKIP_PAGEFIND=1` 快速构建下 D12 FAIL 是已知假阳性，须重跑完整构建消除** |
 | D13 | 合规与产品表述 | P1 | 人工抽验 | 只读/免 root、不承诺虚假效果、YMYL、隐私、外链 rel |
 | D14 | 文件名与 URL 红线 | P0 | `git status` | 无未经批准的文章/页面重命名、删除、新增；permalink 未变 |
@@ -138,7 +138,7 @@
 | D16 | 文档与台账一致性 | P1 | 人工核对 | 遵循 `SEO-OPTIMIZATION-PLAN.md`「文档更新规则」：长期价值内容已同步、临时流水未误写（见 §4 D16） |
 | D17 | 文章插图跨语言一致性 | P0 | §5 脚本 + 人工抽验 | 非 EN 文章图片路径多重集 = EN 同名文章、**位置与 EN 行序一致**、`alt` 已本地化未照抄 EN（规范见 `SEO-I18N-PLAYBOOK.md` §3.5）；行序硬门禁于 2026-11-06 全量启用（72 篇一致） |
 | D18 | 多语言文章骨架对等（结构 / 目录 / 插图） | P0 | §5 脚本 | **所有非 EN 语言**文章的 H2/H3 层级序列、结构块序列、文章目录（TOC 条目与行位置）、图片插入行序逐篇与 EN 同名文章一致；规则见 §2.6 与 `SEO-I18N-PLAYBOOK.md` §1 红线 11 / §3.5 |
-| D19 | 文章 tags 一致性与相关文章匹配 | P0 | §5 脚本 + 人工抽验 | 每篇文章至少带 1 个**规范产品标签**（11 个 App 之一：Meow Todo / Meow Habits / Meow Money / Meow Mood Diary / Meow FM / Only Clock / One Widget / Crosshair Aim / System Monitor / CPU Monitor / Floating Assistant）；无产品标签变体（如 `Meow Mood` / `Meow Todo List` / `To Do List` 或多余的 `Meow ` 前缀）；`related-posts.html` 已跳过泛标签（Android / Comparison / Best Apps / App Roundup / Alternatives），这些泛标签可保留但不得作为品类归属依据 |
+| D19 | 文章 tags 一致性与相关文章匹配 | P0 | §5 脚本 + 人工抽验 | 每篇 `_posts/` **文章**至少带 1 个**规范产品标签**（11 个 App 之一：Meow Todo / Meow Habits / Meow Money / Meow Mood Diary / Meow FM / Only Clock / One Widget / Crosshair Aim / System Monitor / CPU Monitor / Floating Assistant）；无产品标签变体（如 `Meow Mood` / `Meow Todo List` / `To Do List` 或多余的 `Meow ` 前缀）；`related-posts.html` 已跳过泛标签（Android / Comparison / Best Apps / App Roundup / Alternatives），这些泛标签可保留但不得作为品类归属依据 |
 | D20 | Release Note 页面覆盖与内链 | P0 | §5 脚本 + 人工抽验 | 每语言 11 个 App 均有 `/apps/<slug>/release-notes/` 页面（5 语言共 55 页，permalink 由各 config 的 `release_notes[_<lang>]` 集合定义）；frontmatter 含 `layout/app_slug/app_title/google_play/app_store/lang/title` 且标题后缀本地化；正文含至少 1 条发布记录；双端 App 的简介区同时显示 Google Play 与 App Store 入口（单端只显示对应一个）；`_layouts/app.html` 底部有指向该页的内链；数据由用户直接发来的升级日志经 `skills/release-notes/scripts/update_release_notes.py` 解析生成（日志临时写入被 gitignore 的 `seo/data/`，跑完可不保留；不联网抓取），页面为生成物 |
 
 ---
@@ -263,7 +263,7 @@
 
 ### D11 内链闭环（P0）
 
-- **检查点**：非 EN 正文的术语链接用 `/<lang>/glossary/...`，EN 用 `/glossary/...`；EN 内容里不误带任何 `/<lang>/` 前缀；`_pages/glossary.md` 索引覆盖全部 27 条；`/tags/#<slug>` 锚点存在；每篇文章 `image == app icon` 且 App 页能列出对应 Guides；related-posts 只出同语言；外链带 `rel="noopener noreferrer"`。
+- **检查点**：非 EN 正文的术语链接用 `/<lang>/glossary/...`，EN 用 `/glossary/...`；EN 内容里不误带任何 `/<lang>/` 前缀；`_pages/glossary.md` 索引覆盖全部 27 条；`/tags/#<slug>` 锚点存在；每篇文章 `image == app icon` 且 App 页能列出对应 Guides；related-posts 只出同语言；外链带 `rel="noopener noreferrer"`；**Docs 形态入口闭合：`nav.yml` 含 docs 导航项，`_layouts/` 含 docs-hub 模板入口**。
 - **手段**：§5 脚本 D11 + 人工抽验新增/改动文章的首段内链与底部相关推荐。
 - **失败处理**：语言前缀错误会导致中文读者跳到英文页、破坏 hreflang 语义，属 P0。
 
@@ -383,12 +383,12 @@ for lab, key in [('文章', 'posts'), ('应用', 'apps'), ('页面', 'pages'), (
         orphan = O - B
         chk('D03', f'{lab} {L} 无孤立文件', not orphan,
             f'{L} {len(O)}/{len(B)}，孤立 {len(orphan)}；其余按 SEO-I18N-PROGRESS.md 分批补齐')
-# D03 结构页硬门禁：每个完整语言必须含 8 个固定结构页（缺页会致 htmlproofer 断链，属 P0，不得后置为「待补」）
-STRUCT = ['index', 'meow', 'about', 'privacy', 'terms', 'search', 'tags', 'glossary']
+# D03 结构页硬门禁：每个完整语言必须含 9 个固定结构页（含 Docs 中心页；缺页会致 htmlproofer 断链，P0）
+STRUCT = ['index', 'meow', 'about', 'privacy', 'terms', 'search', 'tags', 'glossary', 'docs']
 for L in FULL:
     have = nm(dirs(L)['pages'] + '/*.md')
     miss = [s for s in STRUCT if (s + '.md') not in have]
-    chk('D03', f'结构页 8/8 ({L})', not miss,
+    chk('D03', f'结构页 9/9 ({L})', not miss,
         f'缺失 {miss}（致 htmlproofer 断链；须与 id 骨架同源补齐，不得标记待补）')
 # D06
 need0 = {'title', 'description'}
@@ -582,8 +582,8 @@ miss = sorted(w for v in terms.values() for w in v if w and norm(w) not in cn)
 chk('D09', '全部关键词真实覆盖', not miss and len(terms) >= 11,
     f'{len(terms)} 组，MISS {len(miss)} {miss[:3]}')
 # D19：tags 一致性与相关文章匹配（P0；产品标签变体曾致 related-posts 跨品类，见 §4 D19）
-# 规则：① 每篇至少带 1 个规范产品标签（11 个 App 之一）；
-#       ② 不得出现产品标签变体（Meow Mood / Meow Todo List / To Do List / 多余 Meow 前缀等）。
+# 规则：① 每篇【_posts/ 文章】至少带 1 个规范产品标签（11 个 App 之一）；
+#       ② 不得出现产品标签变体（Meow Mood / Meow Todo List / To Do List / 多余 Meow 前缀等）；
 #       ③ related-posts.html 跳过泛标签（Android/Comparison/Best Apps/App Roundup/Alternatives）。
 CANON_PRODUCT = {'Meow Todo', 'Meow Habits', 'Meow Money', 'Meow Mood Diary',
                  'Meow FM', 'Only Clock', 'One Widget', 'Crosshair Aim',
@@ -644,6 +644,13 @@ for f, t in txt.items():
             zbad.append((f, u))
 chk('D11', '内链语言前缀', not zbad and not ebad,
     f'非 EN 缺前缀 {len(zbad)} {zbad[:2]} / EN 误带 {len(ebad)} {ebad[:2]}')
+# D11 形态间内链闭合：Docs 形态须在导航与模板中留入口
+_nav_txt = open('_data/nav.yml', encoding='utf-8').read()
+_tpl_txt = ''.join(open(f, encoding='utf-8').read() for f in
+                   fs('_layouts/*.html') + fs('_includes/*.html'))
+_hub_ok = ('nav: docs' in _nav_txt and 'docs-hub' in _tpl_txt)
+chk('D11', '形态间内链入口闭合', _hub_ok,
+    'docs 导航项或 docs-hub 模板入口缺失')
 # D14：新增语言源文件属已批准改动，不计入红线告警
 st = subprocess.run(['git', 'status', '--short'], capture_output=True, text=True).stdout.split('\n')
 def approved(l):
@@ -754,6 +761,7 @@ PY
 | 日期 | 构建 | htmlproofer | 教研结果 | 基线数字 |
 |---|---|---|---|---|
 | 2026-11-12 | PASS（5 语 / 610 页；Pagefind 36145 词） | PASS（611 文件 / 1159 内链 / 0 failure） | 69/69 文章·11/11 应用·8/8 页面·27/27 术语 五语对称；D01–D20 全绿（D14 1 条未跟踪新文件已批准） | 610 页 / sitemap 610 loc / 6 条 hreflang × 610 页 / `BASE` 为空 |
+| 2026-11-18 | PASS（5 语 / 675 页） | PASS（0 failure） | Docs 形态落地（`CONTENT-HUB-PLAN.md`）：+5/5 `/docs/` 中心页(8→9 结构页)、55 教程 layout→docs；在线工具形态已移除、暂不落地。D03 结构页 9/9、D11 Docs 入口闭合、D18/D19 通过；审计全绿 | 610→675 页 / sitemap 675 loc / 6 条 hreflang × 675 页 / `BASE` 为空 |
 
 > D12 在 `SKIP_PAGEFIND=1` 快速构建下的 FAIL 是已知假阳性，不计入基线；本表只登记完整构建结果。
 

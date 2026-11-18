@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Meow Mood Diary 官方使用指南"
 date: 2026-08-13 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "一份完整的 Meow Mood Diary 使用指南——一键情绪记录、离线心情日记、日历与趋势图表、应用锁与提醒，无需账号，数据留在本机。"
 image: /assets/images/covers/tutorial-meow-mood-diary.webp
 app_icon: /assets/images/apps/meow-mood-diary/icon.webp
+doc_order: 7
+doc_app: meow-mood-diary
 ---
 
 ## 目录

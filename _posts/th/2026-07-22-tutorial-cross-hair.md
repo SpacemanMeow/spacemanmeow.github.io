@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "คู่มือผู้ใช้ทางการ Crosshair"
 date: 2026-07-22 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ author: author_meow_id
 description: "คู่มือผู้ใช้ Crosshair ฉบับเต็ม — เพิ่มโอเวอร์เลย์ครอสแฮร์ที่กำหนดเองในเกม FPS บน Android: ดีไซน์ 80+ สเกล/สี/ตำแหน่ง โดยไม่รูท ฟรีเริ่มต้น"
 image: /assets/images/covers/tutorial-cross-hair.webp
 app_icon: /assets/images/apps/cross-hair/icon.webp
+doc_order: 2
+doc_app: cross-hair
 ---
 
 ## สารบัญ

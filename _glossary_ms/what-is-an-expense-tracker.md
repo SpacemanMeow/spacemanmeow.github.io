@@ -4,6 +4,7 @@ title: "Apakah Pencatat Perbelanjaan?"
 description: "Aplikasi catatan kewangan mencatat pendapatan dan perbelanjaan supaya Anda tahu ke mana wang pergi, serta kaitannya dengan bajet."
 tags: [Expense Tracker, Bajet App, Meow Money]
 lang: ms
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Ia Berfungsi

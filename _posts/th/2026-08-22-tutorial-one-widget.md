@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "คู่มือผู้ใช้ทางการ One Widget"
 date: 2026-08-22 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-07
 description: "คู่มือผู้ใช้ One Widget: วางวิดเจ็ตหน้าจอหลัก 500+ ในสี่สไตล์ ปรับขนาดและความโปร่งแสง เพิ่มสวิตช์ด่วนและทางลัดแอป"
 image: /assets/images/covers/tutorial-one-widget.webp
 app_icon: /assets/images/apps/one-widget/icon.webp
+doc_order: 9
+doc_app: one-widget
 ---
 
 ## สารบัญ

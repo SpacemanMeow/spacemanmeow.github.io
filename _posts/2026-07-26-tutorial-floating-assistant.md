@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Floating Assistant Official User Guide"
 date: 2026-07-26 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "Floating Assistant user guide: edge-docked floating ball, custom shortcuts, system toggles, one-handed control and clear permissions, no root."
 image: /assets/images/covers/tutorial-floating-assistant.webp
 app_icon: /assets/images/apps/floating-assistant/icon.webp
+doc_order: 3
+doc_app: floating-assistant
 ---
 
 ## Table of Contents

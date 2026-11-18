@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Only Clock Official User Guide"
 date: 2026-08-26 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "Only Clock user guide: full-screen flip clock display, 12/24-hour settings, clock widgets, white noise, floating mode and spare-phone setup."
 image: /assets/images/covers/tutorial-only-clock.webp
 app_icon: /assets/images/apps/only-clock/icon.webp
+doc_order: 10
+doc_app: only-clock
 ---
 
 ## Table of Contents

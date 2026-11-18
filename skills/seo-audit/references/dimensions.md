@@ -22,7 +22,7 @@
 
 ## D15 — 敏感文件
 
-- 不得提交：`seo/data/`、`skills/seo-research/scripts/gsc/` 下的凭据与导出、生成的缩略图、`.pagefind-bin/`、`.jekyll-*`。
+- 不得提交：`seo/data/`（GSC 导出数据）、`skills/seo-research/scripts/gsc/`（OAuth 凭据）、生成的缩略图、`.pagefind-bin/`、`.jekyll-*`。
 - `AGENTS.md` 和 `skills/` 是内部文档 — 已在全部五个 `_config*.yml` 中排除。
 
 ## D17 / D18 — 跨语言一致性

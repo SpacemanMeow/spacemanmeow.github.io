@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Panduan Pengguna Resmi Floating Assistant"
 date: 2026-07-26 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-07
 description: "Panduan pengguna Floating Assistant: bola melayang bertempel di tepi, pintasan kustom, toggle sistem, kendali satu tangan, dan izin jelas tanpa root."
 image: /assets/images/covers/tutorial-floating-assistant.webp
 app_icon: /assets/images/apps/floating-assistant/icon.webp
+doc_order: 3
+doc_app: floating-assistant
 ---
 
 ## Daftar Isi

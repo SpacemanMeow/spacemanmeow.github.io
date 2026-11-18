@@ -190,8 +190,6 @@ exclude:
   - zh/**
   - "*.gem"
   - "*.gemspec"
-  - docs
-  - tools
   - seo/
   - "seo/**"
   - README.md

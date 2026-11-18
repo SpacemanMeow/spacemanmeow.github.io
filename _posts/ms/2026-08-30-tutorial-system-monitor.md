@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Panduan Pengguna Resmi System Monitor"
 date: 2026-08-30 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-07
 description: "Panduan pengguna System Monitor: info hardware read-only, suhu CPU, kesihatan bateri, penggera overheat, tetingkap terapung, dan widget skrin utama terus."
 image: /assets/images/covers/tutorial-system-monitor.webp
 app_icon: /assets/images/apps/system-monitor/icon.webp
+doc_order: 11
+doc_app: system-monitor
 ---
 
 ## Kandungan

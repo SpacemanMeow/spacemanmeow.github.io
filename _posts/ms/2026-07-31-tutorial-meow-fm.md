@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Panduan Resmi Pengguna Meow FM"
 date: 2026-07-31 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-07
 description: "Panduan pengguna Meow FM: putar soundscape aplikasi white noise kucing, atur pemasa tidur, dan tetap diputar offline skrin mati."
 image: /assets/images/covers/tutorial-meow-fm.webp
 app_icon: /assets/images/apps/meow-fm/icon.webp
+doc_order: 4
+doc_app: meow-fm
 ---
 
 ## Kandungan

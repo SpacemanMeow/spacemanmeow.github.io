@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Panduan Pengguna Resmi CPU Monitor"
 date: 2026-07-17 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-07
 description: "Panduan pengguna CPU Monitor: suhu CPU waktu nyata, jendela melayang, alarm overheat, kurva riwayat, widget layar utama, dan bacaan sensor read-only."
 image: /assets/images/covers/tutorial-cpu-monitor.webp
 app_icon: /assets/images/apps/cpu-monitor/icon.webp
+doc_order: 1
+doc_app: cpu-monitor
 ---
 
 ## Daftar Isi

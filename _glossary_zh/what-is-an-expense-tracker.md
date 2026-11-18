@@ -4,6 +4,7 @@ title: "什么是记账应用（Expense Tracker）？"
 description: "记账应用是记录支出、让你看清钱花在哪里的工具。了解记账应用做什么，以及为什么它有助于预算。"
 tags: [Expense Tracker, Budget App, Meow Money]
 lang: zh
+app_slug: meow-money-manager
 ---
 
 ## 定义与原理

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "คู่มือการใช้งานทางการ Meow Habits"
 date: 2026-08-04 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-06
 description: "คู่มือฉบับสมบูรณ์ Meow Habits: วิธีสร้างนิสัยในแอปติดตามนิสัย เช็คอินรายวัน ตั้งการเตือน ส่งออก CSV และ WebDav ไม่ต้องบัญชี ออฟไลน์"
 image: /assets/images/covers/tutorial-meow-habits.webp
 app_icon: /assets/images/apps/meow-habits/icon.webp
+doc_order: 5
+doc_app: meow-habits
 ---
 
 ## สารบัญ

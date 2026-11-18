@@ -23,7 +23,7 @@ description: 使用 seo/ 下的 SEO 研究资料库 — 关键词库、Google Se
 
 ## GSC 导出
 
-`python3 skills/seo-research/scripts/gsc_export.py` 使用 `skills/seo-research/scripts/gsc/`（被 gitignore）中的 OAuth 凭据，把 `_totals/_query/_page/_country/_device/_date/_summary` 文件导出到 `skills/seo-research/scripts/gsc/`。绝不要提交凭据或导出结果。
+`python3 skills/seo-research/scripts/gsc_export.py` 使用 `skills/seo-research/scripts/gsc/`（被 gitignore）中的 OAuth 凭据，把 `_totals/_query/_page/_country/_device/_date/_summary` 文件导出到 **`seo/data/`**（被 gitignore），`--out` 传该目录下的前缀（如 `--out seo/data/nov2026`）。凭据留脚本旁、导出数据统一归 `seo/data/`；两者都绝不要提交。
 
 ## 工作规则
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Panduan Pengguna Resmi Only Clock"
 date: 2026-08-26 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-07
 description: "Panduan pengguna Only Clock: paparan jam flip skrin penuh, tetapan 12/24-jam, widget jam, white noise, mode terapung, dan setup telefon pintar sandaran."
 image: /assets/images/covers/tutorial-only-clock.webp
 app_icon: /assets/images/apps/only-clock/icon.webp
+doc_order: 10
+doc_app: only-clock
 ---
 
 ## Kandungan

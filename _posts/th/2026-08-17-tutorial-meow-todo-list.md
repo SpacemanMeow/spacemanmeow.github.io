@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "คู่มือการใช้งานทางการ Meow Todo List"
 date: 2026-08-17 09:00:00 +0800
 categories: [Tutorial]
@@ -9,6 +9,8 @@ author: author_meow_id
 description: "คู่มือฉบับสมบูรณ์ Meow Todo List: รายการสิ่งที่ต้องทำ งานย่อย การเตือน ปฏิทิน และส่งออก CSV ในแอป to-do ออฟไลน์ ไม่ต้องสมัครบัญชี ใช้งานฟรี"
 image: /assets/images/covers/tutorial-meow-todo-list.webp
 app_icon: /assets/images/apps/meow-todo-list/icon.webp
+doc_order: 8
+doc_app: meow-todo-list
 ---
 
 

@@ -14,6 +14,28 @@ layout: default
   <div class="container">
     <div class="page-content">
       {{ content }}
+
+      {%- if page.app_slug -%}
+      {%- assign app_key = 'apps_' | append: lang -%}
+      {%- assign apps_coll = site.apps -%}
+      {%- if lang != 'en' -%}{%- assign apps_coll = site[app_key] -%}{%- endif -%}
+      {%- assign solution_app = apps_coll | where: 'slug', page.app_slug | first -%}
+      {%- assign solution_doc = site.posts | where: 'doc_app', page.app_slug | first -%}
+      {%- if solution_app or solution_doc -%}
+      <aside class="glossary-solution">
+        <h2>{{ site.data.ui[lang].glossary_solution_title | default: 'Put it into practice' }}</h2>
+        <ul>
+          {%- if solution_doc -%}
+          <li><a href="{{ solution_doc.url | relative_url }}">{{ site.data.ui[lang].view_manual }}: {{ solution_doc.title | escape }}</a></li>
+          {%- endif -%}
+          {%- if solution_app -%}
+          <li><a href="{{ solution_app.url | relative_url }}">{{ site.data.ui[lang].app_cta }}: {{ solution_app.title | escape }}</a></li>
+          {%- endif -%}
+        </ul>
+      </aside>
+      {%- endif -%}
+      {%- endif -%}
+
       <p class="glossary__back"><a href="{{ '/glossary/' | prepend: lp | relative_url }}">{{ site.data.ui[lang].back_to_glossary }}</a></p>
     </div>
   </div>

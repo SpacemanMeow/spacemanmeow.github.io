@@ -40,7 +40,7 @@
    - `EntryFilter` 用 `start_with?` 判断目录排除 → 排除英文应用目录必须写 `_apps/`（**带尾斜杠**），写 `_apps` 会误伤同前缀的 `_apps_zh`、`_apps_id`。同理 `_glossary/`。
 5. **禁止 `zh`-vs-else 二元硬编码**：所有模板必须按 `site.lang` 动态取集合、前缀、文案、日期格式。新增第 N 种语言时不得再改模板（见 §2.6）。
 6. **关键词按各语言优化，但文章本体是同一篇**：非 EN 内容是 EN 对应文章的**语言版本**，不是另写一篇新文章；只允许优化关键词、标题用词与局部表达，当地高频但产品不具备的功能词不得写入文案。
-7. **所有页面类型都要有对应语言内容**：只有 `posts` 与 `app` 不算完成；`pages` / `glossary` / `blog` 分页 / 搜索 / 标签 / 隐私 / 条款 / 关于 / 404 / nav / UI / feed / sitemap / Pagefind 分片全部要覆盖，见 §5。
+7. **所有页面类型都要有对应语言内容**：只有 `posts` 与 `app` 不算完成；`pages` / `glossary` / Docs 呈现形态（复用 `posts` 教程，layout `docs` + `/docs/` 中心页）/ `blog` 分页 / 搜索 / 标签 / 隐私 / 条款 / 关于 / 404 / nav / UI / feed / sitemap / Pagefind 分片全部要覆盖，见 §5。新增内容形态的执行细节见 `CONTENT-HUB-PLAN.md`。
 8. **全站改动必须完整教研**：按 `SITE-AUDIT.md` §1.1，新增语言属 P0，必须跑全量构建 + htmlproofer + 教研脚本 + §8 记录。
 9. **功能事实口径统一**：备份 = Google Drive + WebDAV（Google Play 描述不写 iCloud）；功能规格数字以各 App `_apps/<slug>.md` 与 Google Play 描述为准，不得凭空增补（见红线 12）；FAQ 用 `{:.faq-q}`，问句与答案之间留空行，组数与 EN 对等。
 10. **文章插图必须与 EN 同源**：非 EN 文章的 `![...](/assets/images/...)` 图片路径集合（含重复次数）必须与 EN 同名文章完全一致，`alt` 按本语言关键词优化而非照抄 EN。详见 §3.5（D17 硬门禁）。

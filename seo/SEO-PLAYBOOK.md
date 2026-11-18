@@ -329,8 +329,8 @@ AI 联网搜索不是按 PageRank 排位，而是：① 从已索引网页**检�
   - **PageSpeed Insights / Lighthouse**：CWV 实测分。
   - **GoatCounter**（本站轻量分析）：来源细分、AI 引流初现（chatgpt 已作来源）。
 - **GSC 全量数据自动拉取（脚本）**：`../skills/seo-research/scripts/gsc_export.py` 通过 Search Console API 分页拉取**全量**搜索词/页面/国家/设备/日期（单次上限 5000 行，绕过 UI 导出 1000 行限制），输出 CSV + 汇总 JSON，供回填 **[SEO-METRICS.md](./SEO-METRICS.md)** 月度报告。
-  - 首次运行：`python3 ../skills/seo-research/scripts/gsc_export.py --site sc-domain:spacemanmeow.com --start YYYY-MM-01 --end YYYY-MM-DD` → 弹浏览器授权，自动生成 `../skills/seo-research/scripts/gsc/token.json`（已 gitignore，后续免登录）。
-  - 之后每月换日期重跑即可；凭据与导出的 CSV/JSON 均在 `../skills/seo-research/scripts/gsc/`（已 gitignore，勿提交）。
+  - 首次运行：`python3 ../skills/seo-research/scripts/gsc_export.py --site sc-domain:spacemanmeow.com --start YYYY-MM-01 --end YYYY-MM-DD --out ../seo/data/<月份前缀>` → 弹浏览器授权，自动生成 `../skills/seo-research/scripts/gsc/token.json`（已 gitignore，后续免登录）。
+  - 之后每月换日期重跑即可；**凭据**（`credentials.json`/`token.json`）固定在 `../skills/seo-research/scripts/gsc/`，**导出的 CSV/JSON** 统一放 `../seo/data/`（如 `nov2026_*.csv`），两者均 gitignore、勿提交。
   - 属性为**域名属性**，故 `--site` 用 `sc-domain:spacemanmeow.com`（URL 形式 `https://spacemanmeow.com/` 会 403）。
 - **KPI（月度跟踪）**：
   - 收录页数（目标：随内容稳步上升）

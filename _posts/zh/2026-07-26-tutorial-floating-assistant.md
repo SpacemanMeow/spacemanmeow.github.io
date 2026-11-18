@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Floating Assistant 官方使用指南"
 date: 2026-07-26 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "一份完整的 Floating Assistant 使用指南——边缘悬浮球手势、自定义悬浮球快捷方式、系统开关与单手控制，无需 root。"
 image: /assets/images/covers/tutorial-floating-assistant.webp
 app_icon: /assets/images/apps/floating-assistant/icon.webp
+doc_order: 3
+doc_app: floating-assistant
 ---
 
 ## 目录

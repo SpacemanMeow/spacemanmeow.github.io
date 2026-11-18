@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Meow Todo List 官方使用指南"
 date: 2026-08-17 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ author: author_meow_id
 description: "一份完整的 Meow Todo List 使用指南——掌握任务、待办清单子任务、提醒、待办清单日历视图与 CSV 导出；离线待办、免账号、免费起步。"
 image: /assets/images/covers/tutorial-meow-todo-list.webp
 app_icon: /assets/images/apps/meow-todo-list/icon.webp
+doc_order: 8
+doc_app: meow-todo-list
 ---
 
 ## 目录

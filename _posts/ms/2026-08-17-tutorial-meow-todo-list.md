@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Panduan Penggunaan Resmi Meow Todo List"
 date: 2026-08-17 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ author: author_meow_id
 description: "Panduan lengkap Meow Todo List: senarai tugasan, subtugasan, peringatan, kalendar, dan eksport CSV di aplikasi to-do list offline. Tanpa akaun, percuma…"
 image: /assets/images/covers/tutorial-meow-todo-list.webp
 app_icon: /assets/images/apps/meow-todo-list/icon.webp
+doc_order: 8
+doc_app: meow-todo-list
 ---
 
 ## Kandungan

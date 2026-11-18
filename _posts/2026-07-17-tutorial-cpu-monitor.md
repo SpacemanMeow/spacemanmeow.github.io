@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "CPU Monitor Official User Guide"
 date: 2026-07-17 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "CPU Monitor user guide: real-time cpu temperature, floating window, overheat alarm, history curves, home-screen widgets and read-only sensor readings."
 image: /assets/images/covers/tutorial-cpu-monitor.webp
 app_icon: /assets/images/apps/cpu-monitor/icon.webp
+doc_order: 1
+doc_app: cpu-monitor
 ---
 
 ## Table of Contents

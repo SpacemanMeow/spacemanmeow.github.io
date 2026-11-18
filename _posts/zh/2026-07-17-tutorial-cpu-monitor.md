@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "CPU Monitor 官方使用指南"
 date: 2026-07-17 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "一份完整的 CPU Monitor 使用指南——实时 cpu温度监控、cpu监控悬浮窗、过热报警、历史曲线与只读传感器读数。"
 image: /assets/images/covers/tutorial-cpu-monitor.webp
 app_icon: /assets/images/apps/cpu-monitor/icon.webp
+doc_order: 1
+doc_app: cpu-monitor
 ---
 
 ## 目录

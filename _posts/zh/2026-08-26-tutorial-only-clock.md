@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Only Clock 官方使用指南"
 date: 2026-08-26 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "一份完整的 Only Clock 使用指南——全屏翻页时钟显示、12/24 小时设置、翻页时钟小组件、翻页时钟白噪音与悬浮模式。"
 image: /assets/images/covers/tutorial-only-clock.webp
 app_icon: /assets/images/apps/only-clock/icon.webp
+doc_order: 10
+doc_app: only-clock
 ---
 
 ## 目录

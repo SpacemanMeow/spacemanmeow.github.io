@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Panduan Resmi Pengguna One Widget"
 date: 2026-08-22 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-07
 description: "Panduan pengguna One Widget: taruh 500+ widget skrin utama dalam empat gaya, atur ukuran dan ketelusan, tambah quick toggle dan shortcut aplikasi."
 image: /assets/images/covers/tutorial-one-widget.webp
 app_icon: /assets/images/apps/one-widget/icon.webp
+doc_order: 9
+doc_app: one-widget
 ---
 
 ## Kandungan

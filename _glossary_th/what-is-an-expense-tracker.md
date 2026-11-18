@@ -4,6 +4,7 @@ title: "แอปบันทึกการเงินคืออะไร?"
 description: "แอปบันทึกการเงินบันทึกรายรับรายจ่ายเพื่อให้คุณรู้เงินไปไหน รวมถึงความเชื่อมโยงกับงบประมาณ"
 tags: [Expense Tracker, Budget App, Meow Money]
 lang: th
+app_slug: meow-money-manager
 ---
 
 ## นิยามและวิธีการทำงาน

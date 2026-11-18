@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "คู่มือผู้ใช้ทางการ Only Clock"
 date: 2026-08-26 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-07
 description: "คู่มือผู้ใช้ Only Clock: หน้านาฬิกาพลิกหน้าจอเต็ม การตั้งค่า 12/24-ชั่วโมง วิดเจ็ตนาฬิกา ไวท์นอยส์ โหมดลอย และการตั้งค่าโทรศัพท์เก่าเป็นนาฬิกา"
 image: /assets/images/covers/tutorial-only-clock.webp
 app_icon: /assets/images/apps/only-clock/icon.webp
+doc_order: 10
+doc_app: only-clock
 ---
 
 ## สารบัญ

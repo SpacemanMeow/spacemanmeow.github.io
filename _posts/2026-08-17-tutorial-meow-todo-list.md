@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Meow Todo List Official User Guide"
 date: 2026-08-17 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ author: author_meow_id
 description: "A complete Meow Todo List guide: tasks, subtasks, reminders, calendar view and CSV export in this cute offline task manager. No account, free to start."
 image: /assets/images/covers/tutorial-meow-todo-list.webp
 app_icon: /assets/images/apps/meow-todo-list/icon.webp
+doc_order: 8
+doc_app: meow-todo-list
 ---
 
 ## Table of Contents

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Panduan Penggunaan Resmi Meow Mood Diary"
 date: 2026-08-13 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-06
 description: "Panduan Meow Mood Diary: catat mood satu ketuk, jurnal privat offline, kalender dan grafik tren, kunci aplikasi, pengingat dan ekspor. Tanpa akun."
 image: /assets/images/covers/tutorial-meow-mood-diary.webp
 app_icon: /assets/images/apps/meow-mood-diary/icon.webp
+doc_order: 7
+doc_app: meow-mood-diary
 ---
 
 ## Daftar Isi

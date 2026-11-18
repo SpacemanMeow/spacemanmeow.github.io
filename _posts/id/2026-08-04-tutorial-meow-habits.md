@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Panduan Penggunaan Resmi Meow Habits"
 date: 2026-08-04 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-06
 description: "Panduan lengkap Meow Habits: cara membuat kebiasaan di aplikasi habit tracker, check-in harian, atur pengingat, ekspor CSV dan WebDav. Tanpa akun, offline."
 image: /assets/images/covers/tutorial-meow-habits.webp
 app_icon: /assets/images/apps/meow-habits/icon.webp
+doc_order: 5
+doc_app: meow-habits
 ---
 
 ## Daftar Isi

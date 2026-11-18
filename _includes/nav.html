@@ -9,6 +9,8 @@
     {%- assign active = 'home' -%}
   {%- elsif u contains '/meow' -%}
     {%- assign active = 'meow' -%}
+  {%- elsif u contains '/docs' or u contains '/tutorial-' -%}
+    {%- assign active = 'docs' -%}
   {%- elsif u contains '/blog' or u contains '/posts' or u contains '/page' -%}
     {%- assign active = 'blog' -%}
   {%- elsif u contains '/about' -%}
@@ -21,7 +23,6 @@
       <img class="brand__logo" src="{{ site.avatar | relative_url }}" alt="" />
       <span class="brand__text">
         <strong>{{ site.title }}</strong>
-        {%- if site.tagline %}<small>{{ site.tagline }}</small>{% endif -%}
       </span>
     </a>
 

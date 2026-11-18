@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "คู่มือผู้ใช้ทางการ Floating Assistant"
 date: 2026-07-26 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-07
 description: "คู่มือผู้ใช้ Floating Assistant: ลูกบอลลอยเกาะขอบจอ ทางลัดที่กำหนดเอง สวิตช์ระบบ การควบคุมมือเดียว และสิทธิ์ชัดเจนโดยไม่รูท"
 image: /assets/images/covers/tutorial-floating-assistant.webp
 app_icon: /assets/images/apps/floating-assistant/icon.webp
+doc_order: 3
+doc_app: floating-assistant
 ---
 
 ## สารบัญ

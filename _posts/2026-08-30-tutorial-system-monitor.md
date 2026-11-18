@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "System Monitor Official User Guide"
 date: 2026-08-30 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "System Monitor user guide: read-only hardware info, CPU temp, battery health, overheat alarm, floating window and live home-screen widgets."
 image: /assets/images/covers/tutorial-system-monitor.webp
 app_icon: /assets/images/apps/system-monitor/icon.webp
+doc_order: 11
+doc_app: system-monitor
 ---
 
 ## Table of Contents

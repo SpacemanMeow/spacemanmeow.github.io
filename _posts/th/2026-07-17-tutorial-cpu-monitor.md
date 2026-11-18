@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "คู่มือผู้ใช้ทางการ CPU Monitor"
 date: 2026-07-17 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-07
 description: "คู่มือผู้ใช้ CPU Monitor: อุณหภูมิ CPU เรียลไทม์ หน้าต่างลอย การเตือนความร้อนเกิน เส้นโค้งประวัติ วิดเจ็ตหน้าจอหลัก และการอ่านเซ็นเซอร์แบบอ่านอย่างเดียว"
 image: /assets/images/covers/tutorial-cpu-monitor.webp
 app_icon: /assets/images/apps/cpu-monitor/icon.webp
+doc_order: 1
+doc_app: cpu-monitor
 ---
 
 ## สารบัญ

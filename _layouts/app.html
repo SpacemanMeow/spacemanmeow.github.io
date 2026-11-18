@@ -2,6 +2,7 @@
 layout: default
 ---
 {%- assign lang = site.lang | default: 'en' -%}
+{%- assign lp = '' -%}{%- if lang != 'en' -%}{%- assign lp = '/' | append: lang -%}{%- endif -%}
 {%- comment -%}
   应用详情页模板。
   数据来自 _apps/*.md 的 front matter（title / tagline / icon / google_play / app_store / screenshots），
@@ -50,8 +51,8 @@ layout: default
     {%- assign guides = site.posts | where_exp: "post", "post.app_icon == page.icon" -%}
     {% if guides.size > 0 %}
     <section class="app-guides" aria-label="Guides and tutorials">
-      <h2 class="app-guides__title">{{ site.data.ui[site.lang].guides_title }}</h2>
-      <p class="app-guides__intro">{{ site.data.ui[site.lang].guides_intro }} {{ page.title }}:</p>
+      <h2 class="app-guides__title">{{ site.data.ui[lang].docs_title }}</h2>
+      <p class="app-guides__intro">{{ site.data.ui[lang].guides_intro }} {{ page.title }}:</p>
       <ul class="app-guides__list">
         {% for post in guides %}
         <li class="app-guides__item">

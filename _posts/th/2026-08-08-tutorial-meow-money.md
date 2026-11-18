@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "คู่มือการใช้งานทางการ Meow Money Manager"
 date: 2026-08-08 09:00:00 +0800
 categories: [Tutorial]
@@ -9,6 +9,9 @@ author: author_meow_id
 description: "คู่มือฉบับสมบูรณ์ Meow Money Manager 2026: การบันทึก งบประมาณ สมุดบัญชีหลายสกุลเงิน เบิกคืน และส่งออก CSV"
 image: /assets/images/covers/tutorial-meow-money.webp
 app_icon: /assets/images/apps/meow-money-manager/icon.webp
+doc_order: 6
+doc_app: meow-money-manager
+glossary_terms: [what-is-budget-management, what-is-an-expense-tracker]
 ---
 
 ## สารบัญ

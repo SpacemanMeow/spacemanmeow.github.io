@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "One Widget 官方使用指南"
 date: 2026-08-22 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "一份完整的 One Widget 使用指南——放入四种风格的 500+ 桌面小组件，配置尺寸与透明度，添加快捷开关与应用快捷方式。"
 image: /assets/images/covers/tutorial-one-widget.webp
 app_icon: /assets/images/apps/one-widget/icon.webp
+doc_order: 9
+doc_app: one-widget
 ---
 
 ## 目录

@@ -4,6 +4,7 @@ title: "การจัดการงบประมาณคืออะไร
 description: "การจัดการงบประมาณคือวิธีวางขีดจำกัดค่าใช้จ่ายต่อรอบ เข้าใจงบรายวัน งบประมาณรายเดือน และงบต่อหมวด"
 tags: [Budget Management, Budget App, Meow Money]
 lang: th
+app_slug: meow-money-manager
 ---
 
 ## นิยามและวิธีการทำงาน

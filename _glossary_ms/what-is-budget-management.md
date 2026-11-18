@@ -4,6 +4,7 @@ title: "Apakah Pengurusan Bajet?"
 description: "Pengurusan bajet adalah cara merencanakan had perbelanjaan per tempoh. Fahami bajet harian, bajet bulanan, dan bajet per kategori."
 tags: [Bajet Management, Bajet App, Meow Money]
 lang: ms
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Ia Berfungsi

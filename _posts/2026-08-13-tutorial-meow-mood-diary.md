@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Meow Mood Diary Official User Guide"
 date: 2026-08-13 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "Meow Mood Diary user guide: one-tap daily mood log, private offline journal, calendar and trend charts, app lock, reminders and export — no account needed."
 image: /assets/images/covers/tutorial-meow-mood-diary.webp
 app_icon: /assets/images/apps/meow-mood-diary/icon.webp
+doc_order: 7
+doc_app: meow-mood-diary
 ---
 
 ## Table of Contents

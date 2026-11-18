@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{%- assign lang = site.lang | default: 'en' -%}
+{%- assign lp = '' -%}{%- if lang != 'en' -%}{%- assign lp = '/' | append: lang -%}{%- endif -%}
+{%- assign ui = site.data.ui[lang] -%}
+{%- assign apps_key = 'apps_' | append: lang -%}
+{%- assign apps_coll = site.apps -%}
+{%- if lang != 'en' -%}{%- assign apps_coll = site[apps_key] -%}{%- endif -%}
+{%- assign docs_coll = site.posts | where: 'layout', 'docs' | sort: 'doc_order' -%}
+
+<div class="page-head">
+  <div class="container">
+    <h1 class="page-head__title">{{ page.title }}</h1>
+    {%- if page.description %}<p class="page-head__subtitle">{{ page.description }}</p>{% endif -%}
+  </div>
+</div>
+
+<div class="docs-hub">
+  <div class="container">
+    <div class="docs-hub__grid">
+      {%- assign sorted_apps = apps_coll | sort: 'order' -%}
+      {%- for app in sorted_apps -%}
+      {%- assign app_slug = app.path | split: '/' | last | split: '.' | first -%}
+      {%- assign manual = docs_coll | where: 'doc_app', app_slug | first -%}
+      {%- if manual -%}
+      <a class="docs-card" href="{{ manual.url | relative_url }}">
+        <img class="docs-card__icon" src="{{ app.icon | relative_url }}" alt="" width="90" height="90" loading="lazy">
+        <span class="docs-card__body">
+          <strong class="docs-card__title">{{ app.title }}</strong>
+          <span class="docs-card__meta">{{ manual.title | escape }}</span>
+        </span>
+      </a>
+      {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>

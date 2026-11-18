@@ -4,6 +4,7 @@ title: "Apakah Tetingkap Terapung?"
 description: "Tetingkap terapung adalah paparan kecil yang terapung di atas aplikasi lain. Fahami fungsinya di Android dan had izinnya."
 tags: [Floating Window, Floating Assistant]
 lang: ms
+app_slug: floating-assistant
 ---
 
 ## Definisi & Cara Ia Berfungsi

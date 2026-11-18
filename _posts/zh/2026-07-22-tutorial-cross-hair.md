@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Crosshair 官方使用指南"
 date: 2026-07-22 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ author: author_meow_id
 description: "一份完整的 Crosshair 使用指南——为安卓 FPS 游戏添加自定义准星叠层：80+ 样式、缩放/颜色/位置，免 root，免费起步。"
 image: /assets/images/covers/tutorial-cross-hair.webp
 app_icon: /assets/images/apps/cross-hair/icon.webp
+doc_order: 2
+doc_app: cross-hair
 ---
 
 ## 目录

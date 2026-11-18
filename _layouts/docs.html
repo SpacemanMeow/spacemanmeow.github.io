@@ -1,0 +1,63 @@
+---
+layout: default
+---
+{%- assign lang = site.lang | default: 'en' -%}
+{%- assign lp = '' -%}{%- if lang != 'en' -%}{%- assign lp = '/' | append: lang -%}{%- endif -%}
+{%- assign ui = site.data.ui[lang] -%}
+{%- assign docs_coll = site.posts | where: 'layout', 'docs' -%}
+{%- assign doc_order = page.doc_order | default: 0 -%}
+{%- assign prev_doc = docs_coll | where_exp: 'd', 'd.doc_order < doc_order' | sort: 'doc_order' | last -%}
+{%- assign next_doc = docs_coll | where_exp: 'd', 'd.doc_order > doc_order' | sort: 'doc_order' | first -%}
+
+<article class="post docs-article">
+  <div class="post__head">
+    <div class="container">
+      <nav class="docs-breadcrumb" aria-label="Breadcrumb">
+        <a href="{{ '/docs/' | prepend: lp | relative_url }}">{{ ui.docs_title }}</a>
+        <span aria-hidden="true"> / </span>
+        <span>{{ page.title | escape }}</span>
+      </nav>
+      <header class="post__header">
+        <h1 class="post__title">{{ page.title }}</h1>
+        {%- assign lm = page.last_modified_at | default: page.date -%}
+        <div class="post__meta">
+          <span class="meta-item"><time datetime="{{ lm | date_to_xmlschema }}">{{ ui.updated_label }}{{ lm | date: ui.date_format }}</time></span>
+        </div>
+        {%- assign post_cover = page.cover | default: '' -%}
+        {%- if post_cover == '' -%}
+        {%- assign slug = page.path | split: '/' | last | split: '.' | first | slice: 11, 200 -%}
+        {%- assign post_cover = '/assets/images/covers/' | append: slug | append: '.webp' -%}
+        {%- endif -%}
+        <figure class="post-cover">
+          <img src="{{ post_cover | relative_url }}" alt="{{ page.title }}" width="1920" height="1080" fetchpriority="high">
+        </figure>
+      </header>
+    </div>
+  </div>
+
+  <div class="page-body">
+    <div class="container">
+      <div class="post__inner">
+        {%- comment -%} 目录（TOC）由正文自带的 "Table of Contents" 章节提供，此处不重复生成，避免 D18 骨架重复 {%- endcomment -%}
+        <div class="post__content">
+          {{ content }}
+        </div>
+
+        {%- include related-posts.html -%}
+
+        <footer class="docs-footer">
+          <div class="docs-nav">
+            {%- if prev_doc -%}
+            <a class="docs-nav__prev" href="{{ prev_doc.url | relative_url }}">&lsaquo; {{ prev_doc.title | escape }}</a>
+            {%- endif -%}
+            {%- if next_doc -%}
+            <a class="docs-nav__next" href="{{ next_doc.url | relative_url }}">{{ next_doc.title | escape }} &rsaquo;</a>
+            {%- endif -%}
+          </div>
+
+          <a class="back-link" href="{{ '/docs/' | prepend: lp | relative_url }}">{{ ui.back_to_docs }}</a>
+        </footer>
+      </div>
+    </div>
+  </div>
+</article>

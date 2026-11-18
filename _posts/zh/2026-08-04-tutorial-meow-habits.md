@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Meow Habits 官方使用指南"
 date: 2026-08-04 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "一份完整的 Meow Habits 使用指南——在这款可爱的习惯打卡应用里建立连续天数、记录每日打卡、设置提醒、查看趋势，并导出 CSV 或通过 WebDav 备份；无需账号，离线可用。"
 image: /assets/images/covers/tutorial-meow-habits.webp
 app_icon: /assets/images/apps/meow-habits/icon.webp
+doc_order: 5
+doc_app: meow-habits
 ---
 
 ## 目录

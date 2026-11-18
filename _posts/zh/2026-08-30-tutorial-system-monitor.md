@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "System Monitor 官方使用指南"
 date: 2026-08-30 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "一份完整的 System Monitor 使用指南——只读硬件信息、CPU 温度、电池健康、过热报警、系统监控悬浮窗与实时小组件。"
 image: /assets/images/covers/tutorial-system-monitor.webp
 app_icon: /assets/images/apps/system-monitor/icon.webp
+doc_order: 11
+doc_app: system-monitor
 ---
 
 ## 目录

@@ -8,6 +8,7 @@
 - **[SEO-I18N-PLAYBOOK.md](./SEO-I18N-PLAYBOOK.md)** —— 多语言内容扩展标准流程：新增语言或为某 App 补多语言内容时直接按 12 步执行，含不可协商红线、本地关键词 SOP、页面类型全覆盖清单与验收。**后续所有语言扩展按此规范执行，无需重复说明要求。**
 - **[SEO-I18N-PROGRESS.md](./SEO-I18N-PROGRESS.md)** —— 多语言扩展唯一状态源：语言矩阵、页面类型覆盖、posts 清单、校验记录与下一批入口。**用于防止上下文溢出导致内容质量下降或实现方式不一致。**
 - **[SEO-GOOGLE-PLAY.md](./SEO-GOOGLE-PLAY.md)** —— Google Play ASO 规范：标题 / 简短说明 / 完整说明的字数、合规表述与发布前校验。**用于写或改商店文案。**
+- **[CONTENT-HUB-PLAN.md](./CONTENT-HUB-PLAN.md)** —— 内容形态融合执行计划：Blog + Docs + Glossary + App 形态的导航调整、页面结构、联动矩阵与分阶段排期（在线工具形态暂缓未落地）。**用于落地新内容形态。**
 
 
 ## 使用方式

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Meow Habits Official User Guide"
 date: 2026-08-04 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "Meow Habits user guide: build streaks, log daily check-ins, set reminders, review trends in this cute habit tracker, and export CSV or back up via WebDav."
 image: /assets/images/covers/tutorial-meow-habits.webp
 app_icon: /assets/images/apps/meow-habits/icon.webp
+doc_order: 5
+doc_app: meow-habits
 ---
 
 ## Table of Contents

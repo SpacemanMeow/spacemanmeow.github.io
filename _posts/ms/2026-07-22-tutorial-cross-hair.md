@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Panduan Resmi Pengguna Crosshair"
 date: 2026-07-22 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ author: author_meow_id
 description: "Panduan lengkap pengguna Crosshair — tambahkan overlay bidik silang tersuai ke game FPS di Android: 80+ gaya, scale/warna/posisi, tanpa root, percuma untuk…"
 image: /assets/images/covers/tutorial-cross-hair.webp
 app_icon: /assets/images/apps/cross-hair/icon.webp
+doc_order: 2
+doc_app: cross-hair
 ---
 
 ## Kandungan

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "คู่มือการใช้งานทางการ Meow Mood Diary"
 date: 2026-08-13 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-06
 description: "คู่มือ Meow Mood Diary: บันทึกอารมณ์แตะเดียว ไดอารี่ส่วนตัวออฟไลน์ ปฏิทินและกราฟเทรนด์ ล็อกแอป การเตือน และส่งออก ไม่ต้องบัญชี"
 image: /assets/images/covers/tutorial-meow-mood-diary.webp
 app_icon: /assets/images/apps/meow-mood-diary/icon.webp
+doc_order: 7
+doc_app: meow-mood-diary
 ---
 
 ## สารบัญ

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Meow FM Official User Guide"
 date: 2026-07-31 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "Meow FM user guide: play cat white noise app soundscapes, set a sleep timer, mix rain and brown noise, and keep playing offline with the screen off."
 image: /assets/images/covers/tutorial-meow-fm.webp
 app_icon: /assets/images/apps/meow-fm/icon.webp
+doc_order: 4
+doc_app: meow-fm
 ---
 
 ## Table of Contents

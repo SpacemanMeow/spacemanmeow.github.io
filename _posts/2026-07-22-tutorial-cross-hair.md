@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "Crosshair Official User Guide"
 date: 2026-07-22 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ author: author_meow_id
 description: "A complete Crosshair user guide — add a custom crosshair overlay to FPS games on Android: 80+ styles, scale/color/position, no root, free to start."
 image: /assets/images/covers/tutorial-cross-hair.webp
 app_icon: /assets/images/apps/cross-hair/icon.webp
+doc_order: 2
+doc_app: cross-hair
 ---
 
 ## Table of Contents

@@ -38,10 +38,8 @@ assets/images/covers/*-1280.webp
 # Pagefind 构建临时目录
 .pagefind-bin/
 
-# GSC / API 凭据与分析导出（含密钥与站点分析数据，禁止提交）
-skills/seo-research/scripts/gsc/credentials.json
-skills/seo-research/scripts/gsc/token.json
-skills/seo-research/scripts/gsc/*.json
+# GSC / API 凭据与分析导出（含密钥与站点分析数据，整个目录禁止提交；文件仍保留在本地供脚本读取）
+skills/seo-research/scripts/gsc/
 # GSC 月度数据导出（本地分析数据，不提交）
 seo/data/
 

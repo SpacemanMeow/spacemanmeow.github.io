@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title: "One Widget Official User Guide"
 date: 2026-08-22 09:00:00 +0800
 categories: [Tutorial]
@@ -10,6 +10,8 @@ last_modified_at: 2026-11-05
 description: "One Widget user guide: place 500+ home-screen widgets in four styles, configure size and transparency, add quick toggles and app shortcuts."
 image: /assets/images/covers/tutorial-one-widget.webp
 app_icon: /assets/images/apps/one-widget/icon.webp
+doc_order: 9
+doc_app: one-widget
 ---
 
 ## Table of Contents

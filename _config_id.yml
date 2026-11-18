@@ -180,8 +180,6 @@ exclude:
   - app-ads.txt
   - "*.gem"
   - "*.gemspec"
-  - docs
-  - tools
   - seo/
   - "seo/**"
   - README.md

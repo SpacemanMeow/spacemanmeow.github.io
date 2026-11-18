@@ -4,6 +4,7 @@ title: "Apa Itu Aplikasi Catatan Keuangan?"
 description: "Aplikasi catatan keuangan mencatat pemasukan dan pengeluaran agar Anda tahu ke mana uang pergi, serta kaitannya dengan anggaran."
 tags: [Expense Tracker, Budget App, Meow Money]
 lang: id
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Kerja

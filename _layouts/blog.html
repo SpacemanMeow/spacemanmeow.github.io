@@ -7,7 +7,7 @@ layout: default
   <div class="container">
     <h1 class="page-head__title">{{ page.title }}</h1>
     {%- if page.subtitle %}<p class="page-head__subtitle">{{ page.subtitle }}</p>{% endif %}
-    <p class="page-head__tags-link">{{ site.data.ui[lang].blog_intro }}<a href="{{ '/tags/' | prepend: lp | relative_url }}">{{ site.data.ui[lang].tags_index_link }}</a><span aria-hidden="true"> · </span>{{ site.data.ui[lang].quick_definitions }}<a href="{{ '/glossary/' | prepend: lp | relative_url }}">{{ site.data.ui[lang].glossary_link }}</a></p>
+    <p class="page-head__tags-link">{{ site.data.ui[lang].blog_intro }}<a href="{{ '/tags/' | prepend: lp | relative_url }}">{{ site.data.ui[lang].tags_index_link }}</a><span aria-hidden="true"> · </span>{{ site.data.ui[lang].quick_definitions }}<a href="{{ '/glossary/' | prepend: lp | relative_url }}">{{ site.data.ui[lang].glossary_link }}</a><span aria-hidden="true"> · </span><a href="{{ '/docs/' | prepend: lp | relative_url }}">{{ site.data.ui[lang].docs_title }}</a></p>
   </div>
 </div>
 
