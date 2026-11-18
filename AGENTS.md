@@ -33,7 +33,7 @@
 .
 ├── _config.yml / _config_{zh,id,ms,th}.yml   # 每语一份配置：lang/url/collections/defaults/permalink
 ├── _apps/  _apps_{zh,id,ms,th}/              # 每语 11 款 App 落地页（slug.md）
-├── _posts/  _posts/{zh,id,ms,th}/            # EN 根 69 篇 + 每语 69 篇（共 345）
+├── _posts/  _posts/{zh,id,ms,th}/            # EN 根 70 篇 + 每语 70 篇（共 350）
 ├── _glossary/  _glossary_{zh,id,ms,th}/      # 术语表（EN 27 篇，其它语对等）
 ├── _pages/  _pages/{zh,id,ms,th}/            # about/privacy/terms/search/tags 等结构页
 ├── _release_notes/  _release_notes_*/        # Release Note 生成物：每语 11 页 = 55 页
@@ -118,7 +118,7 @@
 | 类型 | 数量 | 关键字段 | 备注 |
 |---|---|---|---|
 | App | 11 × 5 语 | title/tagline/description/icon/image/lang/series/order/google_play/app_store/screenshots/faq | tagline 非 EN ≤ EN 的 1.5 倍且无新增规格数字（红线 12） |
-| Post | 69 × 5 语 | date/title/description/layout(post\|guide\|docs)/tags/image/app_icon/lang/last_modified_at | 文件 `YYYY-MM-DD-slug.md`；slug 同时用于封面命名；layout=docs 的教程构成 Docs 形态（见 CONTENT-HUB-PLAN.md） |
+| Post | 70 × 5 语 | date/title/description/layout(post\|guide\|docs)/tags/image/cover(可选)/app_icon/lang/last_modified_at | 文件 `YYYY-MM-DD-slug.md`；slug 同时用于封面命名；封面与 slug 不同时须显式写 `cover:`；layout=docs 的教程构成 Docs 形态（见 CONTENT-HUB-PLAN.md） |
 | Guide | 属于 post（layout=guide） | 同上 + TOC | 骨架/插图/目录以 EN 为准 |
 | Docs | 11 × 5 语（复用 tutorial 文章） | layout: docs/doc_order/doc_app/可选 glossary_terms | 呈现形态，URL 不变；中心页 `/docs/`（结构页） |
 | Glossary | 27 × 5 语 | layout/title/description/tags/lang | `what-is-*.md` |
@@ -140,7 +140,7 @@
 | `seo/SEO-KEYWORDS.md` | 跨语言关键词权威库 |
 | `seo/SEO-METRICS.md` | GSC/GoatCounter 月报 |
 | `seo/SEO-GOOGLE-PLAY.md` | Google Play ASO 规范 |
-| `seo/SEO-PROGRESS.md` | 任务台账（注意：部分数量口径与实际不符，实测 EN posts=69、glossary=27） |
+| `seo/SEO-PROGRESS.md` | 任务台账（数量以文件系统实测为准，当前 EN posts=70、glossary=27） |
 | **`seo/SITE-AUDIT.md`** | **验收规范**：D01–D20 维度总表 + §4 逐项检查点 + §5 内嵌可执行 Python 脚本（`AUDIT-SCRIPT-START/END` 之间整段复制执行；输出 PASS/FAIL/WARN，目标 `{PASS:N, FAIL:0, WARN:0}`，`BASE` 应为空） |
 
 新增/改动功能后：**先更新对应维度与红线，再改代码**，最后跑构建 + 审计脚本。D20 是 Release Note 专项（覆盖/frontmatter/正文/标题本地化/内链）。
@@ -199,7 +199,7 @@
 ## 10. 已知坑与口径差异（避免踩坑）
 
 - `SKIP_PAGEFIND=1` 会让 D12 报 FAIL——这是快速预览的正常现象，不是真问题；最终验收必须完整构建。
-- SEO 进度文档里的数量口径可能滞后（记 66 posts/22 glossary，实测 69/27）；以文件系统实测为准。
+- SEO 进度文档里的数量口径可能滞后；当前实测 EN 70 posts / 27 glossary，以文件系统实测为准。
 - 模板按 `site.lang` 分支，不要改成 `page.lang`。
 - 有序列表源码现在用显式 `1. 2. 3.`（不是全 `1.` 懒编号）；`- ` 开头行必须缩进 4 空格，否则会被渲染成 `2. ○ xxx`。
 - 双端 App 的 `app_store: "#"` 视为无入口；生成 Release Note 页时 `app_store` 为空要写成 `""`，否则 YAML 粘连会吞掉 layout 与 hreflang。

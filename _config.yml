@@ -92,6 +92,9 @@ defaults:
       layout: post
       permalink: /posts/:title/
       nav: blog
+      author: author_meow_id
+      seo:
+        type: WebPage
   # 应用（_apps/*.md，一篇 = 一个应用 = 一个详情页）
   - scope:
       path: ""

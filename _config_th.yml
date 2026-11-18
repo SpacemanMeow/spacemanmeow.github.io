@@ -84,6 +84,9 @@ defaults:
       layout: post
       permalink: /th/posts/:title/
       nav: blog
+      author: author_meow_id
+      seo:
+        type: WebPage
   - scope:
       path: ""
       type: apps_th

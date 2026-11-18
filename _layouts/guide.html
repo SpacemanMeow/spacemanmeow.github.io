@@ -3,7 +3,6 @@ layout: default
 ---
 {%- assign lang = site.lang | default: 'en' -%}
 {%- assign lp = '' -%}{%- if lang != 'en' -%}{%- assign lp = '/' | append: lang -%}{%- endif -%}
-{% include guide-jsonld.html %}
 
 <article class="post">
   <div class="post__head">
@@ -32,8 +31,12 @@ layout: default
         {%- assign post_cover = page.path | split: '/' | last | split: '.' | first | slice: 11, 200 -%}
         {%- assign post_cover = '/assets/images/covers/' | append: post_cover | append: '.webp' -%}
         {%- endif -%}
+        {%- assign post_cover_base = post_cover | remove: '.webp' -%}
         <figure class="post-cover">
-          <img src="{{ post_cover | relative_url }}" alt="{{ page.title }}" width="1920" height="1080" fetchpriority="high">
+          <picture>
+            <source type="image/avif" srcset="{{ post_cover_base | append: '-640.avif' | relative_url }} 640w, {{ post_cover_base | append: '-1280.avif' | relative_url }} 1280w" sizes="100vw">
+            <img src="{{ post_cover | relative_url }}" alt="{{ page.title }}" width="1920" height="1080" fetchpriority="high">
+          </picture>
         </figure>
       </header>
     </div>

@@ -1,16 +1,31 @@
+{%- comment -%}
+  BlogPosting structured data for posts / guides / docs.
+  jekyll-seo-tag 在 posts defaults 中已强制 WebPage，此处避免重复 BlogPosting；
+  dateModified 采用 git hook 写入的 page.last_modified_at，author 采用 _data/authors.yml。
+{%- endcomment -%}
+{%- assign article_author = site.data.authors[page.author] | default: site.data.authors.author_meow_id -%}
+{%- assign article_lang = page.lang | default: site.lang | default: 'en' -%}
+{%- assign article_image = page.image | default: page.cover | default: site.avatar -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": {{ page.title | jsonify }},
+  "@type": "BlogPosting",
+  "headline": {{ page.title | strip_html | normalize_whitespace | jsonify }},
   "description": {{ page.description | strip_html | normalize_whitespace | jsonify }},
-  "author": { "@type": "Organization", "name": {{ site.title | jsonify }} },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "inLanguage": {{ article_lang | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": {{ article_author.name | jsonify }},
+    "url": {{ article_author.url | default: site.url | jsonify }}
+  },
   "publisher": {
     "@type": "Organization",
     "name": {{ site.title | jsonify }},
-    "logo": { "@type": "ImageObject", "url": "{{ site.url }}{{ site.avatar | relative_url }}" }
+    "logo": { "@type": "ImageObject", "url": {{ site.url | append: site.avatar | jsonify }} }
   },
-  "image": [{{ page.image | absolute_url | jsonify }}],
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ site.url }}{{ page.url }}" }
+  "image": [{{ article_image | absolute_url | jsonify }}],
+  "mainEntityOfPage": { "@type": "WebPage", "@id": {{ site.url | append: page.url | jsonify }} }
 }
 </script>

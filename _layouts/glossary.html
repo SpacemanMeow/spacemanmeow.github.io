@@ -3,6 +3,7 @@ layout: default
 ---
 {%- assign lang = site.lang | default: 'en' -%}
 {%- assign lp = '' -%}{%- if lang != 'en' -%}{%- assign lp = '/' | append: lang -%}{%- endif -%}
+{% include glossary-jsonld.html %}
 <div class="page-head">
   <div class="container">
     <h1 class="page-head__title">{{ page.title }}</h1>

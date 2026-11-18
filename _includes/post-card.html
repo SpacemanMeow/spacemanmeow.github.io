@@ -16,10 +16,15 @@
 {%- assign cover_base = card_cover | remove: '.webp' -%}
 {%- assign cover_640 = cover_base | append: '-640.webp' -%}
 {%- assign cover_1280 = cover_base | append: '-1280.webp' -%}
+{%- assign cover_640_avif = cover_base | append: '-640.avif' -%}
+{%- assign cover_1280_avif = cover_base | append: '-1280.avif' -%}
 <article class="post-card">
   <div class="post-card__cover">
     <a href="{{ post.url | relative_url }}" aria-hidden="true" tabindex="-1">
-      <img src="{{ cover_640 | relative_url }}" srcset="{{ cover_640 | relative_url }} 640w, {{ cover_1280 | relative_url }} 1280w, {{ card_cover | relative_url }} 1920w" sizes="(max-width: 768px) 92vw, 160px" alt="{{ post.title }}" width="1920" height="1080" loading="lazy" decoding="async">
+      <picture>
+        <source type="image/avif" srcset="{{ cover_640_avif | relative_url }} 640w, {{ cover_1280_avif | relative_url }} 1280w" sizes="(max-width: 768px) 92vw, 160px">
+        <img src="{{ cover_640 | relative_url }}" srcset="{{ cover_640 | relative_url }} 640w, {{ cover_1280 | relative_url }} 1280w, {{ card_cover | relative_url }} 1920w" sizes="(max-width: 768px) 92vw, 160px" alt="{{ post.title }}" width="1920" height="1080" loading="lazy" decoding="async">
+      </picture>
     </a>
   </div>
   <div class="post-card__body">

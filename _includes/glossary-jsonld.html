@@ -1,0 +1,16 @@
+{%- comment -%}
+  Definition structured data for Glossary pages.
+  与顶部 breadcrumb JSON-LD 并存，只补充 DefinedTerm；不生成重复 WebPage。
+{%- endcomment -%}
+{%- assign term_lang = page.lang | default: site.lang | default: 'en' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": {{ page.title | strip_html | normalize_whitespace | jsonify }},
+  "description": {{ page.description | strip_html | normalize_whitespace | jsonify }},
+  "inLanguage": {{ term_lang | jsonify }},
+  "url": {{ site.url | append: page.url | jsonify }},
+  "termCode": {{ page.slug | default: page.path | split: '/' | last | split: '.' | first | jsonify }}
+}
+</script>

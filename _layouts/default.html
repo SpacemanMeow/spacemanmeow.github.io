@@ -6,7 +6,17 @@
     <meta name="color-scheme" content="light dark" />
     {% seo %}
     {% include breadcrumb-jsonld.html %}
+    {%- if page.collection == 'posts' -%}{% include guide-jsonld.html %}{%- endif -%}
     {% feed_meta %}
+    {%- if page.collection == 'posts' -%}
+    {%- assign preload_cover = page.cover | default: '' -%}
+    {%- if preload_cover == '' -%}
+    {%- assign cover_slug = page.path | split: '/' | last | split: '.' | first | slice: 11, 200 -%}
+    {%- assign preload_cover = '/assets/images/covers/' | append: cover_slug | append: '.webp' -%}
+    {%- endif -%}
+    {%- assign preload_base = preload_cover | remove: '.webp' -%}
+    <link rel="preload" as="image" type="image/avif" href="{{ preload_base | append: '-1280.avif' | relative_url }}" imagesrcset="{{ preload_base | append: '-640.avif' | relative_url }} 640w, {{ preload_base | append: '-1280.avif' | relative_url }} 1280w" imagesizes="100vw" fetchpriority="high">
+    {%- endif -%}
     <link rel="icon" href="{{ site.favicon | relative_url }}" />
     <link rel="apple-touch-icon" href="{{ site.apple_touch_icon | relative_url }}" />
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />

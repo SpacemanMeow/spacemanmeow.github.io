@@ -85,6 +85,9 @@ defaults:
       layout: post
       permalink: /ms/posts/:title/
       nav: blog
+      author: author_meow_id
+      seo:
+        type: WebPage
   - scope:
       path: ""
       type: apps_ms

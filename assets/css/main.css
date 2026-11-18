@@ -200,7 +200,7 @@ main { display: block; padding-bottom: 72px; }
 
 .site-nav__link {
   display: block;
-  padding: var(--space-3) var(--space-5);
+  padding: var(--space-3) var(--space-7);
   border-radius: 999px;
   font-size: var(--fs-md);
   font-weight: 600;
@@ -735,6 +735,8 @@ a.tag:hover,
    cover 按 slug 约定（/assets/images/covers/<slug>.webp），同一文章多语言共用 */
 .post-card { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: var(--space-9); align-items: center; }
 .post-card__cover { margin: 0; }
+.post-card__cover picture,
+.post-cover picture { display: block; }
 .post-card__cover img {
   display: block;
   width: 100%;
@@ -924,6 +926,17 @@ a.tag:hover,
 
 .back-link { color: var(--text-body); font-size: var(--fs-base); font-weight: 600; }
 .back-link:hover { color: var(--accent-strong); }
+
+/* Glossary 定义页解决方案：与正文内容区样式一致，链接沿用正文主题色 */
+.glossary-solution { margin-top: var(--space-9); }
+.glossary__back { margin-top: var(--space-8); }
+.glossary__back a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--accent-strong);
+  font-weight: 600;
+}
 
 /* 自动相关文章区块（T-17） */
 .related-posts { margin-top: var(--space-9); padding-top: var(--space-7); border-top: 1px solid var(--line); }
