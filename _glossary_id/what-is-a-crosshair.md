@@ -1,7 +1,7 @@
 ---
 layout: glossary
-title: "Apa Itu Crosshair?"
-description: "Crosshair adalah tanda bidik di tengah layar pada game tembak-menembak. Pahami bentuk overlay dan batas penggunaannya."
+title: "Crosshair FPS: Cara Kerja, Jenis Overlay, dan Aplikasinya"
+description: "Crosshair adalah tanda bidik untuk game FPS. Lihat jenis overlay, cara mengatur ukuran dan warna, serta aplikasi Crosshair Aim."
 tags: [Crosshair, Crosshair Aim]
 lang: id
 app_slug: cross-hair

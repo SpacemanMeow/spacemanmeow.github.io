@@ -1,8 +1,8 @@
 # SpacemanMeow SEO 关键词库（Keyword Bank）
 
 > **用途**：所有 App 跨语言关键词的**权威库**。按「语言 × 词层 × 优先级」分组排序，作为**新文章撰写、现有文章更新**的文案优化依据；并随 Google Play Console / Search Console 真实数据持续维护。
-> **最后更新**：2026-11-17
-> **语言范围**：5 语并行（EN 根 + `/zh/` `/id/` `/ms/` `/th/`，均已全量上线，文章 69 / 术语 27 / 结构页 8 / App 11，见 `SEO-I18N-PROGRESS.md`）+ 后续 `tl` / `hi` 等。关键词须**本地化**而非直译（见 `SEO-I18N-PLAYBOOK.md` §3）。
+> **最后更新**：2026-11-18
+> **语言范围**：5 语并行（EN 根 + `/zh/` `/id/` `/ms/` `/th/`，均已全量上线，文章 70 / 术语 27 / 结构页 9 / App 11，见 `SEO-I18N-PROGRESS.md`）。不再排期新增语言。关键词须**本地化**而非直译（见 `SEO-I18N-PLAYBOOK.md` §3）。
 > **多语言词库规则**：每新增一门语言，先按 `SEO-I18N-PLAYBOOK.md` §3 做当地检索，再在对应 App 小节追加 `§2.N.x <语言>` 词表（初始状态「待覆盖」，内容落地后逐条改「已覆盖」并跑 D09）；**禁止**由 en/zh 词等价翻译生成。
 > **关联文档**：本库是关键词**唯一权威源**（`SEO-PLAYBOOK.md` 不再复制词表）；内容集群模型见 `SEO-PLAYBOOK.md` §2.2，度量回填见 `SEO-METRICS.md`。
 
@@ -75,6 +75,7 @@
 | budget app | Head | P2 | 高 | 中 | Pillar | 已覆盖(pillar) | 站内已覆盖 | 与上为双根词 |
 | money manager app | Head | P2 | 中 | 中 | Pillar | 已覆盖(pillar/app) | 站内已覆盖 | 品牌名含此词 |
 | expense tracker | Head | P2 | 高 | 低 | Pillar | 已覆盖(glossary) | 站内已覆盖 | Glossary 命中 AI |
+| money tracker | Head | P2 | 高 | 中 | Pillar | 已覆盖(pillar-money-tracker) | GSC实测 | App 第一搜索词；T-36 独立支柱页 |
 | budgeting app | Head | P2 | 中 | 中 | Pillar | 待覆盖 | 竞品调研 | 同义变体 |
 
 #### Middle（中词，P1，vs/Best/Alternatives 抢）
@@ -189,6 +190,7 @@
 | 2026-11-06 | Google Play `hl=id&gl=ID` 在架标题 + 印尼本地网页/评测检索 | **建立 `id` 印尼语词表（§2.1.5）**：`aplikasi catatan keuangan` / `catatan keuangan harian` / `pencatat keuangan` / `atur anggaran bulanan` / `budget harian` / `catat pengeluaran & pemasukan` / `offline tanpa internet` / `tanpa daftar akun` 等 | — | **非直译**：印尼用户高频使用 `catatan keuangan`（财务记录）而非英文 `expense tracker` 的直译 `pelacak pengeluaran`；同时当地在架标题混用英语借词 `budget` / `expense tracker` / `money manager`，故按「印尼语主体 + 借词并存」收录。词表初始全部标「待覆盖」，待 `/id/` 内容落地后逐条改「已覆盖」并跑 D09；进度见 `SEO-I18N-PROGRESS.md` |
 | 2026-11-06 | 站内 `/id/` 内容落地（47 个印尼语内容源）+ D09 归一化逐词核对 | §2.1.5 共 52 词：**51 词**由「待覆盖」改为「已覆盖(id)」；1 词 `widget catatan keuangan` 因产品功能口径未确认而合规挂起 | — | 逐词与 ID 正文归一化核对后才标「已覆盖」，D09 11 组 MISS=0；Head/Middle/Long-tail/竞品拦截词均按本地检索证据落地，非 en/zh 直译 |
 | 2026-11-07 | Google Play `hl=ms&gl=MY` 在架说明 + 大马本地评测（StashAway.my / RinggitWise / CelcomDigi / Mr Money TV / FMT） + DOSM 家庭支出统计 | **建立 `ms` 马来语词表（§2.1.6）**：29 词（Head 6 / Middle 8 / Long-tail 8 / 品牌与竞品 7），含 `aplikasi catatan kewangan` / `aplikasi bajet` / `aplikasi kewangan tanpa akaun` / `cap jari` / `sandaran Google Drive dan WebDAV` | 不收录银行自动同步、LHDN 自动报税、resit OCR（产品不具备，合规挂起） | 从 `id` 骨架逐行本地化落地 69 posts + 11 App + 27 术语 + 8 结构页；`GoPay/OVO/DANA/QRIS`→`DuitNow QR/Touch 'n Go eWallet/GrabPay/Boost`、`Rp/Rupiah`→`RM/Ringgit`；逐词核对后 29/29 标「已覆盖(ms)」，D09 MISS=0 |
+| 2026-11-18 | GSC 实测 `money tracker` 为 App 第一搜索词 + T-36 独立支柱页落地 | 新增 `money tracker` 为 Head 词并标「已覆盖(pillar-money-tracker)」；5 语同骨架页面上线 | — | 新页只承接定义与选型意图，不抢 `expense tracker` / `budget app` 主吃页；D17/D18 骨架与目录行位全语言一致 |
 | 实测数据 | Play Console / GSC 导出后在 `SEO-METRICS.md` 分析，不在本库设占位行 | | | |
 
 **回填字段模板**（每条关键词补充两列，月度更新）：
@@ -373,7 +375,7 @@
 ### 2.1.7 泰语（th / ภาษาไทย，泰国）
 
 > **本地化选词（非英文直译）**：泰国用户说 `แอปบันทึกการเงิน` / `แอปจัดการงบประมาณ` / `งบประมาณ` / `งบรายวัน` / `งบต่อหมวด`，**不是** `expense tracker` 的逐词翻译。泰语大量混用英语借词 `budget` / `expense tracker` / `zero-based` / `envelope` / `sinking fund` / `rollover`，照实收录，不强行全译。
-> **证据**：泰国 Google Play / 本地评测大量使用英语借词与泰语混合；站点 th 已上线（69 posts / 11 App / 27 术语 / 8 结构页）。
+> **证据**：泰国 Google Play / 本地评测大量使用英语借词与泰语混合；站点 th 已上线（70 posts / 11 App / 27 术语 / 9 结构页）。
 > **数据来源标签**：`Play 当地检索(th_TH)` / `泰国本地网页(th)` / `站内已覆盖` / `GSC实测`。
 > **状态**：2026-11-08 补齐本文章与 5 个 budget 概念术语（借词为主），D09 对应组 MISS=0。
 

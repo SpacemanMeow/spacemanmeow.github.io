@@ -1,7 +1,7 @@
 ---
 date: 2026-06-08 09:00:00 +0800
-title: "Aplikasi Monitor Suhu CPU Terbaik untuk Android (2026)"
-description: "CPU monitor terbaik android 2026: apa yang dicari (suhu terus, widget, penggera overheat) dan banding CPU Monitor vs CPU-Z dan DevCheck."
+title: "Aplikasi Monitor Suhu CPU Android Terbaik 2026: Alternatif CPU-Z"
+description: "Bandingkan aplikasi monitor suhu CPU Android terbaik 2026: suhu dan frekuensi masa nyata, widget, amaran terlalu panas, serta alternatif CPU-Z."
 layout: guide
 image: /assets/images/covers/pillar-cpu-temperature-monitor-apps-android.webp
 app_icon: /assets/images/apps/cpu-monitor/icon.webp

@@ -1,7 +1,7 @@
 ---
 layout: glossary
-title: "Apa Itu Jendela Mengambang?"
-description: "Jendela mengambang adalah tampilan kecil yang melayang di atas aplikasi lain. Pahami fungsinya di Android dan batas izinnya."
+title: "Jendela Mengambang Android: Cara Kerja, Izin, dan Aplikasinya"
+description: "Jendela mengambang atau jendela melayang tetap tampil di atas aplikasi lain. Pahami izin Android, kegunaannya, dan aplikasi Floating Assistant."
 tags: [Floating Window, Floating Assistant]
 lang: id
 app_slug: floating-assistant

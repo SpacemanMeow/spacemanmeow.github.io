@@ -4,7 +4,7 @@
 > **适用站点**：`spacemanmeow.com` 英文站（根路径）+ `/zh/` `/id/` `/th/` `/ms/` 四个子站；Jekyll 4.4、5 语合并构建、GitHub Pages Pages-artifact 部署。
 > **触发时机**：见 §1.1。**每次触发都必须完整跑一遍 §0 的七步，并填写 §8 教研记录表**，不得只做「改了哪一块就只验哪一块」。
 > **判定原则**：P0 硬门禁全绿 + WARN 逐条给出人工结论（§1.3）；历史欠账已清零、`BASE` 恒为空，任何欠账回升直接 FAIL（§1.4）。
-> **当前基线**：以 §8 最近一次全绿记录为准（2026-11-12：610 页 / 1159 内链 / 69×5 文章 / 27×5 术语）。数量为快照非硬阈值，变化须能解释并记入 §8。
+> **当前基线**：以 §8 最近一次全绿记录为准（2026-11-18：675 页 / 1292 内链 / 70×5 文章 / 27×5 术语）。数量为快照非硬阈值，变化须能解释并记入 §8。
 > **关联文档**：`SEO-OPTIMIZATION-PLAN.md`（总览）、`SEO-PLAYBOOK.md`（方法与运营红线）、`SEO-PROGRESS.md`（进度台账）、`SEO-METRICS.md`（月度指标）、`SEO-KEYWORDS.md`（关键词权威库）。本文档不替代它们，只规定「如何整体验收」。
 
 ---
@@ -73,7 +73,7 @@
 | 模板 | 8 layouts + 13 includes | `_layouts/` / `_includes/` |
 | 构建产物 | **611 个 HTML**（含 404）、sitemap **610 条 `<loc>`** | `_site/` |
 | 语言 | 5（EN 根 / ZH `/zh/` / ID `/id/` / MS `/ms/` / TH `/th/`） | `scripts/i18n_postprocess.py` 日志 `Languages detected: ['en', 'id', 'ms', 'th', 'zh']` |
-| 内链 | htmlproofer 检查 **1159** 条内部链接（0 failure） | 随内容增长变化 |
+| 内链 | htmlproofer 检查 **1292** 条内部链接（0 failure） | 随内容增长变化 |
 
 > 数量是快照不是硬阈值。新增文章/术语/语言后数量上升是正常的，但必须在 §8 教研记录表写明「新增了什么、各语言是否成对」。5 语均已全量交付；任一语言文章数偏差按 D03「完整 / 分批」规则判定。
 
@@ -761,7 +761,7 @@ PY
 | 日期 | 构建 | htmlproofer | 教研结果 | 基线数字 |
 |---|---|---|---|---|
 | 2026-11-12 | PASS（5 语 / 610 页；Pagefind 36145 词） | PASS（611 文件 / 1159 内链 / 0 failure） | 69/69 文章·11/11 应用·8/8 页面·27/27 术语 五语对称；D01–D20 全绿（D14 1 条未跟踪新文件已批准） | 610 页 / sitemap 610 loc / 6 条 hreflang × 610 页 / `BASE` 为空 |
-| 2026-11-18 | PASS（5 语 / 675 页） | PASS（0 failure） | Docs 形态落地（`CONTENT-HUB-PLAN.md`）：+5/5 `/docs/` 中心页(8→9 结构页)、55 教程 layout→docs；在线工具形态已移除、暂不落地。D03 结构页 9/9、D11 Docs 入口闭合、D18/D19 通过；审计全绿 | 610→675 页 / sitemap 675 loc / 6 条 hreflang × 675 页 / `BASE` 为空 |
+| 2026-11-18 | PASS（5 语 / 675 页；Pagefind 37247 词） | PASS（676 文件 / 1292 内链 / 0 failure） | Docs 形态落地（`CONTENT-HUB-PLAN.md`）：+5/5 `/docs/` 中心页(8→9 结构页)、55 教程 layout→docs；在线工具形态已移除、暂不落地；T-38 两组支柱页 title/description 重写；T-39 id/th 8 个高曝光术语页本地化标题；T-22b 统一 BlogPosting `dateModified`/author；T-29 AVIF/srcset/preload；T-36 `money tracker` 5 语支柱页；T-41 Glossary `DefinedTerm` + 移动 CTA。D03 70/70 文章·9/9 结构页、D05 hreflang 675 页成环、D06 description ≤160、D09 MISS=0、D11 Docs 入口闭合、D17/D18/D19 通过；74 PASS / 1 WARN | 670→675 页 / sitemap 675 loc / 6 条 hreflang × 675 页 / `BASE` 为空；D14 1 条为 T-36 新页未跟踪告警，人工确认通过 |
 
 > D12 在 `SKIP_PAGEFIND=1` 快速构建下的 FAIL 是已知假阳性，不计入基线；本表只登记完整构建结果。
 

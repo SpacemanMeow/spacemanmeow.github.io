@@ -1,7 +1,7 @@
 ---
 layout: glossary
-title: "หน้าต่างลอยคืออะไร?"
-description: "หน้าต่างลอยคือการแสดงผลเล็กๆ ที่ลอยอยู่เหนือแอปอื่น ทำความเข้าใจการทำงานบน Android และขอบเขตสิทธิ์"
+title: "หน้าต่างลอย Android: วิธีทำงาน สิทธิ์ และแอปที่ใช้"
+description: "หน้าต่างลอยคือเลเยอร์ที่แสดงเหนือแอปอื่น ดูวิธีทำงาน ขอบเขตสิทธิ์บน Android และแอปที่ใช้ฟีเจอร์นี้"
 tags: [Floating Window, Floating Assistant]
 lang: th
 app_slug: floating-assistant
