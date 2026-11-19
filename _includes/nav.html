@@ -78,6 +78,6 @@
     </nav>
 
     <script>window.SITE_LANGS = {{ site.data.languages | map: "code" | jsonify }};
-window.SITE_UI = { lightbox_close: {{ ui.lightbox_close | jsonify }}, lightbox_prev: {{ ui.lightbox_prev | jsonify }}, lightbox_next: {{ ui.lightbox_next | jsonify }} };</script>
+window.SITE_UI = { lightbox_close: {{ ui.lightbox_close | jsonify }}, lightbox_prev: {{ ui.lightbox_prev | jsonify }}, lightbox_next: {{ ui.lightbox_next | jsonify }}, table_of_contents: {{ ui.table_of_contents | jsonify }} };</script>
   </div>
 </header>

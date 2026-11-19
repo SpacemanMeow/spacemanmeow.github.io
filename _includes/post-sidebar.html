@@ -1,0 +1,68 @@
+{%- comment -%}
+  宽屏三栏·右栏：sticky 推荐（Related App 卡片 + 相关文章 + App 下载 CTA）。
+  计算逻辑与 related-posts.html 保持一致（同语言、按标签重叠、泛标签排除），
+  仅展示形态不同，不改变任何链接与集合索引规则。
+{%- endcomment -%}
+{%- assign lang = site.lang | default: 'en' -%}
+{%- assign ui = site.data.ui[lang] -%}
+{%- assign lp = '' -%}{%- if lang != 'en' -%}{%- assign lp = '/' | append: lang -%}{%- endif -%}
+{%- assign coll_apps = 'apps' -%}{%- if lang != 'en' -%}{%- assign coll_apps = 'apps_' | append: lang -%}{%- endif -%}
+{%- assign current = page -%}
+{%- assign rel = "" | split: "" -%}
+{%- assign rel_urls = "" | split: "" -%}
+{%- assign generic_tags = "Comparison|Android|Best Apps|App Roundup|Alternatives" | split: "|" -%}
+{%- for tag in current.tags -%}
+  {%- unless generic_tags contains tag -%}
+  {%- assign tagged = site.posts | where: "tags", tag -%}
+  {%- for p in tagged -%}
+    {%- unless rel_urls contains p.url or p.url == current.url -%}
+      {%- assign rel = rel | push: p -%}
+      {%- assign rel_urls = rel_urls | push: p.url -%}
+    {%- endunless -%}
+    {%- if rel.size >= 5 %}{% break %}{% endif -%}
+  {%- endfor -%}
+  {%- endunless -%}
+  {%- if rel.size >= 5 %}{% break %}{% endif -%}
+{%- endfor -%}
+{%- assign app_collection = site[coll_apps] -%}
+{%- assign parent_app = nil -%}
+{%- for app in app_collection -%}
+  {%- if app.icon == current.app_icon -%}{%- assign parent_app = app -%}{%- endif -%}
+{%- endfor -%}
+<aside class="post-aside post-aside--right" aria-label="{{ ui.related_app }}">
+  {%- if parent_app -%}
+  <section class="aside-app">
+    <div class="aside-app__body">
+      <a class="aside-app__icon-link" href="{{ parent_app.url | relative_url }}">
+        <img class="aside-app__icon" src="{{ parent_app.icon | relative_url }}" alt="{{ parent_app.title | escape }}" loading="lazy" />
+      </a>
+      <div class="aside-app__info">
+        <a class="aside-app__name" href="{{ parent_app.url | relative_url }}">{{ parent_app.title | escape }}</a>
+        {%- if parent_app.tagline %}<p class="aside-app__tagline">{{ parent_app.tagline }}</p>{% endif -%}
+      </div>
+    </div>
+    <div class="aside-app__actions">{% include store-buttons.html play=parent_app.google_play appstore=parent_app.app_store %}</div>
+  </section>
+  {%- endif -%}
+  {%- if rel.size > 0 -%}
+  <section class="aside-posts-block">
+    <h2 class="aside-card__title">{{ ui.related_posts }}</h2>
+    <ul class="aside-posts">
+      {%- for p in rel -%}
+      <li><a href="{{ p.url | relative_url }}">{{ p.title | escape }}</a></li>
+      {%- endfor -%}
+    </ul>
+  </section>
+  {%- endif -%}
+  {%- if current.tags and current.tags.size > 0 -%}
+  <section class="aside-tags-block">
+    <h2 class="aside-card__title">{{ ui.tags_title }}</h2>
+    <div class="aside-tags">
+      {%- for tag in current.tags -%}
+      {%- assign tag_slug = tag | slugify -%}
+      <a class="tag" href="{{ '/tags/#' | append: tag_slug | prepend: lp | relative_url }}">{{ tag }}</a>
+      {%- endfor -%}
+    </div>
+  </section>
+  {%- endif -%}
+</aside>

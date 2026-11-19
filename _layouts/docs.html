@@ -40,9 +40,11 @@ layout: default
   </div>
 
   <div class="page-body">
-    <div class="container">
-      <div class="post__inner">
-        {%- comment -%} 目录（TOC）由正文自带的 "Table of Contents" 章节提供，此处不重复生成，避免 D18 骨架重复 {%- endcomment -%}
+    <div class="container container--wide">
+      <div class="post__layout">
+        {%- include post-toc-aside.html -%}
+        <div class="post__inner">
+        {%- comment -%} 目录（TOC）由正文自带的 "Table of Contents" 章节提供；宽屏左栏由 JS 动态生成，窄屏仍用正文内 TOC，避免 D18 骨架重复 {%- endcomment -%}
         <div class="post__content">
           {{ content }}
         </div>
@@ -61,6 +63,8 @@ layout: default
 
           <a class="back-link" href="{{ '/docs/' | prepend: lp | relative_url }}">{{ ui.back_to_docs }}</a>
         </footer>
+        </div>
+        {%- include post-sidebar.html -%}
       </div>
     </div>
   </div>

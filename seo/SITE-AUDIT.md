@@ -762,6 +762,7 @@ PY
 |---|---|---|---|---|
 | 2026-11-12 | PASS（5 语 / 610 页；Pagefind 36145 词） | PASS（611 文件 / 1159 内链 / 0 failure） | 69/69 文章·11/11 应用·8/8 页面·27/27 术语 五语对称；D01–D20 全绿（D14 1 条未跟踪新文件已批准） | 610 页 / sitemap 610 loc / 6 条 hreflang × 610 页 / `BASE` 为空 |
 | 2026-11-18 | PASS（5 语 / 675 页；Pagefind 37247 词） | PASS（676 文件 / 1292 内链 / 0 failure） | Docs 形态落地（`CONTENT-HUB-PLAN.md`）：+5/5 `/docs/` 中心页(8→9 结构页)、55 教程 layout→docs；在线工具形态已移除、暂不落地；T-38 两组支柱页 title/description 重写；T-39 id/th 8 个高曝光术语页本地化标题；T-22b 统一 BlogPosting `dateModified`/author；T-29 AVIF/srcset/preload；T-36 `money tracker` 5 语支柱页；T-41 Glossary `DefinedTerm` + 移动 CTA。D03 70/70 文章·9/9 结构页、D05 hreflang 675 页成环、D06 description ≤160、D09 MISS=0、D11 Docs 入口闭合、D17/D18/D19 通过；74 PASS / 1 WARN | 670→675 页 / sitemap 675 loc / 6 条 hreflang × 675 页 / `BASE` 为空；D14 1 条为 T-36 新页未跟踪告警，人工确认通过 |
+| 2026-11-19 | PASS（5 语 / 675 页） | PASS（676 文件 / 1293 内链 / 0 failure） | T-44 文章页宽屏三栏（≥1280px）：左 sticky 目录（JS 从 h2/h3 生成 + 滚动高亮）、中正文、右 sticky 推荐（Related App 卡片 + 相关文章）；新增 `_includes/post-toc-aside.html`、`_includes/post-sidebar.html`，改 post/guide/docs layout + nav `SITE_UI.table_of_contents` + main.js + CSS；窄屏退回单栏、正文内手写 TOC 保留。D03/D05/D06/D09/D11/D17/D18/D19/D20 全通过；75 PASS / 0 FAIL / 0 WARN | 页/sitemap/hreflang 不变（675 / 675 / 6×675）；内链 1292→1293（新增 aside 回链） |
 
 > D12 在 `SKIP_PAGEFIND=1` 快速构建下的 FAIL 是已知假阳性，不计入基线；本表只登记完整构建结果。
 

@@ -1015,6 +1015,94 @@ a.tag:hover,
   background: var(--card);
 }
 
+/* ---- 宽屏三栏：左 sticky 目录 / 中正文 / 右 sticky 推荐（≥1580px 启用） ---- */
+.post__layout { display: block; }
+.post-aside { display: none; }
+
+@media (min-width: 1580px) {
+  /* 正文列固定 992px 不收缩；视口不足时侧栏整体隐藏（display:none），由正文内联 TOC 接管目录 */
+  .page-body > .container--wide { max-width: 1720px; padding-left: 0; padding-right: 0; }
+
+  .post__layout {
+    display: grid;
+    grid-template-columns: minmax(240px, 1fr) 992px minmax(280px, 1fr);
+    gap: var(--space-7);
+    align-items: start;
+  }
+  .post__layout > .post__inner { min-width: 0; }
+  .post-aside--left { justify-self: end; width: 100%; max-width: 320px; padding-left: var(--space-6); }
+  .post-aside--right { justify-self: start; width: 100%; max-width: 360px; padding-right: var(--space-6); }
+  .post__content h2[id], .post__content h3[id] { scroll-margin-top: 104px; }
+
+  /* 宽屏由左栏 sticky 目录接管，隐藏正文内手写 TOC（标题 + 紧随的列表） */
+  .post__content > h2.is-inline-toc,
+  .post__content > h2.is-inline-toc + ul { display: none; }
+
+  .post-aside { display: block; position: sticky; top: 104px; align-self: start; }
+
+  /* 左栏：目录 */
+  .toc-nav__title { font-size: var(--fs-md); color: var(--text-head); font-weight: var(--fw-head); margin: 0 0 var(--space-4); }
+  .toc-nav__list { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--line); }
+  .toc-nav__item > a {
+    display: block;
+    padding: var(--space-2) 0 var(--space-2) var(--space-4);
+    margin-left: -2px;
+    border-left: 2px solid transparent;
+    color: var(--text-muted);
+    font-size: var(--fs-base);
+    line-height: 1.45;
+    text-decoration: none;
+  }
+  .toc-nav__item > a:hover { color: var(--accent-strong); }
+  .toc-nav__item > a.is-active { color: var(--accent-strong); border-left-color: var(--accent-strong); font-weight: 600; }
+  .toc-nav__item--h3 > a { padding-left: var(--space-7); }
+
+  /* 右栏：推荐卡片 */
+  .aside-card { background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius); padding: var(--space-5); }
+  .aside-card + .aside-card { margin-top: var(--space-6); }
+  .aside-card__title { font-size: var(--fs-md); color: var(--text-head); font-weight: var(--fw-head); margin: 0 0 var(--space-4); }
+  /* Related App：无边框背景，小 icon + 信息在上，商店按钮横排在下方 */
+  .aside-app { background: none; border: 0; padding: 0; }
+  .aside-app + .aside-card { margin-top: var(--space-6); }
+  .aside-app__body { display: flex; align-items: flex-start; gap: var(--space-3); }
+  .aside-app__icon-link { flex: 0 0 auto; }
+  .aside-app__icon { width: 72px; height: 72px; border-radius: 24px; object-fit: cover; }
+  .aside-app__info { flex: 1 1 auto; min-width: 0; max-width: 100%; }
+  .aside-app__name { display: block; font-size: var(--fs-base); font-weight: 700; color: var(--text-head); line-height: 1.35; }
+  .aside-app__name:hover { text-decoration: underline; }
+  .aside-app__tagline {
+    margin-top: var(--space-2);
+    font-size: var(--fs-base); color: var(--text-muted); line-height: 1.5;
+    display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .aside-app__actions { margin-top: var(--space-4); }
+  .aside-app__actions .store-buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-2); }
+  .aside-app__actions .store-badge { min-width: 0; }
+  .aside-app__actions .store-badge__img { width: 100%; }
+  /* Related Posts：无边框背景；与 Related App 之间用分割线分隔 */
+  .aside-posts-block { background: none; border: 0; padding: 0; margin-top: var(--space-7); }
+  .aside-app + .aside-posts-block {
+    margin-top: var(--space-7);
+    padding-top: var(--space-7);
+    border-top: 1px solid var(--line);
+  }
+  .aside-posts { list-style: none; margin: 0; padding: 0; }
+  .aside-posts li { margin: 0; }
+  .aside-posts li + li { margin-top: var(--space-3); padding-top: var(--space-3); border-top: 1px solid var(--line); }
+  .aside-posts a { color: var(--accent-strong); font-size: var(--fs-base); line-height: 1.45; font-weight: 600; text-decoration: none; }
+  .aside-posts a:hover { text-decoration: underline; }
+  /* Tags：与上方块用分割线分隔，pill 缩小以适配窄侧栏 */
+  .aside-app + .aside-tags-block,
+  .aside-posts-block + .aside-tags-block {
+    margin-top: var(--space-7);
+    padding-top: var(--space-7);
+    border-top: 1px solid var(--line);
+  }
+  .aside-tags { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+  .aside-tags .tag { padding: var(--space-2) var(--space-3); font-size: var(--fs-sm); }
+}
+
 .page-content { color: var(--text-body); font-size: var(--fs-md); line-height: 1.8; font-weight: var(--fw-body); }
 .page-content > * + * { margin-top: var(--space-6); }
 .page-content h2 { font-size: var(--fs-xl); margin-top: 38px; }

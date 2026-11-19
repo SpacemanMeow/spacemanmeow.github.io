@@ -49,6 +49,58 @@
     sync();
   });
 
+  /* ---------- 宽屏三栏：左侧 sticky 目录（从正文 h2/h3 生成 + 滚动高亮） ---------- */
+  var tocList = document.querySelector('[data-toc]');
+  var tocContent = document.querySelector('.post__content');
+  if (tocList && tocContent) {
+    var heads = Array.prototype.slice.call(
+      tocContent.querySelectorAll('h2[id], h3[id]')
+    );
+    var tocUi = window.SITE_UI || {};
+    var tocSkip = tocUi.table_of_contents || 'Table of Contents';
+
+    // 正文内手写 TOC 标题打标：宽屏 CSS 隐藏，避免与左栏重复
+    heads.forEach(function (h) {
+      if (h.parentElement === tocContent && h.nextElementSibling &&
+          h.nextElementSibling.tagName === 'UL' && h.textContent.trim() === tocSkip) {
+        h.classList.add('is-inline-toc');
+      }
+    });
+
+    var listHtml = '';
+
+    heads.forEach(function (h) {
+      // 跳过正文内手写的 TOC 标题本身（其文本等于本地化“目录”）
+      if (h.textContent.trim() === tocSkip) return;
+      var id = h.id;
+      var title = h.textContent.trim();
+      if (!id || !title) return;
+      var isH3 = h.tagName.toLowerCase() === 'h3';
+      listHtml += '<li class="toc-nav__item' + (isH3 ? ' toc-nav__item--h3' : '') + '">' +
+        '<a href="#' + id + '">' + title.replace(/&/g, '&amp;').replace(/</g, '&lt;') + '</a></li>';
+    });
+    tocList.innerHTML = listHtml;
+
+    var anchors = tocList.querySelectorAll('a');
+    anchors.forEach(function (a) {
+      a.addEventListener('click', function () { a.blur(); });
+    });
+
+    function highlight() {
+      var active = null;
+      for (var i = 0; i < heads.length; i++) {
+        var h = heads[i];
+        if (h.textContent.trim() === tocSkip) continue;
+        if (h.getBoundingClientRect().top <= 140) active = h.id; else break;
+      }
+      anchors.forEach(function (a) {
+        a.classList.toggle('is-active', a.getAttribute('href') === '#' + active);
+      });
+    }
+    window.addEventListener('scroll', highlight, { passive: true });
+    highlight();
+  }
+
   /* ---------- 截图画廊：点击预览 Lightbox ---------- */
   var shotItems = Array.prototype.slice.call(document.querySelectorAll('[data-shots-item]'));
   if (shotItems.length) {

@@ -54,8 +54,10 @@ layout: default
   </div>
 
   <div class="page-body">
-    <div class="container">
-      <div class="post__inner">
+    <div class="container container--wide">
+      <div class="post__layout">
+        {%- include post-toc-aside.html -%}
+        <div class="post__inner">
         <div class="post__content">
           {{ content }}
         </div>
@@ -73,6 +75,8 @@ layout: default
           {%- endif %}
           <a class="back-link" href="{{ '/blog/' | prepend: lp | relative_url }}">{{ site.data.ui[lang].back_to_blog }}</a>
         </footer>
+        </div>
+        {%- include post-sidebar.html -%}
       </div>
     </div>
   </div>

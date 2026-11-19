@@ -1,0 +1,13 @@
+{%- comment -%}
+  宽屏三栏·左栏：sticky 目录容器。
+  目录项由 assets/js/main.js 从正文 h2[id]/h3[id] 自动生成并高亮，
+  窄屏（<1280px）整栏隐藏，正文内手写 TOC 照常显示，避免重复。
+{%- endcomment -%}
+{%- assign lang = site.lang | default: 'en' -%}
+{%- assign ui = site.data.ui[lang] -%}
+<aside class="post-aside post-aside--left" aria-label="{{ ui.table_of_contents }}">
+  <nav class="toc-nav">
+    <h2 class="toc-nav__title">{{ ui.table_of_contents }}</h2>
+    <ul class="toc-nav__list" data-toc></ul>
+  </nav>
+</aside>
