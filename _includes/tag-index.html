@@ -1,0 +1,38 @@
+{%- comment -%}
+  Tag 主题中心：把 site.tags 按「App 产品 / 内容类型 / 品类主题」三层分组。
+  产品标签与内容类型标签用白名单（各语产品名统一为英文品牌名，类型词各语不同故双轨收录）；
+  其余 tag 归入品类主题。未命中白名单的产品标签仍留在品类组，不丢失文章。
+  文章底部 tag 链接指向本页锚点（#tag-slug），锚点在全部分组中保持唯一。
+{%- endcomment -%}
+{%- assign lang = site.lang | default: 'en' -%}
+{%- assign ui = site.data.ui[lang] -%}
+{%- include tag-groups.html -%}
+
+<div class="tag-index">
+  {%- if app_groups.size > 0 -%}
+  <section class="tag-index__section" aria-labelledby="topics-by-app">
+    <h2 class="tag-index__section-title" id="topics-by-app">{{ ui.topics_by_app }}</h2>
+    {%- for tag in app_groups -%}
+      {%- include tag-index-group.html tag=tag -%}
+    {%- endfor -%}
+  </section>
+  {%- endif -%}
+
+  {%- if category_groups.size > 0 -%}
+  <section class="tag-index__section" aria-labelledby="topics-by-category">
+    <h2 class="tag-index__section-title" id="topics-by-category">{{ ui.topics_by_category }}</h2>
+    {%- for tag in category_groups -%}
+      {%- include tag-index-group.html tag=tag -%}
+    {%- endfor -%}
+  </section>
+  {%- endif -%}
+
+  {%- if type_groups.size > 0 -%}
+  <section class="tag-index__section" aria-labelledby="topics-by-type">
+    <h2 class="tag-index__section-title" id="topics-by-type">{{ ui.topics_by_type }}</h2>
+    {%- for tag in type_groups -%}
+      {%- include tag-index-group.html tag=tag -%}
+    {%- endfor -%}
+  </section>
+  {%- endif -%}
+</div>

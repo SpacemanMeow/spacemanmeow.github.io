@@ -40,7 +40,6 @@
 ### 2.A 提升 CTR（P0）
 
 - [ ] **A1 12 月完整 GSC 复测 T-37 / T-38** — GSC 数据仅到 11/15；用 `../skills/seo-research/scripts/gsc_export.py` 重导完整 11 月，判断术语页治理与支柱页标题重写是否提速；结果写回 `SEO-METRICS.md` 与 `SEO_DONE.md`。
-- [ ] **A4 标签 / 主题聚合页** — `/search` +1000% 说明有探索需求但缺入口；把 tags 做成「主题中心」承接中词，每新增形态 ×5 语并入 D11/D19 门禁。
 - [ ] **A5 Release Notes 中心页** — 55 页（11 App × 5 语）近乎零流量；做结构化 changelog 中心 + 每版本独立可索引 + App ⇄ Release Note 环链。
 - [ ] **A6 Featured Snippet 优化（借已有内容）** — 针对高曝光低点击词（budget management 595 现 0 击、CPU 温度、Android 桌面小组件）用列表/表格/定义式结构抢精选摘要，不新增文章。
 - [ ] **A7 Google Play 商店 ASO 实验** — 分语言测名称主词/简短说明/截图，看安装转化率；用 Play Console 搜索词反哺站内词库，规范见 `SEO-GOOGLE-PLAY.md` §6。

@@ -3,30 +3,60 @@ layout: default
 ---
 {%- assign lang = site.lang | default: 'en' -%}
 {%- assign lp = '' -%}{%- if lang != 'en' -%}{%- assign lp = '/' | append: lang -%}{%- endif -%}
+{%- assign ui = site.data.ui[lang] -%}
 <div class="page-head">
   <div class="container">
     <h1 class="page-head__title">{{ page.title }}</h1>
     {%- if page.subtitle %}<p class="page-head__subtitle">{{ page.subtitle }}</p>{% endif %}
-    <p class="page-head__tags-link">{{ site.data.ui[lang].blog_intro }}<a href="{{ '/tags/' | prepend: lp | relative_url }}">{{ site.data.ui[lang].tags_index_link }}</a><span aria-hidden="true"> · </span>{{ site.data.ui[lang].quick_definitions }}<a href="{{ '/glossary/' | prepend: lp | relative_url }}">{{ site.data.ui[lang].glossary_link }}</a><span aria-hidden="true"> · </span><a href="{{ '/docs/' | prepend: lp | relative_url }}">{{ site.data.ui[lang].docs_title }}</a></p>
+    <p class="page-head__tags-link">{{ ui.blog_intro }}<a href="{{ '/tags/' | prepend: lp | relative_url }}">{{ ui.tags_index_link }}</a><span aria-hidden="true"> · </span>{{ ui.quick_definitions }}<a href="{{ '/glossary/' | prepend: lp | relative_url }}">{{ ui.glossary_link }}</a><span aria-hidden="true"> · </span><a href="{{ '/docs/' | prepend: lp | relative_url }}">{{ ui.docs_title }}</a></p>
   </div>
 </div>
 
 <div class="blog-list">
-  {%- for post in paginator.posts %}
-    <div class="blog-row">
-      <div class="container">
-        {% include post-card.html post=post %}
+  <div class="container container--wide">
+    <div class="blog-layout">
+      <div class="blog-layout__main">
+        {%- for post in paginator.posts %}
+          <div class="blog-row">{% include post-card.html post=post %}</div>
+        {%- else %}
+          <div class="blog-row"><p class="empty-tip">{{ ui.no_posts }}</p></div>
+        {%- endfor %}
+        {% include pagination.html %}
       </div>
-    </div>
-  {%- else %}
-    <div class="blog-row">
-      <div class="container">
-        <p class="empty-tip">{{ site.data.ui[lang].no_posts }}</p>
-      </div>
-    </div>
-  {%- endfor %}
-</div>
 
-<div class="container">
-  {% include pagination.html %}
+      {%- comment -%} 宽屏右栏：与文章页 aside-tags-block 同款（无卡片背景），按 App / 主题 / 内容类型三组的顺序完整列出 tag，仅 ≥1580px 显示 {%- endcomment -%}
+      {%- include tag-groups.html -%}
+      <aside class="blog-aside" aria-label="{{ ui.tags_title }}">
+        <section class="aside-tags-block">
+          {%- if app_groups.size > 0 -%}
+          <h3 class="blog-aside__group-title" id="aside-topics-by-app">{{ ui.topics_by_app }}</h3>
+          <div class="aside-tags">
+            {%- for tag in app_groups -%}
+              {%- assign tslug = tag[0] | slugify -%}
+              <a class="tag" href="{{ '/tags/#' | append: tslug | prepend: lp | relative_url }}">{{ tag[0] }}</a>
+            {%- endfor -%}
+          </div>
+          {%- endif -%}
+          {%- if category_groups.size > 0 -%}
+          <h3 class="blog-aside__group-title" id="aside-topics-by-category">{{ ui.topics_by_category }}</h3>
+          <div class="aside-tags">
+            {%- for tag in category_groups -%}
+              {%- assign tslug = tag[0] | slugify -%}
+              <a class="tag" href="{{ '/tags/#' | append: tslug | prepend: lp | relative_url }}">{{ tag[0] }}</a>
+            {%- endfor -%}
+          </div>
+          {%- endif -%}
+          {%- if type_groups.size > 0 -%}
+          <h3 class="blog-aside__group-title" id="aside-topics-by-type">{{ ui.topics_by_type }}</h3>
+          <div class="aside-tags">
+            {%- for tag in type_groups -%}
+              {%- assign tslug = tag[0] | slugify -%}
+              <a class="tag" href="{{ '/tags/#' | append: tslug | prepend: lp | relative_url }}">{{ tag[0] }}</a>
+            {%- endfor -%}
+          </div>
+          {%- endif -%}
+        </section>
+      </aside>
+    </div>
+  </div>
 </div>

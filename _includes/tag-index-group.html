@@ -1,0 +1,14 @@
+{%- comment -%} 单个标签分组（供 tag-index.html 复用，保持锚点 slug 不变） {%- endcomment -%}
+{%- assign tag_name = include.tag[0] -%}
+{%- assign tag_posts = include.tag[1] -%}
+<section class="tag-index__group" id="{{ tag_name | slugify }}">
+  <h3 class="tag-index__name">{{ tag_name }} <span class="tag-index__count">{{ tag_posts | size }}</span></h3>
+  <ul class="tag-index__list">
+    {%- for post in tag_posts -%}
+    <li class="tag-index__item">
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      <span class="tag-index__meta">{{ post.date | date: site.data.ui[site.lang].date_format }}</span>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>

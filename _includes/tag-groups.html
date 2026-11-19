@@ -1,0 +1,25 @@
+{%- comment -%}
+  site.tags 按「App 产品 / 品类主题 / 内容类型」三层分组，供 /tags/ 主题中心与博客列表页右栏共用，
+  保证两处分类与顺序完全一致（白名单与 tag-index.html 原逻辑相同）。
+  输出变量：tags_sorted / app_groups / category_groups / type_groups。
+{%- endcomment -%}
+{%- assign tags_sorted = site.tags | sort -%}
+
+{%- comment -%} 11 产品标签白名单（五语统一英文品牌名） {%- endcomment -%}
+{%- assign app_tags = 'Meow Todo,Meow Habits,Meow Money,Meow Mood Diary,Meow FM,Only Clock,One Widget,Crosshair Aim,System Monitor,CPU Monitor,Floating Assistant' | split: ',' -%}
+{%- comment -%} 内容类型 / 泛标签白名单（EN + 各语本地词双轨） {%- endcomment -%}
+{%- assign type_tags = 'Android,Best Apps,Comparison,App Roundup,Alternatives,Alternatif,Aplikasi Terbaik,Best App,Top,2026' | split: ',' -%}
+
+{%- assign app_groups = '' | split: ',' -%}
+{%- assign type_groups = '' | split: ',' -%}
+{%- assign category_groups = '' | split: ',' -%}
+{%- for tag in tags_sorted -%}
+  {%- assign tname = tag[0] -%}
+  {%- if app_tags contains tname -%}
+    {%- assign app_groups = app_groups | push: tag -%}
+  {%- elsif type_tags contains tname -%}
+    {%- assign type_groups = type_groups | push: tag -%}
+  {%- else -%}
+    {%- assign category_groups = category_groups | push: tag -%}
+  {%- endif -%}
+{%- endfor -%}
