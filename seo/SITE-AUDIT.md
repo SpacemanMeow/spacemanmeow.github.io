@@ -2,7 +2,7 @@
 
 > **定位**：本站「大规模改动后」的唯一全站验收标准。回答一个问题：**改动之后，整个站点是否仍然正确？**
 > **适用站点**：`spacemanmeow.com` 英文站（根路径）+ `/zh/` `/id/` `/th/` `/ms/` 四个子站；Jekyll 4.4、5 语合并构建、GitHub Pages Pages-artifact 部署。
-> **触发时机**：见 §1.1。**每次触发都必须完整跑一遍 §0 的七步，并填写 §8 教研记录表**，不得只做「改了哪一块就只验哪一块」。
+> **触发时机**：见 §1.1。**每次触发都必须完整跑一遍 §0 的八步，并填写 §8 教研记录表**，不得只做「改了哪一块就只验哪一块」。
 > **判定原则**：P0 硬门禁全绿 + WARN 逐条给出人工结论（§1.3）；历史欠账已清零、`BASE` 恒为空，任何欠账回升直接 FAIL（§1.4）。
 > **当前基线**：以 §8 最近一次全绿记录为准（2026-11-18：675 页 / 1292 内链 / 70×5 文章 / 27×5 术语）。数量为快照非硬阈值，变化须能解释并记入 §8。
 > **关联文档**：`SEO-OPTIMIZATION-PLAN.md`（总览）、`SEO-PLAYBOOK.md`（方法与运营红线）、`SEO-PROGRESS.md`（进度台账）、`SEO-METRICS.md`（月度指标）、`SEO-KEYWORDS.md`（关键词权威库）。本文档不替代它们，只规定「如何整体验收」。
@@ -17,9 +17,10 @@
 | 2 | **完整构建（CI 同款，不带 `SKIP_PAGEFIND`）** | `JEKYLL_ENV=production bash scripts/build.sh` | P0 |
 | 3 | 链接与资源校验 | `bundle exec htmlproofer _site --disable-external --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"` | P0 |
 | 4 | 一键静态教研 | 复制 §5 脚本整段执行（在仓库根目录） | P0 |
-| 5 | 产物与 SEO 产物抽验 | §4 D05 / D10 / D11 / D12 的人工抽验项 | P1 |
-| 6 | 线上与人工项 | §6（GSC、Rich Results、PSI、外链、真实设备） | P1 |
-| 7 | 记录 | 填写 §8 教研记录表，写明结论与基线数字变化 | P0 |
+| 5 | **响应式布局与样式实测** | §4 D21：多视口 + 多页面类型探针，量测溢出 / 断点 / 关键元素宽度 | P0 |
+| 6 | 产物与 SEO 产物抽验 | §4 D05 / D10 / D11 / D12 的人工抽验项 | P1 |
+| 7 | 线上与人工项 | §6（GSC、Rich Results、PSI、外链、真实设备） | P1 |
+| 8 | 记录 | 填写 §8 教研记录表，写明结论与基线数字变化 | P0 |
 
 > 日常小改动（单篇文案、纯错别字）可只跑步 1–4，并用 `SKIP_PAGEFIND=1 bash scripts/build.sh` 加速；**但大规模改动的全站教研必须跑不含 `SKIP_PAGEFIND` 的完整构建**，否则 Pagefind 索引维度（D12）无法验收。
 > 本地 fast 版构建命令：`SKIP_PAGEFIND=1 JEKYLL_ENV=production bash scripts/build.sh`。
@@ -140,6 +141,7 @@
 | D18 | 多语言文章骨架对等（结构 / 目录 / 插图） | P0 | §5 脚本 | **所有非 EN 语言**文章的 H2/H3 层级序列、结构块序列、文章目录（TOC 条目与行位置）、图片插入行序逐篇与 EN 同名文章一致；规则见 §2.6 与 `SEO-I18N-PLAYBOOK.md` §1 红线 11 / §3.5 |
 | D19 | 文章 tags 一致性与相关文章匹配 | P0 | §5 脚本 + 人工抽验 | 每篇 `_posts/` **文章**至少带 1 个**规范产品标签**（11 个 App 之一：Meow Todo / Meow Habits / Meow Money / Meow Mood Diary / Meow FM / Only Clock / One Widget / Crosshair Aim / System Monitor / CPU Monitor / Floating Assistant）；无产品标签变体（如 `Meow Mood` / `Meow Todo List` / `To Do List` 或多余的 `Meow ` 前缀）；`related-posts.html` 已跳过泛标签（Android / Comparison / Best Apps / App Roundup / Alternatives），这些泛标签可保留但不得作为品类归属依据 |
 | D20 | Release Note 页面覆盖与内链 | P0 | §5 脚本 + 人工抽验 | 每语言 11 个 App 均有 `/apps/<slug>/release-notes/` 页面（5 语言共 55 页，permalink 由各 config 的 `release_notes[_<lang>]` 集合定义）；frontmatter 含 `layout/app_slug/app_title/google_play/app_store/lang/title` 且标题后缀本地化；正文含至少 1 条发布记录；双端 App 的简介区同时显示 Google Play 与 App Store 入口（单端只显示对应一个）；`_layouts/app.html` 底部有指向该页的内链；数据由用户直接发来的升级日志经 `skills/release-notes/scripts/update_release_notes.py` 解析生成（日志临时写入被 gitignore 的 `seo/data/`，跑完可不保留；不联网抓取），页面为生成物 |
+| D21 | 响应式布局与样式一致性 | P0 | §4 D21 多视口探针 + 静态 CSS 规则核对 | 375–1920px 各视口无横向溢出；三栏断点（≥1580px）内外侧栏显隐正确、正文固定 992px、侧栏 ≥280px；普通页容器不受加宽影响；商店按钮单/双按钮等宽靠左；目录竖线与 active 线同宽；五语 UI 键一致 |
 
 ---
 
@@ -296,6 +298,25 @@
 - **唯一权威规则**：见 `SEO-OPTIMIZATION-PLAN.md`「文档更新规则」。只写长期价值内容（需沉淀的经验、阶段性重要进展、SOP / 规则），临时性内容与一次性改动不写入；规则或有价值内容出现即同步，避免遗漏。
 - **典型写入位置**：关键词覆盖状态 / 升权 → `SEO-KEYWORDS.md`；任务进度与规划 → `SEO-PROGRESS.md`、唯一状态源 `SEO-I18N-PROGRESS.md`；月度 GSC / GoatCounter 复盘 → `SEO-METRICS.md`；新坑 / 新经验 → 对应 PLAYBOOK 或 skill `references/`。
 - **教研时确认**：本轮是否有漏写的规则 / 经验 / 进展，或误写的临时流水；`BASE` 是否仍为空；教研记录表是否已填。
+
+### D21 响应式布局与样式一致性（P0，2026-11-19 新增）
+
+- **背景**：宽屏三栏、侧栏下限、按钮栅格、目录竖线均为 CSS 渲染结果，静态脚本无法验证真实布局。2026-11-19 一轮连续样式微调暴露三类典型回归：全局 `.page-body > .container` 加宽误伤 about 等普通页；侧栏以 `1fr` 无限压缩正文；flex `flex:1` 让单枚商店按钮撑满整行。故把「多视口实测 + 静态规则核对」固化为发布前门禁。
+- **静态检查点（源码 / 产物核对）**：
+  1. `_data/ui.yml` 五语键完全一致（如 `tags_title` 必须 en/zh/id/ms/th 齐备）；缺键会静默输出空白；
+  2. `assets/css/main.css` 三栏断点为 `@media (min-width: 1580px)`，grid 为 `minmax(240px, 1fr) 992px minmax(280px, 1fr)`，**正文固定 992px 不收缩**；
+  3. 加宽规则仅作用于 `.page-body > .container--wide`（post / guide / docs 三个 layout 的 page-body），about / tags 等普通页仍为默认 `--container: 1040px`；
+  4. 侧栏商店按钮为两列 grid（`repeat(2, minmax(0, 1fr))`），单按钮占首列半宽靠左；
+  5. 目录 `.toc-nav__list` 基线 `border-left: 2px`，active 项同为 2px 且 `margin-left: -2px` 左对齐。
+- **浏览器实测检查点（结构性样式改动必跑）**：
+  1. 视口至少覆盖 375 / 768 / 1024 / 1400 / 断点±10px（1570、1590）/ 1920；页面类型至少 3 类：文章页、普通页（about / tags）、App 详情页，外加 1 篇非 EN 文章；
+  2. 每页 `document.documentElement.scrollWidth <= clientWidth + 1`（无横向溢出）；
+  3. 文章页在 `<1580px` 时 `.post-aside--right` 为 `display: none`、正文单栏；`>=1580px` 时为 `display: block`、`.post__inner` 宽 992px、右栏宽 `>=280px`；
+  4. 普通页 `.page-body > .container` 宽 `<=1040px`（含 1920 视口），不被三栏加宽污染；
+  5. 同视口下单按钮 badge 宽度与双按钮首枚 badge 宽度差 `<=1px`，且 badge 左边缘等于右栏左边缘；
+  6. 非 EN 文章与 EN 文章在相同视口下三栏宽度一致。
+- **手段**：在 `_site/` 放临时探针 HTML，用多个不同宽度的 iframe 批量加载目标页（**iframe 元素宽度即 media query 判定的 viewport 宽度**），本地 `python3 -m http.server` 后以 headless Chrome `--dump-dom` 一次性导出 `<pre>` 中的 JSON 测量值，逐条对照判定；**探针与 server 用完即删**，否则 D15 判 FAIL。静态键一致性与 CSS 规则可用 shell / Python 核对。
+- **失败处理**：溢出 → 定位固定宽度元素改弹性或断点；侧栏挤压正文 → 提高断点让侧栏整体隐藏，**不要给侧栏留可压缩的 `1fr`**；普通页被加宽 → 把规则限定到专用 class（如 `container--wide`）；单按钮撑满 → 用两列 grid 替代 flex `flex:1`；竖线不齐 → `margin-left` 取 border 宽度的负值。
 
 ---
 
@@ -751,9 +772,9 @@ PY
 ## 8. 教研记录表（每次必填）
 
 ```markdown
-| 日期 | 改动范围 | 构建 | htmlproofer | D03 | D05 | D06 | D09 | D12 | D17 | D18 | D19 | D20 | 基线数字变化 | WARN 结论 | 结论 | 执行人 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| YYYY-MM-DD | 简述改了哪些目录/文件、是否属 §1.1 大规模改动 | PASS/FAIL + 页数 | PASS/FAIL + 文件数/内链数 | … | … | … | … | … | … | … | … | … | 如 610→615 页 | 逐条写明 | ✅ 可发布 / ❌ 阻塞 | … |
+| 日期 | 改动范围 | 构建 | htmlproofer | D03 | D05 | D06 | D09 | D12 | D17 | D18 | D19 | D20 | D21 | 基线数字变化 | WARN 结论 | 结论 | 执行人 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| YYYY-MM-DD | 简述改了哪些目录/文件、是否属 §1.1 大规模改动 | PASS/FAIL + 页数 | PASS/FAIL + 文件数/内链数 | … | … | … | … | … | … | … | … | … | PASS/FAIL + 视口/页面类型覆盖 | 如 610→615 页 | 逐条写明 | ✅ 可发布 / ❌ 阻塞 | … |
 ```
 
 **历史教研流水**：2026-11-05 至 2026-11-12 的逐次教研记录（欠账清零、5 语扩展、骨架对等硬门禁、tagline 红线、Release Note 上线等）已从本文档移出，完整过程见 git 提交历史。仅保留最近一次全绿基线用于对照：
@@ -763,6 +784,7 @@ PY
 | 2026-11-12 | PASS（5 语 / 610 页；Pagefind 36145 词） | PASS（611 文件 / 1159 内链 / 0 failure） | 69/69 文章·11/11 应用·8/8 页面·27/27 术语 五语对称；D01–D20 全绿（D14 1 条未跟踪新文件已批准） | 610 页 / sitemap 610 loc / 6 条 hreflang × 610 页 / `BASE` 为空 |
 | 2026-11-18 | PASS（5 语 / 675 页；Pagefind 37247 词） | PASS（676 文件 / 1292 内链 / 0 failure） | Docs 形态落地（`CONTENT-HUB-PLAN.md`）：+5/5 `/docs/` 中心页(8→9 结构页)、55 教程 layout→docs；在线工具形态已移除、暂不落地；T-38 两组支柱页 title/description 重写；T-39 id/th 8 个高曝光术语页本地化标题；T-22b 统一 BlogPosting `dateModified`/author；T-29 AVIF/srcset/preload；T-36 `money tracker` 5 语支柱页；T-41 Glossary `DefinedTerm` + 移动 CTA。D03 70/70 文章·9/9 结构页、D05 hreflang 675 页成环、D06 description ≤160、D09 MISS=0、D11 Docs 入口闭合、D17/D18/D19 通过；74 PASS / 1 WARN | 670→675 页 / sitemap 675 loc / 6 条 hreflang × 675 页 / `BASE` 为空；D14 1 条为 T-36 新页未跟踪告警，人工确认通过 |
 | 2026-11-19 | PASS（5 语 / 675 页） | PASS（676 文件 / 1293 内链 / 0 failure） | T-44 文章页宽屏三栏（≥1280px）：左 sticky 目录（JS 从 h2/h3 生成 + 滚动高亮）、中正文、右 sticky 推荐（Related App 卡片 + 相关文章）；新增 `_includes/post-toc-aside.html`、`_includes/post-sidebar.html`，改 post/guide/docs layout + nav `SITE_UI.table_of_contents` + main.js + CSS；窄屏退回单栏、正文内手写 TOC 保留。D03/D05/D06/D09/D11/D17/D18/D19/D20 全通过；75 PASS / 0 FAIL / 0 WARN | 页/sitemap/hreflang 不变（675 / 675 / 6×675）；内链 1292→1293（新增 aside 回链） |
+| 2026-11-19 | PASS（5 语 / 675 页；Pagefind 完整） | PASS（676 文件 / 1293 内链 / 0 failure） | 宽屏三栏与侧栏样式连续微调后的全量校验：正文相关文章 4→5 篇与侧栏一致；三栏断点 1400→1580px、正文固定 992px 不收缩、侧栏下限 240/280px；侧栏单按钮半宽靠左；目录基线 1→2px 对齐；容器加宽限定到 `container--wide`，about/tags 恢复 1040px；侧栏 Related Posts 下新增 Tags 区块并补齐五语 `tags_title`。D01–D20 全绿（75 PASS / 0 FAIL / 0 WARN）。**新增 D21 响应式门禁并实测**：375/768/1024/1400/1570/1590/1920 × about/文章/App页/中文文章全部无横向溢出；1570px 侧栏隐藏、1590px 显示且正文 992px / 右栏 280px；普通页容器 1040px；单/双按钮 badge 均 129px 且靠左；目录竖线 2px 对齐 | 页/sitemap/hreflang 不变（675 / 675 / 6×675）；新增 D21 维度（§0 步 5 / §3 / §4 / §8） | 675 / 675 / 6×675；`BASE` 为空 | ✅ 可发布 | — |
 
 > D12 在 `SKIP_PAGEFIND=1` 快速构建下的 FAIL 是已知假阳性，不计入基线；本表只登记完整构建结果。
 
