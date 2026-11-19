@@ -1,7 +1,7 @@
 ---
 date: 2026-05-30 09:00:00 +0800
-title: "2026 安卓小组件 App 推荐：桌面小组件与 KWGT 替代"
-description: "对比 2026 安卓小组件 app：自定义桌面小组件、Material You 与玻璃风格、快捷开关，并了解 One Widget 与 KWGT 的区别。"
+title: "KWGT 替代：2026 安卓桌面小组件 App 推荐"
+description: "对比 2026 年 KWGT 替代方案：自定义桌面小组件、Material You 与玻璃风格、快捷开关，并给出 One Widget 等小组件 App 的实机选型建议。"
 layout: guide
 image: /assets/images/covers/pillar-android-home-screen-widget-apps.webp
 app_icon: /assets/images/apps/one-widget/icon.webp

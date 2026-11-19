@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Peningkat RAM?"
+title: "Peningkat RAM Android: Cara Kerja dan Bila Ia Berguna"
 description: "Peningkat RAM menutup proses latar yang diizinkan sistem untuk membebaskan memori. Fahami cara kerja dan batasannya di Android."
 tags: [RAM Booster, System Monitor]
 lang: ms

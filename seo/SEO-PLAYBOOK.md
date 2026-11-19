@@ -158,7 +158,7 @@
   2. **`description`** 150–160 字符、含主词、**事实性而非营销话术**（"最好的 app" AI 不采信，写具体功能/数字）。
   3. **关键词化 alt**（见 §1.6）。
 - **避坑**：description 用 `&` 会被转 `&amp;` 污染 JSON-LD（同 §1.4）；标题堆砌关键词（keyword stuffing）会被降权。
-- **本站状态**：✅ 已落地（T-04/09）；**月度复盘优化 CTR** 见进度 §4.1 D（低 CTR 页重写 title/description）。
+- **本站状态**：✅ 已落地（T-04/09，归档于 `SEO_DONE.md`）；**月度复盘优化 CTR** 见 `SEO-PROGRESS.md` §3.1 D（低 CTR 页重写 title/description）。
 
 ### 2.4 内容新鲜度
 
@@ -337,7 +337,7 @@ AI 联网搜索不是按 PageRank 排位，而是：① 从已索引网页**检�
 
 - **结构化数据月度校验**（T-32）：Rich Results Test 抽验 1–2 个 app 页，防 JSON-LD 退化（尤其改版后）。
 - **GSC/Bing 月度「请求编入索引」**（T-33）：对当月新页/重大改版页主动提请，加速收录。
-- **本站状态**：✅ 机制已建，待月度滚动执行（见 `SEO-PROGRESS.md` §4 月度清单）。
+- **本站状态**：✅ 机制已建，待月度滚动执行（见 `SEO-PROGRESS.md` §3.1 月度清单；机制落地记录归档于 `SEO_DONE.md`）。
 
 ---
 

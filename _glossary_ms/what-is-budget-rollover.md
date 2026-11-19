@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Budget Rollover?"
+title: "Budget Rollover: Cara Bawa Baki Wang ke Bulan Berikutnya"
 description: "Budget rollover membawa lebihan atau defisit kategori ke tempoh berikut. Fahami empat kelakuan berbeza di YNAB, Monarch, PocketGuard, Goodbudget."
 tags: [Budget Rollover, Bajet, Meow Money]
 lang: ms

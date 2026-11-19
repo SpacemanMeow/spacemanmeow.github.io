@@ -1,7 +1,8 @@
 # SpacemanMeow SEO 总览
 
 - **[SEO-PLAYBOOK.md](./SEO-PLAYBOOK.md)** —— SEO 方法沉淀手册：系统化、按分类（技术 / 内容 / 内链 / AI 搜索 / 外部权威 / i18n / 治理）归纳可复用的实践方法，每条标注本站落地状态。**用于长期积累 SEO 方法论。**
-- **[SEO-PROGRESS.md](./SEO-PROGRESS.md)** —— SEO 进度跟踪：任务总览（区分一次性 / 长期运营）、已落地明细、待做清单、月度运营规划（§4 checklist 化）。**用于看清哪些已做、哪些没做、按计划滚动。**
+- **[SEO-PROGRESS.md](./SEO-PROGRESS.md)** —— SEO 进度跟踪：只管**待做什么**——待做清单（§2，唯一排期依据）与月度运营规划（§3）。**用于看清接下来要做什么。**
+- **[SEO_DONE.md](./SEO_DONE.md)** —— SEO 已落地归档：所有已完成项、已并入门禁项、暂缓项、历月完成记录、内容形式判断逻辑。**用于查阅已做了什么，不用于排期。**
 - **[SEO-METRICS.md](./SEO-METRICS.md)** —— 核心指标月度报告：每月 GSC/GoatCounter 核心趋势表 + 各月详细分析（已拆出独立维护，便于按月滚动更新）。
 - **[SEO-KEYWORDS.md](./SEO-KEYWORDS.md)** —— 跨语言关键词权威库：按「语言 × 词层(Head/Middle/Long-tail) × 优先级(P0/P1/P2)」分组排序，含目标页映射与覆盖状态；新文/改文须基于本库优化文案，并随 Google Play Console / GSC 数据月度维护。**用于决定「写什么、怎么写」。**
 - **[SITE-AUDIT.md](./SITE-AUDIT.md)** —— 全站整体教研（校验）规范：大规模改动后的唯一验收标准，含 D01–D20 维度、基线快照、一键静态教研脚本与记录表。**用于回答「改动后整站是否仍然正确」。**
@@ -13,8 +14,8 @@
 
 ## 使用方式
 1. 想了解「某类 SEO 该怎么做」→ 读 Playbook。
-2. 想了解「当前进度 / 本月该做什么 / 填台账」→ 读 Progress。
-3. 新落地一项方法：在 Playbook 对应分类补方法 + 在 Progress 标 ✅ 并填日期；长期运营项按月执行 Progress 的 §4.1 清单（并勾选 §4.2 当月规划对应月份），数据复盘同步更新 `SEO-METRICS.md` 月度报告。
+2. 想了解「本月该做什么 / 填待办台账」→ 读 `SEO-PROGRESS.md`（§2 待做、§3 月度）；想查阅「已经做了什么」→ 读 `SEO_DONE.md`（归档，不排期）。
+3. 新落地一项方法：在 Playbook 对应分类补方法 + 把 `SEO-PROGRESS.md` §2 对应项勾选并**移到 `SEO_DONE.md`** 归档、填日期；长期运营项按月执行 `SEO-PROGRESS.md` §3.1 清单，数据复盘同步更新 `SEO-METRICS.md` 月度报告。
 4. 大规模改动后要验收整站 → 按 `SITE-AUDIT.md` 完整教研一遍并填写教研记录表。
 5. 新增语言 / 为某 App 补多语言内容 → 先读 `SEO-I18N-PLAYBOOK.md` §1 与 §3，再读 `SEO-I18N-PROGRESS.md` 的「当前批次」，按批次执行并回填状态。
 

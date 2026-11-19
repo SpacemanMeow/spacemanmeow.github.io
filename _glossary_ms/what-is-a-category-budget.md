@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Bajet Kategori (Category Budget)?"
+title: "Bajet Kategori: Cara Atur Perbelanjaan mengikut Kategori"
 description: "Bajet kategori memberi setiap kategori perbelanjaan pagar sendiri dan jejaki pemakaiannya. Fahami struktur induk-anak dalam Meow Money Manager."
 tags: [Category Budget, Bajet, Meow Money]
 lang: ms

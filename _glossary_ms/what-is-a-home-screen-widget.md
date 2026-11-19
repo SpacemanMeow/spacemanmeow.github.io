@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Widget Skrin Utama?"
+title: "Widget Skrin Utama Android: Cara Pasang dan Sesuaikan"
 description: "Widget skrin utama adalah paparan kecil di homescreen yang memaparkan maklumat atau pintasan tanpa membuka aplikasi."
 tags: [Home Screen Widget, One Widget]
 lang: ms

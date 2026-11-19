@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Jam Meja Sisi Katil?"
+title: "Jam Meja Sisi Katil: Cara Pilih Jam Flip untuk Bilik Tidur"
 description: "Jam samping tempat tidur adalah jam skrin penuh dengan angka besar dan cahaya redup untuk digunakan di kamar."
 tags: [Nightstand Clock, Only Clock]
 lang: ms

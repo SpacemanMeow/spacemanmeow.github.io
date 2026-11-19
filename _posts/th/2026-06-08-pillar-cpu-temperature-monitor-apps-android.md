@@ -1,7 +1,7 @@
 ---
 date: 2026-06-08 09:00:00 +0800
-title: "แอปตรวจอุณหภูมิ CPU Android ดีที่สุด 2026: ทางเลือก CPU-Z"
-description: "เปรียบเทียบแอปตรวจอุณหภูมิ CPU Android ดีที่สุดในปี 2026: อุณหภูมิและความถี่แบบเรียลไทม์ วิดเจ็ต การแจ้งเตือนความร้อนเกิน และทางเลือก CPU-Z"
+title: "ทางเลือก CPU-Z Android: แอปตรวจอุณหภูมิ CPU ดีที่สุด 2026"
+description: "เปรียบเทียบทางเลือก CPU-Z สำหรับ Android ในปี 2026: อุณหภูมิและความถี่ CPU แบบเรียลไทม์ วิดเจ็ตแบบลอย การแจ้งเตือนความร้อนเกิน และแอปช่วยระบายความร้อน"
 layout: guide
 image: /assets/images/covers/pillar-cpu-temperature-monitor-apps-android.webp
 app_icon: /assets/images/apps/cpu-monitor/icon.webp

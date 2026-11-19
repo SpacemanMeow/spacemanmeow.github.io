@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Envelope Budgeting?"
+title: "Envelope Budgeting: Cara Atur Wang mengikut Sampul"
 description: "Envelope budgeting membahagi wang ke sampul virtual per kategori; belanja dari baki setiap sampul. Fahami cara Goodbudget melaksanakannya."
 tags: [Envelope Budgeting, Bajet, Meow Money]
 lang: ms

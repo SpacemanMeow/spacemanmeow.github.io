@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Material You?"
+title: "Material You: Cara Tukar Warna Tema Android Anda"
 description: "Material You adalah bahasa reka bentuk Android yang menyesuaikan warna sistem dengan wallpaper. Fahami asal warna dinamisnya."
 tags: [Material You, One Widget]
 lang: ms

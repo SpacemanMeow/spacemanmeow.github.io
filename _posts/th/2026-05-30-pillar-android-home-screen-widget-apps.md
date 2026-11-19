@@ -1,7 +1,7 @@
 ---
 date: 2026-05-30 09:00:00 +0800
-title: "แอปวิดเจ็ต Android ดีที่สุด 2026: วิดเจ็ตหน้าจอหลักและทางเลือก KWGT"
-description: "เปรียบเทียบแอปวิดเจ็ต Android ดีที่สุดในปี 2026: วิดเจ็ตหน้าจอหลัก สไตล์ Material You และกระจก สวิตช์ด่วน และ One Widget กับ KWGT"
+title: "ทางเลือก KWGT: แอปวิดเจ็ต Android ดีที่สุด 2026"
+description: "ค้นหาทางเลือก KWGT สำหรับ Android ในปี 2026: เปรียบเทียบวิดเจ็ตหน้าจอหลัก สไตล์ Material You สวิตช์ด่วน และการตั้งค่า One Widget พร้อมตัวเลือกจากการใช้งานจริง"
 layout: guide
 image: /assets/images/covers/pillar-android-home-screen-widget-apps.webp
 app_icon: /assets/images/apps/one-widget/icon.webp

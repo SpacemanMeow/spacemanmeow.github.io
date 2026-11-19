@@ -1,7 +1,7 @@
 ---
 date: 2026-06-08 09:00:00 +0800
-title: "2026 安卓 CPU 温度监控 App 推荐：CPU-Z 替代"
-description: "对比 2026 最好的 CPU 温度监控软件：实时查看手机 CPU 温度与频率、小组件和过热提醒，并了解 CPU-Z 替代方案。"
+title: "CPU-Z 替代：2026 安卓 CPU 温度监控 App 推荐"
+description: "对比 2026 年 CPU-Z 替代方案：实时查看安卓手机 CPU 温度与频率、悬浮窗小组件、过热提醒，并给出手机降温的实用选型建议。"
 layout: guide
 image: /assets/images/covers/pillar-cpu-temperature-monitor-apps-android.webp
 app_icon: /assets/images/apps/cpu-monitor/icon.webp

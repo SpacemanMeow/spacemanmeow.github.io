@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Assistive Touch?"
+title: "Assistive Touch Android: Cara Guna Butang Terapung"
 description: "Assistive Touch adalah butang terapung pengganti butang fisik. Fahami asal usul istilah ini dan padanannya di Android."
 tags: [Assistive Touch, Floating Assistant]
 lang: ms

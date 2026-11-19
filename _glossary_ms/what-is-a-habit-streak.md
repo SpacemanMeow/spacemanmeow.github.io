@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Habit Streak?"
+title: "Habit Streak: Cara Menjaga Konsistensi dan Catatan Harian"
 description: "Habit streak adalah hitungan hari berturut-turut saat sebuah tabiat berhasil dilakukan. Fahami cara kerja dan faedahnya."
 tags: [Habit Tracker, Meow Habits]
 lang: ms

@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Subtugasan?"
+title: "Subtugasan: Cara Pecahkan Tugas Besar menjadi Langkah Kecil"
 description: "Subtugasan adalah langkah kecil di dalam satu tugasan besar. Fahami kapan pemecahan tugasan membuat daftar kerja lebih jelas."
 tags: [Subtask, Meow Todo]
 lang: ms

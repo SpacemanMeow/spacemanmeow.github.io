@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Zero-Based Budgeting?"
+title: "Zero-Based Budgeting: Cara Atur Setiap Ringgit dengan Tujuan"
 description: "Zero-based budgeting peruntuk setiap pendapatan tempoh ke perbelanjaan, simpanan, hutang hingga sifar. Fahami peraturannya dan penggunaannya dalam aplikasi."
 tags: [Zero-Based Budgeting, Bajet, Meow Money]
 lang: ms

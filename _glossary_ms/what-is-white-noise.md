@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah White Noise?"
+title: "White Noise: Cara Ia Membantu Fokus dan Tidur Lebih Baik"
 description: "White noise adalah suara dengan spektrum sekata yang digunakan untuk menutup kebisingan. Fahami perbedaannya dengan suara alam."
 tags: [White Noise, Meow FM]
 lang: ms

@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Penjejak Mood?"
+title: "Penjejak Mood: Cara Catat Perasaan Harian"
 description: "Penjejak mood mencatat perasaan harian beserta pemicunya. Fahami cara membaca pola emosi dari catatan sederhana."
 tags: [Mood Tracker, Meow Mood Diary]
 lang: ms

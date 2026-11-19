@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Pemantau Suhu CPU?"
+title: "Pemantau Suhu CPU Android: Cara Semak Suhu dan Amaran Panas"
 description: "Pemantau suhu CPU memaparkan suhu pemproses, frekuensi, dan beban per teras secara masa nyata. Fahami apa yang boleh diukurnya."
 tags: [CPU Temperature, CPU Monitor]
 lang: ms

@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apakah Penjejak Tabiat?"
+title: "Penjejak Tabiat: Cara Catat Amalan Harian Anda"
 description: "Penjejak tabiat membantu membangun rutinitas dengan pencatatan harian dan streak. Fahami cara kerja serta faedahnya."
 tags: [Habit Tracker, Meow Habits]
 lang: ms
