@@ -561,12 +561,23 @@ body.no-scroll { overflow: hidden; }
 }
 
 /* ------------------------------------------------------------------
-   6. 应用列表行（Home / Meow）：白 / 暗 交替，扁平无卡片阴影
+   6. 应用列表行（Home / Meow）：整体 card 背景，行间分割线
    ------------------------------------------------------------------ */
-.app-list { display: block; }
+/* 内容区整体铺 card，app 行本身透明，仅用等宽分割线分隔 */
+.app-list { display: block; background: var(--card); }
 
-.app-row { background: var(--card); padding: 80px 0; }
-.app-list > .app-row:nth-child(even) { background: var(--bg); }
+.app-row { padding: 80px 0; position: relative; }
+/* 分割线：落在两行 padding 的正中，宽度与内容区（container 减去左右 padding）一致 */
+.app-list > .app-row + .app-row::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - var(--space-8) * 2);
+  max-width: calc(var(--container) - var(--space-8) * 2);
+  border-top: 1px solid var(--line);
+}
 
 .app-row__inner {
   display: flex;
@@ -724,11 +735,20 @@ a.tag:hover,
 /* ------------------------------------------------------------------
    8. 博客列表 / 文章页
    ------------------------------------------------------------------ */
-.blog-list { display: block; }
+.blog-list { display: block; background: var(--card); }
 
-/* 与首页 app 列表一致：整行背景交替（card / bg），不使用卡片阴影 */
-.blog-list > .blog-row { background: var(--card); padding: 56px 0; }
-.blog-list > .blog-row:nth-child(even) { background: var(--bg); }
+/* 博客列表：整体 card 背景，行透明，行间居中分割线与内容等宽 */
+.blog-list > .blog-row { padding: 56px 0; position: relative; }
+.blog-list > .blog-row + .blog-row::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - var(--space-8) * 2);
+  max-width: calc(var(--container) - var(--space-8) * 2);
+  border-top: 1px solid var(--line);
+}
 
 /* 封面图：一张 1920x1080 原图。
    列表卡片左侧 1:1 center_crop；文章页顶部日期下 2:1 center_crop。
@@ -944,8 +964,48 @@ a.tag:hover,
 .related-posts__list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-4); }
 .related-posts__list a { color: var(--accent-strong); font-weight: 600; font-size: var(--fs-md); text-decoration: none; }
 .related-posts__list a:hover { text-decoration: underline; }
-/* Related App 区块不画分割线（全站只保留 Related posts 上方一条） */
-.related-posts--app { margin-top: var(--space-6); padding-top: 0; border-top: 0; }
+/* Related App 区块以分割线代替标题（与 Related posts 上方一条同款） */
+.related-posts--app { margin-top: var(--space-9); padding-top: var(--space-7); border-top: 1px solid var(--line); }
+/* 嵌入的缩小版 App 卡片（独立作用域，不影响列表页 .app-row；无外框，融入正文） */
+.related-app-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+.related-app-card .app-row__icon-link { flex: 0 0 auto; }
+.related-app-card .app-row__icon {
+  width: 120px;
+  height: 120px;
+  outline-width: 4px;
+}
+/* 文字区：填满 icon 与截图区之间的空白，空间不足时先被挤压再切上下布局 */
+.related-app-card .app-row__text { flex: 1 1 280px; width: auto; min-width: 0; }
+.related-app-card .app-row__name { font-size: var(--fs-xl); }
+.related-app-card .app-row__tagline {
+  margin-top: var(--space-2);
+  font-size: var(--fs-base);
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.related-app-card .app-row__actions { margin-top: var(--space-4); }
+.related-app-card .store-badge__img { width: 116px; }
+/* 截图区：靠最右，占卡片 50%（用 flex-basis:50% 且不可收缩） */
+.related-app-card .app-row__shots { flex: 0 0 50%; min-width: 0; margin-left: auto; }
+.related-app-card .shot { flex: 0 0 80px; }
+.related-app-card .shots__nav svg { width: 18px; height: 18px; }
+.related-app-card .shots__nav--prev { left: 0; }
+.related-app-card .shots__nav--next { right: 0; }
+
+/* 窄屏：改为上下布局（图标+文字在上，截图在下），类比应用列表 */
+@media (max-width: 900px) {
+  .related-app-card { flex-wrap: wrap; row-gap: var(--space-7); }
+  .related-app-card .app-row__text { flex: 1 1 0; min-width: 0; max-width: none; }
+  .related-app-card .app-row__shots { flex: 1 1 100%; margin-left: 0; margin-top: 0; }
+  .related-app-card .shot { flex: 0 0 108px; }
+}
 
 /* ------------------------------------------------------------------
    9. 通用内容页（About）

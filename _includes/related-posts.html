@@ -42,9 +42,20 @@
 {%- if parent_app -%}
   {%- assign app_heading = site.data.ui[lang].related_app -%}
 <section class="related-posts related-posts--app" aria-label="{{ app_heading }}">
-  <h2 class="related-posts__title">{{ app_heading }}</h2>
-  <ul class="related-posts__list">
-    <li><a href="{{ parent_app.url }}">{{ parent_app.title }}</a></li>
-  </ul>
+  <div class="related-app-card">
+    <a class="app-row__icon-link" href="{{ parent_app.url | relative_url }}">
+      <img class="app-row__icon" src="{{ parent_app.icon | relative_url }}" alt="{{ parent_app.title | escape }}" />
+    </a>
+    <div class="app-row__text">
+      <h3 class="app-row__name"><a href="{{ parent_app.url | relative_url }}">{{ parent_app.title }}</a></h3>
+      {%- if parent_app.tagline %}<p class="app-row__tagline">{{ parent_app.tagline }}</p>{% endif -%}
+      <div class="app-row__actions">
+        {% include store-buttons.html play=parent_app.google_play appstore=parent_app.app_store %}
+      </div>
+    </div>
+    <div class="app-row__shots">
+      {% include screenshots.html items=parent_app.screenshots %}
+    </div>
+  </div>
 </section>
 {%- endif -%}
