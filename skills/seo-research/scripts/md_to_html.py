@@ -34,6 +34,17 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
     <style>
+        :root {{
+            --fs-sm: 12px;
+            --fs-base: 14px;
+            --fs-md: 16px;
+            --fs-xl: 20px;
+            --fs-2xl: 24px;
+            --fs-3xl: 30px;
+            --fw-head: 700;
+            --fw-bold: 600;
+            --fw-body: 500;
+        }}
         * {{
             margin: 0;
             padding: 0;
@@ -55,23 +66,23 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
             box-shadow: 0 2px 12px rgba(0,0,0,0.08);
         }}
         h1 {{
-            font-size: 28px;
-            font-weight: 700;
+            font-size: var(--fs-3xl);
+            font-weight: var(--fw-head);
             color: #1a1a1a;
             margin-bottom: 16px;
             line-height: 1.4;
         }}
         h2 {{
-            font-size: 22px;
-            font-weight: 600;
+            font-size: var(--fs-2xl);
+            font-weight: var(--fw-bold);
             color: #2c3e50;
             margin: 32px 0 16px 0;
             padding-bottom: 8px;
             border-bottom: 2px solid #eee;
         }}
         h3 {{
-            font-size: 18px;
-            font-weight: 600;
+            font-size: var(--fs-xl);
+            font-weight: var(--fw-bold);
             color: #34495e;
             margin: 24px 0 12px 0;
         }}
@@ -137,7 +148,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
         }}
         .highlight-box a {{
             color: #ffd700;
-            font-weight: 600;
+            font-weight: var(--fw-bold);
         }}
         .tag {{
             display: inline-block;
@@ -145,7 +156,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
             color: #666;
             padding: 4px 12px;
             border-radius: 16px;
-            font-size: 12px;
+            font-size: var(--fs-sm);
             margin-right: 8px;
             margin-bottom: 8px;
         }}
