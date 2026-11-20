@@ -32,6 +32,7 @@
   --radius-sm: 8px;
   --shadow-card: 0 1px 2px rgba(16, 24, 40, .025), 0 8px 24px rgba(16, 24, 40, .04); /* 卡片/导航栏投影 */
   --shadow-soft: 0 4px 14px rgba(16, 24, 40, .08); /* 轻投影：截图切换按钮等 */
+  --store-icon-filter: none;       /* 商店按钮白色图标：浅色模式下按钮为深底，无需反色 */
   --container: 1040px;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
     "Microsoft YaHei", Roboto, Helvetica, Arial, sans-serif;
@@ -75,6 +76,7 @@
   --accent-alpha: #bf525e2e; /* 深色下强调透明色 */
   --shadow-card: 0 1px 2px rgba(0, 0, 0, .05), 0 8px 24px rgba(0, 0, 0, .06);  /* 深色卡片投影 */
   --shadow-soft: 0 4px 14px rgba(0, 0, 0, .1);                                 /* 深色轻投影 */
+  --store-icon-filter: invert(1);   /* 深色模式下按钮为浅底，白色图标需反色 */
 }
 
 /* 未手动选择时跟随系统（排除已强制浅色的情况） */
@@ -90,6 +92,7 @@
     --accent-alpha: #bf525e2e; /* 深色下强调透明色 */
     --shadow-card: 0 1px 2px rgba(0, 0, 0, .05), 0 8px 24px rgba(0, 0, 0, .06);  /* 深色卡片投影 */
     --shadow-soft: 0 4px 14px rgba(0, 0, 0, .1);                                 /* 深色轻投影 */
+    --store-icon-filter: invert(1); /* 深色模式下按钮为浅底，白色图标需反色 */
   }
 }
 
@@ -198,7 +201,7 @@ main { display: block; padding-bottom: 72px; }
   white-space: nowrap;
 }
 
-.site-nav { display: flex; align-items: center; gap: var(--space-2); }
+.site-nav { display: flex; flex: 0 0 auto; align-items: center; gap: var(--space-2); }
 
 .site-nav__link {
   display: block;
@@ -207,6 +210,7 @@ main { display: block; padding-bottom: 72px; }
   font-size: var(--fs-md);
   font-weight: var(--fw-body);
   color: var(--text-body);
+  white-space: nowrap;
   transition: background-color .16s ease, color .16s ease;
 }
 
@@ -220,6 +224,7 @@ main { display: block; padding-bottom: 72px; }
 /* 语言菜单 + 主题按钮的工具组：作为整体位于导航栏中部，组内间距 10px */
 .header-tools {
   display: flex;
+  flex: 0 0 auto;
   align-items: center;
   gap: var(--space-4); /* 10px */
 }
@@ -242,6 +247,7 @@ main { display: block; padding-bottom: 72px; }
   font-size: var(--fs-sm);
   font-weight: var(--fw-body);
   color: var(--text-body);
+  white-space: nowrap;
   cursor: pointer;
   transition: background-color .16s ease, color .16s ease;
 }
@@ -390,25 +396,30 @@ main { display: block; padding-bottom: 72px; }
 }
 
 /* ------------------------------------------------------------------
-   4. 商店按钮（使用官方 Google Play / App Store 徽章图片）
+   4. 商店按钮（宽度按内容自适应的圆角矩形 + 纯色商店图标 + Download 文字）
    ------------------------------------------------------------------ */
-.store-buttons { display: flex; flex-wrap: nowrap; gap: var(--space-3); }
+.store-buttons { display: flex; flex-wrap: nowrap; gap: var(--space-3); width: 100%; min-width: 0; }
 
 .store-badge {
   display: inline-flex;
   align-items: center;
-  line-height: 0;
+  justify-content: flex-start;
+  gap: var(--space-2);
+  height: 44px;
+  padding: 0 var(--space-5);
+  border-radius: 14px;
+  background: var(--text-head);
+  color: var(--bg);
+  line-height: 1.2;
   flex: 0 1 auto;
-  min-width: 0;
+  min-width: 100px;
   transition: opacity .16s ease;
 }
 
 .store-badge:hover { opacity: .82; }
 
-/* 用宽度而非高度定尺寸：窄屏下可等比缩小，保证两个徽章始终同一行且不变形 */
-.store-badge__img { display: block; width: 132px; height: auto; max-width: 100%; }
-
-.store-buttons--lg .store-badge__img { width: 166px; }
+.store-badge__icon { flex: 0 0 auto; display: block; width: 20px; height: 20px; object-fit: contain; filter: var(--store-icon-filter); }
+.store-badge__title { font-size: var(--fs-md); font-weight: var(--fw-head); color: var(--bg); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 /* ------------------------------------------------------------------
    5. 应用截图画廊（纯 9:16 截图，扁平无阴影无标题）
@@ -638,6 +649,15 @@ body.no-scroll { overflow: hidden; }
 
 .app-row__name,
 .post-card__title { font-size: var(--fs-xl); letter-spacing: -.01em; }
+
+/* 应用标题最多一行，副标题最多两行（应用列表与相关应用卡片共用） */
+.app-row__name {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 
 .app-row__tagline {
   margin-top: var(--space-2);
@@ -1075,8 +1095,6 @@ a.tag:hover,
   font-size: var(--fs-md);
 }
 .related-app-card .app-row__actions { margin-top: var(--space-4); }
-/* 按钮按容器宽度收缩，始终同行 */
-.related-app-card .store-badge__img { width: 132px; max-width: 100%; }
 /* 截图区：宽屏靠右、占卡片 50%（用 flex-basis:50% 且不可收缩） */
 .related-app-card .app-row__shots { flex: 0 0 50%; min-width: 0; margin-left: auto; }
 .related-app-card .shot { flex: 0 0 80px; }
@@ -1153,7 +1171,11 @@ a.tag:hover,
   .aside-app__icon-link { flex: 0 0 auto; }
   .aside-app__icon { width: 72px; height: 72px; border-radius: 24px; object-fit: cover; }
   .aside-app__info { flex: 1 1 auto; min-width: 0; max-width: 100%; }
-  .aside-app__name { display: block; font-size: var(--fs-base); font-weight: var(--fw-body); color: var(--text-head); line-height: 1.35; }
+  .aside-app__name {
+    display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1;
+    -webkit-box-orient: vertical; overflow: hidden;
+    font-size: var(--fs-base); font-weight: var(--fw-body); color: var(--text-head); line-height: 1.35;
+  }
     .aside-app__name:hover,
   .aside-posts a:hover { text-decoration: underline; }
   .aside-app__tagline {
@@ -1163,9 +1185,6 @@ a.tag:hover,
     -webkit-box-orient: vertical; overflow: hidden;
   }
   .aside-app__actions { margin-top: var(--space-4); }
-  .aside-app__actions .store-buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-2); }
-
-  .aside-app__actions .store-badge__img { width: 100%; }
   /* Related Posts：无边框背景；与 Related App 之间用分割线分隔 */
   .aside-posts-block { background: none; border: 0; padding: 0; margin-top: var(--space-7); }
     .aside-app + .aside-posts-block,
@@ -1192,13 +1211,13 @@ a.tag:hover,
    ------------------------------------------------------------------ */
 .site-footer { margin-top: 40px; background: var(--bg); }
 
-.developer { padding: 62px 0 62px; }
+.developer { padding: var(--space-9) 0 62px; }
 
+/* 所有分辨率统一：图标在上，标题/描述/按钮依次纵向堆叠 */
 .developer__inner {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 44px;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .developer__logo {
@@ -1211,8 +1230,8 @@ a.tag:hover,
   outline-offset: 0;
 }
 
-.developer__body { flex: 1 1 420px; min-width: 0; }
-.developer__title { font-size: var(--fs-3xl); letter-spacing: -.02em; }
+.developer__body { width: 100%; min-width: 0; }
+.developer__title { margin-top: var(--space-7); font-size: var(--fs-3xl); letter-spacing: -.02em; }
 
 .developer__desc {
   margin: var(--space-5) 0 var(--space-8);
@@ -1257,7 +1276,6 @@ a.tag:hover,
   .app-row__name { font-size: var(--fs-xl); }
   .app-row__tagline { font-size: var(--fs-md); }
   .app-row__text { flex: 1 1 calc(100% - 120px - var(--space-6)); width: auto; min-width: 0; max-width: none; }
-  .app-row__actions .store-badge__img { width: 132px; max-width: 100%; }
   .app-hero__icon { width: 124px; height: 124px; }
   /* 截图放在 icon 下方；pad 档 shot 更高（宽度更大） */
   .app-row__shots { margin-left: 0; margin-top: var(--space-9); }
@@ -1297,9 +1315,8 @@ a.tag:hover,
   .site-nav__link { padding: var(--space-5) var(--space-5); border-radius: 10px; }
 
   .page-head { padding: var(--space-9) 0 var(--space-6); }
-    .page-head__title,
-  .post__title,
-  .developer__title { font-size: var(--fs-2xl); }
+  .page-head__title,
+  .post__title { font-size: var(--fs-2xl); }
 
   .app-row { padding: 24px 0; }
   /* 窄屏头部沿用 1024 档的统一尺寸（icon120 / 标题20 / 副标题16 / 按钮132）。
@@ -1318,14 +1335,12 @@ a.tag:hover,
   .related-app-card .shot,
   .shot { flex: 0 0 96px; }
 
-  .developer__desc { font-size: var(--fs-base); }
   .shots--lg .shot { flex: 0 0 180px; }
   .shots__nav { width: 36px; height: 36px; margin-top: -18px; }
   .shots__nav svg { width: 18px; height: 18px; }
 
   .app-hero { padding: var(--space-9) 0 var(--space-8); }
-    .app-hero__inner,
-  .developer__inner { gap: var(--space-7); }
+  .app-hero__inner { gap: var(--space-7); }
   .app-hero__icon { width: 92px; height: 92px; }
   .app-hero__title { font-size: var(--fs-3xl); }
   .app-hero__tagline { margin: var(--space-3) 0 var(--space-6); font-size: var(--fs-md); }
@@ -1345,11 +1360,6 @@ a.tag:hover,
   .post-card__meta, .post__meta { gap: var(--space-5); }
 
   .page-body { padding: var(--space-8) 0 var(--space-9); }
-
-  .developer { padding: 44px 0; }
-
-  .developer__logo { width: 84px; height: 84px; border-radius: 50%; }
-
 
 }
 

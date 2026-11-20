@@ -6,7 +6,7 @@
       <div class="developer__body">
         <h2 class="developer__title">{{ site.developer.title }}</h2>
         <p class="developer__desc">{{ site.developer.description | strip_newlines }}</p>
-        {% include store-buttons.html play=site.developer.google_play appstore=site.developer.app_store size="lg" %}
+        {% include store-buttons.html play=site.developer.google_play appstore=site.developer.app_store names=true %}
       </div>
     </div>
   </div>

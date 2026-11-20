@@ -1,26 +1,34 @@
 {%- comment -%}
   应用商店按钮
-  用法：include store-buttons.html 并传入 play / appstore / size 参数
+  用法：include store-buttons.html 并传入 play / appstore / names 参数
     play     = Google Play 链接（留空则不显示该按钮）
     appstore = App Store 链接（留空则不显示该按钮）
-    size     = "lg" 时放大，用于应用详情页与页脚
+    names    = true 时按钮文字显示 "Google Play" / "App Store"；
+               默认显示本地化的 Download（应用卡片、侧栏、详情页等）
 {%- endcomment -%}
+{%- assign lang = site.lang | default: 'en' -%}
+{%- assign ui = site.data.ui[lang] -%}
 {%- assign play = include.play -%}
 {%- assign appstore = include.appstore -%}
+{%- assign show_names = include.names -%}
+{%- assign play_label = ui.download_android | default: ui.download -%}
+{%- assign appstore_label = ui.download_ios | default: ui.download -%}
 {%- assign has_play = false -%}
 {%- if play and play != '' -%}{%- assign has_play = true -%}{%- endif -%}
 {%- assign has_appstore = false -%}
 {%- if appstore and appstore != '' -%}{%- assign has_appstore = true -%}{%- endif -%}
 {%- if has_play or has_appstore -%}
-<div class="store-buttons{% if include.size == 'lg' %} store-buttons--lg{% endif %}">
+<div class="store-buttons">
   {%- if has_play %}
-  <a class="store-badge" href="{{ play }}" target="_blank" rel="noopener" aria-label="Get it on Google Play">
-    <img class="store-badge__img" src="{{ '/assets/images/store/google-play.webp' | relative_url }}" alt="Get it on Google Play"{% if include.size != 'lg' %} loading="lazy"{% endif %} />
+  <a class="store-badge" href="{{ play }}" target="_blank" rel="noopener" aria-label="Download on Google Play">
+    <img class="store-badge__icon" src="{{ '/assets/images/store/google-play-icon.png' | relative_url }}" alt="" aria-hidden="true" />
+    <span class="store-badge__title">{% if show_names %}Google Play{% else %}{{ play_label }}{% endif %}</span>
   </a>
   {%- endif %}
   {%- if has_appstore %}
   <a class="store-badge" href="{{ appstore }}" target="_blank" rel="noopener" aria-label="Download on the App Store">
-    <img class="store-badge__img" src="{{ '/assets/images/store/app-store.webp' | relative_url }}" alt="Download on the App Store"{% if include.size != 'lg' %} loading="lazy"{% endif %} />
+    <img class="store-badge__icon" src="{{ '/assets/images/store/apple-logo.png' | relative_url }}" alt="" aria-hidden="true" />
+    <span class="store-badge__title">{% if show_names %}App Store{% else %}{{ appstore_label }}{% endif %}</span>
   </a>
   {%- endif %}
 </div>

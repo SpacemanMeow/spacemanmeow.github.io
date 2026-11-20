@@ -47,6 +47,7 @@ en:
   view_manual: "View manual"
   back_to_docs: "&larr; Back to Manuals"
   app_cta: "Open the app"
+  download: "Download"
   glossary_solution_title: "Put it into practice"
 zh:
   back_to_blog: "&lsaquo; 返回博客"
@@ -93,6 +94,9 @@ zh:
   view_manual: "查看手册"
   back_to_docs: "&larr; 返回手册中心"
   app_cta: "打开应用"
+  download: "下载"
+  download_android: "Android 下载"
+  download_ios: "iOS 下载"
   glossary_solution_title: "实际应用"
 id:
   back_to_blog: "&lsaquo; Kembali ke Blog"
@@ -139,6 +143,7 @@ id:
   view_manual: "Lihat panduan"
   back_to_docs: "&larr; Kembali ke Panduan"
   app_cta: "Buka aplikasi"
+  download: "Unduh"
   glossary_solution_title: "Terapkan dalam praktik"
 
 ms:
@@ -186,6 +191,7 @@ ms:
   view_manual: "Lihat panduan"
   back_to_docs: "&larr; Kembali ke Panduan"
   app_cta: "Buka aplikasi"
+  download: "Muat turun"
   glossary_solution_title: "Amalkan dalam praktik"
 
 th:
@@ -233,4 +239,5 @@ th:
   view_manual: "ดูคู่มือ"
   back_to_docs: "&larr; กลับไปที่คู่มือ"
   app_cta: "เปิดแอป"
+  download: "ดาวน์โหลด"
   glossary_solution_title: "นำไปใช้งานจริง"
