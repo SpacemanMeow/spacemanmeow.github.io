@@ -2,7 +2,7 @@
 
 > **用途**：归档所有已完成 / 已落地的 SEO 优化项、已并入硬门禁的措施与历月完成记录。**只供查阅，不用于排期**。
 > **待做事项见**：`SEO-PROGRESS.md` §2（唯一排期依据）。
-> **最后更新**：2026-11-19
+> **最后更新**：2026-11-20
 > **语言范围**：5 语并行（EN 根 + `/zh/` `/id/` `/ms/` `/th/`）。所有已落地项默认全语言同步。
 > 状态图例：✅ 已落地　♻️ 持续运营中　⏸️ 暂缓
 
@@ -37,6 +37,8 @@
 | A2 | 重写低 CTR 高曝光支柱页 title/description | 内容/CTR | `pillar-cpu-temperature`（622 现/2.1%）与 `pillar-android-home-screen-widgets`（pos 29.5）5 语重写：高 intent 竞品词前置（CPU-Z / KWGT Alternative），标题 ≤60 字符、描述 150–160 且含主词；EN/ID/MS/TH 字符全部达标，无裸 `&`。**美国市场（1524 现/1.2%）为国家切片非独立页，其低 CTR 由这两个 EN 支柱页 + Glossary 治理（T-37）承接，未单独建页。** | 2026-11-19 |
 | A3 | 非英语 CTR 专项 | i18n/CTR | **hreflang 复核**：全站 675 页 / 4050 条 alternates 静态校验，语言集 `{en,zh,id,ms,th,x-default}` 齐全、目标页全存在、成环 0 异常，无需修改。**本地化标题**：ms 27 个术语页从直译式 `Apakah X?` 改为「本地词 + 解决意图」（对齐 T-39 已验证的 id 模式，如 `Tetingkap Terapung Android: Cara Kerja dan Kebenaran`、`Pengurusan Bajet: Cara Atur Bajet Harian dan Bulanan`），全部 ≤60 字符；id/th 高曝光页 T-39 已处理，不重复。移动端优先由 ≤60 字符标题（移动端 SERP 不被截断）承接。 | 2026-11-19 |
 | A4 | 标签 / 主题聚合页（主题中心） | 内容/内链 | `/tags/` 从平铺标签云改为**三层主题中心**：按 App 产品（11 标签）/ 品类主题 / 内容类型分组，每组带五语本地化标题；新增共享模板 `_includes/tag-index.html` + `tag-index-group.html`，五语 tags.md 统一引用（D18 骨架一致）。入口：主导航与 footer 按要求不放（**主导航/footer 未改**）；博客列表页新增右栏标签入口，复用文章页 `aside-tags-block` 样式（无卡片背景、Tags 标题），按 `Browse by app → Browse by topic → Browse by content type` 顺序完整列出三类标签；分组逻辑抽为共享 `_includes/tag-groups.html`，与 `/tags/` 主题中心同一白名单与顺序。与文章页同口径：`container--wide` 加宽、正文固定 992px、右栏 sticky，仅 ≥1580px 显示（窄屏隐藏不挤压正文）；页头已有 `tags_index_link` 指向 `/<lang>/tags/`。D11 内链闭环通过、41 个 tag 锚点零断裂；D21 多视口无溢出；`/tags/` 基线不变（groups 41/41/47/47/48、items 290/290/292/292/292）。UI 五语补 `topics_by_app/category/type` 三键。41 个 tag 锚点零断裂；五语 groups 41/41/47/47/48、items 290/290/292/292/292 全保留；审计 75 PASS、htmlproofer 通过。未新增独立 `/topics/` 集合（避免 5 份 config 与集合分离的 P0 风险）。 | 2026-11-19 |
+| A5 | Release Notes 中心页 | 内容/内链 | 11 App × 5 语共 55 页 Release Note 已上线（D20）：每 App 一个结构化聚合页、每版本作为页内条目呈现，标题后缀五语本地化；`_layouts/app.html` 底部与 `_layouts/release-note.html` 回链构成 App ⇄ Release Note 双向环链。数据由 `skills/release-notes/scripts/update_release_notes.py` 从升级日志解析生成，D20 五项硬门禁（覆盖/frontmatter/正文/标题本地化/内链）全绿。 | 2026-11-20 |
+| E3 | Release Notes → 更新中心 | 内容/内链 | 与 A5 合并执行，不重复立项；随 A5 一并归档。 | 2026-11-20 |
 
 ## 3. 持续执行 / 延续项
 

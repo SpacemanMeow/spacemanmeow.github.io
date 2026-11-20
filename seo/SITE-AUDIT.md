@@ -16,7 +16,7 @@
 | 1 | 工作区与文件名红线 | `git status --short`；对照 §4 D14 | P0 |
 | 2 | **完整构建（CI 同款，不带 `SKIP_PAGEFIND`）** | `JEKYLL_ENV=production bash scripts/build.sh` | P0 |
 | 3 | 链接与资源校验 | `bundle exec htmlproofer _site --disable-external --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"` | P0 |
-| 4 | 一键静态教研 | 复制 §5 脚本整段执行（在仓库根目录） | P0 |
+| 4 | 一键静态教研（含 **D22 设计令牌/统一样式**：字号字重不硬编码、分割线/间距走变量） | 复制 §5 脚本整段执行（在仓库根目录） | P0 |
 | 5 | **响应式布局与样式实测** | §4 D21：多视口 + 多页面类型探针，量测溢出 / 断点 / 关键元素宽度 | P0 |
 | 6 | 产物与 SEO 产物抽验 | §4 D05 / D10 / D11 / D12 的人工抽验项 | P1 |
 | 7 | 线上与人工项 | §6（GSC、Rich Results、PSI、外链、真实设备） | P1 |
@@ -142,6 +142,7 @@
 | D19 | 文章 tags 一致性与相关文章匹配 | P0 | §5 脚本 + 人工抽验 | 每篇 `_posts/` **文章**至少带 1 个**规范产品标签**（11 个 App 之一：Meow Todo / Meow Habits / Meow Money / Meow Mood Diary / Meow FM / Only Clock / One Widget / Crosshair Aim / System Monitor / CPU Monitor / Floating Assistant）；无产品标签变体（如 `Meow Mood` / `Meow Todo List` / `To Do List` 或多余的 `Meow ` 前缀）；`related-posts.html` 已跳过泛标签（Android / Comparison / Best Apps / App Roundup / Alternatives），这些泛标签可保留但不得作为品类归属依据 |
 | D20 | Release Note 页面覆盖与内链 | P0 | §5 脚本 + 人工抽验 | 每语言 11 个 App 均有 `/apps/<slug>/release-notes/` 页面（5 语言共 55 页，permalink 由各 config 的 `release_notes[_<lang>]` 集合定义）；frontmatter 含 `layout/app_slug/app_title/google_play/app_store/lang/title` 且标题后缀本地化；正文含至少 1 条发布记录；双端 App 的简介区同时显示 Google Play 与 App Store 入口（单端只显示对应一个）；`_layouts/app.html` 底部有指向该页的内链；数据由用户直接发来的升级日志经 `skills/release-notes/scripts/update_release_notes.py` 解析生成（日志临时写入被 gitignore 的 `seo/data/`，跑完可不保留；不联网抓取），页面为生成物 |
 | D21 | 响应式布局与样式一致性 | P0 | §4 D21 多视口探针 + 静态 CSS 规则核对 | 375–1920px 各视口无横向溢出；三栏断点（≥1580px）内外侧栏显隐正确、正文固定 992px、侧栏 ≥280px；普通页容器不受加宽影响；商店按钮单/双按钮等宽靠左；目录竖线与 active 线同宽；五语 UI 键一致 |
+| D22 | 设计令牌与统一样式 | P0 | §5 静态脚本 | 字号仅 6 档 `--fs-sm/base/md/xl/2xl/3xl`、字重仅 3 档 `--fw-head/bold/body`；全仓源文件（含内联样式与生成器）无硬编码字号/字重；分割线/间距/圆角/阴影复用标准变量；商店按钮等共享组件单一来源（include） |
 
 ---
 
@@ -317,6 +318,20 @@
   6. 非 EN 文章与 EN 文章在相同视口下三栏宽度一致。
 - **手段**：在 `_site/` 放临时探针 HTML，用多个不同宽度的 iframe 批量加载目标页（**iframe 元素宽度即 media query 判定的 viewport 宽度**），本地 `python3 -m http.server` 后以 headless Chrome `--dump-dom` 一次性导出 `<pre>` 中的 JSON 测量值，逐条对照判定；**探针与 server 用完即删**，否则 D15 判 FAIL。静态键一致性与 CSS 规则可用 shell / Python 核对。
 - **失败处理**：溢出 → 定位固定宽度元素改弹性或断点；侧栏挤压正文 → 提高断点让侧栏整体隐藏，**不要给侧栏留可压缩的 `1fr`**；普通页被加宽 → 把规则限定到专用 class（如 `container--wide`）；单按钮撑满 → 用两列 grid 替代 flex `flex:1`；竖线不齐 → `margin-left` 取 border 宽度的负值。
+
+### D22 设计令牌与统一样式（P0，2026-11-20 新增）
+
+- **背景**：站点的字号/字重、分割线、间距、圆角、阴影、商店按钮、App 卡片等均有统一标准。历史上多次出现硬编码字号（`28px`/`26px`/`.9em`）、非标准字重（300/700 混用）、第四种字重 `--fw-light`、裸 `border`/`padding` px、以及各处重复实现按钮结构，导致视觉不一致。故把「样式必须复用统一令牌/共享组件」固化为发布前硬门禁。
+- **统一标准（唯一权威，定义在 `:root`）**：
+  1. **字号 6 档**：`--fs-sm:12px` / `--fs-base:14px` / `--fs-md:16px` / `--fs-xl:20px` / `--fs-2xl:24px` / `--fs-3xl:30px`；其他字号就近并到最近档，禁止新增档位；
+  2. **字重 3 档**：`--fw-head:700` / `--fw-bold:600` / `--fw-body:500`（对应 `fs-3xl` / `fs-xl·2xl` / `fs-sm·base·md`），禁止硬编码数字或关键字；
+  3. **分割线**：`--divider-dashed` / `--divider-solid` 及配套 `--divider-*-gap`；
+  4. **间距**：`--space-1`…`--space-9`（4/6/8/10/12/16/20/24/32px）；
+  5. **圆角**：`--radius-sm` / `--radius` / `--radius-lg` / `--radius-xl`；**阴影**：`--shadow-card` / `--shadow-soft`；
+  6. **共享组件**：商店下载按钮只在 `_includes/store-buttons.html` 实现（文案按 `names` 参数切换：默认本地化、开发者页显示 `Google Play`/`App Store`），App 卡片只在 `_includes/app-card.html`；页面不得重复硬编码同类结构。
+- **静态检查点（§5 脚本）**：① 字号变量集合恰为 6 档、字重变量集合恰为 3 档；② `assets/css/main.css` 中 `font-size`/`font-weight` 全部为 `var(--fs-*)`/`var(--fw-*)`，无硬编码；③ 全仓源文件（CSS/HTML/Liquid/Python/JS，排除 `_site*`/`.jekyll-*`/依赖）无硬编码字号字重——覆盖独立 HTML 生成器与内联样式；④ 统一令牌齐备（分割线 `--divider-*`、间距 `--space-*`、圆角 `--radius-*`、阴影 `--shadow-*`），且 border 无硬编码 hex 颜色；⑤ 商店按钮共享 include 存在。
+- **判定口径**：字号/字重为**零容忍硬门禁**（必须 100% 走变量）；布局专用的固定尺寸（负 margin、`100px` 留白、边框宽度 px）允许保留，不强制全部塞进 `--space-*`，避免为达标而扭曲布局。分割线重点管**颜色**必须走 `--line`/`--divider-*`，宽度 px 不限。
+- **失败处理**：出现硬编码字号/字重 → 就近替换为标准 `--fs-*`/`--fw-*` 变量；多出的字重档 → 就近并入 head/bold/body；硬编码分割线颜色 → 换成 `--line`/`--divider-*`；组件重复实现 → 抽为 `_includes/` 共享 include 并让各调用点引用。新增样式一律先复用现有令牌，确需新令牌时同步更新本节与 `:root` 定义。
 
 ---
 
@@ -723,6 +738,58 @@ if os.path.isdir('_site'):
     chk('D15', '无凭据/缓存文件泄漏', not leaks, f'{len(leaks)} 个')
 else:
     warn('DXX', '未构建', '请先运行 bash scripts/build.sh')
+
+# D22 设计令牌与统一样式（P0）：字体/字重/分割线/间距/按钮等禁止硬编码，必须复用统一样式
+_css = open('assets/css/main.css', encoding='utf-8').read()
+_css_nocomment = re.sub(r'/\*.*?\*/', '', _css, flags=re.S)
+# 1) 字号：只能 --fs-sm/base/md/xl/2xl/3xl；无硬编码 px/em/rem/%/clamp/calc
+_FS = {'--fs-sm', '--fs-base', '--fs-md', '--fs-xl', '--fs-2xl', '--fs-3xl'}
+_fs_def = set(re.findall(r'(--fs-[\w-]+)\s*:', _css))
+chk('D22', '字号变量仅保留 6 档标准', _fs_def == _FS,
+    f'定义={sorted(_fs_def)} 期望={sorted(_FS)}')
+_hard_fs = re.findall(r'font-size\s*:\s*([^;]+)', _css_nocomment)
+_hard_fs = [v.strip() for v in _hard_fs if 'var(--fs-' not in v]
+chk('D22', '无硬编码字号（font-size 全部用 --fs-* 变量）', not _hard_fs,
+    f'硬编码 {len(_hard_fs)} 处 {_hard_fs[:5]}')
+# 2) 字重：只能 --fw-head/bold/body；无硬编码数字/关键字
+_FW = {'--fw-head', '--fw-bold', '--fw-body'}
+_fw_def = set(re.findall(r'(--fw-[\w-]+)\s*:', _css))
+chk('D22', '字重变量仅保留 3 档标准', _fw_def == _FW,
+    f'定义={sorted(_fw_def)} 期望={sorted(_FW)}')
+_hard_fw = re.findall(r'font-weight\s*:\s*([^;]+)', _css_nocomment)
+_hard_fw = [v.strip() for v in _hard_fw if 'var(--fw-' not in v]
+chk('D22', '无硬编码字重（font-weight 全部用 --fw-* 变量）', not _hard_fw,
+    f'硬编码 {len(_hard_fw)} 处 {_hard_fw[:5]}')
+# 3) 全仓源文件（排除构建产物/依赖）无硬编码字号字重，含独立 HTML 生成器与内联样式
+_srcs = []
+for _pat in ('**/*.css', '**/*.html', '**/*.liquid', '**/*.py', '**/*.js'):
+    _srcs += [p for p in fs(_pat) if not re.search(
+        r'(^|/)(_site|_site_en|_site_zh|\.jekyll-[^/]*|node_modules|\.git|\.pagefind-bin|\.sass-cache)/', p)]
+_bad_inline = []
+for _p in set(_srcs):
+    try: _t = open(_p, encoding='utf-8').read()
+    except Exception: continue
+    for _m in re.finditer(r'font-size\s*:\s*([^;}"\']+)', _t):
+        if 'var(--fs-' not in _m.group(1): _bad_inline.append((_p, 'size', _m.group(1).strip()))
+    for _m in re.finditer(r'font-weight\s*:\s*([^;}"\']+)', _t):
+        if 'var(--fw-' not in _m.group(1): _bad_inline.append((_p, 'weight', _m.group(1).strip()))
+chk('D22', '全仓源文件无硬编码字号/字重（含内联样式与生成器）', not _bad_inline,
+    f'{len(_bad_inline)} 处 {_bad_inline[:5]}')
+# 4) 统一样式令牌必须齐备（分割线/间距/圆角/阴影），且分割线禁止硬编码颜色
+_TOKENS = ['--divider-dashed', '--divider-solid',
+           '--space-1', '--space-9', '--radius-sm', '--radius-xl',
+           '--shadow-card', '--shadow-soft']
+_miss_tok = [t for t in _TOKENS if not re.search(re.escape(t) + r'\s*:', _css)]
+chk('D22', '统一令牌齐备（分割线/间距/圆角/阴影）', not _miss_tok,
+    f'缺失 {_miss_tok}')
+_borders = re.findall(r'border(?:-top|-bottom|-left|-right)?\s*:\s*([^;]+)', _css_nocomment)
+_hex_border = [v.strip() for v in _borders if re.search(r'#[0-9a-fA-F]{3,8}\b', v)]
+chk('D22', '分割线颜色无硬编码（border 用 var(--line)/--divider-*)', not _hex_border,
+    f'硬编码颜色 {len(_hex_border)} 处 {_hex_border[:5]}')
+# 5) 共享组件样式只在 _includes/store-buttons.html 定义，页面源码不重复硬编码按钮结构
+_btn_inc = fs('_includes/store-buttons.html')
+chk('D22', '商店按钮为共享 include（单一来源）', bool(_btn_inc),
+    f'_includes/store-buttons.html 存在={bool(_btn_inc)}')
 print('=== 全站教研结果 ===')
 for lv, c, n, d in R: print(f'{lv:4s} {c:4s} {n:32s} {d}')
 print('汇总', dict(collections.Counter(x[0] for x in R)))
@@ -766,15 +833,17 @@ PY
 | D18 骨架不一致 | 某语言按本地意图重写正文、漏 / 多列表项、目录增删条目、图片挪位置 | 以 EN 同名文章为骨架补齐或合并结构块，禁止改动 EN 凑一致（§4 D18） |
 | D20 空节 / 缺语言 / 标题未本地化 | 日志缺某语言块、译文没进临时日志、`title` 后缀照抄 EN | 补全 5 语译文进日志→重跑生成器→完整构建→复跑审计（§4 D20、`skills/release-notes/SKILL.md`） |
 | D12 在快速构建下 FAIL | `SKIP_PAGEFIND=1` 未生成 Pagefind 索引（已知假阳性） | 用完整 `bash scripts/build.sh` 重构建后复跑，不要在快速构建下当回归修 |
+| D22 硬编码字号/字重 FAIL | 新增样式直接写 `28px`/`600` 等裸值，或在独立生成器/内联样式里硬编码 | 就近换成标准 `--fs-*`/`--fw-*` 变量；多出的字重档并入 head/bold/body；新令牌需同步 §4 D22 与 `:root` |
+| D22 分割线硬编码颜色 / 令牌缺失 FAIL | 直接写 `border: 1px solid #eee`，或删掉了 `--divider-*`/`--space-*`/`--radius-*`/`--shadow-*` 令牌 | 颜色换成 `--line`/`--divider-*`，补齐缺失令牌；布局专用 px（负 margin、边框宽度）允许保留 |
 
 ---
 
 ## 8. 教研记录表（每次必填）
 
 ```markdown
-| 日期 | 改动范围 | 构建 | htmlproofer | D03 | D05 | D06 | D09 | D12 | D17 | D18 | D19 | D20 | D21 | 基线数字变化 | WARN 结论 | 结论 | 执行人 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| YYYY-MM-DD | 简述改了哪些目录/文件、是否属 §1.1 大规模改动 | PASS/FAIL + 页数 | PASS/FAIL + 文件数/内链数 | … | … | … | … | … | … | … | … | … | PASS/FAIL + 视口/页面类型覆盖 | 如 610→615 页 | 逐条写明 | ✅ 可发布 / ❌ 阻塞 | … |
+| 日期 | 改动范围 | 构建 | htmlproofer | D03 | D05 | D06 | D09 | D12 | D17 | D18 | D19 | D20 | D21 | D22 | 基线数字变化 | WARN 结论 | 结论 | 执行人 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| YYYY-MM-DD | 简述改了哪些目录/文件、是否属 §1.1 大规模改动 | PASS/FAIL + 页数 | PASS/FAIL + 文件数/内链数 | … | … | … | … | … | … | … | … | … | PASS/FAIL + 视口/页面类型覆盖 | PASS/FAIL + 令牌/硬编码项 | 如 610→615 页 | 逐条写明 | ✅ 可发布 / ❌ 阻塞 | … |
 ```
 
 **历史教研流水**：2026-11-05 至 2026-11-12 的逐次教研记录（欠账清零、5 语扩展、骨架对等硬门禁、tagline 红线、Release Note 上线等）已从本文档移出，完整过程见 git 提交历史。仅保留最近一次全绿基线用于对照：
@@ -785,6 +854,7 @@ PY
 | 2026-11-18 | PASS（5 语 / 675 页；Pagefind 37247 词） | PASS（676 文件 / 1292 内链 / 0 failure） | Docs 形态落地（`CONTENT-HUB-PLAN.md`）：+5/5 `/docs/` 中心页(8→9 结构页)、55 教程 layout→docs；在线工具形态已移除、暂不落地；T-38 两组支柱页 title/description 重写；T-39 id/th 8 个高曝光术语页本地化标题；T-22b 统一 BlogPosting `dateModified`/author；T-29 AVIF/srcset/preload；T-36 `money tracker` 5 语支柱页；T-41 Glossary `DefinedTerm` + 移动 CTA。D03 70/70 文章·9/9 结构页、D05 hreflang 675 页成环、D06 description ≤160、D09 MISS=0、D11 Docs 入口闭合、D17/D18/D19 通过；74 PASS / 1 WARN | 670→675 页 / sitemap 675 loc / 6 条 hreflang × 675 页 / `BASE` 为空；D14 1 条为 T-36 新页未跟踪告警，人工确认通过 |
 | 2026-11-19 | PASS（5 语 / 675 页） | PASS（676 文件 / 1293 内链 / 0 failure） | T-44 文章页宽屏三栏（≥1280px）：左 sticky 目录（JS 从 h2/h3 生成 + 滚动高亮）、中正文、右 sticky 推荐（Related App 卡片 + 相关文章）；新增 `_includes/post-toc-aside.html`、`_includes/post-sidebar.html`，改 post/guide/docs layout + nav `SITE_UI.table_of_contents` + main.js + CSS；窄屏退回单栏、正文内手写 TOC 保留。D03/D05/D06/D09/D11/D17/D18/D19/D20 全通过；75 PASS / 0 FAIL / 0 WARN | 页/sitemap/hreflang 不变（675 / 675 / 6×675）；内链 1292→1293（新增 aside 回链） |
 | 2026-11-19 | PASS（5 语 / 675 页；Pagefind 完整） | PASS（676 文件 / 1293 内链 / 0 failure） | 宽屏三栏与侧栏样式连续微调后的全量校验：正文相关文章 4→5 篇与侧栏一致；三栏断点 1400→1580px、正文固定 992px 不收缩、侧栏下限 240/280px；侧栏单按钮半宽靠左；目录基线 1→2px 对齐；容器加宽限定到 `container--wide`，about/tags 恢复 1040px；侧栏 Related Posts 下新增 Tags 区块并补齐五语 `tags_title`。D01–D20 全绿（75 PASS / 0 FAIL / 0 WARN）。**新增 D21 响应式门禁并实测**：375/768/1024/1400/1570/1590/1920 × about/文章/App页/中文文章全部无横向溢出；1570px 侧栏隐藏、1590px 显示且正文 992px / 右栏 280px；普通页容器 1040px；单/双按钮 badge 均 129px 且靠左；目录竖线 2px 对齐 | 页/sitemap/hreflang 不变（675 / 675 / 6×675）；新增 D21 维度（§0 步 5 / §3 / §4 / §8） | 675 / 675 / 6×675；`BASE` 为空 | ✅ 可发布 | — |
+| 2026-11-20 | 纯台账状态迁移：A5 Release Notes 中心页（及合并执行的 E3）勾选并从 `SEO-PROGRESS.md` §2 归档至 `SEO_DONE.md` §2；无站点文件改动 | —（未触发构建） | —（未触发构建） | 沿用 2026-11-19 全绿基线（D01–D21）；A5 对应 D20 已验证：55 页 Release Note + App ⇄ Release Note 环链 | 无基线数字变化（675 页 / 1293 内链 / 675 sitemap / 6×675 hreflang） | ✅ 可发布 | — |
 
 > D12 在 `SKIP_PAGEFIND=1` 快速构建下的 FAIL 是已知假阳性，不计入基线；本表只登记完整构建结果。
 
