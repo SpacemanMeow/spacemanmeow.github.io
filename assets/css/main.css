@@ -292,7 +292,9 @@ main { display: block; padding-bottom: 72px; }
 .social-links a:hover,
 .search__item:hover .search__item-title,
 .search-apps__item:hover .search-apps__label,
-.docs-row:hover .docs-row__title { color: var(--accent-strong); }
+.docs-row:hover .docs-row__title,
+.docs-row:hover .docs-row__desc,
+.docs-row:hover .docs-row__date { color: var(--accent-strong); }
 
 /* 下拉箭头：用 mask 绘制，currentColor 使其与文字同色，深浅模式自动跟随 */
 .lang-switch::after {
@@ -588,10 +590,9 @@ body.no-scroll { overflow: hidden; }
 .blog-list { display: block; background: var(--card); }
 .blog-list { padding-bottom: var(--space-9); }
 
-.app-row { padding: 80px 0; position: relative; }
-/* 分割线：落在两行 padding 的正中，宽度与内容区（container 减去左右 padding）一致 */
-.app-list > .app-row + .app-row::before,
-.blog-layout__main > .blog-row + .blog-row::before {
+.app-row { padding: 40px 0; position: relative; }
+/* 分割线：落在两行 padding 的正中。app-row 直接铺满视口，需减去 container 左右 padding */
+.app-list > .app-row + .app-row::before {
   content: "";
   position: absolute;
   top: 0;
@@ -599,6 +600,15 @@ body.no-scroll { overflow: hidden; }
   transform: translateX(-50%);
   width: calc(100% - var(--space-8) * 2);
   max-width: calc(var(--container) - var(--space-8) * 2);
+  border-top: var(--divider-solid);
+}
+/* blog-row 已在收窄后的 .blog-layout__main（正文列）内，分割线铺满该列即可 */
+.blog-layout__main > .blog-row + .blog-row::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   border-top: var(--divider-solid);
 }
 
@@ -639,6 +649,12 @@ body.no-scroll { overflow: hidden; }
   font-size: var(--fs-md);
   line-height: 1.25;
   font-weight: var(--fw-body);
+  /* 应用列表与博客相关应用卡片共用：副标题最多两行 */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .app-row__actions { margin-top: var(--space-5); }
@@ -737,6 +753,7 @@ body.no-scroll { overflow: hidden; }
 .app-body .app-guides__list,
 .page-content .tag-index__list,
 .related-posts__list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-4); }
+.app-body .app-guides__list { gap: var(--space-6); }
 .app-body .app-guides__item,
 .page-content .tag-index__item { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--space-3); margin: 0; padding-bottom: var(--divider-dashed-gap); border-bottom: var(--divider-dashed); }
 .app-body .app-guides__item:last-child,
@@ -827,7 +844,7 @@ a.tag:hover,
   border-top: var(--divider-solid);
 }
 
-.blog-layout__main > .blog-row { padding: 56px 0; position: relative; }
+.blog-layout__main > .blog-row { padding: 40px 0; position: relative; }
 
 /* 封面图：一张 1920x1080 原图。
    列表卡片左侧 1:1 center_crop；文章页顶部日期下 2:1 center_crop。
@@ -1048,6 +1065,7 @@ a.tag:hover,
   gap: var(--space-6);
 }
 
+/* Related App 头部三要素（icon / 文字 / 按钮）在所有屏宽统一尺寸，只有截图区随断点变化 */
 .related-app-card .app-row__icon {
   width: 120px;
   height: 120px;
@@ -1058,26 +1076,22 @@ a.tag:hover,
 .related-app-card .app-row__name { font-size: var(--fs-xl); }
 .related-app-card .app-row__tagline {
   margin-top: var(--space-2);
-  font-size: var(--fs-base);
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  font-size: var(--fs-md);
 }
 .related-app-card .app-row__actions { margin-top: var(--space-4); }
-.related-app-card .store-badge__img { width: 116px; }
-/* 截图区：靠最右，占卡片 50%（用 flex-basis:50% 且不可收缩） */
+/* 按钮按容器宽度收缩，始终同行 */
+.related-app-card .store-badge__img { width: 132px; max-width: 100%; }
+/* 截图区：宽屏靠右、占卡片 50%（用 flex-basis:50% 且不可收缩） */
 .related-app-card .app-row__shots { flex: 0 0 50%; min-width: 0; margin-left: auto; }
 .related-app-card .shot { flex: 0 0 80px; }
 
 .related-app-card .shots__nav--prev { left: 0; }
 .related-app-card .shots__nav--next { right: 0; }
 
-/* 窄屏：改为上下布局（图标+文字在上，截图在下），类比应用列表 */
+/* pad/窄屏：头部（icon+文字）保持并排且尺寸不变，只把截图换行到下方 */
 @media (max-width: 900px) {
-  .related-app-card { flex-wrap: wrap; row-gap: var(--space-7); }
-  .related-app-card .app-row__text { flex: 1 1 0; min-width: 0; max-width: none; }
+  .related-app-card { flex-wrap: wrap; row-gap: var(--space-6); }
+  .related-app-card .app-row__text { flex: 1 1 calc(100% - 120px - var(--space-6)); min-width: 0; max-width: none; }
   .related-app-card .app-row__shots { flex: 1 1 100%; margin-left: 0; margin-top: 0; }
   .related-app-card .shot { flex: 0 0 108px; }
 }
@@ -1234,20 +1248,30 @@ a.tag:hover,
    11. 响应式
    ------------------------------------------------------------------ */
 @media (max-width: 1024px) {
-  .app-row { padding: 52px 0; }
+  .app-row { padding: 32px 0; }
   .app-row__inner { flex-direction: column; align-items: stretch; }
-  .app-row__info { gap: var(--space-8); }
-  .app-row__icon { width: 104px; height: 104px; }
+  /* pad 档头部三要素与博客页统一：icon 120 / 标题 20 / 副标题 16 / 按钮 132 */
+  .app-row__info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-4) var(--space-6);
+  }
+  .app-row__icon { width: 120px; height: 120px; }
+  .app-row__name { font-size: var(--fs-xl); }
+  .app-row__tagline { font-size: var(--fs-md); }
+  .app-row__text { flex: 1 1 calc(100% - 120px - var(--space-6)); width: auto; min-width: 0; max-width: none; }
+  .app-row__actions .store-badge__img { width: 132px; max-width: 100%; }
   .app-hero__icon { width: 124px; height: 124px; }
-  .app-row__text { flex: 1 1 auto; width: auto; max-width: 460px; }
+  /* 截图放在 icon 下方；pad 档 shot 更高（宽度更大） */
   .app-row__shots { margin-left: 0; margin-top: var(--space-9); }
+  .app-row .shot { flex: 0 0 134px; }
   .shots__nav--prev { left: -8px; }
   .shots__nav--next { right: -8px; }
 }
 
 @media (max-width: 768px) {
-    body,
-  .app-row__name { font-size: var(--fs-md); }
+  body { font-size: var(--fs-md); }
 
   /* 移动端隐藏站点标题与副标题，仅保留 logo（链接名称由 .brand 的 aria-label 提供） */
   .brand__text { display: none; }
@@ -1281,15 +1305,24 @@ a.tag:hover,
   .post__title,
   .developer__title { font-size: var(--fs-2xl); }
 
-  .app-row { padding: 36px 0; }
-  .app-row__info { gap: var(--space-6); }
-  .app-row__icon { width: 78px; height: 78px; }
+  .app-row { padding: 24px 0; }
+  /* 窄屏头部沿用 1024 档的统一尺寸（icon120 / 标题20 / 副标题16 / 按钮132）。
+     按钮始终留在 icon 右侧的文字块内、紧跟副标题下方；空间不足时按 max-width 等比收缩，
+     两枚始终同行不换行。 */
+  .app-row__info .app-row__text,
+  .related-app-card .app-row__text { flex: 1 1 calc(100% - 120px - var(--space-6)); width: auto; min-width: 0; }
+  .app-row__actions,
+  .related-app-card .app-row__actions { margin-top: var(--space-4); }
 
-    .app-row__tagline,
-  .developer__desc { font-size: var(--fs-base); }
+  /* 截图：仅位置与高度随屏宽变化——窄屏换行占满整行、shot 比 pad 档更矮 */
   .app-row__shots { margin-top: var(--space-7); }
+  .related-app-card .app-row__shots { flex: 1 1 100%; margin-left: 0; margin-top: var(--space-2); }
 
-  .shot { flex: 0 0 108px; }
+  .app-row .shot,
+  .related-app-card .shot,
+  .shot { flex: 0 0 96px; }
+
+  .developer__desc { font-size: var(--fs-base); }
   .shots--lg .shot { flex: 0 0 180px; }
   .shots__nav { width: 36px; height: 36px; margin-top: -18px; }
   .shots__nav svg { width: 18px; height: 18px; }
@@ -1454,6 +1487,29 @@ a.tag:hover,
 .docs-breadcrumb a,
 .docs-toc a,
 .docs-nav a { color: var(--accent-strong); text-decoration: none; }
+
+/* 博客文章上一篇/下一篇：标题单行省略不换行、字重加粗、箭头贴紧标题 */
+.post-nav a {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  max-width: calc(50% - var(--space-4));
+  font-size: var(--fs-base);
+  font-weight: var(--fw-head);
+}
+.post-nav__label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.post-nav__arrow {
+  flex: 0 0 auto;
+  font-size: var(--fs-xl);
+  line-height: 1;
+  transform: translateY(-1px);
+}
+.post-nav .docs-nav__prev .post-nav__arrow { margin-right: var(--space-2); }
+.post-nav .docs-nav__next .post-nav__arrow { margin-left: var(--space-2); }
 
 .docs-hub { padding: var(--space-8) 0; background: var(--card); }
 .docs-hub__heading { font-size: var(--fs-2xl); color: var(--text-head); margin: 0 0 var(--space-5); }

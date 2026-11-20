@@ -1,0 +1,35 @@
+{%- comment -%}
+  博客文章底部「上一篇 / 下一篇」导航（与 docs 文章页同款样式 .docs-footer / .docs-nav）。
+  - 只在博客文章之间导航：排除 layout: docs 的手册文章（它们有自己的 doc_order 导航）。
+  - site.posts 按发布日期倒序（最新在前）：
+    上一篇文章（更早发布，数组后一个 idx+1）放左侧 prev（带 ‹）；
+    下一篇文章（更新发布，数组前一个 idx-1）放右侧 next（带 ›）。
+  - 语言隔离由各语言构建期的 exclude 完成，site.posts 已只含当前语言文章。
+{%- endcomment -%}
+{%- assign blog_posts = site.posts | where_exp: 'p', "p.layout != 'docs'" -%}
+{%- assign prev_post = nil -%}
+{%- assign next_post = nil -%}
+{%- for p in blog_posts -%}
+  {%- if p.url == page.url -%}
+    {%- assign idx = forloop.index0 -%}
+    {%- assign prev_idx = idx | plus: 1 -%}
+    {%- assign prev_post = blog_posts[prev_idx] -%}
+    {%- if idx > 0 -%}
+      {%- assign next_idx = idx | minus: 1 -%}
+      {%- assign next_post = blog_posts[next_idx] -%}
+    {%- endif -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if prev_post or next_post -%}
+<footer class="docs-footer">
+  <div class="docs-nav post-nav">
+    {%- if prev_post -%}
+    <a class="docs-nav__prev" href="{{ prev_post.url | relative_url }}"><span class="post-nav__arrow">&lsaquo;</span><span class="post-nav__label">{{ prev_post.title | escape }}</span></a>
+    {%- endif -%}
+    {%- if next_post -%}
+    <a class="docs-nav__next" href="{{ next_post.url | relative_url }}"><span class="post-nav__label">{{ next_post.title | escape }}</span><span class="post-nav__arrow">&rsaquo;</span></a>
+    {%- endif -%}
+  </div>
+</footer>
+{%- endif -%}
