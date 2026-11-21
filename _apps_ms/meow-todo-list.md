@@ -78,5 +78,5 @@ Meow Todo List & Task dapat mengekspor laporan tugasan ke fail CSV.
 
 ## Istilah berkaitan
 
-- [Apakah Itu Daftar Tugasan?](/ms/glossary/what-is-a-to-do-list/)
-- [Apakah Itu Subtugasan?](/ms/glossary/what-is-a-subtask/)
+- [Aplikasi Senarai Tugasan: Cara Atur Tugas Harian Anda](/ms/glossary/what-is-a-to-do-list/)
+- [Subtugasan: Cara Pecahkan Tugas Besar menjadi Langkah Kecil](/ms/glossary/what-is-a-subtask/)

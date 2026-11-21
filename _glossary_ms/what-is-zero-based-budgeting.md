@@ -1,9 +1,10 @@
 ---
 layout: glossary
 title: "Zero-Based Budgeting: Cara Atur Setiap Ringgit dengan Tujuan"
-description: "Zero-based budgeting peruntuk setiap pendapatan tempoh ke perbelanjaan, simpanan, hutang hingga sifar. Fahami peraturannya dan penggunaannya dalam aplikasi."
+description: "Zero-based budgeting peruntuk setiap pendapatan tempoh ke perbelanjaan, simpanan, hutang hingga sifar.Meow Money Manager membantu mengamalkannya."
 tags: [Zero-Based Budgeting, Bajet, Meow Money]
 lang: ms
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Ia Berfungsi

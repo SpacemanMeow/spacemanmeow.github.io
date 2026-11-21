@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apa Itu Galaxy One UI?"
+title: "Galaxy One UI: Fitur, Perbedaan, dan Widget yang Didukung"
 description: "Galaxy One UI adalah antarmuka Samsung untuk perangkat Galaxy. Pahami ciri tata letak dan warnanya bagi widget."
 tags: [Galaxy One UI, One Widget]
 lang: id

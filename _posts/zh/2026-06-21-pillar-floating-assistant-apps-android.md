@@ -125,5 +125,5 @@ Floating Assistant 为安卓加上可自定义的浮动球，用于快速启动�
 
 ## 相关术语
 
-- [什么是辅助触控（Assistive Touch）？](/zh/glossary/what-is-assistive-touch/)
-- [什么是悬浮窗（Floating Window）？](/zh/glossary/what-is-a-floating-window/)
+- [辅助触控：使用 Android 悬浮按钮](/zh/glossary/what-is-assistive-touch/)
+- [Android 悬浮窗：工作原理与权限说明](/zh/glossary/what-is-a-floating-window/)

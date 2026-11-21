@@ -124,5 +124,5 @@ Atau baca [Aplikasi jam flip terbaik](/id/posts/best-only-clock-flip/) untuk rin
 
 ## Istilah terkait
 
-- [Apa Itu Jam Flip?](/id/glossary/what-is-a-flip-clock/)
-- [Apa Itu Jam Meja Samping Tempat Tidur?](/id/glossary/what-is-a-nightstand-clock/)
+- [Jam Flip Android: Cara Kerja dan Aplikasi Terbaik](/id/glossary/what-is-a-flip-clock/)
+- [Jam Meja Samping Tempat Tidur: Cara Pilih Jam Flip](/id/glossary/what-is-a-nightstand-clock/)

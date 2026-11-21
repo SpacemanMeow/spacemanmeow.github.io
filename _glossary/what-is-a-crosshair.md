@@ -1,7 +1,7 @@
 ---
 layout: glossary
-title: "What Is a Crosshair?"
-description: "A crosshair is the aiming reticle at the center of a screen. Learn what a crosshair overlay is, why mobile gamers use one, and how it works."
+title: "Crosshair for FPS: Types, Overlays and Best Apps"
+description: "A crosshair is the aiming reticle at the center of a screen.Crosshair Aim puts it into practice."
 tags: [Crosshair, FPS, CrossHair]
 lang: en
 app_slug: cross-hair

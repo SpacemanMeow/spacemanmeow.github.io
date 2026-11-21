@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "什么是 Material You？"
+title: "Material You：更换 Android 主题配色"
 description: "Material You 是 Google 在 Android 12 引入的自适应设计语言。了解它是什么，以及小组件为何采用其主题化。"
 tags: [Material You, Android, One Widget]
 lang: zh

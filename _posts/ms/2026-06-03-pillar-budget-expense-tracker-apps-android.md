@@ -128,6 +128,11 @@ Biasanya tidak. **Aplikasi catatan kewangan** multi mata wang yang boleh menanda
 
 ## Istilah berkaitan
 
-- [Apakah itu Aplikasi Catatan Kewangan?](/ms/glossary/what-is-an-expense-tracker/)
-- [Apakah itu Pengurusan Bajet?](/ms/glossary/what-is-budget-management/)
-- [Apakah itu Pengurusan Tuntutan balik?](/ms/glossary/what-is-reimbursement-management/)
+- [Catatan Kewangan: Cara Catat Pendapatan dan Perbelanjaan](/ms/glossary/what-is-an-expense-tracker/)
+- [Pengurusan Bajet: Cara Atur Bajet Harian dan Bulanan](/ms/glossary/what-is-budget-management/)
+- [Pengurusan Tuntutan Balik: Cara Catat dan Jejak Reimburse](/ms/glossary/what-is-reimbursement-management/)
+- [Bajet Kategori: Cara Atur Perbelanjaan mengikut Kategori](/ms/glossary/what-is-a-category-budget/)
+- [Zero-Based Budgeting: Cara Atur Setiap Ringgit dengan Tujuan](/ms/glossary/what-is-zero-based-budgeting/)
+- [Envelope Budgeting: Cara Atur Wang mengikut Sampul](/ms/glossary/what-is-envelope-budgeting/)
+- [Budget Rollover: Cara Bawa Baki Wang ke Bulan Berikutnya](/ms/glossary/what-is-budget-rollover/)
+- [Sinking Fund: Cara Simpan Wang untuk Perbelanjaan Besar](/ms/glossary/what-is-a-sinking-fund/)

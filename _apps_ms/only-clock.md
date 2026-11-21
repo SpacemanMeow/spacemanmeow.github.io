@@ -50,5 +50,5 @@ Jam ini sesuai digunakan sebagai [jam meja samping tempat tidur](/ms/glossary/wh
 
 ## Istilah berkaitan
 
-- [Apakah Itu Jam Meja Samping Tempat Tidur?](/ms/glossary/what-is-a-nightstand-clock/)
-- [Apakah Itu Jam Flip?](/ms/glossary/what-is-a-flip-clock/)
+- [Jam Meja Sisi Katil: Cara Pilih Jam Flip untuk Bilik Tidur](/ms/glossary/what-is-a-nightstand-clock/)
+- [Jam Flip Android: Cara Kerja dan Aplikasi Terbaik](/ms/glossary/what-is-a-flip-clock/)

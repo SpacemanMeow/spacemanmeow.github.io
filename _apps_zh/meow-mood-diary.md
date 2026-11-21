@@ -80,4 +80,4 @@ Meow Mood Diary 旨在成为你提升情绪觉察之路上值得信赖的伙伴�
 
 ## 相关术语
 
-- [什么是心情追踪（Mood Tracker）？](/zh/glossary/what-is-a-mood-tracker/)
+- [心情追踪：记录情绪，发现情绪规律](/zh/glossary/what-is-a-mood-tracker/)

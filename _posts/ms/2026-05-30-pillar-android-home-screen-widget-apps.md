@@ -123,8 +123,8 @@ Atau baca [Aplikasi widget Android terbaik](/ms/posts/best-one-widget-android/) 
 
 ## Istilah berkaitan
 
-- [Apakah Itu Widget Skrin Utama?](/ms/glossary/what-is-a-home-screen-widget/)
-- [Apakah Itu Material You?](/ms/glossary/what-is-material-you/)
-- [Apakah Itu Nothing UI?](/ms/glossary/what-is-nothing-ui/)
-- [Apakah Itu Galaxy One UI?](/ms/glossary/what-is-galaxy-one-ui/)
-- [Apakah Itu iOS Glass?](/ms/glossary/what-is-ios-glass/)
+- [Widget Skrin Utama Android: Cara Pasang dan Sesuaikan](/ms/glossary/what-is-a-home-screen-widget/)
+- [Material You: Cara Tukar Warna Tema Android Anda](/ms/glossary/what-is-material-you/)
+- [Nothing UI: Ciri Reka Bentuk dan Widget Gaya Kaca](/ms/glossary/what-is-nothing-ui/)
+- [Galaxy One UI: Ciri, Perbezaan, dan Widget yang Disokong](/ms/glossary/what-is-galaxy-one-ui/)
+- [iOS Glass: Gaya Kaca Widget dan Cara Menirunya](/ms/glossary/what-is-ios-glass/)

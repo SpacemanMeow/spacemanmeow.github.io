@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Assistive Touch คืออะไร?"
-description: "Assistive Touch คือปุ่มลอยที่ทดแทนปุ่มกายภาพ ทำความเข้าใจที่มาของคำนี้และคู่ตรงข้ามบน Android"
+title: "Assistive Touch: วิธีใช้ปุ่มลอยบน Android"
+description: "Assistive Touch คือปุ่มลอยที่ทดแทนปุ่มกายภาพ ทำความเข้าใจที่มาของคำนี้และคู่ตรงข้ามบน Android Floating Assistant ให้ปุ่มลอยและการควบคุมโอเวอร์เลย์"
 tags: [Assistive Touch, Floating Assistant]
 lang: th
+app_slug: floating-assistant
 ---
 
 ## นิยามและการทำงาน

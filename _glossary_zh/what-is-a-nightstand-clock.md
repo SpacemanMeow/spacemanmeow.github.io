@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是床头钟（Nightstand Clock）？"
-description: "床头钟是床边展示时间、日期与闹钟的显示器。了解它是什么、手机用户为何使用，以及翻页时钟风格如何契合。"
+title: "床头钟：如何挑选合适的床头翻页时钟"
+description: "床头钟是床边展示时间、日期与闹钟的显示器。了解它是什么、手机用户为何使用，以及翻页时钟风格如何契合。Only Clock 把全屏翻页时钟带到 Android 主屏幕。"
 tags: [床头钟, 翻页时钟, Only Clock]
 lang: zh
+app_slug: only-clock
 ---
 
 ## 定义与用途

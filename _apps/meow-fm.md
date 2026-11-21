@@ -71,4 +71,4 @@ Every white noise has a beautiful cover, makes you more immersive.
 
 ## Related terms
 
-- [What Is White Noise?](/glossary/what-is-white-noise/)
+- [White Noise: How It Helps Focus and Sleep Better](/glossary/what-is-white-noise/)

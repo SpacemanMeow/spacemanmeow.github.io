@@ -122,4 +122,4 @@ Atau baca [Aplikasi white noise terbaik untuk tidur](/id/posts/best-meow-fm-slee
 
 ## Istilah terkait
 
-- [Apa Itu White Noise?](/id/glossary/what-is-white-noise/)
+- [White Noise: Cara Membantu Fokus dan Tidur Lebih Baik](/id/glossary/what-is-white-noise/)

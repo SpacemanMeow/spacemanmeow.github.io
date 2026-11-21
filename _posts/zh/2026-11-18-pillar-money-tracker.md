@@ -87,6 +87,6 @@ Money tracker 记录完整的收入与支出流，预算 App 更关注额度。�
 
 ## 相关术语
 
-- [什么是记账应用？](/zh/glossary/what-is-an-expense-tracker/)
-- [什么是预算管理？](/zh/glossary/what-is-budget-management/)
+- [记账应用：记录收支，看清钱花在哪](/zh/glossary/what-is-an-expense-tracker/)
+- [预算管理：按类别设上限并跟踪支出](/zh/glossary/what-is-budget-management/)
 - [喵窝记账 App](/zh/apps/meow-money-manager/)

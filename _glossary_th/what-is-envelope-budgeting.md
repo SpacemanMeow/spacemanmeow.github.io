@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Envelope Budgeting คืออะไร?"
-description: "Envelope budgeting แบ่งเงินเป็นซองเสมือนต่อหมวด ใช้จากยอดแต่ละซอง เข้าใจวิธี Goodbudget ใช้"
+title: "Envelope Budgeting: วิธีแบ่งเงินตามซอง"
+description: "Envelope budgeting แบ่งเงินเป็นซองเสมือนต่อหมวด ใช้จากยอดแต่ละซอง เข้าใจวิธี Goodbudget ใช้Meow Money Manager ช่วยนำไปใช้งาน"
 tags: [Envelope Budgeting, Budget, Meow Money]
 lang: th
+app_slug: meow-money-manager
 ---
 
 ## นิยามและวิธีการทำงาน

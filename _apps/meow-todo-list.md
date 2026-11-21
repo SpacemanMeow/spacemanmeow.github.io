@@ -84,5 +84,5 @@ Meow Todo List & Task can export the tasks report to file in the form of CSV. Yo
 
 ## Related terms
 
-- [What Is a To-Do List?](/glossary/what-is-a-to-do-list/)
-- [What Is a Subtask?](/glossary/what-is-a-subtask/)
+- [To-Do List App: Organize Daily Tasks and Priorities](/glossary/what-is-a-to-do-list/)
+- [Subtask: Break Big Tasks Into Manageable Steps](/glossary/what-is-a-subtask/)

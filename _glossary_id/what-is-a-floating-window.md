@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: "Jendela Mengambang Android: Cara Kerja, Izin, dan Aplikasinya"
-description: "Jendela mengambang atau jendela melayang tetap tampil di atas aplikasi lain. Pahami izin Android, kegunaannya, dan aplikasi Floating Assistant."
+description: "Jendela mengambang atau jendela melayang tetap tampil di atas aplikasi lain.Floating Assistant membantu menerapkannya."
 tags: [Floating Window, Floating Assistant]
 lang: id
 app_slug: floating-assistant

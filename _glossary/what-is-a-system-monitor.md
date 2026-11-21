@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is a System Monitor?"
-description: "A system monitor displays live device stats—CPU, memory, battery, network. Learn what a system monitor app shows and why Android users run one."
+title: "System Monitor: Check CPU, RAM and Storage on Android"
+description: "A system monitor displays live device stats—CPU, memory, battery, network.System Monitor puts it into practice."
 tags: [System Monitor, CPU Monitor]
 lang: en
+app_slug: system-monitor
 ---
 
 ## Definition & What It Shows

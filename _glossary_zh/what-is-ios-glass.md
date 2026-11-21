@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "什么是 iOS Glass？"
+title: "iOS Glass：玻璃质感小组件与实现方法"
 description: "iOS Glass（Glass iOS）是受苹果玻璃拟态启发的磨砂半透明小组件美学——模糊背景让内容透出。了解它是什么，以及安卓组件包为何复刻这一外观。"
 tags: [iOS Glass, Glass, iOS, Android, One Widget]
 lang: zh

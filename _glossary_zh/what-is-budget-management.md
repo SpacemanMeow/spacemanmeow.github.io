@@ -1,7 +1,7 @@
 ---
 layout: glossary
-title: "什么是预算管理？"
-description: "预算管理是对收入与支出进行规划、追踪与控制的持续过程，让你始终处在限额之内。了解它是什么，以及 Meow Money Manager 如何帮你按分类做预算。"
+title: "预算管理：按类别设上限并跟踪支出"
+description: "预算管理是对收入与支出进行规划、追踪与控制的持续过程，让你始终处在限额之内。了解它是什么，以及 Meow Money Manager 如何帮你按分类做预算。Meow Money Manager 提供分类预算与实时合计，帮你把方法落地。"
 tags: [Budget Management, Budget, Meow Money Manager]
 lang: zh
 app_slug: meow-money-manager

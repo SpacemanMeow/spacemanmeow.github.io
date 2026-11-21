@@ -76,4 +76,4 @@ Atur pengingat harian yang lembut untuk membangun kebiasaan mencatat yang konsis
 
 ## Istilah terkait
 
-- [Apa Itu Pelacak Suasana Hati?](/id/glossary/what-is-a-mood-tracker/)
+- [Pelacak Suasana Hati: Cara Catat Perasaan Harian](/id/glossary/what-is-a-mood-tracker/)

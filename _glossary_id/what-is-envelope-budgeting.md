@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Envelope Budgeting?"
-description: "Envelope budgeting membagi uang ke amplop virtual per kategori; belanja dari saldo tiap amplop. Pahami cara Goodbudget menerapkannya."
+title: "Envelope Budgeting: Cara Bagi Uang per Amplop"
+description: "Envelope budgeting membagi uang ke amplop virtual per kategori; belanja dari saldo tiap amplop.Meow Money Manager membantu menerapkannya."
 tags: [Envelope Budgeting, Budget, Meow Money]
 lang: id
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Kerja

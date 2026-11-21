@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是预算滚存（Budget Rollover）？"
-description: "预算滚存是把某期未用完的额度或超支差额结转到下期同一类别的机制。了解正余额、负余额与只滚存结余三种语义，以及它为何影响攒钱与超支。"
+title: "预算滚存：把没花完的钱结转到下月"
+description: "预算滚存是把某期未用完的额度或超支差额结转到下期同一类别的机制。了解正余额、负余额与只滚存结余三种语义，以及它为何影响攒钱与超支。Meow Money Manager 提供分类预算与实时合计，帮你把方法落地。"
 tags: [Budget Rollover, Budget Management, Budget]
 lang: zh
+app_slug: meow-money-manager
 ---
 
 ## 定义

@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Sinking Fund คืออะไร?"
-description: "Sinking fund เก็บนิดหน่อยทุกเดือนสำหรับค่าใช้จ่ายอนาคต จนบิลใหญ่ไม่พุ่งใส่เดือนเดียว"
+title: "Sinking Fund: วิธีออมเงินเพื่อค่าใช้จ่ายใหญ่"
+description: "Sinking fund เก็บนิดหน่อยทุกเดือนสำหรับค่าใช้จ่ายอนาคต จนบิลใหญ่ไม่พุ่งใส่เดือนเดียว Meow Money Manager ช่วยนำวิธีนี้ไปใช้ด้วยงบต่อหมวดและยอดรวมแบบเรียลไทม์"
 tags: [Sinking Fund, Budget, Meow Money]
 lang: th
+app_slug: meow-money-manager
 ---
 
 ## นิยามและวิธีการทำงาน

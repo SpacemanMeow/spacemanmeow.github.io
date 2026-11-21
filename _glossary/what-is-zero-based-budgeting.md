@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is Zero-Based Budgeting?"
-description: "Zero-based budgeting assigns each period's income to expenses, savings and debt until income minus assigned is zero. See its rules and app implementations."
+title: "Zero-Based Budgeting: Give Every Unit of Income a Job"
+description: "Zero-based budgeting assigns each period's income to expenses, savings and debt until income minus assigned is zero.Meow Money Manager puts it into practice."
 tags: [Zero-Based Budgeting, Budget Management, Budget]
 lang: en
+app_slug: meow-money-manager
 ---
 
 ## Definition

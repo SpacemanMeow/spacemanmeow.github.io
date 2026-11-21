@@ -116,4 +116,4 @@ Or read the [Best crosshair for FPS games](/posts/best-cross-hair-fps/) for the 
 
 ## Related terms
 
-- [What Is a Crosshair?](/glossary/what-is-a-crosshair/)
+- [Crosshair for FPS: Types, Overlays and Best Apps](/glossary/what-is-a-crosshair/)

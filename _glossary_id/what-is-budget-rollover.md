@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Budget Rollover?"
-description: "Budget rollover membawa surplus atau defisit kategori ke periode berikut. Pahami empat perilaku berbeda di YNAB, Monarch, PocketGuard, Goodbudget."
+title: "Budget Rollover: Cara Bawa Sisa Uang ke Bulan Berikutnya"
+description: "Budget rollover membawa surplus atau defisit kategori ke periode berikut.Meow Money Manager membantu menerapkannya."
 tags: [Budget Rollover, Budget, Meow Money]
 lang: id
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Kerja

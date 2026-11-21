@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Pelacak Suasana Hati?"
-description: "Pelacak suasana hati mencatat perasaan harian beserta pemicunya. Pahami cara membaca pola emosi dari catatan sederhana."
+title: "Pelacak Suasana Hati: Cara Catat Perasaan Harian"
+description: "Pelacak suasana hati mencatat perasaan harian beserta pemicunya. Pahami cara membaca pola emosi dari catatan sederhana.Meow Mood Diary membantu menerapkannya."
 tags: [Mood Tracker, Meow Mood Diary]
 lang: id
+app_slug: meow-mood-diary
 ---
 
 ## Definisi & Cara Kerja

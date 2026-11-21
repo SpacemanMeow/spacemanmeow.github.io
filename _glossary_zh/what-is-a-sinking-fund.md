@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是专项基金（Sinking Fund）？"
-description: "专项基金是为已知的未来大额支出逐期提前攒钱的方法。了解每期应存额怎么算、它与应急基金和储蓄目标的区别，以及在预算应用里的常见名称。"
+title: "专项基金：按月为大额一次性支出存钱"
+description: "专项基金是为已知的未来大额支出逐期提前攒钱的方法。了解每期应存额怎么算、它与应急基金和储蓄目标的区别，以及在预算应用里的常见名称。Meow Money Manager 提供分类预算与实时合计，帮你把方法落地。"
 tags: [Sinking Fund, Budget Management, Budget]
 lang: zh
+app_slug: meow-money-manager
 ---
 
 ## 定义

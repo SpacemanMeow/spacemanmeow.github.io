@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是信封预算法（Envelope Budgeting）？"
-description: "信封预算法把钱按用途分装到独立信封，花钱只能从对应信封扣除。了解运行余额、填充方式、年度与目标信封，以及它和分类预算的区别。"
+title: "信封预算法：把钱分装进不同信封"
+description: "信封预算法把钱按用途分装到独立信封，花钱只能从对应信封扣除。了解运行余额、填充方式、年度与目标信封，以及它和分类预算的区别。Meow Money Manager 提供分类预算与实时合计，帮你把方法落地。"
 tags: [Envelope Budgeting, Budget Management, Budget]
 lang: zh
+app_slug: meow-money-manager
 ---
 
 ## 定义

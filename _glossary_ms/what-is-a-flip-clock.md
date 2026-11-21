@@ -1,9 +1,10 @@
 ---
 layout: glossary
 title: "Jam Flip Android: Cara Kerja dan Aplikasi Terbaik"
-description: "Jam flip adalah jam digital dengan animasi lembaran angka yang berputar saat minit berganti. Kenali ciri dan kegunaannya."
+description: "Jam flip adalah jam digital dengan animasi lembaran angka yang berputar saat minit berganti. Kenali ciri dan kegunaannya.Only Clock membantu mengamalkannya."
 tags: [Flip Clock, Only Clock]
 lang: ms
+app_slug: only-clock
 ---
 
 ## Definisi & Cara Ia Berfungsi

@@ -118,5 +118,5 @@ Meow Todo List คือตัววางแผนตารางอย่า�
 
 ## ศัพท์ที่เกี่ยวข้อง
 
-- [รายการสิ่งที่ต้องทำ (To-Do List) คืออะไร?](/th/glossary/what-is-a-to-do-list/)
-- [งานย่อย (Subtask) คืออะไร?](/th/glossary/what-is-a-subtask/)
+- [แอปรายการสิ่งที่ต้องทำ: วิธีจัดระเบียบงานประจำวัน](/th/glossary/what-is-a-to-do-list/)
+- [งานย่อย: วิธีแบ่งงานใหญ่เป็นขั้นตอนเล็ก](/th/glossary/what-is-a-subtask/)

@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "What Is Material You?"
+title: "Material You: Change Your Android Theme Colors"
 description: "Material You is Google's adaptive Android design language introduced in Android 12. Learn what it is and why widgets adopt its theming."
 tags: [Material You, Android, One Widget]
 lang: en

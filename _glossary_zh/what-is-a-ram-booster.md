@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是内存清理（RAM Booster）？"
-description: "内存清理通过关闭后台应用来释放内存。了解 Android 上 RAM 清理做了什么、真实收益与局限。"
+title: "内存清理：工作原理与何时有用"
+description: "内存清理通过关闭后台应用来释放内存。了解 Android 上 RAM 清理做了什么、真实收益与局限。System Monitor 实时显示 CPU、内存与存储状态。"
 tags: [内存清理, RAM Booster, System Monitor]
 lang: zh
+app_slug: system-monitor
 ---
 
 ## 定义与原理

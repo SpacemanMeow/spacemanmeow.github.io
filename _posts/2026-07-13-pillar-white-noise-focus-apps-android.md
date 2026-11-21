@@ -122,4 +122,4 @@ Or read the [Best white noise app for sleep](/posts/best-meow-fm-sleep/) for the
 
 ## Related terms
 
-- [What Is White Noise?](/glossary/what-is-white-noise/)
+- [White Noise: How It Helps Focus and Sleep Better](/glossary/what-is-white-noise/)

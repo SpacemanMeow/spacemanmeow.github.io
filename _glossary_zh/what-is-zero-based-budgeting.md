@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是零基预算（Zero-Based Budgeting）？"
-description: "零基预算是把每一期收入全部分配到支出、储蓄与偿债，使收入减分配等于零的预算方法。了解它的分配规则、与限额预算的区别，以及在记账应用里如何落地。"
+title: "零基预算：让每一笔收入都有去处"
+description: "零基预算是把每一期收入全部分配到支出、储蓄与偿债，使收入减分配等于零的预算方法。了解它的分配规则、与限额预算的区别，以及在记账应用里如何落地。Meow Money Manager 提供分类预算与实时合计，帮你把方法落地。"
 tags: [Zero-Based Budgeting, Budget Management, Budget]
 lang: zh
+app_slug: meow-money-manager
 ---
 
 ## 定义

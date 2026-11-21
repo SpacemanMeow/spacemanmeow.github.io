@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is a Subtask?"
-description: "A subtask is a checkable step under a parent task that turns a big to-do into trackable progress. See how Meow Todo List handles subtasks."
+title: "Subtask: Break Big Tasks Into Manageable Steps"
+description: "A subtask is a checkable step under a parent task that turns a big to-do into trackable progress.Meow Todo List puts it into practice."
 tags: [Subtask, Task, Meow Todo List]
 lang: en
+app_slug: meow-todo-list
 ---
 
 ## Definition

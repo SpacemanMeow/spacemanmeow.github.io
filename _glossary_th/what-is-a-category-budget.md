@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "งบต่อหมวด (Category Budget) คืออะไร?"
-description: "งบต่อหมวดให้แต่ละหมวดเพดานเองและติดตามการใช้ เข้าใจโครงสร้างแม่-ลูกใน Meow Money Manager"
+title: "งบต่อหมวด: วิธีกำหนดเพดานตามหมวดหมู่"
+description: "งบต่อหมวดให้แต่ละหมวดเพดานเองและติดตามการใช้ เข้าใจโครงสร้างแม่-ลูกใน Meow Money Manager Meow Money Manager ช่วยนำวิธีนี้ไปใช้ด้วยงบต่อหมวดและยอดรวมแบบเรียลไทม์"
 tags: [Category Budget, Budget, Meow Money]
 lang: th
+app_slug: meow-money-manager
 ---
 
 ## นิยามและวิธีการทำงาน

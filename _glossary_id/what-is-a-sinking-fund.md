@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Sinking Fund?"
-description: "Sinking fund menabung sedikit tiap bulan untuk biaya masa depan agar tagihan besar tak menghantam satu bulan. Pahami penerapan di EveryDollar dan Monarch."
+title: "Sinking Fund: Cara Menabung untuk Biaya Besar"
+description: "Sinking fund menabung sedikit tiap bulan untuk biaya masa depan agar tagihan besar tak menghantam satu bulan.Meow Money Manager membantu menerapkannya."
 tags: [Sinking Fund, Budget, Meow Money]
 lang: id
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Kerja

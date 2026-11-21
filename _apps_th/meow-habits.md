@@ -73,5 +73,5 @@ Meow Habits คือแอปติดตามนิสัยที่ผส�
 
 ## ศัพท์ที่เกี่ยวข้อง
 
-- [แอปติดตามนิสัยคืออะไร?](/th/glossary/what-is-a-habit-tracker/)
-- [Habit Streak คืออะไร?](/th/glossary/what-is-a-habit-streak/)
+- [แอปติดตามนิสัย: วิธีบันทึกนิสัยประจำวัน](/th/glossary/what-is-a-habit-tracker/)
+- [Habit Streak: วิธีรักษาความต่อเนื่องของนิสัย](/th/glossary/what-is-a-habit-streak/)

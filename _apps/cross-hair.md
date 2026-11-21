@@ -63,4 +63,4 @@ Download Crosshair Aim Pro - Aim for FPS Games and take headshots like aimbot Pr
 
 ## Related terms
 
-- [What Is a Crosshair?](/glossary/what-is-a-crosshair/)
+- [Crosshair for FPS: Types, Overlays and Best Apps](/glossary/what-is-a-crosshair/)

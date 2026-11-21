@@ -1,9 +1,10 @@
 ---
 layout: glossary
 title: "Subtugasan: Cara Pecahkan Tugas Besar menjadi Langkah Kecil"
-description: "Subtugasan adalah langkah kecil di dalam satu tugasan besar. Fahami kapan pemecahan tugasan membuat daftar kerja lebih jelas."
+description: "Subtugasan adalah langkah kecil di dalam satu tugasan besar.Meow Todo List membantu mengamalkannya."
 tags: [Subtask, Meow Todo]
 lang: ms
+app_slug: meow-todo-list
 ---
 
 ## Definisi & Cara Ia Berfungsi

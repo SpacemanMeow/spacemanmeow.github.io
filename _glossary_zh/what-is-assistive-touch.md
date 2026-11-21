@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是辅助触控（Assistive Touch）？"
-description: "辅助触控是一个屏幕虚拟按钮，无需硬件按键即可快捷操作。了解它是什么，以及悬浮助手应用与之的关系。"
+title: "辅助触控：使用 Android 悬浮按钮"
+description: "辅助触控是一个屏幕虚拟按钮，无需硬件按键即可快捷操作。了解它是什么，以及悬浮助手应用与之的关系。Floating Assistant 提供悬浮按钮与悬浮层控制。"
 tags: [辅助触控, 无障碍, Floating Assistant]
 lang: zh
+app_slug: floating-assistant
 ---
 
 ## 定义与作用

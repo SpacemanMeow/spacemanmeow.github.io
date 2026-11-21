@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apa Itu Nothing UI?"
+title: "Nothing UI: Fitur Desain dan Widget Gaya Kaca"
 description: "Nothing UI adalah gaya visual Nothing dengan aksen titik-matriks, garis tipis, dan monokrom. Pahami ciri khasnya."
 tags: [Nothing UI, One Widget]
 lang: id

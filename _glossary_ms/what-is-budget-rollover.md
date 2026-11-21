@@ -1,9 +1,10 @@
 ---
 layout: glossary
 title: "Budget Rollover: Cara Bawa Baki Wang ke Bulan Berikutnya"
-description: "Budget rollover membawa lebihan atau defisit kategori ke tempoh berikut. Fahami empat kelakuan berbeza di YNAB, Monarch, PocketGuard, Goodbudget."
+description: "Budget rollover membawa lebihan atau defisit kategori ke tempoh berikut.Meow Money Manager membantu mengamalkannya."
 tags: [Budget Rollover, Bajet, Meow Money]
 lang: ms
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Ia Berfungsi

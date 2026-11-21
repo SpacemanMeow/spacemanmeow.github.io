@@ -102,6 +102,11 @@ Google Drive and WebDAV backup are supported. With automatic backup on, a file i
 
 ## Related terms
 
-- [What Is an Expense Tracker?](/glossary/what-is-an-expense-tracker/)
-- [What Is Budget Management?](/glossary/what-is-budget-management/)
-- [What Is Reimbursement Management?](/glossary/what-is-reimbursement-management/)
+- [Expense Tracker: Log Spending and See Where Money Goes](/glossary/what-is-an-expense-tracker/)
+- [Budget Management: Set Category Limits and Track Spending](/glossary/what-is-budget-management/)
+- [Reimbursement Management: Track Money Owed Back to You](/glossary/what-is-reimbursement-management/)
+- [Category Budget: Cap Each Spending Category Separately](/glossary/what-is-a-category-budget/)
+- [Zero-Based Budgeting: Give Every Unit of Income a Job](/glossary/what-is-zero-based-budgeting/)
+- [Envelope Budgeting: Split Cash into Spending Envelopes](/glossary/what-is-envelope-budgeting/)
+- [Budget Rollover: Carry Unspent Money to Next Month](/glossary/what-is-budget-rollover/)
+- [Sinking Fund: Save Monthly for Big One-Off Costs](/glossary/what-is-a-sinking-fund/)

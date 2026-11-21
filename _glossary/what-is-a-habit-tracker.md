@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is a Habit Tracker?"
-description: "A habit tracker is an app or system for recording whether you did a target behavior each day. Learn what habit tracking is and why it builds consistency."
+title: "Habit Tracker: Log Daily Habits and See Your Progress"
+description: "A habit tracker is an app or system for recording whether you did a target behavior each day.Meow Habits puts it into practice."
 tags: [Habit Tracker, Meow Habits]
 lang: en
+app_slug: meow-habits
 ---
 
 ## Definition & How It Works

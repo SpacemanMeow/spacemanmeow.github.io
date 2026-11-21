@@ -78,5 +78,5 @@ Meow Todo List & Task 可将任务报表导出为 CSV 文件，可一次性导�
 
 ## 相关术语
 
-- [什么是待办清单（To-Do List）？](/zh/glossary/what-is-a-to-do-list/)
-- [什么是子任务？](/zh/glossary/what-is-a-subtask/)
+- [待办清单：整理每日任务与优先级](/zh/glossary/what-is-a-to-do-list/)
+- [子任务：把大任务拆成可执行的小步骤](/zh/glossary/what-is-a-subtask/)

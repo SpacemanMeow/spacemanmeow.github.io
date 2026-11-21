@@ -87,6 +87,6 @@ Tergantung aplikasinya. Periksa apakah akun diperlukan, di mana data disimpan da
 
 ## Istilah terkait
 
-- [Apa Itu Aplikasi Catatan Keuangan?](/id/glossary/what-is-an-expense-tracker/)
-- [Apa Itu Pengelolaan Anggaran?](/id/glossary/what-is-budget-management/)
+- [Aplikasi Catatan Keuangan: Catat Pemasukan dan Pengeluaran](/id/glossary/what-is-an-expense-tracker/)
+- [Pengelolaan Anggaran: Atur Budget Harian dan per Kategori](/id/glossary/what-is-budget-management/)
 - [Aplikasi Meow Money Manager](/id/apps/meow-money-manager/)

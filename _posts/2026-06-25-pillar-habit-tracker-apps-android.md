@@ -119,4 +119,4 @@ Or read the [Best habit tracker app](/posts/best-meow-habits-general/) for the f
 
 ## Related terms
 
-- [What Is a Habit Tracker?](/glossary/what-is-a-habit-tracker/)
+- [Habit Tracker: Log Daily Habits and See Your Progress](/glossary/what-is-a-habit-tracker/)

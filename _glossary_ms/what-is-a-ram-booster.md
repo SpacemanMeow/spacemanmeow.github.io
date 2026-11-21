@@ -1,9 +1,10 @@
 ---
 layout: glossary
 title: "Peningkat RAM Android: Cara Kerja dan Bila Ia Berguna"
-description: "Peningkat RAM menutup proses latar yang diizinkan sistem untuk membebaskan memori. Fahami cara kerja dan batasannya di Android."
+description: "Peningkat RAM menutup proses latar yang diizinkan sistem untuk membebaskan memori.System Monitor membantu mengamalkannya."
 tags: [RAM Booster, System Monitor]
 lang: ms
+app_slug: system-monitor
 ---
 
 ## Definisi & Cara Ia Berfungsi

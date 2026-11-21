@@ -1,9 +1,10 @@
 ---
 layout: glossary
 title: "White Noise: Cara Ia Membantu Fokus dan Tidur Lebih Baik"
-description: "White noise adalah suara dengan spektrum sekata yang digunakan untuk menutup kebisingan. Fahami perbedaannya dengan suara alam."
+description: "White noise adalah suara dengan spektrum sekata yang digunakan untuk menutup kebisingan. Fahami perbedaannya dengan suara alam.Meow FM membantu mengamalkannya."
 tags: [White Noise, Meow FM]
 lang: ms
+app_slug: meow-fm
 ---
 
 ## Definisi & Cara Ia Berfungsi

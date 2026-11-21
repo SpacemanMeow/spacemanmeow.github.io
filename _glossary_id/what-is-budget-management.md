@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: "Pengelolaan Anggaran: Atur Budget Harian dan per Kategori"
-description: "Atur budget harian, mingguan, dan per kategori agar pengeluaran tidak melebihi pemasukan. Lihat contoh pencatatan dengan Meow Money Manager."
+description: "Atur budget harian, mingguan, dan per kategori agar pengeluaran tidak melebihi pemasukan.Meow Money Manager membantu menerapkannya."
 tags: [Budget Management, Budget App, Meow Money]
 lang: id
 app_slug: meow-money-manager

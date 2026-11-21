@@ -53,4 +53,4 @@ Crosshair Aim mendukung hampir semua game penembakan FPS popular untuk menukar r
 
 ## Istilah berkaitan
 
-- [Apakah Itu Crosshair?](/ms/glossary/what-is-a-crosshair/)
+- [Crosshair FPS: Cara Kerja, Jenis Overlay, dan Aplikasinya](/ms/glossary/what-is-a-crosshair/)

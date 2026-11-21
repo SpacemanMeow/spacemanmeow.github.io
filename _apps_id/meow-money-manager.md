@@ -99,6 +99,11 @@ Backup Google Drive dan WebDAV didukung. Jika backup otomatis aktif, berkas dibu
 
 ## Istilah terkait
 
-- [Apa Itu Aplikasi Catatan Keuangan?](/id/glossary/what-is-an-expense-tracker/)
-- [Apa Itu Pengelolaan Anggaran?](/id/glossary/what-is-budget-management/)
-- [Apa Itu Pengelolaan Reimburse?](/id/glossary/what-is-reimbursement-management/)
+- [Aplikasi Catatan Keuangan: Catat Pemasukan dan Pengeluaran](/id/glossary/what-is-an-expense-tracker/)
+- [Pengelolaan Anggaran: Atur Budget Harian dan per Kategori](/id/glossary/what-is-budget-management/)
+- [Pengelolaan Reimburse: Cara Catat dan Lacak Uang Kembali](/id/glossary/what-is-reimbursement-management/)
+- [Anggaran Kategori: Cara Atur Pengeluaran per Kategori](/id/glossary/what-is-a-category-budget/)
+- [Zero-Based Budgeting: Cara Alokasi Setiap Rupiah](/id/glossary/what-is-zero-based-budgeting/)
+- [Envelope Budgeting: Cara Bagi Uang per Amplop](/id/glossary/what-is-envelope-budgeting/)
+- [Budget Rollover: Cara Bawa Sisa Uang ke Bulan Berikutnya](/id/glossary/what-is-budget-rollover/)
+- [Sinking Fund: Cara Menabung untuk Biaya Besar](/id/glossary/what-is-a-sinking-fund/)

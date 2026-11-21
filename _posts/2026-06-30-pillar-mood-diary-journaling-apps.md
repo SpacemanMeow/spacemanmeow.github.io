@@ -118,4 +118,4 @@ Or read the [Best mood diary app](/posts/best-meow-mood-diary-diary/) for the fu
 
 ## Related terms
 
-- [What Is a Mood Tracker?](/glossary/what-is-a-mood-tracker/)
+- [Mood Tracker: Record Feelings and Spot Emotional Patterns](/glossary/what-is-a-mood-tracker/)

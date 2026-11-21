@@ -87,6 +87,6 @@ Money tracker บันทึกการไหลของรายได้แ
 
 ## คำศัพท์ที่เกี่ยวข้อง
 
-- [แอปบันทึกการเงินคืออะไร](/th/glossary/what-is-an-expense-tracker/)
-- [การจัดการงบประมาณคืออะไร](/th/glossary/what-is-budget-management/)
+- [แอปบันทึกการเงิน: ติดตามรายรับรายจ่ายและจัดงบ](/th/glossary/what-is-an-expense-tracker/)
+- [การจัดการงบประมาณ: วางงบรายวันและงบต่อหมวด](/th/glossary/what-is-budget-management/)
 - [แอป Meow Money Manager](/th/apps/meow-money-manager/)

@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Widget Layar Utama?"
-description: "Widget layar utama adalah tampilan kecil di homescreen yang menampilkan informasi atau pintasan tanpa membuka aplikasi."
+title: "Widget Layar Utama Android: Cara Pasang dan Sesuaikan"
+description: "Widget layar utama adalah tampilan kecil di homescreen yang menampilkan informasi atau pintasan tanpa membuka aplikasi.One Widget membantu menerapkannya."
 tags: [Home Screen Widget, One Widget]
 lang: id
+app_slug: one-widget
 ---
 
 ## Definisi & Cara Kerja

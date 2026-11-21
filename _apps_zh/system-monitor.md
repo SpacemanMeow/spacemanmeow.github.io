@@ -81,6 +81,6 @@ System Monitor 提供多种强大工具，包括：过热警报、过热保护�
 
 ## 相关术语
 
-- [什么是 CPU 温度监控？](/zh/glossary/what-is-a-cpu-temperature-monitor/)
-- [什么是系统监控（System Monitor）？](/zh/glossary/what-is-a-system-monitor/)
-- [什么是内存清理（RAM Booster）？](/zh/glossary/what-is-a-ram-booster/)
+- [CPU 温度监控：检查手机发热与温度警报](/zh/glossary/what-is-a-cpu-temperature-monitor/)
+- [系统监控：查看 Android 的 CPU、内存与存储](/zh/glossary/what-is-a-system-monitor/)
+- [内存清理：工作原理与何时有用](/zh/glossary/what-is-a-ram-booster/)

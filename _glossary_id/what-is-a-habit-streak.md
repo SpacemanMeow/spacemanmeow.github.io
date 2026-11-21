@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Habit Streak?"
-description: "Habit streak adalah hitungan hari berturut-turut saat sebuah kebiasaan berhasil dilakukan. Pahami cara kerja dan manfaatnya."
+title: "Habit Streak: Cara Menjaga Konsistensi Harian"
+description: "Habit streak adalah hitungan hari berturut-turut saat sebuah kebiasaan berhasil dilakukan. Pahami cara kerja dan manfaatnya.Meow Habits membantu menerapkannya."
 tags: [Habit Tracker, Meow Habits]
 lang: id
+app_slug: meow-habits
 ---
 
 ## Definisi & Cara Kerja

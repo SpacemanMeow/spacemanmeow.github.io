@@ -95,6 +95,11 @@ faq:
 
 ## 相关术语
 
-- [什么是记账应用（Expense Tracker）？](/zh/glossary/what-is-an-expense-tracker/)
-- [什么是预算管理？](/zh/glossary/what-is-budget-management/)
-- [什么是报销管理？](/zh/glossary/what-is-reimbursement-management/)
+- [记账应用：记录收支，看清钱花在哪](/zh/glossary/what-is-an-expense-tracker/)
+- [预算管理：按类别设上限并跟踪支出](/zh/glossary/what-is-budget-management/)
+- [报销管理：追踪待收回的垫付款](/zh/glossary/what-is-reimbursement-management/)
+- [分类预算：为每类支出单独设上限](/zh/glossary/what-is-a-category-budget/)
+- [零基预算：让每一笔收入都有去处](/zh/glossary/what-is-zero-based-budgeting/)
+- [信封预算法：把钱分装进不同信封](/zh/glossary/what-is-envelope-budgeting/)
+- [预算滚存：把没花完的钱结转到下月](/zh/glossary/what-is-budget-rollover/)
+- [专项基金：按月为大额一次性支出存钱](/zh/glossary/what-is-a-sinking-fund/)

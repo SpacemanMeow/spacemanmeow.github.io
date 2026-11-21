@@ -49,6 +49,7 @@ en:
   app_cta: "Open the app"
   download: "Download"
   glossary_solution_title: "Put it into practice"
+  related_guide: "Related guides"
 zh:
   back_to_blog: "&lsaquo; 返回博客"
   tags_index_link: "标签索引 &rarr;"
@@ -98,6 +99,7 @@ zh:
   download_android: "Android 下载"
   download_ios: "iOS 下载"
   glossary_solution_title: "实际应用"
+  related_guide: "相关指南"
 id:
   back_to_blog: "&lsaquo; Kembali ke Blog"
   tags_index_link: "Indeks Tag &rarr;"
@@ -145,6 +147,7 @@ id:
   app_cta: "Buka aplikasi"
   download: "Unduh"
   glossary_solution_title: "Terapkan dalam praktik"
+  related_guide: "Panduan terkait"
 
 ms:
   back_to_blog: "&lsaquo; Kembali ke blog"
@@ -193,6 +196,7 @@ ms:
   app_cta: "Buka aplikasi"
   download: "Muat turun"
   glossary_solution_title: "Amalkan dalam praktik"
+  related_guide: "Panduan berkaitan"
 
 th:
   back_to_blog: "&lsaquo; กลับไปที่บล็อก"
@@ -241,3 +245,4 @@ th:
   app_cta: "เปิดแอป"
   download: "ดาวน์โหลด"
   glossary_solution_title: "นำไปใช้งานจริง"
+  related_guide: "คู่มือที่เกี่ยวข้อง"

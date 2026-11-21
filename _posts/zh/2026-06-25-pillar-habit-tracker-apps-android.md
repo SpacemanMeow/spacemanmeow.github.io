@@ -119,4 +119,4 @@ Meow Habits 是一款[习惯追踪](/zh/glossary/what-is-a-habit-tracker/)与日
 
 ## 相关术语
 
-- [什么是习惯追踪应用（Habit Tracker）？](/zh/glossary/what-is-a-habit-tracker/)
+- [习惯追踪：记录每日习惯，看见进步](/zh/glossary/what-is-a-habit-tracker/)

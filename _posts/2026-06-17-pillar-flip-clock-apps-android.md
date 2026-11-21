@@ -124,5 +124,5 @@ Or read the [Best flip clock app](/posts/best-only-clock-flip/) for the full bre
 
 ## Related terms
 
-- [What Is a Flip Clock?](/glossary/what-is-a-flip-clock/)
-- [What Is a Nightstand Clock?](/glossary/what-is-a-nightstand-clock/)
+- [Flip Clock: How It Works and Best Apps for Android](/glossary/what-is-a-flip-clock/)
+- [Nightstand Clock: Pick the Right Bedside Flip Clock](/glossary/what-is-a-nightstand-clock/)

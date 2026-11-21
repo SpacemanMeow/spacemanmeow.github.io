@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: "Catatan Kewangan: Cara Catat Pendapatan dan Perbelanjaan"
-description: "Aplikasi catatan kewangan mencatat pendapatan dan perbelanjaan supaya Anda tahu ke mana wang pergi, serta kaitannya dengan bajet."
+description: "Aplikasi catatan kewangan mencatat pendapatan dan perbelanjaan supaya Anda tahu ke mana wang pergi, serta kaitannyaMeow Money Manager membantu mengamalkannya."
 tags: [Expense Tracker, Bajet App, Meow Money]
 lang: ms
 app_slug: meow-money-manager

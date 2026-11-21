@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是报销管理？"
-description: "报销管理是提交、审批与追踪费用报销的流程，让你先垫付的钱能拿回来。了解它是什么，以及 Meow Money Manager 如何追踪可报销条目。"
+title: "报销管理：追踪待收回的垫付款"
+description: "报销管理是提交、审批与追踪费用报销的流程，让你先垫付的钱能拿回来。了解它是什么，以及 Meow Money Manager 如何追踪可报销条目。Meow Money Manager 提供分类预算与实时合计，帮你把方法落地。"
 tags: [Reimbursement, Expense, Meow Money Manager]
 lang: zh
+app_slug: meow-money-manager
 ---
 
 ## 定义

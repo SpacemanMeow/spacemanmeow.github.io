@@ -125,5 +125,5 @@ Atau baca [Aplikasi asisten melayang terbaik](/id/posts/best-floating-assistant-
 
 ## Istilah terkait
 
-- [Apa Itu Assistive Touch?](/id/glossary/what-is-assistive-touch/)
-- [Apa Itu Jendela Melayang?](/id/glossary/what-is-a-floating-window/)
+- [Assistive Touch Android: Cara Guna Tombol Mengambang](/id/glossary/what-is-assistive-touch/)
+- [Jendela Mengambang Android: Cara Kerja, Izin, dan Aplikasinya](/id/glossary/what-is-a-floating-window/)

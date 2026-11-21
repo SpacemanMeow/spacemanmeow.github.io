@@ -118,5 +118,5 @@ Ingin aplikasi pengurus tugasan percuma, comel, dan ramah offline → Meow Todo 
 
 ## Istilah berkaitan
 
-- [Apakah Itu Daftar Tugasan (To-Do List)?](/ms/glossary/what-is-a-to-do-list/)
-- [Apakah Itu Subtugasan?](/ms/glossary/what-is-a-subtask/)
+- [Aplikasi Senarai Tugasan: Cara Atur Tugas Harian Anda](/ms/glossary/what-is-a-to-do-list/)
+- [Subtugasan: Cara Pecahkan Tugas Besar menjadi Langkah Kecil](/ms/glossary/what-is-a-subtask/)

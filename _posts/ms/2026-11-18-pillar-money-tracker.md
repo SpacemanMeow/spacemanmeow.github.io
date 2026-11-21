@@ -87,6 +87,6 @@ Ia bergantung pada aplikasi. Semak sama ada akaun diperlukan, di mana rekod disi
 
 ## Istilah berkaitan
 
-- [Apakah Aplikasi Penjejak Perbelanjaan?](/ms/glossary/what-is-an-expense-tracker/)
-- [Apakah Pengurusan Bajet?](/ms/glossary/what-is-budget-management/)
+- [Catatan Kewangan: Cara Catat Pendapatan dan Perbelanjaan](/ms/glossary/what-is-an-expense-tracker/)
+- [Pengurusan Bajet: Cara Atur Bajet Harian dan Bulanan](/ms/glossary/what-is-budget-management/)
 - [Aplikasi Meow Money Manager](/ms/apps/meow-money-manager/)

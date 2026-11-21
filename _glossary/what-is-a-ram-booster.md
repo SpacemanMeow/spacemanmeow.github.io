@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is a RAM Booster?"
-description: "A RAM booster frees memory by closing background apps. Learn what RAM cleaning does on Android, its real benefits, and its limits."
+title: "RAM Booster: How It Works and When It Helps"
+description: "A RAM booster frees memory by closing background apps.System Monitor puts it into practice."
 tags: [RAM Booster, RAM Cleaner, System Monitor]
 lang: en
+app_slug: system-monitor
 ---
 
 ## Definition & How It Works

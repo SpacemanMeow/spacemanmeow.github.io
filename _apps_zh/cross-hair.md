@@ -57,4 +57,4 @@ Crosshair Aim Pro 为你的枪械与武器生成自定义准星，帮助你精�
 
 ## 相关术语
 
-- [什么是准星（Crosshair）？](/zh/glossary/what-is-a-crosshair/)
+- [FPS 准星：类型、悬浮层与好用的 App](/zh/glossary/what-is-a-crosshair/)

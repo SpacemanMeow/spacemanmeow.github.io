@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Subtugas?"
-description: "Subtugas adalah langkah kecil di dalam satu tugas besar. Pahami kapan pemecahan tugas membuat daftar kerja lebih jelas."
+title: "Subtugas: Cara Pecah Tugas Besar jadi Langkah Kecil"
+description: "Subtugas adalah langkah kecil di dalam satu tugas besar. Pahami kapan pemecahan tugas membuat daftar kerja lebih jelas.Meow Todo List membantu menerapkannya."
 tags: [Subtask, Meow Todo]
 lang: id
+app_slug: meow-todo-list
 ---
 
 ## Definisi & Cara Kerja

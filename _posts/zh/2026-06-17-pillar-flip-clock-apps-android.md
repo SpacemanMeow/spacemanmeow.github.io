@@ -124,5 +124,5 @@ Only Clock 是一款精致的安卓与 iOS 全屏翻页钟，带漂亮的翻页�
 
 ## 相关术语
 
-- [什么是翻页时钟（Flip Clock）？](/zh/glossary/what-is-a-flip-clock/)
-- [什么是床头钟（Nightstand Clock）？](/zh/glossary/what-is-a-nightstand-clock/)
+- [翻页时钟：工作原理与 Android 好用的 App](/zh/glossary/what-is-a-flip-clock/)
+- [床头钟：如何挑选合适的床头翻页时钟](/zh/glossary/what-is-a-nightstand-clock/)

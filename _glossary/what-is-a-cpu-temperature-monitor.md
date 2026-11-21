@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is a CPU Temperature Monitor?"
-description: "A CPU temperature monitor reads and displays your processor's heat in real time. Learn why CPU temp matters and how monitoring apps help prevent throttling."
+title: "CPU Temperature Monitor: Check Android Heat and Alerts"
+description: "A CPU temperature monitor reads and displays your processor's heat in real time.CPU Monitor puts it into practice."
 tags: [CPU Temperature, CPU Monitor, System Monitor]
 lang: en
+app_slug: cpu-monitor
 ---
 
 ## Definition & Why It Matters

@@ -87,6 +87,6 @@ If you buy System Monitor, you will have CPU monitor, storage info, memory info,
 
 ## Related terms
 
-- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
-- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)
-- [What Is a RAM Booster?](/glossary/what-is-a-ram-booster/)
+- [CPU Temperature Monitor: Check Android Heat and Alerts](/glossary/what-is-a-cpu-temperature-monitor/)
+- [System Monitor: Check CPU, RAM and Storage on Android](/glossary/what-is-a-system-monitor/)
+- [RAM Booster: How It Works and When It Helps](/glossary/what-is-a-ram-booster/)

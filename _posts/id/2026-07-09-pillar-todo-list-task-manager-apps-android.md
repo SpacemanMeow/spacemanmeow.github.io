@@ -118,5 +118,5 @@ Ingin aplikasi pengelola tugas gratis, lucu, dan ramah offline → Meow Todo Lis
 
 ## Istilah terkait
 
-- [Apa Itu Daftar Tugas (To-Do List)?](/id/glossary/what-is-a-to-do-list/)
-- [Apa Itu Subtugas?](/id/glossary/what-is-a-subtask/)
+- [Aplikasi Daftar Tugas: Cara Atur Tugas Harian](/id/glossary/what-is-a-to-do-list/)
+- [Subtugas: Cara Pecah Tugas Besar jadi Langkah Kecil](/id/glossary/what-is-a-subtask/)

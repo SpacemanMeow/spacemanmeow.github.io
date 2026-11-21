@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is a Home Screen Widget?"
-description: "A home screen widget is a live mini-view of an app on your launcher. Learn what Android widgets are, types, and how to use them."
+title: "Home Screen Widget: Add and Customize Android Widgets"
+description: "A home screen widget is a live mini-view of an app on your launcher.One Widget puts it into practice."
 tags: [Home Screen Widget, Android Widget, One Widget]
 lang: en
+app_slug: one-widget
 ---
 
 ## Definition & Examples

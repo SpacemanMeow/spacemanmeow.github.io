@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Galaxy One UI คืออะไร?"
+title: "Galaxy One UI: ฟีเจอร์ ความแตกต่าง และวิดเจ็ตที่รองรับ"
 description: "Galaxy One UI คืออินเทอร์เฟซ Samsung สำหรับอุปกรณ์ Galaxy เข้าใจลักษณะเลย์เอาต์และสีสำหรับวิดเจ็ต"
 tags: [Galaxy One UI, One Widget]
 lang: th

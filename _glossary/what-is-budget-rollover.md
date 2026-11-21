@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is Budget Rollover?"
-description: "Budget rollover carries a category's surplus or deficit into the next period. Learn the four behaviors across YNAB, Monarch, PocketGuard, Goodbudget and others."
+title: "Budget Rollover: Carry Unspent Money to Next Month"
+description: "Budget rollover carries a category's surplus or deficit into the next period.Meow Money Manager puts it into practice."
 tags: [Budget Rollover, Budget Management, Budget]
 lang: en
+app_slug: meow-money-manager
 ---
 
 ## Definition

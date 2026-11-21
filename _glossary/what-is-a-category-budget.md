@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is a Category Budget?"
-description: "A category budget gives each spending category its own cap and tracks spend against it. Learn how Meow Money Manager structures parent and child categories."
+title: "Category Budget: Cap Each Spending Category Separately"
+description: "A category budget gives each spending category its own cap and tracks spend against it.Meow Money Manager puts it into practice."
 tags: [Category Budget, Budget Management, Budget]
 lang: en
+app_slug: meow-money-manager
 ---
 
 ## Definition

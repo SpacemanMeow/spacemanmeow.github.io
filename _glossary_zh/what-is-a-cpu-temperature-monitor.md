@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是 CPU 温度监控？"
-description: "CPU 温度监控会实时读取并显示处理器热量。了解 CPU 温度为何重要，以及监控应用如何帮助避免降频。"
+title: "CPU 温度监控：检查手机发热与温度警报"
+description: "CPU 温度监控会实时读取并显示处理器热量。了解 CPU 温度为何重要，以及监控应用如何帮助避免降频。CPU Monitor 在 Android 上实时显示温度并发出高温警报。"
 tags: [CPU 温度, CPU Monitor, System Monitor]
 lang: zh
+app_slug: cpu-monitor
 ---
 
 ## 定义与重要性

@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是白噪音（White Noise）？"
-description: "白噪音是一种平稳、均匀、能掩盖背景噪声的声音。了解白噪音是什么、它如何帮助专注与睡眠，以及应用如何提供它。"
+title: "白噪音：如何帮助专注与改善睡眠"
+description: "白噪音是一种平稳、均匀、能掩盖背景噪声的声音。了解白噪音是什么、它如何帮助专注与睡眠，以及应用如何提供它。Meow FM 提供稳定的白噪音，助力专注与睡眠。"
 tags: [白噪音, 专注, Meow FM]
 lang: zh
+app_slug: meow-fm
 ---
 
 ## 定义与用途

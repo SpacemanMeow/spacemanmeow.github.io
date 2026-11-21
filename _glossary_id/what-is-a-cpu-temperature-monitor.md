@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Pemantau Suhu CPU?"
-description: "Pemantau suhu CPU menampilkan suhu prosesor, frekuensi, dan beban per inti secara langsung. Pahami apa yang bisa diukurnya."
+title: "Pemantau Suhu CPU Android: Cara Cek Suhu dan Peringatan Panas"
+description: "Pemantau suhu CPU menampilkan suhu prosesor, frekuensi, dan beban per inti secara langsung. Pahami apa yang bisa diukurnya.CPU Monitor membantu menerapkannya."
 tags: [CPU Temperature, CPU Monitor]
 lang: id
+app_slug: cpu-monitor
 ---
 
 ## Definisi & Cara Kerja

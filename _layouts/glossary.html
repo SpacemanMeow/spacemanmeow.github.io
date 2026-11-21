@@ -37,6 +37,23 @@ layout: default
       {%- endif -%}
       {%- endif -%}
 
+      {%- if page.app_slug -%}
+      {%- assign guide_names = site.data.glossary_pillars[page.app_slug] -%}
+      {%- if guide_names -%}
+      <aside class="glossary-solution glossary-guides">
+        <h2>{{ site.data.ui[lang].related_guide | default: 'Related guides' }}</h2>
+        <ul>
+          {%- for gname in guide_names -%}
+          {%- assign guide = site.posts | where: 'lang', lang | where_exp: 'p', 'p.url contains gname' | first -%}
+          {%- if guide -%}
+          <li><a href="{{ guide.url | relative_url }}">{{ guide.title | escape }}</a></li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </aside>
+      {%- endif -%}
+      {%- endif -%}
+
       <p class="glossary__back"><a href="{{ '/glossary/' | prepend: lp | relative_url }}">{{ site.data.ui[lang].back_to_glossary }}</a></p>
     </div>
   </div>

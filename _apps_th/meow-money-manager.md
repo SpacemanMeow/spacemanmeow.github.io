@@ -99,6 +99,11 @@ Meow Money Manager ไม่มีระบบบัญชีและไม่�
 
 ## ศัพท์ที่เกี่ยวข้อง
 
-- [แอปบันทึกการเงินคืออะไร?](/th/glossary/what-is-an-expense-tracker/)
-- [การจัดการงบประมาณคืออะไร?](/th/glossary/what-is-budget-management/)
-- [การจัดการเบิกคืนคืออะไร?](/th/glossary/what-is-reimbursement-management/)
+- [แอปบันทึกการเงิน: ติดตามรายรับรายจ่ายและจัดงบ](/th/glossary/what-is-an-expense-tracker/)
+- [การจัดการงบประมาณ: วางงบรายวันและงบต่อหมวด](/th/glossary/what-is-budget-management/)
+- [การจัดการเบิกคืน: วิธีบันทึกและติดตามเงินคืน](/th/glossary/what-is-reimbursement-management/)
+- [งบต่อหมวด: วิธีกำหนดเพดานตามหมวดหมู่](/th/glossary/what-is-a-category-budget/)
+- [Zero-Based Budgeting: วิธีจัดสรรเงินทุกบาทให้มีจุดประสงค์](/th/glossary/what-is-zero-based-budgeting/)
+- [Envelope Budgeting: วิธีแบ่งเงินตามซอง](/th/glossary/what-is-envelope-budgeting/)
+- [Budget Rollover: วิธีนำเงินเหลือไปเดือนถัดไป](/th/glossary/what-is-budget-rollover/)
+- [Sinking Fund: วิธีออมเงินเพื่อค่าใช้จ่ายใหญ่](/th/glossary/what-is-a-sinking-fund/)

@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是心情追踪（Mood Tracker）？"
-description: "心情追踪是每天记录情绪状态的工具。了解心情追踪是什么、为什么人们使用它，以及心情追踪应用如何运作。"
+title: "心情追踪：记录情绪，发现情绪规律"
+description: "心情追踪是每天记录情绪状态的工具。了解心情追踪是什么、为什么人们使用它，以及心情追踪应用如何运作。Meow Mood Diary 让每日心情记录快速又私密。"
 tags: [心情追踪, 日记, Meow Mood Diary]
 lang: zh
+app_slug: meow-mood-diary
 ---
 
 ## 定义与作用

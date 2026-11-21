@@ -120,5 +120,5 @@ CPU Monitor แสดงอุณหภูมิและความถี่ C
 
 ## ศัพท์ที่เกี่ยวข้อง
 
-- [ตัวตรวจสอบอุณหภูมิ CPU คืออะไร?](/th/glossary/what-is-a-cpu-temperature-monitor/)
-- [ตัวตรวจสอบระบบคืออะไร?](/th/glossary/what-is-a-system-monitor/)
+- [ตัวตรวจสอบอุณหภูมิ CPU: วิธีเช็คความร้อนและการแจ้งเตือน](/th/glossary/what-is-a-cpu-temperature-monitor/)
+- [ตัวตรวจสอบระบบ: วิธีเช็ค CPU RAM และพื้นที่จัดเก็บ](/th/glossary/what-is-a-system-monitor/)

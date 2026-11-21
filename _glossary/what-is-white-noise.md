@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is White Noise?"
-description: "White noise is a steady, even sound that masks background noise. Learn what white noise is, how it aids focus and sleep, and how apps deliver it."
+title: "White Noise: How It Helps Focus and Sleep Better"
+description: "White noise is a steady, even sound that masks background noise.Meow FM puts it into practice."
 tags: [White Noise, Focus, Meow FM]
 lang: en
+app_slug: meow-fm
 ---
 
 ## Definition & Why People Use It

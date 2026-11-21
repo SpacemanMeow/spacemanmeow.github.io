@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是翻页时钟（Flip Clock）？"
-description: "翻页时钟是用翻页卡片显示时间的时钟，数字翻动到下一个。了解翻页时钟是什么，以及为什么它常被用作全屏时钟。"
+title: "翻页时钟：工作原理与 Android 好用的 App"
+description: "翻页时钟是用翻页卡片显示时间的时钟，数字翻动到下一个。了解翻页时钟是什么，以及为什么它常被用作全屏时钟。Only Clock 把全屏翻页时钟带到 Android 主屏幕。"
 tags: [Flip Clock, Only Clock, Fullscreen Clock]
 lang: zh
+app_slug: only-clock
 ---
 
 ## 定义与原理

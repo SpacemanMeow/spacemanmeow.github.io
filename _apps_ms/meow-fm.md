@@ -62,4 +62,4 @@ Setiap white noise mempunyai sampul tersendiri, sehingga pengalaman mendengarkan
 
 ## Istilah berkaitan
 
-- [Apakah Itu White Noise?](/ms/glossary/what-is-white-noise/)
+- [White Noise: Cara Ia Membantu Fokus dan Tidur Lebih Baik](/ms/glossary/what-is-white-noise/)

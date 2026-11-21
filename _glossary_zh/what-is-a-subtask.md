@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是子任务？"
-description: "子任务是隶属于某个父任务、可单独勾选完成的小步骤，把大目标变成可追踪的进度。了解它是什么，以及 Meow Todo List 如何把任务拆成子任务。"
+title: "子任务：把大任务拆成可执行的小步骤"
+description: "子任务是隶属于某个父任务、可单独勾选完成的小步骤，把大目标变成可追踪的进度。了解它是什么，以及 Meow Todo List 如何把任务拆成子任务。Meow Todo List 把大任务拆成可勾选的步骤。"
 tags: [Subtask, Task, Meow Todo List]
 lang: zh
+app_slug: meow-todo-list
 ---
 
 ## 定义

@@ -86,4 +86,4 @@ Meow Mood Diary is designed to be your trusted companion on the path to better e
 
 ## Related terms
 
-- [What Is a Mood Tracker?](/glossary/what-is-a-mood-tracker/)
+- [Mood Tracker: Record Feelings and Spot Emotional Patterns](/glossary/what-is-a-mood-tracker/)

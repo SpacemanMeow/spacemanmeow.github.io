@@ -118,4 +118,4 @@ Meow Mood Diary คือ [ไดอารี่อารมณ์](/th/glossary
 
 ## ศัพท์ที่เกี่ยวข้อง
 
-- [ตัวติดตามอารมณ์คืออะไร?](/th/glossary/what-is-a-mood-tracker/)
+- [ตัวติดตามอารมณ์: วิธีบันทึกความรู้สึกประจำวัน](/th/glossary/what-is-a-mood-tracker/)

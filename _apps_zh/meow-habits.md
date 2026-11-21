@@ -74,5 +74,5 @@ faq:
 
 ## 相关术语
 
-- [什么是习惯追踪应用（Habit Tracker）？](/zh/glossary/what-is-a-habit-tracker/)
-- [什么是习惯打卡连续天数（Habit Streak）？](/zh/glossary/what-is-a-habit-streak/)
+- [习惯追踪：记录每日习惯，看见进步](/zh/glossary/what-is-a-habit-tracker/)
+- [习惯连续天数：不断链地坚持每日习惯](/zh/glossary/what-is-a-habit-streak/)

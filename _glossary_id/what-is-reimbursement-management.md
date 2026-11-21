@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Pengelolaan Reimburse?"
-description: "Pengelolaan reimburse adalah pencatatan biaya kerja yang akan diganti perusahaan, lengkap dengan status pelunasannya."
+title: "Pengelolaan Reimburse: Cara Catat dan Lacak Uang Kembali"
+description: "Pengelolaan reimburse adalah pencatatan biaya kerja yang akan diganti perusahaan, lengkap dengan status pelunasannya.Meow Money Manager membantu menerapkannya."
 tags: [Reimbursement, Meow Money]
 lang: id
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Kerja

@@ -65,4 +65,4 @@ faq:
 
 ## 相关术语
 
-- [什么是白噪音（White Noise）？](/zh/glossary/what-is-white-noise/)
+- [白噪音：如何帮助专注与改善睡眠](/zh/glossary/what-is-white-noise/)

@@ -1,9 +1,10 @@
 ---
 layout: glossary
 title: "Penjejak Mood: Cara Catat Perasaan Harian"
-description: "Penjejak mood mencatat perasaan harian beserta pemicunya. Fahami cara membaca pola emosi dari catatan sederhana."
+description: "Penjejak mood mencatat perasaan harian beserta pemicunya. Fahami cara membaca pola emosi dari catatan sederhana.Meow Mood Diary membantu mengamalkannya."
 tags: [Mood Tracker, Meow Mood Diary]
 lang: ms
+app_slug: meow-mood-diary
 ---
 
 ## Definisi & Cara Ia Berfungsi

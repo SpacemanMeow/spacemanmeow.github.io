@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Daftar Tugas?"
-description: "Daftar tugas adalah kumpulan pekerjaan yang dicatat, diurutkan, dan ditandai selesai. Pahami unsur dasar serta subtugasnya."
+title: "Aplikasi Daftar Tugas: Cara Atur Tugas Harian"
+description: "Daftar tugas adalah kumpulan pekerjaan yang dicatat, diurutkan, dan ditandai selesai.Meow Todo List membantu menerapkannya."
 tags: [To-Do List, Meow Todo]
 lang: id
+app_slug: meow-todo-list
 ---
 
 ## Definisi & Cara Kerja

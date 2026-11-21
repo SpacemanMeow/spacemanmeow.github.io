@@ -119,8 +119,8 @@ One Widget คือแอปจ่ายเงิน เวอร์ชัน�
 
 ## ศัพท์ที่เกี่ยวข้อง
 
-- [วิดเจ็ตหน้าจอหลักคืออะไร?](/th/glossary/what-is-a-home-screen-widget/)
-- [Material You คืออะไร?](/th/glossary/what-is-material-you/)
-- [Nothing UI คืออะไร?](/th/glossary/what-is-nothing-ui/)
-- [Galaxy One UI คืออะไร?](/th/glossary/what-is-galaxy-one-ui/)
-- [iOS Glass คืออะไร?](/th/glossary/what-is-ios-glass/)
+- [วิดเจ็ตหน้าจอหลัก Android: วิธีเพิ่มและปรับแต่ง](/th/glossary/what-is-a-home-screen-widget/)
+- [Material You: วิธีเปลี่ยนสีธีม Android](/th/glossary/what-is-material-you/)
+- [Nothing UI: ฟีเจอร์การออกแบบและวิดเจ็ตสไตล์กระจก](/th/glossary/what-is-nothing-ui/)
+- [Galaxy One UI: ฟีเจอร์ ความแตกต่าง และวิดเจ็ตที่รองรับ](/th/glossary/what-is-galaxy-one-ui/)
+- [iOS Glass: สไตล์กระจกวิดเจ็ตและวิธีเลียนแบบ](/th/glossary/what-is-ios-glass/)

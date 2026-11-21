@@ -118,5 +118,5 @@ Want a free, cute, offline-friendly task manager → Meow Todo List; want natura
 
 ## Related terms
 
-- [What Is a To-Do List?](/glossary/what-is-a-to-do-list/)
-- [What Is a Subtask?](/glossary/what-is-a-subtask/)
+- [To-Do List App: Organize Daily Tasks and Priorities](/glossary/what-is-a-to-do-list/)
+- [Subtask: Break Big Tasks Into Manageable Steps](/glossary/what-is-a-subtask/)

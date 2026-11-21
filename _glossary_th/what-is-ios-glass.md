@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "iOS Glass คืออะไร?"
+title: "iOS Glass: สไตล์กระจกวิดเจ็ตและวิธีเลียนแบบ"
 description: "iOS Glass คือลุคกระจกโปร่งแสงพื้นหลังเบลอที่นิยมในอินเทอร์เฟซ iOS เข้าใจลักษณะและการประยุกต์บนวิดเจ็ต"
 tags: [iOS Glass, One Widget]
 lang: th

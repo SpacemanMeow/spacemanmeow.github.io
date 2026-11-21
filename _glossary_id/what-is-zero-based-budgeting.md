@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Zero-Based Budgeting?"
-description: "Zero-based budgeting mengalokasikan tiap pendapatan periode ke pengeluaran, tabungan, utang sampai nol. Pahami aturannya dan penerapannya di aplikasi."
+title: "Zero-Based Budgeting: Cara Alokasi Setiap Rupiah"
+description: "Zero-based budgeting mengalokasikan tiap pendapatan periode ke pengeluaran, tabungan, utang sampai nol.Meow Money Manager membantu menerapkannya."
 tags: [Zero-Based Budgeting, Budget, Meow Money]
 lang: id
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Kerja

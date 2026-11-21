@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "什么是 Galaxy One UI？"
+title: "Galaxy One UI：特性、差异与小组件支持"
 description: "Galaxy One UI 是三星在安卓之上的界面层，针对单手操作与大屏优化。了解它是什么，以及小组件包为何为 Galaxy 手机提供 One UI 风格组件。"
 tags: [Galaxy One UI, Samsung, Android, One Widget]
 lang: zh

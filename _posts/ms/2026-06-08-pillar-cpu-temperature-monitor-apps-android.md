@@ -124,5 +124,5 @@ Atau baca [Monitor suhu CPU terbaik](/ms/posts/best-cpu-monitor-temperature/) un
 
 ## Istilah berkaitan
 
-- [Apakah Itu Monitor Suhu CPU?](/ms/glossary/what-is-a-cpu-temperature-monitor/)
-- [Apakah Itu System Monitor?](/ms/glossary/what-is-a-system-monitor/)
+- [Pemantau Suhu CPU Android: Cara Semak Suhu dan Amaran Panas](/ms/glossary/what-is-a-cpu-temperature-monitor/)
+- [Pemantau Sistem Android: Cara Semak CPU, RAM, dan Storage](/ms/glossary/what-is-a-system-monitor/)

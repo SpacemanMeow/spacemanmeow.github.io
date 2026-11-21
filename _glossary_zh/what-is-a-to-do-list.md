@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是待办清单（To-Do List）？"
-description: "待办清单是一份待完成任务的书面集合。了解任务管理是什么、清单为何提升效率，以及待办应用如何帮助。"
+title: "待办清单：整理每日任务与优先级"
+description: "待办清单是一份待完成任务的书面集合。了解任务管理是什么、清单为何提升效率，以及待办应用如何帮助。Meow Todo List 把大任务拆成可勾选的步骤。"
 tags: [待办清单, 任务管理, Meow To-Do List]
 lang: zh
+app_slug: meow-todo-list
 ---
 
 ## 定义与任务管理

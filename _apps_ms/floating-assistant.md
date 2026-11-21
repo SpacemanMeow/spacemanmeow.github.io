@@ -62,5 +62,5 @@ Aplikasi ini menggunakan perkhidmatan kebolehcapaian **hanya** untuk fungsi-fung
 
 ## Istilah berkaitan
 
-- [Apakah Itu Assistive Touch?](/ms/glossary/what-is-assistive-touch/)
-- [Apakah Itu Tetingkap Terapung?](/ms/glossary/what-is-a-floating-window/)
+- [Assistive Touch Android: Cara Guna Butang Terapung](/ms/glossary/what-is-assistive-touch/)
+- [Tetingkap Terapung Android: Cara Kerja dan Kebenaran](/ms/glossary/what-is-a-floating-window/)

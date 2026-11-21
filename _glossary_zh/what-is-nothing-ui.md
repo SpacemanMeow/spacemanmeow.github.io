@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "什么是 Nothing UI？"
+title: "Nothing UI：设计特点与玻璃风格小组件"
 description: "Nothing UI 是 Nothing 手机极简、低饱和的设计语言，以 Glyph 灯效与点阵美学为核心。了解它是什么，以及小组件为何复刻其外观。"
 tags: [Nothing UI, Android, One Widget]
 lang: zh

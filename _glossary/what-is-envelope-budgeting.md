@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is Envelope Budgeting?"
-description: "Envelope budgeting splits money into per-category virtual envelopes you spend from. See how Goodbudget's running-balance method works."
+title: "Envelope Budgeting: Split Cash into Spending Envelopes"
+description: "Envelope budgeting splits money into per-category virtual envelopes you spend from.Meow Money Manager puts it into practice."
 tags: [Envelope Budgeting, Budget Management, Budget]
 lang: en
+app_slug: meow-money-manager
 ---
 
 ## Definition

@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Assistive Touch?"
-description: "Assistive Touch adalah tombol mengambang pengganti tombol fisik. Pahami asal usul istilah ini dan padanannya di Android."
+title: "Assistive Touch Android: Cara Guna Tombol Mengambang"
+description: "Assistive Touch adalah tombol mengambang pengganti tombol fisik.Floating Assistant membantu menerapkannya."
 tags: [Assistive Touch, Floating Assistant]
 lang: id
+app_slug: floating-assistant
 ---
 
 ## Definisi & Cara Kerja

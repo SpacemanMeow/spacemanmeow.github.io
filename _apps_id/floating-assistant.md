@@ -62,5 +62,5 @@ Aplikasi ini menggunakan layanan aksesibilitas **hanya** untuk fungsi-fungsi yan
 
 ## Istilah terkait
 
-- [Apa Itu Assistive Touch?](/id/glossary/what-is-assistive-touch/)
-- [Apa Itu Jendela Mengambang?](/id/glossary/what-is-a-floating-window/)
+- [Assistive Touch Android: Cara Guna Tombol Mengambang](/id/glossary/what-is-assistive-touch/)
+- [Jendela Mengambang Android: Cara Kerja, Izin, dan Aplikasinya](/id/glossary/what-is-a-floating-window/)

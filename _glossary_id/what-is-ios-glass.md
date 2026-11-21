@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Apa Itu iOS Glass?"
+title: "iOS Glass: Gaya Kaca Widget dan Cara Menirunya"
 description: "iOS Glass adalah gaya kaca transparan dengan latar buram yang dipopulerkan antarmuka iOS. Pahami ciri dan penerapannya pada widget."
 tags: [iOS Glass, One Widget]
 lang: id

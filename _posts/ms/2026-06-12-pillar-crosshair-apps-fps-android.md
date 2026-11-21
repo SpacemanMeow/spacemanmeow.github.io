@@ -116,4 +116,4 @@ Atau baca [Bidik silang terbaik untuk game FPS](/ms/posts/best-cross-hair-fps/) 
 
 ## Istilah berkaitan
 
-- [Apakah Itu Bidik Silang?](/ms/glossary/what-is-a-crosshair/)
+- [Crosshair FPS: Cara Kerja, Jenis Overlay, dan Aplikasinya](/ms/glossary/what-is-a-crosshair/)

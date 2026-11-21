@@ -124,5 +124,5 @@ Or read the [Best CPU temperature monitor](/posts/best-cpu-monitor-temperature/)
 
 ## Related terms
 
-- [What Is a CPU Temperature Monitor?](/glossary/what-is-a-cpu-temperature-monitor/)
-- [What Is a System Monitor?](/glossary/what-is-a-system-monitor/)
+- [CPU Temperature Monitor: Check Android Heat and Alerts](/glossary/what-is-a-cpu-temperature-monitor/)
+- [System Monitor: Check CPU, RAM and Storage on Android](/glossary/what-is-a-system-monitor/)

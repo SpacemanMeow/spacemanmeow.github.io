@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Nothing UI คืออะไร?"
+title: "Nothing UI: ฟีเจอร์การออกแบบและวิดเจ็ตสไตล์กระจก"
 description: "Nothing UI คือลุคภาพ Nothing ด้วยแอคเซนต์จุดเมทริกซ์ เส้นบาง และโมโนโครม เข้าใจลักษณะเด่น"
 tags: [Nothing UI, One Widget]
 lang: th

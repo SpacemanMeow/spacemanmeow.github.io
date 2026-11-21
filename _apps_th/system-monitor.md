@@ -77,6 +77,6 @@ System Monitor สนับสนุนการสลับมัลติธ�
 
 ## ศัพท์ที่เกี่ยวข้อง
 
-- [ตัวตรวจสอบอุณหภูมิ CPU คืออะไร?](/th/glossary/what-is-a-cpu-temperature-monitor/)
-- [ตัวตรวจสอบระบบคืออะไร?](/th/glossary/what-is-a-system-monitor/)
-- [ตัวเร่ง RAM คืออะไร?](/th/glossary/what-is-a-ram-booster/)
+- [ตัวตรวจสอบอุณหภูมิ CPU: วิธีเช็คความร้อนและการแจ้งเตือน](/th/glossary/what-is-a-cpu-temperature-monitor/)
+- [ตัวตรวจสอบระบบ: วิธีเช็ค CPU RAM และพื้นที่จัดเก็บ](/th/glossary/what-is-a-system-monitor/)
+- [ตัวเพิ่มประสิทธิภาพ RAM: วิธีทำงานและเมื่อไหร่มีประโยชน์](/th/glossary/what-is-a-ram-booster/)

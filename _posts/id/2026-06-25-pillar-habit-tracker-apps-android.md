@@ -119,4 +119,4 @@ Atau baca [Aplikasi habit tracker terbaik](/id/posts/best-meow-habits-general/) 
 
 ## Istilah terkait
 
-- [Apa Itu Aplikasi Habit Tracker?](/id/glossary/what-is-a-habit-tracker/)
+- [Pelacak Kebiasaan: Cara Catat Rutinitas Harian](/id/glossary/what-is-a-habit-tracker/)

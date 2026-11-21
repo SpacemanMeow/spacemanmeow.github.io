@@ -104,5 +104,5 @@ We do not collect any data or take actions that users do not do. We never public
 
 ## Related terms
 
-- [What Is Assistive Touch?](/glossary/what-is-assistive-touch/)
-- [What Is a Floating Window?](/glossary/what-is-a-floating-window/)
+- [Assistive Touch: Use an Android Floating Button](/glossary/what-is-assistive-touch/)
+- [Floating Window Android: How It Works and Permissions](/glossary/what-is-a-floating-window/)

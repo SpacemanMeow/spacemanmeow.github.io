@@ -1,9 +1,10 @@
 ---
 layout: glossary
 title: "Sinking Fund: Cara Simpan Wang untuk Perbelanjaan Besar"
-description: "Sinking fund menyimpan sedikit setiap bulan untuk kos masa depan agar bil besar tak pukul satu bulan. Fahami penggunaannya dalam EveryDollar dan Monarch."
+description: "Sinking fund menyimpan sedikit setiap bulan untuk kos masa depan agar bil besar tak pukul satu bulan.Meow Money Manager membantu mengamalkannya."
 tags: [Sinking Fund, Bajet, Meow Money]
 lang: ms
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Ia Berfungsi

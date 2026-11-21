@@ -118,5 +118,5 @@ Meow Todo List 是一款安卓与 iOS 的简易日程规划器与待办清单任
 
 ## 相关术语
 
-- [什么是待办清单（To-Do List）？](/zh/glossary/what-is-a-to-do-list/)
-- [什么是子任务？](/zh/glossary/what-is-a-subtask/)
+- [待办清单：整理每日任务与优先级](/zh/glossary/what-is-a-to-do-list/)
+- [子任务：把大任务拆成可执行的小步骤](/zh/glossary/what-is-a-subtask/)

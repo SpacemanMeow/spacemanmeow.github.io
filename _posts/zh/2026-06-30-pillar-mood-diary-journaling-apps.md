@@ -118,4 +118,4 @@ Meow Mood Diary 是一款安全、私密的[心情日记](/zh/glossary/what-is-a
 
 ## 相关术语
 
-- [什么是心情追踪（Mood Tracker）？](/zh/glossary/what-is-a-mood-tracker/)
+- [心情追踪：记录情绪，发现情绪规律](/zh/glossary/what-is-a-mood-tracker/)

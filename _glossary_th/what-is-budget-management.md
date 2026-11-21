@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: "การจัดการงบประมาณ: วางงบรายวันและงบต่อหมวด"
-description: "กำหนดงบรายวัน รายเดือน และต่อหมวดหมู่ให้ติดตามค่าใช้จ่ายได้ง่าย พร้อมตัวอย่างการบันทึกด้วยแอปการเงิน"
+description: "กำหนดงบรายวัน รายเดือน และต่อหมวดหมู่ให้ติดตามค่าใช้จ่ายได้ง่าย พร้อมตัวอย่างการบันทึกด้วยแอปการเงินMeow Money Manager ช่วยนำไปใช้งาน"
 tags: [Budget Management, Budget App, Meow Money]
 lang: th
 app_slug: meow-money-manager

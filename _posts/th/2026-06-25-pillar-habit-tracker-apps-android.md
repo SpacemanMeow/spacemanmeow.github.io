@@ -119,4 +119,4 @@ Meow Habits คือ [แอปติดตามนิสัย](/th/glossary/
 
 ## ศัพท์ที่เกี่ยวข้อง
 
-- [แอปติดตามนิสัย (Habit Tracker) คืออะไร?](/th/glossary/what-is-a-habit-tracker/)
+- [แอปติดตามนิสัย: วิธีบันทึกนิสัยประจำวัน](/th/glossary/what-is-a-habit-tracker/)

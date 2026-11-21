@@ -1,0 +1,23 @@
+meow-money-manager:
+  - pillar-budget-expense-tracker-apps-android
+  - pillar-money-tracker
+cpu-monitor:
+  - pillar-cpu-temperature-monitor-apps-android
+cross-hair:
+  - pillar-crosshair-apps-fps-android
+floating-assistant:
+  - pillar-floating-assistant-apps-android
+meow-fm:
+  - pillar-white-noise-focus-apps-android
+meow-habits:
+  - pillar-habit-tracker-apps-android
+meow-mood-diary:
+  - pillar-mood-diary-journaling-apps
+meow-todo-list:
+  - pillar-todo-list-task-manager-apps-android
+one-widget:
+  - pillar-android-home-screen-widget-apps
+only-clock:
+  - pillar-flip-clock-apps-android
+system-monitor:
+  - pillar-system-monitor-apps-android

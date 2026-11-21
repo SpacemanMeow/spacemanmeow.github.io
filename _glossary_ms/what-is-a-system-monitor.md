@@ -1,9 +1,10 @@
 ---
 layout: glossary
 title: "Pemantau Sistem Android: Cara Semak CPU, RAM, dan Storage"
-description: "Pemantau sistem merangkum CPU, memori, storan, dan bateri dalam satu paparan. Fahami ruang lingkup serta batasannya."
+description: "Pemantau sistem merangkum CPU, memori, storan, dan bateri dalam satu paparan. Fahami ruang lingkup serta batasannya.System Monitor membantu mengamalkannya."
 tags: [System Monitor, Phone Cleaner]
 lang: ms
+app_slug: system-monitor
 ---
 
 ## Definisi & Cara Ia Berfungsi

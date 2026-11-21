@@ -1,9 +1,10 @@
 ---
 layout: glossary
 title: "Jam Meja Sisi Katil: Cara Pilih Jam Flip untuk Bilik Tidur"
-description: "Jam samping tempat tidur adalah jam skrin penuh dengan angka besar dan cahaya redup untuk digunakan di kamar."
+description: "Jam samping tempat tidur adalah jam skrin penuh dengan angka besar dan cahaya redup untuk digunakan di kamar.Only Clock membantu mengamalkannya."
 tags: [Nightstand Clock, Only Clock]
 lang: ms
+app_slug: only-clock
 ---
 
 ## Definisi & Cara Ia Berfungsi

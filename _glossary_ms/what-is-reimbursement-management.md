@@ -1,9 +1,10 @@
 ---
 layout: glossary
 title: "Pengurusan Tuntutan Balik: Cara Catat dan Jejak Reimburse"
-description: "Pengurusan tuntutan balik adalah pencatatan perbelanjaan kerja yang akan diganti syarikat, lengkap dengan status pelunasannya."
+description: "Pengurusan tuntutan balik adalah pencatatan perbelanjaan kerja yang akan diganti syarikat, lengkap dengan statusMeow Money Manager membantu mengamalkannya."
 tags: [Tuntutan balik, Meow Money]
 lang: ms
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Ia Berfungsi

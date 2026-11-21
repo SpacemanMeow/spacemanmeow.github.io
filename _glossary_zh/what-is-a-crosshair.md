@@ -1,7 +1,7 @@
 ---
 layout: glossary
-title: "什么是准星（Crosshair）？"
-description: "准星是屏幕中央的瞄准标记。了解准星叠加是什么、手机玩家为何使用它，以及它如何运作。"
+title: "FPS 准星：类型、悬浮层与好用的 App"
+description: "准星是屏幕中央的瞄准标记。了解准星叠加是什么、手机玩家为何使用它，以及它如何运作。Crosshair Aim 为 FPS 玩家提供可自定义的屏幕准星。"
 tags: [准星, FPS, CrossHair]
 lang: zh
 app_slug: cross-hair

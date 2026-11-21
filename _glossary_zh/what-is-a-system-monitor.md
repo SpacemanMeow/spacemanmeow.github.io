@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是系统监控（System Monitor）？"
-description: "系统监控会显示设备的实时状态——CPU、内存、电池、网络。了解系统监控应用展示什么，以及 Android 用户为何使用它。"
+title: "系统监控：查看 Android 的 CPU、内存与存储"
+description: "系统监控会显示设备的实时状态——CPU、内存、电池、网络。了解系统监控应用展示什么，以及 Android 用户为何使用它。System Monitor 实时显示 CPU、内存与存储状态。"
 tags: [系统监控, System Monitor]
 lang: zh
+app_slug: system-monitor
 ---
 
 ## 定义与功能

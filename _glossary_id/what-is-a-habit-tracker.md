@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Pelacak Kebiasaan?"
-description: "Pelacak kebiasaan membantu membangun rutinitas dengan pencatatan harian dan streak. Pahami cara kerja serta manfaatnya."
+title: "Pelacak Kebiasaan: Cara Catat Rutinitas Harian"
+description: "Pelacak kebiasaan membantu membangun rutinitas dengan pencatatan harian dan streak. Pahami cara kerja serta manfaatnya.Meow Habits membantu menerapkannya."
 tags: [Habit Tracker, Meow Habits]
 lang: id
+app_slug: meow-habits
 ---
 
 ## Definisi & Cara Kerja

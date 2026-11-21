@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Budget Rollover คืออะไร?"
-description: "Budget rollover นำกำไรหรือขาดทุนหมวดไปรอบถัดไป เข้าใจสี่พฤติกรรมใน YNAB Monarch PocketGuard Goodbudget"
+title: "Budget Rollover: วิธีนำเงินเหลือไปเดือนถัดไป"
+description: "Budget rollover นำกำไรหรือขาดทุนหมวดไปรอบถัดไป เข้าใจสี่พฤติกรรมใน YNAB Monarch PocketGuard GoodbudgetMeow Money Manager ช่วยนำไปใช้งาน"
 tags: [Budget Rollover, Budget, Meow Money]
 lang: th
+app_slug: meow-money-manager
 ---
 
 ## นิยามและวิธีการทำงาน

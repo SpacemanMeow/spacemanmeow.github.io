@@ -1,9 +1,10 @@
 ---
 layout: glossary
 title: "Aplikasi Senarai Tugasan: Cara Atur Tugas Harian Anda"
-description: "Senarai tugasan adalah kumpulan kerja yang dicatat, diurutkan, dan ditandai selesai. Fahami unsur dasar serta subtugasnya."
+description: "Senarai tugasan adalah kumpulan kerja yang dicatat, diurutkan, dan ditandai selesai.Meow Todo List membantu mengamalkannya."
 tags: [To-Do List, Meow Todo]
 lang: ms
+app_slug: meow-todo-list
 ---
 
 ## Definisi & Cara Ia Berfungsi

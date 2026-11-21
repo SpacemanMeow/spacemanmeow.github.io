@@ -72,5 +72,5 @@ Beralih bebas di antara dua tema yang disesuaikan supaya selesa dilihat, baik un
 
 ## Istilah berkaitan
 
-- [Apakah Itu Penjejak Tabiat?](/ms/glossary/what-is-a-habit-tracker/)
-- [Apakah Itu Habit Streak?](/ms/glossary/what-is-a-habit-streak/)
+- [Penjejak Tabiat: Cara Catat Amalan Harian Anda](/ms/glossary/what-is-a-habit-tracker/)
+- [Habit Streak: Cara Menjaga Konsistensi dan Catatan Harian](/ms/glossary/what-is-a-habit-streak/)

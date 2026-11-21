@@ -112,4 +112,4 @@ Crosshair Aim Pro เพิ่มโอเวอร์เลย์ครอส�
 
 ## ศัพท์ที่เกี่ยวข้อง
 
-- [ครอสแฮร์คืออะไร?](/th/glossary/what-is-a-crosshair/)
+- [ครอสแฮร์ FPS: ประเภทโอเวอร์เลย์ วิธีปรับ และแอปที่ใช้](/th/glossary/what-is-a-crosshair/)

@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is a Flip Clock?"
-description: "A flip clock shows time with split-flap cards that flip to the next number. Learn what flip clocks are and why they suit fullscreen clock widgets."
+title: "Flip Clock: How It Works and Best Apps for Android"
+description: "A flip clock shows time with split-flap cards that flip to the next number.Only Clock puts it into practice."
 tags: [Flip Clock, Only Clock, Fullscreen Clock]
 lang: en
+app_slug: only-clock
 ---
 
 ## Definition & How It Works

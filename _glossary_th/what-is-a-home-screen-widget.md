@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "วิดเจ็ตหน้าจอหลักคืออะไร?"
-description: "วิดเจ็ตหน้าจอหลักคือชิ้นส่วนเล็กบน homescreen ที่แสดงข้อมูลหรือทางลัดโดยไม่ต้องเปิดแอป"
+title: "วิดเจ็ตหน้าจอหลัก Android: วิธีเพิ่มและปรับแต่ง"
+description: "วิดเจ็ตหน้าจอหลักคือชิ้นส่วนเล็กบน homescreen ที่แสดงข้อมูลหรือทางลัดโดยไม่ต้องเปิดแอป One Widget ช่วยเพิ่มและจัดเรียงวิดเจ็ต Android ไว้ในที่เดียว"
 tags: [Home Screen Widget, One Widget]
 lang: th
+app_slug: one-widget
 ---
 
 ## นิยามและวิธีการทำงาน

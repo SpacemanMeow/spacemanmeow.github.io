@@ -78,5 +78,5 @@ Meow Todo List & Task สามารถส่งออกรายงานง�
 
 ## ศัพท์ที่เกี่ยวข้อง
 
-- [รายการสิ่งที่ต้องทำคืออะไร?](/th/glossary/what-is-a-to-do-list/)
-- [งานย่อยคืออะไร?](/th/glossary/what-is-a-subtask/)
+- [แอปรายการสิ่งที่ต้องทำ: วิธีจัดระเบียบงานประจำวัน](/th/glossary/what-is-a-to-do-list/)
+- [งานย่อย: วิธีแบ่งงานใหญ่เป็นขั้นตอนเล็ก](/th/glossary/what-is-a-subtask/)

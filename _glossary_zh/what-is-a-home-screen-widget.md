@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是主屏幕小组件（Home Screen Widget）？"
-description: "主屏幕小组件是启动器上应用的一个实时迷你视图。了解 Android 小组件是什么、有哪些类型，以及如何使用。"
+title: "主屏幕小组件：添加与自定义 Android 小组件"
+description: "主屏幕小组件是启动器上应用的一个实时迷你视图。了解 Android 小组件是什么、有哪些类型，以及如何使用。One Widget 帮你在一个地方添加和排布小组件。"
 tags: [主屏幕小组件, Android 小组件, One Widget]
 lang: zh
+app_slug: one-widget
 ---
 
 ## 定义与示例

@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Anggaran Kategori (Category Budget)?"
-description: "Anggaran kategori memberi tiap kategori pengeluaran pagu sendiri dan melacak pemakaiannya. Pahami struktur induk-anak di Meow Money Manager."
+title: "Anggaran Kategori: Cara Atur Pengeluaran per Kategori"
+description: "Anggaran kategori memberi tiap kategori pengeluaran pagu sendiri dan melacak pemakaiannya.Meow Money Manager membantu menerapkannya."
 tags: [Category Budget, Budget, Meow Money]
 lang: id
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Kerja

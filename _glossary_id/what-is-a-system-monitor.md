@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Pemantau Sistem?"
-description: "Pemantau sistem merangkum CPU, memori, penyimpanan, dan baterai dalam satu tampilan. Pahami ruang lingkup serta batasannya."
+title: "Pemantau Sistem Android: Cara Cek CPU, RAM, dan Storage"
+description: "Pemantau sistem merangkum CPU, memori, penyimpanan, dan baterai dalam satu tampilan.System Monitor membantu menerapkannya."
 tags: [System Monitor, Phone Cleaner]
 lang: id
+app_slug: system-monitor
 ---
 
 ## Definisi & Cara Kerja

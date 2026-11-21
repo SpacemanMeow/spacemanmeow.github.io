@@ -118,4 +118,4 @@ Atau baca [Aplikasi buku harian digital terbaik](/ms/posts/best-meow-mood-diary-
 
 ## Istilah berkaitan
 
-- [Apakah Itu Penjejak Suasana Hati?](/ms/glossary/what-is-a-mood-tracker/)
+- [Penjejak Mood: Cara Catat Perasaan Harian](/ms/glossary/what-is-a-mood-tracker/)

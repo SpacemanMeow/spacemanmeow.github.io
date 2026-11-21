@@ -64,8 +64,8 @@ One Widget integrates 500+ high-quality premium widgets. We keep updating and ad
 
 ## Related terms
 
-- [What Is a Home Screen Widget?](/glossary/what-is-a-home-screen-widget/)
-- [What Is Material You?](/glossary/what-is-material-you/)
-- [What Is Nothing UI?](/glossary/what-is-nothing-ui/)
-- [What Is Galaxy One UI?](/glossary/what-is-galaxy-one-ui/)
-- [What Is iOS Glass?](/glossary/what-is-ios-glass/)
+- [Home Screen Widget: Add and Customize Android Widgets](/glossary/what-is-a-home-screen-widget/)
+- [Material You: Change Your Android Theme Colors](/glossary/what-is-material-you/)
+- [Nothing UI: Design Features and Glass-Style Widgets](/glossary/what-is-nothing-ui/)
+- [Galaxy One UI: Features, Differences and Widget Support](/glossary/what-is-galaxy-one-ui/)
+- [iOS Glass: Glassy Widget Style and How to Mimic It](/glossary/what-is-ios-glass/)

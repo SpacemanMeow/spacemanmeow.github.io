@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Habit Streak คืออะไร?"
-description: "Habit streak คือจำนวนวันต่อเนื่องที่นิสัยหนึ่งสำเร็จ เข้าใจวิธีทำงานและประโยชน์"
+title: "Habit Streak: วิธีรักษาความต่อเนื่องของนิสัย"
+description: "Habit streak คือจำนวนวันต่อเนื่องที่นิสัยหนึ่งสำเร็จ เข้าใจวิธีทำงานและประโยชน์ Meow Habits ช่วยบันทึกทุกวันและรักษาความต่อเนื่อง"
 tags: [Habit Tracker, Meow Habits]
 lang: th
+app_slug: meow-habits
 ---
 
 ## นิยามและวิธีการทำงาน

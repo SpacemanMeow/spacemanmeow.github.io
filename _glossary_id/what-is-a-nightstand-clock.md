@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Apa Itu Jam Meja Samping Tempat Tidur?"
-description: "Jam samping tempat tidur adalah jam layar penuh dengan angka besar dan cahaya redup untuk dipakai di kamar."
+title: "Jam Meja Samping Tempat Tidur: Cara Pilih Jam Flip"
+description: "Jam samping tempat tidur adalah jam layar penuh dengan angka besar dan cahaya redup untuk dipakai di kamar.Only Clock membantu menerapkannya."
 tags: [Nightstand Clock, Only Clock]
 lang: id
+app_slug: only-clock
 ---
 
 ## Definisi & Cara Kerja

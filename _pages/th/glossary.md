@@ -1,35 +1,53 @@
 ---
 layout: page
 title: "อภิธานศัพท์"
-subtitle: "นิยามของคำศัพท์สำคัญที่ใช้ในแอปและบทความของเรา"
+subtitle: "คำตอบตามปัญหาและแอปที่ช่วยแก้ไข"
 permalink: /th/glossary/
 lang: th
-description: "นิยามเรียบง่ายเกี่ยวกับ habit streak, นาฬิกาฝาพับ, ตัวบันทึกค่าใช้จ่าย, หน้าต่างลอย, และคำศัพท์อื่นจากทีม Meow Apps Studio"
+description: "คำตอบสั้น ๆ เรื่องงบประมาณ นิสัย นาฬิกา และอุปกรณ์ — แต่ละคำศัพท์เชื่อมไปยังแอป Meow ที่ช่วยแก้ปัญหา"
 ---
-
 ## อภิธานศัพท์
 
-นิยามสั้น ๆ และเป็นข้อเท็จจริงสำหรับคำศัพท์ที่ใช้ในแอปและคู่มือของเรา:
+ค้นหาคำตอบสั้น ๆ เรื่องงบประมาณ นิสัย นาฬิกา และอุปกรณ์ — แต่ละคำศัพท์เชื่อมไปยังแอปที่ช่วยแก้ปัญหา
 
-- [Habit Streak คืออะไร?](/th/glossary/what-is-a-habit-streak/)
-- [นาฬิกาฝาพับคืออะไร?](/th/glossary/what-is-a-flip-clock/)
-- [ตัวบันทึกค่าใช้จ่ายคืออะไร?](/th/glossary/what-is-an-expense-tracker/)
-- [หน้าต่างลอยคืออะไร?](/th/glossary/what-is-a-floating-window/)
-- [ตัวติดตามอารมณ์คืออะไร?](/th/glossary/what-is-a-mood-tracker/)
-- [ตัวติดตามนิสัยคืออะไร?](/th/glossary/what-is-a-habit-tracker/)
-- [ตัวตรวจสอบอุณหภูมิ CPU คืออะไร?](/th/glossary/what-is-a-cpu-temperature-monitor/)
-- [ตัวตรวจสอบระบบคืออะไร?](/th/glossary/what-is-a-system-monitor/)
-- [ตัวเพิ่มประสิทธิภาพ RAM คืออะไร?](/th/glossary/what-is-a-ram-booster/)
-- [Assistive Touch คืออะไร?](/th/glossary/what-is-assistive-touch/)
-- [Crosshair คืออะไร?](/th/glossary/what-is-a-crosshair/)
-- [White Noise คืออะไร?](/th/glossary/what-is-white-noise/)
-- [วิดเจ็ตหน้าจอหลักคืออะไร?](/th/glossary/what-is-a-home-screen-widget/)
-- [รายการสิ่งที่ต้องทำคืออะไร?](/th/glossary/what-is-a-to-do-list/)
-- [นาฬิกาหัวเตียงคืออะไร?](/th/glossary/what-is-a-nightstand-clock/)
-- [Material You คืออะไร?](/th/glossary/what-is-material-you/)
-- [Nothing UI คืออะไร?](/th/glossary/what-is-nothing-ui/)
-- [Galaxy One UI คืออะไร?](/th/glossary/what-is-galaxy-one-ui/)
-- [iOS Glass คืออะไร?](/th/glossary/what-is-ios-glass/)
-- [การจัดการงบประมาณคืออะไร?](/th/glossary/what-is-budget-management/)
-- [การจัดการเบิกคืนค่าใช้จ่ายคืออะไร?](/th/glossary/what-is-reimbursement-management/)
-- [งานย่อยคืออะไร?](/th/glossary/what-is-a-subtask/)
+### งบประมาณและเงิน
+
+- [แอปบันทึกการเงิน: ติดตามรายรับรายจ่ายและจัดงบ](/th/glossary/what-is-an-expense-tracker/)
+- [การจัดการงบประมาณ: วางงบรายวันและงบต่อหมวด](/th/glossary/what-is-budget-management/)
+- [งบต่อหมวด: วิธีกำหนดเพดานตามหมวดหมู่](/th/glossary/what-is-a-category-budget/)
+- [Zero-Based Budgeting: วิธีจัดสรรเงินทุกบาทให้มีจุดประสงค์](/th/glossary/what-is-zero-based-budgeting/)
+- [Envelope Budgeting: วิธีแบ่งเงินตามซอง](/th/glossary/what-is-envelope-budgeting/)
+- [Budget Rollover: วิธีนำเงินเหลือไปเดือนถัดไป](/th/glossary/what-is-budget-rollover/)
+- [Sinking Fund: วิธีออมเงินเพื่อค่าใช้จ่ายใหญ่](/th/glossary/what-is-a-sinking-fund/)
+- [การจัดการเบิกคืน: วิธีบันทึกและติดตามเงินคืน](/th/glossary/what-is-reimbursement-management/)
+
+### นิสัย อารมณ์ และประสิทธิภาพ
+
+- [Habit Streak: วิธีรักษาความต่อเนื่องของนิสัย](/th/glossary/what-is-a-habit-streak/)
+- [แอปติดตามนิสัย: วิธีบันทึกนิสัยประจำวัน](/th/glossary/what-is-a-habit-tracker/)
+- [ตัวติดตามอารมณ์: วิธีบันทึกความรู้สึกประจำวัน](/th/glossary/what-is-a-mood-tracker/)
+- [แอปรายการสิ่งที่ต้องทำ: วิธีจัดระเบียบงานประจำวัน](/th/glossary/what-is-a-to-do-list/)
+- [งานย่อย: วิธีแบ่งงานใหญ่เป็นขั้นตอนเล็ก](/th/glossary/what-is-a-subtask/)
+
+### นาฬิกา วิดเจ็ต และบรรยากาศ
+
+- [นาฬิกาฝาพับ Android: วิธีทำงานและแอปที่ดีที่สุด](/th/glossary/what-is-a-flip-clock/)
+- [นาฬิกาหัวเตียง: วิธีเลือกนาฬิกาฝาพับสำหรับห้องนอน](/th/glossary/what-is-a-nightstand-clock/)
+- [วิดเจ็ตหน้าจอหลัก Android: วิธีเพิ่มและปรับแต่ง](/th/glossary/what-is-a-home-screen-widget/)
+- [ไวต์นอยส์: วิธีช่วยให้โฟกัสและนอนหลับดีขึ้น](/th/glossary/what-is-white-noise/)
+
+### เครื่องมือและประสิทธิภาพอุปกรณ์
+
+- [ตัวตรวจสอบอุณหภูมิ CPU: วิธีเช็คความร้อนและการแจ้งเตือน](/th/glossary/what-is-a-cpu-temperature-monitor/)
+- [ตัวตรวจสอบระบบ: วิธีเช็ค CPU RAM และพื้นที่จัดเก็บ](/th/glossary/what-is-a-system-monitor/)
+- [ตัวเพิ่มประสิทธิภาพ RAM: วิธีทำงานและเมื่อไหร่มีประโยชน์](/th/glossary/what-is-a-ram-booster/)
+- [หน้าต่างลอย Android: วิธีทำงาน สิทธิ์ และแอปที่ใช้](/th/glossary/what-is-a-floating-window/)
+- [Assistive Touch: วิธีใช้ปุ่มลอยบน Android](/th/glossary/what-is-assistive-touch/)
+
+### เกมและการปรับแต่ง
+
+- [ครอสแฮร์ FPS: ประเภทโอเวอร์เลย์ วิธีปรับ และแอปที่ใช้](/th/glossary/what-is-a-crosshair/)
+- [Material You: วิธีเปลี่ยนสีธีม Android](/th/glossary/what-is-material-you/)
+- [Nothing UI: ฟีเจอร์การออกแบบและวิดเจ็ตสไตล์กระจก](/th/glossary/what-is-nothing-ui/)
+- [Galaxy One UI: ฟีเจอร์ ความแตกต่าง และวิดเจ็ตที่รองรับ](/th/glossary/what-is-galaxy-one-ui/)
+- [iOS Glass: สไตล์กระจกวิดเจ็ตและวิธีเลียนแบบ](/th/glossary/what-is-ios-glass/)

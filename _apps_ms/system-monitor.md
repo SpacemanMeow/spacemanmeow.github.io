@@ -77,6 +77,6 @@ System Monitor mendukung pergantian multi-tema, sehingga Anda dapat memilih papa
 
 ## Istilah berkaitan
 
-- [Apakah Itu Pemantau Suhu CPU?](/ms/glossary/what-is-a-cpu-temperature-monitor/)
-- [Apakah Itu Pemantau Sistem?](/ms/glossary/what-is-a-system-monitor/)
-- [Apakah Itu Peningkat RAM?](/ms/glossary/what-is-a-ram-booster/)
+- [Pemantau Suhu CPU Android: Cara Semak Suhu dan Amaran Panas](/ms/glossary/what-is-a-cpu-temperature-monitor/)
+- [Pemantau Sistem Android: Cara Semak CPU, RAM, dan Storage](/ms/glossary/what-is-a-system-monitor/)
+- [Peningkat RAM Android: Cara Kerja dan Bila Ia Berguna](/ms/glossary/what-is-a-ram-booster/)

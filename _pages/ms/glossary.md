@@ -1,35 +1,53 @@
 ---
 layout: page
 title: "Glosari"
-subtitle: "Definisi istilah penting yang digunakan dalam aplikasi dan artikel kami"
+subtitle: "Jawapan berasaskan masalah dan aplikasi yang membantu"
 permalink: /ms/glossary/
 lang: ms
-description: "Definisi ringkas tentang habit streak, jam flip, pencatat perbelanjaan, tetingkap terapung, dan istilah lain daripada pasukan Meow Apps Studio."
+description: "Jawapan ringkas tentang bajet, tabiat, jam, dan peranti — setiap istilah dipautkan ke aplikasi Meow yang membantu."
 ---
-
 ## Glosari
 
-Definisi ringkas dan berasaskan fakta untuk istilah yang digunakan dalam aplikasi serta panduan kami:
+Cari jawaban ringkas tentang bajet, tabiat, jam, dan peranti — setiap istilah dipautkan ke aplikasi yang membantu.
 
-- [Apakah Habit Streak?](/ms/glossary/what-is-a-habit-streak/)
-- [Apakah Jam Flip?](/ms/glossary/what-is-a-flip-clock/)
-- [Apakah Pencatat Perbelanjaan?](/ms/glossary/what-is-an-expense-tracker/)
-- [Apakah Tetingkap Terapung?](/ms/glossary/what-is-a-floating-window/)
-- [Apakah Penjejak Mood?](/ms/glossary/what-is-a-mood-tracker/)
-- [Apakah Penjejak Tabiat?](/ms/glossary/what-is-a-habit-tracker/)
-- [Apakah Pemantau Suhu CPU?](/ms/glossary/what-is-a-cpu-temperature-monitor/)
-- [Apakah Pemantau Sistem?](/ms/glossary/what-is-a-system-monitor/)
-- [Apakah Peningkat RAM?](/ms/glossary/what-is-a-ram-booster/)
-- [Apakah Assistive Touch?](/ms/glossary/what-is-assistive-touch/)
-- [Apakah Crosshair?](/ms/glossary/what-is-a-crosshair/)
-- [Apakah White Noise?](/ms/glossary/what-is-white-noise/)
-- [Apakah Widget Skrin Utama?](/ms/glossary/what-is-a-home-screen-widget/)
-- [Apakah Senarai Tugasan?](/ms/glossary/what-is-a-to-do-list/)
-- [Apakah Jam Meja Sisi Katil?](/ms/glossary/what-is-a-nightstand-clock/)
-- [Apakah Material You?](/ms/glossary/what-is-material-you/)
-- [Apakah Nothing UI?](/ms/glossary/what-is-nothing-ui/)
-- [Apakah Galaxy One UI?](/ms/glossary/what-is-galaxy-one-ui/)
-- [Apakah iOS Glass?](/ms/glossary/what-is-ios-glass/)
-- [Apakah Pengurusan Bajet?](/ms/glossary/what-is-budget-management/)
-- [Apakah Pengurusan Tuntutan Balik?](/ms/glossary/what-is-reimbursement-management/)
-- [Apakah Subtugasan?](/ms/glossary/what-is-a-subtask/)
+### Bajet & wang
+
+- [Catatan Kewangan: Cara Catat Pendapatan dan Perbelanjaan](/ms/glossary/what-is-an-expense-tracker/)
+- [Pengurusan Bajet: Cara Atur Bajet Harian dan Bulanan](/ms/glossary/what-is-budget-management/)
+- [Bajet Kategori: Cara Atur Perbelanjaan mengikut Kategori](/ms/glossary/what-is-a-category-budget/)
+- [Zero-Based Budgeting: Cara Atur Setiap Ringgit dengan Tujuan](/ms/glossary/what-is-zero-based-budgeting/)
+- [Envelope Budgeting: Cara Atur Wang mengikut Sampul](/ms/glossary/what-is-envelope-budgeting/)
+- [Budget Rollover: Cara Bawa Baki Wang ke Bulan Berikutnya](/ms/glossary/what-is-budget-rollover/)
+- [Sinking Fund: Cara Simpan Wang untuk Perbelanjaan Besar](/ms/glossary/what-is-a-sinking-fund/)
+- [Pengurusan Tuntutan Balik: Cara Catat dan Jejak Reimburse](/ms/glossary/what-is-reimbursement-management/)
+
+### Tabiat, mood & produktiviti
+
+- [Habit Streak: Cara Menjaga Konsistensi dan Catatan Harian](/ms/glossary/what-is-a-habit-streak/)
+- [Penjejak Tabiat: Cara Catat Amalan Harian Anda](/ms/glossary/what-is-a-habit-tracker/)
+- [Penjejak Mood: Cara Catat Perasaan Harian](/ms/glossary/what-is-a-mood-tracker/)
+- [Aplikasi Senarai Tugasan: Cara Atur Tugas Harian Anda](/ms/glossary/what-is-a-to-do-list/)
+- [Subtugasan: Cara Pecahkan Tugas Besar menjadi Langkah Kecil](/ms/glossary/what-is-a-subtask/)
+
+### Jam, widget & suasana
+
+- [Jam Flip Android: Cara Kerja dan Aplikasi Terbaik](/ms/glossary/what-is-a-flip-clock/)
+- [Jam Meja Sisi Katil: Cara Pilih Jam Flip untuk Bilik Tidur](/ms/glossary/what-is-a-nightstand-clock/)
+- [Widget Skrin Utama Android: Cara Pasang dan Sesuaikan](/ms/glossary/what-is-a-home-screen-widget/)
+- [White Noise: Cara Ia Membantu Fokus dan Tidur Lebih Baik](/ms/glossary/what-is-white-noise/)
+
+### Alat & prestasi peranti
+
+- [Pemantau Suhu CPU Android: Cara Semak Suhu dan Amaran Panas](/ms/glossary/what-is-a-cpu-temperature-monitor/)
+- [Pemantau Sistem Android: Cara Semak CPU, RAM, dan Storage](/ms/glossary/what-is-a-system-monitor/)
+- [Peningkat RAM Android: Cara Kerja dan Bila Ia Berguna](/ms/glossary/what-is-a-ram-booster/)
+- [Tetingkap Terapung Android: Cara Kerja dan Kebenaran](/ms/glossary/what-is-a-floating-window/)
+- [Assistive Touch Android: Cara Guna Butang Terapung](/ms/glossary/what-is-assistive-touch/)
+
+### Game & personalisasi
+
+- [Crosshair FPS: Cara Kerja, Jenis Overlay, dan Aplikasinya](/ms/glossary/what-is-a-crosshair/)
+- [Material You: Cara Tukar Warna Tema Android Anda](/ms/glossary/what-is-material-you/)
+- [Nothing UI: Ciri Reka Bentuk dan Widget Gaya Kaca](/ms/glossary/what-is-nothing-ui/)
+- [Galaxy One UI: Ciri, Perbezaan, dan Widget yang Disokong](/ms/glossary/what-is-galaxy-one-ui/)
+- [iOS Glass: Gaya Kaca Widget dan Cara Menirunya](/ms/glossary/what-is-ios-glass/)

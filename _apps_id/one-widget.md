@@ -60,8 +60,8 @@ One Widget mengintegrasikan lebih dari 500 widget dan terus diperbarui dengan wi
 
 ## Istilah terkait
 
-- [Apa Itu Widget Layar Utama?](/id/glossary/what-is-a-home-screen-widget/)
-- [Apa Itu Material You?](/id/glossary/what-is-material-you/)
-- [Apa Itu Nothing UI?](/id/glossary/what-is-nothing-ui/)
-- [Apa Itu Galaxy One UI?](/id/glossary/what-is-galaxy-one-ui/)
-- [Apa Itu iOS Glass?](/id/glossary/what-is-ios-glass/)
+- [Widget Layar Utama Android: Cara Pasang dan Sesuaikan](/id/glossary/what-is-a-home-screen-widget/)
+- [Material You: Cara Ganti Warna Tema Android](/id/glossary/what-is-material-you/)
+- [Nothing UI: Fitur Desain dan Widget Gaya Kaca](/id/glossary/what-is-nothing-ui/)
+- [Galaxy One UI: Fitur, Perbedaan, dan Widget yang Didukung](/id/glossary/what-is-galaxy-one-ui/)
+- [iOS Glass: Gaya Kaca Widget dan Cara Menirunya](/id/glossary/what-is-ios-glass/)

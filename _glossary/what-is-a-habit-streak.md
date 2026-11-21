@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is a Habit Streak?"
-description: "A habit streak is the number of consecutive days you complete a habit. Learn how streak counters work and why they help build consistency."
+title: "Habit Streak: Build a Daily Habit Without Breaking the Chain"
+description: "A habit streak is the number of consecutive days you complete a habit.Meow Habits puts it into practice."
 tags: [Habit Tracker, Habit Streak, Meow Habits]
 lang: en
+app_slug: meow-habits
 ---
 
 ## Definition & How It Works

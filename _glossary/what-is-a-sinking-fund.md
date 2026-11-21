@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is a Sinking Fund?"
-description: "A sinking fund saves a little each month toward a known future cost, so a big bill won't hit one month's budget. See how EveryDollar and Monarch use it."
+title: "Sinking Fund: Save Monthly for Big One-Off Costs"
+description: "A sinking fund saves a little each month toward a known future cost, so a big bill won't hit one month's budget.Meow Money Manager puts it into practice."
 tags: [Sinking Fund, Budget Management, Budget]
 lang: en
+app_slug: meow-money-manager
 ---
 
 ## Definition

@@ -63,4 +63,4 @@ faq:
 
 ## ศัพท์ที่เกี่ยวข้อง
 
-- [ไวต์นอยส์คืออะไร?](/th/glossary/what-is-white-noise/)
+- [ไวต์นอยส์: วิธีช่วยให้โฟกัสและนอนหลับดีขึ้น](/th/glossary/what-is-white-noise/)

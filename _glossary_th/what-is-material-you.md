@@ -1,6 +1,6 @@
 ---
 layout: glossary
-title: "Material You คืออะไร?"
+title: "Material You: วิธีเปลี่ยนสีธีม Android"
 description: "Material You คือภาษาการออกแบบ Android ที่ปรับสีระบบตามวอลเปเปอร์ เข้าใจที่มาของสีไดนามิก"
 tags: [Material You, One Widget]
 lang: th

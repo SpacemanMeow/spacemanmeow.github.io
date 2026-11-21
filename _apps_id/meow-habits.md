@@ -72,5 +72,5 @@ Beralih bebas di antara dua tema yang disesuaikan agar nyaman dilihat, baik untu
 
 ## Istilah terkait
 
-- [Apa Itu Pelacak Kebiasaan?](/id/glossary/what-is-a-habit-tracker/)
-- [Apa Itu Habit Streak?](/id/glossary/what-is-a-habit-streak/)
+- [Pelacak Kebiasaan: Cara Catat Rutinitas Harian](/id/glossary/what-is-a-habit-tracker/)
+- [Habit Streak: Cara Menjaga Konsistensi Harian](/id/glossary/what-is-a-habit-streak/)

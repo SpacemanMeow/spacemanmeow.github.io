@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "什么是分类预算（Category Budget）？"
-description: "分类预算是给每个支出类别单独设定上限的预算方式。了解它与总预算的关系、父子类别聚合、时间窗和排除规则，以及为什么它比单一总额更好用。"
+title: "分类预算：为每类支出单独设上限"
+description: "分类预算是给每个支出类别单独设定上限的预算方式。了解它与总预算的关系、父子类别聚合、时间窗和排除规则，以及为什么它比单一总额更好用。Meow Money Manager 提供分类预算与实时合计，帮你把方法落地。"
 tags: [Category Budget, Budget Management, Budget]
 lang: zh
+app_slug: meow-money-manager
 ---
 
 ## 定义

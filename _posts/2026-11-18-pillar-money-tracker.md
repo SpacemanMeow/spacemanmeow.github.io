@@ -88,6 +88,6 @@ It depends on the app. Check whether it requires an account, where records are s
 
 ## Related terms
 
-- [What Is an Expense Tracker?](/glossary/what-is-an-expense-tracker/)
-- [What Is Budget Management?](/glossary/what-is-budget-management/)
+- [Expense Tracker: Log Spending and See Where Money Goes](/glossary/what-is-an-expense-tracker/)
+- [Budget Management: Set Category Limits and Track Spending](/glossary/what-is-budget-management/)
 - [Meow Money Manager app](/apps/meow-money-manager/)

@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "What Is a Nightstand Clock?"
-description: "A nightstand clock is a bedside display showing time, date, and alarms. Learn what it is, why phone users run one, and how flip-clock styles fit."
+title: "Nightstand Clock: Pick the Right Bedside Flip Clock"
+description: "A nightstand clock is a bedside display showing time, date, and alarms.Only Clock puts it into practice."
 tags: [Nightstand Clock, Flip Clock, Only Clock]
 lang: en
+app_slug: only-clock
 ---
 
 ## Definition & Why Use One

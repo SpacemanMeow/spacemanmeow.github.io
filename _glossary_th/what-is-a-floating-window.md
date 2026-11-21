@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: "หน้าต่างลอย Android: วิธีทำงาน สิทธิ์ และแอปที่ใช้"
-description: "หน้าต่างลอยคือเลเยอร์ที่แสดงเหนือแอปอื่น ดูวิธีทำงาน ขอบเขตสิทธิ์บน Android และแอปที่ใช้ฟีเจอร์นี้"
+description: "หน้าต่างลอยคือเลเยอร์ที่แสดงเหนือแอปอื่น ดูวิธีทำงาน ขอบเขตสิทธิ์บน Android และแอปที่ใช้ฟีเจอร์นี้ Floating Assistant ให้ปุ่มลอยและการควบคุมโอเวอร์เลย์"
 tags: [Floating Window, Floating Assistant]
 lang: th
 app_slug: floating-assistant

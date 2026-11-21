@@ -1,9 +1,10 @@
 ---
 layout: glossary
-title: "Zero-Based Budgeting คืออะไร?"
-description: "Zero-based budgeting จัดสรรรายได้แต่ละรอบจนเหลือศูนย์ เข้าใจกฎและการใช้ในแอป"
+title: "Zero-Based Budgeting: วิธีจัดสรรเงินทุกบาทให้มีจุดประสงค์"
+description: "Zero-based budgeting จัดสรรรายได้แต่ละรอบจนเหลือศูนย์ เข้าใจกฎและการใช้ในแอป Meow Money Manager ช่วยนำวิธีนี้ไปใช้ด้วยงบต่อหมวดและยอดรวมแบบเรียลไทม์"
 tags: [Zero-Based Budgeting, Budget, Meow Money]
 lang: th
+app_slug: meow-money-manager
 ---
 
 ## นิยามและวิธีการทำงาน

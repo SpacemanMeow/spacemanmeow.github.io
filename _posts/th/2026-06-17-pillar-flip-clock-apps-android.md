@@ -120,5 +120,5 @@ Only Clock คือนาฬิกาพลิกหน้าจอเต็ม
 
 ## ศัพท์ที่เกี่ยวข้อง
 
-- [นาฬิกาพลิกคืออะไร?](/th/glossary/what-is-a-flip-clock/)
-- [นาฬิกาข้างเตียงคืออะไร?](/th/glossary/what-is-a-nightstand-clock/)
+- [นาฬิกาฝาพับ Android: วิธีทำงานและแอปที่ดีที่สุด](/th/glossary/what-is-a-flip-clock/)
+- [นาฬิกาหัวเตียง: วิธีเลือกนาฬิกาฝาพับสำหรับห้องนอน](/th/glossary/what-is-a-nightstand-clock/)

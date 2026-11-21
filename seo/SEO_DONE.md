@@ -2,7 +2,7 @@
 
 > **用途**：归档所有已完成 / 已落地的 SEO 优化项、已并入硬门禁的措施与历月完成记录。**只供查阅，不用于排期**。
 > **待做事项见**：`SEO-PROGRESS.md` §2（唯一排期依据）。
-> **最后更新**：2026-11-20
+> **最后更新**：2026-11-21
 > **语言范围**：5 语并行（EN 根 + `/zh/` `/id/` `/ms/` `/th/`）。所有已落地项默认全语言同步。
 > 状态图例：✅ 已落地　♻️ 持续运营中　⏸️ 暂缓
 
@@ -39,6 +39,7 @@
 | A4 | 标签 / 主题聚合页（主题中心） | 内容/内链 | `/tags/` 从平铺标签云改为**三层主题中心**：按 App 产品（11 标签）/ 品类主题 / 内容类型分组，每组带五语本地化标题；新增共享模板 `_includes/tag-index.html` + `tag-index-group.html`，五语 tags.md 统一引用（D18 骨架一致）。入口：主导航与 footer 按要求不放（**主导航/footer 未改**）；博客列表页新增右栏标签入口，复用文章页 `aside-tags-block` 样式（无卡片背景、Tags 标题），按 `Browse by app → Browse by topic → Browse by content type` 顺序完整列出三类标签；分组逻辑抽为共享 `_includes/tag-groups.html`，与 `/tags/` 主题中心同一白名单与顺序。与文章页同口径：`container--wide` 加宽、正文固定 992px、右栏 sticky，仅 ≥1580px 显示（窄屏隐藏不挤压正文）；页头已有 `tags_index_link` 指向 `/<lang>/tags/`。D11 内链闭环通过、41 个 tag 锚点零断裂；D21 多视口无溢出；`/tags/` 基线不变（groups 41/41/47/47/48、items 290/290/292/292/292）。UI 五语补 `topics_by_app/category/type` 三键。41 个 tag 锚点零断裂；五语 groups 41/41/47/47/48、items 290/290/292/292/292 全保留；审计 75 PASS、htmlproofer 通过。未新增独立 `/topics/` 集合（避免 5 份 config 与集合分离的 P0 风险）。 | 2026-11-19 |
 | A5 | Release Notes 中心页 | 内容/内链 | 11 App × 5 语共 55 页 Release Note 已上线（D20）：每 App 一个结构化聚合页、每版本作为页内条目呈现，标题后缀五语本地化；`_layouts/app.html` 底部与 `_layouts/release-note.html` 回链构成 App ⇄ Release Note 双向环链。数据由 `skills/release-notes/scripts/update_release_notes.py` 从升级日志解析生成，D20 五项硬门禁（覆盖/frontmatter/正文/标题本地化/内链）全绿。 | 2026-11-20 |
 | E3 | Release Notes → 更新中心 | 内容/内链 | 与 A5 合并执行，不重复立项；随 A5 一并归档。 | 2026-11-20 |
+| B2 | Glossary 扩量与解决方案区（T-18x） | 内容/内链/CTR | 实测 27 术语 × 5 语共 135 页已全部落地，台账号「20/规划 27、补 7 页」为滞后口径，本轮不新建页而是完成「定义页 → 解决中心」升级：① 五语索引页补齐 5 个此前漏列的预算术语（zero-based / envelope / rollover / sinking fund / category budget），并按 5 类问题分组（预算与金钱 / 习惯心情效率 / 时钟小组件 / 设备工具性能 / 游戏与个性化），5 语各 27 条；② 27×5 术语页标题全部从定义式 `What Is X?` 改为解决意图式（如 EN `Budget Management: Set Category Limits and Track Spending`），EN/ID/MS/TH ≤60 字符；③ `app_slug` 从 4 术语扩到 23 术语 × 5 语（共 115 页），共享 layout「解决方案」区自动输出手册 + App CTA；4 个无对应产品的平台/UI 术语按 T-37 口径不扩；④ 描述补产品方案词并按 D06 ≤160 字符精简；⑤ App 详情页与 Pillar 文章的 Related terms 链接文本全量同步为新标题（5 语各 50 条），记账类补 5 个预算术语回链（5 语各 +10 条）；⑥ 新增 `_data/glossary_pillars.yml`（app→Pillar 单一来源映射）+ `<lang>` UI `related_guide` 键，Glossary layout 自动渲染「相关指南」区块，形成 Glossary ⇄ App ⇄ Pillar 闭环。D18/D21/D22 全绿；htmlproofer 1293 内链 0 failure。 | 2026-11-21 |
 
 ## 3. 持续执行 / 延续项
 

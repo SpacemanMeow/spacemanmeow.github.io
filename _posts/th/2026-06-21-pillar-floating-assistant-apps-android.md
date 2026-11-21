@@ -121,5 +121,5 @@ Floating Assistant เพิ่มลูกบอลลอยปรับแต�
 
 ## ศัพท์ที่เกี่ยวข้อง
 
-- [Assistive Touch คืออะไร?](/th/glossary/what-is-assistive-touch/)
-- [หน้าต่างลอยคืออะไร?](/th/glossary/what-is-a-floating-window/)
+- [Assistive Touch: วิธีใช้ปุ่มลอยบน Android](/th/glossary/what-is-assistive-touch/)
+- [หน้าต่างลอย Android: วิธีทำงาน สิทธิ์ และแอปที่ใช้](/th/glossary/what-is-a-floating-window/)

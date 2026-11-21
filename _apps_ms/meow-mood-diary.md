@@ -76,4 +76,4 @@ Atur peringatan harian yang lembut untuk membangun tabiat mencatat yang konsiste
 
 ## Istilah berkaitan
 
-- [Apakah Itu Penjejak Suasana Hati?](/ms/glossary/what-is-a-mood-tracker/)
+- [Penjejak Mood: Cara Catat Perasaan Harian](/ms/glossary/what-is-a-mood-tracker/)

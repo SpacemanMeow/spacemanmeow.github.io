@@ -1,9 +1,10 @@
 ---
 layout: glossary
 title: "Envelope Budgeting: Cara Atur Wang mengikut Sampul"
-description: "Envelope budgeting membahagi wang ke sampul virtual per kategori; belanja dari baki setiap sampul. Fahami cara Goodbudget melaksanakannya."
+description: "Envelope budgeting membahagi wang ke sampul virtual per kategori; belanja dari baki setiap sampul.Meow Money Manager membantu mengamalkannya."
 tags: [Envelope Budgeting, Bajet, Meow Money]
 lang: ms
+app_slug: meow-money-manager
 ---
 
 ## Definisi & Cara Ia Berfungsi

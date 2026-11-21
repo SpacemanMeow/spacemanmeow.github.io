@@ -116,4 +116,4 @@ Crosshair Aim Pro 为安卓上的 FPS 射击游戏加上自定义准星叠层，
 
 ## 相关术语
 
-- [什么是准星（Crosshair）？](/zh/glossary/what-is-a-crosshair/)
+- [FPS 准星：类型、悬浮层与好用的 App](/zh/glossary/what-is-a-crosshair/)
