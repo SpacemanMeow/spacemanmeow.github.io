@@ -41,28 +41,10 @@
 
 - [ ] **A1 12 月完整 GSC 复测 T-37 / T-38** — GSC 数据仅到 11/15；用 `../skills/seo-research/scripts/gsc_export.py` 重导完整 11 月，判断术语页治理与支柱页标题重写是否提速；结果写回 `SEO-METRICS.md` 与 `SEO_DONE.md`。
 
-### 2.B 提升停留时长（P1）
-
-- [x] **B3 新增 FAQ 问答中心** — 5 语 `/faq/` 中心页已上线，聚合 338 问答/语（App 51 + 文章 287）+ 统一 `FAQPage` schema，博客页眉加入口。（已完成，归档至 `SEO_DONE.md` §2）
-- [ ] **B4 结构化对比矩阵页** — 非文章的**表格**形态：11 App 横向对比 + 本站 vs 竞品特征矩阵；易被 Featured Snippet / AI Overview 摘引。
-- [ ] **B5 Docs 手册重组为学习路径** — 不写新文章，把 55 篇×5 语按目标重组（「3 天学会记账」「新手上手清单」），提升停留与回访。
-- [ ] **B6 场景 / 问题解决页（use-case）** — 「自由职业者怎么记账」「学生如何管理时间」等，意图聚焦、转化路径短于博客。
-
-### 2.C 提升排名与收录（P2）
-
-- [ ] **C1 月度新鲜度机制** — 真实更新 + `dateModified` + IndexNow + GSC 请求编入索引（`SEO-PLAYBOOK.md` §2.4.2 七步），把已建机制滚动执行。
-- [ ] **C2 T-32 / T-33 月度巡检** — 结构化数据月度校验 + GSC/Bing 请求索引；建立执行节奏。
-- [ ] **C3 待覆盖关键词补齐** — `budgeting app`、`subscription tracker app`、竞品替代词（Expensify / PocketGuard / Goodbudget / EveryDollar）、中文准星竞品专名。`widget catatan keuangan` 因产品口径未定合规挂起，产品确认前不写入。
-- [ ] **C4 回填词库数据缺口** — 多组「绝对量待 Play Console / GSC 回填」，回填后才能科学选词。
-- [ ] **C5 外部权威建设** — AlternativeTo / Slant / Product Hunt / 相关 subreddit 目录与社区提交；从目录提交低成本切入。
-- [ ] **C6 多语言长尾池** — id / th / ms 有曝光但 CTR 低、竞争小于英文；做真正本地化内容（非翻译）作为差异化流量池。
-- [ ] **C7 PageSpeed Insights 实测** — 手动跑一次取真实分，建立 LCP / CLS 基线（`SEO-PLAYBOOK.md` §1.5 明确未做）。
-
 ### 2.D 技术基建（P0→P2）
 
 **P0（防护性、低成本）**
 
-- [ ] **D1 全站审计脚本落盘 + 接入 CI** — D01–D21 脚本只嵌在 `SITE-AUDIT.md` §5 靠人工复制；CI 只跑 build + htmlproofer。抽出 `scripts/site_audit.py` 作单一权威副本，CI 加 `Audit site` 步骤，文档 §5 改为调用脚本。
 - [ ] **D2 锁定依赖版本** — 无 `Gemfile.lock`（被 `.gitignore` 忽略）、Jekyll 仅 `~> 4.4`、插件零约束；提交 lockfile、收紧版本，保证构建可复现。
 - [ ] **D3 A11y 键盘与动效** — 补 Skip link、全局 `:focus-visible`（当前 `.search__input:focus` 主动 `outline:none`）、`prefers-reduced-motion`、搜索结果 `aria-live`。
 - [ ] **D4 搜索页 XSS 兜底** — `_pages/search.md` 用 `innerHTML` 拼接 Pagefind 结果；改 `textContent` 或转义；商店链接 `rel="noopener"` 统一为 `noopener noreferrer`。
