@@ -359,4 +359,4 @@ bundle exec htmlproofer _site --disable-external  # 或项目既有参数
 
 - 新增语言后，更新本文语言范围说明、§4 清单与 `SEO-I18N-PROGRESS.md` 语言矩阵；**状态与进度只写入 `SEO-I18N-PROGRESS.md`**（唯一状态源），不在本文维护第二份状态。
 - 若 `scripts/new-language.sh` 再次改进，同步更新 §2.3 与 §7。
-- 若发现新的 `zh` 残留，补进 §2.6 与 §7，并在 §8 记录教研结论。
+- 若发现新的 `zh` 残留，补进 §2.6 与 §7；教研结论按 `SITE-AUDIT.md` §0 在对话中输出，不另存记录。

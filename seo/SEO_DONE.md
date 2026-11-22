@@ -41,6 +41,7 @@
 | E3 | Release Notes → 更新中心 | 内容/内链 | 与 A5 合并执行，不重复立项；随 A5 一并归档。 | 2026-11-20 |
 | B3 | 新增 FAQ 问答中心 | 内容/结构化数据 | 5 语新增 `/faq/` 中心页，集中全站问答索引：每语 338 条（App front matter `faq` 11 App/51 条 + 文章正文 `faq-q` 70 篇/287 条），按「按应用 / 按指南」分组列出问题并锚点跳转到来源页答案。**零手工步骤**：新增 `_plugins/faq_index.rb` 在每次构建时自动解析文章两种 FAQ 标记（`**Q**` 与教程的 `### Q`），注入稳定 `id="faq-N"` 锚点、`page.faq_items` 与 `site.data.faq_index`；编辑 FAQ 后只需正常构建，无需再跑脚本，也不再维护生成物 `_data/faq_posts.yml`（已删除）。答案与 `FAQPage` schema 留在各自来源页：App 页复用共享 `_includes/faq-jsonld.html`，文章页由 `guide-jsonld.html` 对自身可见 FAQ 输出 schema（每篇独立，利于 PAA）；中心页只做问题索引、不重复答案、不输出 schema，页面体积从首版 245–415KB 降至 65–86KB。插件同时修复了 id/ms 的 App 答案含 `&` 被 markdownify 转成 `&amp;` 污染 schema 的问题。五语 UI 补 `faq_hub_intro/faq_hub_stats/faq_by_app/faq_by_guide/faq_link` 五键；博客页眉（`/blog/` 等）三连入口后追加 FAQ 入口，**主导航/footer 未改**（沿用 A4 口径）。CSS 新增 `.faq-hub__*` 索引列表样式，字号/字重/边框/间距全部走 D22 令牌。SITE-AUDIT：D03 结构页 9/9→10/10、`STRUCT` 加 `faq`，顺手修正 §4 D03 陈旧口径（posts 69→70、pages 8→10）。完整构建 680 页；htmlproofer 681 文件 / 2988 内链 / 0 failure（含 338×5 个 `#faq-N` 锚点）；§5 静态脚本 82 PASS / 0 FAIL（D14 1 条为新增 `faq.md` 未跟踪告警，人工确认通过）；D21 四视口（375/768/1024/1920）中心页 `scrollWidth == clientWidth`，无横向溢出，338 链接全渲染。 | 2026-11-21 |
 | B2 | Glossary 扩量与解决方案区（T-18x） | 内容/内链/CTR | 实测 27 术语 × 5 语共 135 页已全部落地，台账号「20/规划 27、补 7 页」为滞后口径，本轮不新建页而是完成「定义页 → 解决中心」升级：① 五语索引页补齐 5 个此前漏列的预算术语（zero-based / envelope / rollover / sinking fund / category budget），并按 5 类问题分组（预算与金钱 / 习惯心情效率 / 时钟小组件 / 设备工具性能 / 游戏与个性化），5 语各 27 条；② 27×5 术语页标题全部从定义式 `What Is X?` 改为解决意图式（如 EN `Budget Management: Set Category Limits and Track Spending`），EN/ID/MS/TH ≤60 字符；③ `app_slug` 从 4 术语扩到 23 术语 × 5 语（共 115 页），共享 layout「解决方案」区自动输出手册 + App CTA；4 个无对应产品的平台/UI 术语按 T-37 口径不扩；④ 描述补产品方案词并按 D06 ≤160 字符精简；⑤ App 详情页与 Pillar 文章的 Related terms 链接文本全量同步为新标题（5 语各 50 条），记账类补 5 个预算术语回链（5 语各 +10 条）；⑥ 新增 `_data/glossary_pillars.yml`（app→Pillar 单一来源映射）+ `<lang>` UI `related_guide` 键，Glossary layout 自动渲染「相关指南」区块，形成 Glossary ⇄ App ⇄ Pillar 闭环。D18/D21/D22 全绿；htmlproofer 1293 内链 0 failure。 | 2026-11-21 |
+| GEO-01 | 首次 GEO 体检（甲戟 7 维 29 项） | AI 搜索/基线 | 首页体检完成：55.45/100（C），29/29 项全评估，20 项待整改合并为 14 个可执行任务。基线分进 `SEO-METRICS.md`、方法进 `SEO-PLAYBOOK.md` §4.5、任务进 `SEO-PROGRESS.md` §2.G，原始数据在 `data/geo/20261122/`（被 gitignore）。体检中发现并纠正三处通用话术误判：正文占比低≠SSR、Schema error 根因是 config 相对 URL、ICP 备案不适用本站。**体检已完成，整改任务仍待做（见 §2.G）**。 | 2026-11-22 |
 
 ## 3. 持续执行 / 延续项
 
@@ -54,7 +55,7 @@
 - T-26（Glossary FAQPage 随结构化数据维护）
 - T-27（标签一致性由 D19 校验）
 - T-28（Glossary ⇄ App 回链由 D11 校验）
-- D1（审计脚本落盘 + 接入 CI：2026-11-22 将 `SITE-AUDIT.md` §5 内嵌的 D01–D22 脚本抽为 `scripts/site_audit.py` 单一权威副本，加 FAIL 退出码 1；CI `pages-deploy.yml` 在 `Test site` 后新增 `Audit site` 步骤调用同一脚本；§5 与 §0 步骤 4 改为脚本调用，文档不再内嵌脚本。本地验证：脚本正常退出 0、注入 FAIL 时退出 1；完整构建 685 页；workflow YAML 解析合法、9 步含 `Audit site`；脚本 83 PASS / 0 FAIL）
+- D1（审计脚本落盘 + 接入 CI + 维度化重构：2026-11-22 将 `SITE-AUDIT.md` §5 内嵌的 D01–D22 脚本抽为 `scripts/site_audit.py` 单一权威副本，加 FAIL 退出码 1；CI `pages-deploy.yml` 在 `Test site` 后新增 `Audit site` 步骤调用同一脚本。同日按用户要求把散乱的 D 编号检查重构为 **8 大维度**（BLD/I18N/META/CONTENT/LINK/A11Y/DESIGN/HYGIENE）+ 稳定规则 ID（如 `I18N-05`、`DESIGN-02`）+ `Auditor` 注册表结构；脚本按维度分组输出每条规则的名称与结果及小计；`SITE-AUDIT.md` §3/§4 同步重写为同 8 维度规则表，§4.9 规定新增规则必须落位到对应维度函数与小节，§0/§5/§7/§8 全部改为维度口径。重构后 83 项检查与原版一一对应、无遗漏；本地验证：语法编译通过、正常退出 0、注入 FAIL 退出 1；完整构建通过、htmlproofer 0 failure、workflow YAML 合法）
 
 ## 5. 内容形式规划判断逻辑（已验证依据）
 

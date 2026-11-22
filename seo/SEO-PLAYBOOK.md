@@ -266,6 +266,38 @@ AI 联网搜索不是按 PageRank 排位，而是：① 从已索引网页**检�
 - 定义页无 FAQ/结构化 → 结构化数据须随内容维护，AI 引用率会偏低。
 - 只在 Google 做收录、忽略 Bing → 损失 ChatGPT/Copilot 流量；本项目已用 IndexNow 覆盖。
 
+### 4.5 GEO 体检方法（甲戟 7 维 29 项，规则版本 geo-29-v2.0）
+
+§4.1–4.4 是策略，本节是**可复现的体检方法**：用脚本把「能不能被搜索/AI 发现、读懂、采信、引用」拆成 29 项逐项打分，产出整改优先级。首次体检 2026-11-22，见 `SEO-METRICS.md` 的 GEO 基线、`SEO-PROGRESS.md` §2.G 的整改任务。
+
+**七个维度与权重**：内容结构 20 / 语义可理解 16 / 权威可信 16 / 结构化机器可读 12 / 覆盖与用户价值 12 / 技术体验 6 / AI 平台适配与可引用 18。等级 A≥85 / B 70–84 / C 55–69 / D 40–54 / F<40。
+
+**四类状态必须分开**：准备度（页面与技术条件）、有限实测（指定查询的抽样观察）、业务数据（仅连接 GSC/Bing AI 性能报告后展示）、无法评估（标注 `unable`，不计入分母，不用默认值补分）。不承诺排名、引用或流量。
+
+**采集脚本**（Python 标准库，无需装包）：
+```bash
+PY=/Users/glt/.workbuddy/binaries/python/versions/3.13.12/bin/python3
+SK=/Users/glt/.workbuddy/plugins/cache/experts/jiaji-geo-seo-workbuddy/2.1.0/skills/geo-seo-workbuddy/scripts
+$PY $SK/fetch-page.py "https://spacemanmeow.com" full -o data/geo/<日期>/page.json
+$PY $SK/fetch-page.py "https://spacemanmeow.com" sample --pages 5 -o data/geo/<日期>/sample.json
+$PY $SK/inspect-robots.py "https://spacemanmeow.com" --market both -o data/geo/<日期>/robots.json
+$PY $SK/inspect-schema.py "https://spacemanmeow.com" -o data/geo/<日期>/schema.json
+$PY $SK/llms-txt.py "https://spacemanmeow.com" -o data/geo/<日期>/llms.json
+$PY $SK/generate-report.py --autofill --page data/geo/<日期>/page.json --sample data/geo/<日期>/sample.json \
+    --robots data/geo/<日期>/robots.json --schema data/geo/<日期>/schema.json --llms data/geo/<日期>/llms.json \
+    --market both --out data/geo/<日期>/audit.json
+```
+> 以上路径相对 `seo/` 目录；输出落在被 gitignore 的 `seo/data/geo/<日期>/`。3 项语义项（C2.2/C3.4/C5.1）脚本标 pending，须读正文人工补分后 `--rescore` 重算。
+
+**判定红线（本站踩过的坑）**：
+- 正文/HTML 占比低 ≠ JS 渲染。本站是 Jekyll 静态页、正文在源码里，占比 0.6% 只是导航页内容短——**不要据此开 SSR 药方**；curl 原文核验再下结论。
+- Schema 报错先看根因：本站 3 个 W3C error 是 jekyll-seo-tag 把 `_config.yml` 的 `social.links` 相对 URL 塞进 WebSite 的 `sameAs`，改配置为绝对 URL 即可，不是缺 Organization。
+- FAQ 已全站有（`/faq/` 338 条）不代表首页/应用页有页面级 FAQ 区块；体检判的是被检页面本身。
+- 通用模板的「工商全称/ICP 备案」不适用于本站（海外独立工作室），落地时按主体实际改写。
+- 改完等爬虫重抓才生效；两次诊断规则版本不同时只做逐项对比，不比总分。
+
+**原始数据在** `data/geo/20261122/`（audit/page/schema/robots/sample/llms），复测时逐项对比。
+
 ---
 
 ## 5. 外部权威（Off-page）

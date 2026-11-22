@@ -16,8 +16,9 @@
 1. 想了解「某类 SEO 该怎么做」→ 读 Playbook。
 2. 想了解「本月该做什么 / 填待办台账」→ 读 `SEO-PROGRESS.md`（§2 待做、§3 月度）；想查阅「已经做了什么」→ 读 `SEO_DONE.md`（归档，不排期）。
 3. 新落地一项方法：在 Playbook 对应分类补方法 + 把 `SEO-PROGRESS.md` §2 对应项勾选并**移到 `SEO_DONE.md`** 归档、填日期；长期运营项按月执行 `SEO-PROGRESS.md` §3.1 清单，数据复盘同步更新 `SEO-METRICS.md` 月度报告。
-4. 大规模改动后要验收整站 → 按 `SITE-AUDIT.md` 完整教研一遍并填写教研记录表。
+4. 大规模改动后要验收整站 → 按 `SITE-AUDIT.md` 完整教研一遍，按维度在对话中输出校验项与结果，不留存记录表。
 5. 新增语言 / 为某 App 补多语言内容 → 先读 `SEO-I18N-PLAYBOOK.md` §1 与 §3，再读 `SEO-I18N-PROGRESS.md` 的「当前批次」，按批次执行并回填状态。
+6. GEO（AI 搜索）体检：方法见 `SEO-PLAYBOOK.md` §4.5，基线分见 `SEO-METRICS.md`「GEO 体检基线」，待整改任务见 `SEO-PROGRESS.md` §2.G，已完成项见 `SEO_DONE.md` GEO-01，原始数据在被 gitignore 的 `data/geo/<日期>/`。**内容按性质融入现有文档，不单列报告文件。**
 
 ## 文档更新规则（seo/ 目录统一口径）
 
