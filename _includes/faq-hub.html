@@ -1,0 +1,39 @@
+{%- comment -%}
+FAQ hub: a lightweight question index. Answers and FAQPage JSON-LD live on the
+source App/article pages (both built from single sources by _plugins/faq_index.rb).
+{%- endcomment -%}
+{%- assign lang = site.lang | default: 'en' -%}
+{%- assign ui = site.data.ui[lang] -%}
+{%- assign hub = site.data.faq_index -%}
+{%- assign app_groups = hub.apps -%}
+{%- assign post_groups = hub.posts -%}
+{%- assign total = 0 -%}
+{%- for g in app_groups -%}{%- assign total = total | plus: g.faqs.size -%}{%- endfor -%}
+{%- for g in post_groups -%}{%- assign total = total | plus: g.faqs.size -%}{%- endfor -%}
+
+<p class="faq-hub__intro">{{ ui.faq_hub_intro }}</p>
+<p class="faq-hub__stats">{{ ui.faq_hub_stats | replace: '%n', total }}</p>
+
+<section class="faq-hub__group">
+  <h2>{{ ui.faq_by_app }}</h2>
+  {%- for g in app_groups %}
+  <h3 class="faq-hub__source"><a href="{{ g.url | relative_url }}">{{ g.title | escape }}</a></h3>
+  <ul class="faq-hub__list">
+    {%- for x in g.faqs %}
+    <li class="faq-hub__item"><a href="{{ g.url | relative_url }}#{{ x.anchor }}">{{ x.q | strip_html | escape }}</a></li>
+    {%- endfor %}
+  </ul>
+  {%- endfor %}
+</section>
+
+<section class="faq-hub__group">
+  <h2>{{ ui.faq_by_guide }}</h2>
+  {%- for g in post_groups %}
+  <h3 class="faq-hub__source"><a href="{{ g.url | relative_url }}">{{ g.title | escape }}</a></h3>
+  <ul class="faq-hub__list">
+    {%- for x in g.faqs %}
+    <li class="faq-hub__item"><a href="{{ g.url | relative_url }}#{{ x.anchor }}">{{ x.q | strip_html | escape }}</a></li>
+    {%- endfor %}
+  </ul>
+  {%- endfor %}
+</section>

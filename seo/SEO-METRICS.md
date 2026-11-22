@@ -32,7 +32,7 @@
 
 #### 2026-11（5 语全量 + 3 批深对比文发布后的首个观测窗）
 
-- **Google 搜索（GSC，11/1–11/15）**：展现 8280 / 点击 182 / CTR 2.20% / 平均排名 15.7，340 页有展现。环比 10 月：日均点击 12.1 vs 1.8（6.6×）、日均展现 552 vs 58（9.6×），但 CTR 3.19%→2.20%（−0.99pp）、平均排名 10.3→15.7（退 5.4 位）。
+- **Google 搜索（GSC，11/1–11/15）**：展现 8280 / 点击 182 / CTR 2.20% / 平均排名 15.7，340 页有展现。环比 10 月：日均点击 12.1 vs 1.8（6.6×）、日均展现 552 vs 58（9.6×），但 CTR 3.19%→2.20%（−0.99pp）、平均排名 10.3→15.7（退 5.4 位）。（2026-11-21 注：B3 FAQ 中心页已上线，5 语各 338 问答 + 统一 FAQPage schema；People Also Ask / 语音与 AI 引荐效果待 12 月 GSC 与 GoatCounter 复测回填，不臆造数字。）
 - **真实搜索词**：品牌词 `meow manager`(8击/47现/CTR 17%)、`meow money`(8/62/12.9%)、`meow money manager`(3/41/7.3%) 共 19 击、CTR 最高；品类/替代词 `cpu-z alternative android`(1/5)、`ccleaner alternative android`(1/3)、`best widget apps for android`(1/3) 长尾化明显，单query >2 击的极少。高展现低点击词集中在 Glossary 占位词：`budget management`(0/595/pos 60.2)、`floating window`(0/130/pos 10)、`crosshair`(1/96/pos 37.8)、`one ui`(0/84/pos 41)、`nothing ui`(0/61/pos 9.3)、`jendela mengambang`(1/97/pos 7.7)。
 - **Top 页面**：`apps/meow-money-manager`(30击/465现)、`alternatives-to-widgetsmith`(14/342)、`pillar-cpu-temperature-monitor-apps-android`(13/622/CTR 2.1%)、`pillar-android-home-screen-widgets`(12/237/pos 29.5 异常)、`pillar-flip-clock-apps-android`(12/307)、`tutorial-meow-money`(11/127/CTR 8.7%)、`pillar-crosshair-apps-fps-android`(9/231)。
 - **术语页吞噬曝光**：`glossary/what-is-budget-management`(0击/640现/pos 59.5)、`what-is-a-floating-window`(0/356/pos 8.5)、`what-is-a-crosshair`(1/324/pos 18.7)、`what-is-galaxy-one-ui`(0/241/pos 35.7)、印尼语 `id/glossary/what-is-a-floating-window`(1/175)。仅这 5 页合计约 1736 展现、2 点击。（2026-11-21 注：B2 已把 Glossary 从定义页升级为按问题分类的解决中心——27 术语×5 语标题改解决意图式、CTA 覆盖 23 术语×5 语、Pillar/App 互链闭环；上述术语页 CTR 是否改善待 12 月 GSC 复测回填，不在本文件臆造数字。）

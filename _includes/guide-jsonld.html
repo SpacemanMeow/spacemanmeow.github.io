@@ -3,6 +3,7 @@
   jekyll-seo-tag 在 posts defaults 中已强制 WebPage，此处避免重复 BlogPosting；
   dateModified 采用 git hook 写入的 page.last_modified_at，author 采用 _data/authors.yml。
 {%- endcomment -%}
+{%- if page.faq_items and page.faq_items.size > 0 -%}{% include faq-jsonld.html questions=page.faq_items %}{%- endif -%}
 {%- assign article_author = site.data.authors[page.author] | default: site.data.authors.author_meow_id -%}
 {%- assign article_lang = page.lang | default: site.lang | default: 'en' -%}
 {%- assign article_image = page.image | default: page.cover | default: site.avatar -%}

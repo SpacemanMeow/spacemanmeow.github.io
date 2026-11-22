@@ -762,6 +762,18 @@ body.no-scroll { overflow: hidden; }
 .app-faq__list { display: grid; gap: var(--space-8); }
 .app-faq__q { font-family: var(--font); font-size: var(--fs-md); line-height: 1.4; color: var(--accent-strong); font-weight: var(--fw-body); margin: 0 0 var(--space-3); }
 .app-faq__a { font-family: var(--font); color: var(--text-body); font-size: var(--fs-md); line-height: 1.75; font-weight: var(--fw-body); margin: 0; }
+.app-faq__item[id] { scroll-margin-top: 104px; }
+
+/* FAQ 中心页：按来源分组的问题索引；答案与 FAQPage schema 留在来源页 */
+.faq-hub__intro { font-family: var(--font); color: var(--text-body); font-size: var(--fs-md); line-height: 1.75; font-weight: var(--fw-body); margin: 0 0 var(--space-4); }
+.faq-hub__stats { font-family: var(--font); color: var(--text-head); font-size: var(--fs-base); font-weight: var(--fw-bold); margin: 0 0 var(--space-8); }
+.faq-hub__group { margin: 0 0 var(--space-9); }
+.faq-hub__group > h2 { font-family: var(--font); font-size: var(--fs-xl); color: var(--text-head); font-weight: var(--fw-bold); margin: 0 0 var(--space-6); padding-bottom: var(--space-3); border-bottom: var(--divider-solid); }
+.faq-hub__source { font-family: var(--font); font-size: var(--fs-md); color: var(--accent-strong); font-weight: var(--fw-bold); margin: var(--space-7) 0 var(--space-3); }
+.faq-hub__list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2); }
+.faq-hub__item { font-family: var(--font); font-size: var(--fs-md); line-height: 1.6; border-bottom: var(--divider-dashed); padding-bottom: var(--space-2); }
+.faq-hub__item a { color: var(--text-body); font-weight: var(--fw-body); }
+.faq-hub__item a:hover { color: var(--accent-strong); }
 
 .app-guides__title { font-family: var(--font); font-size: var(--fs-xl); color: var(--text-head); font-weight: var(--fw-bold); margin: 0 0 var(--space-5); }
 .app-guides__intro { font-family: var(--font); color: var(--text-body); font-size: var(--fs-md); line-height: 1.75; font-weight: var(--fw-body); margin: 0 0 var(--space-6); }
@@ -811,6 +823,8 @@ a.tag:hover,
 .page-content .search-apps__item:hover { text-decoration: none; }
 
 .page-head__tags-link { font-family: var(--font); color: var(--text-body); font-size: var(--fs-md); margin: var(--space-5) 0 0; }
+.page-head__link-row { display: block; }
+.page-head__link-row + .page-head__link-row { margin-top: var(--space-2); }
 .page-head__tags-link a { color: var(--accent-strong); font-weight: var(--fw-head); text-decoration: none; }
 
 .app-content blockquote {
@@ -963,7 +977,7 @@ a.tag:hover,
 
 .post__content h2 { font-size: var(--fs-2xl); margin-top: 40px; font-weight: var(--fw-bold); }
 .post__content h3 { font-size: var(--fs-xl); margin-top: var(--space-9); font-weight: var(--fw-bold); }
-.post__content h2[id], .post__content h3[id] { scroll-margin-top: 104px; }
+.post__content h2[id], .post__content h3[id], .post__content .faq-q[id] { scroll-margin-top: 104px; }
 .post__content h4,
 .page-content h3 { font-size: var(--fs-md); margin-top: var(--space-8); font-weight: var(--fw-body); }
 

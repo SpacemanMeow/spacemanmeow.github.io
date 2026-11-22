@@ -123,7 +123,7 @@
 |---|---|---|---|---|
 | D01 | 构建与产物 | P0 | `scripts/build.sh` 全量构建 + §5 脚本 | 退出码 0；各语言首页存在；日志 5 语言、页数正常（`LANGS >= 5`）；**`README.md`「语言」段与 `_data/languages.yml` 一致**（新增语言不漏改对外清单，见 `SEO-I18N-PLAYBOOK.md` §2.4） |
 | D02 | 链接与资源 | P0 | `htmlproofer` | 0 failure；内链、锚点、图片、脚本全通 |
-| D03 | 多语言源对账 | P0 | §5 脚本 | 4 个非 EN 完整语言（zh/id/th/ms）逐组差集为 0、结构页 9/9（含 docs）；分批语言无孤立文件并报告覆盖进度 |
+| D03 | 多语言源对账 | P0 | §5 脚本 | 4 个非 EN 完整语言（zh/id/th/ms）逐组差集为 0、结构页 10/10（含 docs、faq）；分批语言无孤立文件并报告覆盖进度 |
 | D04 | 路由、集合与隔离 | P0 | 配置核对 + 产物 URL 抽查 | 集合分离且非空、`exclude` 正确、各语言子站无跨语言泄漏 |
 | D05 | hreflang / sitemap / canonical / feed / robots | P0 | §5 脚本 + 人工抽验 | 组内每语言 1 条 + x-default；合并 sitemap；404 排除；canonical 为生产域名 |
 | D06 | frontmatter 与元数据 | P0 | §5 脚本 | 必填齐、`lang` 对、`description ≤160`、无裸 `&`；**App `tagline` 四语信息量与 EN 对等**（≤1.5× 且无增补规格数字，见 §1 红线 12）；**站点级 `tagline` 单行显示宽度** `w≤60` 且非 EN ≤ EN（见 §1 红线 13） |
@@ -164,7 +164,7 @@
 
 ### D03 多语言源对账（P0）
 
-- **检查点**：各语言 `_posts` 69↔69、`_apps` 11↔11、`_pages` 8↔8、`_glossary` 27↔27，**按同名文件**一一对应（具体数值以文件系统实测为准，脚本自动发现语言与完成度）；分批建设中的语言要求无孤立文件并报告进度，见 §2.6。成对文件 `title/description/tags/image/layout` 均存在。
+- **检查点**：各语言 `_posts` 70↔70、`_apps` 11↔11、`_pages` 10↔10、`_glossary` 27↔27，**按同名文件**一一对应（具体数值以文件系统实测为准，脚本自动发现语言与完成度）；分批建设中的语言要求无孤立文件并报告进度，见 §2.6。成对文件 `title/description/tags/image/layout` 均存在。
 - **手段**：§5 脚本 D03。
 - **失败处理**：完整语言缺哪一侧补哪一侧；新增语言按 `SEO-I18N-PLAYBOOK.md` §2.3 建配置/目录/集合，内容按 `SEO-I18N-PROGRESS.md` 分批补齐。
 
@@ -419,12 +419,12 @@ for lab, key in [('文章', 'posts'), ('应用', 'apps'), ('页面', 'pages'), (
         orphan = O - B
         chk('D03', f'{lab} {L} 无孤立文件', not orphan,
             f'{L} {len(O)}/{len(B)}，孤立 {len(orphan)}；其余按 SEO-I18N-PROGRESS.md 分批补齐')
-# D03 结构页硬门禁：每个完整语言必须含 9 个固定结构页（含 Docs 中心页；缺页会致 htmlproofer 断链，P0）
-STRUCT = ['index', 'meow', 'about', 'privacy', 'terms', 'search', 'tags', 'glossary', 'docs']
+# D03 结构页硬门禁：每个完整语言必须含 10 个固定结构页（含 Docs / FAQ 中心页；缺页会致 htmlproofer 断链，P0）
+STRUCT = ['index', 'meow', 'about', 'privacy', 'terms', 'search', 'tags', 'glossary', 'docs', 'faq']
 for L in FULL:
     have = nm(dirs(L)['pages'] + '/*.md')
     miss = [s for s in STRUCT if (s + '.md') not in have]
-    chk('D03', f'结构页 9/9 ({L})', not miss,
+    chk('D03', f'结构页 10/10 ({L})', not miss,
         f'缺失 {miss}（致 htmlproofer 断链；须与 id 骨架同源补齐，不得标记待补）')
 # D06
 need0 = {'title', 'description'}
@@ -855,6 +855,7 @@ PY
 | 2026-11-19 | PASS（5 语 / 675 页） | PASS（676 文件 / 1293 内链 / 0 failure） | T-44 文章页宽屏三栏（≥1280px）：左 sticky 目录（JS 从 h2/h3 生成 + 滚动高亮）、中正文、右 sticky 推荐（Related App 卡片 + 相关文章）；新增 `_includes/post-toc-aside.html`、`_includes/post-sidebar.html`，改 post/guide/docs layout + nav `SITE_UI.table_of_contents` + main.js + CSS；窄屏退回单栏、正文内手写 TOC 保留。D03/D05/D06/D09/D11/D17/D18/D19/D20 全通过；75 PASS / 0 FAIL / 0 WARN | 页/sitemap/hreflang 不变（675 / 675 / 6×675）；内链 1292→1293（新增 aside 回链） |
 | 2026-11-19 | PASS（5 语 / 675 页；Pagefind 完整） | PASS（676 文件 / 1293 内链 / 0 failure） | 宽屏三栏与侧栏样式连续微调后的全量校验：正文相关文章 4→5 篇与侧栏一致；三栏断点 1400→1580px、正文固定 992px 不收缩、侧栏下限 240/280px；侧栏单按钮半宽靠左；目录基线 1→2px 对齐；容器加宽限定到 `container--wide`，about/tags 恢复 1040px；侧栏 Related Posts 下新增 Tags 区块并补齐五语 `tags_title`。D01–D20 全绿（75 PASS / 0 FAIL / 0 WARN）。**新增 D21 响应式门禁并实测**：375/768/1024/1400/1570/1590/1920 × about/文章/App页/中文文章全部无横向溢出；1570px 侧栏隐藏、1590px 显示且正文 992px / 右栏 280px；普通页容器 1040px；单/双按钮 badge 均 129px 且靠左；目录竖线 2px 对齐 | 页/sitemap/hreflang 不变（675 / 675 / 6×675）；新增 D21 维度（§0 步 5 / §3 / §4 / §8） | 675 / 675 / 6×675；`BASE` 为空 | ✅ 可发布 | — |
 | 2026-11-20 | 纯台账状态迁移：A5 Release Notes 中心页（及合并执行的 E3）勾选并从 `SEO-PROGRESS.md` §2 归档至 `SEO_DONE.md` §2；无站点文件改动 | —（未触发构建） | —（未触发构建） | 沿用 2026-11-19 全绿基线（D01–D21）；A5 对应 D20 已验证：55 页 Release Note + App ⇄ Release Note 环链 | 无基线数字变化（675 页 / 1293 内链 / 675 sitemap / 6×675 hreflang） | ✅ 可发布 | — |
+| 2026-11-21 | B3 新增 FAQ 问答中心（大规模改动）：5 语新增 `_pages*/faq.md`；新增 `_plugins/faq_index.rb` 在构建期自动解析文章 FAQ（`**Q**` 与教程 `### Q` 两种标记，注入 `#faq-N` 锚点 + `page.faq_items` + `site.data.faq_index`），无手工脚本、无生成物；中心页为问题索引、答案与 schema 留在来源页（App 页复用共享 `_includes/faq-jsonld.html`、文章页由 `guide-jsonld.html` 输出）；`ui.yml` 五语补 5 键；`blog.html` 页眉加入口；CSS 加 `.faq-hub__*` 索引样式；D03 结构页 9→10、`STRUCT` 加 `faq` 并修正陈旧 posts/pages 口径 | PASS（5 语 / 680 页；完整构建含 Pagefind） | PASS（681 文件 / 2988 内链 / 0 failure） | D03 文章/App/页面/术语五语一一对应且结构页 10/10；D05 hreflang 680 页 / sitemap 680 loc；D06 description ≤160（新建 5 页均达标）、无裸 &、YAML 有效；D09 MISS=0；D10 JSON-LD 无 `&amp;`（共享 include 解码 `&`）；D11/D17/D18/D19/D20 全通过；D22 令牌全绿 | 82 PASS / 0 FAIL / 1 WARN（§5 静态脚本；D14 WARN 为 `_pages/faq.md` 未跟踪，人工确认属本轮批准新增） | **D21 实测**：Chrome headless 同源 iframe 量测 `/faq/` 在 375/768/1024/1920 四视口，`scrollWidth == clientWidth`（360/753/1009/1905），无横向溢出，338 链接全渲染；新增样式未引入固定宽度/负 margin，全部复用 D22 令牌 | 675→680 页（+5 FAQ 中心页）/ sitemap 680 loc / 6×680 hreflang；内链 1293→2988（+338×5 个 `#faq-N` 锚点链接）；结构页 9→10×5；中心页体积 245–415KB→65–86KB（答案不再重复） | D12 完整构建 PASS | ✅ 可发布 | AI 助手 |
 | 2026-11-21 | B2 Glossary 升级为「按问题分类的解决中心」（大规模改动）：5 语 `_glossary*` 共 135 术语页改解决意图标题 + 描述 + `app_slug`（4→23 术语×5 语）；5 语 `glossary.md` 索引补 5 个漏列预算术语并按 5 类问题分组（各 22→27 条）；5 语 `_apps*` + Pillar `Related terms` 链接文本同步（各 50 条）+ 记账类补 5 预算术语回链；新增 `_data/glossary_pillars.yml` + 五语 `related_guide` UI 键 + Glossary layout「相关指南」区块 | PASS（5 语 / 675 页；完整构建含 Pagefind） | PASS（676 文件 / 1293 内链 / 0 failure） | D03 术语/App/页面五语一一对应；D05 hreflang 675 页 / sitemap 675 loc；D06 description ≤160（首轮追加方案词超长 78 条已精简至达标，无裸 &）、YAML 有效；D09 MISS=0；D11 内链前缀；D17/D18/D19/D20 全通过；D22 令牌/无硬编码字号字重/共享组件全绿 | 83 PASS / 0 FAIL / 0 WARN（§5 静态脚本） | **结构性模板改动**：新增 `_data/glossary_pillars.yml` 属已批准文件变更，由 Glossary layout 读取并渲染，D14 无红线告警；`where_exp` 按 `lang` + URL 定位 Pillar 页，EN/中文产物分别验证 2 条指南链接正确、带语言前缀 | 页/sitemap/hreflang 不变（675 / 675 / 6×675）；内链 1293 不变（链接文本与分组调整，未新增 URL）；术语索引条目 22→27×5，CTA 覆盖 20→115 页 | D12 完整构建 PASS（快速构建的 FAIL 为已知假阳性，已按 §0 步 2 重跑消除） | ✅ 可发布 | AI 助手 |
 
 > D12 在 `SKIP_PAGEFIND=1` 快速构建下的 FAIL 是已知假阳性，不计入基线；本表只登记完整构建结果。

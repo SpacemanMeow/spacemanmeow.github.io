@@ -4,11 +4,13 @@ layout: default
 {%- assign lang = site.lang | default: 'en' -%}
 {%- assign lp = '' -%}{%- if lang != 'en' -%}{%- assign lp = '/' | append: lang -%}{%- endif -%}
 {%- assign ui = site.data.ui[lang] -%}
+{%- assign tags_label = ui.tags_index_link | replace: '&rarr;', '' | replace: '→', '' | strip -%}
+{%- assign glossary_label = ui.glossary_link | replace: '&rarr;', '' | replace: '→', '' | strip -%}
 <div class="page-head">
   <div class="container">
     <h1 class="page-head__title">{{ page.title }}</h1>
     {%- if page.subtitle %}<p class="page-head__subtitle">{{ page.subtitle }}</p>{% endif %}
-    <p class="page-head__tags-link">{{ ui.blog_intro }}<a href="{{ '/tags/' | prepend: lp | relative_url }}">{{ ui.tags_index_link }}</a><span aria-hidden="true"> · </span>{{ ui.quick_definitions }}<a href="{{ '/glossary/' | prepend: lp | relative_url }}">{{ ui.glossary_link }}</a><span aria-hidden="true"> · </span><a href="{{ '/docs/' | prepend: lp | relative_url }}">{{ ui.docs_title }}</a></p>
+    <p class="page-head__tags-link"><span class="page-head__link-row"><a href="{{ '/tags/' | prepend: lp | relative_url }}">{{ tags_label }}</a></span><span class="page-head__link-row"><a href="{{ '/glossary/' | prepend: lp | relative_url }}">{{ glossary_label }}</a></span><span class="page-head__link-row"><a href="{{ '/docs/' | prepend: lp | relative_url }}">{{ ui.docs_title }}</a></span><span class="page-head__link-row"><a href="{{ '/faq/' | prepend: lp | relative_url }}">{{ ui.faq_link }}</a></span></p>
   </div>
 </div>
 
