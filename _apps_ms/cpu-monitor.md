@@ -43,10 +43,6 @@ CPU Monitor adalah pemantau peranti keras untuk Android. Ia memaparkan suhu dan 
 
 Pantau suhu CPU dan frekuensinya secara masa nyata, analisis data sejarah, dan dukung pemantauan CPU multi-inti.
 
-**One Tap Boost**
-
-Buat pintasan One Tap Boost untuk membebaskan RAM dengan sekali ketik.
-
 **Penggera suhu berlebih**
 
 CPU Monitor membunyikan penggera saat suhu CPU atau bateri terlalu panas; penggera ini dapat diaktifkan atau dimatikan sesuai keinginan.
@@ -67,4 +63,3 @@ CPU Monitor mendukung pergantian multi-tema, sehingga Anda boleh memilih paparan
 
 - [Pemantau Suhu CPU Android: Cara Semak Suhu dan Amaran Panas](/ms/glossary/what-is-a-cpu-temperature-monitor/)
 - [Pemantau Sistem Android: Cara Semak CPU, RAM, dan Storage](/ms/glossary/what-is-a-system-monitor/)
-- [Peningkat RAM Android: Cara Kerja dan Bila Ia Berguna](/ms/glossary/what-is-a-ram-booster/)

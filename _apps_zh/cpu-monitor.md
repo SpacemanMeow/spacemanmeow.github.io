@@ -1,7 +1,7 @@
 ---
 title: CPU Monitor - 温度监控
 tagline: 实时监控 CPU 温度与频率
-description: "CPU Monitor 在 Android 上实时显示 CPU 温度与频率、内存、电池及多核使用情况，并支持悬浮窗、桌面小组件、一键加速与过热警报。"
+description: "CPU Monitor 在 Android 上实时显示 CPU 温度与频率、内存、电池及多核使用情况，并支持悬浮窗、桌面小组件与过热警报。"
 icon: /assets/images/apps/cpu-monitor/icon.webp
 image: /assets/images/apps/cpu-monitor/icon.webp
 lang: zh
@@ -35,15 +35,11 @@ faq:
       支持。CPU Monitor 实时监控多核 CPU 的使用率与频率，并可分析温度与频率历史，帮助你发现性能问题。
 ---
 
-最美观、最强大的安卓 CPU 监控工具！你可以实时监控 CPU 温度与频率，并分析其历史数据。CPU Monitor 还提供多种实用工具，包括：一键加速、内存小组件、CPU 小组件、电池小组件、桌面悬浮窗、过热警报，轻松掌握内存、CPU 与电池信息。主要功能包括：
+最美观、最强大的安卓 CPU 监控工具！你可以实时监控 CPU 温度与频率，并分析其历史数据。CPU Monitor 还提供多种实用工具，包括：内存小组件、CPU 小组件、电池小组件、桌面悬浮窗、过热警报，轻松掌握内存、CPU 与电池信息。主要功能包括：
 
 **CPU 监控**
 
 实时监控 CPU 温度与频率，分析温度与频率历史数据，并支持多核 CPU 监控。
-
-**一键加速**
-
-你可以创建「一键加速」快捷方式，便捷地清理内存。
 
 **温度过高过热警报**
 
@@ -61,10 +57,7 @@ faq:
 
 CPU Monitor 界面精美并支持多主题切换，你可以选择喜欢的主题。
 
-如果你喜欢 CPU Monitor，可以升级到专业版「Powerful System Monitor」：CPU 监控、存储清理、内存加速、电池监控、电池省电，全部合二为一！
-
 ## 相关术语
 
 - [CPU 温度监控：检查手机发热与温度警报](/zh/glossary/what-is-a-cpu-temperature-monitor/)
 - [系统监控：查看 Android 的 CPU、内存与存储](/zh/glossary/what-is-a-system-monitor/)
-- [内存清理：工作原理与何时有用](/zh/glossary/what-is-a-ram-booster/)

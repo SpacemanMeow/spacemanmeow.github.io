@@ -5,7 +5,7 @@
 # ===================================================================
 title: CPU Monitor - temperature # 应用名称（列表页 & 详情页标题）
 tagline: Monitor the CPU temperature and frequency real time # 一句话简介
-description: "CPU Monitor shows CPU temperature and frequency, RAM, battery and multicore usage on Android, with floating window, widgets, one-tap boost and overheat alarm."
+description: "CPU Monitor shows CPU temperature and frequency, RAM, battery and multicore usage on Android, with floating window, widgets and overheat alarm."
 icon: /assets/images/apps/cpu-monitor/icon.webp # 应用图标（建议 512x512 png）
 image: /assets/images/apps/cpu-monitor/icon.webp
 lang: en
@@ -41,15 +41,11 @@ faq:
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
-The most beautiful and powerful cpu monitor for android! You are able to monitor cpu temperature and frequency real time, and analyze the cpu temperature and frequency history data. Cpu monitor provides many kinds of tools. including: One Tap Boost, ram widget, cpu widget, battery widget, desktop floating window, over heat alarm. You can monitor the ram, cpu and battery information very convenient. The detail features including:
+The most beautiful and powerful cpu monitor for android! You are able to monitor cpu temperature and frequency real time, and analyze the cpu temperature and frequency history data. Cpu monitor provides many kinds of tools. including: ram widget, cpu widget, battery widget, desktop floating window, over heat alarm. You can monitor the ram, cpu and battery information very convenient. The detail features including:
 
 **CPU Monitor**
 
 Monitor the cpu temperature and frequency real time, analyze the cpu temperature and frequency history information, and support the multicore cpu monitoring.
-
-**One Tap Boost**
-
-You can create the『One Tap Boost』shortcut, boost ram very convenient.
 
 **Temperature Over Heat Alarm**
 
@@ -67,10 +63,7 @@ Support ram widget, cpu widget and battery widget.
 
 Cpu monitor is very beautiful and support multi-theme switching, you can choose the theme you like.
 
-If you like cpu monitor, you can upgrade to pro version 『Powerful System Monitor』: CPU Monitor, Storage Cleaner, RAM Booster, Battery Monitor, Battery Saver all in one!
-
 ## Related terms
 
 - [CPU Temperature Monitor: Check Android Heat and Alerts](/glossary/what-is-a-cpu-temperature-monitor/)
 - [System Monitor: Check CPU, RAM and Storage on Android](/glossary/what-is-a-system-monitor/)
-- [RAM Booster: How It Works and When It Helps](/glossary/what-is-a-ram-booster/)
