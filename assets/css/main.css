@@ -626,14 +626,16 @@ body.no-scroll { overflow: hidden; }
 
 .app-row__info {
   flex: 0 0 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 150px 282px;
+  column-gap: var(--space-9);
+  row-gap: 0;
   align-items: center;
-  gap: var(--space-9);
   min-width: 0;
 }
 
 .app-row__icon-link,
-.related-app-card .app-row__icon-link { flex: 0 0 auto; }
+.related-app-card .app-row__icon-link { flex: 0 0 auto; grid-column: 1; grid-row: 1; }
 
 .app-row__icon {
   display: block;
@@ -645,7 +647,7 @@ body.no-scroll { overflow: hidden; }
   outline-offset: 0;
 }
 
-.app-row__text { flex: 0 0 282px; width: 282px; min-width: 0; }
+.app-row__text { grid-column: 2; grid-row: 1; flex: 0 0 282px; width: 282px; min-width: 0; }
 
 .app-row__name,
 .post-card__title { font-size: var(--fs-xl); letter-spacing: -.01em; }
@@ -657,6 +659,16 @@ body.no-scroll { overflow: hidden; }
   line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.app-row__detail {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  margin-top: var(--space-5);
+  color: var(--text-body);
+  font-size: var(--fs-base);
+  line-height: 1.65;
+  font-weight: var(--fw-body);
 }
 
 .app-row__tagline {
@@ -752,32 +764,71 @@ body.no-scroll { overflow: hidden; }
   margin: var(--space-1) var(--space-1) var(--space-1) 0;
 }
 
-/* FAQ 区块（详情页底部，与 FAQPage 结构化数据对应） */
-/* 字体/字号/字重与 .app-content 正文保持一致，标题配色对齐正文 h3（品牌橙） */
-.app-faq,
+/* FAQ 共用样式：所有页面与文章正文使用同一套编号问答排版 */
+.faq-section {
+  font-family: var(--font);
+  color: var(--text-body);
+  font-size: var(--fs-md);
+  line-height: 1.8;
+  font-weight: var(--fw-body);
+}
+.faq-section + .faq-section { margin-top: var(--space-9); }
+.faq-section--divided {
+  margin: var(--divider-solid-gap) 0 0;
+  padding-top: var(--divider-solid-gap);
+  border-top: var(--divider-solid);
+}
 .app-guides { font-family: var(--font); margin: var(--divider-solid-gap) 0 0; padding-top: var(--divider-solid-gap); border-top: var(--divider-solid); }
-.app-body .app-faq,
+.app-body .faq-section,
 .app-body .app-guides { margin-left: auto; margin-right: auto; }
-.app-faq__title { font-family: var(--font); font-size: var(--fs-xl); color: var(--text-head); font-weight: var(--fw-bold); margin: 0 0 var(--space-7); }
-.app-faq__list { display: grid; gap: var(--space-8); }
-.app-faq__q { font-family: var(--font); font-size: var(--fs-md); line-height: 1.4; color: var(--accent-strong); font-weight: var(--fw-body); margin: 0 0 var(--space-3); }
-.app-faq__a { font-family: var(--font); color: var(--text-body); font-size: var(--fs-md); line-height: 1.75; font-weight: var(--fw-body); margin: 0; }
-.app-faq__item[id] { scroll-margin-top: 104px; }
+.faq-section__title {
+  font-family: var(--font);
+  font-size: var(--fs-2xl);
+  color: var(--text-head);
+  font-weight: var(--fw-bold);
+  margin: 0 0 var(--space-7);
+}
+.faq-list { counter-reset: faq; }
+.faq-list .faq-q {
+  color: inherit;
+  counter-increment: faq;
+  font-size: var(--fs-md);
+  line-height: 1.4;
+  font-weight: var(--fw-body);
+  margin: var(--space-7) 0 0;
+}
+.faq-list .faq-q strong { font-weight: var(--fw-body); }
+.faq-list .faq-q::before { content: counter(faq) ". "; }
+.faq-list .faq-q + p {
+  color: var(--text-body);
+  font-size: var(--fs-md);
+  line-height: 1.75;
+  font-weight: var(--fw-body);
+  margin: var(--space-2) 0 0;
+}
+.faq-list .faq-q[id] { scroll-margin-top: 104px; }
+.faq-section a { color: var(--accent-strong); }
+.faq-list .faq-q a { color: inherit; text-decoration: none; }
+.faq-list .faq-q a:hover { text-decoration: underline; }
+.faq-more { font-family: var(--font); margin: var(--space-8) 0 0; }
+.faq-more a { color: var(--accent-strong); font-size: var(--fs-md); line-height: 1.4; font-weight: var(--fw-body); text-decoration: none; }
 
-/* FAQ 中心页：按来源分组的问题索引；答案与 FAQPage schema 留在来源页 */
-.faq-hub__intro { font-family: var(--font); color: var(--text-body); font-size: var(--fs-md); line-height: 1.75; font-weight: var(--fw-body); margin: 0 0 var(--space-4); }
-.faq-hub__stats { font-family: var(--font); color: var(--text-head); font-size: var(--fs-base); font-weight: var(--fw-bold); margin: 0 0 var(--space-8); }
-.faq-hub__group { margin: 0 0 var(--space-9); }
-.faq-hub__group > h2 { font-family: var(--font); font-size: var(--fs-xl); color: var(--text-head); font-weight: var(--fw-bold); margin: 0 0 var(--space-6); padding-bottom: var(--space-3); border-bottom: var(--divider-solid); }
-.faq-hub__source { font-family: var(--font); font-size: var(--fs-md); color: var(--accent-strong); font-weight: var(--fw-bold); margin: var(--space-7) 0 var(--space-3); }
-.faq-hub__list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2); }
-.faq-hub__item { font-family: var(--font); font-size: var(--fs-md); line-height: 1.6; border-bottom: var(--divider-dashed); padding-bottom: var(--space-2); }
-.faq-hub__item a { color: var(--text-body); font-weight: var(--fw-body); }
-.faq-hub__item a:hover { color: var(--accent-strong); }
+/* 首页/应用列表页正文：仅保留非 FAQ 容器样式 */
+.home-notes { font-family: var(--font); padding-top: 60px; padding-bottom: var(--space-8); }
+.home-intro__points-title { font-family: var(--font); font-size: var(--fs-xl); color: var(--text-head); font-weight: var(--fw-bold); margin: 0 0 var(--space-3); }
+.home-intro__points { list-style: none; margin: 0 0 var(--space-6); padding: 0; display: grid; gap: var(--space-2); }
+.home-intro__points li { font-family: var(--font); font-size: var(--fs-md); line-height: 1.7; color: var(--text-body); font-weight: var(--fw-body); padding-left: var(--space-5); position: relative; }
+.home-intro__points li::before { content: "•"; color: var(--accent-strong); position: absolute; left: 0; }
+.home-intro__end { font-family: var(--font); font-size: var(--fs-md); line-height: 1.75; color: var(--text-body); font-weight: var(--fw-body); margin: 0 0 var(--space-8); }
+
+/* FAQ 中心页：按来源分组的问答，Q/A 排版复用上方共用样式 */
+.faq-intro { font-family: var(--font); color: var(--text-body); font-size: var(--fs-md); line-height: 1.75; font-weight: var(--fw-body); margin: 0 0 var(--space-4); }
+.faq-stats { font-family: var(--font); color: var(--text-head); font-size: var(--fs-base); font-weight: var(--fw-bold); margin: 0 0 var(--space-8); }
+.faq-source { font-family: var(--font); font-size: var(--fs-md); color: var(--accent-strong); font-weight: var(--fw-bold); margin: var(--space-7) 0 0; }
 
 .app-guides__title { font-family: var(--font); font-size: var(--fs-xl); color: var(--text-head); font-weight: var(--fw-bold); margin: 0 0 var(--space-5); }
 .app-guides__intro { font-family: var(--font); color: var(--text-body); font-size: var(--fs-md); line-height: 1.75; font-weight: var(--fw-body); margin: 0 0 var(--space-6); }
-/* 注意：app-guides 区块在 .app-content 之外（与 app-faq 同级），故容器用 .app-body */
+/* 注意：app-guides 区块在 .app-content 之外（与 FAQ 区块同级），故容器用 .app-body */
 .app-body .app-guides__list,
 .page-content .tag-index__list,
 .related-posts__list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-4); }
@@ -799,8 +850,7 @@ body.no-scroll { overflow: hidden; }
 
 .release-note__intro { font-family: var(--font); color: var(--text-body); font-size: var(--fs-md); line-height: 1.75; margin: 0 0 var(--space-6); }
 
-.release-note__intro p + p,
-.post__content p.faq-q + p { margin-top: var(--space-2); }
+.release-note__intro p + p { margin-top: var(--space-2); }
 .release-note__back { margin: var(--divider-solid-gap) 0 0; padding-top: var(--divider-solid-gap); border-top: var(--divider-solid); }
 
 .tag-index { display: grid; gap: var(--divider-solid-gap); }
@@ -977,18 +1027,12 @@ a.tag:hover,
 
 .post__content h2 { font-size: var(--fs-2xl); margin-top: 40px; font-weight: var(--fw-bold); }
 .post__content h3 { font-size: var(--fs-xl); margin-top: var(--space-9); font-weight: var(--fw-bold); }
-.post__content h2[id], .post__content h3[id], .post__content .faq-q[id] { scroll-margin-top: 104px; }
+.post__content h2[id], .post__content h3[id] { scroll-margin-top: 104px; }
 .post__content h4,
 .page-content h3 { font-size: var(--fs-md); margin-top: var(--space-8); font-weight: var(--fw-body); }
 
 .post__content ul, .post__content ol { margin: var(--space-5) 0 0; padding-left: var(--space-8); }
 .post__content li { margin: var(--space-3) 0; }
-
-/* FAQ 问答：问句独立成段、用普通字体色并加粗，前置自动序号；答案紧跟问句 */
-.post__content { counter-reset: faq; }
-.post__content .faq-q { color: inherit; counter-increment: faq; font-weight: var(--fw-head); }
-.post__content .faq-q::before { content: counter(faq) ". "; }
-.post__content p.faq-q { margin-top: var(--space-7); }
 
 .post__content img {
   max-width: 100%;
@@ -1069,7 +1113,6 @@ a.tag:hover,
 
 /* Glossary 定义页解决方案：与正文内容区样式一致，链接沿用正文主题色 */
 .glossary-solution,
-.docs-hub__heading--spaced { margin-top: var(--space-9); }
 .glossary__back { margin-top: var(--space-8); }
 .glossary__back a {
   display: inline-flex;
@@ -1262,6 +1305,7 @@ a.tag:hover,
 }
 
 .site-footer__bottom-inner {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -1270,8 +1314,19 @@ a.tag:hover,
   color: var(--text-body);
   font-size: var(--fs-sm);
 }
+.copyright__updated {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
 
 .social-links { display: flex; flex-wrap: wrap; gap: var(--space-6); }
+
+@media (max-width: 768px) {
+  .site-footer__bottom-inner { justify-content: center; }
+  .copyright__updated { position: static; transform: none; width: 100%; text-align: center; order: 3; }
+}
 
 /* ------------------------------------------------------------------
    11. 响应式
@@ -1280,16 +1335,20 @@ a.tag:hover,
   .app-row { padding: 32px 0; }
   .app-row__inner { flex-direction: column; align-items: stretch; }
   /* pad 档头部三要素与博客页统一：icon 120 / 标题 20 / 副标题 16 / 按钮 132 */
+  /* 截图与 icon 纵向布局：详细描述放到 icon + 按钮下方，跨整行 */
   .app-row__info {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    column-gap: var(--space-6);
+    row-gap: 0;
     align-items: center;
-    gap: var(--space-4) var(--space-6);
   }
-  .app-row__icon { width: 120px; height: 120px; }
+  .app-row__icon-link { grid-column: 1; grid-row: 1; align-self: center; }
+  .app-row__text { grid-column: 2; grid-row: 1; display: block; flex: 1 1 auto; width: auto; max-width: none; min-width: 0; }
   .app-row__name { font-size: var(--fs-xl); }
   .app-row__tagline { font-size: var(--fs-md); }
-  .app-row__text { flex: 1 1 calc(100% - 120px - var(--space-6)); width: auto; min-width: 0; max-width: none; }
+  .app-row__detail { grid-column: 1 / -1; grid-row: 2; margin-top: var(--space-4); }
+  .app-row__icon { width: 120px; height: 120px; }
   .app-hero__icon { width: 124px; height: 124px; }
   /* 截图放在 icon 下方；pad 档 shot 更高（宽度更大） */
   .app-row__shots { margin-left: 0; margin-top: var(--space-9); }
@@ -1533,6 +1592,8 @@ a.tag:hover,
 
 .docs-hub { padding: var(--space-8) 0; background: var(--card); }
 .docs-hub__heading { font-size: var(--fs-2xl); color: var(--text-head); margin: 0 0 var(--space-5); }
+.docs-hub__heading--spaced { margin-top: 60px; }
+.docs-article .post__content h2:has(+ .faq-q) { font-size: var(--fs-xl); }
 
 .docs-hub__list { display: flex; flex-direction: column; }
 .docs-row {

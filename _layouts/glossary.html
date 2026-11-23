@@ -54,6 +54,29 @@ layout: default
       {%- endif -%}
       {%- endif -%}
 
+      <section class="faq-section" aria-labelledby="term-faq-title">
+        <h2 id="term-faq-title" class="faq-section__title">{{ site.data.ui[lang].home_faq_title }}</h2>
+        <div class="faq-list">
+          {%- assign _nums = '1,2' | split: ',' -%}
+          {%- for n in _nums -%}
+          {%- capture _qkey -%}term_faq_q{{ n }}{%- endcapture -%}
+          {%- capture _akey -%}term_faq_a{{ n }}{%- endcapture -%}
+          <p class="faq-q" id="faq-{{ n }}"><strong>{{ site.data.ui[lang][_qkey] }}</strong></p>
+          <p>{{ site.data.ui[lang][_akey] }}</p>
+          {%- endfor -%}
+        </div>
+      </section>
+      {%- assign _faqs = '' | split: ',' -%}
+      {%- for n in _nums -%}
+      {%- capture _qkey -%}term_faq_q{{ n }}{%- endcapture -%}
+      {%- capture _akey -%}term_faq_a{{ n }}{%- endcapture -%}
+      {%- capture _item -%}
+        {"@type": "Question", "name": {{ site.data.ui[lang][_qkey] | jsonify }}, "acceptedAnswer": {"@type": "Answer", "text": {{ site.data.ui[lang][_akey] | jsonify }}}}
+      {%- endcapture -%}
+      {%- assign _faqs = _faqs | push: _item -%}
+      {%- endfor -%}
+      {% include faq-jsonld.html questions=_faqs raw=true %}
+
       <p class="glossary__back"><a href="{{ '/glossary/' | prepend: lp | relative_url }}">{{ site.data.ui[lang].back_to_glossary }}</a></p>
     </div>
   </div>

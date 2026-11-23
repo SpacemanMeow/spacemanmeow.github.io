@@ -19,6 +19,7 @@
           {% include store-buttons.html play=app.google_play appstore=app.app_store %}
         </div>
       </div>
+      {%- if app.description %}<p class="app-row__detail">{{ app.description }}</p>{% endif %}
     </div>
 
     <div class="app-row__shots">

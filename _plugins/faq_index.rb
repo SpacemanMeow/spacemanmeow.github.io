@@ -36,6 +36,7 @@ module Jekyll
                 break
               end
               ans << lines[j]
+              out << lines[j]
               j += 1
             end
             a = ans.join.strip

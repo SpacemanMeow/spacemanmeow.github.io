@@ -21,6 +21,30 @@ layout: default
         {%- endif %}
       </div>
       {{ content }}
+
+      <section class="faq-section" aria-labelledby="release-faq-title">
+        <h2 id="release-faq-title" class="faq-section__title">{{ u.home_faq_title }}</h2>
+        <div class="faq-list">
+          {%- assign _nums = '1,2' | split: ',' -%}
+          {%- for n in _nums -%}
+          {%- capture _qkey -%}release_faq_q{{ n }}{%- endcapture -%}
+          {%- capture _akey -%}release_faq_a{{ n }}{%- endcapture -%}
+          <p class="faq-q" id="faq-{{ n }}"><strong>{{ u[_qkey] }}</strong></p>
+          <p>{{ u[_akey] }}</p>
+          {%- endfor -%}
+        </div>
+      </section>
+      {%- assign _faqs = '' | split: ',' -%}
+      {%- for n in _nums -%}
+      {%- capture _qkey -%}release_faq_q{{ n }}{%- endcapture -%}
+      {%- capture _akey -%}release_faq_a{{ n }}{%- endcapture -%}
+      {%- capture _item -%}
+        {"@type": "Question", "name": {{ u[_qkey] | jsonify }}, "acceptedAnswer": {"@type": "Answer", "text": {{ u[_akey] | jsonify }}}}
+      {%- endcapture -%}
+      {%- assign _faqs = _faqs | push: _item -%}
+      {%- endfor -%}
+      {% include faq-jsonld.html questions=_faqs raw=true %}
+
       <p class="release-note__back">
         <a href="/{% unless lang == 'en' %}{{ lang }}/{% endunless %}apps/{{ page.app_slug }}/">&larr; {{ page.app_title }}</a>
       </p>

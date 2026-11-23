@@ -61,6 +61,16 @@
 - D8（`posts-lastmod-hook.rb` 技术债治理：2026-11-23 把每文档一次 `git log` 改为整仓一次批量解析（2348 文件缓存为 first/last 日期映射）、fallback 路径用 `Shellwords.escape` 转义、改为 `||=` 保护 front matter 手工值。**未收窄到只注册 `:posts`**：apps 11×5 无显式 `date`，产物 `datePublished`/`dateModified` 依赖 `:documents` hook，收窄会使每次构建日期 churn。实测手工 `last_modified_at: 2026-11-05` 未被 git 的 11-18 覆盖，app 日期维持 09-16/11-21）
 - D12（视觉回归自动化：2026-11-23 把 D21 一次性多视口探针固化为 Playwright 测试。`package.json` + `playwright.config.js` + `tests/visual/layout.spec.js`，四视口 375/768/1024/1920 × 七类页面（首页/应用/文章/FAQ/标签/术语/Docs）共 28 项，断言无横向溢出（`documentElement.scrollWidth ≤ clientWidth + 1`）、H1 唯一、header/footer/main 可见、导航可达、无 pageerror；测的是已构建 `_site/`，用 `npm run test:visual` 一键运行。CI 加 `Visual regression (D12)` 步骤配合 Node 20 + Playwright 安装，`SITE-AUDIT.md` §0 第 5 步改为该命令，D21 不再是脚本外人工项。**踩坑**：必须在 `load` 后测，若用 `domcontentloaded` 会在 CSS 未加载时假性报 8 处 overflow——实际是 `.shots__track`/表格的 `overflow-x:auto` 尚未生效；另单线程静态服务器并发会连接重置，故 `workers: 2`。本地 28/28 PASS）
 - D14（清理遗留配置：核实 `.gitmodules` 声明的 `assets/lib` 子模块在 git index 中**无 gitlink 条目**、目录也不存在，纯 Chirpy 模板残留，已删除；CI checkout 中注释掉的 `submodules: true` 及 Chirpy Starter 链接注释一并删除；`.gitignore` 的 `_sass/vendors` 与 `assets/js/dist` 两目录均不存在且无构建/源码引用，已移除；`AGENTS.md` §11 的子模块描述同步改为「无 git submodule」。清理不影响构建与产物）
+- G01（WebSite JSON-LD W3C error 修复：5 语 `_config*.yml` 的 `social.links` 从 `[{name,url}]` 对象数组改为绝对 URL 字符串数组（`https://spacemanmeow.com{,/zh,/id,/ms,/th}/privacy|terms`）；页脚所需带名称链接移到新增 `social.footer_links` 字段。`jekyll-seo-tag` 将 links 原样输出为 `sameAs`，故 error 与 NoType warning 一并消除。本地产物用 `inspect-schema.py` 实测 errors 3→0 / warnings 3→0，仅剩 1 条 info 建议）
+- G02（页脚补主体信息：`footer.html` 版权行改用 `site.social.name`（SpacemanMeow），补 `<span class="copyright__updated">` 显示本地化 `updated_label` + 页面 `last_modified_at` 前 10 位（兼容 front matter 字符串与 git hook 的 Time 对象），链接改读 `social.footer_links`（隐私/条款/邮箱）。五语页脚四项可见，未引入 ICP/工商全称）
+- G05a（首页/应用列表页 FAQ：`ui.yml` 五语各加 13 个 `home_faq_*` 键（标题 + 6 组真实问答，内容为免费/无需账号/平台支持/数据导出/反馈渠道等可核对事实）；`_layouts/app-list.html` 输出 6 条 `<details>` 可见问答 + 复用 `faq-jsonld.html` 输出 6 条 FAQPage schema；`main.css` 新增 `.home-faq__*` 样式全部走设计令牌。五语首页实测 6 可见 / 6 schema 一致）
+- G05c（术语词条 FAQ：`ui.yml` 五语各加 4 个 `term_faq_*` 键；`_layouts/glossary.html` 在 solution/guide 区块后输出 2 条可见 FAQ + FAQPage schema，复用 `home-faq` 样式。术语页实测 2 可见 / 2 schema）
+- G05d（发布说明 FAQ：`ui.yml` 五语各加 4 个 `release_faq_*` 键；`_layouts/release-note.html` 输出 2 条可见 FAQ + FAQPage schema。发布说明页实测 2 可见 / 2 schema）
+- G05e（应用页 FAQ 一致性核对：五语 55/55 应用页均有非空 FAQPage schema，符合 G05 分类口径，无需新增）
+- G03（首页补正文：`ui.yml` 五语各加 7 个 `home_intro_*` 键（结论式导语 + 3 条要点 + 结尾指引）；`_layouts/app-list.html` 在应用列表前加语义化 `.home-intro` 区块；`_includes/app-card.html` 展示 front matter 已有的 `app.description` 真实功能细节（不编造）；`main.css` 新增样式全走设计令牌。本地实测 `main` 文本字符：EN 5348 / ID 5381 / MS 5431 / TH 4700 / ZH 2714（中文字符密度高，语义量对等），均较基线 1300 大幅提升；不做 SSR）
+- G07（首页部分已完成：`home_intro` 区块含结论式导语 + 3 条要点 + 结尾指引，疑问链覆盖「为什么用/无需账号/免费」等；应用页逐 App 四小标题部分仍待做，保留在 §2.G）
+- G11（**未落地，已回退**：曾把五语 `_pages/index.md` subtitle 改为结论首句，但用户 2026-11-23 明确要求保留原始 slogan，已从 HEAD 完整恢复五个文件、`subtitle` 与 HEAD 一致。GEO 的结论前置改由应用列表下方的要点区承担，不动 slogan。任务从 `SEO_DONE.md` 移除并恢复到 `SEO-PROGRESS.md` §2.G 待做）
+- G13（降 Download 关键词密度：**仅中文保留差异化按钮文案** `Android 下载`/`iOS 下载`；EN/ID/MS/TH 按用户 2026-11-23 要求删除新增的 `download_android`/`download_ios` 翻译键，商店按钮由 `_includes/store-buttons.html` 回落到各自 `download` 文案，不瞎增加翻译）
 
 ## 5. 内容形式规划判断逻辑（已验证依据）
 

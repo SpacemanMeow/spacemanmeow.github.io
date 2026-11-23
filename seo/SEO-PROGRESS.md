@@ -52,18 +52,14 @@
 
 **先清小项（10–30 分钟）**
 
-- [ ] **G01 修 WebSite JSON-LD 的 3 处 W3C error** — 5 语 `_config*.yml` 的 `social.links` 相对 URL 改绝对（`jekyll-seo-tag` 把 `/privacy/`、`/terms/`、`mailto:` 塞进 `sameAs`）。验收：`inspect-schema.py` 的 `w3c_validation.summary.errors` 从 3→0。高危。
-- [ ] **G02 页脚补主体信息** — `_includes/footer.html` + 5 语 config：团队名、邮箱、更新时间、隐私/条款链接。**去掉 ICP 备案/工商全称**（海外工作室不适用）。验收：页脚四项可见。高危。
+
 
 **🔴 高优先级 1：按类型补 FAQ 区块 + FAQPage schema（模板级，改一次覆盖整类）**
 
 > 全站报告：FAQ 只覆盖应用页（54/54），首页 0/5，文章/术语/发布说明线上全 0。本地状态已核实：`app.html` 有 `page.faq` 区块；`app-list.html` 本地与线上均无 FAQ；文章页本地由 `guide-jsonld.html` 输出 FAQPage（B3 未部署）。按类型拆开，避免「加过 FAQ」的误判。
 
-- [ ] **G05a 首页 FAQ 区块（5 语）** — `_layouts/app-list.html` 新增 6–10 条真实提问（每语本地化），引入已有 `_includes/faq-hub.html` + `_includes/faq-jsonld.html`。当前源码无 FAQ；21:03 旧构建产物曾有 FAQ 区块（21:04 源码改动后未重建），线上实测 FAQPage 0 次。**需重建产物后部署，不能只凭旧产物判断已完成**。验收：5 语首页各有 ≥6 条可见 FAQ，页内 FAQPage schema 与可见问答逐条一致。高危（C5.3）。
 - [ ] **G05b 文章 FAQ 部署核对（5 语）** — 本地 B3 已由 `guide-jsonld.html` 基于 `page.faq_items` 输出 FAQPage，但线上报告仍记 0，属未部署。动作：确认 B3 提交部署后，每语抽 3 篇文章核对可见 FAQ 与 schema 一致。**不重复新增 schema**。验收：抽查 15 篇线上文章一致。高危。
-- [ ] **G05c 术语词条 FAQ 区块（5 语 × 135 页）** — 术语 layout 新增 2–3 条（定义/适用场景/相关工具），复用 `faq-jsonld.html`。验收：每语抽 3 页有可见 FAQ 且 schema 一致。高危。
-- [ ] **G05d 发布说明 FAQ 区块（5 语 × 55 页）** — `release-note.html` 新增 2–3 条（版本变更/兼容性/升级建议），复用 `faq-jsonld.html`。验收同 G05c。高危。
-- [ ] **G05e 应用页 FAQ 一致性核对** — 应用页是唯一全带 FAQ 的类型（54/54），只核对 5 语 `page.faq` 与 `app-jsonld.html` 输出一致，不新增。验收：5 语各抽 3 页一致。
+
 
 **🔴 高优先级 2：中文正文补厚 + 首段结论句（全站口径，中文优先）**
 
@@ -72,16 +68,15 @@
 - [ ] **G18 中文文章/应用页正文补厚（全站新发现瓶颈）** — `_posts/zh/` 与 `_apps_zh/`：按英文同题骨架补中文场景、取舍、事实（不直译、不编造）；其他语言不强制同步补厚。验收：中文文章均字从 3642 向英文量级靠拢，抽 3 篇含本地化事实/场景。高危（7 维「覆盖与用户价值」）。
 - [ ] **G04 二级标题首段改结论句（全站，中文优先）** — 各 `_apps*/*.md`、`_posts/*.md`：首段以结论开头（「X 可…/实测…」）、150–300 字、少代词；优先中文文章与应用页，其余语言随 G18 节奏同步。验收：抽 3 段遮上下文能独立读懂，`citability` 在**同语言内**相对提升（不用绝对值 65 判英文/泰文）。高危（C7.1/C7.2）。
 - [ ] **G06 补数据/事实支撑（全站，中文优先）** — 5 语首页、应用页与中文文章：把 "beautiful/high-quality" 换成可核对事实（`400+ icons`、`500+ widgets`、`over a decade`），有真实数字才写、没有不编。验收：带语境数字点 > 0（现 0），中文页至少 1 处本地化事实。高危（C3.2/C2.3）。
-- [ ] **G03 首页补正文（5 语）** — `_layouts/app-list.html` / `_includes/app-card.html`：每款应用补 2–3 句功能细节/场景/差异点，正文约 1300→4000+ 字符；当前源码与 git 历史均无结论块/要点结构（旧产物里也没有 `takeaway`/`conclusion` 关键词），属**未实现**而非未部署。不做 SSR。验收：`fetch-page.py` 的 `main_text_chars.raw_chars` ≥ 4000。高危（C4.3/C7.1/C1.4）。
-- [ ] **G07 摘要 + 多角度（首页 + 应用页，中文优先）** — `_layouts/app-list.html` / `app.html`：开头 3–5 条要点、结尾结论；每 App 补「适合谁/怎么用/是否免费/有什么限制」四个小标题。验收：疑问链覆盖 ≥ 4 类。高危（C4.2/C5.1/C2.2）。
+- [ ] **G07 摘要 + 多角度（应用页部分）** — `_layouts/app.html`：每 App 补「适合谁/怎么用/是否免费/有什么限制」四个小标题（首页要点部分已随 G03 完成）。验收：疑问链覆盖 ≥ 4 类。高危（C4.2/C5.1/C2.2）。
 
 **可信度与解析（第二到四周）**
 
 - [ ] **G08 补权威来源引用** — 5 语内容页：关键论断后补权威链接+年份，禁止编造（现 19 外链全是商店链接）。中（C3.1）。
+- [ ] **G11 首页 subtitle 首句给结论（用户暂缓）** — 用户 2026-11-23 要求保留原始 slogan，不改 `_pages/*/index.md` 的 `subtitle`。GEO 结论前置改由应用列表下方要点区承担。如后续重新评估再动。
 - [ ] **G09 补一手数据/原创观点** — 5 语应用页/文章：开发取舍、迭代记录、真实场景、作者署名，避免 11 款句式雷同。中（C3.4）。
 - [ ] **G10 参数对比表 + 真实案例（5 语）** — 当前无 `/compare/` 页、本地首页也无 `<table>`（B4 曾创建，当前工作区/HEAD 已不存在）。动作：新建 5 语 `/compare/`，落点 `_pages/compare.md` + `_pages/{zh,id,ms,th}/compare.md` + `_data/compare.yml` + `_includes/compare-hub.html` + `_includes/compare-jsonld.html` + `ui.yml` 五语标签；内容为 11 款应用横向对比表 + 记账类特征矩阵 + 一个真实场景案例。验收：5 语对比页可达，每页有语义化 `<table>`（`<caption>` + `th scope`）与 `ItemList` schema，htmlproofer 通过；不再沿用「现 0」的旧口径。中（C5.2/C1.5）。
-- [ ] **G11 首页 subtitle 首句给结论** — 5 语 `_pages/index.md` 的 `subtitle`：背景式改为结论式（11 款应用/覆盖品类/免费无广告）。验收：第一句即结论。中（C1.4）。
-- [ ] **G13 降关键词密度** — `_layouts/app-list.html`/`app-card.html` 的 "Download" 文案场景化，密度 4.25%→<3%。中（C2.1）。
+
 
 **薄页补内容（低优先级）**
 

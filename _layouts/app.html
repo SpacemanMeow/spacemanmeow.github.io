@@ -36,14 +36,12 @@ layout: default
       {{ content }}
     </div>
     {% if page.faq and page.faq.size > 0 %}
-    <section class="app-faq" aria-label="Frequently asked questions">
-      <h2 class="app-faq__title">{{ site.data.ui[site.lang].faq_title }}</h2>
-      <div class="app-faq__list">
+    <section class="faq-section faq-section--divided" aria-label="Frequently asked questions">
+      <h2 class="faq-section__title">{{ site.data.ui[site.lang].faq_title }}</h2>
+      <div class="faq-list">
         {% for item in page.faq %}
-        <div class="app-faq__item" id="faq-{{ forloop.index }}">
-          <h3 class="app-faq__q">{{ item.question | escape }}</h3>
-          <p class="app-faq__a">{{ item.answer | strip_html | normalize_whitespace | escape }}</p>
-        </div>
+        <p class="faq-q" id="faq-{{ forloop.index }}"><strong>{{ item.question | escape }}</strong></p>
+        <p>{{ item.answer | strip_html | normalize_whitespace | escape }}</p>
         {% endfor %}
       </div>
     </section>

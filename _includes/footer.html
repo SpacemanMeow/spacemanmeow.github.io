@@ -11,14 +11,20 @@
     </div>
   </div>
 
-  <!-- 版权与社交链接 -->
+  <!-- 版权、主体信息与链接 -->
   <div class="site-footer__bottom">
     <div class="container site-footer__bottom-inner">
       <span class="copyright">
-        &copy; {{ site.time | date: '%Y' }} Meow Apps Studio
+        &copy; {{ site.time | date: '%Y' }} {{ site.title }}
       </span>
+      {% assign _footer_lang = site.lang | default: 'en' %}
+      {% assign _footer_ui = site.data.ui[_footer_lang] %}
+      {%- if page.last_modified_at -%}
+      {%- assign _lm = page.last_modified_at | append: '' -%}
+      <span class="copyright__updated">{{ _footer_ui.updated_label }}{{ _lm | slice: 0, 10 }}</span>
+      {%- endif -%}
       <nav class="social-links">
-        {%- for link in site.social.links %}
+        {%- for link in site.social.footer_links %}
         <a href="{{ link.url }}">{{ link.name }}</a>
         {%- endfor %}
       </nav>

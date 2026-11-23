@@ -27,6 +27,9 @@ social:
   name: SpacemanMeow
   email: meow@spacemanmeow.com
   links:
+    - https://spacemanmeow.com/zh/privacy/
+    - https://spacemanmeow.com/zh/terms/
+  footer_links:
     - name: 隐私政策
       url: /zh/privacy/
     - name: 使用条款

@@ -29,6 +29,9 @@ social:
   name: SpacemanMeow
   email: meow@spacemanmeow.com
   links:
+    - https://spacemanmeow.com/id/privacy/
+    - https://spacemanmeow.com/id/terms/
+  footer_links:
     - name: Kebijakan Privasi
       url: /id/privacy/
     - name: Syarat Penggunaan

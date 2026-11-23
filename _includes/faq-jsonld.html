@@ -1,6 +1,8 @@
 {%- comment -%}
 Shared FAQPage JSON-LD. Accepts `questions` as an array of objects with
 either {q, a} (generated FAQ hub data) or {question, answer} (app front matter).
+With raw=true, `questions` is an array of pre-built Question JSON strings
+(used by templates that assemble fields dynamically via capture).
 {%- endcomment -%}
 {%- if include.questions and include.questions.size > 0 -%}
 <script type="application/ld+json">
@@ -8,6 +10,9 @@ either {q, a} (generated FAQ hub data) or {question, answer} (app front matter).
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
+    {%- if include.raw -%}
+    {{ include.questions | join: ',' }}
+    {%- else -%}
     {%- for item in include.questions -%}
     {
       "@type": "Question",
@@ -18,6 +23,7 @@ either {q, a} (generated FAQ hub data) or {question, answer} (app front matter).
       }
     }{% unless forloop.last %},{% endunless %}
     {%- endfor -%}
+    {%- endif -%}
   ]
 }
 </script>

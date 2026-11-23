@@ -7,6 +7,7 @@ layout: default
   集合按 site.lang 动态索引，新增语言只需建 _apps_<lang>/ 集合，无需改本文件。
 {%- endcomment -%}
 {%- assign lang = site.lang | default: 'en' -%}
+{%- assign lp = '' -%}{%- if lang != 'en' -%}{%- assign lp = '/' | append: lang -%}{%- endif -%}
 {%- assign coll_apps = 'apps' -%}{%- if lang != 'en' -%}{%- assign coll_apps = 'apps_' | append: lang -%}{%- endif -%}
 {%- assign apps = site[coll_apps] | where_exp: 'a', 'a.hidden != true' | sort: 'order' -%}
 {%- if page.series -%}
@@ -20,6 +21,8 @@ layout: default
   </div>
 </div>
 
+{%- assign _ui = site.data.ui[lang] -%}
+{%- assign _pfx = 'home' -%}{%- if page.series == 'Meow' -%}{%- assign _pfx = 'meow' -%}{%- endif -%}
 <div class="app-list">
   {%- for app in apps %}
     {% include app-card.html app=app %}
@@ -27,3 +30,57 @@ layout: default
     <div class="container"><p class="empty-tip">{{ site.data.ui[lang].no_apps }}</p></div>
   {%- endfor %}
 </div>
+
+<div class="container home-notes">
+  <section class="home-intro" aria-labelledby="home-intro-points-title">
+    <h2 id="home-intro-points-title" class="home-intro__points-title">{{ _ui.home_intro_points_h }}</h2>
+    <ul class="home-intro__points">
+      {%- assign _p1key = _pfx | append: '_intro_p1' -%}
+      {%- assign _p2key = _pfx | append: '_intro_p2' -%}
+      {%- assign _p3key = _pfx | append: '_intro_p3' -%}
+      <li>{{ _ui[_p1key] }}</li>
+      <li>{{ _ui[_p2key] }}</li>
+      <li>{{ _ui[_p3key] }}</li>
+    </ul>
+    <p class="home-intro__end">{{ _ui.home_intro_end }}</p>
+  </section>
+
+  <section class="faq-section" aria-labelledby="home-faq-title">
+    <h2 id="home-faq-title" class="faq-section__title">{{ _ui.home_faq_title }}</h2>
+    <div class="faq-list">
+      {%- assign _nums = '1,2,3,4,5,6' | split: ',' -%}
+      {%- for n in _nums -%}
+      {%- assign _qkey = _pfx | append: '_faq_q' | append: n -%}
+      {%- assign _akey = _pfx | append: '_faq_a' | append: n -%}
+      {%- assign _fqkey = 'home_faq_q' | append: n -%}
+      {%- assign _fakey = 'home_faq_a' | append: n -%}
+      {%- assign _qtext = _ui[_qkey] | default: _ui[_fqkey] -%}
+      {%- assign _atext = _ui[_akey] | default: _ui[_fakey] -%}
+      <p class="faq-q" id="faq-{{ n }}"><strong>{{ _qtext }}</strong></p>
+      <p>{{ _atext }}</p>
+      {%- endfor -%}
+    </div>
+    <p class="faq-more"><a href="{{ '/faq/' | prepend: lp | relative_url }}">{{ _ui.home_faq_more }}</a></p>
+  </section>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for n in _nums -%}
+    {%- assign _qkey = _pfx | append: '_faq_q' | append: n -%}
+    {%- assign _akey = _pfx | append: '_faq_a' | append: n -%}
+    {%- assign _fqkey = 'home_faq_q' | append: n -%}
+    {%- assign _fakey = 'home_faq_a' | append: n -%}
+    {%- assign _qtext = _ui[_qkey] | default: _ui[_fqkey] -%}
+    {%- assign _atext = _ui[_akey] | default: _ui[_fakey] -%}
+    {
+      "@type": "Question",
+      "name": {{ _qtext | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ _atext | jsonify }} }
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>
