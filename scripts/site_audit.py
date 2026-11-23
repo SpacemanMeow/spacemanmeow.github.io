@@ -494,7 +494,7 @@ def check_design(a):
     srcs = []
     for pat in ('**/*.css','**/*.html','**/*.liquid','**/*.py','**/*.js'):
         srcs += [p for p in fs(pat) if not re.search(
-            r'(^|/)(_site|_site_en|_site_zh|\.jekyll-[^/]*|node_modules|\.git|\.pagefind-bin|\.sass-cache|seo/data)/', p)]
+            r'(^|/)(_site|_site_en|_site_zh|\.jekyll-[^/]*|vendor|node_modules|\.git|\.pagefind-bin|\.sass-cache|seo/data)/', p)]
     inline = []
     for p in set(srcs):
         try: t = open(p, encoding='utf-8').read()
