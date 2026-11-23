@@ -41,41 +41,6 @@
 
 - [ ] **A1 12 月完整 GSC 复测 T-37 / T-38** — GSC 数据仅到 11/15；用 `../skills/seo-research/scripts/gsc_export.py` 重导完整 11 月，判断术语页治理与支柱页标题重写是否提速；结果写回 `SEO-METRICS.md` 与 `SEO_DONE.md`。
 
-### 2.D 技术基建（P0→P2）
-
-**P0（防护性、低成本）**
-
-- [ ] **D2 锁定依赖版本** — 无 `Gemfile.lock`（被 `.gitignore` 忽略）、Jekyll 仅 `~> 4.4`、插件零约束；提交 lockfile、收紧版本，保证构建可复现。
-- [ ] **D3 A11y 键盘与动效** — 补 Skip link、全局 `:focus-visible`（当前 `.search__input:focus` 主动 `outline:none`）、`prefers-reduced-motion`、搜索结果 `aria-live`。
-- [ ] **D4 搜索页 XSS 兜底** — `_pages/search.md` 用 `innerHTML` 拼接 Pagefind 结果；改 `textContent` 或转义；商店链接 `rel="noopener"` 统一为 `noopener noreferrer`。
-
-**P1（稳健性与可观测性）**
-
-- [ ] **D5 `i18n_postprocess.py` 解析级加固** — 加注入成功校验、缺 EN 时 x-default 告警、分组质量日志（单语言组 / 缺 EN 组）、XML 转义；纳入 D05。
-- [ ] **D6 CWV / 性能门禁** — 先手动 PSI 建基线（同 C7），再在 CI 加轻量性能预算或定期 Lighthouse；图片链路已完备，此项补「度量与门禁」。
-- [ ] **D7 错误与 404 监控** — 404 页加分类埋点，定期看 GSC 覆盖率；需要时接轻量错误追踪。
-- [ ] **D8 `posts-lastmod-hook.rb` 技术债治理** — 缓存 git log、只对 posts 注册、`||=` 不覆盖手工 `last_modified_at`、路径 shell 转义。
-
-**P2（体验增强）**
-
-- [ ] **D9 PWA 装配** — 192/512 图标已存在但未引用；补 `manifest.json` + `theme-color` + Service Worker。
-- [ ] **D10 安全响应头** — GitHub Pages 无法直接发头；经 Cloudflare 前置注入 CSP / HSTS / X-Content-Type-Options / Referrer-Policy。
-- [ ] **D11 统一脚本入口** — 加 Makefile 或 package.json scripts，收敛分散在 `scripts/` 与 `skills/` 的 build/serve/test 入口。
-- [ ] **D12 视觉回归自动化** — 把 D21 多视口探针固化为 Playwright 测试，替代一次性临时探针。
-- [ ] **D13 devcontainer 补 `bundle install`** — `post-create.sh` 的 npm 分支条件永远不成立，本地依赖准备补上。
-- [ ] **D14 清理遗留配置** — `.gitmodules` 声明子模块但 CI checkout 注释了 `submodules: true`；`.gitignore` 有 Chirpy 主题残留。
-
-### 2.E 非博客流量资产（长期复利）
-
-> 博客是「写出来才有的流量」，本节是「建一次、长期复利」的资产，多数能直接导向 App 下载。与 A/B 重复的项已标注合并执行。
-
-- [ ] **E1 App 详情页 → 品类权威页** — `meow-money-manager` 已是全站最好页（30 击/465 现），但多数 App 页只是功能+下载按钮；整合品类关键词、场景、FAQ、对比表、截图文本化，11 App × 5 语 = 55 个高意图入口。
-- [ ] **E2 Docs → 学习路径** — 同 B5，合并执行，不重复立项。
-- [ ] **E4 Glossary → 问题解决中心** — 同 B2，合并执行，不重复立项。
-- [ ] **E5 可下载模板 / 资源页** — 预算 CSV 模板、习惯追踪表、清单模板；收藏与外链属性强，自然导流 App。
-- [ ] **E6 AI 搜索引用优化** — chatgpt.com 已占 3% 引荐；让内容「可被机器引用」——直接答案前置、`DefinedTerm` / `FAQPage` schema、清晰实体关系；不写更多文章，而是让现有内容被 LLM 摘引。
-- [ ] **E7 Google Discover** — 产品更新 + AVIF 图片链路适合 Discover 流；依赖标题质量与时效性。
-
 ### 2.G GEO 体检整改（2026-11-22 首页 + 全站体检，唯一排期依据）
 
 > **来源**：2026-11-22 两次 GEO 体检——① **首页基线**（甲戟 7 维 29 项，55.45/100，C，20 项待整改）；② **首次全站体检**（675 页逐页普查 + 12 页分层深度诊断，报告见 `data/geo/20261122/FULLSITE-REPORT.md`）。全站口径修正了首页口径的误判，本节任务已按全站重排。方法见 `SEO-PLAYBOOK.md` §4.5，指标见 `SEO-METRICS.md`。
@@ -136,7 +101,7 @@
 3. **第三批**：A4 / A5 / B3 / B4（新流量入口与内容形态，每新增形态 ×5 语并入 D11/D19）。
 4. **第四批**：B1 / B2 / C1 / C2 / E1 / E6（存量资产放大 + 月度机制滚动）；**GEO 高优先级**：G01 → G02 → G05a–G05e（FAQ 按类型补齐）→ G18 → G04 → G06（中文补厚与结论句）→ G03 / G07（首页与多角度）。G05b 是部署核对，不重复开发。
 5. **第五批**：G08–G11、G13、G19、G16–G17（可信度、对比页、薄页与收尾）。
-6. **持续**：C3–C7、D5–D14、E5 / E7（按月滚动，见 §3）；GEO 每月按同一 675 页全站口径复测一次。
+6. **持续**：C3–C7、D7、D9–D14、E5 / E7（按月滚动，见 §3）；GEO 每月按同一 675 页全站口径复测一次。
 
 ---
 

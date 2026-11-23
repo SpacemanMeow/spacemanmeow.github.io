@@ -1,0 +1,13 @@
+{
+  "name": "spacemanmeow-visual-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "D12 visual regression tests (Playwright) — D21 multi-viewport probe made permanent.",
+  "scripts": {
+    "test:visual": "playwright test",
+    "test:visual:update": "playwright test --update-snapshots"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.49.1"
+  }
+}

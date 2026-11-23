@@ -18,6 +18,11 @@ _site_en
 node_modules
 package-lock.json
 
+# Playwright test output (D12)
+test-results
+playwright-report
+blob-report
+
 # IDE configurations
 .idea
 .vscode/*
@@ -26,9 +31,6 @@ package-lock.json
 !.vscode/tasks.json
 
 # Misc
-_sass/vendors
-assets/js/dist
-
 .DS_Store
 
 # 响应式 cover 缩略图：构建产物，仅存原图，缩略图在 build.sh 中自动生成

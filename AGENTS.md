@@ -213,4 +213,4 @@
 - 本地预览：`http://localhost:4000`（独立 http.server 进程，根目录 `_site/`）。
 - 构建依赖：Ruby 3.4 + Bundler（`bundle install`）、Python 3 + Pillow（缩略图）、Node/Pagefind（CI 自动下载到 `.pagefind-bin/`）。
 - 静态站无后端；没有数据库；所有 SEO/分析数据靠 `skills/seo-research/scripts/gsc_export.py` 导出到 gitignore 目录。
-- 仓库含 `.gitmodules`（`assets/lib` 为 Chirpy 主题静态资源 submodule），常规工作不涉及。
+- 无 git submodule；早期 Chirpy 模板遗留的 `.gitmodules` 已清除。

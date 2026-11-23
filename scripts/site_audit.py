@@ -10,6 +10,7 @@ FAIL 退出码 1；WARN 不阻断但会在报告中单列。
 seo/SITE-AUDIT.md §3/§4 的同一维度小节。禁止在维度外散落 chk 调用。
 """
 import os, re, glob, subprocess, collections, unicodedata
+import xml.etree.ElementTree as ET
 
 # ---------------------------------------------------------------------------
 # 维度注册表：新增维度须同时在此登记 + 写 check_*() + 更新文档 §3/§4
@@ -201,6 +202,25 @@ def check_i18n(a):
     sm = open('_site/sitemap.xml', encoding='utf-8').read() if os.path.exists('_site/sitemap.xml') else ''
     a.chk('I18N', 'I18N-11', '合并 sitemap 非空', len(re.findall(r'<loc>', sm)) > 0,
           f'{len(re.findall(r"<loc>", sm))} 条 loc')
+    # D05: XML 良构 / x-default 唯一 / hreflang 标记块唯一
+    try:
+        root = ET.fromstring(sm) if sm else None
+        well_formed = root is not None
+    except ET.ParseError:
+        root, well_formed = None, False
+    a.chk('I18N', 'I18N-21', '合并 sitemap XML 良构', well_formed,
+          'xml.etree 解析通过' if well_formed else 'XML 解析失败（检查未转义的 &）')
+    xs = '{http://www.sitemaps.org/schemas/sitemap/0.9}url'
+    xl = '{http://www.w3.org/1999/xhtml}link'
+    urls = root.findall(xs) if well_formed else []
+    bad_xd = [u for u in urls if len(u.findall(f'{xl}[@hreflang="x-default"]')) != 1]
+    a.chk('I18N', 'I18N-22', '每个 URL 恰有 1 条 x-default',
+          well_formed and not bad_xd, f'异常 {len(bad_xd)}/{len(urls)}')
+    bad_block = [h for h, v in pages.items()
+                 if v.count('<!-- i18n-hreflang -->') != 1
+                 or v.count('<!-- /i18n-hreflang -->') != 1]
+    a.chk('I18N', 'I18N-23', 'hreflang 注入块唯一', not bad_block,
+          f'{len(pages)} 页，异常 {len(bad_block)}')
 
     # 骨架与插图跨语言对等（原 D17/D18）
     IMGSET = re.compile(r'!\[([^\]]*)\]\((/assets/images/[^)]+)\)')
@@ -474,7 +494,7 @@ def check_design(a):
     srcs = []
     for pat in ('**/*.css','**/*.html','**/*.liquid','**/*.py','**/*.js'):
         srcs += [p for p in fs(pat) if not re.search(
-            r'(^|/)(_site|_site_en|_site_zh|\.jekyll-[^/]*|node_modules|\.git|\.pagefind-bin|\.sass-cache)/', p)]
+            r'(^|/)(_site|_site_en|_site_zh|\.jekyll-[^/]*|node_modules|\.git|\.pagefind-bin|\.sass-cache|seo/data)/', p)]
     inline = []
     for p in set(srcs):
         try: t = open(p, encoding='utf-8').read()

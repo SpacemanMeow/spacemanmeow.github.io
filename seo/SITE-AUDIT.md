@@ -16,8 +16,8 @@
 | 1 | 工作区与文件名红线 | `git status --short`；脚本 `HYGIENE-04` 维度自动检查 | P0 |
 | 2 | **完整构建（CI 同款，不带 `SKIP_PAGEFIND`）** | `JEKYLL_ENV=production bash scripts/build.sh` | P0 |
 | 3 | 链接与资源校验 | `bundle exec htmlproofer _site --disable-external --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"` | P0 |
-| 4 | 一键静态教研（8 维度，含 `DESIGN` 令牌/统一样式） | 仓库根目录执行 `python3 scripts/site_audit.py`（CI 同名 `Audit site` 步骤） | P0 |
-| 5 | **响应式布局与样式实测** | 脚本外项：多视口 + 多页面类型探针，量测溢出 / 断点 / 关键元素宽度 | P0 |
+| 4 | 一键静态教研（8 维度）+ 性能预算 | `python3 scripts/site_audit.py`（CI `Audit site`）+ `python3 scripts/perf_budget.py`（CI `Perf budget`） | P0 |
+| 5 | **响应式布局与样式实测（D12 已自动化）** | `npm run test:visual`（Playwright：375/768/1024/1920 × 首页/应用/文章/FAQ/标签/术语/Docs 共 28 项，CI 同名 `Visual regression (D12)` 步骤）；不再用一次性临时探针 | P0 |
 | 6 | 产物与 SEO 产物抽验 | §6 人工抽验项（hreflang / JSON-LD / 内链 / 索引） | P1 |
 | 7 | 线上与人工项 | §6（GSC、Rich Results、PSI、外链、真实设备） | P1 |
 | 8 | 输出 | 在对话中按维度输出校验项与结果、构建/链接结论及基线数字变化 | P0 |
@@ -126,7 +126,7 @@
 | 维度码 | 维度 | 规则数 | 级别 | 主要手段 | 覆盖范围 |
 |---|---|---|---|---|---|
 | `BLD` | 构建与产物 | 4 | P0 | 完整构建 + 产物检查 | 语言数 ≥5、feed/robots、Pagefind 索引、临时目录清理 |
-| `I18N` | 多语言一致性 | 43 | P0 | 源文件对账 + 产物检查 | README 语言清单、四类文件一一对应、结构页齐备、hreflang/sitemap、骨架与插图对等、tagline 信息量 |
+| `I18N` | 多语言一致性 | 46 | P0 | 源文件对账 + 产物检查 | README 语言清单、四类文件一一对应、结构页齐备、hreflang/sitemap、XML 良构与注入块唯一、骨架与插图对等、tagline 信息量 |
 | `META` | 元数据与结构化数据 | 6 | P0 | frontmatter 解析 + JSON-LD 扫描 | 必填字段、`lang`、`description ≤160`、无裸 `&`、YAML 语法、JSON-LD 无 `&amp;` |
 | `CONTENT` | 内容质量与 SEO | 11 | P0 | 正文归一化 + 词库核对 | H2 结构、汉字空格、关键词覆盖、tags 规范、Release Note 五语覆盖与内容 |
 | `LINK` | 链接与导航 | 3 | P0 | 链接扫描 + 模板检查 | 内链语言前缀、Docs 形态入口、App→Release Note 内链 |
@@ -135,7 +135,7 @@
 | `HYGIENE` | 运维与清洁度 | 4 | P0/P1 | 产物 + `git status` | 404 不进 sitemap、`seo/` 未发布、无凭据泄漏、文件增删改红线（WARN） |
 
 **脚本外检查**（不由 `site_audit.py` 覆盖，见 §6）：`htmlproofer` 断链（CI `Test site` 步骤）、
-D13 合规与产品表述、D16 文档台账一致性、D21 多视口实测。这些项目也在每次校验的对话输出中逐项写明结论。
+D13 合规与产品表述、D16 文档台账一致性。D21 多视口实测已由 D12 的 Playwright 测试固化（见 §0 第 5 步），不再作为脚本外人工项。这些项目也在每次校验的对话输出中逐项写明结论。
 
 ---
 
@@ -177,6 +177,9 @@ D13 合规与产品表述、D16 文档台账一致性、D21 多视口实测。�
 | I18N-18 | 图片插入行序 | 与 I18N-13 共享同一检测结果，分别登记 |
 | I18N-19 | App tagline 信息量 | 非 EN 长度 ≤ EN 的 1.5×，且不增补 EN 没有的规格数字 |
 | I18N-20 | 站点 tagline 宽度 | 显示宽度 `w≤60`（CJK 计 2），非 EN ≤ EN |
+| I18N-21 | 合并 sitemap XML 良构 | `xml.etree` 可解析；URL 中 `&` 必须转义为 `&amp;` |
+| I18N-22 | x-default 唯一 | 每个 `<url>` 恰好 1 条 `hreflang="x-default"` |
+| I18N-23 | hreflang 注入块唯一 | 每页 `i18n-hreflang` 开闭标记各 1 个（重复/缺失均 FAIL） |
 
 ### 4.3 `META` 元数据与结构化数据
 

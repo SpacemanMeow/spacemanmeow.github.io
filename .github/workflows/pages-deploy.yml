@@ -31,9 +31,6 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          # submodules: true
-          # If using the 'assets' git submodule from Chirpy Starter, uncomment above
-          # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
       - name: Setup Pages
         id: pages
@@ -50,8 +47,18 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Setup Node (D12 visual regression)
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - name: Install Pillow
         run: python3 -m pip install --disable-pip-version-check --no-input Pillow
+
+      - name: Install Playwright
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
 
       - name: Build multilingual site (EN at root + /zh/)
         run: bash scripts/build.sh
@@ -67,6 +74,12 @@ jobs:
 
       - name: Audit site
         run: python3 scripts/site_audit.py
+
+      - name: Perf budget
+        run: python3 scripts/perf_budget.py
+
+      - name: Visual regression (D12)
+        run: npm run test:visual
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v4
