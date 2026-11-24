@@ -7,12 +7,14 @@ tags: [One Widget, Home Screen Widgets, Android, Alternatives, Widgetsmith]
 image: /assets/images/covers/alternatives-to-widgetsmith.webp
 app_icon: /assets/images/apps/one-widget/icon.webp
 lang: zh
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 ---
 
 WidgetSmith 是最知名的 **iOS 小组件应用**，但它仅限 iPhone，而且即使在 iOS 上，也有用户想要不一样的风格、实时设备数据（电量、内存），或者更大的现成组件库。本指南跨平台对比了 **六款** 主流 **[小组件应用](/zh/glossary/what-is-a-home-screen-widget/)**，每一款或因某一项突出优势、或因市场覆盖广而被选中。下面每款应用都会给出真实优点、真实缺点，以及它在人们真正在意的主屏核心能力上的表现——现成预设、自定义编辑器、实时系统数据、天气、健康、照片、交互性与锁屏支持。下载链接在每节末尾。多数人卡在一个具体问题上：只有 iPhone 能用、要订阅，或现成组件太少；下面会按「解决哪个问题」来讲每一款。
 
 ## 为什么要跳出 WidgetSmith
+
+换掉 WidgetSmith 的理由通常不是它不好，而是你的设备或需求变了。常见的几类落差是：
 
 - **没有安卓版本**——仅限 iPhone，所以安卓用户必须另选工具。
 - **实时设备遥测有限**——WidgetSmith 以照片、日期、天气和日历为主；它不像若干安卓组件那样直接显示电量百分比、内存或存储等原始设备状态。
@@ -20,9 +22,13 @@ WidgetSmith 是最知名的 **iOS 小组件应用**，但它仅限 iPhone，而�
 - **现成 vs 自己造**——WidgetSmith 是个构建器；有些人只想要一个可以挑选的大组件库。
 - **价格敏感**——WidgetSmith 的高级档解锁部分样式；替代品从免费预设库到一次性 Pro 密钥再到订阅都有。
 
+先明确你缺的是"平台"（安卓支持）、"信息"（电量、内存等实时数据）、"风格"（品牌化设计语言），还是"省事"（大现成库），再看下面六款，才不会被"功能更多"带偏。
+
 ---
 
 ## 最佳 WidgetSmith 替代应用一览
+
+六款先列成一表。平台一列最值得先看：One Widget 与 KWGT 是安卓，Widgy 与 Color Widgets 是 iOS，Widgetable 与 WidgetClub 则跨双平台——这往往直接决定了你能在几款里挑。
 
 | 应用 | 价格（2026） | 平台 | 适合人群 |
 |---|---|---|---|
@@ -43,7 +49,7 @@ WidgetSmith 是最知名的 **iOS 小组件应用**，但它仅限 iPhone，而�
 ![One Widget 交互与快捷操作](/assets/images/apps/one-widget/4.webp){: width="180" .normal }
 ![One Widget 设置与权限](/assets/images/apps/one-widget/5.webp){: width="180" .normal }
 
-One Widget 是一套围绕 **四套完整设计语言**——**Galaxy One UI、Material You、iOS Glass 与 Nothing UI**——打造的安卓组件包，因此一个应用就能让三星、Pixel、iPhone 风或 Nothing 手机看起来风格统一。它内置 **500+ 现成组件**（时钟、日期、电量、内存、存储、应用快捷方式、Wi‑Fi / 蓝牙 / 手电筒等开关、日历、计步、音乐与天气），且开发者 **在持续新增组件**，让组件库保持新鲜。
+One Widget 是一套围绕 **四套完整设计语言**——**Galaxy One UI、Material You、iOS Glass 与 Nothing UI**——打造的安卓组件包，因此一个应用就能让三星、Pixel、iPhone 风或 Nothing 手机看起来风格统一。它内置 **500+ 现成组件**（时钟、日期、电量、内存、存储、应用快捷方式、Wi‑Fi / 蓝牙 / 手电筒等开关、日历、计步、音乐与天气），且开发者 **在持续新增组件**，让组件库保持新鲜。它适合"挑一个风格、拖几个组件就完事"的人，不用碰公式编辑器。
 
 **优点**
 - **一个应用内含四套截然不同的风格系统**——很少见；多数组件应用只坚守单一外观。
@@ -58,7 +64,7 @@ One Widget 是一套围绕 **四套完整设计语言**——**Galaxy One UI、M
 - **部分风格 / 组件需解锁**，免费用户获得 One UI 套件。
 - 不太适合想要真正独一无二、而非精致预设组件的用户。
 
-**适合人群：** 想要跨越多种手机审美、大且好看组件库，又不想学设计工具的安卓用户。
+**适合人群：** 想要跨越多种手机审美、大且好看组件库，又不想学设计工具的安卓用户；用惯 iOS 组件的人会在这里第一次看到电量与内存读数。
 
 **下载 One Widget**
 - [Google Play](https://play.google.com/store/apps/details?id=com.glgjing.galaxy.nothing.glass.material.widget)
@@ -73,7 +79,7 @@ One Widget 是一套围绕 **四套完整设计语言**——**Galaxy One UI、M
 ![KWGT 交互与快捷操作](/assets/images/blog/kwgt_widget_4.webp){: width="180" .normal }
 ![KWGT 设置与权限](/assets/images/blog/kwgt_widget_5.webp){: width="180" .normal }
 
-KWGT（出自 Kustom）是安卓上 **最强大的组件编辑器**。你不是选预设，而是用文字、形状、图片、进度条和一套公式语言来拼装组件，这套语言能拉取电量、网络、天气、日历乃至 **Health Connect** 数据（步数、睡眠、卡路里）。庞大的社区分享预设与主题包，所以你可以从别人的设计起步再加以微调。
+KWGT（出自 Kustom）是安卓上 **功能丰富的组件编辑器**之一。你不是选预设，而是用文字、形状、图片、进度条和一套公式语言来拼装组件，这套语言能拉取电量、网络、天气、日历乃至 **Health Connect** 数据（步数、睡眠、卡路里）。庞大的社区分享预设与主题包，所以你可以从别人的设计起步再加以微调——这也是它相对"从零开始"最实用的捷径。
 
 **优点**
 - **像素级、公式驱动的掌控**——几乎能做出任何你想象得到的组件。
@@ -88,7 +94,7 @@ KWGT（出自 Kustom）是安卓上 **最强大的组件编辑器**。你不是�
 - 做好一个组件 **很花时间**；界面偏实用主义，开箱并不花哨。
 - 相比原生应用自身的控件，点按交互较为有限。
 
-**适合人群：** 想要完全掌控、并愿意学习编辑器的安卓发烧友。
+**适合人群：** 想要完全掌控、并愿意学习编辑器的安卓发烧友；只想快速摆几个组件的人会觉得它太重。
 
 **下载 KWGT Kustom Widget Maker**
 - [Google Play](https://play.google.com/store/apps/details?id=org.kustom.widget)
@@ -103,10 +109,10 @@ KWGT（出自 Kustom）是安卓上 **最强大的组件编辑器**。你不是�
 ![Widgy 交互与快捷操作](/assets/images/blog/widgy_widget_4.webp){: width="180" .normal }
 ![Widgy 设置与权限](/assets/images/blog/widgy_widget_5.webp){: width="180" .normal }
 
-Widgy 是 iOS 上最贴近 KWGT 的存在：一个 **可视化、基于图层的构建器**（无需编码），配模板和广泛的数据源——天气、Apple Health、日历、提醒等。它面向 iPhone、iPad、Apple Watch、锁屏与 StandBy，并紧跟每一代新 iOS 设计语言（如 Liquid Glass）。
+Widgy 是 iOS 上最贴近 KWGT 的存在：一个 **可视化、基于图层的构建器**（无需编码），配模板和广泛的数据源——天气、Apple Health、日历、提醒等。它面向 iPhone、iPad、Apple Watch、锁屏与 StandBy，并紧跟每一代新 iOS 设计语言（如 Liquid Glass）。如果你是 iPhone 用户又嫌 WidgetSmith 不够自由，它是最直接的升级。
 
 **优点**
-- **iOS 上最强大的自定义组件构建器**，含图层、数据源与可导出的设计。
+- **iOS 上自定义能力较深的组件构建器**，含图层、数据源与可导出的设计。
 - **无需编码**——可视化编辑比 KWGT 的公式门槛更低。
 - **深度数据**，含 Apple Health，并支持锁屏、StandBy 与表盘。
 - **随每次新 iOS 发布积极更新**。
@@ -117,7 +123,7 @@ Widgy 是 iOS 上最贴近 KWGT 的存在：一个 **可视化、基于图层的
 - **部分组件位 / 功能需应用内购**（约 $4.99）。
 - 受 **iOS 组件刷新限制**——数据可能延迟几分钟。
 
-**适合人群：** 想要专属组件、但偏好可视化编辑器而非代码的 iPhone / iPad 用户。
+**适合人群：** 想要专属组件、但偏好可视化编辑器而非代码的 iPhone / iPad 用户；把组件钉在锁屏上的用户尤其合适。
 
 **下载 Widgy**
 - [App Store](https://apps.apple.com/us/app/widgy-widgets-home-lock-watch/id1524540481)
@@ -132,7 +138,7 @@ Widgy 是 iOS 上最贴近 KWGT 的存在：一个 **可视化、基于图层的
 ![Color Widgets 交互与快捷操作](/assets/images/blog/color_widget_4.webp){: width="180" .normal }
 ![Color Widgets 设置与权限](/assets/images/blog/color_widget_5.webp){: width="180" .normal }
 
-Color Widgets 依托 **数千款预设组件加一个简易自定义器**，并打包主题、图标包与壁纸，让你轻点几下就能给整个主屏与锁屏换肤。它覆盖照片、时间 / 日期、电量、倒计时、天气、音乐（Apple / Spotify）、日历、名言与活动组件，并接入 Apple Health 记录步数。
+Color Widgets 依托 **数千款预设组件加一个简易自定义器**，并打包主题、图标包与壁纸，让你轻点几下就能给整个主屏与锁屏换肤。它覆盖照片、时间 / 日期、电量、倒计时、天气、音乐（Apple / Spotify）、日历、名言与活动组件，并接入 Apple Health 记录步数。它适合"五分钟内让主屏变好看"的需求。
 
 **优点**
 - **最快做出好看组件**——选个预设或微调颜色 / 字体，无需设计背景。
@@ -146,7 +152,7 @@ Color Widgets 依托 **数千款预设组件加一个简易自定义器**，并�
 - 可能显得 **模板化**；原创性取决于共享库。
 - 采用订阅模式而非一次性解锁。
 
-**适合人群：** 想快速拥有漂亮组件与配套主题的 iPhone 用户。
+**适合人群：** 想快速拥有漂亮组件与配套主题的 iPhone 用户；追求独一无二的深度自定义者应转向 Widgy。
 
 **下载 Color Widgets**
 - [App Store](https://apps.apple.com/us/app/color-widgets/id1531594277)
@@ -161,7 +167,7 @@ Color Widgets 依托 **数千款预设组件加一个简易自定义器**，并�
 ![Widgetable 交互与快捷操作](/assets/images/blog/widgetable_4.webp){: width="180" .normal }
 ![Widgetable 设置与权限](/assets/images/blog/widgetable_5.webp){: width="180" .normal }
 
-Widgetable 走了一条不同的路：**围绕关系打造的组件**。你领养和好友共同养育的虚拟宠物，分享睡眠组件，发送心情更新，并在锁屏或主屏上显示你和闺蜜之间的实时距离。它更受情侣与密友欢迎，而非作为通用生产力工具。
+Widgetable 走了一条不同的路：**围绕关系打造的组件**。你领养和好友共同养育的虚拟宠物，分享睡眠组件，发送心情更新，并在锁屏或主屏上显示你和闺蜜之间的实时距离。它更受情侣与密友欢迎，而非作为通用生产力工具——想要一块普通时钟组件的人用不上它。
 
 **优点**
 - **独特的社交 / 关系组件**（宠物、睡眠、心情、距离、好友状态）在通用组件应用里找不到。
@@ -171,10 +177,10 @@ Widgetable 走了一条不同的路：**围绕关系打造的组件**。你领�
 **缺点**
 - **小众**——不是通用组件工具箱；若你不要社交功能就几乎没用。
 - **核心功能锁在订阅** 之后。
-- 分享个人状态（睡眠、心情、位置距离）带来 **隐私考量**。
+- 分享个人状态（睡眠、心情、位置距离）带来 **隐私考量**，介意的人要慎用。
 - 对电量、内存或日历这类生产力 / 数据组件用处不大。
 
-**适合人群：** 想要锁屏更"有社交感"的情侣、闺蜜与宠物爱好者。
+**适合人群：** 想要锁屏更"有社交感"的情侣、闺蜜与宠物爱好者；追求实用信息的人应跳过这一款。
 
 **下载 Widgetable**
 - [App Store](https://apps.apple.com/us/app/widgetable-besties-couples/id1641107226)
@@ -189,7 +195,7 @@ Widgetable 走了一条不同的路：**围绕关系打造的组件**。你领�
 ![WidgetClub 交互与快捷操作](/assets/images/blog/widget_club_4.webp){: width="180" .normal }
 ![WidgetClub 设置与权限](/assets/images/blog/widget_club_5.webp){: width="180" .normal }
 
-WidgetClub 是一款有质感的组件、壁纸与图标应用，拥有海量目录（数万款主题），涵盖天气、照片、日历、时钟、倒计时、电量与提醒组件。一个简单的制作器让你可以拖入照片和颜色；它同时运行在 **iOS 与安卓** 上。
+WidgetClub 是一款有质感的组件、壁纸与图标应用，拥有海量目录（数万款主题），涵盖天气、照片、日历、时钟、倒计时、电量与提醒组件。一个简单的制作器让你可以拖入照片和颜色；它同时运行在 **iOS 与安卓** 上，适合想把两边主屏都打扮得一致的人。
 
 **优点**
 - **非常容易** 做出可爱、统一的质感组件。
@@ -202,7 +208,7 @@ WidgetClub 是一款有质感的组件、壁纸与图标应用，拥有海量目
 - **安卓支持不如 iOS 成熟**。
 - 电量 / 提醒组件相比专门工具较基础。
 
-**适合人群：** 重视漂亮、有主题的主屏、胜过深度自定义的用户。
+**适合人群：** 重视漂亮、有主题的主屏、胜过深度自定义的用户；想要实时电量或内存读数的人更适合 One Widget。
 
 **下载 WidgetClub**
 - [App Store](https://apps.apple.com/us/app/widgetclub-widget-theme-icon/id1580284904)
@@ -211,7 +217,7 @@ WidgetClub 是一款有质感的组件、壁纸与图标应用，拥有海量目
 
 ## 核心能力对比
 
-下表尽可能客观地展示了每款应用支持哪些能力。"部分"表示该能力存在但有限制（例如仅预设，或锁在付费墙后）。
+下表尽可能客观地展示了每款应用支持哪些能力。"部分"表示该能力存在但有限制（例如仅预设，或锁在付费墙后）。建议先看"现成预设""从零编辑器""实时系统数据"三行——它们分别对应"省事""自由""能看多少设备信息"三条路线。
 
 | 能力 | One Widget | KWGT | Widgy | Color Widgets | Widgetable | WidgetClub |
 |---|---|---|---|---|---|---|
@@ -229,11 +235,13 @@ WidgetClub 是一款有质感的组件、壁纸与图标应用，拥有海量目
 | **免费档** | 免费 One UI 套件（+解锁） | 免费 + Pro 密钥 | 免费 + 应用内购 | 免费 + Pro 订阅 | 免费 + 订阅 | 免费 + 订阅 |
 | **更新节奏** | **持续新增组件** | 积极维护 | 积极（新 iOS） | 积极 | 积极 | 积极 |
 
+一句话归纳：要"现成 + 实时数据 + 品牌风格"选 One Widget；要完全自由选 KWGT（安卓）或 Widgy（iOS）；要快速变好看选 Color Widgets 或 WidgetClub；要社交与宠物组件才看 Widgetable。安卓用户能看电量、内存、存储，这一点是 iOS 组件普遍做不到的。
+
 ---
 
 ## 每款 WidgetSmith 替代品适合谁
 
-表格比的是功能；这里按「你原本想在桌面摆什么」把同样的六款重新分组。
+表格比的是功能；这里按「你原本想在桌面摆什么」把同样的六款重新分组。先承认自己更在意"省事"还是"自由"，再看分组更省时间。
 
 - **安卓上的现成预设**——搜 **KWGT 中文替代** 或 **小组件盒子替代** 的人，多半不想进编辑器：One Widget 把 One UI、Nothing、Glass 与 Material You 四套风格的 500+ 成品直接摆上主屏。
 - **亲手画一个组件**——KWGT 仍是图层与公式的基准，Widgy 是 iOS 上的对应物；两者都换来更多配置时间。
@@ -241,38 +249,40 @@ WidgetClub 是一款有质感的组件、壁纸与图标应用，拥有海量目
 - **要大预设库、不想写脚本**——Color Widgets、WidgetClub 走的是目录式路线；**万能小组件替代**、**元气小组件替代** 通常也指向这一类。
 - **可爱或社交向组件**——Widgetable、WidgetClub 覆盖宠物、情侣与主题，代价是库里大部分内容需要订阅。
 
-从 **灵动坞替代**、**魔力小组件替代**、**iScreen 替代** 到 **米写替代**，换应用前先确认两件不随潮流变的事：免费档能不能真的摆放并调整尺寸？启动器更新后，组件还会不会照常显示实时数据？
+从 **灵动坞替代**、**魔力小组件替代**、**iScreen 替代** 到 **米写替代**，换应用前先确认两件不随潮流变的事：免费档能不能真的摆放并调整尺寸？启动器更新后，组件还会不会照常显示实时数据？这两点过关，主屏才不会在更新后"变回原样"。
 
 ## 如何挑选
 
-- 想要 **安卓 + 四套手机审美下的海量现成库** → **One Widget**。
-- 想在 **安卓上从零设计组件** → **KWGT**。
-- 想要 **无需编码的深度自定义 iOS 组件** → **Widgy**。
-- 想 **快速拥有漂亮 iOS 组件与配套主题** → **Color Widgets**。
-- 想要 **与朋友或伴侣的社交 / 宠物组件** → **Widgetable**。
-- 想要 **跨越 iOS 与安卓的可爱、主题驱动组件** → **WidgetClub**。
+按你更看重"省事"还是"自由"来选：
+
+- 想要 **安卓 + 四套手机审美下的海量现成库** → **One Widget**：挑风格、拖组件，一步到位。
+- 想在 **安卓上从零设计组件** → **KWGT**：图层与公式任你发挥，代价是学习时间。
+- 想要 **无需编码的深度自定义 iOS 组件** → **Widgy**：可视化编辑器，支持锁屏与手表。
+- 想 **快速拥有漂亮 iOS 组件与配套主题** → **Color Widgets**：预设加图标壁纸，一键换肤。
+- 想要 **与朋友或伴侣的社交 / 宠物组件** → **Widgetable**：关系型组件，注意隐私边界。
+- 想要 **跨越 iOS 与安卓的可爱、主题驱动组件** → **WidgetClub**：双平台主题库。
 
 ## 常见问题（FAQ）
 
 **One Widget 算好的安卓 WidgetSmith 替代品吗？**
 {:.faq-q}
 
-算。如果你想要跨 One UI、Material You、Glass、Nothing 四种外观、且无需设计工具的庞大现成安卓组件库，One Widget 是最贴近 WidgetSmith「预设哲学」的安卓原生答案。
+算。如果你想要跨 One UI、Material You、Glass、Nothing 四种外观、且无需设计工具的庞大现成安卓组件库，One Widget 是最贴近 WidgetSmith「预设哲学」的安卓原生答案。它还能显示电量、内存和存储，这是 iOS 组件通常做不到的。
 
 **One Widget 能在 iOS 上用吗？**
 {:.faq-q}
 
-不能。One Widget 仅安卓。iOS 上可选本指南里的 Widgy 或 Color Widgets，它们是 WidgetSmith 风格的选法。
+不能。One Widget 仅安卓。iOS 上可选本指南里的 Widgy 或 Color Widgets，它们是 WidgetSmith 风格的选法；前者偏自由编辑，后者偏快速预设。
 
 **哪款 WidgetSmith 替代品最擅长自定义搭建？**
 {:.faq-q}
 
-KWGT——安卓上最强大的从零编辑器。One Widget 仍基于预设，所以想要完全掌控就选 KWGT。
+KWGT——安卓上可从零搭建的编辑器，靠图层与公式实现多样布局。One Widget 仍基于预设，所以想要完全掌控就选 KWGT；iOS 上对应的则是 Widgy。
 
 **One Widget 免费吗？**
 {:.faq-q}
 
-One UI 风格套件免费；另外三种风格通过一次性购买解锁（无订阅）。
+One UI 风格套件免费；另外三种风格通过一次性购买解锁（无订阅）。免费档已经能摆出一套完整的三星风格主屏，确认需要其他风格再解锁更划算。
 
 [One Widget App 页](/zh/apps/one-widget/)——安卓平台可用。
 

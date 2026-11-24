@@ -7,14 +7,16 @@ tags: [Floating Assistant, Assistive Touch, Android, Alternatives]
 image: /assets/images/covers/alternatives-to-assistive-touch.webp
 app_icon: /assets/images/apps/floating-assistant/icon.webp
 lang: zh
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 ---
 
-如果你想在不依赖实体按键的情况下操作屏幕导航，这些 **[Assistive Touch 的替代品](/zh/glossary/what-is-a-floating-window/)** 从简单的悬浮球，到完整的悬浮层与手势控制，应有尽有。（iPhone 用户注意：**AssistiveTouch 已内置在 iOS 中**——路径为「设置 > 辅助功能 > 触控 > AssistiveTouch」——无需额外下载 App。）
+如果你不想依赖实体按键也能完成屏幕导航，这些 **[Assistive Touch 的替代品](/zh/glossary/what-is-a-floating-window/)** 覆盖了从一枚简单悬浮球，到完整悬浮层加手势控制的不同层次。典型的使用场景包括：大屏手机单手够不到顶部、home 键或音量键损坏需要临时替代、给长辈设置一套更容易点按的虚拟导航，或者干脆想在屏幕上叠一层能随时看时间、看 CPU 温度的悬浮工具。（iPhone 用户注意：**AssistiveTouch 已内置在 iOS 中**——路径为「设置 > 辅助功能 > 触控 > AssistiveTouch」——无需额外下载 App。）
 
-下面我们从价格、功能以及真正关键的点出发，对比六款安卓工具，帮你选对那一款。
+下面我们从价格、功能以及真正关键的点出发，对比六款安卓工具，帮你选对那一款。判断前不妨先问自己三个问题：你要的是"看得见的按钮"还是"看不见的手势"？悬浮层上除了导航，还需不需要时钟与实时监控？能接受广告，还是愿意为无广告体验付费？带着这三个问题往下看，更容易对号入座。
 
 ## 为什么要跳出基础版 Assistive Touch
+
+基础版 Assistive Touch（尤其是各类仿制应用）能解决"没有实体键也能导航"这一件事，但很多人用上一阵后会发现它并不够用。下面几类痛点，是寻找替代品时最常遇到的：
 
 - **免费版广告过多**，会打断本该安静的悬浮层体验。
 - **只能做虚拟按键**——没有时钟、没有监控、没有额外功能。
@@ -22,7 +24,11 @@ last_modified_at: 2026-11-05
 - 你可能更想要**手势操作或实体按键重映射**，而非悬浮球。
 - 好的替代方案会把**更多实用悬浮工具**整合到一处。
 
+如果你只是偶尔需要点按导航，基础版够用；但只要你开始在意广告是否打断、权限是否透明、能否顺便看时间与监控，就值得在下面六款里重新挑一遍。换工具不是为了新鲜，而是为了让悬浮层真正贴合自己的使用习惯。
+
 ## 最佳 Assistive Touch 替代品一览
+
+先把六款工具的基本盘摆出来。下表按"价格 / 核心能力 / 附加能力"三列排列，方便你快速筛选：哪些进入候选，哪些可以直接排除。
 
 ![Assistive Touch 辅助触控主界面](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
 ![Assistive Touch 快捷操作与手势](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
@@ -39,9 +45,11 @@ last_modified_at: 2026-11-05
 | **All in One Gestures** | 免费 + 专业版 | 手势控制 | 隐藏虚拟按键 |
 | **Assistive Touch** | 免费（含广告） | 悬浮触控 | 虚拟按键、快捷设置 |
 
+读表时有个经验：核心能力决定它能不能替代你现在的悬浮球，附加能力决定它值不值得长期使用。比如同样标着"免费"，有的靠广告支撑（Easy Touch、Assistive Touch 等仿品），有的是免费核心加可选解锁（Floating Assistant），还有的免费但把高级动作留给专业版（Button Mapper、All in One Gestures）——这三种"免费"的实际体验差别很大，选之前要看清属于哪一种。
+
 ---
 
-### 1. Floating Assistant —— 最全面的一体化方案
+### 1. Floating Assistant —— 一体化方案
 
 ![Floating Assistant 悬浮窗主界面](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
 ![Floating Assistant 快捷操作与手势](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
@@ -49,7 +57,7 @@ last_modified_at: 2026-11-05
 ![Floating Assistant 辅助功能与选项](/assets/images/apps/floating-assistant/4.webp){: width="180" .normal }
 ![Floating Assistant 设置与权限](/assets/images/apps/floating-assistant/5.webp){: width="180" .normal }
 
-Floating Assistant 在你的安卓屏幕上提供 **辅助触控、悬浮时钟与悬浮系统监控**，让你通过一个便捷的悬浮层掌控手机。
+Floating Assistant 在你的安卓屏幕上提供 **辅助触控、悬浮时钟与悬浮系统监控**，让你通过一个便捷的悬浮层掌控手机。它面向的是不想在"导航键、看时间、看性能"之间来回切换应用的人——一枚悬浮球把这些常用信息聚在一起，全屏游戏或看视频时尤其省事，不必为了看一眼 CPU 温度就退出当前应用。
 
 **优势**
 - **辅助触控悬浮球**：内置虚拟主页、返回、多任务与音量键，支持一键加速、锁屏、截屏、手电筒及快速启动应用。
@@ -64,7 +72,7 @@ Floating Assistant 在你的安卓屏幕上提供 **辅助触控、悬浮时钟�
 - 部分主题与监控扩展需解锁。
 - 悬浮层会占用少量屏幕空间。
 
-**最适合：** 想要一个悬浮层同时搞定按键、时钟与监控的用户。
+**最适合：** 想要一个悬浮层同时搞定按键、时钟与监控的用户，尤其是大屏手机、经常全屏游戏，或需要随时留意温度与电量的场景。
 
 **下载 Floating Assistant**
 - [Google Play](https://play.google.com/store/apps/details?id=com.glgjing.floating.apps.assistive.touch.pro)
@@ -73,7 +81,7 @@ Floating Assistant 在你的安卓屏幕上提供 **辅助触控、悬浮时钟�
 
 ### 2. Easy Touch —— 最佳 iOS 风格悬浮球
 
-Easy Touch 是一款热门的安卓 **iOS 风格辅助球**，提供虚拟导航、快捷开关、手势以及模仿 iPhone AssistiveTouch 的主题。
+Easy Touch 是一款热门的安卓 **iOS 风格辅助球**，提供虚拟导航、快捷开关、手势以及模仿 iPhone AssistiveTouch 的主题。如果你刚从 iPhone 换到安卓、想念那颗熟悉的悬浮球，或者就是偏好苹果风格的操作手感，它会是最容易上手的那一款。
 
 **优势**
 - **悬浮球**：含主页、返回、多任务与音量控制。
@@ -87,7 +95,7 @@ Easy Touch 是一款热门的安卓 **iOS 风格辅助球**，提供虚拟导航
 - 无内置时钟或系统监控。
 - 深度自定义不如 Floating Assistant 丰富。
 
-**最适合：** 明确想要 iPhone 风格悬浮球的用户。
+**最适合：** 明确想要 iPhone 风格悬浮球、追求熟悉手感的用户。
 
 **下载 Easy Touch**
 - [Google Play](https://play.google.com/store/apps/details?id=com.easytouch.assistivetouch)
@@ -101,7 +109,7 @@ Easy Touch 是一款热门的安卓 **iOS 风格辅助球**，提供虚拟导航
 ![Anyscanner Touch 自定义菜单与按钮](/assets/images/blog/anyscanner_touch_3.webp){: width="180" .normal }
 ![Anyscanner Touch 辅助功能与选项](/assets/images/blog/anyscanner_touch_4.webp){: width="180" .normal }
 
-Assistive Touch（Easy Tools）添加一个 **导航栏悬浮层**，包含多任务/主页/返回，以及丰富的快捷开关、截图与录屏功能。
+Assistive Touch（Easy Tools）添加一个 **导航栏悬浮层**，包含多任务/主页/返回，以及丰富的快捷开关、截图与录屏功能。它更像一块"随身控制面板"：适合通勤或外出时高频切换 Wi-Fi、蓝牙、飞行模式，又不想一次次下拉状态栏的用户。
 
 **优势**
 - **导航控制**（多任务、主页、返回），无需实体按键。
@@ -130,7 +138,7 @@ Assistive Touch（Easy Tools）添加一个 **导航栏悬浮层**，包含多�
 ![Button Mapper 设置与管理](/assets/images/blog/button_mapper_4.webp){: width="180" .normal }
 ![Button Mapper 高级选项](/assets/images/blog/button_mapper_5.webp){: width="180" .normal }
 
-Button Mapper 将你的 **实体按键**（音量键、Bixby 键等）重映射为自定义动作——这是另一种「辅助控制」思路，完全不需要悬浮球。
+Button Mapper 将你的 **实体按键**（音量键、Bixby 键等）重映射为自定义动作——这是另一种"辅助控制"思路，完全不需要悬浮球。它适合屏幕上不想有任何遮挡、又希望把闲置或失灵的按键利用起来的用户，比如用音量键一键开手电筒、截屏或切歌。
 
 **优势**
 - **重映射实体按键**：启动应用、开关手电筒、截屏、媒体控制等。
@@ -159,7 +167,7 @@ Button Mapper 将你的 **实体按键**（音量键、Bixby 键等）重映射�
 ![Conena 辅助功能与选项](/assets/images/blog/conena_touch_4.webp){: width="180" .normal }
 ![Conena 设置与权限](/assets/images/blog/conena_touch_5.webp){: width="180" .normal }
 
-All in One Gestures 让你 **隐藏虚拟按键、用手势操控设备**——滑动、捏合等——获得干净、无按键的体验。
+All in One Gestures 让你 **隐藏虚拟按键、用手势操控设备**——滑动、捏合等——获得干净、无按键的体验。它适合追求全屏沉浸感的人：看视频、读文档或玩游戏时，屏幕边缘一划就能返回，视觉上完全看不到导航键。
 
 **优势**
 - **手势控制**（滑动、捏合、长按）触发动作。
@@ -171,7 +179,7 @@ All in One Gestures 让你 **隐藏虚拟按键、用手势操控设备**——�
 **不足**
 - 新用户需要适应手势。
 - 无悬浮时钟或监控。
-- 对想要可见按键的用户来说不够「辅助」。
+- 对想要可见按键的用户来说不够"辅助"。
 
 **最适合：** 比起悬浮球更偏爱手势的用户。
 
@@ -186,7 +194,7 @@ All in One Gestures 让你 **隐藏虚拟按键、用手势操控设备**——�
 ![Wanata 自定义菜单与按钮](/assets/images/blog/wanata_touch_3.webp){: width="180" .normal }
 ![Wanata 辅助功能与选项](/assets/images/blog/wanata_touch_4.webp){: width="180" .normal }
 
-Assistive Touch（smarttool）是一款 **简洁直接的悬浮触控应用**，提供虚拟按键与快捷设置，接近经典的 AssistiveTouch 体验。
+Assistive Touch（smarttool）是一款 **简洁直接的悬浮触控应用**，提供虚拟按键与快捷设置，接近经典的 AssistiveTouch 体验。如果你只想要"点一下就能返回、看通知、调音量"这种最基础的辅助，不想花时间研究复杂配置，它是门槛最低的选择之一。
 
 **优势**
 - **悬浮触控按键**：主页/返回/多任务与音量。
@@ -209,6 +217,8 @@ Assistive Touch（smarttool）是一款 **简洁直接的悬浮触控应用**，
 
 ## 核心能力对比
 
+能力表按行横向对比六款工具，是把上面文字结论浓缩成一张速查图。先看"有没有"的关键项（悬浮球、虚拟导航、时钟、监控），再回头看广告与隐私，因为后者往往决定你能不能长期用下去。
+
 | 能力 | Floating Assistant | Easy Touch | Assistive Touch（Easy Tools） | Button Mapper | All in One Gestures | Assistive Touch |
 |---|---|---|---|---|---|---|
 | **平台** | 安卓 | 安卓 | 安卓 | 安卓 | 安卓 | 安卓 |
@@ -225,20 +235,24 @@ Assistive Touch（smarttool）是一款 **简洁直接的悬浮触控应用**，
 | **广告 / 内购** | 免费核心 | 广告 | 广告 | 免费 + 专业版（无广告） | 免费 + 专业版 | 广告 |
 | **免费档** | 充裕 | 有 | 有 | 有 | 有 | 有 |
 
+一句话归纳：只有 Floating Assistant 把"悬浮球 + 时钟 + 监控"三者合一；Button Mapper 与 All in One Gestures 走的是无悬浮层路线（按键 / 手势），隐私表现同样干净；其余几款都是带广告的经典悬浮球，胜在熟悉与简单。
+
 ---
 
 ## 如何选购
 
-- 想要 **按键 + 时钟 + 实时监控集于一身** → **Floating Assistant**
-- 想要 **iPhone 风格悬浮球** → **Easy Touch**
-- 想要 **面板里最多的快捷开关** → **Assistive Touch（Easy Tools）**
-- 更倾向 **复用实体按键** → **Button Mapper**
-- 比起悬浮球更爱 **手势** → **All in One Gestures**
-- 想要 **经典简洁悬浮触控** → **Assistive Touch**
+按需求直接对号入座，比逐个试用更省时间：
+
+- 想要 **按键 + 时钟 + 实时监控集于一身** → **Floating Assistant**：一枚悬浮球把导航、时间和性能读数都收进来。
+- 想要 **iPhone 风格悬浮球** → **Easy Touch**：主题与手势都贴近 AssistiveTouch，换机过渡最自然。
+- 想要 **面板里最多的快捷开关** → **Assistive Touch（Easy Tools）**：Wi-Fi、蓝牙、飞行模式、截图录屏一屏打尽。
+- 更倾向 **复用实体按键** → **Button Mapper**：屏幕上零遮挡，把音量键等变成快捷入口。
+- 比起悬浮球更爱 **手势** → **All in One Gestures**：隐藏导航键，用边缘滑动换来全屏视野。
+- 想要 **经典简洁悬浮触控** → **Assistive Touch**：只保留最基础的虚拟按键，上手即用。
 
 ## 每款 Assistive Touch 替代品适合谁
 
-上面的对比表按能力横向排列，这一节从「你原本用的是什么」出发给结论。
+上面的对比表按能力横向排列，这一节从"你原本用的是什么"出发给结论——因为迁移成本往往比功能差异更影响体验。
 
 | 如果你原本用的是…… | 建议 | 为什么合适 |
 |---|---|---|
@@ -252,33 +266,33 @@ Assistive Touch（smarttool）是一款 **简洁直接的悬浮触控应用**，
 
 ## 如何迁移到更好的 Assistive Touch 替代品
 
-1. **确定你的风格**——悬浮球、实体按键重映射，还是手势——再从表中挑选。
-2. **安装并授权**：悬浮层需要「显示在其他应用上层」权限，按键/手势动作需要「辅助功能」权限。
-3. **自定义悬浮球或手势**——加入你最常用的应用、开关与截图。
-4. **开启你会用到的附加功能**——比如 Floating Assistant 的时钟/监控，或 Button Mapper 的音量键快捷方式。
+1. **确定你的风格**——悬浮球、实体按键重映射，还是手势——再从表中挑选，避免装了又卸载。
+2. **安装并授权**：悬浮层需要"显示在其他应用上层"权限，按键/手势动作需要"辅助功能"权限；按需只开真正会用到的那部分。
+3. **自定义悬浮球或手势**——加入你最常用的应用、开关与截图，把高频动作提到第一层。
+4. **开启你会用到的附加功能**——比如 Floating Assistant 的时钟/监控，或 Button Mapper 的音量键快捷方式；用不上的先保持关闭，省电也省屏幕空间。
 5. **审视隐私**：优先选择不收集数据的应用（Floating Assistant、Button Mapper、All in One Gestures），而非广告泛滥的仿制品。
 
 ## 常见问题（FAQ）
 
-**Floating Assistant 是最好的 Assistive Touch 替代品吗？**
+**Floating Assistant 适合作为 Assistive Touch 替代品吗？**
 {:.faq-q}
 
-如果你想要一个叠层同时做辅助触控 + 悬浮时钟 + 实时 CPU/RAM/电池监控（含一键加速），是的——其余五款都是单一用途（悬浮球、手势或实体重映射），没有时钟也没有监控。
+如果你想要一个叠层同时做辅助触控 + 悬浮时钟 + 实时 CPU/RAM/电池监控（含一键加速），是的——其余五款都是单一用途（悬浮球、手势或实体重映射），没有时钟也没有监控。反过来说，若你只需要一枚简单导航球、并不关心时钟与读数，更轻量的 Easy Touch 或 Assistive Touch 反而更省事，不必为用不上的功能买单。
 
 **哪款 Assistive Touch 替代品带悬浮时钟与监控？**
 {:.faq-q}
 
-只有 Floating Assistant。Easy Touch、Assistive Touch 等提供虚拟按键或手势，但都没有时钟、也没有实时系统读数。
+只有 Floating Assistant。Easy Touch、Assistive Touch 等提供虚拟按键或手势，但都没有时钟、也没有实时系统读数。想一边全屏游戏一边盯着温度和电量，答案也只能是它。
 
 **哪款 Assistive Touch 替代品不打广告？**
 {:.faq-q}
 
-Floating Assistant（免费核心、可选解锁）、Button Mapper 与 All in One Gestures（免费 + 专业版、无广告）是轻广告之选；Easy Touch / Assistive Touch 类仿品靠广告支撑。
+Floating Assistant（免费核心、可选解锁）、Button Mapper 与 All in One Gestures（免费 + 专业版、无广告）是轻广告之选；Easy Touch / Assistive Touch 类仿品靠广告支撑，如果广告打断让你难以忍受，优先考虑前三款。
 
 **iPhone 有 Assistive Touch 吗？**
 {:.faq-q}
 
-有——AssistiveTouch 已内置在 iOS 中（设置 > 辅助功能 > 触控 > AssistiveTouch），所以 iPhone 上无需下载 App。
+有——AssistiveTouch 已内置在 iOS 中（设置 > 辅助功能 > 触控 > AssistiveTouch），所以 iPhone 上无需下载 App，也不存在"找替代品"的问题。
 
 [获取 Floating Assistant](/zh/apps/floating-assistant/)——安卓平台可用。
 

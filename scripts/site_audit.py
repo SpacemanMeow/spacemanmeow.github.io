@@ -243,18 +243,29 @@ def check_i18n(a):
         tc = collections.Counter(p for _,p in IMGSET.findall(t))
         if ec != tc: mis.append((f, sum(ec.values()), sum(tc.values())))
         el, tl = TXT[e].split('\n'), t.split('\n')
-        ea = [i for i,l in enumerate(el) if IMGSET.search(l)]
-        ba = [i for i,l in enumerate(tl) if IMGSET.search(l)]
+        # 图片锚点用「所属第几个 H2 + 该 H2 内第几张图」，不用绝对行号：
+        # G18 中文补厚会合法增加正文行数，但图片所在章节与顺序不应改变。
+        def img_anchor(lines):
+            h2 = -1; cnt = {}; out = []
+            for l in lines:
+                if l.strip().startswith('## '): h2 += 1
+                if IMGSET.search(l):
+                    n = cnt.get(h2, 0); cnt[h2] = n + 1; out.append((h2, n))
+            return out
+        ea, ba = img_anchor(el), img_anchor(tl)
         if ea != ba: pos.append((f, ea[:3], ba[:3]))
-        es = [k for k in (skel(l) for l in el) if k]
-        ts = [k for k in (skel(l) for l in tl) if k]
+        # 结构块序列只比骨架块（H2/H3/IMG/TBL/FAQ/HR），忽略 LI/NUM 列表项：
+        # 列表项属于正文内容，补厚会新增，不应判为骨架漂移。
+        es = [k for k in (skel(l) for l in el) if k and k not in ('LI','NUM')]
+        ts = [k for k in (skel(l) for l in tl) if k and k not in ('LI','NUM')]
         if es != ts: sbad.append((f, len(es), len(ts)))
         eh = [k for k in es if k in ('H2','H3')]
         th = [k for k in ts if k in ('H2','H3')]
         if eh != th: hbad.append((f, len(eh), len(th)))
+        # TOC 比条目数（H2 序列已由 I18N-15 校验，条目文字本就随语言不同）
         etoc = [i for i,l in enumerate(el) if TOCRE.match(l)]
         ttoc = [i for i,l in enumerate(tl) if TOCRE.match(l)]
-        if etoc != ttoc: tbad.append((f, etoc[:3], ttoc[:3]))
+        if len(etoc) != len(ttoc): tbad.append((f, len(etoc), len(ttoc)))
         alts = {x[0] for x in IMGSET.findall(TXT[e])}
         hit = [x[0] for x in IMGSET.findall(t) if x[0] in alts]
         if hit: copied.append((f, hit[0]))

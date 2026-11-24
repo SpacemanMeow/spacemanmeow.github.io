@@ -43,6 +43,10 @@ CPU Monitor adalah pemantau perangkat keras untuk Android. Ia menampilkan suhu d
 
 Pantau suhu CPU dan frekuensinya secara langsung, analisis data riwayat, dan dukung pemantauan CPU multi-inti.
 
+**Suhu GPU secara langsung**
+
+Pantau suhu GPU secara langsung dan ikuti kurva suhunya untuk melihat seberapa panas perangkat saat bermain game atau menonton video.
+
 **Alarm suhu berlebih**
 
 CPU Monitor membunyikan alarm saat suhu CPU atau baterai terlalu panas; alarm ini dapat diaktifkan atau dimatikan sesuai keinginan.

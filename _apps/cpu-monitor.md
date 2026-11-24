@@ -47,6 +47,10 @@ The most beautiful and powerful cpu monitor for android! You are able to monitor
 
 Monitor the cpu temperature and frequency real time, analyze the cpu temperature and frequency history information, and support the multicore cpu monitoring.
 
+**GPU Temperature**
+
+Monitor the GPU temperature in real time and follow it on a temperature curve to see how gaming and video playback heat up your device.
+
 **Temperature Over Heat Alarm**
 
 Cpu monitor will trigger an alarm when cpu's or battery's temperature is over heat, you can choose open or close the over heat alarm as your like.

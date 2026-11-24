@@ -7,10 +7,10 @@ tags: [Meow Todo, To-Do List, Android, Alternatives, Todoist]
 image: /assets/images/covers/alternatives-to-todoist.webp
 app_icon: /assets/images/apps/meow-todo-list/icon.webp
 lang: zh
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 ---
 
-如果你在挑选 **Todoist 的替代应用**，多半是想要更低的价格、更强的隐私，或更简洁的界面。以下是 2026 年值得一看的 **[最佳待办列表应用](/zh/glossary/what-is-a-to-do-list/)** 替代品——我们选了七款，或因市场份额高，或因某一项突出优势——并给出详细的优缺点、核心能力对比和直接下载链接。
+如果你在挑选 **Todoist 的替代应用**，多半是想要更低的价格、更强的隐私，或更简洁的界面。以下是 2026 年值得一看的 **[最佳待办列表应用](/zh/glossary/what-is-a-to-do-list/)** 替代品——我们选了七款，或因市场份额高，或因某一项突出优势——并给出详细的优缺点、核心能力对比和直接下载链接。无论你是被免费档的项目数限制卡住，还是想把任务数据留在自己设备上，下面都有对应的选择。
 
 ## 为什么人们会跳出 Todoist
 
@@ -20,11 +20,17 @@ last_modified_at: 2026-11-05
 ![Todoist 日历与时间视图](/assets/images/blog/todoist_4.webp){: width="180" .normal }
 ![Todoist 同步与设置](/assets/images/blog/todoist_5.webp){: width="180" .normal }
 
+Todoist 是成熟的产品，但换它的理由往往很具体，而不是"用腻了"：
+
 - 免费的 **Beginner** 档把你限制在约 5 个活跃项目，且提醒功能有限。
 - **日历集成** 和大量自动化都锁在 **Pro** 方案（约 $60/年）之后。
 - 有些用户就是更喜欢安静、不那么"游戏化"的界面，或者希望自己的数据离开厂商云。
 
+判断要不要换，可以先看你被卡在哪一层：是免费档不够用、是特定功能要付费，还是单纯不认同云账号模式？这三层分别对应"换更慷慨的免费档""换更便宜的全能应用""换本机优先的隐私工具"，下面的七款正是围绕它们展开的。
+
 ## 最佳 Todoist 替代应用一览
+
+七款先列成一表。"免费档"一列最值得先看——它决定了你能不能零成本试用到满意；"价格"一列则要注意区分一次性买断与年年订阅。
 
 | 应用 | 价格 | 免费档 | 适合人群 |
 |---|---|---|---|
@@ -44,7 +50,7 @@ last_modified_at: 2026-11-05
 ![Microsoft To Do 日历与时间视图](/assets/images/blog/microsoft_todo_4.webp){: width="180" .normal }
 ![Microsoft To Do 同步与设置](/assets/images/blog/microsoft_todo_5.webp){: width="180" .normal }
 
-Microsoft To Do（由微软在 2015 年收购的原 Wunderlist 团队打造）**完全免费**，并深度绑定 Outlook 与 Windows。对任何已在 Microsoft 365 体系中的人来说，它都表现出色。
+Microsoft To Do（由微软在 2015 年收购的原 Wunderlist 团队打造）**完全免费**，并深度绑定 Outlook 与 Windows。对任何已在 Microsoft 365 体系中的人来说，它都表现出色——被标记的邮件直接变任务，不必手动搬运。
 
 **优点**
 - **全平台免费**——iOS、Android、Windows、macOS 与网页，支持 34 种语言。
@@ -57,7 +63,7 @@ Microsoft To Do（由微软在 2015 年收购的原 Wunderlist 团队打造）**
 - 与微软账号紧耦合；不在该生态里时吸引力大减。
 - 除共享清单外没有协作，也没有高级项目或 GTD 结构。
 
-**适合人群：** Microsoft 365 / Outlook 用户，想要免费、可靠、无需学习新系统的每日任务清单。
+**适合人群：** Microsoft 365 / Outlook 用户，想要免费、可靠、无需学习新系统的每日任务清单；不在这个生态里就没必要勉强。
 
 **下载 Microsoft To Do**
 - [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.todos)
@@ -71,7 +77,7 @@ Microsoft To Do（由微软在 2015 年收购的原 Wunderlist 团队打造）**
 ![Meow Todo List 日历与时间视图](/assets/images/apps/meow-todo-list/4.webp){: width="180" .normal }
 ![Meow Todo List 同步与设置](/assets/images/apps/meow-todo-list/5.webp){: width="180" .normal }
 
-Meow Todo List 是一款以猫为主题的 **[任务管理器](/zh/glossary/what-is-a-to-do-list/)**，支持 Android 和 iOS。它最突出的特点是 **界面**：可爱、卡通风格的设计，搭配 **400+ 丰富的分类图标**，让每天做规划变得轻松，而不像在加班。除了颜值，它也覆盖了实用的待办基本功。
+Meow Todo List 是一款以猫为主题的 **[任务管理器](/zh/glossary/what-is-a-to-do-list/)**，支持 Android 和 iOS。它最突出的特点是 **界面**：可爱、卡通风格的设计，搭配 **400+ 丰富的分类图标**，让每天做规划变得轻松，而不像在加班。除了颜值，它也覆盖了实用的待办基本功——清单、子任务、日历视图、提醒与导出都在。
 
 **优点**
 - **精美卡通界面 + 400+ 自定义图标**——最鲜明的差异化卖点；记录任务在视觉上就有获得感。
@@ -85,7 +91,7 @@ Meow Todo List 是一款以猫为主题的 **[任务管理器](/zh/glossary/what
 - **高级功能**（如无限清单 / 更丰富图表）放在低价 VIP 档（约 $0.99/月或 $9.99/年）；免费核心已覆盖日常追踪。
 - 没有协作或共享清单，生态也比大厂小。
 
-**适合人群：** 想要清晰、私密、不依赖云端账号的任务追踪，重视友好界面，且不介意一点手动设置的人。
+**适合人群：** 想要清晰、私密、不依赖云端账号的任务追踪，重视友好界面，且不介意一点手动设置的人；把清单默认留在本机是它最大的卖点。
 
 **下载 Meow Todo List**
 - [Google Play](https://play.google.com/store/apps/details?id=com.glgjing.money.task.todo.list.meow)
@@ -99,7 +105,7 @@ Meow Todo List 是一款以猫为主题的 **[任务管理器](/zh/glossary/what
 ![TickTick 日历与时间视图](/assets/images/blog/ticktick_todo_4.webp){: width="180" .normal }
 ![TickTick 同步与设置](/assets/images/blog/ticktick_todo_5.webp){: width="180" .normal }
 
-TickTick 是一款强力的 **[任务管理器](/zh/glossary/what-is-a-to-do-list/)**，内置日历、番茄钟与习惯追踪。它的功能比多数替代品都丰富，价格还低于 Todoist Pro。
+TickTick 是一款强力的 **[任务管理器](/zh/glossary/what-is-a-to-do-list/)**，内置日历、番茄钟与习惯追踪。它的功能比多数替代品都丰富，价格还低于 Todoist Pro——如果你想把"待办 + 专注 + 习惯"合到一个应用里，它是最省事的方案之一。
 
 **优点**
 - **内置日历 + 番茄钟 + 习惯追踪**，一个应用搞定，无需东拼西凑。
@@ -112,7 +118,7 @@ TickTick 是一款强力的 **[任务管理器](/zh/glossary/what-is-a-to-do-lis
 - 功能广度可能让追求极简的用户觉得界面很忙。
 - 协作不如 Notion；有共享清单但缺深度团队流程。
 
-**适合人群：** 想要强力功能（日历 + 番茄钟 + 习惯）、又不想付 Todoist 级价格的用户。
+**适合人群：** 想要强力功能（日历 + 番茄钟 + 习惯）、又不想付 Todoist 级价格的用户；愿意花点时间熟悉界面的人最合适。
 
 **下载 TickTick**
 - [Google Play](https://play.google.com/store/apps/details?id=com.ticktick.task)
@@ -126,7 +132,7 @@ TickTick 是一款强力的 **[任务管理器](/zh/glossary/what-is-a-to-do-lis
 ![Google Tasks 日历与时间视图](/assets/images/blog/google_task_4.webp){: width="180" .normal }
 ![Google Tasks 同步与设置](/assets/images/blog/google_task_5.webp){: width="180" .normal }
 
-Google Tasks 是 baked 进 Gmail 与 Google 日历的轻量任务工具。它刻意保持极简，任何 Google 账号都能免费使用。
+Google Tasks 是内嵌在 Gmail 与 Google 日历里的轻量任务工具。它刻意保持极简，任何 Google 账号都能免费使用——如果你已经天天开着 Gmail，任务就顺手记在侧栏里，不必再开一个应用。
 
 **优点**
 - **免费且即开即用**——已在 Gmail、日历、云端硬盘与独立应用（Android、iOS、网页）中。
@@ -138,7 +144,7 @@ Google Tasks 是 baked 进 Gmail 与 Google 日历的轻量任务工具。它刻
 - 提醒很基础（基于截止日期）；没有基于位置或语音的记录。
 - 没有真正的离线优先模式，协作也有限（仅 Google 共享清单）；复杂项目表现弱。
 
-**适合人群：** Gmail / Google 日历用户，想要零摩擦的任务清单、不多不少刚好。
+**适合人群：** Gmail / Google 日历用户，想要零摩擦的任务清单、不多不少刚好；复杂项目管理不适合它。
 
 **下载 Google Tasks**
 - [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.tasks)
@@ -152,7 +158,7 @@ Google Tasks 是 baked 进 Gmail 与 Google 日历的轻量任务工具。它刻
 ![Things 日历与时间视图](/assets/images/blog/things_todo_4.webp){: width="180" .normal }
 ![Things 同步与设置](/assets/images/blog/things_todo_5.webp){: width="180" .normal }
 
-Things 3（出自 Cultured Code）被广泛赞为 **最好看的待办应用**，采用 GTD 友好的模型（收件箱、今天、即将到来、随时、某天、项目、领域、标签）。它只在苹果设备上运行。
+Things 3（出自 Cultured Code）被广泛赞为 **最好看的待办应用**，采用 GTD 友好的模型（收件箱、今天、即将到来、随时、某天、项目、领域、标签）。它只在苹果设备上运行，换来的是高度打磨、几乎无干扰的体验。
 
 **优点**
 - **同级别最佳的设计与体验**——快、安静、直观；快速输入与自然语言排期。
@@ -178,7 +184,7 @@ Things 3（出自 Cultured Code）被广泛赞为 **最好看的待办应用**�
 ![Notion 日历与时间视图](/assets/images/blog/notion_4.webp){: width="180" .normal }
 ![Notion 同步与设置](/assets/images/blog/notion_5.webp){: width="180" .normal }
 
-Notion 是一个笔记 / 文档 / 数据库工作空间，也能通过数据库、看板（Kanban）与日历视图以及提醒来跑你的任务。它是这里最灵活的选择——也最重。
+Notion 是一个笔记 / 文档 / 数据库工作空间，也能通过数据库、看板（Kanban）与日历视图以及提醒来跑你的任务。它是这里最灵活的选择——也最重：任务只是数据库里的一行，可以换多种视角查看。
 
 **优点**
 - **极其灵活**——任务只是数据库中的一行，你可以以清单、看板、日历或时间线来查看，并支持关联、模板与富文档。
@@ -190,7 +196,7 @@ Notion 是一个笔记 / 文档 / 数据库工作空间，也能通过数据库�
 - **提醒与循环任务较弱**——依附于数据库项的日期，缺少专门应用那种可靠的 native 推送提醒、位置或语音记录。
 - 依赖云端；离线仅限缓存，所以若想数据完全在本机，它并不理想。
 
-**适合人群：** 已活在 Notion 里（或想文档 + 任务 + 项目管理合一）且能容忍更重工具的用户。
+**适合人群：** 已活在 Notion 里（或想文档 + 任务 + 项目管理合一）且能容忍更重工具的用户；只想快速勾任务的人会嫌它慢。
 
 **下载 Notion**
 - [Google Play](https://play.google.com/store/apps/details?id=notion.id)
@@ -203,7 +209,7 @@ Notion 是一个笔记 / 文档 / 数据库工作空间，也能通过数据库�
 ![Anydo 数据与统计](/assets/images/blog/anydo_3.webp){: width="180" .normal }
 ![Anydo 设置与管理](/assets/images/blog/anydo_4.webp){: width="180" .normal }
 
-Any.do 把待办清单、日历与规划器连同提醒打包在一起，被数千万用户在手机、桌面与网页上使用。
+Any.do 把待办清单、日历与规划器连同提醒打包在一起，被数千万用户在手机、桌面与网页上使用。如果你想在一屏里同时看到"今天要做的事"和"今天的时间安排"，它正是对路的那款。
 
 **优点**
 - **任务 + 日历同一视图**，配语音、WhatsApp 与基于位置的提醒——灵活记录。
@@ -215,7 +221,7 @@ Any.do 把待办清单、日历与规划器连同提醒打包在一起，被数�
 - 合一视图与付费推广可能显得杂乱，提醒可靠性也常被诟病。
 - 不为复杂项目管理或深度团队协作而生。
 
-**适合人群：** 想要任务与日历统一、并支持灵活（语音 / 位置）提醒的用户。
+**适合人群：** 想要任务与日历统一、并支持灵活（语音 / 位置）提醒的用户；追求极简界面的人可能觉得它偏杂。
 
 **下载 Any.do**
 - [Google Play](https://play.google.com/store/apps/details?id=com.anydo)
@@ -223,7 +229,7 @@ Any.do 把待办清单、日历与规划器连同提醒打包在一起，被数�
 
 ## 核心能力对比
 
-下表尽可能客观地展示了每款应用支持哪些能力。"部分"表示该能力存在但有限制。
+下表尽可能客观地展示了每款应用支持哪些能力。"部分"表示该能力存在但有限制。建议先看"免费档""离线 / 隐私""平台"三行——它们决定了你要不要付费、数据放在哪儿、能不能在所有设备上用。
 
 | 能力 | Microsoft To Do | Meow Todo | TickTick | Google Tasks | Things 3 | Notion | Any.do |
 |---|---|---|---|---|---|---|---|
@@ -240,24 +246,30 @@ Any.do 把待办清单、日历与规划器连同提醒打包在一起，被数�
 | **免费档** | 完整 | 核心慷慨 | 有限 | 完整 | 无（付费） | 慷慨 | 有限 |
 | **价格** | 免费 | 免费 + VIP 约 $9.99/年 | 免费 + $35.99/年 | 免费 | 按平台付费 | 免费 + 付费档 | 免费 + 约 $36/年 |
 
+一句话归纳：Microsoft To Do 与 Google Tasks 胜在完全免费且扎根既有生态；TickTick 功能覆盖较广且比 Todoist Pro 便宜；Things 3 是苹果生态的设计标杆；Notion 最灵活也最重；Any.do 主打日历任务合一；Meow Todo 则是"免账号、数据留本机、还能导出 CSV"的隐私之选。
+
 ## 哪款 Todoist 替代品适合你？
 
-- 已在 **Microsoft 365 / Outlook** → **Microsoft To Do**
-- 想要 **免费、私密、免账号、可 CSV 导出、可爱界面** → **Meow Todo**
-- 想便宜地获得 **强力功能**（日历 + 番茄钟 + 习惯）→ **TickTick**
-- 活在 **Gmail / Google 日历** → **Google Tasks**
-- 只用 **苹果设备**、想要最精致的应用 → **Things 3**
-- 想要 **文档 + 任务 + 项目合一的灵活工作空间** → **Notion**
-- 想要 **任务与日历合一、带语音 / 位置提醒** → **Any.do**
+按你最在意的那一两点直接挑选：
+
+- 已在 **Microsoft 365 / Outlook** → **Microsoft To Do**：邮件标记即可变任务，不必重新建清单。
+- 想要 **免费、私密、免账号、可 CSV 导出、可爱界面** → **Meow Todo**：装上就能用，数据默认留本机。
+- 想便宜地获得 **强力功能**（日历 + 番茄钟 + 习惯）→ **TickTick**：全能且比 Todoist Pro 便宜。
+- 活在 **Gmail / Google 日历** → **Google Tasks**：侧栏里零摩擦记任务。
+- 只用 **苹果设备**、想要最精致的应用 → **Things 3**：一次买断，无订阅。
+- 想要 **文档 + 任务 + 项目合一的灵活工作空间** → **Notion**：代价是更重、依赖云端。
+- 想要 **任务与日历合一、带语音 / 位置提醒** → **Any.do**：一屏看清安排。
 
 ## 每款 Todoist 替代品适合谁
 
 把每一款都当作有明确分工的 **Todoist 替代** 来看：**微软待办替代** 是 Outlook 原生的免费清单，**滴答清单替代** 把日历与番茄钟装进一个应用，**番茄ToDo 替代** 更偏专注计时与自习打卡，Google Tasks 则是 Gmail 侧栏里最轻的那个。Things 3 与 Any.do 主打设计质感，Notion 主打数据库；而 Meow Todo 是这份名单里更适合做 **离线待办** 与 **待办清单子任务免费** 的那款，也常被当作 **待办清单 app 哪个好** 的答案。如果你离开 Todoist 的真实原因是价格，先试 **免费待办清单**，别把一份订阅换成另一份。更完整的选型见 [2026 年最佳安卓待办清单](/zh/posts/pillar-todo-list-task-manager-apps-android/)。
 
+无论从哪个角度切入，迁移前都值得先确认两件事：任务能不能导出成文件带走，以及免费档是否包含你真正在用的子任务与提醒。这两点过关，换应用才不会把自己锁死在新的生态里。
+
 ## 如何从 Todoist 迁移
 
-1. **导出** 你在 Todoist 的项目（设置 → 备份，或在仍可访问时把任务复制出来）。
-2. **挑选替代应用**——用上面的表格，基于生态、隐私与功能深度来选。
+1. **导出** 你在 Todoist 的项目（设置 → 备份，或在仍可访问时把任务复制出来），先拿到数据再挑工具。
+2. **挑选替代应用**——用上面的表格，基于生态、隐私与功能深度来选，别只被界面吸引。
 3. **重建你的结构**——清单（To Do、Meow）或项目（Todoist）彼此能干净对应；在 Notion 里则建一个任务数据库。
 4. **重新添加循环任务**与截止日期；设置每日提醒，在支持的情况下再加上位置或语音提醒。
 5. **保留一份 CSV 备份**（Meow Todo 和多数应用都能导出），从此不再被锁定。
@@ -267,22 +279,22 @@ Any.do 把待办清单、日历与规划器连同提醒打包在一起，被数�
 **Meow Todo List 算好的免费 Todoist 替代品吗？**
 {:.faq-q}
 
-算。它的核心（清单、子任务、日历视图、提醒、CSV 导出）免费，无需账号，并可用可选指纹锁把任务留在本机；只有少数进阶能力放在一次性 VIP 之后。
+算。它的核心（清单、子任务、日历视图、提醒、CSV 导出）免费，无需账号，并可用可选指纹锁把任务留在本机；只有少数进阶能力放在一次性 VIP 之后。想要团队协作或更深的日历视图，则要考虑 TickTick 或 Notion。
 
 **Meow Todo 能离线用吗？**
 {:.faq-q}
 
-能。没网也能添加、勾掉任务；数据留在设备上，只在你主动选择时同步到 iCloud 或 WebDav。
+能。没网也能添加、勾掉任务；数据留在设备上，只在你主动选择时同步到 iCloud 或 WebDav。地铁里、飞机上都能照常规划。
 
 **哪款 Todoist 替代品最注重隐私？**
 {:.faq-q}
 
-Meow Todo——它无需账号，任务锁在指纹之后、存于本机，且只在你开启时才备份到 iCloud 或 WebDav，因此清单默认不会躺在厂商云里。
+Meow Todo——它无需账号，任务锁在指纹之后、存于本机，且只在你开启时才备份到 iCloud 或 WebDav，因此清单默认不会躺在厂商云里。其余几款基本都绑定账号同步。
 
 **我能把任务从 Todoist 搬出来吗？**
 {:.faq-q}
 
-能。先从 Todoist 导出 CSV，再重建你的清单；Meow Todo 同样支持 CSV 导出，随时可把数据搬到 Excel 或别的应用。
+能。先从 Todoist 导出 CSV，再重建你的清单；Meow Todo 同样支持 CSV 导出，随时可把数据搬到 Excel 或别的应用。先导出、再取消旧订阅最稳妥。
 
 [Meow Todo List App 页](/zh/apps/meow-todo-list/)——安卓与 iOS 可下载。
 
