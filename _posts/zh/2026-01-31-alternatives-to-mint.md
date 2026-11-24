@@ -16,7 +16,7 @@ Intuit 已于 **2024 年 3 月关停 Mint**，把功能并入 Credit Karma。如
 
 ## Mint 关停后用户失去了什么
 
-对于习惯 Mint 那套"绑上银行卡就自动归类"流程的人来说，停运带走的其实是三件事：
+七款 Mint 替代品要补回的，是 Intuit 于 2024 年 3 月关停 Mint 后带走的交易自动导入、统一仪表盘与免费分类预算这三件事；Mint 靠推荐赚钱、最终把用户导向 Credit Karma 的信贷业务，而替代品让你自己决定要多少自动化与云存储——愿意付费换自动同步的看 YNAB、Monarch，更在意隐私的看 Meow Money Manager 这类本地账本。对习惯"绑卡自动归类"流程的人来说，停运带走的是三件事：
 
 - 关联银行卡后的 **交易自动导入**。
 - 净值、账单与订阅的 **统一仪表盘**。
@@ -27,6 +27,8 @@ Intuit 已于 **2024 年 3 月关停 Mint**，把功能并入 Credit Karma。如
 ---
 
 ## YNAB（You Need A Budget）—— 方法论标杆
+
+YNAB 是七款 Mint 替代品里的方法论标杆，也是最有名的零基预算应用：每笔钱在花出去前都被分配好用途，建立在四条规则之上，并通过 Plaid 在网页、iOS 与安卓间自动导入银行交易。代价是 34 天试用后 $14.99/月或 $109/年，学习曲线陡——它是一套你要主动运转的系统，而非被动记录器；报销流程与多币种支持都偏弱，适合愿意投入一两个周末改变消费习惯的人。
 
 ![YNAB 零基预算主界面：账户总览与预算分配](/assets/images/blog/ynab_1.webp){: width="180" .normal }
 ![YNAB 银行账户同步：通过 Plaid 自动导入交易](/assets/images/blog/ynab_2.webp){: width="180" .normal }
@@ -57,6 +59,8 @@ YNAB 是最知名的 **零基预算（zero-based budgeting）** 应用：每笔�
 ---
 
 ## Meow Money Manager（喵窝记账）—— 猫咪主题、界面讨喜的记账工具
+
+Meow Money Manager（喵窝记账）是一款覆盖安卓与 iOS 的猫咪主题记账与预算应用，以 400+ 分类图标、多账本与日/月/年周期预算见长，在七款 Mint 替代品里最适合重视隐私的用户。它无需账号、数据只存本机，支持报销管理、50+ 币种符号与 CSV 导出，备份走你自己的 Google Drive、iCloud 或 WebDav；代价是无银行自动同步、需手动录入，多账本与导出等高级功能需一次性购买，适合不介意轻量手动记账的人。
 
 ![喵窝记账（Meow Money Manager）卡通主界面：400+ 分类图标](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
 ![喵窝记账多账本视图：个人、旅行、工作分别记账](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
@@ -96,6 +100,8 @@ Meow Money Manager（喵窝记账）是一款 **安卓与 iOS** 双平台的猫�
 
 ## Monarch Money —— 最像 Mint 的继任者
 
+Monarch Money 是七款 Mint 替代品里最接近原版仪表盘的一款，把银行、卡片、贷款、投资乃至加密货币与房产聚合到一块屏幕，并支持伴侣协作编辑同一份预算。代价是无免费档、约 $99.99/年（或 $14.99/月），且公司相对年轻（2021 年成立）、社区比 YNAB 小；和 Mint 一样依赖聚合可靠性，连接一断就得手动清理，多币种支持有限、面向美国市场，适合不介意付费订阅、只想一眼看全资产的前 Mint 用户。
+
 ![Monarch Money 一体化财务仪表盘：净值、现金流与订阅](/assets/images/blog/monarch_money_1.webp){: width="180" .normal }
 ![Monarch Money 银行与投资自动同步：含房产估值](/assets/images/blog/monarch_money_2.webp){: width="180" .normal }
 ![Monarch Money 预算与目标工具：自定义分类预算](/assets/images/blog/monarch_money_3.webp){: width="180" .normal }
@@ -124,6 +130,8 @@ Monarch 最常被称为 **Mint 的直接替代品**。它把银行、卡片、�
 ---
 
 ## Rocket Money —— 管理订阅最佳
+
+Rocket Money（前身 Truebill）是七款 Mint 替代品里专治订阅与账单失控的一款，围绕找出并取消不需要的订阅、议价降费和简洁的开销概览构建。它有免费档，叠加自动账户追踪与预算，还带信用分监控与透支提醒；但预算功能基础、没有零基或信封法，自动分类不如 YNAB 或 Monarch 可定制，高级版价格浮动（常约 $6–12/月），也无报销与净值追踪。适合痛点是反复扣费、而非亲力亲为做预算的人。
 
 ![Rocket Money 订阅检测与管理：找出并取消不需要的订阅](/assets/images/blog/rocket_money_1.webp){: width="180" .normal }
 ![Rocket Money 账单议价降费：自动协商降低扣费](/assets/images/blog/rocket_money_2.webp){: width="180" .normal }
@@ -155,6 +163,8 @@ Rocket Money（前身 Truebill）围绕 **找出并取消不需要的订阅**、
 
 ## Empower（前身 Personal Capital）—— 免费净值与投资视图最佳
 
+Empower 是七款 Mint 替代品里免费看净值与投资的最佳选择，核心仪表盘完全免费——聚合银行、退休金、券商、加密货币乃至房贷与房产数据，提供资产配置、退休规划与费用审计。它以 Personal Capital 之名运营逾十年，账户覆盖极广；但并非真正的预算应用，现金流工具比 YNAB 或 Monarch 基础，且以美国为中心、多币种弱，对高余额用户有明显的投资顾问推销，适合主要想看资产总览、不需要每日预算的人。
+
 ![Empower 免费净值总览仪表盘：资产与负债一览](/assets/images/blog/empower_money_1.webp){: width="180" .normal }
 ![Empower 资产配置与投资分析：组合与费用](/assets/images/blog/empower_money_2.webp){: width="180" .normal }
 ![Empower 退休规划预测：基于当前组合](/assets/images/blog/empower_money_3.webp){: width="180" .normal }
@@ -185,6 +195,8 @@ Empower **免费**，专注于 **净值与投资追踪**。它聚合银行、退
 
 ## PocketGuard ——「可安全花费」最佳
 
+PocketGuard 是七款 Mint 替代品里回答"还能花多少"最直观的一款，核心是一个「可安全花费」数字：覆盖账单、储蓄与目标后，直接显示你还剩多少可以放心花，兼带自动分类、订阅追踪与降费功能。它有免费档，PocketGuard Plus 约 $12.99/月或 $74.99/年解锁更多细节；但预算深度有限、无零基或信封法，偏移动优先、网页体验弱，无报销与净值追踪。适合只想知道"这顿饭吃不吃得起"、不愿学一套方法的人。
+
 ![PocketGuard 可安全花费主界面：In My Pocket 余额](/assets/images/blog/pocketguard_money_1.webp){: width="180" .normal }
 ![PocketGuard 自动分类交易：智能识别消费](/assets/images/blog/pocketguard_money_2.webp){: width="180" .normal }
 ![PocketGuard 订阅追踪：recurring 扣费管理](/assets/images/blog/pocketguard_money_3.webp){: width="180" .normal }
@@ -213,6 +225,8 @@ PocketGuard 把事情简化：它显示 **「口袋里还剩多少」**——在
 ---
 
 ## Goodbudget —— 免订阅的信封预算最佳
+
+Goodbudget 是七款 Mint 替代品里免订阅也能用信封预算的代表，把经典信封系统数字化：把钱分进虚拟信封，再从信封里花，靠跨设备云同步让全家守着同一只信封。免费档给 20 个信封、2 台设备与 1 年历史，Premium 约 $8/月或 $70/年解锁无限信封、7 年历史与银行同步，覆盖 iOS、安卓与网页。代价是大多手动录入、自动分类极少，无净值或报销功能，适合偏好掌控感胜过自动化的共享家庭预算用户。
 
 ![Goodbudget 信封预算主界面：虚拟信封分配](/assets/images/blog/good_budget_1.webp){: width="180" .normal }
 ![Goodbudget 信封消费：从信封支出并跟踪](/assets/images/blog/good_budget_2.webp){: width="180" .normal }
@@ -243,7 +257,7 @@ Goodbudget 把经典的 **信封系统** 数字化：把钱分到虚拟信封里
 
 ## 核心能力对比
 
-下表尽可能客观地列出每款应用支持的能力。「部分」表示功能存在但有限制（例如手动备份而非银行同步）。先看你最在意的一两列——例如报销、多币种或免费档——再看整体，比逐款通读更省时间。
+七款 Mint 替代品的能力对比按多账户、银行同步、报销、预算深度、报表、净值、多币种与免费档逐项列出：YNAB 与 Goodbudget 是两种最成体系的预算方法，Monarch 与 Empower 主打自动聚合与净值，Rocket Money 专治订阅，PocketGuard 给"还能花多少"的即时答案，Meow Money Manager 则是唯一带报销管理、50+ 币种符号且免账号的本地账本。「部分」表示功能存在但有限制（例如手动备份而非银行同步）。先看你最在意的一两列再看整体，比逐款通读更省时间。
 
 | 能力 | YNAB | Meow Money | Monarch | Rocket Money | Empower | PocketGuard | Goodbudget |
 |---|---|---|---|---|---|---|---|
@@ -264,7 +278,7 @@ Goodbudget 把经典的 **信封系统** 数字化：把钱分到虚拟信封里
 
 ## 如何选购
 
-按你最想解决的那一件事挑：
+七款 Mint 替代品按你最想解决的那一件事挑：要成熟的零基方法愿意学选 YNAB，要免费、私密、无账号、多币种且带报销选 Meow Money Manager，要最接近 Mint 的仪表盘选 Monarch Money，要清理订阅降账单选 Rocket Money，要免费的净值/投资概览选 Empower，要快速得到"我买得起吗"答案选 PocketGuard，要信封法与家庭共享预算则选 Goodbudget。每款只解决一件事，按需求对号入座即可。
 
 - 想要 **成熟的零基方法**且愿意学 → **YNAB**：把每一笔钱提前安排好。
 - 想要 **免费、私密、无账号、多币种、带报销** → **[Meow Money Manager（喵窝记账）](/zh/apps/meow-money-manager/)**：数据留本机，出差报销一键导出。
@@ -275,6 +289,8 @@ Goodbudget 把经典的 **信封系统** 数字化：把钱分到虚拟信封里
 - 想要 **信封法与家庭共享预算** → **Goodbudget**：两人守着同一只信封。
 
 ## 如何摆脱 Mint
+
+从七款 Mint 替代品完成迁移，可按"先导出—选替代品—重建分类—设预算周期—决定同步方式"五步走：Mint 已于 2024 年 3 月关停，通道关闭前先把交易（CSV）、账户与预算导出，再按隐私与自动化的取舍从七款里选一款。重建分类、设好房租工资等周期项，偏好隐私就让账本留在本机。按这五步接棒，旧账才能无缝续上。
 
 1. 如果还能导出，**现在就导出数据**：交易（CSV）、账户与已存预算，别等通道关闭后追悔莫及。
 2. 在隐私与自动化之间权衡，从上文表格 **选替代品**：看重无痛同步选 Monarch/YNAB，看重数据留本机选 Meow Money Manager。

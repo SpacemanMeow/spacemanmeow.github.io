@@ -14,6 +14,8 @@ Ketika tombol keras aus, jangkauan satu tangan sulit, atau dukungan aksesibilita
 
 ## Apa yang dibutuhkan alat aksesibilitas
 
+Floating Assistant dan Assistive Touch adalah dua aplikasi bola melayang Android yang dibandingkan di sini untuk kendali aksesibilitas satu tangan saat tombol keras aus atau jangkauan terbatas. Floating Assistant menyediakan tombol virtual, bola tepi dengan gestur, dan pintasan kustom tanpa akun; Assistive Touch menawarkan bola bergaya iOS dengan tombol virtual sederhana. Aksesibilitas sistem bawaan menjadi opsi gratis namun terbatas. Lima kebutuhan — tombol virtual, jangkauan tepi, target besar, aksi kustom, dan tanpa ketergantungan perangkat keras — menentukan pilihan. Keduanya tidak menggantikan setelan aksesibilitas sistem, hanya pintasan ke sana.
+
 - **Tombol virtual** — back, home, recent, lock tanpa tombol fisik.
 - **Jangkauan tepi** — kontrol berada di mana ibu jari berada.
 - **Target besar dan jelas** — mudah diketuk, presisi rendah.
@@ -22,7 +24,7 @@ Ketika tombol keras aus, jangkauan satu tangan sulit, atau dukungan aksesibilita
 
 ## Yang sebenarnya dibutuhkan dari bola
 
-Alat aksesibilitas dinilai saat tombol keras gagal, bukan dari daftar fitur. Empat detail praktis:
+Floating Assistant adalah aplikasi Android bola tepi yang memenuhi empat detail praktis aksesibilitas: tombol virtual back, home, recent, dan lock yang tak pernah meleset; jangkauan tepi dengan gestur yang ramah pengguna kidal; pintasan yang bisa dipetakan ulang ke aksi paling sering dipakai; serta izin overlay dan aksesibilitas yang jelas tanpa akun maupun root. Alat aksesibilitas dinilai saat tombol keras gagal, bukan dari daftar fitur. Floating Assistant mencakup keempatnya dengan bola menempel di tepi; Assistive Touch mempertahankan menu tetap lebih kecil. Keduanya hanya pintasan ke setelan sistem, bukan penggantinya.
 
 - **Tombol virtual yang tak pernah meleset** — back, home, recent, dan lock harus target besar dan terpisah jelas. Baris **tombol back home recent floating assistant** adalah intinya, bukan tambahan.
 - **Jangkauan tepi dengan gestur** — **bola floating tepi dengan gestur** membiarkan sapuan melakukan apa yang tak bisa ketukan presisi; bola harus menempel di salah satu sisi agar pengguna kidal tak terabaikan.
@@ -33,6 +35,8 @@ Floating Assistant mencakup keempatnya dengan bola bertempel di tepi; Assistive 
 
 ## Para pesaing sekilas
 
+Floating Assistant memimpin perbandingan tiga opsi aksesibilitas Android — Floating Assistant, Assistive Touch, dan aksesibilitas sistem — karena menggabungkan tombol virtual, jangkauan tepi, dan gestur dalam satu overlay. Assistive Touch menyediakan tombol virtual dan gestur serupa dengan model gratis plus IAP; aksesibilitas sistem bawaan gratis tetapi terbatas dan tanpa jangkauan tepi. Tabel berikut memetakan tombol virtual, jangkauan tepi, gestur, harga, dan kegunaan. Pembaca yang membutuhkan kendali satu tangan andal sebaiknya memilih Floating Assistant; yang ingin pengganti sederhana bisa memakai Assistive Touch.
+
 | App | Harga (2026) | Tombol virtual | Jangkauan tepi | Gestur | Terbaik untuk |
 |---|---|---|---|---|---|
 | **Floating Assistant** | Inti gratis + VIP | ✅ | ✅ | ✅ | Akses fleksibel |
@@ -40,6 +44,8 @@ Floating Assistant mencakup keempatnya dengan bola bertempel di tepi; Assistive 
 | **Aksesibilitas sistem** | Gratis (OS) | ⚠️ terbatas | ❌ | ⚠️ | Bawaan saja |
 
 ## Floating Assistant, lebih dalam
+
+Floating Assistant adalah aplikasi Android bola tepi dengan tombol virtual dan gestur untuk kendali satu tangan tanpa menyentuh perangkat keras. Lima layar di bawah menampilkan bola berlabel jelas, aksi cepat dan gestur, menu kustom, opsi aksesibilitas, serta setelan izin. Bola menempel di tepi dalam jangkauan ibu jari, membawa back, home, recent, dan lock, serta mendukung multi-jendela. Aplikasi ini ringan, lokal, tanpa akun; izin overlay diberikan sekali. Gestur lebih dalam berada di balik VIP. Ia paling cocok untuk ponsel besar dan pengguna dengan batasan jangkauan.
 
 ![Floating Assistant bola assistive touch berlabel jelas](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
 ![Floating Assistant aksi cepat dan gestur](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
@@ -66,6 +72,8 @@ Floating Assistant adalah **aplikasi Android bola tepi** dengan tombol virtual d
 
 ## Assistive Touch, lebih dalam
 
+Assistive Touch (paket `mtr.assistivetouch.easytools`) adalah aplikasi Android yang menyediakan tombol virtual di layar dan bola melayang dalam jangkauan ibu jari. Lima layar di bawah menampilkan bola assistive, aksi cepat dan gestur, menu kustom, opsi aksesibilitas, serta setelan izin. Pengguna bisa mengganti back, home, recent, dan lock dengan ketukan serta mengatur kecerahan dan volume tanpa tombol fisik. Pemakaian dasar gratis dengan IAP. Dibanding Floating Assistant, kustomisasi gesturnya lebih ringan dan iklan bervariasi. Aplikasi ini cocok untuk pengganti tombol virtual gratis sederhana.
+
 ![Bola melayang Assistive Touch](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
 ![Assistive Touch aksi cepat dan gestur](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
 ![Assistive Touch menu kustom dan tombol](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
@@ -90,12 +98,16 @@ Assistive Touch (paket `mtr.assistivetouch.easytools`) menyediakan tombol virtua
 
 ## Mana yang harus dipilih?
 
+Floating Assistant adalah jawaban untuk kontrol satu tangan kaya gestur dan fleksibel di Android, sementara Assistive Touch adalah jawaban untuk tombol virtual gratis sederhana. Keduanya berjalan tanpa root: Floating Assistant memakai inti gratis plus VIP untuk gestur lebih dalam, Assistive Touch gratis dengan IAP. Aksesibilitas sistem bawaan menjadi opsi ketiga yang gratis namun terbatas. Keduanya tidak menggantikan setelan aksesibilitas sistem. Keputusan bergantung pada satu hal: apakah Anda membutuhkan bola tepi dengan gestur kustom atau sekadar tombol virtual yang bisa diketuk.
+
 - Ingin **kontrol satu tangan kaya gestur dan fleksibel** → **Floating Assistant**.
 - Ingin **tombol virtual gratis sederhana** → **Assistive Touch**.
 
 [Dapatkan Floating Assistant](/id/apps/floating-assistant/) — tersedia di Android.
 
 ## Skenario khas
+
+Floating Assistant mendukung lima skenario aksesibilitas satu tangan di Android, mulai dari ponsel besar hingga tombol keras yang aus. Skenario pertama membawa back, home, recent, dan lock ke bawah ibu jari; kedua mengubah lock dan tangkapan layar menjadi ketukan layar; ketiga menyediakan target besar untuk batasan motorik; keempat memungkinkan menutup aplikasi sambil berbaring; kelima menghindari dinding iklan dengan bola inti gratis dan buka kunci opsional. Assistive Touch lebih cocok bila kelima skenario itu cukup diatasi dengan tombol virtual sederhana.
 
 - **Ponsel besar, satu tangan** — bola tepi membawa back/home/recent dan lock ke bawah ibu jari, tanpa meregang.
 - **Tombol keras aus atau tak terjangkau** — lock, tangkapan layar, dan recents jadi ketukan di layar, sehingga tombol daya rusak bukan penghalang.

@@ -30,7 +30,7 @@ doc_app: one-widget
 
 ## Pendahuluan Aplikasi
 
-One Widget memuat **500+ widget layar utama Android yang dapat disesuaikan [widget layar utama](/id/glossary/what-is-a-home-screen-widget/)** dalam empat gaya tren, plus shortcut aplikasi dan quick toggle. Ini adalah **aplikasi widget** yang bisa Anda pakai tanpa akun: jelajahi empat pustaka gaya, taruh sebuah preset, lalu ubah ukuran dan ganti latar serta radius sudutnya. Panduan ini menelusuri siklus penuh dari peluncuran pertama melalui gaya, menambah dan mengonfigurasi widget, toggle **widget shortcut aplikasi Android**, serta info jam, kalender, dan baterai langsung.
+One Widget memuat **500+ widget layar utama Android yang dapat disesuaikan [widget layar utama](/id/glossary/what-is-a-home-screen-widget/)** dalam empat gaya — One UI, Nothing, Glass, dan Material You — plus shortcut aplikasi dan 11 quick toggle. Aplikasi ini bisa dipakai tanpa akun: jelajahi pustaka gaya, taruh preset, lalu ubah ukuran, warna latar, dan radius sudutnya. Tersedia dua build: aplikasi lite gratis dengan gaya One UI dan aplikasi full berbayar yang membuka keempat gaya tanpa pembelian dalam aplikasi.
 
 **🎨 Empat Gaya**
 - **One UI** (default; satu-satunya gaya yang ada di aplikasi "lite" gratis)
@@ -54,7 +54,7 @@ One Widget memuat **500+ widget layar utama Android yang dapat disesuaikan [widg
 
 ## Penggunaan Pertama
 
-Buka One Widget ke galeri 4-tab: **One UI / Nothing / Glass / Material You**.
+Buka One Widget ke galeri empat tab — **One UI / Nothing / Glass / Material You** — yang masing-masing mencantumkan kategori seperti Tools, Entry, Hardware, Clock, Launcher, Combo, Note, dan Contact. Ketuk sebuah kategori untuk melihat pratinjau widget sebelum memutuskan mana yang akan dipasang. Gaya One UI tersedia di aplikasi lite gratis; tiga gaya lain memerlukan aplikasi full.
 
 - Setiap halaman gaya mencantumkan kategori: Tools, Entry, Hardware, Clock, Launcher, Combo, Note, Contact
 - Ketuk sebuah kategori untuk melihat pratinjau widget
@@ -66,9 +66,11 @@ Buka One Widget ke galeri 4-tab: **One UI / Nothing / Glass / Material You**.
 
 ## Jelajahi 4 Gaya
 
-Geser tab atas untuk melihat pratinjau tiap gaya. **One UI** adalah default dan tersedia di aplikasi lite gratis; Nothing / Glass / Material You membutuhkan aplikasi full berbayar.
+Geser tab atas untuk melihat pratinjau keempat gaya One Widget: One UI sebagai default di aplikasi lite gratis, serta Nothing, Glass, dan Material You yang membutuhkan aplikasi full berbayar. Perpindahan antar tab tidak mengubah data atau pengaturan widget yang sudah dipasang, sehingga Anda bisa membandingkan tampilan dengan aman.
 
 ## Menambahkan Widget
+
+Menambahkan widget One Widget dimulai dengan menekan lama layar utama dan memilih **Widget**, lalu mencari One Widget dalam daftar dan memilih varian yang diinginkan. Sistem kemudian membuka layar **konfigurasi** tempat Anda mengatur opsi sebelum menekan Konfirmasi untuk menaruhnya. Alur ini berlaku untuk semua gaya dan kategori widget.
 
 1. Tekan lama layar utama Anda → **Widget**
 2. Temukan **One Widget** dalam daftar dan pilih sebuah varian
@@ -79,7 +81,7 @@ Geser tab atas untuk melihat pratinjau tiap gaya. **One UI** adalah default dan 
 
 ## Mengonfigurasi Widget
 
-Sebagian besar widget berbagi opsi umum:
+Sebagian besar widget One Widget berbagi opsi umum: warna tema dari palet pop-up, mode Gelap atau terang, bentuk lingkaran atau persegi panjang membulat, serta ukuran grid dari 1x1 hingga 6x2. Warna latar ikon dan radius sudut diturunkan dari bentuk — lingkaran memakai ukuran dibagi dua, membulat ukuran dibagi tiga.
 
 - **Warna tema** (palet pop-up)
 - Mode **Gelap / terang**
@@ -92,6 +94,8 @@ Warna latar ikon dan radius sudut diturunkan dari bentuk (lingkaran = ukuran/2, 
 
 ## Quick Toggle
 
+Quick toggle One Widget mencakup 11 tipe — Bluetooth, data seluler, Wi-Fi, senter, rotasi, pesawat, hotspot, jangan-ganggu, lokasi, getar, dan mode gelap. Anda bisa menaruh toggle tunggal atau memakai widget **Combine 4x1** untuk hingga lima toggle dalam satu bilah dengan bawaan Bluetooth, Wi-Fi, data seluler, senter, dan rotasi. Senter benar-benar mengalihkan senter, sementara Wi-Fi, Bluetooth, dan DND membuka layar pengaturan sistem.
+
 1. Dari widget toggle, pilih tipe toggle (Wi-Fi, Bluetooth, senter, rotasi, DND, …)
 2. Taruh toggle tunggal, atau gunakan widget **Combine 4x1** untuk menaruh hingga 5 toggle dalam satu bilah (default: Bluetooth / Wi-Fi / data seluler / senter / rotasi)
 3. Ketuk sebuah toggle untuk beraksi:
@@ -101,11 +105,15 @@ Warna latar ikon dan radius sudut diturunkan dari bentuk (lingkaran = ukuran/2, 
 
 ## Shortcut Aplikasi
 
+Widget **Shortcut Aplikasi** One Widget menyediakan peluncur satu ketuk: konfigurasikan widget, pilih aplikasi terpasang dari daftar peluncur di tiap slot, lalu ketuk widget untuk membukanya — atau Google Play bila belum terpasang. Bersama aksi telepon dan pengeras suara, ini menggantikan beberapa ikon di layar utama dengan satu widget.
+
 1. Konfigurasikan widget **Shortcut Aplikasi**
 2. Di tiap slot, pilih aplikasi terpasang dari daftar peluncur
 3. Ketuk widget untuk meluncurkan aplikasi tersebut (atau Google Play jika belum terpasang)
 
 ## Widget Info Langsung
+
+Widget info langsung One Widget mencakup jam, kalender, baterai, dan RAM yang memperbarui di tempat. Widget Jam menggambar ulang pada siklus pembaruan sistem tiap 30 menit dan saat ukuran berubah, widget Baterai dan RAM menanyakan statistik kira-kira tiap 60 detik, sementara baterai juga memperbarui instan dari siaran perubahan baterai.
 
 - Widget **Jam** menggambar ulang pada siklus pembaruan widget sistem (tiap 30 mnt) dan saat ukuran berubah
 - Widget **Baterai / RAM** menanya statistik perangkat kira-kira tiap **60 detik**; baterai juga memperbarui instan dari siaran perubahan baterai
@@ -113,9 +121,11 @@ Warna latar ikon dan radius sudut diturunkan dari bentuk (lingkaran = ukuran/2, 
 
 ## Pengaturan
 
-Pengaturan mencakup mode gelap, bahasa, satuan suhu, nilai, bagikan, umpan balik, privasi, dan versi.
+Pengaturan One Widget mencakup mode gelap, bahasa, satuan suhu, nilai, bagikan, umpan balik, privasi, dan versi. Dari sini Anda mengubah tampilan aplikasi serta mengakses informasi versi, sementara konfigurasi tiap widget tetap diatur langsung lewat layar konfigurasi widget bersangkutan.
 
 ## Skenario Umum
+
+Lima skenario memakai One Widget memanfaatkan 500+ preset dalam empat gaya dan 11 quick toggle: layar utama bisa segar dalam lima menit dari galeri empat tab tanpa editor; warna tema dan bentuk lingkaran atau membulat membuat widget menyatu dengan wallpaper; Wi-Fi, Bluetooth, dan senter masuk bilah 4x1 untuk akses satu ketuk; Chrome, Maps, atau kontak favorit diluncurkan dari satu widget; dan Galaxy, Pixel, serta Nothing semuanya didukung lewat build lite atau full.
 
 - **Layar utama segar dalam 5 menit** — buka galeri 4-tab, ketuk sebuah gaya, pilih widget jam atau cuaca, lalu taruh; tanpa editor, tanpa Kode.
 - **Cocokkan dengan wallpaper** — atur warna tema dan gelap/terang, pilih bentuk lingkaran atau membulat, dan widget menyatu dengan peluncur Anda.

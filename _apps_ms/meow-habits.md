@@ -42,7 +42,7 @@ faq:
       Ya. Atur peringatan harian untuk setiap tabiat supaya tidak ada check-in yang terlewat.
 ---
 
-Meow Habits adalah penjejak tabiat yang memadukan paparan menarik dan kegunaan nyata. Pustaka ikon kartunnya menutupi berbagai senario, mulai dari olahraga, belajar, minum air, hingga perawatan diri, sehingga setiap rutinitas mudah dikenali sekilas.
+Meow Habits ialah penjejak tabiat dengan lebih daripada 500 ikon kartun yang menggabungkan paparan menarik dan kegunaan nyata untuk membangun serta memantau rutinitas harian. Pustaka ikonnya merangkumi pelbagai senario — olahraga, belajar, minum air, hingga perawatan diri — supaya setiap tabiat mudah dikenali sekilas. Aplikasi ini menyokong berbilang tabiat dengan siklus harian, mingguan, bulanan, atau khusus, dan pencatatan hanya satu ketikan tanpa tetapan rumit. Streak, tingkat penyelesaian, dan trend jangka panjang dipaparkan melalui graf, manakala kunci cap jari, operasi luar talian, eksport CSV, serta sandaran Google Drive dan WebDAV menjaga data tetap peribadi dan mudah dipindahkan.
 
 ### Ciri Utama Meow Habits
 

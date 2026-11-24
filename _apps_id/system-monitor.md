@@ -35,7 +35,7 @@ faq:
       Ya. System Monitor memberi peringatan saat CPU atau baterai terlalu panas dan menyediakan perlindungan terhadap panas berlebih.
 ---
 
-System Monitor adalah alat informasi perangkat keras untuk Android. Ia menampilkan kondisi CPU, RAM, penyimpanan, dan baterai dalam satu dasbor. **Yang perlu ditegaskan: aplikasi ini bersifat hanya-baca** — ia menampilkan data, tetapi tidak menghapus berkas, tidak membersihkan sampah, dan tidak membebaskan RAM.
+System Monitor adalah **alat informasi perangkat keras Android** yang menampilkan kondisi CPU, RAM, penyimpanan, dan baterai dalam satu dasbor dengan sifat **hanya-baca** — ia menampilkan data, tetapi tidak menghapus berkas, tidak membersihkan sampah, dan tidak membebaskan RAM. Pemantau CPU merekam suhu dan frekuensi secara langsung dalam kurva serta menyediakan analisis riwayat; informasi penyimpanan menunjukkan ruang terpakai, ruang kosong, dan pemakainya; informasi memori menampilkan pemakaian RAM per aplikasi. Pemantau baterai menampilkan kurva pemakaian dan suhu beserta kesehatan, status daya, voltase, dan level, dengan mode LONG LIFE MODE dan CUSTOM SAVE MODE. Alarm panas berlebih, jendela mengambang, widget RAM/CPU/baterai, dan multi-tema melengkapi dasbor ini.
 
 ### Fitur System Monitor
 

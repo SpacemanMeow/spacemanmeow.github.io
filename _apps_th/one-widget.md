@@ -35,7 +35,7 @@ faq:
       ได้ เพิ่มสวิตช์ด่วนระบบเช่น Wi-Fi บลูทูธ และไฟฉาย รวมถึงทางลัดแอป ติดต่อ และ launcher เครื่องมือ AI เป็นวิดเจ็ตหน้าจอหลัก
 ---
 
-One Widget คือเครื่องมือปรับแต่งหน้าจอหลัก Android ที่รวมวิดเจ็ต 500+ ในสี่ภาษาการออกแบบยอดนิยม: Glass iOS, [Material You](/th/glossary/what-is-material-you/), [Galaxy One UI](/th/glossary/what-is-galaxy-one-ui/), และ [Nothing UI](/th/glossary/what-is-nothing-ui/) ที่มินิมอล
+One Widget คือเครื่องมือปรับแต่งหน้าจอหลัก Android ที่รวมวิดเจ็ต 500+ ใน 4 ภาษาการออกแบบยอดนิยม — Glass iOS, [Material You](/th/glossary/what-is-material-you/), [Galaxy One UI](/th/glossary/what-is-galaxy-one-ui/) และ [Nothing UI](/th/glossary/what-is-nothing-ui/) มินิมอล; วิดเจ็ตครอบคลุม 8 หมวดทั้งทางลัดแอป สวิตช์ด่วนระบบ ข้อมูลฮาร์ดแวร์ นาฬิกา และเครื่องมือจิ๋ว ปรับขนาดได้ 1x1 ถึง 2x6; ชุด One UI ฟรี ส่วนสไตล์อื่นต้องซื้อ
 
 ### ฟีเจอร์ One Widget
 

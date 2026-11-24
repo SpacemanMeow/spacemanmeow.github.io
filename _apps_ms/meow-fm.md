@@ -36,7 +36,7 @@ faq:
       Meow FM menyediakan sejumlah suara white noise percuma untuk tidur, relaksasi, dan fokus. Sebahagian suara premium perlu dibuka dengan pembelian.
 ---
 
-Sukar berkonsentrasi semasa bekerja atau belajar, atau sukar tertidur? Meow FM dibuat untuk menjawab kebutuhan itu. [White noise](/ms/glossary/what-is-white-noise/) adalah gabungan berbagai bunyi pada tingkat frekuensi berbeza yang menutup kebisingan di sekitar Anda, sehingga otak hanya menangkap satu bunyi stabil dan tidak lagi mengenali suara lain.
+Meow FM ialah aplikasi [White noise](/ms/glossary/what-is-white-noise/) untuk tidur, relaksasi, dan fokus yang menggabungkan pelbagai bunyi pada tahap frekuensi berbeza bagi menutup kebisingan di sekeliling anda. Dengan satu bunyi stabil yang dirakam otak, suara lain tidak lagi mengganggu — sesuai bila anda sukar tertidur atau sukar berkonsentrasi semasa bekerja dan belajar. Aplikasi ini menyediakan antara lain hujan, badai petir, angin, hutan dengan kicau burung, tepi laut, dan perapian, berserta jam meja, tetapan pemasa dengan mati automatik, mode gelap dan terang, serta sampul tersendiri bagi setiap suara. Sebahagian suara premium perlu dibuka dengan pembelian.
 
 ### Fungsi Aplikasi
 

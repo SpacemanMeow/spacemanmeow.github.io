@@ -52,7 +52,7 @@ faq:
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
-Meow Money Manager is a cat-themed expense tracker for recording everyday income and expenses and keeping a personal budget in view. As an [expense tracker](/glossary/what-is-an-expense-tracker/), it opens without an account, keeps records on the device and does not connect to a bank account, so every entry is one you make yourself. It suits anyone looking for a private, offline or cute budget app on Android and iOS.
+Meow Money Manager is a cat-themed [expense tracker](/glossary/what-is-an-expense-tracker/) and budget app on Android and iOS with 400+ category icons, 50+ currency symbols and no account: it opens straight into local records and never connects to a bank. As a privacy-first budget app, it stores entries on the device, offers a fingerprint or passcode lock, and keeps optional Google Drive or WebDAV backups in your own cloud space. Daily, monthly or yearly budgets with per-category limits calculate days left and an available amount per day, and CSV export covers all records or a chosen date range.
 
 ### Meow Money Manager Features: Expense Tracking, Budgets, Reimbursements and Assets
 

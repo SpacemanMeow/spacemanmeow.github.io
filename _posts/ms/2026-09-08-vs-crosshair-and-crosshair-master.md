@@ -14,6 +14,8 @@ Keduanya melukis retikel di atas game Anda, tetapi sesuai untuk pemain berbeza. 
 
 ## Sekilas
 
+Crosshair Aim dan Crosshair Hero ialah dua overlay bidik silang Android yang melukis retikel di atas game, tetapi melayani pemain berbeza. Crosshair Aim menyediakan lebih 80 gaya dan pelarasan penuh — ukuran, warna, skala, posisi dan ketelusan — terus dari butang terapung semasa permainan. Crosshair Hero pula menawarkan lebih 30 gaya pratetap yang tinggal ketik, dengan iklan dan pembelian dalam aplikasi pada tier percuma. Kedua-duanya berfungsi tanpa root dan hanya untuk Android. Jadual di bawah memetakan perbezaan itu supaya anda boleh memilih antara penyesuaian mendalam dan pratetap cepat.
+
 | | Crosshair Aim | Crosshair Hero |
 |---|---|---|
 | **Teras** | Overlay FPS boleh dikustom + tetapan saat main | Overlay bidik silang pratetap |
@@ -32,6 +34,8 @@ Keduanya melukis retikel di atas game Anda, tetapi sesuai untuk pemain berbeza. 
 ---
 
 ## Crosshair Aim, secara detail
+
+Crosshair Aim ialah aplikasi bidik silang untuk game FPS yang berfokus pada kendali, dengan lebih 80 gaya yang merangkumi titik, silang, lingkaran dan bentuk lain. Pengguna boleh melaras ukuran, warna, skala, posisi dan ketelusan — dengan nilai lalai 85 peratus — kemudian menyesuaikan semuanya dari butang terapung ketika perlawanan sedang berjalan tanpa perlu keluar game. Overlay transparan tanpa root ini hanya melukis retikel dan tidak menyentuh fail game, jadi selamat untuk permainan kasual. Terasnya percuma tanpa iklan paksa, dengan gaya premium di sebalik buka kunci sekali bayar.
 
 ![Skrin utama overlay bidik silang Crosshair Aim](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
 ![Gaya dan pelarasan Crosshair Aim](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
@@ -65,6 +69,8 @@ Pemain yang ingin banyak gaya dan penyetelan *terus saat main* daripada pratetap
 
 ## Crosshair Hero, secara detail
 
+Crosshair Hero ialah aplikasi overlay bidik silang pratetap yang menekankan kelajuan: ketik gaya, pilih warna, lalu retikel terus muncul di atas shooter anda. Dengan lebih 30 gaya pratetap siap pakai, aplikasi ini sesuai untuk pemain kasual yang mahukan bidik silang yang dikenali dalam beberapa saat tanpa mempelajari pembangun tersuai. Gaya yang ditawarkan berasal dari reka bentuk popular dan pangkalan penggunya besar dengan kemas kini rutin. Ia percuma untuk bermula tetapi memaparkan iklan dan menawarkan pakej gaya melalui pembelian dalam aplikasi. Seperti Crosshair Aim, ia berfungsi tanpa root dan hanya tersedia di Android.
+
 ![Skrin utama overlay Crosshair Hero](/assets/images/blog/crosshair_hero_1.webp){: width="720" .normal }
 
 Crosshair Hero adalah **aplikasi overlay bidik silang** popular — ketik gaya, pilih warna, dan retikel muncul di atas shooter Anda. Pilihan cepat dan familiar untuk pemain kasual.
@@ -93,6 +99,8 @@ Pemain kasual yang ingin bidik silang pratetap yang dikenal dalam hitungan saat 
 
 ## Bagaimana mereka dibandingkan di hal yang penting
 
+Crosshair Aim dan Crosshair Hero berbeza pada empat perkara yang menentukan pengalaman bermain: kedalaman pelarasan, kendali semasa perlawanan, ketelusan serta keselamatan, dan harga. Crosshair Aim menang pada pelarasan — ukuran, warna, skala, posisi dan ketelusan boleh diubah terus dari butang terapung, bersama penjana retikel untuk senjata tanpa bidik silang asli. Crosshair Hero pula mengutamakan pratetap kurasi yang cepat digunakan. Kedua-duanya adalah overlay tanpa root yang hanya melukis retikel dan tidak mengubah fail game. Bahagian berikut menghuraikan setiap dimensi itu secara terperinci.
+
 ### Kedalaman pelarasan
 Crosshair Aim memberi Anda butang: ukuran, warna, scale, posisi, ketelusan, plus generator untuk senjata tanpa retikel asli. Crosshair Hero memberi pratetap kurasi dengan pelarasan lebih ringan. Jika "cukup dekat" tidak cukup, Aim menang.
 
@@ -107,11 +115,15 @@ Teras percuma Crosshair Aim tanpa iklan dengan buka untuk ekstra. Crosshair Hero
 
 ## Mana yang harus dipilih
 
+Crosshair Aim atau Crosshair Hero — pilih Crosshair Aim jika anda mahukan kendali mendalam dan langsung semasa bermain, termasuk ukuran, warna dan posisi tersuai serta retikel untuk mana-mana senjata; pilih Crosshair Hero jika bidik silang pratetap yang dikenali dalam beberapa saat sudah memadai dan anda tidak mahu menyetel halus. Untuk permainan kompetitif, tetapan semasa perlawanan dan kendali ketelusan Crosshair Aim menjadikannya pengemudi harian yang lebih praktikal. Kedua-duanya hanya untuk Android dan tidak menyentuh data game, jadi pilihannya bergantung pada gaya main, bukan risiko sekatan.
+
 - **Pilih Crosshair Aim** jika ingin kendali dalam dan terus — ukuran/warna/posisi tersuai, tetapan saat main, dan retikel untuk senjata apa pun.
 - **Pilih Crosshair Hero** jika ingin bidik silang pratetap yang dikenal dalam hitungan saat dan tidak perlu penyetelan halus.
 - **Untuk permainan kompetitif**, tetapan saat main dan kendali ketelusan Crosshair Aim menjadikannya pengemudi harian yang lebih praktikal.
 
 ## Senario umum
+
+Crosshair Aim dan Crosshair Hero sesuai untuk lima situasi bermain yang berulang: menukar senjata di tengah perlawanan, membuat retikel untuk senjata tanpa bidik silang, pratetap cepat untuk permainan kasual, mengelak gangguan iklan, dan mengekalkan keselamatan game. Dalam kebanyakan situasi, penentunya ialah sama ada anda sanggup melaras retikel secara terperinci atau mahu pratetap yang terus berfungsi. Crosshair Aim memberi tetapan terapung tanpa keluar game, manakala Crosshair Hero mengutamakan gaya sedia pakai. Kedua-duanya hanya melukis di atas skrin dan tidak memicu anti-cheat. Senario lengkap disenaraikan di bawah.
 
 - **Ganti senjata di tengah match** — tetapan terapung saat main Crosshair Aim membiarkan Anda mengecilkan atau mengubah warna retikel tanpa keluar game, sehingga penembak jitu dan rusher tetap pas.
 - **Tidak ada retikel asli** — buat bidik silang untuk senjata atau mode yang tidak memilikinya, sehingga setiap tembakan punya titik referensi.
@@ -143,7 +155,7 @@ Kedua aplikasi hanya melukis retikel di atas skrin dan tidak mengubah data atau 
 
 ## Alternatif overlay bidik silang lain-lain
 
-Tidak yakin pada keduanya? **Crosshair Hero** adalah **alternatif Crosshair Hero** bergaya pratetap yang paling banyak dijadikan awalan pemain, tetapi jauh dari satu-satunya pilihan. Untuk shooter iOS, **Crosshair X** adalah pilihan merentas platform (lihat catatan **alternatif Crosshair X** kami); untuk pembangun dari nol, aplikasi **custom crosshair Android** seperti Custom Crosshair atau Custom Aim memberi Anda kendali penuh. Butiran lengkap di [Alternatif Crosshair Hero Terbaik di 2026](/ms/posts/alternatives-to-crosshair-master/).
+Alternatif Crosshair Hero terbahagi kepada beberapa haluan — pratetap popular, overlay merentas platform untuk iOS dan pembangun tersuai dari nol — jadi perbandingan dua aplikasi ini tidak merangkumi semua pilihan. Tidak yakin pada keduanya? **Crosshair Hero** adalah **alternatif Crosshair Hero** bergaya pratetap yang paling banyak dijadikan awalan pemain, tetapi jauh dari satu-satunya pilihan. Untuk shooter iOS, **Crosshair X** adalah pilihan merentas platform (lihat catatan **alternatif Crosshair X** kami); untuk pembangun dari nol, aplikasi **custom crosshair Android** seperti Custom Crosshair atau Custom Aim memberi Anda kendali penuh. Butiran lengkap di [Alternatif Crosshair Hero Terbaik di 2026](/ms/posts/alternatives-to-crosshair-master/).
 
 ## Istilah berkaitan
 

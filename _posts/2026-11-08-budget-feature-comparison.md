@@ -20,6 +20,8 @@ If you also want a broader feature comparison, see: [Meow Money Manager vs YNAB:
 
 ## At a glance: 7 apps' budgeting at a glance
 
+Seven budgeting apps split into three mechanics: YNAB, EveryDollar and Goodbudget are assign budgets, Monarch, PocketGuard and Wallet are plan budgets, and Meow Money Manager is a limit budget with five period options and daily remaining. The core question is what the budget object is, where the period boundary falls and where unspent money goes. Prices range from Meow Money Manager's free core to YNAB's $109/year, and five of the seven require a cloud account.
+
 | App | Budget object | Period model | Rollover | Non-monthly spend | Core formula |
 |---|---|---|---|---|---|
 | **Meow Money Manager** | One budget (total, or per expense category) | Day / week / month / year / custom, **rolling window** | None; window recomputed each day | Custom start–end dates | Daily remaining = remaining ÷ days left (0 if overspent) |
@@ -35,6 +37,8 @@ The clearest split: **YNAB, EveryDollar, Goodbudget are "assign" budgets** (put 
 ---
 
 ## Set up the evaluation framework first: six technical divides
+
+Six technical divides explain nearly every budgeting difference: budget object, period boundary, rollover semantics, non-monthly spreading, the meaning of "how much is left" and the data source. The same word — rollover — behaves differently in all seven apps, and period models range from a calendar month to Meow Money Manager's rolling window. Comparing apps on feature checklists hides these mechanics; comparing them on these six questions makes the trade-offs visible.
 
 ### 1. Budget object: account balance or spending cap
 
@@ -89,6 +93,8 @@ That directly decides the budget's "real-time-ness" versus its "privacy cost": a
 ---
 
 ## Breaking down all 7 apps one by one
+
+Seven apps implement budgets in seven different ways, from Meow Money Manager's rolling window and daily remaining to YNAB's Target behaviors and cash/credit dual-track overspend. Monarch runs two systems with a formula-based rollover, Goodbudget uses envelope running balances with Add or Set fills, EveryDollar rebuilds a zero-based sheet each month, PocketGuard budgets backwards from safe-to-spend, and Wallet filters by category, account or tag. Each is best for a different habit.
 
 ### Meow Money Manager: rolling periods and daily remaining budget
 
@@ -276,6 +282,8 @@ Three limits worth noting: **budgeting is not yet on the Web version**, only And
 
 ## Deep-dive comparison across key dimensions
 
+Four comparison tables make the seven budgeting models concrete: rollover semantics, non-monthly spreading, what the progress bar actually says, and category and data boundaries. One word — rollover — produces four different behaviors, and a $600 insurance bill paid every six months is spread automatically by Monarch and Goodbudget but left to manual math in EveryDollar and Meow Money Manager. Daily remaining ties what's left to days left, but it is an arithmetic mean, not a forecast.
+
 ### Rollover semantics compared: one word, four behaviors
 
 | App | Positive balance (surplus) | Negative balance (overspend) | Can it be turned off | Applies to income categories |
@@ -349,6 +357,8 @@ In this row, no account, no bank connection, no sharing is a deliberate trade-of
 ---
 
 ## Which one should you pick
+
+Seven budgeting apps fit different habits, so pick the one that matches how you think about money rather than the longest feature list. Meow Money Manager answers "how much can I spend today" with daily remaining, no account and up to 3 free budgets; YNAB suits someone ready to learn a methodology at $109/year. Monarch, Goodbudget, EveryDollar, PocketGuard and Wallet each own a narrower niche, from Flex buckets to envelopes to safe-to-spend. None is better — they fit different situations.
 
 - **Just want "how much can I spend today"**: pick **Meow Money Manager**. Daily remaining, days left and the home widget answer directly; no need to plan income first, no account or bank connection, and week/month start can follow your payday. The trade-off is accepting manual entry and "no rollover."
 - **Willing to trade a methodology for control**: pick **YNAB**. The two Target behaviors, cash/credit dual-track overspend, and strict Ready to Assign form a complete assign-type model.

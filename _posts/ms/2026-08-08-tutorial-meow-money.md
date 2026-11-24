@@ -92,7 +92,8 @@ Meow Money Manager adalah [aplikasi catatan kewangan](/ms/glossary/what-is-an-ex
 
 ## Penggunaan Pertama
 
-Antara muka utama terdiri dari bagian-bagian berikut:
+**Meow Money Manager** menyusun antara muka utama dalam tiga bahagian — butang pencatatan di kanan bawah untuk menambah catatan seketika, bar navigasi bawah dengan empat pilihan (pencatatan, statistik, aset, tetapan), dan banner atas yang memaparkan buku kas aktif serta ringkasan aset — supaya keadaan kewangan sentiasa kelihatan sepintas lalu. Data disimpan sepenuhnya secara lokal di peranti tanpa pendaftaran akaun, dan antara muka tersedia dalam lima bahasa termasuk Melayu. Reka bentuk bertema kucing dengan **400+ ikon** menjadikan pencatatan harian terasa ringan. Bahagian-bahagian utama disenaraikan di bawah.
+
 - Butang pencatatan: di kanan bawah, untuk menambah catatan dengan cepat
 - Bar navigasi bawah: empat pilihan — pencatatan, statistik, aset, dan tetapan
 - Banner atas: memaparkan buku kas aktif dan ringkasan aset
@@ -101,7 +102,7 @@ Antara muka utama terdiri dari bagian-bagian berikut:
 
 ## Ciri Pencatatan
 
-Ciri pencatatan Meow Money Manager sangat intuitif, mendukung tiga jenis catatan: perbelanjaan, pendapatan, dan pindahan.
+**Meow Money Manager** menyokong tiga jenis catatan — perbelanjaan, pendapatan, dan pindahan — dengan ikon kategori yang kaya, catatan tambahan untuk butiran, dan pencatatan satu ketikan yang siap dalam masa beberapa saat sahaja. Setiap transaksi boleh dikaitkan dengan aset pembayaran dan buku kas tertentu, jadi aliran wang kekal teratur tanpa perlu mengingatnya kemudian. Antara muka kartun bertema kucing membuat proses ini terasa mudah untuk kegunaan harian. Dua prosedur pencatatan — menambah catatan serta membuat pindahan — diterangkan dalam bahagian berikut.
 
 ### Menambah Catatan Perbelanjaan atau Pendapatan
 
@@ -131,7 +132,7 @@ Ciri pencatatan Meow Money Manager sangat intuitif, mendukung tiga jenis catatan
 
 ## Pengurusan Bajet
 
-Meow Money Manager mendukung beberapa jenis pengurusan bajet, termasuk bajet harian, mingguan, bulanan, tahunan, dan siklus tersuai.
+**Meow Money Manager** menyokong bajet harian, mingguan, bulanan, tahunan, dan kitaran tersuai, termasuk **bajet per kategori** yang menetapkan had berasingan untuk setiap jenis perbelanjaan. Halaman butiran bajet memaparkan jumlah bajet, amaun terpakai, baki, baki hari, purata bajet harian, dan penggunaan mengikut kategori secara masa nyata — semuanya membantu anda mengawal perbelanjaan sebelum melebihi had. Berbilang bajet boleh dipantau serentak supaya matlamat berbeza tidak bercampur. Prosedur menambah dan memantau bajet diterangkan dalam bahagian berikut.
 
 ### Menambah Bajet
 
@@ -157,7 +158,7 @@ Pada halaman butiran bajet, Anda boleh melihat:
 
 ## Statistik dan Analisis
 
-Meow Money Manager menyediakan beberapa fungsi analisis statistik untuk memahami kondisi kewangan Anda.
+**Meow Money Manager** menyediakan tiga paparan statistik — carta pai untuk perkadaran perbelanjaan dan pendapatan per kategori, carta bar untuk trend harian atau bulanan, dan paparan kalendar yang menggunakan kedalaman warna untuk menunjukkan amaun harian — bagi membantu anda memahami keadaan kewangan dengan jelas. Statistik boleh dilihat mengikut hari, minggu, bulan, tahun, atau julat masa tersuai, jadi sama ada anda mahu semakan pantas atau analisis jangka panjang, alatnya tersedia. Graf ini menukar senarai transaksi mentah menjadi corak yang boleh ditindaklanjuti. Cara mengakses dan membaca setiap jenis statistik diterangkan di bawah.
 
 ### Jenis Statistik
 
@@ -173,7 +174,7 @@ Meow Money Manager menyediakan beberapa fungsi analisis statistik untuk memahami
 
 ## Pengurusan Aset
 
-Meow Money Manager mendukung pengurusan beberapa jenis aset, seperti tunai, kartu bank, kartu kredit, dan lain-lain.
+**Meow Money Manager** mengurus pelbagai jenis aset — tunai, kad bank, kad kredit, saham, dan dana bersama — dengan statistik trend untuk memantau perubahan nilai serta ciri pindahan aset yang memudahkan alokasi dana. Setiap aset mempunyai halaman butiran tersendiri yang memaparkan baki, catatan pendapatan dan perbelanjaan, serta graf trend, jadi anda boleh melihat kesihatan setiap sumber wang secara berasingan. Pindahan aset mencatat pergerakan dana antara akaun tanpa mengganggu jumlah keseluruhan. Cara menambah aset dan membaca butirannya diterangkan dalam bahagian berikut.
 
 ### Menambah Aset
 
@@ -198,7 +199,7 @@ Klik sebuah aset untuk masuk ke halaman butiran; di sana Anda boleh melihat:
 
 ## Pengurusan Buku Kas
 
-Meow Money Manager mendukung pembuatan beberapa buku kas untuk mengurus beragam jenis pendapatan dan perbelanjaan.
+**Meow Money Manager** menyokong berbilang buku kas (ciri VIP) untuk mengasingkan pelbagai jenis pendapatan dan perbelanjaan — seperti perjalanan, kerja, dan keluarga — dengan statistik independen bagi setiap buku supaya keadaan kekal teratur. Anda boleh bertukar buku kas dengan cepat semasa mencatat, dan setiap buku memaparkan statistik pendapatan serta perbelanjaan, penggunaan bajet, dan butiran catatan tersendiri. Pengasingan ini penting apabila satu peranti digunakan untuk lebih daripada satu tujuan kewangan. Cara menambah, bertukar, dan membaca statistik buku kas diterangkan di bawah.
 
 ### Menambah Buku Kas
 
@@ -229,7 +230,7 @@ Klik sebuah buku kas untuk masuk ke halaman butiran; di sana Anda boleh melihat 
 
 ## Transaksi Berulang
 
-Ciri transaksi berulang membantu mencatat automatik pendapatan dan perbelanjaan rutin seperti gaji, sewa bilik, bil, dan lain-lain.
+**Meow Money Manager** mencatat secara automatik pendapatan dan perbelanjaan rutin seperti gaji, sewa bilik, dan bil melalui ciri transaksi berulang, dengan tempoh harian, mingguan, bulanan, atau tahunan serta pilihan berbilang tarikh dan masa pencatatan. Ini menghapuskan kerja mengingat kemasukan tetap setiap bulan dan memastikan rekod kewangan sentiasa lengkap. Setiap tugasan berulang boleh dilihat, diubah, dipadam, atau dijalankan secara manual daripada senarai pengurusan. Cara menambah dan mengurus transaksi berulang diterangkan dalam bahagian berikut.
 
 ### Menambah Transaksi Berulang
 
@@ -257,7 +258,7 @@ Dalam daftar transaksi berulang, Anda boleh:
 
 ## Tuntutan balik Perbelanjaan
 
-Ciri tuntutan balik perbelanjaan membantu melacak perbelanjaan yang perlu diganti.
+**Meow Money Manager** menjejak perbelanjaan yang perlu diganti melalui ciri tuntutan balik yang membezakan catatan yang sudah dan belum diganti, serta menyokong tuntutan balik sebahagian mahupun penuh. Ini berguna untuk perbelanjaan kerja atau perkongsian yang mana wang dikeluarkan dahulu dan diganti kemudian — statusnya kekal jelas supaya tiada tuntutan terlepas. Anda menandakan catatan sebagai tuntutan balik semasa mencatat, kemudian merekod penggantian dengan amaun, tarikh, dan kaedahnya. Cara menambah dan mengurus tuntutan balik diterangkan dalam bahagian berikut.
 
 ### Menambah Catatan Tuntutan balik
 
@@ -280,7 +281,7 @@ Ciri tuntutan balik perbelanjaan membantu melacak perbelanjaan yang perlu digant
 
 ## Tetapan
 
-Meow Money Manager menyediakan beberapa pilihan tetapan untuk menyesuaikan fungsi aplikasi.
+**Meow Money Manager** menyediakan empat kumpulan tetapan — tetapan asas (tema, bahasa, simbol mata wang, hari awal pekan, tarikh awal bulan), tetapan privasi dengan kunci cap jari, sandaran dan pemulihan melalui Google Drive, iCloud, atau WebDAV, serta eksport data ke CSV — supaya aplikasi dapat disesuaikan dengan keperluan peribadi. Tetapan tema menyokong mod terang, gelap, atau mengikut sistem, manakala kunci cap jari melindungi maklumat kewangan pada peranti bersama. Sandaran automatik mengelakkan kehilangan data, dan eksport CSV memudahkan analisis lanjut di Excel. Setiap kumpulan tetapan diterangkan dalam bahagian berikut.
 
 ### Tetapan Dasar
 

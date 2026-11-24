@@ -14,6 +14,8 @@ Lebih dari sekadar shooter, **[overlay bidik silang kustom](/id/glossary/what-is
 
 ## Apa yang dibutuhkan overlay kustom
 
+Crosshair Aim dan Crosshair Hero adalah dua overlay bidik silang Android yang dibandingkan di sini untuk pemakaian di atas aplikasi apa pun, bukan hanya game. Crosshair Aim menyediakan impor PNG lewat VIP dan pengatur melayang, sementara Crosshair Hero menawarkan 30+ preset plus PNG kustom. Lima kebutuhan utama — overlay lintas aplikasi, gambar kustom, transparansi, ingatan posisi per aplikasi, dan tanpa root — menentukan pilihan. Crosshair X menjadi opsi iOS saja. Pilihan bergantung pada satu hal: apakah Anda ingin kendali langsung lintas aplikasi atau preset cepat.
+
 - **Overlay ke aplikasi mana pun** — bukan hanya game.
 - **PNG / gambar kustom** — seni retikel Anda sendiri.
 - **Transparansi dan blend** — duduk bersih di atas latar apa pun.
@@ -22,7 +24,7 @@ Lebih dari sekadar shooter, **[overlay bidik silang kustom](/id/glossary/what-is
 
 ## Aplikasi overlay bidik silang terbaik: yang dicari
 
-Overlay **bidik silang kustom** yang baik lebih dari sekadar titik statis. Nilai dari:
+Crosshair Aim adalah aplikasi overlay bidik silang kustom Android yang melampaui titik statis lewat impor PNG, transparansi, ingatan posisi per aplikasi, dan izin overlay tanpa root. Kelima kriteria itu membuat retikel bisa dipakai di game, pelatih aim, dan emulator sekaligus. Crosshair Aim memberi kendali langsung dengan pengatur melayang; Crosshair Hero lebih mengandalkan preset plus opsi impor. Keduanya gratis untuk mulai, dengan fitur lebih dalam di balik buka kunci atau IAP. Untuk overlay kustom Android tanpa root, keduanya memenuhi; bedanya hanya pada kendali langsung versus preset cepat.
 
 - **Impor PNG / gambar** — masukkan seni retikel sendiri alih-alih preset.
 - **Transparansi dan blend** — duduk bersih di atas latar apa pun, terang atau gelap.
@@ -34,6 +36,8 @@ Untuk pemakaian **overlay bidik silang kustom Android tanpa root**, baik Crossha
 
 ## Para pesaing sekilas
 
+Crosshair Aim, Crosshair Hero, dan Crosshair X adalah tiga overlay bidik silang yang dibandingkan di sini, semuanya mendukung PNG kustom, semua aplikasi, dan transparansi tanpa root. Crosshair Aim memakai inti gratis plus VIP untuk impor PNG dan 80+ gaya; Crosshair Hero gratis dengan IAP dan 30+ preset; Crosshair X hanya iOS dengan langganan. Posisi per aplikasi menjadi pembeda penting bagi pemain yang berpindah antara pelatih aim dan emulator. Tabel berikut memetakan harga, dukungan PNG, cakupan aplikasi, dan transparansi ketiganya.
+
 | Aplikasi | Harga (2026) | PNG kustom | Semua aplikasi | Transparansi | Terbaik untuk |
 |---|---|---|---|---|---|
 | **Crosshair Aim** | Inti gratis + VIP | ✅ (VIP) | ✅ | ✅ | Kontrol kustom penuh |
@@ -43,6 +47,8 @@ Untuk pemakaian **overlay bidik silang kustom Android tanpa root**, baik Crossha
 Jika Anda banyak di pelatih aim atau emulator, **posisi per aplikasi** menghemat waktu: setel retikel rapat untuk pelatih, yang tebal untuk emulator, dan beralih tanpa setel ulang. Di situlah setup **custom crosshair Android** dengan ingatan mengalahkan aplikasi hanya-preset.
 
 ## Crosshair Aim, lebih dalam
+
+Crosshair Aim adalah overlay bidik silang kustom Android dengan set gaya besar dan pengatur melayang langsung di atas aplikasi apa pun, tanpa root. Empat layar di bawah menunjukkan beranda, gaya kustom dan impor PNG, transparansi serta posisi per aplikasi, dan efek overlay langsung. Pengguna bisa menyeret dan mengubah ukuran retikel di game, pelatih, maupun emulator; transparansi membuatnya menyatu dengan latar terang atau gelap. Impor PNG berada di balik VIP, sementara gaya bawaan gratis. Izin overlay diberikan sekali. Aplikasi ini paling cocok untuk retikel yang sepenuhnya dikendalikan lintas aplikasi.
 
 ![Terbaik overlay bidik silang — beranda Crosshair Aim](/assets/images/apps/cross-hair/1.webp){: width="180" .normal }
 ![Gaya kustom dan impor PNG Crosshair Aim](/assets/images/apps/cross-hair/2.webp){: width="180" .normal }
@@ -68,6 +74,8 @@ Crosshair Aim adalah **overlay bidik silang kustom** untuk Android dengan set ga
 
 ## Crosshair Hero, lebih dalam
 
+Crosshair Hero (paket `me.okitastudio.crosshairherofps`) adalah overlay bidik silang Android yang menggabungkan 30+ preset dengan impor PNG kustom dan setelan warna, ukuran, serta posisi. Satu layar di bawah menampilkan beranda overlay-nya. Pengguna bisa memulai dari preset yang dikenal lalu menggantinya dengan seni retikel sendiri. Pemakaian dasar gratis dengan IAP untuk paket gaya. Dibanding Crosshair Aim, pustakanya lebih kecil dan penyetelan dilakukan di sisi aplikasi, bukan melayang langsung. Aplikasi ini cocok untuk pengguna yang ingin preset cepat ditambah opsi impor.
+
 ![Beranda overlay Crosshair Hero](/assets/images/blog/crosshair_hero_1.webp){: width="720" .normal }
 
 Crosshair Hero (paket `me.okitastudio.crosshairherofps`) menawarkan gaya preset plus PNG kustom, dengan setelan warna/ukuran/posisi.
@@ -89,12 +97,16 @@ Crosshair Hero (paket `me.okitastudio.crosshairherofps`) menawarkan gaya preset 
 
 ## Mana yang harus dipilih?
 
+Crosshair Aim adalah jawaban untuk overlay bidik silang terbaik dengan 80+ gaya, pengatur langsung, dan impor PNG di Android, sementara Crosshair Hero adalah jawaban untuk preset plus PNG kustom yang cepat dipakai. Keduanya tanpa root dan gratis untuk mulai: Crosshair Aim memakai VIP untuk impor PNG dan gaya lanjutan, Crosshair Hero gratis dengan IAP. Crosshair X menjadi pilihan pengguna iPhone. Keputusan bergantung pada satu hal: apakah Anda membutuhkan kendali penuh lintas aplikasi atau preset siap pakai.
+
 - Ingin **aplikasi overlay bidik silang terbaik untuk game FPS** dengan **80+ gaya + pengatur langsung + impor PNG** → **Crosshair Aim**.
 - Ingin **preset + PNG kustom, cepat** → **Crosshair Hero**.
 
 [Dapatkan Crosshair Aim](/id/apps/cross-hair/) — sebuah **overlay bidik silang kustom** untuk Android, tanpa root, gratis untuk mulai.
 
 ## Skenario umum
+
+Crosshair Aim mencakup lima skenario overlay bidik silang kustom di Android, mulai dari pelatih aim dan emulator hingga seni retikel sendiri. Skenario pertama menjaga titik referensi tetap di atas jendela apa pun; kedua mengimpor PNG agar bidik silang cocok dengan gaya Anda; ketiga mempertahankan posisi per aplikasi tanpa setel ulang; keempat mengatur transparansi dan ukuran di latar kontras rendah; kelima hanya memakai izin overlay standar tanpa root. Crosshair Hero lebih cocok bila kelima skenario itu cukup diatasi dengan preset dan impor PNG tanpa pengatur melayang.
 
 - **Pelatih aim dan emulator** — pertahankan titik referensi tetap di atas jendela apa pun, bukan hanya game.
 - **Seni retikel Anda sendiri** — impor PNG (VIP) agar bidik silang persis cocok dengan gaya Anda.

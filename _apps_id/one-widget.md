@@ -35,7 +35,7 @@ faq:
       Bisa. Tambahkan sakelar cepat sistem seperti Wi-Fi, Bluetooth, dan senter, serta pintasan aplikasi, kontak, dan peluncur alat AI sebagai widget layar utama.
 ---
 
-One Widget adalah perangkat kustomisasi layar utama Android yang menyatukan lebih dari 500 widget dalam empat gaya desain populer: Glass iOS, [Material You](/id/glossary/what-is-material-you/), [Galaxy One UI](/id/glossary/what-is-galaxy-one-ui/), dan [Nothing UI](/id/glossary/what-is-nothing-ui/) yang minimalis.
+One Widget adalah **perangkat kustomisasi layar utama Android** yang menyatukan **lebih dari 500 widget** dalam empat gaya desain populer: Glass iOS, [Material You](/id/glossary/what-is-material-you/), [Galaxy One UI](/id/glossary/what-is-galaxy-one-ui/), dan [Nothing UI](/id/glossary/what-is-nothing-ui/) yang minimalis. Widgetnya mencakup delapan kategori — pintasan aplikasi, sakelar cepat sistem seperti Wi-Fi/Bluetooth/senter, info perangkat keras, jam dan kalender, catatan dan kutipan, kontak cepat, peluncur aplikasi teragregasi, serta alat mini seperti kompas dan kalkulator. Ukuran bisa diatur dari **1x1 hingga 2x6**, termasuk warna latar ikon dan radius sudut. Versi gratis menyertakan gaya One UI; gaya lain memerlukan pembelian. One Widget bekerja di semua perangkat Android, termasuk Galaxy, Pixel, dan ponsel Nothing.
 
 ### Fitur One Widget
 

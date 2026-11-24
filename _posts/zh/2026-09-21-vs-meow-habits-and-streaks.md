@@ -16,6 +16,8 @@ last_modified_at: 2026-11-24
 
 ## 一览
 
+Meow Habits 与 Streaks 都是习惯追踪器，但平台与定位不同：前者免费核心、跨平台、带 500+ 可爱卡通图标，养成与戒除模式都有；后者约 $4.99 一次性、仅 iOS、最多 12 个任务，主打极简连胜。两者都不基于订阅，真正的分野在平台与是否要追踪戒除——只要链条里有一台安卓机，选择范围就立刻收窄。下表按关键维度摆开。
+
 | | Meow Habits | Streaks |
 |---|---|---|
 | **平台** | **Android 与 iOS** | 仅 iOS |
@@ -33,6 +35,8 @@ last_modified_at: 2026-11-24
 ---
 
 ## Meow Habits 详解
+
+Meow Habits 是一款 **[习惯追踪器](/zh/glossary/what-is-a-habit-tracker/)**，围绕友好、猫主题的界面与 500+ 可爱卡通图标构建，同时支持养成好习惯与戒掉坏习惯两种模式。它免费核心、覆盖 Android 与 iOS，离线可用、指纹锁，数据默认不上传，备份由你选 Google Drive 或 WebDav。对很多人来说，习惯追踪失败不是不会记，而是界面让人不想打开——愿意天天看的画面反而是坚持的关键。
 
 ![Meow Habits 主页：可爱习惯打卡应用的今日列表](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
 ![Meow Habits 打卡详情与备注](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
@@ -71,6 +75,8 @@ Meow Habits 是一款 **[习惯追踪器](/zh/glossary/what-is-a-habit-tracker/)
 
 ## Streaks 详解
 
+Streaks 是定义了这一品类的极简 iOS 习惯应用：最多挑 12 个任务，每天标记完成，看连胜增长，约 $4.99 一次性买断、无订阅。它关乎专注与苹果生态的精致——任务有上限、图标克制、统计只保留够用的部分，并深度整合 HealthKit、Siri、小组件、Apple Watch 与快捷指令，靠 iCloud 在 iPhone、iPad、Mac 间同步。代价是被限定在苹果设备内，且主要面向正向任务。
+
 ![Streaks 连胜应用主页与今日任务](/assets/images/blog/streaks_1.webp){: width="180" .normal }
 ![Streaks 打卡详情与备注](/assets/images/blog/streaks_2.webp){: width="180" .normal }
 ![Streaks 连续天数与 Streak](/assets/images/blog/streaks_3.webp){: width="180" .normal }
@@ -107,6 +113,8 @@ Streaks 是定义了这一品类的极简 iOS 习惯应用。你最多挑 12 个
 
 ## 关键维度对比
 
+Meow Habits 与 Streaks 的差异集中在平台、养成 vs 戒除、隐私与同步、自定义与图表、价格五个维度：前者跑 Android 与 iOS、免费核心、养成戒除双模式、500+ 图标；后者仅 iOS、约 $4.99 一次性、最多 12 个任务、走 iCloud。两者都不订阅。平台往往最先决定答案——家里或工作流里只要有人用安卓，Meow Habits 就是唯一选择。下面逐条展开。
+
 ### 平台
 对许多人这是决定性。Meow Habits 跑在 Android 与 iOS；Streaks 仅 iOS。若你家或工作流中任何人在安卓，Meow Habits 是两者中唯一选择。这一项应该最先判断，因为它不会因你的偏好而改变：再喜欢极简界面，也没法把只支持 iOS 的应用装到安卓机上。反过来，如果你全部设备都是苹果，平台就不再是筛选条件，可以放心往下比体验。
 
@@ -124,13 +132,15 @@ Meow Habits 核心免费；Streaks 约 $4.99 一次性。两者都不基于订�
 
 ## 你该选哪个
 
+在 Meow Habits 与 Streaks 之间选择，取决于平台与追踪目标：用安卓或双平台、想追踪戒除习惯、爱可爱图标，或偏好离线私密与 CSV 导出，就选 Meow Habits；只用 iPhone、想要最精致的极简追踪器、活在 HealthKit 与 Apple Watch 的苹果生态里，就选 Streaks。前者免费核心、后者约 $4.99 一次性，都不订阅；先用免费档验证自己会不会坚持，再决定要不要付费。按下面三条判断。
+
 - **选 Meow Habits** 如果你用安卓或双平台、想追踪戒除习惯、爱可爱图标，或偏好离线/私密追踪与 CSV 导出。这些条件里只要命中两条以上，基本就不用再纠结。
 - **选 Streaks** 如果你只用 iPhone、想要最精致的极简追踪器，且活在苹果生态（HealthKit、Watch、快捷指令）。苹果设备越全，它的整合优势越明显。
 - **对多数跨平台或注重隐私的用户，Meow Habits 覆盖更多情形**；对纯 iOS 极简爱好者，Streaks 仍是更干净的选择。你可以先用免费档验证自己会不会坚持打卡，再决定要不要为导出或深度统计付费。
 
 ## 其它值得考虑的习惯打卡应用
 
-两款对比装不下所有人换应用的原因，常见的还有三类：
+Meow Habits 与 Streaks 之外，换习惯打卡应用常见还有三类原因：想要免费、开源、无需账号的纯统计时，Loop 是安卓基准，Meow Habits 在免账号之外多了 iOS、图标与 CSV 导出；驱动你的是游戏化奖励与伙伴监督时，Habitica 那一类更合适；需要按时间段排布、跨设备同步或教练式课程时，Habitify 与 Fabulous 分别更对口。从国内应用迁来的人常搜 **小日常替代** 等，判断顺序是有没有安卓版、免费档能记几个习惯、数据能否导出、界面是否愿意天天看。
 
 - 想要免费、开源、无需账号的纯统计时，Loop 是安卓上的基准；Meow Habits 在同样免账号的前提下多了图标、iOS 与 CSV 导出。如果你的唯一诉求是"把打卡记准"，Loop 这种不花哨的工具反而够用。
 - 如果驱动你打卡的是游戏化奖励与伙伴监督，而不是一条极简连胜，Habitica 那一类更合适；本文对比的两款都不主打这一路。动力来源不同，工具形态也不同，别拿连胜机制去硬套需要组队监督的习惯。
@@ -141,6 +151,8 @@ Meow Habits 核心免费；Streaks 约 $4.99 一次性。两者都不基于订�
 完整六款对比见 [2026 年最佳 Streaks 替代应用](/zh/posts/alternatives-to-streaks/)。
 
 ## 典型场景
+
+Meow Habits 与 Streaks 的典型场景按设备与目标分工：家里有安卓时只有 Meow Habits 能跑；养成与戒除要一起追踪时，Meow Habits 的双模式胜过只做正向任务的 Streaks；重视隐私就用它的离线、指纹锁与自选备份；500+ 卡通图标则让每日打卡有玩心、愿意持续出现。按下面四类场景各取所需即可。
 
 - **家里有安卓**——若同住或共事的人用安卓，Meow Habits 是两者中唯一能跑在那里的，共享的日常才能真正共享。家庭打卡表最怕设备不一致，平台这一项先过关，其他功能才谈得上。
 - **养成与戒除一起**——在同一应用里追踪「学吉他」和「戒深夜零食」；Streaks 为完成正向任务而建，不擅长戒除。两种逻辑放在一处，周末看报表时才能看到完整的自己。

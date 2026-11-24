@@ -20,6 +20,8 @@ Jadi tulisan ini tidak membandingkan siapa yang punya daftar centang terpanjang.
 
 ## 1. Yang dijaga aplikasi daftar tugas adalah urusan "belum selesai"
 
+Aplikasi daftar tugas menyimpan **urusan yang belum selesai** sebagai catatan yang punya tujuan, bukan sekadar satu kalimat di kertas tempel. Hampir semua produk tersusun dari tiga lapis: **butir** (field yang dibawa satu tugas, dari judul saja hingga prioritas, aturan berulang, dan subtugas), **wadah** (daftar, folder, proyek, area, atau label yang memberi tugas tempat tinggal), dan **tampilan** (hari ini, besok, 7 hari ke depan, kalender, atau papan yang menyusun ulang data yang sama). Langkah tambahan aplikasi ini adalah memberi setiap urusan aturan **kapan ia akan terlihat lagi**, agar Anda tidak perlu mengingatnya sendiri.
+
 ### Kertas tempel dan sebuah sistem beda di tiga lapis
 
 Daftar tugas di kertas cuma satu kalimat; tugas di aplikasi adalah **catatan yang punya tujuan**. Hampir semua produk tersusun dari tiga lapis:
@@ -59,6 +61,8 @@ Istilah berikut berulang di perbandingan ini, jadi disepakati dulu di awal:
 Konsepnya tampak remeh, tapi hampir semua yang membuat dua aplikasi terasa berbeda berasal dari aturan di balik istilah-istilah ini.
 
 ## 2. Mengikuti satu tugas melewati lima tahap
+
+Satu tugas melewati **lima tahap** di aplikasi daftar tugas: dicatat, ditempatkan, dikerjakan hari itu, dicentang, lalu ditinjau lagi. Tahap pertama membedakan input bahasa alami seperti Todoist dan TickTick dari judul teks polos Meow Todo List; tahap kedua menentukan apakah daftar, label, dan subtugas boleh bertumpuk; tahap ketiga mengatur makna "hari ini" serta perlakuan tugas terlambat; tahap keempat menentukan ke mana butir pergi setelah selesai; tahap kelima memastikan data masih bisa dibaca dan dibawa keluar. Tujuh produk dalam perbandingan ini menjawab kelima tahap dengan cara berbeda, dan justru di situ pengalaman terasa berbeda, bukan pada panjang daftar fitur.
 
 ### Tahap 1 — Menangkap: satu kalimat dipecah jadi beberapa field
 
@@ -110,6 +114,8 @@ Jalan keluar data layak dilihat tersendiri. Meow Todo List menyimpan data di per
 
 ## 3. Apa gunanya aplikasi daftar tugas sebenarnya
 
+Aplikasi daftar tugas memindahkan "jangan lupa" dari kepala ke sistem yang punya langkah berikutnya yang jelas. Eksperimen Masicampo dan Baumeister (2011) di *Journal of Personality and Social Psychology* menunjukkan yang membuat tujuan terus menyusup ke pikiran sering kali bukan status "belum selesai"-nya, melainkan **belum adanya rencana konkret**; begitu kapan, di mana, dan bagaimana dituliskan, gangguannya turun nyata. Temuan efek Zeigarnik dari dekade 1920-an juga menjelaskan mengapa urusan yang belum dibayar lebih mudah diingat. Namun itu penelitian laboratorium untuk tugas jangka pendek, bukan jaminan produktivitas — yang menentukan hasil tetap apakah tugasnya bisa dikerjakan. Nilainya ada pada **memori eksternal, mengubah yang samar jadi bisa dikerjakan, memendekkan jarak dari terlintas ke tercatat, dan meninggalkan jejak yang bisa ditinjau**.
+
 ### Menyerahkan "mengingat" ke luar kepala
 
 Pada dekade 1920-an Bluma Zeigarnik memperhatikan bahwa pelayan mengingat pesanan yang belum dibayar lebih jelas daripada yang sudah lunas, kelak dirangkum sebagai efek Zeigarnik: urusan yang belum selesai lebih mudah tertinggal di kepala. Yang lebih dekat dengan aplikasi daftar tugas adalah eksperimen Masicampo dan Baumeister tahun 2011 di *Journal of Personality and Social Psychology* (101(4), 667–683, doi:10.1037/a0024192): yang membuat tujuan belum tercapai terus menyusup ke pikiran sering kali bukan "belum selesai"-nya, melainkan **belum adanya rencana yang konkret**; begitu dituliskan kapan, di mana, dan bagaimana, gangguannya turun nyata.
@@ -136,6 +142,8 @@ Mekanisme yang sama bisa berbalik. Daftar yang terus membengkak dan tak pernah d
 Satu kalimat: aplikasi daftar tugas bertugas **memberi tempat bagi urusan yang belum selesai**, bukan mengerjakannya untuk Anda.
 
 ## 4. Ke mana 7 produk mencurahkan tenaganya
+
+Tujuh produk dalam perbandingan ini mencurahkan tenaga ke tahap yang berbeda-beda. Meow Todo List menjaga kelima tahap tetap lokal tanpa akun dengan batas **10 daftar, 10 label, dan 10 subtugas per tugas**; Todoist mempersingkat tahap penangkapan lewat tambah cepat cerdas; TickTick menggabungkan kalender, papan, matriks prioritas, dan pomodoro; Microsoft To Do berpusat pada "My Day" yang disusun ulang tiap hari; Things 3 menjadikan struktur area, proyek, dan heading pemeran utama; Google Tasks menempel di Gmail, Kalender, Chat, dan Docs dengan batas **100.000 tugas**; Any.do menaruh daftar berdampingan dengan kalender. Memilihnya berarti memilih tahap mana yang paling sering Anda sandung.
 
 ### Meow Todo List (Android / iOS): lima tahap tetap lokal
 
@@ -216,7 +224,7 @@ Seperti Microsoft To Do ia condong ke "penjadwalan", tetapi lebih menekankan kol
 
 ## 5. Satu tugas berubah jadi apa di 7 aplikasi
 
-Masukkan kalimat pembuka tentang laporan kuartalan yang jatuh tempo Rabu depan apa adanya ke masing-masing aplikasi, bedanya bisa dipadatkan jadi satu tabel:
+Perbandingan satu tugas laporan kuartalan yang jatuh tempo Rabu depan di **7 aplikasi daftar tugas** memperlihatkan empat perbedaan yang menentukan: bagaimana kalimat diubah menjadi field, wadah apa yang menampungnya, apa yang terjadi setelah tenggat lewat, dan ke mana butir pergi setelah dicentang. Meow Todo List memecah judul dan field di panel terpisah lalu memasukkan tugas terlambat ke grup "Terlambat"; Todoist dan TickTick memarsing bahasa alami; Things 3 menaruhnya di linimasa Upcoming dan Logbook; Google Tasks menempel di bilah sisi Gmail. Jumlah fitur dan gaya antarmuka tidak mengubah apakah tugas akan muncul lagi saat dibutuhkan — itulah yang diukur tabel berikut.
 
 | Produk | Yang terjadi saat input | Masuk wadah apa | Setelah Rabu depan | Setelah dicentang | Di mana datanya |
 |---|---|---|---|---|---|
@@ -232,6 +240,8 @@ Tabel ini sengaja hanya membandingkan ke mana satu tugas pergi. Jumlah fitur, ga
 
 ## 6. Platform, pembayaran, dan kepemilikan data
 
+Perbandingan platform, pembayaran, dan kepemilikan data pada **7 produk** memperlihatkan tiga jalur: lokal tanpa akun (Meow Todo List dan Things 3), sinkron awan berbasis akun (Todoist, TickTick, Microsoft To Do, Google Tasks, dan Any.do), serta model beli sekali versus langganan. Meow Todo List gratis dengan batas 10 daftar, 10 label, dan 10 subtugas per tugas; Todoist gratis 5 proyek dengan Pro **US$60/tahun**; TickTick gratis 9 daftar dengan Premium **US$49,99/tahun**; Google Tasks gratis bersama akun Google hingga **100.000 tugas**. Karena ganti perangkat mengandalkan cadangan di jalur lokal dan sinkronisasi di jalur awan, poin ini yang sering menentukan pilihan dalam jangka panjang.
+
 | Produk | Platform utama | Skema bayar (halaman resmi 2026-11) | Perlu akun | Data dan ekspor |
 |---|---|---|---|---|
 | Meow Todo List | Android / iOS | Gratis dibatasi 10 daftar, 10 label, 10 subtugas per tugas; tema gelap, kunci aplikasi, kuota tanpa batas, ekspor CSV item yang dibuka | Tidak | Di perangkat; cadangan penuh bisa diarahkan ke WebDAV sendiri; tanpa impor |
@@ -244,7 +254,7 @@ Tabel ini sengaja hanya membandingkan ke mana satu tugas pergi. Jumlah fitur, ga
 
 ## 7. Temukan dulu tahap mana yang membuat Anda tersendat
 
-Jangan mulai dari "mana yang terbaik", lihat dulu di tahap mana dari lima tahap ini Anda paling sering gagal:
+Temukan dulu **tahap mana dari lima tahap** yang paling sering membuat Anda tersendat, baru pilih aplikasinya. Selalu lupa mencatat berarti utamakan pintu masuk seperti tambah cepat bahasa alami, bilah sisi Gmail, atau widget Meow Todo List; sudah catat tapi tidak ketemu berarti masalah di pengelompokan; sudah catat tapi tidak dikerjakan berarti perlu tampilan hari ini atau penanda keterlambatan yang jelas; selesai tapi jejaknya hilang berarti periksa riwayat dan ekspor; peduli kepemilikan data berarti pilih antara cadangan lokal dan sinkronisasi akun. Dengan begitu Anda memperbaiki titik yang benar, bukan sekadar menambah fitur.
 
 - **Selalu lupa mencatat**: utamakan pintu masuk. Tambah cepat bahasa alami (Todoist, TickTick), bilah sisi Gmail (Google Tasks), dan widget tambah cepat di layar utama (Meow Todo List) semuanya memangkas biaya jadi beberapa detik.
 - **Sudah catat tapi tidak ketemu**: masalahnya di tahap kedua. Proyek panjang pilih Things 3 atau Todoist; kalau cuma perlu pengelompokan sederhana, daftar mendatar atau satu tingkat daftar cukup, tidak usah membayar biaya belajar untuk hierarki yang tidak dipakai.
@@ -255,6 +265,8 @@ Jangan mulai dari "mana yang terbaik", lihat dulu di tahap mana dari lima tahap 
 Masih ragu, mulai dari [panduan pemula Meow Todo List](/id/posts/best-meow-todo-list-android/) dan [tutorial lengkap Meow Todo List](/id/posts/tutorial-meow-todo-list/); kalau lebih mementingkan penggunaan luring, data murni lokal, dan widget layar utama, [halaman aplikasi Meow Todo List](/id/apps/meow-todo-list/) memuat penjelasan fungsi yang lebih lengkap.
 
 ## 8. Enam kesalahpahaman yang sering muncul
+
+Enam kesalahpahaman tentang aplikasi daftar tugas perlu diluruskan sebelum memilih: makin banyak fitur tidak otomatis membuat orang lebih konsisten, menulis daftar tidak sama dengan menyelesaikan tugas, tugas terlambat tidak selalu sebaiknya dipindah otomatis ke hari ini, versi gratis tidak selalu membatasi jumlah tugas, lokal tidak berarti tidak aman dan awan tidak selalu lebih praktis, serta tugas berulang bukan streak kebiasaan. Kesalahpahaman ini terus muncul karena daftar fitur tampak mirip di banyak produk, padahal aturan di baliknya sangat berbeda.
 
 1. **"Makin banyak fitur makin bisa konsisten"**: pomodoro, kebiasaan, papan, dan kolaborasi memang berguna, tapi setiap modul tambah berarti satu tempat lagi yang harus dirawat. Pakai satu dua minggu dulu untuk mencari tahap yang tersendat, baru putuskan perlu alat yang lebih berat atau tidak.
 2. **"Menulis daftar berarti sudah maju"**: temuan Masicampo dan Baumeister adalah "rencana konkret" menurunkan pikiran yang menyusup, bukan "membuat daftar" sama dengan menyelesaikan tugas. Sebaiknya tiap butir memuat tindakan berikutnya, bukan cuma kata benda.

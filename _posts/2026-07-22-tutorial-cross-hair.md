@@ -27,7 +27,7 @@ doc_app: cross-hair
 
 ## App Introduction
 
-Crosshair (Crosshair Aim) adds a **[custom crosshair overlay](/glossary/what-is-a-crosshair/)** to FPS games on Android, with **80+ designs** to improve your aim — a free, **custom crosshair Android** tool that runs with no root.
+Crosshair (Crosshair Aim) adds a [custom crosshair overlay](/glossary/what-is-a-crosshair/) to FPS games on Android with 80+ designs — 84 Basic and 63 Pro styles — and needs only the Draw over other apps permission, no root or Accessibility. Free users keep about 30 styles, with the rest available through a 24-hour reward ad or the Pro app, and scale runs from 50% to 300% with alpha from 30% to 100%. This guide walks from the first launch through granting the overlay permission, picking a style, tuning color and position, using the reticle in-game and unlocking more designs.
 
 **🎯 80+ Styles**
 - **84 Basic** (flat) styles built in
@@ -47,7 +47,7 @@ Crosshair (Crosshair Aim) adds a **[custom crosshair overlay](/glossary/what-is-
 
 ## First-time Use
 
-Open the app to the main console.
+Open the app to the main console, where a START/STOP button shows or hides the crosshair and the style, color, scale and alpha controls sit alongside it. Crosshair keeps about 30 styles free and opens with a 50%–300% scale range, a settings gear for language, rate, share and upgrade, and no per-game presets — one global configuration applies everywhere.
 
 - A **START/STOP** button shows/hides the crosshair
 - Tap the **style** area to pick a design, **color** for color, and use the **scale/alpha** sliders
@@ -56,6 +56,8 @@ Open the app to the main console.
 ![Custom crosshair Android — Crosshair overlay home](/assets/images/blog/tutorial_cross_home.webp){: width="180" .normal }
 
 ## Grant Overlay Permission
+
+Crosshair needs only the Draw over other apps permission to place its reticle above a game — no root and no Accessibility access. Tap the crosshair switch or START, grant the popup-window permission when prompted, enable Crosshair in system Settings, then return to the app. That single overlay permission is what lets the reticle sit on top of any FPS title.
 
 1. Tap the crosshair switch / START
 2. If prompted, grant **"display pop-up window"** (Draw over other apps)
@@ -66,6 +68,8 @@ This permission (not Accessibility, not root) is what lets the crosshair sit abo
 
 ## Choose a Crosshair Style
 
+Crosshair offers 80+ designs across 84 Basic flat styles and 63 Pro advanced styles, shown in a 5-column Basic grid and a 4-column Advanced grid. Tap the style area, switch tabs and tap a thumbnail to apply it; locked Pro styles prompt a reward ad or the Pro app. Free users keep about 30 styles permanently.
+
 1. Tap the **style** area → **Style** screen
 2. Switch **Basic** (5-column grid) / **Advanced** (4-column grid) tabs
 3. Tap a thumbnail to apply it
@@ -75,6 +79,8 @@ This permission (not Accessibility, not root) is what lets the crosshair sit abo
 ![Custom crosshair Android — Crosshair style](/assets/images/blog/tutorial_cross_style_advance.webp){: width="180" .normal }
 
 ## Customize Size, Color, Position
+
+Crosshair lets you scale the reticle from 50% to 300% and set alpha from 30% to 100%, with 60 colors plus a picker for exact matching. Drag the scale and alpha sliders, choose a color, and nudge position with arrow buttons using a step from 1 to 50 (default 10) or drag the on-screen panel in-game. Thickness is fixed per style — there is no independent slider.
 
 - **Scale**: drag the scale slider (50%–300%)
 - **Alpha**: drag the alpha slider (30%–100%)
@@ -87,6 +93,8 @@ There is **no independent thickness slider** — each pre-rendered style already
 
 ## Use It in a Game
 
+Crosshair's overlay floats above any FPS game without intercepting taps, so your shots and buttons still reach the game. Enable the crosshair with START, launch your shooter, and the reticle stays visible; tap it to open the floating control panel for size, alpha, arrows, reset and close. The single global configuration follows you into every title.
+
 1. Enable the crosshair (START)
 2. Launch your FPS game
 3. The crosshair floats above the game and does **not** intercept touches (so your taps still hit the game)
@@ -95,6 +103,8 @@ There is **no independent thickness slider** — each pre-rendered style already
 ![Custom crosshair Android — Crosshair overlay home: In-game](/assets/images/blog/tutorial_cross_game.webp){: width="180" .normal }
 
 ## Unlock More Styles
+
+Crosshair keeps about 30 styles free permanently and offers a 24-hour reward-ad unlock for any locked design, while the separate Pro app opens all 147 styles with no ads. That is the full free-versus-Pro split: watch an ad for temporary access or switch to the Pro app for the complete library. The overlay and customization controls work the same in both.
 
 - **Free**: ~30 styles permanent + watch a reward ad to unlock a locked style for **24 hours**
 - **Pro** (separate app): no ads and all 147 styles permanent

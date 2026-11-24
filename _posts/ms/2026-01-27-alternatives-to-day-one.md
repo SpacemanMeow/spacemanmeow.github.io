@@ -16,6 +16,8 @@ Di bawah ini kami bandingkan enam **alternatif Day One** — dari [buku harian m
 
 ## Mengapa mencari di luar Day One
 
+Day One adalah jurnal yang mumpuni, tetapi enam alternatif Day One di bawah menawarkan jalan keluar daripada langganan kira-kira $35 setahun dan model cloudnya. Perbandingan ini merangkumi Meow Mood Diary, Journey, Diaro, Daylio, Grid Diary, dan Momento merentas harga, platform, dan keupayaan yang benar-benar menentukan — privasi, penjejakan mood, jurnal teks, dan eksport. Kebanyakan pembaca tiba dengan satu penghalang tertentu — langganan, akaun cloud, atau jurnal yang terlalu lama diisi — jadi setiap pilihan dibingkai mengikut alasan itu. Meow Mood Diary menonjol dengan storan setempat dan tidak pernah memuat naik entri ke server, sementara Journey mengendalikan penulisan merentas platform. Gambaran ini membantu anda memilih berdasarkan tabiat menulis, bukan sekadar senarai ciri.
+
 ![Editor jurnal dan catatan harian Day One](/assets/images/blog/day_one_1.webp){: width="180" .normal }
 ![Pemilih mood dan tag pada aplikasi Day One](/assets/images/blog/day_one_2.webp){: width="180" .normal }
 ![Graf statistik dan trend jurnal Day One](/assets/images/blog/day_one_3.webp){: width="180" .normal }
@@ -29,6 +31,8 @@ Di bawah ini kami bandingkan enam **alternatif Day One** — dari [buku harian m
 - **Terkunci** — pindah berarti mengekspor, dan formatnya tidak selalu portabel.
 
 ## Alternatif Day One terbaik sekilas
+
+Enam alternatif Day One terbaik 2026 terdiri daripada Meow Mood Diary, Journey, Diaro, Daylio, Grid Diary, dan Momento, dengan model harga daripada teras percuma dan VIP pilihan hingga langganan Cloud. Jadual di bawah meringkaskan perbezaan yang paling penting: platform yang disokong, tahap percuma, penjejakan mood, gaya jurnal, prompt atau struktur, foto dan lampiran, postur privasi, penyegerakan cloud, peringatan, tema, eksport, dan penggunaan offline. Meow Mood Diary dan Momento mengutamakan storan lokal, manakala Journey, Diaro, Daylio, dan Grid Diary bergantung pada akaun cloud untuk penyegerakan. Ringkasan ini memudahkan anda menapis pilihan sebelum membaca butiran setiap aplikasi.
 
 | Aplikasi | Harga (2026) | Platform | Terbaik untuk |
 |---|---|---|---|
@@ -223,6 +227,8 @@ Momento adalah **jurnal iOS** yang membangun linimasa peribadi dari entri dan pe
 
 ## Perbandingan keupayaan teras
 
+Perbandingan keupayaan teras menyusun enam alternatif Day One bersebelahan merentas platform, penjejakan mood, kedalaman jurnal, privasi, segerak, eksport, dan penggunaan luar talian. Meow Mood Diary adalah satu-satunya pilihan yang sepenuhnya luar talian tanpa muat naik, dengan tema kucing dan sandaran Google Drive, sementara Journey memimpin dari segi segerak lintas peranti merentas lima permukaan — Android, iOS, web, Windows, dan Mac. Diaro mengeksport dalam format PDF, XML, dan TXT, manakala Daylio serta Grid Diary mengorbankan kedalaman tulisan demi log pantas dan prompt berstruktur. Momento kekal lokal-utama pada iOS sahaja. Peringatan hadir pada kesemua enam aplikasi, jadi tabiat jurnal anda bertahan selepas berpindah. Kesemua tingkat percuma tersedia, dan lima daripada enam aplikasi menyokong foto serta lampiran. Jadual di bawah meringkaskan perbezaan ini untuk membantu anda memilih satu yang sesuai dengan cara anda menulis dan tempat anda menyimpan data.
+
 | Keupayaan | Meow Mood Diary | Journey | Diaro | Daylio | Grid Diary | Momento |
 |---|---|---|---|---|---|---|
 | **Platform** | Android, iOS | Android, iOS, web, Win, Mac | Android, iOS, Win, Mac | Android, iOS | Android, iOS | iOS |
@@ -242,7 +248,7 @@ Momento adalah **jurnal iOS** yang membangun linimasa peribadi dari entri dan pe
 
 ## Alternatif Day One mana yang sesuai untuk setiap jenis pengguna
 
-Jadual di atas meranking ciri; di sini keenam pilihan dikelompokkan menurut *apa yang sebenarnya Anda ganti*.
+Enam alternatif Day One dikelompokkan di sini mengikut apa yang sebenarnya anda ganti, bukan sekadar kedudukan ciri: langganan, ritual menulis, penjejakan diri terstruktur, cloud, atau jurnal khas iPhone. Meow Mood Diary dan Diaro kedua-duanya menawarkan teras percuma dengan kunci aplikasi, eksport, dan kalendar, jadi senarai semak penjejak mood tanpa langganan itu layak diperiksa sebelum memindahkan entri bertahun-tahun. Journey dan Grid Diary mengekalkan prompt serta penyuntingan merentas platform, sementara Daylio memendekkan laluan kepada logging satu ketik. Sebelum berpindah, tanya dua perkara: bolehkah sejarah dikeluarkan sebagai fail, dan adakah aplikasi masih berfungsi tanpa isyarat.
 
 - **Menggantikan langganan** — Meow Mood Diary dan Diaro keduanya punya teras percuma yang boleh digunakan; **penjejak mood tanpa langganan** layak dicek cetak birunya (kunci aplikasi, eksport, kalendar) sebelum memindahkan entri bertahun-tahun.
 - **Menggantikan ritual menulis** — **alternatif Journey** atau **alternatif Grid Diary** menjaga prompt, tag, dan penyuntingan merentas platform; bila Anda ingin logging satu ketik, **alternatif Daylio** adalah saluran lebih pendek, dan Meow Mood Diary menangani itu di peranti.
@@ -254,6 +260,8 @@ Apapun labelnya, ajukan dua pertanyaan sebelum migrasi: bolehkah Anda mengeluark
 
 ## Cara memilih
 
+Memilih alternatif Day One bermula dengan satu soalan: adakah anda mahu buku harian mood peribadi yang bekerja offline atau jurnal merentas platform dengan segerak yang boleh dipercayai? Enam cadangan di bawah memetakan setiap keutamaan kepada satu aplikasi: Meow Mood Diary untuk jurnal mood comel dan offline, Journey untuk segerak telefon–web–desktop, Diaro untuk folder dan carian pada jurnal panjang, Daylio untuk catatan mood satu ketik, Grid Diary untuk struktur berpandu pertanyaan, dan Momento untuk linimasa iOS yang tenang. Senarai ini menyingkat perbandingan panjang menjadi keputusan praktikal dengan mengandaikan privasi dan keboleheksportan menjadi keutamaan. Setiap pilihan mengekalkan ciri terasnya tanpa memaksa anda membayar di awal.
+
 - Ingin **buku harian mood peribadi yang comel dan bekerja offline** → **Meow Mood Diary**
 - Ingin **segerak merentas platform sejati (telefon pintar/web/desktop)** → **Journey**
 - Ingin **folder, tag, dan carian untuk jurnal panjang** → **Diaro**
@@ -262,6 +270,8 @@ Apapun labelnya, ajukan dua pertanyaan sebelum migrasi: bolehkah Anda mengeluark
 - Ingin **linimasa iOS peribadi yang tenang** → **Momento**
 
 ## Cara migrasi dari Day One
+
+Berpindah dari Day One boleh disiapkan dalam lima langkah, bermula dengan mengeksport entri ke format standard seperti PDF atau eksport bawaan sebelum membatalkan langganan. Pilih pengganti daripada jadual di atas berdasarkan platform dan sama ada anda mengutamakan penjejakan mood atau tulisan panjang. Import atau buat semula entri — Journey, Diaro, dan Grid Diary menerima import, sementara Meow Mood bermula dengan catatan mood satu ketik dan kemudiannya ditambah catatan. Atur peringatan harian pada aplikasi baharu supaya tabiat bertahan semasa perpindahan. Akhir sekali, aktifkan sandaran — Google Drive milik sendiri untuk Meow Mood, atau segerak akaun untuk Journey dan Diaro — supaya entri anda tidak pernah terkunci.
 
 1. **Eksport entri Day One** Anda ke format standar (PDF atau eksport bawaan) sebelum membatalkan.
 2. **Pilih pengganti** dari jadual berdasarkan platform dan apakah Anda ingin penjejakan mood atau tulisan panjang.

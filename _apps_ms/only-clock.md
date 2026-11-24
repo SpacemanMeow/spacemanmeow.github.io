@@ -35,7 +35,7 @@ faq:
       Only Clock berjalan di Android dan iOS. Telefon pintar atau iPad lama juga boleh digunakan sebagai paparan jam.
 ---
 
-Desktop Clock adalah jam skrin penuh dengan animasi flip yang memaparkan waktu, lengkap dengan widget jam. Banyak pilihan widget jam tersedia, dan aplikasi ini dapat membantu belajar, fokus bekerja, atau sekadar merapikan meja kerja.
+Only Clock ialah aplikasi jam flip skrin penuh untuk Android dan iOS yang menukar telefon pintar atau tablet menjadi jam meja atau samping katil, dengan animasi flip, widget jam, white noise, dan paparan 12/24 jam. Satu pemasangan merangkumi pelbagai tema — Hitam, Putih, Langit, kucing, luar angkasa, dan panda — serta widget jam bertema dan pilihan saiz digit. Aplikasi ini dapat membantu belajar, fokus bekerja, atau sekadar merapikan meja kerja, dan telefon pintar lama atau iPad juga boleh digunakan sebagai paparan jam. Antara muka ringkas dengan tema gelap dan terang boleh ditukar bebas.
 
 ### Ciri dan fungsi
 

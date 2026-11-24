@@ -47,7 +47,7 @@ Crosshair (Crosshair Aim) menambahkan **[overlay bidik silang tersuai](/ms/gloss
 
 ## Penggunaan Pertama
 
-Buka aplikasi ke konsol utama.
+**Crosshair Aim** dibuka pada konsol utama dengan butang **START/STOP** untuk memaparkan atau menyembunyikan bidik silang, kawasan gaya, warna, dan slider scale serta alpha — semuanya tersedia terus tanpa perlu root atau kebenaran Kebolehcapaian. **80+ reka bentuk** sedia ada, dengan julat scale 50%–300% dan alpha 30%–100%, membolehkan anda menyesuaikan retikel sebelum memasuki game. Roda tetapan pula membuka bahasa, nilai, bagikan, dan upgrade. Panduan ini menelusuri konsol tersebut langkah demi langkah.
 
 - Butang **START/STOP** memaparkan/menyembunyikan bidik silang
 - Ketik area **gaya** untuk memilih reka bentuk, **warna** untuk warna, dan gunakan slider **scale/alpha**
@@ -56,6 +56,8 @@ Buka aplikasi ke konsol utama.
 ![Skrin utama overlay bidik silang Crosshair Android](/assets/images/blog/tutorial_cross_home.webp){: width="180" .normal }
 
 ## Beri Kebenaran Overlay
+
+**Crosshair Aim** hanya memerlukan satu kebenaran — **"Gambar di atas aplikasi lain"** (overlay) — untuk memaparkan retikel di atas game, tanpa root mahupun perkhidmatan Kebolehcapaian. Kebenaran inilah yang membezakan pendekatannya daripada alat butang terapung yang lebih invasif: aplikasi tidak membaca atau mengubah data game, cuma melukis bidik silang di atasnya. Tanpa kebenaran ini, retikel tidak boleh muncul di dalam game. Empat langkah di bawah memandu anda mengaktifkannya melalui Tetapan sistem.
 
 1. Ketik switch bidik silang / START
 2. Jika diminta, beri kebenaran **"tampilkan tetingkap pop-up"** (Gambar di atas aplikasi lain)
@@ -66,6 +68,8 @@ Kebenaran ini (bukan Kebolehcapaian, bukan root) adalah yang memungkinkan bidik 
 
 ## Pilih Gaya Bidik Silang
 
+**Crosshair Aim** menyimpan **80+ reka bentuk** bidik silang dalam dua tab — **Dasar** dengan grid 5 lajur dan **Lanjutan** dengan grid 4 lajur — supaya anda boleh memilih retikel yang sesuai dengan senjata dan gaya main. Antara **84 gaya Dasar** dan **63 gaya Pro**, pengguna percuma menyimpan kira-kira 30 gaya secara permanen, manakala selebihnya dibuka melalui iklan reward 24 jam atau aplikasi Pro. Setiap gaya pra-render sudah termasuk ketebalannya sendiri, jadi tiada slider ketebalan berasingan. Empat langkah di bawah memilih dan menerapkan gaya.
+
 1. Ketik area **gaya** → skrin **Gaya**
 2. Beralih tab **Dasar** (grid 5 lajur) / **Lanjutan** (grid 4 lajur)
 3. Ketik thumbnail untuk menerapkannya
@@ -75,6 +79,8 @@ Kebenaran ini (bukan Kebolehcapaian, bukan root) adalah yang memungkinkan bidik 
 ![Gaya lanjutan Crosshair Android](/assets/images/blog/tutorial_cross_style_advance.webp){: width="180" .normal }
 
 ## Pelarasan Ukuran, Warna, Posisi
+
+**Crosshair Aim** menyediakan empat kawalan pelarasan — scale 50%–300%, alpha 30%–100%, sehingga 60 warna dengan pemilih tersuai, dan kedudukan yang boleh diseret — supaya retikel dapat disesuaikan dengan kontrol serta gaya main anda. Posisi boleh diubah dengan butang panah pada langkah 1–50 (bawaan 10) atau dengan menyeret panel kontrol terus di skrin semasa bermain. Perlu diingat: tiada **slider ketebalan bebas**, kerana setiap gaya pra-render sudah mempunyai ketebalannya sendiri. Kawalan ini menjadikan satu retikel boleh digunakan pada pelbagai senjata. Butiran setiap pelarasan disenaraikan di bawah.
 
 - **Scale**: seret slider scale (50%–300%)
 - **Alpha**: seret slider alpha (30%–100%)
@@ -87,6 +93,8 @@ Tidak ada **slider ketebalan independen** — setiap gaya pra-render sudah punya
 
 ## Gunakan di Game
 
+**Crosshair Aim** terapung di atas game FPS selepas daktifkan melalui butang **START**, dan **tidak mencegat sentuhan** — jadi setiap ketikan masih sampai ke game sambil retikel kekal kelihatan. Panel kontrol terapung muncul apabila bidik silang diketik, memberi pelarasan ukuran, alpha, panah kedudukan, reset, dan tutup tanpa perlu keluar permainan. Ini menjadikan eksperimen retikel semasa sesi cepat dan tidak mengganggu prestasi. Kebenaran overlay yang sudah diberikan sebelum ini memastikan overlay kekal di atas mana-mana shooter. Empat langkah di bawah menggunakan retikel dalam game.
+
 1. Aktifkan bidik silang (START)
 2. Luncurkan game FPS Anda
 3. Bidik silang terapung di atas game dan **tidak** mencegat sentuhan (jadi ketikan Anda tetap mengenai game)
@@ -95,6 +103,8 @@ Tidak ada **slider ketebalan independen** — setiap gaya pra-render sudah punya
 ![Overlay saat bermain Crosshair Android](/assets/images/blog/tutorial_cross_game.webp){: width="180" .normal }
 
 ## Buka Lebih Banyak Gaya
+
+**Crosshair Aim** menawarkan dua cara untuk mengakses keseluruhan pustaka **147 gaya**: secara percuma dengan kira-kira 30 gaya permanen ditambah iklan reward yang membuka gaya terkunci selama **24 jam**, atau melalui aplikasi **Pro** terpisah yang memadam iklan dan membuka semua gaya secara permanen. Pilihan percuma sesuai untuk mencuba pelbagai retikel sebelum membuat keputusan, manakala Pro lebih praktikal untuk pengguna harian yang mahu akses tanpa gangguan. Kedua-dua laluan mengekalkan satu konfigurasi global yang boleh dilaras bila-bila masa. Dua pilihan disenaraikan di bawah.
 
 - **Percuma**: ~30 gaya permanen + tonton iklan reward untuk membuka gaya terkunci selama **24 jam**
 - **Pro** (aplikasi terpisah): tanpa iklan dan semua 147 gaya permanen

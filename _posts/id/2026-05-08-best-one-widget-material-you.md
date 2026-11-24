@@ -14,6 +14,8 @@ Sejak Android 12, **Material You** membiarkan sistem menarik palet warna dari wa
 
 ## Yang dibutuhkan widget Material You
 
+Widget Material You yang baik memenuhi empat hal sejak Android 12: warna dinamis yang diambil dari wallpaper, peralihan bersama tema terang dan gelap, sudut membulat yang mengikuti grid sistem, dan penempatan cepat tanpa editor. One Widget memenuhi keempatnya lewat preset yang langsung mengambil palet wallpaper dan bentuk membulat, sehingga widget jam atau cuaca terasa asli di layar utama. Kemampuan mengubah warna latar dan radius sudut per widget membuatnya tetap terbaca di atas wallpaper terang, sementara KWGT memerlukan penulisan Kode manual untuk hasil yang sama. Berikut syarat minimum yang seharusnya dipenuhi sebuah widget bertema.
+
 - **Warna dinamis** — rona diambil dari wallpaper.
 - **Ikut terang/gelap** — berpindah dengan tema sistem.
 - **Sudut membulat peka bentuk** — cocok dengan grid sistem.
@@ -21,7 +23,7 @@ Sejak Android 12, **Material You** membiarkan sistem menarik palet warna dari wa
 
 ## Di luar warna: apa yang sebenarnya ditampilkan widget bertema
 
-Warna dinamis hanyalah langkah pertama; widget yang Anda pertahankan adalah yang menjawab sekilas. Empat kasus umum:
+Menilai widget Material You tidak cukup sampai warna dinamisnya; empat kasus pemakaian menentukan apakah widget itu bertahan di layar utama. Jam dan kalender harus tetap terbaca di tema terang maupun gelap dan mengikuti hari pertama sistem, gaya kaca dan iOS butuh latar yang bisa diredupkan, skin Nothing dan Galaxy menghadirkan bentuk dot-matrix serta sudut membulat bawaan, dan toggle Wi-Fi atau senter sering lebih berguna daripada panel dekoratif keempat. One Widget menyediakan semuanya sebagai preset yang tinggal diubah ukuran dan ditaruh, sedangkan KWGT menjadikan masing-masing sebuah proyek tersendiri.
 
 - **Jam dan kalender** — **aplikasi widget jam Android** dan **aplikasi widget kalender Android** adalah dua widget yang pertama kali ditaruh orang. Keduanya harus tetap terbaca di tema terang maupun gelap, dan mengikuti hari pertama dalam seminggu menurut sistem.
 - **Tampilan tembus pandang** — preset **widget gaya kaca Android** dan **widget gaya iOS Android** butuh latar yang bisa Anda redupkan, kalau tidak teks menghilang di atas wallpaper terang. One Widget membiarkan Anda mengatur warna latar dan radius sudut per widget.
@@ -32,6 +34,8 @@ KWGT bisa mereproduksi semua ini, tapi masing-masing adalah sebuah proyek; di si
 
 ## Para pesaing sekilas
 
+Tiga opsi dalam perbandingan 2026 ini — One Widget, KWGT, dan widget sistem — berbeda pada cara mendapatkan warna dinamis: One Widget mengambil palet wallpaper dengan ketuk dan taruh, widget sistem melakukannya secara bawaan, sementara KWGT menulis Kode manual. Dari segi setelan, dua pilihan pertama mengandalkan tindakan sederhana dan KWGT mengandalkan desain penuh; pada kepekaan tema, One Widget dan widget sistem mengikuti sistem otomatis sedangkan KWGT perlu pengaturan sendiri. Tabel di bawah merangkum harga, warna dinamis, setelan, dan kekuatan masing-masing.
+
 | App | Harga (2026) | Warna dinamis | Setelan | Peka tema | Terbaik untuk |
 |---|---|---|---|---|---|
 | **One Widget** | Inti gratis + VIP | ✅ cocok tema | Ketuk & taruh | ✅ | Tampilan asli, cepat |
@@ -39,6 +43,8 @@ KWGT bisa mereproduksi semua ini, tapi masing-masing adalah sebuah proyek; di si
 | **Widget sistem** | Gratis | ✅ | Ketuk & taruh | ✅ | Dasar, terbatas |
 
 ## One Widget, secara mendalam
+
+One Widget adalah paket widget bergaya kucing untuk Android dengan gaya yang mengikuti tema sistem sejak Android 12, termasuk palet warna Material You dari wallpaper dan sudut membulat yang mengikuti grid. Widget jam, cuaca, dan tipe lainnya bisa ditaruh langsung tanpa editor, tetap ramah tanpa merusak bahasa bentuk material, dan berjalan lokal di perangkat tanpa akun maupun cloud. Keterbatasannya, Anda mengadopsi tema alih-alih menulisnya sendiri dan gaya lebih dalam berada di balik VIP sekali bayar. Ini pilihan untuk pengguna yang menginginkan tampilan asli dalam hitungan detik.
 
 ![Beranda widget One Widget](/assets/images/apps/one-widget/1.webp){: width="180" .normal }
 ![Preset tema widget gaya kaca Android dan Material You](/assets/images/apps/one-widget/2.webp){: width="180" .normal }
@@ -65,6 +71,8 @@ One Widget adalah **paket widget bergaya kucing** untuk Android dengan gaya yang
 
 ## KWGT, secara mendalam
 
+KWGT (Kustom Widget Maker, paket `org.kustom.widget`) mampu mereproduksi Material You secara persis, tetapi hanya jika Anda menulis Kode untuk membaca warna sistem dan membentuk sudutnya sendiri dengan Pro Key sekali bayar. Kendali tingkat piksel mencakup warna dinamis lewat formula, bentuk kustom, dan animasi, tanpa langganan. Biayanya adalah kerja manual membangun logika warna, kurva belajar curam, serta ketergantungan pada peluncur yang kompatibel — pengalaman "taruh dan cocok" tidak tersedia di sini. Cocok untuk penggaya Android yang ingin menentukan setiap detail tampilan.
+
 ![Beranda widget KWGT](/assets/images/blog/kwgt_widget_1.webp){: width="180" .normal }
 ![Tampilan & tema kustom KWGT](/assets/images/blog/kwgt_widget_2.webp){: width="180" .normal }
 ![Sumber data & tata letak KWGT](/assets/images/blog/kwgt_widget_3.webp){: width="180" .normal }
@@ -88,12 +96,16 @@ KWGT (Kustom Widget Maker, paket `org.kustom.widget`) dapat mereproduksi Materia
 
 ## Mana yang harus Anda pilih?
 
+Pilihan antara One Widget dan KWGT untuk Material You bergantung pada apakah Anda menerima palet wallpaper otomatis atau ingin menulis warna dinamis sendiri. One Widget mengambil warna dan sudut dari sistem sejak Android 12, membiarkan widget jam atau cuaca terpasang dalam hitungan detik tanpa editor, dengan inti gratis plus VIP opsional. KWGT lewat Pro Key sekali bayar memberi kendali piksel penuh lewat formula Kode, tetapi menuntut kurva belajar curam dan peluncur kompatibel. Untuk tampilan yang langsung menyatu dengan wallpaper, One Widget adalah jawabannya; untuk warna buatan tangan, pilih KWGT.
+
 - Ingin **Material You yang langsung cocok** → **One Widget**.
 - Ingin **warna dinamis buatan tangan** → **KWGT**.
 
 [Dapatkan One Widget](/id/apps/one-widget/) — tersedia di Android.
 
 ## Skenario umum
+
+Lima skenario pemakaian One Widget memperlihatkan bagaimana gaya yang cocok dengan Material You bekerja sehari-hari sejak Android 12. Widget jam atau cuaca mengambil palet wallpaper dan sudut membulat dalam hitungan detik tanpa editor, pergantian wallpaper langsung menemakan ulang seluruh widget, dan mode terang serta gelap sistem diikuti otomatis agar layar utama tetap koheren. Gaya bergaya kucing tetap menghormati bahasa bentuk dan warna material, sementara semua pemrosesan berjalan di perangkat tanpa akun. Berikut contoh-contohnya.
 
 - **Tampilan asli dalam hitungan detik** — taruh widget jam atau cuaca dan ia sudah mengambil warna wallpaper serta sudut membulat Anda; tanpa editor.
 - **Ganti wallpaper, ganti tema** — karena palet diturunkan dari wallpaper, wallpaper baru menemakan ulang setiap widget sekaligus.

@@ -14,6 +14,8 @@ Both put controls on top of your screen, but they solve different problems. **Fl
 
 ## At a glance
 
+Floating Assistant vs Assistive Touch comes down to one overlay or three tools: Floating Assistant is a 3-in-1 Android layer combining assistive touch, a floating clock and a live CPU/RAM/battery monitor, while Assistive Touch (Easy Touch) is a classic floating navigation ball. Both are Android-only and put controls above other apps. Floating Assistant uses Accessibility only for its listed controls and has an ad-free core; Assistive Touch is free but ad-supported.
+
 | | Floating Assistant | Assistive Touch (Easy Touch) |
 |---|---|---|
 | **Core** | 3-in-1: touch + floating clock + monitor | Floating navigation ball |
@@ -31,6 +33,8 @@ Both put controls on top of your screen, but they solve different problems. **Fl
 ---
 
 ## Floating Assistant, in detail
+
+Floating Assistant is an Android 3-in-1 overlay that bundles an assistive-touch ball, a floating clock and a live system monitor into one layer. The monitor shows CPU temperature, usage, RAM and battery with a one-tap boost, while the ball adds screenshot, flashlight and quick app access; Accessibility is used only for those listed controls and no personal data is collected. The core overlay is free and ad-free, while extra themes and modules sit behind an optional unlock.
 
 ![Best Assistive Touch alternative android: Floating Assistant edge ball](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
 ![Floating Assistant quick actions & gestures](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
@@ -65,6 +69,8 @@ Power users and gamers who want buttons *and* a clock *and* live system stats fr
 
 ## Assistive Touch (Easy Touch), in detail
 
+Assistive Touch (Easy Touch) is an Android floating navigation ball that replaces worn hardware keys with virtual home, back, recent and volume buttons, plus lock, screenshot, flashlight and customizable gestures. It is free and easy to enable or hide, with themes and quick toggles for Wi-Fi, Bluetooth, brightness and sound mode. Unlike Floating Assistant, it is navigation-only: no floating clock, no live CPU/RAM/battery monitor and no one-tap boost, and its free build is ad-supported.
+
 ![Assistive Touch assistive touch home](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
 ![Assistive Touch quick actions & gestures](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
 ![Assistive Touch custom menu & buttons](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
@@ -98,6 +104,8 @@ Users who simply want an iOS-like navigation ball to replace or supplement hardw
 
 ## How they compare where it matters
 
+Floating Assistant and Assistive Touch both put controls above other Android apps, but four dimensions separate them. Floating Assistant is a 3-in-1 toolbox — assistive touch, a floating clock and live CPU/RAM/battery monitoring with a one-tap boost — while Assistive Touch is a single-purpose navigation ball with gestures and quick toggles. On privacy, Floating Assistant uses Accessibility only for listed controls with an ad-free core; Assistive Touch is free but ad-supported. Neither has an iOS version.
+
 ### Scope of the overlay
 Floating Assistant is a toolbox: navigation, clock, and monitoring in one. Assistive Touch is a single-purpose navigation ball. If you only need buttons, the ball is lighter; if you want more from the overlay, Floating Assistant does more.
 
@@ -112,13 +120,15 @@ Floating Assistant positions itself as not collecting personal data, with an ad-
 
 ## Which should you choose
 
+Floating Assistant suits you if you want one overlay that handles navigation, a floating clock and live system monitoring — useful on gaming or older phones; Assistive Touch (Easy Touch) suits you if you only need a simple, free floating navigation ball to replace hardware keys. Both are Android-only. For an all-in-one daily driver, Floating Assistant covers more ground without forcing you into multiple apps, while Assistive Touch keeps the lighter footprint if buttons are all you need.
+
 - **Choose Floating Assistant** if you want one overlay that handles navigation, a floating clock, and live system monitoring (great for gaming and older phones).
 - **Choose Assistive Touch (Easy Touch)** if you just need a simple, free floating navigation ball to replace hardware keys.
 - **For an all-in-one daily driver**, Floating Assistant covers more ground without forcing you into multiple apps.
 
 ## Other floating-button apps worth considering
 
-A two-app comparison can't cover every reason people look for an **Assistive Touch alternative**. The right substitute depends on what you want the ball to do:
+Assistive Touch alternatives split into four kinds — navigation-ball replacements, notification bubbles, button remappers and compact control panels — and the right one depends on what you want the floating layer to do. A two-app comparison can't cover every reason people look for an **Assistive Touch alternative**. The right substitute depends on what you want the ball to do:
 
 - An **Easy Touch alternative** is usually the closest match to the app compared here: a free navigation ball with a fixed menu. Floating Assistant keeps that base and adds an edge dock, remappable slots and extra overlays.
 - A **Floatify alternative** is about notification bubbles and quick replies rather than system keys; it solves a different problem from one-handed reach.
@@ -128,6 +138,8 @@ A two-app comparison can't cover every reason people look for an **Assistive Tou
 For the **best Assistive Touch alternative android** shortlist, the deciding questions are: can every slot be remapped, does the ball dock to either edge, and are the overlay and accessibility permissions explained clearly? The full field is compared in [Best Assistive Touch Alternatives in 2026](/posts/alternatives-to-assistive-touch/).
 
 ## Typical scenarios
+
+Floating Assistant and Assistive Touch cover five recurring situations: navigating without hardware keys, keeping the time in view, watching heat while gaming, consolidating overlays and protecting privacy. Floating Assistant's 3-in-1 layer handles all five — its assistive-touch ball, floating clock and live CPU/RAM/battery monitor replace three separate tools — while Assistive Touch covers the first case only and is ad-supported. Unlike ad-funded balls, Floating Assistant uses Accessibility only for its listed controls and collects no personal data.
 
 - **Navigate without hardware keys** — Floating Assistant's assistive-touch ball puts back/home/recent/lock/screenshot within a thumb's reach, sparing worn buttons.
 - **Keep the time in view** — its floating clock stays above any app or game, handy as a bedside or desk companion.

@@ -14,6 +14,8 @@ Big phones are hard to use one-handed, and some users simply can't reach physica
 
 ## What an accessibility tool needs
 
+An accessibility floating button in 2026 needs five things: virtual back, home, recent and lock keys, edge reach within a thumb's range, large clear targets that need little precision, remappable shortcuts for daily actions, and no reliance on hardware buttons. Floating Assistant covers all five with an edge-docked ball and gestures; the three contenders below are weighed on reach, target size and clarity of permissions.
+
 - **Virtual keys** — back, home, recent, lock without physical buttons.
 - **Edge reach** — the control sits where a thumb already is.
 - **Large, clear targets** — easy to hit, low precision needed.
@@ -22,7 +24,7 @@ Big phones are hard to use one-handed, and some users simply can't reach physica
 
 ## What accessibility actually needs from the ball
 
-An accessibility tool is judged on the day a hardware button fails, not on a feature list. Four practical details:
+Four practical details decide what accessibility needs from a floating ball in 2026: large virtual keys that never miss, edge reach with gestures for left- and right-handed use, remappable shortcuts that put the most-needed action on the first tap, and clear minimal permissions with no account or root. An accessibility tool is judged on the day a hardware button fails, not on a feature list. Four practical details: Floating Assistant covers all four with an edge-docked ball; Assistive Touch keeps a smaller fixed menu.
 
 - **Virtual keys that never miss** — back, home, recent and lock must be large, clearly separated targets. A **floating assistant back home recent button** row is the core of this, not an extra.
 - **Edge reach with gestures** — an **edge floating ball with gestures** lets a swipe do what a precise tap cannot; the ball should dock to either side so left-handed use is not an afterthought.
@@ -33,6 +35,8 @@ Floating Assistant covers all four with an edge-docked ball; Assistive Touch kee
 
 ## The contenders at a glance
 
+Three accessibility options are compared below on 2026 price, virtual keys, edge reach and gestures, so a flexible gesture-rich ball is weighed against simple virtual keys and built-in OS settings. Floating Assistant is a free core plus VIP with virtual keys, edge docking and gestures; Assistive Touch is free with IAP and a fixed menu; system accessibility is free but limited. Only one entry pairs an edge-docked ball with remappable gestures and no account.
+
 | App | Price (2026) | Virtual keys | Edge reach | Gestures | Best for |
 |---|---|---|---|---|---|
 | **Floating Assistant** | Free core + VIP | ✅ | ✅ | ✅ | Flexible access |
@@ -40,6 +44,8 @@ Floating Assistant covers all four with an edge-docked ball; Assistive Touch kee
 | **System accessibility** | Free (OS) | ⚠️ limited | ❌ | ⚠️ | Built-in only |
 
 ## Floating Assistant, in depth
+
+Floating Assistant is an edge floating-ball app for Android with virtual keys and gestures, built for one-handed control on big phones and for users who cannot reliably reach hardware buttons. It docks where the thumb already is, maps back, home, recent and lock to large on-screen targets, and keeps the core on-device with no account. VIP adds deeper gestures, and a one-time overlay permission is required. Multi-window support handles split-screen without hunting for recents.
 
 ![Accessibility floating button with large back home recent targets](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
 ![Floating Assistant quick actions & gestures](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
@@ -66,6 +72,8 @@ Floating Assistant is an **edge floating-ball app** for Android with virtual key
 
 ## Assistive Touch, in depth
 
+Assistive Touch (package `mtr.assistivetouch.easytools`) offers on-screen virtual keys and a floating ball for replacing back, home, recent and lock with taps, including brightness and volume controls. It is free to start with in-app purchases, and suits users who want a simple, familiar virtual-key replacement. Its customization is lighter than Floating Assistant's — fewer gesture remaps — and ads or promotional content vary.
+
 ![Assistive Touch assistive touch home](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
 ![Assistive Touch quick actions & gestures](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
 ![Assistive Touch custom menu & buttons](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
@@ -90,12 +98,16 @@ Assistive Touch (package `mtr.assistivetouch.easytools`) offers on-screen virtua
 
 ## Which should you pick?
 
+Two pick-by-need rules settle the accessibility floating button choice in 2026: choose Floating Assistant for flexible, gesture-rich one-handed control with an edge-docked ball, or Assistive Touch for simple free virtual keys. The first puts remappable actions under the thumb and keeps everything local; the second covers the basic key replacement with a smaller menu. Neither replaces the system's own accessibility settings — both are shortcuts to them.
+
 - Want **flexible, gesture-rich one-handed control** → **Floating Assistant**.
 - Want **simple free virtual keys** → **Assistive Touch**.
 
 [Get Floating Assistant](/apps/floating-assistant/) — available on Android.
 
 ## Typical scenarios
+
+Five typical scenarios show where an accessibility floating button matters in 2026: big-phone one-hand use, worn or unreachable hardware buttons, motor or reach limits, bedtime one-hand control, and an ad-free core. Floating Assistant handles all five with large thumb-placed targets, an edge ball, on-screen lock and screenshot, and a free core with an optional unlock. Assistive Touch covers the simpler virtual-key cases.
 
 - **Big phone, one hand** — the edge ball brings back/home/recent and the lock under your thumb, no stretching.
 - **Hardware buttons worn or unreachable** — lock, screenshot and recents become on-screen taps, so a failing power key isn't a blocker.

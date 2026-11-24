@@ -20,6 +20,8 @@ Kalau tertarik juga dengan perbandingan fitur secara keseluruhan, baca: [Meow Mo
 
 ## Sekilas: cek cepat mekanisme anggaran 7 aplikasi
 
+Tujuh aplikasi anggaran dibandingkan di bawah ini lewat lima kolom kunci — objek anggaran, model periode, rollover, pengeluaran non-bulanan, dan rumus inti — supaya perbedaan mekanisme terlihat sebelum masuk ke bedah mendalam. Meow Money Manager memakai satu anggaran dengan jendela bergulir harian sampai tahunan, tanpa rollover, dan menghitung budget harian sebagai sisa dibagi sisa hari. YNAB memakai kategori plus Target dengan bulan kalender dan saldo positif yang tetap utuh sementara overspend kas dipotong dari Ready to Assign. Monarch Money memakai bucket Fixed, Non-monthly, dan Flex dengan rumus rollover eksplisit yang memasukkan surplus maupun defisit. Goodbudget mengandalkan saldo amplop berjalan, EveryDollar membangun ulang zero-based tiap bulan, PocketGuard berangkat dari angka In My Pocket, dan Wallet mengorganisasi anggaran per kategori, akun, atau tag. Pembagian paling jelas: YNAB, EveryDollar, dan Goodbudget bertipe alokasi; Monarch, PocketGuard, dan Wallet bertipe rencana; Meow Money bertipe batas.
+
 | Aplikasi | Objek anggaran | Model periode | Rollover | Pengeluaran non-bulanan | Rumus inti |
 |---|---|---|---|---|---|
 | **Meow Money Manager** | Satu anggaran (total, atau per kategori) | Hari / minggu / bulan / tahun / kustom, **jendela bergulir** | Tidak ada, jendela dihitung ulang tiap hari | Tanggal mulai–selesai kustom | Budget harian = sisa ÷ sisa hari (0 bila overbudget) |
@@ -35,6 +37,8 @@ Pembagian paling jelas: **YNAB, EveryDollar, Goodbudget adalah anggaran tipe "al
 ---
 
 ## Bangun dulu kerangka evaluasinya: enam perbedaan teknis fitur anggaran
+
+Kerangka evaluasi fitur anggaran pada **7 aplikasi — YNAB, Monarch Money, Goodbudget, EveryDollar, PocketGuard, Wallet, dan Meow Money Manager** — bertumpu pada **enam perbedaan teknis**: objek anggaran, batas periode, semantik rollover, penanganan pengeluaran non-bulanan, cara menghitung sisa, serta sumber data. Objeknya bisa saldo akun atau batas pengeluaran; periodenya bulan kalender, periode anggaran, atau jendela bergulir; rollover bisa positif saja, negatif juga, atau sama sekali tidak ada. Enam titik ini yang menentukan apakah sebuah aplikasi terasa enak dipakai, jauh lebih mendasar daripada sekadar ada grafik dan pengingat.
 
 ### 1. Objek anggaran: saldo akun atau batas pengeluaran
 
@@ -89,6 +93,8 @@ Ini langsung menentukan "real-time" anggaran vs "biaya privasi": anggaran sinkro
 ---
 
 ## Bedah 7 aplikasi satu per satu
+
+Bedah tujuh aplikasi anggaran ini memakai satu kerangka yang sama agar hasilnya bisa dibandingkan: objek yang dianggarkan, model periode, perilaku rollover, penyebaran biaya non-bulanan, arti angka "sisa", dan sumber datanya. Meow Money Manager memakai jendela bergulir dengan **budget harian** dan paling banyak **3 anggaran** gratis; YNAB memakai kategori plus Target dengan overspend dual-track kas dan kredit; Monarch menawarkan mode Category dan Flex dengan tiga bucket; Goodbudget mengandalkan saldo amplop berjalan dengan isi Add/Set; EveryDollar membangun ulang zero-based tiap bulan; PocketGuard berangkat dari angka In My Pocket; Wallet mengorganisasi anggaran per kategori, akun, atau tag. Masing-masing punya logika sendiri.
 
 ### Meow Money Manager: periode bergulir dan budget harian
 
@@ -349,6 +355,8 @@ Di baris ini, tanpa akun, tanpa sambungan bank, tanpa berbagi adalah pertukaran 
 ---
 
 ## Aplikasi mana yang harus dipilih
+
+Pemilihan di antara **7 aplikasi anggaran** sebaiknya dimulai dari pertanyaan paling praktis: apa yang ingin Anda jawab setiap hari. Meow Money Manager menjawab "hari ini masih bisa belanja berapa" lewat budget harian tanpa akun; YNAB cocok bila bersedia menukar kemudahan dengan metodologi dan kendali penuh; Monarch memberi kategori tanpa merawat tiap pagu; Goodbudget untuk penganut amplop dengan kategori tak banyak; EveryDollar untuk zero-based ketat; PocketGuard bagi yang paling takut overbudget; Wallet untuk multi-mata-uang dan berbagi keluarga. Kombinasi pragmatis juga sah: alat tipe batas untuk pencatatan harian, alat tipe alokasi untuk perencanaan pengeluaran tahunan.
 
 - **Cuma mau jawab "hari ini masih bisa belanja berapa"**: pilih **Meow Money Manager**. Budget harian, sisa hari, dan widget beranda langsung menjawab; tak perlu rencanakan pendapatan dulu, tak perlu akun atau sambung bank, dan hari mulai minggu/bulan bisa ikut gajian. Syaratnya terima pencatatan manual dan "tak ada rollover."
 - **Bersedia tukar metodologi dengan kendali**: pilih **YNAB**. Dua perilaku Target, overspend dual-track kas/kredit, dan Ready to Assign ketat membentuk model alokasi lengkap. Ini juga pintu masuk ke **alternatif YNAB** bila Anda cari gaya serupa dengan catatan lokal.

@@ -41,7 +41,7 @@ faq:
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
-One Widget is your ultimate all-in-one Android home screen customization toolkit, packed with 500+ premium aesthetic widgets covering four trending design styles: Glass iOS style, Material You, Galaxy One UI (Samsung), and Nothing minimalist style. Perfect for users who love personalized, clean, and functional home screens, this app combines beauty and practicality to upgrade your Android desktop experience in one tap.
+One Widget is an Android home-screen toolkit with 500+ widgets in four styles — Glass iOS, Material You, Galaxy One UI and Nothing minimalist — organized into eight functional categories. Widgets scale from 1x1 to 2x6 layouts, with adjustable icon background color and corner radius, and cover app shortcuts, quick toggles, hardware info, clocks and calendars, notes, contacts, aggregated app sets and mini tools. It works on Samsung Galaxy, Pixel and other Android phones; the One UI set is free, while Glass, Material You and Nothing require purchase.
 
 **Four Exclusive Popular Widget Styles**
 

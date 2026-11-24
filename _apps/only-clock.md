@@ -41,7 +41,7 @@ faq:
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
-Desktop Clock is an exquisite full-screen Clock with flip animation to show time, and include the clock widget. Many beautiful clock widget for you to choose. It can be used to aid study, focus on work, beautify the desktop of mobile phone, time planning and reminder etc. It is very eye-catching on the desktop during work and study, and can be seen from all angles. You can also make full use of your unused phone or iPad at home as a clock display. Interface style simple atmosphere, black and white theme free switch.
+Only Clock is a full-screen flip clock on Android and iOS that shows time with a flip animation, offers multiple clock widgets and supports 12- and 24-hour display with an optional date. White noise helps with study or focus, clock themes switch freely, and black and white themes can be swapped, so the same app works as a desk clock, nightstand display or focus timer. A spare phone or iPad can serve as the display, and the large digits remain legible from different viewing angles.
 
 **Features and functions**
 

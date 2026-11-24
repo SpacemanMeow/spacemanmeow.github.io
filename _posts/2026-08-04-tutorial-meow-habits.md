@@ -30,7 +30,7 @@ doc_app: meow-habits
 
 ## App Introduction
 
-Meow Habits is a cute **[habit tracker](/glossary/what-is-a-habit-tracker/)** and routine builder for Android and iOS. Build good habits and break bad ones with streaks, charts, and a calendar heatmap. It works as a **habit tracker no account** and an **offline habit tracker**: logging needs no sign-up and no signal, and a **habit tracker with csv export** plus **habit tracker with webdav backup** keeps the history yours. This guide walks from first launch through **habit tracker with widgets** and **habit tracker with reminders** to reading your own trends.
+Meow Habits is a cute [habit tracker](/glossary/what-is-a-habit-tracker/) and routine builder for Android and iOS with roughly 590 icons across 14 categories, streaks, charts and a calendar heatmap. It works with no account and offline, while CSV export and WebDav or Google Drive backup keep the history yours. This guide walks from the first launch through adding habits with daily, weekly, monthly or custom cycles, daily check-ins, reminders and reading your own trends.
 
 **🐱 500+ Cute Icons**
 - An icon picker with roughly **590 icons** across **14 categories**
@@ -50,7 +50,7 @@ Meow Habits is a cute **[habit tracker](/glossary/what-is-a-habit-tracker/)** an
 
 ## First-time Use
 
-The app opens on the **Home** tab showing today's habits plus a month calendar.
+The app opens on the Home tab showing today's habits plus a month calendar, with four bottom tabs — Home, Habit, Trend and Setting. Meow Habits allows up to 5 habits on the free tier, with VIP unlocking unlimited habits, and tapping + adds your first one. That is the whole setup: no account and no signal required.
 
 - Bottom tabs: **Home**, **Habit**, **Trend**, **Setting**
 - Tap **+** to add your first habit (the free tier allows up to **5 habits**; VIP unlocks unlimited)
@@ -58,6 +58,8 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 ![Meow Habits home tab: today's check-in list and month calendar in this habit tracker with calendar](/assets/images/blog/tutorial_habit_home.webp){: width="180" .normal }
 
 ## Add a Habit
+
+Adding a habit in Meow Habits opens a nine-step form where you name it, pick one of roughly 590 icons across 14 categories, set a goal and choose a cycle. Cycles cover Daily, Weekly, Monthly, Weekday such as Mon/Wed/Fri, or an "Every N days/weeks" rule, and you finish by setting a start date and confirming. The free tier allows up to 5 habits.
 
 1. Tap **+** on the Home tab
 2. Pick a **template** or start blank → opens **Habit Add**
@@ -73,6 +75,8 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 
 ## Daily Check-in
 
+Meow Habits' check-in screen shows a big progress ring for today's goal, with +/− buttons to adjust count, an Input field to type a value, Skip and Complete. Open a habit from the Home or Habit tab, then use the 3-dot menu for Trend, Notification, Note, Edit, Archive or Delete. Each check-in keeps the streak and completion rate current.
+
 1. On the Home or Habit tab, tap a habit to open the **check-in** screen
 2. A big progress ring shows today's goal
 3. Use **+ / −** to adjust count, **Input** to type a value, **Skip** to skip, or **Complete** to finish
@@ -81,6 +85,8 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 ![Daily check-in screen with a progress ring in a cute habit tracker](/assets/images/blog/tutorial_habit_checkin.webp){: width="180" .normal }
 
 ## Reminders
+
+Meow Habits' reminder setting lets you enable a daily nudge and pick from 3 time chips with specific weekdays from Sunday to Saturday. Open a habit, tap the bell option, toggle the daily reminder on and choose your days and time. The notification then prompts you to check in so the streak stays alive.
 
 1. Open a habit and tap the reminder (bell) option
 2. Toggle the daily reminder on
@@ -91,6 +97,8 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 
 ## Streaks and Trends
 
+Meow Habits tracks a per-habit streak and completion rate, with bar, pie and calendar heatmap views of progress. Open a habit's Detail screen to see streak numbers, history bars and the heatmap, then switch to the Trend tab for charts and achievements. Those views surface a slump before it becomes a broken streak.
+
 1. Open a habit → **Detail** to see streak numbers, history bars and a calendar heatmap
 2. Switch to the **Trend** tab for charts and achievements
 
@@ -98,18 +106,22 @@ The app opens on the **Home** tab showing today's habits plus a month calendar.
 
 ## Edit, Archive or Delete
 
-From the check-in 3-dot menu you can **Edit**, **Archive** (keep history but hide), or **Delete** a habit.
+From the check-in 3-dot menu, Meow Habits lets you Edit a habit, Archive it to keep history while hiding it, or Delete it outright. Those three actions cover the full lifecycle of a habit after setup, and archiving preserves the streak record without cluttering the Home tab.
 
 ## Backup and Export
+
+Meow Habits stores data on-device by default and adds optional Google Drive or WebDav backup plus CSV export for taking history elsewhere. In Settings, use Google Drive or WebDav to back up and restore, or Export to pick habits, choose a date range and share a CSV. CSV export is a VIP feature.
 
 - **Settings → Google Drive / WebDav** to back up and restore
 - **Settings → Export** lets you pick habits, choose a date range, and share a **CSV**
 
 ## Settings
 
-Settings include a VIP banner, **dark mode**, **language**, **week start**, **app lock** (VIP), sound, notifications, **widgets**, Lists, Habits, **Export** (VIP), Google Drive, WebDav, and the Meow family section.
+Meow Habits' Settings cover a VIP banner, dark mode, language, week start, app lock (VIP), sound, notifications, widgets, Lists, Habits, Export (VIP), Google Drive, WebDav and the Meow family section. Those controls tune how the roughly 590 icons, streaks and charts are displayed and how data leaves the device, without changing what gets logged.
 
 ## Typical scenarios
+
+Meow Habits covers four everyday cases: a morning routine pinned to a home-screen widget so the streak never breaks, breaking a bad habit with a daily reminder and a visible calendar heatmap, reviewing the month through Trend charts and a VIP CSV export, and staying private offline with backup only when you choose Google Drive or WebDav.
 
 - **Morning routine** — after setup, pin 'Drink water' and 'Stretch' to the home-screen widget and check in from the lock screen so the streak never breaks.
 - **Break a bad habit** — create a 'Stop scrolling' habit with a daily reminder; the calendar heatmap makes a slip visible before it becomes a broken streak.

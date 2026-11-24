@@ -40,7 +40,7 @@ faq:
       Ya. Floating Assistant dapat memaparkan jam dan hitung mundur di tetingkap terapung selagi Anda memakai aplikasi lain.
 ---
 
-Floating Assistant menghadirkan tiga lapisan terapung di skrin Android: butang Assistive Touch, jam serta hitung mundur, dan pemantau kondisi peranti. Ketiganya tetap tampil di atas aplikasi lain, sehingga berguna saat skrin penuh atau semasa Anda bermain game.
+Floating Assistant menghadirkan tiga lapisan terapung di skrin Android — butang Assistive Touch, jam serta hitung mundur, dan pemantau keadaan peranti — yang semuanya kekal berada di atas aplikasi lain. Assistive Touch menyediakan butang virtual skrin utama, kembali, aplikasi terbaru, dan volume, dengan one-tap boost, kunci skrin, tangkapan skrin, senter, dan pintasan aplikasi untuk mengurangkan keausan butang fizikal. Jam dan hitung mundur berguna dalam aplikasi skrin penuh seperti game, manakala pemantau terapung memaparkan suhu CPU, suhu bateri, dan penggunaan RAM secara masa nyata. Kebolehcapaian hanya digunakan untuk fungsi tersebut; aplikasi ini tidak mengumpul sebarang data peribadi.
 
 ### Ciri Floating Assistant
 

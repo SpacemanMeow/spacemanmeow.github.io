@@ -30,7 +30,7 @@ doc_app: meow-fm
 
 ## Pendahuluan Aplikasi
 
-Meow FM adalah aplikasi [white-noise](/id/glossary/what-is-white-noise/) bertema kucing untuk tidur, relaksasi, dan fokus. Putar suara ambient menenangkan untuk terlelap lebih cepat, fokus lebih lama, atau meredam ruangan berisik. Ini pemutar **white noise offline**: pustaka suara ada di perangkat, sehingga **white noise untuk memblokir noise** tetap bekerja di pesawat atau layar terkunci. Panduan ini berjalan dari putaran pertama Anda melalui **white noise dengan pengatur waktu**, menumpuk trek ala **aplikasi suara hujan** di bawah gumaman rendah **aplikasi brown noise**, dan widget layar utama — semua dari **aplikasi white noise kucing** yang tak perlu akun.
+Meow FM adalah aplikasi [white-noise](/id/glossary/what-is-white-noise/) bertema kucing untuk tidur, relaksasi, dan fokus dengan pustaka lebih dari 15 suara ambient seperti hujan, badai petir, hutan, dan perapian. Pemutar ini sepenuhnya offline: setiap suara tersimpan di perangkat sehingga tetap bekerja di pesawat maupun saat layar terkunci. Pengatur waktu tidur 0–60 menit menghentikan pemutaran otomatis sebelum pagi, sementara widget layar utama memulai adegan dalam satu ketuk. Panduan ini menelusuri putaran pertama hingga tema dan opsi premium, tanpa memerlukan akun.
 
 **🌧 Suara Ambient**
 - A library of **15+ sounds**: rain, thunderstorm, forest, fireplace, wind, seaside, summer night, and more
@@ -50,7 +50,7 @@ Meow FM adalah aplikasi [white-noise](/id/glossary/what-is-white-noise/) bertema
 
 ## Penggunaan Pertama
 
-Layar beranda adalah satu halaman: chip suara terpilih plus daftar gulir semua suara.
+Layar beranda Meow FM adalah satu halaman yang menampilkan chip suara terpilih plus daftar gulir berisi semua suara, sehingga Anda bisa langsung menekan putar tanpa melalui menu bertingkat. Ketuk sebuah suara untuk memutarnya, ketuk lagi untuk berhenti, atau geser penggeser waktu untuk menjadwalkan penghentian otomatis. Semua kendali penting berada di halaman ini.
 
 - Tap a sound to play it
 - Tap again to stop
@@ -59,6 +59,8 @@ Layar beranda adalah satu halaman: chip suara terpilih plus daftar gulir semua s
 ![Beranda Meow FM: daftar stasiun suara ambient bertema kucing](/assets/images/blog/tutorial_fm_home.webp){: width="180" .normal }
 
 ## Memutar Suara Ambient
+
+Memutar suara ambient di Meow FM cukup satu ketuk dari daftar gulir di layar beranda, dengan lebih dari 15 pilihan seperti Hujan dan Badai Petir. Chip di atas layar diperbarui mengikuti suara yang aktif, dan ketukan pada suara yang sama menghentikan pemutaran sementara ketukan pada suara lain langsung beralih. Pemutaran tetap berlanjut saat Anda memakai aplikasi lain atau mengunci layar.
 
 1. Di layar beranda, gulir daftar suara
 2. Ketuk suara (mis. **Hujan** atau **Badai Petir**)
@@ -69,6 +71,8 @@ Pemutaran berlanjut saat Anda menggunakan aplikasi lain atau mengunci layar.
 
 ## Pengatur Waktu Tidur
 
+Pengatur waktu tidur Meow FM memakai penggeser 0 hingga 60 menit dan menghentikan pemutaran otomatis saat waktu habis, sehingga suara tidak berjalan terus sampai pagi. Atur penggeser sebelum Anda terlelap agar transisi ke tidur tidak terputus oleh notifikasi untuk mematikan audio. Pengatur waktu ini menjadi pembeda utama aplikasi ini untuk pemakaian samping tempat tidur.
+
 1. Seret **penggeser pengatur waktu** dari 0 hingga 60 menit
 2. Pemutaran berhenti otomatis saat pengatur waktu mencapai nol
 3. Atur sebelum Anda terlelap agar suara tak jalan sepanjang malam
@@ -77,15 +81,15 @@ Pemutaran berlanjut saat Anda menggunakan aplikasi lain atau mengunci layar.
 
 ## Putar Latar dan Layar Mati
 
-Meow FM menggunakan layanan pemutaran latar depan, sehingga suara tetap berjalan layar mati dan tak bergantung pada server. Ini fitur kunci untuk tidur dan fokus.
+Meow FM menggunakan layanan pemutaran latar depan, sehingga suara tetap berjalan layar mati dan tak bergantung pada server. Ini fitur kunci untuk tidur dan fokus — generator white noise tidak berhenti saat Anda mengunci perangkat atau berpindah aplikasi, dan seluruh pustaka ada di perangkat sehingga tidak perlu sinyal.
 
 ## Tema
 
-Buka **Pengaturan** dan beralih antara mode **terang** dan **gelap** (mode gelap aktif secara bawaan).
+Buka **Pengaturan** dan beralih antara mode **terang** dan **gelap**, dengan mode gelap aktif secara bawaan agar layar tetap tenang di malam hari. Pilihan tema ini mengubah tampilan daftar suara dan chip pemutar tanpa memengaruhi kualitas audio atau pemutaran offline.
 
 ## Widget Layar Utama
 
-Meow FM menyediakan tiga jenis widget yang bisa Anda taruh di layar utama:
+Meow FM menyediakan tiga jenis widget yang bisa Anda taruh di layar utama — **Suara Tunggal** untuk memutar satu suara pilihan dalam satu ketuk, **Daftar Suara** untuk akses cepat ke beberapa suara, dan **Pemutar Suara / sampul** sebagai widget pemutar. Tambahkan dari pemilih widget, lalu konfigurasi suara pada menu pengaturan widget.
 
 - **Suara Tunggal** — putar satu ketuk suara pilihan
 - **Daftar Suara** — akses cepat ke beberapa suara
@@ -97,14 +101,18 @@ Tambahkan dari pemilih widget, lalu konfigurasi suara di konfigurasi widget.
 
 ## Suara Gratis vs Premium
 
+Model harga Meow FM terdiri dari dua tingkat: satu set suara bisa diputar gratis, sementara adegan premium tambahan dibuka lewat pembelian sekali bayar tanpa langganan. Pemutaran offline, pengatur waktu tidur, dan widget sudah tersedia di tingkat gratis, sehingga Anda bisa memakai aplikasi ini untuk tidur dan fokus tanpa membayar. Pembelian hanya menambah variasi adegan.
+
 - A set of sounds is **free** to play
 - Additional **premium scenes** unlock via a **one-time purchase** (no subscription)
 
 ## Pengaturan
 
-Pengaturan mencakup tema (terang/gelap), promosi silang keluarga Meow, dan opsi tagihan / pulihkan.
+Pengaturan Meow FM mencakup tema terang atau gelap, promosi silang keluarga Meow, dan opsi tagihan atau pulihkan pembelian. Dari sini Anda juga mengelola pengaturan terkait versi premium bila memutuskan membuka adegan tambahan, sementara pemutaran dan daftar suara tetap berjalan seperti biasa.
 
 ## Skenario Umum
+
+Empat skenario memakai Meow FM memanfaatkan suara offline dan penghentian otomatis: ketuk adegan hujan atau badai dan atur pengatur waktu 60 menit agar suara menutupi pasangan yang mendengkur lalu mematikan diri; putar perapian atau tepi laut dengan layar mati selama blok kerja; andalkan bundelan suara saat penerbangan atau Wi-Fi hotel yang buruk; dan mulai adegan dari widget Suara Tunggal tanpa membuka aplikasi.
 
 - **Tidur di malam berisik** — ketuk adegan hujan atau badai, atur pengatur waktu 60 menit, dan suara menutupi pasangan yang mendengkur sebelum mematikan diri.
 - **Fokus di meja** — putar perapian atau tepi laut dan biarkan layar mati; layanan latar depan berjalan sepanjang blok kerja.

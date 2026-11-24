@@ -36,7 +36,7 @@ faq:
       Ada. Aktifkan kunci aplikasi dengan cap jari supaya senarai tugasan tetap peribadi.
 ---
 
-Meow Todo List & Task adalah pengurus senarai tugasan dan perancang jadual untuk mengatur waktu. Pernah lupa tugasan penting, atau momen berharga bersama keluarga? Aplikasi ini membantu Anda memanfaatkan hari dengan lebih baik, baik untuk mencatat ide, mengejar target peribadi, menyelesaikan kerja, memantau tabiat, mengerjakan projek bersama rekan, maupun sekadar menyusun daftar belanja.
+Meow Todo List & Task ialah pengurus senarai tugasan dan perancang jadual dengan lebih daripada 400 ikon comel untuk membantu anda mengatur waktu dan memanfaatkan hari dengan lebih baik. Antara muka yang ringkas membolehkan beberapa senarai tugasan dibuat hanya dalam dua langkah, dengan tema terang dan gelap serta paparan kalendar harian, mingguan, dan bulanan. Tugasan boleh dipecah menjadi subtugasan, dilengkapi peringatan dan detail, disegerakkan ke Google Drive atau WebDAV, serta dieksport ke CSV. Kunci cap jari menjaga privasi, sementara graf pie dan graf kontribusi memantau perkembangan kerja. Aplikasi ini sesuai untuk mencatat idea, mengejar sasaran peribadi, menyelesaikan kerja, memantau tabiat, atau sekadar menyusun senarai belanja.
 
 ### Ciri Meow Todo List & Task
 

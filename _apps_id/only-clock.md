@@ -35,7 +35,7 @@ faq:
       Only Clock berjalan di Android dan iOS. Ponsel atau iPad lama juga bisa dipakai sebagai tampilan jam.
 ---
 
-Desktop Clock adalah jam layar penuh dengan animasi flip yang menampilkan waktu, lengkap dengan widget jam. Banyak pilihan widget jam tersedia, dan aplikasi ini dapat membantu belajar, fokus bekerja, atau sekadar merapikan meja kerja.
+Only Clock (Desktop Clock) adalah **jam [flip](/id/glossary/what-is-a-flip-clock/) layar penuh** untuk Android dan iOS dengan **enam fungsi inti**: animasi flip bergaya minimalis, banyak pilihan widget jam, white noise untuk menjaga fokus, tampilan waktu dengan tanggal yang bisa diaktifkan atau disembunyikan, mode 12 jam serta 24 jam, dan tema yang bisa diganti bebas. Aplikasi ini cocok dipakai sebagai [jam meja samping tempat tidur](/id/glossary/what-is-a-nightstand-clock/) maupun jam meja kerja; ponsel atau iPad lama bisa diberi fungsi baru sebagai tampilan jam. White noise membantu belajar dan fokus bekerja, sementara widget jam memberi pilihan tampilan di layar utama.
 
 ### Fitur dan fungsi
 

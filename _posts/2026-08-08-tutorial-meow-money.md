@@ -30,7 +30,7 @@ glossary_terms: [what-is-budget-management, what-is-an-expense-tracker]
 
 ## App Introduction
 
-Meow Money Manager is a cute cartoon-style [expense tracker](/glossary/what-is-an-expense-tracker/) designed for personal financial management. With a cat-themed interface, it combines cute design with powerful features to help you easily manage your personal finances. It ships a multi-language UI — Chinese, English, Indonesian, Thai, and Portuguese — and is available on both Android [Google Play Download](https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow&hl=en) and iOS [App Store Download](https://apps.apple.com/us/app/meow-money-manager/id1528852284).
+Meow Money Manager is a cat-themed [expense tracker](/glossary/what-is-an-expense-tracker/) for personal financial management with 400+ cartoon icons, three transaction types — expenses, income and transfers — and 50+ currency symbols. It stores everything locally with no account, backs up to Google Drive, iCloud or WebDAV, and offers a five-language UI in Chinese, English, Indonesian, Thai and Portuguese. It is available on Android [Google Play Download](https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow&hl=en) and iOS [App Store Download](https://apps.apple.com/us/app/meow-money-manager/id1528852284). This guide walks from the first launch through bookkeeping, budgets, statistics, assets, ledgers, recurring entries and reimbursements.
 
 **🐱 Adorable Interface Design**
 - Cat-themed cute cartoon interface that makes bookkeeping fun
@@ -92,7 +92,8 @@ Meow Money Manager is a cute cartoon-style [expense tracker](/glossary/what-is-a
 
 ## First-time Use
 
-The main interface includes the following main parts:
+The main interface of Meow Money Manager has four parts: a bookkeeping button at the bottom right for quick entry, a bottom navigation bar with bookkeeping, statistics, assets and settings, and a top banner showing the current ledger and asset overview. With 400+ icons and 50+ currency symbols available, the first record is one tap away and no account is needed.
+
 - Bookkeeping button: located at the bottom right, used to quickly add bookkeeping records
 - Bottom navigation bar: includes four options: bookkeeping, statistics, assets, and settings
 - Top banner: displays current ledger and asset overview
@@ -101,7 +102,7 @@ The main interface includes the following main parts:
 
 ## Bookkeeping Features
 
-Meow Money Manager's bookkeeping features are very intuitive, supporting three types of records: expenses, income, and transfers.
+Meow Money Manager's bookkeeping features support three types of records — expenses, income and transfers — with 400+ category icons, notes and one-click quick entry. Expense and income records take a category, amount, payment asset, ledger and optional note; transfers move money between source and target assets with an optional handling fee. Both are confirmed from the same bottom bookkeeping button.
 
 ### Add Expense or Income Record
 
@@ -131,7 +132,7 @@ Meow Money Manager's bookkeeping features are very intuitive, supporting three t
 
 ## Budget Management
 
-Meow Money Manager supports multiple types of budget management, including daily, weekly, monthly, yearly, and custom cycle budgets.
+Meow Money Manager supports daily, weekly, monthly, yearly and custom budget cycles, with multiple budgets tracked at once and per-category limits. Add a budget from the banner or settings, choose a type, set category budgets and amounts, then name it. The details page shows total and used budget, remaining amount and days, daily average and usage per category.
 
 ### Add Budget
 
@@ -157,7 +158,7 @@ On the budget details page, you can view:
 
 ## Statistics and Analysis
 
-Meow Money Manager provides multiple statistical analysis functions to help you understand your financial situation.
+Meow Money Manager provides pie, bar and calendar-chart statistics by day, week, month, year or custom range. The pie chart shows expense and income proportions by category, the bar chart shows daily or monthly trends, and the calendar view uses color depth for daily amounts. Open the bottom statistics tab, pick a range and switch chart types.
 
 ### Statistics Types
 
@@ -173,7 +174,7 @@ Meow Money Manager provides multiple statistical analysis functions to help you 
 
 ## Asset Management
 
-Meow Money Manager supports managing multiple types of assets, such as cash, bank cards, credit cards, etc.
+Meow Money Manager manages multiple asset types — cash, bank cards, credit cards, stocks and funds — with balance tracking, income and expense records and trend charts. Add an asset from the bottom asset tab by choosing a type, name, initial amount and icon. Tapping an asset opens its details with balance, records and trend curves.
 
 ### Add Asset
 
@@ -198,7 +199,7 @@ Click on an asset to enter the details page, where you can view:
 
 ## Ledger Management
 
-Meow Money Manager supports creating multiple ledgers for managing different types of income and expenses.
+Meow Money Manager supports multiple ledgers for separating income and expenses, with independent statistics for each — a VIP feature. Add a ledger from the banner or settings with a name and icon, switch ledgers from the picker while bookkeeping, and open a ledger for its income/expense statistics, budget usage and detailed records.
 
 ### Add Ledger
 
@@ -229,7 +230,7 @@ Click on a ledger to enter the details page, where you can view for that ledger:
 
 ## Recurring Transactions
 
-The recurring transaction feature can help you automatically record regular income and expenses, such as salary, rent, utilities, etc.
+Meow Money Manager's recurring transactions automatically record regular income and expenses such as salary, rent and utilities on daily, weekly, monthly or yearly cycles. Add one from settings with a type, category, amount, asset, ledger, cycle period and start and end dates. The list lets you view, edit, delete or manually trigger each task.
 
 ### Add Recurring Transaction
 
@@ -257,7 +258,7 @@ In the recurring transaction list, you can:
 
 ## Expense Reimbursement
 
-The expense reimbursement feature can help you track expenses that need to be reimbursed.
+Meow Money Manager's expense reimbursement feature tracks costs owed back to you, distinguishing reimbursed from unreimbursed entries and supporting full or partial reimbursement. Tick the Reimburse option when adding an expense, then manage the record from settings by marking it reimbursed with an amount, date and method. That closes the loop without a separate tracker.
 
 ### Add Reimbursement Record
 
@@ -280,7 +281,7 @@ The expense reimbursement feature can help you track expenses that need to be re
 
 ## Settings
 
-Meow Money Manager provides multiple setting options to help you customize app functions.
+Meow Money Manager's Settings cover theme (light, dark or follow system), language, currency symbol, week and month start days, fingerprint or password privacy lock, Google Drive/iCloud/WebDAV backup and CSV export. Those controls customize the 50+ currency display and keep the local data recoverable, without changing the three transaction types.
 
 ### Basic Settings
 

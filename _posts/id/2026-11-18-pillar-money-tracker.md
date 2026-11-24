@@ -23,14 +23,14 @@ lang: id
 ## Apa itu money tracker
 {: #what-a-money-tracker-is}
 
-Money tracker menjawab tiga pertanyaan sederhana: berapa uang masuk, berapa uang keluar dan berapa yang tersisa. Alat ini bisa berupa spreadsheet, buku catatan atau aplikasi, tetapi aplikasi yang baik menghilangkan pengelompokan manual. Setiap entri memiliki jumlah, kategori dan tanggal; aplikasi lalu mengelompokkannya menjadi anggaran, laporan atau total berjalan.
+Money tracker menjawab **tiga pertanyaan sederhana** — berapa uang masuk, berapa uang keluar, dan berapa yang tersisa — dengan mengubah transaksi harian menjadi kategori, total, dan tren yang bisa ditindaklanjuti. Alatnya bisa berupa spreadsheet, buku catatan, atau aplikasi, tetapi aplikasi yang baik menghilangkan pengelompokan manual: setiap entri membawa jumlah, kategori, dan tanggal, lalu otomatis dirangkum menjadi anggaran, laporan, atau total berjalan. Ia berbeda dari pencatat pengeluaran yang menekankan riwayat dan aplikasi anggaran yang menekankan batas, karena money tracker menghubungkan keduanya. Yang paling menentukan bukan label produk, melainkan apakah mencatat satu transaksi cukup cepat untuk menjadi kebiasaan.
 
 Istilah ini sering dipakai bersama [aplikasi catatan keuangan](/id/glossary/what-is-an-expense-tracker/) dan [pengelolaan anggaran](/id/glossary/what-is-budget-management/). Fokusnya berbeda: pencatat pengeluaran menekankan riwayat, aplikasi anggaran menekankan batas, sementara money tracker menghubungkan keduanya agar aliran uang terlihat utuh. Bagi sebagian besar orang, pertanyaan penting bukanlah label aplikasinya, melainkan apakah mencatat satu transaksi cukup cepat untuk menjadi kebiasaan.
 
 ## Apa yang harus dicatat
 {: #what-to-track}
 
-Anda tidak perlu mencatat semua detail. Mulailah dari kolom yang benar-benar mengubah keputusan:
+Money tracker cukup mencatat **lima kelompok kolom** yang benar-benar mengubah keputusan: pemasukan dan pengeluaran beserta jumlahnya, kategori dan tanggal yang membentuk hampir semua laporan, catatan singkat serta metode pembayaran untuk penggantian biaya atau tagihan bersama, item berulang seperti sewa dan gaji yang sebaiknya otomatis, serta konteks opsional berupa buku, mata uang, atau tag. Anda tidak perlu mencatat setiap detail — kolom yang tidak pernah dipakai untuk mengambil keputusan hanya menambah gesekan. Mulailah dari jumlah, kategori, dan tanggal, lalu tambahkan sisanya hanya saat perlu memisahkan uang kerja, perjalanan, atau keluarga.
 
 - **Pemasukan dan pengeluaran.** Catat jumlahnya dan tandakan sebagai uang masuk atau keluar.
 - **Kategori dan tanggal.** Kedua kolom ini membentuk hampir semua laporan berguna.
@@ -41,7 +41,7 @@ Anda tidak perlu mencatat semua detail. Mulailah dari kolom yang benar-benar men
 ## Cara membaca angkanya
 {: #how-to-read-the-numbers}
 
-Laporan pertama yang perlu dibaca bukan grafik, melainkan selisih antara perkiraan dan kenyataan. Bandingkan bulan ini dengan bulan sebelumnya, lalu lihat perubahan kategori terbesar. Pengeluaran kecil yang berulang tiga puluh kali sering lebih penting daripada satu pembelian besar yang jarang terjadi.
+Cara membaca angka money tracker dimulai dari **selisih antara perkiraan dan kenyataan**, bukan dari grafik. Bandingkan bulan ini dengan bulan sebelumnya, lalu lihat perubahan kategori terbesar; pengeluaran kecil yang berulang **tiga puluh kali** sering lebih penting daripada satu pembelian besar yang jarang terjadi. Empat angka yang perlu dibaca berurutan: **saldo total** (hanya data yang tercatat, bukan saldo semua rekening), **porsi kategori** (tempat pengeluaran terkonsentrasi), **perbandingan periode** (apakah perubahan bersifat sementara atau kebiasaan), dan **sisa anggaran** (berguna hanya bila diperbarui saat Anda mencatat). Tracker menjadi berguna ketika angkanya mendorong tindakan.
 
 1. **Saldo total** menunjukkan data yang tercatat, bukan saldo semua rekening bank.
 2. **Porsi kategori** menunjukkan tempat pengeluaran terkonsentrasi.
@@ -53,7 +53,7 @@ Tracker menjadi lebih berguna ketika angkanya mendorong tindakan: menaikkan bata
 ## Cara memilih
 {: #how-to-choose}
 
-Money tracker terbaik adalah yang sesuai dengan kebutuhan privasi dan rutinitas harian Anda. Daftar fitur kurang penting daripada kemampuan membuka aplikasi, menambah entri dan menutupnya dalam beberapa detik.
+Money tracker terbaik adalah yang sesuai dengan **privasi dan rutinitas harian** Anda; daftar fitur kurang penting daripada kemampuan membuka aplikasi, menambah entri, dan menutupnya dalam beberapa detik. Empat kriteria yang perlu dicek: **privasi terlebih dahulu** (tanpa akun, penyimpanan di perangkat, kunci sidik jari opsional), **entri cepat** (widget layar utama atau alur tambah singkat), **data dan jalan keluar** (ekspor CSV serta backup yang Anda kontrol), dan **kesesuaian platform** (Android dan iOS, widget, serta **lebih dari 50 simbol mata uang** bila sering bepergian).
 
 - **Privasi terlebih dahulu:** cari aplikasi tanpa akun, penyimpanan di perangkat dan kunci sidik jari opsional.
 - **Entri cepat:** widget layar utama atau alur tambah yang singkat lebih berharga daripada dasbor rumit.

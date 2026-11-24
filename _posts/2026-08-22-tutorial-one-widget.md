@@ -30,7 +30,7 @@ doc_app: one-widget
 
 ## App Introduction
 
-One Widget packs **500+ customizable Android [home-screen widgets](/glossary/what-is-a-home-screen-widget/)** in four trending styles, plus app shortcuts and quick toggles. It is a **widget app** you can use without an account: browse the four style libraries, place a preset, then resize it and change its background and corner radius. This guide walks the full loop from first launch through the styles, adding and configuring a widget, **widget with app shortcuts android** toggles, and live clock, calendar and battery info.
+One Widget packs 500+ customizable Android [home-screen widgets](/glossary/what-is-a-home-screen-widget/) in four styles — One UI, Nothing, Glass and Material You — plus 11 quick toggles and app shortcuts, with no account needed. It ships as two apps: a free lite build with only One UI and a paid full build with all four styles, installed from Google Play rather than an in-app purchase. This guide walks from the four-tab gallery through adding, configuring and placing widgets, toggles and live clock, calendar and battery info.
 
 **🎨 Four Styles**
 - **One UI** (default; the only style included in the free "lite" app)
@@ -54,7 +54,7 @@ One Widget packs **500+ customizable Android [home-screen widgets](/glossary/wha
 
 ## First-time Use
 
-Open One Widget to a 4-tab gallery: **One UI / Nothing / Glass / Material You**.
+Open One Widget to a 4-tab gallery — One UI, Nothing, Glass and Material You — with each style page listing categories such as Tools, Entry, Hardware, Clock, Launcher, Combo, Note and Contact. Tap a category to see widget previews; One UI is the only style in the free lite app, and the other three need the paid full app. With 500+ presets, the first widget is a few taps away.
 
 - Each style page lists categories: Tools, Entry, Hardware, Clock, Launcher, Combo, Note, Contact
 - Tap a category to see the widget previews
@@ -66,9 +66,11 @@ Open One Widget to a 4-tab gallery: **One UI / Nothing / Glass / Material You**.
 
 ## Browse the 4 Styles
 
-Switch the top tabs to preview each style. **One UI** is the default and is available in the free lite app; Nothing / Glass / Material You require the paid full app.
+One Widget's top tabs preview all four styles: One UI is the default and ships in the free lite app, while Nothing, Glass and Material You require the paid full app. Switch tabs to compare the dot-matrix, translucent and color-matched looks against the stock One UI presets. Note that the Material You style here uses fixed blue/purple day-night palettes, not Android 12 wallpaper-based dynamic color.
 
 ## Add a Widget
+
+Adding a One Widget preset starts from the Android home screen rather than inside the app: long-press, open Widgets, find One Widget and pick a variant, then set options on the configure screen and confirm. The 500+ presets cover sizes from 1x1 up to 6x2. Once placed, the widget can be resized and recolored from its configuration.
 
 1. Long-press your home screen → **Widgets**
 2. Find **One Widget** in the list and pick a variant
@@ -79,7 +81,7 @@ Switch the top tabs to preview each style. **One UI** is the default and is avai
 
 ## Configure a Widget
 
-Most widgets share common options:
+Most One Widget presets share a common set of options: a theme-color palette, dark or light mode, a circle or rounded-rectangle shape, and grid sizes from 1x1, 2x1 and 4x1 up to 6x2. Icon background color and corner radius are derived from the shape — circle uses half the size, rounded uses a third — so a widget blends with the launcher in a few taps rather than a geometry editor.
 
 - **Theme color** (pop-up palette)
 - **Dark / light** mode
@@ -92,6 +94,8 @@ Icon background color and corner radius are derived from the shape (circle = siz
 
 ## Quick Toggles
 
+One Widget offers 11 quick toggles — Bluetooth, mobile data, Wi-Fi, torch, rotate, airplane, hotspot, DND, location, vibrate and dark mode — that can be placed singly or combined up to 5 in a Combine 4x1 bar. Pick a toggle type, place it, and tap to act: Torch switches the flashlight through the camera API, while Wi-Fi, Bluetooth and DND open system settings and Rotate writes the auto-rotate setting.
+
 1. From a toggle widget, choose the toggle type (Wi-Fi, Bluetooth, torch, rotate, DND, …)
 2. Place single toggles, or use the **Combine 4x1** widget to put up to 5 toggles in one bar (defaults: Bluetooth / Wi-Fi / mobile data / torch / rotate)
 3. Tap a toggle to act:
@@ -101,11 +105,15 @@ Icon background color and corner radius are derived from the shape (circle = siz
 
 ## App Shortcuts
 
+One Widget's app-shortcut widget gives one-tap launches from the home screen: configure the widget, pick an installed app for each slot from the launcher list, then tap to launch it — or Google Play if it is not installed. Combined with the 11 toggles and 500+ presets, it keeps daily actions off the app drawer.
+
 1. Configure an **App shortcut** widget
 2. In each slot, pick an installed app from the launcher list
 3. Tap the widget to launch that app (or Google Play if it is not installed)
 
 ## Live Info Widgets
+
+One Widget's live info widgets show clock, calendar, battery and RAM data that updates in place without opening an app. Clock widgets redraw on the system widget-update cycle every 30 minutes and on size change, battery and RAM widgets poll roughly every 60 seconds, and battery also refreshes instantly from the battery-changed broadcast. Calendar and note widgets stay static or refresh on the 30-minute cycle.
 
 - **Clock** widgets redraw on the system widget-update cycle (every 30 min) and on size change
 - **Battery / RAM** widgets poll device stats roughly every **60 seconds**; battery also updates instantly from the battery-changed broadcast
@@ -113,9 +121,11 @@ Icon background color and corner radius are derived from the shape (circle = siz
 
 ## Settings
 
-Settings include dark mode, language, temperature unit, rate, share, feedback, privacy and version.
+One Widget's Settings cover dark mode, language, temperature unit, rate, share, feedback, privacy and version. Those controls tune the display and app behavior around the four style libraries and 500+ presets, without changing how widgets are placed or how the toggles act.
 
 ## Typical scenarios
+
+One Widget covers five everyday cases: a fresh themed home screen in 5 minutes from the 4-tab gallery, wallpaper-matching through theme color and shape, one-tap Wi-Fi/Bluetooth/torch in a 4x1 bar, app and contact shortcuts, and coverage across Galaxy, Pixel and Nothing. The free lite app covers One UI; the full app unlocks all four styles.
 
 - **A fresh home screen in 5 minutes** — open the 4-tab gallery, tap a style, pick a clock or weather widget, and place it; no editor, no Kode.
 - **Match the wallpaper** — set theme color and dark/light, pick a circle or rounded shape, and the widget blends with your launcher.

@@ -42,7 +42,7 @@ faq:
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
-Meow Todo List & Task is a simplify todo list manager and schedule planner app which can be used to manage your time. Have you ever forgotten some important things to do? Have you forgotten important moments for your family? Use this effective task tracker and todo list task manager to help you manage time. Meow Todo List & Task helps you make the most of your day and get things done (GTD). Whether there is an idea you want to capture, personal goals to achieve, work to accomplish, habits to track, projects to collaborate with colleagues, or even a shopping list. Achieve your goals with Meow Todo List & Task.
+Meow Todo List & Task is a to-do list manager and schedule planner on Android and iOS that organizes tasks in two steps and offers 400+ cute icons for lists and tags. It supports daily, weekly and monthly plans in a calendar view, breaks work into subtasks with notes and reminders, and tracks progress through pie charts and a contribution graph. Lists back up to Google Drive or WebDAV and export to CSV, a fingerprint lock keeps tasks private, and dark, light and system themes cover different working conditions.
 
 ### Features of Meow Todo List & Task - complete guide
 

@@ -41,7 +41,7 @@ faq:
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
-The most beautiful and powerful cpu monitor for android! You are able to monitor cpu temperature and frequency real time, and analyze the cpu temperature and frequency history data. Cpu monitor provides many kinds of tools. including: ram widget, cpu widget, battery widget, desktop floating window, over heat alarm. You can monitor the ram, cpu and battery information very convenient. The detail features including:
+CPU Monitor is an Android hardware dashboard that watches CPU temperature and frequency in real time, analyzes their history and supports multicore CPU monitoring, with every figure read from the device's own sensors. It puts a status bar and desktop floating window above other apps and adds three home-screen widgets for CPU, RAM and battery, so the numbers stay visible without opening the app. An overheat alarm can be turned on or off when the CPU or battery runs hot, and the app follows battery temperature alongside memory and processor usage.
 
 **CPU Monitor**
 

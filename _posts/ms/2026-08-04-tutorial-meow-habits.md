@@ -50,7 +50,7 @@ Meow Habits adalah **[aplikasi habit tracker](/ms/glossary/what-is-a-habit-track
 
 ## Penggunaan Pertama
 
-Aplikasi terbuka di tab **Skrin utama** yang memaparkan tabiat hari ini serta kalendar bulanan.
+**Meow Habits** dibuka pada tab **Skrin utama** yang memaparkan tabiat hari ini bersebelahan kalendar bulanan, dengan empat tab bawah — Skrin utama, Tabiat, Trend, dan Tetapan — untuk navigasi yang cepat. Butang **+** menambah tabiat pertama; versi percuma membenarkan sehingga **5 tabiat**, manakala VIP membuka jumlah tanpa had. Antara muka ini menggabungkan pencatatan harian dan gambaran bulan dalam satu paparan, jadi anda terus melihat streak dan tarikh yang perlu dicentang tanpa berpindah skrin. Panduan ini menelusuri tab tersebut langkah demi langkah.
 
 - Tab bawah: **Skrin utama**, **Tabiat**, **Trend**, **Tetapan**
 - Ketik **+** untuk menambah tabiat pertama (versi percuma hingga **5 tabiat**; VIP membuka tanpa had)
@@ -58,6 +58,8 @@ Aplikasi terbuka di tab **Skrin utama** yang memaparkan tabiat hari ini serta ka
 ![Tab Skrin utama Meow Habits: daftar check-in hari ini dan kalendar bulanan di aplikasi habit tracker](/assets/images/blog/tutorial_habit_home.webp){: width="180" .normal }
 
 ## Menambahkan Tabiat
+
+**Meow Habits** membimbing anda melalui sembilan langkah menambah tabiat, bermula dengan butang **+** pada tab Skrin utama dan diakhiri dengan **Konfirmasi**. Pemilih ikon menawarkan kira-kira **590 ikon** dalam **14 kategori**, manakala siklus boleh ditetapkan sebagai Harian, Mingguan, Bulanan, Hari Tertentu, atau aturan tersuai "Setiap N hari/minggu". Anda juga menentukan nama, buku senarai, jenis, target, dan tarikh mula supaya tabiat benar-benar sesuai dengan rutin. Sembilan langkah di bawah melengkapkan satu tabiat baharu.
 
 1. Ketik **+** di tab Skrin utama
 2. Pilih **template** atau mulai kosong → membuka **Tambah Tabiat**
@@ -73,6 +75,8 @@ Aplikasi terbuka di tab **Skrin utama** yang memaparkan tabiat hari ini serta ka
 
 ## Check-in Harian
 
+**Meow Habits** memaparkan cincin progres besar pada skrin check-in untuk menunjukkan target hari sesuatu tabiat, dengan butang **+ / −**, **Input**, **Lewati**, dan **Selesai** untuk mencatat kemajuan dengan tepat. Anda boleh membuka skrin ini dari tab Skrin utama mahupun Tabiat, dan menu tiga titik menyediakan Trend, Notifikasi, Catatan, Edit, Arsip, dan Padam. Satu ketikan pada tabiat sudah memulakan rekod harian, jadi mengekalkan streak tidak memerlukan langkah rumit. Empat langkah di bawah memandu check-in harian.
+
 1. Di tab Skrin utama atau Tabiat, ketik sebuah tabiat untuk membuka skrin **check-in**
 2. Cincin progres besar memaparkan target hari ini
 3. Pakai **+ / −** untuk mengubah jumlah, **Input** untuk mengetik nilai, **Lewati** untuk melewati, atau **Selesai** untuk menuntaskan
@@ -81,6 +85,8 @@ Aplikasi terbuka di tab **Skrin utama** yang memaparkan tabiat hari ini serta ka
 ![Skrin check-in harian dengan cincin progres pada aplikasi penjejak tabiat comel](/assets/images/blog/tutorial_habit_checkin.webp){: width="180" .normal }
 
 ## Peringatan
+
+**Meow Habits** menyediakan peringatan harian yang boleh diaktifkan untuk setiap tabiat, dengan **3 chip waktu** dan pilihan hari dari Min hingga Sab supaya notifikasi muncul tepat bila anda mahu check-in. Anda membuka tabiat, mengetik ikon lonceng, menghidupkan peringatan, kemudian memilih masa dan hari yang berlaku. Fungsi ini penting untuk mengekalkan streak — sentilan pada masa yang konsisten mengubah tabiat daripada niat menjadi rutin. Empat langkah di bawah menyediakan peringatan.
 
 1. Buka sebuah tabiat dan ketik pilihan peringatan (lonceng)
 2. Aktifkan peringatan harian
@@ -91,6 +97,8 @@ Aplikasi terbuka di tab **Skrin utama** yang memaparkan tabiat hari ini serta ka
 
 ## Streak dan Trend
 
+**Meow Habits** mendedahkan angka streak, batang sejarah, dan peta panas kalendar pada skrin **Detail** tabiat, serta graf dan pencapaian pada tab **Trend** — dua paparan yang menukar rekod harian menjadi gambaran kemajuan yang jelas. Peta panas membuat hari yang terlewat kelihatan serta-merta, supaya anda boleh membetulkan rutin sebelum satu kelalaian menjadi streak yang putus. Gabungan detail per tabiat dan trend keseluruhan membantu anda membezakan tabiat yang benar-benar bertahan daripada yang sekadar dicuba. Dua langkah di bawah membuka kedua-dua paparan ini.
+
 1. Buka tabiat → **Detail** untuk melihat angka streak, batang sejarah, dan peta panas kalendar
 2. Beralih ke tab **Trend** untuk graf dan pencapaian
 
@@ -98,18 +106,22 @@ Aplikasi terbuka di tab **Skrin utama** yang memaparkan tabiat hari ini serta ka
 
 ## Edit, Arsip, atau Padam
 
-Dari menu 3 titik di skrin check-in Anda boleh **Edit**, **Arsip** (sejarah tetap disimpan tetapi disembunyikan), atau **Padam** sebuah tabiat.
+**Meow Habits** menyediakan tiga tindakan pengurusan tabiat melalui menu tiga titik pada skrin check-in — **Edit**, **Arsip**, dan **Padam** — supaya anda boleh menyesuaikan senarai tanpa kehilangan rekod yang masih berguna. Arsip menyimpan sejarah tabiat tetapi menyembunyikannya daripada paparan harian, sesuai untuk tabiat yang sudah tidak diamalkan namun masih ingin dirujuk. Padam membuang tabiat itu bersama datanya, jadi ia sesuai hanya jika anda benar-benar tidak memerlukannya lagi. Pilih tindakan yang betul dengan berhati-hati melalui menu tiga titik di skrin check-in.
 
 ## Sandaran dan Eksport
+
+**Meow Habits** menyediakan dua laluan untuk menjaga data tabiat — **Google Drive / WebDav** melalui Tetapan untuk sandaran dan pemulihan, serta **Eksport CSV** untuk menarik rekod ke spreadsheet. Sandaran berfungsi apabila anda bertukar peranti atau melakukan tetapan semula kilang, manakala eksport berguna untuk analisis yang lebih mendalam di luar aplikasi. Eksport CSV tersedia melalui VIP, tetapi ia memberi anda kawalan penuh ke atas sejarah tabiat. Dua pilihan disenaraikan di bawah supaya data sentiasa milik anda.
 
 - **Tetapan → Google Drive / WebDav** untuk mencadangkan dan memulihkan
 - **Tetapan → Eksport** memungkinkan Anda memilih tabiat, menentukan julat tarikh, dan berkongsi **CSV**
 
 ## Tetapan
 
-Tetapan merangkumi banner VIP, **mode gelap**, **bahasa**, **hari awal pekan**, **kunci aplikasi** (VIP), suara, notifikasi, **widget**, Daftar, Tabiat, **Eksport** (VIP), Google Drive, WebDav, dan bahagian keluarga Meow.
+**Meow Habits** mengumpulkan pelbagai tetapan dalam satu skrin — banner VIP, **mode gelap**, **bahasa**, **hari awal pekan**, **kunci aplikasi** (VIP), suara, notifikasi, **widget**, senarai Daftar dan Tabiat, **Eksport** (VIP), Google Drive, WebDav, serta bahagian keluarga Meow — supaya anda boleh menyesuaikan aplikasi mengikut keperluan privasi dan rutin. Tetapan hari awal pekan penting untuk kalendar dan streak, manakala kunci aplikasi melindungi rekod pada peranti bersama. Sandaran Google Drive dan WebDav memastikan sejarah selamat selepas ganti peranti. Semua pilihan ini tersedia dari skrin Tetapan.
 
 ## Senario Umum
+
+Empat senario harian menunjukkan di mana **Meow Habits** memberi nilai paling jelas dengan **590 ikon**, streak harian, peringatan, peta panas, dan sandaran offline-nya: rutinitas pagi, menghentikan tabiat buruk, meninjau bulan, dan mengekalkan privasi tanpa akaun. Dalam setiap kes, pencatatan satu ketikan dari widget mengekalkan streak, manakala peringatan mengubah niat menjadi rutin yang konsisten. Eksport CSV dan sandaran Google Drive/WebDav menjaga sejarah tetap milik anda selepas ganti peranti. Butiran setiap senario disenaraikan di bawah.
 
 - **Rutinitas pagi** — setelah disiapkan, sematkan 'Minum air' dan 'Peregangan' ke widget skrin utama dan check-in dari skrin kunci supaya streak harian tidak pernah putus.
 - **Hentikan tabiat buruk** — buat tabiat 'Berhenti scroll' dengan peringatan harian; peta panas kalendar membuat satu kelalaian kelihatan sebelum berubah jadi streak yang putus.

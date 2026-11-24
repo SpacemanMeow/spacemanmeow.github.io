@@ -20,6 +20,8 @@ Kalau Anda lebih peduli pada mana yang cocok untuk saya daripada bagaimana merek
 
 ## Sekilas: mekanisme kebiasaan 7 aplikasi
 
+Tujuh aplikasi kebiasaan diringkas di bawah ini lewat lima kolom — satuan catatan, model periode, perlakuan hari terlewat, statistik utama, dan kepemilikan data — agar perbedaan definisi konsistensi terlihat sekaligus. Meow Habits menyimpan satu catatan kumulatif per periode dengan lima aksi centang, periode harian hingga setiap N hari, streak yang dihitung mundur, penanda dilewati yang tidak memutus rantai, serta data di perangkat tanpa akun. Streaks memakai satu centang per tugas di ekosistem Apple dengan streak yang kembali nol setelah hari wajib terlewat. Habitica mengubah catatan jadi XP, koin, dan nyawa yang terpotong saat Daily gagal. Loop Habit Tracker memakai skor kebiasaan yang meluruh, bukan nol, dengan data offline. Habitify dan Productive bertumpu pada akun dan blok waktu, sementara Fabulous menjalankan program bertahap alih-alih streak. Tiga tipe utama: pencatat, permainan, dan kursus.
+
 | Aplikasi | Satu catatan mewakili | Model periode | Setelah satu hari terlewat | Statistik utama | Kepemilikan data |
 |---|---|---|---|---|---|
 | **Meow Habits** | Satu catatan kumulatif per periode: `+1` / `-1` / input angka / selesai / dilewati | Harian, mingguan, bulanan, hari tertentu, setiap N hari, dengan target dan satuan | Streak dihitung mundur lewat periode valid; bisa ditandai dilewati tanpa memutus | Streak saat ini, streak terpanjang, jumlah selesai, tingkat penyelesaian, kalender dan heatmap 365 hari | Di perangkat, tanpa akun; ekspor CSV, cadangan Google Drive / WebDAV |
@@ -36,7 +38,7 @@ Perbedaan yang langsung terlihat: **Meow Habits, Streaks, Loop, Habitify dan Pro
 
 ## Pahami dulu: apa yang sebenarnya dicatat aplikasi kebiasaan
 
-Sebelum membandingkan produk, beberapa konsep yang terus muncul tapi jarang dijelaskan perlu dibedah. Ini bukan permainan istilah — setiap angka yang Anda lihat di aplikasi ditentukan oleh konsep-konsep ini.
+Aplikasi kebiasaan mencatat tiga hal yang saling bertumpuk — **target, periode, dan satu catatan** — bukan sekadar "saya olahraga hari ini". Target bisa boolean atau numerik dengan satuan, periode bisa sehari, seminggu, sebulan, atau hari tertentu seperti Senin/Rabu/Jumat, dan catatannya berupa selesai, terkumpul berapa, atau sengaja dilewati. Memahami ini menjelaskan kebingungan umum: kemarin sudah centang tetapi streak hari ini masih 0 karena kemarin masuk periode sebelumnya. Ketujuh produk dalam perbandingan ini — Meow Habits, Streaks, Habitica, Loop, Habitify, Productive, dan Fabulous — berbeda terutama pada definisi ketiga hal tersebut.
 
 ### Satu kebiasaan = target + periode + satu catatan
 
@@ -106,7 +108,7 @@ Kemampuan ekspor sama krusialnya. Meow Habits bisa mengekspor catatan ke CSV mau
 
 ## Untuk apa sebenarnya aplikasi kebiasaan
 
-Usai membahas mekanisme, kembali ke pertanyaan praktis: dengan satu ketukan setiap hari, apa yang Anda dapat?
+Aplikasi kebiasaan memberi **empat manfaat nyata** dari satu ketukan harian: mengubah niat kabur jadi fakta yang bisa dicek, menekan biaya memulai lewat pengingat dan widget, memberi umpan balik berupa cincin progres atau kalender, serta menyediakan dasar evaluasi saat rantai terputus. Dalam ilmu perilaku, praktik ini disebut **pemantauan diri**; Lally dkk. (2010) memperkirakan median **sekitar 66 hari** dengan rentang individu **18 sampai 254 hari** sampai perilaku menjadi otomatis. Namun tinjauan Burke dkk. (2011) menilai kekuatan buktinya lemah, jadi catatan adalah alat, bukan jaminan hasil — nilainya membuat perilaku terlihat dan mengecilkan gesekan, bukan menggantikan Anda membentuk kebiasaan.
 
 ### Mengubah niat yang kabur jadi fakta yang bisa dicek
 
@@ -141,7 +143,7 @@ Satu kalimat: nilai aplikasi kebiasaan ada pada **membuat perilaku terlihat, men
 
 ## Kerangka penilaian: enam titik teknis yang membedakan
 
-Enam pertanyaan berikut adalah kerangka yang bisa dipakai untuk membandingkan dua aplikasi kebiasaan apa pun. Bedah per produk dan tabel perbandingan di bawah semuanya mengikuti keenam poin ini.
+Kerangka penilaian untuk **7 aplikasi kebiasaan** memakai **enam titik teknis** yang bisa dicek satu per satu: satuan catatan (centang atau target angka), model periode (hari kalender, N kali seminggu, hari tertentu, atau setiap N hari), semantik hari terlewat (nol, meluruh, dilewati, atau potong nyawa), aturan selesai dan definisi statistik, jalur pengingat sekali sentuh, serta kepemilikan dan portabilitas data. Keenam poin ini dipakai secara konsisten dalam bedah produk dan tabel perbandingan di bawah, sehingga angka 75% di satu aplikasi tidak disamakan begitu saja dengan 75% di aplikasi lain.
 
 ### 1. Satuan catatan: centang vs target angka
 
@@ -178,6 +180,8 @@ Wajib daftar atau tidak, data di perangkat atau di cloud, bisa diekspor ke forma
 ---
 
 ## Bedah 7 aplikasi satu per satu
+
+Bedah tujuh aplikasi ini mengikuti enam titik teknis yang sama: apa yang dihitung sebagai satu catatan, bagaimana periodenya didefinisikan, apa yang terjadi setelah satu hari terlewat, bagaimana statistik dirumuskan, seberapa pendek jalur pengingatnya, dan di mana data disimpan. Meow Habits mengandalkan catatan lokal tanpa akun dengan lima aksi centang; Streaks memakai hitungan streak yang kembali nol; Habitica mengubah catatan jadi XP, koin, dan nyawa; Loop menggunakan skor kebiasaan yang meluruh; Habitify, Productive, dan Fabulous bertumpu pada akun dan sinkron. Tiga tipe ini — pencatat, permainan, dan kursus — berangkat dari asumsi berbeda soal arti konsisten.
 
 ### Meow Habits (Android)
 
@@ -300,6 +304,8 @@ Bentuk produknya berjalan sebagai journey, lengkap dengan materi pelatih, rutini
 
 ## Perbandingan mendalam pada dimensi kunci
 
+Perbandingan mendalam pada dimensi kunci memusatkan perhatian pada empat hal yang paling mengubah pengalaman: semantik hari terlewat, kombinasi periode dan target pengingat, jalur masuk sekali sentuh beserta lokasi data, serta platform dan skema bayar. Tabel di bawah memperlihatkan bahwa **satu hari terlewat** bisa berarti streak nol di Streaks, skor meluruh di Loop, periode ditandai dilewati di Meow Habits, nyawa berkurang di Habitica, atau sekadar kalender yang tidak tercentang di Habitify, Productive, dan Fabulous. Perbedaan ini lebih menentukan daripada jumlah fitur, karena menyangkut bagaimana aplikasi memperlakukan manusia yang sesekali lupa.
+
 ### Semantik hari terlewat dan kelalaian
 
 | Aplikasi | Satu hari terlewat | Dilewati sengaja | Isi riwayat mundur | Tanggal masa depan |
@@ -351,7 +357,7 @@ Bentuk produknya berjalan sebagai journey, lengkap dengan materi pelatih, rutini
 
 ## Mana yang sebaiknya Anda pilih
 
-Terapkan kerangka enam poin pada situasi Anda sendiri, dan pilihannya jadi jauh lebih jelas:
+Pemilihan di antara **7 aplikasi kebiasaan** menjadi jelas bila kerangka enam poin diterapkan pada situasi sendiri. Tanya dulu apakah catatan perlu angka — untuk 8 gelas, 30 menit, atau 3 km, Meow Habits dan Loop paling lengkap; satu centang cukup untuk Streaks, Habitify, dan Productive. Lalu tanya apakah jadwalnya rapi, apakah kembali nol setelah satu hari bisa diterima, di mana data ditaruh, dan apakah Anda membutuhkan alat atau program. Meow Habits dan Loop cocok untuk data lokal tanpa akun; Habitify, Productive, dan Fabulous praktis bila sering berpindah perangkat; Streaks cukup untuk ekosistem Apple; Habitica untuk motivasi hadiah-hukuman; Fabulous untuk perubahan yang dipandu.
 
 - **Tanya dulu apakah catatannya perlu angka**. Untuk 8 gelas / 30 menit / 3 km, definisi Meow Habits dan Loop paling lengkap; kalau satu centang cukup, jalur Streaks, Habitify dan Productive lebih pendek.
 - **Lalu tanya apakah jadwalnya rapi**. Hanya Senin/Rabu/Jumat, atau cukup tiga kali seminggu, berarti fokus ke hari tertentu dan jadwal fleksibel — Meow Habits, Streaks, Loop dan Habitica semuanya memberi pilihan tegas.

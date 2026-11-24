@@ -20,6 +20,8 @@ If you care more about which one fits you than how they count, see [Best Habit T
 
 ## At a glance: how 7 apps model habits
 
+Seven habit apps model a record in seven different ways: Meow Habits, Streaks, Loop, Habitify and Productive are record-first, Habitica converts check-ins into XP and gold, and Fabulous runs a staged course. Meow Habits and Loop keep data on-device with no account, Habitify and Productive use cloud sync, and Streaks stays inside iCloud. The decisive divides are what one record means, how periods are defined and what happens after a missed day.
+
 | App | What one record means | Period model | After a missed day | Main metrics | Where data lives |
 |---|---|---|---|---|---|
 | **Meow Habits** | One cumulative record per period: `+1` / `-1` / enter a value / done / skipped | Daily, weekly, monthly, named weekdays, every N days, with target and unit | Streak counted back over valid periods; a skipped period does not break it | Current streak, best streak, completions, completion rate, month calendar and 365-day heatmap | On-device, no account; CSV export, Google Drive / WebDAV backup |
@@ -36,7 +38,7 @@ The split is obvious at a glance: **Meow Habits, Streaks, Loop, Habitify and Pro
 
 ## First: what does a habit app actually record
 
-Before comparing products, it helps to pull apart a few concepts that keep showing up but are rarely explained. These are not word games — every number you see in an app is determined by them.
+Habit tracking rests on three concepts — goal, period and record — that decide every number an app shows. Before comparing products, it helps to pull apart a few concepts that keep showing up but are rarely explained. These are not word games — every number you see in an app is determined by them.
 
 ### One habit = goal + period + one record
 
@@ -106,7 +108,7 @@ Export matters just as much. Meow Habits can export records as CSV and back up t
 
 ## What habit apps are actually good for
 
-Mechanics aside, back to the practical question: what do you get for tapping once a day?
+A habit app's real value is turning a vague intention into a checkable record, reducing the friction of logging and giving review something to work with. Mechanics aside, back to the practical question: what do you get for tapping once a day?
 
 ### Turning vague intentions into checkable facts
 
@@ -141,7 +143,7 @@ In one line: a habit app makes behaviour visible, reduces friction and gives rev
 
 ## Evaluation framework: six technical divides
 
-The six questions below are a framework you can apply to any two habit apps. The product-by-product breakdowns and comparison tables that follow all use them.
+Six technical divides — record unit, period model, missed-day semantics, completion rules, reminders and data ownership — are a framework you can apply to any two habit apps. The six questions below are a framework you can apply to any two habit apps. The product-by-product breakdowns and comparison tables that follow all use them.
 
 ### 1. Record unit: a tick box vs a numeric target
 
@@ -178,6 +180,8 @@ Is sign-up mandatory, is data on the device or in the cloud, can it be exported 
 ---
 
 ## All 7 apps, one by one
+
+Seven habit apps put their effort in different places: Meow Habits builds around on-device records and a month calendar, Streaks around don't-break-the-chain and Apple integration with up to 24 tasks, Habitica around XP, gold and health loss, Loop around a habit score that decays instead of resetting, Habitify around a day's timeline, Productive around time blocks and Fabulous around staged routines. None is better — each assumes a different kind of motivation.
 
 ### Meow Habits (Android)
 
@@ -300,6 +304,8 @@ The product runs as a journey, with coaching content, routines, deep-work sessio
 
 ## Deep comparison across the key dimensions
 
+Four comparison tables reduce seven habit apps to the dimensions that change daily use: what a missed day costs, how periods and targets are defined, where reminders and data live, and which platforms and prices apply. Streaks resets a broken chain, Loop decays a score, Meow Habits lets you mark a skip, and Habitica deducts health. Free plans differ too — Habitify allows 3 habits, while Meow Habits and Loop need no account.
+
 ### Semantics of missed days and gaps
 
 | App | Missed day | Explicit skip | Backfill history | Future dates |
@@ -351,7 +357,7 @@ The product runs as a journey, with coaching content, routines, deep-work sessio
 
 ## Which one should you pick
 
-Apply the six-point framework to your own situation and the choice gets much clearer:
+Habit apps differ on six points — record, period, missed day, completion, reminders and data — so use the framework to find which of the seven matches how you record, repeat and recover from misses, and the choice gets much clearer. Apply the six-point framework to your own situation and the choice gets much clearer:
 
 - **First ask whether the record needs a quantity**. For 8 glasses / 30 minutes / 3 kilometres, Meow Habits and Loop have the most complete definitions; if a single tick is enough, Streaks, Habitify and Productive have a shorter path.
 - **Then ask whether the schedule is regular**. Only Monday/Wednesday/Friday, or any three days a week, means looking at named weekdays and flexible schedules — Meow Habits, Streaks, Loop and Habitica all offer explicit options.

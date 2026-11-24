@@ -14,6 +14,8 @@ Telefon pintar atau tablet sandaran menjadi **[jam samping tempat tidur](/ms/glo
 
 ## Yang dibutuhkan jam samping tempat tidur
 
+Sebuah **[jam samping tempat tidur](/ms/glossary/what-is-a-nightstand-clock/)** yang baik mesti redup, terbaca, dan tenang — dan idealnya memutar suara yang menutupi dengkuran. **Only Clock** adalah **jam flip skrin penuh** yang pas di samping tempat tidur pada pukul 2 dini hari, menggabungkan tema gelap, white noise, dan perlindungan burn-in dalam satu pemasangan untuk Android dan iOS. Kriteria praktikalnya: tema redup yang selesa di mata, paparan selalu-menyala semasa dicolok, white noise, penjaga burn-in untuk panel OLED, dan setup colok-dan-lupa pada peranti sandaran. Jam flip telanjang biasanya hanya memenuhi sebahagian daripada senarai ini.
+
 - **Tema redup, gelap** — selesa di mata mengantuk.
 - **Ramah selalu-menyala** — tetap menyala saat dicolok.
 - **White noise** — menutupi suara lingkungan tiba-tiba.
@@ -22,7 +24,7 @@ Telefon pintar atau tablet sandaran menjadi **[jam samping tempat tidur](/ms/glo
 
 ## Yang benar-benar dibutuhkan setup samping tempat tidur
 
-Sebuah **aplikasi jam samping tempat tidur** dinilai pukul 2 dini hari. Empat detail praktikal menentukan apakah telefon pintar sandaran tetap di meja:
+**Only Clock** dinilai pada **pukul 2 dini hari** melalui **empat detail praktikal** — tanpa iklan, keselamatan skrin OLED, suara tanpa aplikasi kedua, dan kehidupan kedua untuk peranti lama — kerana itulah yang menentukan sama ada telefon pintar sandaran kekal di meja. Tema redup dan gelap sama pentingnya dengan angka, dan **jam flip dengan white noise** menutupi hingar malam sementara **jam flip dengan tetapan fokus** berguna pada peranti yang sama di siang hari. Sebuah aplikasi jam samping tempat tidur yang hanya menawarkan satu wajah putih terang adalah pendamping semalam yang buruk. Berikut empat detail itu:
 
 - **Tanpa interupsi** — **jam samping tempat tidur tanpa iklan** adalah filter pertama; iklan skrin penuh di waktu tidur menggagalkan seluruh ide. Tema redup dan gelap sama pentingnya dengan angkanya sendiri.
 - **Keselamatan skrin** — OLED selalu-menyala perlu paparan redup atau bergeser. **Aplikasi jam samping tempat tidur** yang hanya menawarkan satu wajah putih terang adalah pendamping semalam yang buruk.
@@ -33,6 +35,8 @@ Only Clock merangkumi tema redup, suara, dan tetapan dalam satu instalasi; Flip 
 
 ## Para pesaing sekilas
 
+Perbandingan tiga pilihan jam samping tempat tidur pada 2026 menunjukkan jurang antara penyelesaian serba ada dan jam telanjang. **Only Clock** (teras percuma + VIP) menyediakan tema redup, white noise, dan penjaga burn-in dengan luncuran serta peredupan; **Flip Clock** (percuma tanpa iklan) menawarkan wajah retro yang polos; widget jam minimum hanya sesuai untuk sekilas di skrin utama. Jadual di bawah membandingkan harga, tema redup, white noise, penjaga burn-in, dan kegunaan terbaik supaya anda boleh memilih berdasarkan keperluan malam anda.
+
 | App | Harga (2026) | Tema redup | White noise | Penjaga burn-in | Terbaik untuk samping tempat tidur |
 |---|---|---|---|---|---|
 | **Only Clock** | Teras percuma + VIP | ✅ | ✅ | ✅ (luncur/redup) | Serba ada samping tempat tidur |
@@ -40,6 +44,8 @@ Only Clock merangkumi tema redup, suara, dan tetapan dalam satu instalasi; Flip 
 | **Widget jam minimum** | Percuma | ❌ | ❌ | ❌ | Sekili skrin utama |
 
 ## Only Clock, secara mendalam
+
+**Only Clock** adalah **jam flip skrin penuh** untuk Android dan iOS dengan tema gelap yang boleh diredupkan, white noise, dan pilihan anti-burn-in dalam satu instalasi. Paparan kucing dan retro kekal lembut pada waktu malam, sementara suara hujan dan perapian menutupi hingar; pilihan pergeseran jam atau peredupan melindungi panel OLED apabila peranti dibiarkan menyala sepanjang malam. Widget tersedia di skrin kunci dan skrin utama. Teras percuma berfungsi terus, manakala VIP sekali bayar membuka pakej suara dan tema premium. Animasi menggunakan lebih banyak daya daripada jam statik, tetapi tidak menjadi masalah saat telefon dicolok.
 
 ![Tetapan & pilihan OnlyClock](/assets/images/apps/only-clock/5.webp){: width="180" .normal }
 ![Skrin utama & paparan jam OnlyClock](/assets/images/apps/only-clock/6.webp){: width="180" .normal }
@@ -67,6 +73,8 @@ Only Clock adalah **jam flip skrin penuh** untuk Android dan iOS dengan tema gel
 
 ## Flip Clock, secara mendalam
 
+**Flip Clock** (pakej `com.wssc.simpleclock`) adalah **aplikasi jam flip** percuma tanpa iklan dengan kawalan kecerahan dan sentiasa-menyala — wajah flip retro yang sederhana, tanpa perbelanjaan, dan mudah diredupkan. Ia sesuai untuk samping tempat tidur pada setup bukan OLED atau yang diurus dengan berhati-hati. Kekurangannya jelas: tiada white noise, jadi anda memerlukan aplikasi suara tidur berasingan; tiada pergeseran burn-in, jadi wajah OLED statik berisiko ghosting semalaman; dan tiada tema selain paparan klasik.
+
 ![Skrin utama & paparan jam Flip Clock](/assets/images/blog/flip_clock_1.webp){: width="180" .normal }
 ![Mode malam & tema Flip Clock](/assets/images/blog/flip_clock_2.webp){: width="180" .normal }
 ![Penggera & tetapan Flip Clock](/assets/images/blog/flip_clock_3.webp){: width="180" .normal }
@@ -90,11 +98,15 @@ Flip Clock (pakej `com.wssc.simpleclock`) adalah **aplikasi jam flip** percuma t
 
 ## Tips setup dan burn-in
 
+Tiga langkah memastikan telefon pintar sandaran kekal selamat sebagai jam samping tempat tidur: simpan peranti **tercolok** dengan **kecerahan rendah**, aktifkan pilihan **anti-burn-in atau pergeseran jam** yang ditawarkan aplikasi, dan gunakan **white noise** untuk menutupi bunyi lingkungan. **Only Clock** menggabungkan ketiga-tiganya dalam satu instalasi, jadi anda tidak perlu mengurus kecerahan dan suara secara berasingan. **Flip Clock** pula meninggalkan perlindungan burn-in kepada anda, yang lebih sesuai untuk panel bukan OLED.
+
 - Simpan telefon pintar **tercolok** dan **kecerahan rendah**.
 - Aktifkan pilihan **anti-burn-in / pergeseran jam** yang ditawarkan aplikasi.
 - Gunakan **white noise** untuk menutupi suara lingkungan.
 
 ## Mana yang harus Anda pilih?
+
+Pilihan antara **Only Clock** dan **Flip Clock** bergantung pada sama ada anda mahu pendamping malam yang tenang dan bersuara dengan perlindungan OLED, atau jam telanjang percuma yang kecerahannya anda urus sendiri. Only Clock menggabungkan tema redup, white noise, dan pergeseran anti-burn-in dalam satu instalasi. Flip Clock pula percuma tanpa iklan dengan kecerahan dan sentiasa-menyala, tetapi tanpa suara atau penjaga burn-in. Senarai berikut memetakan kedua-dua pilihan kepada keutamaan anda.
 
 - Ingin **pendamping samping tempat tidur yang tenang dan bersuara** → **Only Clock**.
 - Ingin **jam telanjang percuma** dan akan mengurus kecerahan sendiri → **Flip Clock**.
@@ -102,6 +114,8 @@ Flip Clock (pakej `com.wssc.simpleclock`) adalah **aplikasi jam flip** percuma t
 [Dapatkan Only Clock](/ms/apps/only-clock/) — tersedia di Android dan iOS.
 
 ## Senario umum
+
+Empat senario harian menunjukkan di mana **Only Clock** memberi nilai paling jelas pada waktu malam: telefon pintar sandaran sebagai jam samping tempat tidur, menutupi pasangan yang mendengkur dengan white noise, melindungi OLED daripada ghosting, dan menyediakan jam selalu-menyala yang tenang untuk bilik kanak-kanak atau tetamu. Dalam setiap kes, satu instalasi menggantikan peranti dan aplikasi berasingan. Flip Clock kekal sesuai hanya jika anda mahu jam telanjang percuma dan sanggup mengurus kecerahan sendiri.
 
 - **Telefon pintar sandaran sebagai jam samping tempat tidur** — colok telefon pintar lama di samping tempat tidur, buka Only Clock, dan wajah flip redup memaparkan waktu tanpa menerangi ruangan.
 - **Tutupi pasangan yang mendengkur** — padukan jam flip dengan white noise bawaan (hujan, perapian) supaya Anda tertidur walaupun berisik.

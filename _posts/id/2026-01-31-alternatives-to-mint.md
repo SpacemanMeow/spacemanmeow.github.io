@@ -15,6 +15,8 @@ Panduan ini membandingkan **tujuh** aplikasi pada dimensi yang sama. Masing-masi
 
 ## Apa yang hilang saat Mint ditutup
 
+YNAB, Meow Money Manager, Monarch Money, Rocket Money, Empower, PocketGuard, dan Goodbudget adalah tujuh alternatif Mint yang dibandingkan di sini setelah Intuit menutup Mint pada Maret 2024. Yang hilang terutama tiga hal: impor transaksi otomatis dari rekening tertaut, satu dasbor untuk kekayaan bersih serta tagihan, dan anggaran kategori gratis. Ketujuh aplikasi mempertahankan bagian terbaik itu dengan kadar otomatisasi dan penyimpanan cloud yang berbeda-beda. Meow Money Manager dan Goodbudget mengutamakan data lokal tanpa akun, sementara YNAB dan Monarch mengandalkan sinkron bank. Pilihan bergantung pada seberapa besar Anda mempercayakan data keuangan ke cloud.
+
 - **Impor transaksi otomatis** dari rekening bank dan kartu yang ditautkan.
 - **Satu dasbor** untuk kekayaan bersih, tagihan, dan langganan.
 - **Anggaran kategori gratis dan sederhana**.
@@ -24,6 +26,8 @@ Konsekuensinya, Mint menghasilkan uang lewat rujukan dan akhirnya mengarahkan pe
 ---
 
 ## YNAB (You Need A Budget) — pemimpin metodologi
+
+YNAB adalah aplikasi penganggaran zero-based yang memberi setiap dolar tugas sebelum dibelanjakan menurut empat aturan, dan menjadi pemimpin metodologi di antara tujuh alternatif Mint ini. Lima layar di bawah merangkum ringkasan akun, alokasi dana, impor transaksi otomatis lewat Plaid, laporan kekayaan bersih, serta perencanaan target tabungan. Uji coba berlangsung 34 hari, setelah itu biaya $14,99 per bulan atau $109 per tahun. YNAB unggul pada komunitas dan materi edukasi, tetapi tanpa paket gratis permanen dan dengan kurva belajar curam. Ia cocok untuk pengguna yang ingin mengubah perilaku belanja, bukan sekadar mencatat.
 
 ![YNAB beranda anggaran berbasis nol: ringkasan akun dan alokasi dana](/assets/images/blog/ynab_1.webp){: width="180" .normal }
 ![YNAB sinkronisasi bank lewat Plaid: impor transaksi otomatis](/assets/images/blog/ynab_2.webp){: width="180" .normal }
@@ -54,6 +58,8 @@ YNAB adalah aplikasi **penganggaran zero-based** paling terkenal: setiap dolar "
 ---
 
 ## Meow Money Manager — pencatat bertema kucing dengan antarmuka menyenangkan
+
+Meow Money Manager adalah aplikasi catatan keuangan dan anggaran bertema kucing untuk Android dan iOS dengan 400+ ikon kategori, lima buku kas terpisah, dan 50+ simbol mata uang. Lima layar di bawah menampilkan beranda pencatatan, pengelolaan beberapa buku, anggaran harian hingga tahunan, grafik statistik, serta penandaan reimburse dengan ekspor CSV. Aplikasi ini tidak memerlukan daftar akun — data tersimpan lokal di perangkat — dan mencadangkan hanya ke Google Drive, iCloud, atau WebDav. Fitur inti gratis; multi buku kas dan ekspor CSV memerlukan pembelian sekali bayar. Antarmukanya tersedia dalam bahasa Tionghoa, Inggris, Indonesia, Thai, dan Portugis.
 
 ![Beranda aplikasi catatan keuangan Meow Money Manager: 400+ ikon kategori lucu](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
 ![Meow Money Manager beberapa buku kas: pribadi, perjalanan, kerja](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
@@ -93,6 +99,8 @@ Meow Money Manager adalah [aplikasi catatan keuangan](/id/glossary/what-is-an-ex
 
 ## Monarch Money — penerus Mint paling mirip
 
+Monarch Money adalah pengganti Mint langsung yang menggabungkan bank, kartu, pinjaman, investasi, kripto, dan properti ke dalam satu dasbor dengan kolaborasi pasangan secara real-time. Empat layar di bawah menunjukkan ringkasan kekayaan bersih dan arus kas, sinkronisasi otomatis, anggaran per kategori kustom, serta pengeditan bersama. Perusahaan ini berdiri pada 2021, sehingga komunitasnya lebih kecil daripada YNAB. Biayanya sekitar $99,99 per tahun atau $14,99 per bulan setelah uji coba, tanpa paket gratis. Monarch paling cocok untuk mantan pengguna Mint yang menginginkan dasbor all-in-one dan tidak keberatan berlangganan.
+
 ![Monarch dasbor terpadu: kekayaan bersih, arus kas, dan langganan](/assets/images/blog/monarch_money_1.webp){: width="180" .normal }
 ![Monarch sinkronisasi otomatis: bank, investasi, dan nilai properti](/assets/images/blog/monarch_money_2.webp){: width="180" .normal }
 ![Monarch anggaran bulanan dan target: budget per kategori kustom](/assets/images/blog/monarch_money_3.webp){: width="180" .normal }
@@ -121,6 +129,8 @@ Monarch adalah aplikasi yang paling sering disebut **pengganti Mint langsung**. 
 ---
 
 ## Rocket Money — terbaik untuk menjinakkan langganan
+
+Rocket Money (dulu Truebill) adalah aplikasi untuk menemukan dan membatalkan langganan yang tidak diinginkan, menurunkan tagihan lewat negosiasi, dan memberi ringkasan pengeluaran sederhana di Android serta iOS. Lima layar di bawah menampilkan deteksi langganan, negosiasi tagihan, anggaran bulanan, pemantauan skor kredit, dan pelacakan otomatis lewat kartu bank. Paket gratis tersedia; pelacakan otomatis dan anggaran berada di atasnya, sementara premium berkisar $6–12 per bulan yang ditagih tahunan. Rocket Money paling kuat untuk tagihan berulang, tetapi penganggaran dasarnya tidak memiliki metode zero-based atau amplop.
 
 ![Rocket Money deteksi langganan: temukan dan batalkan langganan](/assets/images/blog/rocket_money_1.webp){: width="180" .normal }
 ![Rocket Money negosiasi tagihan: turunkan biaya otomatis](/assets/images/blog/rocket_money_2.webp){: width="180" .normal }
@@ -152,6 +162,8 @@ Rocket Money (dulu Truebill) dibangun untuk **menemukan dan membatalkan langgana
 
 ## Empower (dulu Personal Capital) — tampilan kekayaan bersih & investasi gratis terbaik
 
+Empower (dulu Personal Capital) adalah aplikasi gratis untuk memantau kekayaan bersih dan investasi yang menggabungkan data bank, dana pensiun, sekuritas, kripto, dan properti di satu dasbor. Lima layar di bawah menampilkan aset dan utang, alokasi aset, proyeksi pensiun, audit biaya investasi, serta penggabungan akun. Dasbor intinya sepenuhnya gratis dan telah beroperasi lebih dari satu dekade. Kelemahannya, Empower bukan aplikasi penganggaran sejati dan berpusat pada pasar AS dengan multi mata uang lemah. Ia paling cocok untuk pengguna yang ingin analisis portofolio tanpa anggaran harian terperinci.
+
 ![Empower dasbor kekayaan bersih gratis: aset dan utang](/assets/images/blog/empower_money_1.webp){: width="180" .normal }
 ![Empower alokasi aset dan analisis investasi: portofolio dan biaya](/assets/images/blog/empower_money_2.webp){: width="180" .normal }
 ![Empower perencana pensiun: proyeksi portofolio](/assets/images/blog/empower_money_3.webp){: width="180" .normal }
@@ -182,6 +194,8 @@ Empower **gratis** dan berfokus pada **pelacakan kekayaan bersih dan investasi**
 
 ## PocketGuard — terbaik untuk "safe to spend"
 
+PocketGuard adalah aplikasi anggaran Android dan iOS yang menampilkan angka "In My Pocket" — sisa uang aman dibelanjakan setelah tagihan, tabungan, dan target terpenuhi. Lima layar di bawah menampilkan beranda In My Pocket, kategorisasi otomatis, pelacakan langganan, penurunan tagihan, dan tampilan arus kas. Paket gratis tersedia; PocketGuard Plus seharga ~$12,99 per bulan atau ~$74,99 per tahun membuka detail lebih banyak. Pendekatan ini paling ringan untuk menghindari pengeluaran berlebih tanpa mempelajari metode, tetapi kedalaman anggarannya terbatas dan tidak ada pelacakan investasi maupun reimburse.
+
 ![PocketGuard beranda In My Pocket: sisa uang yang aman dibelanjakan](/assets/images/blog/pocketguard_money_1.webp){: width="180" .normal }
 ![PocketGuard kategorisasi otomatis: deteksi pengeluaran cerdas](/assets/images/blog/pocketguard_money_2.webp){: width="180" .normal }
 ![PocketGuard pelacakan langganan: biaya berulang](/assets/images/blog/pocketguard_money_3.webp){: width="180" .normal }
@@ -210,6 +224,8 @@ PocketGuard menjaganya tetap sederhana: ia menunjukkan **"In My Pocket"** — be
 ---
 
 ## Goodbudget — penganggaran amplop terbaik tanpa langganan
+
+Goodbudget adalah aplikasi Android, iOS, dan web yang mendigitalkan sistem amplop klasik: uang dialokasikan ke amplop virtual lalu dibelanjakan dari sana. Lima layar di bawah menampilkan beranda amplop, pengeluaran per amplop, sinkronisasi cloud antarperangkat, anggaran rumah tangga bersama, serta laporan tren. Paket gratis memberi 20 amplop, 2 perangkat, dan riwayat 1 tahun; Premium sekitar $8 per bulan atau $70 per tahun membuka amplop tanpa batas, lebih banyak perangkat, riwayat 7 tahun, dan sinkron bank. Goodbudget sengaja manual dan paling cocok untuk pasangan yang mengutamakan kendali bersama.
 
 ![Goodbudget beranda amplop anggaran: alokasikan amplop virtual](/assets/images/blog/good_budget_1.webp){: width="180" .normal }
 ![Goodbudget pengeluaran per amplop: catat dari amplop](/assets/images/blog/good_budget_2.webp){: width="180" .normal }
@@ -240,7 +256,7 @@ Goodbudget mendigitalkan **sistem amplop** klasik: Anda mengalokasikan uang ke a
 
 ## Perbandingan kemampuan inti
 
-Tabel di bawah menunjukkan, seobjektif mungkin, kemampuan yang didukung tiap aplikasi. "Sebagian" berarti fitur ada tetapi dengan batas (misalnya backup manual, bukan sinkron bank).
+YNAB, Meow Money Manager, Monarch Money, Rocket Money, Empower, PocketGuard, dan Goodbudget dibandingkan pada sepuluh kemampuan inti di bawah — multi-akun, sinkron bank otomatis, reimburse, kedalaman anggaran, statistik, aset, multi mata uang, langganan, paket gratis, dan platform. Tanda "Sebagian" berarti fitur tersedia dengan batas, misalnya backup manual alih-alih sinkron bank. Meow Money Manager adalah satu-satunya yang mendukung reimburse dan 50+ simbol mata uang sekaligus menyimpan data lokal tanpa akun. YNAB memimpin penganggaran zero-based, Monarch dan Empower unggul pada kekayaan bersih, sementara Rocket Money paling kuat menghentikan langganan.
 
 | Kemampuan | YNAB | Meow Money | Monarch | Rocket Money | Empower | PocketGuard | Goodbudget |
 |---|---|---|---|---|---|---|---|
@@ -259,6 +275,8 @@ Tabel di bawah menunjukkan, seobjektif mungkin, kemampuan yang didukung tiap apl
 
 ## Cara memilih
 
+Meow Money Manager adalah pilihan untuk pencatatan gratis, privat, tanpa akun, dan multi mata uang dengan dukungan reimburse, sementara enam alternatif Mint lain melayani kebutuhan berbeda. YNAB cocok untuk metode zero-based teruji, Monarch Money untuk dasbor paling mirip Mint, Rocket Money untuk menghentikan langganan, Empower untuk kekayaan bersih gratis, PocketGuard untuk jawaban cepat "bolehkah saya membelanjakan ini?", dan Goodbudget untuk amplop bersama. Ketujuh aplikasi ini mencakup seluruh spektrum dari otomatisasi penuh hingga pencatatan manual. Keputusan bergantung pada satu hal: apakah Anda lebih menghargai otomatisasi bank atau kendali atas data lokal.
+
 - Ingin **metode zero-based teruji** dan bersedia mempelajarinya → **YNAB**.
 - Ingin **gratis, privat, tanpa akun, multi mata uang, dengan reimburse** → **[Meow Money Manager](/id/apps/meow-money-manager/)**.
 - Ingin **dasbor paling mirip Mint** dengan investasi → **Monarch Money**.
@@ -268,6 +286,8 @@ Tabel di bawah menunjukkan, seobjektif mungkin, kemampuan yang didukung tiap apl
 - Ingin **amplop dan anggaran rumah tangga bersama** → **Goodbudget**.
 
 ## Bermigrasi dari Mint
+
+Meow Money Manager dan YNAB adalah dua tujuan migrasi yang mewakili dua kutub dari tujuh alternatif Mint: pencatatan lokal tanpa akun versus penganggaran zero-based dengan sinkron bank. Lima langkah di bawah dimulai dari mengekspor transaksi, akun, dan anggaran dari Mint sebelum penutupan, memilih pengganti berdasarkan privasi atau otomatisasi, membuat ulang kategori, menetapkan anggaran serta item berulang, dan memutuskan apakah bank akan ditautkan. Meow Money Manager menyimpan data di perangkat dan mencadangkan ke Google Drive, iCloud, atau WebDav. Pengguna yang memilih YNAB harus menyesuaikan dengan kurva belajar empat aturannya.
 
 1. **Ekspor data Anda sekarang** bila masih bisa: transaksi (CSV), akun, dan anggaran tersimpan.
 2. **Pilih pengganti** dari tabel di atas berdasarkan privasi versus otomatisasi.

@@ -31,7 +31,7 @@ faq:
       Crosshair Aim gratis dipakai dengan sejumlah gaya crosshair dasar. Gaya lanjutan dan premium memerlukan pembelian versi pro.
 ---
 
-Crosshair Aim Pro membantu mengubah [crosshair](/id/glossary/what-is-a-crosshair/) dalam game FPS. Buat overlay tanda bidik kustom di game tembak-menembak apa pun untuk membidik sasaran dengan lebih akurat. Aplikasi ini menambahkan penunjuk virtual yang dapat disesuaikan pada kontrol senjata, dengan lebih dari 80 desain yang tersedia.
+Crosshair Aim Pro adalah **overlay [bidik silang](/id/glossary/what-is-a-crosshair/) untuk game FPS** di Android dengan **lebih dari 80 desain** dan penunjuk virtual yang bisa disesuaikan ukuran, warna, serta posisinya pada kontrol senjata. Aplikasi ini menambahkan retikel kustom ke hampir semua game tembak-menembak populer, termasuk senjata atau mode yang tidak menyediakan tanda bidik bawaan, sehingga sasaran lebih mudah dibidik. Sejumlah gaya dasar tersedia gratis; gaya lanjutan dan premium memerlukan pembelian versi Pro. Crosshair Aim Pro ditujukan untuk pemain yang ingin tanda bidik kustom di perangkat Android.
 
 ### Fitur Crosshair Aim Pro
 

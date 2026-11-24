@@ -14,7 +14,7 @@ Sebuah [bola melayang](/id/glossary/what-is-a-floating-window/) menaruh aksi pal
 
 ## Apa yang orang sebut
 
-Satu bola kecil mengumpulkan banyak nama, dan tiap label menandakan tugas yang sedikit berbeda:
+Satu bola kecil dikenal dengan lima nama yang menandakan tugas berbeda: asisten melayang android atau tombol melayang untuk overlay itu sendiri, assistive touch untuk menu melayang berisi aksi sistem, bola melayang tepi untuk bola yang parkir di tepi dan melebar saat disapu, pembantu satu tangan untuk alasan pemasangannya, dan bola melayang bisa dikustomisasi android untuk pintasan serta toggle sendiri. Yang memisahkan aplikasi bukan namanya, melainkan apakah bola tetap di atas aplikasi tanpa root, apakah gestur bisa ditugaskan ke aksi nyata, dan apakah ia ringan di latar.
 
 - **Asisten melayang** / **asisten melayang android** / **bola melayang** / **tombol melayang** — overlay itu sendiri. Daftar **bola melayang android terbaik** biasanya soal tampilan dan di mana ia bertambat.
 - **Assistive touch** / **aplikasi assistive touch android terbaik** — pinjaman dari tombol home di layar iPhone; di Android orang biasanya maksudnya menu melayang berisi aksi sistem.
@@ -26,9 +26,11 @@ Yang memisahkan aplikasi di bawah bukan namanya, melainkan tiga hal: apakah bola
 
 ## Mengapa aplikasi asisten melayang penting di Android
 
-Di Android, overlay melayang bekerja di atas aplikasi apa pun tanpa root, sehingga ponsel layar lebar jadi terjangkau dan toggle favorit selalu seketuk jauh. Kemenangan satu tangan inilah yang membuat kategori ini hampir sepenuhnya ada di Android, bukan iOS.
+Aplikasi asisten melayang penting di Android karena overlay bekerja di atas aplikasi apa pun tanpa root, membuat ponsel layar lebar tetap terjangkau dan toggle favorit selalu seketuk jauh. Floating Assistant menaruh bola bertempel di tepi dengan pintasan aplikasi, kontak, dan aksi sistem yang bisa dikustom, sementara jejak baterai dan memorinya tetap minimal. Kemenangan satu tangan inilah yang membuat kategori ini hampir sepenuhnya ada di Android, bukan iOS.
 
 ## Apa yang dicari di aplikasi asisten melayang
+
+Enam kriteria menentukan aplikasi asisten melayang yang berguna: bola yang tetap di atas lintas aplikasi alih-alih terkubur di laci, pintasan kustom untuk aplikasi serta kontak dan toggle sistem, operasi satu tangan pada layar besar, gestur ketuk atau sapu untuk aksi berbeda, perilaku stabil dengan pemakaian baterai dan memori minimal, serta kejelasan izin aksesibilitas yang dibutuhkan overlay. Floating Assistant memenuhi keenamnya dengan bola bertempel di tepi, sementara Assistive Touch dan Easy Touch mengandalkan model iklan.
 
 - **Bola melayang / overlay** — tetap di atas lintas aplikasi, tak terkubur di laci.
 - **Pintasan kustom** — luncurkan aplikasi, kontak, dan toggle sistem dengan cepat.
@@ -39,6 +41,8 @@ Di Android, overlay melayang bekerja di atas aplikasi apa pun tanpa root, sehing
 
 ## Lapangan sekilas
 
+Tiga aplikasi pada tabel 2026 ini — Floating Assistant, Assistive Touch (easytools), dan Easy Touch — semuanya hanya untuk Android tetapi berbeda pada model pendanaan: Floating Assistant gratis dengan inti gratis dan buka kunci opsional, sementara dua aplikasi lainnya gratis dengan iklan. Dari sisi fungsi, ketiganya menyediakan bola sentuh melayang, dan Easy Touch menambahkan gestur. Tabel berikut merangkum harga, platform, dan kekuatan masing-masing.
+
 | App | Harga (2026) | Platform | Terbaik untuk / catatan |
 |---|---|---|---|
 | **Floating Assistant** | Unduh gratis, inti gratis + buka kunci opsional | Hanya Android | Bola melayang, pintasan aplikasi/kontak, pembantu satu tangan |
@@ -46,6 +50,8 @@ Di Android, overlay melayang bekerja di atas aplikasi apa pun tanpa root, sehing
 | **Easy Touch** | Gratis + iklan | Hanya Android | Bola sentuh melayang dengan gestur, model iklan serupa |
 
 ## Floating Assistant, lebih dalam
+
+Floating Assistant menambahkan bola melayang yang bisa dikustomisasi ke Android untuk peluncuran aplikasi cepat, toggle sistem, dan kendali satu tangan. Bola bertempel di tepi layar, tetap berada di atas aplikasi lain tanpa root, dan bisa dipindahkan ke mana saja; ketuk atau sapu memicu aksi berbeda menurut pengaturan Anda. Aplikasi, kontak, dan toggle sistem masuk ke menu pintasan, sementara jejak baterai serta memorinya tetap minimal. Inti asisten melayang gratis dan ekstra bersifat opsional.
 
 ![Bola melayang bertempel di tepi layar utama asisten melayang android](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
 ![Bola melayang tepi dengan gestur: aksi sapu dan tahan lama](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
@@ -72,13 +78,15 @@ Selami lebih dalam:
 
 ## Bagaimana Floating Assistant membandingkan dengan kompetisi
 
+Perbandingan Floating Assistant dengan kompetisi menempatkan Assistive Touch (easytools) sebagai bola beriklan populer, sementara Floating Assistant menawarkan kendali melayang yang sama dengan model buka kunci opsional alih-alih iklan terus-menerus. Easy Touch adalah bola beriklan lain yang menyediakan gestur; bila Anda menginginkan lebih sedikit iklan dengan pembukaan gaya sekali bayar, Floating Assistant menjadi pilihan yang lebih ringan. Karena ketiganya berjalan sebagai overlay tanpa root, perbedaan utamanya ada pada pengalaman iklan dan kedalaman kustomisasi. Tautan perbandingan lengkap tersedia di bawah.
+
 - **vs Assistive Touch (easytools)** — Assistive Touch (easytools) adalah bola beriklan populer; Floating Assistant memberi kendali melayang sama dengan model buka kunci opsional lebih bersih alih-alih iklan terus-menerus. Rincian lengkap di [Floating Assistant vs Assistive Touch](/id/posts/vs-floating-assistant-and-assistive-touch/).
 - **vs Easy Touch** — Easy Touch adalah bola beriklan lain dengan gestur; bila Anda ingin iklan lebih sedikit dan buka kunci gaya sekali bayar, Floating Assistant pilihan lebih ringan.
 - **Opsi lain** — lihat [Alternatif Assistive Touch Terbaik di 2026](/id/posts/alternatives-to-assistive-touch/) untuk lapangan lengkap.
 
 ## Mana yang harus dipilih?
 
-Pilihan cepat berdasarkan situasi:
+Pilihan cepat pada 2026 bergantung pada prioritas: Floating Assistant untuk jangkauan satu tangan di ponsel besar dan iklan minimal, Assistive Touch bila Anda tidak keberatan iklan dan ingin bola yang paling banyak dipasang, Easy Touch bila menginginkan gestur dengan bola gratis, dan Floating Assistant lagi bila yang dicari adalah buka kunci opsional tanpa dinding iklan. Keempatnya berjalan sebagai overlay Android tanpa root.
 
 - Ponsel besar, ingin jangkauan satu tangan → Floating Assistant.
 - Tak masalah iklan, ingin bola paling banyak dipasang → Assistive Touch.
@@ -86,6 +94,8 @@ Pilihan cepat berdasarkan situasi:
 - Ingin iklan minimal dan buka kunci opsional → Floating Assistant.
 
 ## Skenario khas
+
+Lima skenario memakai Floating Assistant memperlihatkan manfaat bola melayang di tepi layar: letakkan di tepi bawah agar back, home, recent, dan tangkapan layar terjangkau tanpa mengubah genggaman; petakan ketuk atau gestur ke kunci layar untuk menghemat tombol daya; taruh aplikasi paling sering dibuka di menu bola agar tidak perlu mencari di layar utama; jangkau Wi-Fi, kecerahan, atau volume dalam satu ketuk; dan nikmati bola inti gratis dengan buka kunci opsional alih-alih iklan terus-menerus.
 
 - **Ponsel besar, satu tangan** — letakkan bola melayang di tepi bawah agar back/home/recent dan tangkapan layar terjangkau tanpa mengubah genggaman.
 - **Layar kunci tanpa tombol** — petakan ketuk atau gestur ke kunci layar dan hemat tombol daya.
@@ -117,7 +127,7 @@ Tidak. Berjalan sebagai layanan aksesibilitas dan overlay tanpa root.
 
 ## Kesimpulan
 
-Untuk pengguna ponsel besar yang ingin akses satu tangan, seketuk ke aksi, Floating Assistant adalah pilihan paling fleksibel — dan aplikasi intinya gratis.
+Floating Assistant adalah pilihan fleksibel bagi pengguna ponsel besar yang ingin akses satu tangan dan aksi seketuk lewat bola melayang di tepi layar. Aplikasi ini menyediakan pintasan aplikasi dan kontak, toggle sistem, gestur ketuk serta sapu, dan berjalan sebagai overlay tanpa root dengan jejak baterai serta memori minimal. Intinya gratis dengan buka kunci opsional, sementara Assistive Touch dan Easy Touch mengandalkan iklan. Unduh dari Google Play:
 
 - [Google Play — Floating Assistant](https://play.google.com/store/apps/details?id=com.glgjing.floating.apps.assistive.touch.pro)
 

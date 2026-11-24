@@ -30,7 +30,7 @@ doc_app: only-clock
 
 ## Pendahuluan Aplikasi
 
-Only Clock adalah **jam flip layar penuh [flip clock](/id/glossary/what-is-a-flip-clock/)** yang indah untuk Android dan iOS — ubah ponsel atau tablet apa pun menjadi jam meja atau samping tempat tidur. Ia berfungsi sebagai sumber **jam flip dengan pengatur fokus**, **jam flip dengan white noise**, dan **widget jam flip**, sehingga satu instalasi mencakup meja, samping tempat tidur, dan layar utama. Panduan ini menelusuri dari peluncuran pertama melalui tampilan 12/24-jam, tema, dan ukuran digit, lalu ke widget, suara, dan mode melayang — termasuk cara **gunakan ponsel lama sebagai jam** tanpa membiarkan layar terang penuh.
+Only Clock adalah **jam flip layar penuh [flip clock](/id/glossary/what-is-a-flip-clock/)** untuk Android dan iOS yang mengubah ponsel atau tablet menjadi jam meja atau samping tempat tidur, dengan 18 widget jam bertema, widget grid 1x1 hingga 4x2, animasi flip sekitar 600 ms per digit, dan white noise. Satu instalasi sekaligus mencakup meja, samping tempat tidur, dan layar utama tanpa aplikasi terpisah. Panduan ini menelusuri peluncuran pertama melalui pengaturan 12/24 jam, tema dan ukuran digit, widget, suara, serta mode melayang — termasuk cara memakai ponsel lama sebagai jam tanpa membiarkan layar terang penuh.
 
 **🕐 Animasi Flip**
 - Transisi page-flip yang mulus saat digit berubah (sekitar 600 ms per digit)
@@ -49,7 +49,7 @@ Only Clock adalah **jam flip layar penuh [flip clock](/id/glossary/what-is-a-fli
 
 ## Penggunaan Pertama
 
-Buka aplikasi ke **jam flip layar penuh**.
+Membuka Only Clock langsung menampilkan **jam flip layar penuh** tanpa akun, login, atau wizard pengaturan, dan layar tetap terjaga saat jam ditampilkan agar waktu tetap terbaca sepanjang malam. Empat kontrol berada di bilah alat atas — pengaturan, tema, suara, dan ukuran — sehingga aplikasi bisa dipakai sebagai jam samping tempat tidur tanpa ketukan tambahan.
 
 - Bilah alat (atas) memberi akses cepat ke pengaturan, tema, suara, dan ukuran
 - Layar tetap terjaga saat jam ditampilkan
@@ -58,13 +58,15 @@ Buka aplikasi ke **jam flip layar penuh**.
 
 ## Tampilan Jam Flip
 
-Jam menampilkan waktu bergaya flip. Ketuk bilah alat untuk mengubah **tema** (Clock Theme), **font** (Clock Font), dan **ukuran** (Clock Size).
+Only Clock menampilkan waktu dengan animasi bergaya flip, dengan setiap digit berputar sekitar 600 ms, dan tiga kontrol tampilan di bilah alat — Clock Theme, Clock Font, dan Clock Size. Pilih tema terlebih dahulu, lalu font, lalu ukuran digit agar jam tetap pas di layar, baik untuk samping tempat tidur yang gelap maupun meja yang terang.
 
 ![Tema jam Hitam, Putih, dan Langit di Only Clock](/assets/images/blog/tutorial_clock_theme.webp){: width="180" .normal }
 ![Opsi gaya font dan digit untuk jam digital besar](/assets/images/blog/tutorial_clock_font.webp){: width="180" .normal }
 ![Mengubah ukuran digit jam untuk setup jam meja](/assets/images/blog/tutorial_clock_size.webp){: width="180" .normal }
 
 ## 12/24-jam, Detik, Tanggal
+
+Only Clock mempertahankan **format 24 jam dan detik dalam keadaan aktif secara bawaan**, sementara minggu dan tanggal dimatikan agar wajah flip tetap bersih; kelima sakelar tampilan berada di **Pengaturan**, sehingga format bisa diubah dalam beberapa ketukan tanpa keluar aplikasi. Berikut nilai bawaan dan lokasi tiap pengalihnya.
 
 1. Buka **Pengaturan**
 2. Alihkan:
@@ -78,6 +80,8 @@ Jam menampilkan waktu bergaya flip. Ketuk bilah alat untuk mengubah **tema** (Cl
 
 ## Widget Jam
 
+Widget Only Clock tersedia dalam **26 gaya** di galeri **Pengaturan → Widget**, termasuk widget flip 4x2 yang memiliki konfigurasi tersendiri untuk detik, mask, minggu, dan tanggal. Untuk memasangnya, pilih gaya, ikuti panduan 'tekan lama beranda untuk menambah', lalu pilih Only Clock dari panel widget peluncur.
+
 1. Buka **Pengaturan → Widget**
 2. Telusuri **galeri** 26 gaya
 3. Ketuk sebuah gaya → aplikasi menampilkan panduan "tekan lama beranda untuk menambah"
@@ -87,6 +91,8 @@ Jam menampilkan waktu bergaya flip. Ketuk bilah alat untuk mengubah **tema** (Cl
 ![Widget jam flip di layar utama Android](/assets/images/blog/tutorial_clock_widget.webp){: width="180" .normal }
 
 ## White Noise
+
+Fitur white noise Only Clock memakai mesin suara yang sama dengan aplikasi white-noise mandiri, dengan pilihan suara dalam grid dua kolom — sebagian bersifat premium. Buka **Pengaturan → White noise**, pilih suara, lalu ketuk untuk memutar atau menghentikan; suara ini membantu fokus atau tidur tanpa aplikasi kedua.
 
 1. Buka **Pengaturan → White noise**
 2. Pilih suara dari grid dua kolom (beberapa premium)
@@ -98,6 +104,8 @@ Jam berbagi mesin suara sama dengan aplikasi white-noise mandiri.
 
 ## Floating Clock
 
+Mode jam melayang Only Clock menampilkan overlay jam di atas aplikasi lain setelah sakelar di bilah alat beranda diaktifkan dan izin overlay diberikan. Fitur ini membuat waktu tetap terlihat saat menonton video atau bekerja tanpa harus keluar aplikasi yang sedang dipakai.
+
 1. Aktifkan sakelar jam melayang di bilah alat beranda
 2. Berikan izin overlay jika diminta
 3. Overlay jam muncul di atas aplikasi lain
@@ -106,14 +114,18 @@ Jam berbagi mesin suara sama dengan aplikasi white-noise mandiri.
 
 ## Ponsel Cadangan sebagai Jam
 
-Karena layar tetap terjaga (`FLAG_KEEP_SCREEN_ON`) dan Anda bisa menaruh widget, ponsel atau tablet lama bekerja sangat baik sebagai jam meja/samping tempat tidur khusus. Izinkan optimasi baterai diabaikan agar tak dimatikan.
+Karena layar tetap terjaga (`FLAG_KEEP_SCREEN_ON`) dan widget bisa dipasang, ponsel atau tablet lama bekerja sangat baik sebagai jam meja atau samping tempat tidur khusus di Only Clock. Izinkan pengoptimalan baterai diabaikan agar aplikasi tidak dimatikan sistem saat perangkat dibiarkan terhubung terus.
 
 ## Free vs Pro
+
+Model harga Only Clock membagi fitur menjadi dua tingkat: versi **Gratis** menampilkan iklan dan mengunci sebagian tema, font, serta suara di balik iklan hadiah atau pembelian, sementara **Pro** menghapus iklan dan membuka semuanya. Jam flip inti, widget, dan white noise tetap dapat dipakai tanpa membayar.
 
 - **Gratis** menampilkan iklan dan mengunci beberapa tema/font/suara di balik iklan hadiah atau pembelian
 - **Pro** menghapus iklan dan membuka semua
 
 ## Skenario Umum
+
+Empat skenario memakai Only Clock menunjukkan keluasan jam flip layar penuh: jadikan ponsel cadangan jam samping tempat tidur yang tetap terbaca tanpa menerangi ruangan; jalankan jam layar penuh dengan white noise sebagai jangkar fokus sementara mode melayang menjaga waktu di atas catatan; pasang widget flip 4x2 dengan detik, minggu, dan tanggal untuk sekilas di layar utama; dan ganti tema Hitam, Putih, atau Langit serta font dan ukuran agar jam sesuai ruangan.
 
 - **Jam samping tempat tidur dari ponsel cadangan** — buka Only Clock, colok ponsel di samping tempat tidur, dan wajah flip redup menampilkan waktu sepanjang malam dengan layar tetap terjaga.
 - **Jangkar fokus di meja** — jalankan jam layar penuh dengan white noise saat blok belajar; mode melayang menjaga waktu di atas catatan atau video.

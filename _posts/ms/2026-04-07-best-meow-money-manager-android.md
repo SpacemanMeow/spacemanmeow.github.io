@@ -15,7 +15,7 @@ Di bawah ini kami membandingkan aplikasi yang benar-benar dipasang pengguna Andr
 
 ## Apa yang seharusnya boleh dilakukan aplikasi bajet Android
 
-Ciri yang paling menentukan semasa Anda hidup di dalam ekosistem Google:
+Enam ciri paling menentukan semasa anda hidup dalam ekosistem Google: entri offline terlebih dahulu untuk mencatat di MRT atau pesawat tanpa isyarat, storan lokal dengan kunci cap jari dan bukannya cloud wajib, sokongan multi mata wang termasuk Ringgit untuk perjalanan dan kerja sendiri, widget skrin utama dengan catat cepat satu ketikan, eksport CSV serta sandaran WebDAV atau cloud pilihan, dan harga wajar yang tidak menyembunyikan pencatatan teras di sebalik paywall. Meow Money Manager memenuhi keenam-enamnya dengan more daripada 50 simbol mata wang dan lebih 400 ikon comel, tanpa pendaftaran akaun. Senarai ini memetakan terus keperluan pengguna Android yang mengutamakan privasi berbanding segerak bank automatik.
 
 - **Entri offline terlebih dahulu** — **catat perbelanjaan & pendapatan** di MRT atau pesawat tanpa isyarat.
 - **Storan lokal + kunci** — simpan data di peranti di sebalik cap jari, bukan di cloud wajib.
@@ -26,6 +26,8 @@ Ciri yang paling menentukan semasa Anda hidup di dalam ekosistem Google:
 
 ## Sekilas para pesaing
 
+Empat aplikasi dalam jadual ini — Meow Money Manager, YNAB, PocketGuard, dan EveryDollar — mewakili dua falsafah bajet Android: data tempatan tanpa akaun berbanding segerak bank berasaskan cloud. Meow Money Manager percuma pada terasnya, menyimpan data di peranti di sebalik cap jari, menyokong lebih 50 mata wang, dan mempunyai widget catat cepat. YNAB berharga $14.99 sebulan atau $109 setahun dengan segerak bank Plaid dan metodologi zero-based. PocketGuard dan EveryDollar masing-masing kira-kira $74.99 dan $79.99 setahun pada peringkat premium untuk ciri segerak. Jadual di bawah membedah harga, akaun, storan, mata wang, widget, dan kegunaan utama supaya anda boleh memilih berdasarkan privasi atau automatisasi.
+
 | Aplikasi | Harga (2026) | Akaun | Lokal/peribadi | Multi mata wang | Widget Android | Paling sesuai untuk |
 |---|---|---|---|---|---|---|
 | **Meow Money Manager** | Teras percuma + VIP pilihan | **Tidak** (di peranti + cap jari) | ✅ lokal | ✅ 50+ mata wang | ✅ catat cepat | Peribadi, multi mata wang, comel |
@@ -34,6 +36,8 @@ Ciri yang paling menentukan semasa Anda hidup di dalam ekosistem Google:
 | **EveryDollar** | Percuma (manual) + Premium ~$79,99/tahun | Pilihan | ❌ cloud | Tidak | ⚠️ dasar | Metode zero-based Ramsey |
 
 ## Meow Money Manager, secara mendalam
+
+Meow Money Manager adalah aplikasi catatan kewangan dan bajet bertema kucing untuk Android dan iOS yang menyimpan semua data di peranti di sebalik kunci cap jari tanpa pendaftaran akaun atau login bank. Kelebihannya bagi pengguna Android termasuk tiada akaun, mod offline penuh, lebih 50 simbol mata wang termasuk Ringgit dengan buku kas terpisah, widget catat cepat bawah sepuluh saat, transaksi berulang, penjejakan tuntutan balik, pengurusan aset, eksport CSV, sandaran Google Drive atau WebDAV, dan lebih 400 ikon comel dengan antara muka lima bahasa. Keterbatasannya ialah tiada segerak bank automatik, pembinaan lebih ringan daripada YNAB, dan ciri lanjutan seperti eksport CSV serta buku kas tanpa had memerlukan VIP sekali bayar. Aplikasi ini sesuai untuk pengguna yang mengutamakan privasi dan multi mata wang.
 
 ![Aplikasi catatan kewangan Meow Money Manager: skrin utama](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
 ![Atur bajet bulanan dan bajet per kategori di Meow Money Manager](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
@@ -67,6 +71,8 @@ Meow Money Manager adalah **[aplikasi catatan kewangan bertema kucing](/ms/gloss
 
 ## YNAB, secara mendalam
 
+YNAB (You Need A Bajet) adalah aplikasi zero-based budgeting terkenal yang memberi setiap dolar satu peranan dan mengimport transaksi bank melalui Plaid. Di Android kliennya kukuh, tetapi produknya bersifat web-first dengan perancangan terdalam berlaku di desktop. Kelebihannya termasuk segerak bank automatik, kaedah empat peraturan yang membentuk tabiat, laporan kukuh seperti age of money, sokongan merentas platform, dan tawaran mahasiswa satu tahun percuma. Namun ia hanya berbayar — $14.99 sebulan atau $109 setahun selepas cubaan 34 hari — mewajibkan akaun cloud, mempunyai lengkung pembelajaran, lemah pada multi mata wang berpusat USD, dan tiada penjejakan tuntutan balik. YNAB sesuai untuk pengguna yang mahukan segerak bank dan metode teruji serta menerima langganan.
+
 ![Aplikasi bajet YNAB: skrin utama dan ringkasan akaun](/assets/images/blog/ynab_1.webp){: width="180" .normal }
 ![YNAB: atur bajet bulanan dan bajet per kategori](/assets/images/blog/ynab_2.webp){: width="180" .normal }
 ![YNAB: graf dan statistik perbelanjaan](/assets/images/blog/ynab_3.webp){: width="180" .normal }
@@ -97,10 +103,14 @@ YNAB (You Need A Bajet) adalah aplikasi **zero-based budgeting** yang terkenal: 
 
 ## Bagaimana aplikasi lain berbanding
 
+Dua pesaing tambahan melengkapkan senarai ini. PocketGuard menjawab satu soalan — "berapa wang yang selamat dibelanjakan?" — dengan menarik akaun dan mengurangkan bil; versi percuma memberi pencatatan manual manakala segerak penuh memerlukan Plus kira-kira $74.99 setahun. EveryDollar meniru kaedah zero-based Dave Ramsey, dengan peringkat percuma hanya untuk entri manual dan Premium kira-kira $79.99 setahun untuk segerak bank. Kedua-duanya cemerlang dalam kesederhanaan tetapi nipis pada kategori terperinci, multi mata wang, dan pelaporan. Bagi pembaca Android yang mahu privasi tanpa akaun dan lebih 50 mata wang, Meow Money Manager kekal sebagai pilihan yang tidak memaksa data ke cloud.
+
 - **PocketGuard** menjawab satu pertanyaan — "berapa wang yang selamat dibelanjakan?" — dengan menarik akaun Anda dan mengurangi bil. Versi percuma memberi pencatatan manual; segerak penuh perlu Plus (~$74,99/tahun). Unggul dalam kesederhanaan, ringan pada kategori rinci.
 - **EveryDollar** meniru metode zero-based Dave Ramsey. Tingkat percuma hanya entri manual; Premium (~$79,99/tahun) menambah segerak bank. Bersih dan mudah didekati, tetapi tipis pada multi mata wang dan pelaporan.
 
 ## Mana yang sebaiknya dipilih pengguna Android?
+
+Pilihan pengguna Android bergantung pada satu trade-off: privasi dan data tempatan berbanding segerak bank dan metodologi. Meow Money Manager adalah jawapan untuk pencatatan percuma, peribadi, offline, dan multi mata wang tanpa akaun, dengan widget catat cepat yang sesuai dengan tabiat satu ketikan Android. YNAB sesuai jika anda mahukan segerak bank dan kaedah zero-based serta menerima langganan dan cloud. PocketGuard memberi kesederhanaan "safe-to-spend", manakala EveryDollar untuk perancangan zero-based Ramsey yang ketat. Empat cadangan ini meringkaskan jadual di atas menjadi keputusan praktikal. Jika matlamat anda ialah mengelak akaun cloud dan mencatat Ringgit serta mata wang lain di peranti, aplikasi tempatan adalah pilihan yang paling selaras.
 
 - Ingin **percuma + peribadi + multi mata wang + offline** → **Meow Money Manager**. Model on-device dan widget catat cepat sesuai dengan tabiat satu ketikan Android, dan tidak ada akaun yang perlu dikhawatirkan.
 - Ingin **segerak bank + metode** dan menerima langganan/cloud → **YNAB**.

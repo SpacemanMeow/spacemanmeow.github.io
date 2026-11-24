@@ -36,7 +36,7 @@ faq:
       Ada. Aktifkan kunci aplikasi dengan sidik jari agar daftar tugas tetap privat.
 ---
 
-Meow Todo List & Task adalah pengelola daftar tugas dan perencana jadwal untuk mengatur waktu. Pernah lupa tugas penting, atau momen berharga bersama keluarga? Aplikasi ini membantu Anda memanfaatkan hari dengan lebih baik, baik untuk mencatat ide, mengejar target pribadi, menyelesaikan pekerjaan, memantau kebiasaan, mengerjakan proyek bersama rekan, maupun sekadar menyusun daftar belanja.
+Meow Todo List & Task adalah **pengelola [daftar tugas](/id/glossary/what-is-a-to-do-list/) dan perencana jadwal** di Android dan iOS untuk mencatat ide, mengejar target pribadi, menyelesaikan pekerjaan, memantau kebiasaan, mengerjakan proyek bersama rekan, atau menyusun daftar belanja. Tampilan kalender memperlihatkan rencana harian, mingguan, dan bulanan dalam satu gambaran; tugas bisa dipecah menjadi subtugas dengan detail dan pengingat, sementara **lebih dari 400 ikon lucu** menyesuaikan daftar dan tag. Data disinkronkan dan dicadangkan ke Google Drive atau WebDAV, kunci sidik jari menjaga privasi, dan laporan bisa diekspor ke CSV. Beberapa daftar tugas bisa dibuat hanya dalam dua langkah, dengan tema terang dan gelap.
 
 ### Fitur Meow Todo List & Task
 

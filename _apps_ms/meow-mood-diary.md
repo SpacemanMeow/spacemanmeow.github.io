@@ -34,7 +34,7 @@ faq:
       Boleh. Atur peringatan lembut yang dapat disesuaikan untuk membangun tabiat mencatat mood secara konsisten.
 ---
 
-Mencari cara yang lembut untuk mencatat mood dan emosi setiap hari? Meow Mood Diary menyediakan ruang yang selamat dan menenangkan dengan reka bentuk bertema kucing serta operasi yang sederhana. Baik saat ingin menyimpan momen bahagia, memproses hari yang berat, maupun sekadar memahami pola emosi, jurnal ini mengubah pencatatan harian menjadi pengalaman yang menyenangkan — tanpa tetapan rumit dan tanpa menu yang membingungkan.
+Meow Mood Diary ialah jurnal mood peribadi dengan reka bentuk bertema kucing dan operasi yang sederhana untuk mencatat emosi setiap hari secara cepat, selamat, dan tanpa tetapan rumit. Catatan mood sekali ketik cukup dengan memilih ikon emosi, tanpa perlu menulis paragraf panjang, manakala kalendar dan graf visual memaparkan trend serta emosi yang paling kerap muncul. Semua entri berfungsi sepenuhnya luar talian dan tidak pernah diunggah ke server — sandaran hanya menuju Google Drive milik sendiri. Kunci cap jari atau kod sandi, peringatan harian yang boleh disesuaikan, serta catatan teks terperinci melengkapkannya, baik untuk menyimpan momen bahagia, memproses hari yang berat, mahupun memahami pola emosi.
 
 ### Mengapa memilih Meow Mood Diary?
 

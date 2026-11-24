@@ -46,7 +46,7 @@ faq:
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
-Floating Assistant including: assistive touch, floating clock and floating monitor. Assistive touch make it easier to quickly access your favorite apps, settings and quickly switch. It's also ideal for home and volume buttons that protect physical buttons. Floating Clock show the time clock and countdown timer in the floating window, help you to check the time when you are using other applications. Floating Monitor show the cpu temperature and usage percent, ram usage percent and one tap to clean the memory
+Floating Assistant is an Android overlay tool built from three parts — assistive touch, a floating clock and a floating system monitor — that keep controls, time and hardware figures above other apps. The assistive-touch ball offers virtual home, back, recent and volume buttons plus screenshot, screen lock, flashlight and app shortcuts, protecting physical keys; Accessibility is used only for the six listed actions, with no personal data collected. The floating clock shows time or a countdown over full-screen apps, and the monitor reports CPU temperature, usage, RAM and battery with a one-tap boost.
 
 **Assistive Touch**
 

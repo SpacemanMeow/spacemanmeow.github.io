@@ -31,7 +31,7 @@ doc_app: meow-todo-list
 
 ## Pengenalan Aplikasi
 
-Meow Todo List adalah pengelola tugas bergaya kartun lucu sekaligus **[aplikasi to-do list](/id/glossary/what-is-a-to-do-list/)** untuk Android dan iOS. Ia membantu Anda mencatat tugas dengan cepat dan meninjaunya per hari, minggu, bulan, atau daftar. Aplikasi ini juga berfungsi sebagai **aplikasi tugas harian offline sederhana**: daftar tugas tanpa akun tersimpan di ponsel, dan inti **aplikasi pengelola tugas gratis** mencakup daftar, pengingat, serta **aplikasi kalender tugas**. Panduan ini memandu tiap layar, dari pembukaan pertama hingga **sinkronisasi Google Drive** dan ekspor CSV.
+Meow Todo List adalah pengelola tugas bergaya kartun sekaligus **[aplikasi to-do list](/id/glossary/what-is-a-to-do-list/)** untuk Android dan iOS, dengan empat tab — Tugas, Kalender, Statistik, dan Pengaturan — serta tombol + mengambang untuk menambah tugas dari mana saja. Aplikasi ini menyimpan daftar tanpa akun di perangkat, mendukung tugas berulang harian hingga kustom, tampilan kalender Hari/Minggu/Bulan, dan 400+ ikon kategori. Cadangan Google Drive atau WebDav serta ekspor CSV menjaga data tetap aman.
 
 **📝 Pencatatan Cepat**
 
@@ -59,7 +59,7 @@ Meow Todo List adalah pengelola tugas bergaya kartun lucu sekaligus **[aplikasi 
 
 ## Penggunaan Pertama
 
-Saat pertama kali membuka Meow Todo List, Anda langsung masuk ke tab **Tugas**.
+Saat pertama kali membuka Meow Todo List, Anda langsung masuk ke tab **Tugas**, tempat tombol **+** di kanan bawah membuat tugas baru dan laci kiri berpindah antara Hari Ini, Besok, 7 hari, Selesai, serta Buku dan Tag kustom. Bilah bawah menghubungkan Tugas, Kalender, Statistik, dan Pengaturan sehingga hampir semua kebutuhan perencanaan berada dalam satu jari.
 
 - Tombol **+** (kanan bawah) membuat tugas
 - **Laci** kiri berpindah antara Hari Ini / Besok / 7 hari / Selesai serta Buku dan Tag kustom Anda
@@ -68,6 +68,8 @@ Saat pertama kali membuka Meow Todo List, Anda langsung masuk ke tab **Tugas**.
 ![Aplikasi tugas harian offline — tab Tugas Meow Todo List](/assets/images/blog/tutorial_todo_tasks.webp){: width="180" .normal }
 
 ## Menambahkan Tugas
+
+Menambah tugas di Meow Todo List dimulai dari tombol **+**, lalu mengetik judul, menetapkan tanggal dan opsional jam, memilih Buku serta satu atau lebih Tag, dan mengatur prioritas sebelum menekan Konfirmasi. Tugas bisa berulang harian, mingguan, bulanan, tahunan, atau mengikuti aturan kustom 'setiap N hari/minggu'. Dengan begitu, satu entri mencakup kapan, di mana, dan seberapa penting pekerjaan itu.
 
 1. Ketuk tombol **+**
 2. Ketik **judul** tugas
@@ -85,7 +87,7 @@ Saat pertama kali membuka Meow Todo List, Anda langsung masuk ke tab **Tugas**.
 
 ## Subtugas
 
-Buka sebuah tugas, lalu gunakan kolom **Tambah subtugas** di bagian bawah halaman detail.
+Buka sebuah tugas, lalu gunakan kolom **Tambah subtugas** di bagian bawah halaman detail Meow Todo List: ketik subtugas dan item langsung masuk ke daftar, lalu centang saat selesai. Akun gratis membatasi hingga 15 subtugas per tugas, sementara VIP menghapus batas itu. Pecah pekerjaan besar menjadi langkah kecil menjadi lebih mudah dengan alur ini.
 
 - Ketik subtugas dan item langsung masuk ke daftar
 - Akun gratis bisa menambah hingga **15 subtugas** per tugas; VIP menghapus batas **aplikasi subtask gratis** ini
@@ -96,7 +98,7 @@ Buka sebuah tugas, lalu gunakan kolom **Tambah subtugas** di bagian bawah halama
 
 ## Pengingat
 
-Pengingat dijadwalkan dengan **WorkManager**, sehingga **aplikasi pengingat tugas** ini tetap berbunyi meski Anda tidak membuka aplikasi.
+Pengingat Meow Todo List dijadwalkan dengan **WorkManager**, sehingga aplikasi pengingat tugas ini tetap berbunyi meski Anda tidak membuka aplikasi. Pengingat memakai tanggal dan waktu yang ditetapkan pada tugas, dan dijadwalkan ulang otomatis saat tugas diedit — pastikan notifikasi diizinkan agar tidak terlewat.
 
 1. Saat mengedit tugas, tetapkan tanggal/waktu (pengingat memakai waktu tersebut)
 2. Pastikan notifikasi diizinkan untuk aplikasi
@@ -110,6 +112,8 @@ Jika pengingat tidak muncul, buka tugas dan pastikan tanggal/waktunya di masa de
 
 ## Tampilan Kalender
 
+Tampilan kalender Meow Todo List diakses dari tab **Kalender** dengan pilihan Hari, Minggu, atau Bulan di kanan atas. Hari yang memiliki tugas ditandai titik kecil, dan ketukan pada sebuah hari menampilkan daftar tugasnya. Tampilan ini membuat tenggat yang tersebar antarpekan tetap terlihat sekilas.
+
 1. Beralih ke tab **Kalender**
 2. Pakai pilihan **Hari / Minggu / Bulan** di kanan atas
 3. Hari yang punya tugas ditandai titik kecil
@@ -122,6 +126,8 @@ Jika pengingat tidak muncul, buka tugas dan pastikan tanggal/waktunya di masa de
 
 ## Statistik
 
+Tab **Statistik** Meow Todo List menampilkan peta panas kontribusi dan diagram pai yang dikelompokkan per Buku atau Tag, lengkap dengan ringkasan mingguan, bulanan, dan tahunan. Dengan mengganti rentang, Anda bisa melihat tren penyelesaian tugas dari waktu ke waktu dan menemukan bagian mana yang paling sering tertunda.
+
 1. Buka tab **Statistik**
 2. Lihat peta panas kontribusi dan diagram pai
 3. Ganti rentang (minggu / bulan / tahun) untuk melihat tren per Buku dan Tag
@@ -131,6 +137,8 @@ Jika pengingat tidak muncul, buka tugas dan pastikan tanggal/waktunya di masa de
 
 ## Daftar dan Tag
 
+Dua alat pengelompokan dalam Meow Todo List — Buku (daftar) dan Tag — bekerja bersama untuk menjaga tugas tetap rapi sekaligus mudah difilter. Buku (daftar) mengelompokkan tugas ke dalam wadah terpisah, misalnya Kerja atau Travel, dan akun gratis bisa membuat hingga 10 Buku, sehingga pekerjaan, kuliah, dan kehidupan pribadi tidak bercampur dalam satu daftar panjang. Tag adalah label lintas daftar yang memudahkan filter; akun gratis juga menyediakan hingga 10 Tag, jadi satu tugas bisa muncul dalam beberapa filter tanpa disalin ke beberapa Buku. Keduanya bisa dibuat dari laci samping atau dari layar Pengaturan → Pengelolaan, sehingga Anda tidak perlu membuka editor tugas hanya untuk menambah kategori. Dengan batas 10 Buku dan 10 Tag, pengguna gratis sudah punya cukup ruang untuk memisahkan area hidup, sementara kombinasi keduanya membuat daftar harian tetap pendek dan mudah dipindai sekilas.
+
 - **Buku (daftar)** mengelompokkan tugas — mis. Kerja, Travel. Akun gratis bisa membuat hingga **10 Buku**
 - **Tag** memudahkan filter lintas daftar — akun gratis bisa membuat hingga **10 Tag**
 - Buat keduanya dari laci atau layar Pengaturan → Pengelolaan
@@ -138,6 +146,8 @@ Jika pengingat tidak muncul, buka tugas dan pastikan tanggal/waktunya di masa de
 ![Buku daftar tugas Meow Todo List](/assets/images/blog/tutorial_todo_book.webp){: width="180" .normal }
 
 ## Cadangan dan Sinkronisasi
+
+Cadangan dan sinkronisasi Meow Todo List memakai **Pengaturan → Pengelolaan → Google Drive** atau **WebDAV**: masuk atau isi server, akun, dan kata sandi, lalu ketuk Cadangkan untuk mengunggah atau Pulihkan untuk mengunduh. Aktifkan Cadangan otomatis agar daftar tugas tetap aman saat ponsel hilang atau diganti.
 
 1. Buka **Pengaturan → Pengelolaan → Google Drive** (atau **WebDAV**)
 2. Masuk / isi server, akun, dan kata sandi
@@ -148,6 +158,8 @@ Jika pengingat tidak muncul, buka tugas dan pastikan tanggal/waktunya di masa de
 
 ## Ekspor CSV (VIP)
 
+Ekspor CSV Meow Todo List tersedia lewat **Pengaturan → Pengelolaan → Ekspor** dan merupakan fitur VIP. Anda bisa memfilter berdasarkan Buku, Tag, prioritas, atau rentang tanggal, lalu mengetuk Ekspor dan membagikan berkas `.csv` yang bisa dibuka di Excel maupun Sheets.
+
 1. Buka **Pengaturan → Pengelolaan → Ekspor**
 2. Filter berdasarkan Buku / Tag / prioritas / rentang tanggal
 3. Ketuk **Ekspor**, lalu bagikan berkas `.csv` (buka di Excel atau Sheets)
@@ -156,7 +168,7 @@ Jika pengingat tidak muncul, buka tugas dan pastikan tanggal/waktunya di masa de
 
 ## Pengaturan
 
-Pengaturan mencakup:
+Pengaturan Meow Todo List mencakup mode gelap VIP, kunci aplikasi sidik jari atau kata sandi VIP, hari awal pekan, bahasa, tampilan tugas selesai yang menampilkan 10 terakhir secara bawaan, serta Google Drive, WebDAV, dan Widget. Dari sini Anda menyesuaikan tampilan sekaligus mengatur keamanan dan cadangan.
 
 - **Mode gelap** (VIP)
 - **Kunci aplikasi** — sidik jari atau kata sandi (VIP)
@@ -165,6 +177,8 @@ Pengaturan mencakup:
 - **Google Drive / WebDAV** dan **Widget**
 
 ## Skenario Umum
+
+Empat skenario memakai Meow Todo List menunjukkan peran kalender, Buku dan Tag, penyimpanan offline, serta kunci privat. Saat musim ujian, tampilan kalender dan pengingat harian menjaga tenggat tiap mata kuliah tetap terlihat; untuk proyek kelompok, satu Buku per proyek dan Tag per anggota memecah kerja jadi subtugas sebelum diekspor ke CSV; di perjalanan tanpa sinyal, tugas baru tetap tersimpan di perangkat dan tersinkron setelah daring; dan kunci sidik jari opsional menjaga daftar tetap di ponsel.
 
 - **Musim ujian** — pakai tampilan kalender dan pengingat harian agar tenggat tiap mata kuliah tetap terlihat, jadi tidak ada yang selip antarpekan.
 - **Proyek kelompok** — buat satu Buku (daftar) per proyek dan Tag per anggota, lalu pecah kerja jadi subtugas dan ekspor CSV untuk membagikan rencana.

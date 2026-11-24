@@ -42,7 +42,7 @@ faq:
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
-Do You feel difficult to concentrate at work or at study or feel difficult to fall asleep? White Noise for sleep & relax is created exactly for you.
+Meow FM is a white-noise app for sleep, relaxation and focus on Android and iOS, with eight listed ambient scenes — rain, thunderstorm, wind, forest with birds, water steam, seaside, fireplace and summer night — that mask surrounding noise. A play-duration and auto-switch-off timer lets the sound stop after you fall asleep, a desktop clock supports study or work sessions, and dark and light themes and illustrated covers shape the look. Basic sounds are free; additional sound packs require a purchase.
 
 What is white noise and how white noise can help you to concentrate to work or easy to fall asleep?
 White noise is a sound which is a mixture of different noise at different level of frequency. Different noises at different level of frequency which can cover your real surrounding noises. When you listen to White Noise, your brain understands that it can listen to only one noise and can’t recognize the other surrounding noises.

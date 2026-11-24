@@ -20,6 +20,8 @@ Jadi tulisan ini bukan pertandingan siapa ada senarai semak paling panjang. Kami
 
 ## 1. Yang dijaga aplikasi senarai tugas ialah urusan "belum siap"
 
+Aplikasi senarai tugas menjaga urusan 'belum siap' dengan memberi setiap tugasan satu peraturan bilakah ia akan dilihat semula, berbeza dengan kertas lekat yang hanya satu ayat. Hampir setiap produk tersusun daripada tiga lapis: butir iaitu medan yang dibawa satu tugas, bekas iaitu senarai atau projek tempat butir diletakkan, dan paparan iaitu sudut pandangan seperti hari ini, esok atau tujuh hari akan datang. Tiga lapis ini menerangkan mengapa aplikasi senarai tugas bukan sekadar kertas lekat digital: langkah tambahannya ialah memberi setiap urusan yang belum siap satu tempat dan waktu untuk muncul semula. Bahagian ini menghuraikan ketiga-tiga lapis itu sebelum membandingkan produk.
+
 ### Kertas lekat dengan satu sistem berbeza pada tiga lapis
 
 Tugas pada kertas cuma satu ayat; tugas dalam aplikasi ialah **rekod yang ada tempat tuju**. Hampir setiap produk tersusun daripada tiga lapis:
@@ -59,6 +61,8 @@ Istilah berikut berulang dalam perbandingan ini, jadi ditetapkan dahulu di awal:
 Konsepnya nampak remeh, tetapi hampir semua yang membuat dua aplikasi terasa berbeza datang daripada peraturan di sebalik istilah-istilah ini.
 
 ## 2. Mengikut satu tugas melalui lima tahap
+
+Mengikut satu tugas melalui lima tahap — menangkap, menyusun, melaksana, menyiapkan dan meninjau — mendedahkan perbezaan sebenar antara tujuh aplikasi senarai tugas. Kos masuk menentukan sama ada senarai benar-benar digunakan: yang paling ringan hanya menyediakan kotak tajuk, yang paling mudah memasukkan semua medan ke dalam satu ayat lalu menghurainya. Todoist dan TickTick menjadikan tambah pantas bahasa semula jadi sebagai pintu utama, Google Tasks menumbuhkan pintu masuk di sebelah e-mel, manakala Meow Todo List memilih tajuk teks biasa dengan tarikh dan keutamaan pada panel berasingan. Lima tahap ini menjadi benang merah yang menyusun seluruh perbandingan artikel ini.
 
 ### Tahap 1 — Menangkap: satu ayat dipecah kepada beberapa medan
 
@@ -110,6 +114,8 @@ Jalan keluar data berbaloi dilihat berasingan. Meow Todo List menyimpan data pad
 
 ## 3. Apa gunanya aplikasi senarai tugas sebenarnya
 
+Nilai praktikal aplikasi senarai tugas terletak pada apa yang anda peroleh dengan menulis satu tugasan, bukan sekadar pada senarai ciri. Kajian Bluma Zeigarnik pada dekad 1920-an dan eksperimen Masicampo serta Baumeister pada 2011 menunjukkan bahawa urusan belum siap lebih mudah mengganggu fikiran, tetapi gangguan itu menurun sebaik ada pelan konkret tentang bila, di mana dan bagaimana. Empat nilai boleh dipakai setiap hari: ingatan luaran, menukar yang kabur kepada boleh laksana, memendekkan jarak dari terfikir ke tercatat, dan meninggalkan jejak boleh semak. Bahagian ini menggariskan nilai itu sebelum mengingatkan batasnya — senarai ialah bekas, bukan kaedah, dan boleh menyusahkan bila tidak dibersihkan.
+
 ### Menyerahkan "mengingat" ke luar kepala
 
 Pada dekad 1920-an Bluma Zeigarnik perasan bahawa pelayan mengingati pesanan yang belum dibayar dengan lebih jelas berbanding yang sudah dijelaskan, kemudian dirumuskan sebagai kesan Zeigarnik: urusan belum siap lebih cenderung kekal dalam fikiran. Lebih dekat dengan aplikasi senarai tugas ialah eksperimen Masicampo dan Baumeister pada 2011 dalam *Journal of Personality and Social Psychology* (101(4), 667–683, doi:10.1037/a0024192): yang membuat matlamat belum tercapai terus menyelinap masuk ke fikiran selalunya bukan "belum siap" itu sendiri, tetapi **ketiadaan pelan yang konkret**; sebaik sahaja ditulis bila, di mana dan bagaimana, gangguannya menurun dengan ketara.
@@ -138,6 +144,8 @@ Satu ayat: aplikasi senarai tugas bertanggungjawab **memberi tempat kepada urusa
 ## 4. Ke mana 7 produk mencurahkan tenaga
 
 ### Meow Todo List (Android / iOS): lima tahap kekal tempatan
+
+Bahagian ini melihat ke mana tujuh produk mencurahkan tenaga mereka merentas lima tahap satu tugasan. Meow Todo List paling konsisten mengutamakan penyimpanan tempatan tanpa akaun, menjadikan menangkap, menyusun dan meninjau semuanya keupayaan setempat dengan kos tiada penyegerakan masa nyata. Todoist memendekkan tahap pertama sehabis mungkin dengan tambah pantas pintar; TickTick menjadikan pelaksanaan satu kalendar, tabiat dan fokus; Microsoft To Do menyusun semula setiap hari melalui 'My Day'; Things 3 membina struktur organisasi; Google Tasks tertanam di sebelah e-mel; dan Any.do meletakkan tugas ke dalam jadual hari itu. Setiap produk memberi tumpuan berbeza.
 
 Meow Todo List tersedia pada Android mahupun iOS, dan kedua-duanya mengambil jalur "tiada akaun, data kekal pada peranti"; butiran fungsi di bawah mengikut antara muka Android, jadi pada iOS ikut paparan sebenar dalam aplikasi. Dalam kalangan 7 produk ini, ia paling konsisten mengutamakan tempatan: tiada akaun, tugas, senarai dan tag disimpan pada peranti; organisasi satu aras senarai, satu aras tag, satu aras subtugas; paparan Tugas, Kalendar, Statistik dan Tetapan; peringatan berupa peringatan tugas serta ringkasan harian; 10 jenis widget pada skrin utama. Pertukarannya konsisten — menangkap, menyusun dan meninjau semuanya dijadikan keupayaan tempatan, dengan kos tiada penyegerakan masa nyata merentas peranti.
 
@@ -216,6 +224,8 @@ Seperti Microsoft To Do ia condong kepada "penjadwalan", tetapi lebih menekankan
 
 ## 5. Satu tugas menjadi apa dalam 7 aplikasi
 
+Satu tugas yang sama — laporan suku tahunan yang jatuh tempo Rabu depan — berubah menjadi tujuh hasil yang berbeza apabila dimasukkan ke setiap aplikasi, dan perbezaan itu boleh dimampatkan menjadi satu jadual. Jadual di bawah hanya menjejak ke mana satu tugas pergi: apa berlaku semasa input, bekas mana ia masuk, apa selepas Rabu depan, apa selepas ditanda, dan di mana datanya disimpan. Bilangan ciri, gaya antara muka dan banyak tidaknya templat tidak mengubah sama ada tugas itu akan dilihat semula apabila diperlukan. Perbandingan ini sengaja memfokus pada pergerakan satu tugas, bukan pada senarai ciri.
+
 Masukkan ayat pembuka tentang laporan suku tahunan yang jatuh tempo Rabu depan seadanya ke setiap aplikasi, bezanya boleh dimampatkan menjadi satu jadual:
 
 | Produk | Apa berlaku semasa input | Masuk bekas mana | Selepas Rabu depan | Selepas ditanda | Di mana datanya |
@@ -232,6 +242,8 @@ Jadual ini sengaja hanya membandingkan ke mana satu tugas pergi. Bilangan ciri, 
 
 ## 6. Platform, pembayaran dan pemilikan data
 
+Perbandingan platform, pembayaran dan pemilikan data merentas tujuh produk menunjukkan tiga pakaran yang jelas: percuma dengan kuota, langganan berbayar, dan beli sekali. Meow Todo List percuma dengan had 10 senarai, 10 tag dan 10 subtugas setiap tugas serta data pada peranti tanpa akaun; Todoist, TickTick, Microsoft To Do, Google Tasks dan Any.do menggunakan akaun dan penyegerakan awan; Things 3 dibeli sekali untuk ekosistem Apple sahaja. Jadual di bawah memetakan platform utama, skema bayar mengikut halaman rasmi November 2026, keperluan akaun, serta lokasi dan eksport data supaya anda boleh memilih berdasarkan keperluan privasi dan peranti.
+
 | Produk | Platform utama | Skema bayar (halaman rasmi 2026-11) | Perlu akaun | Data dan eksport |
 |---|---|---|---|---|
 | Meow Todo List | Android / iOS | Percuma dihadkan 10 senarai, 10 tag, 10 subtugas setiap tugas; tema gelap, kunci aplikasi, kuota tanpa had dan eksport CSV item yang dibuka | Tidak | Pada peranti; sandaran penuh boleh dihalakan ke WebDAV sendiri; tiada import |
@@ -244,6 +256,8 @@ Jadual ini sengaja hanya membandingkan ke mana satu tugas pergi. Bilangan ciri, 
 
 ## 7. Cari dulu tahap mana yang membuat anda tersekat
 
+Cari dulu tahap mana yang membuat anda tersekat, kerana itu lebih berguna daripada bertanya mana aplikasi terbaik. Lima tahap satu tugasan — menangkap, menyusun, melaksana, menyiapkan dan meninjau — menawarkan lima jalan keluar: jika selalu terlupa mencatat, utamakan pintu masuk seperti tambah pantas atau widget; jika sudah catat tetapi tidak jumpa, perbaiki struktur organisasi; jika tidak dibuat, lihat paparan hari ini dan tanda lewat tempoh; jika jejak hilang, semak rekod siap dan eksport; dan jika mengambil berat pemilikan data, pilih antara storan tempatan dan penyegerakan awan. Cadangan lengkap mengikut tahap disenaraikan di bawah.
+
 Jangan mula dengan "mana yang terbaik", lihat dulu pada tahap mana daripada lima tahap ini anda paling kerap tergelincir:
 
 - **Selalu terlupa mencatat**: utamakan pintu masuk. Tambah pantas bahasa semula jadi (Todoist, TickTick), bar sisi Gmail (Google Tasks) dan widget tambah pantas pada skrin utama (Meow Todo List) semuanya memangkas kos kepada beberapa saat.
@@ -255,6 +269,8 @@ Jangan mula dengan "mana yang terbaik", lihat dulu pada tahap mana daripada lima
 Masih ragu, mulakan dengan [panduan pemula Meow Todo List](/ms/posts/best-meow-todo-list-android/) dan [tutorial lengkap Meow Todo List](/ms/posts/tutorial-meow-todo-list/); jika lebih mengutamakan penggunaan luar talian, data tulen tempatan dan widget skrin utama, [halaman aplikasi Meow Todo List](/ms/apps/meow-todo-list/) memuat penerangan ciri yang lebih lengkap.
 
 ## 8. Enam tanggapan salah yang lazim
+
+Enam tanggapan salah yang lazim sering mengelirukan pemilihan aplikasi senarai tugas: lebih banyak ciri tidak bermakna lebih konsisten, menulis senarai tidak sama dengan menyiapkan tugas, tugas lewat tempoh tidak semestinya perlu berpindah automatik, pakej percuma bebas mencipta tugas itu mitos, tempatan tidak bermakna tidak selamat dan awan tidak semestinya lebih mudah, serta tugas berulang tidak sama dengan streak tabiat. Setiap tanggapan itu disangkal dengan mekanisme sebenar yang telah dibincangkan, supaya anda boleh menilai aplikasi berdasarkan peraturan 'selepas itu apa' dan bukannya pada bilangan suis ciri. Senarai enam tanggapan itu disenaraikan di bawah.
 
 1. **"Lebih banyak ciri lebih konsisten"**: pomodoro, tabiat, papan dan kerjasama memang berguna, tetapi setiap modul tambahan bermaksud satu lagi tempat yang perlu dijaga. Gunakan satu dua minggu dulu untuk mencari tahap yang tersekat, baru putuskan sama ada mahu alat yang lebih berat.
 2. **"Menulis senarai bermakna sudah maju"**: dapatan Masicampo dan Baumeister ialah "pelan konkret" mengurangkan fikiran yang menyelinap, bukan "membuat senarai" sama dengan menyiapkan tugas. Sebaiknya setiap butir memuat tindakan seterusnya, bukan cuma kata nama.

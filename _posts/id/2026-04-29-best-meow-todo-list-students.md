@@ -14,6 +14,8 @@ Di antara kuliah, tugas, dan shift kerja paruh waktu, mahasiswa membutuhkan **[p
 
 ## Apa yang benar-benar dibutuhkan mahasiswa
 
+Meow Todo, Todoist, Microsoft To Do, dan TickTick adalah empat aplikasi to-do yang dibandingkan di sini untuk mahasiswa yang tenggatnya tersebar di belasan mata kuliah dan proyek kelompok berlangsung berminggu-minggu. Meow Todo menyimpan tugas lokal tanpa akun dengan subtugas dan kalender; Todoist dipercaya 30 juta pengguna dengan bahasa alami dan Pro ~$48 per tahun; Microsoft To Do gratis dalam ekosistem Microsoft; TickTick menyatukan tugas, kalender, dan pomodoro. Enam kebutuhan mahasiswa — inti gratis, subtugas, pengingat tenggat, tampilan kalender, tanpa akun wajib, dan ekspor — menentukan pilihan. Pilihan bergantung pada satu hal: apakah Anda ingin pencatatan gratis privat atau kolaborasi berbasis cloud.
+
 - **Inti gratis** — Anda tidak perlu membayar untuk mencatat tugas kuliah.
 - **Subtugas** — pecah esai menjadi riset, draf, sunting, kumpul.
 - **Pengingat tenggat** — notifikasi sebelum waktunya, bukan sesudahnya.
@@ -23,6 +25,8 @@ Di antara kuliah, tugas, dan shift kerja paruh waktu, mahasiswa membutuhkan **[p
 
 ## Sekilas para pesaing
 
+Meow Todo, Todoist, Microsoft To Do, dan TickTick adalah empat aplikasi pengelola tugas yang dirangkum menurut harga, akun, subtugas, kalender, dan kecocokan untuk mahasiswa. Meow Todo gratis di inti tanpa akun dengan data lokal berkunci; Todoist dan TickTick memakai akun cloud dengan langganan; Microsoft To Do gratis tetapi terikat Microsoft. Semua mendukung subtugas dan kalender, tetapi hanya Meow Todo yang bekerja tanpa pendaftaran. Tabel berikut memetakan perbedaan sebelum Anda memilih aplikasi to-do mahasiswa.
+
 | Aplikasi | Harga (2026) | Akun | Subtugas | Kalender | Paling cocok untuk mahasiswa |
 |---|---|---|---|---|---|
 | **Meow Todo** | Inti gratis + VIP opsional | **Tidak** (lokal + kunci) | ✅ (VIP untuk banyak) | ✅ | Gratis, privat |
@@ -31,6 +35,8 @@ Di antara kuliah, tugas, dan shift kerja paruh waktu, mahasiswa membutuhkan **[p
 | **TickTick** | Gratis + langganan | Ya (cloud) | ✅ | ✅ | All-in-one |
 
 ## Meow Todo, secara mendalam
+
+Meow Todo adalah aplikasi daftar tugas bertema kucing untuk Android dan iOS dengan fitur inti gratis berisi daftar, tugas, pengingat, dan tampilan kalender, sementara VIP membuka daftar tanpa batas, tag, subtugas, ekspor CSV, dan kunci aplikasi. Lima layar di bawah menampilkan tugas hari ini, editor dan pengingat tenggat, daftar mata kuliah dan grup tag, kalender satu semester, serta sinkronisasi dan pengaturan. Untuk mahasiswa, keunggulannya adalah tanpa akun wajib dengan data di balik kunci sidik jari, subtugas untuk memecah esai, pengingat harian dan tenggat, serta backup Google Drive atau WebDav yang Anda kendalikan. Keterbatasannya, daftar tanpa batas berada di balik VIP dan tanpa sinkron cloud otomatis.
 
 ![Aplikasi to-do untuk mahasiswa Meow Todo: tugas hari ini](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
 ![Editor tugas dan pengingat tenggat Meow Todo](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
@@ -59,6 +65,8 @@ Meow Todo adalah **aplikasi daftar tugas bertema kucing** untuk Android dan iOS.
 
 ## Todoist, secara mendalam
 
+Todoist adalah pengelola tugas paling banyak dipasang yang dipercaya 30 juta pengguna, dengan entri bahasa alami seperti "kumpulkan esai besok jam 5 sore" dan kolaborasi kuat, tetapi mewajibkan akun cloud. Lima layar di bawah menampilkan daftar tugas, editor dan pengingat tenggat, proyek mata kuliah dan grup label, kalender jadwal kuliah, serta sinkronisasi dan pengaturan akun. Untuk mahasiswa, keunggulannya adalah input bahasa alami, proyek dan subtugas per mata kuliah, berbagi daftar dengan teman kelompok, serta streak karma. Keterbatasannya, paket gratis membatasi proyek dan label, Pro ~$48 per tahun membuka sisanya, dan biaya langganan menumpuk di anggaran mahasiswa.
+
 ![Todoist daftar tugas mahasiswa dan tugas hari ini](/assets/images/blog/todoist_1.webp){: width="180" .normal }
 ![Todoist editor tugas dan pengingat tenggat](/assets/images/blog/todoist_2.webp){: width="180" .normal }
 ![Todoist proyek mata kuliah dan grup label](/assets/images/blog/todoist_3.webp){: width="180" .normal }
@@ -85,12 +93,14 @@ Todoist adalah pengelola tugas paling banyak dipasang, dipercaya 30 juta penggun
 
 ## Bagaimana aplikasi lain dibandingkan
 
+Microsoft To Do dan TickTick adalah dua pesaing tambahan di sini selain Meow Todo dan Todoist, keduanya menawarkan nilai berbeda bagi mahasiswa. Microsoft To Do sepenuhnya gratis dalam ekosistem Microsoft dengan daftar bersama dan integrasi Outlook, pas bila kampus memakai Microsoft 365; TickTick menggabungkan tugas, kalender, timer pomodoro, dan pelacakan kebiasaan, gratis dengan langganan untuk paket lengkap. Keempat aplikasi terbagi dalam pencatat lokal seperti Meow Todo dan sistem cloud seperti Todoist, Microsoft To Do, dan TickTick. Mahasiswa dengan anggaran ketat sebaiknya memilih Meow Todo.
+
 - **Microsoft To Do** sepenuhnya gratis di ekosistem Microsoft, dengan daftar bersama dan integrasi Outlook — pas bila kampus memakai Microsoft 365.
 - **TickTick** menggabungkan tugas, kalender, timer pomodoro, dan pelacakan kebiasaan; gratis dengan langganan untuk paket lengkap.
 
 ## Apa yang membuat aplikasi to-do bagus untuk mahasiswa
 
-**Aplikasi to-do untuk mahasiswa** punya tugas yang berbeda dari pencatat kerja: tenggat datang bergelombang, satu tugas berlangsung berminggu-minggu, dan anggarannya biasanya nol. Tiga hal lebih penting daripada daftar fitur panjang:
+Meow Todo adalah aplikasi to-do untuk mahasiswa yang menangani tiga hal yang lebih penting daripada daftar fitur panjang: tenggat datang bergelombang, satu tugas berlangsung berminggu-minggu, dan anggarannya biasanya nol. Pertama, subtugas gratis di paket dasar agar "riset, draf, revisi, kumpul" tidak terkunci paywall saat minggu ujian. Kedua, tampilan kalender untuk satu semester penuh sehingga minggu ke-3 dan ke-10 terlihat bersamaan. Ketiga, antarmuka lucu yang benar-benar dibuka, karena aplikasi yang terasa seperti PR akan terbengkalai di tengah semester. Aplikasi to-do list gratis terbaik bagi mahasiswa jarang yang paling bertenaga; yang terbaik adalah yang masih dibuka pada Minggu malam.
 
 - **Aplikasi subtask gratis** di paket dasar — memecah "riset, draf, revisi, kumpul" tidak boleh terkunci di balik paywall saat minggu ujian.
 - **Tampilan kalender untuk satu semester penuh**, agar minggu ke-3 dan ke-10 terlihat bersamaan, bukan satu hari demi satu hari.
@@ -100,6 +110,8 @@ Itu pula sebabnya **aplikasi to-do list gratis** terbaik bagi mahasiswa jarang y
 
 ## Mana yang sebaiknya dipilih mahasiswa?
 
+Meow Todo adalah jawaban untuk mahasiswa yang menginginkan pencatatan gratis, privat, tanpa akun, dengan subtugas dan pengingat yang bertahan sepanjang semester. Todoist cocok untuk bahasa alami dan kolaborasi dengan Pro ~$48 per tahun, Microsoft To Do untuk pengguna sehari-hari Microsoft 365, dan TickTick untuk satu aplikasi tugas, kalender, dan fokus. Keempatnya mencakup spektrum dari penyimpanan lokal hingga sistem cloud. Keputusan bergantung pada satu hal: apakah Anda ingin tugas tetap di perangkat tanpa biaya atau kolaborasi real-time dengan teman kelompok.
+
 - Ingin **gratis + privat + tanpa akun** → **Meow Todo**.
 - Ingin **bahasa alami + kolaborasi** dan menerima Pro → **Todoist**.
 - Sehari-hari di **Microsoft 365** → **Microsoft To Do**.
@@ -108,6 +120,8 @@ Itu pula sebabnya **aplikasi to-do list gratis** terbaik bagi mahasiswa jarang y
 [Dapatkan Meow Todo](/id/apps/meow-todo-list/) — tersedia di Android dan iOS.
 
 ## Skenario umum
+
+Meow Todo mencakup empat skenario pengelolaan tugas mahasiswa yang memanfaatkan kalender satu semester, subtugas, tag dan ikon, serta penyimpanan lokal berkunci. Skenario pertama memasukkan semua tenggat mata kuliah ke satu daftar dengan pengingat harian agar tidak ada yang tersembunyi antara minggu ke-3 dan ke-10; kedua memecah proyek kelompok menjadi riset, draf, sunting, dan kumpul lalu mengekspor CSV; ketiga memakai tag dan 400+ ikon untuk memisahkan "Kuliah", "Tugas", dan "Kerja paruh waktu"; keempat mulai tanpa pendaftaran dengan rencana tetap di perangkat di balik sidik jari. Todoist lebih cocok bila Anda membutuhkan kolaborasi real-time.
 
 - **Minggu silabus** — di awal semester, masukkan semua tenggat mata kuliah ke satu daftar, pasang pengingat harian, dan biarkan tampilan kalender menunjukkan seluruh semester agar tidak ada yang tersembunyi di antara minggu ke-3 dan ke-10.
 - **Proyek kelompok** — pecah hasil akhir menjadi subtugas (riset, draf, sunting, kumpul) dan ekspor CSV untuk membagikan rencana ke teman kelompok.

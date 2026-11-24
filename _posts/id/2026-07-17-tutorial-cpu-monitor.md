@@ -30,7 +30,7 @@ doc_app: cpu-monitor
 
 ## Pengenalan Aplikasi
 
-CPU Monitor menampilkan **suhu [CPU](/id/glossary/what-is-a-cpu-temperature-monitor/) dan frekuensi waktu nyata, RAM, baterai, dan penyimpanan** di Android, lengkap dengan jendela melayang, widget, alarm overheat, dan kurva riwayat. Ini adalah alat **read-only**: ia membaca sensor thermal dan penghitung sistem tanpa root, dan tidak mengubah data game atau pengaturan sistem. Panduan ini berjalan dari peluncuran pertama melalui jendela melayang, ambang **aplikasi alarm overheat CPU**, kurva **monitor riwayat frekuensi CPU**, tata letak layar utama **widget cpu ram baterai android**, dan layar bersih cache — menjelaskan arti angka daripada menjanjikan penurunan suhu.
+CPU Monitor menampilkan **suhu [CPU](/id/glossary/what-is-a-cpu-temperature-monitor/) dan frekuensi waktu nyata, RAM, baterai, dan penyimpanan** di Android dalam empat tab — CPU, SYSTEM, FLOATING, dan SENSOR — lengkap dengan jendela melayang, widget, alarm overheat, dan kurva riwayat. Alat ini read-only: ia membaca sensor thermal dan penghitung sistem tanpa root dan tidak mengubah data game maupun pengaturan sistem. Versi gratis menampilkan iklan, sementara Pro menghapusnya dan membuka toolset 'Powerful System Monitor'. Panduan ini menjelaskan arti tiap angka, bukan menjanjikan penurunan suhu.
 
 **📈 Pemantauan Langsung**
 - Suhu & frekuensi CPU, penggunaan per-core
@@ -51,7 +51,7 @@ CPU Monitor menampilkan **suhu [CPU](/id/glossary/what-is-a-cpu-temperature-moni
 
 ## Penggunaan Pertama
 
-Layar utama punya tab: **CPU / SYSTEM / FLOATING / SENSOR**, dengan tombol **Upgrade** di atas.
+Layar utama CPU Monitor punya empat tab — **CPU / SYSTEM / FLOATING / SENSOR** — dengan tombol **Upgrade** di atasnya, sehingga Anda bisa memilih antara bacaan waktu nyata, statis perangkat, overlay melayang, dan data sensor dalam satu pandangan. Versi gratis menampilkan iklan banner pada tab tertentu, sementara tombol Upgrade membuka toolset Pro tanpa iklan. Berikut tampilan awal yang akan Anda lihat setelah meluncurkan aplikasi.
 
 ![Beranda CPU Monitor: monitor suhu CPU waktu nyata dan frekuensi per-core](/assets/images/blog/tutorial_cpu_home.webp){: width="180" .normal }
 ![CPU monitor dengan jendela melayang di atas aplikasi lain](/assets/images/blog/tutorial_cpu_floating.webp){: width="180" .normal }
@@ -61,11 +61,15 @@ Layar utama punya tab: **CPU / SYSTEM / FLOATING / SENSOR**, dengan tombol **Upg
 
 ## CPU Waktu Nyata
 
+Tab **CPU** menampilkan tiga bacaan utama secara langsung — suhu CPU, frekuensi, dan beban per-core — sehingga Anda bisa melihat apakah satu core sedang menempel saat bermain game. Pemantauan ini read-only dan tidak memerlukan root; versi gratis menampilkan iklan banner di layar ini, sementara pembukaan Pro menghilangkannya. Langkah berikut menunjukkan cara membaca ketiga angka itu.
+
 1. Buka tab **CPU**
 2. Baca suhu CPU, frekuensi, dan beban per-core waktu nyata
 3. Versi gratis menampilkan iklan banner di sini
 
 ## Jendela Melayang
+
+Jendela melayang CPU Monitor menampilkan statis langsung di atas aplikasi apa pun setelah izin overlay diberikan, dengan pilihan monitor suhu CPU, penggunaan atau arc, baterai, FPS, RAM, dan System Monitor. Kemampuan ini membuat suhu tetap terlihat saat gaming atau mengisi daya tanpa harus keluar aplikasi. Ikuti langkah berikut untuk mengaktifkannya.
 
 1. Buka tab **FLOATING**
 2. Alihkan monitor (suhu CPU/penggunaan/arc, baterai, FPS, RAM, System Monitor)
@@ -74,10 +78,14 @@ Layar utama punya tab: **CPU / SYSTEM / FLOATING / SENSOR**, dengan tombol **Upg
 
 ## Widget Layar Utama
 
+Widget layar utama CPU Monitor menaruh bacaan suhu atau penggunaan CPU langsung di layar utama, sehingga statis perangkat terlihat sekilas tanpa membuka aplikasi. Widget tersedia melalui **Pengaturan → Galeri widget** setelah CPU Monitor ditetapkan sebagai sumbernya, dan bisa dipasang bersama widget RAM atau baterai sesuai kebutuhan. Ini pelengkap jendela melayang ketika Anda ingin angka tetap terlihat di layar utama.
+
 1. Buka **Pengaturan → Galeri widget** (set CPU-only)
 2. Taruh widget suhu / penggunaan CPU di layar utama
 
 ## Alarm Overheat
+
+Alarm overheat CPU Monitor memberi peringatan sebelum panas merusak performa atau baterai, dengan ambang yang bisa diatur terpisah untuk CPU dan baterai. Fitur ini membaca sensor suhu secara langsung dan berjalan di latar, sehingga Anda bisa jeda sesi gaming atau mencabut pengisi daya lebih awal. Pengaturannya berada di **Pengaturan → Alarm overheat**.
 
 1. Buka **Pengaturan → Alarm overheat**
 2. Alihkan alarm CPU dan/atau baterai dan tetapkan ambang
@@ -85,17 +93,19 @@ Layar utama punya tab: **CPU / SYSTEM / FLOATING / SENSOR**, dengan tombol **Upg
 
 ## Kurva Riwayat
 
-Di tampilan melayang/riwayat Anda bisa melihat **kurva suhu dan frekuensi** dari waktu ke waktu — berguna untuk menemukan game atau aplikasi mana yang melonjakkan panas.
+CPU Monitor menampilkan **kurva suhu dan frekuensi** di tampilan melayang atau riwayat dari waktu ke waktu, sehingga Anda bisa menemukan game atau aplikasi mana yang melonjakkan panas. Grafik ini melengkapi bacaan waktu nyata dengan konteks: lonjakan mendadak biasanya berhubungan dengan sesi tertentu, dan perbandingan sebelum serta sesudahnya membantu memutuskan kapan harus menurunkan beban. Riwayat tetap bersifat read-only.
 
 ## Upgrade ke Pro
 
-Ketuk **Upgrade** untuk membuka layar Pro: "Powerful System Monitor" menghapus semua iklan dan membuka semua fitur.
+Ketuk **Upgrade** untuk membuka layar Pro, tempat toolset 'Powerful System Monitor' tersedia tanpa iklan. Versi gratis CPU Monitor didukung iklan banner dan interstisial, sementara Pro menghapus semuanya sekaligus membuka fitur tambahan bagi pengguna yang ingin memantau lebih dalam. Pembelian bersifat sekali bayar, sehingga tidak ada langganan bulanan yang perlu dikhawatirkan.
 
 ## Pengaturan
 
-Pengaturan mencakup Upgrade, tema, alarm overheat, unit suhu, tingkat penyegaran, dan galeri widget.
+Pengaturan CPU Monitor mencakup Upgrade, tema, alarm overheat, unit suhu, tingkat penyegaran, dan galeri widget. Dari sini Anda dapat mengganti satuan bacaan, mengatur seberapa sering angka diperbarui, menetapkan ambang peringatan panas, serta mengambil widget untuk layar utama. Rangkaian opsi ini membuat aplikasi bisa disesuaikan dengan perangkat dan cara pemakaian harian Anda.
 
 ## Skenario Khas
+
+Lima skenario memakai CPU Monitor memanfaatkan kombinasi overlay, widget, alarm, kurva, dan layar CLEAN: buka tab FLOATING dan berikan izin agar suhu CPU serta baterai melayang di atas game; taruh widget CPU di layar utama dan setel alarm overheat untuk menangkap hotspot saat mengisi daya; periksa kurva riwayat setelah sesi panas guna menemukan aplikasi pemicunya; gunakan layar CLEAN untuk menghapus cache saat ponsel terasa lemot; dan ketuk Upgrade bila ingin menghapus iklan.
 
 - **Awasi panas saat gaming** — buka tab FLOATING, berikan overlay, dan suhu CPU/baterai melayang di atas game agar Anda jeda sebelum throttling.
 - **Tangkap hotspot pengisian** — taruh widget CPU layar utama dan setel alarm overheat, maka Anda diperingatkan bila baterai memanas.

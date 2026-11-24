@@ -29,7 +29,7 @@ doc_app: system-monitor
 
 ## App Introduction
 
-System Monitor is a **paid, one-time** Android tool for **[read-only hardware info detection](/glossary/what-is-a-system-monitor/)**. It reports what is happening inside your phone — it does **not** clean junk or boost RAM. Because it only reads system counters, the **android system monitor with cleaner and booster** searches that lead here usually want two things: trustworthy numbers and a way to keep them visible. This guide walks from first launch through hardware info, battery health, the overheat alarm, the **system monitor with floating window** overlay and home-screen widgets — all read-only, with no account and no junk-cleaning claims.
+System Monitor is a paid, one-time Android tool for [read-only hardware info detection](/glossary/what-is-a-system-monitor/) that reports CPU temperature and frequency, per-core usage, storage, memory, battery health and camera capabilities without cleaning junk or boosting RAM. It has no account and no app lock, and its floating window and CPU/Battery/RAM/ROM/Combine widgets keep live stats visible. This guide walks from the first launch through hardware info, battery curves, the overheat alarm, the floating overlay and home-screen widgets — all read-only.
 
 **🔍 What It Reads (read-only)**
 - **CPU** temperature and frequency, per-core usage
@@ -49,7 +49,7 @@ System Monitor is a **paid, one-time** Android tool for **[read-only hardware in
 
 ## First-time Use
 
-The home screen has four tabs: **Hardware**, **App**, **Floating**, **Sensor**.
+The home screen has four tabs — Hardware, App, Floating and Sensor — with Hardware as the main info screen, Floating configuring the overlay and Sensor listing device sensors. System Monitor is a one-time paid tool with no cleaning or boosting, and it needs no account. Those four tabs cover every read-only view in the app.
 
 - **Hardware** is the main info screen
 - **Floating** configures the overlay
@@ -61,6 +61,8 @@ The home screen has four tabs: **Hardware**, **App**, **Floating**, **Sensor**.
 ![Sensor and network readings in System Monitor](/assets/images/blog/tutorial_system_monitor_sensor.webp){: width="180" .normal }
 
 ## View Hardware Info
+
+System Monitor's Hardware tab holds six sub-tabs — Dashboard, CPU, RAM, BAT, SYSTEM and CAMERA — that report live values read from system counters. Open the Hardware tab, switch sub-tabs and read CPU temperature, frequency and per-core load, used and total RAM, battery temperature, health, voltage and level, storage and device info. Nothing on these screens changes the phone.
 
 1. Open the **Hardware** tab
 2. Switch sub-tabs: **Dashboard / CPU / RAM / BAT / SYSTEM / CAMERA**
@@ -77,11 +79,13 @@ The home screen has four tabs: **Hardware**, **App**, **Floating**, **Sensor**.
 
 ## Battery Health
 
-On the **BAT** sub-tab you can see battery **temperature, health status, voltage and level** with curves — useful to watch wear over time.
+On the BAT sub-tab, System Monitor shows battery temperature, health status, voltage and level with curves, which is useful for watching wear over time. Those readings come from standard Android APIs and stay read-only — the app charts the facts without changing charging or boosting anything.
 
 ![Overheat alarm threshold and battery temperature chart](/assets/images/blog/tutorial_system_monitor_battery.webp){: width="180" .normal }
 
 ## Overheat Alarm
+
+System Monitor's overheat alarm warns you when CPU or battery temperature crosses a threshold you set, so you can cool the phone before performance or health suffers. Open Settings → Overheat alarm or Temperature Alert, toggle the CPU and/or Battery alarm on and set the threshold. The warning fires while you game or charge.
 
 1. Open **Settings → Overheat alarm** (or **Temperature Alert**)
 2. Toggle the **CPU** and/or **Battery** alarm on
@@ -89,6 +93,8 @@ On the **BAT** sub-tab you can see battery **temperature, health status, voltage
 4. The app warns you when the value is exceeded so you can cool the phone down
 
 ## Floating Window
+
+System Monitor's Floating tab turns CPU temperature, usage and curve, battery, RAM, System Monitor and FPS readings into an overlay above any app, after you grant the Draw over other apps permission. Open the Floating tab, toggle the monitors you want and grant the permission when prompted. The floating stats stay visible without leaving your current app.
 
 1. Open the **Floating** tab
 2. Toggle the monitors you want (CPU temp/usage/curve, battery, RAM, System Monitor, FPS)
@@ -99,6 +105,8 @@ On the **BAT** sub-tab you can see battery **temperature, health status, voltage
 
 ## Home-screen Widgets
 
+System Monitor's widget gallery offers five home-screen widget types — CPU, Battery, RAM, ROM and Combine — for live stats at a glance without opening the app. Open Settings → Widget gallery, choose a widget and place it from the picker. The Combine widget packs several read-only readings into one slot.
+
 1. Open **Settings → Widget gallery**
 2. Choose a widget: CPU / Battery / RAM / ROM / Combine
 3. Place it from the widget picker
@@ -107,9 +115,11 @@ On the **BAT** sub-tab you can see battery **temperature, health status, voltage
 
 ## Settings
 
-Settings include theme, overheat alarm, temperature unit, refresh rate, widget gallery, and floating auto-restore.
+System Monitor's Settings cover theme, overheat alarm, temperature unit, refresh rate, widget gallery and floating auto-restore. Those controls tune how the read-only numbers are displayed and how the floating overlay returns, without adding any cleaning or boosting behavior.
 
 ## Typical scenarios
+
+System Monitor covers five read-only scenarios: watching CPU temperature and per-core load while gaming, checking battery temperature, health, voltage and level curves for wear, glancing at the floating overlay or a Combine widget without opening the app, setting an overheat alarm as a heat guard, and remembering that it never cleans junk or frees RAM.
 
 - **Read CPU temp while gaming** — open the Hardware tab (CPU sub-tab) and keep an eye on temperature and per-core load to catch throttling before it drops frames.
 - **Protect the battery** — check the BAT sub-tab's temperature, health, voltage and level curves to watch wear develop over months.

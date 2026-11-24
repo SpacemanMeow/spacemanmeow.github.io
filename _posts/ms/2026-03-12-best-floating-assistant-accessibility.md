@@ -14,6 +14,8 @@ Ketika butang keras aus, jangkauan satu tangan sukar, atau dukungan kebolehcapai
 
 ## Apa yang dibutuhkan alat kebolehcapaian
 
+Alat kebolehcapaian yang baik mengembalikan kawalan apabila butang keras aus atau jangkauan satu tangan sukar, dengan butang virtual besar di tepi skrin dan tanpa bergantung pada perkakasan fizikal. Floating Assistant adalah aplikasi Android bola tepi yang dibina untuk keperluan ini, sementara Assistive Touch menawarkan bola bergaya iOS yang lebih ringkas. Perbandingan ini menilai lima keperluan — butang virtual, jangkauan tepi, sasaran besar dan jelas, aksi harian tersuai, serta operasi tanpa perkakasan fizikal. Pembaca yang mencari bola tepi dengan gerak isyarat atau butang terapung untuk satu tangan sebenarnya menanyakan soalan jangkauan yang sama. Senarai ini memetakan terus keperluan itu kepada ciri yang boleh disemak pada setiap aplikasi.
+
 - **Butang virtual** — back, home, recent, lock tanpa butang fisik.
 - **Jangkauan tepi** — kontrol berada di mana ibu jari berada.
 - **Target besar dan jelas** — mudah diketuk, presisi rendah.
@@ -22,7 +24,7 @@ Ketika butang keras aus, jangkauan satu tangan sukar, atau dukungan kebolehcapai
 
 ## Yang sebenarnya dibutuhkan dari bola
 
-Alat kebolehcapaian dinilai saat butang keras gagal, bukan dari daftar ciri. Empat detail praktikal:
+Empat detail praktikal menentukan kualiti alat kebolehcapaian, kerana ia dinilai pada saat butang keras gagal, bukan daripada senarai ciri. Pertama, butang maya yang tidak pernah meleset — back, home, recent, dan lock perlu menjadi sasaran besar yang terpisah jelas, bukan tambahan. Kedua, jangkauan tepi dengan gerak isyarat membolehkan sapuan melakukan apa yang tidak boleh dilakukan ketikan presisi, dan bola perlu menempel di kedua-dua sisi agar pengguna kidal tidak terabaikan. Ketiga, pintasan yang boleh dipetakan semula meletakkan aksi paling dibutuhkan pada ketikan pertama. Keempat, kebenaran yang jelas dan minimum — overlay dan Kebolehcapaian dijelaskan apa adanya tanpa akaun atau root. Floating Assistant merangkumi keempat-empatnya, manakala Assistive Touch mengekalkan menu tetap yang lebih kecil. Keduanya tidak menggantikan tetapan kebolehcapaian sistem.
 
 - **Butang virtual yang tidak pernah meleset** — back, home, recent, dan lock harus target besar dan terpisah jelas. Baris **butang back home recent floating assistant** adalah terasnya, bukan tambahan.
 - **Jangkauan tepi dengan gerak isyarat** — **bola floating tepi dengan gerak isyarat** membiarkan sapuan melakukan apa yang tidak boleh ketikan presisi; bola harus menempel di salah satu sisi supaya pengguna kidal tidak terabaikan.
@@ -33,6 +35,8 @@ Floating Assistant merangkumi keempatnya dengan bola bertempel di tepi; Assistiv
 
 ## Para pesaing sekilas
 
+Tiga pilihan dalam jadual ini — Floating Assistant, Assistive Touch, dan kebolehcapaian sistem — mewakili tiga tahap kawalan. Floating Assistant menggabungkan butang maya, jangkauan tepi, dan gerak isyarat pada teras percuma dengan VIP pilihan. Assistive Touch menyediakan butang maya dan bola terapung dengan pembelian dalam aplikasi, sementara kebolehcapaian sistem bawaan percuma tetapi terhad dan tanpa jangkauan tepi atau gerak isyarat yang fleksibel. Jadual di bawah membedah harga, butang maya, jangkauan tepi, gerak isyarat, dan kegunaan utama. Ringkasan ini penting kerana tiada aplikasi dalam senarai ini menggantikan tetapan kebolehcapaian sistem — semuanya berfungsi sebagai pintasan ke sana.
+
 | App | Harga (2026) | Butang virtual | Jangkauan tepi | Gerak isyarat | Terbaik untuk |
 |---|---|---|---|---|---|
 | **Floating Assistant** | Teras percuma + VIP | ✅ | ✅ | ✅ | Akses fleksibel |
@@ -40,6 +44,8 @@ Floating Assistant merangkumi keempatnya dengan bola bertempel di tepi; Assistiv
 | **Kebolehcapaian sistem** | Percuma (OS) | ⚠️ terhad | ❌ | ⚠️ | Bawaan sahaja |
 
 ## Floating Assistant, lebih dalam
+
+Floating Assistant adalah aplikasi Android bola tepi dengan butang maya dan gerak isyarat untuk kawalan satu tangan. Kelebihannya merangkumi butang back, home, recent, dan lock pada skrin tanpa menjangkau perkakasan, bola tepi yang kekal dalam jangkauan ibu jari, aksi serta gerak isyarat tersuai, operasi ringan dan lokal tanpa akaun, serta sokongan multi-jendela untuk skrin terbelah. Keterbatasannya jujur: gerak isyarat lebih dalam memerlukan VIP dan kebenaran overlay diberikan sekali sahaja. Aplikasi ini sesuai untuk pengguna telefon pintar besar dan sesiapa sahaja yang memerlukan kawalan satu tangan yang boleh dipercayai. Gambar di bawah menunjukkan bola berlabel jelas, aksi cepat, menu tersuai, pilihan kebolehcapaian, dan tetapan kebenaran.
 
 ![Floating Assistant bola assistive touch berlabel jelas](/assets/images/apps/floating-assistant/1.webp){: width="180" .normal }
 ![Floating Assistant aksi cepat dan gerak isyarat](/assets/images/apps/floating-assistant/2.webp){: width="180" .normal }
@@ -66,6 +72,8 @@ Floating Assistant adalah **aplikasi Android bola tepi** dengan butang virtual d
 
 ## Assistive Touch, lebih dalam
 
+Assistive Touch (pakej mtr.assistivetouch.easytools) menyediakan butang maya pada skrin dan bola terapung untuk menggantikan butang fizikal. Kelebihannya termasuk butang back, home, recent, dan lock sebagai ketikan pada skrin, bola terapung yang terjangkau ibu jari, kawalan kecerahan dan kelantangan pada skrin, serta penggunaan percuma dengan pembelian dalam aplikasi. Namun pelarasannya lebih ringan dengan lebih sedikit pemetaan gerak isyarat berbanding Floating Assistant, dan iklan serta pembelian dalam aplikasi berbeza-beza. Assistive Touch sesuai untuk pengguna yang mahukan pengganti butang maya percuma yang sederhana. Gambar di bawah menunjukkan bola terapung, aksi cepat, menu tersuai, pilihan kebolehcapaian, dan tetapan kebenaran yang menjadi asas perbandingan ini.
+
 ![Bola terapung Assistive Touch](/assets/images/blog/assistive_touch_1.webp){: width="180" .normal }
 ![Assistive Touch aksi cepat dan gerak isyarat](/assets/images/blog/assistive_touch_2.webp){: width="180" .normal }
 ![Assistive Touch menu tersuai dan butang](/assets/images/blog/assistive_touch_3.webp){: width="180" .normal }
@@ -90,12 +98,16 @@ Assistive Touch (pakej `mtr.assistivetouch.easytools`) menyediakan butang virtua
 
 ## Mana yang harus dipilih?
 
+Pilihan antara Floating Assistant dan Assistive Touch bergantung pada sejauh mana kawalan satu tangan anda perlukan. Floating Assistant menyediakan kawalan fleksibel yang kaya dengan gerak isyarat dan bola tepi yang boleh dipetakan semula, manakala Assistive Touch menawarkan butang maya percuma yang sederhana dan mudah. Dua cadangan ini meringkaskan jadual di atas menjadi keputusan yang jelas. Jika anda memakai telefon pintar besar, mempunyai batasan motorik, atau mahu butang diletak tepat di bawah ibu jari, pilih aplikasi dengan gerak isyarat dan jangkauan tepi; jika anda hanya mahu menggantikan butang fizikal yang rosak, alternatif percuma itu sudah memadai.
+
 - Ingin **kontrol satu tangan kaya gerak isyarat dan fleksibel** → **Floating Assistant**.
 - Ingin **butang virtual percuma sederhana** → **Assistive Touch**.
 
 [Dapatkan Floating Assistant](/ms/apps/floating-assistant/) — tersedia di Android.
 
 ## Senario khas
+
+Lima senario khas menunjukkan bila bola assistive touch menjadi keperluan, bukan sekadar kemudahan. Pada telefon pintar besar, bola tepi membawa back, home, recent, dan lock ke bawah ibu jari tanpa perlu meregang. Apabila butang keras aus atau tidak terjangkau, lock, tangkapan skrin, dan recents menjadi ketikan pada skrin. Bagi pengguna yang mempunyai had motorik atau jangkauan, sasaran besar di tempat ibu jari memerlukan ketepatan lebih rendah daripada butang samping kecil. Satu tangan menjelang tidur membolehkan anda menyemak atau menutup aplikasi sambil berbaring. Akhir sekali, teras bebas iklan dengan buka kunci pilihan bermakna anda tidak perlu melalui dinding iklan yang terdapat pada bola lain.
 
 - **Telefon pintar besar, satu tangan** — bola tepi membawa back/home/recent dan lock ke bawah ibu jari, tanpa meregang.
 - **Butang keras aus atau tidak terjangkau** — lock, tangkapan skrin, dan recents jadi ketikan di skrin, sehingga butang daya rusak bukan penghalang.

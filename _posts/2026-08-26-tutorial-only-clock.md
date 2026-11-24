@@ -30,7 +30,7 @@ doc_app: only-clock
 
 ## App Introduction
 
-Only Clock is a beautiful **full-screen [flip clock](/glossary/what-is-a-flip-clock/)** for Android and iOS — turn any phone or tablet into a desk or nightstand clock. It works as a **flip clock with focus timer**, a **flip clock with white noise** and a **flip clock widget** source, so one install covers the desk, the nightstand and the home screen. This guide walks from the first launch through the 12/24-hour display, themes and digit size, then to widgets, sound and floating mode — including how to **use old phone as clock** without leaving the screen at full brightness.
+Only Clock is a **full-screen [flip clock](/glossary/what-is-a-flip-clock/)** app for Android and iOS that turns any phone or tablet into a desk or nightstand clock; one install provides 18 themed clock widgets plus clock-grid widgets in 1x1, 2x1, 2x2, 4x1 and 4x2 sizes. Only Clock also serves as a **flip clock with white noise** and a widget source, so the desk, the nightstand and the home screen are covered without installing separate apps. This guide walks from the first launch through the 12/24-hour display, themes and digit size, then to widgets, sound and floating mode — including how to **use old phone as clock** without leaving the screen at full brightness.
 
 **🕐 Flip Animation**
 - A smooth page-flip transition as digits change (about 600 ms per digit)
@@ -49,7 +49,7 @@ Only Clock is a beautiful **full-screen [flip clock](/glossary/what-is-a-flip-cl
 
 ## First-time Use
 
-Open the app to the **full-screen flip clock**.
+Opening Only Clock lands directly on the **full-screen flip clock**, with no account, login or setup wizard; the screen stays awake while the clock is displayed so the time remains readable all night. Four controls sit in the top toolbar — settings, theme, sound and size — which is why the app works as a bedside clock without any extra taps.
 
 - The toolbar (top) gives quick access to settings, theme, sound and size
 - The screen stays awake while the clock is showing
@@ -58,13 +58,15 @@ Open the app to the **full-screen flip clock**.
 
 ## Flip Clock Display
 
-The clock shows a flip-style time. Tap the toolbar to change the **theme** (Clock Theme), **font** (Clock Font) and **size** (Clock Size).
+Only Clock displays time as a flip-style animation, with each digit turning in roughly 600 ms; the toolbar exposes three display controls — Clock Theme, Clock Font and Clock Size — so the same clock can be tuned for a dark nightstand or a bright desk. Choose the theme first, then the font, then the digit size so the hours and minutes both stay inside the screen.
 
 ![Black, white and sky clock themes in Only Clock](/assets/images/blog/tutorial_clock_theme.webp){: width="180" .normal }
 ![Font and digit style options for the big digital clock](/assets/images/blog/tutorial_clock_font.webp){: width="180" .normal }
 ![Resizing the clock digits for a desk clock setup](/assets/images/blog/tutorial_clock_size.webp){: width="180" .normal }
 
 ## 12/24-hour, Seconds, Date
+
+Only Clock keeps **24-hour time and seconds on by default**, while weekday and date stay off to keep the flip face uncluttered; all five display switches live in **Settings**, so the format can be changed in a few taps without leaving the app. Below are the defaults and where to toggle them.
 
 1. Open **Settings**
 2. Toggle:

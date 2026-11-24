@@ -15,6 +15,8 @@ Di bawah ini kami membandingkan aplikasi yang benar-benar dipasang mahasiswa —
 
 ## Mengapa mahasiswa membutuhkan aplikasi bajet yang berbeza
 
+Mahasiswa memerlukan aplikasi bajet yang berbeza kerana arus kas naik-turun — wang kiriman atau beasiswa masuk awal semester, lalu perbelanjaan buku, sewa bilik, dan wang makan mengurasnya menjelang hujung bulan — sementara langganan kecil seperti Spotify, Netflix, dan iCloud menumpuk. Meow Money Manager adalah aplikasi catatan kewangan mahasiswa percuma tanpa akaun wajib dengan lebih 50 simbol mata wang untuk kuliah di luar negeri dan penjejakan tuntutan balik untuk iuran organisasi. Senarai ini menilai lima realiti kampus — arus kas naik-turun, langganan berulang, akaun bank pertama, mata wang kedua, dan patungan perbelanjaan — sebelum membandingkan empat aplikasi. Kajian ini membandingkan Meow Money Manager, YNAB, Goodbudget, dan EveryDollar dari perspektif mahasiswa.
+
 - **Arus kas naik-turun** — rata-rata bulanan menyembunyikan jurang antara minggu **hujung bulan** dan minggu **hari gaji** atau kiriman wang.
 - **Langganan menumpuk** — Spotify, Netflix, Adobe, iCloud, gym; masing-masing kecil, semuanya berulang.
 - **Akaun bank pertama** — banyak mahasiswa baru belajar mengurus wang untuk pertama kalinya.
@@ -22,6 +24,8 @@ Di bawah ini kami membandingkan aplikasi yang benar-benar dipasang mahasiswa —
 - **Tuntutan balik** — iuran organisasi, perjalanan konferensi, dan patungan perbelanjaan kumpulan perlu dicatat.
 
 ## Apa yang perlu dicari mahasiswa
+
+Sebuah aplikasi bajet mahasiswa yang baik pada 2026 perlu memenuhi tujuh perkara asas: teras percuma untuk mencatat perbelanjaan tanpa bayaran, tiada akaun wajib supaya data kekal milik anda, entri pantas dalam masa sepuluh saat di sela kuliah, transaksi berulang untuk sewa bilik dan langganan, sokongan multi mata wang untuk kuliah di luar negara, eksport CSV untuk tuntutan balik, serta paparan yang mesra dan comel supaya anda benar-benar membukanya setiap hari. Meow Money Manager menutup kesemua tujuh keperluan ini dengan storan di peranti di sebalik kunci cap jari, lebih 50 simbol mata wang, dan lebih 400 ikon, tanpa pendaftaran akaun atau log masuk bank. Tiga pesaing lain di bawah — YNAB, Goodbudget, dan EveryDollar — dinilai semula mengikut kos dan sokongan mata wang. Senarai di bawah menghuraikan setiap kriteria supaya anda tahu apa yang perlu disemak sebelum memilih aplikasi catatan kewangan percuma untuk kehidupan kampus.
 
 - **Teras percuma** — Anda tidak perlu membayar untuk mencatat perbelanjaan; **aplikasi catatan kewangan percuma** tidak mematok perbelanjaan untuk ciri dasar.
 - **Tanpa akaun wajib** — satu kata laluan lebih sedikit, dan data tetap milik Anda.
@@ -33,6 +37,8 @@ Di bawah ini kami membandingkan aplikasi yang benar-benar dipasang mahasiswa —
 
 ## Sekilas para pesaing
 
+Empat aplikasi dalam jadual ini — Meow Money Manager, YNAB, Goodbudget, dan EveryDollar — mewakili empat pendekatan bajet mahasiswa. Meow Money Manager percuma pada terasnya, tanpa akaun, dengan lebih 50 mata wang dan storan di peranti. YNAB percuma setahun untuk mahasiswa terverifikasi, kemudian $109 setahun dengan segerak bank dan kaedah zero-based. Goodbudget percuma dengan 20 amplop dan kira-kira $70 setahun pada peringkat Plus, sementara EveryDollar kira-kira $79.99 setahun untuk Premium. Jadual di bawah membedah harga, keperluan akaun, multi mata wang, dan kesesuaian untuk mahasiswa. Ringkasan ini menonjolkan satu fakta: hanya Meow Money Manager yang menggabungkan teras percuma, tiada akaun, dan banyak mata wang.
+
 | Aplikasi | Harga (2026) | Akaun | Multi mata wang | Paling sesuai untuk mahasiswa |
 |---|---|---|---|---|
 | **Meow Money Manager** | Teras percuma + VIP pilihan | **Tidak** (di peranti + cap jari) | ✅ 50+ mata wang | Percuma, peribadi, comel |
@@ -41,6 +47,8 @@ Di bawah ini kami membandingkan aplikasi yang benar-benar dipasang mahasiswa —
 | **EveryDollar** | Percuma (manual) + Premium ~$79,99/tahun | Pilihan | Tidak | Zero-based Ramsey |
 
 ## Meow Money Manager, secara mendalam
+
+Meow Money Manager adalah aplikasi catatan kewangan dan bajet bertema kucing untuk Android dan iOS yang menyimpan semua data di peranti di sebalik kunci cap jari tanpa pendaftaran akaun atau login bank, dengan antara muka lima bahasa termasuk Melayu. Kelebihannya untuk mahasiswa termasuk pencatatan teras percuma, transaksi berulang untuk sewa dan langganan, lebih 50 simbol mata wang untuk kuliah di luar negeri, penjejakan tuntutan balik untuk perbelanjaan organisasi dan konferensi, eksport CSV, sandaran Google Drive, iCloud, atau WebDav, dan lebih 400 ikon comel. Keterbatasannya ialah tiada segerak bank automatik dan ciri lanjutan seperti buku kas tanpa had serta eksport CSV memerlukan VIP. Aplikasi ini sesuai untuk mahasiswa yang mahu pencatatan percuma, peribadi, dan cepat.
 
 ![Aplikasi catatan kewangan Meow Money Manager: skrin utama dan ringkasan akaun](/assets/images/apps/meow-money-manager/1.webp){: width="180" .normal }
 ![Atur bajet bulanan dan bajet per kategori di Meow Money Manager](/assets/images/apps/meow-money-manager/2.webp){: width="180" .normal }
@@ -71,6 +79,8 @@ Meow Money Manager adalah **[aplikasi catatan kewangan bertema kucing](/ms/gloss
 
 ## YNAB, secara mendalam
 
+YNAB (You Need A Bajet) adalah aplikasi penganggaran zero-based terkenal yang memberi tugasan kepada setiap dolar dan mengimport transaksi bank melalui Plaid. Kelebihannya untuk mahasiswa termasuk YNAB percuma 12 bulan bagi mahasiswa terverifikasi, sistem empat peraturan yang membina tabiat bertahan selepas kuliah, segerak bank automatik, dan laporan kukuh seperti age of money serta perbelanjaan per kategori. Namun ia berbayar $14.99 sebulan atau $109 setahun selepas tahun pertama, mewajibkan akaun cloud, mengambil berminggu-minggu untuk dikuasai, lemah pada multi mata wang berpusat USD, dan tiada penjejakan tuntutan balik. YNAB sesuai untuk mahasiswa disiplin yang mahu metode dan segerak bank serta boleh memanfaatkan tahun pertama percuma.
+
 ![YNAB skrin utama dengan ringkasan akaun](/assets/images/blog/ynab_1.webp){: width="180" .normal }
 ![YNAB atur bajet bulanan dan kategori](/assets/images/blog/ynab_2.webp){: width="180" .normal }
 ![YNAB graf dan statistik perbelanjaan](/assets/images/blog/ynab_3.webp){: width="180" .normal }
@@ -99,10 +109,14 @@ YNAB (You Need A Bajet) adalah aplikasi **penganggaran zero-based** terkenal yan
 
 ## Bagaimana aplikasi lain dibandingkan
 
+Dua pesaing tambahan melengkapkan senarai ini. Goodbudget adalah penganggaran amplop tanpa kertas — pakej percuma memberi 20 amplop dan segerak manual, sementara Plus kira-kira $70 setahun membuka segerak serta amplop tambahan; ia sesuai jika kaedah amplop cocok, tetapi nipis pada multi mata wang. EveryDollar mengikuti kaedah zero-based Dave Ramsey, dengan percuma hanya untuk entri manual dan Premium kira-kira $79.99 setahun untuk segerak bank — bersih tetapi minimum pada mata wang dan laporan. Kedua-duanya mengesahkan satu pola: kaedah yang kukuh selalunya datang dengan bayaran atau akaun. Bagi mahasiswa yang mahu teras percuma tanpa akaun dan sokongan dua mata wang, Meow Money Manager mengisi celah itu.
+
 - **Goodbudget** adalah penganggaran amplop tanpa kertas: pakej percuma memberi 20 amplop dan segerak manual; Plus (~$70/tahun) membuka segerak dan amplop tambahan. Sesuai bila metode amplop sesuai untuk Anda, tipis di multi mata wang.
 - **EveryDollar** mengikuti metode zero-based Dave Ramsey. Percuma hanya entri manual; Premium (~$79,99/tahun) menambah segerak bank. Bersih, tetapi minim mata wang dan laporan.
 
 ## Mana yang sebaiknya dipilih mahasiswa?
+
+Pilihan mahasiswa bergantung pada satu faktor: mahu kaedah teruji dengan tahun pertama percuma, atau pencatatan percuma tanpa akaun sejak hari pertama. Meow Money Manager adalah cadangan untuk kombinasi percuma, peribadi, multi mata wang, dan tanpa akaun. YNAB sesuai jika anda mahu metode zero-based dan memanfaatkan 12 bulan percuma, Goodbudget untuk penganggaran amplop, dan EveryDollar untuk perancangan Ramsey yang ketat. Empat cadangan ini meringkaskan jadual di atas menjadi keputusan praktikal berdasarkan bajet, privasi, dan keperluan mata wang. Jika anda menjaga privasi dan berkampus di luar negeri, aplikasi yang menyimpan data di peranti dan menyokong banyak mata wang adalah pilihan yang paling sedikit mengecewakan.
 
 - Ingin **percuma + peribadi + multi mata wang + tanpa akaun** → **Meow Money Manager**.
 - Ingin **metode dan tahun pertama percuma** → **YNAB**.

@@ -14,6 +14,8 @@ If privacy matters more than cloud features, you need a **private diary app** th
 
 ## What a private journal needs
 
+A private journal in 2026 needs five things: no uploads by default so entries stay on-device, a real fingerprint or passcode lock rather than just the phone lock, a clear PDF or text export path, offline writing with no signal, and optional sync you control through your own Drive. Meow Mood is built around that promise with no account required; the five contenders below are weighed on where data lives and how you leave.
+
 - **No uploads by default** — entries live on your device, not a vendor's cloud.
 - **A real lock** — fingerprint or passcode, not just a phone lock.
 - **A clear export path** — PDF or text so you're never locked in.
@@ -22,7 +24,7 @@ If privacy matters more than cloud features, you need a **private diary app** th
 
 ## What "private" actually costs you
 
-A **mood tracker private no account** and a **mood tracker offline** solve the same problem from two sides: the first keeps a vendor from holding your identity, the second keeps your entries usable on a plane, in a basement, or after the app's servers shut down. Meow Mood does both — logging needs no sign-up and no signal — and the trade-off is that cross-device sync is something you set up yourself with your own Google Drive or WebDav.
+Private mood tracking in 2026 means two things: a mood tracker private no account keeps a vendor from holding your identity, and a mood tracker offline keeps entries usable on a plane, in a basement, or after the servers shut down. A **mood tracker private no account** and a **mood tracker offline** solve the same problem from two sides. Meow Mood does both — logging needs no sign-up and no signal — and the trade-off is that cross-device sync is something you set up yourself with your own Google Drive or WebDav. Two checks matter before committing: does the free tier keep the lock private, and can you leave with your history? Meow Mood does both — logging needs no sign-up and no signal — and the trade-off is that cross-device sync is something you set up yourself with your own Google Drive or WebDav.
 
 Two things are worth checking before you commit to any **mood diary app** here:
 
@@ -33,6 +35,8 @@ If you also track routines, pairing a **mood and habit tracker** — Meow Mood D
 
 ## The contenders at a glance
 
+Five private diary apps are compared below on 2026 privacy model, lock, export and platforms, so a fully on-device tracker is weighed against encrypted cloud journals. Meow Mood stores locally with no upload and a fingerprint lock; Day One offers encrypted sync across four platforms with app lock; Daylio is local-first with icon logs; Apple Journal stays on-device on iPhone only; Penzu is a passcode-locked encrypted cloud. Only one keeps entries local by default on both Android and iOS.
+
 | App | Privacy model | Lock | Export | Platforms | Best for |
 |---|---|---|---|---|---|
 | **Meow Mood** | Local, no upload | ✅ fingerprint | PDF | Android + iOS | Fully on-device |
@@ -42,6 +46,8 @@ If you also track routines, pairing a **mood and habit tracker** — Meow Mood D
 | **Penzu** | Encrypted cloud | ✅ passcode | Multiple | iOS + Web | Encrypted cloud |
 
 ## Meow Mood, in depth
+
+Meow Mood is a cat-themed mood and diary app for Android and iOS with privacy as the default rather than a setting you hunt for, keeping entries on-device with no upload and a fingerprint or passcode lock. It works fully offline, exports PDF for a clean exit, and sends backups only to the Google Drive you choose with CSV as a VIP extra. One-tap mood logging keeps the habit low-friction; the trade-off is no managed multi-device sync without your own Drive.
 
 ![Meow Mood Diary journal editor & mood log](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
 ![Meow Mood Diary mood picker & tags](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
@@ -70,6 +76,8 @@ Meow Mood is a **cat-themed mood and diary app** for Android and iOS with privac
 
 ## Day One, in depth
 
+Day One is the most-awarded journal app, with encrypted sync across Android, iOS, Mac and web plus a passcode app lock and a full feature set of photos, audio, location and templates. It suits users who want a polished journal and accept encrypted cloud storage, but the cloud-by-design model means privacy depends on trusting the vendor, the free tier caps devices and photos, and Silver or Gold is needed for full use.
+
 ![Day One journal editor & mood log](/assets/images/blog/day_one_1.webp){: width="180" .normal }
 ![Day One mood picker & tags](/assets/images/blog/day_one_2.webp){: width="180" .normal }
 ![Day One stats chart & trends](/assets/images/blog/day_one_3.webp){: width="180" .normal }
@@ -95,11 +103,15 @@ Day One is the most-awarded journal app, with encrypted sync across Android, iOS
 
 ## How the others compare
 
+Daylio, Apple Journal and Penzu are the other three privacy-minded options in 2026. Daylio is local-first with icon-based mood logs, solid if you only need micro notes; Apple Journal keeps entries on-device on iPhone with optional iCloud, excellent for privacy but Android-excluded; Penzu offers a passcode-locked encrypted cloud journal — private, but still server-stored. Each covers one niche; only Meow Mood defaults to local, no-account logging on both platforms.
+
 - **Daylio** is local-first and logs mood as icons; a solid private option if you only need micro mood notes.
 - **Apple Journal** keeps entries on-device on iPhone with optional iCloud; excellent for privacy, but Android users are excluded.
 - **Penzu** offers a passcode-locked, encrypted cloud journal — private, but still server-stored.
 
 ## Which should you pick?
+
+Four pick-by-need rules settle the private diary choice in 2026: choose Meow Mood for entries that never leave your device, Day One for encrypted sync you don't manage, Apple Journal for iPhone-only on-device writing, and Penzu for encrypted cloud with a passcode. Each rule follows one privacy posture — local, managed cloud or hybrid. Decide where you want your entries to live, then pick.
 
 - Want **entries that never leave your device** → **Meow Mood**.
 - Want **encrypted sync you don't manage** → **Day One**.
@@ -109,6 +121,8 @@ Day One is the most-awarded journal app, with encrypted sync across Android, iOS
 [Get Meow Mood](/apps/meow-mood-diary/) — available on Android and iOS.
 
 ## Typical scenarios
+
+Four typical scenarios show where a private diary matters in 2026: a shared family phone, no signal on a flight or subway, leaving a vendor with your history intact, and backing up only to your own Drive. Meow Mood covers all four with a fingerprint or passcode lock, offline capture, clean PDF export and optional Google Drive backup. Day One suits the managed encrypted-cloud cases.
 
 - **Shared family phone** — on a device others can pick up, a fingerprint or passcode lock keeps your entries yours; nothing uploads unless you back up.
 - **No signal, no problem** — log a feeling on a flight or in a subway dead zone; the diary never needs the cloud to capture the moment.

@@ -30,7 +30,7 @@ glossary_terms: [what-is-budget-management, what-is-an-expense-tracker]
 
 ## Pengenalan Aplikasi
 
-Meow Money Manager adalah [aplikasi catatan keuangan](/id/glossary/what-is-an-expense-tracker/) bergaya kartun lucu untuk **kelola keuangan pribadi**. Dengan antarmuka bertema kucing, ia memadukan desain imut dan fitur lengkap agar Anda mudah mengatur keuangan. UI-nya multi-bahasa — Tionghoa, Inggris, Indonesia, Thai, dan Portugis — dan tersedia di Android [Unduh Google Play](https://play.google.com/store/apps/details?id=com.glgjing.money.manager.bookkeeping.meow&hl=en) maupun iOS [Unduh App Store](https://apps.apple.com/us/app/meow-money-manager/id1528852284).
+Meow Money Manager adalah [aplikasi catatan keuangan](/id/glossary/what-is-an-expense-tracker/) bergaya kartun untuk kelola keuangan pribadi di Android dan iOS, dengan 400+ ikon, tiga jenis transaksi — pengeluaran, pemasukan, dan transfer — serta antarmuka multi-bahasa dalam lima bahasa. Aplikasi ini menyimpan data lokal tanpa daftar akun, mendukung 50+ simbol mata uang termasuk Rupiah, dan menyediakan anggaran per kategori, statistik, multi buku kas, aset, transaksi berulang, reimburse, serta ekspor CSV.
 
 **🐱 Desain Antarmuka yang Imut**
 - Antarmuka kartun bertema kucing yang membuat pencatatan menyenangkan
@@ -92,7 +92,8 @@ Meow Money Manager adalah [aplikasi catatan keuangan](/id/glossary/what-is-an-ex
 
 ## Penggunaan Pertama
 
-Antarmuka utama terdiri dari bagian-bagian berikut:
+Antarmuka utama Meow Money Manager terdiri dari tombol pencatatan di kanan bawah untuk menambah catatan cepat, bilah navigasi bawah dengan empat opsi — pencatatan, statistik, aset, dan pengaturan — serta banner atas yang menampilkan buku kas aktif dan ringkasan aset. Dari layar ini Anda mengakses seluruh fitur pencatatan harian.
+
 - Tombol pencatatan: di kanan bawah, untuk menambah catatan dengan cepat
 - Bilah navigasi bawah: empat opsi — pencatatan, statistik, aset, dan pengaturan
 - Banner atas: menampilkan buku kas aktif dan ringkasan aset
@@ -101,7 +102,7 @@ Antarmuka utama terdiri dari bagian-bagian berikut:
 
 ## Fitur Pencatatan
 
-Fitur pencatatan Meow Money Manager sangat intuitif, mendukung tiga jenis catatan: pengeluaran, pemasukan, dan transfer.
+Fitur pencatatan Meow Money Manager sangat intuitif, mendukung tiga jenis catatan: pengeluaran, pemasukan, dan transfer. Setiap transaksi bisa diberi ikon kategori, nominal, metode pembayaran atau aset, buku kas, serta catatan tambahan, sehingga rincian pengeluaran tetap lengkap dalam satu ketukan.
 
 ### Menambah Catatan Pengeluaran atau Pemasukan
 
@@ -131,7 +132,7 @@ Fitur pencatatan Meow Money Manager sangat intuitif, mendukung tiga jenis catata
 
 ## Pengelolaan Anggaran
 
-Meow Money Manager mendukung beberapa jenis pengelolaan anggaran, termasuk anggaran harian, mingguan, bulanan, tahunan, dan siklus kustom.
+Meow Money Manager mendukung beberapa jenis pengelolaan anggaran, termasuk anggaran harian, mingguan, bulanan, tahunan, dan siklus kustom, lengkap dengan budget per kategori. Halaman detail anggaran menampilkan total dan nominal terpakai, sisa anggaran dan sisa hari, rata-rata anggaran harian, serta pemakaian tiap kategori secara real-time.
 
 ### Menambah Anggaran
 
@@ -157,7 +158,7 @@ Pada halaman detail anggaran, Anda bisa melihat:
 
 ## Statistik dan Analisis
 
-Meow Money Manager menyediakan beberapa fungsi analisis statistik untuk memahami kondisi keuangan Anda.
+Meow Money Manager menyediakan beberapa fungsi analisis statistik untuk memahami kondisi keuangan Anda, dengan rentang hari, minggu, bulan, tahun, atau kustom. Diagram pai menunjukkan proporsi pengeluaran dan pemasukan per kategori, diagram batang menampilkan tren harian atau bulanan, dan tampilan kalender memakai kedalaman warna untuk menandakan besar nominal.
 
 ### Jenis Statistik
 
@@ -173,7 +174,7 @@ Meow Money Manager menyediakan beberapa fungsi analisis statistik untuk memahami
 
 ## Pengelolaan Aset
 
-Meow Money Manager mendukung pengelolaan beberapa jenis aset, seperti tunai, kartu bank, kartu kredit, dan lainnya.
+Meow Money Manager mendukung pengelolaan beberapa jenis aset, seperti tunai, kartu bank, kartu kredit, dan lainnya, lengkap dengan saldo, catatan pemasukan dan pengeluaran, serta grafik tren aset. Fitur transfer aset memudahkan alokasi dana antar sumber dana yang berbeda.
 
 ### Menambah Aset
 
@@ -198,7 +199,7 @@ Klik sebuah aset untuk masuk ke halaman detail; di sana Anda bisa melihat:
 
 ## Pengelolaan Buku Kas
 
-Meow Money Manager mendukung pembuatan beberapa buku kas untuk mengelola beragam jenis pemasukan dan pengeluaran.
+Meow Money Manager mendukung pembuatan beberapa buku kas untuk mengelola beragam jenis pemasukan dan pengeluaran, masing-masing dengan statistik independen. Anda bisa menambah buku kas baru, berpindah di antara buku kas saat mencatat, dan membuka detailnya untuk melihat statistik pemasukan serta pengeluaran, pemakaian anggaran, dan rincian catatan.
 
 ### Menambah Buku Kas
 
@@ -229,7 +230,7 @@ Klik sebuah buku kas untuk masuk ke halaman detail; di sana Anda bisa melihat un
 
 ## Transaksi Berulang
 
-Fitur transaksi berulang membantu mencatat otomatis pemasukan dan pengeluaran rutin seperti gaji, kos, tagihan, dan lainnya.
+Fitur transaksi berulang membantu mencatat otomatis pemasukan dan pengeluaran rutin seperti gaji, kos, tagihan, dan lainnya pada periode harian, mingguan, bulanan, atau tahunan. Dalam daftar transaksi berulang, Anda bisa melihat semua tugas, mengubah atau menghapusnya, serta menjalankan transaksi secara manual.
 
 ### Menambah Transaksi Berulang
 
@@ -257,7 +258,7 @@ Dalam daftar transaksi berulang, Anda bisa:
 
 ## Reimburse Pengeluaran
 
-Fitur reimburse pengeluaran membantu melacak pengeluaran yang perlu diganti.
+Fitur reimburse pengeluaran membantu melacak pengeluaran yang perlu diganti, membedakan catatan tertunda dan sudah diganti, serta mendukung reimburse sebagian maupun penuh. Tambahkan catatan dengan mencentang opsi Reimburse, lalu di pengelolaan reimburse tandai sudah diganti dengan memasukkan nominal, tanggal, dan metode penggantian.
 
 ### Menambah Catatan Reimburse
 
@@ -280,7 +281,7 @@ Fitur reimburse pengeluaran membantu melacak pengeluaran yang perlu diganti.
 
 ## Pengaturan
 
-Meow Money Manager menyediakan beberapa opsi pengaturan untuk menyesuaikan fungsi aplikasi.
+Meow Money Manager menyediakan beberapa opsi pengaturan untuk menyesuaikan fungsi aplikasi, mulai dari tema terang, gelap, atau ikuti sistem, bahasa, simbol mata uang, hari awal pekan, hingga tanggal awal bulan. Pengaturan Privasi mengaktifkan kunci aplikasi sidik jari atau kata sandi, sementara Backup dan Pulihkan mendukung Google Drive, iCloud untuk iOS, dan WebDAV.
 
 ### Pengaturan Dasar
 

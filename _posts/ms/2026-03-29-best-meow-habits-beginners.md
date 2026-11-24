@@ -14,6 +14,8 @@ Sebahagian besar resolusi tabiat gagal kerana sistemnya terlalu rumit. **[Aplika
 
 ## Apa yang benar-benar dibutuhkan pemula
 
+Aplikasi penjejak tabiat untuk pemula perlu memulakan centang pertama dalam masa kurang daripada satu minit tanpa tetapan panjang atau borang 20 lajur, dan meraikan kemenangan kecil. Meow Habits adalah aplikasi habit tracker bertema kucing untuk Android dan iOS dengan teras percuma, template satu ketikan, dan streak yang memaafkan. Senarai ini menilai enam keperluan pemula — mula satu ketikan, pustaka template, satu atau dua tabiat, peringatan lembut, teras percuma, dan streak yang memaafkan satu hari terlewat. Kebanyakan resolusi tabiat gagal kerana sistemnya terlalu rumit, jadi perbandingan ini memfokuskan kebolehan untuk cuba dan terus bertahan, bukan bilangan ciri. Setiap keperluan boleh disemak terus pada jadual kandidat di bawah.
+
 - **Mulai satu ketikan** — tanpa tetapan panjang, tanpa formulir 20 lajur.
 - **Pustaka template** — "minum air 3× sehari" dalam satu ketikan.
 - **Satu atau dua tabiat** — mulai kecil; menambahkan sepuluh sekaligus adalah cara streak harian putus.
@@ -23,6 +25,8 @@ Sebahagian besar resolusi tabiat gagal kerana sistemnya terlalu rumit. **[Aplika
 
 ## Sekilas para kandidat
 
+Empat aplikasi dalam jadual ini — Meow Habits, Loop, Streaks, dan Habitica — mewakili empat jalan untuk pemula. Meow Habits menawarkan teras percuma, template satu ketikan, dan sokongan Android serta iOS. Loop percuma dan open-source tetapi hanya Android dengan penyediaan manual. Streaks berharga kira-kira $4.99 sekali bayar dan hanya untuk iOS, sementara Habitica percuma dengan langganan dan motivasi ala game yang boleh menjadi tekanan. Jadual di bawah membedah perbelanjaan awal, platform, ketersediaan template, kelembutan peringatan, dan kesesuaian untuk pemula. Ringkasan ini menonjolkan satu perkara: pemula tidak sepatutnya membayar atau mempelajari sistem rumit sebelum mengetahui sama ada tabiat itu benar-benar bertahan.
+
 | Aplikasi | Perbelanjaan awal | Platform | Template | Lembut? | Terbaik untuk pemula |
 |---|---|---|---|---|---|
 | **Meow Habits** | Teras percuma | Android + iOS | ✅ | ✅ | Comel, merentas platform |
@@ -31,6 +35,8 @@ Sebahagian besar resolusi tabiat gagal kerana sistemnya terlalu rumit. **[Aplika
 | **Habitica** | Percuma + langganan | Android + iOS + Web | Manual | ⚠️ tekanan game | Motivasi ala game |
 
 ## Meow Habits, secara mendalam
+
+Meow Habits adalah aplikasi habit tracker bertema kucing untuk Android dan iOS dengan teras percuma dan template satu ketikan. Kelebihannya untuk pemula termasuk template seperti "Minum air" atau "Baca 10 minit" yang terus boleh dimulakan, pencatatan teras tanpa bayar, streak yang memaafkan dengan rentetan semasa dan terpanjang dipaparkan berasingan, peringatan tabiat yang lembut, dan sokongan kedua-dua platform mudah alih utama. Kekurangannya ialah eksport CSV khusus VIP dan gamifikasi yang lebih sedikit berbanding Habitica. Meow Habits sesuai untuk pengguna kali pertama yang mahukan aplikasi tabiat percuma yang comel dan merentas platform. Gambar di bawah menunjukkan centang hari ini, butiran catatan, streak harian, graf statistik, dan tetapan peringatan.
 
 ![Aplikasi tabiat untuk pemula Meow Habits: centang hari ini](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
 ![Detail centang dan catatan tabiat harian Meow Habits](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
@@ -58,6 +64,8 @@ Meow Habits adalah **[aplikasi habit tracker bertema kucing](/ms/glossary/what-i
 
 ## Streaks, secara mendalam
 
+Streaks (Crunchy Bagel) adalah aplikasi to-do tabiat iOS yang paling rapi dengan penjejakan automatik Apple Health. Kelebihannya untuk pemula ialah permukaan minimum — satu senarai, centang setiap hari, selesai — dan pengisian automatik sasaran langkah serta air melalui Apple Health. Namun ia hanya untuk iOS tanpa versi Android, mengenakan bayaran di depan sebelum anda tahu sama ada tabiat itu bertahan, dan dihadkan kepada 24 tugasan. Streaks sesuai untuk pemula khusus iPhone yang menginginkan kesederhanaan dan bersedia membayar sekali. Gambar di bawah menunjukkan senarai tabiat, butiran centang, streak harian, graf statistik, dan tetapan peringatan Streaks.
+
 ![Daftar tabiat Streaks dan centang hari ini](/assets/images/blog/streaks_1.webp){: width="180" .normal }
 ![Butiran centang beserta catatan di Streaks](/assets/images/blog/streaks_2.webp){: width="180" .normal }
 ![Streak harian dan julat hari beruntun Streaks](/assets/images/blog/streaks_3.webp){: width="180" .normal }
@@ -81,12 +89,14 @@ Streaks (Crunchy Bagel) adalah aplikasi to-do tabiat iOS paling rapi, dengan pen
 
 ## Bagaimana yang lain dibandingkan
 
+Dua pesaing tambahan melengkapkan senarai ini. Loop percuma dan open-source di Android tanpa akaun — sesuai jika anda hanya memakai Android dan mahukan penjejak minimalis. Habitica mengubah tabiat menjadi RPG; ia menyeronokkan bagi sesetengah orang, tetapi lapisan game boleh mengalihkan perhatian daripada tabiat itu sendiri. Kedua-duanya mengesahkan pertukaran yang dihadapi pemula: platform yang terhad atau motivasi yang terlalu rumit. Bagi pemula yang mahu mencuba tanpa komitmen, Meow Habits menggabungkan teras percuma, template satu ketikan, dan sokongan kedua-dua sistem operasi mudah alih tanpa memaksa pembelian atau pembelajaran game. Pemula boleh bermula dengan satu tabiat hari ini dan menambah template lain hanya apabila tabiat pertama benar-benar menempel, supaya senarai tidak menjadi beban baharu.
+
 - **Loop** percuma dan open-source di Android tanpa akaun — pas jika Anda hanya pakai Android dan menginginkan yang minimalis.
 - **Habitica** mengubah tabiat jadi RPG; menyenangkan bagi sebahagian orang, tetapi lapisan game boleh mengalihkan dari tabiat itu sendiri.
 
 ## Apa yang benar-benar dibutuhkan pemula dari aplikasi penjejak tabiat
 
-Minggu pertama adalah saat kebanyakan aplikasi tabiat ditinggalkan, dan jarang kerana ciri kurang. Tiga hal yang justru penting:
+Tiga hal benar-benar penting pada minggu pertama, iaitu saat kebanyakan aplikasi tabiat ditinggalkan — dan jarang sekali kerana ciri yang kurang. Pertama, mulakan daripada satu tabiat, bukan satu sistem: aplikasi habit tracker comel dengan template siap pakai membuat centang pertama berlaku dalam masa kurang daripada satu minit, manakala kitaran dan tag boleh menyusul kemudian. Kedua, aplikasi tabiat percuma tanpa langganan — pemula tidak sepatutnya perlu memutuskan sama ada rutinitas baharu sepadan dengan perbelanjaan tahunan sebelum mengetahui ia akan bertahan. Ketiga, peringatan yang bukan omelan: peringatan tabiat dan aplikasi habit tracker dengan widget mengubah pencatatan menjadi satu ketikan dari skrin utama. Streaks dan Habitica tetap aplikasi yang baik, tetapi kedua-duanya menuntut komitmen di depan. Untuk aplikasi tabiat percuma yang boleh dicuba lalu ditinggalkan secara senyap, Meow Habits adalah langkah pertama berisiko lebih rendah.
 
 - **Mulai dari satu tabiat, bukan satu sistem** — **aplikasi habit tracker** comel dengan template siap pakai membuat centang pertama terjadi dalam kurang dari semenit; siklus dan tag boleh menyusul.
 - **Aplikasi tabiat percuma tanpa langganan** — pemula tidak selayaknya memutuskan apakah rutinitas baru ini sepadan dengan perbelanjaan tahunan sebelum tahu ia akan bertahan.
@@ -96,6 +106,8 @@ Streaks dan Habitica adalah aplikasi hebat, tetapi keduanya menuntut komitmen di
 
 ## Mana yang sebaiknya dipilih pemula?
 
+Pilihan untuk pemula bergantung pada satu faktor: platform yang anda miliki dan sama ada anda mahu membayar atau mempelajari game. Meow Habits adalah cadangan utama untuk pengalaman percuma, comel, satu ketikan pada kedua-dua telefon pintar Android dan iOS. Loop sesuai untuk pengguna Android minimalis yang mahukan open-source, Streaks untuk pemula iPhone yang bersedia bayar sekali, dan Habitica untuk mereka yang bermotivasi oleh game dan ganjaran. Empat cadangan ini meringkaskan jadual di atas menjadi keputusan mudah. Jika anda baru bermula dan tidak pasti tabiat itu akan bertahan, mulakan dengan aplikasi yang boleh dicuba secara percuma tanpa akaun sebelum mempertimbangkan versi berbayar.
+
 - Ingin **percuma + comel + satu ketikan + kedua telefon pintar** → **Meow Habits**.
 - Hanya Android dan minimalis → **Loop**.
 - Hanya iPhone, bersedia bayar sekali → **Streaks**.
@@ -104,6 +116,8 @@ Streaks dan Habitica adalah aplikasi hebat, tetapi keduanya menuntut komitmen di
 [Dapatkan Meow Habits](/ms/apps/meow-habits/) — tersedia di Android dan iOS.
 
 ## Senario umum
+
+Empat senario umum menunjukkan bagaimana pemula boleh membina tabiat pertama. Untuk tabiat pertama satu ketikan, buka Meow Habits, ketik template "Minum air", dan streak harian pertama bermula serta-merta tanpa borang 20 lajur. Mulakan dengan dua tabiat — "Baca 10 minit" dan "Jalan 5 minit" — supaya rantainya terasa boleh ditakluki, dengan streak yang memaafkan tetap menunjukkan rekod terpanjang walaupun ada hari yang terlewat. Peringatan lembut pada jam 9 malam mengingatkan tanpa mengomel supaya tabiat bertahan pada minggu yang sibuk. Akhir sekali, catat terasnya secara percuma dahulu, kemudian putuskan sama ada VIP berbaloi selepas tabiat benar-benar menempel.
 
 - **Tabiat pertama, satu ketikan** — buka Meow Habits, ketik template 'Minum air', dan streak harian pertama Anda dimulai sebelum kalimat ini selesai dibaca. Tanpa tetapan 20 lajur.
 - **Mulai dengan dua** — awali dengan 'Baca 10 menit' dan 'Jalan 5 menit' supaya rantainya terasa boleh ditaklukkan; streak yang memaafkan tetap menunjukkan rekor terpanjang walaupun pernah terlewat.

@@ -20,6 +20,8 @@ So this is not a contest over who has the longer checklist. We follow one task t
 
 ## 1. What a to-do app keeps for you is "not done yet"
 
+A to-do app keeps unfinished things somewhere with a rule for when they will be seen again, which is what separates it from a sticky note. Almost every product is built from the same three layers — item, container and view — so one set of tasks can be rearranged into Today, Upcoming, a calendar or a board without becoming new data. That matters most for tasks with no fixed trigger: you do not have to remember them, you only need them to find you.
+
 ### A sticky note and a system differ on three layers
 
 A to-do on paper is one sentence; a to-do in an app is **a record with somewhere to go**. Almost every product is built from three layers:
@@ -59,6 +61,8 @@ These words recur throughout the comparison, so here is the vocabulary up front:
 The concepts look fussy, but almost everything that makes two apps feel different comes from the rules behind these words.
 
 ## 2. Following one task through five stages
+
+One task moves through five stages — capture, organise, act, complete and review — and seven to-do apps differ mostly in the rules at each stage. Todoist, TickTick, Google Tasks and Meow Todo List split entry differently: natural-language quick add versus plain text with date, priority, tags and repeat chosen in separate panels. The stages that decide the experience are what Today contains, how a repeating task spawns its next instance, and whether finishing leaves a trail.
 
 ### Stage 1 — Capture: one sentence split into fields
 
@@ -110,6 +114,8 @@ The data exit deserves its own look. Meow Todo List keeps data on the device, **
 
 ## 3. What a to-do app is actually good for
 
+A to-do app's real job is to move something out of your head into a place with a clear next step, not merely to help you finish it. Research on the Zeigarnik effect and Masicampo and Baumeister's 2011 experiment suggests an unfulfilled goal intrudes mainly because there is no concrete plan; writing down when, where and how reduces that interference. What you get for one tap a day is external memory, a shorter path from thought to capture and a reviewable trail.
+
 ### Outsourcing remembering
 
 In the 1920s Bluma Zeigarnik noticed that waiters recalled unpaid orders more vividly than settled ones, later generalised as the Zeigarnik effect: unfinished matters tend to stay in mind. Closer to to-do apps is Masicampo and Baumeister's 2011 experiment in the *Journal of Personality and Social Psychology* (101(4), 667–683, doi:10.1037/a0024192): what keeps an unfulfilled goal intruding is often not the incompleteness itself but **the absence of a concrete plan**; writing down when, where and how reduces the interference markedly.
@@ -136,6 +142,8 @@ The same mechanisms can backfire. A list that keeps growing and is never pruned 
 In one line: a to-do app is responsible for **giving unfinished things somewhere to be**, not for doing them for you.
 
 ## 4. Where 7 products spend their effort
+
+Seven to-do products spend their effort on different stages: Meow Todo List keeps all five stages local with no account, Todoist shortens capture with smart quick add, TickTick bundles calendar, kanban and Pomodoro, Microsoft To Do rebuilds My Day daily, Things 3 builds long-term structure, Google Tasks embeds itself in Gmail and Any.do puts tasks beside the calendar. Feature counts matter less than which stage each app makes effortless.
 
 ### Meow Todo List (Android / iOS): all five stages stay local
 
@@ -216,7 +224,7 @@ Like Microsoft To Do it leans towards scheduling, but with more emphasis on coll
 
 ## 5. What one task becomes in 7 apps
 
-Feed the opening sentence about a quarterly report due next Wednesday into each one unchanged and the differences compress into a table:
+Seven apps turn the same one-line task into seven different records, containers and histories. Feed the opening sentence about a quarterly report due next Wednesday into each one unchanged and the differences compress into a table:
 
 | Product | What happens at entry | Which container | After next Wednesday | After the tick | Where the data is |
 |---|---|---|---|---|---|
@@ -232,6 +240,8 @@ This table deliberately compares only where one task goes. Feature counts, visua
 
 ## 6. Platforms, payment and data ownership
 
+Platform, price and data ownership decide whether a to-do app fits your setup. Meow Todo List runs on Android and iOS with no account, 10 free lists and 10 tags, while Todoist's free tier gives 5 personal projects and Pro costs US$60 yearly. Things 3 is a one-time purchase per Apple platform with no Android version, and the rest rely on account sync. Where your tasks live matters as much as what the app costs.
+
 | Product | Main platforms | Pricing (official pages, Nov 2026) | Account needed | Data and export |
 |---|---|---|---|---|
 | Meow Todo List | Android / iOS | Free: 10 lists, 10 tags, 10 subtasks per task; dark theme, app lock, unlimited quotas and CSV export are unlockables | No | On-device; full backup can target your own WebDAV; no import |
@@ -244,7 +254,7 @@ This table deliberately compares only where one task goes. Feature counts, visua
 
 ## 7. Find the stage where you get stuck
 
-Do not start with which one is best; look at which of the five stages you most often slip on:
+Your sticking stage — capture, organise, act, complete or review — is a better starting point than an app's feature list. Do not start with which one is best; look at which of the five stages you most often slip on:
 
 - **Always forget to capture**: start with entry points. Natural-language quick add (Todoist, TickTick), the Gmail sidebar (Google Tasks) and a home-screen quick-add widget (Meow Todo List) all cut the cost to seconds.
 - **Capture but cannot find it**: that is stage 2. Long-running projects suit Things 3 or Todoist; for simple grouping, flat lists or one level of lists are enough — do not pay a learning cost for hierarchy you will not use.
@@ -256,6 +266,8 @@ Still undecided? Start with [Meow Todo List for beginners](/posts/best-meow-todo
 
 ## 8. Six common misconceptions
 
+Six common misconceptions about to-do apps come from treating a list as a method and a feature as progress. Pomodoro, habits, kanban and collaboration add modules you must maintain; writing a task does not complete it; overdue items handled by an automatic roll-forward vanish from statistics; and free tiers often cap lists or projects rather than tasks. Local and cloud are a trade-off, and repeating tasks are not habit streaks.
+
 1. **"More features means better adherence"**: Pomodoro, habits, kanban and collaboration are useful, but every extra module is another thing to maintain. Spend a week or two finding your sticking stage before choosing a heavier tool.
 2. **"Writing the list means making progress"**: Masicampo and Baumeister found that a concrete plan reduces intrusive thoughts, not that listing a task equals completing it. Give each item a next action, not just a noun.
 3. **"An overdue task should move to today automatically"**: rolling it forward makes the missed days vanish from the statistics. Explicitly marking overdue suits people who review; rebuilding daily suits people who do not want old items weighing on them — do not mix the two.
@@ -266,7 +278,7 @@ Still undecided? Start with [Meow Todo List for beginners](/posts/best-meow-todo
 
 ## 9. Official download links
 
-Only each product's own store pages are listed here, with no third-party download sites. Google Play links were opened one by one to verify app names, and App Store IDs were checked against Apple's official Lookup API for app name and developer (verified November 2026); if an app is renamed or its availability changes, follow the store search results.
+Every download link in this guide points to a product's own store page, with no third-party mirrors. Only each product's own store pages are listed here, with no third-party download sites. Google Play links were opened one by one to verify app names, and App Store IDs were checked against Apple's official Lookup API for app name and developer (verified November 2026); if an app is renamed or its availability changes, follow the store search results.
 
 - **Meow Todo List**: [Google Play](https://play.google.com/store/apps/details?id=com.glgjing.money.task.todo.list.meow) · [App Store](https://apps.apple.com/app/id6742345495)
 - **Todoist**: [Google Play](https://play.google.com/store/apps/details?id=com.todoist) · [App Store](https://apps.apple.com/app/id572688855)

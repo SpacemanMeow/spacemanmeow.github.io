@@ -35,7 +35,7 @@ faq:
       Ya. CPU Monitor memantau penggunaan dan frekuensi CPU multi-inti secara langsung, dan menyediakan riwayat suhu serta frekuensi untuk menemukan masalah performa.
 ---
 
-CPU Monitor adalah pemantau perangkat keras untuk Android. Ia menampilkan suhu dan frekuensi prosesor secara langsung, menganalisis riwayatnya, dan mendukung pemantauan CPU multi-inti. Seluruh angka berasal dari sensor sistem perangkat Anda.
+CPU Monitor adalah **pemantau perangkat keras Android** yang menampilkan suhu dan frekuensi prosesor secara langsung, menganalisis riwayat keduanya, dan mendukung pemantauan CPU **multi-inti**; seluruh angka berasal dari sensor sistem perangkat Anda. Jendela mengambang di bilah status maupun layar utama menampilkan suhu CPU, suhu baterai, dan penggunaan RAM, sementara **tiga widget** — RAM, CPU, dan baterai — menjaga angka tetap terlihat tanpa membuka aplikasi. Alarm suhu berlebih pada CPU atau baterai bisa diaktifkan atau dimatikan, dan kurva suhu GPU menunjukkan seberapa panas perangkat saat gaming atau menonton video. Multi-tema tersedia, tetapi akurasi bacaan bergantung pada sensor tiap perangkat.
 
 ### Fitur CPU Monitor
 

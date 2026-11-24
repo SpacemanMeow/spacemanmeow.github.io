@@ -40,7 +40,7 @@ faq:
       Ya. Floating Assistant dapat menampilkan jam dan hitung mundur di jendela mengambang selagi Anda memakai aplikasi lain.
 ---
 
-Floating Assistant menghadirkan tiga lapisan mengambang di layar Android: tombol Assistive Touch, jam serta hitung mundur, dan pemantau kondisi perangkat. Ketiganya tetap tampil di atas aplikasi lain, sehingga berguna saat layar penuh atau saat Anda bermain game.
+Floating Assistant menghadirkan **tiga lapisan mengambang** di layar Android — tombol Assistive Touch, jam dengan hitung mundur, dan pemantau kondisi perangkat — yang tetap tampil di atas aplikasi lain saat layar penuh atau ketika Anda bermain game. Tombol virtual beranda, kembali, aplikasi terbaru, dan volume dipadukan dengan one-tap boost, kunci layar, tangkapan layar, senter, serta pintasan aplikasi, sekaligus mengurangi keausan tombol fisik. Jendela mengambang menampilkan suhu CPU, suhu baterai, dan penggunaan RAM secara langsung. Layanan aksesibilitas dipakai **hanya** untuk fungsi-fungsi tersebut; aplikasi tidak mengumpulkan data apa pun, tidak melakukan tindakan di luar kendali Anda, dan tidak pernah mengungkapkan data pribadi maupun sensitif.
 
 ### Fitur Floating Assistant
 

@@ -20,6 +20,8 @@ Kalau anda lebih peduli tentang mana satu sesuai untuk saya berbanding bagaimana
 
 ## Sekilas: mekanisme tabiat 7 aplikasi
 
+Tujuh aplikasi penjejak tabiat — Meow Habits, Streaks, Habitica, Loop Habit Tracker, Habitify, Productive dan Fabulous — berbeza pada tiga soalan asas: apa yang diwakili oleh satu rekod, di mana sempadan tempoh dipotong, dan bagaimana angka berubah selepas satu hari terlepas. Ambil bersenam tiga kali seminggu: ada aplikasi yang minta anda namakan Isnin, Rabu dan Jumaat, ada yang menerima sebarang tiga hari, ada pula yang menganggapnya dua hari sekali. Terlepas satu tanda pula, ada yang menetapkan streak ke sifar, ada yang membiarkan skor merosot perlahan, ada yang memotong nyawa watak. Jadual di bawah memetakan mekanisme ketujuh-tujuh aplikasi itu sekilas berdasarkan perbezaan tersebut.
+
 | Aplikasi | Satu rekod mewakili | Model tempoh | Selepas satu hari terlepas | Statistik utama | Tempat data disimpan |
 |---|---|---|---|---|---|
 | **Meow Habits** | Satu rekod kumulatif bagi setiap tempoh: `+1` / `-1` / masuk angka / siap / dilangkau | Harian, mingguan, bulanan, hari tertentu, setiap N hari, dengan sasaran dan unit | Streak dikira mundur menerusi tempoh sah; boleh ditanda dilangkau tanpa memutusnya | Streak semasa, streak terpanjang, bilangan siap, kadar penyelesaian, kalendar dan peta haba 365 hari | Pada peranti, tanpa akaun; eksport CSV, sandaran Google Drive / WebDAV |
@@ -36,7 +38,7 @@ Beza yang terus kelihatan: **Meow Habits, Streaks, Loop, Habitify dan Productive
 
 ## Fahami dulu: apa yang sebenarnya direkod oleh aplikasi tabiat
 
-Sebelum membandingkan produk, beberapa konsep yang berulang tetapi jarang diterangkan perlu dihuraikan. Ini bukan permainan istilah — setiap angka yang anda lihat dalam aplikasi ditentukan olehnya.
+Sebelum membandingkan produk, penting untuk memahami apa yang sebenarnya direkod oleh aplikasi tabiat, kerana setiap angka yang anda lihat ditentukan oleh beberapa konsep asas. Satu tabiat bukan sekadar 'hari ini saya bersenam', sebaliknya gabungan sasaran, tempoh dan rekod yang ditindih: sasaran menentukan perlakuan dan piawaian ukurannya, tempoh menetapkan tetingkap masa pengiraan, dan rekod merekodkan apa yang anda lakukan dalam tempoh itu. Konsep lain termasuk perbezaan membina dan berhenti, sasaran boolean berbanding berangka, pelbagai takrif tempoh, streak serta kadar penyelesaian, layanan terhadap hari dilangkau, dan pemilikan data. Bahagian ini menghuraikan kesemua konsep itu satu per satu supaya perbandingan produk menjadi jelas.
 
 ### Satu tabiat = sasaran + tempoh + satu rekod
 
@@ -106,7 +108,7 @@ Keupayaan eksport sama penting. Meow Habits boleh mengeksport rekod ke CSV mahup
 
 ## Apa gunanya aplikasi tabiat sebenarnya
 
-Selepas mekanisme, kembali kepada soalan praktikal: dengan satu ketikan setiap hari, apa yang anda peroleh?
+Nilai aplikasi tabiat terletak pada apa yang anda peroleh daripada satu ketikan harian, bukan sekadar pada senarai ciri. Secara ringkasnya, aplikasi sedemikian menukar niat yang kabur kepada fakta boleh semak, menekan kos memulakan kepada satu ketukan, memberi gelung maklum balik melalui progres yang kelihatan, serta membolehkan semakan semula untuk mencari hari yang benar-benar menghalang. Semua itu berpaksikan amalan pemantauan kendiri, di kajian Lally et al. (2010) median kira-kira 66 hari dengan julat 18 hingga 254 hari sebelum automatisiti — walaupun ulasan Burke et al. (2011) menilai kekuatan buktinya lemah. Bahagian ini juga mengingatkan batasnya: penjejak boleh mengganggu bila streak menjadi satu-satunya markah. Rekod ialah alat, bukan jaminan hasil.
 
 ### Menukar niat yang kabur kepada fakta boleh semak
 
@@ -140,6 +142,8 @@ Satu ayat: nilai aplikasi tabiat terletak pada **menjadikan perlakuan kelihatan,
 ---
 
 ## Kerangka penilaian: enam titik teknis yang membezakan
+
+Kerangka penilaian untuk membandingkan aplikasi tabiat terdiri daripada enam titik teknis yang boleh disemak satu per satu: unit rekod, model tempoh, semantik hari terlepas, peraturan siap dan takrif statistik, peringatan dan laluan satu sentuhan, serta pemilikan dan mudah alih data. Enam soalan ini dipilih kerana ia menentukan bagaimana sesuatu aplikasi mengira angka dan melayan konsistensi, bukan sekadar apa yang dipaparkan pada skrin. Bedah setiap produk dan jadual perbandingan seterusnya kesemuanya mengikuti enam poin ini, supaya perbandingan antara mana-mana dua aplikasi tabiat kekal konsisten dan adil.
 
 Enam soalan di bawah ialah kerangka yang boleh dipakai untuk membandingkan mana-mana dua aplikasi tabiat. Bedah setiap produk dan jadual perbandingan seterusnya kesemuanya mengikuti enam poin ini.
 
@@ -178,6 +182,8 @@ Wajib mendaftar atau tidak, data pada peranti atau di awan, boleh atau tidak die
 ---
 
 ## Bedah 7 aplikasi satu per satu
+
+Bedah terhadap tujuh aplikasi ini menggunakan enam titik teknis yang sama — unit rekod, tempoh, semantik hari terlepas, peraturan siap, peringatan dan pemilikan data — supaya setiap produk dinilai secara adil berdasarkan mekanisme sebenar, bukan label ciri. Meow Habits menonjol dengan rekod pada peranti tanpa akaun dan lima tindakan menanda; Streaks dengan rantai yang ketat dalam ekosistem Apple; Habitica dengan sistem ganjaran dan hukuman; Loop dengan skor yang menyusut; Habitify, Productive dan Fabulous dengan penyegerakan akaun atau program berperingkat. Setiap aplikasi dikupas satu per satu mengikut kerangka itu. Bahagian ini merangkumi ketujuh-tujuh produk tersebut.
 
 ### Meow Habits (Android)
 
@@ -300,6 +306,8 @@ Bentuk produknya berjalan sebagai journey, lengkap dengan kandungan jurulatih, r
 
 ## Perbandingan mendalam pada dimensi utama
 
+Perbandingan mendalam ini tertumpu pada empat dimensi utama yang memisahkan ketujuh-tujuh aplikasi tabiat: semantik hari terlepas dan kelalaian, tempoh serta peraturan siap, peringatan dan pintu masuk data, serta platform dan cara bayar. Semantik hari terlepas paling menentukan — Streaks kembali ke sifar, Loop membiarkan skor menyusut perlahan, Meow Habits membenarkan penanda dilangkau, Habitica memotong nyawa, manakala Habitify, Productive dan Fabulous tidak menjadikan streak teras. Jadual-jadual di bawah membandingkan setiap dimensi itu merentas ketujuh-tujuh aplikasi supaya anda boleh memilih berdasarkan mekanisme motivasi, bukan sekadar senarai ciri.
+
 ### Semantik hari terlepas dan kelalaian
 
 | Aplikasi | Satu hari terlepas | Dilangkau sengaja | Isi sejarah mundur | Tarikh masa depan |
@@ -350,6 +358,8 @@ Bentuk produknya berjalan sebagai journey, lengkap dengan kandungan jurulatih, r
 ---
 
 ## Mana satu patut anda pilih
+
+Pemilihan aplikasi tabiat menjadi jelas apabila kerangka enam poin diterapkan pada situasi sendiri, bukan dengan bertanya mana yang terbaik secara mutlak. Tanya dulu sama ada rekod perlu membawa angka — untuk 8 gelas, 30 minit atau 3 km, takrif Meow Habits dan Loop paling lengkap. Kemudian tanya sama ada jadualnya kemas, sama ada kembali ke sifar selepas satu hari boleh diterima, ke mana data pergi, dan sama ada anda mahu alat atau program. Bagi pengguna Android di Malaysia yang mahu antara muka Melayu, penggunaan luar talian dan widget tanpa akaun, Meow Habits berbaloi dilihat berasingan. Cadangan penuh mengikut situasi disenaraikan di bawah.
 
 Terapkan kerangka enam poin pada situasi sendiri, dan pilihan menjadi jauh lebih jelas:
 

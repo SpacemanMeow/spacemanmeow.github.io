@@ -34,7 +34,7 @@ faq:
       Bisa. Atur pengingat lembut yang dapat disesuaikan untuk membangun kebiasaan mencatat suasana hati secara konsisten.
 ---
 
-Mencari cara yang lembut untuk mencatat suasana hati dan emosi setiap hari? Meow Mood Diary menyediakan ruang yang aman dan menenangkan dengan desain bertema kucing serta operasi yang sederhana. Baik saat ingin menyimpan momen bahagia, memproses hari yang berat, maupun sekadar memahami pola emosi, jurnal ini mengubah pencatatan harian menjadi pengalaman yang menyenangkan — tanpa pengaturan rumit dan tanpa menu yang membingungkan.
+Meow Mood Diary adalah **jurnal suasana hati privat** dengan desain bertema kucing dan operasi sederhana untuk mencatat emosi setiap hari — menyimpan momen bahagia, memproses hari yang berat, atau memahami pola emosi. Pencatatan sekali ketuk cukup dengan memilih ikon emosi, tanpa menulis paragraf panjang; tersedia beragam ikon, tema warna kustom, catatan teks, pengingat harian yang bisa disesuaikan, tampilan kalender, dan grafik tren. Entri **tidak pernah diunggah ke server** dan hanya dicadangkan ke Google Drive milik sendiri, sehingga bisa dipakai sepenuhnya offline. Kunci sidik jari atau kode sandi melindungi isi jurnal, dan seluruh fitur bekerja tanpa Wi-Fi di rumah, kantor, maupun saat bepergian.
 
 ### Mengapa memilih Meow Mood Diary?
 

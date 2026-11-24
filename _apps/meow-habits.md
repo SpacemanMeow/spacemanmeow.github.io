@@ -48,7 +48,7 @@ faq:
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
-Say goodbye to short-lived enthusiasm! Meow Habits is a breath of fresh air for habit building, unlocking the secret to consistency with healing cat visuals and scientific habit tracking. Tailored for those craving self-discipline and efficiency, it blends intuitive operations with adorable cartoon designs, turning tedious habit tracking into a delightful daily ritual. Whether you’re nurturing good habits like fitness and studying, or turning over a new leaf from procrastination and late nights, our data-driven tracking and personalized tools help you stay on track, streamline your workflow, and boost daily efficiency—making habit building a breeze with a sense of achievement every step of the way!
+Meow Habits is a habit tracker and routine builder on Android and iOS that pairs one-tap check-ins with 500+ cartoon icons and daily, weekly, monthly or custom cycles. It tracks streaks, completion rates and long-term trends through bar charts, pie charts and calendar views, while reminder settings and a fingerprint lock keep the routine both consistent and private. Records stay offline and can be backed up to Google Drive or WebDAV, and CSV export lets you analyze patterns outside the app. Light and dark themes cover daytime work and nighttime logging.
 
 ### Core Features of Meow Habits
 

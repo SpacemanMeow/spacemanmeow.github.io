@@ -14,13 +14,15 @@ Senarai tugasan hanya berguna kalau Anda benar-benar membukanya, dan aplikasi pe
 
 ## Mengapa aplikasi to-do list penting di Android
 
-Di Android, widget skrin utama yang rapi plus akses offline dan kunci cap jari menjaga senarai tugasan tetap kelihatan sekaligus peribadi, sementara penyegerakan Google Drive / WebDav berarti telefon pintar hilang tidak berarti tugasan hilang. Reka bentuk yang mengutamakan widget juga jadi kelebihan Android dibanding iOS untuk perancangan sekilas.
+**Meow Todo List** menjadikan aplikasi to-do list penting di Android dengan menggabungkan widget skrin utama yang rapi, akses offline, dan kunci cap jari — senarai tugasan kekal kelihatan serta-merta dan tetap peribadi pada peranti bersama. Penyegerakan Google Drive atau WebDav bermakna telefon pintar yang hilang tidak membawa bersama senarai tugasan, manakala **400+ ikon kategori comel** memisahkan kerja dan hidup dalam satu pandangan. Reka bentuk yang mengutamakan widget ini memberi Android kelebihan berbanding iOS untuk perancangan sekilas, dengan paparan kalendar harian, mingguan, dan bulanan supaya tiada tarikh akhir tersembunyi.
 
 ## Apa sahaja sebutan orang untuknya
 
-Alat yang sama dicari dengan banyak nama: **aplikasi to-do list**, **aplikasi pengurus tugasan**, **aplikasi manajemen tugasan**, atau **aplikasi checklist**. Kueri seperti **aplikasi to-do list percuma terbaik**, **pengurus tugasan offline sederhana**, dan **aplikasi to-do offline** biasanya merujuk hal yang sama — senarai tugasan tanpa akaun yang tetap digunakan di kereta bawah tanah dan tidak menimbun Anda dalam tetapan. Sebahagian menambahkan syarat khusus: **aplikasi kalendar tugasan** untuk perancangan mingguan, **aplikasi peringatan tugasan** untuk tarikh akhir, atau **aplikasi to-do dengan kunci cap jari** untuk catatan peribadi. Daftar pemeriksaan di bawah berlaku untuk semuanya.
+Satu **[aplikasi to-do list](/ms/glossary/what-is-a-to-do-list/)** seperti **Meow Todo List** dicari dengan banyak nama — **aplikasi pengurus tugasan**, **aplikasi manajemen tugasan**, atau **aplikasi checklist** — dan semuanya merujuk kepada senarai tugasan tanpa akaun yang tetap digunakan di kereta bawah tanah serta tidak menimbun anda dalam tetapan. Dengan **400+ ikon kategori**, paparan kalendar, dan penyegerakan Drive/WebDav, Meow Todo List menjawab keperluan asas mahupun khusus. Kueri seperti **aplikasi to-do list percuma terbaik** atau **aplikasi to-do offline** biasanya membawa maksud yang sama, manakala sesetengah menambah syarat: **aplikasi kalendar tugasan** untuk perancangan mingguan, **aplikasi peringatan tugasan** untuk tarikh akhir, atau **aplikasi to-do dengan kunci cap jari** untuk catatan peribadi. Daftar pemeriksaan di bawah terpakai kepada semuanya.
 
 ## Apa yang dicari dalam aplikasi to-do list
+
+Sebuah **[aplikasi to-do list](/ms/glossary/what-is-a-to-do-list/)** yang baik dinilai daripada enam perkara: paparan kalendar, subtugasan dan detail, peringatan, penyegerakan dan sandaran, mod offline dengan kunci, serta antara muka yang bersih. **Meow Todo List** memenuhi kesemua enam kriteria itu dengan perancangan harian hingga bulanan, **400+ ikon kategori comel**, peringatan tarikh akhir, serta penyegerakan Google Drive dan WebDav — semuanya boleh bermula secara percuma. Enam kriteria utama:
 
 - **Paparan kalendar & perancangan** — harian, mingguan, bulanan sekilas supaya tidak ada yang tersembunyi.
 - **Subtugasan & detail** — pecah kerja dan tambahkan konteks sambil jalan.
@@ -31,6 +33,8 @@ Alat yang sama dicari dengan banyak nama: **aplikasi to-do list**, **aplikasi pe
 
 ## Gambaran pilihan yang ada
 
+Tiga aplikasi dalam senarai 2026 mewakili tiga gaya pengurusan tugasan: **Meow Todo List** (percuma + unlock pilihan, Android + iOS) menggabungkan kalendar, subtugasan, peringatan, dan penyegerakan Drive/WebDav; **Todoist** (percuma + Pro ~$48/tahun) menawarkan input bahasa semula jadi dan kolaborasi dengan lengkung belajar lebih curam; **TickTick** (percuma + ~$35.99/tahun) menggabungkan kalendar dan pomodoro dengan antara muka lebih ramai. Jadual di bawah membandingkan harga, platform, dan kegunaan terbaik supaya anda boleh memilih antara kesederhanaan dan ciri yang mendalam.
+
 | Aplikasi | Harga (2026) | Platform | Sesuai untuk / catatan |
 |---|---|---|---|
 | **Meow Todo List** | Muat turun percuma, teras percuma + unlock pilihan | Android + iOS | Paparan kalendar, subtugasan, peringatan, penyegerakan Drive/WebDav, CSV |
@@ -38,6 +42,8 @@ Alat yang sama dicari dengan banyak nama: **aplikasi to-do list**, **aplikasi pe
 | **TickTick** | Percuma + ~$35.99/tahun | Android + iOS | Kalendar + pomodoro, kuat tetapi UI lebih ramai |
 
 ## Meow Todo List secara mendalam
+
+**Meow Todo List** adalah **[aplikasi to-do list](/ms/glossary/what-is-a-to-do-list/)** dan pengurus tugasan untuk Android dan iOS dengan paparan kalendar harian, mingguan, dan bulanan, subtugasan, peringatan, serta penyegerakan cloud. **400+ ikon kategori comel** memisahkan "Kerja", "Rumah", dan "Perjalanan" supaya sekilas hanya muncul yang penting, manakala kunci cap jari menjaga tugasan tetap peribadi pada peranti bersama. Penyegerakan Google Drive dan WebDav memastikan senarai tidak hilang semasa ganti peranti, dan pencatatan offline berfungsi di pesawat atau kereta bawah tanah. Terasnya percuma; unlock sekali bayar pilihan menambah ciri lanjutan.
 
 ![Aplikasi to-do list Android — tugasan hari ini di Meow Todo List](/assets/images/apps/meow-todo-list/1.webp){: width="180" .normal }
 ![Editor tugasan dan peringatan tarikh akhir Meow Todo List](/assets/images/apps/meow-todo-list/2.webp){: width="180" .normal }
@@ -64,13 +70,15 @@ Baca lebih dalam:
 
 ## Bagaimana Meow Todo List dibandingkan kompetitor
 
-Kalau Anda menimbang **alternatif TickTick** kerana tata letak kalender-plus-pomodoro terasa ramai, atau membandingkan kolaborasi Todoist dengan senarai tugasan harian yang lebih sederhana, trade-off-nya biasanya kedalaman versus hambatan. Meow Todo List mempertahankan teras gratisnya lokal-dulu dengan penyegerakan Drive/WebDav dan eksport CSV; pakej yang lebih besar menambah ciri tim dengan harga satu akaun lagi dan langganan tahunan.
+**Meow Todo List** dibezakan daripada dua pesaingnya dengan mengekalkan teras percuma yang lokal-dahulu, penyegerakan Drive/WebDav, dan **400+ ikon kategori**, berbanding **Todoist** yang kuat pada input bahasa semula jadi dan kolaborasi pasukan serta **TickTick** yang menggabungkan kalendar dan pomodoro. Pertimbangannya biasanya kedalaman berbanding hambatan: jika tata letak kalendar-plus-pomodoro terasa ramai atau ciri pasukan memerlukan langganan tahunan, penjejak harian yang sederhana lebih praktikal. Meow Todo List menawarkan kalendar, subtugasan, dan peringatan yang paling kerap digunakan tanpa beban tetapan tambahan.
 
 - **vs Todoist** — Todoist kuat dengan input bahasa alami dan ciri tim, tetapi kekuatan itu datang bersama lengkung belajar dan langganan Pro untuk bahagian terbaiknya. Meow Todo List tetap sederhana dan comel, percuma untuk bermula, dengan kalendar dan subtugasan yang paling sering digunakan orang. Butiran lengkap di [Meow Todo List vs Todoist](/ms/posts/vs-meow-todo-and-todoist/).
 - **vs TickTick** — TickTick menggabungkan kalendar dan pomodoro dan memang tangguh, tetapi antara muka yang lebih ramai tidak sesuai untuk semua orang; Meow Todo List menukar sebahagian kedalaman dengan pengalaman harian yang lebih tenang.
 - **Pilihan lain** — lihat [Alternatif Todoist Terbaik 2026](/ms/posts/alternatives-to-todoist/) untuk gambaran lengkap.
 
 ## Mana yang sebaiknya Anda pilih?
+
+Pilihan antara tiga aplikasi ini bergantung pada gaya perancangan dan ciri yang anda perlukan. **Meow Todo List** sesuai untuk mahasiswa atau sesiapa yang mahu perancang tenang dengan **400+ ikon**, kalendar, dan sandaran Drive/WebDav secara percuma; **Todoist (Pro)** untuk pengguna mahir yang hidup dengan pintasan papan kekunci dan kolaborasi pasukan; **TickTick** untuk pomodoro dan kalendar bawaan. Senarai berikut memetakan setiap situasi kepada pilihan yang tepat, termasuk keperluan offline dan kunci cap jari.
 
 Pilihan cepat berdasarkan situasi:
 
@@ -80,6 +88,8 @@ Pilihan cepat berdasarkan situasi:
 - Ingin UI comel + offline + sandaran Google Drive → Meow Todo List.
 
 ## Senario umum
+
+Empat senario harian menunjukkan di mana **Meow Todo List** memberi nilai paling jelas dengan **400+ ikon**, kalendar, dan mod offline-nya: perancangan semester mahasiswa, pemisahan kerja dan hidup, tangkapan tugasan semasa offline, serta privasi pada peranti bersama. Dalam setiap kes, senarai kekal kelihatan melalui widget dan peringatan, manakala sandaran Drive/WebDav memastikan tiada tugasan hilang semasa ganti peranti. Kunci cap jari menjaga tugasan tetap peribadi, dan subtugasan memecahkan projek besar kepada langkah kecil. Todoist atau TickTick sesuai hanya jika anda mahu kolaborasi pasukan atau pomodoro terbina. Butiran setiap senario disenaraikan di bawah.
 
 - **Perancangan semester mahasiswa** — buka widget skrin utama setiap pagi, masukkan kelas hari ini dan tarikh akhir tugasan ke satu daftar, lalu biarkan peringatan mengingatkan sebelum setiap tarikh akhir; subtugasan membuat projek besar tidak terasa seperti dinding teks.
 - **Pemisahan kerja dan hidup** — pakai 400+ ikon kategori comel dan tag untuk memisahkan "Kerja", "Rumah", dan "Perjalanan" supaya sekilas hanya muncul yang penting sekarang, bukan seluruh hidup sekaligus.

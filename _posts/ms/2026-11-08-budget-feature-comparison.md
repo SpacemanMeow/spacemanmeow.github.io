@@ -20,6 +20,8 @@ Kalau berminat juga dengan perbandingan ciri secara keseluruhan, baca: [Meow Mon
 
 ## Sekilas: semak pantas mekanisme bajet 7 aplikasi
 
+Tujuh aplikasi bajet — YNAB, Monarch Money, Goodbudget, EveryDollar, PocketGuard, Wallet dan Meow Money Manager — berbeza pada tiga soalan asas: apa objek bajetnya, di mana sempadan tempoh dipotong, dan ke mana wang yang tak terpakai pergi. Perbezaan itu menentukan bagaimana setiap aplikasi mentakrif 'overbudget'. Untuk bajet makan RM2,000, YNAB menyimpan baki kategori yang berlonggok, Goodbudget baki sampul yang jalan terus, dan Meow Money Manager tetingkap masa yang beralih ikut tarikh. Jadual ringkas di bawah memetakan mekanisme ketujuh-tujuh aplikasi supaya anda dapat melihat perbezaan objek, tempoh, rollover dan rumus asasnya sekilas.
+
 | Aplikasi | Objek bajet | Model tempoh | Rollover | Perbelanjaan bukan bulanan | Rumus asas |
 |---|---|---|---|---|---|
 | **Meow Money Manager** | Satu bajet (total, atau per kategori) | Hari / minggu / bulan / tahun / suai, **tetingkap bergerak** | Tiada, tetingkap dikira semula setiap hari | Tarikh mula–tamat suai | Bajet harian = baki ÷ baki hari (0 jika overbudget) |
@@ -35,6 +37,8 @@ Pembahagian paling jelas: **YNAB, EveryDollar, Goodbudget ialah bajet jenis "per
 ---
 
 ## Bina dulu kerangka penilainya: enam perbezaan teknis ciri bajet
+
+Ciri bajet tidak boleh difahami tanpa enam perbezaan teknik yang menjadi kerangka penilaian artikel ini: objek bajet, sempadan tempoh, semantik rollover, perbelanjaan bukan bulanan, cara baki dikira dan sumber data. Enam titik ini dipilih kerana ia menentukan tingkah laku sebenar aplikasi, bukan sekadar senarai ciri permukaan seperti 'ada graf' atau 'ada peringatan'. Sama ada untuk baki akaun atau had perbelanjaan, bulan kalendar atau tetingkap bergerak, setiap pilihan membawa kesan berbeza kepada perancangan harian. Bahagian berikut menghuraikan enam perbezaan itu satu per satu supaya anda boleh menilai mana-mana aplikasi bajet dengan cara yang sama.
 
 ### 1. Objek bajet: baki akaun atau had perbelanjaan
 
@@ -89,6 +93,8 @@ Ini terus menentukan "real-time" bajet vs "kos privasi": bajet segerak automatik
 ---
 
 ## Bedah 7 aplikasi satu per satu
+
+Penilaian terhadap tujuh aplikasi ini mengikut enam titik teknik yang sama — objek dan tempoh bajet, semantik rollover, perbelanjaan bukan bulanan, pengiraan baki, sumber data serta kuota dan had — supaya perbandingan tetap adil. Setiap aplikasi dibedah berdasarkan mekanisme sebenar yang kelihatan dalam tetapan dan dokumentasi rasminya, bukan sekadar label pemasaran. Meow Money Manager misalnya menonjol dengan tetingkap bergerak dan bajet harian, manakala YNAB membawa metodologi zero-based yang ketat dan Monarch menggabungkan dua sistem bajet. Bahagian ini mengupas ketujuh-tujuh aplikasi satu per satu mengikut kerangka yang sama.
 
 ### Meow Money Manager: tempoh bergerak dan bajet harian
 
@@ -276,6 +282,8 @@ Tiga had perlu dicatat: **ciri bajet belum ada di versi Web**, hanya Android (me
 
 ## Perbandingan mendalam antar dimensi kunci
 
+Perbandingan mendalam ini memfokus pada empat dimensi kunci yang memisahkan ketujuh-tujuh aplikasi: semantik rollover, penyebaran perbelanjaan bukan bulanan, perhitungan yang dikatakan bar progres, serta hierarki kategori dan sumber data. Rollover sahaja sudah berkelakuan sangat berbeza — YNAB mengekalkan baki positif tetapi menol baki negatif, Monarch menulis kedua-duanya ke satu rumus, Goodbudget bergantung pada cara isi Add atau Set, sementara Meow Money Manager dan EveryDollar langsung tiada konsep rollover. Jadual-jadual di bawah membandingkan setiap dimensi itu merentas ketujuh-tujuh aplikasi supaya anda boleh memilih berdasarkan mekanisme, bukan sekadar nama ciri.
+
 ### Semantik rollover dibandingkan: satu perkataan, empat kelakuan
 
 | Aplikasi | Baki positif (lebihan) | Baki negatif (overbudget) | Boleh dimatikan | Terpakai untuk kategori pendapatan |
@@ -349,6 +357,8 @@ Di baris ini, tanpa akaun, tanpa sambungan bank, tanpa kongsi ialah pertukaran s
 ---
 
 ## Aplikasi mana yang harus dipilih
+
+Pemilihan antara ketujuh-tujuh aplikasi bajet bergantung pada situasi pengguna, bukan pada mana satu 'terbaik' secara mutlak. Meow Money Manager sesuai untuk yang mahu jawab 'hari ini masih boleh belanja berapa' tanpa akaun atau sambungan bank, dengan syarat menerima rekod manual dan tiada rollover. YNAB untuk yang sanggup menukar metodologi dengan Ready to Assign yang ketat; Monarch untuk yang mahu kategori tanpa mengurus setiap pagar; Goodbudget untuk penganut sampul dengan kategori terhad; EveryDollar untuk zero-based ketat; PocketGuard untuk yang paling takut overbudget; dan Wallet untuk multi mata wang serta bajet kongsi keluarga. Senarai penuh di bawah memetakan setiap cadangan itu.
 
 - **Cuma mahu jawab "hari ini masih boleh belanja berapa"**: pilih **Meow Money Manager**. Bajet harian, baki hari, dan widget halaman utama terus menjawab; tak perlu rancang pendapatan dulu, tak perlu akaun atau sambung bank, dan hari mula minggu/bulan boleh ikut gaji. Syaratnya terima rekod manual dan "tak ada rollover."
 - **Sanggup tukar metodologi dengan kawalan**: pilih **YNAB**. Dua kelakuan Target, overspend dual-track tunai/kredit, dan Ready to Assign ketat membentuk model peruntukan lengkap. Ini juga pintu masuk ke **alternatif YNAB** bila Anda cari gaya serupa dengan rekod lokal.

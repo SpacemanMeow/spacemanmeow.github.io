@@ -14,6 +14,8 @@ Keduanya adalah aplikasi penjejak tabiat, tetapi menyasar pengguna berbeza. **Me
 
 ## Sekilas
 
+Meow Habits dan Streaks ialah dua aplikasi penjejak tabiat yang menyasar pengguna berbeza. Meow Habits menawarkan teras percuma merentas Android dan iOS, lebih 500 ikon kartun, serta mod membina dan menghentikan tabiat dengan data luar talian dan kunci cap jari. Streaks adalah aplikasi minimalis khusus iOS yang memerlukan bayaran sekali kira-kira AS$4.99, memberi tumpuan kepada tugasan positif dengan integrasi ekosistem Apple. Meow Habits menyokong eksport CSV dan segerak ke Google Drive atau WebDav milik sendiri; Streaks pula bergantung pada iCloud. Kedua-duanya tidak berlangganan. Jadual di bawah memetakan perbezaan platform, harga dan ciri supaya anda boleh memilih penjejak yang sesuai dengan peranti dan tabiat anda.
+
 | | Meow Habits | Streaks |
 |---|---|---|
 | **Platform** | **Android dan iOS** | Hanya iOS |
@@ -31,6 +33,8 @@ Keduanya adalah aplikasi penjejak tabiat, tetapi menyasar pengguna berbeza. **Me
 ---
 
 ## Meow Habits, secara rinci
+
+Meow Habits ialah aplikasi habit tracker dengan teras percuma yang berjalan di Android dan iOS, dibina di sekitar antara muka bertema kucing dan lebih 500 ikon kartun. Ciri khasnya ialah sokongan dua arah: pengguna boleh membina tabiat baik dan menghentikan tabiat buruk dalam satu aplikasi yang sama. Graf batang, pai, kalendar haba dan trend memaparkan kemajuan, manakala catatan tabiat luar talian dengan kunci cap jari memastikan data kekal di peranti. Segerak boleh dihalakan ke Google Drive atau WebDav sendiri, dan eksport CSV tersedia. Antara ciri percuma ialah streak harian, graf dan peringatan; VIP sekali bayar menambah eksport serta statistik lebih dalam. Ia sesuai untuk pengguna yang mahu penjejak comel, peribadi dan merentas platform.
 
 ![Meow Habits: daftar check-in tabiat harian hari ini di aplikasi penjejak tabiat](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
 ![Detail centang dan catatan tabiat offline Meow Habits](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }
@@ -67,6 +71,8 @@ Orang yang ingin **aplikasi penjejak tabiat** comel dan merentas platform yang m
 
 ## Streaks, secara rinci
 
+Streaks ialah aplikasi tabiat minimalis untuk iOS yang membantu mendefinisikan kategori ini, dengan had sehingga 12 tugasan pada versi yang disemak dan bayaran sekali kira-kira AS$4.99 tanpa langganan. Pengguna memilih tugasan, menandainya siap setiap hari dan menonton rantaian streak bertambah. Integrasi mendalam dengan HealthKit, Siri, widget, Apple Watch dan Shortcuts menjadikannya pilihan kemas dalam ekosistem Apple, dengan segerak iCloud merentas iPhone, iPad dan Mac. Namun ia hanya untuk iOS, tidak menyokong Android dan tidak direka secara eksplisit untuk menghentikan tabiat. Ikon dan pelarasan terhad, dan tiada eksport CSV pada pengalaman standard, jadi ia mengutamakan kesederhanaan berbanding keluasan.
+
 ![Skrin utama Streaks dengan tugasan harian hari ini](/assets/images/blog/streaks_1.webp){: width="180" .normal }
 ![Detail check-in dan catatan Streaks](/assets/images/blog/streaks_2.webp){: width="180" .normal }
 ![Streak harian dan rentetan hari berturut-turut Streaks](/assets/images/blog/streaks_3.webp){: width="180" .normal }
@@ -101,6 +107,8 @@ Pengguna khusus iPhone yang ingin **aplikasi habit tracker** sederhana, indah, d
 
 ## Perbandingan pada hal yang paling menentukan
 
+Meow Habits dan Streaks berbeza pada lima perkara yang paling menentukan: platform, mod membina berbanding menghentikan, privasi dan segerak, pelarasan serta graf, dan harga. Meow Habits berjalan di Android dan iOS, manakala Streaks hanya di iOS — satu perbezaan yang terus menyingkirkan Streaks bagi kebanyakan isi rumah bercampur. Meow Habits secara eksplisit menyokong penghentian tabiat dan menyimpan data luar talian dengan kunci cap jari, sementara Streaks menumpukan tugasan positif melalui iCloud. Dari segi pelarasan, Meow Habits menang pada lebih 500 ikon dan pelbagai graf; Streaks menang pada kesederhanaan dan integrasi Apple. Meow Habits percuma pada terasnya; Streaks berharga kira-kira AS$4.99 sekali bayar. Bahagian di bawah menghuraikan setiap dimensi.
+
 ### Platform
 Ini penentu bagi banyak orang. Meow Habits berjalan di Android dan iOS; Streaks hanya iOS. Jika ada orang di rumah tangga atau alur kerja Anda yang memakai Android, Meow Habits adalah satu-satunya pilihan di antara keduanya.
 
@@ -118,13 +126,15 @@ Meow Habits adalah **aplikasi tabiat percuma** pada ciri teras; Streaks sekitar 
 
 ## Mana yang sebaiknya Anda pilih
 
+Meow Habits atau Streaks — pilih Meow Habits jika anda memakai Android atau kedua-dua platform, mahu menjejak penghentian tabiat, menyukai ikon comel atau mengutamakan penjejakan luar talian dengan eksport CSV; pilih Streaks jika anda hanya menggunakan iPhone, mahu penjejak minimalis yang kemas dalam ekosistem Apple dan tidak perlu menghentikan tabiat buruk. Bagi kebanyakan pengguna merentas platform atau yang menjaga privasi, Meow Habits merangkumi lebih banyak kes; bagi pencinta kesederhanaan iOS tulen, Streaks kekal pilihan yang lebih bersih. Kedua-duanya tidak berlangganan, jadi pilihannya bergantung pada peranti dan cara anda mahu data disimpan.
+
 - **Pilih Meow Habits** jika Anda memakai Android atau kedua platform, ingin melacak penghentian tabiat, menyukai ikon comel, atau memilih penjejakan offline/peribadi dengan eksport CSV.
 - **Pilih Streaks** jika Anda hanya memakai iPhone, menginginkan **aplikasi habit tracker** minimalis paling halus, dan hidup di dalam ekosistem Apple (HealthKit, Watch, Shortcuts).
 - **Bagi kebanyakan pengguna merentas platform atau yang menjaga privasi, Meow Habits merangkumi lebih banyak kasus**; bagi penggemar kesederhanaan murni iOS, Streaks tetap pilihan yang lebih bersih.
 
 ## Aplikasi tabiat lain yang layak dipertimbangkan
 
-Perbandingan dua aplikasi tidak boleh merangkumi semua alasan orang berpindah. Tiga kasus sering muncul:
+Alternatif Streaks terbahagi kepada beberapa keperluan — statistik mudah, ganjaran ala permainan, dan penjadualan berasaskan masa — jadi perbandingan dua aplikasi ini tidak boleh merangkumi semua alasan orang berpindah. Tiga kasus sering muncul:
 
 - Orang yang mencari **alternatif Loop Habit Tracker** biasanya menginginkan statistik polos, open-source, tanpa akaun. Loop adalah patokan khusus Android di sana; Meow Habits menambahkan ikon comel, dukungan iOS, dan eksport CSV di atas ide tanpa akaun yang sama.
 - **Alternatif Habitica** adalah carian yang tepat ketika yang membuat Anda terus check-in adalah hadiah ala game dan akuntabilitas kumpulan, bukan sekadar rantai minimalis — tidak satu pun aplikasi yang dibandingkan di sini dibangun untuk itu.
@@ -133,6 +143,8 @@ Perbandingan dua aplikasi tidak boleh merangkumi semua alasan orang berpindah. T
 Rangkaian lengkap enam aplikasi, termasuk Productive untuk pengguna yang mengutamakan iOS, dibandingkan dalam [Alternatif Streaks Terbaik 2026](/ms/posts/alternatives-to-streaks/).
 
 ## Senario umum
+
+Meow Habits dan Streaks sesuai untuk empat situasi harian: ada peranti Android di rumah, membina dan menghentikan tabiat serentak, privasi yang dikawal pengguna, dan konsistensi visual yang comel. Meow Habits adalah satu-satunya daripada kedua-duanya yang berjalan di Android dan boleh merekod 'belajar gitar' serta 'berhenti ngemil larut malam' dalam aplikasi yang sama. Datanya kekal di peranti di sebalik kunci cap jari dan hanya disegerak ke Google Drive atau WebDav milik sendiri. Lebih 500 ikon kartun membuat check-in harian terasa menyenangkan. Streaks sebaliknya memberi pengalaman iOS yang kemas bagi pengguna Apple tulen. Senario penuh disenaraikan di bawah.
 
 - **Ada Android di rumah** — jika orang yang tinggal atau bekerja dengan Anda memakai Android, Meow Habits adalah satu-satunya dari keduanya yang berjalan di sana, sehingga rutinitas bersama benar-benar tetap bersama.
 - **Bangun dan hentikan sekaligus** — lacak 'belajar gitar' dan 'berhenti ngemil larut malam' di aplikasi yang sama; Streaks dibangun untuk menyelesaikan tugasan positif, bukan menghentikan tabiat.

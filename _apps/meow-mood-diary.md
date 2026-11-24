@@ -40,7 +40,7 @@ faq:
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
-Looking for a gentle way to track your daily mood and emotions? Meow Mood Diary offers a safe, cozy space for your emotional journey with adorable cat-themed designs and simple, intuitive operations.
+Meow Mood Diary is a private mood tracker and journaling app on Android and iOS that turns one-tap emotion logging into a calm daily habit with cat-themed designs. It pairs a wide set of mood icons and customizable color themes with calendar views and visual charts for spotting emotional patterns, plus text notes for the story behind each entry. Two lock options — fingerprint or passcode — protect the diary, and entries stay on the device with backups only to your own Google Drive; daily reminders support consistency, and every feature works offline.
 
 Whether you want to record a happy moment, process a difficult day, or simply understand your emotional patterns better, this mood diary turns daily tracking into a delightful experience. No complicated setups, no confusing menus—just one tap to log how you feel, anytime, anywhere.
 

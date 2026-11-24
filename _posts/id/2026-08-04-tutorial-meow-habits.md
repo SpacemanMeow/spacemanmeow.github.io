@@ -30,7 +30,7 @@ doc_app: meow-habits
 
 ## Pengenalan Aplikasi
 
-Meow Habits adalah **[aplikasi habit tracker](/id/glossary/what-is-a-habit-tracker/)** imut sekaligus pembangun rutinitas untuk Android dan iOS. Bangun kebiasaan baik dan hentikan kebiasaan buruk dengan streak, grafik, dan peta panas kalender. Aplikasi ini bekerja sebagai **habit tracker tanpa akun** dan **aplikasi habit tracker offline**: pencatatan tidak butuh pendaftaran maupun sinyal, dan **habit tracker dengan ekspor CSV** serta **habit tracker dengan cadangan WebDav** menjaga riwayat tetap milik Anda. Panduan cara pakai aplikasi habit tracker ini memandu dari pembukaan pertama, lewat **habit tracker dengan widget** dan **habit tracker dengan pengingat**, hingga membaca tren Anda sendiri.
+Meow Habits adalah **[aplikasi habit tracker](/id/glossary/what-is-a-habit-tracker/)** bergaya imut sekaligus pembangun rutinitas untuk Android dan iOS, dengan 500+ ikon, streak, grafik, dan peta panas kalender untuk membangun kebiasaan baik maupun menghentikan yang buruk. Aplikasi ini bekerja tanpa akun dan sepenuhnya offline, sementara ekspor CSV dan cadangan WebDav menjaga riwayat tetap milik Anda. Versi gratis memuat hingga 5 kebiasaan; VIP membuka jumlah tanpa batas, mode gelap, kunci aplikasi, dan ekspor CSV.
 
 **🐱 500+ Ikon Lucu**
 - Pemilih ikon dengan sekitar **590 ikon** dalam **14 kategori**
@@ -50,7 +50,7 @@ Meow Habits adalah **[aplikasi habit tracker](/id/glossary/what-is-a-habit-track
 
 ## Penggunaan Pertama
 
-Aplikasi terbuka di tab **Beranda** yang menampilkan kebiasaan hari ini serta kalender bulanan.
+Aplikasi terbuka di tab **Beranda** yang menampilkan kebiasaan hari ini dan kalender bulanan, dengan empat tab bawah — Beranda, Kebiasaan, Tren, dan Pengaturan. Ketuk **+** untuk menambah kebiasaan pertama; versi gratis membatasi hingga 5 kebiasaan sementara VIP membuka tanpa batas. Dari layar ini Anda juga bisa langsung menuju widget, pengingat, dan tren.
 
 - Tab bawah: **Beranda**, **Kebiasaan**, **Tren**, **Pengaturan**
 - Ketuk **+** untuk menambah kebiasaan pertama (versi gratis hingga **5 kebiasaan**; VIP membuka tanpa batas)
@@ -58,6 +58,8 @@ Aplikasi terbuka di tab **Beranda** yang menampilkan kebiasaan hari ini serta ka
 ![Tab Beranda Meow Habits: daftar check-in hari ini dan kalender bulanan di aplikasi habit tracker](/assets/images/blog/tutorial_habit_home.webp){: width="180" .normal }
 
 ## Menambahkan Kebiasaan
+
+Menambah kebiasaan di Meow Habits dimulai dengan tombol **+** di tab Beranda, lalu memilih template atau mulai kosong. Anda memasukkan nama, memilih ikon dari pemilih berisi sekitar 590 ikon dalam 14 kategori, menentukan buku atau daftar, jenis, target, siklus harian hingga kustom, serta tanggal mulai sebelum menekan Konfirmasi. Alur ini membuat satu kebiasaan baru siap dalam beberapa langkah.
 
 1. Ketuk **+** di tab Beranda
 2. Pilih **template** atau mulai kosong → membuka **Tambah Kebiasaan**
@@ -73,6 +75,8 @@ Aplikasi terbuka di tab **Beranda** yang menampilkan kebiasaan hari ini serta ka
 
 ## Check-in Harian
 
+Layar check-in Meow Habits menampilkan cincin progres besar untuk target hari ini, dengan tombol **+ / −**, **Input** untuk mengetik nilai, **Lewati**, dan **Selesai**. Menu tiga titik menyediakan Tren, Notifikasi, Catatan, Edit, Arsip, dan Hapus, sehingga seluruh pengelolaan kebiasaan berada dalam satu layar. Ketuk kebiasaan di tab Beranda atau Kebiasaan untuk membukanya.
+
 1. Di tab Beranda atau Kebiasaan, ketuk sebuah kebiasaan untuk membuka layar **check-in**
 2. Cincin progres besar menampilkan target hari ini
 3. Pakai **+ / −** untuk mengubah jumlah, **Input** untuk mengetik nilai, **Lewati** untuk melewati, atau **Selesai** untuk menuntaskan
@@ -81,6 +85,8 @@ Aplikasi terbuka di tab **Beranda** yang menampilkan kebiasaan hari ini serta ka
 ![Layar check-in harian dengan cincin progres pada aplikasi pelacak kebiasaan imut](/assets/images/blog/tutorial_habit_checkin.webp){: width="180" .normal }
 
 ## Pengingat
+
+Pengingat Meow Habits membantu menjaga streak dengan tiga chip waktu yang bisa dipilih untuk hari Min–Sab. Buka sebuah kebiasaan, ketuk opsi lonceng, aktifkan pengingat harian, lalu pilih salah satu chip waktu dan hari berlakunya. Aplikasi kemudian mengingatkan Anda untuk check-in sesuai jadwal yang ditentukan.
 
 1. Buka sebuah kebiasaan dan ketuk opsi pengingat (lonceng)
 2. Aktifkan pengingat harian
@@ -91,6 +97,8 @@ Aplikasi terbuka di tab **Beranda** yang menampilkan kebiasaan hari ini serta ka
 
 ## Streak dan Tren
 
+Streak dan tren di Meow Habits menampilkan angka streak, batang riwayat, dan peta panas kalender pada halaman Detail kebiasaan, sementara tab **Tren** memuat grafik serta pencapaian. Kombinasi ini membuat penurunan terlihat lebih awal, sebelum satu hari yang terlewat berubah menjadi streak putus. Buka kebiasaan lalu pilih Detail untuk memulai.
+
 1. Buka kebiasaan → **Detail** untuk melihat angka streak, batang riwayat, dan peta panas kalender
 2. Beralih ke tab **Tren** untuk grafik dan pencapaian
 
@@ -98,18 +106,22 @@ Aplikasi terbuka di tab **Beranda** yang menampilkan kebiasaan hari ini serta ka
 
 ## Edit, Arsip, atau Hapus
 
-Dari menu 3 titik di layar check-in Anda bisa **Edit**, **Arsip** (riwayat tetap tersimpan tapi disembunyikan), atau **Hapus** sebuah kebiasaan.
+Dari menu tiga titik di layar check-in, Meow Habits menyediakan tiga tindakan pengelolaan: **Edit** untuk mengubah kebiasaan, **Arsip** untuk menyembunyikannya sementara riwayat tetap tersimpan, dan **Hapus** untuk menghapusnya. Pilihan Arsip berguna bila Anda ingin menghentikan kebiasaan tanpa kehilangan data lama.
 
 ## Cadangan dan Ekspor
+
+Cadangan dan ekspor Meow Habits memakai dua jalur: **Pengaturan → Google Drive / WebDav** untuk mencadangkan dan memulihkan data, serta **Pengaturan → Ekspor** untuk memilih kebiasaan, menentukan rentang tanggal, dan membagikan berkas CSV. Ekspor CSV merupakan fitur VIP, sementara penyimpanan default tetap lokal di perangkat tanpa akun.
 
 - **Pengaturan → Google Drive / WebDav** untuk mencadangkan dan memulihkan
 - **Pengaturan → Ekspor** memungkinkan Anda memilih kebiasaan, menentukan rentang tanggal, dan membagikan **CSV**
 
 ## Pengaturan
 
-Pengaturan mencakup banner VIP, **mode gelap**, **bahasa**, **hari awal pekan**, **kunci aplikasi** (VIP), suara, notifikasi, **widget**, Daftar, Kebiasaan, **Ekspor** (VIP), Google Drive, WebDav, dan bagian keluarga Meow.
+Pengaturan Meow Habits mencakup banner VIP, mode gelap, bahasa, hari awal pekan, kunci aplikasi VIP, suara, notifikasi, widget, Daftar, Kebiasaan, ekspor VIP, Google Drive, dan WebDav. Dari sini Anda mengatur tampilan serta perilaku pencatatan, termasuk kapan cadangan cloud dilakukan bila diinginkan.
 
 ## Skenario Umum
+
+Empat skenario memakai Meow Habits menunjukkan peran widget, pengingat, peta panas, dan penyimpanan lokal. Rutinitas pagi seperti minum air dan peregangan bisa disematkan ke widget layar utama dan dicentang dari layar kunci agar streak tidak putus; kebiasaan buruk seperti scroll berlebih dipantau lewat pengingat harian dan peta panas; tab Tren dipakai untuk meninjau tingkat penyelesaian bulanan sebelum menarik CSV; dan semua data tetap offline tanpa akun.
 
 - **Rutinitas pagi** — setelah disiapkan, sematkan 'Minum air' dan 'Peregangan' ke widget layar utama dan check-in dari layar kunci agar streak harian tak pernah putus.
 - **Hentikan kebiasaan buruk** — buat kebiasaan 'Berhenti scroll' dengan pengingat harian; peta panas kalender membuat satu kelalaian terlihat sebelum berubah jadi streak yang putus.

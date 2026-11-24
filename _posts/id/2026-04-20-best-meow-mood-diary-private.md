@@ -14,6 +14,8 @@ Jika privasi lebih penting daripada fitur cloud, Anda butuh **aplikasi buku hari
 
 ## Apa yang dibutuhkan jurnal privat
 
+Meow Mood, Day One, Daylio, Apple Journal, dan Penzu adalah lima aplikasi buku harian privat yang dibandingkan di sini untuk pengguna yang mengutamakan ke mana data pergi, bukan sekadar fitur cloud. Meow Mood menyimpan entri di perangkat tanpa unggahan dengan cadangan Google Drive pilihan sendiri; Day One dan Penzu memakai cloud terenkripsi; Daylio mengutamakan lokal; Apple Journal hanya iOS. Lima kebutuhan jurnal privat — tanpa unggahan bawaan, kunci yang benar-benar ada, jalur ekspor jelas, pemakaian offline, dan sinkronisasi opsional yang Anda kendalikan — menentukan pilihan. Pilihan bergantung pada satu hal: apakah Anda ingin data tak pernah menyentuh server atau cloud terenkripsi yang dikelola vendor.
+
 - **Tanpa unggahan bawaan** — entri hidup di perangkat Anda, bukan cloud vendor.
 - **Kunci yang benar-benar ada** — sidik jari atau kode sandi, bukan sekadar kunci ponsel.
 - **Jalur ekspor yang jelas** — PDF atau teks agar Anda tidak pernah terkunci.
@@ -22,7 +24,7 @@ Jika privasi lebih penting daripada fitur cloud, Anda butuh **aplikasi buku hari
 
 ## Apa harga sebenarnya dari "privat"
 
-**Aplikasi mood tracker privat tanpa akun** dan **aplikasi mood tracker offline** memecahkan masalah yang sama dari dua sisi: yang pertama mencegah vendor menyimpan identitas Anda, yang kedua menjaga entri tetap bisa dipakai di pesawat, di ruang bawah tanah, atau setelah server aplikasi berhenti. Meow Mood melakukan keduanya — mencatat tidak perlu mendaftar dan tidak perlu sinyal — dengan konsekuensi sinkronisasi lintas perangkat harus Anda siapkan sendiri lewat Google Drive atau WebDav milik Anda.
+Meow Mood adalah **aplikasi mood tracker privat tanpa akun** sekaligus **aplikasi mood tracker offline** yang memecahkan masalah privasi dari dua sisi: mencegah vendor menyimpan identitas Anda dan menjaga entri tetap bisa dipakai di pesawat, di ruang bawah tanah, atau setelah server aplikasi berhenti. Mencatat tidak perlu mendaftar dan tidak perlu sinyal; konsekuensinya, sinkronisasi lintas perangkat harus Anda siapkan sendiri lewat Google Drive atau WebDav milik Anda.
 
 Dua hal yang layak dicek sebelum memilih **aplikasi buku harian mood** di sini:
 
@@ -33,6 +35,8 @@ Jika Anda juga melacak rutinitas, memasangkan **pelacak mood dan kebiasaan** —
 
 ## Sekilas para kandidat
 
+Meow Mood, Day One, Daylio, Apple Journal, dan Penzu adalah lima aplikasi buku harian privat yang dirangkum menurut model privasi, kunci, ekspor, dan platform. Meow Mood menyimpan lokal tanpa unggahan dengan kunci sidik jari dan ekspor PDF di Android serta iOS; Day One memakai sinkron cloud terenkripsi; Daylio mengutamakan lokal; Apple Journal hanya di perangkat iPhone; Penzu memakai cloud terenkripsi dengan kode sandi. Hanya Meow Mood dan Daylio yang benar-benar lokal tanpa unggahan. Tabel berikut memetakan perbedaan sebelum Anda memilih aplikasi buku harian privat.
+
 | Aplikasi | Model privasi | Kunci | Ekspor | Platform | Terbaik untuk |
 |---|---|---|---|---|---|
 | **Meow Mood** | Lokal, tanpa unggahan | ✅ sidik jari | PDF | Android + iOS | Sepenuhnya di perangkat |
@@ -42,6 +46,8 @@ Jika Anda juga melacak rutinitas, memasangkan **pelacak mood dan kebiasaan** —
 | **Penzu** | Cloud terenkripsi | ✅ kode sandi | Beragam | iOS + Web | Cloud terenkripsi |
 
 ## Meow Mood, secara mendalam
+
+Meow Mood adalah aplikasi mood dan buku harian bertema kucing untuk Android dan iOS yang menjadikan privasi sebagai bawaan, bukan setelan yang harus dicari. Lima layar di bawah menampilkan editor jurnal, pemilih mood dan tag, grafik tren, kalender riwayat, serta pengaturan cadangan dan ekspor. Keunggulannya untuk privasi adalah tanpa unggahan bawaan, cadangan hanya ke Google Drive milik sendiri, kunci sidik jari atau kode sandi, pemakaian offline di mana saja, dan ekspor PDF. Catatan mood satu ketuk menjaga kebiasaan tetap tanpa hambatan. Ekspor CSV berada di balik VIP dan tidak ada sinkron multi-perangkat kaya tanpa Drive sendiri. Aplikasi ini paling cocok untuk entri yang tak pernah menyentuh server vendor.
 
 ![Editor jurnal dan catatan mood privat Meow Mood Diary](/assets/images/apps/meow-mood-diary/1.webp){: width="180" .normal }
 ![Pemilih mood dan tag pada buku harian offline Meow Mood Diary](/assets/images/apps/meow-mood-diary/2.webp){: width="180" .normal }
@@ -70,6 +76,8 @@ Meow Mood adalah **aplikasi mood dan buku harian bertema kucing** untuk Android 
 
 ## Day One, secara mendalam
 
+Day One adalah aplikasi jurnal paling banyak meraih penghargaan dengan sinkronisasi terenkripsi lintas Android, iOS, Mac, dan web, tempat entri hidup di server vendor alih-alih di perangkat Anda. Lima layar di bawah menampilkan editor jurnal, pemilih mood dan tag, grafik tren, kalender riwayat, serta cadangan dan ekspor cloud. Keunggulannya untuk privasi adalah enkripsi kuat saat transit maupun tersimpan, kunci aplikasi, dan fitur lengkap berisi foto, audio, lokasi, serta template. Keterbatasannya, cloud sejak awal berarti privasi bergantung pada kepercayaan vendor, versi gratis membatasi perangkat dan foto, dan Silver atau Gold diperlukan untuk pemakaian penuh. Ia cocok untuk jurnal rapi dengan cloud terenkripsi.
+
 ![Editor jurnal dan catatan mood Day One](/assets/images/blog/day_one_1.webp){: width="180" .normal }
 ![Pemilih mood dan tag pada aplikasi jurnal Day One](/assets/images/blog/day_one_2.webp){: width="180" .normal }
 ![Grafik statistik dan tren Day One](/assets/images/blog/day_one_3.webp){: width="180" .normal }
@@ -95,11 +103,15 @@ Day One adalah aplikasi jurnal paling banyak meraih penghargaan, dengan sinkroni
 
 ## Bagaimana yang lain dibandingkan
 
+Daylio, Apple Journal, dan Penzu adalah tiga pesaing tambahan di sini selain Meow Mood dan Day One, masing-masing menawarkan model privasi berbeda. Daylio mengutamakan penyimpanan lokal dan mencatat mood lewat ikon, pilihan privat solid untuk catatan singkat; Apple Journal menyimpan entri di iPhone dengan iCloud opsional, sangat privat tetapi hanya iOS; Penzu menawarkan cloud terenkripsi dengan kunci kode sandi. Kelima aplikasi terbagi dalam dua kelompok: lokal tanpa unggahan seperti Meow Mood dan Daylio, serta cloud terenkripsi seperti Day One dan Penzu. Pembaca yang ingin entri tak pernah meninggalkan perangkat sebaiknya memilih Meow Mood.
+
 - **Daylio** mengutamakan penyimpanan lokal dan mencatat mood lewat ikon; pilihan privat yang solid bila Anda hanya butuh catatan mood singkat.
 - **Apple Journal** menyimpan entri di perangkat iPhone dengan iCloud opsional; sangat baik untuk privasi, tetapi pengguna Android tidak terakomodasi.
 - **Penzu** menawarkan jurnal cloud terenkripsi dengan kunci kode sandi — privat, namun tetap tersimpan di server.
 
 ## Mana yang sebaiknya Anda pilih?
+
+Meow Mood adalah jawaban untuk entri yang tak pernah meninggalkan perangkat tanpa akun, dengan kunci sidik jari dan cadangan Google Drive pilihan sendiri. Day One cocok untuk sinkronisasi terenkripsi yang tidak perlu dikelola sendiri, Apple Journal untuk penyimpanan lokal khusus iPhone, dan Penzu untuk cloud terenkripsi dengan kode sandi. Kelima aplikasi tersedia di Android, iOS, atau web. Keputusan bergantung pada satu hal: apakah Anda ingin mengelola sendiri ke mana data pergi atau menyerahkannya ke cloud terenkripsi vendor.
 
 - Ingin **entri yang tak pernah meninggalkan perangkat** → **Meow Mood**.
 - Ingin **sinkronisasi terenkripsi yang tidak perlu Anda kelola** → **Day One**.
@@ -109,6 +121,8 @@ Day One adalah aplikasi jurnal paling banyak meraih penghargaan, dengan sinkroni
 [Dapatkan Meow Mood](/id/apps/meow-mood-diary/) — tersedia di Android dan iOS.
 
 ## Skenario umum
+
+Meow Mood mencakup empat skenario jurnal privat yang memanfaatkan kunci sidik jari, penyimpanan offline, ekspor PDF, dan cadangan Drive milik sendiri. Skenario pertama menjaga entri tetap milik Anda di ponsel keluarga yang bisa dipegang orang lain; kedua menulis perasaan di pesawat atau area bawah tanah tanpa sinyal; ketiga menarik seluruh entri keluar lewat ekspor PDF agar tidak terkunci pada satu vendor; keempat mengarahkan cadangan opsional hanya ke Google Drive milik sendiri. Day One lebih cocok bila Anda menginginkan sinkronisasi terenkripsi lintas perangkat yang dikelola vendor.
 
 - **Ponsel keluarga bersama** — pada perangkat yang bisa dipegang orang lain, kunci sidik jari atau kode sandi menjaga entri tetap milik Anda; tidak ada yang terunggah kecuali Anda mencadangkannya.
 - **Tanpa sinyal, tetap bisa** — catat perasaan di pesawat atau di area kereta bawah tanah yang mati sinyal; buku harian tidak butuh cloud untuk merekam momen.
