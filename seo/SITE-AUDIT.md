@@ -128,7 +128,7 @@
 | `BLD` | 构建与产物 | 4 | P0 | 完整构建 + 产物检查 | 语言数 ≥5、feed/robots、Pagefind 索引、临时目录清理 |
 | `I18N` | 多语言一致性 | 46 | P0 | 源文件对账 + 产物检查 | README 语言清单、四类文件一一对应、结构页齐备、hreflang/sitemap、XML 良构与注入块唯一、骨架与插图对等、tagline 信息量 |
 | `META` | 元数据与结构化数据 | 6 | P0 | frontmatter 解析 + JSON-LD 扫描 | 必填字段、`lang`、`description ≤160`、无裸 `&`、YAML 语法、JSON-LD 无 `&amp;` |
-| `CONTENT` | 内容质量与 SEO | 11 | P0 | 正文归一化 + 词库核对 | H2 结构、汉字空格、关键词覆盖、tags 规范、Release Note 五语覆盖与内容 |
+| `CONTENT` | 内容质量与 SEO | 15 | P0 | 正文归一化 + 词库核对 | H2 结构、汉字空格、关键词覆盖、tags 规范、Release Note 五语覆盖、首页数字点、应用页四角度摘要、应用页/文章页权威来源 |
 | `LINK` | 链接与导航 | 3 | P0 | 链接扫描 + 模板检查 | 内链语言前缀、Docs 形态入口、App→Release Note 内链 |
 | `A11Y` | 可访问性与媒体 | 4 | P0 | 图片引用解析 | `alt` 唯一、无 `![image]`、图片存在、`width` 覆盖防 CLS |
 | `DESIGN` | 设计系统与样式一致性 | 8 | P0 | CSS + 全仓源文件扫描 | 字号 6 档、字重 3 档、无硬编码、令牌齐备、分割线无硬编码色、共享 include |
@@ -207,6 +207,10 @@ D13 合规与产品表述、D16 文档台账一致性。D21 多视口实测已�
 | CONTENT-09 | RN 正文 | 含至少 1 条 `1. xxx` 发布记录 |
 | CONTENT-10 | RN 标题本地化 | 含该语「Release Notes」对应词 |
 | CONTENT-11 | 无裸 `app_store:` | 空值须写 `app_store: ""`，否则吞掉下一行破坏 hreflang |
+| CONTENT-12 | 首页数字点与中文事实 | 五语 `home_intro_p2` 均含带语境数字；中文文章/应用页至少 1 处本地化数字事实 |
+| CONTENT-13 | 应用页多角度摘要 | 55 个应用页（11 App × 5 语）均输出 4 个 `app-angles__q` 小标题 |
+| CONTENT-14 | 应用页权威来源 | 55 个应用页均输出带年份的官方/标准外链区块 |
+| CONTENT-15 | 文章页权威来源 | ≥300 篇文章且 5 语均覆盖；仅关键词命中时挂接，不编造来源 |
 
 ### 4.5 `LINK` 链接与导航
 
@@ -300,6 +304,8 @@ D13 合规与产品表述、D16 文档台账一致性。D21 多视口实测已�
 | `HYGIENE-02` `_site/seo/` 出现 | `seo/` 的 `exclude` 被误删，或旧产物残留 | 恢复两份配置的 `seo/` 排除，`rm -rf _site/seo` 后完整重构建 |
 | `I18N-15`~`I18N-18` 骨架不一致 | 某语言按本地意图重写正文、漏 / 多列表项、目录增删条目、图片挪位置 | 以 EN 同名文章为骨架补齐或合并结构块，禁止改动 EN 凑一致（§4.2 I18N） |
 | `CONTENT-07`~`CONTENT-11` Release Note 空节 / 缺语言 / 标题未本地化 | 日志缺某语言块、译文没进临时日志、`title` 后缀照抄 EN | 补全 5 语译文进日志→重跑生成器→完整构建→复跑审计（§4.4 CONTENT、`skills/release-notes/SKILL.md`） |
+| `CONTENT-12`/`CONTENT-13` 数字点或四角度 FAIL | 首页缺带语境数字、`_data/app_angles.yml` 漏 App、布局未输出四标题 | 用应用页已有的真实数字补五语 `home_intro_p2`；核对 App slug 映射并确保 11 App × 5 语均输出四标题→完整构建→复跑审计（§4.4 CONTENT） |
+| `CONTENT-14`/`CONTENT-15` 权威来源 FAIL | `_data/authoritative_sources.yml` 缺来源或年份、`_data/app_sources.yml` 漏 App、关键词未命中 | 只补已核验的官方文档/标准及明确年份；核对 App 来源映射与 `content-sources.html` 关键词；完整构建→复跑审计（§4.4 CONTENT） |
 | `BLD-04` 在快速构建下 FAIL | `SKIP_PAGEFIND=1` 未生成 Pagefind 索引（已知假阳性） | 用完整 `bash scripts/build.sh` 重构建后复跑，不要在快速构建下当回归修 |
 | `DESIGN-02`/`DESIGN-04` 硬编码字号/字重 FAIL | 新增样式直接写 `28px`/`600` 等裸值，或在独立生成器/内联样式里硬编码 | 就近换成标准 `--fs-*`/`--fw-*` 变量；多出的字重档并入 head/bold/body；新令牌需同步 §4.7 与 `:root` |
 | `DESIGN-06`/`DESIGN-07` 分割线硬编码颜色 / 令牌缺失 FAIL | 直接写 `border: 1px solid #eee`，或删掉了 `--divider-*`/`--space-*`/`--radius-*`/`--shadow-*` 令牌 | 颜色换成 `--line`/`--divider-*`，补齐缺失令牌；布局专用 px（负 margin、边框宽度）允许保留 |

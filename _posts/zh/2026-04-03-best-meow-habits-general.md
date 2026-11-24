@@ -53,7 +53,7 @@ last_modified_at: 2026-11-24
 
 ## 深入看 Meow Habits
 
-Meow Habits 是一款安卓与 iOS 的猫主题习惯追踪器，核心的追踪、连续天数与图表免费，VIP 增加 CSV 导出与额外自定义，想在"够简单"和"够好看"之间取平衡。它的长处是跨平台（Streaks 仅 iOS、Loop 仅安卓）、养成与戒除双模式、灵活周期、离线加锁与 Google Drive 或 WebDav 备份；代价是 CSV 导出放在 VIP 之后、无 RPG 或行为科学教练。适合想要免费、能跨两大移动系统又注重隐私的人。
+Meow Habits 是一款安卓与 iOS 的猫主题习惯追踪器，核心的追踪、连续天数与图表免费，VIP 增加 CSV 导出与额外自定义；它内置 500+ 可爱图标，在"够简单"和"能按习惯挑图标"之间取平衡。它的长处是跨平台（Streaks 仅 iOS、Loop 仅安卓）、养成与戒除双模式、灵活周期、离线加锁与 Google Drive 或 WebDav 备份；代价是 CSV 导出放在 VIP 之后、无 RPG 或行为科学教练。适合想要免费、能跨两大移动系统又注重隐私的人。
 
 ![免费习惯打卡 — Meow Habits 今日打卡](/assets/images/apps/meow-habits/1.webp){: width="180" .normal }
 ![Meow Habits 打卡详情与备注](/assets/images/apps/meow-habits/2.webp){: width="180" .normal }

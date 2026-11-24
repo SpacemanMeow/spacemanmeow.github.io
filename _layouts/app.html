@@ -35,6 +35,25 @@ layout: default
     <div class="app-content">
       {{ content }}
     </div>
+    {%- assign _slug = page.path | split: '/' | last | replace: '.md', '' -%}
+    {%- assign _angles = site.data.app_angles[lang][_slug] -%}
+    {%- if _angles -%}
+    {%- assign _ui = site.data.ui[lang] -%}
+    {%- assign _angle_keys = 'audience,usage,free,limits' | split: ',' -%}
+    <section class="app-angles" aria-labelledby="app-angles-title">
+      <h2 id="app-angles-title" class="faq-section__title">{{ _ui.app_angles_title }}</h2>
+      <div class="app-angles__grid">
+        {%- for _a in _angle_keys -%}
+        {%- assign _hkey = 'app_angle_' | append: _a -%}
+        {%- assign _text = _angles[_a] | default: _ui.app_angle_limits_note -%}
+        <div class="app-angles__item">
+          <h3 class="app-angles__q">{{ _ui[_hkey] }}</h3>
+          <p class="app-angles__a">{{ _text | escape }}</p>
+        </div>
+        {%- endfor -%}
+      </div>
+    </section>
+    {%- endif -%}
     {% if page.faq and page.faq.size > 0 %}
     <section class="faq-section faq-section--divided" aria-label="Frequently asked questions">
       <h2 class="faq-section__title">{{ site.data.ui[site.lang].faq_title }}</h2>

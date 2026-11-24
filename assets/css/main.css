@@ -780,6 +780,7 @@ body.no-scroll { overflow: hidden; }
 }
 .app-guides { font-family: var(--font); margin: var(--divider-solid-gap) 0 0; padding-top: var(--divider-solid-gap); border-top: var(--divider-solid); }
 .app-body .faq-section,
+.app-body .app-angles,
 .app-body .app-guides { margin-left: auto; margin-right: auto; }
 .faq-section__title {
   font-family: var(--font);
@@ -812,6 +813,12 @@ body.no-scroll { overflow: hidden; }
 .faq-list .faq-q a:hover { text-decoration: underline; }
 .faq-more { font-family: var(--font); margin: var(--space-8) 0 0; }
 .faq-more a { color: var(--accent-strong); font-size: var(--fs-md); line-height: 1.4; font-weight: var(--fw-body); text-decoration: none; }
+
+/* 应用页多角度摘要：四问四答，复用 FAQ 已有事实，不新增产品主张 */
+.app-angles { font-family: var(--font); margin: var(--divider-solid-gap) 0 0; padding-top: var(--divider-solid-gap); border-top: var(--divider-solid); }
+.app-angles__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-7); }
+.app-angles__q { font-family: var(--font); font-size: var(--fs-md); color: var(--text-head); font-weight: var(--fw-bold); margin: 0 0 var(--space-3); }
+.app-angles__a { font-family: var(--font); font-size: var(--fs-md); line-height: 1.75; color: var(--text-body); font-weight: var(--fw-body); margin: 0; }
 
 /* 首页/应用列表页正文：仅保留非 FAQ 容器样式 */
 .home-notes { font-family: var(--font); padding-top: 60px; padding-bottom: var(--space-8); }

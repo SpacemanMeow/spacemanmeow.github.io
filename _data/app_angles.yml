@@ -1,0 +1,286 @@
+# 应用页「快速了解」四角度摘要：五语独立短句，只用各 App 已有事实。
+# 每个角度都直接回答标题本身，不再把 FAQ 答案硬套到标题下。
+en:
+  one-widget:
+    audience: "Android users who want ready-made home-screen widgets across One UI, Material You, Glass iOS and Nothing styles without learning a widget editor."
+    usage: "Pick a style, drag a widget to the home screen, resize it from 1x1 to 2x6, and add clocks, calendars, battery, RAM, quick toggles or app shortcuts."
+    free: "The One UI widget set is free; Glass iOS, Material You and Nothing styles require a one-time unlock."
+    limits: "Android only, and customization stays within preset templates rather than a free-form editor."
+  meow-todo-list:
+    audience: "Android and iOS users who want tasks stored locally with a fingerprint lock instead of another cloud account."
+    usage: "Create lists and tasks, add subtasks and reminders, view daily, weekly or monthly plans, and back up through Google Drive or WebDAV."
+    free: "Core lists, tasks, reminders and calendar views are free; VIP adds unlimited lists, tags, subtasks, CSV export and app lock."
+    limits: "Backup is manual through Google Drive or WebDAV, not real-time sync across devices."
+  meow-habits:
+    audience: "People who want to build or break daily habits with cute icons, offline tracking and no account."
+    usage: "Create multiple habits with daily, weekly, monthly or custom cycles, check in each day, follow streaks and charts, set reminders and export CSV."
+    free: "Tracking, streaks and charts are free; VIP adds CSV export and extra customization."
+    limits: "CSV export sits behind VIP, and there is no RPG system or behavior-science coaching."
+  cross-hair:
+    audience: "Android FPS and action-shooter players who want a custom crosshair overlay."
+    usage: "Choose from 80+ styles and adjust size, color and position; the overlay can also generate a crosshair for weapons without one."
+    free: "Basic crosshair styles are free; advanced and premium styles require the pro purchase."
+    limits: "Android only, and support covers almost all popular FPS and action games rather than a guarantee for every title."
+  meow-money-manager:
+    audience: "Privacy-focused users who want manual expense and budget tracking without an account or bank link."
+    usage: "Add records by hand, set category budgets, follow reimbursements, export CSV and back up to your own Google Drive or WebDAV."
+    free: "Core tracking and budgeting are free; multiple ledgers and CSV export need to be unlocked."
+    limits: "No bank connection or automatic import; records stay on the device unless you back them up."
+  floating-assistant:
+    audience: "Android users who want an overlay for virtual home, back, recent and volume buttons, especially when physical buttons are inconvenient."
+    usage: "Use the floating ball for navigation, volume, boost, screen lock, screenshot, flashlight, quick apps, a floating clock and a live CPU/RAM monitor."
+    free: "Check the store page for the current price and any in-app purchases."
+    limits: "It uses Accessibility services only for the listed controls and does not collect personal or sensitive data."
+  meow-fm:
+    audience: "People who want white noise for sleep, relaxation, study or office focus."
+    usage: "Pick rain, thunderstorm, forest, seaside or fireplace sounds, set a sleep timer and keep the desktop clock visible."
+    free: "A selection of sounds is free; some premium sounds require a purchase."
+    limits: "Premium sounds are locked until purchased; the app focuses on ambient audio rather than a full music library."
+  cpu-monitor:
+    audience: "Android users who want live CPU, RAM and battery readings, especially while gaming or running heavy apps."
+    usage: "Watch CPU temperature, frequency and multicore usage, review history curves, use floating and widget views, and set an overheat alarm."
+    free: "Check the store page for the current price and any in-app purchases."
+    limits: "It monitors and alerts only; closing heavy apps is the way to cool the phone down."
+  only-clock:
+    audience: "People who want a full-screen flip clock for a bedside table, desk or spare phone and iPad."
+    usage: "Run the flip clock full screen, add clock widgets, turn on white noise for focus, and switch between 12 or 24 hour and date display."
+    free: "Check the store page for the current price and any in-app purchases."
+    limits: "Runs on Android and iOS; it needs a device left running as the clock display."
+  meow-mood-diary:
+    audience: "Privacy-focused users who want quick mood logging without writing long entries."
+    usage: "Tap an emotion icon for one-tap logging, add detailed notes and gratitude entries when you want, review history and stats, and set daily reminders."
+    free: "Check the store page for the current price and any in-app purchases."
+    limits: "Entries are never uploaded to our servers; backups go only to your own Google Drive."
+  system-monitor:
+    audience: "Android users who want read-only hardware facts instead of junk-cleaning or RAM-boosting gimmicks."
+    usage: "Check CPU temperature and frequency, storage and memory use, battery health, voltage and curves, battery saver modes and overheat alerts."
+    free: "System Monitor is a paid Android tool; check the store page for the current price."
+    limits: "It does not clean junk or free or boost RAM; it only shows device facts."
+
+zh:
+  one-widget:
+    audience: "适合想在安卓上直接用现成组件、又不想学 KWGT 式编辑器的用户，覆盖 One UI、Material You、iOS Glass 与 Nothing 四种风格。"
+    usage: "选一套风格，把组件拖到桌面，尺寸可从 1x1 调到 2x6，并添加时钟、日历、电量、内存、快捷开关或应用快捷方式。"
+    free: "One UI 组件免费；Glass iOS、Material You 与 Nothing 风格需要一次性解锁。"
+    limits: "仅支持安卓，自定义范围在预设模板内，不能像 KWGT 那样自由编排布局。"
+  meow-todo-list:
+    audience: "适合希望任务留在手机本地、用指纹锁保护，而不是再建一个云账号的安卓和 iOS 用户。"
+    usage: "建立清单与任务，添加子任务、提醒和日历视图，并通过 Google Drive 或 WebDav 手动备份。"
+    free: "清单、任务、提醒与日历视图免费；VIP 增加无限清单、标签、子任务、CSV 导出与应用锁。"
+    limits: "备份需要手动走 Google Drive 或 WebDav，不是跨设备实时同步。"
+  meow-habits:
+    audience: "适合想养成或戒掉日常习惯、看重可爱图标与离线隐私，且不想注册账号的人。"
+    usage: "创建多个习惯，设置每天、每周、每月或自定义周期，打卡后查看连续天数与图表，还能设提醒和导出 CSV。"
+    free: "追踪、连续天数与图表免费；VIP 增加 CSV 导出和更多自定义。"
+    limits: "CSV 导出放在 VIP 之后，也没有 RPG 玩法或行为科学教练。"
+  cross-hair:
+    audience: "适合想在安卓 FPS 与动作射击游戏里使用自定义准星的玩家。"
+    usage: "从 80+ 种样式里挑选，调整大小、颜色和位置；没有自带准星的武器也能生成准星。"
+    free: "基础准星样式免费；高级和付费样式需要购买专业版。"
+    limits: "仅支持安卓，覆盖几乎所有热门 FPS 与动作射击游戏，但不保证每一款都适配。"
+  meow-money-manager:
+    audience: "适合重视隐私、想手动记账和做预算，但不愿注册账号或绑定银行的用户。"
+    usage: "手动添加账目，设置分类预算，跟踪报销，导出 CSV，并备份到自己的 Google Drive 或 WebDav。"
+    free: "核心记账与预算免费；多账本和 CSV 导出需要解锁。"
+    limits: "不连接银行、不支持自动导入；记录默认留在设备上，除非你手动备份。"
+  floating-assistant:
+    audience: "适合需要悬浮虚拟 Home、返回、最近任务和音量键的安卓用户，尤其适合实体按键不便时。"
+    usage: "用悬浮球导航、调音量、一键加速、锁屏、截图、开手电筒、快速打开应用，还能看悬浮时钟和实时 CPU/RAM。"
+    free: "价格与内购项目以应用商店页面为准。"
+    limits: "仅为列出的控制使用无障碍服务，不收集个人或敏感数据。"
+  meow-fm:
+    audience: "适合想用白噪音帮助睡眠、放松、学习或办公室专注的人。"
+    usage: "选择雨声、雷雨、森林、海边或壁炉声，设置睡眠定时，并保留桌面时钟。"
+    free: "部分白噪音免费；部分高级音效需要购买。"
+    limits: "高级音效需购买后才能使用；它专注环境音，不是完整音乐库。"
+  cpu-monitor:
+    audience: "适合想实时查看 CPU、内存与电池状态的安卓用户，尤其适合游戏或重载场景。"
+    usage: "查看 CPU 温度、频率与多核占用，分析历史曲线，使用悬浮窗和小组件，并设置过热警报。"
+    free: "价格与内购项目以应用商店页面为准。"
+    limits: "只负责监测和提醒；要降温仍需关闭占资源的应用。"
+  only-clock:
+    audience: "适合想把闲置手机或 iPad 当床头钟、桌面钟，或需要专注计时器的用户。"
+    usage: "全屏翻页时钟、时钟小组件、白噪音专注，支持 12/24 小时与日期显示。"
+    free: "价格与内购项目以应用商店页面为准。"
+    limits: "支持安卓与 iOS；需要让一台设备持续亮屏作为时钟。"
+  meow-mood-diary:
+    audience: "适合想快速记录心情、又不想写长日记且重视隐私的用户。"
+    usage: "点选表情一键记录心情，需要时再补详细日记与感恩记录，查看历史统计，并设置每日提醒。"
+    free: "价格与内购项目以应用商店页面为准。"
+    limits: "日记不会上传到我们的服务器；备份只写入你自己的 Google Drive。"
+  system-monitor:
+    audience: "适合想看只读硬件信息，而不是清理垃圾或“加速内存”噱头的安卓用户。"
+    usage: "查看 CPU 温度与频率、存储与内存占用、电池健康与电压曲线、省电模式和过热提醒。"
+    free: "System Monitor 是付费安卓工具；当前价格以商店页为准。"
+    limits: "不清理垃圾，也不释放或加速内存；只展示设备真实状态。"
+
+id:
+  one-widget:
+    audience: "Untuk pengguna Android yang ingin widget siap pakai dalam gaya One UI, Material You, Glass iOS dan Nothing tanpa harus mempelajari editor widget."
+    usage: "Pilih gaya, tarik widget ke layar utama, ubah ukuran dari 1x1 sampai 2x6, lalu tambahkan jam, kalender, baterai, RAM, toggle cepat atau pintasan aplikasi."
+    free: "Kumpulan widget One UI gratis; gaya Glass iOS, Material You dan Nothing perlu dibuka sekali bayar."
+    limits: "Hanya Android, dan penyesuaian tetap dalam templat bawaan, bukan editor bebas seperti KWGT."
+  meow-todo-list:
+    audience: "Untuk pengguna Android dan iOS yang ingin tugas tersimpan di perangkat dengan kunci sidik jari, bukan akun cloud lagi."
+    usage: "Buat daftar dan tugas, tambahkan sub-tugas dan pengingat, lihat rencana harian, mingguan atau bulanan, lalu cadangkan lewat Google Drive atau WebDAV."
+    free: "Daftar, tugas, pengingat dan tampilan kalender gratis; VIP menambah daftar tanpa batas, label, sub-tugas, ekspor CSV dan kunci aplikasi."
+    limits: "Cadangan dilakukan manual lewat Google Drive atau WebDAV, bukan sinkronisasi real-time antarperangkat."
+  meow-habits:
+    audience: "Untuk orang yang ingin membangun atau berhenti dari kebiasaan harian dengan ikon lucu, pelacakan offline dan tanpa akun."
+    usage: "Buat beberapa kebiasaan dengan siklus harian, mingguan, bulanan atau kustom, centang setiap hari, lihat streak dan grafik, atur pengingat serta ekspor CSV."
+    free: "Pelacakan, streak dan grafik gratis; VIP menambah ekspor CSV dan penyesuaian ekstra."
+    limits: "Ekspor CSV ada di balik VIP, dan tidak ada sistem RPG atau pelatihan ilmu perilaku."
+  cross-hair:
+    audience: "Untuk pemain FPS dan game tembak-menembak di Android yang ingin overlay crosshair kustom."
+    usage: "Pilih dari 80+ gaya dan atur ukuran, warna serta posisi; overlay juga bisa membuat crosshair untuk senjata yang tidak memilikinya."
+    free: "Gaya dasar gratis; gaya lanjutan dan premium memerlukan pembelian versi pro."
+    limits: "Hanya Android, dan mendukung hampir semua game FPS serta action populer, bukan jaminan semua judul."
+  meow-money-manager:
+    audience: "Untuk pengguna yang menjaga privasi dan ingin mencatat pengeluaran serta anggaran secara manual tanpa akun atau tautan bank."
+    usage: "Tambah catatan manual, atur anggaran kategori, lacak penggantian, ekspor CSV dan cadangkan ke Google Drive atau WebDAV sendiri."
+    free: "Pencatatan dan anggaran inti gratis; beberapa buku besar dan ekspor CSV perlu dibuka."
+    limits: "Tidak terhubung ke bank dan tidak ada impor otomatis; catatan tetap di perangkat kecuali Anda mencadangkannya."
+  floating-assistant:
+    audience: "Untuk pengguna Android yang ingin tombol virtual Home, Back, Recent dan Volume dalam overlay, terutama saat tombol fisik tidak nyaman."
+    usage: "Gunakan bola mengambang untuk navigasi, volume, boost, kunci layar, tangkapan layar, senter, aplikasi cepat, jam mengambang dan monitor CPU/RAM langsung."
+    free: "Harga saat ini dan pembelian dalam aplikasi tercantum di halaman toko."
+    limits: "Layanan Accessibility hanya dipakai untuk kontrol yang tercantum dan tidak mengumpulkan data pribadi atau sensitif."
+  meow-fm:
+    audience: "Untuk orang yang ingin white noise saat tidur, rileks, belajar atau fokus di kantor."
+    usage: "Pilih suara hujan, badai, hutan, pantai atau perapian, atur timer tidur dan biarkan jam desktop tetap terlihat."
+    free: "Sebagian suara gratis; sebagian suara premium perlu dibeli."
+    limits: "Suara premium terkunci sampai dibeli; aplikasi ini fokus pada audio ambien, bukan pustaka musik lengkap."
+  cpu-monitor:
+    audience: "Untuk pengguna Android yang ingin bacaan CPU, RAM dan baterai langsung, terutama saat bermain game atau menjalankan aplikasi berat."
+    usage: "Lihat suhu dan frekuensi CPU serta penggunaan multicore, analisis grafik riwayat, pakai jendela mengambang dan widget, lalu atur alarm panas berlebih."
+    free: "Harga saat ini dan pembelian dalam aplikasi tercantum di halaman toko."
+    limits: "Aplikasi hanya memantau dan memberi peringatan; untuk menurunkan suhu, tutup aplikasi yang berat."
+  only-clock:
+    audience: "Untuk orang yang ingin jam flip layar penuh di meja samping tempat tidur, meja kerja, atau ponsel dan iPad bekas."
+    usage: "Jalankan jam flip layar penuh, tambahkan widget jam, aktifkan white noise untuk fokus, dan pilih format 12/24 jam serta tanggal."
+    free: "Harga saat ini dan pembelian dalam aplikasi tercantum di halaman toko."
+    limits: "Berjalan di Android dan iOS; perangkat harus dibiarkan menyala sebagai layar jam."
+  meow-mood-diary:
+    audience: "Untuk pengguna yang menjaga privasi dan ingin mencatat suasana hati dengan cepat tanpa menulis panjang."
+    usage: "Ketuk ikon emosi untuk pencatatan sekali sentuh, tambahkan catatan detail dan rasa syukur bila perlu, lihat riwayat serta statistik, dan atur pengingat harian."
+    free: "Harga saat ini dan pembelian dalam aplikasi tercantum di halaman toko."
+    limits: "Entri tidak pernah diunggah ke server kami; cadangan hanya masuk ke Google Drive Anda sendiri."
+  system-monitor:
+    audience: "Untuk pengguna Android yang ingin fakta perangkat keras bersifat read-only, bukan trik membersihkan sampah atau menaikkan RAM."
+    usage: "Periksa suhu dan frekuensi CPU, penggunaan penyimpanan serta memori, kesehatan dan tegangan baterai, mode hemat daya serta peringatan panas berlebih."
+    free: "System Monitor adalah alat Android berbayar; harga saat ini tercantum di halaman toko."
+    limits: "Tidak membersihkan sampah serta tidak membebaskan atau menaikkan RAM; hanya menampilkan kondisi perangkat yang sebenarnya."
+
+ms:
+  one-widget:
+    audience: "Untuk pengguna Android yang mahu widget sedia ada dalam gaya One UI, Material You, Glass iOS dan Nothing tanpa perlu belajar editor widget."
+    usage: "Pilih gaya, seret widget ke skrin utama, ubah saiz dari 1x1 hingga 2x6, kemudian tambah jam, kalendar, bateri, RAM, togol pantas atau pintasan aplikasi."
+    free: "Set widget One UI percuma; gaya Glass iOS, Material You dan Nothing memerlukan buka kunci sekali bayar."
+    limits: "Android sahaja, dan penyesuaian kekal dalam templat pratetap, bukan editor bebas seperti KWGT."
+  meow-todo-list:
+    audience: "Untuk pengguna Android dan iOS yang mahu tugas disimpan secara tempatan dengan kunci cap jari, bukan lagi akaun cloud."
+    usage: "Buat senarai dan tugas, tambah sub-tugas dan peringatan, lihat pelan harian, mingguan atau bulanan, kemudian sandarkan melalui Google Drive atau WebDAV."
+    free: "Senarai, tugas, peringatan dan paparan kalendar percuma; VIP menambah senarai tanpa had, label, sub-tugas, eksport CSV dan kunci aplikasi."
+    limits: "Sandaran dibuat secara manual melalui Google Drive atau WebDAV, bukan penyegerakan masa nyata antara peranti."
+  meow-habits:
+    audience: "Untuk orang yang mahu membina atau berhenti daripada tabiat harian dengan ikon comel, penjejakan luar talian dan tanpa akaun."
+    usage: "Buat beberapa tabiat dengan kitaran harian, mingguan, bulanan atau tersuai, tandakan setiap hari, lihat streak dan carta, tetapkan peringatan serta eksport CSV."
+    free: "Penjejakan, streak dan carta percuma; VIP menambah eksport CSV dan penyesuaian tambahan."
+    limits: "Eksport CSV ada di belakang VIP, dan tiada sistem RPG atau latihan sains tingkah laku."
+  cross-hair:
+    audience: "Untuk pemain FPS dan permainan tembak-menembak di Android yang mahu overlay crosshair tersuai."
+    usage: "Pilih daripada 80+ gaya dan laras saiz, warna serta kedudukan; overlay juga boleh menjana crosshair untuk senjata yang tidak memilikinya."
+    free: "Gaya asas percuma; gaya lanjutan dan premium memerlukan pembelian versi pro."
+    limits: "Android sahaja, dan menyokong hampir semua permainan FPS serta aksi popular, bukan jaminan semua tajuk."
+  meow-money-manager:
+    audience: "Untuk pengguna yang menjaga privasi dan mahu mencatat perbelanjaan serta belanjawan secara manual tanpa akaun atau pautan bank."
+    usage: "Tambah catatan manual, tetapkan belanjawan kategori, jejak bayar balik, eksport CSV dan sandarkan ke Google Drive atau WebDAV sendiri."
+    free: "Perbelanjaan dan belanjawan teras percuma; beberapa buku besar dan eksport CSV perlu dibuka kunci."
+    limits: "Tidak disambung ke bank dan tiada import automatik; catatan kekal pada peranti kecuali anda menyandrannya."
+  floating-assistant:
+    audience: "Untuk pengguna Android yang mahu butang maya Home, Back, Recent dan Volume dalam overlay, terutamanya apabila butang fizikal tidak selesa."
+    usage: "Guna bola terapung untuk navigasi, kelantangan, boost, kunci skrin, tangkapan skrin, lampu suluh, aplikasi pantas, jam terapung dan monitor CPU/RAM secara langsung."
+    free: "Harga semasa dan pembelian dalam aplikasi disenaraikan di halaman kedai."
+    limits: "Perkhidmatan Accessibility hanya digunakan untuk kawalan yang disenaraikan dan tidak mengumpul data peribadi atau sensitif."
+  meow-fm:
+    audience: "Untuk orang yang mahu white noise ketika tidur, berehat, belajar atau fokus di pejabat."
+    usage: "Pilih bunyi hujan, ribut, hutan, pantai atau perapian, tetapkan pemasa tidur dan biarkan jam desktop kekal kelihatan."
+    free: "Sebahagian bunyi percuma; sebahagian bunyi premium perlu dibeli."
+    limits: "Bunyi premium kekal dikunci sehingga dibeli; aplikasi ini fokus pada audio ambien, bukan pustaka muzik penuh."
+  cpu-monitor:
+    audience: "Untuk pengguna Android yang mahu bacaan CPU, RAM dan bateri secara langsung, terutamanya semasa bermain game atau menjalankan aplikasi berat."
+    usage: "Lihat suhu dan frekuensi CPU serta penggunaan multicore, analisis grafik sejarah, guna tetingkap terapung dan widget, kemudian tetapkan penggera terlalu panas."
+    free: "Harga semasa dan pembelian dalam aplikasi disenaraikan di halaman kedai."
+    limits: "Aplikasi hanya memantau dan memberi amaran; untuk menurunkan suhu, tutup aplikasi yang berat."
+  only-clock:
+    audience: "Untuk orang yang mahu jam flip skrin penuh di meja samping katil, meja kerja, atau telefon dan iPad terpakai."
+    usage: "Jalankan jam flip skrin penuh, tambah widget jam, aktifkan white noise untuk fokus, dan pilih format 12/24 jam serta tarikh."
+    free: "Harga semasa dan pembelian dalam aplikasi disenaraikan di halaman kedai."
+    limits: "Berjalan di Android dan iOS; peranti perlu dibiarkan menyala sebagai paparan jam."
+  meow-mood-diary:
+    audience: "Untuk pengguna yang menjaga privasi dan mahu mencatat mood dengan cepat tanpa menulis panjang."
+    usage: "Ketuk ikon emosi untuk rakaman satu sentuhan, tambah nota terperinci dan rasa syukur bila perlu, lihat sejarah serta statistik, dan tetapkan peringatan harian."
+    free: "Harga semasa dan pembelian dalam aplikasi disenaraikan di halaman kedai."
+    limits: "Entri tidak pernah dimuat naik ke pelayan kami; sandaran hanya ke Google Drive anda sendiri."
+  system-monitor:
+    audience: "Untuk pengguna Android yang mahu fakta perkakasan bersifat baca sahaja, bukan helah membersihkan sampah atau menaikkan RAM."
+    usage: "Semak suhu dan frekuensi CPU, penggunaan storan serta memori, kesihatan dan voltan bateri, mod penjimatan kuasa serta amaran terlalu panas."
+    free: "System Monitor ialah alat Android berbayar; harga semasa disenaraikan di halaman kedai."
+    limits: "Tidak membersihkan sampah serta tidak membebaskan atau menaikkan RAM; hanya memaparkan keadaan peranti sebenar."
+
+th:
+  one-widget:
+    audience: "สำหรับผู้ใช้ Android ที่ต้องการวิดเจ็ตสำเร็จรูปในสไตล์ One UI, Material You, Glass iOS และ Nothing โดยไม่ต้องเรียนรู้ตัวแก้ไขวิดเจ็ต"
+    usage: "เลือกสไตล์ ลากวิดเจ็ตไปหน้าจอหลัก ปรับขนาดจาก 1x1 ถึง 2x6 แล้วเพิ่มนาฬิกา ปฏิทิน แบตเตอรี่ RAM ปุ่มลัด หรือทางลัดแอป"
+    free: "ชุดวิดเจ็ต One UI ใช้ฟรี ส่วนสไตล์ Glass iOS, Material You และ Nothing ต้องปลดล็อกแบบจ่ายครั้งเดียว"
+    limits: "ใช้ได้เฉพาะ Android และปรับแต่งได้ภายในแม่แบบที่กำหนด ไม่ใช่ตัวแก้ไขอิสระแบบ KWGT"
+  meow-todo-list:
+    audience: "สำหรับผู้ใช้ Android และ iOS ที่ต้องการเก็บงานไว้ในเครื่องด้วยล็อกนิ้วมือ ไม่ใช่บัญชีคลาวด์อีกบัญชี"
+    usage: "สร้างรายการและงาน เพิ่มงานย่อยและการแจ้งเตือน ดูแผนรายวัน รายสัปดาห์ หรือรายเดือน แล้วสำรองผ่าน Google Drive หรือ WebDAV"
+    free: "รายการ งาน การแจ้งเตือน และมุมมองปฏิทินใช้ฟรี VIP เพิ่มรายการไม่จำกัด ป้ายกำกับ งานย่อย ส่งออก CSV และล็อกแอป"
+    limits: "การสำรองทำด้วยตนเองผ่าน Google Drive หรือ WebDAV ไม่ใช่การซิงก์แบบเรียลไทม์ข้ามอุปกรณ์"
+  meow-habits:
+    audience: "สำหรับผู้ที่ต้องการสร้างหรือเลิกนิสัยประจำวันด้วยไอคอนน่ารัก ติดตามแบบออฟไลน์ และไม่ต้องมีบัญชี"
+    usage: "สร้างนิสัยหลายรายการด้วยรอบรายวัน รายสัปดาห์ รายเดือน หรือกำหนดเอง เช็คอินทุกวัน ดู streak และกราฟ ตั้งการแจ้งเตือน และส่งออก CSV"
+    free: "การติดตาม streak และกราฟใช้ฟรี VIP เพิ่มการส่งออก CSV และการปรับแต่งเพิ่มเติม"
+    limits: "การส่งออก CSV อยู่หลัง VIP และไม่มีระบบ RPG หรือการฝึกด้านพฤติกรรม"
+  cross-hair:
+    audience: "สำหรับผู้เล่น FPS และเกมยิงปืนบน Android ที่ต้องการ crosshair แบบกำหนดเอง"
+    usage: "เลือกจากมากกว่า 80 สไตล์ ปรับขนาด สี และตำแหน่ง ออกแบบให้สร้าง crosshair แม้อาวุธที่ไม่มี crosshair มาให้ก็ตาม"
+    free: "สไตล์พื้นฐานใช้ฟรี สไตล์ขั้นสูงและพรีเมียมต้องซื้อเวอร์ชันโปร"
+    limits: "ใช้ได้เฉพาะ Android และครอบคลุมเกม FPS และแอ็กชันยอดนิยมเกือบทั้งหมด ไม่รับประกันทุกเกม"
+  meow-money-manager:
+    audience: "สำหรับผู้ที่ให้ความสำคัญกับความเป็นส่วนตัวและต้องการจดรายจ่ายและงบประมาณด้วยตนเอง โดยไม่ต้องมีบัญชีหรือผูกธนาคาร"
+    usage: "เพิ่มรายการด้วยตนเอง ตั้งงบประมาณตามหมวดหมู่ ติดตามการคืนเงิน ส่งออก CSV และสำรองไปยัง Google Drive หรือ WebDAV ของคุณเอง"
+    free: "การจดรายจ่ายและงบประมาณหลักใช้ฟรี สมุดเล่มหลายเล่มและการส่งออก CSV ต้องปลดล็อก"
+    limits: "ไม่เชื่อมธนาคารและไม่นำเข้าอัตโนมัติ ข้อมูลอยู่ในเครื่องจนกว่าคุณจะสำรอง"
+  floating-assistant:
+    audience: "สำหรับผู้ใช้ Android ที่ต้องการปุ่มเสมือน Home, Back, Recent และ Volume แบบลอยหน้าจอ โดยเฉพาะเมื่อปุ่มจริงไม่สะดวก"
+    usage: "ใช้ลูกบอลลอยสำหรับนำทาง ปรับเสียง เร่งความเร็ว ล็อกหน้าจอ ภาพหน้าจอ ไฟฉาย เปิดแอปเร็ว นาฬิกาลอย และ monitoring CPU/RAM แบบเรียลไทม์"
+    free: "ราคาปัจจุบันและการซื้อในแอปแสดงอยู่ในหน้าสโตร์"
+    limits: "ใช้บริการ Accessibility เฉพาะการควบคุมที่ระบุ และไม่เก็บข้อมูลส่วนตัวหรือข้อมูลละเอียดอ่อน"
+  meow-fm:
+    audience: "สำหรับผู้ที่ต้องการเสียง white noise ช่วยนอนหลับ ผ่อนคลาย เรียน หรือโฟกัสในออฟฟิศ"
+    usage: "เลือกเสียงฝน ฟ้าผ่า ป่า ทะเล หรือเตาผิง ตั้งเวลาหยุดอัตโนมัติ และเปิดนาฬิกาบนเดสก์ท็อปไว้"
+    free: "เสียงบางส่วนใช้ฟรี เสียงพรีเมียมบางส่วนต้องซื้อ"
+    limits: "เสียงพรีเมียมยังล็อกอยู่จนกว่าจะซื้อ แอปนี้เน้นเสียงบรรยากาศ ไม่ใช่คลังเพลงเต็มรูปแบบ"
+  cpu-monitor:
+    audience: "สำหรับผู้ใช้ Android ที่ต้องการค่า CPU, RAM และแบตเตอรี่แบบเรียลไทม์ โดยเฉพาะตอนเล่นเกมหรือใช้แอปหนัก"
+    usage: "ดูอุณหภูมิ ความถี่ CPU และการใช้ multicore วิเคราะห์กราฟย้อนหลัง ใช้หน้าต่างลอยและวิดเจ็ต แล้วตั้งการแจ้งเตือนความร้อนเกิน"
+    free: "ราคาปัจจุบันและการซื้อในแอปแสดงอยู่ในหน้าสโตร์"
+    limits: "แอปทำหน้าที่ตรวจสอบและแจ้งเตือนเท่านั้น การลดอุณหภูมิต้องปิดแอปที่ใช้ทรัพยากรสูง"
+  only-clock:
+    audience: "สำหรับผู้ที่ต้องการนาฬิกาพลิกแบบเต็มจอไว้ข้างเตียง บนโต๊ะ หรือใช้มือถือและ iPad ที่ไม่ได้ใช้แล้ว"
+    usage: "เปิดนาฬิกาพลิกเต็มจอ เพิ่มวิดเจ็ตนาฬิกา เปิด white noise เพื่อโฟกัส และสลับระหว่าง 12/24 ชั่วโมงกับวันที่"
+    free: "ราคาปัจจุบันและการซื้อในแอปแสดงอยู่ในหน้าสโตร์"
+    limits: "ใช้ได้ทั้ง Android และ iOS ต้องปล่อยอุปกรณ์ให้ทำงานต่อเนื่องเพื่อใช้เป็นจอแสดงนาฬิกา"
+  meow-mood-diary:
+    audience: "สำหรับผู้ที่ให้ความสำคัญกับความเป็นส่วนตัวและต้องการจดอารมณ์อย่างรวดเร็วโดยไม่ต้องเขียนยาว"
+    usage: "แตะไอคอนอารมณ์เพื่อบันทึกครั้งเดียว เพิ่มบันทึกรายละเอียดและความกตัญญูเมื่อต้องการ ดูประวัติและสถิติ แล้วตั้งการแจ้งเตือนรายวัน"
+    free: "ราคาปัจจุบันและการซื้อในแอปแสดงอยู่ในหน้าสโตร์"
+    limits: "บันทึกไม่ถูกอัปโหลดไปยังเซิร์ฟเวอร์ของเรา และสำรองไปยัง Google Drive ของคุณเองเท่านั้น"
+  system-monitor:
+    audience: "สำหรับผู้ใช้ Android ที่ต้องการข้อมูลฮาร์ดแวร์แบบอ่านอย่างเดียว ไม่ใช่กลวิธีล้างขยะหรือเร่ง RAM"
+    usage: "ตรวจอุณหภูมิและความถี่ CPU การใช้พื้นที่เก็บข้อมูลและหน่วยความจำ สุขภาพและแรงดันแบตเตอรี่ โหมดประหยัดพลังงาน และการแจ้งเตือนความร้อนเกิน"
+    free: "System Monitor เป็นเครื่องมือ Android แบบเสียเงิน ราคาปัจจุบันแสดงอยู่ในหน้าสโตร์"
+    limits: "ไม่ล้างขยะ และไม่ปลดปล่อยหรือเร่ง RAM แสดงเฉพาะสภาพอุปกรณ์ที่เป็นจริง"

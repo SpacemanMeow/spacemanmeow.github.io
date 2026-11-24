@@ -435,6 +435,25 @@ def check_content(a):
     a.chk('CONTENT', 'CONTENT-10', 'Release Note 标题含本地化后缀', not rtitle, f'异常 {len(rtitle)} {rtitle[:2]}')
     a.chk('CONTENT', 'CONTENT-11', 'Release Note 无裸 app_store 空值行', not rstore, f'异常 {len(rstore)} {rstore[:2]}')
 
+    ui = open('_data/ui.yml', encoding='utf-8').read()
+    home_nums = re.findall(r'^  home_intro_p2:\s*"([^"]+)"', ui, re.M)
+    num_home = [v for v in home_nums if re.search(r'\d+\+', v)]
+    zh_num = sum(1 for f in fs('_posts/zh/*.md') + fs('_apps_zh/*.md')
+                 if re.search(r'\d+\+', TXT[f]))
+    a.chk('CONTENT', 'CONTENT-12', '首页带语境数字点 > 0 且中文页有本地化事实',
+          len(num_home) >= len(LANGS) and zh_num > 0,
+          f'首页 {len(num_home)}/{len(LANGS)}；中文文章/应用页 {zh_num} 页含数字点')
+
+    if HAS_SITE:
+        app_pages = fs('_site/**/apps/*/index.html')
+        bad_angles = [h for h in app_pages
+                      if open(h, encoding='utf-8').read().count('class="app-angles__q"') < 4]
+        a.chk('CONTENT', 'CONTENT-13', '应用页多角度摘要覆盖四类问题',
+              len(app_pages) == 55 and not bad_angles,
+              f'{len(app_pages)} 页，异常 {len(bad_angles)} {bad_angles[:2]}')
+    else:
+        a.warn('CONTENT', 'CONTENT-13', '应用页多角度摘要', '产物未构建，跳过')
+
 
 # ---------------------------------------------------------------------------
 # LINK 链接与导航

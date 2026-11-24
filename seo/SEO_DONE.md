@@ -2,7 +2,7 @@
 
 > **用途**：归档所有已完成 / 已落地的 SEO 优化项、已并入硬门禁的措施与历月完成记录。**只供查阅，不用于排期**。
 > **待做事项见**：`SEO-PROGRESS.md` §2（唯一排期依据）。
-> **最后更新**：2026-11-22
+> **最后更新**：2026-11-24
 > **语言范围**：5 语并行（EN 根 + `/zh/` `/id/` `/ms/` `/th/`）。所有已落地项默认全语言同步。
 > 状态图例：✅ 已落地　♻️ 持续运营中　⏸️ 暂缓
 
@@ -70,7 +70,8 @@
 - G05d（发布说明 FAQ：`ui.yml` 五语各加 4 个 `release_faq_*` 键；`_layouts/release-note.html` 输出 2 条可见 FAQ + FAQPage schema。发布说明页实测 2 可见 / 2 schema）
 - G05e（应用页 FAQ 一致性核对：五语 55/55 应用页均有非空 FAQPage schema，符合 G05 分类口径，无需新增）
 - G03（首页补正文：`ui.yml` 五语各加 7 个 `home_intro_*` 键（结论式导语 + 3 条要点 + 结尾指引）；`_layouts/app-list.html` 在应用列表前加语义化 `.home-intro` 区块；`_includes/app-card.html` 展示 front matter 已有的 `app.description` 真实功能细节（不编造）；`main.css` 新增样式全走设计令牌。本地实测 `main` 文本字符：EN 5348 / ID 5381 / MS 5431 / TH 4700 / ZH 2714（中文字符密度高，语义量对等），均较基线 1300 大幅提升；不做 SSR）
-- G07（首页部分已完成：`home_intro` 区块含结论式导语 + 3 条要点 + 结尾指引，疑问链覆盖「为什么用/无需账号/免费」等；应用页逐 App 四小标题部分仍待做，保留在 §2.G）
+- G06（补数据/事实支撑：五语首页 `home_intro_p2` 改用具名 App 的真实数字——One Widget 500+ 小组件、Meow Habits 500+ 图标、Meow Money Manager 400+ 图标；中文文章补 500+ / 400+ 图标事实。仅使用应用页已有数字，未引入 `over a decade` 等未经核对说法；G11 五语 subtitle 继续保留原始 slogan。验收：CONTENT-12 PASS，首页 5/5 含数字点、中文文章/应用页 35 页含本地化数字。）
+- G07（摘要 + 多角度：**全部完成**。首页要点此前随 G03 完成；`_layouts/app.html` 新增 `.app-angles` 区块，11 App × 5 语共 55 页均输出「适合谁 / 怎么用 / 是否免费 / 有什么限制」四个小标题。`_data/app_angles.yml` 按五语独立维护 220 条**逐条直接回答标题**的短句，只用应用页已有事实；曾尝试按 FAQ 索引复用答案，但标题与答案对不上，已全部改为独立文案。验收：CONTENT-13 PASS，55/55 页四标题齐全；五语实测标题与答案语义匹配。）
 - G11（**未落地，已回退**：曾把五语 `_pages/index.md` subtitle 改为结论首句，但用户 2026-11-23 明确要求保留原始 slogan，已从 HEAD 完整恢复五个文件、`subtitle` 与 HEAD 一致。GEO 的结论前置改由应用列表下方的要点区承担，不动 slogan。任务从 `SEO_DONE.md` 移除并恢复到 `SEO-PROGRESS.md` §2.G 待做）
 - G13（降 Download 关键词密度：**仅中文保留差异化按钮文案** `Android 下载`/`iOS 下载`；EN/ID/MS/TH 按用户 2026-11-23 要求删除新增的 `download_android`/`download_ios` 翻译键，商店按钮由 `_includes/store-buttons.html` 回落到各自 `download` 文案，不瞎增加翻译）
 
