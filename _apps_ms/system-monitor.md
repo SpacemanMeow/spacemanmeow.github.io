@@ -65,7 +65,7 @@ System Monitor membunyikan penggera saat suhu CPU atau bateri terlalu panas. Pen
 
 **Tetingkap terapung**
 
-Tetingkap terapung memaparkan suhu CPU, suhu bateri, dan penggunaan RAM secara masa nyata, baik di bar status maupun di skrin utama.
+Tetingkap terapung pada skrin utama memaparkan suhu CPU, suhu GPU, tahap dan suhu bateri, penggunaan RAM, serta bacaan lapan sensor (pecutan, giroskop, medan magnet, graviti, pecutan linear, vektor putaran, cahaya, tekanan). Tiada paparan pada bar status; semua tetingkap boleh digerak dan diubah saiznya.
 
 **Widget**
 

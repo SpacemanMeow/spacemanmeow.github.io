@@ -65,7 +65,7 @@ System Monitor membunyikan alarm saat suhu CPU atau baterai terlalu panas. Alarm
 
 **Jendela mengambang**
 
-Jendela mengambang menampilkan suhu CPU, suhu baterai, dan penggunaan RAM secara langsung, baik di bilah status maupun di layar utama.
+Jendela mengambang di layar utama menampilkan suhu CPU, suhu GPU, daya dan suhu baterai, penggunaan RAM, serta pembacaan delapan sensor (akselerometer, giroskop, medan magnet, gravitasi, akselerasi linier, vektor rotasi, cahaya, tekanan). Tidak ada tampilan di bilah status; semua jendela dapat dipindah dan diubah ukurannya.
 
 **Widget**
 

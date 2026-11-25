@@ -41,7 +41,7 @@ faq:
 ---
 
 <!-- 下面是详情页的正文，用 markdown 写。h3（###）会自动渲染成橙色的功能点标题 -->
-System Monitor is a paid, read-only Android hardware dashboard that shows CPU temperature and frequency, storage and memory usage, and battery temperature and health at the same time, with no junk cleaning or RAM boosting. It adds an overheat alarm, overheating protection, two battery-saver modes — long life and custom save — plus a status bar and desktop floating window and three widgets for CPU, RAM and battery. Real-time curves and history cover multicore CPU data and battery voltage, level and health. The app is a one-time download with no subscription.
+System Monitor is a paid, read-only Android hardware dashboard that shows CPU temperature and frequency, storage and memory usage, and battery temperature and health at the same time, with no junk cleaning or RAM boosting. It adds an overheat alarm, overheating protection, two battery-saver modes — long life and custom save — plus desktop floating windows for CPU, GPU temperature, battery and sensors, and three widgets for CPU, RAM and battery. Real-time curves and history cover multicore CPU data and battery voltage, level and health. The app is a one-time download with no subscription.
 
 System Monitor provides many kinds of powerful tools, including: overheating alarm, overheating protection, RAM widget, CPU widget, battery widget and floating window. So download System Monitor now to see exactly what is happening inside your phone!
 
@@ -73,7 +73,7 @@ System Monitor will trigger an alarm when the CPU's or battery's temperature is 
 
 **Floating window**
 
-Floating window shows the CPU temperature, battery temperature and RAM usage in real time, including: status bar floating window and desktop floating window.
+Floating window shows real-time CPU temperature, CPU usage, GPU temperature, battery level and temperature, RAM usage, system monitor and sensor readings (accelerometer, gyroscope, magnetic field, gravity, linear acceleration, rotation vector, light, pressure) on top of other apps. There is no status bar display; all floating windows are desktop overlays that can be moved and resized.
 
 **Widget**
 
