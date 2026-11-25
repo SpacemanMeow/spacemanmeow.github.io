@@ -12,6 +12,13 @@ seo:
 
 <!-- 由 skills/release-notes/scripts/update_release_notes.py 从 seo/data 日志文件生成，请勿手工编辑 -->
 
+## 11.11.2
+
+1. Added detailed GPU info page
+2. Added GPU temperature curve floating window
+3. Fixed the issue where widgets couldn’t switch between Celsius and Fahrenheit
+4. Fixed floating window position error after screen rotation
+
 ## 11.11.1
 
 1. Added 8 new sensor floating windows

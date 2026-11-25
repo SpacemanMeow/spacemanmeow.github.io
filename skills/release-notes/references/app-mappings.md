@@ -13,7 +13,7 @@
 
 其余所有日志遵循默认规则（`only_clock` → `only-clock`、`cpu_monitor` → `cpu-monitor`、`system_monitor` → `system-monitor`、`floating_assistant` → `floating-assistant`、`meow_fm` → `meow-fm`、`one_widget` → `one-widget`、`meow_money_manager` → `meow-money-manager`）。
 
-## 版本数（英文，2026-11-17 核实）
+## 版本数（英文，2026-11-25 核实）
 
 | App | 版本数 |
 |---|---|
@@ -21,7 +21,7 @@
 | cpu-monitor | 19 |
 | only-clock | 12 |
 | meow-habits | 10 |
-| system-monitor | 10 |
+| system-monitor | 11 |
 | floating-assistant | 9 |
 | meow-todo-list | 8 |
 | cross-hair | 8 |

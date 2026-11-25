@@ -12,6 +12,13 @@ seo:
 
 <!-- 由 skills/release-notes/scripts/update_release_notes.py 从 seo/data 日志文件生成，请勿手工编辑 -->
 
+## 11.11.2
+
+1. Menambah halaman informasi GPU yang lebih detail
+2. Menambah jendela mengambang kurva suhu GPU
+3. Memperbaiki masalah widget yang tidak dapat beralih antara Celsius dan Fahrenheit
+4. Memperbaiki kesalahan posisi jendela mengambang setelah rotasi layar
+
 ## 11.11.1
 
 1. Menambah 8 jendela mengambang sensor baru

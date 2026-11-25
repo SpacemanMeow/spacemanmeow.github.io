@@ -12,6 +12,13 @@ seo:
 
 <!-- 由 skills/release-notes/scripts/update_release_notes.py 从 seo/data 日志文件生成，请勿手工编辑 -->
 
+## 11.11.2
+
+1. Menambah halaman maklumat GPU yang lebih terperinci
+2. Menambah tetingkap terapung lengkung suhu GPU
+3. Membetulkan masalah widget yang tidak dapat bertukar antara Celsius dan Fahrenheit
+4. Membetulkan ralat kedudukan tetingkap terapung selepas putaran skrin
+
 ## 11.11.1
 
 1. Menambah 8 tetingkap terapung sensor baharu
