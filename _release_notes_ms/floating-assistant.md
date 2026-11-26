@@ -12,6 +12,12 @@ seo:
 
 <!-- 由 skills/release-notes/scripts/update_release_notes.py 从 seo/data 日志文件生成，请勿手工编辑 -->
 
+## 3.1.3
+
+1. Tambah tetingkap terapung grafik suhu GPU
+2. Memperbaiki kedudukan tetingkap terapung yang tersalah selepas putaran skrin
+3. Tambah label CPU, GPU, RAM dan BAT pada tetingkap terapung supaya jenis maklumat lebih mudah dikenali
+
 ## 3.1.2
 
 1. Menambah 8 tetingkap terapung sensor baharu

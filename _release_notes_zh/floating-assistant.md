@@ -12,6 +12,12 @@ seo:
 
 <!-- 由 skills/release-notes/scripts/update_release_notes.py 从 seo/data 日志文件生成，请勿手工编辑 -->
 
+## 3.1.3
+
+1. 新增 GPU 温度曲线悬浮窗
+2. 修复悬浮窗横竖屏切换后位置错乱的问题
+3. 为悬浮窗添加 CPU、GPU、RAM 和 BAT 标签，便于识别信息类型
+
 ## 3.1.2
 
 1. 新增 8 个传感器悬浮窗

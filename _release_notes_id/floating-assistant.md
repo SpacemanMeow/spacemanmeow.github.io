@@ -12,6 +12,12 @@ seo:
 
 <!-- 由 skills/release-notes/scripts/update_release_notes.py 从 seo/data 日志文件生成，请勿手工编辑 -->
 
+## 3.1.3
+
+1. Menambahkan jendela melayang grafik suhu GPU
+2. Memperbaiki posisi jendela melayang yang berantakan setelah rotasi layar
+3. Menambahkan label CPU, GPU, RAM, dan BAT pada jendela melayang agar jenis informasi lebih mudah dikenali
+
 ## 3.1.2
 
 1. Menambah 8 jendela mengambang sensor baru
